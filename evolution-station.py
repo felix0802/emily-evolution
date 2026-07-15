@@ -2579,6 +2579,10 @@ def run_experiment_engine(ev_count):
 
     hypotheses_data = load_hypotheses()
     exp_data = load_experiments()
+
+    # v9.2 fix: 首次运行强制初始化文件
+    if not os.path.exists(EXPERIMENTS_PATH):
+        save_experiments(exp_data)
     existing_exp_ids = {e["hypothesis_id"] for e in exp_data.get("experiments", [])}
 
     # 找 supported 但未设计实验的假设
@@ -2781,6 +2785,10 @@ def run_theory_engine(ev_count):
     result = {"triggered": False, "new_theories": [], "total_theories": 0}
 
     theories_data = load_theories()
+
+    # v9.2 fix: 首次运行强制初始化文件
+    if not os.path.exists(THEORIES_PATH):
+        save_theories(theories_data)
     last_synthesis_round = theories_data.get("last_synthesis_round", 0)
 
     # 每 100 轮，且距离上次合成至少 50 轮（避免重复触发）
