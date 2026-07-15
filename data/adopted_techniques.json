@@ -503,6 +503,21 @@
         ],
         "decided_at": "2026-07-15T17:02:16.783855"
       }
+    },
+    {
+      "id": "llm-程序化驾驶模拟生成",
+      "name": "程序化驾驶模拟生成",
+      "adopted_at": "2026-07-15T18:51:25.789002",
+      "decision": {
+        "tech_id": "llm-程序化驾驶模拟生成",
+        "tech_name": "程序化驾驶模拟生成",
+        "action": "adopt",
+        "confidence": 0.8,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-07-15T18:51:25.787923"
+      }
     }
   ],
   "history": [
@@ -703,6 +718,12 @@
       "tech_id": "llm-线性注意力",
       "tech_name": "线性注意力",
       "timestamp": "2026-07-15T17:02:16.784724"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-程序化驾驶模拟生成",
+      "tech_name": "程序化驾驶模拟生成",
+      "timestamp": "2026-07-15T18:51:25.789007"
     }
   ]
 }

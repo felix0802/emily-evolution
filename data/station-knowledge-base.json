@@ -1,37 +1,6 @@
 {
   "sessions": [
     {
-      "timestamp": "2026-07-02T12:35:26.210135",
-      "arxiv_papers_count": 20,
-      "arxiv_top_keywords": [
-        "llm",
-        "learning",
-        "theoria",
-        "verification",
-        "offer",
-        "cannot",
-        "state",
-        "prediction",
-        "separation",
-        "hypothesis"
-      ],
-      "huggingface_models_tracked": 10,
-      "huggingface_top_tasks": [
-        "sentence-similarity",
-        "fill-mask",
-        "text-ranking",
-        "feature-extraction",
-        "unknown"
-      ],
-      "ml_benchmarks_run": 10,
-      "ml_top_classifier": "RandomForest",
-      "evolution": {
-        "techniques_discovered": 3,
-        "techniques_adopted": 0,
-        "decisions": 0
-      }
-    },
-    {
       "timestamp": "2026-07-02T14:16:53.533053",
       "arxiv_papers_count": 20,
       "arxiv_top_keywords": [
@@ -3763,12 +3732,54 @@
         "seed_name": "Mamba (SSM)",
         "papers_found": 8
       }
+    },
+    {
+      "timestamp": "2026-07-15T18:51:25.791945",
+      "arxiv_papers_count": 21,
+      "arxiv_top_keywords": [
+        "llm",
+        "task",
+        "agents",
+        "diffusion",
+        "language",
+        "context",
+        "controlled",
+        "evaluation",
+        "execution",
+        "aware"
+      ],
+      "arxiv_strategies": [
+        "cs.AI 最新",
+        "cs.LG 最新",
+        "cs.CL 最新"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "fill-mask",
+        "text-generation",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [],
+      "ml_total_tests": 0,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 24,
+        "adopted": 1,
+        "decisions": 1
+      },
+      "seed_watering": {
+        "seed_name": "Liquid Networks",
+        "papers_found": 8
+      }
     }
   ],
   "total_sessions": 101,
-  "last_updated": "2026-07-15T17:02:16.786777",
+  "last_updated": "2026-07-15T18:51:25.791957",
   "evolution_summary": {
-    "total_adopted": 33,
+    "total_adopted": 34,
     "adopted_list": [
       "Knowledge Distillation",
       "World Models / Model-Based RL",
@@ -3802,7 +3813,8 @@
       "量子端口-哈密顿神经网络（Q-pHNNs）",
       "Tucker分解与JL残差分配",
       "系统感知的KV缓存优化",
-      "线性注意力"
+      "线性注意力",
+      "程序化驾驶模拟生成"
     ],
     "seeds": {
       "mamba": {
@@ -3812,7 +3824,7 @@
       },
       "liquid-networks": {
         "name": "Liquid Networks",
-        "watering": 8,
+        "watering": 9,
         "papers": 20
       },
       "htm": {
@@ -3897,12 +3909,12 @@
         "name": "Liquid Networks",
         "new_papers": 15,
         "keywords_matched": [
-          "ode",
           "liquid neural",
-          "continuous-time"
+          "continuous-time",
+          "ode"
         ],
         "high_relevance_total": 4,
-        "avg_relevance_latest": 1.33,
+        "avg_relevance_latest": 0.0,
         "best_papers_count": 0
       },
       "htm": {
@@ -3971,6 +3983,6 @@
         "best_papers_count": 0
       }
     },
-    "last_evolution": "2026-07-15T17:02:16.787202"
+    "last_evolution": "2026-07-15T18:51:25.792488"
   }
 }
