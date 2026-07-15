@@ -60,8 +60,14 @@
       "arxiv_query": "Mamba continual learning selective state space model adaptive memory",
       "potential_breakthrough": "開發出首個能同時處理長序列依賴與終身學習的統一架構，顯著提升機器人在動態環境中的適應性與自然語言處理中的持續知識整合。",
       "status": "unverified",
-      "verification_rounds": 1,
-      "supporting_papers": [],
+      "verification_rounds": 2,
+      "supporting_papers": [
+        {
+          "title": "Mamba-FSCIL: Dynamic Adaptation with Selective State Space Model for Few-Shot Class-Incremental Learning",
+          "url": "http://arxiv.org/abs/2407.06136v4",
+          "reason": "該論文直接結合Mamba與類增量學習，透過動態適應支持假設中Mamba與持續學習整合的可行性。"
+        }
+      ],
       "refuting_papers": [],
       "llm_source": "deepseek"
     },
@@ -100,7 +106,7 @@
       "llm_source": "deepseek"
     }
   ],
-  "last_updated": "2026-07-15T15:16:13.464994",
+  "last_updated": "2026-07-15T17:02:20.587656",
   "total_generated": 5,
   "total_verified": 0
 }

@@ -1,37 +1,6 @@
 {
   "sessions": [
     {
-      "timestamp": "2026-07-02T12:14:40.290103",
-      "arxiv_papers_count": 20,
-      "arxiv_top_keywords": [
-        "llm",
-        "learning",
-        "theoria",
-        "verification",
-        "offer",
-        "cannot",
-        "state",
-        "prediction",
-        "separation",
-        "hypothesis"
-      ],
-      "huggingface_models_tracked": 10,
-      "huggingface_top_tasks": [
-        "sentence-similarity",
-        "fill-mask",
-        "text-ranking",
-        "feature-extraction",
-        "unknown"
-      ],
-      "ml_benchmarks_run": 10,
-      "ml_top_classifier": "RandomForest",
-      "evolution": {
-        "techniques_discovered": 3,
-        "techniques_adopted": 0,
-        "decisions": 0
-      }
-    },
-    {
       "timestamp": "2026-07-02T12:35:26.210135",
       "arxiv_papers_count": 20,
       "arxiv_top_keywords": [
@@ -3752,12 +3721,54 @@
         "seed_name": "Graph Neural Networks",
         "papers_found": 5
       }
+    },
+    {
+      "timestamp": "2026-07-15T17:02:16.786766",
+      "arxiv_papers_count": 18,
+      "arxiv_top_keywords": [
+        "linear",
+        "attention",
+        "state",
+        "language",
+        "data",
+        "memory",
+        "neural",
+        "geometric",
+        "deep",
+        "learning"
+      ],
+      "arxiv_strategies": [
+        "搜索: multi-query attention",
+        "搜索: geometric deep learning",
+        "搜索: knowledge distillation"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "fill-mask",
+        "text-generation",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [],
+      "ml_total_tests": 0,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 21,
+        "adopted": 1,
+        "decisions": 1
+      },
+      "seed_watering": {
+        "seed_name": "Mamba (SSM)",
+        "papers_found": 8
+      }
     }
   ],
   "total_sessions": 101,
-  "last_updated": "2026-07-15T15:16:09.428702",
+  "last_updated": "2026-07-15T17:02:16.786777",
   "evolution_summary": {
-    "total_adopted": 32,
+    "total_adopted": 33,
     "adopted_list": [
       "Knowledge Distillation",
       "World Models / Model-Based RL",
@@ -3790,12 +3801,13 @@
       "Llm",
       "量子端口-哈密顿神经网络（Q-pHNNs）",
       "Tucker分解与JL残差分配",
-      "系统感知的KV缓存优化"
+      "系统感知的KV缓存优化",
+      "线性注意力"
     ],
     "seeds": {
       "mamba": {
         "name": "Mamba (SSM)",
-        "watering": 8,
+        "watering": 9,
         "papers": 18
       },
       "liquid-networks": {
@@ -3874,11 +3886,11 @@
         "new_papers": 13,
         "keywords_matched": [
           "mamba",
-          "ssm",
-          "state space"
+          "state space",
+          "ssm"
         ],
         "high_relevance_total": 4,
-        "avg_relevance_latest": 1.0,
+        "avg_relevance_latest": 0.0,
         "best_papers_count": 0
       },
       "liquid-networks": {
@@ -3959,6 +3971,6 @@
         "best_papers_count": 0
       }
     },
-    "last_evolution": "2026-07-15T15:16:09.429264"
+    "last_evolution": "2026-07-15T17:02:16.787202"
   }
 }
