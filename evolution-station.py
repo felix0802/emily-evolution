@@ -1,29 +1,29 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-🧬 Emily Evolution Station v10.0 — 元认知：自我监控与反思回路
+🧬 Emily Evolution Station v12.0 — 因果推理：从相关性到因果性
 
-v10.0 升级（元认知回路 — 认知架构里程碑）:
-  + self_reflect() — 每次假设生成/理论合成后自问三题
-    · Q1: 我用了什么前提？前提是否仍然有效？
-    · Q2: 是否有替代解释？我是否排除了混淆因素？
-    · Q3: 我的推理链是否完整自洽？是否有逻辑跳跃？
-  + 假设验证率趋势追踪 — 发现认知偏误的早期信号
-  + 理论质量自评 — 每次合成后评估深度、新颖性、自洽性
-  + station-metacognition.json — 持久化自我认知档案
-  + 回路D(元认知): 监控A→B→C → 自省 → 调整建议 → 循环
+v12.0 升级（因果推理引擎 — 科学思维里程碑）:
+  + build_causal_structure() — LLM 引导的因果变量识别 + DAG 建图
+    · 从假设和验证论文中提取因果变量（cause/effect/confounder/mediator）
+    · 构建结构因果图 (SCM)，区分相关与因果
+  + causal_counterfactual() — 反事实推理: "如果 X 不成立，Y 会怎样？"
+  + detect_confounders() — 混杂因子检测，防止虚假关联
+  + station-causal-graphs.json — 结构化因果图持久化
+  + 回路K(因果): 假设验证后 → 因果变量识别 → DAG建图 → 反事实 → 循环
+
+v10.0 升级（元认知回路）:
+  + self_reflect() — 三问自检 + 验证率趋势 + station-metacognition.json
 
 v9.4 升级（语义去重引擎）:
-  + Token-based Jaccard 语义相似度去重 — 纯 Python，零依赖
-  + 三层去重架构: arXiv ID 精确 → Token Jaccard 语义 → URL 兜底
-  + 移除 2000 硬编码 FIFO，上限扩展至 50,000
-  + 智能裁剪: 超 45,000 时自动聚类保留语义多样性
+  + Token Jaccard 三层去重，上限 50,000
 
-进化闭环（四回路 v10.0）：
-  回路A(发现): 感知 → 理解(LLM DeepSeek) → 决策 → 行动 → 验证 → 自评 → 循环
-  回路B(思考): 交叉引用 → 假设生成(LLM DeepSeek) → arXiv验证 → 实验验证 → 循环
-  回路C(合成): 每100轮 → 全体假设回顾 → 理论提炼(LLM DeepSeek) → 更新知识体系 → 循环
-  回路D(元认知): 监控A/B/C输出 → 自问三题 → 偏差检测 → 趋势分析 → 调整建议 → 循环
+进化闭环（五回路 v12.0）：
+  回路A(发现): 感知 → 理解(LLM) → 决策 → 行动 → 验证 → 自评 → 循环
+  回路B(思考): 交叉引用 → 假设生成(LLM) → arXiv验证 → 实验验证 → 循环
+  回路C(合成): 每100轮 → 假设回顾 → 理论提炼(LLM) → 更新知识体系 → 循环
+  回路D(元认知): 监控A/B/C → 自问三题 → 偏差检测 → 趋势分析 → 调整建议 → 循环
+  回路K(因果): 假设验证后 → 变量识别 → DAG建图 → 反事实推理 → 循环
 """
 
 import base64, json, os, platform, re, subprocess, sys, time, tempfile, shutil, hashlib, random
@@ -96,9 +96,10 @@ HYPOTHESES_PATH = os.path.join(DATA_DIR, "station-hypotheses.json")          # v
 EXPERIMENTS_PATH = os.path.join(DATA_DIR, "station-experiments.json")        # v9.1: 實驗設計引擎
 THEORIES_PATH = os.path.join(DATA_DIR, "station-theories.json")              # v9.2: 理論合成
 METACOGNITION_PATH = os.path.join(DATA_DIR, "station-metacognition.json")    # v10.0: 元認知
+CAUSAL_PATH = os.path.join(DATA_DIR, "station-causal-graphs.json")          # v12.0: 因果圖
 
 # ===== Config =====
-VERSION = "10.0"
+VERSION = "12.0"
 OLLAMA_URL = "http://localhost:11434/api/generate"
 OLLAMA_MODEL = "qwen2.5:1.5b"
 GITHUB_OWNER = "felix0802"
@@ -3257,13 +3258,194 @@ def self_reflect(trigger, context, ev_count, hypotheses_data, theories_data, see
     return reflection
 
 # ================================================================
+# v12.0: 因果推理引擎 — 从相关性到因果性
+# ================================================================
+
+def load_causal_graphs():
+    """加载因果图数据库"""
+    if os.path.exists(CAUSAL_PATH):
+        try:
+            with open(CAUSAL_PATH, "r", encoding="utf-8") as f:
+                return json.load(f)
+        except:
+            pass
+    return {"graphs": [], "total_analyzed": 0}
+
+
+def save_causal_graphs(data):
+    """保存因果图数据库"""
+    os.makedirs(os.path.dirname(CAUSAL_PATH), exist_ok=True)
+    with open(CAUSAL_PATH, "w", encoding="utf-8") as f:
+        json.dump(data, f, ensure_ascii=False, indent=2)
+
+
+def build_causal_structure(hypothesis):
+    """v12.0: LLM 引导的因果结构建模
+
+    对每条已验证的假设，用 LLM 识别:
+    1. 因果变量 (cause, effect, confounder, mediator)
+    2. 因果方向 (cause → effect)
+    3. 混杂因子 (同时影响 cause 和 effect 的第三变量)
+    4. 反事实条件
+
+    输出结构因果模型 (SCM) 存入 station-causal-graphs.json
+    """
+    hyp_text = hypothesis.get("hypothesis", "")
+    reasoning = hypothesis.get("reasoning", "")
+    sup_count = len(hypothesis.get("supporting_papers", []))
+    ref_count = len(hypothesis.get("refuting_papers", []))
+
+    if not hyp_text:
+        return None
+
+    # 构建支持/反对证据摘要
+    evidence_summary = ""
+    if sup_count > 0:
+        titles = [p.get("title", "")[:80] for p in hypothesis.get("supporting_papers", [])[:3]]
+        evidence_summary += f"支持证据 ({sup_count}篇): " + "; ".join(titles)
+    if ref_count > 0:
+        titles = [p.get("title", "")[:80] for p in hypothesis.get("refuting_papers", [])[:2]]
+        evidence_summary += f"\n反对证据 ({ref_count}篇): " + "; ".join(titles)
+
+    prompt = f"""你是因果推理科学家。请对以下 AI 研究假设建立结构因果模型 (SCM)。
+
+== 假设 ==
+{hyp_text}
+
+== 推理背景 ==
+{reasoning[:300]}
+
+== 验证证据 ==
+{evidence_summary or "尚无充分证据"}
+
+== 任务 ==
+请分析这个假设背后的因果关系，输出严格 JSON:
+
+{{
+  "variables": [
+    {{"name": "X(原因变量)", "role": "cause", "mechanism": "X如何影响Y的机制(1句,英文)", "observable": true/false}},
+    {{"name": "Y(结果变量)", "role": "effect", "mechanism": "Y如何被X影响的机制(1句,英文)", "observable": true/false}},
+    {{"name": "Z(混杂因子)", "role": "confounder", "mechanism": "Z同时影响X和Y的机制(1句,英文)", "observable": true/false}}
+  ],
+  "edges": [
+    {{"from": "X", "to": "Y", "type": "direct_causal", "confidence": 0.0-1.0}}
+  ],
+  "counterfactual": {{
+    "question": "如果X不成立/被干预，Y会怎样？(1个反事实问题, 英文)",
+    "predicted_answer": "基于因果结构的反事实预测(2-3句, 英文)",
+    "confidence": 0.0-1.0
+  }},
+  "confounders_detected": ["Z"],
+  "is_correlation_only": true/false,
+  "causal_strength": 0.0-1.0,
+  "alternative_explanations": ["替代解释1", "替代解释2"]
+}}
+
+关键原则:
+- confounder 是同时影响 cause 和 effect 的变量
+- 如果只有相关性没有因果机制，设置 is_correlation_only=true
+- causal_strength: 0=纯相关, 0.5=部分因果, 1.0=强因果
+- 所有变量名用简短英文标识
+
+输出严格 JSON，不要 markdown 包裹。"""
+
+    result, source = call_llm_smart(
+        prompt,
+        system_prompt="你是严谨的因果推理科学家。区分相关与因果。识别混杂因子。输出严格 JSON。",
+        timeout_sec=90
+    )
+
+    if not result:
+        return None
+
+    try:
+        cleaned = result.strip()
+        if cleaned.startswith("```"):
+            cleaned = re.sub(r'^```\w*\n?', '', cleaned)
+            cleaned = re.sub(r'\n?```$', '', cleaned)
+        causal_data = json.loads(cleaned)
+
+        # 补充元数据
+        causal_data["hypothesis_id"] = hypothesis.get("id", "")
+        causal_data["hypothesis_text"] = hyp_text[:200]
+        causal_data["seed_a"] = hypothesis.get("seed_a", "")
+        causal_data["seed_b"] = hypothesis.get("seed_b", "")
+        causal_data["evidence_counts"] = {"supporting": sup_count, "refuting": ref_count}
+        causal_data["analyzed_at"] = datetime.now().isoformat()
+        causal_data["llm_source"] = source
+
+        log(f"🔗 [因果推理] 构建因果图: {hypothesis.get('id', '?')} "
+            f"({len(causal_data.get('variables', []))}变量, "
+            f"强度={causal_data.get('causal_strength', 0):.2f}, "
+            f"相关-only={causal_data.get('is_correlation_only', False)})")
+
+        return causal_data
+
+    except (json.JSONDecodeError, KeyError) as e:
+        log(f"⚠️ [因果推理] LLM 返回解析失败: {e}")
+        return None
+
+
+def run_causal_engine(hypothesis_engine_result, ev_count):
+    """v12.0: 因果推理总控
+
+    触发条件: 每 8 轮 + 有足够证据的已验证假设 (evidence >= 3)
+    成本控制: 每触发轮最多分析 1 条假设
+    """
+    if ev_count % 8 != 0:
+        return None
+
+    causal_db = load_causal_graphs()
+    hypotheses_data = load_hypotheses()
+    all_hyps = hypotheses_data.get("hypotheses", [])
+
+    # 已分析过的假设 ID
+    analyzed_ids = {g.get("hypothesis_id", "") for g in causal_db.get("graphs", [])}
+
+    # 筛选"有足够证据但未做过因果分析"的假设
+    candidates = []
+    for h in all_hyps:
+        hid = h.get("id", "")
+        if hid in analyzed_ids:
+            continue
+        total_evidence = len(h.get("supporting_papers", [])) + len(h.get("refuting_papers", []))
+        if total_evidence >= 3:
+            candidates.append((h, total_evidence))
+
+    if not candidates:
+        return None
+
+    # 选证据最丰富的 1 条
+    candidates.sort(key=lambda x: x[1], reverse=True)
+    target, evidence_count = candidates[0]
+
+    log(f"🔗 [因果引擎] 分析 #{target.get('id', '?')} (证据={evidence_count}篇)")
+
+    causal_graph = build_causal_structure(target)
+    if causal_graph:
+        causal_db["graphs"].append(causal_graph)
+        causal_db["total_analyzed"] = len(causal_db["graphs"])
+        save_causal_graphs(causal_db)
+
+        return {
+            "hypothesis_id": target.get("id", ""),
+            "causal_strength": causal_graph.get("causal_strength", 0),
+            "variables_count": len(causal_graph.get("variables", [])),
+            "is_correlation_only": causal_graph.get("is_correlation_only", True),
+            "confounders": causal_graph.get("confounders_detected", []),
+            "total_causal_graphs": causal_db["total_analyzed"],
+        }
+
+    return None
+
+# ================================================================
 # 整合进化 — evolve()
 # ================================================================
 
 def evolve():
     """执行完整的研究 + 自我进化轮"""
     log("=" * 50)
-    log("🧬 Emily v{VERSION} — 研究+进化轮 (LLM+云端+多源+去重+进化ML+深度度量+Token监控+自我意识+交叉引用+元认知)".format(VERSION=VERSION))
+    log("🧬 Emily v{VERSION} — 研究+进化轮 (LLM+云端+多源+去重+进化ML+深度度量+Token监控+自我意识+交叉引用+元认知+因果推理)".format(VERSION=VERSION))
     log("=" * 50)
 
     evolution = {
@@ -3394,6 +3576,13 @@ def evolve():
     if exp_result.get("designed") or exp_result.get("executed"):
         evolution["experiment_engine"] = exp_result
         evolution["tasks_completed"].append("experiment_engine")
+
+    # v12.0: 因果推理引擎 — 对已验证假设建立因果图 + 反事实推理
+    if hyp_result.get("verified_hypothesis") or exp_result.get("executed"):
+        causal_result = run_causal_engine(hyp_result, state["total_evolutions"])
+        if causal_result:
+            evolution["causal_engine"] = causal_result
+            evolution["tasks_completed"].append("causal_reasoning")
 
     # v9.2: 理論合成 — 每 100 轮回顾全部假设并提炼统一理论
     theory_result = run_theory_engine(state["total_evolutions"])
@@ -3582,6 +3771,15 @@ def push_all_artifacts(evolution, ev_count):
         except:
             pass
 
+    # 因果圖 (v12.0)
+    if os.path.exists(CAUSAL_PATH):
+        try:
+            with open(CAUSAL_PATH, "r", encoding="utf-8") as f:
+                push_to_github_safe("deployable/station-causal-graphs.json", json.load(f),
+                                f"🔗 因果推理 #{ev_count}")
+        except:
+            pass
+
 # ================================================================
 # 主程序
 # ================================================================
@@ -3624,7 +3822,7 @@ def main():
     else:
         log(f"☁️ SiliconFlow: ⚠️ 未配置 — 设置环境变量 SILICONFLOW_API_KEY 开启云端 LLM")
 
-    log(f"  模块: arXiv({len(ARXIV_ROTATION)}策略) | HF | GitHub | HF Daily | 去重 | 进化ML | 种子深度 | LLM理解+云端 | 自修改 | Token监控 | 自我意识 | 交叉引用 | 假設引擎(v9.0) | 實驗引擎(v9.1) | 理論合成(v9.2) | 元认知(v10.0)")
+    log(f"  模块: arXiv({len(ARXIV_ROTATION)}策略) | HF | GitHub | HF Daily | 去重 | 进化ML | 种子深度 | LLM理解+云端 | 自修改 | Token监控 | 自我意识 | 交叉引用 | 假設引擎(v9.0) | 實驗引擎(v9.1) | 理論合成(v9.2) | 元认知(v10.0) | 因果推理(v12.0)")
     if EMILY_CLOUD_MODE:
         log(f"  ☁️ 云端模式: GitHub Actions + 122B LLM")
     log("=" * 60)
