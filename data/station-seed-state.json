@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 45,
+  "_rotation_idx": 46,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 18,
@@ -715,8 +715,8 @@
   },
   "few-shot": {
     "name": "Few-Shot Learning",
-    "total_papers_found": 11,
-    "watering_count": 6,
+    "total_papers_found": 14,
+    "watering_count": 7,
     "history": [
       {
         "timestamp": "2026-07-07T13:04:52.717562",
@@ -807,6 +807,37 @@
         "avg_relevance": 0.0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-07-15T05:55:54.738043",
+        "papers_found": 3,
+        "duplicates": 2,
+        "irrelevant_filtered": 5,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "Rough Path Signature-Guided Geometry Augmentation for Few-Shot Industrial Surface Defect Detection",
+            "summary": "Few-shot industrial defect detection remains difficult for standard supervised detectors, which achieve poor performance on boundary-dominated industrial defects. This paper proposes rough path signature-guided geometry augmentation (RPS-GA), a geometry-aware approach in which Canny edge contours ar",
+            "published": "2026-07-14",
+            "url": "http://arxiv.org/abs/2607.12245v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Privacy-Aware Collaborative and Distributed Bayesian Optimization",
+            "summary": "We propose a collaborative meta-learning framework for distributed Bayesian optimization matching centralized performance without raw-data exchange. We show gradient sharing leaks client observations, with leakage worsening as the search converges and queries concentrate near the optimum. We evaluat",
+            "published": "2026-07-13",
+            "url": "http://arxiv.org/abs/2607.11600v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Sharper Analysis of Single-Loop Methods for Bilevel Optimization",
+            "summary": "Bilevel optimization underpins many machine learning applications, including hyperparameter optimization, meta-learning, neural architecture search, and reinforcement learning. While hypergradient-based methods have advanced significantly, a gap persists between theoretical guarantees and practical ",
+            "published": "2026-07-11",
+            "url": "http://arxiv.org/abs/2607.10263v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -816,7 +847,7 @@
       "prototypical",
       "in-context"
     ],
-    "last_watered": "2026-07-14T07:47:07.707043"
+    "last_watered": "2026-07-15T05:55:54.738040"
   },
   "continual-learning": {
     "name": "Continual Learning",

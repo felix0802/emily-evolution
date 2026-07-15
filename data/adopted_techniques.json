@@ -353,6 +353,36 @@
         ],
         "decided_at": "2026-07-15T05:33:32.448879"
       }
+    },
+    {
+      "id": "llm-双向视频扩散模型",
+      "name": "双向视频扩散模型",
+      "adopted_at": "2026-07-15T05:56:00.476012",
+      "decision": {
+        "tech_id": "llm-双向视频扩散模型",
+        "tech_name": "双向视频扩散模型",
+        "action": "adopt",
+        "confidence": 0.9,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-07-15T05:56:00.475397"
+      }
+    },
+    {
+      "id": "llm-光流作为动作表示",
+      "name": "光流作为动作表示",
+      "adopted_at": "2026-07-15T05:56:00.476020",
+      "decision": {
+        "tech_id": "llm-光流作为动作表示",
+        "tech_name": "光流作为动作表示",
+        "action": "adopt",
+        "confidence": 0.85,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-07-15T05:56:00.475535"
+      }
     }
   ],
   "history": [
@@ -493,6 +523,18 @@
       "tech_id": "llm-程序化驾驶模拟",
       "tech_name": "程序化驾驶模拟",
       "timestamp": "2026-07-15T05:33:32.450074"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-双向视频扩散模型",
+      "tech_name": "双向视频扩散模型",
+      "timestamp": "2026-07-15T05:56:00.476014"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-光流作为动作表示",
+      "tech_name": "光流作为动作表示",
+      "timestamp": "2026-07-15T05:56:00.476021"
     }
   ]
 }

@@ -1,37 +1,6 @@
 {
   "sessions": [
     {
-      "timestamp": "2026-07-02T06:28:10.023962",
-      "arxiv_papers_count": 20,
-      "arxiv_top_keywords": [
-        "supervision",
-        "llm",
-        "agents",
-        "llms",
-        "lms",
-        "training",
-        "fixed",
-        "explanations",
-        "dense",
-        "long"
-      ],
-      "huggingface_models_tracked": 10,
-      "huggingface_top_tasks": [
-        "sentence-similarity",
-        "fill-mask",
-        "text-ranking",
-        "feature-extraction",
-        "unknown"
-      ],
-      "ml_benchmarks_run": 10,
-      "ml_top_classifier": "RandomForest",
-      "evolution": {
-        "techniques_discovered": 0,
-        "techniques_adopted": 0,
-        "decisions": 0
-      }
-    },
-    {
       "timestamp": "2026-07-02T06:28:12.378245",
       "arxiv_papers_count": 20,
       "arxiv_top_keywords": [
@@ -3686,12 +3655,54 @@
         "seed_name": "Non-Transformer Arch",
         "papers_found": 6
       }
+    },
+    {
+      "timestamp": "2026-07-15T05:56:03.310679",
+      "arxiv_papers_count": 21,
+      "arxiv_top_keywords": [
+        "diffusion",
+        "video",
+        "metric",
+        "skin",
+        "generation",
+        "task",
+        "agents",
+        "context",
+        "ball",
+        "another"
+      ],
+      "arxiv_strategies": [
+        "cs.CV 最新",
+        "cs.AI+cs.LG 混合",
+        "cs.CL+cs.CV 混合"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "fill-mask",
+        "text-generation",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [],
+      "ml_total_tests": 0,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 15,
+        "adopted": 2,
+        "decisions": 2
+      },
+      "seed_watering": {
+        "seed_name": "Few-Shot Learning",
+        "papers_found": 5
+      }
     }
   ],
   "total_sessions": 101,
-  "last_updated": "2026-07-15T05:33:34.651938",
+  "last_updated": "2026-07-15T05:56:03.310690",
   "evolution_summary": {
-    "total_adopted": 23,
+    "total_adopted": 25,
     "adopted_list": [
       "Knowledge Distillation",
       "World Models / Model-Based RL",
@@ -3715,7 +3726,9 @@
       "Prompt Engineering",
       "Model Quantization / Compression",
       "离散扩散语言模型",
-      "程序化驾驶模拟"
+      "程序化驾驶模拟",
+      "双向视频扩散模型",
+      "光流作为动作表示"
     ],
     "seeds": {
       "mamba": {
@@ -3745,8 +3758,8 @@
       },
       "few-shot": {
         "name": "Few-Shot Learning",
-        "watering": 6,
-        "papers": 11
+        "watering": 7,
+        "papers": 14
       },
       "continual-learning": {
         "name": "Continual Learning",
@@ -3785,13 +3798,13 @@
       },
       "few-shot": {
         "name": "Few-Shot Learning",
-        "new_papers": 6,
+        "new_papers": 9,
         "keywords_matched": [
-          "meta-learning",
-          "few-shot"
+          "few-shot",
+          "meta-learning"
         ],
         "high_relevance_total": 0,
-        "avg_relevance_latest": 0.0,
+        "avg_relevance_latest": 1.0,
         "best_papers_count": 0
       },
       "mamba": {
@@ -3864,6 +3877,6 @@
         "best_papers_count": 0
       }
     },
-    "last_evolution": "2026-07-15T05:33:34.652410"
+    "last_evolution": "2026-07-15T05:56:03.310988"
   }
 }
