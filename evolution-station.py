@@ -71,7 +71,7 @@ VERSION = "8.0"
 OLLAMA_URL = "http://localhost:11434/api/generate"
 OLLAMA_MODEL = "qwen2.5:1.5b"
 GITHUB_OWNER = "felix0802"
-GITHUB_REPO = "emily"
+GITHUB_REPO = "emily-evolution"
 
 # P0: 云端 LLM 回退 — 硅基流动 (SiliconFlow) OpenAI 兼容 API
 # 设置环境变量 SILICONFLOW_API_KEY 或在 evolution-config.json 中配置
