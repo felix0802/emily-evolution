@@ -1,0 +1,78 @@
+{
+  "hypotheses": [
+    {
+      "id": "hyp-0001",
+      "timestamp": "2026-07-15T05:33:38.811790",
+      "seed_a": "Liquid Networks",
+      "seed_b": "Continual Learning",
+      "crossref_strength": 5,
+      "shared_keywords": [],
+      "hypothesis": "Liquid Networks 的連續時間動態與 Continual Learning 的任務切換機制結合，可實現無需重放的即時適應新任務分佈，並透過擴散過程平滑轉移知識。",
+      "reasoning": "Liquid Networks 基於常微分方程（ODE）的連續時間狀態演化，天然支援動態系統的平滑適應，而 Continual Learning 面臨災難性遺忘問題，需記憶重放或正則化。兩者共享「adaptation」與「diffusion」概念，可將擴散過程視為知識傳播機制，使模型在任務邊界處透過狀態擴散自動調整，避免顯式記憶。",
+      "arxiv_query": "Liquid Networks continual learning diffusion adaptation ODE",
+      "potential_breakthrough": "實現單一模型在非平穩環境中無需重放緩衝區的終身學習，大幅降低記憶開銷並提升即時適應性。",
+      "status": "unverified",
+      "verification_rounds": 1,
+      "supporting_papers": [],
+      "refuting_papers": [],
+      "llm_source": "deepseek"
+    },
+    {
+      "id": "hyp-0002",
+      "timestamp": "2026-07-15T05:33:43.213573",
+      "seed_a": "Mamba (SSM)",
+      "seed_b": "Non-Transformer Arch",
+      "crossref_strength": 4,
+      "shared_keywords": [
+        "mamba",
+        "state space"
+      ],
+      "hypothesis": "結合Mamba的選擇性狀態空間模型與Liquid Networks的連續時間動力學，可創建一個具備自適應時間常數和狀態選擇能力的循環神經網路，顯著提升對非平穩時間序列的長期依賴建模能力。",
+      "reasoning": "Mamba透過選擇性狀態更新機制解決了SSM的記憶瓶頸，而Liquid Networks利用微分方程實現連續時間動態，兩者皆基於狀態空間表示且共享數學基礎（如ODE求解器）。結合後可讓模型在每個時間步動態調整狀態演化速率，同時透過選擇性門控控制資訊流，從而更高效地處理多尺度時間模式。",
+      "arxiv_query": "selective state space model liquid time constant network",
+      "potential_breakthrough": "此結合可能催生一種能同時處理離散事件與連續過程的通用序列模型，在機器人控制、氣候預測等需即時適應環境變化的領域超越Transformer。",
+      "status": "unverified",
+      "verification_rounds": 0,
+      "supporting_papers": [],
+      "refuting_papers": [],
+      "llm_source": "deepseek"
+    },
+    {
+      "id": "hyp-0003",
+      "timestamp": "2026-07-15T05:33:46.921591",
+      "seed_a": "Mamba (SSM)",
+      "seed_b": "Continual Learning",
+      "crossref_strength": 3,
+      "shared_keywords": [],
+      "hypothesis": "結合Mamba的選擇性狀態空間模型與持續學習的彈性架構，可實現高效且無遺忘的序列學習，特別是在非平穩環境中動態調整狀態表示。",
+      "reasoning": "Mamba透過選擇性狀態更新機制處理長序列，而持續學習需要模型在不遺忘舊知識下適應新任務；兩者共享「aware」與「models」概念，可將Mamba的狀態選擇性擴展為持續學習中的記憶管理，利用SSM的數學結構（如延遲微分方程）實現動態權重調整。",
+      "arxiv_query": "Mamba continual learning selective state space model adaptive memory",
+      "potential_breakthrough": "開發出首個能同時處理長序列依賴與終身學習的統一架構，顯著提升機器人在動態環境中的適應性與自然語言處理中的持續知識整合。",
+      "status": "unverified",
+      "verification_rounds": 0,
+      "supporting_papers": [],
+      "refuting_papers": [],
+      "llm_source": "deepseek"
+    },
+    {
+      "id": "hyp-0004",
+      "timestamp": "2026-07-15T05:33:50.333766",
+      "seed_a": "Liquid Networks",
+      "seed_b": "HTM",
+      "crossref_strength": 3,
+      "shared_keywords": [],
+      "hypothesis": "結合 Liquid Networks 的連續時間動態與 HTM 的稀疏編碼與時序記憶，可設計一個自適應的異常檢測系統，在非平穩環境中實現即時學習與預測。",
+      "reasoning": "Liquid Networks 基於常微分方程（ODE）提供連續時間建模，適合處理動態系統；HTM 則透過稀疏分佈表示（SDR）與時序記憶（TM）模擬新皮質的序列學習。兩者共享架構與控制概念，可將 Liquid Networks 的連續狀態空間模型嵌入 HTM 的稀疏編碼層，利用 ODE 的穩定性理論增強 HTM 對時間模式的泛化能力。",
+      "arxiv_query": "Liquid Networks HTM anomaly detection continuous time sparse coding",
+      "potential_breakthrough": "實現一個能同時處理高維時序數據與非平穩變化的輕量級神經架構，顯著提升工業監控與邊緣設備上的即時異常檢測準確率。",
+      "status": "unverified",
+      "verification_rounds": 0,
+      "supporting_papers": [],
+      "refuting_papers": [],
+      "llm_source": "deepseek"
+    }
+  ],
+  "last_updated": "2026-07-15T05:33:54.496477",
+  "total_generated": 4,
+  "total_verified": 0
+}

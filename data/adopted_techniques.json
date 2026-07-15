@@ -323,6 +323,36 @@
         ],
         "decided_at": "2026-07-15T03:55:29.619502"
       }
+    },
+    {
+      "id": "llm-离散扩散语言模型",
+      "name": "离散扩散语言模型",
+      "adopted_at": "2026-07-15T05:33:32.450058",
+      "decision": {
+        "tech_id": "llm-离散扩散语言模型",
+        "tech_name": "离散扩散语言模型",
+        "action": "adopt",
+        "confidence": 0.85,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-07-15T05:33:32.448746"
+      }
+    },
+    {
+      "id": "llm-程序化驾驶模拟",
+      "name": "程序化驾驶模拟",
+      "adopted_at": "2026-07-15T05:33:32.450073",
+      "decision": {
+        "tech_id": "llm-程序化驾驶模拟",
+        "tech_name": "程序化驾驶模拟",
+        "action": "adopt",
+        "confidence": 0.9,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-07-15T05:33:32.448879"
+      }
     }
   ],
   "history": [
@@ -451,6 +481,18 @@
       "tech_id": "quantization",
       "tech_name": "Model Quantization / Compression",
       "timestamp": "2026-07-15T03:55:29.620400"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-离散扩散语言模型",
+      "tech_name": "离散扩散语言模型",
+      "timestamp": "2026-07-15T05:33:32.450063"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-程序化驾驶模拟",
+      "tech_name": "程序化驾驶模拟",
+      "timestamp": "2026-07-15T05:33:32.450074"
     }
   ]
 }
