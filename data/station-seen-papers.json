@@ -7058,7 +7058,280 @@
         "single"
       ],
       "first_seen_round": 150
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.09235v1",
+      "title": "All you need is SAMPAT",
+      "arxiv_id": "2607.09235",
+      "tokens": [
+        "need",
+        "sampat"
+      ],
+      "first_seen_round": 152
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.08234v1",
+      "title": "RhyMix: A Lightweight Adaptive Multi-Rhythm Network for Long-Term Time Series Forecasting",
+      "arxiv_id": "2607.08234",
+      "tokens": [
+        "adaptive",
+        "forecasting",
+        "lightweight",
+        "long",
+        "multi",
+        "rhymix",
+        "rhythm",
+        "series",
+        "term",
+        "time"
+      ],
+      "first_seen_round": 152
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.07984v1",
+      "title": "Agentic Neural Architecture Search",
+      "arxiv_id": "2607.07984",
+      "tokens": [
+        "agentic",
+        "architecture",
+        "neural",
+        "search"
+      ],
+      "first_seen_round": 152
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.11538v1",
+      "title": "Evidence Subspace Projection: Measuring How Much Evidence Explains Deepfake Detection in Self-Supervised Speech Models",
+      "arxiv_id": "2607.11538",
+      "tokens": [
+        "deepfake",
+        "detection",
+        "evidence",
+        "evidence",
+        "explains",
+        "measuring",
+        "much",
+        "projection",
+        "self",
+        "speech",
+        "subspace",
+        "supervised"
+      ],
+      "first_seen_round": 152
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.11366v1",
+      "title": "Self-supervised training for high-resolution close-range multispectral remote sensing imagery",
+      "arxiv_id": "2607.11366",
+      "tokens": [
+        "close",
+        "high",
+        "imagery",
+        "multispectral",
+        "range",
+        "remote",
+        "resolution",
+        "self",
+        "sensing",
+        "supervised",
+        "training"
+      ],
+      "first_seen_round": 152
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.11064v1",
+      "title": "WiFi-JEPA: Self-supervised Learning for WiFi-CSI 3D Human Pose Estimation",
+      "arxiv_id": "2607.11064",
+      "tokens": [
+        "csi",
+        "estimation",
+        "human",
+        "jepa",
+        "pose",
+        "self",
+        "supervised",
+        "wifi",
+        "wifi"
+      ],
+      "first_seen_round": 152
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.11962v1",
+      "title": "Contrastive Joint-Embedding Prediction for Representation Learning in Structural MRI",
+      "arxiv_id": "2607.11962",
+      "tokens": [
+        "contrastive",
+        "embedding",
+        "joint",
+        "mri",
+        "prediction",
+        "representation",
+        "structural"
+      ],
+      "first_seen_round": 152
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.10406v1",
+      "title": "TVT-PAPD: Pathology-Aware Prototype Distillation for Self-Supervised Whole Slide Image Classification",
+      "arxiv_id": "2607.10406",
+      "tokens": [
+        "aware",
+        "classification",
+        "distillation",
+        "image",
+        "papd",
+        "pathology",
+        "prototype",
+        "self",
+        "slide",
+        "supervised",
+        "tvt",
+        "whole"
+      ],
+      "first_seen_round": 152
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.10388v1",
+      "title": "The evolution of AI from image interpretation toward scientific inference in nanoparticle electron microscopy",
+      "arxiv_id": "2607.10388",
+      "tokens": [
+        "electron",
+        "evolution",
+        "image",
+        "inference",
+        "interpretation",
+        "microscopy",
+        "nanoparticle",
+        "scientific"
+      ],
+      "first_seen_round": 152
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.12723v1",
+      "title": "Bulkhead: Automated Semantic Detection and Remediation of Container Escape Vulnerabilities",
+      "arxiv_id": "2607.12723",
+      "tokens": [
+        "automated",
+        "bulkhead",
+        "container",
+        "detection",
+        "escape",
+        "remediation",
+        "semantic",
+        "vulnerabilities"
+      ],
+      "first_seen_round": 152
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.12113v1",
+      "title": "Toward Trustworthy Autonomous Science: A Two-Year Community Roadmap",
+      "arxiv_id": "2607.12113",
+      "tokens": [
+        "autonomous",
+        "community",
+        "roadmap",
+        "science",
+        "trustworthy",
+        "year"
+      ],
+      "first_seen_round": 152
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.11250v1",
+      "title": "Multi-Agent LLMs Fail to Explore Each Other",
+      "arxiv_id": "2607.11250",
+      "tokens": [
+        "agent",
+        "explore",
+        "fail",
+        "llms",
+        "multi"
+      ],
+      "first_seen_round": 152
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.10836v1",
+      "title": "Route, Communicate, and Reason: Gated Routing and Adaptive Depth for Efficient Multi-Agent Reasoning",
+      "arxiv_id": "2607.10836",
+      "tokens": [
+        "adaptive",
+        "agent",
+        "communicate",
+        "depth",
+        "gated",
+        "multi",
+        "reason",
+        "reasoning",
+        "route",
+        "routing"
+      ],
+      "first_seen_round": 152
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.09153v1",
+      "title": "KV-PRM: Efficient Process Reward Modeling via KV-Cache Transfer for Multi-Agent Test-Time Scaling",
+      "arxiv_id": "2607.09153",
+      "tokens": [
+        "agent",
+        "cache",
+        "modeling",
+        "multi",
+        "prm",
+        "process",
+        "reward",
+        "scaling",
+        "test",
+        "time",
+        "transfer"
+      ],
+      "first_seen_round": 152
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.11444v1",
+      "title": "UMoE:Unlocking Every Expert in Domain-Specific Training",
+      "arxiv_id": "2607.11444",
+      "tokens": [
+        "domain",
+        "expert",
+        "specific",
+        "training",
+        "umoe",
+        "unlocking"
+      ],
+      "first_seen_round": 152
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.08601v1",
+      "title": "It Takes a MAESTRO To Prune Bad Experts",
+      "arxiv_id": "2607.08601",
+      "tokens": [
+        "bad",
+        "experts",
+        "maestro",
+        "prune",
+        "takes"
+      ],
+      "first_seen_round": 152
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.09763v1",
+      "title": "Knowledge-Constrained Shape Optimization with a Mixture-of-Experts Neural Operator for High-Confidence Design",
+      "arxiv_id": "2607.09763",
+      "tokens": [
+        "confidence",
+        "constrained",
+        "design",
+        "experts",
+        "high",
+        "knowledge",
+        "mixture",
+        "neural",
+        "operator",
+        "optimization",
+        "shape"
+      ],
+      "first_seen_round": 152
     }
   ],
-  "total_unique": 440
+  "total_unique": 457
 }

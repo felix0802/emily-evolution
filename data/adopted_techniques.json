@@ -398,6 +398,51 @@
         ],
         "decided_at": "2026-07-15T06:10:00.390293"
       }
+    },
+    {
+      "id": "auto-transformer",
+      "name": "Transformer",
+      "adopted_at": "2026-07-15T09:47:04.269230",
+      "decision": {
+        "tech_id": "auto-transformer",
+        "tech_name": "Transformer",
+        "action": "adopt",
+        "confidence": 0.35,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-07-15T09:47:04.268183"
+      }
+    },
+    {
+      "id": "auto-agent",
+      "name": "Agent",
+      "adopted_at": "2026-07-15T09:47:04.269246",
+      "decision": {
+        "tech_id": "auto-agent",
+        "tech_name": "Agent",
+        "action": "adopt",
+        "confidence": 0.35,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-07-15T09:47:04.268242"
+      }
+    },
+    {
+      "id": "auto-llm",
+      "name": "Llm",
+      "adopted_at": "2026-07-15T09:47:04.269257",
+      "decision": {
+        "tech_id": "auto-llm",
+        "tech_name": "Llm",
+        "action": "adopt",
+        "confidence": 0.35,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-07-15T09:47:04.268327"
+      }
     }
   ],
   "history": [
@@ -556,6 +601,24 @@
       "tech_id": "llm-零演示自我对弈",
       "tech_name": "零演示自我对弈",
       "timestamp": "2026-07-15T06:10:00.391408"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "auto-transformer",
+      "tech_name": "Transformer",
+      "timestamp": "2026-07-15T09:47:04.269235"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "auto-agent",
+      "tech_name": "Agent",
+      "timestamp": "2026-07-15T09:47:04.269248"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "auto-llm",
+      "tech_name": "Llm",
+      "timestamp": "2026-07-15T09:47:04.269259"
     }
   ]
 }

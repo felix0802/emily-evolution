@@ -1,37 +1,6 @@
 {
   "sessions": [
     {
-      "timestamp": "2026-07-02T08:08:59.721725",
-      "arxiv_papers_count": 20,
-      "arxiv_top_keywords": [
-        "supervision",
-        "llm",
-        "agents",
-        "llms",
-        "lms",
-        "training",
-        "fixed",
-        "explanations",
-        "dense",
-        "long"
-      ],
-      "huggingface_models_tracked": 10,
-      "huggingface_top_tasks": [
-        "sentence-similarity",
-        "fill-mask",
-        "text-ranking",
-        "feature-extraction",
-        "unknown"
-      ],
-      "ml_benchmarks_run": 10,
-      "ml_top_classifier": "RandomForest",
-      "evolution": {
-        "techniques_discovered": 0,
-        "techniques_adopted": 0,
-        "decisions": 0
-      }
-    },
-    {
       "timestamp": "2026-07-02T08:30:41.938909",
       "arxiv_papers_count": 20,
       "arxiv_top_keywords": [
@@ -3708,12 +3677,54 @@
         "seed_name": "",
         "papers_found": 0
       }
+    },
+    {
+      "timestamp": "2026-07-15T09:47:06.545129",
+      "arxiv_papers_count": 18,
+      "arxiv_top_keywords": [
+        "neural",
+        "multi",
+        "agent",
+        "self",
+        "architecture",
+        "search",
+        "detection",
+        "supervised",
+        "learning",
+        "transformer"
+      ],
+      "arxiv_strategies": [
+        "搜索: neural architecture",
+        "搜索: self-supervised learning",
+        "搜索: multi-agent system"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "fill-mask",
+        "text-generation",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [],
+      "ml_total_tests": 0,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 19,
+        "adopted": 3,
+        "decisions": 3
+      },
+      "seed_watering": {
+        "seed_name": "Mixture of Experts",
+        "papers_found": 9
+      }
     }
   ],
   "total_sessions": 101,
-  "last_updated": "2026-07-15T06:10:00.396597",
+  "last_updated": "2026-07-15T09:47:06.545148",
   "evolution_summary": {
-    "total_adopted": 26,
+    "total_adopted": 29,
     "adopted_list": [
       "Knowledge Distillation",
       "World Models / Model-Based RL",
@@ -3740,7 +3751,10 @@
       "程序化驾驶模拟",
       "双向视频扩散模型",
       "光流作为动作表示",
-      "零演示自我对弈"
+      "零演示自我对弈",
+      "Transformer",
+      "Agent",
+      "Llm"
     ],
     "seeds": {
       "mamba": {
@@ -3780,8 +3794,8 @@
       },
       "moe": {
         "name": "Mixture of Experts",
-        "watering": 1,
-        "papers": 0
+        "watering": 2,
+        "papers": 3
       },
       "kv-cache": {
         "name": "KV Cache Optimization",
@@ -3887,8 +3901,18 @@
         "high_relevance_total": 0,
         "avg_relevance_latest": 0.0,
         "best_papers_count": 0
+      },
+      "moe": {
+        "name": "Mixture of Experts",
+        "new_papers": 3,
+        "keywords_matched": [
+          "moe"
+        ],
+        "high_relevance_total": 2,
+        "avg_relevance_latest": 1.67,
+        "best_papers_count": 0
       }
     },
-    "last_evolution": "2026-07-15T06:10:00.397100"
+    "last_evolution": "2026-07-15T09:47:06.546143"
   }
 }

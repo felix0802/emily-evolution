@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 47,
+  "_rotation_idx": 48,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 18,
@@ -980,9 +980,41 @@
   },
   "moe": {
     "name": "Mixture of Experts",
-    "total_papers_found": 0,
-    "watering_count": 1,
-    "history": [],
+    "total_papers_found": 3,
+    "watering_count": 2,
+    "history": [
+      {
+        "timestamp": "2026-07-15T09:46:58.985365",
+        "papers_found": 3,
+        "duplicates": 6,
+        "irrelevant_filtered": 1,
+        "avg_relevance": 1.67,
+        "high_relevance": 2,
+        "papers": [
+          {
+            "title": "UMoE:Unlocking Every Expert in Domain-Specific Training",
+            "summary": "Mixture-of-Experts (MoE) models scale capacity without proportional compute cost and have become a key architecture for frontier large language models (LLMs). Yet domain-specific post-training inherits an expert pool shaped by mixed-domain pre-training: a substantial subset of experts contributes li",
+            "published": "2026-07-13",
+            "url": "http://arxiv.org/abs/2607.11444v1",
+            "seed_match_score": 2
+          },
+          {
+            "title": "It Takes a MAESTRO To Prune Bad Experts",
+            "summary": "Sparsely-activated Mixture-of-Experts (MoE) language models achieve remarkable inference efficiency by activating only a small fraction of parameters per token, yet their full expert banks reside in memory at all times, creating a prohibitive deployment bottleneck. Existing structured pruning method",
+            "published": "2026-07-09",
+            "url": "http://arxiv.org/abs/2607.08601v1",
+            "seed_match_score": 2
+          },
+          {
+            "title": "Knowledge-Constrained Shape Optimization with a Mixture-of-Experts Neural Operator for High-Confidence Design",
+            "summary": "Engineering shape optimization faces challenges in both expert-dependent problem setup and surrogate-model reliability. In practical aerodynamic design, optimization settings such as editable regions, deformation ranges, and design-preservation constraints are typically specified manually by experie",
+            "published": "2026-07-07",
+            "url": "http://arxiv.org/abs/2607.09763v1",
+            "seed_match_score": 1
+          }
+        ]
+      }
+    ],
     "keywords": [
       "mixture of experts",
       "moe",
@@ -992,7 +1024,7 @@
       "switch transformer",
       "deepseek"
     ],
-    "last_watered": "2026-07-15T10:12:22.273088"
+    "last_watered": "2026-07-15T09:46:58.985360"
   },
   "kv-cache": {
     "name": "KV Cache Optimization",
