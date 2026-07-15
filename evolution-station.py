@@ -1,16 +1,22 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-🧬 Emily Evolution Station v12.0 — 因果推理：从相关性到因果性
+🧬 Emily Evolution Station v13.0 — 自主目标：从被动执行到好奇心驱动
 
-v12.0 升级（因果推理引擎 — 科学思维里程碑）:
-  + build_causal_structure() — LLM 引导的因果变量识别 + DAG 建图
-    · 从假设和验证论文中提取因果变量（cause/effect/confounder/mediator）
-    · 构建结构因果图 (SCM)，区分相关与因果
-  + causal_counterfactual() — 反事实推理: "如果 X 不成立，Y 会怎样？"
-  + detect_confounders() — 混杂因子检测，防止虚假关联
-  + station-causal-graphs.json — 结构化因果图持久化
-  + 回路K(因果): 假设验证后 → 因果变量识别 → DAG建图 → 反事实 → 循环
+v13.0 升级（自主目标系统 — 认知自主性里程碑）:
+  + intrinsic_motivation() — 内在动机引擎
+    · 信息增益 (Information Gain): 种子论文产出效率追踪
+    · 预测误差 (Prediction Error): 假设验证率 vs 预期偏差
+    · 新颖性分数 (Novelty Score): 种子知识 vs 现有知识库距离
+  + 动态种子管理:
+    · 自动创建: 当 LLM 发现新兴主题且新颖性 > 0.7 时
+    · 自动休眠: 当种子连续 10 轮信息增益 < 0.1 时
+    · 权重调整: 基于动机分数动态调整种子浇水优先级
+  + station-motivation.json — 动机状态持久化
+  + 回路G(动机): 评估各种子 → 计算动机分数 → 增删种子 → 调整权重 → 循环
+
+v12.0 升级（因果推理引擎）:
+  + build_causal_structure() + 反事实推理 + 混杂因子检测
 
 v10.0 升级（元认知回路）:
   + self_reflect() — 三问自检 + 验证率趋势 + station-metacognition.json
@@ -97,9 +103,10 @@ EXPERIMENTS_PATH = os.path.join(DATA_DIR, "station-experiments.json")        # v
 THEORIES_PATH = os.path.join(DATA_DIR, "station-theories.json")              # v9.2: 理論合成
 METACOGNITION_PATH = os.path.join(DATA_DIR, "station-metacognition.json")    # v10.0: 元認知
 CAUSAL_PATH = os.path.join(DATA_DIR, "station-causal-graphs.json")          # v12.0: 因果圖
+MOTIVATION_PATH = os.path.join(DATA_DIR, "station-motivation.json")        # v13.0: 動機
 
 # ===== Config =====
-VERSION = "12.0"
+VERSION = "13.0"
 OLLAMA_URL = "http://localhost:11434/api/generate"
 OLLAMA_MODEL = "qwen2.5:1.5b"
 GITHUB_OWNER = "felix0802"
@@ -3439,13 +3446,365 @@ def run_causal_engine(hypothesis_engine_result, ev_count):
     return None
 
 # ================================================================
+# v13.0: 自主目標系統 — 內在動機引擎
+# ================================================================
+
+def load_motivation():
+    """載入動機狀態"""
+    if os.path.exists(MOTIVATION_PATH):
+        try:
+            with open(MOTIVATION_PATH, "r", encoding="utf-8") as f:
+                return json.load(f)
+        except:
+            pass
+    return {
+        "rounds": [],
+        "seed_scores": {},
+        "auto_created_seeds": [],
+        "dormant_seeds": [],
+        "total_motivation_evaluations": 0,
+    }
+
+def save_motivation(motivation):
+    """持久化動機狀態"""
+    os.makedirs(os.path.dirname(MOTIVATION_PATH), exist_ok=True)
+    with open(MOTIVATION_PATH, "w", encoding="utf-8") as f:
+        json.dump(motivation, f, ensure_ascii=False, indent=2)
+
+def calculate_information_gain(seed_id, seed_state):
+    """信息增益 = 最近5輪新論文數 / 歷史5輪新論文數
+
+    高信息增益 = 種子持續產出新知識，值得繼續投入
+    低信息增益 = 種子枯竭，可能需要休眠
+    """
+    sd = seed_state.get(seed_id, {})
+    history = sd.get("history", [])
+
+    if len(history) < 2:
+        return 0.5  # 新種子給予中等初始值
+
+    # 最近 5 輪 vs 歷史平均
+    recent = history[-5:]
+    older = history[:-5] if len(history) > 5 else history
+
+    recent_new = sum(h.get("new_found", 0) for h in recent)
+    older_new = sum(h.get("new_found", 0) for h in older) if older else 0
+
+    if not older or older_new == 0:
+        return min(1.0, recent_new / 5.0) if recent_new > 0 else 0.1
+
+    recent_avg = recent_new / len(recent)
+    older_avg = older_new / len(older)
+
+    if older_avg == 0:
+        return 0.5
+
+    gain = recent_avg / older_avg
+    return min(1.0, gain)
+
+def calculate_prediction_error(hypotheses_data):
+    """預測誤差 = 1 - 假設驗證率
+
+    高預測誤差 = Emily 的假設經常被推翻 = 學習機會大
+    低預測誤差 = 假設太保守，需要探索新領域
+    最優區間: 0.3-0.6 (適度驚訝)
+    """
+    all_hyps = hypotheses_data.get("hypotheses", [])
+    if not all_hyps:
+        return 0.5
+
+    verified = sum(1 for h in all_hyps if h.get("status") == "verified")
+    refuted = sum(1 for h in all_hyps if h.get("status") == "refuted")
+    tested = verified + refuted
+
+    if tested == 0:
+        return 0.5
+
+    verification_rate = verified / tested
+    # 適度驗證率 (0.4-0.7) 是最佳學習區
+    # 太高 = 太保守, 太低 = 太激進
+    if verification_rate > 0.8:
+        # 太保守 → 需要更多探索
+        return 0.7
+    elif verification_rate < 0.2:
+        # 太激進 → 需要更謹慎
+        return 0.3
+    else:
+        return 1.0 - abs(verification_rate - 0.5) * 2  # 0.5 時最高
+
+def calculate_novelty_score(seed_id, seed_state, knowledge_base):
+    """新穎性分數 = 種子論文關鍵詞與現有知識庫的重疊度倒數
+
+    高新穎性 = 種子帶來了大量知識庫中沒有的新概念
+    低新穎性 = 種子論文與現有知識高度重疊
+    """
+    sd = seed_state.get(seed_id, {})
+    seed_keywords = set(kw.lower() for kw in sd.get("keywords", []))
+
+    if not seed_keywords:
+        return 0.3
+
+    # 從知識庫 sessions 提取所有已知關鍵詞
+    kb_keywords = set()
+    for session in knowledge_base.get("sessions", []):
+        for kw in session.get("arxiv_top_keywords", []):
+            kb_keywords.add(kw.lower())
+
+    if not kb_keywords:
+        return 1.0  # 空知識庫 → 一切都是新穎的
+
+    # 重疊度
+    overlap = len(seed_keywords & kb_keywords)
+    novelty = 1.0 - (overlap / len(seed_keywords))
+    return max(0.0, min(1.0, novelty))
+
+def compute_motivation_score(info_gain, pred_error, novelty):
+    """綜合動機分數 = 加權組合
+
+    信息增益 (40%): 種子是否持續產出
+    預測誤差 (30%): 是否在最佳學習區
+    新穎性 (30%): 是否帶來新知識
+    """
+    score = (0.4 * info_gain + 0.3 * pred_error + 0.3 * novelty)
+    return round(score, 3)
+
+def llm_propose_new_seeds(seed_state, knowledge_base, ev_count):
+    """LLM 分析近期論文分佈，自動提出新種子候選
+
+    觸發條件: 每 15 輪
+    策略: LLM 分析最近知識庫條目，識別新興主題
+    """
+    if ev_count % 15 != 0:
+        return []
+
+    # 收集最近 20 條知識庫 sessions
+    sessions = knowledge_base.get("sessions", [])
+    recent_sessions = sessions[-20:] if len(sessions) > 20 else sessions
+
+    if len(recent_sessions) < 5:
+        return []
+
+    # 準備 LLM 輸入
+    seed_names = [s["name"] for s in SEEDS]
+    recent_topics = []
+    for s in recent_sessions:
+        kws = s.get("arxiv_top_keywords", [])
+        recent_topics.extend(kws[:5])
+    # 去重 + 取前 30
+    recent_topics = list(dict.fromkeys(recent_topics))[:30]
+
+    prompt = f"""你是一個 AI 研究方向顧問。以下是 Emily 目前的 10 個研究方向種子:
+
+{json.dumps(seed_names, ensure_ascii=False)}
+
+以下是 Emily 最近收集的論文主題:
+{json.dumps(recent_topics, ensure_ascii=False)}
+
+任務: 識別 1-2 個目前種子列表中缺失的、但有大量論文產出的新興研究方向。
+對每個候選方向，提供:
+1. id: 英文簡寫 (如 "diffusion-models")
+2. name: 中文名稱
+3. keywords: 3-5 個 arXiv 搜索關鍵詞
+4. cat: arXiv 分類 (如 cs.LG, cs.AI, cs.NE)
+5. reason: 為什麼這個方向值得加入
+
+注意: 只提出現有種子中真正缺失的方向，不要重複已有的。
+如果所有重要方向都已覆蓋，返回空列表。
+
+以 JSON 數組格式返回，如:
+[{{"id":"xxx","name":"xxx","keywords":["a","b"],"cat":"cs.LG","reason":"xxx"}}]"""
+
+    response = call_llm_smart(prompt, max_tokens=800, temperature=0.7)
+
+    if not response:
+        return []
+
+    try:
+        # 提取 JSON
+        json_start = response.find("[")
+        json_end = response.rfind("]") + 1
+        if json_start == -1 or json_end == 0:
+            return []
+
+        candidates = json.loads(response[json_start:json_end])
+        if not isinstance(candidates, list):
+            return []
+
+        # 驗證格式 + 避免重複
+        existing_ids = {s["id"] for s in SEEDS}
+        valid = []
+        for c in candidates:
+            if not isinstance(c, dict):
+                continue
+            cid = c.get("id", "")
+            if cid in existing_ids or not cid:
+                continue
+            if not c.get("name") or not c.get("keywords"):
+                continue
+            valid.append(c)
+
+        return valid[:2]  # 最多 2 個新種子
+    except:
+        log(f"  ⚠️ [動機] LLM 新種子解析失敗")
+        return []
+
+def add_dynamic_seed(new_seed, motivation):
+    """將 LLM 提出的新種子動態加入 SEEDS 列表"""
+    kw_query = " OR ".join(f'all:"{kw}"' for kw in new_seed["keywords"])
+    seed_entry = {
+        "id": new_seed["id"],
+        "name": new_seed["name"],
+        "query": f'({kw_query}) AND (cat:{new_seed.get("cat", "cs.LG")} OR cat:cs.AI)',
+        "keywords": new_seed["keywords"],
+        "cat": new_seed.get("cat", "cs.LG"),
+        "auto_created": True,
+        "created_reason": new_seed.get("reason", ""),
+        "created_round": motivation.get("total_motivation_evaluations", 0),
+    }
+
+    # 檢查是否已存在
+    existing_ids = {s["id"] for s in SEEDS}
+    if seed_entry["id"] not in existing_ids:
+        SEEDS.append(seed_entry)
+        motivation["auto_created_seeds"].append({
+            "id": seed_entry["id"],
+            "name": seed_entry["name"],
+            "reason": seed_entry["created_reason"],
+            "created_at": datetime.now().isoformat(),
+        })
+        log(f"  🆕 [動機] 自動創建新種子: {seed_entry['name']} (原因: {seed_entry['created_reason'][:80]})")
+        return True
+    return False
+
+def dormancy_check(motivation):
+    """休眠檢查: 連續 10 輪信息增益 < 0.1 的種子標記為休眠
+
+    休眠種子不從 SEEDS 刪除（保留數據），但降低澆水優先級
+    """
+    scores = motivation.get("seed_scores", {})
+    dormant = []
+
+    for seed_id, history in scores.items():
+        if not isinstance(history, dict):
+            continue
+        recent_gains = history.get("info_gain_history", [])
+        if len(recent_gains) >= 10:
+            last_10 = recent_gains[-10:]
+            if all(g < 0.1 for g in last_10):
+                dormant.append(seed_id)
+                if seed_id not in motivation["dormant_seeds"]:
+                    motivation["dormant_seeds"].append(seed_id)
+                    seed_name = next((s["name"] for s in SEEDS if s["id"] == seed_id), seed_id)
+                    log(f"  😴 [動機] 種子休眠: {seed_name} (連續10輪信息增益<0.1)")
+
+    return dormant
+
+def intrinsic_motivation(ev_count):
+    """v13.0: 內在動機引擎總控
+
+    執行流程:
+    1. 載入動機狀態 + 種子狀態 + 假設數據 + 知識庫
+    2. 對每顆種子計算: 信息增益 + 預測誤差 + 新穎性 → 動機分數
+    3. 每 15 輪: LLM 分析新興主題，自動創建新種子
+    4. 休眠檢查: 低產出種子自動休眠
+    5. 持久化到 station-motivation.json
+    """
+    log(f"🎯 [動機引擎] 第 {ev_count} 輪內在動機評估...")
+
+    motivation = load_motivation()
+    seed_state = load_seed_state()
+    hypotheses_data = load_hypotheses()
+
+    # 內聯載入知識庫
+    knowledge_base = {"sessions": []}
+    if os.path.exists(KNOWLEDGE_PATH):
+        try:
+            with open(KNOWLEDGE_PATH, "r", encoding="utf-8") as f:
+                knowledge_base = json.load(f)
+        except:
+            pass
+
+    # 計算每顆種子的動機分數
+    all_scores = {}
+    pred_error = calculate_prediction_error(hypotheses_data)
+    log(f"  📊 [動機] 預測誤差: {pred_error:.3f}")
+
+    for seed in SEEDS:
+        sid = seed["id"]
+        info_gain = calculate_information_gain(sid, seed_state)
+        novelty = calculate_novelty_score(sid, seed_state, knowledge_base)
+        score = compute_motivation_score(info_gain, pred_error, novelty)
+
+        all_scores[sid] = {
+            "name": seed["name"],
+            "info_gain": round(info_gain, 3),
+            "novelty": round(novelty, 3),
+            "motivation_score": score,
+            "info_gain_history": motivation.get("seed_scores", {}).get(sid, {}).get("info_gain_history", [])[-20:] + [round(info_gain, 3)],
+        }
+
+    motivation["seed_scores"] = all_scores
+    motivation["current_prediction_error"] = round(pred_error, 3)
+
+    # 每 15 輪: LLM 提出新種子
+    new_seeds = llm_propose_new_seeds(seed_state, knowledge_base, ev_count)
+    added_count = 0
+    for ns in new_seeds:
+        if add_dynamic_seed(ns, motivation):
+            added_count += 1
+
+    # 休眠檢查
+    dormant = dormancy_check(motivation)
+
+    # 記錄本輪結果
+    motivation["rounds"].append({
+        "round": ev_count,
+        "timestamp": datetime.now().isoformat(),
+        "prediction_error": round(pred_error, 3),
+        "seeds_active": len(SEEDS) - len(dormant),
+        "seeds_dormant": len(dormant),
+        "new_seeds_added": added_count,
+        "top_motivated": sorted(
+            [(s, d["motivation_score"]) for s, d in all_scores.items()],
+            key=lambda x: x[1], reverse=True
+        )[:3],
+    })
+    motivation["rounds"] = motivation["rounds"][-50:]  # 保留最近 50 輪
+    motivation["total_motivation_evaluations"] = motivation.get("total_motivation_evaluations", 0) + 1
+
+    save_motivation(motivation)
+
+    # 日誌摘要
+    top3 = sorted(all_scores.items(), key=lambda x: x[1]["motivation_score"], reverse=True)[:3]
+    bottom3 = sorted(all_scores.items(), key=lambda x: x[1]["motivation_score"])[:3]
+
+    log(f"  🎯 [動機] 種子動機排名:")
+    for sid, sc in top3:
+        log(f"     🟢 {sc['name']}: {sc['motivation_score']:.3f} (IG={sc['info_gain']:.2f} N={sc['novelty']:.2f})")
+    for sid, sc in bottom3:
+        log(f"     🔴 {sc['name']}: {sc['motivation_score']:.3f} (IG={sc['info_gain']:.2f} N={sc['novelty']:.2f})")
+
+    if added_count > 0:
+        log(f"  🆕 [動機] 本輪新增 {added_count} 顆種子 (總計 {len(SEEDS)} 顆)")
+    if dormant:
+        log(f"  😴 [動機] {len(dormant)} 顆種子休眠中")
+
+    return {
+        "prediction_error": round(pred_error, 3),
+        "seeds_total": len(SEEDS),
+        "seeds_dormant": len(dormant),
+        "new_seeds_added": added_count,
+        "top_motivated": [{"name": s[1]["name"], "score": s[1]["motivation_score"]} for s in top3],
+    }
+
+# ================================================================
 # 整合进化 — evolve()
 # ================================================================
 
 def evolve():
     """执行完整的研究 + 自我进化轮"""
     log("=" * 50)
-    log("🧬 Emily v{VERSION} — 研究+进化轮 (LLM+云端+多源+去重+进化ML+深度度量+Token监控+自我意识+交叉引用+元认知+因果推理)".format(VERSION=VERSION))
+    log("🧬 Emily v{VERSION} — 研究+进化轮 (LLM+云端+多源+去重+进化ML+深度度量+Token监控+自我意识+交叉引用+元认知+因果推理+自主目标)".format(VERSION=VERSION))
     log("=" * 50)
 
     evolution = {
@@ -3484,6 +3843,12 @@ def evolve():
     seed_result = water_all_seeds()
     evolution["research"]["seed_watering"] = seed_result
     evolution["tasks_completed"].append("seed_watering")
+
+    # v13.0: 内在动机引擎 — 评估种子、自动增删、调整权重
+    _state_for_motivation = load_evolution_state()
+    motivation_result = intrinsic_motivation(_state_for_motivation.get("total_evolutions", 0))
+    evolution["motivation_engine"] = motivation_result
+    evolution["tasks_completed"].append("intrinsic_motivation")
 
     # ===== 自我进化闭环 =====
 
@@ -3780,6 +4145,15 @@ def push_all_artifacts(evolution, ev_count):
         except:
             pass
 
+    # 動機狀態 (v13.0)
+    if os.path.exists(MOTIVATION_PATH):
+        try:
+            with open(MOTIVATION_PATH, "r", encoding="utf-8") as f:
+                push_to_github_safe("deployable/station-motivation.json", json.load(f),
+                                f"🎯 自主目标 #{ev_count}")
+        except:
+            pass
+
 # ================================================================
 # 主程序
 # ================================================================
@@ -3822,7 +4196,7 @@ def main():
     else:
         log(f"☁️ SiliconFlow: ⚠️ 未配置 — 设置环境变量 SILICONFLOW_API_KEY 开启云端 LLM")
 
-    log(f"  模块: arXiv({len(ARXIV_ROTATION)}策略) | HF | GitHub | HF Daily | 去重 | 进化ML | 种子深度 | LLM理解+云端 | 自修改 | Token监控 | 自我意识 | 交叉引用 | 假設引擎(v9.0) | 實驗引擎(v9.1) | 理論合成(v9.2) | 元认知(v10.0) | 因果推理(v12.0)")
+    log(f"  模块: arXiv({len(ARXIV_ROTATION)}策略) | HF | GitHub | HF Daily | 去重 | 进化ML | 种子深度 | LLM理解+云端 | 自修改 | Token监控 | 自我意识 | 交叉引用 | 假設引擎(v9.0) | 實驗引擎(v9.1) | 理論合成(v9.2) | 元认知(v10.0) | 因果推理(v12.0) | 自主目标(v13.0)")
     if EMILY_CLOUD_MODE:
         log(f"  ☁️ 云端模式: GitHub Actions + 122B LLM")
     log("=" * 60)
