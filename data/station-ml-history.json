@@ -1,0 +1,434 @@
+{
+  "best_scores": {
+    "Iris_RandomForest": {
+      "accuracy_mean": 0.9667,
+      "evolution": 101,
+      "timestamp": "2026-07-07T08:54:37.763633"
+    },
+    "Iris_GradientBoosting": {
+      "accuracy_mean": 0.9733,
+      "evolution": 101,
+      "timestamp": "2026-07-07T08:54:37.763660"
+    },
+    "Iris_LogisticRegression": {
+      "accuracy_mean": 0.9667,
+      "evolution": 101,
+      "timestamp": "2026-07-07T08:54:37.763668"
+    },
+    "Iris_KNeighbors": {
+      "accuracy_mean": 0.96,
+      "evolution": 109,
+      "timestamp": "2026-07-07T13:37:18.628420"
+    },
+    "Iris_SVM": {
+      "accuracy_mean": 0.9733,
+      "evolution": 106,
+      "timestamp": "2026-07-07T13:20:31.418270"
+    },
+    "Iris_DecisionTree": {
+      "accuracy_mean": 0.9733,
+      "evolution": 101,
+      "timestamp": "2026-07-07T08:54:37.763686"
+    },
+    "Wine_RandomForest": {
+      "accuracy_mean": 0.9607,
+      "evolution": 132,
+      "timestamp": "2026-07-10T07:45:06.461615"
+    },
+    "Wine_GradientBoosting": {
+      "accuracy_mean": 0.854,
+      "evolution": 126,
+      "timestamp": "2026-07-09T13:19:54.569985"
+    },
+    "Wine_LogisticRegression": {
+      "accuracy_mean": 0.9719,
+      "evolution": 101,
+      "timestamp": "2026-07-07T08:54:37.763703"
+    },
+    "Wine_KNeighbors": {
+      "accuracy_mean": 0.944,
+      "evolution": 107,
+      "timestamp": "2026-07-07T13:28:34.185619"
+    },
+    "Wine_SVM": {
+      "accuracy_mean": 0.9887,
+      "evolution": 103,
+      "timestamp": "2026-07-07T13:04:51.138304"
+    },
+    "Wine_DecisionTree": {
+      "accuracy_mean": 0.9155,
+      "evolution": 125,
+      "timestamp": "2026-07-09T10:11:14.464676"
+    },
+    "Breast Cancer_RandomForest": {
+      "accuracy_mean": 0.9596,
+      "evolution": 132,
+      "timestamp": "2026-07-10T07:45:06.461642"
+    },
+    "Breast Cancer_GradientBoosting": {
+      "accuracy_mean": 0.9579,
+      "evolution": 130,
+      "timestamp": "2026-07-09T21:07:29.717580"
+    },
+    "Breast Cancer_LogisticRegression": {
+      "accuracy_mean": 0.9736,
+      "evolution": 101,
+      "timestamp": "2026-07-07T08:54:37.763735"
+    },
+    "Breast Cancer_KNeighbors": {
+      "accuracy_mean": 0.9596,
+      "evolution": 105,
+      "timestamp": "2026-07-07T13:08:53.482203"
+    },
+    "Breast Cancer_SVM": {
+      "accuracy_mean": 0.9631,
+      "evolution": 101,
+      "timestamp": "2026-07-07T08:54:37.763746"
+    },
+    "Breast Cancer_DecisionTree": {
+      "accuracy_mean": 0.9262,
+      "evolution": 121,
+      "timestamp": "2026-07-08T15:49:10.698176"
+    },
+    "Diabetes_RandomForest": {
+      "r2_mean": 0.4427,
+      "evolution": 126,
+      "timestamp": "2026-07-09T13:19:54.570005"
+    },
+    "Diabetes_GradientBoosting": {
+      "r2_mean": 0.4366,
+      "evolution": 108,
+      "timestamp": "2026-07-07T13:33:59.455843"
+    },
+    "Diabetes_Ridge": {
+      "r2_mean": 0.4823,
+      "evolution": 101,
+      "timestamp": "2026-07-07T08:54:37.763775"
+    },
+    "Diabetes_LinearRegression": {
+      "r2_mean": 0.4823,
+      "evolution": 101,
+      "timestamp": "2026-07-07T08:54:37.763781"
+    }
+  },
+  "evolution_count": 144,
+  "history": [
+    {
+      "evolution": 101,
+      "timestamp": "2026-07-07T08:54:37.763788",
+      "total_tests": 22,
+      "improvements": [
+        "Iris_RandomForest: 0.0000 → 0.9667",
+        "Iris_GradientBoosting: 0.0000 → 0.9733",
+        "Iris_LogisticRegression: 0.0000 → 0.9667",
+        "Iris_KNeighbors: 0.0000 → 0.9533",
+        "Iris_SVM: 0.0000 → 0.9667",
+        "Iris_DecisionTree: 0.0000 → 0.9733",
+        "Wine_RandomForest: 0.0000 → 0.9551",
+        "Wine_GradientBoosting: 0.0000 → 0.8315",
+        "Wine_LogisticRegression: 0.0000 → 0.9719",
+        "Wine_KNeighbors: 0.0000 → 0.9329",
+        "Wine_SVM: 0.0000 → 0.9831",
+        "Wine_DecisionTree: 0.0000 → 0.8709",
+        "Breast Cancer_RandomForest: 0.0000 → 0.9543",
+        "Breast Cancer_GradientBoosting: 0.0000 → 0.9526",
+        "Breast Cancer_LogisticRegression: 0.0000 → 0.9736",
+        "Breast Cancer_KNeighbors: 0.0000 → 0.9578",
+        "Breast Cancer_SVM: 0.0000 → 0.9631",
+        "Breast Cancer_DecisionTree: 0.0000 → 0.9244",
+        "Diabetes_RandomForest: -999.0000 → 0.4325",
+        "Diabetes_GradientBoosting: -999.0000 → 0.4110",
+        "Diabetes_Ridge: -999.0000 → 0.4823",
+        "Diabetes_LinearRegression: -999.0000 → 0.4823"
+      ]
+    },
+    {
+      "evolution": 103,
+      "timestamp": "2026-07-07T13:04:51.138357",
+      "total_tests": 22,
+      "improvements": [
+        "Wine_GradientBoosting: 0.8315 → 0.8316",
+        "Wine_KNeighbors: 0.9329 → 0.9385",
+        "Wine_SVM: 0.9831 → 0.9887",
+        "Wine_DecisionTree: 0.8709 → 0.8986",
+        "Breast Cancer_GradientBoosting: 0.9526 → 0.9543"
+      ]
+    },
+    {
+      "evolution": 105,
+      "timestamp": "2026-07-07T13:08:53.482235",
+      "total_tests": 22,
+      "improvements": [
+        "Wine_GradientBoosting: 0.8316 → 0.8371",
+        "Breast Cancer_KNeighbors: 0.9578 → 0.9596",
+        "Diabetes_RandomForest: 0.4325 → 0.4401"
+      ]
+    },
+    {
+      "evolution": 106,
+      "timestamp": "2026-07-07T13:20:31.418415",
+      "total_tests": 22,
+      "improvements": [
+        "Iris_SVM: 0.9667 → 0.9733",
+        "Wine_GradientBoosting: 0.8371 → 0.8485"
+      ]
+    },
+    {
+      "evolution": 107,
+      "timestamp": "2026-07-07T13:28:34.185665",
+      "total_tests": 22,
+      "improvements": [
+        "Wine_KNeighbors: 0.9385 → 0.9440",
+        "Wine_DecisionTree: 0.8986 → 0.9042",
+        "Breast Cancer_GradientBoosting: 0.9543 → 0.9561"
+      ]
+    },
+    {
+      "evolution": 108,
+      "timestamp": "2026-07-07T13:33:59.455867",
+      "total_tests": 22,
+      "improvements": [
+        "Diabetes_GradientBoosting: 0.4110 → 0.4366"
+      ]
+    },
+    {
+      "evolution": 109,
+      "timestamp": "2026-07-07T13:37:18.628461",
+      "total_tests": 22,
+      "improvements": [
+        "Iris_KNeighbors: 0.9533 → 0.9600"
+      ]
+    },
+    {
+      "evolution": 110,
+      "timestamp": "2026-07-07T13:44:42.311403",
+      "total_tests": 22,
+      "improvements": []
+    },
+    {
+      "evolution": 112,
+      "timestamp": "2026-07-07T16:32:45.863162",
+      "total_tests": 22,
+      "improvements": []
+    },
+    {
+      "evolution": 113,
+      "timestamp": "2026-07-07T17:23:34.579770",
+      "total_tests": 22,
+      "improvements": [
+        "Breast Cancer_RandomForest: 0.9543 → 0.9578"
+      ]
+    },
+    {
+      "evolution": 114,
+      "timestamp": "2026-07-07T19:27:33.293674",
+      "total_tests": 22,
+      "improvements": []
+    },
+    {
+      "evolution": 115,
+      "timestamp": "2026-07-07T20:57:28.144298",
+      "total_tests": 22,
+      "improvements": []
+    },
+    {
+      "evolution": 116,
+      "timestamp": "2026-07-08T08:51:42.990563",
+      "total_tests": 22,
+      "improvements": [
+        "Wine_RandomForest: 0.9551 → 0.9552"
+      ]
+    },
+    {
+      "evolution": 117,
+      "timestamp": "2026-07-08T10:54:20.284036",
+      "total_tests": 22,
+      "improvements": []
+    },
+    {
+      "evolution": 118,
+      "timestamp": "2026-07-08T13:04:20.899199",
+      "total_tests": 22,
+      "improvements": []
+    },
+    {
+      "evolution": 119,
+      "timestamp": "2026-07-08T13:55:30.728735",
+      "total_tests": 22,
+      "improvements": []
+    },
+    {
+      "evolution": 120,
+      "timestamp": "2026-07-08T14:02:49.141958",
+      "total_tests": 22,
+      "improvements": [
+        "Wine_DecisionTree: 0.9042 → 0.9044"
+      ]
+    },
+    {
+      "evolution": 121,
+      "timestamp": "2026-07-08T15:49:10.698206",
+      "total_tests": 22,
+      "improvements": [
+        "Breast Cancer_DecisionTree: 0.9244 → 0.9262"
+      ]
+    },
+    {
+      "evolution": 122,
+      "timestamp": "2026-07-08T17:44:18.938429",
+      "total_tests": 22,
+      "improvements": []
+    },
+    {
+      "evolution": 123,
+      "timestamp": "2026-07-08T19:45:21.524973",
+      "total_tests": 22,
+      "improvements": []
+    },
+    {
+      "evolution": 124,
+      "timestamp": "2026-07-09T08:06:57.981148",
+      "total_tests": 22,
+      "improvements": []
+    },
+    {
+      "evolution": 125,
+      "timestamp": "2026-07-09T10:11:14.464705",
+      "total_tests": 22,
+      "improvements": [
+        "Wine_DecisionTree: 0.9044 → 0.9155"
+      ]
+    },
+    {
+      "evolution": 126,
+      "timestamp": "2026-07-09T13:19:54.570015",
+      "total_tests": 22,
+      "improvements": [
+        "Wine_RandomForest: 0.9552 → 0.9606",
+        "Wine_GradientBoosting: 0.8485 → 0.8540",
+        "Diabetes_RandomForest: 0.4401 → 0.4427"
+      ]
+    },
+    {
+      "evolution": 127,
+      "timestamp": "2026-07-09T15:20:52.685402",
+      "total_tests": 22,
+      "improvements": [
+        "Breast Cancer_GradientBoosting: 0.9561 → 0.9578"
+      ]
+    },
+    {
+      "evolution": 128,
+      "timestamp": "2026-07-09T17:31:36.321597",
+      "total_tests": 22,
+      "improvements": []
+    },
+    {
+      "evolution": 129,
+      "timestamp": "2026-07-09T20:02:00.701939",
+      "total_tests": 22,
+      "improvements": []
+    },
+    {
+      "evolution": 130,
+      "timestamp": "2026-07-09T21:07:29.717637",
+      "total_tests": 22,
+      "improvements": [
+        "Breast Cancer_GradientBoosting: 0.9578 → 0.9579"
+      ]
+    },
+    {
+      "evolution": 131,
+      "timestamp": "2026-07-09T21:43:04.537268",
+      "total_tests": 22,
+      "improvements": []
+    },
+    {
+      "evolution": 132,
+      "timestamp": "2026-07-10T07:45:06.461660",
+      "total_tests": 22,
+      "improvements": [
+        "Wine_RandomForest: 0.9606 → 0.9607",
+        "Breast Cancer_RandomForest: 0.9578 → 0.9596"
+      ]
+    },
+    {
+      "evolution": 133,
+      "timestamp": "2026-07-10T09:32:31.797703",
+      "total_tests": 22,
+      "improvements": []
+    },
+    {
+      "evolution": 134,
+      "timestamp": "2026-07-10T11:36:14.548693",
+      "total_tests": 22,
+      "improvements": []
+    },
+    {
+      "evolution": 135,
+      "timestamp": "2026-07-14T07:47:06.927490",
+      "total_tests": 22,
+      "improvements": []
+    },
+    {
+      "evolution": 136,
+      "timestamp": "2026-07-14T09:49:46.429311",
+      "total_tests": 22,
+      "improvements": []
+    },
+    {
+      "evolution": 137,
+      "timestamp": "2026-07-14T11:52:42.339907",
+      "total_tests": 22,
+      "improvements": []
+    },
+    {
+      "evolution": 138,
+      "timestamp": "2026-07-14T13:04:21.441860",
+      "total_tests": 22,
+      "improvements": []
+    },
+    {
+      "evolution": 139,
+      "timestamp": "2026-07-14T17:43:48.582420",
+      "total_tests": 22,
+      "improvements": []
+    },
+    {
+      "evolution": 140,
+      "timestamp": "2026-07-14T19:44:40.925735",
+      "total_tests": 22,
+      "improvements": []
+    },
+    {
+      "evolution": 141,
+      "timestamp": "2026-07-15T09:49:54.447970",
+      "total_tests": 22,
+      "improvements": []
+    },
+    {
+      "evolution": 141,
+      "timestamp": "2026-07-15T09:50:22.373306",
+      "total_tests": 22,
+      "improvements": []
+    },
+    {
+      "evolution": 142,
+      "timestamp": "2026-07-15T10:04:29.896453",
+      "total_tests": 22,
+      "improvements": []
+    },
+    {
+      "evolution": 143,
+      "timestamp": "2026-07-15T10:10:06.203944",
+      "total_tests": 22,
+      "improvements": []
+    },
+    {
+      "evolution": 144,
+      "timestamp": "2026-07-15T10:20:31.106091",
+      "total_tests": 22,
+      "improvements": []
+    }
+  ]
+}
