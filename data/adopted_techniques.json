@@ -1,0 +1,434 @@
+{
+  "adopted": [
+    {
+      "id": "knowledge-distill",
+      "name": "Knowledge Distillation",
+      "adopted_at": "2026-07-07T13:44:50.729936",
+      "decision": {
+        "tech_id": "knowledge-distill",
+        "tech_name": "Knowledge Distillation",
+        "action": "adopt",
+        "confidence": 0.33,
+        "reason": [
+          "持续观察(0.3)",
+          "多篇提及(2篇)→升级"
+        ],
+        "decided_at": "2026-07-07T13:44:50.721617"
+      }
+    },
+    {
+      "id": "world-model",
+      "name": "World Models / Model-Based RL",
+      "adopted_at": "2026-07-07T15:07:02.356555",
+      "decision": {
+        "tech_id": "world-model",
+        "tech_name": "World Models / Model-Based RL",
+        "action": "adopt",
+        "confidence": 0.3333333333333333,
+        "reason": [
+          "持续观察(0.3)",
+          "多篇提及(2篇)→升级"
+        ],
+        "decided_at": "2026-07-07T15:07:02.352292"
+      }
+    },
+    {
+      "id": "auto-reinforcement learning",
+      "name": "Reinforcement Learning",
+      "adopted_at": "2026-07-07T15:07:02.356589",
+      "decision": {
+        "tech_id": "auto-reinforcement learning",
+        "tech_name": "Reinforcement Learning",
+        "action": "adopt",
+        "confidence": 1.0,
+        "reason": [
+          "预置技术(1.0)"
+        ],
+        "decided_at": "2026-07-07T15:07:02.353368"
+      }
+    },
+    {
+      "id": "diffusion",
+      "name": "Diffusion Models",
+      "adopted_at": "2026-07-07T16:32:55.239948",
+      "decision": {
+        "tech_id": "diffusion",
+        "tech_name": "Diffusion Models",
+        "action": "adopt",
+        "confidence": 0.5,
+        "reason": [
+          "预置技术(0.5)"
+        ],
+        "decided_at": "2026-07-07T16:32:55.218083"
+      }
+    },
+    {
+      "id": "agent",
+      "name": "LLM Agents / Tool Use",
+      "adopted_at": "2026-07-07T16:32:55.239989",
+      "decision": {
+        "tech_id": "agent",
+        "tech_name": "LLM Agents / Tool Use",
+        "action": "adopt",
+        "confidence": 0.43,
+        "reason": [
+          "持续观察(0.4)",
+          "多篇提及(3篇)→升级"
+        ],
+        "decided_at": "2026-07-07T16:32:55.221601"
+      }
+    },
+    {
+      "id": "transformer",
+      "name": "Transformer Architecture",
+      "adopted_at": "2026-07-07T16:32:55.240032",
+      "decision": {
+        "tech_id": "transformer",
+        "tech_name": "Transformer Architecture",
+        "action": "adopt",
+        "confidence": 0.4,
+        "reason": [
+          "持续观察(0.4)",
+          "多篇提及(2篇)→升级"
+        ],
+        "decided_at": "2026-07-07T16:32:55.226893"
+      }
+    },
+    {
+      "id": "multimodal",
+      "name": "Multimodal / Vision-Language",
+      "adopted_at": "2026-07-07T17:23:43.673384",
+      "decision": {
+        "tech_id": "multimodal",
+        "tech_name": "Multimodal / Vision-Language",
+        "action": "adopt",
+        "confidence": 0.43,
+        "reason": [
+          "持续观察(0.4)",
+          "多篇提及(3篇)→升级"
+        ],
+        "decided_at": "2026-07-07T17:23:43.662739"
+      }
+    },
+    {
+      "id": "mamba-ssm",
+      "name": "Mamba / State Space Models",
+      "adopted_at": "2026-07-08T08:51:52.030342",
+      "decision": {
+        "tech_id": "mamba-ssm",
+        "tech_name": "Mamba / State Space Models",
+        "action": "adopt",
+        "confidence": 0.33,
+        "reason": [
+          "持续观察(0.3)",
+          "多篇提及(2篇)→升级"
+        ],
+        "decided_at": "2026-07-08T08:51:52.017737"
+      }
+    },
+    {
+      "id": "auto-state space",
+      "name": "State Space",
+      "adopted_at": "2026-07-08T08:51:52.030377",
+      "decision": {
+        "tech_id": "auto-state space",
+        "tech_name": "State Space",
+        "action": "adopt",
+        "confidence": 1.0,
+        "reason": [
+          "预置技术(1.0)"
+        ],
+        "decided_at": "2026-07-08T08:51:52.020807"
+      }
+    },
+    {
+      "id": "prompt",
+      "name": "Prompt Engineering / In-Context Learning",
+      "adopted_at": "2026-07-08T15:49:20.816347",
+      "decision": {
+        "tech_id": "prompt",
+        "tech_name": "Prompt Engineering / In-Context Learning",
+        "action": "adopt",
+        "confidence": 0.33,
+        "reason": [
+          "持续观察(0.3)",
+          "多篇提及(2篇)→升级"
+        ],
+        "decided_at": "2026-07-08T15:49:20.696653"
+      }
+    },
+    {
+      "id": "rlhf",
+      "name": "RLHF / Preference Alignment",
+      "adopted_at": "2026-07-09T10:12:24.531072",
+      "decision": {
+        "tech_id": "rlhf",
+        "tech_name": "RLHF / Preference Alignment",
+        "action": "adopt",
+        "confidence": 0.57,
+        "reason": [
+          "预置技术(0.6)"
+        ],
+        "decided_at": "2026-07-09T10:12:24.526840"
+      }
+    },
+    {
+      "id": "rag",
+      "name": "Retrieval-Augmented Generation",
+      "adopted_at": "2026-07-09T13:20:03.546349",
+      "decision": {
+        "tech_id": "rag",
+        "tech_name": "Retrieval-Augmented Generation",
+        "action": "adopt",
+        "confidence": 0.6,
+        "reason": [
+          "预置技术(0.6)"
+        ],
+        "decided_at": "2026-07-09T13:20:03.530295"
+      }
+    },
+    {
+      "id": "auto-diffusion model",
+      "name": "Diffusion Model",
+      "adopted_at": "2026-07-09T17:31:45.766078",
+      "decision": {
+        "tech_id": "auto-diffusion model",
+        "tech_name": "Diffusion Model",
+        "action": "adopt",
+        "confidence": 1.0,
+        "reason": [
+          "预置技术(1.0)"
+        ],
+        "decided_at": "2026-07-09T17:31:45.757987"
+      }
+    },
+    {
+      "id": "moe",
+      "name": "Mixture of Experts",
+      "adopted_at": "2026-07-09T17:31:45.766107",
+      "decision": {
+        "tech_id": "moe",
+        "tech_name": "Mixture of Experts",
+        "action": "adopt",
+        "confidence": 0.5,
+        "reason": [
+          "预置技术(0.5)"
+        ],
+        "decided_at": "2026-07-09T17:31:45.758990"
+      }
+    },
+    {
+      "id": "auto-knowledge distillation",
+      "name": "Knowledge Distillation",
+      "adopted_at": "2026-07-10T11:36:23.861148",
+      "decision": {
+        "tech_id": "auto-knowledge distillation",
+        "tech_name": "Knowledge Distillation",
+        "action": "adopt",
+        "confidence": 1.0,
+        "reason": [
+          "预置技术(1.0)"
+        ],
+        "decided_at": "2026-07-10T11:36:23.845349"
+      }
+    },
+    {
+      "id": "auto-graph neural",
+      "name": "Graph Neural",
+      "adopted_at": "2026-07-14T09:51:54.792628",
+      "decision": {
+        "tech_id": "auto-graph neural",
+        "tech_name": "Graph Neural",
+        "action": "adopt",
+        "confidence": 1.0,
+        "reason": [
+          "预置技术(1.0)"
+        ],
+        "decided_at": "2026-07-14T09:51:54.781715"
+      }
+    },
+    {
+      "id": "lora",
+      "name": "LoRA / Parameter-Efficient Fine-Tuning",
+      "adopted_at": "2026-07-14T17:43:57.900748",
+      "decision": {
+        "tech_id": "lora",
+        "tech_name": "LoRA / Parameter-Efficient Fine-Tuning",
+        "action": "adopt",
+        "confidence": 0.33,
+        "reason": [
+          "持续观察(0.3)",
+          "多篇提及(2篇)→升级"
+        ],
+        "decided_at": "2026-07-14T17:43:57.874591"
+      }
+    },
+    {
+      "id": "auto-image generation",
+      "name": "Image Generation",
+      "adopted_at": "2026-07-14T17:43:57.900806",
+      "decision": {
+        "tech_id": "auto-image generation",
+        "tech_name": "Image Generation",
+        "action": "adopt",
+        "confidence": 1.0,
+        "reason": [
+          "预置技术(1.0)"
+        ],
+        "decided_at": "2026-07-14T17:43:57.887223"
+      }
+    },
+    {
+      "id": "auto-liquid time",
+      "name": "Liquid Time",
+      "adopted_at": "2026-07-15T10:21:53.878301",
+      "decision": {
+        "tech_id": "auto-liquid time",
+        "tech_name": "Liquid Time",
+        "action": "adopt",
+        "confidence": 1.0,
+        "reason": [
+          "预置技术(1.0)"
+        ],
+        "decided_at": "2026-07-15T10:21:53.864144"
+      }
+    },
+    {
+      "id": "auto-prompt engineering",
+      "name": "Prompt Engineering",
+      "adopted_at": "2026-07-15T10:21:53.878359",
+      "decision": {
+        "tech_id": "auto-prompt engineering",
+        "tech_name": "Prompt Engineering",
+        "action": "adopt",
+        "confidence": 1.0,
+        "reason": [
+          "预置技术(1.0)"
+        ],
+        "decided_at": "2026-07-15T10:21:53.866507"
+      }
+    }
+  ],
+  "history": [
+    {
+      "event": "adopted",
+      "tech_id": "knowledge-distill",
+      "tech_name": "Knowledge Distillation",
+      "timestamp": "2026-07-07T13:44:50.729947"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "world-model",
+      "tech_name": "World Models / Model-Based RL",
+      "timestamp": "2026-07-07T15:07:02.356579"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "auto-reinforcement learning",
+      "tech_name": "Reinforcement Learning",
+      "timestamp": "2026-07-07T15:07:02.356591"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "diffusion",
+      "tech_name": "Diffusion Models",
+      "timestamp": "2026-07-07T16:32:55.239966"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "agent",
+      "tech_name": "LLM Agents / Tool Use",
+      "timestamp": "2026-07-07T16:32:55.239996"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "transformer",
+      "tech_name": "Transformer Architecture",
+      "timestamp": "2026-07-07T16:32:55.240036"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "multimodal",
+      "tech_name": "Multimodal / Vision-Language",
+      "timestamp": "2026-07-07T17:23:43.673407"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "mamba-ssm",
+      "tech_name": "Mamba / State Space Models",
+      "timestamp": "2026-07-08T08:51:52.030358"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "auto-state space",
+      "tech_name": "State Space",
+      "timestamp": "2026-07-08T08:51:52.030383"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "prompt",
+      "tech_name": "Prompt Engineering / In-Context Learning",
+      "timestamp": "2026-07-08T15:49:20.816372"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "rlhf",
+      "tech_name": "RLHF / Preference Alignment",
+      "timestamp": "2026-07-09T10:12:24.531081"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "rag",
+      "tech_name": "Retrieval-Augmented Generation",
+      "timestamp": "2026-07-09T13:20:03.546361"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "auto-diffusion model",
+      "tech_name": "Diffusion Model",
+      "timestamp": "2026-07-09T17:31:45.766089"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "moe",
+      "tech_name": "Mixture of Experts",
+      "timestamp": "2026-07-09T17:31:45.766111"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "auto-knowledge distillation",
+      "tech_name": "Knowledge Distillation",
+      "timestamp": "2026-07-10T11:36:23.861190"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "auto-graph neural",
+      "tech_name": "Graph Neural",
+      "timestamp": "2026-07-14T09:51:54.792640"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "lora",
+      "tech_name": "LoRA / Parameter-Efficient Fine-Tuning",
+      "timestamp": "2026-07-14T17:43:57.900773"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "auto-image generation",
+      "tech_name": "Image Generation",
+      "timestamp": "2026-07-14T17:43:57.900813"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "auto-liquid time",
+      "tech_name": "Liquid Time",
+      "timestamp": "2026-07-15T10:21:53.878320"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "auto-prompt engineering",
+      "tech_name": "Prompt Engineering",
+      "timestamp": "2026-07-15T10:21:53.878365"
+    }
+  ]
+}
