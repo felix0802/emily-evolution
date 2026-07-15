@@ -76,9 +76,26 @@
       "supporting_papers": [],
       "refuting_papers": [],
       "llm_source": "deepseek"
+    },
+    {
+      "id": "hyp-0005",
+      "timestamp": "2026-07-15T13:04:49.067489",
+      "seed_a": "Liquid Networks",
+      "seed_b": "Mixture of Experts",
+      "crossref_strength": 3,
+      "shared_keywords": [],
+      "hypothesis": "Combining Liquid Networks' continuous-time dynamics with Mixture of Experts' sparse routing can yield a model that adaptively allocates computational resources to different temporal regimes, improving efficiency and generalization in long-sequence tasks.",
+      "reasoning": "Liquid Networks use ordinary differential equations to model continuous-time dynamics, offering flexible state transitions, while Mixture of Experts employs sparse gating to select specialized sub-networks. Their shared reliance on neural state selection and adaptive computation suggests a unified framework where a gating mechanism decides which expert's ODE dynamics to activate at each time step, enabling efficient handling of multi-scale temporal patterns.",
+      "arxiv_query": "Liquid Networks Mixture of Experts continuous-time sparse routing",
+      "potential_breakthrough": "This integration could enable a new class of models that dynamically adjust their computational depth and temporal resolution, achieving state-of-the-art performance on tasks requiring both long-range dependencies and fine-grained temporal reasoning.",
+      "status": "unverified",
+      "verification_rounds": 1,
+      "supporting_papers": [],
+      "refuting_papers": [],
+      "llm_source": "deepseek"
     }
   ],
-  "last_updated": "2026-07-15T11:19:22.492412",
-  "total_generated": 4,
+  "last_updated": "2026-07-15T13:04:52.511487",
+  "total_generated": 5,
   "total_verified": 0
 }

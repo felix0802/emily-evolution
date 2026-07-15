@@ -1,37 +1,6 @@
 {
   "sessions": [
     {
-      "timestamp": "2026-07-02T10:11:02.498392",
-      "arxiv_papers_count": 20,
-      "arxiv_top_keywords": [
-        "supervision",
-        "llms",
-        "llm",
-        "agents",
-        "data",
-        "learning",
-        "lms",
-        "training",
-        "fixed",
-        "explanations"
-      ],
-      "huggingface_models_tracked": 10,
-      "huggingface_top_tasks": [
-        "sentence-similarity",
-        "fill-mask",
-        "text-ranking",
-        "feature-extraction",
-        "unknown"
-      ],
-      "ml_benchmarks_run": 10,
-      "ml_top_classifier": "RandomForest",
-      "evolution": {
-        "techniques_discovered": 1,
-        "techniques_adopted": 0,
-        "decisions": 0
-      }
-    },
-    {
       "timestamp": "2026-07-02T10:32:53.775908",
       "arxiv_papers_count": 20,
       "arxiv_top_keywords": [
@@ -3730,10 +3699,52 @@
         "seed_name": "KV Cache Optimization",
         "papers_found": 6
       }
+    },
+    {
+      "timestamp": "2026-07-15T13:04:45.257718",
+      "arxiv_papers_count": 16,
+      "arxiv_top_keywords": [
+        "anomaly",
+        "time",
+        "series",
+        "detection",
+        "adversarial",
+        "parameter",
+        "spectrum",
+        "context",
+        "scores",
+        "question"
+      ],
+      "arxiv_strategies": [
+        "搜索: time series forecasting",
+        "搜索: anomaly detection",
+        "搜索: mixture of experts"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "fill-mask",
+        "text-generation",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [],
+      "ml_total_tests": 0,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 19,
+        "adopted": 0,
+        "decisions": 0
+      },
+      "seed_watering": {
+        "seed_name": "Graph Neural Networks",
+        "papers_found": 5
+      }
     }
   ],
   "total_sessions": 101,
-  "last_updated": "2026-07-15T11:19:18.776059",
+  "last_updated": "2026-07-15T13:04:45.257733",
   "evolution_summary": {
     "total_adopted": 30,
     "adopted_list": [
@@ -3816,7 +3827,7 @@
       },
       "gnn": {
         "name": "Graph Neural Networks",
-        "watering": 2,
+        "watering": 3,
         "papers": 0
       }
     },
@@ -3935,6 +3946,6 @@
         "best_papers_count": 0
       }
     },
-    "last_evolution": "2026-07-15T11:19:18.776456"
+    "last_evolution": "2026-07-15T13:04:45.258293"
   }
 }
