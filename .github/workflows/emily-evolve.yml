@@ -1,0 +1,54 @@
+name: Emily Evolution Loop
+
+on:
+  schedule:
+    - cron: '0 */2 * * *'  # 每 2 小時 UTC
+  workflow_dispatch:        # 手動觸發
+
+jobs:
+  evolve:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Check Data State
+        run: |
+          echo "=== Data Directory ==="
+          ls -la data/ 2>/dev/null || echo "No data directory"
+          echo "=== Python Version ==="
+          python --version
+          echo "=== evolution-station.py exists ==="
+          ls -la evolution-station.py
+
+      - name: Run Evolution (Single Round)
+        env:
+          SILICONFLOW_API_KEY: ${{ secrets.SILICONFLOW_API_KEY }}
+          SILICONFLOW_MODEL: Qwen/Qwen3.5-122B-A10B
+          EMILY_CLOUD_MODE: "1"
+          EMILY_DATA_DIR: ${{ github.workspace }}/data
+        run: |
+          export PYTHONUNBUFFERED=1
+          python evolution-station.py --single-round
+
+      - name: Commit & Push Data
+        if: always()
+        run: |
+          git config user.name "Emily Evolution Bot"
+          git config user.email "emily-bot@felix0802.dev"
+          git add data/ evolution-station.py
+          git diff --staged --quiet || (
+            git commit -m "🧬 Auto-evolution $(date -u +'%%Y-%%m-%%d %%H:%%M UTC')" &&
+            git push
+          ) || echo "Nothing to commit"
