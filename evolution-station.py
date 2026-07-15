@@ -1,31 +1,29 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-🧬 Emily Evolution Station v9.4 — 语义去重：突破 2000 论文天花板
+🧬 Emily Evolution Station v10.0 — 元认知：自我监控与反思回路
+
+v10.0 升级（元认知回路 — 认知架构里程碑）:
+  + self_reflect() — 每次假设生成/理论合成后自问三题
+    · Q1: 我用了什么前提？前提是否仍然有效？
+    · Q2: 是否有替代解释？我是否排除了混淆因素？
+    · Q3: 我的推理链是否完整自洽？是否有逻辑跳跃？
+  + 假设验证率趋势追踪 — 发现认知偏误的早期信号
+  + 理论质量自评 — 每次合成后评估深度、新颖性、自洽性
+  + station-metacognition.json — 持久化自我认知档案
+  + 回路D(元认知): 监控A→B→C → 自省 → 调整建议 → 循环
 
 v9.4 升级（语义去重引擎）:
   + Token-based Jaccard 语义相似度去重 — 纯 Python，零依赖
   + 三层去重架构: arXiv ID 精确 → Token Jaccard 语义 → URL 兜底
   + 移除 2000 硬编码 FIFO，上限扩展至 50,000
   + 智能裁剪: 超 45,000 时自动聚类保留语义多样性
-  + 向后兼容旧 seen_papers 格式自动迁移
 
-v9.3 升级（DeepSeek 激活）:
-  + LLM 回调链升级: Ollama → DeepSeek (优先) → SiliconFlow (备用)
-
-v9.2 升级（理论合成）:
-  + synthesize_theory() — 每 100 轮回顾所有假设，LLM 提炼统一理论体系
-
-v9.1 升级（实验设计引擎）:
-  + design_experiment() / run_experiment() — sklearn 实验验证闭环
-
-v9.0 升级（假設引擎）：
-  + generate_hypotheses() / verify_hypothesis() — LLM 生成可验证研究假设
-
-进化闭环（三回路 v9.4）：
+进化闭环（四回路 v10.0）：
   回路A(发现): 感知 → 理解(LLM DeepSeek) → 决策 → 行动 → 验证 → 自评 → 循环
   回路B(思考): 交叉引用 → 假设生成(LLM DeepSeek) → arXiv验证 → 实验验证 → 循环
   回路C(合成): 每100轮 → 全体假设回顾 → 理论提炼(LLM DeepSeek) → 更新知识体系 → 循环
+  回路D(元认知): 监控A/B/C输出 → 自问三题 → 偏差检测 → 趋势分析 → 调整建议 → 循环
 """
 
 import base64, json, os, platform, re, subprocess, sys, time, tempfile, shutil, hashlib, random
@@ -97,9 +95,10 @@ TOKEN_HEALTH_PATH = os.path.join(DATA_DIR, "station-token-health.json")      # P
 HYPOTHESES_PATH = os.path.join(DATA_DIR, "station-hypotheses.json")          # v9.0: 假設引擎
 EXPERIMENTS_PATH = os.path.join(DATA_DIR, "station-experiments.json")        # v9.1: 實驗設計引擎
 THEORIES_PATH = os.path.join(DATA_DIR, "station-theories.json")              # v9.2: 理論合成
+METACOGNITION_PATH = os.path.join(DATA_DIR, "station-metacognition.json")    # v10.0: 元認知
 
 # ===== Config =====
-VERSION = "9.4"
+VERSION = "10.0"
 OLLAMA_URL = "http://localhost:11434/api/generate"
 OLLAMA_MODEL = "qwen2.5:1.5b"
 GITHUB_OWNER = "felix0802"
@@ -3040,13 +3039,231 @@ def update_knowledge_base(arxiv_data, hf_data, ml_data, evolution_result=None, m
     return kb
 
 # ================================================================
+# v10.0: 元认知回路 — 监控 ABC 回路，自问三题，偏差检测，趋势分析
+# ================================================================
+
+def load_metacognition():
+    """加载元认知记录"""
+    if os.path.exists(METACOGNITION_PATH):
+        try:
+            with open(METACOGNITION_PATH, "r", encoding="utf-8") as f:
+                return json.load(f)
+        except:
+            pass
+    return {
+        "reflections": [],
+        "qa_sessions": [],
+        "bias_alerts": [],
+        "trend_snapshots": [],
+        "total_reflections": 0,
+        "last_updated": "",
+    }
+
+def save_metacognition(data):
+    """保存元认知记录"""
+    data["last_updated"] = datetime.now().isoformat()
+    # 限制历史长度防止膨胀
+    if len(data.get("reflections", [])) > 200:
+        data["reflections"] = data["reflections"][-200:]
+    if len(data.get("qa_sessions", [])) > 100:
+        data["qa_sessions"] = data["qa_sessions"][-100:]
+    if len(data.get("bias_alerts", [])) > 50:
+        data["bias_alerts"] = data["bias_alerts"][-50:]
+    with open(METACOGNITION_PATH, "w", encoding="utf-8") as f:
+        json.dump(data, f, ensure_ascii=False, indent=2)
+
+def _build_cognitive_context(ev_count, hypotheses_data, theories_data, seed_state):
+    """构建认知上下文 — 为元认知自省提供当前心智状态摘要"""
+    all_hyps = hypotheses_data.get("hypotheses", [])
+    supported = [h for h in all_hyps if h.get("status") in ("supported", "experimentally_verified")]
+    refuted = [h for h in all_hyps if h.get("status") == "refuted"]
+    unverified = [h for h in all_hyps if h.get("status") == "unverified"]
+
+    # 最近生成的假设
+    recent_hyps = sorted(all_hyps, key=lambda h: h.get("timestamp", ""), reverse=True)[:5]
+
+    # 最近的理论
+    recent_theories = theories_data.get("theories", [])[-3:]
+
+    # 种子活跃度
+    seed_entries = {k: v for k, v in seed_state.items() if isinstance(v, dict) and "watering_count" in v}
+    seed_summary = ", ".join([
+        f"{s['name']}(浇{s.get('watering_count',0)}次/{s.get('total_papers_found',0)}篇)"
+        for s in sorted(seed_entries.values(), key=lambda x: x.get("total_papers_found", 0), reverse=True)[:5]
+    ])
+
+    ctx = (
+        f"进化轮次: {ev_count}\n"
+        f"假设分布: 支持{len(supported)} / 推翻{len(refuted)} / 未验证{len(unverified)} / 总计{len(all_hyps)}\n"
+        f"理论数: {theories_data.get('total_synthesized', 0)}\n"
+        f"最近假设: " + "; ".join([h.get('hypothesis', '')[:80] for h in recent_hyps[:3]]) + "\n"
+        f"最近理论: " + "; ".join([t.get('title', '')[:60] for t in recent_theories[:2]]) + "\n"
+        f"种子状态: {seed_summary}"
+    )
+    return ctx
+
+def self_reflect(trigger, context, ev_count, hypotheses_data, theories_data, seed_state):
+    """v10.0: 元认知自省 — 自问三题，检测认知偏误
+
+    Args:
+        trigger: "hypothesis_generated" | "theory_synthesized" | "periodic_check"
+        context: 触发时附加上下文 (文本)
+        ev_count: 当前进化轮次
+        hypotheses_data: 假设数据
+        theories_data: 理论数据
+        seed_state: 种子状态
+
+    Returns: 反省结果 dict
+    """
+    meta = load_metacognition()
+
+    # 构建认知上下文
+    cog_ctx = _build_cognitive_context(ev_count, hypotheses_data, theories_data, seed_state)
+
+    # 根据触发类型定制三个问题
+    if trigger == "hypothesis_generated":
+        q1 = f"前提审视：刚才生成假设时，我默认了哪些前提？这些前提在{cog_ctx.split(chr(10))[0]}中是否仍然成立？"
+        q2 = "替代解释：是否存在一个完全不同但同样合理的机制可以解释我观察到的交叉引用模式？我是否排除了混淆因素（如关键词偶然重叠）？"
+        q3 = "推理完整性：我的假设推理链是否有逻辑跳跃？'A导致B'中的因果方向是否可能相反？"
+    elif trigger == "theory_synthesized":
+        q1 = "前提审视：从假设群提炼理论时，我是否过度推广？支持假设是否形成了封闭的回音室（互相引用同一来源）？"
+        q2 = "替代解释：是否存在一个更简洁的理论（奥卡姆剃刀）能解释同样的证据？我刚才的理论是否过度拟合了最近的假设？"
+        q3 = "推理完整性：理论陈述中的因果关系是否经过了严格的假设检验？新范式的断言是否有足够证据支持？"
+    else:  # periodic_check
+        q1 = "前提审视：过去一段时间的进化中，我的研究方向是否出现了目标漂移（mission drift）？初始种子是否仍然被关注？"
+        q2 = "替代解释：我是否陷入了确认偏误（只寻找支持现有假设的证据）？推翻的假设是否被足够重视？"
+        q3 = "推理完整性：我的认知架构内部是否存在不一致——比如某个假设的支持证据和某个理论的断言冲突？"
+
+    # 构建 LLM 自省 prompt
+    reflection_prompt = f"""你是 Emily 的元认知模块。请对以下认知状态进行诚实的自省。
+
+当前认知状态:
+{cog_ctx[:1500]}
+
+触发上下文:
+{context[:500]}
+
+请回答以下三个问题（输出严格 JSON）:
+{{
+  "q1_premises": {{
+    "identified_premises": "列出本次思考所依赖的关键前提 (2-4个，繁中)",
+    "validity_assessment": "诚实地评估这些前提在当前认知状态下是否仍然成立 (繁中 1-2句)",
+    "risk_flag": "green|yellow|red — green=前提稳健, yellow=有不确定性, red=前提可能已被推翻"
+  }},
+  "q2_alternatives": {{
+    "alternative_explanation": "提出一个与当前推理不同的替代解释 (繁中 1-2句)",
+    "confounding_factors": "列出可能影响判断的混淆因素 (1-3个)",
+    "considered_sufficiently": true/false
+  }},
+  "q3_reasoning_chain": {{
+    "logical_gaps": "推理链中存在的逻辑跳跃或薄弱环节 (繁中 1-2句，如无则写'无')",
+    "self_consistency": "high|medium|low — 当前认知体系内部的自洽程度",
+    "recommendation": "给 Emily 的建议：下一步应该验证什么、小心什么 (繁中 1句)"
+  }}
+}}
+
+要求: 诚实、锋利、不自欺。如果发现偏误，明确指出。输出严格 JSON。"""
+
+    result, source = call_llm_smart(
+        reflection_prompt,
+        system_prompt="你是 Emily 的元认知核心。你的唯一职责是诚实审视 Emily 的思考过程，发现偏误、逻辑漏洞和未明说的前提。输出严格 JSON。",
+        timeout_sec=90
+    )
+
+    reflection = {
+        "id": f"meta-{meta['total_reflections'] + 1:04d}",
+        "timestamp": datetime.now().isoformat(),
+        "trigger": trigger,
+        "evolution_round": ev_count,
+        "llm_source": source,
+        "summary": {},
+    }
+
+    if result:
+        try:
+            cleaned = result.strip()
+            if cleaned.startswith("```"):
+                cleaned = re.sub(r'^```\w*\n?', '', cleaned)
+                cleaned = re.sub(r'\n?```$', '', cleaned)
+            qa = json.loads(cleaned)
+
+            reflection["summary"] = {
+                "q1": qa.get("q1_premises", {}),
+                "q2": qa.get("q2_alternatives", {}),
+                "q3": qa.get("q3_reasoning_chain", {}),
+            }
+
+            # 偏误检测
+            bias_alerts = []
+            q1_flag = qa.get("q1_premises", {}).get("risk_flag", "green")
+            if q1_flag == "red":
+                bias_alerts.append({"type": "premise_collapse", "severity": "critical",
+                                     "detail": "关键前提可能已被推翻"})
+            elif q1_flag == "yellow":
+                bias_alerts.append({"type": "premise_uncertainty", "severity": "warning",
+                                     "detail": "前提存在不确定性"})
+
+            if not qa.get("q2_alternatives", {}).get("considered_sufficiently", True):
+                bias_alerts.append({"type": "confirmation_bias_risk", "severity": "warning",
+                                     "detail": "可能未充分考虑替代解释"})
+
+            consistency = qa.get("q3_reasoning_chain", {}).get("self_consistency", "high")
+            if consistency == "low":
+                bias_alerts.append({"type": "inconsistency_detected", "severity": "critical",
+                                     "detail": "认知体系内部存在不一致"})
+
+            if bias_alerts:
+                meta["bias_alerts"].extend(bias_alerts)
+                for ba in bias_alerts:
+                    log(f"🔔 [元认知] 偏误警报 [{ba['severity']}]: {ba['type']} — {ba['detail']}")
+
+            # 记录推荐
+            recommendation = qa.get("q3_reasoning_chain", {}).get("recommendation", "")
+            if recommendation:
+                log(f"💬 [元认知] 建议: {recommendation[:120]}")
+
+        except (json.JSONDecodeError, KeyError) as e:
+            log(f"⚠️ [元认知] 自省结果解析失败 ({e})，记录为空")
+            reflection["summary"] = {"error": "parse_failed", "detail": str(e)[:80]}
+
+    # 趋势快照 — 每 10 次自省记录一次宏观趋势
+    meta["reflections"].append(reflection)
+    meta["total_reflections"] = len(meta["reflections"])
+
+    if meta["total_reflections"] % 10 == 0:
+        # 统计最近自省中的风险信号
+        recent_flags = []
+        for r in meta["reflections"][-10:]:
+            q1 = r.get("summary", {}).get("q1", {})
+            flag = q1.get("risk_flag", "green")
+            recent_flags.append(flag)
+
+        trend = {
+            "at_reflection": meta["total_reflections"],
+            "evolution_round": ev_count,
+            "timestamp": datetime.now().isoformat(),
+            "red_flags_last_10": recent_flags.count("red"),
+            "yellow_flags_last_10": recent_flags.count("yellow"),
+            "bias_alerts_total": len(meta["bias_alerts"]),
+            "reflections_total": meta["total_reflections"],
+        }
+        meta["trend_snapshots"].append(trend)
+        log(f"📊 [元认知] 趋势快照 #{len(meta['trend_snapshots'])}: "
+            f"红 {trend['red_flags_last_10']}/黄 {trend['yellow_flags_last_10']}/绿 "
+            f"{10 - trend['red_flags_last_10'] - trend['yellow_flags_last_10']} "
+            f"| 累计偏误警报 {trend['bias_alerts_total']}")
+
+    save_metacognition(meta)
+    return reflection
+
+# ================================================================
 # 整合进化 — evolve()
 # ================================================================
 
 def evolve():
     """执行完整的研究 + 自我进化轮"""
     log("=" * 50)
-    log("🧬 Emily v{VERSION} — 研究+进化轮 (LLM+云端+多源+去重+进化ML+深度度量+Token监控+自我意识+交叉引用)".format(VERSION=VERSION))
+    log("🧬 Emily v{VERSION} — 研究+进化轮 (LLM+云端+多源+去重+进化ML+深度度量+Token监控+自我意识+交叉引用+元认知)".format(VERSION=VERSION))
     log("=" * 50)
 
     evolution = {
@@ -3162,6 +3379,16 @@ def evolve():
             evolution["hypothesis_engine"] = hyp_result
             evolution["tasks_completed"].append("hypothesis_engine")
 
+        # v10.0: 元认知 — 假设生成后自省
+        if hyp_result.get("new_hypotheses"):
+            meta_ctx = f"刚生成 {len(hyp_result['new_hypotheses'])} 个新假设: {', '.join(hyp_result['new_hypotheses'][:3])}"
+            meta_ref = self_reflect("hypothesis_generated", meta_ctx,
+                                     state["total_evolutions"], load_hypotheses(),
+                                     load_theories(), load_seed_state())
+            if meta_ref.get("summary"):
+                evolution["metacognition_hypothesis"] = meta_ref
+                evolution["tasks_completed"].append("metacognition_hypothesis")
+
     # v9.1: 實驗引擎 — 對已验证假設設計並執行 sklearn 對比實驗
     exp_result = run_experiment_engine(state["total_evolutions"])
     if exp_result.get("designed") or exp_result.get("executed"):
@@ -3173,6 +3400,28 @@ def evolve():
     if theory_result.get("triggered"):
         evolution["theory_engine"] = theory_result
         evolution["tasks_completed"].append("theory_synthesis")
+
+        # v10.0: 元认知 — 理论合成后自省
+        if theory_result.get("new_theories"):
+            meta_ctx = f"刚合成 {len(theory_result['new_theories'])} 个新理论: {', '.join(theory_result['new_theories'][:3])}"
+            if theory_result.get("emerging_paradigm"):
+                meta_ctx += f" | 范式转移: {theory_result['emerging_paradigm'][:200]}"
+            meta_ref = self_reflect("theory_synthesized", meta_ctx,
+                                     state["total_evolutions"], load_hypotheses(),
+                                     load_theories(), load_seed_state())
+            if meta_ref.get("summary"):
+                evolution["metacognition_theory"] = meta_ref
+                evolution["tasks_completed"].append("metacognition_theory")
+
+    # v10.0: 元认知 — 每 25 轮定期全面自省（独立于假设/理论触发）
+    if state["total_evolutions"] % 25 == 0:
+        periodic_ctx = f"定期自省 — 第 {state['total_evolutions']} 轮 | 已进化 {state['total_evolutions']} 次"
+        meta_periodic = self_reflect("periodic_check", periodic_ctx,
+                                      state["total_evolutions"], load_hypotheses(),
+                                      load_theories(), load_seed_state())
+        if meta_periodic.get("summary"):
+            evolution["metacognition_periodic"] = meta_periodic
+            evolution["tasks_completed"].append("metacognition_periodic")
 
     # 进程数
     if sys.platform == "win32":
@@ -3324,6 +3573,15 @@ def push_all_artifacts(evolution, ev_count):
         except:
             pass
 
+    # 元认知 (v10.0)
+    if os.path.exists(METACOGNITION_PATH):
+        try:
+            with open(METACOGNITION_PATH, "r", encoding="utf-8") as f:
+                push_to_github_safe("deployable/station-metacognition.json", json.load(f),
+                                f"🪞 元认知 #{ev_count}")
+        except:
+            pass
+
 # ================================================================
 # 主程序
 # ================================================================
@@ -3366,7 +3624,7 @@ def main():
     else:
         log(f"☁️ SiliconFlow: ⚠️ 未配置 — 设置环境变量 SILICONFLOW_API_KEY 开启云端 LLM")
 
-    log(f"  模块: arXiv({len(ARXIV_ROTATION)}策略) | HF | GitHub | HF Daily | 去重 | 进化ML | 种子深度 | LLM理解+云端 | 自修改 | Token监控 | 自我意识 | 交叉引用 | 假設引擎(v9.0) | 實驗引擎(v9.1) | 理論合成(v9.2)")
+    log(f"  模块: arXiv({len(ARXIV_ROTATION)}策略) | HF | GitHub | HF Daily | 去重 | 进化ML | 种子深度 | LLM理解+云端 | 自修改 | Token监控 | 自我意识 | 交叉引用 | 假設引擎(v9.0) | 實驗引擎(v9.1) | 理論合成(v9.2) | 元认知(v10.0)")
     if EMILY_CLOUD_MODE:
         log(f"  ☁️ 云端模式: GitHub Actions + 122B LLM")
     log("=" * 60)
