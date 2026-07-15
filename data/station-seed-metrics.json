@@ -116,10 +116,10 @@
   "htm": {
     "name": "HTM",
     "total_new_papers": 5,
-    "total_watering": 7,
+    "total_watering": 8,
     "all_keywords_matched": [
-      "sparse distributed",
       "hierarchical temporal",
+      "sparse distributed",
       "anomaly detection"
     ],
     "avg_relevance_trend": [
@@ -129,11 +129,12 @@
       0.0,
       0.0,
       0.0,
-      1.0
+      1.0,
+      0.0
     ],
     "high_relevance_total": 0,
     "best_papers": [],
-    "last_updated": "2026-07-15T03:55:17.562416"
+    "last_updated": "2026-07-15T20:47:40.307423"
   },
   "non-transformer": {
     "name": "Non-Transformer Arch",

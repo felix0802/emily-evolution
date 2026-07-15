@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 52,
+  "_rotation_idx": 53,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 18,
@@ -340,7 +340,7 @@
   "htm": {
     "name": "HTM",
     "total_papers_found": 10,
-    "watering_count": 8,
+    "watering_count": 9,
     "history": [
       {
         "timestamp": "2026-07-07T08:08:03.935545",
@@ -449,6 +449,15 @@
             "seed_match_score": 1
           }
         ]
+      },
+      {
+        "timestamp": "2026-07-15T20:47:40.307654",
+        "papers_found": 0,
+        "duplicates": 3,
+        "irrelevant_filtered": 7,
+        "avg_relevance": 0.0,
+        "high_relevance": 0,
+        "papers": []
       }
     ],
     "keywords": [
@@ -463,7 +472,7 @@
       "anomaly detection",
       "continuous learning"
     ],
-    "last_watered": "2026-07-15T03:55:17.562742"
+    "last_watered": "2026-07-15T20:47:40.307650"
   },
   "spiking-nn": {
     "name": "Spiking Neural Networks",

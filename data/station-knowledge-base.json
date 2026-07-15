@@ -1,37 +1,6 @@
 {
   "sessions": [
     {
-      "timestamp": "2026-07-02T14:16:53.533053",
-      "arxiv_papers_count": 20,
-      "arxiv_top_keywords": [
-        "llm",
-        "learning",
-        "theoria",
-        "verification",
-        "offer",
-        "cannot",
-        "state",
-        "prediction",
-        "separation",
-        "hypothesis"
-      ],
-      "huggingface_models_tracked": 10,
-      "huggingface_top_tasks": [
-        "sentence-similarity",
-        "fill-mask",
-        "text-ranking",
-        "feature-extraction",
-        "unknown"
-      ],
-      "ml_benchmarks_run": 10,
-      "ml_top_classifier": "RandomForest",
-      "evolution": {
-        "techniques_discovered": 3,
-        "techniques_adopted": 0,
-        "decisions": 0
-      }
-    },
-    {
       "timestamp": "2026-07-02T14:37:37.265315",
       "arxiv_papers_count": 20,
       "arxiv_top_keywords": [
@@ -3774,10 +3743,52 @@
         "seed_name": "Liquid Networks",
         "papers_found": 8
       }
+    },
+    {
+      "timestamp": "2026-07-15T20:47:45.981601",
+      "arxiv_papers_count": 21,
+      "arxiv_top_keywords": [
+        "diffusion",
+        "video",
+        "metric",
+        "skin",
+        "generation",
+        "task",
+        "agents",
+        "context",
+        "ball",
+        "another"
+      ],
+      "arxiv_strategies": [
+        "cs.CV 最新",
+        "cs.AI+cs.LG 混合",
+        "cs.CL+cs.CV 混合"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "fill-mask",
+        "text-generation",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [],
+      "ml_total_tests": 0,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 15,
+        "adopted": 0,
+        "decisions": 0
+      },
+      "seed_watering": {
+        "seed_name": "HTM",
+        "papers_found": 3
+      }
     }
   ],
   "total_sessions": 101,
-  "last_updated": "2026-07-15T18:51:25.791957",
+  "last_updated": "2026-07-15T20:47:45.981611",
   "evolution_summary": {
     "total_adopted": 34,
     "adopted_list": [
@@ -3829,7 +3840,7 @@
       },
       "htm": {
         "name": "HTM",
-        "watering": 8,
+        "watering": 9,
         "papers": 10
       },
       "spiking-nn": {
@@ -3921,12 +3932,12 @@
         "name": "HTM",
         "new_papers": 5,
         "keywords_matched": [
-          "sparse distributed",
           "hierarchical temporal",
+          "sparse distributed",
           "anomaly detection"
         ],
         "high_relevance_total": 0,
-        "avg_relevance_latest": 1.0,
+        "avg_relevance_latest": 0.0,
         "best_papers_count": 0
       },
       "non-transformer": {
@@ -3983,6 +3994,6 @@
         "best_papers_count": 0
       }
     },
-    "last_evolution": "2026-07-15T18:51:25.792488"
+    "last_evolution": "2026-07-15T20:47:45.982144"
   }
 }
