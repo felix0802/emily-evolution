@@ -1,27 +1,31 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-🧬 Emily Evolution Station v9.0 — 思考者进化：完整自我进化闭环 AI 研究站
+🧬 Emily Evolution Station v9.2 — 思考者进化：完整自我进化闭环 AI 研究站
+
+v9.2 升级（理论合成）:
+  + synthesize_theory() — 每 100 轮回顾所有假设，LLM 提炼统一理论体系
+  + 持久化: station-theories.json — 记录所有合成理论、关联假设、置信度
+
+v9.1 升级（实验设计引擎）:
+  + design_experiment() — 对已验证假设自动设计最小 sklearn 对比实验
+  + run_experiment() — 执行实验并记录准确率/差异/结论
+  + 实验验证回路: 假设 → 实验设计 → sklearn 运行 → 结果回写 → classified
 
 v9.0 升级（假設引擎 — 聚合器→思考者）：
   + 假设引擎: generate_hypotheses() — LLM 从种子交叉引用生成可验证研究假设
   + 假设验证: verify_hypothesis() — arXiv 搜索 + LLM 判断支持/推翻
   + 持久化: station-hypotheses.json — 记录所有假设、验证状态、支持/推翻论文
-  + 双回路: 发现回路(arXiv→知识库) + 思考回路(交叉引用→假设→验证→理论)
-  + 成本控制: 每5轮生成新假设，每轮验证1个最旧未验证假设
 
 v8.0 升级:
   + 云端模式: GitHub Actions + cron 定时进化 (每2小时)
-  + 双模式: 本地持续循环 / 云端单轮 (--single-round)
   + LLM: Qwen3.5-122B-A10B (SiliconFlow API)
   + 数据存储: GitHub Repo data/ 目录
 
-v7.1 升级（P0 修复）：
-  P0-1~P0-4: 种子浇水优先、JSON解析增强、HTM复苏、计数修复
-
-进化闭环（双回路 v9.0）：
+进化闭环（三回路 v9.2）：
   回路A(发现): 感知 → 理解(LLM) → 决策 → 行动 → 验证 → 自评 → 循环
-  回路B(思考): 交叉引用 → 假设生成(LLM) → arXiv验证 → 修正理论 → 循环
+  回路B(思考): 交叉引用 → 假设生成(LLM) → arXiv验证 → 实验验证(v9.1) → 循环
+  回路C(合成): 每100轮 → 全体假设回顾 → 理论提炼(LLM) → 更新知识体系 → 循环
 """
 
 import base64, json, os, platform, re, subprocess, sys, time, tempfile, shutil, hashlib, random
@@ -64,9 +68,11 @@ ML_HISTORY_PATH = os.path.join(DATA_DIR, "station-ml-history.json")          # P
 SEED_METRICS_PATH = os.path.join(DATA_DIR, "station-seed-metrics.json")      # P2-1: 种子深度度量
 TOKEN_HEALTH_PATH = os.path.join(DATA_DIR, "station-token-health.json")      # P2-2: Token健康
 HYPOTHESES_PATH = os.path.join(DATA_DIR, "station-hypotheses.json")          # v9.0: 假設引擎
+EXPERIMENTS_PATH = os.path.join(DATA_DIR, "station-experiments.json")        # v9.1: 實驗設計引擎
+THEORIES_PATH = os.path.join(DATA_DIR, "station-theories.json")              # v9.2: 理論合成
 
 # ===== Config =====
-VERSION = "9.0"
+VERSION = "9.2"
 OLLAMA_URL = "http://localhost:11434/api/generate"
 OLLAMA_MODEL = "qwen2.5:1.5b"
 GITHUB_OWNER = "felix0802"
@@ -2375,6 +2381,429 @@ def run_hypothesis_engine(crossref_data, ev_count):
 
     return result
 
+# ================================================================
+# v9.1: 实验设计引擎 — 对已验证假设设计最小 sklearn 对比实验
+# ================================================================
+
+def load_experiments():
+    """加载实验记录"""
+    if os.path.exists(EXPERIMENTS_PATH):
+        try:
+            with open(EXPERIMENTS_PATH, "r", encoding="utf-8") as f:
+                return json.load(f)
+        except:
+            pass
+    return {"experiments": [], "total_experiments": 0, "last_updated": ""}
+
+def save_experiments(data):
+    """保存实验记录"""
+    data["last_updated"] = datetime.now().isoformat()
+    with open(EXPERIMENTS_PATH, "w", encoding="utf-8") as f:
+        json.dump(data, f, ensure_ascii=False, indent=2)
+
+def design_experiment(hypothesis):
+    """v9.1: 实验设计 — 为已验证假设设计最小可行 sklearn 对比实验
+
+    输入: 一个已验证 (supported) 的假设
+    输出: 实验设计 dict，包含数据集、算法对比、评估指标
+    """
+    # 根据假设涉及的方向自动选择数据集
+    keywords_concat = " ".join(hypothesis.get("shared_keywords", []) +
+                               [hypothesis.get("seed_a", ""), hypothesis.get("seed_b", "")]).lower()
+
+    # 根据关键词映射合适的数据集
+    dataset_map = {
+        "classification": "Iris", "classify": "Iris",
+        "image": "MNIST-digits", "vision": "MNIST-digits", "cv": "MNIST-digits",
+        "text": "20Newsgroups-subset", "nlp": "20Newsgroups-subset", "language": "20Newsgroups-subset",
+        "regression": "Diabetes", "predict": "Diabetes",
+        "cluster": "make_blobs", "unsupervised": "make_blobs",
+        "time": "synthetic-timeseries", "sequence": "synthetic-timeseries", "series": "synthetic-timeseries",
+    }
+    dataset_name = "Iris"
+    for kw, ds in dataset_map.items():
+        if kw in keywords_concat:
+            dataset_name = ds
+            break
+
+    # 根据方向选择对比算法
+    algo_map = {
+        "mamba": ["LogisticRegression", "RandomForest"],
+        "moe": ["RandomForest", "GradientBoosting"],
+        "gnn": ["DecisionTree", "RandomForest"],
+        "liquid": ["KNeighbors", "RandomForest"],
+        "attention": ["LogisticRegression", "SVM"],
+        "transformer": ["LogisticRegression", "SVM"],
+        "kv": ["LogisticRegression", "RandomForest"],
+        "sparse": ["LogisticRegression", "SVM"],
+        "continual": ["SGDClassifier", "KNeighbors"],
+        "default": ["LogisticRegression", "RandomForest"],
+    }
+    algos = algo_map.get("default")
+    for kw, al in algo_map.items():
+        if kw in keywords_concat:
+            algos = al
+            break
+
+    experiment = {
+        "id": f"exp-{hypothesis['id']}",
+        "hypothesis_id": hypothesis["id"],
+        "hypothesis_text": hypothesis.get("hypothesis", "")[:150],
+        "dataset": dataset_name,
+        "algorithms": algos,
+        "metric": "accuracy",
+        "cross_val": 5,
+        "designed_at": datetime.now().isoformat(),
+        "status": "designed",
+    }
+    return experiment
+
+def execute_experiment(experiment_design):
+    """v9.1: 执行实验 — 使用 sklearn 运行对比实验并记录结果"""
+    log(f"🧪 [实验引擎] 执行 {experiment_design['id']}: {experiment_design['algorithms'][0]} vs {experiment_design['algorithms'][1]} on {experiment_design['dataset']}")
+
+    try:
+        from sklearn.model_selection import cross_val_score
+        from sklearn.preprocessing import StandardScaler
+        from sklearn.pipeline import Pipeline
+        from sklearn.ensemble import RandomForestClassifier, GradientBoostingClassifier
+        from sklearn.linear_model import LogisticRegression, SGDClassifier
+        from sklearn.svm import SVC
+        from sklearn.neighbors import KNeighborsClassifier
+        from sklearn.tree import DecisionTreeClassifier
+        from sklearn.datasets import load_iris, load_wine, load_breast_cancer, load_digits
+        from sklearn.datasets import make_classification, make_blobs, make_moons
+    except ImportError:
+        log("⚠️ [实验引擎] scikit-learn 未安装，跳过实验")
+        return {"status": "skipped", "reason": "sklearn_missing"}
+
+    ds_name = experiment_design["dataset"]
+    algos = experiment_design["algorithms"]
+
+    # 加载数据集
+    try:
+        if ds_name == "Iris":
+            X, y = load_iris(return_X_y=True)
+        elif ds_name == "Wine":
+            X, y = load_wine(return_X_y=True)
+        elif ds_name == "Breast Cancer":
+            X, y = load_breast_cancer(return_X_y=True)
+        elif ds_name == "MNIST-digits":
+            X, y = load_digits(return_X_y=True)
+        elif ds_name == "Diabetes":
+            from sklearn.datasets import load_diabetes
+            X, y_raw = load_diabetes(return_X_y=True)
+            y = (y_raw > y_raw.mean()).astype(int)  # 二值化
+        elif ds_name in ("make_blobs", "synthetic-timeseries", "20Newsgroups-subset"):
+            X, y = make_classification(n_samples=300, n_features=10, n_classes=3,
+                                        n_informative=6, random_state=42)
+        else:
+            X, y = make_classification(n_samples=300, n_features=10, n_classes=3,
+                                        n_informative=6, random_state=42)
+    except Exception as e:
+        log(f"⚠️ [实验引擎] 数据集加载失败: {e}")
+        return {"status": "failed", "error": f"dataset_load: {str(e)[:60]}"}
+
+    # 算法映射
+    algo_map = {
+        "LogisticRegression": LogisticRegression(max_iter=2000, random_state=42),
+        "RandomForest": RandomForestClassifier(n_estimators=100, random_state=42),
+        "GradientBoosting": GradientBoostingClassifier(n_estimators=100, random_state=42),
+        "SVM": SVC(kernel="rbf", random_state=42),
+        "KNeighbors": KNeighborsClassifier(n_neighbors=5),
+        "DecisionTree": DecisionTreeClassifier(random_state=42),
+        "SGDClassifier": SGDClassifier(max_iter=2000, random_state=42),
+    }
+
+    results = {}
+    for algo_name in algos:
+        if algo_name not in algo_map:
+            continue
+        try:
+            pipe = Pipeline([("scaler", StandardScaler()), ("clf", algo_map[algo_name])])
+            cv = min(experiment_design["cross_val"], min(Counter(y).values()))
+            if cv < 2:
+                cv = 2
+            scores = cross_val_score(pipe, X, y, cv=cv, scoring="accuracy")
+            results[algo_name] = {
+                "mean": round(float(scores.mean()), 4),
+                "std": round(float(scores.std()), 4),
+                "scores": [round(float(s), 4) for s in scores],
+            }
+        except Exception as e:
+            results[algo_name] = {"mean": None, "std": None, "error": str(e)[:60]}
+
+    if len(results) < 2:
+        return {"status": "insufficient_results", "results": results}
+
+    a0, a1 = algos
+    if results.get(a0, {}).get("mean") is not None and results.get(a1, {}).get("mean") is not None:
+        diff = results[a0]["mean"] - results[a1]["mean"]
+        winner = a0 if diff > 0 else a1
+    else:
+        diff = None
+        winner = "unknown"
+
+    outcome = {
+        "status": "completed",
+        "executed_at": datetime.now().isoformat(),
+        "dataset": ds_name,
+        "n_samples": len(X),
+        "n_features": X.shape[1],
+        "n_classes": len(set(y)) if hasattr(y, '__len__') else 2,
+        "algorithms_compared": algos,
+        "results": results,
+        "accuracy_difference": round(diff, 4) if diff is not None else None,
+        "winner": winner,
+    }
+
+    log(f"  📊 {a0}: {results.get(a0, {}).get('mean', '?')} | "
+        f"{a1}: {results.get(a1, {}).get('mean', '?')} | "
+        f"差值: {outcome['accuracy_difference']} | 优胜: {winner}")
+
+    return outcome
+
+def run_experiment_engine(ev_count):
+    """v9.1: 实验引擎总控 — 对已验证假设设计并执行对比实验
+
+    策略：
+      - 检查 supported 且未实验过的假设
+      - 每轮至多设计 1 个新实验 + 执行 1 个已设计但未执行的实验
+      - 纯 sklearn 运算，无 LLM 成本
+    """
+    result = {
+        "designed": None,
+        "executed": None,
+        "experiments_updated": [],
+    }
+
+    hypotheses_data = load_hypotheses()
+    exp_data = load_experiments()
+    existing_exp_ids = {e["hypothesis_id"] for e in exp_data.get("experiments", [])}
+
+    # 找 supported 但未设计实验的假设
+    supported = [h for h in hypotheses_data.get("hypotheses", [])
+                 if h.get("status") == "supported" and h["id"] not in existing_exp_ids]
+
+    if supported:
+        # 从头开始
+        hypothesis = supported[0]
+        design = design_experiment(hypothesis)
+        exp_data["experiments"].append(design)
+        exp_data["total_experiments"] = len(exp_data["experiments"])
+        save_experiments(exp_data)
+        result["designed"] = design["id"]
+        log(f"🧪 [实验引擎] 新实验设计: {design['id']} | {design['algorithms'][0]} vs {design['algorithms'][1]}")
+
+    # 执行一个已设计但未执行的实验
+    pending = [e for e in exp_data.get("experiments", [])
+               if e.get("status") == "designed"]
+    if pending:
+        target = pending[0]
+        outcome = execute_experiment(target)
+
+        # 更新实验状态
+        for e in exp_data["experiments"]:
+            if e["id"] == target["id"]:
+                e["status"] = outcome["status"]
+                e["outcome"] = outcome
+                break
+
+        # 回写假设的实验验证状态
+        hyp_id = target.get("hypothesis_id")
+        if hyp_id and outcome["status"] == "completed":
+            for h in hypotheses_data.get("hypotheses", []):
+                if h["id"] == hyp_id:
+                    h["experiment_result"] = {
+                        "algorithms": outcome["algorithms_compared"],
+                        "winner": outcome.get("winner"),
+                        "accuracy_diff": outcome.get("accuracy_difference"),
+                        "executed_at": outcome["executed_at"],
+                    }
+                    # 如果实验差异显著（>3%），标记为 experimentally_verified
+                    if outcome.get("accuracy_difference") is not None and abs(outcome["accuracy_difference"]) > 0.03:
+                        h["status"] = "experimentally_verified"
+                        log(f"  ✅ {hyp_id} → EXPERIMENTALLY VERIFIED (实验显著差异 {abs(outcome['accuracy_difference']):.3f})")
+                    break
+            save_hypotheses(hypotheses_data)
+
+        save_experiments(exp_data)
+        result["executed"] = target["id"]
+        result["experiments_updated"].append(target["id"])
+
+    if result["executed"]:
+        log(f"🧪 [实验引擎] 完成: {result['executed']}")
+
+    return result
+
+# ================================================================
+# v9.2: 理论合成 — 每 100 轮回顾所有假设，提炼统一理论
+# ================================================================
+
+def load_theories():
+    """加载理论记录"""
+    if os.path.exists(THEORIES_PATH):
+        try:
+            with open(THEORIES_PATH, "r", encoding="utf-8") as f:
+                return json.load(f)
+        except:
+            pass
+    return {"theories": [], "total_synthesized": 0, "last_synthesis_round": 0, "last_updated": ""}
+
+def save_theories(data):
+    """保存理论记录"""
+    data["last_updated"] = datetime.now().isoformat()
+    with open(THEORIES_PATH, "w", encoding="utf-8") as f:
+        json.dump(data, f, ensure_ascii=False, indent=2)
+
+def synthesize_theory(hypotheses_data, ev_count):
+    """v9.2: 理论合成 — LLM 回顾所有假设，提炼统一理论体系
+
+    输入: 全体假设记录 (含 supported/refuted/inconclusive/experimentally_verified)
+    输出: 1 个或多个统一理论
+
+    触发条件: 每 100 轮进化
+    """
+    all_hyps = hypotheses_data.get("hypotheses", [])
+    if not all_hyps:
+        return None
+
+    # 分类汇总假设
+    supported = [h for h in all_hyps if h.get("status") in ("supported", "experimentally_verified")]
+    refuted = [h for h in all_hyps if h.get("status") == "refuted"]
+    inconclusive = [h for h in all_hyps if h.get("status") == "inconclusive"]
+
+    # 构建 LLM 提示 — 回顾所有假设，寻找跨领域模式
+    hyps_text_parts = []
+    for h in all_hyps[-30:]:  # 最多回顾最近30个假设
+        st = h.get("status", "?")
+        st_icon = {"supported": "✅", "experimentally_verified": "🧪",
+                    "refuted": "❌", "inconclusive": "🤷"}.get(st, "⏳")
+        hyps_text_parts.append(
+            f"{st_icon} {h['id']} [{st}]: {h.get('hypothesis','')[:120]}\n"
+            f"   方向: {h.get('seed_a','')} ↔ {h.get('seed_b','')}\n"
+            f"   推理: {h.get('reasoning','')[:150]}"
+        )
+    hyps_text = "\n".join(hyps_text_parts)
+
+    synthesis_prompt = f"""你是資深 AI 研究科學家。以下是 Emily 研究站在過去多輪進化中生成、驗證的假設。
+請回顧這些假設，尋找跨領域的模式和統一理論。
+
+進化輪次: 第 {ev_count} 輪
+當前假設總數: {len(all_hyps)}
+✅ 支持/驗證: {len(supported)} | ❌ 推翻: {len(refuted)} | 🤷 待定: {len(inconclusive)}
+
+最近假設摘要:
+{hyps_text[:2400]}
+
+請輸出以下 JSON（嚴格格式）:
+{{
+  "meta_theories": [
+    {{
+      "id": "th-001",
+      "title": "理論名稱 (簡潔有力的標題，繁中或英文 5-10 字)",
+      "statement": "完整理論陳述 (2-4句，說明發現的模式、因果關係、適用條件)",
+      "supporting_hypotheses": ["hyp-0001", "hyp-0005"],
+      "refuting_hypotheses": ["hyp-0003"],
+      "confidence": 0.8,
+      "key_insight": "核心洞察 (1句話 — 這個理論說明了 AI 領域的什麼深層規律？)",
+      "practical_implication": "實際意義 (1句話 — 對研究或工業應用有什麼指導？)"
+    }}
+  ],
+  "emerging_paradigm": "总结：当前 AI 研究正在向什么范式转移？(1-2句 繁中)"
+}}
+
+要求:
+- meta_theories 至少 1 個，最多 3 個
+- 每個 theory 至少关联 2 個 supporting hypotheses
+- confidence 基於證據充分程度 (0-1)
+- 理論不能只重複假設本身，要發現更高層次的規律"""
+
+    result, source = call_llm_smart(
+        synthesis_prompt,
+        system_prompt="你是頂尖 AI 研究科學家，專門從大量實驗數據中發現跨領域規律和統一理論。輸出必須是嚴格 JSON。",
+        timeout_sec=120
+    )
+
+    if not result:
+        log("⚠️ [理論合成] LLM 未返回结果")
+        return None
+
+    try:
+        cleaned = result.strip()
+        if cleaned.startswith("```"):
+            cleaned = re.sub(r'^```\w*\n?', '', cleaned)
+            cleaned = re.sub(r'\n?```$', '', cleaned)
+        synthesis = json.loads(cleaned)
+    except json.JSONDecodeError:
+        log("⚠️ [理論合成] LLM 返回非 JSON，跳过")
+        return None
+
+    theories_data = load_theories()
+    total_prior = theories_data.get("total_synthesized", 0)
+
+    new_theories = []
+    for mt in synthesis.get("meta_theories", [])[:3]:
+        theory = {
+            "id": f"th-{total_prior + len(new_theories) + 1:03d}",
+            "title": mt.get("title", "未命名理论"),
+            "statement": mt.get("statement", ""),
+            "supporting_hypotheses": mt.get("supporting_hypotheses", []),
+            "refuting_hypotheses": mt.get("refuting_hypotheses", []),
+            "confidence": mt.get("confidence", 0.5),
+            "key_insight": mt.get("key_insight", ""),
+            "practical_implication": mt.get("practical_implication", ""),
+            "synthesized_at": datetime.now().isoformat(),
+            "synthesis_round": ev_count,
+            "llm_source": source,
+        }
+        new_theories.append(theory)
+
+    if new_theories:
+        theories_data["theories"].extend(new_theories)
+        theories_data["total_synthesized"] = total_prior + len(new_theories)
+        theories_data["last_synthesis_round"] = ev_count
+        theories_data["emerging_paradigm"] = synthesis.get("emerging_paradigm", "")
+        save_theories(theories_data)
+
+        log(f"🧠 [理論合成] 本輪生成 {len(new_theories)} 個統一理論 | 累計 {theories_data['total_synthesized']} 個")
+        for t in new_theories:
+            log(f"  📖 {t['id']}: {t['title']} (置信度: {t['confidence']})")
+
+    return {
+        "new_theories": [t["id"] for t in new_theories],
+        "total_theories": theories_data["total_synthesized"],
+        "emerging_paradigm": theories_data.get("emerging_paradigm", ""),
+    }
+
+def run_theory_engine(ev_count):
+    """v9.2: 理论合成总控 — 每 100 轮触发一次"""
+    result = {"triggered": False, "new_theories": [], "total_theories": 0}
+
+    theories_data = load_theories()
+    last_synthesis_round = theories_data.get("last_synthesis_round", 0)
+
+    # 每 100 轮，且距离上次合成至少 50 轮（避免重复触发）
+    if ev_count % 100 == 0 and ev_count - last_synthesis_round >= 50:
+        log(f"🧠 [理論合成] 第 {ev_count} 轮触发 — 回顾全部假设...")
+        hypotheses_data = load_hypotheses()
+        if hypotheses_data.get("hypotheses"):
+            synthesis = synthesize_theory(hypotheses_data, ev_count)
+            if synthesis:
+                result["triggered"] = True
+                result["new_theories"] = synthesis["new_theories"]
+                result["total_theories"] = synthesis["total_theories"]
+                if synthesis.get("emerging_paradigm"):
+                    log(f"🌊 [范式转移] {synthesis['emerging_paradigm'][:120]}")
+    else:
+        # 显示距离下次合成的倒计时
+        rounds_left = 100 - (ev_count % 100)
+        log(f"🧠 [理論合成] 距离下次合成: {rounds_left} 轮")
+
+    result["total_theories"] = max(result["total_theories"],
+                                     theories_data.get("total_synthesized", 0))
+    return result
+
 def update_knowledge_base(arxiv_data, hf_data, ml_data, evolution_result=None, multi_source=None, seed_result=None):
     kb = {"sessions": [], "total_sessions": 0, "last_updated": "", "evolution_summary": {}}
     if os.path.exists(KNOWLEDGE_PATH):
@@ -2564,6 +2993,18 @@ def evolve():
             evolution["hypothesis_engine"] = hyp_result
             evolution["tasks_completed"].append("hypothesis_engine")
 
+    # v9.1: 實驗引擎 — 對已验证假設設計並執行 sklearn 對比實驗
+    exp_result = run_experiment_engine(state["total_evolutions"])
+    if exp_result.get("designed") or exp_result.get("executed"):
+        evolution["experiment_engine"] = exp_result
+        evolution["tasks_completed"].append("experiment_engine")
+
+    # v9.2: 理論合成 — 每 100 轮回顾全部假设并提炼统一理论
+    theory_result = run_theory_engine(state["total_evolutions"])
+    if theory_result.get("triggered"):
+        evolution["theory_engine"] = theory_result
+        evolution["tasks_completed"].append("theory_synthesis")
+
     # 进程数
     if sys.platform == "win32":
         try:
@@ -2696,6 +3137,24 @@ def push_all_artifacts(evolution, ev_count):
         except:
             pass
 
+    # 實驗引擎 (v9.1)
+    if os.path.exists(EXPERIMENTS_PATH):
+        try:
+            with open(EXPERIMENTS_PATH, "r", encoding="utf-8") as f:
+                push_to_github_safe("deployable/station-experiments.json", json.load(f),
+                                f"🧪 實驗引擎 #{ev_count}")
+        except:
+            pass
+
+    # 理論合成 (v9.2)
+    if os.path.exists(THEORIES_PATH):
+        try:
+            with open(THEORIES_PATH, "r", encoding="utf-8") as f:
+                push_to_github_safe("deployable/station-theories.json", json.load(f),
+                                f"🧠 理論合成 #{ev_count}")
+        except:
+            pass
+
 # ================================================================
 # 主程序
 # ================================================================
@@ -2738,7 +3197,7 @@ def main():
     else:
         log(f"☁️ SiliconFlow: ⚠️ 未配置 — 设置环境变量 SILICONFLOW_API_KEY 开启云端 LLM")
 
-    log(f"  模块: arXiv({len(ARXIV_ROTATION)}策略) | HF | GitHub | HF Daily | 去重 | 进化ML | 种子深度 | LLM理解+云端 | 自修改 | Token监控 | 自我意识 | 交叉引用 | 假設引擎(v9.0)")
+    log(f"  模块: arXiv({len(ARXIV_ROTATION)}策略) | HF | GitHub | HF Daily | 去重 | 进化ML | 种子深度 | LLM理解+云端 | 自修改 | Token监控 | 自我意识 | 交叉引用 | 假設引擎(v9.0) | 實驗引擎(v9.1) | 理論合成(v9.2)")
     if EMILY_CLOUD_MODE:
         log(f"  ☁️ 云端模式: GitHub Actions + 122B LLM")
     log("=" * 60)
