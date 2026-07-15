@@ -35,6 +35,10 @@ jobs:
       - name: Run Evolution (Single Round)
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # v9.3: DeepSeek 優先 (用戶已充值)
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+          DEEPSEEK_MODEL: deepseek-chat
+          # SiliconFlow 備用
           SILICONFLOW_API_KEY: ${{ secrets.SILICONFLOW_API_KEY }}
           SILICONFLOW_MODEL: Qwen/Qwen3.5-122B-A10B
           EMILY_CLOUD_MODE: "1"
