@@ -34,6 +34,7 @@ jobs:
 
       - name: Run Evolution (Single Round)
         env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           SILICONFLOW_API_KEY: ${{ secrets.SILICONFLOW_API_KEY }}
           SILICONFLOW_MODEL: Qwen/Qwen3.5-122B-A10B
           EMILY_CLOUD_MODE: "1"
