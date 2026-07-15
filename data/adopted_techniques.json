@@ -307,6 +307,22 @@
         ],
         "decided_at": "2026-07-15T10:21:53.866507"
       }
+    },
+    {
+      "id": "quantization",
+      "name": "Model Quantization / Compression",
+      "adopted_at": "2026-07-15T03:55:29.620396",
+      "decision": {
+        "tech_id": "quantization",
+        "tech_name": "Model Quantization / Compression",
+        "action": "adopt",
+        "confidence": 0.33,
+        "reason": [
+          "持续观察(0.3)",
+          "多篇提及(2篇)→升级"
+        ],
+        "decided_at": "2026-07-15T03:55:29.619502"
+      }
     }
   ],
   "history": [
@@ -429,6 +445,12 @@
       "tech_id": "auto-prompt engineering",
       "tech_name": "Prompt Engineering",
       "timestamp": "2026-07-15T10:21:53.878365"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "quantization",
+      "tech_name": "Model Quantization / Compression",
+      "timestamp": "2026-07-15T03:55:29.620400"
     }
   ]
 }

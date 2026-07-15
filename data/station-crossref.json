@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-15T03:48:39.222283",
+  "timestamp": "2026-07-15T03:55:29.632089",
   "connections": [
     {
       "seed_a": "Mamba (SSM)",
@@ -13,7 +13,7 @@
         "state"
       ],
       "strength": 6,
-      "discovered_at": "2026-07-15T03:48:39.222253"
+      "discovered_at": "2026-07-15T03:55:29.632048"
     },
     {
       "seed_a": "Liquid Networks",
@@ -27,7 +27,7 @@
         "with"
       ],
       "strength": 5,
-      "discovered_at": "2026-07-15T03:48:39.222266"
+      "discovered_at": "2026-07-15T03:55:29.632066"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -39,7 +39,19 @@
         "with"
       ],
       "strength": 3,
-      "discovered_at": "2026-07-15T03:48:39.222257"
+      "discovered_at": "2026-07-15T03:55:29.632052"
+    },
+    {
+      "seed_a": "Liquid Networks",
+      "seed_b": "HTM",
+      "shared_keywords": [],
+      "shared_paper_concepts": [
+        "architecture",
+        "control",
+        "network"
+      ],
+      "strength": 3,
+      "discovered_at": "2026-07-15T03:55:29.632057"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -50,7 +62,17 @@
         "with"
       ],
       "strength": 2,
-      "discovered_at": "2026-07-15T03:48:39.222246"
+      "discovered_at": "2026-07-15T03:55:29.632037"
+    },
+    {
+      "seed_a": "Mamba (SSM)",
+      "seed_b": "HTM",
+      "shared_keywords": [],
+      "shared_paper_concepts": [
+        "driven"
+      ],
+      "strength": 1,
+      "discovered_at": "2026-07-15T03:55:29.632044"
     },
     {
       "seed_a": "Liquid Networks",
@@ -60,7 +82,7 @@
         "neural"
       ],
       "strength": 1,
-      "discovered_at": "2026-07-15T03:48:39.222261"
+      "discovered_at": "2026-07-15T03:55:29.632060"
     },
     {
       "seed_a": "Liquid Networks",
@@ -70,7 +92,7 @@
         "learning"
       ],
       "strength": 1,
-      "discovered_at": "2026-07-15T03:48:39.222263"
+      "discovered_at": "2026-07-15T03:55:29.632063"
     },
     {
       "seed_a": "Spiking Neural Networks",
@@ -80,7 +102,7 @@
         "efficient"
       ],
       "strength": 1,
-      "discovered_at": "2026-07-15T03:48:39.222272"
+      "discovered_at": "2026-07-15T03:55:29.632074"
     },
     {
       "seed_a": "Few-Shot Learning",
@@ -90,7 +112,7 @@
         "learning"
       ],
       "strength": 1,
-      "discovered_at": "2026-07-15T03:48:39.222277"
+      "discovered_at": "2026-07-15T03:55:29.632081"
     }
   ],
   "total_seeds": 10

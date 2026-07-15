@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 42,
+  "_rotation_idx": 43,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 18,
@@ -321,8 +321,8 @@
   },
   "htm": {
     "name": "HTM",
-    "total_papers_found": 9,
-    "watering_count": 7,
+    "total_papers_found": 10,
+    "watering_count": 8,
     "history": [
       {
         "timestamp": "2026-07-07T08:08:03.935545",
@@ -414,6 +414,23 @@
         "avg_relevance": 0.0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-07-15T03:55:17.562747",
+        "papers_found": 1,
+        "duplicates": 2,
+        "irrelevant_filtered": 7,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "Closing the Loop: An Access-Control Architecture for Automated, Anomaly-Driven Network Revocation in IoT Deployments",
+            "summary": "Network-based anomaly detection for IoT devices has matured to the point of reporting strong detection accuracy, yet most published systems stop at raising an alert and leave the question of automated enforcement to future work or to a programmable data plane that few real networks operate. This pap",
+            "published": "2026-07-13",
+            "url": "http://arxiv.org/abs/2607.11649v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -428,7 +445,7 @@
       "anomaly detection",
       "continuous learning"
     ],
-    "last_watered": "2026-07-14T17:43:49.730212"
+    "last_watered": "2026-07-15T03:55:17.562742"
   },
   "spiking-nn": {
     "name": "Spiking Neural Networks",

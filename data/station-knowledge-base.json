@@ -1,37 +1,6 @@
 {
   "sessions": [
     {
-      "timestamp": "2026-07-02T02:23:45.541762",
-      "arxiv_papers_count": 20,
-      "arxiv_top_keywords": [
-        "supervision",
-        "llm",
-        "agents",
-        "llms",
-        "lms",
-        "training",
-        "fixed",
-        "explanations",
-        "dense",
-        "long"
-      ],
-      "huggingface_models_tracked": 10,
-      "huggingface_top_tasks": [
-        "sentence-similarity",
-        "fill-mask",
-        "text-ranking",
-        "feature-extraction",
-        "unknown"
-      ],
-      "ml_benchmarks_run": 10,
-      "ml_top_classifier": "RandomForest",
-      "evolution": {
-        "techniques_discovered": 0,
-        "techniques_adopted": 0,
-        "decisions": 0
-      }
-    },
-    {
       "timestamp": "2026-07-02T04:25:57.396391",
       "arxiv_papers_count": 20,
       "arxiv_top_keywords": [
@@ -3653,12 +3622,54 @@
         "seed_name": "Liquid Networks",
         "papers_found": 8
       }
+    },
+    {
+      "timestamp": "2026-07-15T03:55:29.624765",
+      "arxiv_papers_count": 18,
+      "arxiv_top_keywords": [
+        "speculative",
+        "graph",
+        "language",
+        "neural",
+        "decoding",
+        "methods",
+        "context",
+        "group",
+        "feature",
+        "draft"
+      ],
+      "arxiv_strategies": [
+        "搜索: kv cache LLM",
+        "搜索: graph neural network recent",
+        "搜索: speculative decoding"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "fill-mask",
+        "text-generation",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [],
+      "ml_total_tests": 0,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 29,
+        "adopted": 1,
+        "decisions": 1
+      },
+      "seed_watering": {
+        "seed_name": "HTM",
+        "papers_found": 3
+      }
     }
   ],
   "total_sessions": 101,
-  "last_updated": "2026-07-15T03:48:39.216667",
+  "last_updated": "2026-07-15T03:55:29.624778",
   "evolution_summary": {
-    "total_adopted": 20,
+    "total_adopted": 21,
     "adopted_list": [
       "Knowledge Distillation",
       "World Models / Model-Based RL",
@@ -3679,7 +3690,8 @@
       "LoRA / Parameter-Efficient Fine-Tuning",
       "Image Generation",
       "Liquid Time",
-      "Prompt Engineering"
+      "Prompt Engineering",
+      "Model Quantization / Compression"
     ],
     "seeds": {
       "mamba": {
@@ -3694,8 +3706,8 @@
       },
       "htm": {
         "name": "HTM",
-        "watering": 7,
-        "papers": 9
+        "watering": 8,
+        "papers": 10
       },
       "spiking-nn": {
         "name": "Spiking Neural Networks",
@@ -3784,13 +3796,14 @@
       },
       "htm": {
         "name": "HTM",
-        "new_papers": 4,
+        "new_papers": 5,
         "keywords_matched": [
           "sparse distributed",
-          "hierarchical temporal"
+          "hierarchical temporal",
+          "anomaly detection"
         ],
         "high_relevance_total": 0,
-        "avg_relevance_latest": 0.0,
+        "avg_relevance_latest": 1.0,
         "best_papers_count": 0
       },
       "non-transformer": {
@@ -3827,6 +3840,6 @@
         "best_papers_count": 0
       }
     },
-    "last_evolution": "2026-07-15T03:48:39.217051"
+    "last_evolution": "2026-07-15T03:55:29.625257"
   }
 }
