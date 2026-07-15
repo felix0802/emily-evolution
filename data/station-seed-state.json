@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 48,
+  "_rotation_idx": 49,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 18,
@@ -1028,9 +1028,34 @@
   },
   "kv-cache": {
     "name": "KV Cache Optimization",
-    "total_papers_found": 0,
-    "watering_count": 1,
-    "history": [],
+    "total_papers_found": 2,
+    "watering_count": 2,
+    "history": [
+      {
+        "timestamp": "2026-07-15T11:19:09.355556",
+        "papers_found": 2,
+        "duplicates": 4,
+        "irrelevant_filtered": 4,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "MemDecay: Region-Aware KV Cache Eviction for Efficient LLM Agent Inference",
+            "summary": "Large language model (LLM) agents accumulate heterogeneous context, including system instructions, plans, user turns, retrieved documents, tool outputs, and intermediate reasoning, whose key-value (KV) cache can become a major memory bottleneck. Existing eviction policies generally apply the same at",
+            "published": "2026-07-12",
+            "url": "http://arxiv.org/abs/2607.10582v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "How Query Visibility Changes KV-Cache Compression Rankings: A Matched-Budget Audit",
+            "summary": "KV-cache compression methods are predominantly evaluated with the query appended to the context before compression -- a query-aware protocol. Yet the economic case for a compressed KV cache is reuse: compress a document once, answer many future questions against it. In that deployment, compression m",
+            "published": "2026-07-11",
+            "url": "http://arxiv.org/abs/2607.11942v1",
+            "seed_match_score": 1
+          }
+        ]
+      }
+    ],
     "keywords": [
       "kv cache",
       "key-value cache",
@@ -1040,7 +1065,7 @@
       "flash attention",
       "speculative decoding"
     ],
-    "last_watered": "2026-07-15T10:21:38.339279"
+    "last_watered": "2026-07-15T11:19:09.355552"
   },
   "gnn": {
     "name": "Graph Neural Networks",

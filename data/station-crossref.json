@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-15T09:47:06.555529",
+  "timestamp": "2026-07-15T11:19:18.781987",
   "connections": [
     {
       "seed_a": "Liquid Networks",
@@ -13,7 +13,7 @@
         "with"
       ],
       "strength": 5,
-      "discovered_at": "2026-07-15T09:47:06.555488"
+      "discovered_at": "2026-07-15T11:19:18.781949"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -24,7 +24,7 @@
       ],
       "shared_paper_concepts": [],
       "strength": 4,
-      "discovered_at": "2026-07-15T09:47:06.555464"
+      "discovered_at": "2026-07-15T11:19:18.781928"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -36,7 +36,7 @@
         "with"
       ],
       "strength": 3,
-      "discovered_at": "2026-07-15T09:47:06.555470"
+      "discovered_at": "2026-07-15T11:19:18.781933"
     },
     {
       "seed_a": "Liquid Networks",
@@ -48,7 +48,7 @@
         "network"
       ],
       "strength": 3,
-      "discovered_at": "2026-07-15T09:47:06.555477"
+      "discovered_at": "2026-07-15T11:19:18.781941"
     },
     {
       "seed_a": "Liquid Networks",
@@ -60,7 +60,7 @@
         "with"
       ],
       "strength": 3,
-      "discovered_at": "2026-07-15T09:47:06.555492"
+      "discovered_at": "2026-07-15T11:19:18.781952"
     },
     {
       "seed_a": "Few-Shot Learning",
@@ -72,7 +72,7 @@
         "privacy"
       ],
       "strength": 3,
-      "discovered_at": "2026-07-15T09:47:06.555516"
+      "discovered_at": "2026-07-15T11:19:18.781972"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -83,7 +83,7 @@
         "with"
       ],
       "strength": 2,
-      "discovered_at": "2026-07-15T09:47:06.555450"
+      "discovered_at": "2026-07-15T11:19:18.781916"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -94,7 +94,18 @@
         "with"
       ],
       "strength": 2,
-      "discovered_at": "2026-07-15T09:47:06.555461"
+      "discovered_at": "2026-07-15T11:19:18.781926"
+    },
+    {
+      "seed_a": "Mamba (SSM)",
+      "seed_b": "KV Cache Optimization",
+      "shared_keywords": [],
+      "shared_paper_concepts": [
+        "aware",
+        "region"
+      ],
+      "strength": 2,
+      "discovered_at": "2026-07-15T11:19:18.781938"
     },
     {
       "seed_a": "Liquid Networks",
@@ -105,18 +116,7 @@
         "with"
       ],
       "strength": 2,
-      "discovered_at": "2026-07-15T09:47:06.555480"
-    },
-    {
-      "seed_a": "Liquid Networks",
-      "seed_b": "Few-Shot Learning",
-      "shared_keywords": [],
-      "shared_paper_concepts": [
-        "geometry",
-        "learning"
-      ],
-      "strength": 2,
-      "discovered_at": "2026-07-15T09:47:06.555485"
+      "discovered_at": "2026-07-15T11:19:18.781943"
     }
   ],
   "total_seeds": 10

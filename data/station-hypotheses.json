@@ -12,7 +12,7 @@
       "arxiv_query": "Liquid Networks continual learning diffusion adaptation ODE",
       "potential_breakthrough": "實現單一模型在非平穩環境中無需重放緩衝區的終身學習，大幅降低記憶開銷並提升即時適應性。",
       "status": "unverified",
-      "verification_rounds": 1,
+      "verification_rounds": 2,
       "supporting_papers": [],
       "refuting_papers": [],
       "llm_source": "deepseek"
@@ -78,7 +78,7 @@
       "llm_source": "deepseek"
     }
   ],
-  "last_updated": "2026-07-15T09:47:10.113146",
+  "last_updated": "2026-07-15T11:19:22.492412",
   "total_generated": 4,
   "total_verified": 0
 }

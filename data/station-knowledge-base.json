@@ -1,37 +1,6 @@
 {
   "sessions": [
     {
-      "timestamp": "2026-07-02T08:30:41.938909",
-      "arxiv_papers_count": 20,
-      "arxiv_top_keywords": [
-        "supervision",
-        "llm",
-        "agents",
-        "llms",
-        "lms",
-        "training",
-        "fixed",
-        "explanations",
-        "dense",
-        "long"
-      ],
-      "huggingface_models_tracked": 10,
-      "huggingface_top_tasks": [
-        "sentence-similarity",
-        "fill-mask",
-        "text-ranking",
-        "feature-extraction",
-        "unknown"
-      ],
-      "ml_benchmarks_run": 10,
-      "ml_top_classifier": "RandomForest",
-      "evolution": {
-        "techniques_discovered": 0,
-        "techniques_adopted": 0,
-        "decisions": 0
-      }
-    },
-    {
       "timestamp": "2026-07-02T10:11:02.498392",
       "arxiv_papers_count": 20,
       "arxiv_top_keywords": [
@@ -3719,12 +3688,54 @@
         "seed_name": "Mixture of Experts",
         "papers_found": 9
       }
+    },
+    {
+      "timestamp": "2026-07-15T11:19:18.776048",
+      "arxiv_papers_count": 18,
+      "arxiv_top_keywords": [
+        "graph",
+        "neural",
+        "multi",
+        "learning",
+        "world",
+        "group",
+        "feature",
+        "foundation",
+        "target",
+        "self"
+      ],
+      "arxiv_strategies": [
+        "搜索: graph neural network",
+        "搜索: transfer learning",
+        "搜索: world model"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "fill-mask",
+        "text-generation",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [],
+      "ml_total_tests": 0,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 13,
+        "adopted": 1,
+        "decisions": 1
+      },
+      "seed_watering": {
+        "seed_name": "KV Cache Optimization",
+        "papers_found": 6
+      }
     }
   ],
   "total_sessions": 101,
-  "last_updated": "2026-07-15T09:47:06.545148",
+  "last_updated": "2026-07-15T11:19:18.776059",
   "evolution_summary": {
-    "total_adopted": 29,
+    "total_adopted": 30,
     "adopted_list": [
       "Knowledge Distillation",
       "World Models / Model-Based RL",
@@ -3754,7 +3765,8 @@
       "零演示自我对弈",
       "Transformer",
       "Agent",
-      "Llm"
+      "Llm",
+      "量子端口-哈密顿神经网络（Q-pHNNs）"
     ],
     "seeds": {
       "mamba": {
@@ -3799,8 +3811,8 @@
       },
       "kv-cache": {
         "name": "KV Cache Optimization",
-        "watering": 1,
-        "papers": 0
+        "watering": 2,
+        "papers": 2
       },
       "gnn": {
         "name": "Graph Neural Networks",
@@ -3911,8 +3923,18 @@
         "high_relevance_total": 2,
         "avg_relevance_latest": 1.67,
         "best_papers_count": 0
+      },
+      "kv-cache": {
+        "name": "KV Cache Optimization",
+        "new_papers": 2,
+        "keywords_matched": [
+          "kv cache"
+        ],
+        "high_relevance_total": 0,
+        "avg_relevance_latest": 1.0,
+        "best_papers_count": 0
       }
     },
-    "last_evolution": "2026-07-15T09:47:06.546143"
+    "last_evolution": "2026-07-15T11:19:18.776456"
   }
 }

@@ -443,6 +443,21 @@
         ],
         "decided_at": "2026-07-15T09:47:04.268327"
       }
+    },
+    {
+      "id": "llm-量子端口-哈密顿神经网络（q-phnns）",
+      "name": "量子端口-哈密顿神经网络（Q-pHNNs）",
+      "adopted_at": "2026-07-15T11:19:18.774052",
+      "decision": {
+        "tech_id": "llm-量子端口-哈密顿神经网络（q-phnns）",
+        "tech_name": "量子端口-哈密顿神经网络（Q-pHNNs）",
+        "action": "adopt",
+        "confidence": 0.9,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-07-15T11:19:18.773321"
+      }
     }
   ],
   "history": [
@@ -619,6 +634,12 @@
       "tech_id": "auto-llm",
       "tech_name": "Llm",
       "timestamp": "2026-07-15T09:47:04.269259"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-量子端口-哈密顿神经网络（q-phnns）",
+      "tech_name": "量子端口-哈密顿神经网络（Q-pHNNs）",
+      "timestamp": "2026-07-15T11:19:18.774055"
     }
   ]
 }

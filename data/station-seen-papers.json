@@ -7331,7 +7331,40 @@
         "shape"
       ],
       "first_seen_round": 152
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.10582v1",
+      "title": "MemDecay: Region-Aware KV Cache Eviction for Efficient LLM Agent Inference",
+      "arxiv_id": "2607.10582",
+      "tokens": [
+        "agent",
+        "aware",
+        "cache",
+        "eviction",
+        "inference",
+        "llm",
+        "memdecay",
+        "region"
+      ],
+      "first_seen_round": 153
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.11942v1",
+      "title": "How Query Visibility Changes KV-Cache Compression Rankings: A Matched-Budget Audit",
+      "arxiv_id": "2607.11942",
+      "tokens": [
+        "audit",
+        "budget",
+        "cache",
+        "changes",
+        "compression",
+        "matched",
+        "query",
+        "rankings",
+        "visibility"
+      ],
+      "first_seen_round": 153
     }
   ],
-  "total_unique": 457
+  "total_unique": 459
 }
