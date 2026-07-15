@@ -3600,10 +3600,52 @@
         "seed_name": "",
         "papers_found": 0
       }
+    },
+    {
+      "timestamp": "2026-07-15T03:32:32.422179",
+      "arxiv_papers_count": 18,
+      "arxiv_top_keywords": [
+        "graph",
+        "neural",
+        "multi",
+        "learning",
+        "world",
+        "group",
+        "feature",
+        "foundation",
+        "target",
+        "self"
+      ],
+      "arxiv_strategies": [
+        "搜索: graph neural network",
+        "搜索: transfer learning",
+        "搜索: world model"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "fill-mask",
+        "text-generation",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [],
+      "ml_total_tests": 0,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 16,
+        "adopted": 0,
+        "decisions": 0
+      },
+      "seed_watering": {
+        "seed_name": "Mamba (SSM)",
+        "papers_found": 8
+      }
     }
   ],
-  "total_sessions": 99,
-  "last_updated": "2026-07-15T10:22:05.186027",
+  "total_sessions": 100,
+  "last_updated": "2026-07-15T03:32:32.422194",
   "evolution_summary": {
     "total_adopted": 20,
     "adopted_list": [
@@ -3631,8 +3673,8 @@
     "seeds": {
       "mamba": {
         "name": "Mamba (SSM)",
-        "watering": 7,
-        "papers": 17
+        "watering": 8,
+        "papers": 18
       },
       "liquid-networks": {
         "name": "Liquid Networks",
@@ -3707,14 +3749,14 @@
       },
       "mamba": {
         "name": "Mamba (SSM)",
-        "new_papers": 12,
+        "new_papers": 13,
         "keywords_matched": [
+          "mamba",
           "ssm",
-          "state space",
-          "mamba"
+          "state space"
         ],
         "high_relevance_total": 4,
-        "avg_relevance_latest": 1.4,
+        "avg_relevance_latest": 1.0,
         "best_papers_count": 0
       },
       "liquid-networks": {
@@ -3774,6 +3816,6 @@
         "best_papers_count": 0
       }
     },
-    "last_evolution": "2026-07-15T10:22:05.188341"
+    "last_evolution": "2026-07-15T03:32:32.422625"
   }
 }
