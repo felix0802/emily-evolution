@@ -1,29 +1,27 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-🧬 Emily Evolution Station v7.1 — 完整自我进化闭环 AI 研究站
+🧬 Emily Evolution Station v9.0 — 思考者进化：完整自我进化闭环 AI 研究站
+
+v9.0 升级（假設引擎 — 聚合器→思考者）：
+  + 假设引擎: generate_hypotheses() — LLM 从种子交叉引用生成可验证研究假设
+  + 假设验证: verify_hypothesis() — arXiv 搜索 + LLM 判断支持/推翻
+  + 持久化: station-hypotheses.json — 记录所有假设、验证状态、支持/推翻论文
+  + 双回路: 发现回路(arXiv→知识库) + 思考回路(交叉引用→假设→验证→理论)
+  + 成本控制: 每5轮生成新假设，每轮验证1个最旧未验证假设
+
+v8.0 升级:
+  + 云端模式: GitHub Actions + cron 定时进化 (每2小时)
+  + 双模式: 本地持续循环 / 云端单轮 (--single-round)
+  + LLM: Qwen3.5-122B-A10B (SiliconFlow API)
+  + 数据存储: GitHub Repo data/ 目录
 
 v7.1 升级（P0 修复）：
-  P0-1: 新种子优先浇水 — 从未浇过或超过3天未浇的种子自动插队
-  P0-2: 增强 JSON 解析 — 处理畸形 JSON、不完整响应、尾部逗号、markdown 包裹
-  P0-3: HTM 种子复苏 — 扩展查询关键词，覆盖 online learning/anomaly detection/predictive coding
-  P0-4: 种子计数显示 — 修复硬编码 "7" 为动态 len(SEEDS)
+  P0-1~P0-4: 种子浇水优先、JSON解析增强、HTM复苏、计数修复
 
-v7.0 升级:
-  +3 新种子: MoE, KV Cache Optimization, GNN
-  +6 arXiv 轮换查询
-  持久化存储: %TEMP% → ~/.workbuddy/emily-data/
-
-v6.2 升级（P0→P2 全部修复）：
-  P0: 云端 LLM 回退 — SiliconFlow API 支持，不再依赖本地 Ollama
-  P1-1: 种子查询修复 — 无理无关论文过滤（match_score=0）、分类号过滤、回退查询
-  P1-2: 网络韧性 — 通用 retry_request() 指数退避重试（3次）
-  P1-3: 种子浇水失败重试 — 失败不推进 rotation，最多3次尝试
-  P2-1: 进化自我意识 — 关键词僵化检测、技术采用率、种子增长率、论文增量自评
-  P2-2: 种子间交叉引用 — 基于关键词重叠自动发现种子间概念连接
-  P2-3: 版本一致性 — 清除 bytecode 缓存，统一使用 VERSION 常量
-
-进化闭环：感知 → 理解(LLM+云端) → 决策(LLM+规则) → 行动 → 验证 → 自评 → 循环
+进化闭环（双回路 v9.0）：
+  回路A(发现): 感知 → 理解(LLM) → 决策 → 行动 → 验证 → 自评 → 循环
+  回路B(思考): 交叉引用 → 假设生成(LLM) → arXiv验证 → 修正理论 → 循环
 """
 
 import base64, json, os, platform, re, subprocess, sys, time, tempfile, shutil, hashlib, random
@@ -65,9 +63,10 @@ SEEN_PAPERS_PATH = os.path.join(DATA_DIR, "station-seen-papers.json")        # P
 ML_HISTORY_PATH = os.path.join(DATA_DIR, "station-ml-history.json")          # P1-2: ML实验历史
 SEED_METRICS_PATH = os.path.join(DATA_DIR, "station-seed-metrics.json")      # P2-1: 种子深度度量
 TOKEN_HEALTH_PATH = os.path.join(DATA_DIR, "station-token-health.json")      # P2-2: Token健康
+HYPOTHESES_PATH = os.path.join(DATA_DIR, "station-hypotheses.json")          # v9.0: 假設引擎
 
 # ===== Config =====
-VERSION = "8.0"
+VERSION = "9.0"
 OLLAMA_URL = "http://localhost:11434/api/generate"
 OLLAMA_MODEL = "qwen2.5:1.5b"
 GITHUB_OWNER = "felix0802"
@@ -2049,6 +2048,333 @@ def run_seed_cross_reference():
 
     return crossref
 
+# ================================================================
+# v9.0: 假設引擎 — 從聚合器到思考者
+# ================================================================
+
+def load_hypotheses():
+    """載入假設記錄"""
+    if os.path.exists(HYPOTHESES_PATH):
+        try:
+            with open(HYPOTHESES_PATH, "r", encoding="utf-8") as f:
+                return json.load(f)
+        except:
+            pass
+    return {"hypotheses": [], "last_updated": "", "total_generated": 0, "total_verified": 0}
+
+def save_hypotheses(data):
+    """保存假設記錄"""
+    data["last_updated"] = datetime.now().isoformat()
+    with open(HYPOTHESES_PATH, "w", encoding="utf-8") as f:
+        json.dump(data, f, ensure_ascii=False, indent=2)
+
+def generate_hypotheses(crossref_data, seed_state):
+    """v9.0: 假設引擎 — 基於種子交叉引用 + LLM 生成可驗證研究假設
+
+    輸入:
+      - crossref_data: run_seed_cross_reference() 的輸出 (含 connections 列表)
+      - seed_state: 各種子的澆水歷史與最近論文
+
+    輸出: 新生成的假設列表
+    策略: 只對未生成過假設的強交叉引用 (strength>=3) 生成，避免重複
+    """
+    if not crossref_data or not crossref_data.get("connections"):
+        return []
+
+    existing = load_hypotheses()
+    existing_pairs = set()
+    for h in existing.get("hypotheses", []):
+        pair = tuple(sorted([h.get("seed_a", ""), h.get("seed_b", "")]))
+        existing_pairs.add(pair)
+
+    # 收集各種子最近論文摘要（作為 LLM 上下文）
+    seed_summaries = {}
+    seed_vals = {k: v for k, v in seed_state.items() if isinstance(v, dict) and "keywords" in v}
+    for sid, sdata in seed_vals.items():
+        recent_papers = []
+        for h in sdata.get("history", [])[-2:]:  # 最近2次澆水
+            for p in h.get("papers", []):
+                recent_papers.append({
+                    "title": p.get("title", "")[:150],
+                    "summary": p.get("summary", "")[:300]
+                })
+        if recent_papers:
+            seed_summaries[sdata["name"]] = recent_papers[:3]
+    seed_context = "\n".join([
+        f"- {name}: " + "; ".join([p["title"][:80] for p in papers])
+        for name, papers in list(seed_summaries.items())[:6]
+    ])
+
+    new_hypotheses = []
+    candidates = [c for c in crossref_data["connections"][:5]
+                  if c["strength"] >= 3
+                  and tuple(sorted([c["seed_a"], c["seed_b"]])) not in existing_pairs]
+
+    for conn in candidates:
+        # 構建 LLM prompt — 讓模型在跨領域交叉中發現研究假設
+        prompt = f"""你是 AI 研究科學家。以下是你發現的兩個 AI 研究方向之間的交叉連接：
+
+研究方向 A: {conn['seed_a']}
+研究方向 B: {conn['seed_b']}
+共享關鍵詞: {', '.join(conn.get('shared_keywords', [])[:8])}
+共享論文概念: {', '.join(conn.get('shared_paper_concepts', [])[:10])}
+連接強度: {conn['strength']} (關鍵詞重疊×2 + 概念重疊)
+
+最近相關論文方向：
+{seed_context[:800]}
+
+請思考：這兩個方向如果結合，會產生什麼突破？然後輸出以下 JSON：
+{{
+  "hypothesis": "一個具體、可驗證的研究假設 (1-2句，英文或繁中均可)",
+  "reasoning": "推理邏輯：為什麼這兩個方向可以結合？背後的數學/架構共通點是什麼？(2-3句)",
+  "arxiv_query": "用於在 arXiv 上搜索驗證論文的查詢字串 (英文，5-10個詞)",
+  "potential_breakthrough": "這個結合可能帶來的突破 (1句話)"
+}}
+
+輸出必須是嚴格 JSON，不要用 markdown 包裹。"""
+
+        result, source = call_llm_smart(
+            prompt,
+            system_prompt="你是頂尖 AI 研究科學家，專注於跨領域概念連接與假設生成。輸出必須是嚴格 JSON。",
+            timeout_sec=90
+        )
+
+        if result:
+            try:
+                cleaned = result.strip()
+                if cleaned.startswith("```"):
+                    cleaned = re.sub(r'^```\w*\n?', '', cleaned)
+                    cleaned = re.sub(r'\n?```$', '', cleaned)
+                hyp_data = json.loads(cleaned)
+
+                hypothesis = {
+                    "id": f"hyp-{existing['total_generated'] + len(new_hypotheses) + 1:04d}",
+                    "timestamp": datetime.now().isoformat(),
+                    "seed_a": conn["seed_a"],
+                    "seed_b": conn["seed_b"],
+                    "crossref_strength": conn["strength"],
+                    "shared_keywords": conn.get("shared_keywords", [])[:5],
+                    "hypothesis": hyp_data.get("hypothesis", ""),
+                    "reasoning": hyp_data.get("reasoning", ""),
+                    "arxiv_query": hyp_data.get("arxiv_query",
+                        " OR ".join(conn.get("shared_keywords", ["neural network"])[:3])),
+                    "potential_breakthrough": hyp_data.get("potential_breakthrough", ""),
+                    "status": "unverified",
+                    "verification_rounds": 0,
+                    "supporting_papers": [],
+                    "refuting_papers": [],
+                    "llm_source": source,
+                }
+                new_hypotheses.append(hypothesis)
+                log(f"💡 [假設引擎] #{hypothesis['id']} {hypothesis['hypothesis'][:70]}...")
+            except json.JSONDecodeError:
+                log(f"⚠️ [假設引擎] LLM 返回非 JSON（{conn['seed_a']}↔{conn['seed_b']}），跳過")
+
+    if new_hypotheses:
+        existing["hypotheses"].extend(new_hypotheses)
+        existing["total_generated"] = existing.get("total_generated", 0) + len(new_hypotheses)
+        save_hypotheses(existing)
+        log(f"🧪 [假設引擎] 本輪生成 {len(new_hypotheses)} 個新假設 | 累計 {existing['total_generated']} 個")
+
+    return new_hypotheses
+
+def verify_hypothesis(hypothesis):
+    """v9.0: 假設驗證 — 用 arXiv 搜索 + LLM 判斷論文是支持還是推翻假設
+
+    流程:
+      1. 用假設的 arxiv_query 搜索相關論文 (max 5)
+      2. LLM 評估每篇論文對假設的態度 (supporting / refuting / neutral)
+      3. 返回分類結果
+    """
+    query = hypothesis.get("arxiv_query", "machine learning")
+    encoded = urllib.parse.quote(query, safe='')
+    url = (
+        f"https://export.arxiv.org/api/query?"
+        f"search_query={encoded}&"
+        f"sortBy=relevance&"
+        f"max_results=5"
+    )
+
+    try:
+        resp = retry_request(url, headers={"User-Agent": f"Emily/{VERSION}"}, timeout=20, max_retries=2)
+        xml_data = resp.read().decode("utf-8")
+    except Exception as e:
+        return {"status": "search_failed", "error": str(e)[:80], "papers_found": 0}
+
+    papers = []
+    ns = {"atom": "http://www.w3.org/2005/Atom"}
+    try:
+        root = ET.fromstring(xml_data)
+        for entry in root.findall("atom:entry", ns):
+            title_el = entry.find("atom:title", ns)
+            summary_el = entry.find("atom:summary", ns)
+            link_el = entry.find("atom:id", ns)
+            papers.append({
+                "title": title_el.text.strip()[:200] if title_el is not None and title_el.text else "",
+                "summary": summary_el.text.strip()[:400] if summary_el is not None and summary_el.text else "",
+                "url": link_el.text.strip() if link_el is not None and link_el.text else "",
+            })
+    except:
+        pass
+
+    if not papers:
+        return {"status": "no_papers_found", "papers_found": 0}
+
+    # LLM 判斷論文態度
+    paper_text = "\n\n".join([
+        f"[論文 {i+1}] 標題: {p['title']}\n摘要: {p['summary'][:250]}"
+        for i, p in enumerate(papers[:4])
+    ])
+
+    eval_prompt = f"""你是 AI 研究評審。以下是待驗證的假設與搜索到的相關論文。
+
+假設: {hypothesis.get('hypothesis', '')}
+
+推理背景: {hypothesis.get('reasoning', '')[:200]}
+
+相關論文:
+{paper_text}
+
+請對每篇論文分類（輸出嚴格 JSON）：
+{{
+  "evaluations": [
+    {{"paper_index": 1, "verdict": "supporting|refuting|neutral", "reason": "一句話解釋 (繁中)"}},
+    ...
+  ]
+}}
+
+分類標準:
+- supporting: 論文中的方法/發現與假設一致，或直接支持假設的可行性
+- refuting: 論文中的結果/理論與假設矛盾，或證明假設不可行
+- neutral: 論文與假設無直接關係，僅有表面關鍵詞重疊"""
+
+    result, _ = call_llm_smart(
+        eval_prompt,
+        system_prompt="你是嚴謹的 AI 研究評審。只根據論文內容判斷，不要臆測。輸出嚴格 JSON。",
+        timeout_sec=60
+    )
+
+    supporting = []
+    refuting = []
+
+    if result:
+        try:
+            cleaned = result.strip()
+            if cleaned.startswith("```"):
+                cleaned = re.sub(r'^```\w*\n?', '', cleaned)
+                cleaned = re.sub(r'\n?```$', '', cleaned)
+            evals = json.loads(cleaned)
+
+            for pe in evals.get("evaluations", []):
+                idx = pe.get("paper_index", 0) - 1
+                if 0 <= idx < len(papers):
+                    info = {
+                        "title": papers[idx]["title"],
+                        "url": papers[idx]["url"],
+                        "reason": pe.get("reason", ""),
+                    }
+                    v = pe.get("verdict", "neutral")
+                    if v == "supporting":
+                        supporting.append(info)
+                    elif v == "refuting":
+                        refuting.append(info)
+        except (json.JSONDecodeError, KeyError):
+            log(f"⚠️ [假設驗證] LLM 評審結果解析失敗，僅記錄論文")
+
+    return {
+        "status": "verified",
+        "papers_found": len(papers),
+        "supporting_count": len(supporting),
+        "refuting_count": len(refuting),
+        "supporting_papers": supporting,
+        "refuting_papers": refuting,
+        "verified_at": datetime.now().isoformat(),
+    }
+
+def run_hypothesis_engine(crossref_data, ev_count):
+    """v9.0: 假設引擎總控 — 協調生成與驗證
+
+    執行策略（成本控制）：
+      - 生成: 每 5 輪進化 + 有新交叉引用時觸發 (LLM 成本: ~1 次/5輪)
+      - 驗證: 每輪驗證 1 個最舊的未驗證假設 (LLM 成本: ~1 次/輪)
+      - 每年預估呼叫: ~9,500 次 (含基礎 LLM 調用)
+    """
+    result = {
+        "new_hypotheses": [],
+        "verified_hypothesis": None,
+        "total_hypotheses": 0,
+        "total_verified": 0,
+    }
+
+    seed_state = load_seed_state()
+
+    # === 生成新假設 (每 5 輪觸發一次) ===
+    if ev_count % 5 == 0 and crossref_data and crossref_data.get("connections"):
+        new = generate_hypotheses(crossref_data, seed_state)
+        if new:
+            result["new_hypotheses"] = [h["id"] for h in new]
+
+    # === 驗證最舊的未驗證假設 ===
+    hypotheses_data = load_hypotheses()
+    unverified = [h for h in hypotheses_data.get("hypotheses", [])
+                  if h.get("status") == "unverified"]
+
+    if unverified:
+        # 優先驗證驗證次數最少的 (輪換策略)
+        unverified.sort(key=lambda h: h.get("verification_rounds", 0))
+        target = unverified[0]
+        hyp_id = target["id"]
+
+        log(f"🔍 [假設驗證] 驗證中: {hyp_id} (第{target['verification_rounds']+1}輪)")
+
+        verification = verify_hypothesis(target)
+        target["verification_rounds"] = target.get("verification_rounds", 0) + 1
+
+        if verification.get("supporting_papers"):
+            target["supporting_papers"].extend(verification["supporting_papers"])
+        if verification.get("refuting_papers"):
+            target["refuting_papers"].extend(verification["refuting_papers"])
+
+        # 判斷最終狀態
+        sup_count = len(target.get("supporting_papers", []))
+        ref_count = len(target.get("refuting_papers", []))
+        total_evidence = sup_count + ref_count
+
+        if total_evidence >= 5 or target["verification_rounds"] >= 3:
+            if sup_count > ref_count * 1.5:
+                target["status"] = "supported"
+                log(f"✅ [假設驗證] {hyp_id} → SUPPORTED ({sup_count}支持 / {ref_count}反對)")
+            elif ref_count > sup_count * 1.5:
+                target["status"] = "refuted"
+                log(f"❌ [假設驗證] {hyp_id} → REFUTED ({sup_count}支持 / {ref_count}反對)")
+            else:
+                target["status"] = "inconclusive"
+                log(f"🤷 [假設驗證] {hyp_id} → INCONCLUSIVE ({sup_count}支持 / {ref_count}反對)")
+
+        result["verified_hypothesis"] = {
+            "id": hyp_id,
+            "verification_round": target["verification_rounds"],
+            "supporting": sup_count,
+            "refuting": ref_count,
+            "status": target["status"],
+        }
+
+        hypotheses_data["total_verified"] = sum(
+            1 for h in hypotheses_data["hypotheses"] if h.get("status") != "unverified")
+        save_hypotheses(hypotheses_data)
+
+    result["total_hypotheses"] = len(hypotheses_data.get("hypotheses", []))
+    result["total_verified"] = hypotheses_data.get("total_verified", 0)
+
+    if result["total_hypotheses"] > 0:
+        statuses = Counter(h["status"] for h in hypotheses_data["hypotheses"])
+        log(f"🧪 [假設引擎] 累計 {result['total_hypotheses']} 個假設 | "
+            f"已驗證 {result['total_verified']} | "
+            f"支持 {statuses.get('supported', 0)} / 推翻 {statuses.get('refuted', 0)} / "
+            f"待定 {statuses.get('inconclusive', 0)} / 未驗證 {statuses.get('unverified', 0)}")
+
+    return result
+
 def update_knowledge_base(arxiv_data, hf_data, ml_data, evolution_result=None, multi_source=None, seed_result=None):
     kb = {"sessions": [], "total_sessions": 0, "last_updated": "", "evolution_summary": {}}
     if os.path.exists(KNOWLEDGE_PATH):
@@ -2231,6 +2557,13 @@ def evolve():
         evolution["seed_crossref"] = crossref
         evolution["tasks_completed"].append("seed_crossref")
 
+    # v9.0: 假設引擎 — 從交叉引用生成假設 + 驗證現有假設
+    if crossref and crossref.get("connections"):
+        hyp_result = run_hypothesis_engine(crossref, state["total_evolutions"])
+        if hyp_result.get("new_hypotheses") or hyp_result.get("verified_hypothesis"):
+            evolution["hypothesis_engine"] = hyp_result
+            evolution["tasks_completed"].append("hypothesis_engine")
+
     # 进程数
     if sys.platform == "win32":
         try:
@@ -2354,6 +2687,15 @@ def push_all_artifacts(evolution, ev_count):
         except:
             pass
 
+    # 假設引擎 (v9.0)
+    if os.path.exists(HYPOTHESES_PATH):
+        try:
+            with open(HYPOTHESES_PATH, "r", encoding="utf-8") as f:
+                push_to_github_safe("deployable/station-hypotheses.json", json.load(f),
+                                f"💡 假設引擎 #{ev_count}")
+        except:
+            pass
+
 # ================================================================
 # 主程序
 # ================================================================
@@ -2396,7 +2738,7 @@ def main():
     else:
         log(f"☁️ SiliconFlow: ⚠️ 未配置 — 设置环境变量 SILICONFLOW_API_KEY 开启云端 LLM")
 
-    log(f"  模块: arXiv({len(ARXIV_ROTATION)}策略) | HF | GitHub | HF Daily | 去重 | 进化ML | 种子深度 | LLM理解+云端 | 自修改 | Token监控 | 自我意识 | 交叉引用")
+    log(f"  模块: arXiv({len(ARXIV_ROTATION)}策略) | HF | GitHub | HF Daily | 去重 | 进化ML | 种子深度 | LLM理解+云端 | 自修改 | Token监控 | 自我意识 | 交叉引用 | 假設引擎(v9.0)")
     if EMILY_CLOUD_MODE:
         log(f"  ☁️ 云端模式: GitHub Actions + 122B LLM")
     log("=" * 60)
