@@ -1,37 +1,6 @@
 {
   "sessions": [
     {
-      "timestamp": "2026-07-02T10:32:53.775908",
-      "arxiv_papers_count": 20,
-      "arxiv_top_keywords": [
-        "learning",
-        "reasoning",
-        "supervision",
-        "llm",
-        "agents",
-        "llms",
-        "data",
-        "scaling",
-        "fork",
-        "join"
-      ],
-      "huggingface_models_tracked": 10,
-      "huggingface_top_tasks": [
-        "sentence-similarity",
-        "fill-mask",
-        "text-ranking",
-        "feature-extraction",
-        "unknown"
-      ],
-      "ml_benchmarks_run": 10,
-      "ml_top_classifier": "RandomForest",
-      "evolution": {
-        "techniques_discovered": 3,
-        "techniques_adopted": 0,
-        "decisions": 0
-      }
-    },
-    {
       "timestamp": "2026-07-02T12:14:40.290103",
       "arxiv_papers_count": 20,
       "arxiv_top_keywords": [
@@ -3741,12 +3710,54 @@
         "seed_name": "Graph Neural Networks",
         "papers_found": 5
       }
+    },
+    {
+      "timestamp": "2026-07-15T15:16:09.428687",
+      "arxiv_papers_count": 18,
+      "arxiv_top_keywords": [
+        "speculative",
+        "graph",
+        "language",
+        "neural",
+        "decoding",
+        "methods",
+        "context",
+        "group",
+        "feature",
+        "draft"
+      ],
+      "arxiv_strategies": [
+        "搜索: kv cache LLM",
+        "搜索: graph neural network recent",
+        "搜索: speculative decoding"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "fill-mask",
+        "text-generation",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [],
+      "ml_total_tests": 0,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 19,
+        "adopted": 2,
+        "decisions": 2
+      },
+      "seed_watering": {
+        "seed_name": "Graph Neural Networks",
+        "papers_found": 5
+      }
     }
   ],
   "total_sessions": 101,
-  "last_updated": "2026-07-15T13:04:45.257733",
+  "last_updated": "2026-07-15T15:16:09.428702",
   "evolution_summary": {
-    "total_adopted": 30,
+    "total_adopted": 32,
     "adopted_list": [
       "Knowledge Distillation",
       "World Models / Model-Based RL",
@@ -3777,7 +3788,9 @@
       "Transformer",
       "Agent",
       "Llm",
-      "量子端口-哈密顿神经网络（Q-pHNNs）"
+      "量子端口-哈密顿神经网络（Q-pHNNs）",
+      "Tucker分解与JL残差分配",
+      "系统感知的KV缓存优化"
     ],
     "seeds": {
       "mamba": {
@@ -3827,7 +3840,7 @@
       },
       "gnn": {
         "name": "Graph Neural Networks",
-        "watering": 3,
+        "watering": 4,
         "papers": 0
       }
     },
@@ -3946,6 +3959,6 @@
         "best_papers_count": 0
       }
     },
-    "last_evolution": "2026-07-15T13:04:45.258293"
+    "last_evolution": "2026-07-15T15:16:09.429264"
   }
 }

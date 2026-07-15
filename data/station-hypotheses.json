@@ -32,12 +32,17 @@
       "arxiv_query": "selective state space model liquid time constant network",
       "potential_breakthrough": "此結合可能催生一種能同時處理離散事件與連續過程的通用序列模型，在機器人控制、氣候預測等需即時適應環境變化的領域超越Transformer。",
       "status": "unverified",
-      "verification_rounds": 1,
+      "verification_rounds": 2,
       "supporting_papers": [
         {
           "title": "Liquid Time-constant Recurrent Neural Networks as Universal Approximators",
           "url": "http://arxiv.org/abs/1811.00321v1",
           "reason": "該論文提出液態時間常數(LTC)RNN，透過非線性突觸傳導模型實現可變神經元時間常數，直接支持假設中結合連續時間動力學與自適應時間常數的可行性。"
+        },
+        {
+          "title": "Liquid Time-constant Recurrent Neural Networks as Universal Approximators",
+          "url": "http://arxiv.org/abs/1811.00321v1",
+          "reason": "該論文提出的液態時間常數循環神經網路(LTC RNN)具有可變的神經元時間常數，與假設中結合Mamba的選擇性狀態空間模型與Liquid Networks連續時間動力學以實現自適應時間常數的想法一致，直接支持了假設的可行性。"
         }
       ],
       "refuting_papers": [],
@@ -95,7 +100,7 @@
       "llm_source": "deepseek"
     }
   ],
-  "last_updated": "2026-07-15T13:04:52.511487",
+  "last_updated": "2026-07-15T15:16:13.464994",
   "total_generated": 5,
   "total_verified": 0
 }

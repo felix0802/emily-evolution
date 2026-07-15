@@ -458,6 +458,36 @@
         ],
         "decided_at": "2026-07-15T11:19:18.773321"
       }
+    },
+    {
+      "id": "llm-tucker分解与jl残差分配",
+      "name": "Tucker分解与JL残差分配",
+      "adopted_at": "2026-07-15T15:16:08.115023",
+      "decision": {
+        "tech_id": "llm-tucker分解与jl残差分配",
+        "tech_name": "Tucker分解与JL残差分配",
+        "action": "adopt",
+        "confidence": 0.85,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-07-15T15:16:08.113856"
+      }
+    },
+    {
+      "id": "llm-系统感知的kv缓存优化",
+      "name": "系统感知的KV缓存优化",
+      "adopted_at": "2026-07-15T15:16:08.115043",
+      "decision": {
+        "tech_id": "llm-系统感知的kv缓存优化",
+        "tech_name": "系统感知的KV缓存优化",
+        "action": "adopt",
+        "confidence": 0.8,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-07-15T15:16:08.114014"
+      }
     }
   ],
   "history": [
@@ -640,6 +670,18 @@
       "tech_id": "llm-量子端口-哈密顿神经网络（q-phnns）",
       "tech_name": "量子端口-哈密顿神经网络（Q-pHNNs）",
       "timestamp": "2026-07-15T11:19:18.774055"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-tucker分解与jl残差分配",
+      "tech_name": "Tucker分解与JL残差分配",
+      "timestamp": "2026-07-15T15:16:08.115030"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-系统感知的kv缓存优化",
+      "tech_name": "系统感知的KV缓存优化",
+      "timestamp": "2026-07-15T15:16:08.115045"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 49,
+  "_rotation_idx": 50,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 18,
@@ -1070,8 +1070,18 @@
   "gnn": {
     "name": "Graph Neural Networks",
     "total_papers_found": 0,
-    "watering_count": 3,
-    "history": [],
+    "watering_count": 4,
+    "history": [
+      {
+        "timestamp": "2026-07-15T15:16:02.082257",
+        "papers_found": 0,
+        "duplicates": 5,
+        "irrelevant_filtered": 5,
+        "avg_relevance": 0.0,
+        "high_relevance": 0,
+        "papers": []
+      }
+    ],
     "keywords": [
       "graph neural",
       "gnn",
@@ -1081,6 +1091,6 @@
       "node embedding",
       "graph transformer"
     ],
-    "last_watered": "2026-07-15T13:04:37.644417"
+    "last_watered": "2026-07-15T15:16:02.082252"
   }
 }

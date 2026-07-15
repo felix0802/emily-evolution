@@ -180,16 +180,17 @@
   "gnn": {
     "name": "Graph Neural Networks",
     "total_new_papers": 0,
-    "total_watering": 3,
+    "total_watering": 4,
     "all_keywords_matched": [],
     "avg_relevance_trend": [
+      0.0,
       0.0,
       0.0,
       0.0
     ],
     "high_relevance_total": 0,
     "best_papers": [],
-    "last_updated": "2026-07-15T13:04:37.644042"
+    "last_updated": "2026-07-15T15:16:02.081883"
   },
   "moe": {
     "name": "Mixture of Experts",
