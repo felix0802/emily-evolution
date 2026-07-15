@@ -1,0 +1,891 @@
+{
+  "_rotation_idx": 40,
+  "mamba": {
+    "name": "Mamba (SSM)",
+    "total_papers_found": 17,
+    "watering_count": 7,
+    "history": [
+      {
+        "timestamp": "2026-07-06T21:46:12.361778",
+        "papers_found": 5,
+        "papers": [
+          {
+            "title": "Alignment Is All You Need For X-to-4D Generation",
+            "summary": "Generative diffusion models excel at synthesizing high-quality images, videos, and 3D content under multimodal control. However, arbitrary user-defined modality-to-4D (X-to-4D) generation remains challenging due to the high cost of constructing diverse datasets and the limited scalability of existin",
+            "published": "2026-07-02",
+            "seed_match_score": 0
+          },
+          {
+            "title": "ReContext: Recursive Evidence Replay as LLM Harness for Long-Context Reasoning",
+            "summary": "Understanding and reasoning over long contexts has become a key requirement for deploying large language models (LLMs) in realistic applications. Although recent LLMs support increasingly long context windows, they often fail to use relevant evidence that is already present in the input, revealing a",
+            "published": "2026-07-02",
+            "seed_match_score": 0
+          },
+          {
+            "title": "Reasoning LLM Improves Speaker Recognition in Long-form TV Dramas",
+            "summary": "Long-form TV dramas present a formidable challenge for comprehensive video understanding, where deciphering complex storyline often relies on \\textbf{speaker recognition}, the task of accurately attributing each spoken utterance to its respective character. In this paper, we advance this field throu",
+            "published": "2026-07-02",
+            "seed_match_score": 0
+          }
+        ]
+      },
+      {
+        "timestamp": "2026-07-07T13:08:54.229357",
+        "papers_found": 6,
+        "duplicates": 1,
+        "irrelevant_filtered": 3,
+        "avg_relevance": 1.33,
+        "high_relevance": 2,
+        "papers": [
+          {
+            "title": "RUFNet: Query-Guided Support Mask Refinement and Uncertainty Fusion based on Hybrid Mamba for Few-Shot Brain Tumor Segmentation",
+            "summary": "Few-shot brain tumor segmentation remains challenging due to noisy support masks, inter-patient variations between support and query images, and the lack of pixel-wise confidence estimation. This study proposes RUFNet, a Hybrid Mamba-based few-shot framework that combines support mask refinement wit",
+            "published": "2026-07-06",
+            "url": "http://arxiv.org/abs/2607.05035v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Lightweight ML-Based Automatic Sleep Staging Framework with Constrained CNN and Mamba for Small-Sample EEG Datasets",
+            "summary": "Automatic sleep staging is a key technology for precise diagnosis and treatment of sleep disorders as well as long-term home sleep monitoring. Portable electroencephalogram (EEG) devices have become the focus of research due to their convenience in data collection. However, current methods still fac",
+            "published": "2026-07-06",
+            "url": "http://arxiv.org/abs/2607.04934v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "MambaLIE: Scene Light Intensity-Boosted Low-Light Image Enhancement with State Space Model",
+            "summary": "Images captured by consumer electronic devices, such as mobile phones and digital cameras, often suffer from low-light degradation due to sensor limitations and imaging pipelines, which degrades visual quality and affects downstream vision tasks.   Existing methods based on Convolutional Neural Netw",
+            "published": "2026-07-03",
+            "url": "http://arxiv.org/abs/2607.03013v1",
+            "seed_match_score": 2
+          }
+        ]
+      },
+      {
+        "timestamp": "2026-07-07T17:23:35.461028",
+        "papers_found": 0,
+        "duplicates": 7,
+        "irrelevant_filtered": 3,
+        "avg_relevance": 0.0,
+        "high_relevance": 0,
+        "papers": []
+      },
+      {
+        "timestamp": "2026-07-08T19:45:22.432003",
+        "papers_found": 1,
+        "duplicates": 6,
+        "irrelevant_filtered": 3,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "Uncertainty-Aware Velocity Correction for Proprioceptive Vehicle Localization using Evidential Mamba",
+            "summary": "Reliable localization in GNSS-denied environments remains a fundamental challenge for intelligent vehicles, as inertial navigation systems accumulate unbounded drift without external correction. Existing approaches provide drift correction through dedicated infrastructure, expensive external sensors",
+            "published": "2026-07-06",
+            "url": "http://arxiv.org/abs/2607.05669v1",
+            "seed_match_score": 1
+          }
+        ]
+      },
+      {
+        "timestamp": "2026-07-09T21:08:45.630262",
+        "papers_found": 0,
+        "duplicates": 7,
+        "irrelevant_filtered": 3,
+        "avg_relevance": 0.0,
+        "high_relevance": 0,
+        "papers": []
+      },
+      {
+        "timestamp": "2026-07-14T11:52:43.222533",
+        "papers_found": 5,
+        "duplicates": 3,
+        "irrelevant_filtered": 2,
+        "avg_relevance": 1.4,
+        "high_relevance": 2,
+        "papers": [
+          {
+            "title": "An Exact Instrument for State Usage in Selective State-Space Models, and the Input-Driven Migration It Reveals",
+            "summary": "Selective state-space models such as Mamba route information through a bank of first-order modes whose input coupling is set by a learned selection mechanism. We give an exact instrument for measuring how a trained model uses these modes. Because the state matrix is diagonal, each channel's output d",
+            "published": "2026-07-13",
+            "url": "http://arxiv.org/abs/2607.11796v1",
+            "seed_match_score": 2
+          },
+          {
+            "title": "DSSMs: State Space Models with Explicit Memory via Delay Differential Equations",
+            "summary": "State Space Models (SSMs) have emerged as a powerful paradigm for efficient long-sequence modeling, offering parallel training and fast linear-time recurrent inference. However, like other recurrent architectures, SSMs must compress an unbounded history into a fixed-size state, which limits context ",
+            "published": "2026-07-11",
+            "url": "http://arxiv.org/abs/2607.10244v1",
+            "seed_match_score": 2
+          },
+          {
+            "title": "Looped State-Space Language Models with Adaptive Exit-State Selection",
+            "summary": "Recent work on looped language models suggests that many reasoning problems benefit from greater computational depth rather than from additional independent parameters. Existing studies, however, focus almost exclusively on Transformer backbones, leaving open whether this principle also applies to s",
+            "published": "2026-07-11",
+            "url": "http://arxiv.org/abs/2607.10110v1",
+            "seed_match_score": 1
+          }
+        ]
+      }
+    ],
+    "keywords": [
+      "mamba",
+      "state space",
+      "ssm",
+      "selective scan"
+    ],
+    "last_watered": "2026-07-14T11:52:43.222520"
+  },
+  "liquid-networks": {
+    "name": "Liquid Networks",
+    "total_papers_found": 17,
+    "watering_count": 7,
+    "history": [
+      {
+        "timestamp": "2026-07-06T21:47:31.917958",
+        "papers_found": 5,
+        "papers": [
+          {
+            "title": "Alignment Is All You Need For X-to-4D Generation",
+            "summary": "Generative diffusion models excel at synthesizing high-quality images, videos, and 3D content under multimodal control. However, arbitrary user-defined modality-to-4D (X-to-4D) generation remains challenging due to the high cost of constructing diverse datasets and the limited scalability of existin",
+            "published": "2026-07-02",
+            "seed_match_score": 1
+          },
+          {
+            "title": "ReContext: Recursive Evidence Replay as LLM Harness for Long-Context Reasoning",
+            "summary": "Understanding and reasoning over long contexts has become a key requirement for deploying large language models (LLMs) in realistic applications. Although recent LLMs support increasingly long context windows, they often fail to use relevant evidence that is already present in the input, revealing a",
+            "published": "2026-07-02",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Reasoning LLM Improves Speaker Recognition in Long-form TV Dramas",
+            "summary": "Long-form TV dramas present a formidable challenge for comprehensive video understanding, where deciphering complex storyline often relies on \\textbf{speaker recognition}, the task of accurately attributing each spoken utterance to its respective character. In this paper, we advance this field throu",
+            "published": "2026-07-02",
+            "seed_match_score": 0
+          }
+        ]
+      },
+      {
+        "timestamp": "2026-07-07T13:20:32.252781",
+        "papers_found": 8,
+        "duplicates": 1,
+        "irrelevant_filtered": 1,
+        "avg_relevance": 1.38,
+        "high_relevance": 3,
+        "papers": [
+          {
+            "title": "Advances in Neural Controlled Differential Equations",
+            "summary": "Many real-world systems evolve continuously, yet most machine learning models interpret time series as discrete sequences. Continuous-time approaches instead treat time series as samples from an underlying input path, a formulation that naturally accommodates irregularly sampled or oversampled data.",
+            "published": "2026-07-06",
+            "url": "http://arxiv.org/abs/2607.05280v1",
+            "seed_match_score": 2
+          },
+          {
+            "title": "Entropy Regularization Improves Policy Robustness in Continuous-Time Reinforcement Learning",
+            "summary": "Entropy regularization is widely used in continuous-time reinforcement learning (RL) to reduce sensitivity to environmental perturbations, yet its robustness benefits lack a rigorous theoretical foundation. This paper establishes the first robustness guarantees for entropy-regularized continuous-tim",
+            "published": "2026-07-03",
+            "url": "http://arxiv.org/abs/2607.03168v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "ART for Diffusion Sampling: Continuous-Time Control and Actor-Critic Learning",
+            "summary": "We study timestep allocation for score-based diffusion sampling, where a learned reverse-time dynamics is discretized on a finite grid. Uniform and hand-crafted schedules are standard choices, but they rely on fixed prescriptions and can therefore be suboptimal. To address this limitation, we propos",
+            "published": "2026-07-02",
+            "url": "http://arxiv.org/abs/2607.02137v2",
+            "seed_match_score": 1
+          }
+        ]
+      },
+      {
+        "timestamp": "2026-07-07T20:57:29.535356",
+        "papers_found": 0,
+        "duplicates": 9,
+        "irrelevant_filtered": 1,
+        "avg_relevance": 0.0,
+        "high_relevance": 0,
+        "papers": []
+      },
+      {
+        "timestamp": "2026-07-09T08:07:00.308608",
+        "papers_found": 0,
+        "duplicates": 9,
+        "irrelevant_filtered": 1,
+        "avg_relevance": 0.0,
+        "high_relevance": 0,
+        "papers": []
+      },
+      {
+        "timestamp": "2026-07-09T21:43:07.496356",
+        "papers_found": 1,
+        "duplicates": 8,
+        "irrelevant_filtered": 1,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "An optimal control approach for neural network architecture adaptation with a posteriori error estimation",
+            "summary": "This work presents a novel approach for adapting neural network architecture along the depth based on a posteriori error estimation. By formulating neural network training as a continuous-time optimal control problem, we derive rigorous error estimates that quantify how approximation error distribut",
+            "published": "2026-07-08",
+            "url": "http://arxiv.org/abs/2607.07637v1",
+            "seed_match_score": 1
+          }
+        ]
+      },
+      {
+        "timestamp": "2026-07-14T13:04:24.015371",
+        "papers_found": 3,
+        "duplicates": 5,
+        "irrelevant_filtered": 2,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "Actor-Critic Learning for Extended Mean Field Control with Deterministic Policies",
+            "summary": "This paper develops a model-free reinforcement learning framework for continuous--time extended mean field control problems, where both the dynamics and reward may depend on the joint distribution of states and controls. We adopt deterministic feedback policies, under which the state--action distrib",
+            "published": "2026-07-13",
+            "url": "http://arxiv.org/abs/2607.11005v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Sticky Jump Diffusions: A Unifying View of Masked, Continuous, and Hybrid Diffusion",
+            "summary": "We introduce Sticky Jump Diffusions (SJDs), continuous-time Markov processes on $\\mathbb R^d$ whose discrete anchors are token embeddings. In forward time, anchors release their mass at a hazard rate and the released mass diffuses in the continuous ambient space; time reversal couples a score-driven",
+            "published": "2026-07-12",
+            "url": "http://arxiv.org/abs/2607.10951v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Unlocking Temporal Generalization in Hamiltonian Video Dynamics Models",
+            "summary": "World models are typically trained to predict discrete-time physical dynamics with a fixed step size baked into the model weights, preventing prediction at variable temporal resolutions. This matters for hierarchical planning, sim-to-real transfer, and scientific or game-engine applications that mus",
+            "published": "2026-07-08",
+            "url": "http://arxiv.org/abs/2607.07763v1",
+            "seed_match_score": 1
+          }
+        ]
+      }
+    ],
+    "keywords": [
+      "liquid time",
+      "liquid neural",
+      "ltc",
+      "ode",
+      "continuous-time"
+    ],
+    "last_watered": "2026-07-14T13:04:24.015361"
+  },
+  "htm": {
+    "name": "HTM",
+    "total_papers_found": 9,
+    "watering_count": 7,
+    "history": [
+      {
+        "timestamp": "2026-07-07T08:08:03.935545",
+        "papers_found": 5,
+        "papers": [
+          {
+            "title": "Alignment Is All You Need For X-to-4D Generation",
+            "summary": "Generative diffusion models excel at synthesizing high-quality images, videos, and 3D content under multimodal control. However, arbitrary user-defined modality-to-4D (X-to-4D) generation remains challenging due to the high cost of constructing diverse datasets and the limited scalability of existin",
+            "published": "2026-07-02",
+            "seed_match_score": 0
+          },
+          {
+            "title": "ReContext: Recursive Evidence Replay as LLM Harness for Long-Context Reasoning",
+            "summary": "Understanding and reasoning over long contexts has become a key requirement for deploying large language models (LLMs) in realistic applications. Although recent LLMs support increasingly long context windows, they often fail to use relevant evidence that is already present in the input, revealing a",
+            "published": "2026-07-02",
+            "seed_match_score": 0
+          },
+          {
+            "title": "Reasoning LLM Improves Speaker Recognition in Long-form TV Dramas",
+            "summary": "Long-form TV dramas present a formidable challenge for comprehensive video understanding, where deciphering complex storyline often relies on \\textbf{speaker recognition}, the task of accurately attributing each spoken utterance to its respective character. In this paper, we advance this field throu",
+            "published": "2026-07-02",
+            "seed_match_score": 0
+          }
+        ]
+      },
+      {
+        "timestamp": "2026-07-07T13:28:34.873433",
+        "papers_found": 4,
+        "duplicates": 0,
+        "irrelevant_filtered": 6,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "Rank-Order N-of-M Codes for Sparse Distributed Memory: Disentangling Representation and Learning Effects in Noise Robustness Against Contemporary Neuromorphic Architectures",
+            "summary": "Large language models remain limited as continual learning systems, motivating renewed interest in Sparse Distributed Memory (SDM) as an explicit online episodic memory. CALM (Nechesov and Ruponen, 2025) identifies its threshold-binary encoder as an open design question. This paper evaluates rank-or",
+            "published": "2026-07-03",
+            "url": "http://arxiv.org/abs/2607.02967v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Distributed Hierarchical Temporal Memory with Shared Associative Memory for Cross-Entity Preemptive Warning",
+            "summary": "Anomaly detection in multivariate time series remains a critical challenge in large-scale distributed systems, where related entities may exhibit transferable precursor behavior prior to anomaly onset. Existing methods typically operate independently on each data stream and therefore remain fundamen",
+            "published": "2026-06-30",
+            "url": "http://arxiv.org/abs/2606.31789v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Spiking Sequence Machines and Transformers",
+            "summary": "Sequence learning reduces to similarity-based retrieval over a temporally indexed representation space, a constraint on any sequence model, not a property of a specific architecture. We show that a spiking Sparse Distributed Memory sequence machine (2007) and the transformer (2017) independently ins",
+            "published": "2026-05-01",
+            "url": "http://arxiv.org/abs/2605.00662v1",
+            "seed_match_score": 1
+          }
+        ]
+      },
+      {
+        "timestamp": "2026-07-08T10:55:22.772566",
+        "papers_found": 0,
+        "duplicates": 4,
+        "irrelevant_filtered": 6,
+        "avg_relevance": 0.0,
+        "high_relevance": 0,
+        "papers": []
+      },
+      {
+        "timestamp": "2026-07-09T10:12:16.361426",
+        "papers_found": 0,
+        "duplicates": 4,
+        "irrelevant_filtered": 6,
+        "avg_relevance": 0.0,
+        "high_relevance": 0,
+        "papers": []
+      },
+      {
+        "timestamp": "2026-07-10T07:45:07.338172",
+        "papers_found": 0,
+        "duplicates": 4,
+        "irrelevant_filtered": 6,
+        "avg_relevance": 0.0,
+        "high_relevance": 0,
+        "papers": []
+      },
+      {
+        "timestamp": "2026-07-14T17:43:49.730223",
+        "papers_found": 0,
+        "duplicates": 4,
+        "irrelevant_filtered": 6,
+        "avg_relevance": 0.0,
+        "high_relevance": 0,
+        "papers": []
+      }
+    ],
+    "keywords": [
+      "hierarchical temporal",
+      "htm",
+      "sparse distributed",
+      "numenta",
+      "cortical",
+      "online learning",
+      "sequence memory",
+      "predictive coding",
+      "anomaly detection",
+      "continuous learning"
+    ],
+    "last_watered": "2026-07-14T17:43:49.730212"
+  },
+  "spiking-nn": {
+    "name": "Spiking Neural Networks",
+    "total_papers_found": 12,
+    "watering_count": 6,
+    "history": [
+      {
+        "timestamp": "2026-07-07T08:54:38.442223",
+        "papers_found": 5,
+        "duplicates": 0,
+        "avg_relevance": 2.2,
+        "high_relevance": 4,
+        "papers": [
+          {
+            "title": "Dendritic In-Context Learning in a Single-Layer Spiking Neural Network",
+            "summary": "In-context learning (ICL) operates via implicit gradient descent embedded in the forward pass of modern AI architectures -- Transformers, Mamba, state-space models, and MLPs. Capturing this capability in biologically plausible Spiking Neural Networks (SNNs) has remained an open challenge: existing S",
+            "published": "2026-07-02",
+            "url": "http://arxiv.org/abs/2607.02283v1",
+            "seed_match_score": 2
+          },
+          {
+            "title": "Electronic Bursting Neuron: design, equations and hardware implementation",
+            "summary": "Electronic neurons are a keystone for construction of the spiking neural networks which have numerous applications in neuroprosthetics, artificial memory, intensive calculations etc. A number of concepts of electronic neurons has been already proposedm with some of them implemented in hardware. Howe",
+            "published": "2026-07-02",
+            "url": "http://arxiv.org/abs/2607.02122v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Unified Complex-valued Neural Network: A Magnitude-Phase Computational Model for Event-Driven Neuromorphic Learning",
+            "summary": "Artificial neural networks (ANN) provide accurate continuous-valued representation, whereas spiking neural networks (SNN) offer event-driven temporal processing, yet both paradigms face limitations when value encoding and timing dynamics must be learned within a single computational structure. This ",
+            "published": "2026-06-27",
+            "url": "http://arxiv.org/abs/2606.29099v1",
+            "seed_match_score": 3
+          }
+        ]
+      },
+      {
+        "timestamp": "2026-07-07T13:34:00.072863",
+        "papers_found": 5,
+        "duplicates": 5,
+        "irrelevant_filtered": 0,
+        "avg_relevance": 2.4,
+        "high_relevance": 5,
+        "papers": [
+          {
+            "title": "A Spiking Sequence Generator for Polar Trajectories on Neuromorphic Hardware",
+            "summary": "Neuromorphic controllers for size, weight, and power-constrained systems require neural architectures that are both energy-efficient and interpretable at the level of system dynamics. However, existing approaches either rely on end-to-end trained spiking networks with limited interpretability, or on",
+            "published": "2026-07-02",
+            "url": "http://arxiv.org/abs/2607.02753v1",
+            "seed_match_score": 2
+          },
+          {
+            "title": "Hybrid ANN-SNN Pipeline with Local Plasticity",
+            "summary": "This work proposes a hybrid ANN-SNN pipeline that effectively leverages the rich embeddings of pretrained artificial neural networks (ANNs) to enable high-performance spiking neural networks (SNNs). The architecture couples a pretrained EfficientNet encoder with a CoLaNET spiking classifier. We conv",
+            "published": "2026-06-18",
+            "url": "http://arxiv.org/abs/2606.20151v1",
+            "seed_match_score": 2
+          },
+          {
+            "title": "Adaptive Speech-to-Spike Encoding for Spiking Neural Networks",
+            "summary": "The mismatch between continuous acoustic signals and discrete event-driven processing remains a fundamental bottleneck for neuromorphic speech processing. Current systems typically rely on fixed spike encoders, forcing downstream Spiking Neural Networks (SNNs) to compensate for non-adaptive input re",
+            "published": "2026-06-17",
+            "url": "http://arxiv.org/abs/2606.19039v1",
+            "seed_match_score": 3
+          }
+        ]
+      },
+      {
+        "timestamp": "2026-07-08T13:04:21.851312",
+        "papers_found": 1,
+        "duplicates": 9,
+        "irrelevant_filtered": 0,
+        "avg_relevance": 3.0,
+        "high_relevance": 1,
+        "papers": [
+          {
+            "title": "A Hardware-Aware Open-Source Framework for Design Space Exploration of Mixed-Signal Spiking Neural Networks",
+            "summary": "Energy-efficient neuromorphic computing at the edge requires simulation tools that can capture the non-ideal behavior of mixed-signal spiking neural network (SNN) hardware while supporting system-level design exploration. This work presents an open-source hardware-aware simulation framework for mixe",
+            "published": "2026-07-07",
+            "url": "http://arxiv.org/abs/2607.06456v1",
+            "seed_match_score": 3
+          }
+        ]
+      },
+      {
+        "timestamp": "2026-07-09T13:19:55.384488",
+        "papers_found": 0,
+        "duplicates": 10,
+        "irrelevant_filtered": 0,
+        "avg_relevance": 0.0,
+        "high_relevance": 0,
+        "papers": []
+      },
+      {
+        "timestamp": "2026-07-10T09:32:32.721503",
+        "papers_found": 0,
+        "duplicates": 10,
+        "irrelevant_filtered": 0,
+        "avg_relevance": 0.0,
+        "high_relevance": 0,
+        "papers": []
+      },
+      {
+        "timestamp": "2026-07-14T19:44:41.742239",
+        "papers_found": 1,
+        "duplicates": 8,
+        "irrelevant_filtered": 1,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "Efficient and Robust Spiking Neural Networks for sEMG-Based Muscle Fatigue Detection",
+            "summary": "Detecting muscle fatigue via surface electromyography (sEMG) is essential for applications in sports, rehabilitation, and wearable health monitoring. Accurate and timely detection of fatigue is crucial for preventing injuries, optimizing physical performance, and ensuring user safety during prolonge",
+            "published": "2026-07-13",
+            "url": "http://arxiv.org/abs/2607.11065v1",
+            "seed_match_score": 1
+          }
+        ]
+      }
+    ],
+    "keywords": [
+      "spiking",
+      "snn",
+      "neuromorphic",
+      "spike-timing"
+    ],
+    "last_watered": "2026-07-14T19:44:41.742228"
+  },
+  "non-transformer": {
+    "name": "Non-Transformer Arch",
+    "total_papers_found": 5,
+    "watering_count": 7,
+    "history": [
+      {
+        "timestamp": "2026-07-07T10:14:36.288723",
+        "papers_found": 0,
+        "papers": []
+      },
+      {
+        "timestamp": "2026-07-07T13:37:19.639076",
+        "papers_found": 3,
+        "duplicates": 3,
+        "irrelevant_filtered": 4,
+        "avg_relevance": 1.33,
+        "high_relevance": 1,
+        "papers": [
+          {
+            "title": "Lacuna Inc. at SemEval-2026 Task 4: Structurally Gated State-Space Models for Disentangling Narrative Similarity",
+            "summary": "In this paper, we present the Invariant-Variant Disentangled State-Space Model (IVD-SSM), our submission to SemEval-2026 Task 4 on Narrative Story Similarity and Narrative Representation Learning. Evaluating narrative similarity is a profound computational challenge that requires models to look past",
+            "published": "2026-07-03",
+            "url": "http://arxiv.org/abs/2607.03482v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "From Monolingual to Multilingual: Evaluating Mamba for ASR in South African Languages",
+            "summary": "Recent advances in automatic speech recognition (ASR) have explored different sequence models, including Conformer-based models and newer state space models such as Mamba. Although prior work has evaluated these architectures in multiple languages, their effectiveness in African languages remains un",
+            "published": "2026-07-01",
+            "url": "http://arxiv.org/abs/2607.01502v1",
+            "seed_match_score": 2
+          },
+          {
+            "title": "Ghost in the Kernel: In-Context Learning with Efficient Transformers via Domain Generalization",
+            "summary": "Transformer-based large models have demonstrated remarkable generalization abilities across different tasks by leveraging a context-aware attention module for in-context learning. With richer context, transformers adapt more effectively to the current use case without any parameter updates. However,",
+            "published": "2026-07-01",
+            "url": "http://arxiv.org/abs/2607.00479v1",
+            "seed_match_score": 1
+          }
+        ]
+      },
+      {
+        "timestamp": "2026-07-08T14:02:53.151794",
+        "papers_found": 0,
+        "duplicates": 0,
+        "irrelevant_filtered": 0,
+        "avg_relevance": 0,
+        "high_relevance": 0,
+        "papers": []
+      },
+      {
+        "timestamp": "2026-07-09T15:20:53.914912",
+        "papers_found": 1,
+        "duplicates": 5,
+        "irrelevant_filtered": 4,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "Sparse Delta Memory: Scaling the State of Linear RNNs through Sparsity",
+            "summary": "Linear attention models allow a fixed state size and a fixed amount of compute per token. However, due to their limited state size, linear attention models fall behind in long-context recall compared to softmax-attention-based transformer architectures. Increasing the state size of linear attention ",
+            "published": "2026-07-08",
+            "url": "http://arxiv.org/abs/2607.07386v1",
+            "seed_match_score": 1
+          }
+        ]
+      },
+      {
+        "timestamp": "2026-07-10T11:36:15.688082",
+        "papers_found": 1,
+        "duplicates": 4,
+        "irrelevant_filtered": 5,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "Linear Attention Architectures: Mechanisms, Trade-offs, and Cross-Layer Routing",
+            "summary": "Self-attention lets each token retrieve information from the full context, but its quadratic cost in sequence length limits training and inference at long context. This paper presents a comparative study of softmax attention and four recent recurrent linear-attention architectures: DeltaNet, Gated D",
+            "published": "2026-07-08",
+            "url": "http://arxiv.org/abs/2607.07953v1",
+            "seed_match_score": 1
+          }
+        ]
+      },
+      {
+        "timestamp": "2026-07-15T10:06:08.816580",
+        "papers_found": 0,
+        "duplicates": 0,
+        "irrelevant_filtered": 0,
+        "avg_relevance": 0,
+        "high_relevance": 0,
+        "papers": []
+      }
+    ],
+    "keywords": [
+      "linear attention",
+      "state space",
+      "rwkv",
+      "gated linear",
+      "efficient transformer",
+      "linear recurrent",
+      "sub-quadratic",
+      "mamba"
+    ],
+    "last_watered": "2026-07-15T10:06:08.816561"
+  },
+  "few-shot": {
+    "name": "Few-Shot Learning",
+    "total_papers_found": 11,
+    "watering_count": 6,
+    "history": [
+      {
+        "timestamp": "2026-07-07T13:04:52.717562",
+        "papers_found": 5,
+        "duplicates": 0,
+        "irrelevant_filtered": 5,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "PulmoSight-XAI: An Explainable Multi-View Attention Ensemble with Gradient Boosting Meta-Learning for Multi-Label Chest X-Ray Classification",
+            "summary": "Automated chest X-ray classification remains challenging due to severe class imbalance, co-occurring pathologies, and the loss of localized features in conventional architectures. To address these, we propose an explainable hierarchical multi-view ensemble framework for the robust classification of ",
+            "published": "2026-07-05",
+            "url": "http://arxiv.org/abs/2607.04478v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Labeled-Data-Free Meta-Learning: Efficient Task Generation Using Pre-trained Models and Unlabeled Data",
+            "summary": "Meta-learning without labeled data is crucial for real-world applications, where obtaining labeled datasets can be expensive or restricted due to privacy concerns. Data-Free Meta-Learning (DFML) addresses this challenge by leveraging pre-trained models without access to training data. However, exist",
+            "published": "2026-07-03",
+            "url": "http://arxiv.org/abs/2607.02850v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Neuron-Aware Active Few-Shot Learning for LLMs",
+            "summary": "Active Few-Shot Learning (AFSL) adapts LLMs to specialized domains by identifying the most valuable unlabeled samples for annotation and use as few-shot demonstrations, effectively reducing human annotation costs while promoting high performance. However, existing methods typically rely on output-le",
+            "published": "2026-07-02",
+            "url": "http://arxiv.org/abs/2607.02423v1",
+            "seed_match_score": 1
+          }
+        ]
+      },
+      {
+        "timestamp": "2026-07-07T15:06:54.119608",
+        "papers_found": 5,
+        "papers": [
+          {
+            "title": "CATs: Secure Blockchain Interoperability with Cross-chain Atomic Transactions",
+            "summary": "We propose a protocol for cross-chain atomic transactions (CATs), enabling composable atomic execution across different blockchains. The protocol addresses the key interoperability challenge of providing atomicity guarantees in the presence of asynchronous communication and Byzantine actors. It pres",
+            "published": "2026-07-06",
+            "seed_match_score": 0
+          },
+          {
+            "title": "Well-invertible column subsets of sparse matrices are rare",
+            "summary": "A random $n\\times k$ matrix $S$ is an \\emph{$(r,α)$-oblivious subspace injection} (OSI) if $\\Exp\\|S^\\top x\\|_2^2=\\|x\\|_2^2$ for every $x\\in\\R^n$, and for every fixed $r$-dimensional subspace $V\\subset\\R^n$, with probability close to one, one has $α\\|x\\|_2^2\\le\\|S^\\top x\\|_2^2$ for all $x\\in V$. In t",
+            "published": "2026-07-06",
+            "seed_match_score": 0
+          },
+          {
+            "title": "Abstract Color Voronoi Diagrams and Circular Sequences of Color Permutations",
+            "summary": "Abstract Voronoi diagrams are defined in terms of a given system of planar bisecting curves satisfying some simple combinatorial properties. They offer a unifying framework for a wide range of concrete Voronoi instances on generalized sites and metrics. In this paper, we formulate higher-order abstr",
+            "published": "2026-07-06",
+            "seed_match_score": 0
+          }
+        ]
+      },
+      {
+        "timestamp": "2026-07-08T15:49:12.485144",
+        "papers_found": 0,
+        "duplicates": 5,
+        "irrelevant_filtered": 5,
+        "avg_relevance": 0.0,
+        "high_relevance": 0,
+        "papers": []
+      },
+      {
+        "timestamp": "2026-07-09T17:31:37.532885",
+        "papers_found": 1,
+        "duplicates": 4,
+        "irrelevant_filtered": 5,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "Efficient Long-Horizon Learning for Learned Optimization",
+            "summary": "Learned optimization aims to improve upon hand-designed optimizers (e.g., Adam and Muon) by meta-learning small neural network optimizers over a distribution of tasks. While recent work has greatly advanced the architectural design and inductive biases of learned optimizers (LOs), current meta-train",
+            "published": "2026-07-07",
+            "url": "http://arxiv.org/abs/2607.06772v1",
+            "seed_match_score": 1
+          }
+        ]
+      },
+      {
+        "timestamp": "2026-07-14T07:47:07.707055",
+        "papers_found": 0,
+        "duplicates": 5,
+        "irrelevant_filtered": 5,
+        "avg_relevance": 0.0,
+        "high_relevance": 0,
+        "papers": []
+      }
+    ],
+    "keywords": [
+      "few-shot",
+      "meta-learning",
+      "maml",
+      "prototypical",
+      "in-context"
+    ],
+    "last_watered": "2026-07-14T07:47:07.707043"
+  },
+  "continual-learning": {
+    "name": "Continual Learning",
+    "total_papers_found": 11,
+    "watering_count": 5,
+    "history": [
+      {
+        "timestamp": "2026-07-07T13:06:50.870963",
+        "papers_found": 5,
+        "papers": [
+          {
+            "title": "CATs: Secure Blockchain Interoperability with Cross-chain Atomic Transactions",
+            "summary": "We propose a protocol for cross-chain atomic transactions (CATs), enabling composable atomic execution across different blockchains. The protocol addresses the key interoperability challenge of providing atomicity guarantees in the presence of asynchronous communication and Byzantine actors. It pres",
+            "published": "2026-07-06",
+            "seed_match_score": 0
+          },
+          {
+            "title": "Well-invertible column subsets of sparse matrices are rare",
+            "summary": "A random $n\\times k$ matrix $S$ is an \\emph{$(r,α)$-oblivious subspace injection} (OSI) if $\\Exp\\|S^\\top x\\|_2^2=\\|x\\|_2^2$ for every $x\\in\\R^n$, and for every fixed $r$-dimensional subspace $V\\subset\\R^n$, with probability close to one, one has $α\\|x\\|_2^2\\le\\|S^\\top x\\|_2^2$ for all $x\\in V$. In t",
+            "published": "2026-07-06",
+            "seed_match_score": 0
+          },
+          {
+            "title": "Abstract Color Voronoi Diagrams and Circular Sequences of Color Permutations",
+            "summary": "Abstract Voronoi diagrams are defined in terms of a given system of planar bisecting curves satisfying some simple combinatorial properties. They offer a unifying framework for a wide range of concrete Voronoi instances on generalized sites and metrics. In this paper, we formulate higher-order abstr",
+            "published": "2026-07-06",
+            "seed_match_score": 0
+          }
+        ]
+      },
+      {
+        "timestamp": "2026-07-07T16:32:47.038773",
+        "papers_found": 2,
+        "duplicates": 1,
+        "irrelevant_filtered": 7,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "FlatManifold: Robust Continual Learning under Severe Label Noise and Domain Shifts via Intrinsic Manifold Flattening",
+            "summary": "In non-stationary streaming environments, simultaneously adapting to complex, non-linear domain shifts via continual learning while mitigating the catastrophic effects of severe, uncalibrated label noise poses a fundamental mathematical challenge. In this paper, we propose \\FlatManifold{}, a novel, ",
+            "published": "2026-07-06",
+            "url": "http://arxiv.org/abs/2607.05201v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Information-Regularized Attention for Visual-Centric Reasoning",
+            "summary": "Vision-language models (VLMs) have become a paradigm for multimodal learning, yet remain unstable due to object hallucination, weak visual grounding, and catastrophic forgetting after full-parameter instruction tuning. We claim these failures result from a lack of explicit control over visual repres",
+            "published": "2026-07-01",
+            "url": "http://arxiv.org/abs/2607.00434v1",
+            "seed_match_score": 1
+          }
+        ]
+      },
+      {
+        "timestamp": "2026-07-08T17:44:19.850424",
+        "papers_found": 1,
+        "duplicates": 3,
+        "irrelevant_filtered": 6,
+        "avg_relevance": 3.0,
+        "high_relevance": 1,
+        "papers": [
+          {
+            "title": "To Retain or to Adapt? Generalizing Continual Learning",
+            "summary": "The Continual Learning (CL) literature has long been driven by the goal of mitigating catastrophic forgetting. This objective rests on a pervasive, often unstated assumption: that a lifelong learner should approximate the Joint-Task Learning (JTL) solution and retain all previously acquired knowledg",
+            "published": "2026-07-06",
+            "url": "http://arxiv.org/abs/2607.05609v1",
+            "seed_match_score": 3
+          }
+        ]
+      },
+      {
+        "timestamp": "2026-07-09T20:02:01.895280",
+        "papers_found": 3,
+        "duplicates": 3,
+        "irrelevant_filtered": 4,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "Continual Learning With Participation Privacy: An Auditable Buffering-Aggregation Recipe",
+            "summary": "Modern federated and streaming learning systems often release intermediate models, so privacy must hold for the full trajectory under adaptive interaction. Motivated by participation privacy, we study single-edit neighboring user streams, where one insertion/deletion shifts all subsequent updates an",
+            "published": "2026-07-08",
+            "url": "http://arxiv.org/abs/2607.07209v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Intrinsic-Noise Consolidation: A Doob-Barrier-Conditioned Diffusion Turns Analog Device Noise into a Continual-Learning Resource",
+            "summary": "On analog neuromorphic hardware, intrinsic device noise is normally an accuracy tax. We ask whether it can instead consolidate memories. We cast per-synapse consolidation as a Doob h-transform: condition each weight's stochastic dynamics on never crossing a memory-critical barrier around its consoli",
+            "published": "2026-07-08",
+            "url": "http://arxiv.org/abs/2607.06924v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "LoCA: Spatially-Aware Low-Rank Convolutional Adaptation of Vision Foundation Models",
+            "summary": "Pre-trained Vision Foundation Models (VFMs) provide strong visual representations for diverse downstream tasks. The key challenge of VFM adaptation stems from the prohibitive costs of full fine-tuning and catastrophic forgetting. To address this, Low-Rank Adaptation (LoRA) has emerged as the prevail",
+            "published": "2026-07-08",
+            "url": "http://arxiv.org/abs/2607.06918v1",
+            "seed_match_score": 1
+          }
+        ]
+      },
+      {
+        "timestamp": "2026-07-14T09:51:46.594548",
+        "papers_found": 0,
+        "duplicates": 0,
+        "irrelevant_filtered": 0,
+        "avg_relevance": 0,
+        "high_relevance": 0,
+        "papers": []
+      }
+    ],
+    "keywords": [
+      "continual learning",
+      "catastrophic forgetting",
+      "lifelong",
+      "ewc",
+      "elastic weight"
+    ],
+    "last_watered": "2026-07-14T09:51:46.594508"
+  },
+  "moe": {
+    "name": "Mixture of Experts",
+    "total_papers_found": 0,
+    "watering_count": 1,
+    "history": [],
+    "keywords": [
+      "mixture of experts",
+      "moe",
+      "sparse gating",
+      "expert routing",
+      "router",
+      "switch transformer",
+      "deepseek"
+    ],
+    "last_watered": "2026-07-15T10:12:22.273088"
+  },
+  "kv-cache": {
+    "name": "KV Cache Optimization",
+    "total_papers_found": 0,
+    "watering_count": 1,
+    "history": [],
+    "keywords": [
+      "kv cache",
+      "key-value cache",
+      "multi-query attention",
+      "grouped query",
+      "gqa",
+      "flash attention",
+      "speculative decoding"
+    ],
+    "last_watered": "2026-07-15T10:21:38.339279"
+  },
+  "gnn": {
+    "name": "Graph Neural Networks",
+    "total_papers_found": 0,
+    "watering_count": 2,
+    "history": [],
+    "keywords": [
+      "graph neural",
+      "gnn",
+      "message passing",
+      "graph attention",
+      "geometric",
+      "node embedding",
+      "graph transformer"
+    ],
+    "last_watered": "2026-07-15T09:50:22.939120"
+  }
+}
