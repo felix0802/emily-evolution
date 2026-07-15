@@ -1402,5 +1402,39 @@
     },
     "overall": "healthy",
     "summary": "🟢 所有指标正常，进化稳定推进"
+  },
+  {
+    "evolution": 147,
+    "timestamp": "2026-07-15T03:48:39.219253",
+    "checks": {
+      "keyword_staleness": {
+        "score": 0.2,
+        "unique_recent_sets": 4,
+        "status": "healthy"
+      },
+      "adoption_rate": {
+        "total_adopted": 20,
+        "discovered_this_round": 26,
+        "status": "healthy",
+        "message": "已采用 20 / 26 个技术"
+      },
+      "seed_growth": {
+        "growing_seeds": 7,
+        "total_seeds": 10,
+        "never_watered": [],
+        "status": "healthy"
+      },
+      "ml_progress": {
+        "improvements_recorded": 42,
+        "status": "healthy"
+      },
+      "paper_inflow": {
+        "this_round": 16,
+        "recent_avg": 13.7,
+        "status": "healthy"
+      }
+    },
+    "overall": "healthy",
+    "summary": "🟢 所有指标正常，进化稳定推进"
   }
 ]

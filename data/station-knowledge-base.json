@@ -1,37 +1,6 @@
 {
   "sessions": [
     {
-      "timestamp": "2026-07-02T02:23:44.466157",
-      "arxiv_papers_count": 20,
-      "arxiv_top_keywords": [
-        "supervision",
-        "llm",
-        "agents",
-        "llms",
-        "lms",
-        "training",
-        "fixed",
-        "explanations",
-        "dense",
-        "long"
-      ],
-      "huggingface_models_tracked": 10,
-      "huggingface_top_tasks": [
-        "sentence-similarity",
-        "fill-mask",
-        "text-ranking",
-        "feature-extraction",
-        "unknown"
-      ],
-      "ml_benchmarks_run": 10,
-      "ml_top_classifier": "RandomForest",
-      "evolution": {
-        "techniques_discovered": 0,
-        "techniques_adopted": 0,
-        "decisions": 0
-      }
-    },
-    {
       "timestamp": "2026-07-02T02:23:45.541762",
       "arxiv_papers_count": 20,
       "arxiv_top_keywords": [
@@ -3642,10 +3611,52 @@
         "seed_name": "Mamba (SSM)",
         "papers_found": 8
       }
+    },
+    {
+      "timestamp": "2026-07-15T03:48:39.216655",
+      "arxiv_papers_count": 16,
+      "arxiv_top_keywords": [
+        "anomaly",
+        "time",
+        "series",
+        "detection",
+        "adversarial",
+        "parameter",
+        "spectrum",
+        "context",
+        "scores",
+        "question"
+      ],
+      "arxiv_strategies": [
+        "搜索: time series forecasting",
+        "搜索: anomaly detection",
+        "搜索: mixture of experts"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "fill-mask",
+        "text-generation",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [],
+      "ml_total_tests": 0,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 26,
+        "adopted": 0,
+        "decisions": 0
+      },
+      "seed_watering": {
+        "seed_name": "Liquid Networks",
+        "papers_found": 8
+      }
     }
   ],
-  "total_sessions": 100,
-  "last_updated": "2026-07-15T03:32:32.422194",
+  "total_sessions": 101,
+  "last_updated": "2026-07-15T03:48:39.216667",
   "evolution_summary": {
     "total_adopted": 20,
     "adopted_list": [
@@ -3678,8 +3689,8 @@
       },
       "liquid-networks": {
         "name": "Liquid Networks",
-        "watering": 7,
-        "papers": 17
+        "watering": 8,
+        "papers": 20
       },
       "htm": {
         "name": "HTM",
@@ -3761,14 +3772,14 @@
       },
       "liquid-networks": {
         "name": "Liquid Networks",
-        "new_papers": 12,
+        "new_papers": 15,
         "keywords_matched": [
+          "ode",
           "liquid neural",
-          "continuous-time",
-          "ode"
+          "continuous-time"
         ],
-        "high_relevance_total": 3,
-        "avg_relevance_latest": 1.0,
+        "high_relevance_total": 4,
+        "avg_relevance_latest": 1.33,
         "best_papers_count": 0
       },
       "htm": {
@@ -3816,6 +3827,6 @@
         "best_papers_count": 0
       }
     },
-    "last_evolution": "2026-07-15T03:32:32.422625"
+    "last_evolution": "2026-07-15T03:48:39.217051"
   }
 }

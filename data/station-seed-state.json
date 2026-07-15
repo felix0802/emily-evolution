@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 41,
+  "_rotation_idx": 42,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 18,
@@ -154,8 +154,8 @@
   },
   "liquid-networks": {
     "name": "Liquid Networks",
-    "total_papers_found": 17,
-    "watering_count": 7,
+    "total_papers_found": 20,
+    "watering_count": 8,
     "history": [
       {
         "timestamp": "2026-07-06T21:47:31.917958",
@@ -277,6 +277,37 @@
             "seed_match_score": 1
           }
         ]
+      },
+      {
+        "timestamp": "2026-07-15T03:48:27.632141",
+        "papers_found": 3,
+        "duplicates": 5,
+        "irrelevant_filtered": 2,
+        "avg_relevance": 1.33,
+        "high_relevance": 1,
+        "papers": [
+          {
+            "title": "LatentFlow: A General Framework for Conditioning Stochastic Processes",
+            "summary": "Stochastic-process models are, as a rule, far easier to simulate than to condition. Non-linear observations, non-Gaussian likelihoods, black-box information, and global constraints all induce intractable conditional laws, requiring bespoke, model-specific constructions. We introduce LatentFlow, a si",
+            "published": "2026-07-14",
+            "url": "http://arxiv.org/abs/2607.12922v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Accelerated Mixing Time of Randomized Hamiltonian Monte Carlo",
+            "summary": "We show the Randomized Hamiltonian Monte Carlo (RHMC) algorithm has accelerated mixing time guarantees for sampling from log-concave probability distributions. RHMC proceeds by repeatedly simulating the continuous-time Hamiltonian dynamics for some random integration times, and resetting the velocit",
+            "published": "2026-07-14",
+            "url": "http://arxiv.org/abs/2607.12902v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "The Geometry of Memorization: Finite-Time Spectral Sensitivity as a Diagnostic for Flow Matching Models",
+            "summary": "Continuous-time generative frameworks construct probability paths between base and target domains by optimizing time-dependent velocity fields. While theoretical targets favor straight trajectories, empirical networks develop complex path deformations. This paper presents the Finite-Time Spectral Se",
+            "published": "2026-07-14",
+            "url": "http://arxiv.org/abs/2607.12616v1",
+            "seed_match_score": 2
+          }
+        ]
       }
     ],
     "keywords": [
@@ -286,7 +317,7 @@
       "ode",
       "continuous-time"
     ],
-    "last_watered": "2026-07-14T13:04:24.015361"
+    "last_watered": "2026-07-15T03:48:27.632137"
   },
   "htm": {
     "name": "HTM",
