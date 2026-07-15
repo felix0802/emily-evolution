@@ -1,7 +1,12 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-🧬 Emily Evolution Station v9.2 — 思考者进化：完整自我进化闭环 AI 研究站
+🧬 Emily Evolution Station v9.3 — 思考者进化：DeepSeek 激活 + 完整自我进化闭环 AI 研究站
+
+v9.3 升级（DeepSeek 激活）:
+  + LLM 回调链升级: Ollama → DeepSeek (优先) → SiliconFlow (备用)
+  + DeepSeek V3.2 (deepseek-chat) — 用户已充值，即时激活
+  + 论文分析/假設生成/实验设计全部由 LLM 驱动，不再依赖关键词匹配
 
 v9.2 升级（理论合成）:
   + synthesize_theory() — 每 100 轮回顾所有假设，LLM 提炼统一理论体系
@@ -10,22 +15,15 @@ v9.2 升级（理论合成）:
 v9.1 升级（实验设计引擎）:
   + design_experiment() — 对已验证假设自动设计最小 sklearn 对比实验
   + run_experiment() — 执行实验并记录准确率/差异/结论
-  + 实验验证回路: 假设 → 实验设计 → sklearn 运行 → 结果回写 → classified
 
 v9.0 升级（假設引擎 — 聚合器→思考者）：
   + 假设引擎: generate_hypotheses() — LLM 从种子交叉引用生成可验证研究假设
   + 假设验证: verify_hypothesis() — arXiv 搜索 + LLM 判断支持/推翻
-  + 持久化: station-hypotheses.json — 记录所有假设、验证状态、支持/推翻论文
 
-v8.0 升级:
-  + 云端模式: GitHub Actions + cron 定时进化 (每2小时)
-  + LLM: Qwen3.5-122B-A10B (SiliconFlow API)
-  + 数据存储: GitHub Repo data/ 目录
-
-进化闭环（三回路 v9.2）：
-  回路A(发现): 感知 → 理解(LLM) → 决策 → 行动 → 验证 → 自评 → 循环
-  回路B(思考): 交叉引用 → 假设生成(LLM) → arXiv验证 → 实验验证(v9.1) → 循环
-  回路C(合成): 每100轮 → 全体假设回顾 → 理论提炼(LLM) → 更新知识体系 → 循环
+进化闭环（三回路 v9.3）：
+  回路A(发现): 感知 → 理解(LLM DeepSeek) → 决策 → 行动 → 验证 → 自评 → 循环
+  回路B(思考): 交叉引用 → 假设生成(LLM DeepSeek) → arXiv验证 → 实验验证 → 循环
+  回路C(合成): 每100轮 → 全体假设回顾 → 理论提炼(LLM DeepSeek) → 更新知识体系 → 循环
 """
 
 import base64, json, os, platform, re, subprocess, sys, time, tempfile, shutil, hashlib, random
@@ -72,17 +70,21 @@ EXPERIMENTS_PATH = os.path.join(DATA_DIR, "station-experiments.json")        # v
 THEORIES_PATH = os.path.join(DATA_DIR, "station-theories.json")              # v9.2: 理論合成
 
 # ===== Config =====
-VERSION = "9.2"
+VERSION = "9.3"
 OLLAMA_URL = "http://localhost:11434/api/generate"
 OLLAMA_MODEL = "qwen2.5:1.5b"
 GITHUB_OWNER = "felix0802"
 GITHUB_REPO = "emily-evolution"
 
-# P0: 云端 LLM 回退 — 硅基流动 (SiliconFlow) OpenAI 兼容 API
-# 设置环境变量 SILICONFLOW_API_KEY 或在 evolution-config.json 中配置
+# P0: 云端 LLM — DeepSeek (v9.3 優先) + SiliconFlow (備用)
+# DeepSeek API (OpenAI 兼容) — 性價比最高，用戶已充值
+DEEPSEEK_API_KEY = os.environ.get("DEEPSEEK_API_KEY", "")
+DEEPSEEK_BASE_URL = "https://api.deepseek.com/chat/completions"
+DEEPSEEK_MODEL = os.environ.get("DEEPSEEK_MODEL", "deepseek-chat")  # V3.2 非思考模式
+
+# 硅基流动 (SiliconFlow) — 備用 (Qwen3.5-122B)
 SILICONFLOW_API_KEY = os.environ.get("SILICONFLOW_API_KEY", "")
 SILICONFLOW_BASE_URL = "https://api.siliconflow.cn/v1/chat/completions"
-# v8.0: 升級到 122B 大模型，分析深度提升 5-10 倍
 SILICONFLOW_MODEL = os.environ.get("SILICONFLOW_MODEL", "Qwen/Qwen3.5-122B-A10B")
 
 # P1-2: 通用重试函数 — 指数退避
@@ -543,8 +545,43 @@ def call_cloud_llm(prompt, system_prompt="", timeout_sec=60):
     except Exception as e:
         return f"[CLOUD_LLM_ERROR: {str(e)[:60]}]"
 
+def call_deepseek(prompt, system_prompt="", timeout_sec=60):
+    """调用 DeepSeek API (OpenAI 兼容格式, deepseek-chat V3.2)"""
+    if not DEEPSEEK_API_KEY:
+        return None
+
+    messages = []
+    if system_prompt:
+        messages.append({"role": "system", "content": system_prompt})
+    messages.append({"role": "user", "content": prompt})
+
+    payload = json.dumps({
+        "model": DEEPSEEK_MODEL,
+        "messages": messages,
+        "temperature": 0.3,
+        "max_tokens": 1024,
+    }).encode()
+
+    try:
+        resp = retry_request(
+            DEEPSEEK_BASE_URL,
+            method="POST",
+            data=payload,
+            headers={
+                "Content-Type": "application/json",
+                "Authorization": f"Bearer {DEEPSEEK_API_KEY}",
+                "User-Agent": f"Emily/{VERSION}",
+            },
+            timeout=timeout_sec
+        )
+        result = json.loads(resp.read().decode())
+        return result["choices"][0]["message"]["content"].strip()
+    except Exception as e:
+        return f"[DEEPSEEK_ERROR: {str(e)[:60]}]"
+
+
 def call_llm_smart(prompt, system_prompt="", timeout_sec=60):
-    """智能 LLM 调用：优先 Ollama → SiliconFlow → 无"""
+    """智能 LLM 调用：优先 Ollama → DeepSeek → SiliconFlow → 无"""
     # 先试 Ollama
     ollama_ok, _ = check_ollama()
     if ollama_ok:
@@ -552,7 +589,13 @@ def call_llm_smart(prompt, system_prompt="", timeout_sec=60):
         if result and not result.startswith("[LLM_ERROR"):
             return result, "ollama"
 
-    # 回退到云端
+    # 回退到 DeepSeek (已充值，優先使用)
+    if DEEPSEEK_API_KEY:
+        result = call_deepseek(prompt, system_prompt, timeout_sec)
+        if result and not result.startswith("[DEEPSEEK_ERROR"):
+            return result, "deepseek"
+
+    # 最後回退到 SiliconFlow
     if SILICONFLOW_API_KEY:
         result = call_cloud_llm(prompt, system_prompt, timeout_sec)
         if result and not result.startswith("[CLOUD_LLM_ERROR"):
