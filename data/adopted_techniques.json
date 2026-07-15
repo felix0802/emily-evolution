@@ -383,6 +383,21 @@
         ],
         "decided_at": "2026-07-15T05:56:00.475535"
       }
+    },
+    {
+      "id": "llm-零演示自我对弈",
+      "name": "零演示自我对弈",
+      "adopted_at": "2026-07-15T06:10:00.391401",
+      "decision": {
+        "tech_id": "llm-零演示自我对弈",
+        "tech_name": "零演示自我对弈",
+        "action": "adopt",
+        "confidence": 0.8,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-07-15T06:10:00.390293"
+      }
     }
   ],
   "history": [
@@ -535,6 +550,12 @@
       "tech_id": "llm-光流作为动作表示",
       "tech_name": "光流作为动作表示",
       "timestamp": "2026-07-15T05:56:00.476021"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-零演示自我对弈",
+      "tech_name": "零演示自我对弈",
+      "timestamp": "2026-07-15T06:10:00.391408"
     }
   ]
 }

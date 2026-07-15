@@ -1,37 +1,6 @@
 {
   "sessions": [
     {
-      "timestamp": "2026-07-02T06:28:12.378245",
-      "arxiv_papers_count": 20,
-      "arxiv_top_keywords": [
-        "supervision",
-        "llm",
-        "agents",
-        "llms",
-        "lms",
-        "training",
-        "fixed",
-        "explanations",
-        "dense",
-        "long"
-      ],
-      "huggingface_models_tracked": 10,
-      "huggingface_top_tasks": [
-        "sentence-similarity",
-        "fill-mask",
-        "text-ranking",
-        "feature-extraction",
-        "unknown"
-      ],
-      "ml_benchmarks_run": 10,
-      "ml_top_classifier": "RandomForest",
-      "evolution": {
-        "techniques_discovered": 0,
-        "techniques_adopted": 0,
-        "decisions": 0
-      }
-    },
-    {
       "timestamp": "2026-07-02T08:08:59.721725",
       "arxiv_papers_count": 20,
       "arxiv_top_keywords": [
@@ -3697,12 +3666,54 @@
         "seed_name": "Few-Shot Learning",
         "papers_found": 5
       }
+    },
+    {
+      "timestamp": "2026-07-15T06:10:00.396584",
+      "arxiv_papers_count": 5,
+      "arxiv_top_keywords": [
+        "agents",
+        "task",
+        "execution",
+        "aware",
+        "know",
+        "driving",
+        "enough",
+        "terrazero",
+        "procedural",
+        "simulation"
+      ],
+      "arxiv_strategies": [
+        "cs.AI (fallback)",
+        "cs.AI (fallback)",
+        "cs.AI (fallback)"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "fill-mask",
+        "text-generation",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [],
+      "ml_total_tests": 0,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 19,
+        "adopted": 1,
+        "decisions": 1
+      },
+      "seed_watering": {
+        "seed_name": "",
+        "papers_found": 0
+      }
     }
   ],
   "total_sessions": 101,
-  "last_updated": "2026-07-15T05:56:03.310690",
+  "last_updated": "2026-07-15T06:10:00.396597",
   "evolution_summary": {
-    "total_adopted": 25,
+    "total_adopted": 26,
     "adopted_list": [
       "Knowledge Distillation",
       "World Models / Model-Based RL",
@@ -3728,7 +3739,8 @@
       "离散扩散语言模型",
       "程序化驾驶模拟",
       "双向视频扩散模型",
-      "光流作为动作表示"
+      "光流作为动作表示",
+      "零演示自我对弈"
     ],
     "seeds": {
       "mamba": {
@@ -3763,7 +3775,7 @@
       },
       "continual-learning": {
         "name": "Continual Learning",
-        "watering": 5,
+        "watering": 6,
         "papers": 11
       },
       "moe": {
@@ -3877,6 +3889,6 @@
         "best_papers_count": 0
       }
     },
-    "last_evolution": "2026-07-15T05:56:03.310988"
+    "last_evolution": "2026-07-15T06:10:00.397100"
   }
 }
