@@ -1,26 +1,28 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-🧬 Emily Evolution Station v9.3 — 思考者进化：DeepSeek 激活 + 完整自我进化闭环 AI 研究站
+🧬 Emily Evolution Station v9.4 — 语义去重：突破 2000 论文天花板
+
+v9.4 升级（语义去重引擎）:
+  + Token-based Jaccard 语义相似度去重 — 纯 Python，零依赖
+  + 三层去重架构: arXiv ID 精确 → Token Jaccard 语义 → URL 兜底
+  + 移除 2000 硬编码 FIFO，上限扩展至 50,000
+  + 智能裁剪: 超 45,000 时自动聚类保留语义多样性
+  + 向后兼容旧 seen_papers 格式自动迁移
 
 v9.3 升级（DeepSeek 激活）:
   + LLM 回调链升级: Ollama → DeepSeek (优先) → SiliconFlow (备用)
-  + DeepSeek V3.2 (deepseek-chat) — 用户已充值，即时激活
-  + 论文分析/假設生成/实验设计全部由 LLM 驱动，不再依赖关键词匹配
 
 v9.2 升级（理论合成）:
   + synthesize_theory() — 每 100 轮回顾所有假设，LLM 提炼统一理论体系
-  + 持久化: station-theories.json — 记录所有合成理论、关联假设、置信度
 
 v9.1 升级（实验设计引擎）:
-  + design_experiment() — 对已验证假设自动设计最小 sklearn 对比实验
-  + run_experiment() — 执行实验并记录准确率/差异/结论
+  + design_experiment() / run_experiment() — sklearn 实验验证闭环
 
-v9.0 升级（假設引擎 — 聚合器→思考者）：
-  + 假设引擎: generate_hypotheses() — LLM 从种子交叉引用生成可验证研究假设
-  + 假设验证: verify_hypothesis() — arXiv 搜索 + LLM 判断支持/推翻
+v9.0 升级（假設引擎）：
+  + generate_hypotheses() / verify_hypothesis() — LLM 生成可验证研究假设
 
-进化闭环（三回路 v9.3）：
+进化闭环（三回路 v9.4）：
   回路A(发现): 感知 → 理解(LLM DeepSeek) → 决策 → 行动 → 验证 → 自评 → 循环
   回路B(思考): 交叉引用 → 假设生成(LLM DeepSeek) → arXiv验证 → 实验验证 → 循环
   回路C(合成): 每100轮 → 全体假设回顾 → 理论提炼(LLM DeepSeek) → 更新知识体系 → 循环
@@ -62,6 +64,33 @@ TECHNIQUE_LIBRARY_PATH = os.path.join(HOME, "technique_library.json")
 ADOPTED_TECHNIQUES_PATH = os.path.join(DATA_DIR, "adopted_techniques.json")
 EVOLUTION_STATE_PATH = os.path.join(DATA_DIR, "station-evolution-state.json")
 SEEN_PAPERS_PATH = os.path.join(DATA_DIR, "station-seen-papers.json")        # P1-1: 跨轮次去重
+
+# v9.4: 语义去重配置
+MAX_SEEN_PAPERS = 50000          # 硬上限（从 2000 提升至 50000）
+PRUNE_TRIGGER = 45000            # 触发智能裁剪的阈值
+SEMANTIC_DEDUP_THRESHOLD = 0.72  # Jaccard 相似度阈值（>此值视为语义重复）
+
+# 学术标题停用词 — 去重时忽略这些词，聚焦关键技术词汇
+_STOPWORDS = {
+    "a", "an", "the", "and", "or", "of", "in", "on", "to", "for", "with",
+    "by", "at", "from", "as", "is", "are", "was", "were", "be", "been",
+    "being", "have", "has", "had", "do", "does", "did", "will", "would",
+    "could", "should", "may", "might", "can", "shall", "not", "no", "nor",
+    "but", "if", "then", "else", "when", "where", "how", "all", "each",
+    "every", "both", "few", "more", "most", "other", "some", "such", "only",
+    "own", "same", "so", "than", "too", "very", "just", "that", "this",
+    "these", "those", "it", "its", "we", "you", "he", "she", "they", "them",
+    "our", "your", "my", "me", "us", "his", "her", "their", "which", "who",
+    "whom", "what", "about", "into", "through", "during", "before", "after",
+    "above", "below", "between", "under", "over", "up", "down", "out", "off",
+    "also", "using", "via", "based", "towards", "toward",
+    # 学术泛词（不具区分度）
+    "new", "novel", "improved", "efficient", "learning", "method", "methods",
+    "approach", "approaches", "model", "models", "system", "systems",
+    "network", "networks", "data", "deep", "large", "small", "one", "two",
+    "three", "first", "second", "analysis", "study", "framework", "survey",
+    "review", "towards", "without", "beyond", "across"
+}
 ML_HISTORY_PATH = os.path.join(DATA_DIR, "station-ml-history.json")          # P1-2: ML实验历史
 SEED_METRICS_PATH = os.path.join(DATA_DIR, "station-seed-metrics.json")      # P2-1: 种子深度度量
 TOKEN_HEALTH_PATH = os.path.join(DATA_DIR, "station-token-health.json")      # P2-2: Token健康
@@ -70,7 +99,7 @@ EXPERIMENTS_PATH = os.path.join(DATA_DIR, "station-experiments.json")        # v
 THEORIES_PATH = os.path.join(DATA_DIR, "station-theories.json")              # v9.2: 理論合成
 
 # ===== Config =====
-VERSION = "9.3"
+VERSION = "9.4"
 OLLAMA_URL = "http://localhost:11434/api/generate"
 OLLAMA_MODEL = "qwen2.5:1.5b"
 GITHUB_OWNER = "felix0802"
@@ -325,50 +354,137 @@ def append_evolution_log(phase, data):
         pass
 
 # ================================================================
-# P1-1: 跨轮次论文去重
+# ================================================================
+# P1-1: 语义去重引擎 v9.4
+# 三层架构: arXiv ID 精确 → Token Jaccard 语义 → URL 兜底
 # ================================================================
 
+def _tokenize_title(title):
+    """将学术标题转换为规范化 token 集合（去停用词）"""
+    text = title.lower()
+    text = re.sub(r'\b\d{4}\.\d{4,6}(v\d+)?\b', '', text)  # 移除 arXiv ID
+    text = re.sub(r'[:\-–—,;()\[\]{}""'']', ' ', text)      # 标点 → 空格
+    tokens = re.findall(r'[a-z0-9]{3,}', text)               # 3字符以上单词
+    return tuple(sorted(t for t in tokens if t not in _STOPWORDS))
+
+def _jaccard(tokens_a, tokens_b):
+    """Jaccard 语义相似度: |A∩B| / |A∪B|"""
+    if not tokens_a or not tokens_b:
+        return 0.0
+    sa, sb = set(tokens_a), set(tokens_b)
+    inter = len(sa & sb)
+    union = len(sa | sb)
+    return inter / union if union > 0 else 0.0
+
+def _extract_arxiv_id(url):
+    """从 arXiv URL 提取规范 ID (e.g. 2607.08716)"""
+    m = re.search(r'abs/(\d{4}\.\d{4,6})', url)
+    return m.group(1) if m else None
+
 def load_seen_papers():
-    """加载已见论文集合（按URL hash）"""
+    """加载已见论文集合。v9.4: 自动迁移旧格式"""
     if os.path.exists(SEEN_PAPERS_PATH):
         try:
             with open(SEEN_PAPERS_PATH, "r", encoding="utf-8") as f:
-                return json.load(f)
+                data = json.load(f)
+            # v9.4+ 新格式
+            if "papers" in data:
+                return data
+            # 旧格式自动迁移
+            if "seen_urls" in data:
+                papers = []
+                for url, title in zip(data.get("seen_urls", []), data.get("seen_titles", [])):
+                    papers.append({
+                        "url": url, "title": title,
+                        "arxiv_id": _extract_arxiv_id(url),
+                        "tokens": list(_tokenize_title(title)),
+                        "first_seen_round": 0
+                    })
+                return {"papers": papers, "total_unique": len(papers)}
         except:
             pass
-    return {"seen_urls": [], "seen_titles": [], "total_unique": 0}
+    return {"papers": [], "total_unique": 0}
+
+def _semantic_prune(papers):
+    """智能裁剪：保留语义多样性（按轮次优先保留最新）"""
+    papers = sorted(papers, key=lambda p: p.get("first_seen_round", 0), reverse=True)
+    kept, kept_token_sets = [], []
+    for p in papers:
+        tokens = set(p.get("tokens", []))
+        is_dup = any(_jaccard(tokens, kt) > 0.85 for kt in kept_token_sets)
+        if not is_dup:
+            kept.append(p)
+            kept_token_sets.append(tokens)
+    return kept
 
 def save_seen_papers(seen):
-    # 限制大小，最多保留 2000 条
-    if len(seen["seen_urls"]) > 2000:
-        seen["seen_urls"] = seen["seen_urls"][-2000:]
-        seen["seen_titles"] = seen["seen_titles"][-2000:]
-    seen["total_unique"] = len(seen["seen_urls"])
+    """保存已见论文。超过 PRUNE_TRIGGER 时智能裁剪保留多样性"""
+    seen["total_unique"] = len(seen["papers"])
+    # 智能裁剪：保留语义多样性
+    if len(seen["papers"]) > PRUNE_TRIGGER:
+        before = len(seen["papers"])
+        seen["papers"] = _semantic_prune(seen["papers"])
+        seen["total_unique"] = len(seen["papers"])
+        log(f"  🧹 语义裁剪: {before} → {seen['total_unique']} 篇（保留多样性）")
+    # 硬上限兜底
+    if len(seen["papers"]) > MAX_SEEN_PAPERS:
+        seen["papers"] = seen["papers"][-MAX_SEEN_PAPERS:]
+        seen["total_unique"] = len(seen["papers"])
     with open(SEEN_PAPERS_PATH, "w", encoding="utf-8") as f:
         json.dump(seen, f, ensure_ascii=False, indent=2)
 
-def filter_new_papers(papers):
-    """过滤掉已见论文，返回新论文列表"""
+def filter_new_papers(papers, current_round=0):
+    """语义去重：arXiv ID 精确 → Token Jaccard 语义 → URL 兜底"""
     seen = load_seen_papers()
-    seen_urls = set(seen.get("seen_urls", []))
-    seen_titles = set(t.lower().strip() for t in seen.get("seen_titles", []))
 
-    new_papers = []
+    # 构建快速查找索引
+    arxiv_ids = set()
+    all_token_sets = []
+    all_urls = set()
+    for p in seen.get("papers", []):
+        aid = p.get("arxiv_id")
+        if aid: arxiv_ids.add(aid)
+        tokens = p.get("tokens")
+        if tokens: all_token_sets.append(set(tokens))
+        url = p.get("url", "")
+        if url: all_urls.add(url)
+
+    new_papers, semantic_dups = [], 0
     for p in papers:
         url = p.get("url", "")
-        title = p.get("title", "").lower().strip()
-        if url and url not in seen_urls and title not in seen_titles:
-            new_papers.append(p)
-            if url:
-                seen_urls.add(url)
-            if title:
-                seen_titles.add(title)
+        title = p.get("title", "")
+        arxiv_id = _extract_arxiv_id(url)
 
-    # 持久化更新
-    seen["seen_urls"] = list(seen_urls)
-    seen["seen_titles"] = list(seen_titles)
+        # 第1层: arXiv ID 精确匹配
+        if arxiv_id and arxiv_id in arxiv_ids:
+            continue
+
+        # 第2层: Token Jaccard 语义相似度
+        tokens = _tokenize_title(title)
+        if tokens:
+            token_set = set(tokens)
+            is_dup = any(_jaccard(token_set, et) > SEMANTIC_DEDUP_THRESHOLD for et in all_token_sets)
+            if is_dup:
+                semantic_dups += 1
+                continue
+
+        # 第3层: URL 精确匹配 (兜底)
+        if url and url in all_urls:
+            continue
+
+        # 新论文！
+        new_papers.append(p)
+        if arxiv_id: arxiv_ids.add(arxiv_id)
+        if tokens: all_token_sets.append(token_set)
+        if url: all_urls.add(url)
+
+        seen["papers"].append({
+            "url": url, "title": title, "arxiv_id": arxiv_id,
+            "tokens": list(tokens) if tokens else [],
+            "first_seen_round": current_round
+        })
+
     save_seen_papers(seen)
-
     return new_papers
 
 # ================================================================
@@ -739,8 +855,9 @@ def water_seed(seed, retry_on_empty=True):
     if irrelevant:
         log(f"  🗑️ [种子] {seed['name']} 过滤 {len(irrelevant)} 篇无关联论文")
 
-    # P1-1: 跨轮次去重
-    new_papers = filter_new_papers(relevant)
+    # P1-1: 语义去重 (v9.4)
+    ev_round = load_evolution_state().get("total_evolutions", 0)
+    new_papers = filter_new_papers(relevant, current_round=ev_round)
     dup_count = len(relevant) - len(new_papers)
 
     # P2-1: 种子深度度量
@@ -1031,8 +1148,9 @@ def research_arxiv():
             seen_titles.add(p["title"])
             unique_papers.append(p)
 
-    # P1-1: 跨轮次去重（按URL+标题）
-    new_papers = filter_new_papers(unique_papers)
+    # P1-1: 语义去重 (v9.4)
+    ev_round = load_evolution_state().get("total_evolutions", 0)
+    new_papers = filter_new_papers(unique_papers, current_round=ev_round)
     dup_count = len(unique_papers) - len(new_papers)
 
     result = analyze_arxiv_trends(unique_papers)
@@ -1040,7 +1158,7 @@ def research_arxiv():
     result["duplicates_filtered"] = dup_count
     result["new_papers_count"] = len(new_papers)
     seen_data = load_seen_papers()
-    log(f"📊 [arXiv] 完成: {result['new_papers_count']} 篇（新） | 本批 {result['total_papers']} 篇 | 过滤 {dup_count} 篇重复 | 累计唯一: {seen_data['total_unique']} | 策略: {strategies_used}")
+    log(f"📊 [arXiv] 完成: {result['new_papers_count']} 篇（新） | 本批 {result['total_papers']} 篇 | 过滤 {dup_count} 篇重复（语义去重） | 累计唯一: {seen_data['total_unique']} | 策略: {strategies_used}")
     return result
 
 # ================================================================
