@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 43,
+  "_rotation_idx": 44,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 18,
@@ -449,8 +449,8 @@
   },
   "spiking-nn": {
     "name": "Spiking Neural Networks",
-    "total_papers_found": 12,
-    "watering_count": 6,
+    "total_papers_found": 14,
+    "watering_count": 7,
     "history": [
       {
         "timestamp": "2026-07-07T08:54:38.442223",
@@ -564,6 +564,30 @@
             "seed_match_score": 1
           }
         ]
+      },
+      {
+        "timestamp": "2026-07-15T03:59:00.435067",
+        "papers_found": 2,
+        "duplicates": 7,
+        "irrelevant_filtered": 1,
+        "avg_relevance": 1.5,
+        "high_relevance": 1,
+        "papers": [
+          {
+            "title": "A 32-channel event-based bio-signal analog front-end with adaptive delta and pulse frequency encoding",
+            "summary": "Low-power event-based Analog Front-Ends (AFEs) are essential for building efficient, end-to-end neuromorphic signal processing systems. In this paper, we present an event-based AFE Application-Specific Integrated Circuit (ASIC) optimized for biomedical signal acquisition and encoding. The chip featu",
+            "published": "2026-07-14",
+            "url": "http://arxiv.org/abs/2607.12901v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Burst Spiking Neural Networks",
+            "summary": "A central goal of current Spiking Neural Network (SNN) research is to improve their accuracy toward becoming low-power alternatives to Artificial Neural Networks (ANNs). This work further argues that realizing this ambition requires improving not only accuracy but also robustness, defined as the abi",
+            "published": "2026-07-05",
+            "url": "http://arxiv.org/abs/2607.11914v1",
+            "seed_match_score": 2
+          }
+        ]
       }
     ],
     "keywords": [
@@ -572,7 +596,7 @@
       "neuromorphic",
       "spike-timing"
     ],
-    "last_watered": "2026-07-14T19:44:41.742228"
+    "last_watered": "2026-07-15T03:59:00.435062"
   },
   "non-transformer": {
     "name": "Non-Transformer Arch",

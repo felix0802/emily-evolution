@@ -1,37 +1,6 @@
 {
   "sessions": [
     {
-      "timestamp": "2026-07-02T04:25:57.396391",
-      "arxiv_papers_count": 20,
-      "arxiv_top_keywords": [
-        "supervision",
-        "llm",
-        "agents",
-        "llms",
-        "lms",
-        "training",
-        "fixed",
-        "explanations",
-        "dense",
-        "long"
-      ],
-      "huggingface_models_tracked": 10,
-      "huggingface_top_tasks": [
-        "sentence-similarity",
-        "fill-mask",
-        "text-ranking",
-        "feature-extraction",
-        "unknown"
-      ],
-      "ml_benchmarks_run": 10,
-      "ml_top_classifier": "RandomForest",
-      "evolution": {
-        "techniques_discovered": 0,
-        "techniques_adopted": 0,
-        "decisions": 0
-      }
-    },
-    {
       "timestamp": "2026-07-02T04:25:58.955553",
       "arxiv_papers_count": 20,
       "arxiv_top_keywords": [
@@ -3664,10 +3633,52 @@
         "seed_name": "HTM",
         "papers_found": 3
       }
+    },
+    {
+      "timestamp": "2026-07-15T03:59:13.296379",
+      "arxiv_papers_count": 18,
+      "arxiv_top_keywords": [
+        "linear",
+        "attention",
+        "state",
+        "language",
+        "data",
+        "memory",
+        "neural",
+        "geometric",
+        "deep",
+        "learning"
+      ],
+      "arxiv_strategies": [
+        "搜索: multi-query attention",
+        "搜索: geometric deep learning",
+        "搜索: knowledge distillation"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "fill-mask",
+        "text-generation",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [],
+      "ml_total_tests": 0,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 31,
+        "adopted": 0,
+        "decisions": 0
+      },
+      "seed_watering": {
+        "seed_name": "Spiking Neural Networks",
+        "papers_found": 9
+      }
     }
   ],
   "total_sessions": 101,
-  "last_updated": "2026-07-15T03:55:29.624778",
+  "last_updated": "2026-07-15T03:59:13.296419",
   "evolution_summary": {
     "total_adopted": 21,
     "adopted_list": [
@@ -3711,8 +3722,8 @@
       },
       "spiking-nn": {
         "name": "Spiking Neural Networks",
-        "watering": 6,
-        "papers": 12
+        "watering": 7,
+        "papers": 14
       },
       "non-transformer": {
         "name": "Non-Transformer Arch",
@@ -3748,15 +3759,15 @@
     "seed_metrics": {
       "spiking-nn": {
         "name": "Spiking Neural Networks",
-        "new_papers": 12,
+        "new_papers": 14,
         "keywords_matched": [
-          "spike-timing",
           "neuromorphic",
           "snn",
+          "spike-timing",
           "spiking"
         ],
-        "high_relevance_total": 10,
-        "avg_relevance_latest": 1.0,
+        "high_relevance_total": 11,
+        "avg_relevance_latest": 1.5,
         "best_papers_count": 5
       },
       "few-shot": {
@@ -3840,6 +3851,6 @@
         "best_papers_count": 0
       }
     },
-    "last_evolution": "2026-07-15T03:55:29.625257"
+    "last_evolution": "2026-07-15T03:59:13.296908"
   }
 }
