@@ -518,6 +518,36 @@
         ],
         "decided_at": "2026-07-15T18:51:25.787923"
       }
+    },
+    {
+      "id": "llm-程序化驾驶仿真",
+      "name": "程序化驾驶仿真",
+      "adopted_at": "2026-07-15T22:45:42.165854",
+      "decision": {
+        "tech_id": "llm-程序化驾驶仿真",
+        "tech_name": "程序化驾驶仿真",
+        "action": "adopt",
+        "confidence": 0.9,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-07-15T22:45:42.164784"
+      }
+    },
+    {
+      "id": "llm-验证器强化学习微调",
+      "name": "验证器强化学习微调",
+      "adopted_at": "2026-07-15T22:45:42.165876",
+      "decision": {
+        "tech_id": "llm-验证器强化学习微调",
+        "tech_name": "验证器强化学习微调",
+        "action": "adopt",
+        "confidence": 0.85,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-07-15T22:45:42.164920"
+      }
     }
   ],
   "history": [
@@ -724,6 +754,18 @@
       "tech_id": "llm-程序化驾驶模拟生成",
       "tech_name": "程序化驾驶模拟生成",
       "timestamp": "2026-07-15T18:51:25.789007"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-程序化驾驶仿真",
+      "tech_name": "程序化驾驶仿真",
+      "timestamp": "2026-07-15T22:45:42.165860"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-验证器强化学习微调",
+      "tech_name": "验证器强化学习微调",
+      "timestamp": "2026-07-15T22:45:42.165878"
     }
   ]
 }

@@ -7364,7 +7364,193 @@
         "visibility"
       ],
       "first_seen_round": 153
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.12856v1",
+      "title": "Verifier-Based Reinforcement Fine-Tuning of Reasoning Models for Thermal Energy Storage Control",
+      "arxiv_id": "2607.12856",
+      "tokens": [
+        "control",
+        "energy",
+        "fine",
+        "reasoning",
+        "reinforcement",
+        "storage",
+        "thermal",
+        "tuning",
+        "verifier"
+      ],
+      "first_seen_round": 159
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.12784v1",
+      "title": "Directional Constraints for Efficient Exploration in Safe Reinforcement Learning",
+      "arxiv_id": "2607.12784",
+      "tokens": [
+        "constraints",
+        "directional",
+        "exploration",
+        "reinforcement",
+        "safe"
+      ],
+      "first_seen_round": 159
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.12763v1",
+      "title": "Constraint-Aware Aggregation for Federated Reinforcement Learning in Microgrid Energy Coordination",
+      "arxiv_id": "2607.12763",
+      "tokens": [
+        "aggregation",
+        "aware",
+        "constraint",
+        "coordination",
+        "energy",
+        "federated",
+        "microgrid",
+        "reinforcement"
+      ],
+      "first_seen_round": 159
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.12626v1",
+      "title": "Gradient-free learning of a closed-loop wall controller for turbulent drag reduction",
+      "arxiv_id": "2607.12626",
+      "tokens": [
+        "closed",
+        "controller",
+        "drag",
+        "free",
+        "gradient",
+        "loop",
+        "reduction",
+        "turbulent",
+        "wall"
+      ],
+      "first_seen_round": 159
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.12590v1",
+      "title": "Environment Parameter Gradient Theorem for Policy-Environment Co-Design in Reinforcement Learning",
+      "arxiv_id": "2607.12590",
+      "tokens": [
+        "design",
+        "environment",
+        "environment",
+        "gradient",
+        "parameter",
+        "policy",
+        "reinforcement",
+        "theorem"
+      ],
+      "first_seen_round": 159
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.12829v1",
+      "title": "Accelerating Masked Diffusion Large Language Models: A Survey of Efficient Inference Techniques",
+      "arxiv_id": "2607.12829",
+      "tokens": [
+        "accelerating",
+        "diffusion",
+        "inference",
+        "language",
+        "masked",
+        "techniques"
+      ],
+      "first_seen_round": 159
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.12787v1",
+      "title": "Do We Really Need Multimodal Emotion Language Models Larger Than 1B Parameters?",
+      "arxiv_id": "2607.12787",
+      "tokens": [
+        "emotion",
+        "language",
+        "larger",
+        "multimodal",
+        "need",
+        "parameters",
+        "really"
+      ],
+      "first_seen_round": 159
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.12785v1",
+      "title": "ExtraGS: Enhancing Endoscopic View Extrapolation via Diffusion-Guided 3D Gaussian Splatting",
+      "arxiv_id": "2607.12785",
+      "tokens": [
+        "diffusion",
+        "endoscopic",
+        "enhancing",
+        "extrags",
+        "extrapolation",
+        "gaussian",
+        "guided",
+        "splatting",
+        "view"
+      ],
+      "first_seen_round": 159
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.12753v1",
+      "title": "RFMSR: Residual Flow Matching for Image Super-Resolution",
+      "arxiv_id": "2607.12753",
+      "tokens": [
+        "flow",
+        "image",
+        "matching",
+        "residual",
+        "resolution",
+        "rfmsr",
+        "super"
+      ],
+      "first_seen_round": 159
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.12464v1",
+      "title": "Steering Diffusion Models via Class-Contrastive Influence for Few-Shot Medical Classification",
+      "arxiv_id": "2607.12464",
+      "tokens": [
+        "class",
+        "classification",
+        "contrastive",
+        "diffusion",
+        "influence",
+        "medical",
+        "shot",
+        "steering"
+      ],
+      "first_seen_round": 159
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.12433v1",
+      "title": "ARDepth: Auto-regressive Monocular Depth Estimation with Progressive Visual Conditioning",
+      "arxiv_id": "2607.12433",
+      "tokens": [
+        "ardepth",
+        "auto",
+        "conditioning",
+        "depth",
+        "estimation",
+        "monocular",
+        "progressive",
+        "regressive",
+        "visual"
+      ],
+      "first_seen_round": 159
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.12358v1",
+      "title": "ACID: Adaptive Caching for vIDeo generation",
+      "arxiv_id": "2607.12358",
+      "tokens": [
+        "acid",
+        "adaptive",
+        "caching",
+        "generation",
+        "video"
+      ],
+      "first_seen_round": 159
     }
   ],
-  "total_unique": 459
+  "total_unique": 471
 }

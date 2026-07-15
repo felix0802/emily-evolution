@@ -104,9 +104,32 @@
       "supporting_papers": [],
       "refuting_papers": [],
       "llm_source": "deepseek"
+    },
+    {
+      "id": "hyp-0006",
+      "timestamp": "2026-07-15T22:45:47.365281",
+      "seed_a": "Few-Shot Learning",
+      "seed_b": "Continual Learning",
+      "crossref_strength": 3,
+      "shared_keywords": [],
+      "hypothesis": "結合Few-Shot Learning與Continual Learning，提出一個基於隱私感知的邊界感知Transformer架構，能在少量樣本下持續學習新任務而不遺忘舊知識，並保護數據隱私。",
+      "reasoning": "Few-Shot Learning擅長從少量樣本快速泛化，而Continual Learning解決災難性遺忘，兩者共享的'aware'和'privacy'概念暗示可透過注意力機制與隱私保護技術（如差分隱私）整合；數學上，兩者都依賴於表示學習與正則化，可透過共享的潛在空間或記憶重放機制結合。",
+      "arxiv_query": "few-shot continual learning privacy-aware transformer boundary-aware",
+      "potential_breakthrough": "實現一個能動態適應新任務、保護用戶隱私且僅需極少樣本的終身學習系統，突破現有模型在數據稀缺與隱私限制下的性能瓶頸。",
+      "status": "unverified",
+      "verification_rounds": 1,
+      "supporting_papers": [
+        {
+          "title": "Lifelong Wandering: A realistic few-shot online continual learning setting",
+          "url": "http://arxiv.org/abs/2206.07932v1",
+          "reason": "該論文提出線上少量樣本持續學習的設定，直接結合了Few-Shot Learning與Continual Learning，與假設的核心方向一致。"
+        }
+      ],
+      "refuting_papers": [],
+      "llm_source": "deepseek"
     }
   ],
-  "last_updated": "2026-07-15T20:47:49.384978",
-  "total_generated": 5,
+  "last_updated": "2026-07-15T22:45:50.409741",
+  "total_generated": 6,
   "total_verified": 0
 }

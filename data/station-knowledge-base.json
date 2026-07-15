@@ -1,37 +1,6 @@
 {
   "sessions": [
     {
-      "timestamp": "2026-07-02T14:37:37.265315",
-      "arxiv_papers_count": 20,
-      "arxiv_top_keywords": [
-        "llm",
-        "learning",
-        "theoria",
-        "verification",
-        "offer",
-        "cannot",
-        "state",
-        "prediction",
-        "separation",
-        "hypothesis"
-      ],
-      "huggingface_models_tracked": 10,
-      "huggingface_top_tasks": [
-        "sentence-similarity",
-        "fill-mask",
-        "text-ranking",
-        "feature-extraction",
-        "unknown"
-      ],
-      "ml_benchmarks_run": 10,
-      "ml_top_classifier": "RandomForest",
-      "evolution": {
-        "techniques_discovered": 3,
-        "techniques_adopted": 0,
-        "decisions": 0
-      }
-    },
-    {
       "timestamp": "2026-07-02T16:19:01.664613",
       "arxiv_papers_count": 20,
       "arxiv_top_keywords": [
@@ -3785,12 +3754,54 @@
         "seed_name": "HTM",
         "papers_found": 3
       }
+    },
+    {
+      "timestamp": "2026-07-15T22:45:43.734303",
+      "arxiv_papers_count": 18,
+      "arxiv_top_keywords": [
+        "learning",
+        "reinforcement",
+        "diffusion",
+        "gradient",
+        "task",
+        "agents",
+        "language",
+        "video",
+        "driving",
+        "enough"
+      ],
+      "arxiv_strategies": [
+        "搜索: reinforcement learning",
+        "搜索: large language model",
+        "搜索: diffusion model"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "fill-mask",
+        "text-generation",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [],
+      "ml_total_tests": 0,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 19,
+        "adopted": 2,
+        "decisions": 2
+      },
+      "seed_watering": {
+        "seed_name": "Spiking Neural Networks",
+        "papers_found": 9
+      }
     }
   ],
   "total_sessions": 101,
-  "last_updated": "2026-07-15T20:47:45.981611",
+  "last_updated": "2026-07-15T22:45:43.734316",
   "evolution_summary": {
-    "total_adopted": 34,
+    "total_adopted": 36,
     "adopted_list": [
       "Knowledge Distillation",
       "World Models / Model-Based RL",
@@ -3825,7 +3836,9 @@
       "Tucker分解与JL残差分配",
       "系统感知的KV缓存优化",
       "线性注意力",
-      "程序化驾驶模拟生成"
+      "程序化驾驶模拟生成",
+      "程序化驾驶仿真",
+      "验证器强化学习微调"
     ],
     "seeds": {
       "mamba": {
@@ -3845,7 +3858,7 @@
       },
       "spiking-nn": {
         "name": "Spiking Neural Networks",
-        "watering": 7,
+        "watering": 8,
         "papers": 14
       },
       "non-transformer": {
@@ -3884,13 +3897,13 @@
         "name": "Spiking Neural Networks",
         "new_papers": 14,
         "keywords_matched": [
+          "spiking",
           "neuromorphic",
-          "snn",
           "spike-timing",
-          "spiking"
+          "snn"
         ],
         "high_relevance_total": 11,
-        "avg_relevance_latest": 1.5,
+        "avg_relevance_latest": 0.0,
         "best_papers_count": 5
       },
       "few-shot": {
@@ -3994,6 +4007,6 @@
         "best_papers_count": 0
       }
     },
-    "last_evolution": "2026-07-15T20:47:45.982144"
+    "last_evolution": "2026-07-15T22:45:43.734852"
   }
 }
