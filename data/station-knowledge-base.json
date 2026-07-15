@@ -1,0 +1,3779 @@
+{
+  "sessions": [
+    {
+      "timestamp": "2026-07-02T02:23:44.466157",
+      "arxiv_papers_count": 20,
+      "arxiv_top_keywords": [
+        "supervision",
+        "llm",
+        "agents",
+        "llms",
+        "lms",
+        "training",
+        "fixed",
+        "explanations",
+        "dense",
+        "long"
+      ],
+      "huggingface_models_tracked": 10,
+      "huggingface_top_tasks": [
+        "sentence-similarity",
+        "fill-mask",
+        "text-ranking",
+        "feature-extraction",
+        "unknown"
+      ],
+      "ml_benchmarks_run": 10,
+      "ml_top_classifier": "RandomForest",
+      "evolution": {
+        "techniques_discovered": 0,
+        "techniques_adopted": 0,
+        "decisions": 0
+      }
+    },
+    {
+      "timestamp": "2026-07-02T02:23:45.541762",
+      "arxiv_papers_count": 20,
+      "arxiv_top_keywords": [
+        "supervision",
+        "llm",
+        "agents",
+        "llms",
+        "lms",
+        "training",
+        "fixed",
+        "explanations",
+        "dense",
+        "long"
+      ],
+      "huggingface_models_tracked": 10,
+      "huggingface_top_tasks": [
+        "sentence-similarity",
+        "fill-mask",
+        "text-ranking",
+        "feature-extraction",
+        "unknown"
+      ],
+      "ml_benchmarks_run": 10,
+      "ml_top_classifier": "RandomForest",
+      "evolution": {
+        "techniques_discovered": 0,
+        "techniques_adopted": 0,
+        "decisions": 0
+      }
+    },
+    {
+      "timestamp": "2026-07-02T04:25:57.396391",
+      "arxiv_papers_count": 20,
+      "arxiv_top_keywords": [
+        "supervision",
+        "llm",
+        "agents",
+        "llms",
+        "lms",
+        "training",
+        "fixed",
+        "explanations",
+        "dense",
+        "long"
+      ],
+      "huggingface_models_tracked": 10,
+      "huggingface_top_tasks": [
+        "sentence-similarity",
+        "fill-mask",
+        "text-ranking",
+        "feature-extraction",
+        "unknown"
+      ],
+      "ml_benchmarks_run": 10,
+      "ml_top_classifier": "RandomForest",
+      "evolution": {
+        "techniques_discovered": 0,
+        "techniques_adopted": 0,
+        "decisions": 0
+      }
+    },
+    {
+      "timestamp": "2026-07-02T04:25:58.955553",
+      "arxiv_papers_count": 20,
+      "arxiv_top_keywords": [
+        "supervision",
+        "llm",
+        "agents",
+        "llms",
+        "lms",
+        "training",
+        "fixed",
+        "explanations",
+        "dense",
+        "long"
+      ],
+      "huggingface_models_tracked": 10,
+      "huggingface_top_tasks": [
+        "sentence-similarity",
+        "fill-mask",
+        "text-ranking",
+        "feature-extraction",
+        "unknown"
+      ],
+      "ml_benchmarks_run": 10,
+      "ml_top_classifier": "RandomForest",
+      "evolution": {
+        "techniques_discovered": 0,
+        "techniques_adopted": 0,
+        "decisions": 0
+      }
+    },
+    {
+      "timestamp": "2026-07-02T06:28:10.023962",
+      "arxiv_papers_count": 20,
+      "arxiv_top_keywords": [
+        "supervision",
+        "llm",
+        "agents",
+        "llms",
+        "lms",
+        "training",
+        "fixed",
+        "explanations",
+        "dense",
+        "long"
+      ],
+      "huggingface_models_tracked": 10,
+      "huggingface_top_tasks": [
+        "sentence-similarity",
+        "fill-mask",
+        "text-ranking",
+        "feature-extraction",
+        "unknown"
+      ],
+      "ml_benchmarks_run": 10,
+      "ml_top_classifier": "RandomForest",
+      "evolution": {
+        "techniques_discovered": 0,
+        "techniques_adopted": 0,
+        "decisions": 0
+      }
+    },
+    {
+      "timestamp": "2026-07-02T06:28:12.378245",
+      "arxiv_papers_count": 20,
+      "arxiv_top_keywords": [
+        "supervision",
+        "llm",
+        "agents",
+        "llms",
+        "lms",
+        "training",
+        "fixed",
+        "explanations",
+        "dense",
+        "long"
+      ],
+      "huggingface_models_tracked": 10,
+      "huggingface_top_tasks": [
+        "sentence-similarity",
+        "fill-mask",
+        "text-ranking",
+        "feature-extraction",
+        "unknown"
+      ],
+      "ml_benchmarks_run": 10,
+      "ml_top_classifier": "RandomForest",
+      "evolution": {
+        "techniques_discovered": 0,
+        "techniques_adopted": 0,
+        "decisions": 0
+      }
+    },
+    {
+      "timestamp": "2026-07-02T08:08:59.721725",
+      "arxiv_papers_count": 20,
+      "arxiv_top_keywords": [
+        "supervision",
+        "llm",
+        "agents",
+        "llms",
+        "lms",
+        "training",
+        "fixed",
+        "explanations",
+        "dense",
+        "long"
+      ],
+      "huggingface_models_tracked": 10,
+      "huggingface_top_tasks": [
+        "sentence-similarity",
+        "fill-mask",
+        "text-ranking",
+        "feature-extraction",
+        "unknown"
+      ],
+      "ml_benchmarks_run": 10,
+      "ml_top_classifier": "RandomForest",
+      "evolution": {
+        "techniques_discovered": 0,
+        "techniques_adopted": 0,
+        "decisions": 0
+      }
+    },
+    {
+      "timestamp": "2026-07-02T08:30:41.938909",
+      "arxiv_papers_count": 20,
+      "arxiv_top_keywords": [
+        "supervision",
+        "llm",
+        "agents",
+        "llms",
+        "lms",
+        "training",
+        "fixed",
+        "explanations",
+        "dense",
+        "long"
+      ],
+      "huggingface_models_tracked": 10,
+      "huggingface_top_tasks": [
+        "sentence-similarity",
+        "fill-mask",
+        "text-ranking",
+        "feature-extraction",
+        "unknown"
+      ],
+      "ml_benchmarks_run": 10,
+      "ml_top_classifier": "RandomForest",
+      "evolution": {
+        "techniques_discovered": 0,
+        "techniques_adopted": 0,
+        "decisions": 0
+      }
+    },
+    {
+      "timestamp": "2026-07-02T10:11:02.498392",
+      "arxiv_papers_count": 20,
+      "arxiv_top_keywords": [
+        "supervision",
+        "llms",
+        "llm",
+        "agents",
+        "data",
+        "learning",
+        "lms",
+        "training",
+        "fixed",
+        "explanations"
+      ],
+      "huggingface_models_tracked": 10,
+      "huggingface_top_tasks": [
+        "sentence-similarity",
+        "fill-mask",
+        "text-ranking",
+        "feature-extraction",
+        "unknown"
+      ],
+      "ml_benchmarks_run": 10,
+      "ml_top_classifier": "RandomForest",
+      "evolution": {
+        "techniques_discovered": 1,
+        "techniques_adopted": 0,
+        "decisions": 0
+      }
+    },
+    {
+      "timestamp": "2026-07-02T10:32:53.775908",
+      "arxiv_papers_count": 20,
+      "arxiv_top_keywords": [
+        "learning",
+        "reasoning",
+        "supervision",
+        "llm",
+        "agents",
+        "llms",
+        "data",
+        "scaling",
+        "fork",
+        "join"
+      ],
+      "huggingface_models_tracked": 10,
+      "huggingface_top_tasks": [
+        "sentence-similarity",
+        "fill-mask",
+        "text-ranking",
+        "feature-extraction",
+        "unknown"
+      ],
+      "ml_benchmarks_run": 10,
+      "ml_top_classifier": "RandomForest",
+      "evolution": {
+        "techniques_discovered": 3,
+        "techniques_adopted": 0,
+        "decisions": 0
+      }
+    },
+    {
+      "timestamp": "2026-07-02T12:14:40.290103",
+      "arxiv_papers_count": 20,
+      "arxiv_top_keywords": [
+        "llm",
+        "learning",
+        "theoria",
+        "verification",
+        "offer",
+        "cannot",
+        "state",
+        "prediction",
+        "separation",
+        "hypothesis"
+      ],
+      "huggingface_models_tracked": 10,
+      "huggingface_top_tasks": [
+        "sentence-similarity",
+        "fill-mask",
+        "text-ranking",
+        "feature-extraction",
+        "unknown"
+      ],
+      "ml_benchmarks_run": 10,
+      "ml_top_classifier": "RandomForest",
+      "evolution": {
+        "techniques_discovered": 3,
+        "techniques_adopted": 0,
+        "decisions": 0
+      }
+    },
+    {
+      "timestamp": "2026-07-02T12:35:26.210135",
+      "arxiv_papers_count": 20,
+      "arxiv_top_keywords": [
+        "llm",
+        "learning",
+        "theoria",
+        "verification",
+        "offer",
+        "cannot",
+        "state",
+        "prediction",
+        "separation",
+        "hypothesis"
+      ],
+      "huggingface_models_tracked": 10,
+      "huggingface_top_tasks": [
+        "sentence-similarity",
+        "fill-mask",
+        "text-ranking",
+        "feature-extraction",
+        "unknown"
+      ],
+      "ml_benchmarks_run": 10,
+      "ml_top_classifier": "RandomForest",
+      "evolution": {
+        "techniques_discovered": 3,
+        "techniques_adopted": 0,
+        "decisions": 0
+      }
+    },
+    {
+      "timestamp": "2026-07-02T14:16:53.533053",
+      "arxiv_papers_count": 20,
+      "arxiv_top_keywords": [
+        "llm",
+        "learning",
+        "theoria",
+        "verification",
+        "offer",
+        "cannot",
+        "state",
+        "prediction",
+        "separation",
+        "hypothesis"
+      ],
+      "huggingface_models_tracked": 10,
+      "huggingface_top_tasks": [
+        "sentence-similarity",
+        "fill-mask",
+        "text-ranking",
+        "feature-extraction",
+        "unknown"
+      ],
+      "ml_benchmarks_run": 10,
+      "ml_top_classifier": "RandomForest",
+      "evolution": {
+        "techniques_discovered": 3,
+        "techniques_adopted": 0,
+        "decisions": 0
+      }
+    },
+    {
+      "timestamp": "2026-07-02T14:37:37.265315",
+      "arxiv_papers_count": 20,
+      "arxiv_top_keywords": [
+        "llm",
+        "learning",
+        "theoria",
+        "verification",
+        "offer",
+        "cannot",
+        "state",
+        "prediction",
+        "separation",
+        "hypothesis"
+      ],
+      "huggingface_models_tracked": 10,
+      "huggingface_top_tasks": [
+        "sentence-similarity",
+        "fill-mask",
+        "text-ranking",
+        "feature-extraction",
+        "unknown"
+      ],
+      "ml_benchmarks_run": 10,
+      "ml_top_classifier": "RandomForest",
+      "evolution": {
+        "techniques_discovered": 3,
+        "techniques_adopted": 0,
+        "decisions": 0
+      }
+    },
+    {
+      "timestamp": "2026-07-02T16:19:01.664613",
+      "arxiv_papers_count": 20,
+      "arxiv_top_keywords": [
+        "llm",
+        "learning",
+        "theoria",
+        "verification",
+        "offer",
+        "cannot",
+        "state",
+        "prediction",
+        "separation",
+        "hypothesis"
+      ],
+      "huggingface_models_tracked": 10,
+      "huggingface_top_tasks": [
+        "sentence-similarity",
+        "fill-mask",
+        "text-ranking",
+        "feature-extraction",
+        "unknown"
+      ],
+      "ml_benchmarks_run": 10,
+      "ml_top_classifier": "RandomForest",
+      "evolution": {
+        "techniques_discovered": 0,
+        "techniques_adopted": 0,
+        "decisions": 0
+      }
+    },
+    {
+      "timestamp": "2026-07-02T16:41:04.529088",
+      "arxiv_papers_count": 20,
+      "arxiv_top_keywords": [
+        "llm",
+        "learning",
+        "theoria",
+        "verification",
+        "offer",
+        "cannot",
+        "state",
+        "prediction",
+        "separation",
+        "hypothesis"
+      ],
+      "huggingface_models_tracked": 10,
+      "huggingface_top_tasks": [
+        "sentence-similarity",
+        "fill-mask",
+        "text-ranking",
+        "feature-extraction",
+        "unknown"
+      ],
+      "ml_benchmarks_run": 10,
+      "ml_top_classifier": "RandomForest",
+      "evolution": {
+        "techniques_discovered": 0,
+        "techniques_adopted": 0,
+        "decisions": 0
+      }
+    },
+    {
+      "timestamp": "2026-07-02T18:21:17.256566",
+      "arxiv_papers_count": 20,
+      "arxiv_top_keywords": [
+        "llm",
+        "learning",
+        "theoria",
+        "verification",
+        "offer",
+        "cannot",
+        "state",
+        "prediction",
+        "separation",
+        "hypothesis"
+      ],
+      "huggingface_models_tracked": 10,
+      "huggingface_top_tasks": [
+        "sentence-similarity",
+        "fill-mask",
+        "text-ranking",
+        "feature-extraction",
+        "unknown"
+      ],
+      "ml_benchmarks_run": 10,
+      "ml_top_classifier": "RandomForest",
+      "evolution": {
+        "techniques_discovered": 0,
+        "techniques_adopted": 0,
+        "decisions": 0
+      }
+    },
+    {
+      "timestamp": "2026-07-02T18:43:26.099205",
+      "arxiv_papers_count": 20,
+      "arxiv_top_keywords": [
+        "llm",
+        "learning",
+        "theoria",
+        "verification",
+        "offer",
+        "cannot",
+        "state",
+        "prediction",
+        "separation",
+        "hypothesis"
+      ],
+      "huggingface_models_tracked": 10,
+      "huggingface_top_tasks": [
+        "sentence-similarity",
+        "fill-mask",
+        "text-ranking",
+        "feature-extraction",
+        "unknown"
+      ],
+      "ml_benchmarks_run": 10,
+      "ml_top_classifier": "RandomForest",
+      "evolution": {
+        "techniques_discovered": 0,
+        "techniques_adopted": 0,
+        "decisions": 0
+      }
+    },
+    {
+      "timestamp": "2026-07-02T20:23:25.724845",
+      "arxiv_papers_count": 20,
+      "arxiv_top_keywords": [
+        "llm",
+        "learning",
+        "theoria",
+        "verification",
+        "offer",
+        "cannot",
+        "state",
+        "prediction",
+        "separation",
+        "hypothesis"
+      ],
+      "huggingface_models_tracked": 10,
+      "huggingface_top_tasks": [
+        "sentence-similarity",
+        "fill-mask",
+        "text-ranking",
+        "feature-extraction",
+        "unknown"
+      ],
+      "ml_benchmarks_run": 10,
+      "ml_top_classifier": "RandomForest",
+      "evolution": {
+        "techniques_discovered": 0,
+        "techniques_adopted": 0,
+        "decisions": 0
+      }
+    },
+    {
+      "timestamp": "2026-07-02T20:45:43.233723",
+      "arxiv_papers_count": 20,
+      "arxiv_top_keywords": [
+        "llm",
+        "learning",
+        "theoria",
+        "verification",
+        "offer",
+        "cannot",
+        "state",
+        "prediction",
+        "separation",
+        "hypothesis"
+      ],
+      "huggingface_models_tracked": 10,
+      "huggingface_top_tasks": [
+        "sentence-similarity",
+        "fill-mask",
+        "text-ranking",
+        "feature-extraction",
+        "unknown"
+      ],
+      "ml_benchmarks_run": 10,
+      "ml_top_classifier": "RandomForest",
+      "evolution": {
+        "techniques_discovered": 0,
+        "techniques_adopted": 0,
+        "decisions": 0
+      }
+    },
+    {
+      "timestamp": "2026-07-02T21:09:59.272990",
+      "arxiv_papers_count": 20,
+      "arxiv_top_keywords": [
+        "llm",
+        "learning",
+        "theoria",
+        "verification",
+        "offer",
+        "cannot",
+        "state",
+        "prediction",
+        "separation",
+        "hypothesis"
+      ],
+      "huggingface_models_tracked": 10,
+      "huggingface_top_tasks": [
+        "sentence-similarity",
+        "fill-mask",
+        "text-ranking",
+        "feature-extraction",
+        "unknown"
+      ],
+      "ml_benchmarks_run": 10,
+      "ml_top_classifier": "RandomForest",
+      "evolution": {
+        "techniques_discovered": 0,
+        "techniques_adopted": 0,
+        "decisions": 0
+      }
+    },
+    {
+      "timestamp": "2026-07-02T22:46:02.640891",
+      "arxiv_papers_count": 20,
+      "arxiv_top_keywords": [
+        "llm",
+        "learning",
+        "theoria",
+        "verification",
+        "offer",
+        "cannot",
+        "state",
+        "prediction",
+        "separation",
+        "hypothesis"
+      ],
+      "huggingface_models_tracked": 10,
+      "huggingface_top_tasks": [
+        "sentence-similarity",
+        "fill-mask",
+        "text-ranking",
+        "feature-extraction",
+        "unknown"
+      ],
+      "ml_benchmarks_run": 10,
+      "ml_top_classifier": "RandomForest",
+      "evolution": {
+        "techniques_discovered": 0,
+        "techniques_adopted": 0,
+        "decisions": 0
+      }
+    },
+    {
+      "timestamp": "2026-07-02T23:12:12.764374",
+      "arxiv_papers_count": 20,
+      "arxiv_top_keywords": [
+        "llm",
+        "learning",
+        "theoria",
+        "verification",
+        "offer",
+        "cannot",
+        "state",
+        "prediction",
+        "separation",
+        "hypothesis"
+      ],
+      "huggingface_models_tracked": 10,
+      "huggingface_top_tasks": [
+        "sentence-similarity",
+        "fill-mask",
+        "text-ranking",
+        "feature-extraction",
+        "unknown"
+      ],
+      "ml_benchmarks_run": 10,
+      "ml_top_classifier": "RandomForest",
+      "evolution": {
+        "techniques_discovered": 0,
+        "techniques_adopted": 0,
+        "decisions": 0
+      }
+    },
+    {
+      "timestamp": "2026-07-03T13:47:58.561576",
+      "arxiv_papers_count": 5,
+      "arxiv_top_keywords": [
+        "alignment",
+        "diffusion",
+        "world",
+        "worlddirector",
+        "controllable",
+        "persistent",
+        "dynamic",
+        "generation",
+        "high",
+        "align"
+      ],
+      "huggingface_models_tracked": 0,
+      "huggingface_top_tasks": [],
+      "ml_benchmarks_run": 10,
+      "ml_top_classifier": "RandomForest",
+      "evolution": {
+        "techniques_discovered": 3,
+        "techniques_adopted": 0,
+        "decisions": 0
+      }
+    },
+    {
+      "timestamp": "2026-07-03T16:55:20.252675",
+      "arxiv_papers_count": 20,
+      "arxiv_top_keywords": [
+        "unlearning",
+        "methods",
+        "lacuna",
+        "testbed",
+        "evaluating",
+        "programming",
+        "program",
+        "weights",
+        "paradigm",
+        "fuzzy"
+      ],
+      "huggingface_models_tracked": 0,
+      "huggingface_top_tasks": [],
+      "ml_benchmarks_run": 10,
+      "ml_top_classifier": "RandomForest",
+      "evolution": {
+        "techniques_discovered": 3,
+        "techniques_adopted": 0,
+        "decisions": 0
+      }
+    },
+    {
+      "timestamp": "2026-07-03T16:55:50.337141",
+      "arxiv_papers_count": 20,
+      "arxiv_top_keywords": [
+        "unlearning",
+        "methods",
+        "lacuna",
+        "testbed",
+        "evaluating",
+        "programming",
+        "program",
+        "weights",
+        "paradigm",
+        "fuzzy"
+      ],
+      "huggingface_models_tracked": 0,
+      "huggingface_top_tasks": [],
+      "ml_benchmarks_run": 10,
+      "ml_top_classifier": "RandomForest",
+      "evolution": {
+        "techniques_discovered": 3,
+        "techniques_adopted": 0,
+        "decisions": 0
+      }
+    },
+    {
+      "timestamp": "2026-07-03T18:57:29.437915",
+      "arxiv_papers_count": 20,
+      "arxiv_top_keywords": [
+        "unlearning",
+        "methods",
+        "lacuna",
+        "testbed",
+        "evaluating",
+        "programming",
+        "program",
+        "weights",
+        "paradigm",
+        "fuzzy"
+      ],
+      "huggingface_models_tracked": 10,
+      "huggingface_top_tasks": [
+        "sentence-similarity",
+        "fill-mask",
+        "text-ranking",
+        "feature-extraction",
+        "unknown"
+      ],
+      "ml_benchmarks_run": 10,
+      "ml_top_classifier": "RandomForest",
+      "evolution": {
+        "techniques_discovered": 3,
+        "techniques_adopted": 0,
+        "decisions": 0
+      }
+    },
+    {
+      "timestamp": "2026-07-03T18:57:58.681646",
+      "arxiv_papers_count": 20,
+      "arxiv_top_keywords": [
+        "unlearning",
+        "methods",
+        "lacuna",
+        "testbed",
+        "evaluating",
+        "programming",
+        "program",
+        "weights",
+        "paradigm",
+        "fuzzy"
+      ],
+      "huggingface_models_tracked": 10,
+      "huggingface_top_tasks": [
+        "sentence-similarity",
+        "fill-mask",
+        "text-ranking",
+        "feature-extraction",
+        "unknown"
+      ],
+      "ml_benchmarks_run": 10,
+      "ml_top_classifier": "RandomForest",
+      "evolution": {
+        "techniques_discovered": 3,
+        "techniques_adopted": 0,
+        "decisions": 0
+      }
+    },
+    {
+      "timestamp": "2026-07-03T21:01:54.452347",
+      "arxiv_papers_count": 20,
+      "arxiv_top_keywords": [
+        "unlearning",
+        "methods",
+        "lacuna",
+        "testbed",
+        "evaluating",
+        "programming",
+        "program",
+        "weights",
+        "paradigm",
+        "fuzzy"
+      ],
+      "huggingface_models_tracked": 0,
+      "huggingface_top_tasks": [],
+      "ml_benchmarks_run": 10,
+      "ml_top_classifier": "RandomForest",
+      "evolution": {
+        "techniques_discovered": 2,
+        "techniques_adopted": 0,
+        "decisions": 0
+      }
+    },
+    {
+      "timestamp": "2026-07-03T21:02:20.862669",
+      "arxiv_papers_count": 20,
+      "arxiv_top_keywords": [
+        "unlearning",
+        "methods",
+        "lacuna",
+        "testbed",
+        "evaluating",
+        "programming",
+        "program",
+        "weights",
+        "paradigm",
+        "fuzzy"
+      ],
+      "huggingface_models_tracked": 0,
+      "huggingface_top_tasks": [],
+      "ml_benchmarks_run": 10,
+      "ml_top_classifier": "RandomForest",
+      "evolution": {
+        "techniques_discovered": 0,
+        "techniques_adopted": 0,
+        "decisions": 0
+      }
+    },
+    {
+      "timestamp": "2026-07-04T08:10:19.677814",
+      "arxiv_papers_count": 15,
+      "arxiv_top_keywords": [
+        "unlearning",
+        "methods",
+        "lacuna",
+        "testbed",
+        "evaluating",
+        "programming",
+        "program",
+        "weights",
+        "paradigm",
+        "fuzzy"
+      ],
+      "huggingface_models_tracked": 0,
+      "huggingface_top_tasks": [],
+      "ml_benchmarks_run": 10,
+      "ml_top_classifier": "RandomForest",
+      "evolution": {
+        "techniques_discovered": 0,
+        "techniques_adopted": 0,
+        "decisions": 0
+      }
+    },
+    {
+      "timestamp": "2026-07-04T10:12:41.096587",
+      "arxiv_papers_count": 20,
+      "arxiv_top_keywords": [
+        "unlearning",
+        "methods",
+        "lacuna",
+        "testbed",
+        "evaluating",
+        "programming",
+        "program",
+        "weights",
+        "paradigm",
+        "fuzzy"
+      ],
+      "huggingface_models_tracked": 10,
+      "huggingface_top_tasks": [
+        "sentence-similarity",
+        "fill-mask",
+        "text-ranking",
+        "feature-extraction",
+        "unknown"
+      ],
+      "ml_benchmarks_run": 10,
+      "ml_top_classifier": "RandomForest",
+      "evolution": {
+        "techniques_discovered": 0,
+        "techniques_adopted": 0,
+        "decisions": 0
+      }
+    },
+    {
+      "timestamp": "2026-07-04T12:14:48.486653",
+      "arxiv_papers_count": 20,
+      "arxiv_top_keywords": [
+        "unlearning",
+        "methods",
+        "lacuna",
+        "testbed",
+        "evaluating",
+        "programming",
+        "program",
+        "weights",
+        "paradigm",
+        "fuzzy"
+      ],
+      "huggingface_models_tracked": 10,
+      "huggingface_top_tasks": [
+        "sentence-similarity",
+        "fill-mask",
+        "text-ranking",
+        "feature-extraction",
+        "unknown"
+      ],
+      "ml_benchmarks_run": 10,
+      "ml_top_classifier": "RandomForest",
+      "evolution": {
+        "techniques_discovered": 0,
+        "techniques_adopted": 0,
+        "decisions": 0
+      }
+    },
+    {
+      "timestamp": "2026-07-04T14:17:20.520728",
+      "arxiv_papers_count": 20,
+      "arxiv_top_keywords": [
+        "unlearning",
+        "methods",
+        "lacuna",
+        "testbed",
+        "evaluating",
+        "programming",
+        "program",
+        "weights",
+        "paradigm",
+        "fuzzy"
+      ],
+      "huggingface_models_tracked": 10,
+      "huggingface_top_tasks": [
+        "sentence-similarity",
+        "fill-mask",
+        "text-ranking",
+        "feature-extraction",
+        "unknown"
+      ],
+      "ml_benchmarks_run": 10,
+      "ml_top_classifier": "RandomForest",
+      "evolution": {
+        "techniques_discovered": 0,
+        "techniques_adopted": 0,
+        "decisions": 0
+      }
+    },
+    {
+      "timestamp": "2026-07-04T16:19:31.919621",
+      "arxiv_papers_count": 20,
+      "arxiv_top_keywords": [
+        "unlearning",
+        "methods",
+        "lacuna",
+        "testbed",
+        "evaluating",
+        "programming",
+        "program",
+        "weights",
+        "paradigm",
+        "fuzzy"
+      ],
+      "huggingface_models_tracked": 10,
+      "huggingface_top_tasks": [
+        "sentence-similarity",
+        "fill-mask",
+        "text-ranking",
+        "feature-extraction",
+        "unknown"
+      ],
+      "ml_benchmarks_run": 10,
+      "ml_top_classifier": "RandomForest",
+      "evolution": {
+        "techniques_discovered": 0,
+        "techniques_adopted": 0,
+        "decisions": 0
+      }
+    },
+    {
+      "timestamp": "2026-07-04T18:20:43.263889",
+      "arxiv_papers_count": 20,
+      "arxiv_top_keywords": [
+        "unlearning",
+        "methods",
+        "lacuna",
+        "testbed",
+        "evaluating",
+        "programming",
+        "program",
+        "weights",
+        "paradigm",
+        "fuzzy"
+      ],
+      "huggingface_models_tracked": 10,
+      "huggingface_top_tasks": [
+        "sentence-similarity",
+        "fill-mask",
+        "text-ranking",
+        "feature-extraction",
+        "unknown"
+      ],
+      "ml_benchmarks_run": 10,
+      "ml_top_classifier": "RandomForest",
+      "evolution": {
+        "techniques_discovered": 0,
+        "techniques_adopted": 0,
+        "decisions": 0
+      }
+    },
+    {
+      "timestamp": "2026-07-04T20:22:57.086132",
+      "arxiv_papers_count": 20,
+      "arxiv_top_keywords": [
+        "unlearning",
+        "methods",
+        "lacuna",
+        "testbed",
+        "evaluating",
+        "programming",
+        "program",
+        "weights",
+        "paradigm",
+        "fuzzy"
+      ],
+      "huggingface_models_tracked": 10,
+      "huggingface_top_tasks": [
+        "sentence-similarity",
+        "fill-mask",
+        "text-ranking",
+        "feature-extraction",
+        "unknown"
+      ],
+      "ml_benchmarks_run": 10,
+      "ml_top_classifier": "RandomForest",
+      "evolution": {
+        "techniques_discovered": 0,
+        "techniques_adopted": 0,
+        "decisions": 0
+      }
+    },
+    {
+      "timestamp": "2026-07-05T09:02:21.277383",
+      "arxiv_papers_count": 20,
+      "arxiv_top_keywords": [
+        "unlearning",
+        "methods",
+        "lacuna",
+        "testbed",
+        "evaluating",
+        "programming",
+        "program",
+        "weights",
+        "paradigm",
+        "fuzzy"
+      ],
+      "huggingface_models_tracked": 10,
+      "huggingface_top_tasks": [
+        "sentence-similarity",
+        "fill-mask",
+        "text-ranking",
+        "feature-extraction",
+        "unknown"
+      ],
+      "ml_benchmarks_run": 10,
+      "ml_top_classifier": "RandomForest",
+      "evolution": {
+        "techniques_discovered": 0,
+        "techniques_adopted": 0,
+        "decisions": 0
+      }
+    },
+    {
+      "timestamp": "2026-07-05T11:04:34.622965",
+      "arxiv_papers_count": 20,
+      "arxiv_top_keywords": [
+        "unlearning",
+        "methods",
+        "lacuna",
+        "testbed",
+        "evaluating",
+        "programming",
+        "program",
+        "weights",
+        "paradigm",
+        "fuzzy"
+      ],
+      "huggingface_models_tracked": 10,
+      "huggingface_top_tasks": [
+        "sentence-similarity",
+        "fill-mask",
+        "text-ranking",
+        "feature-extraction",
+        "unknown"
+      ],
+      "ml_benchmarks_run": 10,
+      "ml_top_classifier": "RandomForest",
+      "evolution": {
+        "techniques_discovered": 0,
+        "techniques_adopted": 0,
+        "decisions": 0
+      }
+    },
+    {
+      "timestamp": "2026-07-05T13:57:57.117795",
+      "arxiv_papers_count": 20,
+      "arxiv_top_keywords": [
+        "unlearning",
+        "methods",
+        "lacuna",
+        "testbed",
+        "evaluating",
+        "programming",
+        "program",
+        "weights",
+        "paradigm",
+        "fuzzy"
+      ],
+      "huggingface_models_tracked": 0,
+      "huggingface_top_tasks": [],
+      "ml_benchmarks_run": 10,
+      "ml_top_classifier": "RandomForest",
+      "evolution": {
+        "techniques_discovered": 0,
+        "techniques_adopted": 0,
+        "decisions": 0
+      }
+    },
+    {
+      "timestamp": "2026-07-05T15:55:32.191340",
+      "arxiv_papers_count": 20,
+      "arxiv_top_keywords": [
+        "unlearning",
+        "methods",
+        "lacuna",
+        "testbed",
+        "evaluating",
+        "programming",
+        "program",
+        "weights",
+        "paradigm",
+        "fuzzy"
+      ],
+      "huggingface_models_tracked": 10,
+      "huggingface_top_tasks": [
+        "sentence-similarity",
+        "fill-mask",
+        "text-generation",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_benchmarks_run": 10,
+      "ml_top_classifier": "RandomForest",
+      "evolution": {
+        "techniques_discovered": 0,
+        "techniques_adopted": 0,
+        "decisions": 0
+      }
+    },
+    {
+      "timestamp": "2026-07-05T16:32:11.430629",
+      "arxiv_papers_count": 20,
+      "arxiv_top_keywords": [
+        "unlearning",
+        "methods",
+        "lacuna",
+        "testbed",
+        "evaluating",
+        "programming",
+        "program",
+        "weights",
+        "paradigm",
+        "fuzzy"
+      ],
+      "huggingface_models_tracked": 10,
+      "huggingface_top_tasks": [
+        "sentence-similarity",
+        "fill-mask",
+        "text-generation",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_benchmarks_run": 10,
+      "ml_top_classifier": "RandomForest",
+      "evolution": {
+        "techniques_discovered": 0,
+        "techniques_adopted": 0,
+        "decisions": 0
+      }
+    },
+    {
+      "timestamp": "2026-07-05T18:24:48.971527",
+      "arxiv_papers_count": 20,
+      "arxiv_top_keywords": [
+        "unlearning",
+        "methods",
+        "lacuna",
+        "testbed",
+        "evaluating",
+        "programming",
+        "program",
+        "weights",
+        "paradigm",
+        "fuzzy"
+      ],
+      "huggingface_models_tracked": 0,
+      "huggingface_top_tasks": [],
+      "ml_benchmarks_run": 10,
+      "ml_top_classifier": "RandomForest",
+      "evolution": {
+        "techniques_discovered": 0,
+        "techniques_adopted": 0,
+        "decisions": 0
+      }
+    },
+    {
+      "timestamp": "2026-07-05T18:35:12.140469",
+      "arxiv_papers_count": 20,
+      "arxiv_top_keywords": [
+        "unlearning",
+        "methods",
+        "lacuna",
+        "testbed",
+        "evaluating",
+        "programming",
+        "program",
+        "weights",
+        "paradigm",
+        "fuzzy"
+      ],
+      "huggingface_models_tracked": 0,
+      "huggingface_top_tasks": [],
+      "ml_benchmarks_run": 10,
+      "ml_top_classifier": "RandomForest",
+      "evolution": {
+        "techniques_discovered": 0,
+        "techniques_adopted": 0,
+        "decisions": 0
+      }
+    },
+    {
+      "timestamp": "2026-07-06T12:59:15.305983",
+      "arxiv_papers_count": 20,
+      "arxiv_top_keywords": [
+        "unlearning",
+        "methods",
+        "lacuna",
+        "testbed",
+        "evaluating",
+        "programming",
+        "program",
+        "weights",
+        "paradigm",
+        "fuzzy"
+      ],
+      "huggingface_models_tracked": 0,
+      "huggingface_top_tasks": [],
+      "ml_benchmarks_run": 10,
+      "ml_top_classifier": "RandomForest",
+      "evolution": {
+        "techniques_discovered": 0,
+        "techniques_adopted": 0,
+        "decisions": 0
+      }
+    },
+    {
+      "timestamp": "2026-07-06T15:01:13.398671",
+      "arxiv_papers_count": 20,
+      "arxiv_top_keywords": [
+        "unlearning",
+        "methods",
+        "lacuna",
+        "testbed",
+        "evaluating",
+        "programming",
+        "program",
+        "weights",
+        "paradigm",
+        "fuzzy"
+      ],
+      "huggingface_models_tracked": 10,
+      "huggingface_top_tasks": [
+        "sentence-similarity",
+        "fill-mask",
+        "text-generation",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_benchmarks_run": 10,
+      "ml_top_classifier": "RandomForest",
+      "evolution": {
+        "techniques_discovered": 0,
+        "techniques_adopted": 0,
+        "decisions": 0
+      }
+    },
+    {
+      "timestamp": "2026-07-06T17:03:20.463580",
+      "arxiv_papers_count": 20,
+      "arxiv_top_keywords": [
+        "unlearning",
+        "methods",
+        "lacuna",
+        "testbed",
+        "evaluating",
+        "programming",
+        "program",
+        "weights",
+        "paradigm",
+        "fuzzy"
+      ],
+      "huggingface_models_tracked": 10,
+      "huggingface_top_tasks": [
+        "sentence-similarity",
+        "fill-mask",
+        "text-generation",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_benchmarks_run": 10,
+      "ml_top_classifier": "RandomForest",
+      "evolution": {
+        "techniques_discovered": 0,
+        "techniques_adopted": 0,
+        "decisions": 0
+      }
+    },
+    {
+      "timestamp": "2026-07-06T17:15:05.313537",
+      "arxiv_papers_count": 20,
+      "arxiv_top_keywords": [
+        "unlearning",
+        "methods",
+        "lacuna",
+        "testbed",
+        "evaluating",
+        "programming",
+        "program",
+        "weights",
+        "paradigm",
+        "fuzzy"
+      ],
+      "huggingface_models_tracked": 10,
+      "huggingface_top_tasks": [
+        "sentence-similarity",
+        "fill-mask",
+        "text-generation",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_benchmarks_run": 10,
+      "ml_top_classifier": "RandomForest",
+      "evolution": {
+        "techniques_discovered": 0,
+        "techniques_adopted": 0,
+        "decisions": 0
+      }
+    },
+    {
+      "timestamp": "2026-07-06T19:17:41.740660",
+      "arxiv_papers_count": 20,
+      "arxiv_top_keywords": [
+        "unlearning",
+        "methods",
+        "lacuna",
+        "testbed",
+        "evaluating",
+        "programming",
+        "program",
+        "weights",
+        "paradigm",
+        "fuzzy"
+      ],
+      "huggingface_models_tracked": 10,
+      "huggingface_top_tasks": [
+        "sentence-similarity",
+        "fill-mask",
+        "text-generation",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_benchmarks_run": 10,
+      "ml_top_classifier": "RandomForest",
+      "evolution": {
+        "techniques_discovered": 0,
+        "techniques_adopted": 0,
+        "decisions": 0
+      }
+    },
+    {
+      "timestamp": "2026-07-06T19:30:00.047781",
+      "arxiv_papers_count": 20,
+      "arxiv_top_keywords": [
+        "unlearning",
+        "methods",
+        "lacuna",
+        "testbed",
+        "evaluating",
+        "programming",
+        "program",
+        "weights",
+        "paradigm",
+        "fuzzy"
+      ],
+      "huggingface_models_tracked": 10,
+      "huggingface_top_tasks": [
+        "sentence-similarity",
+        "fill-mask",
+        "text-generation",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_benchmarks_run": 10,
+      "ml_top_classifier": "RandomForest",
+      "evolution": {
+        "techniques_discovered": 0,
+        "techniques_adopted": 0,
+        "decisions": 0
+      }
+    },
+    {
+      "timestamp": "2026-07-06T21:28:31.805059",
+      "arxiv_papers_count": 14,
+      "arxiv_top_keywords": [
+        "long",
+        "agents",
+        "self",
+        "attacks",
+        "persistent",
+        "control",
+        "coding",
+        "codebase",
+        "unlearning",
+        "methods"
+      ],
+      "arxiv_strategies": [
+        "cs.AI 最新",
+        "cs.LG 最新",
+        "cs.CL 最新"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "fill-mask",
+        "text-generation",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 0,
+      "evolution": {
+        "discovered": 1,
+        "adopted": 0,
+        "decisions": 0
+      },
+      "seed_watering": {
+        "seed_name": "",
+        "papers_found": 0
+      }
+    },
+    {
+      "timestamp": "2026-07-06T21:33:48.235193",
+      "arxiv_papers_count": 14,
+      "arxiv_top_keywords": [
+        "long",
+        "agents",
+        "self",
+        "attacks",
+        "persistent",
+        "control",
+        "coding",
+        "codebase",
+        "unlearning",
+        "methods"
+      ],
+      "arxiv_strategies": [
+        "cs.AI 最新",
+        "cs.LG 最新",
+        "cs.CL 最新"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "fill-mask",
+        "text-generation",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 0,
+      "evolution": {
+        "discovered": 0,
+        "adopted": 0,
+        "decisions": 0
+      },
+      "seed_watering": {
+        "seed_name": "",
+        "papers_found": 0
+      }
+    },
+    {
+      "timestamp": "2026-07-06T21:39:07.967959",
+      "arxiv_papers_count": 14,
+      "arxiv_top_keywords": [
+        "long",
+        "agents",
+        "self",
+        "attacks",
+        "persistent",
+        "control",
+        "coding",
+        "codebase",
+        "unlearning",
+        "methods"
+      ],
+      "arxiv_strategies": [
+        "cs.AI 最新",
+        "cs.LG 最新",
+        "cs.CL 最新"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "fill-mask",
+        "text-generation",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 0,
+        "adopted": 0,
+        "decisions": 0
+      },
+      "seed_watering": {
+        "seed_name": "",
+        "papers_found": 0
+      }
+    },
+    {
+      "timestamp": "2026-07-06T21:47:40.117512",
+      "arxiv_papers_count": 14,
+      "arxiv_top_keywords": [
+        "long",
+        "agents",
+        "self",
+        "attacks",
+        "persistent",
+        "control",
+        "coding",
+        "codebase",
+        "unlearning",
+        "methods"
+      ],
+      "arxiv_strategies": [
+        "cs.AI 最新",
+        "cs.LG 最新",
+        "cs.CL 最新"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "fill-mask",
+        "text-generation",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 0,
+        "adopted": 0,
+        "decisions": 0
+      },
+      "seed_watering": {
+        "seed_name": "Liquid Networks",
+        "papers_found": 5
+      }
+    },
+    {
+      "timestamp": "2026-07-07T08:08:12.094875",
+      "arxiv_papers_count": 14,
+      "arxiv_top_keywords": [
+        "long",
+        "agents",
+        "self",
+        "attacks",
+        "persistent",
+        "control",
+        "coding",
+        "codebase",
+        "unlearning",
+        "methods"
+      ],
+      "arxiv_strategies": [
+        "cs.AI 最新",
+        "cs.LG 最新",
+        "cs.CL 最新"
+      ],
+      "huggingface_models": 0,
+      "huggingface_tasks": [],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 0,
+      "evolution": {
+        "discovered": 0,
+        "adopted": 0,
+        "decisions": 0
+      },
+      "seed_watering": {
+        "seed_name": "HTM",
+        "papers_found": 5
+      }
+    },
+    {
+      "timestamp": "2026-07-07T08:54:46.621283",
+      "arxiv_papers_count": 14,
+      "arxiv_top_keywords": [
+        "long",
+        "agents",
+        "self",
+        "attacks",
+        "persistent",
+        "control",
+        "coding",
+        "codebase",
+        "unlearning",
+        "methods"
+      ],
+      "arxiv_strategies": [
+        "cs.AI 最新",
+        "cs.LG 最新",
+        "cs.CL 最新"
+      ],
+      "huggingface_models": 0,
+      "huggingface_tasks": [],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 0,
+      "evolution": {
+        "discovered": 0,
+        "adopted": 0,
+        "decisions": 0
+      },
+      "seed_watering": {
+        "seed_name": "Spiking Neural Networks",
+        "papers_found": 5
+      }
+    },
+    {
+      "timestamp": "2026-07-07T10:14:44.488185",
+      "arxiv_papers_count": 21,
+      "arxiv_top_keywords": [
+        "reasoning",
+        "detection",
+        "program",
+        "programming",
+        "plgsa",
+        "face",
+        "transformer",
+        "periocular",
+        "landmark",
+        "architectures"
+      ],
+      "arxiv_strategies": [
+        "cs.CV 最新",
+        "cs.AI+cs.LG 混合",
+        "cs.AI (fallback)"
+      ],
+      "huggingface_models": 0,
+      "huggingface_tasks": [],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 0,
+      "paperswithcode_papers": 0,
+      "evolution": {
+        "discovered": 2,
+        "adopted": 0,
+        "decisions": 0
+      },
+      "seed_watering": {
+        "seed_name": "",
+        "papers_found": 0
+      }
+    },
+    {
+      "timestamp": "2026-07-07T13:05:00.941856",
+      "arxiv_papers_count": 15,
+      "arxiv_top_keywords": [
+        "what",
+        "camera",
+        "view",
+        "vla",
+        "free",
+        "cameras",
+        "weak",
+        "strong",
+        "policy",
+        "target"
+      ],
+      "arxiv_strategies": [
+        "cs.AI 最新",
+        "cs.LG 最新",
+        "cs.CL 最新"
+      ],
+      "huggingface_models": 0,
+      "huggingface_tasks": [],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 0,
+      "evolution": {
+        "discovered": 1,
+        "adopted": 0,
+        "decisions": 0
+      },
+      "seed_watering": {
+        "seed_name": "Few-Shot Learning",
+        "papers_found": 5
+      }
+    },
+    {
+      "timestamp": "2026-07-07T13:06:59.118599",
+      "arxiv_papers_count": 5,
+      "arxiv_top_keywords": [
+        "camera",
+        "view",
+        "vla",
+        "free",
+        "cameras",
+        "weak",
+        "strong",
+        "policy",
+        "target",
+        "rollouts"
+      ],
+      "arxiv_strategies": [
+        "cs.AI (fallback)",
+        "cs.AI (fallback)",
+        "cs.AI (fallback)"
+      ],
+      "huggingface_models": 0,
+      "huggingface_tasks": [],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 0,
+      "evolution": {
+        "discovered": 0,
+        "adopted": 0,
+        "decisions": 0
+      },
+      "seed_watering": {
+        "seed_name": "Continual Learning",
+        "papers_found": 5
+      }
+    },
+    {
+      "timestamp": "2026-07-07T13:08:54.304465",
+      "arxiv_papers_count": 0,
+      "arxiv_top_keywords": [],
+      "arxiv_strategies": [
+        "cs.AI 最新",
+        "cs.LG 最新",
+        "cs.CL 最新"
+      ],
+      "huggingface_models": 0,
+      "huggingface_tasks": [],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 0,
+      "evolution": {
+        "discovered": 0,
+        "adopted": 0,
+        "decisions": 0
+      },
+      "seed_watering": {
+        "seed_name": "Mamba (SSM)",
+        "papers_found": 7
+      }
+    },
+    {
+      "timestamp": "2026-07-07T13:20:32.326784",
+      "arxiv_papers_count": 0,
+      "arxiv_top_keywords": [],
+      "arxiv_strategies": [
+        "cs.AI 最新",
+        "cs.LG 最新",
+        "cs.CL 最新"
+      ],
+      "huggingface_models": 0,
+      "huggingface_tasks": [],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 0,
+      "evolution": {
+        "discovered": 0,
+        "adopted": 0,
+        "decisions": 0
+      },
+      "seed_watering": {
+        "seed_name": "Liquid Networks",
+        "papers_found": 9
+      }
+    },
+    {
+      "timestamp": "2026-07-07T13:28:34.895679",
+      "arxiv_papers_count": 0,
+      "arxiv_top_keywords": [],
+      "arxiv_strategies": [
+        "cs.AI 最新",
+        "cs.LG 最新",
+        "cs.CL 最新"
+      ],
+      "huggingface_models": 0,
+      "huggingface_tasks": [],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 0,
+      "evolution": {
+        "discovered": 0,
+        "adopted": 0,
+        "decisions": 0
+      },
+      "seed_watering": {
+        "seed_name": "HTM",
+        "papers_found": 4
+      }
+    },
+    {
+      "timestamp": "2026-07-07T13:34:00.093372",
+      "arxiv_papers_count": 0,
+      "arxiv_top_keywords": [],
+      "arxiv_strategies": [
+        "cs.AI 最新",
+        "cs.LG 最新",
+        "cs.CL 最新"
+      ],
+      "huggingface_models": 0,
+      "huggingface_tasks": [],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 0,
+      "evolution": {
+        "discovered": 0,
+        "adopted": 0,
+        "decisions": 0
+      },
+      "seed_watering": {
+        "seed_name": "Spiking Neural Networks",
+        "papers_found": 10
+      }
+    },
+    {
+      "timestamp": "2026-07-07T13:37:27.887316",
+      "arxiv_papers_count": 17,
+      "arxiv_top_keywords": [
+        "view",
+        "real",
+        "what",
+        "long",
+        "camera",
+        "vla",
+        "free",
+        "cameras",
+        "scene",
+        "data"
+      ],
+      "arxiv_strategies": [
+        "cs.CV 最新",
+        "cs.AI+cs.LG 混合",
+        "cs.CL+cs.CV 混合"
+      ],
+      "huggingface_models": 0,
+      "huggingface_tasks": [],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 0,
+      "evolution": {
+        "discovered": 16,
+        "adopted": 0,
+        "decisions": 0
+      },
+      "seed_watering": {
+        "seed_name": "Non-Transformer Arch",
+        "papers_found": 6
+      }
+    },
+    {
+      "timestamp": "2026-07-07T13:44:50.758420",
+      "arxiv_papers_count": 18,
+      "arxiv_top_keywords": [
+        "reinforcement",
+        "concept",
+        "policy",
+        "target",
+        "learning",
+        "long",
+        "multi",
+        "agents",
+        "temporal",
+        "weak"
+      ],
+      "arxiv_strategies": [
+        "搜索: reinforcement learning",
+        "搜索: large language model",
+        "搜索: diffusion model"
+      ],
+      "huggingface_models": 0,
+      "huggingface_tasks": [],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 0,
+      "evolution": {
+        "discovered": 22,
+        "adopted": 1,
+        "decisions": 1
+      },
+      "seed_watering": {
+        "seed_name": "Few-Shot Learning",
+        "papers_found": 5
+      }
+    },
+    {
+      "timestamp": "2026-07-07T15:07:06.441031",
+      "arxiv_papers_count": 5,
+      "arxiv_top_keywords": [
+        "camera",
+        "view",
+        "vla",
+        "free",
+        "cameras",
+        "weak",
+        "strong",
+        "policy",
+        "target",
+        "rollouts"
+      ],
+      "arxiv_strategies": [
+        "cs.AI (fallback)",
+        "cs.AI (fallback)",
+        "cs.AI (fallback)"
+      ],
+      "huggingface_models": 0,
+      "huggingface_tasks": [],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 0,
+      "evolution": {
+        "discovered": 4,
+        "adopted": 2,
+        "decisions": 2
+      },
+      "seed_watering": {
+        "seed_name": "Few-Shot Learning",
+        "papers_found": 5
+      }
+    },
+    {
+      "timestamp": "2026-07-07T16:32:59.356325",
+      "arxiv_papers_count": 18,
+      "arxiv_top_keywords": [
+        "agent",
+        "graph",
+        "time",
+        "series",
+        "self",
+        "ssl",
+        "data",
+        "multi",
+        "estimation",
+        "pedestriandiffusion"
+      ],
+      "arxiv_strategies": [
+        "搜索: neural architecture",
+        "搜索: self-supervised learning",
+        "搜索: multi-agent system"
+      ],
+      "huggingface_models": 0,
+      "huggingface_tasks": [],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 0,
+      "evolution": {
+        "discovered": 29,
+        "adopted": 3,
+        "decisions": 3
+      },
+      "seed_watering": {
+        "seed_name": "Continual Learning",
+        "papers_found": 3
+      }
+    },
+    {
+      "timestamp": "2026-07-07T17:23:43.705043",
+      "arxiv_papers_count": 17,
+      "arxiv_top_keywords": [
+        "transfer",
+        "graph",
+        "world",
+        "temporal",
+        "neural",
+        "target",
+        "learning",
+        "action",
+        "algorithms",
+        "methods"
+      ],
+      "arxiv_strategies": [
+        "搜索: graph neural network",
+        "搜索: transfer learning",
+        "搜索: world model"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "fill-mask",
+        "text-generation",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 23,
+        "adopted": 1,
+        "decisions": 1
+      },
+      "seed_watering": {
+        "seed_name": "Mamba (SSM)",
+        "papers_found": 7
+      }
+    },
+    {
+      "timestamp": "2026-07-07T19:27:42.611658",
+      "arxiv_papers_count": 18,
+      "arxiv_top_keywords": [
+        "learning",
+        "time",
+        "anomaly",
+        "detection",
+        "video",
+        "generative",
+        "world",
+        "data",
+        "latent",
+        "supervised"
+      ],
+      "arxiv_strategies": [
+        "搜索: time series forecasting",
+        "搜索: anomaly detection",
+        "搜索: knowledge distillation"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "fill-mask",
+        "text-generation",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 21,
+        "adopted": 0,
+        "decisions": 0
+      },
+      "seed_watering": {
+        "seed_name": "Liquid Networks",
+        "papers_found": 9
+      }
+    },
+    {
+      "timestamp": "2026-07-07T20:57:37.733414",
+      "arxiv_papers_count": 15,
+      "arxiv_top_keywords": [
+        "what",
+        "camera",
+        "view",
+        "vla",
+        "free",
+        "cameras",
+        "weak",
+        "strong",
+        "policy",
+        "target"
+      ],
+      "arxiv_strategies": [
+        "cs.AI 最新",
+        "cs.LG 最新",
+        "cs.CL 最新"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "fill-mask",
+        "text-generation",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 25,
+        "adopted": 0,
+        "decisions": 0
+      },
+      "seed_watering": {
+        "seed_name": "Liquid Networks",
+        "papers_found": 9
+      }
+    },
+    {
+      "timestamp": "2026-07-08T08:51:56.109614",
+      "arxiv_papers_count": 17,
+      "arxiv_top_keywords": [
+        "view",
+        "real",
+        "what",
+        "long",
+        "camera",
+        "vla",
+        "free",
+        "cameras",
+        "scene",
+        "data"
+      ],
+      "arxiv_strategies": [
+        "cs.CV 最新",
+        "cs.AI+cs.LG 混合",
+        "cs.CL+cs.CV 混合"
+      ],
+      "huggingface_models": 0,
+      "huggingface_tasks": [],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 29,
+        "adopted": 2,
+        "decisions": 2
+      },
+      "seed_watering": {
+        "seed_name": "HTM",
+        "papers_found": 4
+      }
+    },
+    {
+      "timestamp": "2026-07-08T10:55:30.956898",
+      "arxiv_papers_count": 5,
+      "arxiv_top_keywords": [
+        "question",
+        "answer",
+        "type",
+        "llm",
+        "bioasq",
+        "danus",
+        "mathematical",
+        "reasoning",
+        "agents",
+        "orchestrating"
+      ],
+      "arxiv_strategies": [
+        "cs.AI (fallback)",
+        "cs.AI (fallback)",
+        "cs.AI (fallback)"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "fill-mask",
+        "text-generation",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 26,
+        "adopted": 0,
+        "decisions": 0
+      },
+      "seed_watering": {
+        "seed_name": "HTM",
+        "papers_found": 4
+      }
+    },
+    {
+      "timestamp": "2026-07-08T13:04:30.104751",
+      "arxiv_papers_count": 18,
+      "arxiv_top_keywords": [
+        "agents",
+        "neural",
+        "generative",
+        "graph",
+        "self",
+        "learning",
+        "representations",
+        "decision",
+        "agent",
+        "deep"
+      ],
+      "arxiv_strategies": [
+        "搜索: neural architecture",
+        "搜索: self-supervised learning",
+        "搜索: multi-agent system"
+      ],
+      "huggingface_models": 0,
+      "huggingface_tasks": [],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 0,
+      "evolution": {
+        "discovered": 32,
+        "adopted": 0,
+        "decisions": 0
+      },
+      "seed_watering": {
+        "seed_name": "Spiking Neural Networks",
+        "papers_found": 10
+      }
+    },
+    {
+      "timestamp": "2026-07-08T13:55:34.801083",
+      "arxiv_papers_count": 0,
+      "arxiv_top_keywords": [],
+      "arxiv_strategies": [
+        "搜索: graph neural network",
+        "搜索: transfer learning",
+        "搜索: world model"
+      ],
+      "huggingface_models": 0,
+      "huggingface_tasks": [],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 0,
+      "paperswithcode_papers": 0,
+      "evolution": {
+        "discovered": 0,
+        "adopted": 0,
+        "decisions": 0
+      },
+      "seed_watering": {
+        "seed_name": "",
+        "papers_found": 0
+      }
+    },
+    {
+      "timestamp": "2026-07-08T14:02:53.171533",
+      "arxiv_papers_count": 0,
+      "arxiv_top_keywords": [],
+      "arxiv_strategies": [
+        "搜索: time series forecasting",
+        "搜索: anomaly detection",
+        "搜索: knowledge distillation"
+      ],
+      "huggingface_models": 0,
+      "huggingface_tasks": [],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 0,
+      "paperswithcode_papers": 0,
+      "evolution": {
+        "discovered": 0,
+        "adopted": 0,
+        "decisions": 0
+      },
+      "seed_watering": {
+        "seed_name": "",
+        "papers_found": 0
+      }
+    },
+    {
+      "timestamp": "2026-07-08T15:49:20.969467",
+      "arxiv_papers_count": 18,
+      "arxiv_top_keywords": [
+        "semantic",
+        "graph",
+        "large",
+        "multi",
+        "compression",
+        "language",
+        "data",
+        "elsa",
+        "unified",
+        "elastic"
+      ],
+      "arxiv_strategies": [
+        "cs.AI 最新",
+        "cs.LG 最新",
+        "cs.CL 最新"
+      ],
+      "huggingface_models": 0,
+      "huggingface_tasks": [],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 0,
+      "evolution": {
+        "discovered": 33,
+        "adopted": 1,
+        "decisions": 1
+      },
+      "seed_watering": {
+        "seed_name": "Few-Shot Learning",
+        "papers_found": 5
+      }
+    },
+    {
+      "timestamp": "2026-07-08T17:44:28.040404",
+      "arxiv_papers_count": 22,
+      "arxiv_top_keywords": [
+        "semantic",
+        "unified",
+        "vision",
+        "generation",
+        "classification",
+        "across",
+        "multi",
+        "graph",
+        "compression",
+        "elsa"
+      ],
+      "arxiv_strategies": [
+        "cs.CV 最新",
+        "cs.AI+cs.LG 混合",
+        "cs.CL+cs.CV 混合"
+      ],
+      "huggingface_models": 0,
+      "huggingface_tasks": [],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 0,
+      "evolution": {
+        "discovered": 31,
+        "adopted": 0,
+        "decisions": 0
+      },
+      "seed_watering": {
+        "seed_name": "Continual Learning",
+        "papers_found": 4
+      }
+    },
+    {
+      "timestamp": "2026-07-08T19:45:30.675140",
+      "arxiv_papers_count": 18,
+      "arxiv_top_keywords": [
+        "llm",
+        "video",
+        "diffusion",
+        "quality",
+        "multi",
+        "native",
+        "throwing",
+        "obstacle",
+        "learning",
+        "objects"
+      ],
+      "arxiv_strategies": [
+        "搜索: reinforcement learning",
+        "搜索: large language model",
+        "搜索: diffusion model"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "fill-mask",
+        "text-generation",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 27,
+        "adopted": 0,
+        "decisions": 0
+      },
+      "seed_watering": {
+        "seed_name": "Mamba (SSM)",
+        "papers_found": 7
+      }
+    },
+    {
+      "timestamp": "2026-07-09T08:07:08.468259",
+      "arxiv_papers_count": 17,
+      "arxiv_top_keywords": [
+        "agents",
+        "semantic",
+        "graph",
+        "large",
+        "multi",
+        "self",
+        "learning",
+        "representations",
+        "decision",
+        "agent"
+      ],
+      "arxiv_strategies": [
+        "cs.AI (fallback)",
+        "搜索: self-supervised learning",
+        "搜索: multi-agent system"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "fill-mask",
+        "text-generation",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 34,
+        "adopted": 0,
+        "decisions": 0
+      },
+      "seed_watering": {
+        "seed_name": "Liquid Networks",
+        "papers_found": 9
+      }
+    },
+    {
+      "timestamp": "2026-07-09T10:12:24.543147",
+      "arxiv_papers_count": 5,
+      "arxiv_top_keywords": [
+        "structural",
+        "structure",
+        "property",
+        "native",
+        "reasoning",
+        "knowledge",
+        "lmlm",
+        "continuous",
+        "query",
+        "limited"
+      ],
+      "arxiv_strategies": [
+        "cs.AI (fallback)",
+        "cs.AI (fallback)",
+        "cs.AI (fallback)"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "fill-mask",
+        "text-generation",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 29,
+        "adopted": 1,
+        "decisions": 1
+      },
+      "seed_watering": {
+        "seed_name": "HTM",
+        "papers_found": 4
+      }
+    },
+    {
+      "timestamp": "2026-07-09T13:20:03.564150",
+      "arxiv_papers_count": 17,
+      "arxiv_top_keywords": [
+        "time",
+        "series",
+        "data",
+        "detection",
+        "anomaly",
+        "latent",
+        "end",
+        "representation",
+        "learning",
+        "multi"
+      ],
+      "arxiv_strategies": [
+        "搜索: time series forecasting",
+        "搜索: anomaly detection",
+        "搜索: knowledge distillation"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "fill-mask",
+        "text-generation",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 27,
+        "adopted": 1,
+        "decisions": 1
+      },
+      "seed_watering": {
+        "seed_name": "Spiking Neural Networks",
+        "papers_found": 10
+      }
+    },
+    {
+      "timestamp": "2026-07-09T15:21:02.194607",
+      "arxiv_papers_count": 16,
+      "arxiv_top_keywords": [
+        "reasoning",
+        "structural",
+        "structure",
+        "property",
+        "native",
+        "knowledge",
+        "lmlm",
+        "continuous",
+        "query",
+        "limited"
+      ],
+      "arxiv_strategies": [
+        "cs.AI 最新",
+        "cs.LG 最新",
+        "cs.CL 最新"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "fill-mask",
+        "text-generation",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 31,
+        "adopted": 0,
+        "decisions": 0
+      },
+      "seed_watering": {
+        "seed_name": "Non-Transformer Arch",
+        "papers_found": 6
+      }
+    },
+    {
+      "timestamp": "2026-07-09T17:31:49.905534",
+      "arxiv_papers_count": 25,
+      "arxiv_top_keywords": [
+        "data",
+        "reasoning",
+        "memory",
+        "large",
+        "language",
+        "rlhf",
+        "diffusion",
+        "feedback",
+        "human",
+        "selective"
+      ],
+      "arxiv_strategies": [
+        "cs.CV 最新",
+        "cs.AI+cs.LG 混合",
+        "cs.CL+cs.CV 混合"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "fill-mask",
+        "text-generation",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 33,
+        "adopted": 2,
+        "decisions": 2
+      },
+      "seed_watering": {
+        "seed_name": "Few-Shot Learning",
+        "papers_found": 5
+      }
+    },
+    {
+      "timestamp": "2026-07-09T20:02:10.091590",
+      "arxiv_papers_count": 17,
+      "arxiv_top_keywords": [
+        "video",
+        "diffusion",
+        "reasoning",
+        "agent",
+        "structural",
+        "large",
+        "language",
+        "rlhf",
+        "feedback",
+        "human"
+      ],
+      "arxiv_strategies": [
+        "搜索: reinforcement learning",
+        "搜索: large language model",
+        "搜索: diffusion model"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "fill-mask",
+        "text-generation",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 25,
+        "adopted": 0,
+        "decisions": 0
+      },
+      "seed_watering": {
+        "seed_name": "Continual Learning",
+        "papers_found": 6
+      }
+    },
+    {
+      "timestamp": "2026-07-09T21:08:53.826731",
+      "arxiv_papers_count": 5,
+      "arxiv_top_keywords": [
+        "structural",
+        "structure",
+        "property",
+        "native",
+        "reasoning",
+        "knowledge",
+        "lmlm",
+        "continuous",
+        "query",
+        "limited"
+      ],
+      "arxiv_strategies": [
+        "cs.AI (fallback)",
+        "cs.AI (fallback)",
+        "cs.AI (fallback)"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "fill-mask",
+        "text-generation",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 31,
+        "adopted": 0,
+        "decisions": 0
+      },
+      "seed_watering": {
+        "seed_name": "Mamba (SSM)",
+        "papers_found": 7
+      }
+    },
+    {
+      "timestamp": "2026-07-09T21:43:15.676671",
+      "arxiv_papers_count": 18,
+      "arxiv_top_keywords": [
+        "graph",
+        "learning",
+        "world",
+        "transfer",
+        "signals",
+        "neural",
+        "target",
+        "inputs",
+        "many",
+        "sizes"
+      ],
+      "arxiv_strategies": [
+        "搜索: graph neural network",
+        "搜索: transfer learning",
+        "搜索: world model"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "fill-mask",
+        "text-generation",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 28,
+        "adopted": 0,
+        "decisions": 0
+      },
+      "seed_watering": {
+        "seed_name": "Liquid Networks",
+        "papers_found": 9
+      }
+    },
+    {
+      "timestamp": "2026-07-10T07:45:15.555160",
+      "arxiv_papers_count": 5,
+      "arxiv_top_keywords": [
+        "structural",
+        "structure",
+        "property",
+        "native",
+        "reasoning",
+        "knowledge",
+        "lmlm",
+        "continuous",
+        "query",
+        "limited"
+      ],
+      "arxiv_strategies": [
+        "搜索: time series forecasting",
+        "搜索: anomaly detection",
+        "cs.AI (fallback)"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "fill-mask",
+        "text-generation",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 31,
+        "adopted": 0,
+        "decisions": 0
+      },
+      "seed_watering": {
+        "seed_name": "HTM",
+        "papers_found": 4
+      }
+    },
+    {
+      "timestamp": "2026-07-10T09:32:40.918310",
+      "arxiv_papers_count": 22,
+      "arxiv_top_keywords": [
+        "training",
+        "large",
+        "reasoning",
+        "generation",
+        "data",
+        "language",
+        "llm",
+        "human",
+        "llms",
+        "memory"
+      ],
+      "arxiv_strategies": [
+        "cs.AI 最新",
+        "cs.LG 最新",
+        "cs.CL 最新"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "fill-mask",
+        "text-generation",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 32,
+        "adopted": 0,
+        "decisions": 0
+      },
+      "seed_watering": {
+        "seed_name": "Spiking Neural Networks",
+        "papers_found": 10
+      }
+    },
+    {
+      "timestamp": "2026-07-10T11:36:23.878116",
+      "arxiv_papers_count": 21,
+      "arxiv_top_keywords": [
+        "video",
+        "long",
+        "training",
+        "generation",
+        "geometry",
+        "learning",
+        "panoramic",
+        "language",
+        "large",
+        "llms"
+      ],
+      "arxiv_strategies": [
+        "cs.CV 最新",
+        "cs.AI+cs.LG 混合",
+        "cs.CL+cs.CV 混合"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "fill-mask",
+        "text-generation",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 32,
+        "adopted": 1,
+        "decisions": 1
+      },
+      "seed_watering": {
+        "seed_name": "Non-Transformer Arch",
+        "papers_found": 5
+      }
+    },
+    {
+      "timestamp": "2026-07-14T07:47:15.858986",
+      "arxiv_papers_count": 18,
+      "arxiv_top_keywords": [
+        "learning",
+        "training",
+        "long",
+        "reinforcement",
+        "event",
+        "test",
+        "time",
+        "reconstruction",
+        "video",
+        "objective"
+      ],
+      "arxiv_strategies": [
+        "搜索: reinforcement learning",
+        "搜索: large language model",
+        "搜索: diffusion model"
+      ],
+      "huggingface_models": 0,
+      "huggingface_tasks": [],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 0,
+      "evolution": {
+        "discovered": 30,
+        "adopted": 0,
+        "decisions": 0
+      },
+      "seed_watering": {
+        "seed_name": "Few-Shot Learning",
+        "papers_found": 5
+      }
+    },
+    {
+      "timestamp": "2026-07-14T09:51:54.820114",
+      "arxiv_papers_count": 5,
+      "arxiv_top_keywords": [
+        "visual",
+        "language",
+        "eeg",
+        "dream",
+        "phinn",
+        "topological",
+        "time",
+        "pretraining",
+        "text",
+        "intelligence"
+      ],
+      "arxiv_strategies": [
+        "cs.AI (fallback)",
+        "cs.AI (fallback)",
+        "cs.AI (fallback)"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "fill-mask",
+        "text-generation",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 24,
+        "adopted": 1,
+        "decisions": 1
+      },
+      "seed_watering": {
+        "seed_name": "",
+        "papers_found": 0
+      }
+    },
+    {
+      "timestamp": "2026-07-14T11:52:51.427534",
+      "arxiv_papers_count": 18,
+      "arxiv_top_keywords": [
+        "graph",
+        "learning",
+        "world",
+        "multi",
+        "neural",
+        "feature",
+        "foundation",
+        "target",
+        "self",
+        "scale"
+      ],
+      "arxiv_strategies": [
+        "搜索: graph neural network",
+        "搜索: transfer learning",
+        "搜索: world model"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "fill-mask",
+        "text-generation",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 22,
+        "adopted": 0,
+        "decisions": 0
+      },
+      "seed_watering": {
+        "seed_name": "Mamba (SSM)",
+        "papers_found": 8
+      }
+    },
+    {
+      "timestamp": "2026-07-14T13:04:32.264203",
+      "arxiv_papers_count": 17,
+      "arxiv_top_keywords": [
+        "anomaly",
+        "time",
+        "detection",
+        "learning",
+        "semantic",
+        "series",
+        "behavior",
+        "distillation",
+        "metacognition",
+        "llms"
+      ],
+      "arxiv_strategies": [
+        "cs.AI (fallback)",
+        "搜索: anomaly detection",
+        "搜索: knowledge distillation"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "fill-mask",
+        "text-generation",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 37,
+        "adopted": 0,
+        "decisions": 0
+      },
+      "seed_watering": {
+        "seed_name": "Liquid Networks",
+        "papers_found": 8
+      }
+    },
+    {
+      "timestamp": "2026-07-14T17:44:01.979898",
+      "arxiv_papers_count": 17,
+      "arxiv_top_keywords": [
+        "human",
+        "neural",
+        "metacognition",
+        "llms",
+        "progress",
+        "intelligence",
+        "effective",
+        "dynamics",
+        "tasks",
+        "learning"
+      ],
+      "arxiv_strategies": [
+        "cs.AI 最新",
+        "cs.LG 最新",
+        "cs.CL 最新"
+      ],
+      "huggingface_models": 0,
+      "huggingface_tasks": [],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 0,
+      "evolution": {
+        "discovered": 39,
+        "adopted": 2,
+        "decisions": 2
+      },
+      "seed_watering": {
+        "seed_name": "HTM",
+        "papers_found": 4
+      }
+    },
+    {
+      "timestamp": "2026-07-14T19:44:49.929739",
+      "arxiv_papers_count": 19,
+      "arxiv_top_keywords": [
+        "video",
+        "image",
+        "text",
+        "neural",
+        "reward",
+        "pretrained",
+        "mllms",
+        "identity",
+        "tuning",
+        "personalization"
+      ],
+      "arxiv_strategies": [
+        "cs.CV 最新",
+        "cs.AI+cs.LG 混合",
+        "cs.CL+cs.CV 混合"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "fill-mask",
+        "text-generation",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 34,
+        "adopted": 0,
+        "decisions": 0
+      },
+      "seed_watering": {
+        "seed_name": "Spiking Neural Networks",
+        "papers_found": 9
+      }
+    },
+    {
+      "timestamp": "2026-07-15T09:50:51.617171",
+      "arxiv_papers_count": 17,
+      "arxiv_top_keywords": [
+        "human",
+        "neural",
+        "metacognition",
+        "llms",
+        "progress",
+        "intelligence",
+        "effective",
+        "dynamics",
+        "tasks",
+        "learning"
+      ],
+      "arxiv_strategies": [
+        "cs.AI 最新",
+        "cs.LG 最新",
+        "cs.CL 最新"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "fill-mask",
+        "text-generation",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 38,
+        "adopted": 0,
+        "decisions": 0
+      },
+      "seed_watering": {
+        "seed_name": "Graph Neural Networks",
+        "papers_found": 5
+      }
+    },
+    {
+      "timestamp": "2026-07-15T10:06:36.546736",
+      "arxiv_papers_count": 5,
+      "arxiv_top_keywords": [
+        "metacognition",
+        "llms",
+        "progress",
+        "intelligence",
+        "effective",
+        "dynamics",
+        "tasks",
+        "learning",
+        "inductive",
+        "reasoning"
+      ],
+      "arxiv_strategies": [
+        "cs.AI (fallback)",
+        "cs.AI (fallback)",
+        "cs.AI (fallback)"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "fill-mask",
+        "text-generation",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 30,
+        "adopted": 0,
+        "decisions": 0
+      },
+      "seed_watering": {
+        "seed_name": "",
+        "papers_found": 0
+      }
+    },
+    {
+      "timestamp": "2026-07-15T10:12:37.076257",
+      "arxiv_papers_count": 5,
+      "arxiv_top_keywords": [
+        "time",
+        "detection",
+        "falling",
+        "vision",
+        "support",
+        "memory",
+        "long",
+        "memops",
+        "benchmarking",
+        "lifecycle"
+      ],
+      "arxiv_strategies": [
+        "cs.AI (fallback)",
+        "cs.AI (fallback)",
+        "cs.AI (fallback)"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "fill-mask",
+        "text-generation",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 26,
+        "adopted": 0,
+        "decisions": 0
+      },
+      "seed_watering": {
+        "seed_name": "",
+        "papers_found": 0
+      }
+    },
+    {
+      "timestamp": "2026-07-15T10:22:05.186004",
+      "arxiv_papers_count": 5,
+      "arxiv_top_keywords": [
+        "time",
+        "detection",
+        "falling",
+        "vision",
+        "support",
+        "memory",
+        "long",
+        "memops",
+        "benchmarking",
+        "lifecycle"
+      ],
+      "arxiv_strategies": [
+        "cs.AI (fallback)",
+        "cs.AI (fallback)",
+        "cs.AI (fallback)"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "fill-mask",
+        "text-generation",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 26,
+        "adopted": 2,
+        "decisions": 2
+      },
+      "seed_watering": {
+        "seed_name": "",
+        "papers_found": 0
+      }
+    }
+  ],
+  "total_sessions": 99,
+  "last_updated": "2026-07-15T10:22:05.186027",
+  "evolution_summary": {
+    "total_adopted": 20,
+    "adopted_list": [
+      "Knowledge Distillation",
+      "World Models / Model-Based RL",
+      "Reinforcement Learning",
+      "Diffusion Models",
+      "LLM Agents / Tool Use",
+      "Transformer Architecture",
+      "Multimodal / Vision-Language",
+      "Mamba / State Space Models",
+      "State Space",
+      "Prompt Engineering / In-Context Learning",
+      "RLHF / Preference Alignment",
+      "Retrieval-Augmented Generation",
+      "Diffusion Model",
+      "Mixture of Experts",
+      "Knowledge Distillation",
+      "Graph Neural",
+      "LoRA / Parameter-Efficient Fine-Tuning",
+      "Image Generation",
+      "Liquid Time",
+      "Prompt Engineering"
+    ],
+    "seeds": {
+      "mamba": {
+        "name": "Mamba (SSM)",
+        "watering": 7,
+        "papers": 17
+      },
+      "liquid-networks": {
+        "name": "Liquid Networks",
+        "watering": 7,
+        "papers": 17
+      },
+      "htm": {
+        "name": "HTM",
+        "watering": 7,
+        "papers": 9
+      },
+      "spiking-nn": {
+        "name": "Spiking Neural Networks",
+        "watering": 6,
+        "papers": 12
+      },
+      "non-transformer": {
+        "name": "Non-Transformer Arch",
+        "watering": 7,
+        "papers": 5
+      },
+      "few-shot": {
+        "name": "Few-Shot Learning",
+        "watering": 6,
+        "papers": 11
+      },
+      "continual-learning": {
+        "name": "Continual Learning",
+        "watering": 5,
+        "papers": 11
+      },
+      "moe": {
+        "name": "Mixture of Experts",
+        "watering": 1,
+        "papers": 0
+      },
+      "kv-cache": {
+        "name": "KV Cache Optimization",
+        "watering": 1,
+        "papers": 0
+      },
+      "gnn": {
+        "name": "Graph Neural Networks",
+        "watering": 2,
+        "papers": 0
+      }
+    },
+    "seed_metrics": {
+      "spiking-nn": {
+        "name": "Spiking Neural Networks",
+        "new_papers": 12,
+        "keywords_matched": [
+          "spike-timing",
+          "neuromorphic",
+          "snn",
+          "spiking"
+        ],
+        "high_relevance_total": 10,
+        "avg_relevance_latest": 1.0,
+        "best_papers_count": 5
+      },
+      "few-shot": {
+        "name": "Few-Shot Learning",
+        "new_papers": 6,
+        "keywords_matched": [
+          "meta-learning",
+          "few-shot"
+        ],
+        "high_relevance_total": 0,
+        "avg_relevance_latest": 0.0,
+        "best_papers_count": 0
+      },
+      "mamba": {
+        "name": "Mamba (SSM)",
+        "new_papers": 12,
+        "keywords_matched": [
+          "ssm",
+          "state space",
+          "mamba"
+        ],
+        "high_relevance_total": 4,
+        "avg_relevance_latest": 1.4,
+        "best_papers_count": 0
+      },
+      "liquid-networks": {
+        "name": "Liquid Networks",
+        "new_papers": 12,
+        "keywords_matched": [
+          "liquid neural",
+          "continuous-time",
+          "ode"
+        ],
+        "high_relevance_total": 3,
+        "avg_relevance_latest": 1.0,
+        "best_papers_count": 0
+      },
+      "htm": {
+        "name": "HTM",
+        "new_papers": 4,
+        "keywords_matched": [
+          "sparse distributed",
+          "hierarchical temporal"
+        ],
+        "high_relevance_total": 0,
+        "avg_relevance_latest": 0.0,
+        "best_papers_count": 0
+      },
+      "non-transformer": {
+        "name": "Non-Transformer Arch",
+        "new_papers": 5,
+        "keywords_matched": [
+          "efficient transformer",
+          "mamba",
+          "state space",
+          "linear attention"
+        ],
+        "high_relevance_total": 1,
+        "avg_relevance_latest": 1.0,
+        "best_papers_count": 0
+      },
+      "continual-learning": {
+        "name": "Continual Learning",
+        "new_papers": 6,
+        "keywords_matched": [
+          "continual learning",
+          "lifelong",
+          "catastrophic forgetting"
+        ],
+        "high_relevance_total": 1,
+        "avg_relevance_latest": 1.0,
+        "best_papers_count": 1
+      },
+      "gnn": {
+        "name": "Graph Neural Networks",
+        "new_papers": 0,
+        "keywords_matched": [],
+        "high_relevance_total": 0,
+        "avg_relevance_latest": 0.0,
+        "best_papers_count": 0
+      }
+    },
+    "last_evolution": "2026-07-15T10:22:05.188341"
+  }
+}
