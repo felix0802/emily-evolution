@@ -1,0 +1,97 @@
+{
+  "timestamp": "2026-07-15T10:22:05.208221",
+  "connections": [
+    {
+      "seed_a": "Mamba (SSM)",
+      "seed_b": "Non-Transformer Arch",
+      "shared_keywords": [
+        "mamba",
+        "state space"
+      ],
+      "shared_paper_concepts": [
+        "memory",
+        "state"
+      ],
+      "strength": 6,
+      "discovered_at": "2026-07-15T10:22:05.208120"
+    },
+    {
+      "seed_a": "Liquid Networks",
+      "seed_b": "Continual Learning",
+      "shared_keywords": [],
+      "shared_paper_concepts": [
+        "adaptation",
+        "diffusion",
+        "learning",
+        "models",
+        "with"
+      ],
+      "strength": 5,
+      "discovered_at": "2026-07-15T10:22:05.208167"
+    },
+    {
+      "seed_a": "Mamba (SSM)",
+      "seed_b": "Continual Learning",
+      "shared_keywords": [],
+      "shared_paper_concepts": [
+        "aware",
+        "models",
+        "with"
+      ],
+      "strength": 3,
+      "discovered_at": "2026-07-15T10:22:05.208131"
+    },
+    {
+      "seed_a": "Mamba (SSM)",
+      "seed_b": "Liquid Networks",
+      "shared_keywords": [],
+      "shared_paper_concepts": [
+        "models",
+        "with"
+      ],
+      "strength": 2,
+      "discovered_at": "2026-07-15T10:22:05.208099"
+    },
+    {
+      "seed_a": "Liquid Networks",
+      "seed_b": "Spiking Neural Networks",
+      "shared_keywords": [],
+      "shared_paper_concepts": [
+        "neural"
+      ],
+      "strength": 1,
+      "discovered_at": "2026-07-15T10:22:05.208143"
+    },
+    {
+      "seed_a": "Liquid Networks",
+      "seed_b": "Few-Shot Learning",
+      "shared_keywords": [],
+      "shared_paper_concepts": [
+        "learning"
+      ],
+      "strength": 1,
+      "discovered_at": "2026-07-15T10:22:05.208151"
+    },
+    {
+      "seed_a": "Spiking Neural Networks",
+      "seed_b": "Few-Shot Learning",
+      "shared_keywords": [],
+      "shared_paper_concepts": [
+        "efficient"
+      ],
+      "strength": 1,
+      "discovered_at": "2026-07-15T10:22:05.208185"
+    },
+    {
+      "seed_a": "Few-Shot Learning",
+      "seed_b": "Continual Learning",
+      "shared_keywords": [],
+      "shared_paper_concepts": [
+        "learning"
+      ],
+      "strength": 1,
+      "discovered_at": "2026-07-15T10:22:05.208202"
+    }
+  ],
+  "total_seeds": 10
+}
