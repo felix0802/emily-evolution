@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 58,
+  "_rotation_idx": 59,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 18,
@@ -1139,7 +1139,7 @@
   "kv-cache": {
     "name": "KV Cache Optimization",
     "total_papers_found": 2,
-    "watering_count": 3,
+    "watering_count": 4,
     "history": [
       {
         "timestamp": "2026-07-15T11:19:09.355556",
@@ -1164,6 +1164,15 @@
             "seed_match_score": 1
           }
         ]
+      },
+      {
+        "timestamp": "2026-07-16T13:13:04.882796",
+        "papers_found": 0,
+        "duplicates": 7,
+        "irrelevant_filtered": 3,
+        "avg_relevance": 0.0,
+        "high_relevance": 0,
+        "papers": []
       }
     ],
     "keywords": [
@@ -1175,7 +1184,7 @@
       "flash attention",
       "speculative decoding"
     ],
-    "last_watered": "2026-07-16T11:25:10.537080"
+    "last_watered": "2026-07-16T13:13:04.882790"
   },
   "gnn": {
     "name": "Graph Neural Networks",
