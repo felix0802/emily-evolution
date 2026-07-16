@@ -548,6 +548,36 @@
         ],
         "decided_at": "2026-07-15T22:45:42.164920"
       }
+    },
+    {
+      "id": "llm-局部冗余度（local-redundancy）",
+      "name": "局部冗余度（Local Redundancy）",
+      "adopted_at": "2026-07-16T07:51:50.522164",
+      "decision": {
+        "tech_id": "llm-局部冗余度（local-redundancy）",
+        "tech_name": "局部冗余度（Local Redundancy）",
+        "action": "adopt",
+        "confidence": 0.9,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-07-16T07:51:50.521414"
+      }
+    },
+    {
+      "id": "llm-显著性时间编辑（salience-based-tempora",
+      "name": "显著性时间编辑（Salience-based Temporal Editing）",
+      "adopted_at": "2026-07-16T07:51:50.522176",
+      "decision": {
+        "tech_id": "llm-显著性时间编辑（salience-based-tempora",
+        "tech_name": "显著性时间编辑（Salience-based Temporal Editing）",
+        "action": "adopt",
+        "confidence": 0.85,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-07-16T07:51:50.521548"
+      }
     }
   ],
   "history": [
@@ -766,6 +796,18 @@
       "tech_id": "llm-验证器强化学习微调",
       "tech_name": "验证器强化学习微调",
       "timestamp": "2026-07-15T22:45:42.165878"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-局部冗余度（local-redundancy）",
+      "tech_name": "局部冗余度（Local Redundancy）",
+      "timestamp": "2026-07-16T07:51:50.522167"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-显著性时间编辑（salience-based-tempora",
+      "tech_name": "显著性时间编辑（Salience-based Temporal Editing）",
+      "timestamp": "2026-07-16T07:51:50.522177"
     }
   ]
 }

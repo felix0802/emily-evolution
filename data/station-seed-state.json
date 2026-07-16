@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 56,
+  "_rotation_idx": 57,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 18,
@@ -913,8 +913,8 @@
   },
   "continual-learning": {
     "name": "Continual Learning",
-    "total_papers_found": 11,
-    "watering_count": 6,
+    "total_papers_found": 17,
+    "watering_count": 7,
     "history": [
       {
         "timestamp": "2026-07-07T13:06:50.870963",
@@ -1029,6 +1029,37 @@
         "avg_relevance": 0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-07-16T07:51:44.476313",
+        "papers_found": 6,
+        "duplicates": 1,
+        "irrelevant_filtered": 3,
+        "avg_relevance": 1.33,
+        "high_relevance": 2,
+        "papers": [
+          {
+            "title": "Do Agent Optimizers Compound? A Continual-Learning Evaluation on Terminal-Bench 2.0",
+            "summary": "Most reported gains from agent-optimization methods are one-shot: an agent is optimized against a fixed benchmark and the resulting improvement is reported as if it were a stable property of the method. This does not test the setting that matters for deployed agents, where optimization is applied re",
+            "published": "2026-07-15",
+            "url": "http://arxiv.org/abs/2607.14004v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Continual Learning with Elastic Regularization and Synthetic Replay for Federated MLLM Fine-Tuning",
+            "summary": "Federated fine-tuning of Multimodal Large Language Models (MLLMs) across distributed networks enables privacy-sensitive adaptation to evolving data streams, yet a fundamental obstacle prevents robust deployment in dynamic environments: catastrophic forgetting, wherein sequential task updates erase p",
+            "published": "2026-07-13",
+            "url": "http://arxiv.org/abs/2607.12112v1",
+            "seed_match_score": 2
+          },
+          {
+            "title": "CA-DGCL: Dynamic Graph Continual Learning via Condensation and Attachment",
+            "summary": "Dynamic graph continual learning (DGCL) is an effective manner for handling catastrophic forgetting in dynamic graphs. However, existing DGCL methods underutilize temporal information across graph snapshots. To address this critical issue, we propose a novel framework for Dynamic Graph Continual Lea",
+            "published": "2026-07-13",
+            "url": "http://arxiv.org/abs/2607.11112v1",
+            "seed_match_score": 2
+          }
+        ]
       }
     ],
     "keywords": [
@@ -1038,7 +1069,7 @@
       "ewc",
       "elastic weight"
     ],
-    "last_watered": "2026-07-15T06:09:54.212847"
+    "last_watered": "2026-07-16T07:51:44.476309"
   },
   "moe": {
     "name": "Mixture of Experts",

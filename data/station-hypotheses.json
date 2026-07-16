@@ -31,8 +31,8 @@
       "reasoning": "Mamba透過選擇性狀態更新機制解決了SSM的記憶瓶頸，而Liquid Networks利用微分方程實現連續時間動態，兩者皆基於狀態空間表示且共享數學基礎（如ODE求解器）。結合後可讓模型在每個時間步動態調整狀態演化速率，同時透過選擇性門控控制資訊流，從而更高效地處理多尺度時間模式。",
       "arxiv_query": "selective state space model liquid time constant network",
       "potential_breakthrough": "此結合可能催生一種能同時處理離散事件與連續過程的通用序列模型，在機器人控制、氣候預測等需即時適應環境變化的領域超越Transformer。",
-      "status": "unverified",
-      "verification_rounds": 2,
+      "status": "supported",
+      "verification_rounds": 3,
       "supporting_papers": [
         {
           "title": "Liquid Time-constant Recurrent Neural Networks as Universal Approximators",
@@ -43,6 +43,11 @@
           "title": "Liquid Time-constant Recurrent Neural Networks as Universal Approximators",
           "url": "http://arxiv.org/abs/1811.00321v1",
           "reason": "該論文提出的液態時間常數循環神經網路(LTC RNN)具有可變的神經元時間常數，與假設中結合Mamba的選擇性狀態空間模型與Liquid Networks連續時間動力學以實現自適應時間常數的想法一致，直接支持了假設的可行性。"
+        },
+        {
+          "title": "Liquid Time-constant Recurrent Neural Networks as Universal Approximators",
+          "url": "http://arxiv.org/abs/1811.00321v1",
+          "reason": "該論文提出液態時間常數遞歸神經網路，其可變神經元時間常數特性與假設中自適應時間常數的概念一致，直接支持結合連續時間動力學的可行性。"
         }
       ],
       "refuting_papers": [],
@@ -134,7 +139,7 @@
       "llm_source": "deepseek"
     }
   ],
-  "last_updated": "2026-07-16T04:48:00.852823",
+  "last_updated": "2026-07-16T07:51:56.637624",
   "total_generated": 6,
-  "total_verified": 1
+  "total_verified": 2
 }

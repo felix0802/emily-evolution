@@ -161,19 +161,20 @@
   },
   "continual-learning": {
     "name": "Continual Learning",
-    "total_new_papers": 6,
-    "total_watering": 3,
+    "total_new_papers": 12,
+    "total_watering": 4,
     "all_keywords_matched": [
       "continual learning",
-      "lifelong",
-      "catastrophic forgetting"
+      "catastrophic forgetting",
+      "lifelong"
     ],
     "avg_relevance_trend": [
       1.0,
       3.0,
-      1.0
+      1.0,
+      1.33
     ],
-    "high_relevance_total": 1,
+    "high_relevance_total": 3,
     "best_papers": [
       {
         "title": "To Retain or to Adapt? Generalizing Continual Learning",
@@ -181,7 +182,7 @@
         "published": "2026-07-06"
       }
     ],
-    "last_updated": "2026-07-09T20:02:01.893825"
+    "last_updated": "2026-07-16T07:51:44.475993"
   },
   "gnn": {
     "name": "Graph Neural Networks",

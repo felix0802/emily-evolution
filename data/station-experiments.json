@@ -1,5 +1,24 @@
 {
-  "experiments": [],
-  "total_experiments": 0,
-  "last_updated": "2026-07-15T03:59:13.305091"
+  "experiments": [
+    {
+      "id": "exp-hyp-0002",
+      "hypothesis_id": "hyp-0002",
+      "hypothesis_text": "結合Mamba的選擇性狀態空間模型與Liquid Networks的連續時間動力學，可創建一個具備自適應時間常數和狀態選擇能力的循環神經網路，顯著提升對非平穩時間序列的長期依賴建模能力。",
+      "dataset": "Iris",
+      "algorithms": [
+        "LogisticRegression",
+        "RandomForest"
+      ],
+      "metric": "accuracy",
+      "cross_val": 5,
+      "designed_at": "2026-07-16T07:51:56.638226",
+      "status": "skipped",
+      "outcome": {
+        "status": "skipped",
+        "reason": "sklearn_missing"
+      }
+    }
+  ],
+  "total_experiments": 1,
+  "last_updated": "2026-07-16T07:51:56.638452"
 }

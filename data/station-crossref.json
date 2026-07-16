@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-16T04:47:56.787235",
+  "timestamp": "2026-07-16T07:51:52.915174",
   "connections": [
     {
       "seed_a": "Mamba (SSM)",
@@ -14,32 +14,7 @@
         "with"
       ],
       "strength": 7,
-      "discovered_at": "2026-07-16T04:47:56.787118"
-    },
-    {
-      "seed_a": "Liquid Networks",
-      "seed_b": "Continual Learning",
-      "shared_keywords": [],
-      "shared_paper_concepts": [
-        "diffusion",
-        "learning",
-        "models",
-        "with"
-      ],
-      "strength": 4,
-      "discovered_at": "2026-07-16T04:47:56.787156"
-    },
-    {
-      "seed_a": "Mamba (SSM)",
-      "seed_b": "Continual Learning",
-      "shared_keywords": [],
-      "shared_paper_concepts": [
-        "aware",
-        "models",
-        "with"
-      ],
-      "strength": 3,
-      "discovered_at": "2026-07-16T04:47:56.787127"
+      "discovered_at": "2026-07-16T07:51:52.915124"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -50,7 +25,7 @@
         "with"
       ],
       "strength": 2,
-      "discovered_at": "2026-07-16T04:47:56.787096"
+      "discovered_at": "2026-07-16T07:51:52.915113"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -61,7 +36,7 @@
         "with"
       ],
       "strength": 2,
-      "discovered_at": "2026-07-16T04:47:56.787113"
+      "discovered_at": "2026-07-16T07:51:52.915121"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -72,7 +47,7 @@
         "region"
       ],
       "strength": 2,
-      "discovered_at": "2026-07-16T04:47:56.787135"
+      "discovered_at": "2026-07-16T07:51:52.915131"
     },
     {
       "seed_a": "Liquid Networks",
@@ -83,7 +58,18 @@
         "with"
       ],
       "strength": 2,
-      "discovered_at": "2026-07-16T04:47:56.787147"
+      "discovered_at": "2026-07-16T07:51:52.915136"
+    },
+    {
+      "seed_a": "Liquid Networks",
+      "seed_b": "Continual Learning",
+      "shared_keywords": [],
+      "shared_paper_concepts": [
+        "learning",
+        "with"
+      ],
+      "strength": 2,
+      "discovered_at": "2026-07-16T07:51:52.915140"
     },
     {
       "seed_a": "Liquid Networks",
@@ -94,18 +80,7 @@
         "with"
       ],
       "strength": 2,
-      "discovered_at": "2026-07-16T04:47:56.787159"
-    },
-    {
-      "seed_a": "Spiking Neural Networks",
-      "seed_b": "Continual Learning",
-      "shared_keywords": [],
-      "shared_paper_concepts": [
-        "analog",
-        "with"
-      ],
-      "strength": 2,
-      "discovered_at": "2026-07-16T04:47:56.787183"
+      "discovered_at": "2026-07-16T07:51:52.915142"
     },
     {
       "seed_a": "Spiking Neural Networks",
@@ -116,7 +91,27 @@
         "with"
       ],
       "strength": 2,
-      "discovered_at": "2026-07-16T04:47:56.787187"
+      "discovered_at": "2026-07-16T07:51:52.915154"
+    },
+    {
+      "seed_a": "Mamba (SSM)",
+      "seed_b": "HTM",
+      "shared_keywords": [],
+      "shared_paper_concepts": [
+        "driven"
+      ],
+      "strength": 1,
+      "discovered_at": "2026-07-16T07:51:52.915119"
+    },
+    {
+      "seed_a": "Mamba (SSM)",
+      "seed_b": "Few-Shot Learning",
+      "shared_keywords": [],
+      "shared_paper_concepts": [
+        "aware"
+      ],
+      "strength": 1,
+      "discovered_at": "2026-07-16T07:51:52.915125"
     }
   ],
   "total_seeds": 10
