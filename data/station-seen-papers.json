@@ -7813,7 +7813,43 @@
         "require"
       ],
       "first_seen_round": 162
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.13205v1",
+      "title": "Adaptive Filtering of the KV Cache: Diagnosing and Correcting Structural-Role Bias in LLM Inference",
+      "arxiv_id": "2607.13205",
+      "tokens": [
+        "adaptive",
+        "bias",
+        "cache",
+        "correcting",
+        "diagnosing",
+        "filtering",
+        "inference",
+        "llm",
+        "role",
+        "structural"
+      ],
+      "first_seen_round": 163
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.14041v1",
+      "title": "Multi-Expert Routing for Multi-Domain Low-Resource OCR: A Manchu Case Study",
+      "arxiv_id": "2607.14041",
+      "tokens": [
+        "case",
+        "domain",
+        "expert",
+        "low",
+        "manchu",
+        "multi",
+        "multi",
+        "ocr",
+        "resource",
+        "routing"
+      ],
+      "first_seen_round": 163
     }
   ],
-  "total_unique": 488
+  "total_unique": 490
 }

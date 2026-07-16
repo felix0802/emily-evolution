@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 57,
+  "_rotation_idx": 58,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 18,
@@ -1073,8 +1073,8 @@
   },
   "moe": {
     "name": "Mixture of Experts",
-    "total_papers_found": 3,
-    "watering_count": 2,
+    "total_papers_found": 4,
+    "watering_count": 3,
     "history": [
       {
         "timestamp": "2026-07-15T09:46:58.985365",
@@ -1106,6 +1106,23 @@
             "seed_match_score": 1
           }
         ]
+      },
+      {
+        "timestamp": "2026-07-16T09:52:54.319880",
+        "papers_found": 1,
+        "duplicates": 8,
+        "irrelevant_filtered": 1,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "Multi-Expert Routing for Multi-Domain Low-Resource OCR: A Manchu Case Study",
+            "summary": "Historical Manchu OCR must accommodate various visually distinct writing styles, including regular script, running script, and the semi-cursive chancery hand used in palace memorials, despite limited labeled data. We study a multi-expert system that reuses checkpoints from an iterative fine-tuning p",
+            "published": "2026-07-15",
+            "url": "http://arxiv.org/abs/2607.14041v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -1117,7 +1134,7 @@
       "switch transformer",
       "deepseek"
     ],
-    "last_watered": "2026-07-15T09:46:58.985360"
+    "last_watered": "2026-07-16T09:52:54.319877"
   },
   "kv-cache": {
     "name": "KV Cache Optimization",

@@ -578,6 +578,36 @@
         ],
         "decided_at": "2026-07-16T07:51:50.521548"
       }
+    },
+    {
+      "id": "llm-kv缓存驱逐（h2o及其衍生）",
+      "name": "KV缓存驱逐（H2O及其衍生）",
+      "adopted_at": "2026-07-16T09:53:00.067608",
+      "decision": {
+        "tech_id": "llm-kv缓存驱逐（h2o及其衍生）",
+        "tech_name": "KV缓存驱逐（H2O及其衍生）",
+        "action": "adopt",
+        "confidence": 0.9,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-07-16T09:53:00.066519"
+      }
+    },
+    {
+      "id": "llm-低秩分解与jl残差分配",
+      "name": "低秩分解与JL残差分配",
+      "adopted_at": "2026-07-16T09:53:00.067626",
+      "decision": {
+        "tech_id": "llm-低秩分解与jl残差分配",
+        "tech_name": "低秩分解与JL残差分配",
+        "action": "adopt",
+        "confidence": 0.85,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-07-16T09:53:00.066672"
+      }
     }
   ],
   "history": [
@@ -808,6 +838,18 @@
       "tech_id": "llm-显著性时间编辑（salience-based-tempora",
       "tech_name": "显著性时间编辑（Salience-based Temporal Editing）",
       "timestamp": "2026-07-16T07:51:50.522177"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-kv缓存驱逐（h2o及其衍生）",
+      "tech_name": "KV缓存驱逐（H2O及其衍生）",
+      "timestamp": "2026-07-16T09:53:00.067614"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-低秩分解与jl残差分配",
+      "tech_name": "低秩分解与JL残差分配",
+      "timestamp": "2026-07-16T09:53:00.067628"
     }
   ]
 }

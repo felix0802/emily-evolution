@@ -17,8 +17,26 @@
         "status": "skipped",
         "reason": "sklearn_missing"
       }
+    },
+    {
+      "id": "exp-hyp-0003",
+      "hypothesis_id": "hyp-0003",
+      "hypothesis_text": "結合Mamba的選擇性狀態空間模型與持續學習的彈性架構，可實現高效且無遺忘的序列學習，特別是在非平穩環境中動態調整狀態表示。",
+      "dataset": "Iris",
+      "algorithms": [
+        "LogisticRegression",
+        "RandomForest"
+      ],
+      "metric": "accuracy",
+      "cross_val": 5,
+      "designed_at": "2026-07-16T09:53:06.268945",
+      "status": "skipped",
+      "outcome": {
+        "status": "skipped",
+        "reason": "sklearn_missing"
+      }
     }
   ],
-  "total_experiments": 1,
-  "last_updated": "2026-07-16T07:51:56.638452"
+  "total_experiments": 2,
+  "last_updated": "2026-07-16T09:53:06.269310"
 }

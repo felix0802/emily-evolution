@@ -64,13 +64,18 @@
       "reasoning": "Mamba透過選擇性狀態更新機制處理長序列，而持續學習需要模型在不遺忘舊知識下適應新任務；兩者共享「aware」與「models」概念，可將Mamba的狀態選擇性擴展為持續學習中的記憶管理，利用SSM的數學結構（如延遲微分方程）實現動態權重調整。",
       "arxiv_query": "Mamba continual learning selective state space model adaptive memory",
       "potential_breakthrough": "開發出首個能同時處理長序列依賴與終身學習的統一架構，顯著提升機器人在動態環境中的適應性與自然語言處理中的持續知識整合。",
-      "status": "unverified",
-      "verification_rounds": 2,
+      "status": "supported",
+      "verification_rounds": 3,
       "supporting_papers": [
         {
           "title": "Mamba-FSCIL: Dynamic Adaptation with Selective State Space Model for Few-Shot Class-Incremental Learning",
           "url": "http://arxiv.org/abs/2407.06136v4",
           "reason": "該論文直接結合Mamba與類增量學習，透過動態適應支持假設中Mamba與持續學習整合的可行性。"
+        },
+        {
+          "title": "Mamba-FSCIL: Dynamic Adaptation with Selective State Space Model for Few-Shot Class-Incremental Learning",
+          "url": "http://arxiv.org/abs/2407.06136v4",
+          "reason": "該論文直接將Mamba的選擇性狀態空間模型應用於少樣本類增量學習，實現動態適應，與假設中結合Mamba與持續學習以動態調整狀態表示的方向一致。"
         }
       ],
       "refuting_papers": [],
@@ -139,7 +144,7 @@
       "llm_source": "deepseek"
     }
   ],
-  "last_updated": "2026-07-16T07:51:56.637624",
+  "last_updated": "2026-07-16T09:53:06.268292",
   "total_generated": 6,
-  "total_verified": 2
+  "total_verified": 3
 }

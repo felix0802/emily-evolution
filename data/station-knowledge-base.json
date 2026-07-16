@@ -1,37 +1,6 @@
 {
   "sessions": [
     {
-      "timestamp": "2026-07-02T18:43:26.099205",
-      "arxiv_papers_count": 20,
-      "arxiv_top_keywords": [
-        "llm",
-        "learning",
-        "theoria",
-        "verification",
-        "offer",
-        "cannot",
-        "state",
-        "prediction",
-        "separation",
-        "hypothesis"
-      ],
-      "huggingface_models_tracked": 10,
-      "huggingface_top_tasks": [
-        "sentence-similarity",
-        "fill-mask",
-        "text-ranking",
-        "feature-extraction",
-        "unknown"
-      ],
-      "ml_benchmarks_run": 10,
-      "ml_top_classifier": "RandomForest",
-      "evolution": {
-        "techniques_discovered": 0,
-        "techniques_adopted": 0,
-        "decisions": 0
-      }
-    },
-    {
       "timestamp": "2026-07-02T20:23:25.724845",
       "arxiv_papers_count": 20,
       "arxiv_top_keywords": [
@@ -3829,12 +3798,54 @@
         "seed_name": "Continual Learning",
         "papers_found": 7
       }
+    },
+    {
+      "timestamp": "2026-07-16T09:53:02.775525",
+      "arxiv_papers_count": 18,
+      "arxiv_top_keywords": [
+        "speculative",
+        "language",
+        "graph",
+        "decoding",
+        "tokens",
+        "cache",
+        "context",
+        "neural",
+        "feature",
+        "draft"
+      ],
+      "arxiv_strategies": [
+        "搜索: kv cache LLM",
+        "搜索: graph neural network recent",
+        "搜索: speculative decoding"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "fill-mask",
+        "text-generation",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [],
+      "ml_total_tests": 0,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 21,
+        "adopted": 2,
+        "decisions": 2
+      },
+      "seed_watering": {
+        "seed_name": "Mixture of Experts",
+        "papers_found": 9
+      }
     }
   ],
   "total_sessions": 101,
-  "last_updated": "2026-07-16T07:51:52.909716",
+  "last_updated": "2026-07-16T09:53:02.775535",
   "evolution_summary": {
-    "total_adopted": 38,
+    "total_adopted": 40,
     "adopted_list": [
       "Knowledge Distillation",
       "World Models / Model-Based RL",
@@ -3873,7 +3884,9 @@
       "程序化驾驶仿真",
       "验证器强化学习微调",
       "局部冗余度（Local Redundancy）",
-      "显著性时间编辑（Salience-based Temporal Editing）"
+      "显著性时间编辑（Salience-based Temporal Editing）",
+      "KV缓存驱逐（H2O及其衍生）",
+      "低秩分解与JL残差分配"
     ],
     "seeds": {
       "mamba": {
@@ -3913,8 +3926,8 @@
       },
       "moe": {
         "name": "Mixture of Experts",
-        "watering": 2,
-        "papers": 3
+        "watering": 3,
+        "papers": 4
       },
       "kv-cache": {
         "name": "KV Cache Optimization",
@@ -4023,12 +4036,13 @@
       },
       "moe": {
         "name": "Mixture of Experts",
-        "new_papers": 3,
+        "new_papers": 4,
         "keywords_matched": [
-          "moe"
+          "moe",
+          "expert routing"
         ],
         "high_relevance_total": 2,
-        "avg_relevance_latest": 1.67,
+        "avg_relevance_latest": 1.0,
         "best_papers_count": 0
       },
       "kv-cache": {
@@ -4042,6 +4056,6 @@
         "best_papers_count": 0
       }
     },
-    "last_evolution": "2026-07-16T07:51:52.910128"
+    "last_evolution": "2026-07-16T09:53:02.776017"
   }
 }

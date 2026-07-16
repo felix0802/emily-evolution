@@ -201,17 +201,19 @@
   },
   "moe": {
     "name": "Mixture of Experts",
-    "total_new_papers": 3,
-    "total_watering": 1,
+    "total_new_papers": 4,
+    "total_watering": 2,
     "all_keywords_matched": [
-      "moe"
+      "moe",
+      "expert routing"
     ],
     "avg_relevance_trend": [
-      1.67
+      1.67,
+      1.0
     ],
     "high_relevance_total": 2,
     "best_papers": [],
-    "last_updated": "2026-07-15T09:46:58.985052"
+    "last_updated": "2026-07-16T09:52:54.319622"
   },
   "kv-cache": {
     "name": "KV Cache Optimization",
