@@ -1,37 +1,6 @@
 {
   "sessions": [
     {
-      "timestamp": "2026-07-02T16:41:04.529088",
-      "arxiv_papers_count": 20,
-      "arxiv_top_keywords": [
-        "llm",
-        "learning",
-        "theoria",
-        "verification",
-        "offer",
-        "cannot",
-        "state",
-        "prediction",
-        "separation",
-        "hypothesis"
-      ],
-      "huggingface_models_tracked": 10,
-      "huggingface_top_tasks": [
-        "sentence-similarity",
-        "fill-mask",
-        "text-ranking",
-        "feature-extraction",
-        "unknown"
-      ],
-      "ml_benchmarks_run": 10,
-      "ml_top_classifier": "RandomForest",
-      "evolution": {
-        "techniques_discovered": 0,
-        "techniques_adopted": 0,
-        "decisions": 0
-      }
-    },
-    {
       "timestamp": "2026-07-02T18:21:17.256566",
       "arxiv_papers_count": 20,
       "arxiv_top_keywords": [
@@ -3807,10 +3776,52 @@
         "seed_name": "Non-Transformer Arch",
         "papers_found": 7
       }
+    },
+    {
+      "timestamp": "2026-07-16T04:47:56.775307",
+      "arxiv_papers_count": 18,
+      "arxiv_top_keywords": [
+        "graph",
+        "learning",
+        "world",
+        "neural",
+        "multi",
+        "feature",
+        "multiplex",
+        "mxgps",
+        "power",
+        "grid"
+      ],
+      "arxiv_strategies": [
+        "搜索: graph neural network",
+        "搜索: transfer learning",
+        "搜索: world model"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "fill-mask",
+        "text-generation",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [],
+      "ml_total_tests": 0,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 9,
+        "adopted": 0,
+        "decisions": 0
+      },
+      "seed_watering": {
+        "seed_name": "Few-Shot Learning",
+        "papers_found": 5
+      }
     }
   ],
   "total_sessions": 101,
-  "last_updated": "2026-07-16T01:19:55.175361",
+  "last_updated": "2026-07-16T04:47:56.775324",
   "evolution_summary": {
     "total_adopted": 36,
     "adopted_list": [
@@ -3879,7 +3890,7 @@
       },
       "few-shot": {
         "name": "Few-Shot Learning",
-        "watering": 7,
+        "watering": 8,
         "papers": 14
       },
       "continual-learning": {
@@ -3921,11 +3932,11 @@
         "name": "Few-Shot Learning",
         "new_papers": 9,
         "keywords_matched": [
-          "few-shot",
-          "meta-learning"
+          "meta-learning",
+          "few-shot"
         ],
         "high_relevance_total": 0,
-        "avg_relevance_latest": 1.0,
+        "avg_relevance_latest": 0.0,
         "best_papers_count": 0
       },
       "mamba": {
@@ -4018,6 +4029,6 @@
         "best_papers_count": 0
       }
     },
-    "last_evolution": "2026-07-16T01:19:55.175886"
+    "last_evolution": "2026-07-16T04:47:56.776107"
   }
 }

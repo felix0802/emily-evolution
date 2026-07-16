@@ -11,8 +11,8 @@
       "reasoning": "Liquid Networks 基於常微分方程（ODE）的連續時間狀態演化，天然支援動態系統的平滑適應，而 Continual Learning 面臨災難性遺忘問題，需記憶重放或正則化。兩者共享「adaptation」與「diffusion」概念，可將擴散過程視為知識傳播機制，使模型在任務邊界處透過狀態擴散自動調整，避免顯式記憶。",
       "arxiv_query": "Liquid Networks continual learning diffusion adaptation ODE",
       "potential_breakthrough": "實現單一模型在非平穩環境中無需重放緩衝區的終身學習，大幅降低記憶開銷並提升即時適應性。",
-      "status": "unverified",
-      "verification_rounds": 2,
+      "status": "inconclusive",
+      "verification_rounds": 3,
       "supporting_papers": [],
       "refuting_papers": [],
       "llm_source": "deepseek"
@@ -134,7 +134,7 @@
       "llm_source": "deepseek"
     }
   ],
-  "last_updated": "2026-07-16T01:19:58.996442",
+  "last_updated": "2026-07-16T04:48:00.852823",
   "total_generated": 6,
-  "total_verified": 0
+  "total_verified": 1
 }
