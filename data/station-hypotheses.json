@@ -117,8 +117,13 @@
       "arxiv_query": "few-shot continual learning privacy-aware transformer boundary-aware",
       "potential_breakthrough": "實現一個能動態適應新任務、保護用戶隱私且僅需極少樣本的終身學習系統，突破現有模型在數據稀缺與隱私限制下的性能瓶頸。",
       "status": "unverified",
-      "verification_rounds": 1,
+      "verification_rounds": 2,
       "supporting_papers": [
+        {
+          "title": "Lifelong Wandering: A realistic few-shot online continual learning setting",
+          "url": "http://arxiv.org/abs/2206.07932v1",
+          "reason": "該論文提出線上少量樣本持續學習的設定，直接結合了Few-Shot Learning與Continual Learning，與假設的核心方向一致。"
+        },
         {
           "title": "Lifelong Wandering: A realistic few-shot online continual learning setting",
           "url": "http://arxiv.org/abs/2206.07932v1",
@@ -129,7 +134,7 @@
       "llm_source": "deepseek"
     }
   ],
-  "last_updated": "2026-07-15T22:45:50.409741",
+  "last_updated": "2026-07-16T01:19:58.996442",
   "total_generated": 6,
   "total_verified": 0
 }

@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-15T22:45:43.741986",
+  "timestamp": "2026-07-16T01:19:55.182995",
   "connections": [
     {
       "seed_a": "Mamba (SSM)",
@@ -8,9 +8,13 @@
         "mamba",
         "state space"
       ],
-      "shared_paper_concepts": [],
-      "strength": 4,
-      "discovered_at": "2026-07-15T22:45:43.741889"
+      "shared_paper_concepts": [
+        "space",
+        "state",
+        "with"
+      ],
+      "strength": 7,
+      "discovered_at": "2026-07-16T01:19:55.182897"
     },
     {
       "seed_a": "Liquid Networks",
@@ -23,7 +27,7 @@
         "with"
       ],
       "strength": 4,
-      "discovered_at": "2026-07-15T22:45:43.741912"
+      "discovered_at": "2026-07-16T01:19:55.182940"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -35,7 +39,7 @@
         "with"
       ],
       "strength": 3,
-      "discovered_at": "2026-07-15T22:45:43.741895"
+      "discovered_at": "2026-07-16T01:19:55.182919"
     },
     {
       "seed_a": "Few-Shot Learning",
@@ -47,7 +51,7 @@
         "privacy"
       ],
       "strength": 3,
-      "discovered_at": "2026-07-15T22:45:43.741967"
+      "discovered_at": "2026-07-16T01:19:55.182975"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -58,7 +62,7 @@
         "with"
       ],
       "strength": 2,
-      "discovered_at": "2026-07-15T22:45:43.741875"
+      "discovered_at": "2026-07-16T01:19:55.182882"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -69,7 +73,7 @@
         "with"
       ],
       "strength": 2,
-      "discovered_at": "2026-07-15T22:45:43.741886"
+      "discovered_at": "2026-07-16T01:19:55.182893"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -80,7 +84,18 @@
         "region"
       ],
       "strength": 2,
-      "discovered_at": "2026-07-15T22:45:43.741900"
+      "discovered_at": "2026-07-16T01:19:55.182924"
+    },
+    {
+      "seed_a": "Liquid Networks",
+      "seed_b": "Non-Transformer Arch",
+      "shared_keywords": [],
+      "shared_paper_concepts": [
+        "temporal",
+        "with"
+      ],
+      "strength": 2,
+      "discovered_at": "2026-07-16T01:19:55.182933"
     },
     {
       "seed_a": "Liquid Networks",
@@ -91,7 +106,7 @@
         "learning"
       ],
       "strength": 2,
-      "discovered_at": "2026-07-15T22:45:43.741909"
+      "discovered_at": "2026-07-16T01:19:55.182936"
     },
     {
       "seed_a": "Liquid Networks",
@@ -102,18 +117,7 @@
         "with"
       ],
       "strength": 2,
-      "discovered_at": "2026-07-15T22:45:43.741915"
-    },
-    {
-      "seed_a": "Spiking Neural Networks",
-      "seed_b": "Few-Shot Learning",
-      "shared_keywords": [],
-      "shared_paper_concepts": [
-        "detection",
-        "efficient"
-      ],
-      "strength": 2,
-      "discovered_at": "2026-07-15T22:45:43.741925"
+      "discovered_at": "2026-07-16T01:19:55.182943"
     }
   ],
   "total_seeds": 10

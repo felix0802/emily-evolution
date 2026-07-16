@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 54,
+  "_rotation_idx": 55,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 18,
@@ -636,8 +636,8 @@
   },
   "non-transformer": {
     "name": "Non-Transformer Arch",
-    "total_papers_found": 5,
-    "watering_count": 8,
+    "total_papers_found": 6,
+    "watering_count": 9,
     "history": [
       {
         "timestamp": "2026-07-07T10:14:36.288723",
@@ -735,6 +735,23 @@
         "avg_relevance": 0.0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-07-16T01:19:47.672875",
+        "papers_found": 1,
+        "duplicates": 6,
+        "irrelevant_filtered": 3,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "TSSM: Triaxial State Space Model for Global Station Weather Forecasting with Temporal-Variable-Historical Modeling",
+            "summary": "Global Station Weather Forecasting (GSWF) is pivotal for localized and extreme weather prediction over key regions. Despite efforts to exploit look-back windows, existing methods show limited accuracy gains and struggle with extreme events and error accumulation. These limitations stem from overreli",
+            "published": "2026-07-14",
+            "url": "http://arxiv.org/abs/2607.13101v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -747,7 +764,7 @@
       "sub-quadratic",
       "mamba"
     ],
-    "last_watered": "2026-07-15T05:33:26.592574"
+    "last_watered": "2026-07-16T01:19:47.672869"
   },
   "few-shot": {
     "name": "Few-Shot Learning",

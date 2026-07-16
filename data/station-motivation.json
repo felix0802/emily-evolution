@@ -1,0 +1,122 @@
+{
+  "rounds": [
+    {
+      "round": 160,
+      "timestamp": "2026-07-16T01:19:47.676641",
+      "prediction_error": 0.5,
+      "seeds_active": 10,
+      "seeds_dormant": 0,
+      "new_seeds_added": 0,
+      "top_motivated": [
+        [
+          "moe",
+          0.65
+        ],
+        [
+          "kv-cache",
+          0.65
+        ],
+        [
+          "gnn",
+          0.607
+        ]
+      ]
+    }
+  ],
+  "seed_scores": {
+    "mamba": {
+      "name": "Mamba (SSM)",
+      "info_gain": 0.1,
+      "novelty": 1.0,
+      "motivation_score": 0.49,
+      "info_gain_history": [
+        0.1
+      ]
+    },
+    "liquid-networks": {
+      "name": "Liquid Networks",
+      "info_gain": 0.1,
+      "novelty": 1.0,
+      "motivation_score": 0.49,
+      "info_gain_history": [
+        0.1
+      ]
+    },
+    "htm": {
+      "name": "HTM",
+      "info_gain": 0.1,
+      "novelty": 1.0,
+      "motivation_score": 0.49,
+      "info_gain_history": [
+        0.1
+      ]
+    },
+    "spiking-nn": {
+      "name": "Spiking Neural Networks",
+      "info_gain": 0.1,
+      "novelty": 1.0,
+      "motivation_score": 0.49,
+      "info_gain_history": [
+        0.1
+      ]
+    },
+    "non-transformer": {
+      "name": "Non-Transformer Arch",
+      "info_gain": 0.1,
+      "novelty": 1.0,
+      "motivation_score": 0.49,
+      "info_gain_history": [
+        0.1
+      ]
+    },
+    "few-shot": {
+      "name": "Few-Shot Learning",
+      "info_gain": 0.1,
+      "novelty": 1.0,
+      "motivation_score": 0.49,
+      "info_gain_history": [
+        0.1
+      ]
+    },
+    "continual-learning": {
+      "name": "Continual Learning",
+      "info_gain": 0.1,
+      "novelty": 1.0,
+      "motivation_score": 0.49,
+      "info_gain_history": [
+        0.1
+      ]
+    },
+    "moe": {
+      "name": "Mixture of Experts",
+      "info_gain": 0.5,
+      "novelty": 1.0,
+      "motivation_score": 0.65,
+      "info_gain_history": [
+        0.5
+      ]
+    },
+    "kv-cache": {
+      "name": "KV Cache Optimization",
+      "info_gain": 0.5,
+      "novelty": 1.0,
+      "motivation_score": 0.65,
+      "info_gain_history": [
+        0.5
+      ]
+    },
+    "gnn": {
+      "name": "Graph Neural Networks",
+      "info_gain": 0.5,
+      "novelty": 0.857,
+      "motivation_score": 0.607,
+      "info_gain_history": [
+        0.5
+      ]
+    }
+  },
+  "auto_created_seeds": [],
+  "dormant_seeds": [],
+  "total_motivation_evaluations": 1,
+  "current_prediction_error": 0.5
+}
