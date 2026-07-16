@@ -1,37 +1,6 @@
 {
   "sessions": [
     {
-      "timestamp": "2026-07-02T20:23:25.724845",
-      "arxiv_papers_count": 20,
-      "arxiv_top_keywords": [
-        "llm",
-        "learning",
-        "theoria",
-        "verification",
-        "offer",
-        "cannot",
-        "state",
-        "prediction",
-        "separation",
-        "hypothesis"
-      ],
-      "huggingface_models_tracked": 10,
-      "huggingface_top_tasks": [
-        "sentence-similarity",
-        "fill-mask",
-        "text-ranking",
-        "feature-extraction",
-        "unknown"
-      ],
-      "ml_benchmarks_run": 10,
-      "ml_top_classifier": "RandomForest",
-      "evolution": {
-        "techniques_discovered": 0,
-        "techniques_adopted": 0,
-        "decisions": 0
-      }
-    },
-    {
       "timestamp": "2026-07-02T20:45:43.233723",
       "arxiv_papers_count": 20,
       "arxiv_top_keywords": [
@@ -3840,10 +3809,52 @@
         "seed_name": "Mixture of Experts",
         "papers_found": 9
       }
+    },
+    {
+      "timestamp": "2026-07-16T11:25:20.472936",
+      "arxiv_papers_count": 18,
+      "arxiv_top_keywords": [
+        "linear",
+        "attention",
+        "state",
+        "language",
+        "data",
+        "memory",
+        "neural",
+        "geometric",
+        "deep",
+        "learning"
+      ],
+      "arxiv_strategies": [
+        "搜索: multi-query attention",
+        "搜索: geometric deep learning",
+        "搜索: knowledge distillation"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "fill-mask",
+        "text-generation",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [],
+      "ml_total_tests": 0,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 23,
+        "adopted": 0,
+        "decisions": 0
+      },
+      "seed_watering": {
+        "seed_name": "KV Cache Optimization",
+        "papers_found": 7
+      }
     }
   ],
   "total_sessions": 101,
-  "last_updated": "2026-07-16T09:53:02.775535",
+  "last_updated": "2026-07-16T11:25:20.472957",
   "evolution_summary": {
     "total_adopted": 40,
     "adopted_list": [
@@ -3931,7 +3942,7 @@
       },
       "kv-cache": {
         "name": "KV Cache Optimization",
-        "watering": 2,
+        "watering": 3,
         "papers": 2
       },
       "gnn": {
@@ -4052,10 +4063,10 @@
           "kv cache"
         ],
         "high_relevance_total": 0,
-        "avg_relevance_latest": 1.0,
+        "avg_relevance_latest": 0.0,
         "best_papers_count": 0
       }
     },
-    "last_evolution": "2026-07-16T09:53:02.776017"
+    "last_evolution": "2026-07-16T11:25:20.474101"
   }
 }

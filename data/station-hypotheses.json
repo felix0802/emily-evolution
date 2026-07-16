@@ -92,8 +92,8 @@
       "reasoning": "Liquid Networks 基於常微分方程（ODE）提供連續時間建模，適合處理動態系統；HTM 則透過稀疏分佈表示（SDR）與時序記憶（TM）模擬新皮質的序列學習。兩者共享架構與控制概念，可將 Liquid Networks 的連續狀態空間模型嵌入 HTM 的稀疏編碼層，利用 ODE 的穩定性理論增強 HTM 對時間模式的泛化能力。",
       "arxiv_query": "Liquid Networks HTM anomaly detection continuous time sparse coding",
       "potential_breakthrough": "實現一個能同時處理高維時序數據與非平穩變化的輕量級神經架構，顯著提升工業監控與邊緣設備上的即時異常檢測準確率。",
-      "status": "unverified",
-      "verification_rounds": 2,
+      "status": "inconclusive",
+      "verification_rounds": 3,
       "supporting_papers": [],
       "refuting_papers": [],
       "llm_source": "deepseek"
@@ -144,7 +144,7 @@
       "llm_source": "deepseek"
     }
   ],
-  "last_updated": "2026-07-16T09:53:06.268292",
+  "last_updated": "2026-07-16T11:25:24.431262",
   "total_generated": 6,
-  "total_verified": 3
+  "total_verified": 4
 }
