@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 61,
+  "_rotation_idx": 62,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 18,
@@ -172,8 +172,8 @@
   },
   "liquid-networks": {
     "name": "Liquid Networks",
-    "total_papers_found": 20,
-    "watering_count": 9,
+    "total_papers_found": 21,
+    "watering_count": 10,
     "history": [
       {
         "timestamp": "2026-07-06T21:47:31.917958",
@@ -335,6 +335,23 @@
         "avg_relevance": 0.0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-07-16T18:52:44.326673",
+        "papers_found": 1,
+        "duplicates": 7,
+        "irrelevant_filtered": 2,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "Visual Place Recognition Using Rate-Encoded Spiking Neural Networks with Discrete STDP Learning",
+            "summary": "Spiking Neural Networks (SNNs) trained through unsupervised Spike-Timing-Dependent Plasticity (STDP) have been explored as solutions to visual loop closure problems, driven by the prospect of efficient on-device inference on neuromorphic devices. State-of-the-art STDP-based models deliver high class",
+            "published": "2026-07-15",
+            "url": "http://arxiv.org/abs/2607.13584v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -344,7 +361,7 @@
       "ode",
       "continuous-time"
     ],
-    "last_watered": "2026-07-15T18:51:19.218838"
+    "last_watered": "2026-07-16T18:52:44.326668"
   },
   "htm": {
     "name": "HTM",
