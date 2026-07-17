@@ -8512,7 +8512,43 @@
         "zero"
       ],
       "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.14647v1",
+      "title": "D-cut: Adaptive Verification Depth Pruning for Batched Speculative Decoding",
+      "arxiv_id": "2607.14647",
+      "tokens": [
+        "adaptive",
+        "batched",
+        "cut",
+        "decoding",
+        "depth",
+        "pruning",
+        "speculative",
+        "verification"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.14431v1",
+      "title": "Smarter and Cheaper at Once: Byte-Exact KV-Cache Grafting Turns a Frozen Small Model into a Verified-Knowledge Flywheel",
+      "arxiv_id": "2607.14431",
+      "tokens": [
+        "byte",
+        "cache",
+        "cheaper",
+        "exact",
+        "flywheel",
+        "frozen",
+        "grafting",
+        "knowledge",
+        "once",
+        "smarter",
+        "turns",
+        "verified"
+      ],
+      "first_seen_round": 165
     }
   ],
-  "total_unique": 534
+  "total_unique": 536
 }

@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 68,
+  "_rotation_idx": 69,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 18,
@@ -1248,8 +1248,8 @@
   },
   "kv-cache": {
     "name": "KV Cache Optimization",
-    "total_papers_found": 2,
-    "watering_count": 4,
+    "total_papers_found": 4,
+    "watering_count": 5,
     "history": [
       {
         "timestamp": "2026-07-15T11:19:09.355556",
@@ -1283,6 +1283,30 @@
         "avg_relevance": 0.0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-07-17T11:12:25.412170",
+        "papers_found": 2,
+        "duplicates": 4,
+        "irrelevant_filtered": 4,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "D-cut: Adaptive Verification Depth Pruning for Batched Speculative Decoding",
+            "summary": "Speculative decoding accelerates large language model (LLM) inference without compromising output quality. Recent parallel drafting methods further improve single-request performance by decoupling draft length from drafting latency, enabling longer drafts and higher mean accepted tokens (MAT). Howev",
+            "published": "2026-07-16",
+            "url": "http://arxiv.org/abs/2607.14647v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Smarter and Cheaper at Once: Byte-Exact KV-Cache Grafting Turns a Frozen Small Model into a Verified-Knowledge Flywheel",
+            "summary": "We report a way to make a frozen small language model both more capable and dramatically cheaper at once, without changing any weights. Verified knowledge is deposited once as a byte-exact key-value (KV) state artifact and later restored, by graft, into a fresh inference context. The restore is bit-",
+            "published": "2026-07-15",
+            "url": "http://arxiv.org/abs/2607.14431v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -1294,7 +1318,7 @@
       "flash attention",
       "speculative decoding"
     ],
-    "last_watered": "2026-07-16T13:13:04.882790"
+    "last_watered": "2026-07-17T11:12:25.412166"
   },
   "gnn": {
     "name": "Graph Neural Networks",
