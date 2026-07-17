@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 71,
+  "_rotation_idx": 72,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 20,
@@ -196,8 +196,8 @@
   },
   "liquid-networks": {
     "name": "Liquid Networks",
-    "total_papers_found": 21,
-    "watering_count": 10,
+    "total_papers_found": 26,
+    "watering_count": 11,
     "history": [
       {
         "timestamp": "2026-07-06T21:47:31.917958",
@@ -376,6 +376,37 @@
             "seed_match_score": 1
           }
         ]
+      },
+      {
+        "timestamp": "2026-07-17T16:56:46.142990",
+        "papers_found": 5,
+        "duplicates": 5,
+        "irrelevant_filtered": 0,
+        "avg_relevance": 1.2,
+        "high_relevance": 1,
+        "papers": [
+          {
+            "title": "Optimal Self-Distillation for Rectified Flow via Linear Probing",
+            "summary": "Modern generative models are increasingly trained using model-generated signals, creating both opportunities for self-improvement and risks of collapse. We study optimal self-distillation (SD) for rectified flow (RF): given a suboptimal teacher velocity field, can a student trained on a mixture of t",
+            "published": "2026-07-16",
+            "url": "http://arxiv.org/abs/2607.14947v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "GAttNHP: Group Attention Neural Hawkes Process for Extrapolation Reasoning in Temporal Knowledge Graphs",
+            "summary": "Temporal Knowledge Graphs (TKGs) record how facts evolve over time, but forecasting future events on a TKG remains difficult for three reasons: (i) long-range temporal dependencies are hard to encode; (ii) events on different chains mutually excite or inhibit one another in ways that snapshot-level ",
+            "published": "2026-07-16",
+            "url": "http://arxiv.org/abs/2607.14733v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Scalable Training of Continuous-Time Spiking Neural Networks with Differentiable Spike-Time Discretization",
+            "summary": "Continuous-time spiking neural networks (SNNs) provide an event-driven framework for temporal computation, computational neuroscience, and neuromorphic hardware. However, training deep continuous-time SNNs is severely constrained by the memory required for exact spike-time computation, which evaluat",
+            "published": "2026-07-16",
+            "url": "http://arxiv.org/abs/2607.14672v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -385,7 +416,7 @@
       "ode",
       "continuous-time"
     ],
-    "last_watered": "2026-07-16T18:52:44.326668"
+    "last_watered": "2026-07-17T16:56:46.142986"
   },
   "htm": {
     "name": "HTM",

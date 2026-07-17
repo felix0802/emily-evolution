@@ -8624,7 +8624,90 @@
         "visual"
       ],
       "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.14947v1",
+      "title": "Optimal Self-Distillation for Rectified Flow via Linear Probing",
+      "arxiv_id": "2607.14947",
+      "tokens": [
+        "distillation",
+        "flow",
+        "linear",
+        "optimal",
+        "probing",
+        "rectified",
+        "self"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.14733v1",
+      "title": "GAttNHP: Group Attention Neural Hawkes Process for Extrapolation Reasoning in Temporal Knowledge Graphs",
+      "arxiv_id": "2607.14733",
+      "tokens": [
+        "attention",
+        "extrapolation",
+        "gattnhp",
+        "graphs",
+        "group",
+        "hawkes",
+        "knowledge",
+        "neural",
+        "process",
+        "reasoning",
+        "temporal"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.14672v1",
+      "title": "Scalable Training of Continuous-Time Spiking Neural Networks with Differentiable Spike-Time Discretization",
+      "arxiv_id": "2607.14672",
+      "tokens": [
+        "continuous",
+        "differentiable",
+        "discretization",
+        "neural",
+        "scalable",
+        "spike",
+        "spiking",
+        "time",
+        "time",
+        "training"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.14522v1",
+      "title": "A Continuous-Time Reinforcement Learning Framework for Fine-Tuning Discrete Diffusion Models",
+      "arxiv_id": "2607.14522",
+      "tokens": [
+        "continuous",
+        "diffusion",
+        "discrete",
+        "fine",
+        "reinforcement",
+        "time",
+        "tuning"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.14361v1",
+      "title": "NeuralChaos: Optimal Adapted Approximation of Square Integrable Predictable Processes",
+      "arxiv_id": "2607.14361",
+      "tokens": [
+        "adapted",
+        "approximation",
+        "integrable",
+        "neuralchaos",
+        "optimal",
+        "predictable",
+        "processes",
+        "square"
+      ],
+      "first_seen_round": 165
     }
   ],
-  "total_unique": 541
+  "total_unique": 546
 }
