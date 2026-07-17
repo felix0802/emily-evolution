@@ -8548,7 +8548,55 @@
         "verified"
       ],
       "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.14705v1",
+      "title": "Grad2Fair: A Gradient-driven Approach for Graph Fairness without Demographics",
+      "arxiv_id": "2607.14705",
+      "tokens": [
+        "demographics",
+        "driven",
+        "fairness",
+        "grad2fair",
+        "gradient",
+        "graph"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.14416v1",
+      "title": "CausalGraphX: A Counterfactual Graph Neural Network Framework for Explainable Systemic Risk Assessment",
+      "arxiv_id": "2607.14416",
+      "tokens": [
+        "assessment",
+        "causalgraphx",
+        "counterfactual",
+        "explainable",
+        "graph",
+        "neural",
+        "risk",
+        "systemic"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.14314v1",
+      "title": "NeuroGRIP: Retrieval-Augmented Graph Refinement for Knowledge-Grounded EEG Seizure Diagnosis",
+      "arxiv_id": "2607.14314",
+      "tokens": [
+        "augmented",
+        "diagnosis",
+        "eeg",
+        "graph",
+        "grounded",
+        "knowledge",
+        "neurogrip",
+        "refinement",
+        "retrieval",
+        "seizure"
+      ],
+      "first_seen_round": 165
     }
   ],
-  "total_unique": 536
+  "total_unique": 539
 }
