@@ -1,9 +1,9 @@
 {
-  "_rotation_idx": 70,
+  "_rotation_idx": 71,
   "mamba": {
     "name": "Mamba (SSM)",
-    "total_papers_found": 18,
-    "watering_count": 10,
+    "total_papers_found": 20,
+    "watering_count": 11,
     "history": [
       {
         "timestamp": "2026-07-06T21:46:12.361778",
@@ -160,6 +160,30 @@
         "avg_relevance": 0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-07-17T15:04:27.643050",
+        "papers_found": 2,
+        "duplicates": 7,
+        "irrelevant_filtered": 1,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "VideoSEMA: a scalable and efficient Mamba-like attention for video understanding",
+            "summary": "We present for video understanding (classification) a split space-time attention model, VideoSEMA, consisting of a scalable and efficient Mamba-like attention (SEMA) block in space and a softmax temporal attention in time. In each frame, SEMA attention applies a local window attention in parallel wi",
+            "published": "2026-07-16",
+            "url": "http://arxiv.org/abs/2607.14711v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "A Hybrid Mamba for Audio-Visual Navigation",
+            "summary": "Since the paradigm centered on convolutional neural networks and recurrent architectures was established in 2020, the fundamental backbone networks for audio-visual navigation have undergone no essential changes for more than five years, making them inadequate to support efficient representation of ",
+            "published": "2026-07-14",
+            "url": "http://arxiv.org/abs/2607.13110v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -168,7 +192,7 @@
       "ssm",
       "selective scan"
     ],
-    "last_watered": "2026-07-16T17:06:04.375313"
+    "last_watered": "2026-07-17T15:04:27.643045"
   },
   "liquid-networks": {
     "name": "Liquid Networks",

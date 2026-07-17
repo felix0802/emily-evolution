@@ -8596,7 +8596,35 @@
         "seizure"
       ],
       "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.14711v1",
+      "title": "VideoSEMA: a scalable and efficient Mamba-like attention for video understanding",
+      "arxiv_id": "2607.14711",
+      "tokens": [
+        "attention",
+        "like",
+        "mamba",
+        "scalable",
+        "understanding",
+        "video",
+        "videosema"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.13110v1",
+      "title": "A Hybrid Mamba for Audio-Visual Navigation",
+      "arxiv_id": "2607.13110",
+      "tokens": [
+        "audio",
+        "hybrid",
+        "mamba",
+        "navigation",
+        "visual"
+      ],
+      "first_seen_round": 165
     }
   ],
-  "total_unique": 539
+  "total_unique": 541
 }
