@@ -167,18 +167,19 @@
   },
   "continual-learning": {
     "name": "Continual Learning",
-    "total_new_papers": 12,
-    "total_watering": 4,
+    "total_new_papers": 14,
+    "total_watering": 5,
     "all_keywords_matched": [
-      "continual learning",
       "catastrophic forgetting",
+      "continual learning",
       "lifelong"
     ],
     "avg_relevance_trend": [
       1.0,
       3.0,
       1.0,
-      1.33
+      1.33,
+      1.0
     ],
     "high_relevance_total": 3,
     "best_papers": [
@@ -188,7 +189,7 @@
         "published": "2026-07-06"
       }
     ],
-    "last_updated": "2026-07-16T07:51:44.475993"
+    "last_updated": "2026-07-17T07:49:02.930177"
   },
   "gnn": {
     "name": "Graph Neural Networks",

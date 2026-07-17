@@ -8482,7 +8482,37 @@
         "time"
       ],
       "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.15094v1",
+      "title": "AlphaWiSE: Adaptive Weight Interpolation for Continual Multimodal Representation Learning",
+      "arxiv_id": "2607.15094",
+      "tokens": [
+        "adaptive",
+        "alphawise",
+        "continual",
+        "interpolation",
+        "multimodal",
+        "representation",
+        "weight"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.14571v1",
+      "title": "Gate-Zero Growth: A Geometric Framework for Function-Preserving Continual Learning",
+      "arxiv_id": "2607.14571",
+      "tokens": [
+        "continual",
+        "function",
+        "gate",
+        "geometric",
+        "growth",
+        "preserving",
+        "zero"
+      ],
+      "first_seen_round": 165
     }
   ],
-  "total_unique": 532
+  "total_unique": 534
 }
