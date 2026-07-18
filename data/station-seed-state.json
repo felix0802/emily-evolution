@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 77,
+  "_rotation_idx": 78,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 20,
@@ -1275,7 +1275,7 @@
   "moe": {
     "name": "Mixture of Experts",
     "total_papers_found": 4,
-    "watering_count": 4,
+    "watering_count": 5,
     "history": [
       {
         "timestamp": "2026-07-15T09:46:58.985365",
@@ -1333,6 +1333,15 @@
         "avg_relevance": 0.0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-07-18T07:23:41.064247",
+        "papers_found": 0,
+        "duplicates": 6,
+        "irrelevant_filtered": 4,
+        "avg_relevance": 0.0,
+        "high_relevance": 0,
+        "papers": []
       }
     ],
     "keywords": [
@@ -1344,7 +1353,7 @@
       "switch transformer",
       "deepseek"
     ],
-    "last_watered": "2026-07-17T09:43:51.691451"
+    "last_watered": "2026-07-18T07:23:41.064235"
   },
   "kv-cache": {
     "name": "KV Cache Optimization",
