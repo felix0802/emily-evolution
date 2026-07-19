@@ -229,7 +229,7 @@
   "moe": {
     "name": "Mixture of Experts",
     "total_new_papers": 4,
-    "total_watering": 4,
+    "total_watering": 5,
     "all_keywords_matched": [
       "moe",
       "expert routing"
@@ -238,11 +238,12 @@
       1.67,
       1.0,
       0.0,
+      0.0,
       0.0
     ],
     "high_relevance_total": 2,
     "best_papers": [],
-    "last_updated": "2026-07-18T07:23:41.063765"
+    "last_updated": "2026-07-19T04:58:03.382387"
   },
   "kv-cache": {
     "name": "KV Cache Optimization",
