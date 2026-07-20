@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 97,
+  "_rotation_idx": 98,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 20,
@@ -1400,8 +1400,8 @@
   },
   "moe": {
     "name": "Mixture of Experts",
-    "total_papers_found": 4,
-    "watering_count": 6,
+    "total_papers_found": 7,
+    "watering_count": 7,
     "history": [
       {
         "timestamp": "2026-07-15T09:46:58.985365",
@@ -1477,6 +1477,37 @@
         "avg_relevance": 0.0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-07-20T01:24:39.351147",
+        "papers_found": 3,
+        "duplicates": 4,
+        "irrelevant_filtered": 3,
+        "avg_relevance": 2.0,
+        "high_relevance": 3,
+        "papers": [
+          {
+            "title": "PagedWeight: Efficient MoE LLM Serving with Dynamic Quality-Aware Weight Quantization",
+            "summary": "Mixture-of-Experts (MoE) is a popular class of large language models (LLMs), offering high efficiency and accuracy. However, in KV-cache-intensive serving scenarios, MoEs often exhibit a tension between the GPU memory requirements of the model weights and the growing KV cache. We propose PagedWeight",
+            "published": "2026-07-17",
+            "url": "http://arxiv.org/abs/2607.16184v1",
+            "seed_match_score": 2
+          },
+          {
+            "title": "Loop the Loopies!",
+            "summary": "We present Loopie, the most powerful looped Transformer to date. The Loopie series consists of two Mixture-of-Experts (MoE) models: a 20B-parameter model with 2B active parameters and a 6Bparameter model with 0.6B active parameters. Looped Transformers have long faced a challenge: given an N-fold in",
+            "published": "2026-07-17",
+            "url": "http://arxiv.org/abs/2607.16051v1",
+            "seed_match_score": 2
+          },
+          {
+            "title": "QUADS: Stabilizing NVFP4 Reinforcement Learning for MoE via QUantization-error Alignment across Dual Sides",
+            "summary": "Rollout generation is a major bottleneck in Reinforcement Learning (RL) for Mixture-of-Experts (MoE) Large Language Models, motivating low-precision rollout acceleration such as FP8. As an emerging low-precision format, NVFP4 combines fine-grained scaling for accuracy preservation with native W4A4 F",
+            "published": "2026-07-17",
+            "url": "http://arxiv.org/abs/2607.15810v1",
+            "seed_match_score": 2
+          }
+        ]
       }
     ],
     "keywords": [
@@ -1488,7 +1519,7 @@
       "switch transformer",
       "deepseek"
     ],
-    "last_watered": "2026-07-19T04:58:03.382783"
+    "last_watered": "2026-07-20T01:24:39.351141"
   },
   "kv-cache": {
     "name": "KV Cache Optimization",
