@@ -9082,7 +9082,55 @@
         "view"
       ],
       "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.15799v1",
+      "title": "Knowledge-Assisted Multi-Graph Dependency Learning for Multivariate Time Series Anomaly Detection in Multi-Stage Industrial Processes",
+      "arxiv_id": "2607.15799",
+      "tokens": [
+        "anomaly",
+        "assisted",
+        "dependency",
+        "detection",
+        "graph",
+        "industrial",
+        "knowledge",
+        "multi",
+        "multi",
+        "multivariate",
+        "processes",
+        "series",
+        "stage",
+        "time"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.15389v1",
+      "title": "Improving Network Anomaly Detection via Choquet-Integral-Based Feature Aggregation",
+      "arxiv_id": "2607.15389",
+      "tokens": [
+        "aggregation",
+        "anomaly",
+        "choquet",
+        "detection",
+        "feature",
+        "improving",
+        "integral"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.15379v1",
+      "title": "On the Impact of Entropy-based Features",
+      "arxiv_id": "2607.15379",
+      "tokens": [
+        "entropy",
+        "features",
+        "impact"
+      ],
+      "first_seen_round": 165
     }
   ],
-  "total_unique": 570
+  "total_unique": 573
 }
