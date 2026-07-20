@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 98,
+  "_rotation_idx": 99,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 20,
@@ -1523,8 +1523,8 @@
   },
   "kv-cache": {
     "name": "KV Cache Optimization",
-    "total_papers_found": 4,
-    "watering_count": 7,
+    "total_papers_found": 5,
+    "watering_count": 8,
     "history": [
       {
         "timestamp": "2026-07-15T11:19:09.355556",
@@ -1600,6 +1600,23 @@
         "avg_relevance": 0.0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-07-20T05:26:38.595152",
+        "papers_found": 1,
+        "duplicates": 5,
+        "irrelevant_filtered": 4,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "VarRate: Training-Free Variable-Rate KV Cache Compression for Long-Context LLMs",
+            "summary": "The key-value (KV) cache is the main memory bottleneck in long-context large language model (LLM) inference. Two leading training-free families are both structurally limited: token-selection methods (SnapKV, Ada-KV) score importance from an observation window and evict low-scoring tokens, but evicti",
+            "published": "2026-07-16",
+            "url": "http://arxiv.org/abs/2607.15498v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -1611,7 +1628,7 @@
       "flash attention",
       "speculative decoding"
     ],
-    "last_watered": "2026-07-19T07:54:40.308958"
+    "last_watered": "2026-07-20T05:26:38.595146"
   },
   "gnn": {
     "name": "Graph Neural Networks",
