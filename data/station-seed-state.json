@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 99,
+  "_rotation_idx": 100,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 20,
@@ -1632,8 +1632,8 @@
   },
   "gnn": {
     "name": "Graph Neural Networks",
-    "total_papers_found": 3,
-    "watering_count": 8,
+    "total_papers_found": 4,
+    "watering_count": 9,
     "history": [
       {
         "timestamp": "2026-07-15T15:16:02.082257",
@@ -1701,6 +1701,23 @@
         "avg_relevance": 0.0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-07-20T08:33:56.827111",
+        "papers_found": 1,
+        "duplicates": 4,
+        "irrelevant_filtered": 5,
+        "avg_relevance": 2.0,
+        "high_relevance": 1,
+        "papers": [
+          {
+            "title": "From Diffusion to Reaction-Diffusion: A Dynamical-Systems View of Oversmoothing in Hypergraph Neural Networks",
+            "summary": "Higher-order couplings enhance the expressive power of hypergraph neural networks (HGNNs), but they also intensify representation collapse in deep propagation due to strong multi-way feature mixing. This work investigates hypergraph oversmoothing from a dynamical-systems perspective and develops a r",
+            "published": "2026-07-17",
+            "url": "http://arxiv.org/abs/2607.15773v1",
+            "seed_match_score": 2
+          }
+        ]
       }
     ],
     "keywords": [
@@ -1712,6 +1729,6 @@
       "node embedding",
       "graph transformer"
     ],
-    "last_watered": "2026-07-19T09:41:59.616969"
+    "last_watered": "2026-07-20T08:33:56.827105"
   }
 }
