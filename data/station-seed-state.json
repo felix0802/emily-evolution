@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 111,
+  "_rotation_idx": 112,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 22,
@@ -247,8 +247,8 @@
   },
   "liquid-networks": {
     "name": "Liquid Networks",
-    "total_papers_found": 26,
-    "watering_count": 14,
+    "total_papers_found": 27,
+    "watering_count": 15,
     "history": [
       {
         "timestamp": "2026-07-06T21:47:31.917958",
@@ -485,6 +485,23 @@
         "avg_relevance": 0.0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-07-21T15:27:59.456737",
+        "papers_found": 1,
+        "duplicates": 9,
+        "irrelevant_filtered": 0,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "DynImmune-BERT: Dynamic Immune Repertoire Modeling with Neural ODE Driven Continuous Transformers",
+            "summary": "Longitudinal T cell receptor repertoires contain signals of clonal expansion, contraction, disappearance, and reappearance after immune perturbation. Static repertoire language models usually summarize a sample as a bag of sequences, so the sampling interval, sequencing depth, and clone presence pat",
+            "published": "2026-07-19",
+            "url": "http://arxiv.org/abs/2607.17244v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -494,7 +511,7 @@
       "ode",
       "continuous-time"
     ],
-    "last_watered": "2026-07-20T15:42:52.612929"
+    "last_watered": "2026-07-21T15:27:59.456733"
   },
   "htm": {
     "name": "HTM",

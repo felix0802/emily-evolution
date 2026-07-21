@@ -9995,7 +9995,26 @@
         "state"
       ],
       "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.17244v1",
+      "title": "DynImmune-BERT: Dynamic Immune Repertoire Modeling with Neural ODE Driven Continuous Transformers",
+      "arxiv_id": "2607.17244",
+      "tokens": [
+        "bert",
+        "continuous",
+        "driven",
+        "dynamic",
+        "dynimmune",
+        "immune",
+        "modeling",
+        "neural",
+        "ode",
+        "repertoire",
+        "transformers"
+      ],
+      "first_seen_round": 165
     }
   ],
-  "total_unique": 627
+  "total_unique": 628
 }
