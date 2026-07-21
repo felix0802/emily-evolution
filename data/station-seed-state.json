@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 114,
+  "_rotation_idx": 115,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 22,
@@ -972,8 +972,8 @@
   },
   "non-transformer": {
     "name": "Non-Transformer Arch",
-    "total_papers_found": 6,
-    "watering_count": 14,
+    "total_papers_found": 7,
+    "watering_count": 15,
     "history": [
       {
         "timestamp": "2026-07-07T10:14:36.288723",
@@ -1133,6 +1133,23 @@
         "avg_relevance": 0.0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-07-21T20:56:25.756724",
+        "papers_found": 1,
+        "duplicates": 8,
+        "irrelevant_filtered": 1,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "Kernelized Linear Attention: Breaking the Capacity Wall with Symmetric Cones",
+            "summary": "Linear attention promises constant-time recurrent inference but degrades sharply on associative recall. We formulate attention recall as a spherical-packing problem and introduce Kernelized Linear Attention Activations (KATA), a framework whose feature maps are derived from first principles by certi",
+            "published": "2026-07-19",
+            "url": "http://arxiv.org/abs/2607.17419v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -1145,7 +1162,7 @@
       "sub-quadratic",
       "mamba"
     ],
-    "last_watered": "2026-07-20T20:58:05.205920"
+    "last_watered": "2026-07-21T20:56:25.756719"
   },
   "few-shot": {
     "name": "Few-Shot Learning",
