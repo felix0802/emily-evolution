@@ -10014,7 +10014,38 @@
         "transformers"
       ],
       "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.18127v1",
+      "title": "ClouDens: Operational Context-Aware Anomaly Detection for Large-scale Cloud System Monitoring",
+      "arxiv_id": "2607.18127",
+      "tokens": [
+        "anomaly",
+        "aware",
+        "cloud",
+        "cloudens",
+        "context",
+        "detection",
+        "monitoring",
+        "operational",
+        "scale"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.16811v1",
+      "title": "Interpretable Anomaly and Drift Detection with Gaussian Mixture Models",
+      "arxiv_id": "2607.16811",
+      "tokens": [
+        "anomaly",
+        "detection",
+        "drift",
+        "gaussian",
+        "interpretable",
+        "mixture"
+      ],
+      "first_seen_round": 165
     }
   ],
-  "total_unique": 628
+  "total_unique": 630
 }

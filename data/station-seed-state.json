@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 112,
+  "_rotation_idx": 113,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 22,
@@ -515,8 +515,8 @@
   },
   "htm": {
     "name": "HTM",
-    "total_papers_found": 15,
-    "watering_count": 14,
+    "total_papers_found": 17,
+    "watering_count": 15,
     "history": [
       {
         "timestamp": "2026-07-07T08:08:03.935545",
@@ -716,6 +716,30 @@
             "seed_match_score": 1
           }
         ]
+      },
+      {
+        "timestamp": "2026-07-21T17:05:07.291145",
+        "papers_found": 2,
+        "duplicates": 3,
+        "irrelevant_filtered": 5,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "ClouDens: Operational Context-Aware Anomaly Detection for Large-scale Cloud System Monitoring",
+            "summary": "With the rapid growth of cloud computing infrastructures in scale and complexity, network monitoring for Large-scale Cloud Systems (LCSs) has become increasingly challenging, requiring automated and reliable anomaly detection to maintain service availability. Modern LCSs continuously generate teleme",
+            "published": "2026-07-20",
+            "url": "http://arxiv.org/abs/2607.18127v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Interpretable Anomaly and Drift Detection with Gaussian Mixture Models",
+            "summary": "We revisit Gaussian Mixture Models (GMMs) as a lightweight, interpretable tool for anomaly detection and, in particular, for detecting distributional drift in data streams. We make three practical choices explicit and evaluate them on seven public benchmarks. First, the number of mixture components ",
+            "published": "2026-07-18",
+            "url": "http://arxiv.org/abs/2607.16811v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -730,7 +754,7 @@
       "anomaly detection",
       "continuous learning"
     ],
-    "last_watered": "2026-07-20T17:14:55.547490"
+    "last_watered": "2026-07-21T17:05:07.291140"
   },
   "spiking-nn": {
     "name": "Spiking Neural Networks",

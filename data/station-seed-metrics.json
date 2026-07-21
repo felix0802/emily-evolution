@@ -144,13 +144,13 @@
   },
   "htm": {
     "name": "HTM",
-    "total_new_papers": 10,
-    "total_watering": 13,
+    "total_new_papers": 12,
+    "total_watering": 14,
     "all_keywords_matched": [
       "hierarchical temporal",
       "predictive coding",
-      "anomaly detection",
-      "sparse distributed"
+      "sparse distributed",
+      "anomaly detection"
     ],
     "avg_relevance_trend": [
       1.0,
@@ -165,11 +165,12 @@
       0.0,
       0.0,
       0.0,
+      1.0,
       1.0
     ],
     "high_relevance_total": 0,
     "best_papers": [],
-    "last_updated": "2026-07-20T17:14:55.547170"
+    "last_updated": "2026-07-21T17:05:07.290749"
   },
   "non-transformer": {
     "name": "Non-Transformer Arch",
