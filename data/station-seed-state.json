@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 109,
+  "_rotation_idx": 110,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 20,
@@ -1794,8 +1794,8 @@
   },
   "gnn": {
     "name": "Graph Neural Networks",
-    "total_papers_found": 4,
-    "watering_count": 9,
+    "total_papers_found": 10,
+    "watering_count": 10,
     "history": [
       {
         "timestamp": "2026-07-15T15:16:02.082257",
@@ -1880,6 +1880,37 @@
             "seed_match_score": 2
           }
         ]
+      },
+      {
+        "timestamp": "2026-07-21T11:40:28.663360",
+        "papers_found": 6,
+        "duplicates": 0,
+        "irrelevant_filtered": 4,
+        "avg_relevance": 1.67,
+        "high_relevance": 4,
+        "papers": [
+          {
+            "title": "Sobek: Streaming Equivariant Tensor Product Convolutions",
+            "summary": "Equivariant graph neural networks repeatedly apply edge-conditioned tensor-product convolutions over graph edges. Conventional implementations materialize edge-specific weights, messages, and adjoints, causing tensor-product workspace and memory traffic to grow rapidly with graph size and operator w",
+            "published": "2026-07-20",
+            "url": "http://arxiv.org/abs/2607.18074v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "A Weisfeiler-Leman Characterization of Global-Attention Graph Transformers for Mixed-Integer Linear Programs",
+            "summary": "Graph foundation models (GFMs) with global attention are increasingly used to represent mixed-integer linear programs (MILPs), aiming to capture structure beyond the locality of standard graph neural networks. We study their expressive power through graph isomorphism testing, asking which MILP insta",
+            "published": "2026-07-20",
+            "url": "http://arxiv.org/abs/2607.17570v1",
+            "seed_match_score": 2
+          },
+          {
+            "title": "Taurus: Accelerating Out-of-Core Graph Neural Network Inference on Billion-Scale Graphs",
+            "summary": "Graph Neural Network (GNN) inference on billion-scale graphs is challenging due to the large memory footprint of features and embeddings and high disk I/O costs in out-of-core settings. Existing distributed GNN systems incur high communication times and infrastructure costs, while disk-based GNN sys",
+            "published": "2026-07-19",
+            "url": "http://arxiv.org/abs/2607.17374v1",
+            "seed_match_score": 2
+          }
+        ]
       }
     ],
     "keywords": [
@@ -1891,6 +1922,6 @@
       "node embedding",
       "graph transformer"
     ],
-    "last_watered": "2026-07-20T08:33:56.827105"
+    "last_watered": "2026-07-21T11:40:28.663354"
   }
 }

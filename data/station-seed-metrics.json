@@ -228,9 +228,11 @@
   },
   "gnn": {
     "name": "Graph Neural Networks",
-    "total_new_papers": 4,
-    "total_watering": 9,
+    "total_new_papers": 10,
+    "total_watering": 10,
     "all_keywords_matched": [
+      "message passing",
+      "graph transformer",
       "gnn",
       "graph neural"
     ],
@@ -243,11 +245,12 @@
       1.67,
       0.0,
       0.0,
-      2.0
+      2.0,
+      1.67
     ],
-    "high_relevance_total": 3,
+    "high_relevance_total": 7,
     "best_papers": [],
-    "last_updated": "2026-07-20T08:33:56.826714"
+    "last_updated": "2026-07-21T11:40:28.662911"
   },
   "moe": {
     "name": "Mixture of Experts",

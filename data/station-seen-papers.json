@@ -9870,7 +9870,108 @@
         "speculative"
       ],
       "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.18074v1",
+      "title": "Sobek: Streaming Equivariant Tensor Product Convolutions",
+      "arxiv_id": "2607.18074",
+      "tokens": [
+        "convolutions",
+        "equivariant",
+        "product",
+        "sobek",
+        "streaming",
+        "tensor"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.17570v1",
+      "title": "A Weisfeiler-Leman Characterization of Global-Attention Graph Transformers for Mixed-Integer Linear Programs",
+      "arxiv_id": "2607.17570",
+      "tokens": [
+        "attention",
+        "characterization",
+        "global",
+        "graph",
+        "integer",
+        "leman",
+        "linear",
+        "mixed",
+        "programs",
+        "transformers",
+        "weisfeiler"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.17374v1",
+      "title": "Taurus: Accelerating Out-of-Core Graph Neural Network Inference on Billion-Scale Graphs",
+      "arxiv_id": "2607.17374",
+      "tokens": [
+        "accelerating",
+        "billion",
+        "core",
+        "graph",
+        "graphs",
+        "inference",
+        "neural",
+        "scale",
+        "taurus"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.17288v1",
+      "title": "SAGA: Synthetic Agentic Graph Architecture for Temporal Benchmark Generation",
+      "arxiv_id": "2607.17288",
+      "tokens": [
+        "agentic",
+        "architecture",
+        "benchmark",
+        "generation",
+        "graph",
+        "saga",
+        "synthetic",
+        "temporal"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.16769v1",
+      "title": "On the Potential of Graph Neural Networks as Metamodels for Supply Chain Optimization: Dataset, Architectures, and Directions",
+      "arxiv_id": "2607.16769",
+      "tokens": [
+        "architectures",
+        "chain",
+        "dataset",
+        "directions",
+        "graph",
+        "metamodels",
+        "neural",
+        "optimization",
+        "potential",
+        "supply"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.16676v1",
+      "title": "The Value of Depth in Message Passing on Sparse Graphs: A Kesten-Stigum Dichotomy",
+      "arxiv_id": "2607.16676",
+      "tokens": [
+        "depth",
+        "dichotomy",
+        "graphs",
+        "kesten",
+        "message",
+        "passing",
+        "sparse",
+        "stigum",
+        "value"
+      ],
+      "first_seen_round": 165
     }
   ],
-  "total_unique": 619
+  "total_unique": 625
 }
