@@ -10061,7 +10061,40 @@
         "wall"
       ],
       "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.17508v1",
+      "title": "Retrieval-Augmented Interpretable Learning: Towards Task-Specific Zero-Shot Models in Healthcare",
+      "arxiv_id": "2607.17508",
+      "tokens": [
+        "augmented",
+        "healthcare",
+        "interpretable",
+        "retrieval",
+        "shot",
+        "specific",
+        "task",
+        "zero"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.17467v1",
+      "title": "DA-MergeLoRA: Hypernetwork-Based LoRA Merging for Few-Shot Test-Time Domain Adaptation",
+      "arxiv_id": "2607.17467",
+      "tokens": [
+        "adaptation",
+        "domain",
+        "hypernetwork",
+        "lora",
+        "mergelora",
+        "merging",
+        "shot",
+        "test",
+        "time"
+      ],
+      "first_seen_round": 165
     }
   ],
-  "total_unique": 631
+  "total_unique": 633
 }
