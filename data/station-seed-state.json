@@ -1,9 +1,9 @@
 {
-  "_rotation_idx": 110,
+  "_rotation_idx": 111,
   "mamba": {
     "name": "Mamba (SSM)",
-    "total_papers_found": 20,
-    "watering_count": 14,
+    "total_papers_found": 22,
+    "watering_count": 15,
     "history": [
       {
         "timestamp": "2026-07-06T21:46:12.361778",
@@ -211,6 +211,30 @@
         "avg_relevance": 0.0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-07-21T13:10:27.561699",
+        "papers_found": 2,
+        "duplicates": 6,
+        "irrelevant_filtered": 2,
+        "avg_relevance": 2.0,
+        "high_relevance": 1,
+        "papers": [
+          {
+            "title": "Adaptive Mamba Neural Operators",
+            "summary": "Accurately solving partial differential equations (PDEs) on arbitrary geometries and a variety of meshes is an important task in science and engineering applications. In this paper, we propose Adaptive Mamba Neural Operators (AMO), which integrates reproducing kernels for state-space models (SSMs) r",
+            "published": "2026-07-20",
+            "url": "http://arxiv.org/abs/2607.18043v1",
+            "seed_match_score": 3
+          },
+          {
+            "title": "Online learning of neural state-space models",
+            "summary": "Recent advances in deep-learning-based nonlinear system identification have led to encoder-based estimation of neural state-space (ANN-SS) models that achieve state-of-the-art performance in offline settings by estimating initial model states from past input-output data. These methods are typically ",
+            "published": "2026-07-20",
+            "url": "http://arxiv.org/abs/2607.17614v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -219,7 +243,7 @@
       "ssm",
       "selective scan"
     ],
-    "last_watered": "2026-07-20T12:07:33.017939"
+    "last_watered": "2026-07-21T13:10:27.561694"
   },
   "liquid-networks": {
     "name": "Liquid Networks",
