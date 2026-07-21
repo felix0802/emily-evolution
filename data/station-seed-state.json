@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 106,
+  "_rotation_idx": 107,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 20,
@@ -1265,8 +1265,8 @@
   },
   "continual-learning": {
     "name": "Continual Learning",
-    "total_papers_found": 19,
-    "watering_count": 11,
+    "total_papers_found": 21,
+    "watering_count": 12,
     "history": [
       {
         "timestamp": "2026-07-07T13:06:50.870963",
@@ -1463,6 +1463,30 @@
         "avg_relevance": 0.0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-07-21T01:20:56.989422",
+        "papers_found": 2,
+        "duplicates": 4,
+        "irrelevant_filtered": 4,
+        "avg_relevance": 2.5,
+        "high_relevance": 1,
+        "papers": [
+          {
+            "title": "Rethinking Quantum Continual Learning with Quantum Fisher Information",
+            "summary": "Quantum continual learning aims to train quantum models on sequential tasks without losing previously learned knowledge. However, variational quantum classifiers (VQCs) are prone to catastrophic forgetting under nonstationary task distributions. We propose quantum elastic weight consolidation (QEWC)",
+            "published": "2026-07-17",
+            "url": "http://arxiv.org/abs/2607.16030v1",
+            "seed_match_score": 4
+          },
+          {
+            "title": "Rethinking Transfer in Continual Learning: A Replay-Based Realisation",
+            "summary": "Continual learning studies how deployed language models can continually acquire new tasks without expensive retraining from scratch. Existing methods, whether rehearsal-based (replaying stored past data) or rehearsal-free (regularising or isolating parameters), overwhelmingly target one objective: p",
+            "published": "2026-07-17",
+            "url": "http://arxiv.org/abs/2607.15587v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -1472,7 +1496,7 @@
       "ewc",
       "elastic weight"
     ],
-    "last_watered": "2026-07-19T22:39:01.535822"
+    "last_watered": "2026-07-21T01:20:56.989417"
   },
   "moe": {
     "name": "Mixture of Experts",

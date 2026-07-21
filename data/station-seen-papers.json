@@ -9130,7 +9130,287 @@
         "impact"
       ],
       "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.17269v1",
+      "title": "An Explicit World Model Based on Data-First Ontology: DaoQL Multimodal Storage Validation and Counterfactual Reasoning Evaluation",
+      "arxiv_id": "2607.17269",
+      "tokens": [
+        "counterfactual",
+        "daoql",
+        "evaluation",
+        "explicit",
+        "multimodal",
+        "ontology",
+        "reasoning",
+        "storage",
+        "validation",
+        "world"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.17266v1",
+      "title": "Debate-on-Graph: Reliable and Adaptive Reasoning of Large Language Model on Uncertain Knowledge Graph",
+      "arxiv_id": "2607.17266",
+      "tokens": [
+        "adaptive",
+        "debate",
+        "graph",
+        "graph",
+        "knowledge",
+        "language",
+        "reasoning",
+        "reliable",
+        "uncertain"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.17264v1",
+      "title": "Coordinated Disentanglement with Iterative Mode Discovery Under Hidden Correlations",
+      "arxiv_id": "2607.17264",
+      "tokens": [
+        "coordinated",
+        "correlations",
+        "discovery",
+        "disentanglement",
+        "hidden",
+        "iterative",
+        "mode"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.17257v1",
+      "title": "Asynchronous Multimodal Diffusion Policy Composition via Latency-Aware Guidance Fusion",
+      "arxiv_id": "2607.17257",
+      "tokens": [
+        "asynchronous",
+        "aware",
+        "composition",
+        "diffusion",
+        "fusion",
+        "guidance",
+        "latency",
+        "multimodal",
+        "policy"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.17247v1",
+      "title": "Distilled Reinforcement Learning for LLM Post-training",
+      "arxiv_id": "2607.17247",
+      "tokens": [
+        "distilled",
+        "llm",
+        "post",
+        "reinforcement",
+        "training"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.17243v1",
+      "title": "LenGuard-GPC: Length Guarding with Guided-Prompt Consistency for Spatial Reasoning Reinforce Learning",
+      "arxiv_id": "2607.17243",
+      "tokens": [
+        "consistency",
+        "gpc",
+        "guarding",
+        "guided",
+        "length",
+        "lenguard",
+        "prompt",
+        "reasoning",
+        "reinforce",
+        "spatial"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.17242v1",
+      "title": "A Large-Scale Measurement of AI Bill of Materials Completeness in Hugging Face Models",
+      "arxiv_id": "2607.17242",
+      "tokens": [
+        "bill",
+        "completeness",
+        "face",
+        "hugging",
+        "materials",
+        "measurement",
+        "scale"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.17240v1",
+      "title": "Constrained Path Reasoning: Measuring When Committed Stages Earn Their Cost",
+      "arxiv_id": "2607.17240",
+      "tokens": [
+        "committed",
+        "constrained",
+        "cost",
+        "earn",
+        "measuring",
+        "path",
+        "reasoning",
+        "stages"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.17270v1",
+      "title": "Safety That Does Not Transfer: Cross-Lingual Clinical Correctness Drift in Deployable Medical Language Models",
+      "arxiv_id": "2607.17270",
+      "tokens": [
+        "clinical",
+        "correctness",
+        "cross",
+        "deployable",
+        "drift",
+        "language",
+        "lingual",
+        "medical",
+        "safety",
+        "transfer"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.17262v1",
+      "title": "Should Missing Modalities Always Be Necessary to Repair for Multi-modal Sentiment Analysis?",
+      "arxiv_id": "2607.17262",
+      "tokens": [
+        "always",
+        "missing",
+        "modal",
+        "modalities",
+        "multi",
+        "necessary",
+        "repair",
+        "sentiment"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.17250v1",
+      "title": "EvolvingWorld: An Open-Schema Framework for Co-Evolving Role-Play Agents and World Model in Interactive Literary World",
+      "arxiv_id": "2607.17250",
+      "tokens": [
+        "agents",
+        "evolving",
+        "evolvingworld",
+        "interactive",
+        "literary",
+        "open",
+        "play",
+        "role",
+        "schema",
+        "world",
+        "world"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.17237v1",
+      "title": "AI_LectureNote: A Retrospective Pilot Study of a Post-ASR Workflow for English-Script Rendering and Semantic Drift in Korean-English Medical Lectures",
+      "arxiv_id": "2607.17237",
+      "tokens": [
+        "asr",
+        "drift",
+        "english",
+        "english",
+        "korean",
+        "lecturenote",
+        "lectures",
+        "medical",
+        "pilot",
+        "post",
+        "rendering",
+        "retrospective",
+        "script",
+        "semantic",
+        "workflow"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.17230v1",
+      "title": "Robust Summarization of Doctor-Patient Conversations: TalTech Systems for the Beyond Transcription Challenge",
+      "arxiv_id": "2607.17230",
+      "tokens": [
+        "challenge",
+        "conversations",
+        "doctor",
+        "patient",
+        "robust",
+        "summarization",
+        "taltech",
+        "transcription"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.17228v1",
+      "title": "Literary Non-Style in LLM-Generated Text",
+      "arxiv_id": "2607.17228",
+      "tokens": [
+        "generated",
+        "literary",
+        "llm",
+        "non",
+        "style",
+        "text"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.17219v1",
+      "title": "Auditing Question-Order Effects in Large Language Models with the QQ Equality: Mechanism Characterization and a Saturation Caveat",
+      "arxiv_id": "2607.17219",
+      "tokens": [
+        "auditing",
+        "caveat",
+        "characterization",
+        "effects",
+        "equality",
+        "language",
+        "mechanism",
+        "order",
+        "question",
+        "saturation"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.16030v1",
+      "title": "Rethinking Quantum Continual Learning with Quantum Fisher Information",
+      "arxiv_id": "2607.16030",
+      "tokens": [
+        "continual",
+        "fisher",
+        "information",
+        "quantum",
+        "quantum",
+        "rethinking"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.15587v1",
+      "title": "Rethinking Transfer in Continual Learning: A Replay-Based Realisation",
+      "arxiv_id": "2607.15587",
+      "tokens": [
+        "continual",
+        "realisation",
+        "replay",
+        "rethinking",
+        "transfer"
+      ],
+      "first_seen_round": 165
     }
   ],
-  "total_unique": 573
+  "total_unique": 590
 }
