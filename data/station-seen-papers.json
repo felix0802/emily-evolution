@@ -9795,7 +9795,82 @@
         "selection"
       ],
       "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.17715v1",
+      "title": "C$^2$KV: Compressed and Composable KV Cache Reuse for Efficient LLM Inference",
+      "arxiv_id": "2607.17715",
+      "tokens": [
+        "cache",
+        "composable",
+        "compressed",
+        "inference",
+        "llm",
+        "reuse"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.17486v1",
+      "title": "SALT: Salience-Aware Lexical Trie for Long-Context Compression",
+      "arxiv_id": "2607.17486",
+      "tokens": [
+        "aware",
+        "compression",
+        "context",
+        "lexical",
+        "long",
+        "salience",
+        "salt",
+        "trie"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.17283v1",
+      "title": "Lossless but Not Free: An Empirical Anatomy of Speculative Decoding on Consumer Hardware",
+      "arxiv_id": "2607.17283",
+      "tokens": [
+        "anatomy",
+        "consumer",
+        "decoding",
+        "empirical",
+        "free",
+        "hardware",
+        "lossless",
+        "speculative"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.17019v1",
+      "title": "Regularize or Localize: When Training-Time KV-Cache Geometry Pays Under Quantization",
+      "arxiv_id": "2607.17019",
+      "tokens": [
+        "cache",
+        "geometry",
+        "localize",
+        "pays",
+        "quantization",
+        "regularize",
+        "time",
+        "training"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.16673v1",
+      "title": "SpecLA: Efficient Speculative Decoding for Linear-Attention Models",
+      "arxiv_id": "2607.16673",
+      "tokens": [
+        "attention",
+        "decoding",
+        "linear",
+        "specla",
+        "speculative"
+      ],
+      "first_seen_round": 165
     }
   ],
-  "total_unique": 614
+  "total_unique": 619
 }

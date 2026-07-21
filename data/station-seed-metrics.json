@@ -279,8 +279,8 @@
   },
   "kv-cache": {
     "name": "KV Cache Optimization",
-    "total_new_papers": 5,
-    "total_watering": 7,
+    "total_new_papers": 10,
+    "total_watering": 8,
     "all_keywords_matched": [
       "kv cache",
       "speculative decoding"
@@ -292,10 +292,11 @@
       1.0,
       0.0,
       0.0,
-      1.0
+      1.0,
+      1.2
     ],
-    "high_relevance_total": 0,
+    "high_relevance_total": 1,
     "best_papers": [],
-    "last_updated": "2026-07-20T05:26:38.594736"
+    "last_updated": "2026-07-21T08:03:55.726668"
   }
 }
