@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 107,
+  "_rotation_idx": 108,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 20,
@@ -1500,8 +1500,8 @@
   },
   "moe": {
     "name": "Mixture of Experts",
-    "total_papers_found": 7,
-    "watering_count": 7,
+    "total_papers_found": 10,
+    "watering_count": 8,
     "history": [
       {
         "timestamp": "2026-07-15T09:46:58.985365",
@@ -1608,6 +1608,37 @@
             "seed_match_score": 2
           }
         ]
+      },
+      {
+        "timestamp": "2026-07-21T04:55:53.169708",
+        "papers_found": 3,
+        "duplicates": 4,
+        "irrelevant_filtered": 3,
+        "avg_relevance": 2.33,
+        "high_relevance": 3,
+        "papers": [
+          {
+            "title": "OrderMoE: An expert similarity driven distributed edge MoE inference",
+            "summary": "Although mixture-of-experts, MoE, models have been increasingly adopted to scale large language models with moderate computation cost, it remains challenging to deploy MoE inference over resource-constrained and bandwidth-limited edge infrastructures. Existing distributed MoE serving methods mainly ",
+            "published": "2026-07-19",
+            "url": "http://arxiv.org/abs/2607.17154v1",
+            "seed_match_score": 2
+          },
+          {
+            "title": "Half the Experts, All the Code: One-Shot Domain Pruning of Mixture-of-Experts LLMs for Coding",
+            "summary": "The strongest open-weight coding models are mixture-of-experts (MoE) networks: most of their size comes from large pools of \"expert\" subnetworks, of which only a few act on any token. That pool is why these models do not fit on the machines most developers own, yet for a user who only wants coding h",
+            "published": "2026-07-18",
+            "url": "http://arxiv.org/abs/2607.16721v1",
+            "seed_match_score": 2
+          },
+          {
+            "title": "Multi-level context Modeling for consistent expert selection in Mixture-of-Experts",
+            "summary": "Mixture-of-Experts (MoE) enables efficient scaling of Transformer models by routing tokens to a small subset of experts. However, existing routers typically condition expert selection on shallow or isolated token representations, which often produce unstable and semantically inconsistent routing dec",
+            "published": "2026-07-17",
+            "url": "http://arxiv.org/abs/2607.16427v1",
+            "seed_match_score": 3
+          }
+        ]
       }
     ],
     "keywords": [
@@ -1619,7 +1650,7 @@
       "switch transformer",
       "deepseek"
     ],
-    "last_watered": "2026-07-20T01:24:39.351141"
+    "last_watered": "2026-07-21T04:55:53.169703"
   },
   "kv-cache": {
     "name": "KV Cache Optimization",
