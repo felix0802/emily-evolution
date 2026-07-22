@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 123,
+  "_rotation_idx": 124,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 26,
@@ -829,8 +829,8 @@
   },
   "spiking-nn": {
     "name": "Spiking Neural Networks",
-    "total_papers_found": 14,
-    "watering_count": 14,
+    "total_papers_found": 15,
+    "watering_count": 15,
     "history": [
       {
         "timestamp": "2026-07-07T08:54:38.442223",
@@ -1031,6 +1031,23 @@
         "avg_relevance": 0.0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-07-22T18:53:50.103748",
+        "papers_found": 1,
+        "duplicates": 8,
+        "irrelevant_filtered": 1,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "Spiking Neural Networks for fMRI-Based Visual Semantic Decoding",
+            "summary": "Functional magnetic resonance imaging (fMRI)-based visual decoding aims to recover visual information from measured brain activity, commonly by mapping fMRI responses into latent visual features for downstream decoding tasks. Most existing methods learn mappings from fMRI responses to visual feature",
+            "published": "2026-07-21",
+            "url": "http://arxiv.org/abs/2607.19170v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -1039,7 +1056,7 @@
       "neuromorphic",
       "spike-timing"
     ],
-    "last_watered": "2026-07-21T19:00:29.867339"
+    "last_watered": "2026-07-22T18:53:50.103743"
   },
   "non-transformer": {
     "name": "Non-Transformer Arch",
