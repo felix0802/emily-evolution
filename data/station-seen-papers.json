@@ -10427,7 +10427,23 @@
         "trust"
       ],
       "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.19223v1",
+      "title": "AdaFlash: Adaptive Speculative Decoding via On-Policy Distilled Diffusion Drafters",
+      "arxiv_id": "2607.19223",
+      "tokens": [
+        "adaflash",
+        "adaptive",
+        "decoding",
+        "diffusion",
+        "distilled",
+        "drafters",
+        "policy",
+        "speculative"
+      ],
+      "first_seen_round": 165
     }
   ],
-  "total_unique": 654
+  "total_unique": 655
 }
