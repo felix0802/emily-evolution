@@ -267,12 +267,12 @@
   },
   "moe": {
     "name": "Mixture of Experts",
-    "total_new_papers": 10,
-    "total_watering": 7,
+    "total_new_papers": 12,
+    "total_watering": 8,
     "all_keywords_matched": [
-      "moe",
       "router",
-      "expert routing"
+      "expert routing",
+      "moe"
     ],
     "avg_relevance_trend": [
       1.67,
@@ -281,9 +281,10 @@
       0.0,
       0.0,
       2.0,
-      2.33
+      2.33,
+      1.5
     ],
-    "high_relevance_total": 8,
+    "high_relevance_total": 9,
     "best_papers": [
       {
         "title": "Multi-level context Modeling for consistent expert selection in Mixture-of-Experts",
@@ -291,7 +292,7 @@
         "published": "2026-07-17"
       }
     ],
-    "last_updated": "2026-07-21T04:55:53.169265"
+    "last_updated": "2026-07-22T04:55:20.796750"
   },
   "kv-cache": {
     "name": "KV Cache Optimization",

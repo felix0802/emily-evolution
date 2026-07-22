@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 117,
+  "_rotation_idx": 118,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 22,
@@ -1632,8 +1632,8 @@
   },
   "moe": {
     "name": "Mixture of Experts",
-    "total_papers_found": 10,
-    "watering_count": 8,
+    "total_papers_found": 12,
+    "watering_count": 9,
     "history": [
       {
         "timestamp": "2026-07-15T09:46:58.985365",
@@ -1771,6 +1771,30 @@
             "seed_match_score": 3
           }
         ]
+      },
+      {
+        "timestamp": "2026-07-22T04:55:20.797189",
+        "papers_found": 2,
+        "duplicates": 6,
+        "irrelevant_filtered": 2,
+        "avg_relevance": 1.5,
+        "high_relevance": 1,
+        "papers": [
+          {
+            "title": "Where Should Optimizer State Live? Tiered State Allocation for Memory-Efficient Mixture-of-Experts Training",
+            "summary": "Optimizer state is the largest single line item in the memory budget of mixture-of-experts (MoE) training: on a 6.78B-parameter MoE language model, AdamW keeps 50.6 GB of first and second moments to update 12.6 GB of bfloat16 weights. We study SkewAdam, an optimizer built on the observation that the",
+            "published": "2026-07-21",
+            "url": "http://arxiv.org/abs/2607.19058v1",
+            "seed_match_score": 2
+          },
+          {
+            "title": "Stale but Stable: Staleness-Adaptive Trust Regions for Stabilizing Asynchronous Reinforcement Learning",
+            "summary": "Asynchronous reinforcement learning improves throughput by decoupling rollout generation from optimization, but staleness is an inevitable byproduct compounded by policy lag, engine delays, and mixture-of-experts routing. From a trust-region perspective, this mismatch is critical: training-inference",
+            "published": "2026-07-21",
+            "url": "http://arxiv.org/abs/2607.18722v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -1782,7 +1806,7 @@
       "switch transformer",
       "deepseek"
     ],
-    "last_watered": "2026-07-21T04:55:53.169703"
+    "last_watered": "2026-07-22T04:55:20.797185"
   },
   "kv-cache": {
     "name": "KV Cache Optimization",
