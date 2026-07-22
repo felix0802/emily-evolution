@@ -203,13 +203,13 @@
   },
   "continual-learning": {
     "name": "Continual Learning",
-    "total_new_papers": 16,
-    "total_watering": 9,
+    "total_new_papers": 17,
+    "total_watering": 10,
     "all_keywords_matched": [
-      "ewc",
+      "continual learning",
       "lifelong",
       "elastic weight",
-      "continual learning",
+      "ewc",
       "catastrophic forgetting"
     ],
     "avg_relevance_trend": [
@@ -221,7 +221,8 @@
       0.0,
       0.0,
       0.0,
-      2.5
+      2.5,
+      1.0
     ],
     "high_relevance_total": 4,
     "best_papers": [
@@ -236,7 +237,7 @@
         "published": "2026-07-06"
       }
     ],
-    "last_updated": "2026-07-21T01:20:56.989053"
+    "last_updated": "2026-07-22T01:19:42.265539"
   },
   "gnn": {
     "name": "Graph Neural Networks",

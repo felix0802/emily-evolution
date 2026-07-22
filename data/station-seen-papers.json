@@ -10094,7 +10094,24 @@
         "time"
       ],
       "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.17632v1",
+      "title": "TypiCore: A Hybrid Active Query Strategy for Class-Incremental Learning on Time Series",
+      "arxiv_id": "2607.17632",
+      "tokens": [
+        "active",
+        "class",
+        "hybrid",
+        "incremental",
+        "query",
+        "series",
+        "strategy",
+        "time",
+        "typicore"
+      ],
+      "first_seen_round": 165
     }
   ],
-  "total_unique": 633
+  "total_unique": 634
 }
