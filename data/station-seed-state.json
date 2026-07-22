@@ -1,9 +1,9 @@
 {
-  "_rotation_idx": 120,
+  "_rotation_idx": 121,
   "mamba": {
     "name": "Mamba (SSM)",
-    "total_papers_found": 22,
-    "watering_count": 15,
+    "total_papers_found": 26,
+    "watering_count": 16,
     "history": [
       {
         "timestamp": "2026-07-06T21:46:12.361778",
@@ -235,6 +235,37 @@
             "seed_match_score": 1
           }
         ]
+      },
+      {
+        "timestamp": "2026-07-22T13:16:12.181495",
+        "papers_found": 4,
+        "duplicates": 3,
+        "irrelevant_filtered": 3,
+        "avg_relevance": 1.5,
+        "high_relevance": 1,
+        "papers": [
+          {
+            "title": "Incomplete Observations Boost Evolutionary Performance in Ocean Modeling",
+            "summary": "Data-driven methods have revolutionized ocean modeling, yet current approaches rely heavily on complete reanalysis datasets, imposing computational constraints and limiting model performance to that of the training data. Here, we present a generative state-space model and an optimization framework t",
+            "published": "2026-07-21",
+            "url": "http://arxiv.org/abs/2607.19147v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Black-Mamba: Biologically-Inspired Leaky Accumulation for Conceptual Knowledge under Distribution Drift",
+            "summary": "Forecasting under real-world conditions is inherently non-stationary, as the conditional distribution of future observations evolves over time. Recent test-time adaptive sequence models address this challenge by updating internal states during inference, but tie adaptation to instantaneous predictio",
+            "published": "2026-07-21",
+            "url": "http://arxiv.org/abs/2607.18899v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Norm or Direction? Decoding Vision Mambas for High-Resolution Vision",
+            "summary": "Vision Mamba models replace quadratic self-attention with linear complexity selective state space models (SSMs), emerging as efficient visual backbones. However, MambaOut demonstrates that a Gated CNN block can match or exceed VMamba on image classification, questioning the necessity of SSMs for vis",
+            "published": "2026-07-21",
+            "url": "http://arxiv.org/abs/2607.18625v1",
+            "seed_match_score": 3
+          }
+        ]
       }
     ],
     "keywords": [
@@ -243,7 +274,7 @@
       "ssm",
       "selective scan"
     ],
-    "last_watered": "2026-07-21T13:10:27.561694"
+    "last_watered": "2026-07-22T13:16:12.181490"
   },
   "liquid-networks": {
     "name": "Liquid Networks",
