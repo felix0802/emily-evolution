@@ -10443,7 +10443,124 @@
         "speculative"
       ],
       "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.19270v1",
+      "title": "GUIDED Network-Agnostic Feature Initialization for Spatial Transferability in GNN-based Models",
+      "arxiv_id": "2607.19270",
+      "tokens": [
+        "agnostic",
+        "feature",
+        "gnn",
+        "guided",
+        "initialization",
+        "spatial",
+        "transferability"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.19253v1",
+      "title": "Sequential Learner Modeling Using Multi-Relational Graph Convolutional Networks",
+      "arxiv_id": "2607.19253",
+      "tokens": [
+        "convolutional",
+        "graph",
+        "learner",
+        "modeling",
+        "multi",
+        "relational",
+        "sequential"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.19083v1",
+      "title": "GEqTrain: A Configuration-Driven Framework for Retargeting Equivariant Graph Neural Networks Across 3D Scientific Tasks",
+      "arxiv_id": "2607.19083",
+      "tokens": [
+        "configuration",
+        "driven",
+        "equivariant",
+        "geqtrain",
+        "graph",
+        "neural",
+        "retargeting",
+        "scientific",
+        "tasks"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.18883v1",
+      "title": "RAMP: Recognition parametrisation by Amortised Message Passing",
+      "arxiv_id": "2607.18883",
+      "tokens": [
+        "amortised",
+        "message",
+        "parametrisation",
+        "passing",
+        "ramp",
+        "recognition"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.18632v1",
+      "title": "Graph Neural Network-based Algorithm Selection for the Traveling Salesman Problem: A Systematic Study of Cost and Rank Losses under Distinct Budget Regimes",
+      "arxiv_id": "2607.18632",
+      "tokens": [
+        "algorithm",
+        "budget",
+        "cost",
+        "distinct",
+        "graph",
+        "losses",
+        "neural",
+        "problem",
+        "rank",
+        "regimes",
+        "salesman",
+        "selection",
+        "systematic",
+        "traveling"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.18591v1",
+      "title": "GQD-AdsNet: Graph Neural Networks Unlock Rapid Exploration of Transition Metal Adsorption on Graphene Quantum Dots",
+      "arxiv_id": "2607.18591",
+      "tokens": [
+        "adsnet",
+        "adsorption",
+        "dots",
+        "exploration",
+        "gqd",
+        "graph",
+        "graphene",
+        "metal",
+        "neural",
+        "quantum",
+        "rapid",
+        "transition",
+        "unlock"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.18567v1",
+      "title": "Attacking Graph Foundation Models Through Their Shared Representation",
+      "arxiv_id": "2607.18567",
+      "tokens": [
+        "attacking",
+        "foundation",
+        "graph",
+        "representation",
+        "shared"
+      ],
+      "first_seen_round": 165
     }
   ],
-  "total_unique": 655
+  "total_unique": 662
 }
