@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 122,
+  "_rotation_idx": 123,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 26,
@@ -555,8 +555,8 @@
   },
   "htm": {
     "name": "HTM",
-    "total_papers_found": 17,
-    "watering_count": 15,
+    "total_papers_found": 20,
+    "watering_count": 16,
     "history": [
       {
         "timestamp": "2026-07-07T08:08:03.935545",
@@ -780,6 +780,37 @@
             "seed_match_score": 1
           }
         ]
+      },
+      {
+        "timestamp": "2026-07-22T17:05:11.735654",
+        "papers_found": 3,
+        "duplicates": 4,
+        "irrelevant_filtered": 3,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "OPD-IAD: From Language Judgment to Industrial Anomaly Detection via On-Policy Self-Distillation",
+            "summary": "Large vision-language models (LVLMs) have recently shown strong potential for industrial anomaly detection (IAD) by providing image-level anomaly judgments and interpretable defect reasoning. However, current LVLM-based IAD methods still struggle to produce precise pixel-level anomaly maps from gene",
+            "published": "2026-07-21",
+            "url": "http://arxiv.org/abs/2607.18850v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Adaptive Two-Stage Online Learning for Service-Affecting Failure Detection in Mobile Core Networks",
+            "summary": "Mobile network operators monitor aggregated traffic volumes to assess the operational health of core network infrastructure. Reliable failure detection is challenging due to strong temporal structure, non-stationarity, measurement artefacts, and extreme class imbalance, which limit static threshold-",
+            "published": "2026-07-20",
+            "url": "http://arxiv.org/abs/2607.18522v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Hybrid Latent-Structural Fusion (HLSF) for Cyber Anomaly Detection",
+            "summary": "Malicious anomalous activity detection is a fundamental challenge for cyber security systems. Both tensor decomposition under statistical framework with CANDECOMP-PARAFAC alternating Poisson regression (CP-APR) and normalizing flows have proven to be powerful unsupervised machine learning methods th",
+            "published": "2026-07-20",
+            "url": "http://arxiv.org/abs/2607.18479v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -794,7 +825,7 @@
       "anomaly detection",
       "continuous learning"
     ],
-    "last_watered": "2026-07-21T17:05:07.291140"
+    "last_watered": "2026-07-22T17:05:11.735650"
   },
   "spiking-nn": {
     "name": "Spiking Neural Networks",
