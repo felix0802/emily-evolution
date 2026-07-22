@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 125,
+  "_rotation_idx": 126,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 26,
@@ -1263,8 +1263,8 @@
   },
   "few-shot": {
     "name": "Few-Shot Learning",
-    "total_papers_found": 16,
-    "watering_count": 14,
+    "total_papers_found": 18,
+    "watering_count": 15,
     "history": [
       {
         "timestamp": "2026-07-07T13:04:52.717562",
@@ -1464,6 +1464,30 @@
             "seed_match_score": 1
           }
         ]
+      },
+      {
+        "timestamp": "2026-07-22T22:50:41.151405",
+        "papers_found": 2,
+        "duplicates": 4,
+        "irrelevant_filtered": 4,
+        "avg_relevance": 1.5,
+        "high_relevance": 1,
+        "papers": [
+          {
+            "title": "Variational meta-learning inference for low dimensional neural system identification",
+            "summary": "Deep learning has proven highly effective for nonlinear system identification, but heavily parameterized neural networks are prone to overfitting in low-data regimes and lack reliable uncertainty quantification. The recently developed manifold meta-learning framework addresses the data efficiency pr",
+            "published": "2026-07-21",
+            "url": "http://arxiv.org/abs/2607.18965v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "From Trajectories to Instructions: Language-Conditioned Meta-Reinforcement Learning",
+            "summary": "Model-Agnostic Meta-Learning (MAML) is a widely used framework for reinforcement learning (RL) that enables efficient transfer by learning global policy parameters that can be rapidly adapted to new tasks. MAML training proceeds in two loops: an inner loop where the global parameters are adapted to ",
+            "published": "2026-07-21",
+            "url": "http://arxiv.org/abs/2607.18830v1",
+            "seed_match_score": 2
+          }
+        ]
       }
     ],
     "keywords": [
@@ -1473,7 +1497,7 @@
       "prototypical",
       "in-context"
     ],
-    "last_watered": "2026-07-21T22:43:03.383177"
+    "last_watered": "2026-07-22T22:50:41.151400"
   },
   "continual-learning": {
     "name": "Continual Learning",
