@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 129,
+  "_rotation_idx": 130,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 26,
@@ -2138,8 +2138,8 @@
   },
   "gnn": {
     "name": "Graph Neural Networks",
-    "total_papers_found": 17,
-    "watering_count": 11,
+    "total_papers_found": 19,
+    "watering_count": 12,
     "history": [
       {
         "timestamp": "2026-07-15T15:16:02.082257",
@@ -2286,6 +2286,30 @@
             "seed_match_score": 1
           }
         ]
+      },
+      {
+        "timestamp": "2026-07-23T11:44:23.334695",
+        "papers_found": 2,
+        "duplicates": 4,
+        "irrelevant_filtered": 4,
+        "avg_relevance": 1.5,
+        "high_relevance": 1,
+        "papers": [
+          {
+            "title": "Label-Free Finite-Volume-Residual Training of Attention Graph Neural Networks for Coupled Thermo-Fluid Fields",
+            "summary": "Neural surrogates are widely used in scientific machine learning for fast prediction of three-dimensional (3D) thermo-fluid fields. However, generating training data using conventional numerical solvers often incurs substantial computational and storage costs. We propose to train an attention graph ",
+            "published": "2026-07-22",
+            "url": "http://arxiv.org/abs/2607.20321v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "FedLSG: LLM-Enhanced Semantic Calibration for Federated Graph Backdoor Defense",
+            "summary": "Federated Graph Neural Networks (FedGNNs) are highly vulnerable to backdoor poisoning, yet existing defenses typically rely on rule-based approaches that lack semantic understanding, making them vulnerable to stealthy triggers and harmful to benign structures. To solve this, we present FedLSG, the f",
+            "published": "2026-07-22",
+            "url": "http://arxiv.org/abs/2607.19674v1",
+            "seed_match_score": 2
+          }
+        ]
       }
     ],
     "keywords": [
@@ -2297,6 +2321,6 @@
       "node embedding",
       "graph transformer"
     ],
-    "last_watered": "2026-07-22T11:40:49.781973"
+    "last_watered": "2026-07-23T11:44:23.334689"
   }
 }

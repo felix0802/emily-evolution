@@ -11143,7 +11143,45 @@
         "structured"
       ],
       "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.20321v1",
+      "title": "Label-Free Finite-Volume-Residual Training of Attention Graph Neural Networks for Coupled Thermo-Fluid Fields",
+      "arxiv_id": "2607.20321",
+      "tokens": [
+        "attention",
+        "coupled",
+        "fields",
+        "finite",
+        "fluid",
+        "free",
+        "graph",
+        "label",
+        "neural",
+        "residual",
+        "thermo",
+        "training",
+        "volume"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.19674v1",
+      "title": "FedLSG: LLM-Enhanced Semantic Calibration for Federated Graph Backdoor Defense",
+      "arxiv_id": "2607.19674",
+      "tokens": [
+        "backdoor",
+        "calibration",
+        "defense",
+        "enhanced",
+        "federated",
+        "fedlsg",
+        "graph",
+        "llm",
+        "semantic"
+      ],
+      "first_seen_round": 165
     }
   ],
-  "total_unique": 698
+  "total_unique": 700
 }
