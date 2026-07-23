@@ -10851,7 +10851,265 @@
         "trust"
       ],
       "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.20402v1",
+      "title": "SoftReason: A Fully Differentiable Neuro-Soft-Symbolic Deductive Reasoning Architecture over High-Dimensional Perceptual Data",
+      "arxiv_id": "2607.20402",
+      "tokens": [
+        "architecture",
+        "deductive",
+        "differentiable",
+        "dimensional",
+        "fully",
+        "high",
+        "neuro",
+        "perceptual",
+        "reasoning",
+        "soft",
+        "softreason",
+        "symbolic"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.20411v1",
+      "title": "Lipschitzian SLLNs for random functions",
+      "arxiv_id": "2607.20411",
+      "tokens": [
+        "functions",
+        "lipschitzian",
+        "random",
+        "sllns"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.20399v1",
+      "title": "Towards Miniature Humanoid Tele-Loco-Manipulation Using Virtual Reality and Reinforcement Learning",
+      "arxiv_id": "2607.20399",
+      "tokens": [
+        "humanoid",
+        "loco",
+        "manipulation",
+        "miniature",
+        "reality",
+        "reinforcement",
+        "tele",
+        "virtual"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.20378v1",
+      "title": "PG-KINN: A Physics-Informed Petrov-Galerkin Kolmogorov-Arnold Network for Solving Forward and Inverse PDEs",
+      "arxiv_id": "2607.20378",
+      "tokens": [
+        "arnold",
+        "forward",
+        "galerkin",
+        "informed",
+        "inverse",
+        "kinn",
+        "kolmogorov",
+        "pdes",
+        "petrov",
+        "physics",
+        "solving"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.20377v1",
+      "title": "Statevector-Referenced Geometry Survival of a Four-Qubit ZZ Quantum Kernel on IBM Quantum Hardware: A Fixed-Subset Diagnostic Across Three Execution Configurations",
+      "arxiv_id": "2607.20377",
+      "tokens": [
+        "configurations",
+        "diagnostic",
+        "execution",
+        "fixed",
+        "four",
+        "geometry",
+        "hardware",
+        "ibm",
+        "kernel",
+        "quantum",
+        "quantum",
+        "qubit",
+        "referenced",
+        "statevector",
+        "subset",
+        "survival"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.20374v1",
+      "title": "Online Variance Reduction for Domain Adaptation on Streaming Data",
+      "arxiv_id": "2607.20374",
+      "tokens": [
+        "adaptation",
+        "domain",
+        "online",
+        "reduction",
+        "streaming",
+        "variance"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.20367v1",
+      "title": "Variance-reduced Domain Adaptation using Paired Sampling",
+      "arxiv_id": "2607.20367",
+      "tokens": [
+        "adaptation",
+        "domain",
+        "paired",
+        "reduced",
+        "sampling",
+        "variance"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.20339v1",
+      "title": "Interval and fuzzy physics-augmented neural networks (iPANN and fPANN) for uncertainty quantification and propagation in constitutive modeling",
+      "arxiv_id": "2607.20339",
+      "tokens": [
+        "augmented",
+        "constitutive",
+        "fpann",
+        "fuzzy",
+        "interval",
+        "ipann",
+        "modeling",
+        "neural",
+        "physics",
+        "propagation",
+        "quantification",
+        "uncertainty"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.20323v1",
+      "title": "Multi-modal transformer for signal classification in nanopore blockade experiments",
+      "arxiv_id": "2607.20323",
+      "tokens": [
+        "blockade",
+        "classification",
+        "experiments",
+        "modal",
+        "multi",
+        "nanopore",
+        "signal",
+        "transformer"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.20410v1",
+      "title": "LKValues: Aligning Large Language Models with Sri Lankan Societal Values",
+      "arxiv_id": "2607.20410",
+      "tokens": [
+        "aligning",
+        "language",
+        "lankan",
+        "lkvalues",
+        "societal",
+        "sri",
+        "values"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.20372v1",
+      "title": "Notes to Self: Can LLMs Benefit from Experiential Abstractions?",
+      "arxiv_id": "2607.20372",
+      "tokens": [
+        "abstractions",
+        "benefit",
+        "experiential",
+        "llms",
+        "notes",
+        "self"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.20351v1",
+      "title": "Test-Time Training for Modality Order Consistency in Vision-Language Models",
+      "arxiv_id": "2607.20351",
+      "tokens": [
+        "consistency",
+        "language",
+        "modality",
+        "order",
+        "test",
+        "time",
+        "training",
+        "vision"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.20327v1",
+      "title": "PyroDash: Cost-Efficient Token-Level Small-Large Language Model Collaborative Inference",
+      "arxiv_id": "2607.20327",
+      "tokens": [
+        "collaborative",
+        "cost",
+        "inference",
+        "language",
+        "level",
+        "pyrodash",
+        "token"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.20301v1",
+      "title": "The Blessing of Dimensionality: How Near-Orthogonality in High-Dimensional Spaces Explains Temporal Portability",
+      "arxiv_id": "2607.20301",
+      "tokens": [
+        "blessing",
+        "dimensional",
+        "dimensionality",
+        "explains",
+        "high",
+        "near",
+        "orthogonality",
+        "portability",
+        "spaces",
+        "temporal"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.20286v1",
+      "title": "Sound Probabilistic Safety Bounds for Large Language Models",
+      "arxiv_id": "2607.20286",
+      "tokens": [
+        "bounds",
+        "language",
+        "probabilistic",
+        "safety",
+        "sound"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.20062v1",
+      "title": "Solar Open 2 Technical Report",
+      "arxiv_id": "2607.20062",
+      "tokens": [
+        "open",
+        "report",
+        "solar",
+        "technical"
+      ],
+      "first_seen_round": 165
     }
   ],
-  "total_unique": 680
+  "total_unique": 696
 }

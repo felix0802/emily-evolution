@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 127,
+  "_rotation_idx": 128,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 26,
@@ -1762,8 +1762,8 @@
   },
   "moe": {
     "name": "Mixture of Experts",
-    "total_papers_found": 12,
-    "watering_count": 9,
+    "total_papers_found": 13,
+    "watering_count": 10,
     "history": [
       {
         "timestamp": "2026-07-15T09:46:58.985365",
@@ -1925,6 +1925,23 @@
             "seed_match_score": 1
           }
         ]
+      },
+      {
+        "timestamp": "2026-07-23T05:12:25.472829",
+        "papers_found": 1,
+        "duplicates": 5,
+        "irrelevant_filtered": 4,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "Solar Open 2 Technical Report",
+            "summary": "We present Solar Open 2, a 250B-A15B Mixture-of-Experts language model built for long-horizon agentic tasks, scaled up from Solar Open 1 (Solar Open 100B). To hold entire agent trajectories in a single context, Solar Open 2 reaches a 1M-token window through a hybrid attention stack that interleaves ",
+            "published": "2026-07-22",
+            "url": "http://arxiv.org/abs/2607.20062v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -1936,7 +1953,7 @@
       "switch transformer",
       "deepseek"
     ],
-    "last_watered": "2026-07-22T04:55:20.797185"
+    "last_watered": "2026-07-23T05:12:25.472824"
   },
   "kv-cache": {
     "name": "KV Cache Optimization",
