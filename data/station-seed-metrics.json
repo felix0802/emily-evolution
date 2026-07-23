@@ -87,12 +87,12 @@
   },
   "mamba": {
     "name": "Mamba (SSM)",
-    "total_new_papers": 21,
-    "total_watering": 13,
+    "total_new_papers": 23,
+    "total_watering": 14,
     "all_keywords_matched": [
-      "state space",
       "mamba",
-      "ssm"
+      "ssm",
+      "state space"
     ],
     "avg_relevance_trend": [
       1.33,
@@ -107,9 +107,10 @@
       0.0,
       0.0,
       2.0,
+      1.5,
       1.5
     ],
-    "high_relevance_total": 6,
+    "high_relevance_total": 7,
     "best_papers": [
       {
         "title": "Adaptive Mamba Neural Operators",
@@ -122,7 +123,7 @@
         "published": "2026-07-21"
       }
     ],
-    "last_updated": "2026-07-22T13:16:12.181063"
+    "last_updated": "2026-07-23T13:20:42.834787"
   },
   "liquid-networks": {
     "name": "Liquid Networks",
