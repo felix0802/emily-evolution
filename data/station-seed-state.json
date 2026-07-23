@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 133,
+  "_rotation_idx": 134,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 28,
@@ -893,8 +893,8 @@
   },
   "spiking-nn": {
     "name": "Spiking Neural Networks",
-    "total_papers_found": 15,
-    "watering_count": 15,
+    "total_papers_found": 16,
+    "watering_count": 16,
     "history": [
       {
         "timestamp": "2026-07-07T08:54:38.442223",
@@ -1112,6 +1112,23 @@
             "seed_match_score": 1
           }
         ]
+      },
+      {
+        "timestamp": "2026-07-23T18:56:11.307751",
+        "papers_found": 1,
+        "duplicates": 8,
+        "irrelevant_filtered": 1,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "SpikingMOT: A Spike-Driven Multi-Object Tracker",
+            "summary": "Multi-object tracking (MOT) plays a fundamental role in visual perception, where accurate trajectory prediction is essential for reliable target association under complex motion patterns. Recent trackers have improved motion modeling with densely activated artificial neural networks, yet they largel",
+            "published": "2026-07-22",
+            "url": "http://arxiv.org/abs/2607.19875v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -1120,7 +1137,7 @@
       "neuromorphic",
       "spike-timing"
     ],
-    "last_watered": "2026-07-22T18:53:50.103743"
+    "last_watered": "2026-07-23T18:56:11.307745"
   },
   "non-transformer": {
     "name": "Non-Transformer Arch",
