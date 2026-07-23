@@ -11218,7 +11218,54 @@
         "valued"
       ],
       "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.20302v1",
+      "title": "Classical Hardware Acceleration of Quantum Autoencoders for Real-Time Anomaly Detection in Collider Experiments",
+      "arxiv_id": "2607.20302",
+      "tokens": [
+        "acceleration",
+        "anomaly",
+        "autoencoders",
+        "classical",
+        "collider",
+        "detection",
+        "experiments",
+        "hardware",
+        "quantum",
+        "real",
+        "time"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.20239v1",
+      "title": "Adaptive Bayesian Online Learning via Expert Aggregation",
+      "arxiv_id": "2607.20239",
+      "tokens": [
+        "adaptive",
+        "aggregation",
+        "bayesian",
+        "expert",
+        "online"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.20011v1",
+      "title": "Drift-Aware RL-based Wavelet Denoising for Network-Traffic Anomaly Detection",
+      "arxiv_id": "2607.20011",
+      "tokens": [
+        "anomaly",
+        "aware",
+        "denoising",
+        "detection",
+        "drift",
+        "traffic",
+        "wavelet"
+      ],
+      "first_seen_round": 165
     }
   ],
-  "total_unique": 702
+  "total_unique": 705
 }

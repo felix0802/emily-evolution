@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 132,
+  "_rotation_idx": 133,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 28,
@@ -588,8 +588,8 @@
   },
   "htm": {
     "name": "HTM",
-    "total_papers_found": 20,
-    "watering_count": 16,
+    "total_papers_found": 23,
+    "watering_count": 17,
     "history": [
       {
         "timestamp": "2026-07-07T08:08:03.935545",
@@ -844,6 +844,37 @@
             "seed_match_score": 1
           }
         ]
+      },
+      {
+        "timestamp": "2026-07-23T17:07:32.235930",
+        "papers_found": 3,
+        "duplicates": 2,
+        "irrelevant_filtered": 5,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "Classical Hardware Acceleration of Quantum Autoencoders for Real-Time Anomaly Detection in Collider Experiments",
+            "summary": "Quantum machine learning (QML) algorithms in high energy physics (HEP) can efficiently represent and leverage long-range, high-order correlations in high-dimensional collider data, potentially with fewer parameters and favorable scaling relative to classical models. Deployment of QML in real-time co",
+            "published": "2026-07-22",
+            "url": "http://arxiv.org/abs/2607.20302v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Adaptive Bayesian Online Learning via Expert Aggregation",
+            "summary": "Bayesian online learning promises uncertainty-aware prediction on data streams, but its performance hinges on inferential choices, including learning rates, prior distributions and variational families, which are usually fixed before seeing the stream. We address this by treating Bayesian update rul",
+            "published": "2026-07-22",
+            "url": "http://arxiv.org/abs/2607.20239v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Drift-Aware RL-based Wavelet Denoising for Network-Traffic Anomaly Detection",
+            "summary": "Traffic-utilisation measurements for network monitoring are corrupted by additive noise and statistical drift: time-dependent change in the signal's mean, variance, distributional shape, or tail behaviour. Static wavelet denoising, calibrated under stationary independent and identically distributed ",
+            "published": "2026-07-22",
+            "url": "http://arxiv.org/abs/2607.20011v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -858,7 +889,7 @@
       "anomaly detection",
       "continuous learning"
     ],
-    "last_watered": "2026-07-22T17:05:11.735650"
+    "last_watered": "2026-07-23T17:07:32.235925"
   },
   "spiking-nn": {
     "name": "Spiking Neural Networks",
