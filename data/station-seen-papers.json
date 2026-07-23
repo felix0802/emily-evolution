@@ -11109,7 +11109,41 @@
         "technical"
       ],
       "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.19957v1",
+      "title": "HijackKV: New Threat in Position-Independent KV Cache Reuse",
+      "arxiv_id": "2607.19957",
+      "tokens": [
+        "cache",
+        "hijackkv",
+        "independent",
+        "position",
+        "reuse",
+        "threat"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.19456v1",
+      "title": "MoA-Structured Decode Attention DNF Derivation, KV-Cache Accumulation, GQA/MQA, and OpenACC Kernel",
+      "arxiv_id": "2607.19456",
+      "tokens": [
+        "accumulation",
+        "attention",
+        "cache",
+        "decode",
+        "derivation",
+        "dnf",
+        "gqa",
+        "kernel",
+        "moa",
+        "mqa",
+        "openacc",
+        "structured"
+      ],
+      "first_seen_round": 165
     }
   ],
-  "total_unique": 696
+  "total_unique": 698
 }

@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 128,
+  "_rotation_idx": 129,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 26,
@@ -1957,8 +1957,8 @@
   },
   "kv-cache": {
     "name": "KV Cache Optimization",
-    "total_papers_found": 11,
-    "watering_count": 10,
+    "total_papers_found": 13,
+    "watering_count": 11,
     "history": [
       {
         "timestamp": "2026-07-15T11:19:09.355556",
@@ -2099,6 +2099,30 @@
             "seed_match_score": 1
           }
         ]
+      },
+      {
+        "timestamp": "2026-07-23T08:06:50.231126",
+        "papers_found": 2,
+        "duplicates": 4,
+        "irrelevant_filtered": 4,
+        "avg_relevance": 1.5,
+        "high_relevance": 1,
+        "papers": [
+          {
+            "title": "HijackKV: New Threat in Position-Independent KV Cache Reuse",
+            "summary": "Key-Value (KV) cache reduces inference latency in large language models (LLMs). Traditional prefix-based reuse has low cache hit rates across inference requests because it requires exact token and position matches. To improve efficiency, recent system optimizations introduce position-independent KV ",
+            "published": "2026-07-22",
+            "url": "http://arxiv.org/abs/2607.19957v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "MoA-Structured Decode Attention DNF Derivation, KV-Cache Accumulation, GQA/MQA, and OpenACC Kernel",
+            "summary": "We derive four memory-optimal inference artifacts for transformer attention using the Mathematics of Arrays (MoA), each following directly from the forward-pass Denotational Normal Form (DNF) of with the query-row index fixed to the current decode step. The artifacts are: (1)~a single-query decode D",
+            "published": "2026-07-21",
+            "url": "http://arxiv.org/abs/2607.19456v1",
+            "seed_match_score": 2
+          }
+        ]
       }
     ],
     "keywords": [
@@ -2110,7 +2134,7 @@
       "flash attention",
       "speculative decoding"
     ],
-    "last_watered": "2026-07-22T08:04:49.152433"
+    "last_watered": "2026-07-23T08:06:50.231123"
   },
   "gnn": {
     "name": "Graph Neural Networks",
