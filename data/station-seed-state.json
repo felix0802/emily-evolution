@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 141,
+  "_rotation_idx": 142,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 28,
@@ -311,8 +311,8 @@
   },
   "liquid-networks": {
     "name": "Liquid Networks",
-    "total_papers_found": 27,
-    "watering_count": 17,
+    "total_papers_found": 29,
+    "watering_count": 18,
     "history": [
       {
         "timestamp": "2026-07-06T21:47:31.917958",
@@ -584,6 +584,30 @@
         "avg_relevance": 0.0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-07-24T15:19:28.182457",
+        "papers_found": 2,
+        "duplicates": 7,
+        "irrelevant_filtered": 1,
+        "avg_relevance": 1.5,
+        "high_relevance": 1,
+        "papers": [
+          {
+            "title": "Context-weighted Discrete Flow Matching",
+            "summary": "Discrete flow matching provides a flexible framework for generative modeling on discrete structures. However, the standard factorized training objective exposes the model to targets of varying difficulty, mixing well-conditioned, predictable tokens with ambiguous, high-entropy ones. We empirically d",
+            "published": "2026-07-23",
+            "url": "http://arxiv.org/abs/2607.21427v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Smooth Neural Point Processes via B-Splines",
+            "summary": "Temporal point processes (TPPs) provide a general and flexible framework for modeling sequences of events in continuous time. Neural networks have been successfully employed to model TPPs in a highly expressive and data-driven way. Neural TPPs are typically trained via Maximum Likelihood Estimation ",
+            "published": "2026-07-23",
+            "url": "http://arxiv.org/abs/2607.21098v1",
+            "seed_match_score": 2
+          }
+        ]
       }
     ],
     "keywords": [
@@ -593,7 +617,7 @@
       "ode",
       "continuous-time"
     ],
-    "last_watered": "2026-07-23T15:46:40.363678"
+    "last_watered": "2026-07-24T15:19:28.182452"
   },
   "htm": {
     "name": "HTM",
