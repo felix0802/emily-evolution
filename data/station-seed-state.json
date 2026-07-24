@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 142,
+  "_rotation_idx": 143,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 28,
@@ -621,8 +621,8 @@
   },
   "htm": {
     "name": "HTM",
-    "total_papers_found": 23,
-    "watering_count": 17,
+    "total_papers_found": 26,
+    "watering_count": 18,
     "history": [
       {
         "timestamp": "2026-07-07T08:08:03.935545",
@@ -908,6 +908,37 @@
             "seed_match_score": 1
           }
         ]
+      },
+      {
+        "timestamp": "2026-07-24T17:18:22.615069",
+        "papers_found": 3,
+        "duplicates": 4,
+        "irrelevant_filtered": 3,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "A Diffusion-Model Subpopulation Digital Twin for Mobile Health Deployment: A Case Study on the HeartSteps Intervention",
+            "summary": "Mobile-health interventions increasingly use online learning and decision making algorithms to personalize when to nudge users toward healthier behavior, but a poorly designed algorithm can burden and disengage participants. New algorithm design decisions should therefore be vetted against realistic",
+            "published": "2026-07-23",
+            "url": "http://arxiv.org/abs/2607.21403v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Naju: A Native Discrete State-Space Model with Independent Retention and Writing for Long-Sequence Memory",
+            "summary": "Long-sequence memory tracking places two opposing demands on a recurrent state: near-lossless retention of stored bindings over long horizons, and active overwriting of stale ones. In our diagnostic suite, the strongest efficient baselines tend to solve only one side well. Continuous-time-parameteri",
+            "published": "2026-07-23",
+            "url": "http://arxiv.org/abs/2607.21000v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "GaugeQuant: Online Learning of Quantization-Optimal Bases from LLM Symmetries",
+            "summary": "Transformers are known to have internal continuous symmetries that leave outputs invariant, while modifying quantization. GaugeQuant leverages this in-training by introducing a LogSumExp term to the loss that breaks the symmetries, thus selecting a basis that minimizes activation outliers. A stop-gr",
+            "published": "2026-07-22",
+            "url": "http://arxiv.org/abs/2607.20757v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -922,7 +953,7 @@
       "anomaly detection",
       "continuous learning"
     ],
-    "last_watered": "2026-07-23T17:07:32.235925"
+    "last_watered": "2026-07-24T17:18:22.615064"
   },
   "spiking-nn": {
     "name": "Spiking Neural Networks",
