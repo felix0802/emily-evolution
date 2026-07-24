@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 139,
+  "_rotation_idx": 140,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 28,
@@ -2280,8 +2280,8 @@
   },
   "gnn": {
     "name": "Graph Neural Networks",
-    "total_papers_found": 19,
-    "watering_count": 12,
+    "total_papers_found": 24,
+    "watering_count": 13,
     "history": [
       {
         "timestamp": "2026-07-15T15:16:02.082257",
@@ -2452,6 +2452,37 @@
             "seed_match_score": 2
           }
         ]
+      },
+      {
+        "timestamp": "2026-07-24T11:28:56.573645",
+        "papers_found": 5,
+        "duplicates": 2,
+        "irrelevant_filtered": 3,
+        "avg_relevance": 1.4,
+        "high_relevance": 2,
+        "papers": [
+          {
+            "title": "Towards Faithful Graph Explanations with Synergistic Edge Effects via Granular Balls",
+            "summary": "Instance-level explanations aim to reveal the rationale behind a model's decisions for a specific graph. Previous methods explain graph neural networks (GNNs) by selecting important edges to induce subgraphs, where edge importance is assessed by perturbing each edge and observing changes in the mode",
+            "published": "2026-07-23",
+            "url": "http://arxiv.org/abs/2607.21381v1",
+            "seed_match_score": 2
+          },
+          {
+            "title": "Demographically-Informed Heat-Mortality Risk Curves via Risk Graph Neural Networks",
+            "summary": "Estimating heat-related mortality risk is a core task in environmental epidemiology, typically addressed with Distributed Lag Non-linear Models (DLNMs); interpretable exposure-response surfaces fitted to temperature-mortality time series. DLNMs are effective but ignore demographic and geographic con",
+            "published": "2026-07-23",
+            "url": "http://arxiv.org/abs/2607.21131v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "A Polynomial Architecture-Attribution Co-Design Framework for Exact Aumann-Shapley Attribution in GNNs",
+            "summary": "We study feature-level and node-level explanations for graph neural networks (GNNs) through the lens of Aumann-Shapley attribution. Path-integral methods such as Integrated Gradients provide an axiomatic formulation of attribution, but their practical use in deep GNNs typically relies on finite-samp",
+            "published": "2026-07-23",
+            "url": "http://arxiv.org/abs/2607.21094v1",
+            "seed_match_score": 2
+          }
+        ]
       }
     ],
     "keywords": [
@@ -2463,6 +2494,6 @@
       "node embedding",
       "graph transformer"
     ],
-    "last_watered": "2026-07-23T11:44:23.334689"
+    "last_watered": "2026-07-24T11:28:56.573640"
   }
 }

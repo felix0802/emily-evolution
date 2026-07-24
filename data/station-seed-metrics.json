@@ -261,13 +261,14 @@
   },
   "gnn": {
     "name": "Graph Neural Networks",
-    "total_new_papers": 19,
-    "total_watering": 12,
+    "total_new_papers": 24,
+    "total_watering": 13,
     "all_keywords_matched": [
+      "geometric",
+      "graph neural",
       "message passing",
       "gnn",
-      "graph transformer",
-      "graph neural"
+      "graph transformer"
     ],
     "avg_relevance_trend": [
       0.0,
@@ -281,11 +282,12 @@
       2.0,
       1.67,
       1.29,
-      1.5
+      1.5,
+      1.4
     ],
-    "high_relevance_total": 10,
+    "high_relevance_total": 12,
     "best_papers": [],
-    "last_updated": "2026-07-23T11:44:23.334203"
+    "last_updated": "2026-07-24T11:28:56.573157"
   },
   "moe": {
     "name": "Mixture of Experts",
