@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 144,
+  "_rotation_idx": 145,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 28,
@@ -1214,8 +1214,8 @@
   },
   "non-transformer": {
     "name": "Non-Transformer Arch",
-    "total_papers_found": 7,
-    "watering_count": 17,
+    "total_papers_found": 8,
+    "watering_count": 18,
     "history": [
       {
         "timestamp": "2026-07-07T10:14:36.288723",
@@ -1410,6 +1410,23 @@
         "avg_relevance": 0.0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-07-24T20:53:49.775756",
+        "papers_found": 1,
+        "duplicates": 5,
+        "irrelevant_filtered": 4,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "SPECTRA: State-Space Exogenous Context and Temporal-Frequency Resolution Architecture for Probabilistic Energy Forecasting",
+            "summary": "Modern power systems increasingly require probabilistic forecasts amid interacting uncertainties from renewable intermittency, flexible demand, market volatility, and weather-dependent generation. However, existing methods often treat multi-scale decomposition, exogenous-variable alignment, and prob",
+            "published": "2026-07-22",
+            "url": "http://arxiv.org/abs/2607.20587v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -1422,7 +1439,7 @@
       "sub-quadratic",
       "mamba"
     ],
-    "last_watered": "2026-07-23T20:49:08.995830"
+    "last_watered": "2026-07-24T20:53:49.775751"
   },
   "few-shot": {
     "name": "Few-Shot Learning",
