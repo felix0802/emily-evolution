@@ -11279,7 +11279,246 @@
         "tracker"
       ],
       "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.21530v1",
+      "title": "From Resource Flow to Executable Tests: Petri-Net-Guided LLM Test Generation for Concurrent Stateful Rust APIs",
+      "arxiv_id": "2607.21530",
+      "tokens": [
+        "apis",
+        "concurrent",
+        "executable",
+        "flow",
+        "generation",
+        "guided",
+        "llm",
+        "net",
+        "petri",
+        "resource",
+        "rust",
+        "stateful",
+        "test",
+        "tests"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.21529v1",
+      "title": "ElasticTTT: Prior-Preserving Test-Time Tuning for Video Editing",
+      "arxiv_id": "2607.21529",
+      "tokens": [
+        "editing",
+        "elasticttt",
+        "preserving",
+        "prior",
+        "test",
+        "time",
+        "tuning",
+        "video"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.21522v1",
+      "title": "GS-Agent: Creating 4D Physical Worlds With Generative Simulation",
+      "arxiv_id": "2607.21522",
+      "tokens": [
+        "agent",
+        "creating",
+        "generative",
+        "physical",
+        "simulation",
+        "worlds"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.21518v1",
+      "title": "Same Dangerous Objective, Opposite Advice: Direct Exposure versus Multi-Agent Mediation",
+      "arxiv_id": "2607.21518",
+      "tokens": [
+        "advice",
+        "agent",
+        "dangerous",
+        "direct",
+        "exposure",
+        "mediation",
+        "multi",
+        "objective",
+        "opposite",
+        "versus"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.21517v1",
+      "title": "Improved lower bounds for the Shannon capacity of odd cycles",
+      "arxiv_id": "2607.21517",
+      "tokens": [
+        "bounds",
+        "capacity",
+        "cycles",
+        "lower",
+        "odd",
+        "shannon"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.21503v1",
+      "title": "Agentic Context Management: Solving Agent Memory and Cost by Treating Them as Lifecycle and Architecture Problems",
+      "arxiv_id": "2607.21503",
+      "tokens": [
+        "agent",
+        "agentic",
+        "architecture",
+        "context",
+        "cost",
+        "lifecycle",
+        "management",
+        "memory",
+        "problems",
+        "solving",
+        "treating"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.21498v1",
+      "title": "Artificial Epanorthosis: Why large language models overuse a classical rhetorical figure, and how to mitigate it",
+      "arxiv_id": "2607.21498",
+      "tokens": [
+        "artificial",
+        "classical",
+        "epanorthosis",
+        "figure",
+        "language",
+        "mitigate",
+        "overuse",
+        "rhetorical",
+        "why"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.21495v1",
+      "title": "Toward Continuous Assurance for the Democratization of AI Agent Creation in Industry",
+      "arxiv_id": "2607.21495",
+      "tokens": [
+        "agent",
+        "assurance",
+        "continuous",
+        "creation",
+        "democratization",
+        "industry"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.21491v1",
+      "title": "What, Where, and How: Disentangling the Roles of Task, Language, and Model in Code Model Representations",
+      "arxiv_id": "2607.21491",
+      "tokens": [
+        "code",
+        "disentangling",
+        "language",
+        "representations",
+        "roles",
+        "task"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.21482v1",
+      "title": "Agentic coding without the cloud: evaluating open-weight large language models on longitudinal data preparation tasks",
+      "arxiv_id": "2607.21482",
+      "tokens": [
+        "agentic",
+        "cloud",
+        "coding",
+        "evaluating",
+        "language",
+        "longitudinal",
+        "open",
+        "preparation",
+        "tasks",
+        "weight"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.21475v1",
+      "title": "Error Certificates for KV-Cache Eviction via Randomized Design",
+      "arxiv_id": "2607.21475",
+      "tokens": [
+        "cache",
+        "certificates",
+        "design",
+        "error",
+        "eviction",
+        "randomized"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.21447v1",
+      "title": "RUMBA: Russian User Memory Benchmark",
+      "arxiv_id": "2607.21447",
+      "tokens": [
+        "benchmark",
+        "memory",
+        "rumba",
+        "russian",
+        "user"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.21445v1",
+      "title": "When Trivia Is Not Trivial: Everyday Knowledge Failures in Multilingual LLMs",
+      "arxiv_id": "2607.21445",
+      "tokens": [
+        "everyday",
+        "failures",
+        "knowledge",
+        "llms",
+        "multilingual",
+        "trivia",
+        "trivial"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.21433v1",
+      "title": "Token Budget Saturation and Mechanistic Early Detection of Reasoning Non-Convergence in Chain-of-Thought Models",
+      "arxiv_id": "2607.21433",
+      "tokens": [
+        "budget",
+        "chain",
+        "convergence",
+        "detection",
+        "early",
+        "mechanistic",
+        "non",
+        "reasoning",
+        "saturation",
+        "thought",
+        "token"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.19661v1",
+      "title": "Leveraging ECRAM for Edge Continual Learning",
+      "arxiv_id": "2607.19661",
+      "tokens": [
+        "continual",
+        "ecram",
+        "edge",
+        "leveraging"
+      ],
+      "first_seen_round": 165
     }
   ],
-  "total_unique": 706
+  "total_unique": 721
 }
