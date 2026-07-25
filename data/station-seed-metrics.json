@@ -269,10 +269,10 @@
   "gnn": {
     "name": "Graph Neural Networks",
     "total_new_papers": 24,
-    "total_watering": 13,
+    "total_watering": 14,
     "all_keywords_matched": [
-      "geometric",
       "graph neural",
+      "geometric",
       "message passing",
       "gnn",
       "graph transformer"
@@ -290,11 +290,12 @@
       1.67,
       1.29,
       1.5,
-      1.4
+      1.4,
+      0.0
     ],
     "high_relevance_total": 12,
     "best_papers": [],
-    "last_updated": "2026-07-24T11:28:56.573157"
+    "last_updated": "2026-07-25T09:24:39.783844"
   },
   "moe": {
     "name": "Mixture of Experts",
