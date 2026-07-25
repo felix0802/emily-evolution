@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 146,
+  "_rotation_idx": 147,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 28,
@@ -1700,7 +1700,7 @@
   "continual-learning": {
     "name": "Continual Learning",
     "total_papers_found": 23,
-    "watering_count": 15,
+    "watering_count": 16,
     "history": [
       {
         "timestamp": "2026-07-07T13:06:50.870963",
@@ -1964,6 +1964,15 @@
             "seed_match_score": 1
           }
         ]
+      },
+      {
+        "timestamp": "2026-07-25T01:23:37.626418",
+        "papers_found": 0,
+        "duplicates": 6,
+        "irrelevant_filtered": 4,
+        "avg_relevance": 0.0,
+        "high_relevance": 0,
+        "papers": []
       }
     ],
     "keywords": [
@@ -1973,7 +1982,7 @@
       "ewc",
       "elastic weight"
     ],
-    "last_watered": "2026-07-24T01:23:19.933141"
+    "last_watered": "2026-07-25T01:23:37.626413"
   },
   "moe": {
     "name": "Mixture of Experts",
