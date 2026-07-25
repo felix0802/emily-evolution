@@ -133,7 +133,7 @@
   "liquid-networks": {
     "name": "Liquid Networks",
     "total_new_papers": 24,
-    "total_watering": 17,
+    "total_watering": 18,
     "all_keywords_matched": [
       "liquid neural",
       "ode",
@@ -156,11 +156,12 @@
       1.0,
       0.0,
       0.0,
-      1.5
+      1.5,
+      0.0
     ],
     "high_relevance_total": 6,
     "best_papers": [],
-    "last_updated": "2026-07-24T15:19:28.181984"
+    "last_updated": "2026-07-25T12:55:05.694075"
   },
   "htm": {
     "name": "HTM",
