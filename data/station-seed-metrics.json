@@ -299,11 +299,11 @@
   "moe": {
     "name": "Mixture of Experts",
     "total_new_papers": 14,
-    "total_watering": 10,
+    "total_watering": 11,
     "all_keywords_matched": [
-      "router",
+      "moe",
       "expert routing",
-      "moe"
+      "router"
     ],
     "avg_relevance_trend": [
       1.67,
@@ -315,7 +315,8 @@
       2.33,
       1.5,
       1.0,
-      2.0
+      2.0,
+      0.0
     ],
     "high_relevance_total": 10,
     "best_papers": [
@@ -325,7 +326,7 @@
         "published": "2026-07-17"
       }
     ],
-    "last_updated": "2026-07-24T04:57:44.260628"
+    "last_updated": "2026-07-25T04:53:29.886548"
   },
   "kv-cache": {
     "name": "KV Cache Optimization",
