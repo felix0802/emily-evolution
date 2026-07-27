@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 168,
+  "_rotation_idx": 169,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 28,
@@ -2359,8 +2359,8 @@
   },
   "kv-cache": {
     "name": "KV Cache Optimization",
-    "total_papers_found": 13,
-    "watering_count": 14,
+    "total_papers_found": 15,
+    "watering_count": 15,
     "history": [
       {
         "timestamp": "2026-07-15T11:19:09.355556",
@@ -2552,6 +2552,30 @@
         "avg_relevance": 0.0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-07-27T05:36:17.527069",
+        "papers_found": 2,
+        "duplicates": 5,
+        "irrelevant_filtered": 3,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "HiKV: Hierarchical Importance-Aware KV Cache with Hardware Acceleration for LLM Decoding",
+            "summary": "With the rapid adoption of long-context large language models (LLMs), the continuously growing KV cache during decoding has become the critical memory bottleneck. To tackle this challenge, we propose HiKV, a novel algorithm-hardware co-design that exploits KV cache redundancy through hierarchical im",
+            "published": "2026-07-24",
+            "url": "http://arxiv.org/abs/2607.22389v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Adversarial Prompts for Acceptance Collapse in Speculative Decoding",
+            "summary": "Lossless acceleration schemes, such as speculative decoding, promise significant inference speedups by relying on dynamic token-level alignment between a draft and a target model. However, this guarantee of semantic equivalence masks a severe operational vulnerability: draft-target alignment can be ",
+            "published": "2026-07-23",
+            "url": "http://arxiv.org/abs/2607.21804v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -2563,7 +2587,7 @@
       "flash attention",
       "speculative decoding"
     ],
-    "last_watered": "2026-07-26T05:18:20.805912"
+    "last_watered": "2026-07-27T05:36:17.527064"
   },
   "gnn": {
     "name": "Graph Neural Networks",
