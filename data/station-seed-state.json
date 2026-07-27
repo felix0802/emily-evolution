@@ -1,9 +1,9 @@
 {
-  "_rotation_idx": 170,
+  "_rotation_idx": 171,
   "mamba": {
     "name": "Mamba (SSM)",
-    "total_papers_found": 28,
-    "watering_count": 20,
+    "total_papers_found": 30,
+    "watering_count": 21,
     "history": [
       {
         "timestamp": "2026-07-06T21:46:12.361778",
@@ -317,6 +317,30 @@
         "avg_relevance": 0.0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-07-27T12:47:52.432227",
+        "papers_found": 2,
+        "duplicates": 7,
+        "irrelevant_filtered": 1,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "Indexing: the Beginning and the End",
+            "summary": "We study information bottlenecks in modern deep-learning architectures -- RNNs, softmax transformers, linear-attention transformers and state-space models -- through the lens of the indexing primitive. In this primitive, the input consists of $n$ bits and one integer $i$ from $1$ to $n$ called the i",
+            "published": "2026-07-24",
+            "url": "http://arxiv.org/abs/2607.22361v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "CARDIAG: A Dense Segment Classification Benchmark of Deep Learning Architectures for Coronary Angiography",
+            "summary": "Accurate pixel-level classification of coronary angiograms is critical for cardiovascular disease assessment, yet the field lacks standardized evaluation protocols. In this work we demonstrate a new benchmark for the assessment of deep learning models which densely classify pixels of coronary angiog",
+            "published": "2026-07-24",
+            "url": "http://arxiv.org/abs/2607.22139v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -325,7 +349,7 @@
       "ssm",
       "selective scan"
     ],
-    "last_watered": "2026-07-26T11:11:58.352352"
+    "last_watered": "2026-07-27T12:47:52.432223"
   },
   "liquid-networks": {
     "name": "Liquid Networks",

@@ -12345,7 +12345,34 @@
         "speculative"
       ],
       "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.22361v1",
+      "title": "Indexing: the Beginning and the End",
+      "arxiv_id": "2607.22361",
+      "tokens": [
+        "beginning",
+        "end",
+        "indexing"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.22139v1",
+      "title": "CARDIAG: A Dense Segment Classification Benchmark of Deep Learning Architectures for Coronary Angiography",
+      "arxiv_id": "2607.22139",
+      "tokens": [
+        "angiography",
+        "architectures",
+        "benchmark",
+        "cardiag",
+        "classification",
+        "coronary",
+        "dense",
+        "segment"
+      ],
+      "first_seen_round": 165
     }
   ],
-  "total_unique": 773
+  "total_unique": 775
 }
