@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 172,
+  "_rotation_idx": 173,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 30,
@@ -690,8 +690,8 @@
   },
   "htm": {
     "name": "HTM",
-    "total_papers_found": 26,
-    "watering_count": 20,
+    "total_papers_found": 28,
+    "watering_count": 21,
     "history": [
       {
         "timestamp": "2026-07-07T08:08:03.935545",
@@ -1026,6 +1026,30 @@
         "avg_relevance": 0.0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-07-27T19:07:18.352609",
+        "papers_found": 2,
+        "duplicates": 4,
+        "irrelevant_filtered": 4,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "An Insight on Evaluation Metrics Under the Imbalanced Case of Anomaly Detection",
+            "summary": "Anomaly detection is inherently characterised by severe class imbalance, making the interpretation of evaluation metrics challenging. Although metrics such as AUROC, AUPR, F1-score, and MCC are widely used, their values convey different meanings depending on the anomaly ratio. In this work, we analy",
+            "published": "2026-07-24",
+            "url": "http://arxiv.org/abs/2607.22286v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Deep Convolutional Large-Margin $\\ell_p$-SVDD for Visual Anomaly Detection",
+            "summary": "Visual anomaly detection requires adaptive representations and reliable decision boundaries, particularly when anomalous training samples are scarce and class distributions are highly imbalanced. Classical kernel-based methods yield principled geometric decision regions but typically operate on fixe",
+            "published": "2026-07-24",
+            "url": "http://arxiv.org/abs/2607.22212v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -1040,7 +1064,7 @@
       "anomaly detection",
       "continuous learning"
     ],
-    "last_watered": "2026-07-26T14:55:17.445411"
+    "last_watered": "2026-07-27T19:07:18.352591"
   },
   "spiking-nn": {
     "name": "Spiking Neural Networks",

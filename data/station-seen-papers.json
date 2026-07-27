@@ -12372,7 +12372,37 @@
         "segment"
       ],
       "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.22286v1",
+      "title": "An Insight on Evaluation Metrics Under the Imbalanced Case of Anomaly Detection",
+      "arxiv_id": "2607.22286",
+      "tokens": [
+        "anomaly",
+        "case",
+        "detection",
+        "evaluation",
+        "imbalanced",
+        "insight",
+        "metrics"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.22212v1",
+      "title": "Deep Convolutional Large-Margin $\\ell_p$-SVDD for Visual Anomaly Detection",
+      "arxiv_id": "2607.22212",
+      "tokens": [
+        "anomaly",
+        "convolutional",
+        "detection",
+        "ell",
+        "margin",
+        "svdd",
+        "visual"
+      ],
+      "first_seen_round": 165
     }
   ],
-  "total_unique": 775
+  "total_unique": 777
 }
