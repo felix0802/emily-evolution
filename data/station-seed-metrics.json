@@ -313,11 +313,11 @@
   },
   "moe": {
     "name": "Mixture of Experts",
-    "total_new_papers": 14,
-    "total_watering": 12,
+    "total_new_papers": 15,
+    "total_watering": 13,
     "all_keywords_matched": [
-      "router",
       "expert routing",
+      "router",
       "moe"
     ],
     "avg_relevance_trend": [
@@ -332,17 +332,23 @@
       1.0,
       2.0,
       0.0,
-      0.0
+      0.0,
+      3.0
     ],
-    "high_relevance_total": 10,
+    "high_relevance_total": 11,
     "best_papers": [
       {
         "title": "Multi-level context Modeling for consistent expert selection in Mixture-of-Experts",
         "score": 3,
         "published": "2026-07-17"
+      },
+      {
+        "title": "MoE$^2$-LoRA: When MoE Models Meet MoE-style Low-Rank Adaptation",
+        "score": 3,
+        "published": "2026-07-24"
       }
     ],
-    "last_updated": "2026-07-26T01:26:34.253458"
+    "last_updated": "2026-07-27T01:31:01.486807"
   },
   "kv-cache": {
     "name": "KV Cache Optimization",

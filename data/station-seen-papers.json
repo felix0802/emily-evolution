@@ -11966,7 +11966,24 @@
         "temporal"
       ],
       "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.21978v1",
+      "title": "MoE$^2$-LoRA: When MoE Models Meet MoE-style Low-Rank Adaptation",
+      "arxiv_id": "2607.21978",
+      "tokens": [
+        "adaptation",
+        "lora",
+        "low",
+        "meet",
+        "moe",
+        "moe",
+        "moe",
+        "rank",
+        "style"
+      ],
+      "first_seen_round": 165
     }
   ],
-  "total_unique": 750
+  "total_unique": 751
 }
