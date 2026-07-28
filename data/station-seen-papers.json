@@ -13052,7 +13052,42 @@
         "view"
       ],
       "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.24331v1",
+      "title": "DynaCalKV: Key-Value Cache Compression via Head Grouping and Adaptive Rank Allocation",
+      "arxiv_id": "2607.24331",
+      "tokens": [
+        "adaptive",
+        "allocation",
+        "cache",
+        "compression",
+        "dynacalkv",
+        "grouping",
+        "head",
+        "key",
+        "rank",
+        "value"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.23054v1",
+      "title": "Through the Bottleneck: How Multi-head Latent Attention Separates Content from Position in Language Models",
+      "arxiv_id": "2607.23054",
+      "tokens": [
+        "attention",
+        "bottleneck",
+        "content",
+        "head",
+        "language",
+        "latent",
+        "multi",
+        "position",
+        "separates"
+      ],
+      "first_seen_round": 165
     }
   ],
-  "total_unique": 818
+  "total_unique": 820
 }
