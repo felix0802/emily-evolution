@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 179,
+  "_rotation_idx": 180,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 30,
@@ -2754,8 +2754,8 @@
   },
   "gnn": {
     "name": "Graph Neural Networks",
-    "total_papers_found": 24,
-    "watering_count": 16,
+    "total_papers_found": 30,
+    "watering_count": 17,
     "history": [
       {
         "timestamp": "2026-07-15T15:16:02.082257",
@@ -2984,6 +2984,37 @@
         "avg_relevance": 0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-07-28T13:25:41.010023",
+        "papers_found": 6,
+        "duplicates": 0,
+        "irrelevant_filtered": 4,
+        "avg_relevance": 1.5,
+        "high_relevance": 2,
+        "papers": [
+          {
+            "title": "Unsupervised Graph Representation Learning with Complementary View Alignment",
+            "summary": "Unsupervised graph representation learning aims to derive meaningful node embeddings by capturing both structural and attribute information without relying on labeled data. Existing methods, such as GAEs, have demonstrated effectiveness but typically rely on message-passing mechanisms that assume ho",
+            "published": "2026-07-27",
+            "url": "http://arxiv.org/abs/2607.24338v1",
+            "seed_match_score": 2
+          },
+          {
+            "title": "MEGA-CL: A Molecular Foundation Model for Generalizable ADMET Prediction through Graph External Attention and Contrastive Learning",
+            "summary": "Predicting the absorption, distribution, metabolism, excretion and toxicity (ADMET) properties of small molecules remains a major challenge in drug discovery. Here, we present MEGA-CL, a foundation graph neural network framework for universal molecular ADMET prediction. MEGA-CL integrates self-super",
+            "published": "2026-07-27",
+            "url": "http://arxiv.org/abs/2607.24314v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Integrating Factual and Normative Industrial Knowledge via Constraint-Aware Graph Attention for Process Plan Recommendation",
+            "summary": "Integrating heterogeneous industrial knowledge, including factual relations and decision constraints, remains a core challenge in industrial information systems. Machining process planning exemplifies this problem because engineers must select operations by combining material properties, feature cha",
+            "published": "2026-07-27",
+            "url": "http://arxiv.org/abs/2607.24213v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -2995,6 +3026,6 @@
       "node embedding",
       "graph transformer"
     ],
-    "last_watered": "2026-07-27T09:24:33.591249"
+    "last_watered": "2026-07-28T13:25:41.010011"
   }
 }

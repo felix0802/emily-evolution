@@ -13087,7 +13087,108 @@
         "separates"
       ],
       "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.24338v1",
+      "title": "Unsupervised Graph Representation Learning with Complementary View Alignment",
+      "arxiv_id": "2607.24338",
+      "tokens": [
+        "alignment",
+        "complementary",
+        "graph",
+        "representation",
+        "unsupervised",
+        "view"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.24314v1",
+      "title": "MEGA-CL: A Molecular Foundation Model for Generalizable ADMET Prediction through Graph External Attention and Contrastive Learning",
+      "arxiv_id": "2607.24314",
+      "tokens": [
+        "admet",
+        "attention",
+        "contrastive",
+        "external",
+        "foundation",
+        "generalizable",
+        "graph",
+        "mega",
+        "molecular",
+        "prediction"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.24213v1",
+      "title": "Integrating Factual and Normative Industrial Knowledge via Constraint-Aware Graph Attention for Process Plan Recommendation",
+      "arxiv_id": "2607.24213",
+      "tokens": [
+        "attention",
+        "aware",
+        "constraint",
+        "factual",
+        "graph",
+        "industrial",
+        "integrating",
+        "knowledge",
+        "normative",
+        "plan",
+        "process",
+        "recommendation"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.23792v1",
+      "title": "GNN-based Multi-Agent Control of Traffic Shockwaves in Sparse Vehicular Ad-hoc Networks",
+      "arxiv_id": "2607.23792",
+      "tokens": [
+        "agent",
+        "control",
+        "gnn",
+        "hoc",
+        "multi",
+        "shockwaves",
+        "sparse",
+        "traffic",
+        "vehicular"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.22875v1",
+      "title": "Spatial Prediction of Soil Microplastics and Organic Matter Using Graph Attention Networks",
+      "arxiv_id": "2607.22875",
+      "tokens": [
+        "attention",
+        "graph",
+        "matter",
+        "microplastics",
+        "organic",
+        "prediction",
+        "soil",
+        "spatial"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.22381v1",
+      "title": "Local-Global Geometric Insights for Graph Neural Networks via Entropic Curvature",
+      "arxiv_id": "2607.22381",
+      "tokens": [
+        "curvature",
+        "entropic",
+        "geometric",
+        "global",
+        "graph",
+        "insights",
+        "local",
+        "neural"
+      ],
+      "first_seen_round": 165
     }
   ],
-  "total_unique": 820
+  "total_unique": 826
 }
