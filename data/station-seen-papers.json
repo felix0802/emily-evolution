@@ -13019,7 +13019,40 @@
         "temporal"
       ],
       "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.24434v1",
+      "title": "DraftExpert: Expansion-Aware Self-Speculative Decoding for End-Device MoE Inference",
+      "arxiv_id": "2607.24434",
+      "tokens": [
+        "aware",
+        "decoding",
+        "device",
+        "draftexpert",
+        "end",
+        "expansion",
+        "inference",
+        "moe",
+        "self",
+        "speculative"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.23304v1",
+      "title": "Context-Adaptive Inference: A Unified Statistical and Foundation-Model View",
+      "arxiv_id": "2607.23304",
+      "tokens": [
+        "adaptive",
+        "context",
+        "foundation",
+        "inference",
+        "statistical",
+        "unified",
+        "view"
+      ],
+      "first_seen_round": 165
     }
   ],
-  "total_unique": 816
+  "total_unique": 818
 }

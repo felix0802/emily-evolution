@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 177,
+  "_rotation_idx": 178,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 30,
@@ -2227,8 +2227,8 @@
   },
   "moe": {
     "name": "Mixture of Experts",
-    "total_papers_found": 15,
-    "watering_count": 14,
+    "total_papers_found": 17,
+    "watering_count": 15,
     "history": [
       {
         "timestamp": "2026-07-15T09:46:58.985365",
@@ -2459,6 +2459,30 @@
             "seed_match_score": 3
           }
         ]
+      },
+      {
+        "timestamp": "2026-07-28T08:10:33.140420",
+        "papers_found": 2,
+        "duplicates": 3,
+        "irrelevant_filtered": 5,
+        "avg_relevance": 1.5,
+        "high_relevance": 1,
+        "papers": [
+          {
+            "title": "DraftExpert: Expansion-Aware Self-Speculative Decoding for End-Device MoE Inference",
+            "summary": "Large Mixture-of-Experts (MoE) language models are attractive for end-device deployment because only a small subset of experts is active per token, but their routed expert weights often exceed accelerator memory. We target latency-critical single-user settings where routed experts are staged on dema",
+            "published": "2026-07-27",
+            "url": "http://arxiv.org/abs/2607.24434v1",
+            "seed_match_score": 2
+          },
+          {
+            "title": "Context-Adaptive Inference: A Unified Statistical and Foundation-Model View",
+            "summary": "Modern predictive systems are expected to adapt their behavior to the specific situation they are facing. A clinical model should not treat every patient the same; a retrieval-augmented model should change its answer when given different evidence; a mixture-of-experts model should route different in",
+            "published": "2026-07-25",
+            "url": "http://arxiv.org/abs/2607.23304v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -2470,7 +2494,7 @@
       "switch transformer",
       "deepseek"
     ],
-    "last_watered": "2026-07-27T01:31:01.487291"
+    "last_watered": "2026-07-28T08:10:33.140415"
   },
   "kv-cache": {
     "name": "KV Cache Optimization",
