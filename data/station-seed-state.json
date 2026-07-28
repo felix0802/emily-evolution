@@ -1,9 +1,9 @@
 {
-  "_rotation_idx": 180,
+  "_rotation_idx": 181,
   "mamba": {
     "name": "Mamba (SSM)",
-    "total_papers_found": 30,
-    "watering_count": 21,
+    "total_papers_found": 32,
+    "watering_count": 22,
     "history": [
       {
         "timestamp": "2026-07-06T21:46:12.361778",
@@ -341,6 +341,30 @@
             "seed_match_score": 1
           }
         ]
+      },
+      {
+        "timestamp": "2026-07-28T15:57:24.397281",
+        "papers_found": 2,
+        "duplicates": 6,
+        "irrelevant_filtered": 2,
+        "avg_relevance": 2.0,
+        "high_relevance": 1,
+        "papers": [
+          {
+            "title": "Disentangling Multi-View Scanning in Mamba for Network Traffic Anomaly Detection",
+            "summary": "Network Traffic Anomaly Detection (NTAD) is a critical task in cybersecurity, yet timely and accurate anomaly detection remains challenging. Mamba has emerged as a particularly promising backbone for NTAD due to its linear-time complexity for long-sequence modeling. It further incorporates a dedicat",
+            "published": "2026-07-24",
+            "url": "http://arxiv.org/abs/2607.22829v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "DAMamba-UNet3D: A Parameter-Efficient Mamba State Space U-Net with Dynamic Adaptive Scan for 3D Medical Image Segmentation",
+            "summary": "We propose parameter-efficient SSM-based U-Net architectures for 3D medical image segmentation. Convolutional U-Nets afford O(n) local mixing per layer but lack explicit global context; transformers provide global reasoning at O(n^2) cost in sequence length $n$. State-space models (SSMs), such as Ma",
+            "published": "2026-07-21",
+            "url": "http://arxiv.org/abs/2607.22718v1",
+            "seed_match_score": 3
+          }
+        ]
       }
     ],
     "keywords": [
@@ -349,7 +373,7 @@
       "ssm",
       "selective scan"
     ],
-    "last_watered": "2026-07-27T12:47:52.432223"
+    "last_watered": "2026-07-28T15:57:24.397274"
   },
   "liquid-networks": {
     "name": "Liquid Networks",

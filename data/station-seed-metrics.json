@@ -97,12 +97,12 @@
   },
   "mamba": {
     "name": "Mamba (SSM)",
-    "total_new_papers": 25,
-    "total_watering": 17,
+    "total_new_papers": 27,
+    "total_watering": 18,
     "all_keywords_matched": [
-      "mamba",
       "state space",
-      "ssm"
+      "ssm",
+      "mamba"
     ],
     "avg_relevance_trend": [
       1.33,
@@ -121,9 +121,10 @@
       1.5,
       0.0,
       0.0,
-      1.0
+      1.0,
+      2.0
     ],
-    "high_relevance_total": 7,
+    "high_relevance_total": 8,
     "best_papers": [
       {
         "title": "Adaptive Mamba Neural Operators",
@@ -134,9 +135,14 @@
         "title": "Norm or Direction? Decoding Vision Mambas for High-Resolution Vision",
         "score": 3,
         "published": "2026-07-21"
+      },
+      {
+        "title": "DAMamba-UNet3D: A Parameter-Efficient Mamba State Space U-Net with Dynamic Adaptive Scan for 3D Medi",
+        "score": 3,
+        "published": "2026-07-21"
       }
     ],
-    "last_updated": "2026-07-27T12:47:52.431815"
+    "last_updated": "2026-07-28T15:57:24.396761"
   },
   "liquid-networks": {
     "name": "Liquid Networks",

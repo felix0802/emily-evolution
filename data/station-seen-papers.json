@@ -13188,7 +13188,44 @@
         "neural"
       ],
       "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.22829v1",
+      "title": "Disentangling Multi-View Scanning in Mamba for Network Traffic Anomaly Detection",
+      "arxiv_id": "2607.22829",
+      "tokens": [
+        "anomaly",
+        "detection",
+        "disentangling",
+        "mamba",
+        "multi",
+        "scanning",
+        "traffic",
+        "view"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.22718v1",
+      "title": "DAMamba-UNet3D: A Parameter-Efficient Mamba State Space U-Net with Dynamic Adaptive Scan for 3D Medical Image Segmentation",
+      "arxiv_id": "2607.22718",
+      "tokens": [
+        "adaptive",
+        "damamba",
+        "dynamic",
+        "image",
+        "mamba",
+        "medical",
+        "net",
+        "parameter",
+        "scan",
+        "segmentation",
+        "space",
+        "state",
+        "unet3d"
+      ],
+      "first_seen_round": 165
     }
   ],
-  "total_unique": 826
+  "total_unique": 828
 }
