@@ -13225,7 +13225,121 @@
         "unet3d"
       ],
       "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.24502v1",
+      "title": "Self-Attention Dynamics with Rotary Position Embeddings: Twisted States and Explicit Consensus Rates on the Sphere",
+      "arxiv_id": "2607.24502",
+      "tokens": [
+        "attention",
+        "consensus",
+        "dynamics",
+        "embeddings",
+        "explicit",
+        "position",
+        "rates",
+        "rotary",
+        "self",
+        "sphere",
+        "states",
+        "twisted"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.23967v1",
+      "title": "Grokking on the Weight-Decay Clock: A Rate Hierarchy from Softly Broken Symmetries",
+      "arxiv_id": "2607.23967",
+      "tokens": [
+        "broken",
+        "clock",
+        "decay",
+        "grokking",
+        "hierarchy",
+        "rate",
+        "softly",
+        "symmetries",
+        "weight"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.23642v1",
+      "title": "When Rates Are Geometric: Rate-Certificate Transfer for Contact Splittings in Optimization",
+      "arxiv_id": "2607.23642",
+      "tokens": [
+        "certificate",
+        "contact",
+        "geometric",
+        "optimization",
+        "rate",
+        "rates",
+        "splittings",
+        "transfer"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.23226v1",
+      "title": "From Score Learning to Discretized Sampling: An End-to-End Generalization Analysis of Diffusion Models",
+      "arxiv_id": "2607.23226",
+      "tokens": [
+        "diffusion",
+        "discretized",
+        "end",
+        "end",
+        "generalization",
+        "sampling",
+        "score"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.23110v1",
+      "title": "Operator Neural Jump ODEs: $L^2$-optimal prediction in function spaces",
+      "arxiv_id": "2607.23110",
+      "tokens": [
+        "function",
+        "jump",
+        "neural",
+        "odes",
+        "operator",
+        "optimal",
+        "prediction",
+        "spaces"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.23026v1",
+      "title": "All in One: Generative Modeling as Mean-Field Game Design",
+      "arxiv_id": "2607.23026",
+      "tokens": [
+        "design",
+        "field",
+        "game",
+        "generative",
+        "mean",
+        "modeling"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.22781v1",
+      "title": "What Softmax Throws Away: Mass-Aware Attention for Evidence Accumulation",
+      "arxiv_id": "2607.22781",
+      "tokens": [
+        "accumulation",
+        "attention",
+        "aware",
+        "away",
+        "evidence",
+        "mass",
+        "softmax",
+        "throws"
+      ],
+      "first_seen_round": 165
     }
   ],
-  "total_unique": 828
+  "total_unique": 835
 }
