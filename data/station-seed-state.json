@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 182,
+  "_rotation_idx": 183,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 32,
@@ -745,8 +745,8 @@
   },
   "htm": {
     "name": "HTM",
-    "total_papers_found": 28,
-    "watering_count": 21,
+    "total_papers_found": 31,
+    "watering_count": 22,
     "history": [
       {
         "timestamp": "2026-07-07T08:08:03.935545",
@@ -1105,6 +1105,37 @@
             "seed_match_score": 1
           }
         ]
+      },
+      {
+        "timestamp": "2026-07-28T19:02:35.202673",
+        "papers_found": 3,
+        "duplicates": 0,
+        "irrelevant_filtered": 7,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "DuoAD: Leveraging [CLS] Dual Characteristics for Training-Free Few-Shot Anomaly Detection",
+            "summary": "Vision foundation models have enabled strong training-free anomaly detection (AD). However, most existing approaches rely primarily on independent local patch features, leaving the global contextual information encoded by Vision Transformers (ViTs) underexploited. In this work, we identify the dual ",
+            "published": "2026-07-27",
+            "url": "http://arxiv.org/abs/2607.23924v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Extending Desbordante with Probabilistic Functional Dependency Discovery Support",
+            "summary": "Data profiling aims to extract complex patterns from data for further analysis and use that data in domains such as data cleaning, data deduplication, anomaly detection, and many more.   Functional dependencies (FDs) are one of the most well-known patterns. However, they are poorly suited for these ",
+            "published": "2026-07-26",
+            "url": "http://arxiv.org/abs/2607.23636v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Domain-Prior-Regularized Graph Modeling for Anomaly Detection in Cyber-Physical Systems",
+            "summary": "Anomaly detection on multivariate sensor time series is critical for industrial monitoring of cyber-physical systems (CPS), where even subtle deviations from normal behavior can indicate process disruption. Recent graph-based approaches have made significant progress, but they often struggle in smal",
+            "published": "2026-07-25",
+            "url": "http://arxiv.org/abs/2607.23197v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -1119,7 +1150,7 @@
       "anomaly detection",
       "continuous learning"
     ],
-    "last_watered": "2026-07-27T19:07:18.352591"
+    "last_watered": "2026-07-28T19:02:35.202668"
   },
   "spiking-nn": {
     "name": "Spiking Neural Networks",

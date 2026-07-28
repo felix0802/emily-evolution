@@ -13339,7 +13339,57 @@
         "throws"
       ],
       "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.23924v1",
+      "title": "DuoAD: Leveraging [CLS] Dual Characteristics for Training-Free Few-Shot Anomaly Detection",
+      "arxiv_id": "2607.23924",
+      "tokens": [
+        "anomaly",
+        "characteristics",
+        "cls",
+        "detection",
+        "dual",
+        "duoad",
+        "free",
+        "leveraging",
+        "shot",
+        "training"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.23636v1",
+      "title": "Extending Desbordante with Probabilistic Functional Dependency Discovery Support",
+      "arxiv_id": "2607.23636",
+      "tokens": [
+        "dependency",
+        "desbordante",
+        "discovery",
+        "extending",
+        "functional",
+        "probabilistic",
+        "support"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.23197v1",
+      "title": "Domain-Prior-Regularized Graph Modeling for Anomaly Detection in Cyber-Physical Systems",
+      "arxiv_id": "2607.23197",
+      "tokens": [
+        "anomaly",
+        "cyber",
+        "detection",
+        "domain",
+        "graph",
+        "modeling",
+        "physical",
+        "prior",
+        "regularized"
+      ],
+      "first_seen_round": 165
     }
   ],
-  "total_unique": 835
+  "total_unique": 838
 }
