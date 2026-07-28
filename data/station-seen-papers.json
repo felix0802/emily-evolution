@@ -12653,7 +12653,373 @@
         "throughput"
       ],
       "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.24743v1",
+      "title": "ClinFusion: A Vision-Centric Multimodal LLM System for Holistic Medical Understanding",
+      "arxiv_id": "2607.24743",
+      "tokens": [
+        "centric",
+        "clinfusion",
+        "holistic",
+        "llm",
+        "medical",
+        "multimodal",
+        "understanding",
+        "vision"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.24731v1",
+      "title": "Rethinking Classifier-Free Guidance in On-Policy Diffusion Distillation",
+      "arxiv_id": "2607.24731",
+      "tokens": [
+        "classifier",
+        "diffusion",
+        "distillation",
+        "free",
+        "guidance",
+        "policy",
+        "rethinking"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.24730v1",
+      "title": "KANEx: Translating Kolmogorov-Arnold Networks' Interpretability to Medical Explainability",
+      "arxiv_id": "2607.24730",
+      "tokens": [
+        "arnold",
+        "explainability",
+        "interpretability",
+        "kanex",
+        "kolmogorov",
+        "medical",
+        "translating"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.24720v1",
+      "title": "The Physics of Multi-Turn Long-Horizon Planning: From Pre-training to Post-training via Single- and Multi-Teacher On-Policy Agentic Distillation",
+      "arxiv_id": "2607.24720",
+      "tokens": [
+        "agentic",
+        "distillation",
+        "horizon",
+        "long",
+        "multi",
+        "multi",
+        "physics",
+        "planning",
+        "policy",
+        "post",
+        "pre",
+        "single",
+        "teacher",
+        "training",
+        "training",
+        "turn"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.24717v1",
+      "title": "DataOrchestra: Learning to Orchestrate Per-Example Curation of Pretraining Data",
+      "arxiv_id": "2607.24717",
+      "tokens": [
+        "curation",
+        "dataorchestra",
+        "example",
+        "orchestrate",
+        "per",
+        "pretraining"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.24714v1",
+      "title": "Efficient LLM-Generated Shuttling Compilers for Complex Trapped-Ion Architectures",
+      "arxiv_id": "2607.24714",
+      "tokens": [
+        "architectures",
+        "compilers",
+        "complex",
+        "generated",
+        "ion",
+        "llm",
+        "shuttling",
+        "trapped"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.24707v1",
+      "title": "ERUnderstand: Evaluating Vision-Language Models on Structured ER Diagrams",
+      "arxiv_id": "2607.24707",
+      "tokens": [
+        "diagrams",
+        "erunderstand",
+        "evaluating",
+        "language",
+        "structured",
+        "vision"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.24692v1",
+      "title": "Denial of Deadline: Network-Driven Accuracy Collapse in Distributed Inference Pipelines",
+      "arxiv_id": "2607.24692",
+      "tokens": [
+        "accuracy",
+        "collapse",
+        "deadline",
+        "denial",
+        "distributed",
+        "driven",
+        "inference",
+        "pipelines"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.24741v1",
+      "title": "Certified Parallel-in-Time Sinkhorn for Dynamic Entropic Optimal Transport",
+      "arxiv_id": "2607.24741",
+      "tokens": [
+        "certified",
+        "dynamic",
+        "entropic",
+        "optimal",
+        "parallel",
+        "sinkhorn",
+        "time",
+        "transport"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.24732v1",
+      "title": "Learning Distributions from Multiple Data Providers",
+      "arxiv_id": "2607.24732",
+      "tokens": [
+        "distributions",
+        "multiple",
+        "providers"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.24726v1",
+      "title": "Global Convergence of DGM and PINN Algorithms for Solving Nonlinear PDEs",
+      "arxiv_id": "2607.24726",
+      "tokens": [
+        "algorithms",
+        "convergence",
+        "dgm",
+        "global",
+        "nonlinear",
+        "pdes",
+        "pinn",
+        "solving"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.24688v1",
+      "title": "Beyond Scale and Generation: Understanding Language Model-based Entity Matching",
+      "arxiv_id": "2607.24688",
+      "tokens": [
+        "entity",
+        "generation",
+        "language",
+        "matching",
+        "scale",
+        "understanding"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.24686v1",
+      "title": "Stacking the Deck: Tunable Trainability in Stacked LCUs",
+      "arxiv_id": "2607.24686",
+      "tokens": [
+        "deck",
+        "lcus",
+        "stacked",
+        "stacking",
+        "trainability",
+        "tunable"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.24683v1",
+      "title": "Co-Learning for Missing Arbitrary Modalities in Multi-modal Classification",
+      "arxiv_id": "2607.24683",
+      "tokens": [
+        "arbitrary",
+        "classification",
+        "missing",
+        "modal",
+        "modalities",
+        "multi"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.24653v1",
+      "title": "Kimi K3: Open Frontier Intelligence",
+      "arxiv_id": "2607.24653",
+      "tokens": [
+        "frontier",
+        "intelligence",
+        "kimi",
+        "open"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.24651v1",
+      "title": "Evidence Attribution in Visual Document Understanding without Coordinates or Region Labels",
+      "arxiv_id": "2607.24651",
+      "tokens": [
+        "attribution",
+        "coordinates",
+        "document",
+        "evidence",
+        "labels",
+        "region",
+        "understanding",
+        "visual"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.24645v1",
+      "title": "Sparse Autoencoders Encode Both Concepts and Functions: The Downstream Geometry of Feature Effects",
+      "arxiv_id": "2607.24645",
+      "tokens": [
+        "autoencoders",
+        "concepts",
+        "downstream",
+        "effects",
+        "encode",
+        "feature",
+        "functions",
+        "geometry",
+        "sparse"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.24604v1",
+      "title": "Looping Is Not Reliability: State-Bound Evidence and Typed Revision Contracts for Agentic Code Repair",
+      "arxiv_id": "2607.24604",
+      "tokens": [
+        "agentic",
+        "bound",
+        "code",
+        "contracts",
+        "evidence",
+        "looping",
+        "reliability",
+        "repair",
+        "revision",
+        "state",
+        "typed"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.23837v1",
+      "title": "Latent-LoRA: Compact Latent-Space Adapters with Gradient-Free Routing for Continual Learning",
+      "arxiv_id": "2607.23837",
+      "tokens": [
+        "adapters",
+        "compact",
+        "continual",
+        "free",
+        "gradient",
+        "latent",
+        "latent",
+        "lora",
+        "routing",
+        "space"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.23711v1",
+      "title": "The Intruder Threshold: A Spectral Law for LoRA Fine-Tuning",
+      "arxiv_id": "2607.23711",
+      "tokens": [
+        "fine",
+        "intruder",
+        "law",
+        "lora",
+        "spectral",
+        "threshold",
+        "tuning"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.22994v1",
+      "title": "Breaking the Synthetic-Real Domain Shortcut for Training-Free Generative Replay-based Class Incremental Learning",
+      "arxiv_id": "2607.22994",
+      "tokens": [
+        "breaking",
+        "class",
+        "domain",
+        "free",
+        "generative",
+        "incremental",
+        "real",
+        "replay",
+        "shortcut",
+        "synthetic",
+        "training"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.22931v1",
+      "title": "Spectral-Aware Analytic Class-Incremental Learning for Long-Tailed Distributions",
+      "arxiv_id": "2607.22931",
+      "tokens": [
+        "analytic",
+        "aware",
+        "class",
+        "distributions",
+        "incremental",
+        "long",
+        "spectral",
+        "tailed"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.21949v1",
+      "title": "MA-DAR: Manifold-Aligned Dynamic Adaptive Routing for Continual Temporal Knowledge Graph Reasoning",
+      "arxiv_id": "2607.21949",
+      "tokens": [
+        "adaptive",
+        "aligned",
+        "continual",
+        "dar",
+        "dynamic",
+        "graph",
+        "knowledge",
+        "manifold",
+        "reasoning",
+        "routing",
+        "temporal"
+      ],
+      "first_seen_round": 165
     }
   ],
-  "total_unique": 793
+  "total_unique": 816
 }

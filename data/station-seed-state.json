@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 176,
+  "_rotation_idx": 177,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 30,
@@ -1891,8 +1891,8 @@
   },
   "continual-learning": {
     "name": "Continual Learning",
-    "total_papers_found": 23,
-    "watering_count": 18,
+    "total_papers_found": 28,
+    "watering_count": 19,
     "history": [
       {
         "timestamp": "2026-07-07T13:06:50.870963",
@@ -2183,6 +2183,37 @@
         "avg_relevance": 0.0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-07-28T04:51:17.064126",
+        "papers_found": 5,
+        "duplicates": 1,
+        "irrelevant_filtered": 4,
+        "avg_relevance": 1.2,
+        "high_relevance": 1,
+        "papers": [
+          {
+            "title": "Latent-LoRA: Compact Latent-Space Adapters with Gradient-Free Routing for Continual Learning",
+            "summary": "Large language models generalize well to individual tasks but lack an inherent mechanism for learning them sequentially, leading to catastrophic forgetting. To mitigate this, LoRA-based continual learning methods allocate a separate low-rank adapter per task, yet existing approaches either require t",
+            "published": "2026-07-26",
+            "url": "http://arxiv.org/abs/2607.23837v1",
+            "seed_match_score": 2
+          },
+          {
+            "title": "The Intruder Threshold: A Spectral Law for LoRA Fine-Tuning",
+            "summary": "LoRA fine-tuning can create intruder dimensions: new leading singular vectors of the updated weight matrix $W+BA$ that are nearly orthogonal to all pretrained singular vectors and that drive catastrophic forgetting. Since their discovery, no theory has predicted, layer by layer on measured spectra, ",
+            "published": "2026-07-26",
+            "url": "http://arxiv.org/abs/2607.23711v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Breaking the Synthetic-Real Domain Shortcut for Training-Free Generative Replay-based Class Incremental Learning",
+            "summary": "Class-incremental learning (CIL) requires models to continuously acquire new knowledge while avoiding catastrophic forgetting. While exemplar replay is effective, it raises concerns regarding privacy and storage. Thus, generative replay has emerged as a viable alternative, synthesizing old data usin",
+            "published": "2026-07-25",
+            "url": "http://arxiv.org/abs/2607.22994v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -2192,7 +2223,7 @@
       "ewc",
       "elastic weight"
     ],
-    "last_watered": "2026-07-26T22:46:16.541267"
+    "last_watered": "2026-07-28T04:51:17.064123"
   },
   "moe": {
     "name": "Mixture of Experts",

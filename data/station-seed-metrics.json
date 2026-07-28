@@ -246,14 +246,14 @@
   },
   "continual-learning": {
     "name": "Continual Learning",
-    "total_new_papers": 18,
-    "total_watering": 13,
+    "total_new_papers": 23,
+    "total_watering": 14,
     "all_keywords_matched": [
-      "ewc",
       "elastic weight",
-      "catastrophic forgetting",
       "lifelong",
-      "continual learning"
+      "ewc",
+      "continual learning",
+      "catastrophic forgetting"
     ],
     "avg_relevance_trend": [
       1.0,
@@ -268,9 +268,10 @@
       1.0,
       1.0,
       0.0,
-      0.0
+      0.0,
+      1.2
     ],
-    "high_relevance_total": 4,
+    "high_relevance_total": 5,
     "best_papers": [
       {
         "title": "Rethinking Quantum Continual Learning with Quantum Fisher Information",
@@ -283,7 +284,7 @@
         "published": "2026-07-06"
       }
     ],
-    "last_updated": "2026-07-26T22:46:16.540746"
+    "last_updated": "2026-07-28T04:51:17.063711"
   },
   "gnn": {
     "name": "Graph Neural Networks",
