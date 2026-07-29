@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 186,
+  "_rotation_idx": 187,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 32,
@@ -2012,8 +2012,8 @@
   },
   "continual-learning": {
     "name": "Continual Learning",
-    "total_papers_found": 28,
-    "watering_count": 19,
+    "total_papers_found": 30,
+    "watering_count": 20,
     "history": [
       {
         "timestamp": "2026-07-07T13:06:50.870963",
@@ -2335,6 +2335,30 @@
             "seed_match_score": 1
           }
         ]
+      },
+      {
+        "timestamp": "2026-07-29T04:56:15.598939",
+        "papers_found": 2,
+        "duplicates": 5,
+        "irrelevant_filtered": 3,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "MemSFT: Mitigating Alignment Tax with an External Parametric Memory",
+            "summary": "Adapting Large Language Models (LLMs) to specialized domains often incurs an alignment tax, as fine-tuning on domain-specific tasks can cause catastrophic forgetting and substantially degrade performance on general tasks. We propose MemSFT, which mitigates the alignment tax by decoupling domain spec",
+            "published": "2026-07-28",
+            "url": "http://arxiv.org/abs/2607.25614v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "PIcsC: Partitioning-Induced Covariate Shift Correction",
+            "summary": "Covariate shift across training-data partitions biases model selection and parameter estimation in cross-validation, lifelong learning, and federated learning. We propose \\textit{Partition-Induced Covariate-shift Correction} (\\texttt{PIcsC}), a Fisher information-based regularization framework that ",
+            "published": "2026-07-28",
+            "url": "http://arxiv.org/abs/2607.25441v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -2344,7 +2368,7 @@
       "ewc",
       "elastic weight"
     ],
-    "last_watered": "2026-07-28T04:51:17.064123"
+    "last_watered": "2026-07-29T04:56:15.598934"
   },
   "moe": {
     "name": "Mixture of Experts",
