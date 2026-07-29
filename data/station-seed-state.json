@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 188,
+  "_rotation_idx": 189,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 32,
@@ -2660,8 +2660,8 @@
   },
   "kv-cache": {
     "name": "KV Cache Optimization",
-    "total_papers_found": 17,
-    "watering_count": 16,
+    "total_papers_found": 18,
+    "watering_count": 17,
     "history": [
       {
         "timestamp": "2026-07-15T11:19:09.355556",
@@ -2901,6 +2901,23 @@
             "seed_match_score": 1
           }
         ]
+      },
+      {
+        "timestamp": "2026-07-29T11:52:31.009100",
+        "papers_found": 1,
+        "duplicates": 6,
+        "irrelevant_filtered": 3,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "AngelSpec: Towards Real-World High Performance Inference with Speculative Decoding",
+            "summary": "Speculative decoding accelerates large language model inference without changing the target distribution, but no single drafting structure performs best across real-world workloads. Autoregressive multi-token prediction (MTP) is a lightweight, stable proposal mechanism, whereas block-parallel diffus",
+            "published": "2026-07-28",
+            "url": "http://arxiv.org/abs/2607.25852v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -2912,7 +2929,7 @@
       "flash attention",
       "speculative decoding"
     ],
-    "last_watered": "2026-07-28T11:49:00.518054"
+    "last_watered": "2026-07-29T11:52:31.009095"
   },
   "gnn": {
     "name": "Graph Neural Networks",
