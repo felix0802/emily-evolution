@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 189,
+  "_rotation_idx": 190,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 32,
@@ -2933,8 +2933,8 @@
   },
   "gnn": {
     "name": "Graph Neural Networks",
-    "total_papers_found": 30,
-    "watering_count": 17,
+    "total_papers_found": 34,
+    "watering_count": 18,
     "history": [
       {
         "timestamp": "2026-07-15T15:16:02.082257",
@@ -3194,6 +3194,37 @@
             "seed_match_score": 1
           }
         ]
+      },
+      {
+        "timestamp": "2026-07-29T13:40:26.589495",
+        "papers_found": 4,
+        "duplicates": 4,
+        "irrelevant_filtered": 2,
+        "avg_relevance": 1.75,
+        "high_relevance": 3,
+        "papers": [
+          {
+            "title": "TRWH: A Text-Driven Random Walk Heterogeneous GNN for Semantic-Aware Sparse Recommendation",
+            "summary": "Graph Neural Networks (GNNs) and Large Language Models (LLMs) have each advanced recommendation systems by modeling structural and semantic signals, respectively. However, integrating their complementary strengths remains challenging, particularly in sparse settings where maintaining semantic precis",
+            "published": "2026-07-28",
+            "url": "http://arxiv.org/abs/2607.25471v1",
+            "seed_match_score": 2
+          },
+          {
+            "title": "Learned, Relied Upon, or Necessary? Separating Checkpoint Dependence from Task-Level Value in Sheaf GNNs",
+            "summary": "Learned restriction maps in sheaf graph neural networks are often treated as proof that the model has discovered useful edge geometry. That conclusion does not follow from parameter movement or from a post-hoc ablation: both can show how one checkpoint is organized while leaving open whether learned",
+            "published": "2026-07-28",
+            "url": "http://arxiv.org/abs/2607.25387v1",
+            "seed_match_score": 2
+          },
+          {
+            "title": "HeAD-CP: Heterophily-Aware Diffused Conformal Prediction Sets for Graph Neural Networks",
+            "summary": "Conformal prediction (CP) provides distribution-free uncertainty quantification, and its extension to graphs is an active research direction. Diffused Adaptive Prediction Sets (DAPS) is a widely used graph-aware diffusion baseline, propagating Adaptive Prediction Sets (APS) non-conformity scores alo",
+            "published": "2026-07-28",
+            "url": "http://arxiv.org/abs/2607.25273v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -3205,6 +3236,6 @@
       "node embedding",
       "graph transformer"
     ],
-    "last_watered": "2026-07-28T13:25:41.010011"
+    "last_watered": "2026-07-29T13:40:26.589489"
   }
 }
