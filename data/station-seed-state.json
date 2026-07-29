@@ -1,9 +1,9 @@
 {
-  "_rotation_idx": 190,
+  "_rotation_idx": 191,
   "mamba": {
     "name": "Mamba (SSM)",
-    "total_papers_found": 32,
-    "watering_count": 22,
+    "total_papers_found": 33,
+    "watering_count": 23,
     "history": [
       {
         "timestamp": "2026-07-06T21:46:12.361778",
@@ -365,6 +365,23 @@
             "seed_match_score": 3
           }
         ]
+      },
+      {
+        "timestamp": "2026-07-29T15:44:15.193123",
+        "papers_found": 1,
+        "duplicates": 7,
+        "irrelevant_filtered": 2,
+        "avg_relevance": 2.0,
+        "high_relevance": 1,
+        "papers": [
+          {
+            "title": "Raven: High-Recall Sequence Modeling with Sparse Memory Routing",
+            "summary": "Long-context recall in linear-time sequence models highlights a tradeoff in how they write to memory. State-based linear models, such as state-space models (SSMs) and linear Transformers, write densely, updating the entire state for each newly arrived token, which leads to interference and makes spe",
+            "published": "2026-07-28",
+            "url": "http://arxiv.org/abs/2607.25357v1",
+            "seed_match_score": 2
+          }
+        ]
       }
     ],
     "keywords": [
@@ -373,7 +390,7 @@
       "ssm",
       "selective scan"
     ],
-    "last_watered": "2026-07-28T15:57:24.397274"
+    "last_watered": "2026-07-29T15:44:15.193120"
   },
   "liquid-networks": {
     "name": "Liquid Networks",
