@@ -14145,7 +14145,39 @@
         "sparse"
       ],
       "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.25921v1",
+      "title": "Evaluating VLMs for Autonomous Agent-Driven Geometry Clipping Detection in Video Game QA",
+      "arxiv_id": "2607.25921",
+      "tokens": [
+        "agent",
+        "autonomous",
+        "clipping",
+        "detection",
+        "driven",
+        "evaluating",
+        "game",
+        "geometry",
+        "video",
+        "vlms"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.25020v1",
+      "title": "Localized Anomaly Detection via Differentiable D-vine Copulas",
+      "arxiv_id": "2607.25020",
+      "tokens": [
+        "anomaly",
+        "copulas",
+        "detection",
+        "differentiable",
+        "localized",
+        "vine"
+      ],
+      "first_seen_round": 165
     }
   ],
-  "total_unique": 884
+  "total_unique": 886
 }

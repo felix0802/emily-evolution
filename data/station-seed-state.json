@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 192,
+  "_rotation_idx": 193,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 33,
@@ -771,8 +771,8 @@
   },
   "htm": {
     "name": "HTM",
-    "total_papers_found": 31,
-    "watering_count": 22,
+    "total_papers_found": 33,
+    "watering_count": 23,
     "history": [
       {
         "timestamp": "2026-07-07T08:08:03.935545",
@@ -1162,6 +1162,30 @@
             "seed_match_score": 1
           }
         ]
+      },
+      {
+        "timestamp": "2026-07-29T18:50:21.531337",
+        "papers_found": 2,
+        "duplicates": 2,
+        "irrelevant_filtered": 6,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "Evaluating VLMs for Autonomous Agent-Driven Geometry Clipping Detection in Video Game QA",
+            "summary": "In this work, we study the use of Vision-Language Models (VLMs) for anomaly detection in an agent-driven game Quality Assurance (QA) pipeline focusing on geometry clipping. In this evaluation, a custom exploration agent navigates a game level to collect visual observations, while the automatic annot",
+            "published": "2026-07-28",
+            "url": "http://arxiv.org/abs/2607.25921v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Localized Anomaly Detection via Differentiable D-vine Copulas",
+            "summary": "Vine copulas provide a flexible framework for modeling complex multivariate distributions through a hierarchical decomposition into bivariate pair-copulas. Fitting a D-vine requires selecting a copula family and parameter configuration for each pair-copula from a set of candidates encoding different",
+            "published": "2026-07-27",
+            "url": "http://arxiv.org/abs/2607.25020v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -1176,7 +1200,7 @@
       "anomaly detection",
       "continuous learning"
     ],
-    "last_watered": "2026-07-28T19:02:35.202668"
+    "last_watered": "2026-07-29T18:50:21.531331"
   },
   "spiking-nn": {
     "name": "Spiking Neural Networks",

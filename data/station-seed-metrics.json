@@ -183,22 +183,21 @@
   },
   "htm": {
     "name": "HTM",
-    "total_new_papers": 26,
-    "total_watering": 21,
+    "total_new_papers": 28,
+    "total_watering": 22,
     "all_keywords_matched": [
-      "predictive coding",
-      "hierarchical temporal",
       "online learning",
+      "sparse distributed",
+      "predictive coding",
       "sequence memory",
       "anomaly detection",
-      "sparse distributed"
+      "hierarchical temporal"
     ],
     "avg_relevance_trend": [
       0.0,
       0.0,
       0.0,
       0.0,
-      0.0,
       1.0,
       0.0,
       1.0,
@@ -212,12 +211,13 @@
       1.0,
       0.0,
       0.0,
+      1.0,
       1.0,
       1.0
     ],
     "high_relevance_total": 0,
     "best_papers": [],
-    "last_updated": "2026-07-28T19:02:35.202165"
+    "last_updated": "2026-07-29T18:50:21.530803"
   },
   "non-transformer": {
     "name": "Non-Transformer Arch",
