@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 187,
+  "_rotation_idx": 188,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 32,
@@ -2372,8 +2372,8 @@
   },
   "moe": {
     "name": "Mixture of Experts",
-    "total_papers_found": 17,
-    "watering_count": 15,
+    "total_papers_found": 18,
+    "watering_count": 16,
     "history": [
       {
         "timestamp": "2026-07-15T09:46:58.985365",
@@ -2628,6 +2628,23 @@
             "seed_match_score": 1
           }
         ]
+      },
+      {
+        "timestamp": "2026-07-29T08:14:47.687623",
+        "papers_found": 1,
+        "duplicates": 3,
+        "irrelevant_filtered": 6,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "OPERA: Offline Policy-guided Expert Routing and Adaptation for Universal Biomedical Image Analysis",
+            "summary": "Biomedical image analysis spans diverse modalities and tasks, yet real-world deployment is hindered by severe distribution shifts across scanners, protocols, and patient populations. High-performing models consequently require repeated domain-specific fine-tuning, which is a costly cycle that become",
+            "published": "2026-07-27",
+            "url": "http://arxiv.org/abs/2607.25108v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -2639,7 +2656,7 @@
       "switch transformer",
       "deepseek"
     ],
-    "last_watered": "2026-07-28T08:10:33.140415"
+    "last_watered": "2026-07-29T08:14:47.687617"
   },
   "kv-cache": {
     "name": "KV Cache Optimization",
