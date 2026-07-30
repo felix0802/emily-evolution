@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 203,
+  "_rotation_idx": 204,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 34,
@@ -1261,8 +1261,8 @@
   },
   "spiking-nn": {
     "name": "Spiking Neural Networks",
-    "total_papers_found": 16,
-    "watering_count": 22,
+    "total_papers_found": 17,
+    "watering_count": 23,
     "history": [
       {
         "timestamp": "2026-07-07T08:54:38.442223",
@@ -1551,6 +1551,23 @@
         "avg_relevance": 0.0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-07-30T20:53:16.105931",
+        "papers_found": 1,
+        "duplicates": 8,
+        "irrelevant_filtered": 1,
+        "avg_relevance": 2.0,
+        "high_relevance": 1,
+        "papers": [
+          {
+            "title": "The Sparsity Ceiling: Where Spiking Networks Can and Cannot Trade Activity for Energy",
+            "summary": "Spiking neural networks (SNNs) are promoted as an energy-efficient substrate because sparse, event-driven activity replaces dense multiply-accumulates with cheap accumulates. We argue the energy dividend of sparsity is not a property of SNNs but of the task. Holding architecture fixed and swapping o",
+            "published": "2026-07-29",
+            "url": "http://arxiv.org/abs/2607.26648v1",
+            "seed_match_score": 2
+          }
+        ]
       }
     ],
     "keywords": [
@@ -1559,7 +1576,7 @@
       "neuromorphic",
       "spike-timing"
     ],
-    "last_watered": "2026-07-29T20:41:50.085276"
+    "last_watered": "2026-07-30T20:53:16.105925"
   },
   "non-transformer": {
     "name": "Non-Transformer Arch",
