@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 202,
+  "_rotation_idx": 203,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 34,
@@ -797,8 +797,8 @@
   },
   "htm": {
     "name": "HTM",
-    "total_papers_found": 33,
-    "watering_count": 23,
+    "total_papers_found": 36,
+    "watering_count": 24,
     "history": [
       {
         "timestamp": "2026-07-07T08:08:03.935545",
@@ -1212,6 +1212,37 @@
             "seed_match_score": 1
           }
         ]
+      },
+      {
+        "timestamp": "2026-07-30T19:06:06.502431",
+        "papers_found": 3,
+        "duplicates": 2,
+        "irrelevant_filtered": 5,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "Early Failure Prediction from Near-Anomaly Detection: A Proactive Approach",
+            "summary": "Anomaly detection methods often have uncertain behavior with respect to samples near the distribution boundary, limiting their ability to anticipate future anomalies. This work introduces the concept of near-anomalies that, while not yet anomalous, lie close to the boundary and are likely to transit",
+            "published": "2026-07-29",
+            "url": "http://arxiv.org/abs/2607.26704v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Self-Adaptive Learning and Model Predictive Control for Tracking Unknown Dynamics with No Regret",
+            "summary": "We propose a self-adaptive online learning for control method for tracking unknown target dynamics. The target dynamics can exhibit switching behavior, particularly, a mixture of structured, random, and/or adversarial motion. Such challenging target tracking scenarios arise in applications of dynami",
+            "published": "2026-07-29",
+            "url": "http://arxiv.org/abs/2607.26370v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "(EC)2: Event-Centric Explainability for Cybersecurity Through Multi-Agent LLM Investigations",
+            "summary": "Security operations centers rely on anomaly detection systems to flag suspicious events. Feature-level explanations for anomaly detectors offer limited value for operational investigations. To effectively handle alerts, analysts need to know contextual relationships and need actionable understanding",
+            "published": "2026-07-28",
+            "url": "http://arxiv.org/abs/2607.26201v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -1226,7 +1257,7 @@
       "anomaly detection",
       "continuous learning"
     ],
-    "last_watered": "2026-07-29T18:50:21.531331"
+    "last_watered": "2026-07-30T19:06:06.502426"
   },
   "spiking-nn": {
     "name": "Spiking Neural Networks",
