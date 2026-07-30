@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 195,
+  "_rotation_idx": 196,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 33,
@@ -1780,8 +1780,8 @@
   },
   "few-shot": {
     "name": "Few-Shot Learning",
-    "total_papers_found": 19,
-    "watering_count": 21,
+    "total_papers_found": 20,
+    "watering_count": 22,
     "history": [
       {
         "timestamp": "2026-07-07T13:04:52.717562",
@@ -2067,6 +2067,23 @@
             "seed_match_score": 1
           }
         ]
+      },
+      {
+        "timestamp": "2026-07-30T01:13:51.131887",
+        "papers_found": 1,
+        "duplicates": 3,
+        "irrelevant_filtered": 6,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "MetaKoopman: Bayesian Meta-Learning of Koopman Operators for Modeling Structured Dynamics under Distribution Shifts",
+            "summary": "Modeling and forecasting nonlinear dynamics under distribution shifts is essential for robust decision-making in real-world systems. In this work, we propose MetaKoopman, a Bayesian meta-learning framework for modeling nonlinear dynamics through linear latent representations. MetaKoopman learns a Ma",
+            "published": "2026-07-28",
+            "url": "http://arxiv.org/abs/2607.26345v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -2076,7 +2093,7 @@
       "prototypical",
       "in-context"
     ],
-    "last_watered": "2026-07-29T01:20:46.769565"
+    "last_watered": "2026-07-30T01:13:51.131882"
   },
   "continual-learning": {
     "name": "Continual Learning",

@@ -14192,7 +14192,148 @@
         "survival"
       ],
       "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.27106v1",
+      "title": "Hierarchical Spatio-Temporal Transformer for Coherent Emergency Department Forecasting",
+      "arxiv_id": "2607.27106",
+      "tokens": [
+        "coherent",
+        "department",
+        "emergency",
+        "forecasting",
+        "hierarchical",
+        "spatio",
+        "temporal",
+        "transformer"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.27105v1",
+      "title": "Detecting seizure onset and offset times using human intelligence: A critical-transitions-based approach",
+      "arxiv_id": "2607.27105",
+      "tokens": [
+        "critical",
+        "detecting",
+        "human",
+        "intelligence",
+        "offset",
+        "onset",
+        "seizure",
+        "times",
+        "transitions"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.27092v1",
+      "title": "Sky sphere representation in language models",
+      "arxiv_id": "2607.27092",
+      "tokens": [
+        "language",
+        "representation",
+        "sky",
+        "sphere"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.27090v1",
+      "title": "InferScale: GPU-Native KV Injection for Personalized LLM Serving",
+      "arxiv_id": "2607.27090",
+      "tokens": [
+        "gpu",
+        "inferscale",
+        "injection",
+        "llm",
+        "native",
+        "personalized",
+        "serving"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.27083v1",
+      "title": "Scores Are Not Decisions: Cost-Aware Stopping for Tool Acquisition in LLM Agents",
+      "arxiv_id": "2607.27083",
+      "tokens": [
+        "acquisition",
+        "agents",
+        "aware",
+        "cost",
+        "decisions",
+        "llm",
+        "scores",
+        "stopping",
+        "tool"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.27081v1",
+      "title": "On-Policy Distillation for LLM Safety: A Routing Approach to Template-Robust Realignment",
+      "arxiv_id": "2607.27081",
+      "tokens": [
+        "distillation",
+        "llm",
+        "policy",
+        "realignment",
+        "robust",
+        "routing",
+        "safety",
+        "template"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.27078v1",
+      "title": "Field Codes for Distributed Coupling Samplers and Certified Empirical Transport",
+      "arxiv_id": "2607.27078",
+      "tokens": [
+        "certified",
+        "codes",
+        "coupling",
+        "distributed",
+        "empirical",
+        "field",
+        "samplers",
+        "transport"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.27077v1",
+      "title": "Equilibrium Training of Energy-Based Models with Parallel Trajectory Tempering",
+      "arxiv_id": "2607.27077",
+      "tokens": [
+        "energy",
+        "equilibrium",
+        "parallel",
+        "tempering",
+        "training",
+        "trajectory"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.26345v1",
+      "title": "MetaKoopman: Bayesian Meta-Learning of Koopman Operators for Modeling Structured Dynamics under Distribution Shifts",
+      "arxiv_id": "2607.26345",
+      "tokens": [
+        "bayesian",
+        "distribution",
+        "dynamics",
+        "koopman",
+        "meta",
+        "metakoopman",
+        "modeling",
+        "operators",
+        "shifts",
+        "structured"
+      ],
+      "first_seen_round": 165
     }
   ],
-  "total_unique": 887
+  "total_unique": 896
 }
