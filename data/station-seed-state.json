@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 196,
+  "_rotation_idx": 197,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 33,
@@ -2097,8 +2097,8 @@
   },
   "continual-learning": {
     "name": "Continual Learning",
-    "total_papers_found": 30,
-    "watering_count": 20,
+    "total_papers_found": 31,
+    "watering_count": 21,
     "history": [
       {
         "timestamp": "2026-07-07T13:06:50.870963",
@@ -2444,6 +2444,23 @@
             "seed_match_score": 1
           }
         ]
+      },
+      {
+        "timestamp": "2026-07-30T04:44:32.190176",
+        "papers_found": 1,
+        "duplicates": 4,
+        "irrelevant_filtered": 5,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "The Art of Not Forgetting A Local Learning Architecture for Continual Learning",
+            "summary": "We introduce CMP (Cognitive Memory Primitive), a continual-learning architecture that repre?sents inputs as sparse relational codes, stores them in a two-tier competitive memory, and learns through local updates without end-to-end backpropagation through its feature-generating system. We investigate",
+            "published": "2026-07-29",
+            "url": "http://arxiv.org/abs/2607.26523v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -2453,7 +2470,7 @@
       "ewc",
       "elastic weight"
     ],
-    "last_watered": "2026-07-29T04:56:15.598934"
+    "last_watered": "2026-07-30T04:44:32.190165"
   },
   "moe": {
     "name": "Mixture of Experts",
