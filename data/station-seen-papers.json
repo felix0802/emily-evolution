@@ -14650,7 +14650,35 @@
         "local"
       ],
       "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.26708v1",
+      "title": "Mixture-of-experts for handwriting trajectory reconstruction from IMU sensors",
+      "arxiv_id": "2607.26708",
+      "tokens": [
+        "experts",
+        "handwriting",
+        "imu",
+        "mixture",
+        "reconstruction",
+        "sensors",
+        "trajectory"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.26340v1",
+      "title": "Incast-Free MoE Rate-Based Scheduling",
+      "arxiv_id": "2607.26340",
+      "tokens": [
+        "free",
+        "incast",
+        "moe",
+        "rate",
+        "scheduling"
+      ],
+      "first_seen_round": 165
     }
   ],
-  "total_unique": 916
+  "total_unique": 918
 }

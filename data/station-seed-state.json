@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 197,
+  "_rotation_idx": 198,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 33,
@@ -2474,8 +2474,8 @@
   },
   "moe": {
     "name": "Mixture of Experts",
-    "total_papers_found": 18,
-    "watering_count": 16,
+    "total_papers_found": 20,
+    "watering_count": 17,
     "history": [
       {
         "timestamp": "2026-07-15T09:46:58.985365",
@@ -2747,6 +2747,30 @@
             "seed_match_score": 1
           }
         ]
+      },
+      {
+        "timestamp": "2026-07-30T08:03:09.873917",
+        "papers_found": 2,
+        "duplicates": 4,
+        "irrelevant_filtered": 4,
+        "avg_relevance": 1.5,
+        "high_relevance": 1,
+        "papers": [
+          {
+            "title": "Mixture-of-experts for handwriting trajectory reconstruction from IMU sensors",
+            "summary": "The use of digital pens for online handwriting trajectory reconstruction is a prevalent method for human-computer interaction. In this study, we focus on a digital pen equipped with sensors where we aim at reconstructing the online handwriting trajectory. This pen enables writing on any surface and ",
+            "published": "2026-07-29",
+            "url": "http://arxiv.org/abs/2607.26708v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Incast-Free MoE Rate-Based Scheduling",
+            "summary": "Mixture of Experts (MoE) architectures have become key to large language models; however, their typical round-robin (RR) scheduling introduces significant bottlenecks.   In this paper, we demonstrate that RR causes a previously-undiscovered exponential incast phenomenon with MoE traffic. We propose ",
+            "published": "2026-07-28",
+            "url": "http://arxiv.org/abs/2607.26340v1",
+            "seed_match_score": 2
+          }
+        ]
       }
     ],
     "keywords": [
@@ -2758,7 +2782,7 @@
       "switch transformer",
       "deepseek"
     ],
-    "last_watered": "2026-07-29T08:14:47.687617"
+    "last_watered": "2026-07-30T08:03:09.873912"
   },
   "kv-cache": {
     "name": "KV Cache Optimization",
