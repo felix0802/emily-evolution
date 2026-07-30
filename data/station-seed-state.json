@@ -1,9 +1,9 @@
 {
-  "_rotation_idx": 200,
+  "_rotation_idx": 201,
   "mamba": {
     "name": "Mamba (SSM)",
-    "total_papers_found": 33,
-    "watering_count": 23,
+    "total_papers_found": 34,
+    "watering_count": 24,
     "history": [
       {
         "timestamp": "2026-07-06T21:46:12.361778",
@@ -382,6 +382,23 @@
             "seed_match_score": 2
           }
         ]
+      },
+      {
+        "timestamp": "2026-07-30T15:45:03.329455",
+        "papers_found": 1,
+        "duplicates": 6,
+        "irrelevant_filtered": 3,
+        "avg_relevance": 2.0,
+        "high_relevance": 1,
+        "papers": [
+          {
+            "title": "Phoneme- vs. Character-Level Targets and Selective State-Space Models for Intracortical Brain-to-Text",
+            "summary": "State-of-the-art intracortical brain-to-text systems pair a neural-sequence phone decoder with an external language model. Two design axes remain underexplored: whether selective state-space models (Mamba) improve on recurrent decoders, and how the output target (phonetic vs.\\ character) interacts w",
+            "published": "2026-07-29",
+            "url": "http://arxiv.org/abs/2607.26751v1",
+            "seed_match_score": 2
+          }
+        ]
       }
     ],
     "keywords": [
@@ -390,7 +407,7 @@
       "ssm",
       "selective scan"
     ],
-    "last_watered": "2026-07-29T15:44:15.193120"
+    "last_watered": "2026-07-30T15:45:03.329450"
   },
   "liquid-networks": {
     "name": "Liquid Networks",
