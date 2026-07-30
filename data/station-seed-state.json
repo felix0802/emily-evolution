@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 199,
+  "_rotation_idx": 200,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 33,
@@ -3076,8 +3076,8 @@
   },
   "gnn": {
     "name": "Graph Neural Networks",
-    "total_papers_found": 34,
-    "watering_count": 18,
+    "total_papers_found": 37,
+    "watering_count": 19,
     "history": [
       {
         "timestamp": "2026-07-15T15:16:02.082257",
@@ -3368,6 +3368,37 @@
             "seed_match_score": 1
           }
         ]
+      },
+      {
+        "timestamp": "2026-07-30T13:21:46.282106",
+        "papers_found": 3,
+        "duplicates": 2,
+        "irrelevant_filtered": 5,
+        "avg_relevance": 3.0,
+        "high_relevance": 3,
+        "papers": [
+          {
+            "title": "Universality and Approximation Rates of Graph Neural Networks with Random Features",
+            "summary": "We investigate message-passing graph neural networks with random node features. Random node features are known to enhance the expressiveness of graph neural networks (GNNs) both theoretically and empirically. Here, we establish a novel universality result focusing on permutation-equivariant neural n",
+            "published": "2026-07-29",
+            "url": "http://arxiv.org/abs/2607.26699v1",
+            "seed_match_score": 3
+          },
+          {
+            "title": "Examining the Efficacy of Graph Neural Network Message-Passing in Regression Contexts",
+            "summary": "Graph Neural Networks (GNN) facilitate effective prediction on graph data such as molecules, media networks and neural network blueprints. GNNs facilitate prediction through message passing techniques which define how information flows from a node to its neighbors. Due to the ubiquity of the graph d",
+            "published": "2026-07-29",
+            "url": "http://arxiv.org/abs/2607.26404v1",
+            "seed_match_score": 3
+          },
+          {
+            "title": "Automorphism-Induced Non-Canonicity in Top-k Explanations of Graph Neural Networks",
+            "summary": "A gradient-based GNN explainer given a molecule with two chemically equivalent nitro groups assigns them attribution scores that are equal to the last bit. It cannot do otherwise: message passing is exactly permutation equivariant, so any automorphism of the input leaves every attribution invariant.",
+            "published": "2026-07-28",
+            "url": "http://arxiv.org/abs/2607.26344v1",
+            "seed_match_score": 3
+          }
+        ]
       }
     ],
     "keywords": [
@@ -3379,6 +3410,6 @@
       "node embedding",
       "graph transformer"
     ],
-    "last_watered": "2026-07-29T13:40:26.589489"
+    "last_watered": "2026-07-30T13:21:46.282099"
   }
 }
