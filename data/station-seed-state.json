@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 198,
+  "_rotation_idx": 199,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 33,
@@ -2786,8 +2786,8 @@
   },
   "kv-cache": {
     "name": "KV Cache Optimization",
-    "total_papers_found": 18,
-    "watering_count": 17,
+    "total_papers_found": 19,
+    "watering_count": 18,
     "history": [
       {
         "timestamp": "2026-07-15T11:19:09.355556",
@@ -3044,6 +3044,23 @@
             "seed_match_score": 1
           }
         ]
+      },
+      {
+        "timestamp": "2026-07-30T11:44:21.089008",
+        "papers_found": 1,
+        "duplicates": 3,
+        "irrelevant_filtered": 6,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "Revisiting Lossy Verification in Speculative Decoding: Mechanisms, Trade-offs, and Failure Modes",
+            "summary": "Speculative Decoding (SD) accelerates large language model inference by allowing a lightweight draft model to propose tokens that are subsequently verified in parallel by a larger target model. Recent approaches introduce lossy verification schemes to further improve efficiency by relaxing strict di",
+            "published": "2026-07-29",
+            "url": "http://arxiv.org/abs/2607.26627v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -3055,7 +3072,7 @@
       "flash attention",
       "speculative decoding"
     ],
-    "last_watered": "2026-07-29T11:52:31.009095"
+    "last_watered": "2026-07-30T11:44:21.089005"
   },
   "gnn": {
     "name": "Graph Neural Networks",
