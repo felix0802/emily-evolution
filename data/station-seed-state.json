@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 212,
+  "_rotation_idx": 213,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 34,
@@ -837,8 +837,8 @@
   },
   "htm": {
     "name": "HTM",
-    "total_papers_found": 36,
-    "watering_count": 24,
+    "total_papers_found": 38,
+    "watering_count": 25,
     "history": [
       {
         "timestamp": "2026-07-07T08:08:03.935545",
@@ -1283,6 +1283,30 @@
             "seed_match_score": 1
           }
         ]
+      },
+      {
+        "timestamp": "2026-07-31T19:03:41.455515",
+        "papers_found": 2,
+        "duplicates": 1,
+        "irrelevant_filtered": 7,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "CORE: In-Context Reconstruction for Unified Tabular Anomaly Detection",
+            "summary": "Tabular anomaly detection (TAD), which focuses on identifying abnormal samples that deviate from the majority in tabular data, has received growing attention. Recently, there has been an emerging trend towards unified TAD, which seeks to detect anomalies across different datasets using a single gene",
+            "published": "2026-07-30",
+            "url": "http://arxiv.org/abs/2607.27615v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "INCLAIR: Inception-Based Longitudinal Clinical Anomaly Detection with Informed Reasoning",
+            "summary": "Detecting anomalies in longitudinal clinical profiles is clinically important but difficult: abnormal evidence is often sparse, patient histories have unequal length, and expert explanations are costly. We propose INCLAIR, a framework that scores each observation against multiple historical contexts",
+            "published": "2026-07-29",
+            "url": "http://arxiv.org/abs/2607.27487v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -1297,7 +1321,7 @@
       "anomaly detection",
       "continuous learning"
     ],
-    "last_watered": "2026-07-30T19:06:06.502426"
+    "last_watered": "2026-07-31T19:03:41.455510"
   },
   "spiking-nn": {
     "name": "Spiking Neural Networks",

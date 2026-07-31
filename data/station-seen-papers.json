@@ -15630,7 +15630,38 @@
         "structure"
       ],
       "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.27615v1",
+      "title": "CORE: In-Context Reconstruction for Unified Tabular Anomaly Detection",
+      "arxiv_id": "2607.27615",
+      "tokens": [
+        "anomaly",
+        "context",
+        "core",
+        "detection",
+        "reconstruction",
+        "tabular",
+        "unified"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.27487v1",
+      "title": "INCLAIR: Inception-Based Longitudinal Clinical Anomaly Detection with Informed Reasoning",
+      "arxiv_id": "2607.27487",
+      "tokens": [
+        "anomaly",
+        "clinical",
+        "detection",
+        "inception",
+        "inclair",
+        "informed",
+        "longitudinal",
+        "reasoning"
+      ],
+      "first_seen_round": 165
     }
   ],
-  "total_unique": 976
+  "total_unique": 978
 }
