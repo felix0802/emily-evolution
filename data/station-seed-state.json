@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 211,
+  "_rotation_idx": 212,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 34,
@@ -420,8 +420,8 @@
   },
   "liquid-networks": {
     "name": "Liquid Networks",
-    "total_papers_found": 36,
-    "watering_count": 24,
+    "total_papers_found": 40,
+    "watering_count": 25,
     "history": [
       {
         "timestamp": "2026-07-06T21:47:31.917958",
@@ -793,6 +793,37 @@
         "avg_relevance": 0.0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-07-31T17:16:06.284402",
+        "papers_found": 4,
+        "duplicates": 5,
+        "irrelevant_filtered": 1,
+        "avg_relevance": 1.25,
+        "high_relevance": 1,
+        "papers": [
+          {
+            "title": "Enhancing Irregular Time Series Forecasting with Continuous-Time Modeling Framework",
+            "summary": "Irregular multivariate time series are widely encountered in applications such as healthcare monitoring, human activity recognition, and environmental sensing. Their core challenges stem from asynchronous observations, non-uniform sampling intervals, and the fact that temporal patterns themselves ca",
+            "published": "2026-07-30",
+            "url": "http://arxiv.org/abs/2607.28035v1",
+            "seed_match_score": 2
+          },
+          {
+            "title": "ODEWorld: A Continuous Predictive Architecture via Physical-Time Flow",
+            "summary": "In the physical world we inhabit, space and time are fundamentally continuous. However, existing machine learning paradigms for world modeling are largely confined to discrete-time prediction, thereby exhibiting significant inefficiency in capturing the dynamics of physical world. We introduce Physi",
+            "published": "2026-07-30",
+            "url": "http://arxiv.org/abs/2607.27924v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Strategies for Milestone-driven Start-ups in Multi-activity Settings",
+            "summary": "New venture start-ups need to ``survive'' through multiple stages of reaching milestone targets. We investigate the strategies for start-ups in a milestone-oriented setting. We examine a model of an entrepreneurial start-up firm, where its state is captured by a diffusion process. The entrepreneur c",
+            "published": "2026-07-30",
+            "url": "http://arxiv.org/abs/2607.27563v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -802,7 +833,7 @@
       "ode",
       "continuous-time"
     ],
-    "last_watered": "2026-07-30T17:12:28.354806"
+    "last_watered": "2026-07-31T17:16:06.284397"
   },
   "htm": {
     "name": "HTM",
