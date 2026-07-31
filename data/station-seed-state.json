@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 207,
+  "_rotation_idx": 208,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 34,
@@ -2590,8 +2590,8 @@
   },
   "moe": {
     "name": "Mixture of Experts",
-    "total_papers_found": 20,
-    "watering_count": 17,
+    "total_papers_found": 22,
+    "watering_count": 18,
     "history": [
       {
         "timestamp": "2026-07-15T09:46:58.985365",
@@ -2887,6 +2887,30 @@
             "seed_match_score": 2
           }
         ]
+      },
+      {
+        "timestamp": "2026-07-31T08:28:46.281926",
+        "papers_found": 2,
+        "duplicates": 4,
+        "irrelevant_filtered": 4,
+        "avg_relevance": 2.0,
+        "high_relevance": 2,
+        "papers": [
+          {
+            "title": "Beyond Geometric Complementarity: Coherent Overlap in Sparse Mixture-of-Experts Routing",
+            "summary": "Sparse mixture-of-experts (MoE) language models route each token to multiple experts, suggesting a geometric account of their benefit: co-selected experts should contribute distinct representation directions. Existing evidence often conflates route coherence, candidate quality, and candidate-by-cont",
+            "published": "2026-07-30",
+            "url": "http://arxiv.org/abs/2607.28308v1",
+            "seed_match_score": 2
+          },
+          {
+            "title": "TIER-MoE: Trust-Informed Expert Routing via Conditional Modality Risk for Multimodal Fusion in Biomedical Classification",
+            "summary": "The promise of multimodal fusion lies in combining complementary sources of evidence, yet more evidence does not always yield a better prediction. Recent multimodal models have advanced fusion through richer cross-modal interaction and sample-adaptive fusion. However, the influence assigned to a mod",
+            "published": "2026-07-29",
+            "url": "http://arxiv.org/abs/2607.27289v1",
+            "seed_match_score": 2
+          }
+        ]
       }
     ],
     "keywords": [
@@ -2898,7 +2922,7 @@
       "switch transformer",
       "deepseek"
     ],
-    "last_watered": "2026-07-30T08:03:09.873912"
+    "last_watered": "2026-07-31T08:28:46.281920"
   },
   "kv-cache": {
     "name": "KV Cache Optimization",

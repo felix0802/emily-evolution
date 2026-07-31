@@ -15368,7 +15368,44 @@
         "regularizing"
       ],
       "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.28308v1",
+      "title": "Beyond Geometric Complementarity: Coherent Overlap in Sparse Mixture-of-Experts Routing",
+      "arxiv_id": "2607.28308",
+      "tokens": [
+        "coherent",
+        "complementarity",
+        "experts",
+        "geometric",
+        "mixture",
+        "overlap",
+        "routing",
+        "sparse"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.27289v1",
+      "title": "TIER-MoE: Trust-Informed Expert Routing via Conditional Modality Risk for Multimodal Fusion in Biomedical Classification",
+      "arxiv_id": "2607.27289",
+      "tokens": [
+        "biomedical",
+        "classification",
+        "conditional",
+        "expert",
+        "fusion",
+        "informed",
+        "modality",
+        "moe",
+        "multimodal",
+        "risk",
+        "routing",
+        "tier",
+        "trust"
+      ],
+      "first_seen_round": 165
     }
   ],
-  "total_unique": 960
+  "total_unique": 962
 }
