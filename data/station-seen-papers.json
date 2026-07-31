@@ -15490,7 +15490,84 @@
         "speculative"
       ],
       "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.28537v1",
+      "title": "Graph Neural Network Force Fields for Spin Dynamics in Metallic Magnets",
+      "arxiv_id": "2607.28537",
+      "tokens": [
+        "dynamics",
+        "fields",
+        "force",
+        "graph",
+        "magnets",
+        "metallic",
+        "neural",
+        "spin"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.28525v1",
+      "title": "Same Graph Cross-Task Transfer in GNNs: Protocols and Predictors",
+      "arxiv_id": "2607.28525",
+      "tokens": [
+        "cross",
+        "gnns",
+        "graph",
+        "predictors",
+        "protocols",
+        "task",
+        "transfer"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.28456v1",
+      "title": "Graph Neural Multilevel Preconditioners for Iterative Solvers",
+      "arxiv_id": "2607.28456",
+      "tokens": [
+        "graph",
+        "iterative",
+        "multilevel",
+        "neural",
+        "preconditioners",
+        "solvers"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.28397v1",
+      "title": "GLM-RAG: Graph Language Models for Graph-Based Retrieval-Augmented Generation",
+      "arxiv_id": "2607.28397",
+      "tokens": [
+        "augmented",
+        "generation",
+        "glm",
+        "graph",
+        "graph",
+        "language",
+        "rag",
+        "retrieval"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.28185v1",
+      "title": "Persistent Gaussian Perturbations Prevent Oversmoothing in Recurrent Graph Neural Networks",
+      "arxiv_id": "2607.28185",
+      "tokens": [
+        "gaussian",
+        "graph",
+        "neural",
+        "oversmoothing",
+        "persistent",
+        "perturbations",
+        "prevent",
+        "recurrent"
+      ],
+      "first_seen_round": 165
     }
   ],
-  "total_unique": 967
+  "total_unique": 972
 }

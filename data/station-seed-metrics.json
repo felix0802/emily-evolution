@@ -303,16 +303,16 @@
   },
   "gnn": {
     "name": "Graph Neural Networks",
-    "total_new_papers": 37,
-    "total_watering": 18,
+    "total_new_papers": 42,
+    "total_watering": 19,
     "all_keywords_matched": [
       "geometric",
-      "node embedding",
-      "message passing",
-      "graph neural",
-      "gnn",
       "graph attention",
-      "graph transformer"
+      "graph transformer",
+      "graph neural",
+      "message passing",
+      "node embedding",
+      "gnn"
     ],
     "avg_relevance_trend": [
       0.0,
@@ -332,9 +332,10 @@
       0.0,
       1.5,
       1.75,
-      3.0
+      3.0,
+      1.6
     ],
-    "high_relevance_total": 20,
+    "high_relevance_total": 22,
     "best_papers": [
       {
         "title": "Local-Global Geometric Insights for Graph Neural Networks via Entropic Curvature",
@@ -355,9 +356,14 @@
         "title": "Automorphism-Induced Non-Canonicity in Top-k Explanations of Graph Neural Networks",
         "score": 3,
         "published": "2026-07-28"
+      },
+      {
+        "title": "Persistent Gaussian Perturbations Prevent Oversmoothing in Recurrent Graph Neural Networks",
+        "score": 3,
+        "published": "2026-07-30"
       }
     ],
-    "last_updated": "2026-07-30T13:21:46.281525"
+    "last_updated": "2026-07-31T13:25:35.959165"
   },
   "moe": {
     "name": "Mixture of Experts",

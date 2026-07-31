@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 209,
+  "_rotation_idx": 210,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 34,
@@ -3247,8 +3247,8 @@
   },
   "gnn": {
     "name": "Graph Neural Networks",
-    "total_papers_found": 37,
-    "watering_count": 19,
+    "total_papers_found": 42,
+    "watering_count": 20,
     "history": [
       {
         "timestamp": "2026-07-15T15:16:02.082257",
@@ -3570,6 +3570,37 @@
             "seed_match_score": 3
           }
         ]
+      },
+      {
+        "timestamp": "2026-07-31T13:25:35.959646",
+        "papers_found": 5,
+        "duplicates": 0,
+        "irrelevant_filtered": 5,
+        "avg_relevance": 1.6,
+        "high_relevance": 2,
+        "papers": [
+          {
+            "title": "Graph Neural Network Force Fields for Spin Dynamics in Metallic Magnets",
+            "summary": "Metallic magnets exhibit complex spin dynamics governed by electronically generated interactions. Predictive simulations of such dynamics typically require repeated solutions of an underlying electronic problem throughout the time evolution, creating a major computational bottleneck. Here we introdu",
+            "published": "2026-07-30",
+            "url": "http://arxiv.org/abs/2607.28537v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Same Graph Cross-Task Transfer in GNNs: Protocols and Predictors",
+            "summary": "Many real-world graphs support multiple predictive tasks over the same underlying structure, creating an opportunity to reuse supervision across node classification (NC) and link prediction (LP). However, existing evaluations often rely on incompatible splits, observed-graph assumptions, and negativ",
+            "published": "2026-07-30",
+            "url": "http://arxiv.org/abs/2607.28525v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Graph Neural Multilevel Preconditioners for Iterative Solvers",
+            "summary": "Solving large, sparse linear systems is a core task in scientific computing, and efficient iterative solvers rely critically on effective and robust preconditioning. While classical methods such as algebraic multigrid (AMG) are highly scalable, their robustness can degrade on indefinite or nonsymmet",
+            "published": "2026-07-30",
+            "url": "http://arxiv.org/abs/2607.28456v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -3581,6 +3612,6 @@
       "node embedding",
       "graph transformer"
     ],
-    "last_watered": "2026-07-30T13:21:46.282099"
+    "last_watered": "2026-07-31T13:25:35.959641"
   }
 }
