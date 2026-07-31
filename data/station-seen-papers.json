@@ -15405,7 +15405,92 @@
         "trust"
       ],
       "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.28495v1",
+      "title": "Stage-Replay Divergence Follows the KV Cache: Fixed-Prefix Precision Controls and Bidirectional Cache Transplantation",
+      "arxiv_id": "2607.28495",
+      "tokens": [
+        "bidirectional",
+        "cache",
+        "cache",
+        "controls",
+        "divergence",
+        "fixed",
+        "follows",
+        "precision",
+        "prefix",
+        "replay",
+        "stage",
+        "transplantation"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.27735v1",
+      "title": "A Sparse Glimpse of the Whole: Train-Free Self-Speculative Decoding",
+      "arxiv_id": "2607.27735",
+      "tokens": [
+        "decoding",
+        "free",
+        "glimpse",
+        "self",
+        "sparse",
+        "speculative",
+        "train",
+        "whole"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.27692v1",
+      "title": "Recall Before You Rank: Similarity-Guided Top-$K$ Reuse for Efficient Long-Context Attention",
+      "arxiv_id": "2607.27692",
+      "tokens": [
+        "attention",
+        "context",
+        "guided",
+        "long",
+        "rank",
+        "recall",
+        "reuse",
+        "similarity",
+        "top"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.27600v1",
+      "title": "Back from the Future: Key-Value Cache Management by Counter-Causal Surprise",
+      "arxiv_id": "2607.27600",
+      "tokens": [
+        "back",
+        "cache",
+        "causal",
+        "counter",
+        "future",
+        "key",
+        "management",
+        "surprise",
+        "value"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.27269v1",
+      "title": "Beyond KV Reconstruction: Functional Reconstruction for MLA Draft Models in Speculative Decoding",
+      "arxiv_id": "2607.27269",
+      "tokens": [
+        "decoding",
+        "draft",
+        "functional",
+        "mla",
+        "reconstruction",
+        "reconstruction",
+        "speculative"
+      ],
+      "first_seen_round": 165
     }
   ],
-  "total_unique": 962
+  "total_unique": 967
 }

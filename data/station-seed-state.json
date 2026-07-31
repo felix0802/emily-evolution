@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 208,
+  "_rotation_idx": 209,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 34,
@@ -2926,8 +2926,8 @@
   },
   "kv-cache": {
     "name": "KV Cache Optimization",
-    "total_papers_found": 19,
-    "watering_count": 18,
+    "total_papers_found": 24,
+    "watering_count": 19,
     "history": [
       {
         "timestamp": "2026-07-15T11:19:09.355556",
@@ -3201,6 +3201,37 @@
             "seed_match_score": 1
           }
         ]
+      },
+      {
+        "timestamp": "2026-07-31T11:51:00.588786",
+        "papers_found": 5,
+        "duplicates": 1,
+        "irrelevant_filtered": 4,
+        "avg_relevance": 1.4,
+        "high_relevance": 1,
+        "papers": [
+          {
+            "title": "Stage-Replay Divergence Follows the KV Cache: Fixed-Prefix Precision Controls and Bidirectional Cache Transplantation",
+            "summary": "Stage-replay diagnostics reconstruct intermediate token prefixes and treat fresh-prefill continuation as continuation from the decoder state that originally reached the prefix. We audit that assumption at a whole reasoning-stage boundary in a Qwen2.5-derived system. A matched 200-item experiment com",
+            "published": "2026-07-30",
+            "url": "http://arxiv.org/abs/2607.28495v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "A Sparse Glimpse of the Whole: Train-Free Self-Speculative Decoding",
+            "summary": "Speculative decoding alleviates the memory-bandwidth bottleneck in large language model inference, but its acceleration is jointly constrained by drafting overhead, token acceptance, and speculation length. We present a unified efficiency analysis showing that extending the speculation horizon can r",
+            "published": "2026-07-30",
+            "url": "http://arxiv.org/abs/2607.27735v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Recall Before You Rank: Similarity-Guided Top-$K$ Reuse for Efficient Long-Context Attention",
+            "summary": "Top-$K$ sparse attention reduces the cost of Softmax and value aggregation by attending to only a small subset of key--value (KV) entries. However, identifying this subset still requires scoring the current query against the full KV cache and performing global Top-$K$ selection, leaving selector cos",
+            "published": "2026-07-30",
+            "url": "http://arxiv.org/abs/2607.27692v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -3212,7 +3243,7 @@
       "flash attention",
       "speculative decoding"
     ],
-    "last_watered": "2026-07-30T11:44:21.089005"
+    "last_watered": "2026-07-31T11:51:00.588781"
   },
   "gnn": {
     "name": "Graph Neural Networks",

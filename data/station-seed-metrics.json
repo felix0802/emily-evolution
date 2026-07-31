@@ -405,12 +405,12 @@
   },
   "kv-cache": {
     "name": "KV Cache Optimization",
-    "total_new_papers": 19,
-    "total_watering": 17,
+    "total_new_papers": 24,
+    "total_watering": 18,
     "all_keywords_matched": [
-      "gqa",
-      "speculative decoding",
       "key-value cache",
+      "speculative decoding",
+      "gqa",
       "kv cache"
     ],
     "avg_relevance_trend": [
@@ -430,10 +430,17 @@
       1.0,
       1.0,
       1.0,
-      1.0
+      1.0,
+      1.4
     ],
-    "high_relevance_total": 2,
-    "best_papers": [],
-    "last_updated": "2026-07-30T11:44:21.088695"
+    "high_relevance_total": 3,
+    "best_papers": [
+      {
+        "title": "Beyond KV Reconstruction: Functional Reconstruction for MLA Draft Models in Speculative Decoding",
+        "score": 3,
+        "published": "2026-07-29"
+      }
+    ],
+    "last_updated": "2026-07-31T11:51:00.588307"
   }
 }
