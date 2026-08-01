@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 223,
+  "_rotation_idx": 224,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 34,
@@ -1353,7 +1353,7 @@
   "spiking-nn": {
     "name": "Spiking Neural Networks",
     "total_papers_found": 17,
-    "watering_count": 24,
+    "watering_count": 25,
     "history": [
       {
         "timestamp": "2026-07-07T08:54:38.442223",
@@ -1668,6 +1668,15 @@
         "avg_relevance": 0.0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-08-01T18:49:22.602707",
+        "papers_found": 0,
+        "duplicates": 9,
+        "irrelevant_filtered": 1,
+        "avg_relevance": 0.0,
+        "high_relevance": 0,
+        "papers": []
       }
     ],
     "keywords": [
@@ -1676,7 +1685,7 @@
       "neuromorphic",
       "spike-timing"
     ],
-    "last_watered": "2026-07-31T20:50:31.900689"
+    "last_watered": "2026-08-01T18:49:22.602703"
   },
   "non-transformer": {
     "name": "Non-Transformer Arch",
