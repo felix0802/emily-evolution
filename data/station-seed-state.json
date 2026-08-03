@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 242,
+  "_rotation_idx": 243,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 34,
@@ -891,8 +891,8 @@
   },
   "htm": {
     "name": "HTM",
-    "total_papers_found": 38,
-    "watering_count": 27,
+    "total_papers_found": 39,
+    "watering_count": 28,
     "history": [
       {
         "timestamp": "2026-07-07T08:08:03.935545",
@@ -1379,6 +1379,23 @@
         "avg_relevance": 0.0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-08-03T19:14:56.282071",
+        "papers_found": 1,
+        "duplicates": 3,
+        "irrelevant_filtered": 6,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "Exploring Block Anomaly Detection In HDFS Log Data Analysis",
+            "summary": "In recent years, with the development of big data technology, increasingly more companies use HDFS for data processing and storage. As a result, the maintenance of distributed file systems has become an extremely important part of data management. As the function of server systems is becoming increa",
+            "published": "2026-07-31",
+            "url": "http://arxiv.org/abs/2607.29383v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -1393,7 +1410,7 @@
       "anomaly detection",
       "continuous learning"
     ],
-    "last_watered": "2026-08-02T14:53:06.551346"
+    "last_watered": "2026-08-03T19:14:56.282066"
   },
   "spiking-nn": {
     "name": "Spiking Neural Networks",
