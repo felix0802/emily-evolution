@@ -15661,7 +15661,276 @@
         "reasoning"
       ],
       "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.29621v1",
+      "title": "CENDRe: Concept Extraction with Natural Domain Representations",
+      "arxiv_id": "2607.29621",
+      "tokens": [
+        "cendre",
+        "concept",
+        "domain",
+        "extraction",
+        "natural",
+        "representations"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.29617v1",
+      "title": "When Does On-Policy Interaction Help? Representational Tradeoffs in Value-Based Imitation Learning",
+      "arxiv_id": "2607.29617",
+      "tokens": [
+        "help",
+        "imitation",
+        "interaction",
+        "policy",
+        "representational",
+        "tradeoffs",
+        "value"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.29614v1",
+      "title": "A Human-Centered Validation of the Explainability-Performance Coefficient",
+      "arxiv_id": "2607.29614",
+      "tokens": [
+        "centered",
+        "coefficient",
+        "explainability",
+        "human",
+        "performance",
+        "validation"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.29606v1",
+      "title": "QASP: Query-Adaptive Robust Vector Search Policy",
+      "arxiv_id": "2607.29606",
+      "tokens": [
+        "adaptive",
+        "policy",
+        "qasp",
+        "query",
+        "robust",
+        "search",
+        "vector"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.29601v1",
+      "title": "The Parts Are Greater Than the Sum: Automated Task Sequencing for Efficient Training of Multi-Policy LLMs",
+      "arxiv_id": "2607.29601",
+      "tokens": [
+        "automated",
+        "greater",
+        "llms",
+        "multi",
+        "parts",
+        "policy",
+        "sequencing",
+        "sum",
+        "task",
+        "training"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.29593v1",
+      "title": "Convergence and Regret of the Policy Gradient for Multi-Armed Bandits in Diffusion Environment",
+      "arxiv_id": "2607.29593",
+      "tokens": [
+        "armed",
+        "bandits",
+        "convergence",
+        "diffusion",
+        "environment",
+        "gradient",
+        "multi",
+        "policy",
+        "regret"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.29592v1",
+      "title": "TOOD: Task-Aware Out-of-Distribution Score Calibration for Continual Learners",
+      "arxiv_id": "2607.29592",
+      "tokens": [
+        "aware",
+        "calibration",
+        "continual",
+        "distribution",
+        "learners",
+        "score",
+        "task",
+        "tood"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.29577v1",
+      "title": "DungeonBench: A Benchmark for Rules-Rich Tactical Reasoning in Dungeons & Dragons Combat",
+      "arxiv_id": "2607.29577",
+      "tokens": [
+        "benchmark",
+        "combat",
+        "dragons",
+        "dungeonbench",
+        "dungeons",
+        "reasoning",
+        "rich",
+        "rules",
+        "tactical"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.29642v1",
+      "title": "Evolving language compositionality in a frequency-structured meaning space",
+      "arxiv_id": "2607.29642",
+      "tokens": [
+        "compositionality",
+        "evolving",
+        "frequency",
+        "language",
+        "meaning",
+        "space",
+        "structured"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.29613v1",
+      "title": "WCM: A World Critic Model for Vision-Language-Action Reinforcement Learning",
+      "arxiv_id": "2607.29613",
+      "tokens": [
+        "action",
+        "critic",
+        "language",
+        "reinforcement",
+        "vision",
+        "wcm",
+        "world"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.29602v1",
+      "title": "FriendBench: Benchmarking Dyadic Familiarity Inference in Humans and Multimodal Large Language Models",
+      "arxiv_id": "2607.29602",
+      "tokens": [
+        "benchmarking",
+        "dyadic",
+        "familiarity",
+        "friendbench",
+        "humans",
+        "inference",
+        "language",
+        "multimodal"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.29591v1",
+      "title": "ResKV: Reconstructing Omitted Attention Contributions for Fixed-Budget KV Cache Compression",
+      "arxiv_id": "2607.29591",
+      "tokens": [
+        "attention",
+        "budget",
+        "cache",
+        "compression",
+        "contributions",
+        "fixed",
+        "omitted",
+        "reconstructing",
+        "reskv"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.29585v1",
+      "title": "Sycophancy Undermines Epistemic Vigilance in Cooperative Vision-Language Tasks",
+      "arxiv_id": "2607.29585",
+      "tokens": [
+        "cooperative",
+        "epistemic",
+        "language",
+        "sycophancy",
+        "tasks",
+        "undermines",
+        "vigilance",
+        "vision"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.29539v1",
+      "title": "ARB: A Matched Authorship-Rewriting Benchmark Dataset for AI-Text Detector Evaluation",
+      "arxiv_id": "2607.29539",
+      "tokens": [
+        "arb",
+        "authorship",
+        "benchmark",
+        "dataset",
+        "detector",
+        "evaluation",
+        "matched",
+        "rewriting",
+        "text"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.29484v1",
+      "title": "Evidence-Type Competition: When Can Interventional Data Teach Language Models Causal Direction?",
+      "arxiv_id": "2607.29484",
+      "tokens": [
+        "causal",
+        "competition",
+        "direction",
+        "evidence",
+        "interventional",
+        "language",
+        "teach",
+        "type"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.29433v1",
+      "title": "Know It, Act on It: Investigating Memory Utilization in LLM Personalization",
+      "arxiv_id": "2607.29433",
+      "tokens": [
+        "act",
+        "investigating",
+        "know",
+        "llm",
+        "memory",
+        "personalization",
+        "utilization"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.29462v1",
+      "title": "MoPET: Parameter-Efficient Mixture-of-Experts for Unified Medical Image Classification",
+      "arxiv_id": "2607.29462",
+      "tokens": [
+        "classification",
+        "experts",
+        "image",
+        "medical",
+        "mixture",
+        "mopet",
+        "parameter",
+        "unified"
+      ],
+      "first_seen_round": 165
     }
   ],
-  "total_unique": 978
+  "total_unique": 995
 }
