@@ -16087,7 +16087,63 @@
         "translators"
       ],
       "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.29510v1",
+      "title": "Ordered-to-disordered transfer learning with graph neural networks for formation-energy and HOMO-LUMO gap prediction in high-entropy perovskite oxides",
+      "arxiv_id": "2607.29510",
+      "tokens": [
+        "disordered",
+        "energy",
+        "entropy",
+        "formation",
+        "gap",
+        "graph",
+        "high",
+        "homo",
+        "lumo",
+        "neural",
+        "ordered",
+        "oxides",
+        "perovskite",
+        "prediction",
+        "transfer"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.29293v1",
+      "title": "Assessing the Generalization of Graph Neural Networks for Fault Location Across Increasing Distributed Energy Resource Penetration Levels",
+      "arxiv_id": "2607.29293",
+      "tokens": [
+        "assessing",
+        "distributed",
+        "energy",
+        "fault",
+        "generalization",
+        "graph",
+        "increasing",
+        "levels",
+        "location",
+        "neural",
+        "penetration",
+        "resource"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.28925v1",
+      "title": "Learning Optimal Dynamic Matching via Graph Neural Networks",
+      "arxiv_id": "2607.28925",
+      "tokens": [
+        "dynamic",
+        "graph",
+        "matching",
+        "neural",
+        "optimal"
+      ],
+      "first_seen_round": 165
     }
   ],
-  "total_unique": 1005
+  "total_unique": 1008
 }
