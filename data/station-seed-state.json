@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 238,
+  "_rotation_idx": 239,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 34,
@@ -3187,8 +3187,8 @@
   },
   "kv-cache": {
     "name": "KV Cache Optimization",
-    "total_papers_found": 24,
-    "watering_count": 21,
+    "total_papers_found": 25,
+    "watering_count": 22,
     "history": [
       {
         "timestamp": "2026-07-15T11:19:09.355556",
@@ -3511,6 +3511,23 @@
         "avg_relevance": 0.0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-08-03T05:26:46.021669",
+        "papers_found": 1,
+        "duplicates": 5,
+        "irrelevant_filtered": 4,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "Mixture-of-Translators: Translating KV Caches Across Heterogeneous Large Language Models",
+            "summary": "Heterogeneous Large Language Model (LLM) systems increasingly rely on shared contexts, retrieved evidence, and multi-agent dialogue histories, yet their internal key-value (KV) caches remain model-specific and cannot be reused across architectures. Consequently, each model must repeatedly prefill or",
+            "published": "2026-07-31",
+            "url": "http://arxiv.org/abs/2607.28979v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -3522,7 +3539,7 @@
       "flash attention",
       "speculative decoding"
     ],
-    "last_watered": "2026-08-02T08:00:19.398644"
+    "last_watered": "2026-08-03T05:26:46.021663"
   },
   "gnn": {
     "name": "Graph Neural Networks",
