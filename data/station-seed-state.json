@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 249,
+  "_rotation_idx": 250,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 34,
@@ -3713,8 +3713,8 @@
   },
   "gnn": {
     "name": "Graph Neural Networks",
-    "total_papers_found": 45,
-    "watering_count": 23,
+    "total_papers_found": 50,
+    "watering_count": 24,
     "history": [
       {
         "timestamp": "2026-07-15T15:16:02.082257",
@@ -4116,6 +4116,37 @@
             "seed_match_score": 1
           }
         ]
+      },
+      {
+        "timestamp": "2026-08-04T13:40:29.174020",
+        "papers_found": 5,
+        "duplicates": 2,
+        "irrelevant_filtered": 3,
+        "avg_relevance": 1.4,
+        "high_relevance": 1,
+        "papers": [
+          {
+            "title": "CoRe-GNN: Multilevel Message passing on Coarsened graphs",
+            "summary": "Training Graph Neural Networks on large graphs is challenged by the memory cost of storing all node representations across layers. We show that several existing scalable approaches can be written as structured modifications of the GNN propagation matrix, providing a unified perspective that exposes ",
+            "published": "2026-08-03",
+            "url": "http://arxiv.org/abs/2608.02128v1",
+            "seed_match_score": 3
+          },
+          {
+            "title": "Hybrid Lagrangian-Eulerian Model for Lagrangian Fluid Simulation",
+            "summary": "Pure Lagrangian neural simulators offer geometric flexibility and exact advection, making them well-suited for modeling moving domains and free surfaces. However, the absence of a fixed global reference frame introduces two severe limitations: a spatial bottleneck, in which model capacity is wasted ",
+            "published": "2026-08-02",
+            "url": "http://arxiv.org/abs/2608.01164v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Differentiable Lifting for Topological Neural Networks",
+            "summary": "Topological neural networks (TNNs) enable leveraging high-order structures on graphs (e.g., cycles and cliques) to boost the expressive power of message-passing neural networks. In turn, however, these structures are typically identified a priori through an unsupervised graph lifting operation. Notw",
+            "published": "2026-08-02",
+            "url": "http://arxiv.org/abs/2608.01160v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -4127,6 +4158,6 @@
       "node embedding",
       "graph transformer"
     ],
-    "last_watered": "2026-08-03T08:57:28.426532"
+    "last_watered": "2026-08-04T13:40:29.174017"
   }
 }
