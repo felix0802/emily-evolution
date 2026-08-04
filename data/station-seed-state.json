@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 246,
+  "_rotation_idx": 247,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 34,
@@ -2465,8 +2465,8 @@
   },
   "continual-learning": {
     "name": "Continual Learning",
-    "total_papers_found": 33,
-    "watering_count": 25,
+    "total_papers_found": 38,
+    "watering_count": 26,
     "history": [
       {
         "timestamp": "2026-07-07T13:06:50.870963",
@@ -2880,6 +2880,37 @@
         "avg_relevance": 0.0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-08-04T04:52:18.187402",
+        "papers_found": 5,
+        "duplicates": 2,
+        "irrelevant_filtered": 3,
+        "avg_relevance": 1.4,
+        "high_relevance": 2,
+        "papers": [
+          {
+            "title": "Plasticity of Growing and Elastic Neural Networks in Online Continual Learning",
+            "summary": "Neural networks that can grow or both grow and shrink during learning, referred to as growing neural networks and elastic neural networks, respectively, have recently been explored in offline continual learning with a particular focus on catastrophic forgetting. Driven by the observations that 1) on",
+            "published": "2026-08-02",
+            "url": "http://arxiv.org/abs/2608.01475v1",
+            "seed_match_score": 2
+          },
+          {
+            "title": "AdaHAT: Adaptive Hard Attention to the Task in Task-Incremental Learning",
+            "summary": "Catastrophic forgetting is a major problem in task-incremental learning, where neural networks tend to overwrite previously learned knowledge when trained on new tasks. A number of architecture-based approaches have been proposed to address this problem. However, the architecture-based approaches su",
+            "published": "2026-08-02",
+            "url": "http://arxiv.org/abs/2608.01252v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Relative Parameter Importance in Task-Agnostic Replay-Free Continual Learning",
+            "summary": "Achieving continual learning (CL) with deep neural networks requires balancing stability and plasticity while enabling knowledge transfer. In this work, we focus on offline learning algorithms under the constraints: (I) no access to training data from prior tasks (II) no access to task-id at inferen",
+            "published": "2026-08-01",
+            "url": "http://arxiv.org/abs/2608.00630v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -2889,7 +2920,7 @@
       "ewc",
       "elastic weight"
     ],
-    "last_watered": "2026-08-02T22:43:06.891482"
+    "last_watered": "2026-08-04T04:52:18.187397"
   },
   "moe": {
     "name": "Mixture of Experts",
