@@ -16157,7 +16157,261 @@
         "log"
       ],
       "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.01075v1",
+      "title": "Role-Decoupled Attention Residuals: Separating Matching and Content Retrieval Across Depth",
+      "arxiv_id": "2608.01075",
+      "tokens": [
+        "attention",
+        "content",
+        "decoupled",
+        "depth",
+        "matching",
+        "residuals",
+        "retrieval",
+        "role",
+        "separating"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.01056v1",
+      "title": "Control Under Compression: Reliability Frontiers for Tool-Using Agents",
+      "arxiv_id": "2608.01056",
+      "tokens": [
+        "agents",
+        "compression",
+        "control",
+        "frontiers",
+        "reliability",
+        "tool"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.01055v1",
+      "title": "Credit the Right Box: Marginal Contribution Assignment for Structured Visual Perception",
+      "arxiv_id": "2608.01055",
+      "tokens": [
+        "assignment",
+        "box",
+        "contribution",
+        "credit",
+        "marginal",
+        "perception",
+        "right",
+        "structured",
+        "visual"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.01050v1",
+      "title": "Don't Offer What Can't Be Done: Deterministic Executability Gating for LLM Skill Selection at Scale",
+      "arxiv_id": "2608.01050",
+      "tokens": [
+        "deterministic",
+        "don",
+        "done",
+        "executability",
+        "gating",
+        "llm",
+        "offer",
+        "scale",
+        "selection",
+        "skill"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.01049v1",
+      "title": "FactorJEPA: Factorizing Monolithic Futures into Layout-Agent-Interaction Channels for Crowded and Chaotic Global South Urban Worlds",
+      "arxiv_id": "2608.01049",
+      "tokens": [
+        "agent",
+        "channels",
+        "chaotic",
+        "crowded",
+        "factorizing",
+        "factorjepa",
+        "futures",
+        "global",
+        "interaction",
+        "layout",
+        "monolithic",
+        "south",
+        "urban",
+        "worlds"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.01046v1",
+      "title": "DeBERTa-Sentinel: Toward Transparent and Trustworthy Detection of AI-Generated Text",
+      "arxiv_id": "2608.01046",
+      "tokens": [
+        "deberta",
+        "detection",
+        "generated",
+        "sentinel",
+        "text",
+        "transparent",
+        "trustworthy"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.01043v1",
+      "title": "Decoy Images Amplify Caption-Mediated Defenses Against Encoded Jailbreaks",
+      "arxiv_id": "2608.01043",
+      "tokens": [
+        "against",
+        "amplify",
+        "caption",
+        "decoy",
+        "defenses",
+        "encoded",
+        "images",
+        "jailbreaks",
+        "mediated"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.01042v1",
+      "title": "What Could the Agent See at 19:05? Generating Temporal Enterprise Scenarios from Real Research and Replaying Them to Evaluate Agents",
+      "arxiv_id": "2608.01042",
+      "tokens": [
+        "agent",
+        "agents",
+        "enterprise",
+        "evaluate",
+        "generating",
+        "real",
+        "replaying",
+        "research",
+        "scenarios",
+        "see",
+        "temporal"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.01034v1",
+      "title": "Opt.Gear Technical Report",
+      "arxiv_id": "2608.01034",
+      "tokens": [
+        "gear",
+        "opt",
+        "report",
+        "technical"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.01021v1",
+      "title": "Can Humans Dream of Electric Sheep? Human-Written Samples for Fine-Grained Vision-and-Language Hallucination Benchmarking",
+      "arxiv_id": "2608.01021",
+      "tokens": [
+        "benchmarking",
+        "dream",
+        "electric",
+        "fine",
+        "grained",
+        "hallucination",
+        "human",
+        "humans",
+        "language",
+        "samples",
+        "sheep",
+        "vision",
+        "written"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.01017v1",
+      "title": "Why LLMs Give In: Conversational Factors and Reasoning Behind Medical Sycophancy",
+      "arxiv_id": "2608.01017",
+      "tokens": [
+        "behind",
+        "conversational",
+        "factors",
+        "give",
+        "llms",
+        "medical",
+        "reasoning",
+        "sycophancy",
+        "why"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.01014v1",
+      "title": "Cloud-ScPO: Hidden-State Geometry for Semi-Supervised Preference Optimization in LLM Reasoning",
+      "arxiv_id": "2608.01014",
+      "tokens": [
+        "cloud",
+        "geometry",
+        "hidden",
+        "llm",
+        "optimization",
+        "preference",
+        "reasoning",
+        "scpo",
+        "semi",
+        "state",
+        "supervised"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.01012v1",
+      "title": "MedUPS: Towards Diagnostic Assistance in Uncommon Medical Cases with Large Language Models",
+      "arxiv_id": "2608.01012",
+      "tokens": [
+        "assistance",
+        "cases",
+        "diagnostic",
+        "language",
+        "medical",
+        "medups",
+        "uncommon"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.29353v1",
+      "title": "Versatile On-device Adaptation at the Edge by Unifying Few-shot, Zero-shot, Continual, and In-context Learning",
+      "arxiv_id": "2607.29353",
+      "tokens": [
+        "adaptation",
+        "context",
+        "continual",
+        "device",
+        "edge",
+        "shot",
+        "shot",
+        "unifying",
+        "versatile",
+        "zero"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2607.28849v1",
+      "title": "Hypergradient-based Bilevel Reinforcement Learning with Improved Sample Complexity",
+      "arxiv_id": "2607.28849",
+      "tokens": [
+        "bilevel",
+        "complexity",
+        "hypergradient",
+        "reinforcement",
+        "sample"
+      ],
+      "first_seen_round": 165
     }
   ],
-  "total_unique": 1009
+  "total_unique": 1024
 }

@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 245,
+  "_rotation_idx": 246,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 34,
@@ -2088,8 +2088,8 @@
   },
   "few-shot": {
     "name": "Few-Shot Learning",
-    "total_papers_found": 20,
-    "watering_count": 26,
+    "total_papers_found": 22,
+    "watering_count": 27,
     "history": [
       {
         "timestamp": "2026-07-07T13:04:52.717562",
@@ -2428,6 +2428,30 @@
         "avg_relevance": 0.0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-08-04T01:16:25.095307",
+        "papers_found": 2,
+        "duplicates": 3,
+        "irrelevant_filtered": 5,
+        "avg_relevance": 1.5,
+        "high_relevance": 1,
+        "papers": [
+          {
+            "title": "Versatile On-device Adaptation at the Edge by Unifying Few-shot, Zero-shot, Continual, and In-context Learning",
+            "summary": "With the ever-increasing pervasiveness of smart edge devices, the demand is growing for applications that can be tailored to users (e.g., custom keyword spotting) or patients (e.g., adaptive health monitoring). Yet, most edge devices rely on fixed inference algorithms and thus cannot learn on-device",
+            "published": "2026-07-31",
+            "url": "http://arxiv.org/abs/2607.29353v1",
+            "seed_match_score": 2
+          },
+          {
+            "title": "Hypergradient-based Bilevel Reinforcement Learning with Improved Sample Complexity",
+            "summary": "Bilevel reinforcement learning (RL) is an important framework within the literature of RL that can be used to formalize various categories of problems, such as meta-learning, hierarchical task decomposition, and reinforcement learning from human feedback (RL-HF). Most of the bilevel RL algorithms ar",
+            "published": "2026-07-30",
+            "url": "http://arxiv.org/abs/2607.28849v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -2437,7 +2461,7 @@
       "prototypical",
       "in-context"
     ],
-    "last_watered": "2026-08-02T20:40:59.880180"
+    "last_watered": "2026-08-04T01:16:25.095302"
   },
   "continual-learning": {
     "name": "Continual Learning",
