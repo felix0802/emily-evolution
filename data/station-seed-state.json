@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 251,
+  "_rotation_idx": 252,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 34,
@@ -456,8 +456,8 @@
   },
   "liquid-networks": {
     "name": "Liquid Networks",
-    "total_papers_found": 40,
-    "watering_count": 28,
+    "total_papers_found": 42,
+    "watering_count": 29,
     "history": [
       {
         "timestamp": "2026-07-06T21:47:31.917958",
@@ -887,6 +887,30 @@
         "avg_relevance": 0.0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-08-04T19:15:47.438358",
+        "papers_found": 2,
+        "duplicates": 6,
+        "irrelevant_filtered": 2,
+        "avg_relevance": 1.5,
+        "high_relevance": 1,
+        "papers": [
+          {
+            "title": "One-Sided Quantile Coupling for Flow Matching",
+            "summary": "Flow Matching trains continuous-time generative models by regressing the velocity field of a probability path between a simple source distribution and a target data distribution. The coupling that pairs source and target samples strongly affects optimization and sample quality, but structured coupli",
+            "published": "2026-08-02",
+            "url": "http://arxiv.org/abs/2608.00978v1",
+            "seed_match_score": 2
+          },
+          {
+            "title": "CoSynFlow: Conformal Symplectic Neural Flows for Cross-System Prediction of Dissipative Hamiltonian Dynamics",
+            "summary": "Learning solution operators for differential equations is a central problem in scientific machine learning. However, many neural operator methods optimize prediction accuracy without explicitly enforcing the geometric structure of the dynamics. Structure-preserving models such as SympNets and Symple",
+            "published": "2026-08-01",
+            "url": "http://arxiv.org/abs/2608.00571v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -896,7 +920,7 @@
       "ode",
       "continuous-time"
     ],
-    "last_watered": "2026-08-03T16:13:02.731386"
+    "last_watered": "2026-08-04T19:15:47.438352"
   },
   "htm": {
     "name": "HTM",

@@ -17080,7 +17080,38 @@
         "signed"
       ],
       "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.00978v1",
+      "title": "One-Sided Quantile Coupling for Flow Matching",
+      "arxiv_id": "2608.00978",
+      "tokens": [
+        "coupling",
+        "flow",
+        "matching",
+        "quantile",
+        "sided"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.00571v1",
+      "title": "CoSynFlow: Conformal Symplectic Neural Flows for Cross-System Prediction of Dissipative Hamiltonian Dynamics",
+      "arxiv_id": "2608.00571",
+      "tokens": [
+        "conformal",
+        "cosynflow",
+        "cross",
+        "dissipative",
+        "dynamics",
+        "flows",
+        "hamiltonian",
+        "neural",
+        "prediction",
+        "symplectic"
+      ],
+      "first_seen_round": 165
     }
   ],
-  "total_unique": 1065
+  "total_unique": 1067
 }
