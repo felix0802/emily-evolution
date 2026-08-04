@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 248,
+  "_rotation_idx": 249,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 34,
@@ -3326,8 +3326,8 @@
   },
   "kv-cache": {
     "name": "KV Cache Optimization",
-    "total_papers_found": 25,
-    "watering_count": 22,
+    "total_papers_found": 32,
+    "watering_count": 23,
     "history": [
       {
         "timestamp": "2026-07-15T11:19:09.355556",
@@ -3667,6 +3667,37 @@
             "seed_match_score": 1
           }
         ]
+      },
+      {
+        "timestamp": "2026-08-04T11:53:11.106108",
+        "papers_found": 7,
+        "duplicates": 1,
+        "irrelevant_filtered": 2,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "From Chains to Trees: Parent-Conditioned Drafting for Semi-Autoregressive Speculative Decoding",
+            "summary": "Speculative decoding accelerates LLM inference only when drafted continuations survive target-model verification. Semi-autoregressive drafters such as DSpark predict an entire token block with one backbone forward and refine it with a lightweight Markov head. However, DSpark decodes this block as a ",
+            "published": "2026-08-03",
+            "url": "http://arxiv.org/abs/2608.02123v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Understanding Sparse Attention Selectivity in Long-Context Foundation Models via Counterfactual Evaluation",
+            "summary": "Sparse attention is widely deployed in long-context serving stacks, yet no framework audits how discarding blocks changes the influence of specific content on model output. We first establish that the phenomenon is real and causal: Block Sparse Flash Attention (BSFA) route replay across four archite",
+            "published": "2026-08-03",
+            "url": "http://arxiv.org/abs/2608.01676v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Bole: Efficient Tree Speculation for Hybrid-Attention Language Models",
+            "summary": "Hybrid-attention large language models combine full attention with recurrent linear attention to reduce long-context inference costs, yet their autoregressive decoding remains memory-bound. Tree speculative decoding offers an attractive acceleration path, but existing tree-speculation systems are de",
+            "published": "2026-08-03",
+            "url": "http://arxiv.org/abs/2608.01651v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -3678,7 +3709,7 @@
       "flash attention",
       "speculative decoding"
     ],
-    "last_watered": "2026-08-03T05:26:46.021663"
+    "last_watered": "2026-08-04T11:53:11.106105"
   },
   "gnn": {
     "name": "Graph Neural Networks",

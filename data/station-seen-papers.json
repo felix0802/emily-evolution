@@ -16892,7 +16892,120 @@
         "trimmoe"
       ],
       "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.02123v1",
+      "title": "From Chains to Trees: Parent-Conditioned Drafting for Semi-Autoregressive Speculative Decoding",
+      "arxiv_id": "2608.02123",
+      "tokens": [
+        "autoregressive",
+        "chains",
+        "conditioned",
+        "decoding",
+        "drafting",
+        "parent",
+        "semi",
+        "speculative",
+        "trees"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.01676v1",
+      "title": "Understanding Sparse Attention Selectivity in Long-Context Foundation Models via Counterfactual Evaluation",
+      "arxiv_id": "2608.01676",
+      "tokens": [
+        "attention",
+        "context",
+        "counterfactual",
+        "evaluation",
+        "foundation",
+        "long",
+        "selectivity",
+        "sparse",
+        "understanding"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.01651v1",
+      "title": "Bole: Efficient Tree Speculation for Hybrid-Attention Language Models",
+      "arxiv_id": "2608.01651",
+      "tokens": [
+        "attention",
+        "bole",
+        "hybrid",
+        "language",
+        "speculation",
+        "tree"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.01631v1",
+      "title": "Does Accuracy Equal Evidence? Reasoning Faithfulness under KV Cache Compression",
+      "arxiv_id": "2608.01631",
+      "tokens": [
+        "accuracy",
+        "cache",
+        "compression",
+        "equal",
+        "evidence",
+        "faithfulness",
+        "reasoning"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.01247v1",
+      "title": "RestoreKV: Recovering Full-Cache Behavior Under Aggressive Query-Agnostic KV Cache Eviction",
+      "arxiv_id": "2608.01247",
+      "tokens": [
+        "aggressive",
+        "agnostic",
+        "behavior",
+        "cache",
+        "cache",
+        "eviction",
+        "full",
+        "query",
+        "recovering",
+        "restorekv"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.00902v1",
+      "title": "Practical Online KV Cache Compaction for LLM Agents: An Empirical Study",
+      "arxiv_id": "2608.00902",
+      "tokens": [
+        "agents",
+        "cache",
+        "compaction",
+        "empirical",
+        "llm",
+        "online",
+        "practical"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.00528v1",
+      "title": "S$^4$R: Selective Sampling, Subspaces, and Sparse Reconstruction for Compressed Long-Context KV Caching",
+      "arxiv_id": "2608.00528",
+      "tokens": [
+        "caching",
+        "compressed",
+        "context",
+        "long",
+        "reconstruction",
+        "sampling",
+        "selective",
+        "sparse",
+        "subspaces"
+      ],
+      "first_seen_round": 165
     }
   ],
-  "total_unique": 1053
+  "total_unique": 1060
 }
