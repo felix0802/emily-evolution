@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 252,
+  "_rotation_idx": 253,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 34,
@@ -924,8 +924,8 @@
   },
   "htm": {
     "name": "HTM",
-    "total_papers_found": 39,
-    "watering_count": 28,
+    "total_papers_found": 43,
+    "watering_count": 29,
     "history": [
       {
         "timestamp": "2026-07-07T08:08:03.935545",
@@ -1429,6 +1429,37 @@
             "seed_match_score": 1
           }
         ]
+      },
+      {
+        "timestamp": "2026-08-04T21:00:11.217205",
+        "papers_found": 4,
+        "duplicates": 0,
+        "irrelevant_filtered": 6,
+        "avg_relevance": 1.5,
+        "high_relevance": 2,
+        "papers": [
+          {
+            "title": "CARE: A Cascaded Framework for Efficient and Reliable Time Series Anomaly Detection",
+            "summary": "While deep learning models have achieved state-of-the-art performance in time series anomaly detection, their complex architectures incur substantial inference overhead. Existing methods typically apply a uniform inference strategy across all data points, which is inefficient given that anomalies ar",
+            "published": "2026-08-03",
+            "url": "http://arxiv.org/abs/2608.01885v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "ReFP-AD: Rectified Flow Preconditioning for Energy-Based Anomaly Detection",
+            "summary": "Unified anomaly detection requires modeling highly heterogeneous normal data without access to anomalous samples. While foundation models like DINOv2 provide rich token representations, leveraging these spaces for explicit density estimation remains challenging. Energy-Based Models (EBMs) offer a pr",
+            "published": "2026-08-03",
+            "url": "http://arxiv.org/abs/2608.01793v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Recursive Gaussian Processes and the Bayesian Brain",
+            "summary": "Predictive coding offers a powerful framework for cortical computation, yet scalable implementations that respect both Bayesian exactness and neurobiological constraints remain scarce. We bridge this gap by formally connecting predictive coding to Recursive Gaussian Processes (RGPs). RGPs employ a s",
+            "published": "2026-08-01",
+            "url": "http://arxiv.org/abs/2608.00503v1",
+            "seed_match_score": 2
+          }
+        ]
       }
     ],
     "keywords": [
@@ -1443,7 +1474,7 @@
       "anomaly detection",
       "continuous learning"
     ],
-    "last_watered": "2026-08-03T19:14:56.282066"
+    "last_watered": "2026-08-04T21:00:11.217201"
   },
   "spiking-nn": {
     "name": "Spiking Neural Networks",
