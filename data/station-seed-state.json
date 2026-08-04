@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 247,
+  "_rotation_idx": 248,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 34,
@@ -2924,8 +2924,8 @@
   },
   "moe": {
     "name": "Mixture of Experts",
-    "total_papers_found": 23,
-    "watering_count": 21,
+    "total_papers_found": 28,
+    "watering_count": 22,
     "history": [
       {
         "timestamp": "2026-07-15T09:46:58.985365",
@@ -3280,6 +3280,37 @@
             "seed_match_score": 1
           }
         ]
+      },
+      {
+        "timestamp": "2026-08-04T08:13:41.926495",
+        "papers_found": 5,
+        "duplicates": 0,
+        "irrelevant_filtered": 5,
+        "avg_relevance": 1.8,
+        "high_relevance": 4,
+        "papers": [
+          {
+            "title": "STEAM:ASpatio-TEmporal Alignment Mixture-of-Experts Model with Hierarchical Pre-training for EEG Decoding",
+            "summary": "Brain-computer interfaces (BCIs) have been widely used in motor rehabilitation, disease diagnosis, and other neural engineering scenarios. However, conventional neural signal decoding algorithms often suffer from limited generalizability and high adaptation costs, motivating recent interest in BCI f",
+            "published": "2026-08-03",
+            "url": "http://arxiv.org/abs/2608.02070v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "REFLEX: Rethinking MoE Inference as Refinement-Aware Compute Allocation in Diffusion Language Models",
+            "summary": "Mixture-of-experts (MoE) models increase parameter capacity by activating only a small subset of experts for each token. This conditional-computation paradigm has enabled autoregressive language models to scale model capacity without a proportional increase in per-token computation. In diffusion lan",
+            "published": "2026-08-03",
+            "url": "http://arxiv.org/abs/2608.01784v1",
+            "seed_match_score": 2
+          },
+          {
+            "title": "Tevatron Meets Megatron: Expert-Parallel LLM Reranker Training on an Academic Budget",
+            "summary": "Modern reranking recipes---billion-scale cross-encoders, mixture-of-experts (MoE) backbones, and distillation against strong teachers---have outpaced the training infrastructure available to most academic groups. Existing Tevatron reranker training relies on the Hugging Face Trainer with DeepSpeed o",
+            "published": "2026-08-02",
+            "url": "http://arxiv.org/abs/2608.00916v1",
+            "seed_match_score": 2
+          }
+        ]
       }
     ],
     "keywords": [
@@ -3291,7 +3322,7 @@
       "switch transformer",
       "deepseek"
     ],
-    "last_watered": "2026-08-03T01:26:25.848431"
+    "last_watered": "2026-08-04T08:13:41.926490"
   },
   "kv-cache": {
     "name": "KV Cache Optimization",

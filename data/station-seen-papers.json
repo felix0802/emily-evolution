@@ -16803,7 +16803,96 @@
         "travel"
       ],
       "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.02070v1",
+      "title": "STEAM:ASpatio-TEmporal Alignment Mixture-of-Experts Model with Hierarchical Pre-training for EEG Decoding",
+      "arxiv_id": "2608.02070",
+      "tokens": [
+        "alignment",
+        "aspatio",
+        "decoding",
+        "eeg",
+        "experts",
+        "hierarchical",
+        "mixture",
+        "pre",
+        "steam",
+        "temporal",
+        "training"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.01784v1",
+      "title": "REFLEX: Rethinking MoE Inference as Refinement-Aware Compute Allocation in Diffusion Language Models",
+      "arxiv_id": "2608.01784",
+      "tokens": [
+        "allocation",
+        "aware",
+        "compute",
+        "diffusion",
+        "inference",
+        "language",
+        "moe",
+        "refinement",
+        "reflex",
+        "rethinking"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.00916v1",
+      "title": "Tevatron Meets Megatron: Expert-Parallel LLM Reranker Training on an Academic Budget",
+      "arxiv_id": "2608.00916",
+      "tokens": [
+        "academic",
+        "budget",
+        "expert",
+        "llm",
+        "meets",
+        "megatron",
+        "parallel",
+        "reranker",
+        "tevatron",
+        "training"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.00577v1",
+      "title": "HetRoute Heterogeneous and Cost-aware Collaborative Routing Framework for Distributed Edge MoE Inference",
+      "arxiv_id": "2608.00577",
+      "tokens": [
+        "aware",
+        "collaborative",
+        "cost",
+        "distributed",
+        "edge",
+        "heterogeneous",
+        "hetroute",
+        "inference",
+        "moe",
+        "routing"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.00573v1",
+      "title": "TrimMoE A communication aware and adaptive depth framework for distributed edge inference",
+      "arxiv_id": "2608.00573",
+      "tokens": [
+        "adaptive",
+        "aware",
+        "communication",
+        "depth",
+        "distributed",
+        "edge",
+        "inference",
+        "trimmoe"
+      ],
+      "first_seen_round": 165
     }
   ],
-  "total_unique": 1048
+  "total_unique": 1053
 }
