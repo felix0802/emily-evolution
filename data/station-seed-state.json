@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 253,
+  "_rotation_idx": 254,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 34,
@@ -1478,8 +1478,8 @@
   },
   "spiking-nn": {
     "name": "Spiking Neural Networks",
-    "total_papers_found": 17,
-    "watering_count": 27,
+    "total_papers_found": 19,
+    "watering_count": 28,
     "history": [
       {
         "timestamp": "2026-07-07T08:54:38.442223",
@@ -1821,6 +1821,30 @@
         "avg_relevance": 0.0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-08-04T22:50:51.184566",
+        "papers_found": 2,
+        "duplicates": 7,
+        "irrelevant_filtered": 1,
+        "avg_relevance": 2.0,
+        "high_relevance": 2,
+        "papers": [
+          {
+            "title": "Spike-HTR: Spiking Neural Transformer for Handwritten Text Recognition",
+            "summary": "Handwritten Text Recognition (HTR) is computationally imbalanced in two ways: most image pixels are background, and many width-axis sequence positions are blank-dominated. This creates a mismatch for Spiking Neural Networks (SNNs): handwriting is observed as a static image, whereas spiking computati",
+            "published": "2026-08-03",
+            "url": "http://arxiv.org/abs/2608.01646v1",
+            "seed_match_score": 2
+          },
+          {
+            "title": "SMM Transformer: Leveraging Spiking Neural Networks for Multimodal Tasks",
+            "summary": "Spiking Neural Networks (SNNs) enable event-driven computation with sparse activations, but building multimodal Transformers on SNNs is hindered by unstable training in deep spiking stacks and the mismatch between dense softmax attention and spike-based communication. We propose SMM Transformer, an ",
+            "published": "2026-08-03",
+            "url": "http://arxiv.org/abs/2608.01622v1",
+            "seed_match_score": 2
+          }
+        ]
       }
     ],
     "keywords": [
@@ -1829,7 +1853,7 @@
       "neuromorphic",
       "spike-timing"
     ],
-    "last_watered": "2026-08-03T20:52:01.363099"
+    "last_watered": "2026-08-04T22:50:51.184561"
   },
   "non-transformer": {
     "name": "Non-Transformer Arch",

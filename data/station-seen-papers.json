@@ -17169,7 +17169,38 @@
         "reflex"
       ],
       "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.01646v1",
+      "title": "Spike-HTR: Spiking Neural Transformer for Handwritten Text Recognition",
+      "arxiv_id": "2608.01646",
+      "tokens": [
+        "handwritten",
+        "htr",
+        "neural",
+        "recognition",
+        "spike",
+        "spiking",
+        "text",
+        "transformer"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.01622v1",
+      "title": "SMM Transformer: Leveraging Spiking Neural Networks for Multimodal Tasks",
+      "arxiv_id": "2608.01622",
+      "tokens": [
+        "leveraging",
+        "multimodal",
+        "neural",
+        "smm",
+        "spiking",
+        "tasks",
+        "transformer"
+      ],
+      "first_seen_round": 165
     }
   ],
-  "total_unique": 1071
+  "total_unique": 1073
 }
