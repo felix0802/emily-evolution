@@ -17632,7 +17632,82 @@
         "weighted"
       ],
       "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.03893v1",
+      "title": "Cross-Model KV Cache Transfer in LLM Families: A Closed-Form Linear Mapping for Prefill Reuse",
+      "arxiv_id": "2608.03893",
+      "tokens": [
+        "cache",
+        "closed",
+        "cross",
+        "families",
+        "form",
+        "linear",
+        "llm",
+        "mapping",
+        "prefill",
+        "reuse",
+        "transfer"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.03447v1",
+      "title": "Approximate Speculative Decoding",
+      "arxiv_id": "2608.03447",
+      "tokens": [
+        "approximate",
+        "decoding",
+        "speculative"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.03228v1",
+      "title": "SAKI: Score-Aware Low-Rank Key Indexing for Long-Context KV Retrieval",
+      "arxiv_id": "2608.03228",
+      "tokens": [
+        "aware",
+        "context",
+        "indexing",
+        "key",
+        "long",
+        "low",
+        "rank",
+        "retrieval",
+        "saki",
+        "score"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.02901v1",
+      "title": "AnchorKV: Anchor-Residual KV Cache Compression",
+      "arxiv_id": "2608.02901",
+      "tokens": [
+        "anchor",
+        "anchorkv",
+        "cache",
+        "compression",
+        "residual"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.02691v1",
+      "title": "Output-Aware Rotation for INT2 KV-Cache Quantization",
+      "arxiv_id": "2608.02691",
+      "tokens": [
+        "aware",
+        "cache",
+        "int2",
+        "output",
+        "quantization",
+        "rotation"
+      ],
+      "first_seen_round": 165
     }
   ],
-  "total_unique": 1100
+  "total_unique": 1105
 }
