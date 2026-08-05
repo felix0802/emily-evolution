@@ -17234,7 +17234,358 @@
         "stuck"
       ],
       "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.04007v1",
+      "title": "TurnSight: Turn-Level Hindsight Self-Distillation for Tool-Integrated Reasoning",
+      "arxiv_id": "2608.04007",
+      "tokens": [
+        "distillation",
+        "hindsight",
+        "integrated",
+        "level",
+        "reasoning",
+        "self",
+        "tool",
+        "turn",
+        "turnsight"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.04001v1",
+      "title": "Test-Time Scaling in Reasoning LLMs: Inference Regimes, Evaluation, and Reproducibility",
+      "arxiv_id": "2608.04001",
+      "tokens": [
+        "evaluation",
+        "inference",
+        "llms",
+        "reasoning",
+        "regimes",
+        "reproducibility",
+        "scaling",
+        "test",
+        "time"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.03983v1",
+      "title": "Can Large Language Models Recover Semantic Optimization Opportunities That Compilers Miss?",
+      "arxiv_id": "2608.03983",
+      "tokens": [
+        "compilers",
+        "language",
+        "miss",
+        "opportunities",
+        "optimization",
+        "recover",
+        "semantic"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.03979v1",
+      "title": "Video-DeepResearch: Towards the Next-Generation Multimodal Deepresearch Agent",
+      "arxiv_id": "2608.03979",
+      "tokens": [
+        "agent",
+        "deepresearch",
+        "deepresearch",
+        "generation",
+        "multimodal",
+        "next",
+        "video"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.03972v1",
+      "title": "ReflectRL: Learning from Golden Negative Trajectories via Reflective-to-Direct Reasoning",
+      "arxiv_id": "2608.03972",
+      "tokens": [
+        "direct",
+        "golden",
+        "negative",
+        "reasoning",
+        "reflective",
+        "reflectrl",
+        "trajectories"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.03970v1",
+      "title": "Should We Type or Talk to LLM Agents? A Comprehensive Study of Voice and Keyboard Input Perturbations",
+      "arxiv_id": "2608.03970",
+      "tokens": [
+        "agents",
+        "comprehensive",
+        "input",
+        "keyboard",
+        "llm",
+        "perturbations",
+        "talk",
+        "type",
+        "voice"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.03962v1",
+      "title": "Separating quantum circuits from classical LLMs",
+      "arxiv_id": "2608.03962",
+      "tokens": [
+        "circuits",
+        "classical",
+        "llms",
+        "quantum",
+        "separating"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.03961v1",
+      "title": "Interpretable Adaptive Sampling for LLM Test-Time Scaling",
+      "arxiv_id": "2608.03961",
+      "tokens": [
+        "adaptive",
+        "interpretable",
+        "llm",
+        "sampling",
+        "scaling",
+        "test",
+        "time"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.03990v1",
+      "title": "Assessment of Conditional Diffusion Model for Synthetic Histopathology Image Generation",
+      "arxiv_id": "2608.03990",
+      "tokens": [
+        "assessment",
+        "conditional",
+        "diffusion",
+        "generation",
+        "histopathology",
+        "image",
+        "synthetic"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.03967v1",
+      "title": "Information-Geometric Forward Policy Training in GFlowNets",
+      "arxiv_id": "2608.03967",
+      "tokens": [
+        "forward",
+        "geometric",
+        "gflownets",
+        "information",
+        "policy",
+        "training"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.03941v1",
+      "title": "Muon Meets Mamba: Spectral Optimization for State Space Models",
+      "arxiv_id": "2608.03941",
+      "tokens": [
+        "mamba",
+        "meets",
+        "muon",
+        "optimization",
+        "space",
+        "spectral",
+        "state"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.03930v1",
+      "title": "Logic Before Language: Pre-pretraining on Formal Derivations Fosters Skill Acquisition and Compressibility",
+      "arxiv_id": "2608.03930",
+      "tokens": [
+        "acquisition",
+        "compressibility",
+        "derivations",
+        "formal",
+        "fosters",
+        "language",
+        "logic",
+        "pre",
+        "pretraining",
+        "skill"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.03929v1",
+      "title": "Latent Reward Registers for Diffusion Preference Alignment",
+      "arxiv_id": "2608.03929",
+      "tokens": [
+        "alignment",
+        "diffusion",
+        "latent",
+        "preference",
+        "registers",
+        "reward"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.03928v1",
+      "title": "Robust Low-Tubal-Rank Tensor Completion under Cross-Concentrated Sampling",
+      "arxiv_id": "2608.03928",
+      "tokens": [
+        "completion",
+        "concentrated",
+        "cross",
+        "low",
+        "rank",
+        "robust",
+        "sampling",
+        "tensor",
+        "tubal"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.03927v1",
+      "title": "A Physics-Flavored Transformer Network for Parametrizing Contraction Dynamics of Engineered Skeletal Muscle Tissues",
+      "arxiv_id": "2608.03927",
+      "tokens": [
+        "contraction",
+        "dynamics",
+        "engineered",
+        "flavored",
+        "muscle",
+        "parametrizing",
+        "physics",
+        "skeletal",
+        "tissues",
+        "transformer"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.04010v1",
+      "title": "ParVL: Parallel Scaling and Expandable Compute Allocation for Multimodal LLMs",
+      "arxiv_id": "2608.04010",
+      "tokens": [
+        "allocation",
+        "compute",
+        "expandable",
+        "llms",
+        "multimodal",
+        "parallel",
+        "parvl",
+        "scaling"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.04009v1",
+      "title": "SocietyBench: Forecasting Counterfactual Social-World Evolution",
+      "arxiv_id": "2608.04009",
+      "tokens": [
+        "counterfactual",
+        "evolution",
+        "forecasting",
+        "social",
+        "societybench",
+        "world"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.04008v1",
+      "title": "WorldCup Arena: Prospective, Leakage-Free Evaluation of Frontier LLMs on a Live Tournament",
+      "arxiv_id": "2608.04008",
+      "tokens": [
+        "arena",
+        "evaluation",
+        "free",
+        "frontier",
+        "leakage",
+        "live",
+        "llms",
+        "prospective",
+        "tournament",
+        "worldcup"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.04003v1",
+      "title": "PAST-Bench: Benchmarking the Foundations of Recursive Self-Improvement in Personal Agents",
+      "arxiv_id": "2608.04003",
+      "tokens": [
+        "agents",
+        "bench",
+        "benchmarking",
+        "foundations",
+        "improvement",
+        "past",
+        "personal",
+        "recursive",
+        "self"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.03999v1",
+      "title": "Agogic: Performance-Timed Music Tokens for LLM-Native Text-to-Symbolic-Music Generation",
+      "arxiv_id": "2608.03999",
+      "tokens": [
+        "agogic",
+        "generation",
+        "llm",
+        "music",
+        "music",
+        "native",
+        "performance",
+        "symbolic",
+        "text",
+        "timed",
+        "tokens"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.03994v1",
+      "title": "When Attention Goes Blind: Numerical Failure in ALiBi Positional Encodings",
+      "arxiv_id": "2608.03994",
+      "tokens": [
+        "alibi",
+        "attention",
+        "blind",
+        "encodings",
+        "failure",
+        "goes",
+        "numerical",
+        "positional"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.03984v1",
+      "title": "string2string Studio: An Interactive, In-Browser Platform for String-to-String Algorithms",
+      "arxiv_id": "2608.03984",
+      "tokens": [
+        "algorithms",
+        "browser",
+        "interactive",
+        "platform",
+        "string",
+        "string",
+        "string2string",
+        "studio"
+      ],
+      "first_seen_round": 165
     }
   ],
-  "total_unique": 1075
+  "total_unique": 1097
 }

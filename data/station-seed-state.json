@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 255,
+  "_rotation_idx": 256,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 34,
@@ -2201,7 +2201,7 @@
   "few-shot": {
     "name": "Few-Shot Learning",
     "total_papers_found": 22,
-    "watering_count": 27,
+    "watering_count": 28,
     "history": [
       {
         "timestamp": "2026-07-07T13:04:52.717562",
@@ -2564,6 +2564,15 @@
             "seed_match_score": 1
           }
         ]
+      },
+      {
+        "timestamp": "2026-08-05T04:52:18.333479",
+        "papers_found": 0,
+        "duplicates": 5,
+        "irrelevant_filtered": 5,
+        "avg_relevance": 0.0,
+        "high_relevance": 0,
+        "papers": []
       }
     ],
     "keywords": [
@@ -2573,7 +2582,7 @@
       "prototypical",
       "in-context"
     ],
-    "last_watered": "2026-08-04T01:16:25.095302"
+    "last_watered": "2026-08-05T04:52:18.333474"
   },
   "continual-learning": {
     "name": "Continual Learning",
