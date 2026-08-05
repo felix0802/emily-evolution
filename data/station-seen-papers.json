@@ -17804,7 +17804,57 @@
         "training"
       ],
       "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.03041v1",
+      "title": "PLAN: Parallel Liquid-Inspired Approximation Network for Efficient Representation Learning in Flexible Job Shop Scheduling",
+      "arxiv_id": "2608.03041",
+      "tokens": [
+        "approximation",
+        "flexible",
+        "inspired",
+        "job",
+        "liquid",
+        "parallel",
+        "plan",
+        "representation",
+        "scheduling",
+        "shop"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.02799v1",
+      "title": "A Hyperfinite Framework for Score-Based Generative Modeling",
+      "arxiv_id": "2608.02799",
+      "tokens": [
+        "generative",
+        "hyperfinite",
+        "modeling",
+        "score"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.02663v1",
+      "title": "CT-HEG: A Bidirectional, Timestamp-Attributed Event Graph for ICU In-Hospital Mortality Prediction - An Architectural Ablation Study",
+      "arxiv_id": "2608.02663",
+      "tokens": [
+        "ablation",
+        "architectural",
+        "attributed",
+        "bidirectional",
+        "event",
+        "graph",
+        "heg",
+        "hospital",
+        "icu",
+        "mortality",
+        "prediction",
+        "timestamp"
+      ],
+      "first_seen_round": 165
     }
   ],
-  "total_unique": 1111
+  "total_unique": 1114
 }

@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 261,
+  "_rotation_idx": 262,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 37,
@@ -487,8 +487,8 @@
   },
   "liquid-networks": {
     "name": "Liquid Networks",
-    "total_papers_found": 42,
-    "watering_count": 29,
+    "total_papers_found": 45,
+    "watering_count": 30,
     "history": [
       {
         "timestamp": "2026-07-06T21:47:31.917958",
@@ -942,6 +942,37 @@
             "seed_match_score": 1
           }
         ]
+      },
+      {
+        "timestamp": "2026-08-05T19:10:58.841915",
+        "papers_found": 3,
+        "duplicates": 5,
+        "irrelevant_filtered": 2,
+        "avg_relevance": 1.67,
+        "high_relevance": 2,
+        "papers": [
+          {
+            "title": "PLAN: Parallel Liquid-Inspired Approximation Network for Efficient Representation Learning in Flexible Job Shop Scheduling",
+            "summary": "Deep reinforcement learning (DRL) approaches for flexible job shop scheduling (FJSP) heavily rely on attention-centric architectures to achieve state-of-the-art performance. However, these models suffer from excessive parameter counts and prohibitive inference latency as problem scales expand. While",
+            "published": "2026-08-04",
+            "url": "http://arxiv.org/abs/2608.03041v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "A Hyperfinite Framework for Score-Based Generative Modeling",
+            "summary": "Score-based diffusion models are typically formulated using continuous-time stochastic differential equations and measure-theoretic stochastic calculus. In this paper, we develop a hyperfinite formulation of score-based generative modeling within the framework of Nonstandard Analysis. Starting from ",
+            "published": "2026-08-03",
+            "url": "http://arxiv.org/abs/2608.02799v1",
+            "seed_match_score": 2
+          },
+          {
+            "title": "CT-HEG: A Bidirectional, Timestamp-Attributed Event Graph for ICU In-Hospital Mortality Prediction - An Architectural Ablation Study",
+            "summary": "Accurate ICU mortality prediction requires modeling irregular clinical observations across heterogeneous entity types. Existing sequence models handle irregular sampling but ignore typed relational structure; existing graph models assume fixed-interval inputs. We introduce the Continuous-Time Hetero",
+            "published": "2026-08-01",
+            "url": "http://arxiv.org/abs/2608.02663v1",
+            "seed_match_score": 2
+          }
+        ]
       }
     ],
     "keywords": [
@@ -951,7 +982,7 @@
       "ode",
       "continuous-time"
     ],
-    "last_watered": "2026-08-04T19:15:47.438352"
+    "last_watered": "2026-08-05T19:10:58.841910"
   },
   "htm": {
     "name": "HTM",
