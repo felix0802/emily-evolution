@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 256,
+  "_rotation_idx": 257,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 34,
@@ -2586,8 +2586,8 @@
   },
   "continual-learning": {
     "name": "Continual Learning",
-    "total_papers_found": 38,
-    "watering_count": 26,
+    "total_papers_found": 39,
+    "watering_count": 27,
     "history": [
       {
         "timestamp": "2026-07-07T13:06:50.870963",
@@ -3032,6 +3032,23 @@
             "seed_match_score": 1
           }
         ]
+      },
+      {
+        "timestamp": "2026-08-05T08:12:18.388015",
+        "papers_found": 1,
+        "duplicates": 4,
+        "irrelevant_filtered": 5,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "Field Aware Agent Skill Retrieval",
+            "summary": "As lifelong learning agents accumulate lifelong growing skill banks, retrieving the correct skill becomes an increasingly important bottleneck. Most current skill retrieval methods treat each skill as one flat document by concatenating fields such as the name, description, and body. However, skills ",
+            "published": "2026-08-03",
+            "url": "http://arxiv.org/abs/2608.02880v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -3041,7 +3058,7 @@
       "ewc",
       "elastic weight"
     ],
-    "last_watered": "2026-08-04T04:52:18.187397"
+    "last_watered": "2026-08-05T08:12:18.387991"
   },
   "moe": {
     "name": "Mixture of Experts",
