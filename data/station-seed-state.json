@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 254,
+  "_rotation_idx": 255,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 34,
@@ -1857,8 +1857,8 @@
   },
   "non-transformer": {
     "name": "Non-Transformer Arch",
-    "total_papers_found": 8,
-    "watering_count": 28,
+    "total_papers_found": 10,
+    "watering_count": 29,
     "history": [
       {
         "timestamp": "2026-07-07T10:14:36.288723",
@@ -2160,6 +2160,30 @@
         "avg_relevance": 0.0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-08-05T01:19:42.039921",
+        "papers_found": 2,
+        "duplicates": 4,
+        "irrelevant_filtered": 4,
+        "avg_relevance": 1.5,
+        "high_relevance": 1,
+        "papers": [
+          {
+            "title": "DART: Decoded Attention over Recurrent States for Efficient Long-Context Sequence Modeling",
+            "summary": "Modern language models are built primarily from Transformers, recurrent models, and their hybrid architectures. Transformers rely on token-level attention memories, while recurrent models such as state space models (SSMs) and linear attention maintain compact recurrent states. These architectures ar",
+            "published": "2026-08-03",
+            "url": "http://arxiv.org/abs/2608.02032v1",
+            "seed_match_score": 2
+          },
+          {
+            "title": "Stuck on \"A\": Diagnosing and Repairing Interface Injury in Attention-to-KDA Linearization of a 0.6B Language Model",
+            "summary": "We convert 21 of 28 full-attention layers of Qwen3-0.6B-Base into KDA (Kimi Delta Attention) linear-attention layers on a single consumer-grade GPU budget, and ask a simple question: what exactly does the conversion break? After surgery, hidden-state alignment and end-to-end KL distillation drive th",
+            "published": "2026-08-03",
+            "url": "http://arxiv.org/abs/2608.02689v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -2172,7 +2196,7 @@
       "sub-quadratic",
       "mamba"
     ],
-    "last_watered": "2026-08-03T22:48:33.749031"
+    "last_watered": "2026-08-05T01:19:42.039898"
   },
   "few-shot": {
     "name": "Few-Shot Learning",

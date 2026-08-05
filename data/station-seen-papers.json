@@ -17200,7 +17200,41 @@
         "transformer"
       ],
       "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.02032v1",
+      "title": "DART: Decoded Attention over Recurrent States for Efficient Long-Context Sequence Modeling",
+      "arxiv_id": "2608.02032",
+      "tokens": [
+        "attention",
+        "context",
+        "dart",
+        "decoded",
+        "long",
+        "modeling",
+        "recurrent",
+        "sequence",
+        "states"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.02689v1",
+      "title": "Stuck on \"A\": Diagnosing and Repairing Interface Injury in Attention-to-KDA Linearization of a 0.6B Language Model",
+      "arxiv_id": "2608.02689",
+      "tokens": [
+        "attention",
+        "diagnosing",
+        "injury",
+        "interface",
+        "kda",
+        "language",
+        "linearization",
+        "repairing",
+        "stuck"
+      ],
+      "first_seen_round": 165
     }
   ],
-  "total_unique": 1073
+  "total_unique": 1075
 }
