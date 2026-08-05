@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 262,
+  "_rotation_idx": 263,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 37,
@@ -986,8 +986,8 @@
   },
   "htm": {
     "name": "HTM",
-    "total_papers_found": 43,
-    "watering_count": 29,
+    "total_papers_found": 46,
+    "watering_count": 30,
     "history": [
       {
         "timestamp": "2026-07-07T08:08:03.935545",
@@ -1522,6 +1522,37 @@
             "seed_match_score": 2
           }
         ]
+      },
+      {
+        "timestamp": "2026-08-05T20:54:12.161861",
+        "papers_found": 3,
+        "duplicates": 2,
+        "irrelevant_filtered": 5,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "PRISM: Powerful Time Series to Image (TS2I) Representations for Multivariate Anomaly Detection",
+            "summary": "Time series anomaly detection (TSAD) underpins applications in predictive maintenance, finance, and cloud computing, however performance remains sensitive to representation choices, especially in multivariate settings. While transforming time series into images has shown success in forecasting and c",
+            "published": "2026-08-04",
+            "url": "http://arxiv.org/abs/2608.03926v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Shaping Wind-Tunnel Airflow for Unmanned Aerial Vehicles using Online Learning",
+            "summary": "The development and testing of advanced aerial robots require experiments in controlled environments with tailored airflow profiles. This paper presents an online learning algorithm for controlling the complex airflow field in a multi-fan vertical wind tunnel. Our method combines a simplified physic",
+            "published": "2026-08-04",
+            "url": "http://arxiv.org/abs/2608.03378v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Topological Simplification in Predictive Coding Networks",
+            "summary": "We study the topology of learned representations in predictive coding networks (PCNs), a neuro-inspired bidirectional architecture, using a quantitative layer-wise persistent homology analysis. We train well-performing PCNs on a synthetic classification dataset ($\\geq 99.9\\%$ test accuracy) and on M",
+            "published": "2026-08-03",
+            "url": "http://arxiv.org/abs/2608.02816v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -1536,7 +1567,7 @@
       "anomaly detection",
       "continuous learning"
     ],
-    "last_watered": "2026-08-04T21:00:11.217201"
+    "last_watered": "2026-08-05T20:54:12.161856"
   },
   "spiking-nn": {
     "name": "Spiking Neural Networks",
