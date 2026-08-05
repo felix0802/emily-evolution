@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 257,
+  "_rotation_idx": 258,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 34,
@@ -3062,8 +3062,8 @@
   },
   "moe": {
     "name": "Mixture of Experts",
-    "total_papers_found": 28,
-    "watering_count": 22,
+    "total_papers_found": 30,
+    "watering_count": 23,
     "history": [
       {
         "timestamp": "2026-07-15T09:46:58.985365",
@@ -3449,6 +3449,30 @@
             "seed_match_score": 2
           }
         ]
+      },
+      {
+        "timestamp": "2026-08-05T11:49:26.881983",
+        "papers_found": 2,
+        "duplicates": 3,
+        "irrelevant_filtered": 5,
+        "avg_relevance": 2.0,
+        "high_relevance": 2,
+        "papers": [
+          {
+            "title": "MoEGen: Mixture-of-Experts for Instance-Adaptive LoRA Generation",
+            "summary": "Parameter-efficient fine-tuning (PEFT) enables efficient adaptation of large language models, but existing MoE-based PEFT methods typically improve capacity by storing multiple full LoRA experts, causing adapter storage to grow linearly with the number of experts and restricting adaptation to a fixe",
+            "published": "2026-08-04",
+            "url": "http://arxiv.org/abs/2608.03275v1",
+            "seed_match_score": 2
+          },
+          {
+            "title": "AcceptMoE: Commitment-Weighted Self-Sizing Verifier Expert Sets for Efficient MoE Speculative Decoding",
+            "summary": "Speculative decoding verifies a tree of draft tokens in one target-model forward pass. For a mixture-of-experts (MoE) target, however, parallel verification can activate the union of the experts selected by all tree nodes, even though only a small subset of those nodes reaches the accepted output. T",
+            "published": "2026-08-04",
+            "url": "http://arxiv.org/abs/2608.02989v1",
+            "seed_match_score": 2
+          }
+        ]
       }
     ],
     "keywords": [
@@ -3460,7 +3484,7 @@
       "switch transformer",
       "deepseek"
     ],
-    "last_watered": "2026-08-04T08:13:41.926490"
+    "last_watered": "2026-08-05T11:49:26.881979"
   },
   "kv-cache": {
     "name": "KV Cache Optimization",

@@ -17598,7 +17598,41 @@
         "skill"
       ],
       "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.03275v1",
+      "title": "MoEGen: Mixture-of-Experts for Instance-Adaptive LoRA Generation",
+      "arxiv_id": "2608.03275",
+      "tokens": [
+        "adaptive",
+        "experts",
+        "generation",
+        "instance",
+        "lora",
+        "mixture",
+        "moegen"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.02989v1",
+      "title": "AcceptMoE: Commitment-Weighted Self-Sizing Verifier Expert Sets for Efficient MoE Speculative Decoding",
+      "arxiv_id": "2608.02989",
+      "tokens": [
+        "acceptmoe",
+        "commitment",
+        "decoding",
+        "expert",
+        "moe",
+        "self",
+        "sets",
+        "sizing",
+        "speculative",
+        "verifier",
+        "weighted"
+      ],
+      "first_seen_round": 165
     }
   ],
-  "total_unique": 1098
+  "total_unique": 1100
 }
