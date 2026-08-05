@@ -17707,7 +17707,59 @@
         "rotation"
       ],
       "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.02938v1",
+      "title": "When Should Graph Attention Be Sparse? Learning a Per-Edge Tsallis Index",
+      "arxiv_id": "2608.02938",
+      "tokens": [
+        "attention",
+        "edge",
+        "graph",
+        "index",
+        "per",
+        "sparse",
+        "tsallis"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.02769v1",
+      "title": "DAIF: A Data-Driven Intermediate Fusion Framework for Multimodal Supervised Learning via Approximate Message Passing",
+      "arxiv_id": "2608.02769",
+      "tokens": [
+        "approximate",
+        "daif",
+        "driven",
+        "fusion",
+        "intermediate",
+        "message",
+        "multimodal",
+        "passing",
+        "supervised"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.02709v1",
+      "title": "Designing a Good Virtual Node: Addressable and Cardinality-Preserving Global Memory for Message Passing Architectures",
+      "arxiv_id": "2608.02709",
+      "tokens": [
+        "addressable",
+        "architectures",
+        "cardinality",
+        "designing",
+        "global",
+        "good",
+        "memory",
+        "message",
+        "node",
+        "passing",
+        "preserving",
+        "virtual"
+      ],
+      "first_seen_round": 165
     }
   ],
-  "total_unique": 1105
+  "total_unique": 1108
 }

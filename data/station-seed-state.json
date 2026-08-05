@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 259,
+  "_rotation_idx": 260,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 34,
@@ -3906,8 +3906,8 @@
   },
   "gnn": {
     "name": "Graph Neural Networks",
-    "total_papers_found": 50,
-    "watering_count": 24,
+    "total_papers_found": 53,
+    "watering_count": 25,
     "history": [
       {
         "timestamp": "2026-07-15T15:16:02.082257",
@@ -4340,6 +4340,37 @@
             "seed_match_score": 1
           }
         ]
+      },
+      {
+        "timestamp": "2026-08-05T15:52:43.159979",
+        "papers_found": 3,
+        "duplicates": 2,
+        "irrelevant_filtered": 5,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "When Should Graph Attention Be Sparse? Learning a Per-Edge Tsallis Index",
+            "summary": "Graph attention normalizes neighborhood scores with softmax, the maximum-entropy choice under Shannon statistics. But homophilic and heterophilic graphs want different attention shapes, and one fixed normalization cannot serve both. We propose \\textbf{LTGA} (\\textbf{L}earnable \\textbf{T}sallis \\text",
+            "published": "2026-08-03",
+            "url": "http://arxiv.org/abs/2608.02938v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "DAIF: A Data-Driven Intermediate Fusion Framework for Multimodal Supervised Learning via Approximate Message Passing",
+            "summary": "Multimodal supervised learning seeks to leverage multiple heterogeneous data sources to improve predictive performance. A central challenge is determining the fusion granularity across modalities: over-integration may amplify noise while under-integration fails to exploit cross-modal dependence. Exi",
+            "published": "2026-08-03",
+            "url": "http://arxiv.org/abs/2608.02769v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Designing a Good Virtual Node: Addressable and Cardinality-Preserving Global Memory for Message Passing Architectures",
+            "summary": "Virtual nodes give message-passing neural networks a simple global communication route, but the standard node--VN--node pipeline compresses the graph into one homogeneous state and broadcasts it identically to every node. Building on the Two-Radius analysis of Mishayev et al., we ask how auxiliary v",
+            "published": "2026-08-03",
+            "url": "http://arxiv.org/abs/2608.02709v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -4351,6 +4382,6 @@
       "node embedding",
       "graph transformer"
     ],
-    "last_watered": "2026-08-04T13:40:29.174017"
+    "last_watered": "2026-08-05T15:52:43.159974"
   }
 }
