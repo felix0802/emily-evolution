@@ -1,9 +1,9 @@
 {
-  "_rotation_idx": 260,
+  "_rotation_idx": 261,
   "mamba": {
     "name": "Mamba (SSM)",
-    "total_papers_found": 34,
-    "watering_count": 29,
+    "total_papers_found": 37,
+    "watering_count": 30,
     "history": [
       {
         "timestamp": "2026-07-06T21:46:12.361778",
@@ -444,6 +444,37 @@
         "avg_relevance": 0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-08-05T17:16:06.470623",
+        "papers_found": 3,
+        "duplicates": 4,
+        "irrelevant_filtered": 3,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "State Propagation Also Satisfies: A Complex-Valued State-Space Model for Deterministic State Tracking",
+            "summary": "Transformer-based architectures have dominated sequence modeling, largely due to the expressive power of attention mechanisms. However, for a class of deterministic state tracking tasks---such as parity checking, modular counting, and parenthesis matching---attention may be overkill. In this paper, ",
+            "published": "2026-08-04",
+            "url": "http://arxiv.org/abs/2608.03425v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Mamba with Hierarchical Memory: Solving Representation Bottleneck in Long Sequence Modeling",
+            "summary": "Recurrent linear attention models (RLAs) such as Mamba offer efficient linear-time sequence modeling as an alternative to Transformers, yet their fixed-capacity recurrent states limit long-sequence modeling. Drawing inspiration from hierarchical human memory, we propose Hierarchical Memory Mamba (HM",
+            "published": "2026-08-03",
+            "url": "http://arxiv.org/abs/2608.02347v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Training nGPT",
+            "summary": "The normalized Transformer (nGPT) realizes hyperspherical representation learning by constraining model parameter vectors and activation vectors to the unit hypersphere. In this paper, we describe a practical training recipe for nGPT and evaluate it on modern hybrid Mamba-2--Transformer Mixture-of-E",
+            "published": "2026-08-02",
+            "url": "http://arxiv.org/abs/2608.01284v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -452,7 +483,7 @@
       "ssm",
       "selective scan"
     ],
-    "last_watered": "2026-08-04T16:04:48.030141"
+    "last_watered": "2026-08-05T17:16:06.470618"
   },
   "liquid-networks": {
     "name": "Liquid Networks",
