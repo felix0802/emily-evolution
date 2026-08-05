@@ -17900,7 +17900,24 @@
         "topological"
       ],
       "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.03324v1",
+      "title": "AS-FedBridge: Pseudo-Spike Bridge Distillation for Heterogeneous ANN-SNN Federated Learning",
+      "arxiv_id": "2608.03324",
+      "tokens": [
+        "ann",
+        "bridge",
+        "distillation",
+        "fedbridge",
+        "federated",
+        "heterogeneous",
+        "pseudo",
+        "snn",
+        "spike"
+      ],
+      "first_seen_round": 165
     }
   ],
-  "total_unique": 1117
+  "total_unique": 1118
 }

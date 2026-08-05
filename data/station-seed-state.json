@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 263,
+  "_rotation_idx": 264,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 37,
@@ -1571,8 +1571,8 @@
   },
   "spiking-nn": {
     "name": "Spiking Neural Networks",
-    "total_papers_found": 19,
-    "watering_count": 28,
+    "total_papers_found": 20,
+    "watering_count": 29,
     "history": [
       {
         "timestamp": "2026-07-07T08:54:38.442223",
@@ -1938,6 +1938,23 @@
             "seed_match_score": 2
           }
         ]
+      },
+      {
+        "timestamp": "2026-08-05T22:46:25.591648",
+        "papers_found": 1,
+        "duplicates": 8,
+        "irrelevant_filtered": 1,
+        "avg_relevance": 2.0,
+        "high_relevance": 1,
+        "papers": [
+          {
+            "title": "AS-FedBridge: Pseudo-Spike Bridge Distillation for Heterogeneous ANN-SNN Federated Learning",
+            "summary": "Federated learning enables collaborative model training across distributed edge devices while strictly preserving data privacy. To facilitate practical deployment on resource-constrained edge devices, Spiking Neural Networks (SNNs) have emerged as a promising alternative to traditional Artificial Ne",
+            "published": "2026-08-04",
+            "url": "http://arxiv.org/abs/2608.03324v1",
+            "seed_match_score": 2
+          }
+        ]
       }
     ],
     "keywords": [
@@ -1946,7 +1963,7 @@
       "neuromorphic",
       "spike-timing"
     ],
-    "last_watered": "2026-08-04T22:50:51.184561"
+    "last_watered": "2026-08-05T22:46:25.591645"
   },
   "non-transformer": {
     "name": "Non-Transformer Arch",
