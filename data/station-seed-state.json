@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 265,
+  "_rotation_idx": 266,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 37,
@@ -2319,8 +2319,8 @@
   },
   "few-shot": {
     "name": "Few-Shot Learning",
-    "total_papers_found": 22,
-    "watering_count": 28,
+    "total_papers_found": 23,
+    "watering_count": 29,
     "history": [
       {
         "timestamp": "2026-07-07T13:04:52.717562",
@@ -2692,6 +2692,23 @@
         "avg_relevance": 0.0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-08-06T04:52:33.195397",
+        "papers_found": 1,
+        "duplicates": 4,
+        "irrelevant_filtered": 5,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "BnBERT-iPET: Sparse Few-Shot Language Modeling for Bengali via Lottery Ticket Pruning",
+            "summary": "Deep neural networks have shown impressive success in NLP tasks owing to their complex structure and huge number of edges. Achieving state-of-the-art performance in natural language processing with a large pre-trained model such as BERT is expensive and time-consuming, carries a large carbon footpri",
+            "published": "2026-08-05",
+            "url": "http://arxiv.org/abs/2608.05104v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -2701,7 +2718,7 @@
       "prototypical",
       "in-context"
     ],
-    "last_watered": "2026-08-05T04:52:18.333474"
+    "last_watered": "2026-08-06T04:52:33.195361"
   },
   "continual-learning": {
     "name": "Continual Learning",
