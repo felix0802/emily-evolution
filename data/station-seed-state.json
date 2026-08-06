@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 266,
+  "_rotation_idx": 267,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 37,
@@ -2722,8 +2722,8 @@
   },
   "continual-learning": {
     "name": "Continual Learning",
-    "total_papers_found": 39,
-    "watering_count": 27,
+    "total_papers_found": 42,
+    "watering_count": 28,
     "history": [
       {
         "timestamp": "2026-07-07T13:06:50.870963",
@@ -3185,6 +3185,37 @@
             "seed_match_score": 1
           }
         ]
+      },
+      {
+        "timestamp": "2026-08-06T08:11:25.037152",
+        "papers_found": 3,
+        "duplicates": 3,
+        "irrelevant_filtered": 4,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "Continual-Learning Physics-Informed Neural Networks for Parameterized Partial Differential Equations",
+            "summary": "Physics-informed neural networks (PINNs) incorporate governing equations into neural-network training and can approximate PDE solutions without requiring large observational datasets. Parameterized PINNs (ParamPINNs) further take physical parameters as inputs, allowing a single model to represent a ",
+            "published": "2026-08-05",
+            "url": "http://arxiv.org/abs/2608.04778v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "NeuMoSync: End-to-End Neuromodulatory Control for Plasticity and Adaptability in Continual Learning",
+            "summary": "Continual learning (CL) requires models to learn tasks sequentially, yet deep neural networks often suffer from plasticity loss and poor knowledge transfer, which can impede their long-term adaptability. Drawing high-level inspiration from global neuromodulatory mechanisms in the brain, we introduce",
+            "published": "2026-08-05",
+            "url": "http://arxiv.org/abs/2608.04358v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "ATLAS: Adaptive Topological Learning with Abstract Successors for Continual Learning",
+            "summary": "Contemporary model-free reinforcement learning algorithms can achieve very high performance, but have low sample efficiency and are not robust to changes in the environment. Model-based algorithms have much higher sample efficiency, but still fail when the environment shifts. This paper introduces A",
+            "published": "2026-08-05",
+            "url": "http://arxiv.org/abs/2608.04334v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -3194,7 +3225,7 @@
       "ewc",
       "elastic weight"
     ],
-    "last_watered": "2026-08-05T08:12:18.387991"
+    "last_watered": "2026-08-06T08:11:25.037148"
   },
   "moe": {
     "name": "Mixture of Experts",

@@ -18360,7 +18360,53 @@
         "ticket"
       ],
       "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.04778v1",
+      "title": "Continual-Learning Physics-Informed Neural Networks for Parameterized Partial Differential Equations",
+      "arxiv_id": "2608.04778",
+      "tokens": [
+        "continual",
+        "differential",
+        "equations",
+        "informed",
+        "neural",
+        "parameterized",
+        "partial",
+        "physics"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.04358v1",
+      "title": "NeuMoSync: End-to-End Neuromodulatory Control for Plasticity and Adaptability in Continual Learning",
+      "arxiv_id": "2608.04358",
+      "tokens": [
+        "adaptability",
+        "continual",
+        "control",
+        "end",
+        "end",
+        "neumosync",
+        "neuromodulatory",
+        "plasticity"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.04334v1",
+      "title": "ATLAS: Adaptive Topological Learning with Abstract Successors for Continual Learning",
+      "arxiv_id": "2608.04334",
+      "tokens": [
+        "abstract",
+        "adaptive",
+        "atlas",
+        "continual",
+        "successors",
+        "topological"
+      ],
+      "first_seen_round": 165
     }
   ],
-  "total_unique": 1144
+  "total_unique": 1147
 }
