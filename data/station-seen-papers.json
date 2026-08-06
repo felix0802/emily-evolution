@@ -18473,7 +18473,60 @@
         "specialization"
       ],
       "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.04962v1",
+      "title": "SpecRoll: Fast-Slow Verifier-Feedback Adaptation for Speculative Reinforcement Learning Rollouts",
+      "arxiv_id": "2608.04962",
+      "tokens": [
+        "adaptation",
+        "fast",
+        "feedback",
+        "reinforcement",
+        "rollouts",
+        "slow",
+        "specroll",
+        "speculative",
+        "verifier"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.04893v1",
+      "title": "When Does Latent Communication Pay? A Causal Audit of Relayed KV Caches in Multi-Agent LLMs",
+      "arxiv_id": "2608.04893",
+      "tokens": [
+        "agent",
+        "audit",
+        "caches",
+        "causal",
+        "communication",
+        "latent",
+        "llms",
+        "multi",
+        "pay",
+        "relayed"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.04074v1",
+      "title": "Spend Bits Where Queries Look: KV Cache Vector Quantization with Attention-Preserving Transforms",
+      "arxiv_id": "2608.04074",
+      "tokens": [
+        "attention",
+        "bits",
+        "cache",
+        "look",
+        "preserving",
+        "quantization",
+        "queries",
+        "spend",
+        "transforms",
+        "vector"
+      ],
+      "first_seen_round": 165
     }
   ],
-  "total_unique": 1151
+  "total_unique": 1154
 }

@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 268,
+  "_rotation_idx": 269,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 37,
@@ -3686,8 +3686,8 @@
   },
   "kv-cache": {
     "name": "KV Cache Optimization",
-    "total_papers_found": 37,
-    "watering_count": 24,
+    "total_papers_found": 40,
+    "watering_count": 25,
     "history": [
       {
         "timestamp": "2026-07-15T11:19:09.355556",
@@ -4089,6 +4089,37 @@
             "seed_match_score": 1
           }
         ]
+      },
+      {
+        "timestamp": "2026-08-06T13:28:56.212506",
+        "papers_found": 3,
+        "duplicates": 5,
+        "irrelevant_filtered": 2,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "SpecRoll: Fast-Slow Verifier-Feedback Adaptation for Speculative Reinforcement Learning Rollouts",
+            "summary": "Reinforcement learning (RL) post-training improves the reasoning capabilities of large language models, but autoregressive rollout generation remains a major efficiency bottleneck. Speculative decoding can accelerate generation, yet applying it during RL is difficult because the target policy contin",
+            "published": "2026-08-05",
+            "url": "http://arxiv.org/abs/2608.04962v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "When Does Latent Communication Pay? A Causal Audit of Relayed KV Caches in Multi-Agent LLMs",
+            "summary": "Multi-agent LLM systems relay key--value caches instead of text and credit their gains to exchanged ``latent thoughts''. That credit is a claim about \\emph{which} example's cache is relayed, not merely that one is. We audit it causally in released systems. The cache is replaced with deranged (mismat",
+            "published": "2026-08-05",
+            "url": "http://arxiv.org/abs/2608.04893v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Spend Bits Where Queries Look: KV Cache Vector Quantization with Attention-Preserving Transforms",
+            "summary": "Long-context LLM decoding reads the key-value (KV) cache at every step. Loading it takes longer than computing attention over it, so throughput is bandwidth-bound. Hence, reducing the cache size can raise both decoding speed and serving capacity. The challenge is to reduce cache size while preservin",
+            "published": "2026-08-04",
+            "url": "http://arxiv.org/abs/2608.04074v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -4100,7 +4131,7 @@
       "flash attention",
       "speculative decoding"
     ],
-    "last_watered": "2026-08-05T13:30:18.987564"
+    "last_watered": "2026-08-06T13:28:56.212500"
   },
   "gnn": {
     "name": "Graph Neural Networks",
