@@ -308,19 +308,18 @@
   },
   "gnn": {
     "name": "Graph Neural Networks",
-    "total_new_papers": 53,
-    "total_watering": 23,
+    "total_new_papers": 58,
+    "total_watering": 24,
     "all_keywords_matched": [
-      "node embedding",
-      "graph transformer",
-      "graph neural",
-      "graph attention",
       "message passing",
+      "graph attention",
+      "node embedding",
+      "graph neural",
       "geometric",
-      "gnn"
+      "gnn",
+      "graph transformer"
     ],
     "avg_relevance_trend": [
-      0.0,
       0.0,
       1.67,
       0.0,
@@ -339,9 +338,10 @@
       0.0,
       1.33,
       1.4,
-      1.0
+      1.0,
+      1.6
     ],
-    "high_relevance_total": 24,
+    "high_relevance_total": 26,
     "best_papers": [
       {
         "title": "Local-Global Geometric Insights for Graph Neural Networks via Entropic Curvature",
@@ -372,9 +372,14 @@
         "title": "CoRe-GNN: Multilevel Message passing on Coarsened graphs",
         "score": 3,
         "published": "2026-08-03"
+      },
+      {
+        "title": "Tropical Algebraic Geometry for Neuronal Representations: An Arakelov-Green Measure Based Descriptor",
+        "score": 3,
+        "published": "2026-08-05"
       }
     ],
-    "last_updated": "2026-08-05T15:52:43.159468"
+    "last_updated": "2026-08-06T16:08:33.867836"
   },
   "moe": {
     "name": "Mixture of Experts",

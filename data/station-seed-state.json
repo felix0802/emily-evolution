@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 269,
+  "_rotation_idx": 270,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 37,
@@ -4135,8 +4135,8 @@
   },
   "gnn": {
     "name": "Graph Neural Networks",
-    "total_papers_found": 53,
-    "watering_count": 25,
+    "total_papers_found": 58,
+    "watering_count": 26,
     "history": [
       {
         "timestamp": "2026-07-15T15:16:02.082257",
@@ -4600,6 +4600,37 @@
             "seed_match_score": 1
           }
         ]
+      },
+      {
+        "timestamp": "2026-08-06T16:08:33.868416",
+        "papers_found": 5,
+        "duplicates": 1,
+        "irrelevant_filtered": 4,
+        "avg_relevance": 1.6,
+        "high_relevance": 2,
+        "papers": [
+          {
+            "title": "MarsCast: Transfer Learning of AI Weather Foundation Models to Planetary Atmospheres",
+            "summary": "We investigate the transferability of Earth weather foundation models to planetary atmospheres by adapting the GraphCast graph neural weather forecasting model to Mars. While GraphCast achieves state-of-the-art performance for terrestrial forecasting, its applicability to non-Earth environments rema",
+            "published": "2026-08-05",
+            "url": "http://arxiv.org/abs/2608.05054v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Tropical Algebraic Geometry for Neuronal Representations: An Arakelov-Green Measure Based Descriptor for Graph Learning",
+            "summary": "The quantitative analysis of 3D neuronal morphologies requires capturing both graph topology and spatial geometry. Current message-passing Graph Neural Networks (GNNs) are bounded by the 1-Weisfeiler-Lehman (1-WL) test, limiting their ability to capture cycles induced by spatial proximities. To addr",
+            "published": "2026-08-05",
+            "url": "http://arxiv.org/abs/2608.04460v1",
+            "seed_match_score": 3
+          },
+          {
+            "title": "Geometry-Informed Parameter-Efficient Fine-Tuning of Pre-trained Molecular GNNs for Blood-Brain Barrier Permeability Prediction",
+            "summary": "Blood-brain barrier permeability (BBBP) prediction is a critical screening task in central nervous system drug discovery, where candidate molecules must be assessed for whether they can cross, or should be prevented from crossing, the blood-brain barrier. However, this task remains challenging becau",
+            "published": "2026-08-04",
+            "url": "http://arxiv.org/abs/2608.04257v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -4611,6 +4642,6 @@
       "node embedding",
       "graph transformer"
     ],
-    "last_watered": "2026-08-05T15:52:43.159974"
+    "last_watered": "2026-08-06T16:08:33.868412"
   }
 }
