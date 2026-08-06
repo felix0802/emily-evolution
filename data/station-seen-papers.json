@@ -18406,7 +18406,74 @@
         "topological"
       ],
       "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.04454v1",
+      "title": "Beyond Global Routing Aggregation: Phase-Aware Expert Merging for MoE Vision-Language Models",
+      "arxiv_id": "2608.04454",
+      "tokens": [
+        "aggregation",
+        "aware",
+        "expert",
+        "global",
+        "language",
+        "merging",
+        "moe",
+        "phase",
+        "routing",
+        "vision"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.04407v1",
+      "title": "MESH: Memory-Efficient Sinkhorn Optimization for Mixture-of-Experts Training",
+      "arxiv_id": "2608.04407",
+      "tokens": [
+        "experts",
+        "memory",
+        "mesh",
+        "mixture",
+        "optimization",
+        "sinkhorn",
+        "training"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.04401v1",
+      "title": "Elbow-Based MoE Routing: A Training-Free Inference Time Plugin for Expert Selection",
+      "arxiv_id": "2608.04401",
+      "tokens": [
+        "elbow",
+        "expert",
+        "free",
+        "inference",
+        "moe",
+        "plugin",
+        "routing",
+        "selection",
+        "time",
+        "training"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.04084v1",
+      "title": "SpecDrop: Parameter-Free Category-Conditioned Routing for Modular Specialization",
+      "arxiv_id": "2608.04084",
+      "tokens": [
+        "category",
+        "conditioned",
+        "free",
+        "modular",
+        "parameter",
+        "routing",
+        "specdrop",
+        "specialization"
+      ],
+      "first_seen_round": 165
     }
   ],
-  "total_unique": 1147
+  "total_unique": 1151
 }

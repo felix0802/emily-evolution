@@ -378,16 +378,16 @@
   },
   "moe": {
     "name": "Mixture of Experts",
-    "total_new_papers": 30,
-    "total_watering": 22,
+    "total_new_papers": 34,
+    "total_watering": 23,
     "all_keywords_matched": [
-      "moe",
-      "mixture of experts",
       "expert routing",
-      "router"
+      "router",
+      "mixture of experts",
+      "deepseek",
+      "moe"
     ],
     "avg_relevance_trend": [
-      0.0,
       0.0,
       0.0,
       2.0,
@@ -406,9 +406,10 @@
       0.0,
       1.0,
       1.8,
-      2.0
+      2.0,
+      2.5
     ],
-    "high_relevance_total": 21,
+    "high_relevance_total": 25,
     "best_papers": [
       {
         "title": "Multi-level context Modeling for consistent expert selection in Mixture-of-Experts",
@@ -419,9 +420,19 @@
         "title": "MoE$^2$-LoRA: When MoE Models Meet MoE-style Low-Rank Adaptation",
         "score": 3,
         "published": "2026-07-24"
+      },
+      {
+        "title": "MESH: Memory-Efficient Sinkhorn Optimization for Mixture-of-Experts Training",
+        "score": 3,
+        "published": "2026-08-05"
+      },
+      {
+        "title": "SpecDrop: Parameter-Free Category-Conditioned Routing for Modular Specialization",
+        "score": 3,
+        "published": "2026-08-04"
       }
     ],
-    "last_updated": "2026-08-05T11:49:26.881565"
+    "last_updated": "2026-08-06T11:55:02.494299"
   },
   "kv-cache": {
     "name": "KV Cache Optimization",
