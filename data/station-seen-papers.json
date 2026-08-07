@@ -18610,7 +18610,423 @@
         "transformer"
       ],
       "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.06270v1",
+      "title": "The Illusion of Visual Tool-Use: A Causal Audit of Thinking with Images",
+      "arxiv_id": "2608.06270",
+      "tokens": [
+        "audit",
+        "causal",
+        "illusion",
+        "images",
+        "thinking",
+        "tool",
+        "use",
+        "visual"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.06265v1",
+      "title": "Improving the Realism of Synthetic Clinical Benchmarks Under Utility Constraints",
+      "arxiv_id": "2608.06265",
+      "tokens": [
+        "benchmarks",
+        "clinical",
+        "constraints",
+        "improving",
+        "realism",
+        "synthetic",
+        "utility"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.06252v1",
+      "title": "Toward Deployable Bangla Sign Language Recognition with Expert-Validated Data and a Lightweight Attention-Based Model",
+      "arxiv_id": "2608.06252",
+      "tokens": [
+        "attention",
+        "bangla",
+        "deployable",
+        "expert",
+        "language",
+        "lightweight",
+        "recognition",
+        "sign",
+        "validated"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.06243v1",
+      "title": "DASH: Divergence-Adaptive Supervision Horizons for On-Policy Self-Distillation of Reasoning Models",
+      "arxiv_id": "2608.06243",
+      "tokens": [
+        "adaptive",
+        "dash",
+        "distillation",
+        "divergence",
+        "horizons",
+        "policy",
+        "reasoning",
+        "self",
+        "supervision"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.06240v1",
+      "title": "PRISM: Distribution-Gated Flow Matching for Controllable Unpaired Image Translation",
+      "arxiv_id": "2608.06240",
+      "tokens": [
+        "controllable",
+        "distribution",
+        "flow",
+        "gated",
+        "image",
+        "matching",
+        "prism",
+        "translation",
+        "unpaired"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.06236v1",
+      "title": "Depth-Guided Video Object Counting in Crowded Scenes",
+      "arxiv_id": "2608.06236",
+      "tokens": [
+        "counting",
+        "crowded",
+        "depth",
+        "guided",
+        "object",
+        "scenes",
+        "video"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.06227v1",
+      "title": "From Passive Mirrors to Active Agents: Holonic Digital Twins for Physical AI over Networks",
+      "arxiv_id": "2608.06227",
+      "tokens": [
+        "active",
+        "agents",
+        "digital",
+        "holonic",
+        "mirrors",
+        "passive",
+        "physical",
+        "twins"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.06223v1",
+      "title": "TS-RAG: Retrieval Augmented Generation for Time Series Forecasting",
+      "arxiv_id": "2608.06223",
+      "tokens": [
+        "augmented",
+        "forecasting",
+        "generation",
+        "rag",
+        "retrieval",
+        "series",
+        "time"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.06276v1",
+      "title": "Stochastic Dynamics on Persistence Diagram Space via Reinforcement Learning",
+      "arxiv_id": "2608.06276",
+      "tokens": [
+        "diagram",
+        "dynamics",
+        "persistence",
+        "reinforcement",
+        "space",
+        "stochastic"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.06264v1",
+      "title": "OTLesMix: Wasserstein Barycenter and Optimal Transport Map for Synthetic Lesion Generation with Diverse Shapes and Locations",
+      "arxiv_id": "2608.06264",
+      "tokens": [
+        "barycenter",
+        "diverse",
+        "generation",
+        "lesion",
+        "locations",
+        "map",
+        "optimal",
+        "otlesmix",
+        "shapes",
+        "synthetic",
+        "transport",
+        "wasserstein"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.06262v1",
+      "title": "Hypothesis Testing with Conditional Queries: Learnability and the Value of Interaction",
+      "arxiv_id": "2608.06262",
+      "tokens": [
+        "conditional",
+        "hypothesis",
+        "interaction",
+        "learnability",
+        "queries",
+        "testing",
+        "value"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.06259v1",
+      "title": "RxnCLF: Contrastive Transformation-Aware Reaction Foundation Model for Improved Reactivity Prediction",
+      "arxiv_id": "2608.06259",
+      "tokens": [
+        "aware",
+        "contrastive",
+        "foundation",
+        "prediction",
+        "reaction",
+        "reactivity",
+        "rxnclf",
+        "transformation"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.06253v1",
+      "title": "MetaboLLM: a metabolomics-specialized large language model for biochemical knowledge integration and predictive metabolite graph construction",
+      "arxiv_id": "2608.06253",
+      "tokens": [
+        "biochemical",
+        "construction",
+        "graph",
+        "integration",
+        "knowledge",
+        "language",
+        "metabolite",
+        "metabollm",
+        "metabolomics",
+        "predictive",
+        "specialized"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.06250v1",
+      "title": "Minimax Optimal Early-Stopped Gradient Descent for Gaussian Mixture Classification",
+      "arxiv_id": "2608.06250",
+      "tokens": [
+        "classification",
+        "descent",
+        "early",
+        "gaussian",
+        "gradient",
+        "minimax",
+        "mixture",
+        "optimal",
+        "stopped"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.06246v1",
+      "title": "A Six-Dimensional Taxonomy of Post-Training Adaptation Techniques with Applications in AI Governance",
+      "arxiv_id": "2608.06246",
+      "tokens": [
+        "adaptation",
+        "applications",
+        "dimensional",
+        "governance",
+        "post",
+        "six",
+        "taxonomy",
+        "techniques",
+        "training"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.06171v1",
+      "title": "Routing Is Least Learnable Where It Is Most Valuable: Bounds on Representation Routing for Web Agents",
+      "arxiv_id": "2608.06171",
+      "tokens": [
+        "agents",
+        "bounds",
+        "learnable",
+        "least",
+        "representation",
+        "routing",
+        "routing",
+        "valuable",
+        "web"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.06167v1",
+      "title": "Schema-Guided Hierarchical Information Extraction and Semantic Evaluation Using Generative AI",
+      "arxiv_id": "2608.06167",
+      "tokens": [
+        "evaluation",
+        "extraction",
+        "generative",
+        "guided",
+        "hierarchical",
+        "information",
+        "schema",
+        "semantic"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.06141v1",
+      "title": "Decolonizing Linguistic Policies in Automated Speech Recognition: A Framework for Cross-Culturally Competent Speech AI",
+      "arxiv_id": "2608.06141",
+      "tokens": [
+        "automated",
+        "competent",
+        "cross",
+        "culturally",
+        "decolonizing",
+        "linguistic",
+        "policies",
+        "recognition",
+        "speech",
+        "speech"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.06123v1",
+      "title": "Poli-Bias: Understanding and Measuring Large Language Model Biases in International Political Conflicts",
+      "arxiv_id": "2608.06123",
+      "tokens": [
+        "bias",
+        "biases",
+        "conflicts",
+        "international",
+        "language",
+        "measuring",
+        "poli",
+        "political",
+        "understanding"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.06111v1",
+      "title": "Beyond Sequence Order: Syntax-Informed Positional Embeddings for Transformers",
+      "arxiv_id": "2608.06111",
+      "tokens": [
+        "embeddings",
+        "informed",
+        "order",
+        "positional",
+        "sequence",
+        "syntax",
+        "transformers"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.06112v1",
+      "title": "From Siloed Algorithms to Compliance-First Agentic Platforms: A Multi-Layered Architecture for Hospital AI Systems",
+      "arxiv_id": "2608.06112",
+      "tokens": [
+        "agentic",
+        "algorithms",
+        "architecture",
+        "compliance",
+        "hospital",
+        "layered",
+        "multi",
+        "platforms",
+        "siloed"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.06110v1",
+      "title": "ECHO: A Locally-Deployable Agentic Health Assistant with Temporal Memory, Safety Guardrails, and Speech Assessment",
+      "arxiv_id": "2608.06110",
+      "tokens": [
+        "agentic",
+        "assessment",
+        "assistant",
+        "deployable",
+        "echo",
+        "guardrails",
+        "health",
+        "locally",
+        "memory",
+        "safety",
+        "speech",
+        "temporal"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.06069v1",
+      "title": "Training-Free Token-Level Steering for LLM Personalized Co-Writing",
+      "arxiv_id": "2608.06069",
+      "tokens": [
+        "free",
+        "level",
+        "llm",
+        "personalized",
+        "steering",
+        "token",
+        "training",
+        "writing"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.05600v1",
+      "title": "LC-GRPO: Bridging Train-Inference Gap for Flow-Based GRPO with Langevin Correction",
+      "arxiv_id": "2608.05600",
+      "tokens": [
+        "bridging",
+        "correction",
+        "flow",
+        "gap",
+        "grpo",
+        "grpo",
+        "inference",
+        "langevin",
+        "train"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.04879v1",
+      "title": "Training Crossroads for Recurrent Vision Transformers: Recurrence, Neural ODEs, and Deep Supervision",
+      "arxiv_id": "2608.04879",
+      "tokens": [
+        "crossroads",
+        "neural",
+        "odes",
+        "recurrence",
+        "recurrent",
+        "supervision",
+        "training",
+        "transformers",
+        "vision"
+      ],
+      "first_seen_round": 165
     }
   ],
-  "total_unique": 1159
+  "total_unique": 1184
 }

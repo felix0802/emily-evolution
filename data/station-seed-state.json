@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 271,
+  "_rotation_idx": 272,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 37,
@@ -496,8 +496,8 @@
   },
   "liquid-networks": {
     "name": "Liquid Networks",
-    "total_papers_found": 45,
-    "watering_count": 30,
+    "total_papers_found": 47,
+    "watering_count": 31,
     "history": [
       {
         "timestamp": "2026-07-06T21:47:31.917958",
@@ -982,6 +982,30 @@
             "seed_match_score": 2
           }
         ]
+      },
+      {
+        "timestamp": "2026-08-07T01:58:55.257556",
+        "papers_found": 2,
+        "duplicates": 7,
+        "irrelevant_filtered": 1,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "LC-GRPO: Bridging Train-Inference Gap for Flow-Based GRPO with Langevin Correction",
+            "summary": "Flow-based generative models are typically sampled by solving a deterministic ordinary differential equation (ODE), whereas online reinforcement learning requires stochastic rollouts for policy exploration and optimization. Existing GRPO methods for flow models therefore replace the inference-time O",
+            "published": "2026-08-06",
+            "url": "http://arxiv.org/abs/2608.05600v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Training Crossroads for Recurrent Vision Transformers: Recurrence, Neural ODEs, and Deep Supervision",
+            "summary": "Vision Transformers (ViTs) achieve strong image-recognition performance, but their parameter count grows linearly with depth when each block is independently parameterized. Single-block recurrent ViTs (bViT) remove this growth by repeatedly applying one shared block. Rather than proposing a new arch",
+            "published": "2026-08-05",
+            "url": "http://arxiv.org/abs/2608.04879v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -991,7 +1015,7 @@
       "ode",
       "continuous-time"
     ],
-    "last_watered": "2026-08-05T19:10:58.841910"
+    "last_watered": "2026-08-07T01:58:55.257550"
   },
   "htm": {
     "name": "HTM",
