@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 278,
+  "_rotation_idx": 279,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 37,
@@ -3812,8 +3812,8 @@
   },
   "kv-cache": {
     "name": "KV Cache Optimization",
-    "total_papers_found": 40,
-    "watering_count": 25,
+    "total_papers_found": 41,
+    "watering_count": 26,
     "history": [
       {
         "timestamp": "2026-07-15T11:19:09.355556",
@@ -4246,6 +4246,23 @@
             "seed_match_score": 1
           }
         ]
+      },
+      {
+        "timestamp": "2026-08-07T16:38:56.962311",
+        "papers_found": 1,
+        "duplicates": 5,
+        "irrelevant_filtered": 4,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "DBLAST: Dependent Block Drafting for Stochastic Speculative Decoding",
+            "summary": "Speculative decoding accelerates large language models' inference by using a lightweight drafter to propose multiple future tokens and a target model to verify them. While recent block and diffusion-style drafters can predict several positions in a single pass, their training and sampling procedures",
+            "published": "2026-08-05",
+            "url": "http://arxiv.org/abs/2608.05448v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -4257,7 +4274,7 @@
       "flash attention",
       "speculative decoding"
     ],
-    "last_watered": "2026-08-06T13:28:56.212500"
+    "last_watered": "2026-08-07T16:38:56.962305"
   },
   "gnn": {
     "name": "Graph Neural Networks",
