@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 274,
+  "_rotation_idx": 275,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 37,
@@ -2033,8 +2033,8 @@
   },
   "non-transformer": {
     "name": "Non-Transformer Arch",
-    "total_papers_found": 10,
-    "watering_count": 30,
+    "total_papers_found": 11,
+    "watering_count": 31,
     "history": [
       {
         "timestamp": "2026-07-07T10:14:36.288723",
@@ -2369,6 +2369,23 @@
         "avg_relevance": 0.0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-08-07T08:44:09.721073",
+        "papers_found": 1,
+        "duplicates": 5,
+        "irrelevant_filtered": 4,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "Spectral Distillation: From Nonlinear Dynamics to Linear State-Space Models",
+            "summary": "Can nonlinear dynamical systems be learned through a compact linear state-space representation, without directly solving a non-convex system-identification problem? We give a provable pipeline for doing so. Starting from observations of an unknown nonlinear dynamical system, we first learn an implic",
+            "published": "2026-08-05",
+            "url": "http://arxiv.org/abs/2608.05416v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -2381,7 +2398,7 @@
       "sub-quadratic",
       "mamba"
     ],
-    "last_watered": "2026-08-06T01:17:09.292141"
+    "last_watered": "2026-08-07T08:44:09.721067"
   },
   "few-shot": {
     "name": "Few-Shot Learning",
