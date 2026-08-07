@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 276,
+  "_rotation_idx": 277,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 37,
@@ -2814,8 +2814,8 @@
   },
   "continual-learning": {
     "name": "Continual Learning",
-    "total_papers_found": 42,
-    "watering_count": 28,
+    "total_papers_found": 43,
+    "watering_count": 29,
     "history": [
       {
         "timestamp": "2026-07-07T13:06:50.870963",
@@ -3308,6 +3308,23 @@
             "seed_match_score": 1
           }
         ]
+      },
+      {
+        "timestamp": "2026-08-07T12:35:15.666925",
+        "papers_found": 1,
+        "duplicates": 5,
+        "irrelevant_filtered": 4,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "Continual Learning in Transition",
+            "summary": "Classical continual learning (CL) has primarily focused on enabling models to update and retain knowledge through parameter-centric mechanisms, e.g., training strategies, architectural designs, and weight adaptation. However, emerging paradigms are reshaping the scope of CL beyond this traditional m",
+            "published": "2026-08-06",
+            "url": "http://arxiv.org/abs/2608.06216v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -3317,7 +3334,7 @@
       "ewc",
       "elastic weight"
     ],
-    "last_watered": "2026-08-06T08:11:25.037148"
+    "last_watered": "2026-08-07T12:35:15.666923"
   },
   "moe": {
     "name": "Mixture of Experts",
