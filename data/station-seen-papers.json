@@ -19331,7 +19331,25 @@
         "transition"
       ],
       "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.05303v1",
+      "title": "EdgeXpert: An Edge Device for Memory-Efficient LLM Inference with Mixture-of-Experts and Speculative Decoding",
+      "arxiv_id": "2608.05303",
+      "tokens": [
+        "decoding",
+        "device",
+        "edge",
+        "edgexpert",
+        "experts",
+        "inference",
+        "llm",
+        "memory",
+        "mixture",
+        "speculative"
+      ],
+      "first_seen_round": 165
     }
   ],
-  "total_unique": 1204
+  "total_unique": 1205
 }
