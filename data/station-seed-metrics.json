@@ -2,17 +2,16 @@
   "spiking-nn": {
     "name": "Spiking Neural Networks",
     "total_new_papers": 20,
-    "total_watering": 31,
+    "total_watering": 32,
     "all_keywords_matched": [
-      "neuromorphic",
-      "snn",
       "spike-timing",
-      "spiking"
+      "spiking",
+      "snn",
+      "neuromorphic"
     ],
     "avg_relevance_trend": [
       0.0,
       0.0,
-      0.0,
       1.0,
       1.0,
       0.0,
@@ -28,6 +27,7 @@
       0.0,
       2.0,
       2.0,
+      0.0,
       0.0,
       0.0
     ],
@@ -59,7 +59,7 @@
         "published": "2026-07-07"
       }
     ],
-    "last_updated": "2026-08-08T03:15:00.834563"
+    "last_updated": "2026-08-08T22:16:37.144112"
   },
   "few-shot": {
     "name": "Few-Shot Learning",
