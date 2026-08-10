@@ -19681,7 +19681,42 @@
         "sparse"
       ],
       "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.07001v1",
+      "title": "Every Cache Entry Earns Its Place: Global Allocation of Resolution and Coverage for KV Cache Compression",
+      "arxiv_id": "2608.07001",
+      "tokens": [
+        "allocation",
+        "cache",
+        "cache",
+        "compression",
+        "coverage",
+        "earns",
+        "entry",
+        "global",
+        "place",
+        "resolution"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.06849v1",
+      "title": "Autonomy-of-Heads: Data-Free Sparse Attention from Frozen Query-Key Geometry",
+      "arxiv_id": "2608.06849",
+      "tokens": [
+        "attention",
+        "autonomy",
+        "free",
+        "frozen",
+        "geometry",
+        "heads",
+        "key",
+        "query",
+        "sparse"
+      ],
+      "first_seen_round": 165
     }
   ],
-  "total_unique": 1226
+  "total_unique": 1228
 }

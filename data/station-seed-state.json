@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 308,
+  "_rotation_idx": 309,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 37,
@@ -4036,8 +4036,8 @@
   },
   "kv-cache": {
     "name": "KV Cache Optimization",
-    "total_papers_found": 41,
-    "watering_count": 28,
+    "total_papers_found": 43,
+    "watering_count": 29,
     "history": [
       {
         "timestamp": "2026-07-15T11:19:09.355556",
@@ -4505,6 +4505,30 @@
         "avg_relevance": 0.0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-08-10T05:14:03.711021",
+        "papers_found": 2,
+        "duplicates": 2,
+        "irrelevant_filtered": 6,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "Every Cache Entry Earns Its Place: Global Allocation of Resolution and Coverage for KV Cache Compression",
+            "summary": "As large language models (LLMs) process increasingly long contexts, KV cache storage and repeated access have become a major bottleneck. Existing KV cache compression methods rely on predefined, fixed compression rules and are typically developed around either token eviction or merging. As a result,",
+            "published": "2026-08-07",
+            "url": "http://arxiv.org/abs/2608.07001v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Autonomy-of-Heads: Data-Free Sparse Attention from Frozen Query-Key Geometry",
+            "summary": "Long-context LLM inference is bottlenecked by quadratic attention computation and growing KV-cache costs. Existing sparse attention and KV-compression methods typically decide which tokens or heads to preserve from runtime attention scores, observation windows, calibration prompts, or learned gates,",
+            "published": "2026-08-07",
+            "url": "http://arxiv.org/abs/2608.06849v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -4516,7 +4540,7 @@
       "flash attention",
       "speculative decoding"
     ],
-    "last_watered": "2026-08-09T08:27:35.746800"
+    "last_watered": "2026-08-10T05:14:03.711015"
   },
   "gnn": {
     "name": "Graph Neural Networks",
