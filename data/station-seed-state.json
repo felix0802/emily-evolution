@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 307,
+  "_rotation_idx": 308,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 37,
@@ -3527,8 +3527,8 @@
   },
   "moe": {
     "name": "Mixture of Experts",
-    "total_papers_found": 35,
-    "watering_count": 27,
+    "total_papers_found": 36,
+    "watering_count": 28,
     "history": [
       {
         "timestamp": "2026-07-15T09:46:58.985365",
@@ -4004,6 +4004,23 @@
         "avg_relevance": 0.0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-08-10T03:41:43.460720",
+        "papers_found": 1,
+        "duplicates": 3,
+        "irrelevant_filtered": 6,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "Policy-Masked Private Experts: Auditable and Reversible Capability Access Control in Sparse MoE Models",
+            "summary": "Most language-model access controls regulate behavior while leaving the same computation available to every request. We study a different systems question: can trusted authorization determine which newly trained parameters are reachable by the forward pass? Policy-Masked Private Experts freezes a pr",
+            "published": "2026-08-07",
+            "url": "http://arxiv.org/abs/2608.06690v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -4015,7 +4032,7 @@
       "switch transformer",
       "deepseek"
     ],
-    "last_watered": "2026-08-09T06:34:31.362918"
+    "last_watered": "2026-08-10T03:41:43.460715"
   },
   "kv-cache": {
     "name": "KV Cache Optimization",

@@ -19364,7 +19364,324 @@
         "stochastic"
       ],
       "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.07460v1",
+      "title": "CreativeInstruct: Scalably Teaching LLMs to Balance Quality, Creativity, and Diversity",
+      "arxiv_id": "2608.07460",
+      "tokens": [
+        "balance",
+        "creativeinstruct",
+        "creativity",
+        "diversity",
+        "llms",
+        "quality",
+        "scalably",
+        "teaching"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.07458v1",
+      "title": "CoinRAG: Contextualized Information Nugget KV Cache Reuse for Long-Context RAG",
+      "arxiv_id": "2608.07458",
+      "tokens": [
+        "cache",
+        "coinrag",
+        "context",
+        "contextualized",
+        "information",
+        "long",
+        "nugget",
+        "rag",
+        "reuse"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.07457v1",
+      "title": "Interaction Creates Dynamical AI Behavior Absent in Isolation",
+      "arxiv_id": "2608.07457",
+      "tokens": [
+        "absent",
+        "behavior",
+        "creates",
+        "dynamical",
+        "interaction",
+        "isolation"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.07454v1",
+      "title": "Strategy-first synthesis planning for complex natural products",
+      "arxiv_id": "2608.07454",
+      "tokens": [
+        "complex",
+        "natural",
+        "planning",
+        "products",
+        "strategy",
+        "synthesis"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.07449v1",
+      "title": "SkillProx: Self-Evolving Agent Skills via Proximal Textual Gradient Descent",
+      "arxiv_id": "2608.07449",
+      "tokens": [
+        "agent",
+        "descent",
+        "evolving",
+        "gradient",
+        "proximal",
+        "self",
+        "skillprox",
+        "skills",
+        "textual"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.07446v1",
+      "title": "Taxonomy-Driven Analysis of Open-Source AI Risk Mitigation Tools",
+      "arxiv_id": "2608.07446",
+      "tokens": [
+        "driven",
+        "mitigation",
+        "open",
+        "risk",
+        "source",
+        "taxonomy",
+        "tools"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.07440v1",
+      "title": "Blast Radius",
+      "arxiv_id": "2608.07440",
+      "tokens": [
+        "blast",
+        "radius"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.07438v1",
+      "title": "PsychoAgent: An Affect-Sensitive Cognitive Architecture for Conflict-Aware Memory in LLM Agents",
+      "arxiv_id": "2608.07438",
+      "tokens": [
+        "affect",
+        "agents",
+        "architecture",
+        "aware",
+        "cognitive",
+        "conflict",
+        "llm",
+        "memory",
+        "psychoagent",
+        "sensitive"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.07463v1",
+      "title": "MirrorWorld: Taming Video Diffusion Models for Mirror Reflection Generation",
+      "arxiv_id": "2608.07463",
+      "tokens": [
+        "diffusion",
+        "generation",
+        "mirror",
+        "mirrorworld",
+        "reflection",
+        "taming",
+        "video"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.07444v1",
+      "title": "RIS-Aided mmWave Localization Under Cross-Link Interference via Beam-Domain ML Fingerprinting",
+      "arxiv_id": "2608.07444",
+      "tokens": [
+        "aided",
+        "beam",
+        "cross",
+        "domain",
+        "fingerprinting",
+        "interference",
+        "link",
+        "localization",
+        "mmwave",
+        "ris"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.07436v1",
+      "title": "Post-Grokking Collapse at the Representation-Readout Interface in Muon-Trained Transformers",
+      "arxiv_id": "2608.07436",
+      "tokens": [
+        "collapse",
+        "grokking",
+        "interface",
+        "muon",
+        "post",
+        "readout",
+        "representation",
+        "trained",
+        "transformers"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.07433v1",
+      "title": "Wasserstein Policy Gradient for Entropy-Regularized Linear-Quadratic Control",
+      "arxiv_id": "2608.07433",
+      "tokens": [
+        "control",
+        "entropy",
+        "gradient",
+        "linear",
+        "policy",
+        "quadratic",
+        "regularized",
+        "wasserstein"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.07430v1",
+      "title": "Diffusion LLMs as Targets and Adversaries: Mechanistic Safety Exploits",
+      "arxiv_id": "2608.07430",
+      "tokens": [
+        "adversaries",
+        "diffusion",
+        "exploits",
+        "llms",
+        "mechanistic",
+        "safety",
+        "targets"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.07423v1",
+      "title": "Cloud-Boosted Low-Compute Multi-Channel Speech Enhancement",
+      "arxiv_id": "2608.07423",
+      "tokens": [
+        "boosted",
+        "channel",
+        "cloud",
+        "compute",
+        "enhancement",
+        "low",
+        "multi",
+        "speech"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.07420v1",
+      "title": "Beyond Myopic World Models: Long-Horizon End-to-End Training for Direct Future Prediction",
+      "arxiv_id": "2608.07420",
+      "tokens": [
+        "direct",
+        "end",
+        "end",
+        "future",
+        "horizon",
+        "long",
+        "myopic",
+        "prediction",
+        "training",
+        "world"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.07439v1",
+      "title": "An Exploratory Evaluation of LLM-Assisted Rewriting of Moderate-Complexity Financial Sentences for DisCoCat-Based Sentiment Analysis",
+      "arxiv_id": "2608.07439",
+      "tokens": [
+        "assisted",
+        "complexity",
+        "discocat",
+        "evaluation",
+        "exploratory",
+        "financial",
+        "llm",
+        "moderate",
+        "rewriting",
+        "sentences",
+        "sentiment"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.07435v1",
+      "title": "SABRE: Scalable and Automated Benchmarking of VLMs under Stress",
+      "arxiv_id": "2608.07435",
+      "tokens": [
+        "automated",
+        "benchmarking",
+        "sabre",
+        "scalable",
+        "stress",
+        "vlms"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.07418v1",
+      "title": "ResidencyRL: Reinforcement Learning in Simulated Clinical Environments",
+      "arxiv_id": "2608.07418",
+      "tokens": [
+        "clinical",
+        "environments",
+        "reinforcement",
+        "residencyrl",
+        "simulated"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.07411v1",
+      "title": "GeoBenchLLM: A Comprehensive Benchmark for Evaluating LLMs on Geo-Related Tasks",
+      "arxiv_id": "2608.07411",
+      "tokens": [
+        "benchmark",
+        "comprehensive",
+        "evaluating",
+        "geo",
+        "geobenchllm",
+        "llms",
+        "related",
+        "tasks"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.06690v1",
+      "title": "Policy-Masked Private Experts: Auditable and Reversible Capability Access Control in Sparse MoE Models",
+      "arxiv_id": "2608.06690",
+      "tokens": [
+        "access",
+        "auditable",
+        "capability",
+        "control",
+        "experts",
+        "masked",
+        "moe",
+        "policy",
+        "private",
+        "reversible",
+        "sparse"
+      ],
+      "first_seen_round": 165
     }
   ],
-  "total_unique": 1206
+  "total_unique": 1226
 }
