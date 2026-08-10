@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 314,
+  "_rotation_idx": 315,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 37,
@@ -2185,8 +2185,8 @@
   },
   "non-transformer": {
     "name": "Non-Transformer Arch",
-    "total_papers_found": 11,
-    "watering_count": 34,
+    "total_papers_found": 13,
+    "watering_count": 35,
     "history": [
       {
         "timestamp": "2026-07-07T10:14:36.288723",
@@ -2565,6 +2565,30 @@
         "avg_relevance": 0.0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-08-10T16:40:08.723480",
+        "papers_found": 2,
+        "duplicates": 6,
+        "irrelevant_filtered": 2,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "Cryptanalytic Extraction of Isolated Bias-Free GLU Feed-Forward Blocks by Antipodal Separation",
+            "summary": "Cryptanalytic extraction has been demonstrated for ReLU networks, for networks using componentwise activations such as GELU or SiLU, and for a Transformer's final projection matrix. These methods do not recover the bias-free Gated Linear Unit (GLU) feed-forward blocks used in many modern language mo",
+            "published": "2026-08-06",
+            "url": "http://arxiv.org/abs/2608.06631v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Retrofitting Linear Attention into Diffusion Language Models",
+            "summary": "Diffusion language models (dLLMs) offer a promising alternative to autoregressive models by accelerating inference through parallel decoding. Recent dLLMs commonly use blockwise semi-autoregressive decoding, generating blocks autoregressively while denoising tokens within each active block in parall",
+            "published": "2026-08-06",
+            "url": "http://arxiv.org/abs/2608.06628v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -2577,7 +2601,7 @@
       "sub-quadratic",
       "mamba"
     ],
-    "last_watered": "2026-08-09T20:17:30.173956"
+    "last_watered": "2026-08-10T16:40:08.723475"
   },
   "few-shot": {
     "name": "Few-Shot Learning",

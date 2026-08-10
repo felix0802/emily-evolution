@@ -19801,7 +19801,39 @@
         "ttt"
       ],
       "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.06631v1",
+      "title": "Cryptanalytic Extraction of Isolated Bias-Free GLU Feed-Forward Blocks by Antipodal Separation",
+      "arxiv_id": "2608.06631",
+      "tokens": [
+        "antipodal",
+        "bias",
+        "blocks",
+        "cryptanalytic",
+        "extraction",
+        "feed",
+        "forward",
+        "free",
+        "glu",
+        "isolated",
+        "separation"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.06628v1",
+      "title": "Retrofitting Linear Attention into Diffusion Language Models",
+      "arxiv_id": "2608.06628",
+      "tokens": [
+        "attention",
+        "diffusion",
+        "language",
+        "linear",
+        "retrofitting"
+      ],
+      "first_seen_round": 165
     }
   ],
-  "total_unique": 1233
+  "total_unique": 1235
 }
