@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 309,
+  "_rotation_idx": 310,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 37,
@@ -4544,8 +4544,8 @@
   },
   "gnn": {
     "name": "Graph Neural Networks",
-    "total_papers_found": 58,
-    "watering_count": 29,
+    "total_papers_found": 62,
+    "watering_count": 30,
     "history": [
       {
         "timestamp": "2026-07-15T15:16:02.082257",
@@ -5067,6 +5067,37 @@
         "avg_relevance": 0.0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-08-10T07:04:18.811096",
+        "papers_found": 4,
+        "duplicates": 3,
+        "irrelevant_filtered": 3,
+        "avg_relevance": 1.25,
+        "high_relevance": 1,
+        "papers": [
+          {
+            "title": "When GNNs Fail: Quantifying and Overcoming Temporal Correlation Volatility in Time Series",
+            "summary": "Modeling multivariate time series by representing them as graphs, where individual series act as nodes and pairwise temporal corre- lations serve as edges, has gained significant traction. Recent advances in Graph Neural Networks (GNNs) have demonstrated strong perfor- mance by assuming a static gra",
+            "published": "2026-08-07",
+            "url": "http://arxiv.org/abs/2608.07333v1",
+            "seed_match_score": 2
+          },
+          {
+            "title": "Fluid-DiT: Graph-Free Diffusion Transformers for Fluid Flow Simulations Learning",
+            "summary": "Simulating complex fluid flows requires capturing full equilibrium distributions rather than just mean trajectories, yet high-fidelity solvers remain computationally prohibitive. Recent advances, such as Diffusion Graph Networks (DGNs), have combined diffusion models with graph neural networks to sa",
+            "published": "2026-08-07",
+            "url": "http://arxiv.org/abs/2608.07161v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Accounting Graph Transformer for Short-History Multi-KPI Forecasting in Small Businesses",
+            "summary": "Small businesses often have only 12-24 months of accounting history, yet planning and risk workflows require coordinated forecasts across financial statements. We study joint 12-month forecasting of 13 income-statement, balance-sheet, cash-flow, and working-capital key performance indicators (KPIs) ",
+            "published": "2026-08-07",
+            "url": "http://arxiv.org/abs/2608.07037v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -5078,6 +5109,6 @@
       "node embedding",
       "graph transformer"
     ],
-    "last_watered": "2026-08-09T10:20:59.507868"
+    "last_watered": "2026-08-10T07:04:18.811091"
   }
 }

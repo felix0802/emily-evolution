@@ -19716,7 +19716,76 @@
         "sparse"
       ],
       "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.07333v1",
+      "title": "When GNNs Fail: Quantifying and Overcoming Temporal Correlation Volatility in Time Series",
+      "arxiv_id": "2608.07333",
+      "tokens": [
+        "correlation",
+        "fail",
+        "gnns",
+        "overcoming",
+        "quantifying",
+        "series",
+        "temporal",
+        "time",
+        "volatility"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.07161v1",
+      "title": "Fluid-DiT: Graph-Free Diffusion Transformers for Fluid Flow Simulations Learning",
+      "arxiv_id": "2608.07161",
+      "tokens": [
+        "diffusion",
+        "dit",
+        "flow",
+        "fluid",
+        "fluid",
+        "free",
+        "graph",
+        "simulations",
+        "transformers"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.07037v1",
+      "title": "Accounting Graph Transformer for Short-History Multi-KPI Forecasting in Small Businesses",
+      "arxiv_id": "2608.07037",
+      "tokens": [
+        "accounting",
+        "businesses",
+        "forecasting",
+        "graph",
+        "history",
+        "kpi",
+        "multi",
+        "short",
+        "transformer"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.06430v1",
+      "title": "MiGHT-EHR: A Multi-task Graph Transformer for Heterogeneous Temporal Electronic Health Records",
+      "arxiv_id": "2608.06430",
+      "tokens": [
+        "ehr",
+        "electronic",
+        "graph",
+        "health",
+        "heterogeneous",
+        "multi",
+        "records",
+        "task",
+        "temporal",
+        "transformer"
+      ],
+      "first_seen_round": 165
     }
   ],
-  "total_unique": 1228
+  "total_unique": 1232
 }
