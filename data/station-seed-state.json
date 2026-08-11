@@ -1,9 +1,9 @@
 {
-  "_rotation_idx": 320,
+  "_rotation_idx": 321,
   "mamba": {
     "name": "Mamba (SSM)",
-    "total_papers_found": 37,
-    "watering_count": 35,
+    "total_papers_found": 39,
+    "watering_count": 36,
     "history": [
       {
         "timestamp": "2026-07-06T21:46:12.361778",
@@ -520,6 +520,30 @@
         "avg_relevance": 0.0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-08-11T04:56:44.144841",
+        "papers_found": 2,
+        "duplicates": 7,
+        "irrelevant_filtered": 1,
+        "avg_relevance": 1.5,
+        "high_relevance": 1,
+        "papers": [
+          {
+            "title": "MixFormer: Linear Transformer with Mixture of Memory Experts",
+            "summary": "State Space Models (SSMs), as a mainstream research direction of linear Transformers, aim to achieve higher efficiency than standard Transformers in long-context modeling. However, existing SSMs suffer from limited input adaptivity and constrained memory capacity, leading to information loss when mo",
+            "published": "2026-08-10",
+            "url": "http://arxiv.org/abs/2608.09468v1",
+            "seed_match_score": 2
+          },
+          {
+            "title": "Causal State-Space Model for Causal Inference: Estimating Longitudinal Individual Treatment Effects",
+            "summary": "Estimating counterfactual outcomes over time from longitudinal observational data is central to clinical decision support. Existing methods rely on domain confusion -- adversarial training that renders representations invariant to treatment assignment -- yet this invariance creates a mutual informat",
+            "published": "2026-08-08",
+            "url": "http://arxiv.org/abs/2608.08288v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -528,7 +552,7 @@
       "ssm",
       "selective scan"
     ],
-    "last_watered": "2026-08-10T09:04:19.859954"
+    "last_watered": "2026-08-11T04:56:44.144838"
   },
   "liquid-networks": {
     "name": "Liquid Networks",
