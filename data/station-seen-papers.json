@@ -20413,7 +20413,70 @@
         "treatment"
       ],
       "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.09348v1",
+      "title": "In-Context Density Estimation for Tabular Data",
+      "arxiv_id": "2608.09348",
+      "tokens": [
+        "context",
+        "density",
+        "estimation",
+        "tabular"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.09218v1",
+      "title": "Online Learning of Scale Parameters in Score-Driven Filters",
+      "arxiv_id": "2608.09218",
+      "tokens": [
+        "driven",
+        "filters",
+        "online",
+        "parameters",
+        "scale",
+        "score"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.08906v1",
+      "title": "Federated Attention Autoencoders with a Stochastic Aggregation Scheme for Anomaly Detection",
+      "arxiv_id": "2608.08906",
+      "tokens": [
+        "aggregation",
+        "anomaly",
+        "attention",
+        "autoencoders",
+        "detection",
+        "federated",
+        "scheme",
+        "stochastic"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.08859v1",
+      "title": "Agentic Anomaly Detection with ORCA-Style Dynamic Inductive Bias Adaptation in Multimodal Wearable Time Series Data",
+      "arxiv_id": "2608.08859",
+      "tokens": [
+        "adaptation",
+        "agentic",
+        "anomaly",
+        "bias",
+        "detection",
+        "dynamic",
+        "inductive",
+        "multimodal",
+        "orca",
+        "series",
+        "style",
+        "time",
+        "wearable"
+      ],
+      "first_seen_round": 165
     }
   ],
-  "total_unique": 1272
+  "total_unique": 1276
 }

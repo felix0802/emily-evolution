@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 322,
+  "_rotation_idx": 323,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 39,
@@ -1124,8 +1124,8 @@
   },
   "htm": {
     "name": "HTM",
-    "total_papers_found": 49,
-    "watering_count": 35,
+    "total_papers_found": 53,
+    "watering_count": 36,
     "history": [
       {
         "timestamp": "2026-07-07T08:08:03.935545",
@@ -1759,6 +1759,37 @@
             "seed_match_score": 1
           }
         ]
+      },
+      {
+        "timestamp": "2026-08-11T08:41:43.355753",
+        "papers_found": 4,
+        "duplicates": 0,
+        "irrelevant_filtered": 6,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "In-Context Density Estimation for Tabular Data",
+            "summary": "Density estimation underlies many unsupervised tasks on tabular data such as anomaly detection, out-of-distribution detection, and data augmentation. Although all these problems reduce to questions about where probability mass lies, they are typically solved individually by fitting a separate model ",
+            "published": "2026-08-10",
+            "url": "http://arxiv.org/abs/2608.09348v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Online Learning of Scale Parameters in Score-Driven Filters",
+            "summary": "Score-driven filters multiply a scaled log-likelihood score by a gain that controls the update magnitude. We treat this gain as a decision variable and study its online learning. Conditional on the current state, observation, score, and scaling rule, each admissible gain induces a reachable next sta",
+            "published": "2026-08-10",
+            "url": "http://arxiv.org/abs/2608.09218v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Federated Attention Autoencoders with a Stochastic Aggregation Scheme for Anomaly Detection",
+            "summary": "Outlier detection in decentralized data environments is a challenging task for many machine learning implementations, particularly in settings where data cannot be shared. Recently, there have been advances in federated outlier detection, some of which are based on the use of autoencoder networks. T",
+            "published": "2026-08-09",
+            "url": "http://arxiv.org/abs/2608.08906v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -1773,7 +1804,7 @@
       "anomaly detection",
       "continuous learning"
     ],
-    "last_watered": "2026-08-10T12:39:21.074497"
+    "last_watered": "2026-08-11T08:41:43.355748"
   },
   "spiking-nn": {
     "name": "Spiking Neural Networks",
