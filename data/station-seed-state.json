@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 324,
+  "_rotation_idx": 325,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 39,
@@ -2258,8 +2258,8 @@
   },
   "non-transformer": {
     "name": "Non-Transformer Arch",
-    "total_papers_found": 13,
-    "watering_count": 35,
+    "total_papers_found": 14,
+    "watering_count": 36,
     "history": [
       {
         "timestamp": "2026-07-07T10:14:36.288723",
@@ -2662,6 +2662,23 @@
             "seed_match_score": 1
           }
         ]
+      },
+      {
+        "timestamp": "2026-08-11T12:36:32.227692",
+        "papers_found": 1,
+        "duplicates": 6,
+        "irrelevant_filtered": 3,
+        "avg_relevance": 2.0,
+        "high_relevance": 1,
+        "papers": [
+          {
+            "title": "AraSSM: A bidirectional state-space encoder for Arabic masked language modeling",
+            "summary": "Pretrained Transformer encoders such as AraBERT, MARBERT, and CAMeLBERT have become the standard backbone for Arabic natural language understanding, but their self-attention mechanism scales quadratically with sequence length, which limits efficiency on long documents. Mamba, a selective state-space",
+            "published": "2026-08-08",
+            "url": "http://arxiv.org/abs/2608.08256v1",
+            "seed_match_score": 2
+          }
+        ]
       }
     ],
     "keywords": [
@@ -2674,7 +2691,7 @@
       "sub-quadratic",
       "mamba"
     ],
-    "last_watered": "2026-08-10T16:40:08.723475"
+    "last_watered": "2026-08-11T12:36:32.227687"
   },
   "few-shot": {
     "name": "Few-Shot Learning",

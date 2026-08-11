@@ -20476,7 +20476,24 @@
         "wearable"
       ],
       "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.08256v1",
+      "title": "AraSSM: A bidirectional state-space encoder for Arabic masked language modeling",
+      "arxiv_id": "2608.08256",
+      "tokens": [
+        "arabic",
+        "arassm",
+        "bidirectional",
+        "encoder",
+        "language",
+        "masked",
+        "modeling",
+        "space",
+        "state"
+      ],
+      "first_seen_round": 165
     }
   ],
-  "total_unique": 1276
+  "total_unique": 1277
 }
