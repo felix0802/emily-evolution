@@ -309,19 +309,18 @@
   },
   "gnn": {
     "name": "Graph Neural Networks",
-    "total_new_papers": 62,
-    "total_watering": 28,
+    "total_new_papers": 66,
+    "total_watering": 29,
     "all_keywords_matched": [
-      "graph transformer",
-      "gnn",
-      "node embedding",
+      "geometric",
       "graph neural",
-      "graph attention",
+      "gnn",
+      "graph transformer",
       "message passing",
-      "geometric"
+      "node embedding",
+      "graph attention"
     ],
     "avg_relevance_trend": [
-      2.0,
       1.67,
       1.29,
       1.5,
@@ -340,9 +339,10 @@
       0.0,
       0.0,
       0.0,
-      1.25
+      1.25,
+      2.25
     ],
-    "high_relevance_total": 27,
+    "high_relevance_total": 31,
     "best_papers": [
       {
         "title": "Local-Global Geometric Insights for Graph Neural Networks via Entropic Curvature",
@@ -378,9 +378,14 @@
         "title": "Tropical Algebraic Geometry for Neuronal Representations: An Arakelov-Green Measure Based Descriptor",
         "score": 3,
         "published": "2026-08-05"
+      },
+      {
+        "title": "LEED: Local Embedding Evolution Distance for over-smoothing estimation and virtual node selection in",
+        "score": 3,
+        "published": "2026-08-10"
       }
     ],
-    "last_updated": "2026-08-10T07:04:18.810527"
+    "last_updated": "2026-08-11T03:24:38.973996"
   },
   "moe": {
     "name": "Mixture of Experts",

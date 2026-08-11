@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 319,
+  "_rotation_idx": 320,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 37,
@@ -4648,8 +4648,8 @@
   },
   "gnn": {
     "name": "Graph Neural Networks",
-    "total_papers_found": 62,
-    "watering_count": 30,
+    "total_papers_found": 66,
+    "watering_count": 31,
     "history": [
       {
         "timestamp": "2026-07-15T15:16:02.082257",
@@ -5202,6 +5202,37 @@
             "seed_match_score": 1
           }
         ]
+      },
+      {
+        "timestamp": "2026-08-11T03:24:38.974529",
+        "papers_found": 4,
+        "duplicates": 0,
+        "irrelevant_filtered": 6,
+        "avg_relevance": 2.25,
+        "high_relevance": 4,
+        "papers": [
+          {
+            "title": "LEED: Local Embedding Evolution Distance for over-smoothing estimation and virtual node selection in GNN",
+            "summary": "Graph Neural Networks (GNNs) suffer from two fundamental limitations: over-smoothing, where node representations become indistinguishable with depth, and over-squashing, where long-range information is compressed through limited message-passing channels. Existing metrics such as Dirichlet energy pro",
+            "published": "2026-08-10",
+            "url": "http://arxiv.org/abs/2608.09596v1",
+            "seed_match_score": 3
+          },
+          {
+            "title": "An Explainable GNN Framework for Component-Level Anomaly Diagnosis",
+            "summary": "Industrial processes are complex systems composed of multiple interacting sensors that generate multivariate time series (MTS). Detecting anomalies in such systems is critical for reliability and safety, yet understanding their origin is equally important. Existing Graph Neural Network (GNN)based me",
+            "published": "2026-08-10",
+            "url": "http://arxiv.org/abs/2608.09246v1",
+            "seed_match_score": 2
+          },
+          {
+            "title": "HOPPER: Learnable Hop Extraction for Linearized Graph Sequence Models",
+            "summary": "Graph neural networks typically propagate information through repeated message-passing layers, coupling the distance over which information travels with the number of nonlinear transformations applied. This coupling can make deep architectures difficult to optimize and can lead to over-smoothing, ov",
+            "published": "2026-08-10",
+            "url": "http://arxiv.org/abs/2608.09031v1",
+            "seed_match_score": 2
+          }
+        ]
       }
     ],
     "keywords": [
@@ -5213,6 +5244,6 @@
       "node embedding",
       "graph transformer"
     ],
-    "last_watered": "2026-08-10T07:04:18.811091"
+    "last_watered": "2026-08-11T03:24:38.974524"
   }
 }
