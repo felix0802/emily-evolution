@@ -20493,7 +20493,191 @@
         "state"
       ],
       "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.09752v1",
+      "title": "Disentangling Co-Occurring Retinal Pathologies with Saliency-Guided Sparse Expert Routing",
+      "arxiv_id": "2608.09752",
+      "tokens": [
+        "disentangling",
+        "expert",
+        "guided",
+        "occurring",
+        "pathologies",
+        "retinal",
+        "routing",
+        "saliency",
+        "sparse"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.08910v1",
+      "title": "Tied Trit-Planes: Constraining PTQTP to a Uniform Nine-Level Quantizer, with a Persistent Folded Format for Disk-Streamed Mixture-of-Experts Serving",
+      "arxiv_id": "2608.08910",
+      "tokens": [
+        "constraining",
+        "disk",
+        "experts",
+        "folded",
+        "format",
+        "level",
+        "mixture",
+        "nine",
+        "persistent",
+        "planes",
+        "ptqtp",
+        "quantizer",
+        "serving",
+        "streamed",
+        "tied",
+        "trit",
+        "uniform"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.08853v1",
+      "title": "Beyond Routing: Decoupling Expert Dispatch and Aggregation in Sparse Mixture-of-Experts",
+      "arxiv_id": "2608.08853",
+      "tokens": [
+        "aggregation",
+        "decoupling",
+        "dispatch",
+        "expert",
+        "experts",
+        "mixture",
+        "routing",
+        "sparse"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.08650v1",
+      "title": "The Evolution of Mixture-of-Experts Architectures in Large Language Models: Routing, Topology, Load Balancing, and Expert Parallelism",
+      "arxiv_id": "2608.08650",
+      "tokens": [
+        "architectures",
+        "balancing",
+        "evolution",
+        "expert",
+        "experts",
+        "language",
+        "load",
+        "mixture",
+        "parallelism",
+        "routing",
+        "topology"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.08081v1",
+      "title": "RotaryQuant: Fitting 120B MoE Models on Consumer Hardware via Fused Compressed-Space Attention",
+      "arxiv_id": "2608.08081",
+      "tokens": [
+        "120b",
+        "attention",
+        "compressed",
+        "consumer",
+        "fitting",
+        "fused",
+        "hardware",
+        "moe",
+        "rotaryquant",
+        "space"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.08032v1",
+      "title": "Decided Upstream, Written Late: Locating and Pricing the Cross-Lingual Refusal Circuit of a Multilingual MoE",
+      "arxiv_id": "2608.08032",
+      "tokens": [
+        "circuit",
+        "cross",
+        "decided",
+        "late",
+        "lingual",
+        "locating",
+        "moe",
+        "multilingual",
+        "pricing",
+        "refusal",
+        "upstream",
+        "written"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.07964v1",
+      "title": "EasyBalance: Cross-Layer Load Balancing in Distributed MoE Inference",
+      "arxiv_id": "2608.07964",
+      "tokens": [
+        "balancing",
+        "cross",
+        "distributed",
+        "easybalance",
+        "inference",
+        "layer",
+        "load",
+        "moe"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.07911v1",
+      "title": "When Does Trace-Driven Evaluation Mislead MoE Expert Caching? Replay Semantics, Workload Contamination, and Operating Regimes",
+      "arxiv_id": "2608.07911",
+      "tokens": [
+        "caching",
+        "contamination",
+        "driven",
+        "evaluation",
+        "expert",
+        "mislead",
+        "moe",
+        "operating",
+        "regimes",
+        "replay",
+        "semantics",
+        "trace",
+        "workload"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.07890v1",
+      "title": "Router Sensitivity Under Lightweight Fine-Tuning Identifies Prunable Experts in Mixture-of-Experts Models",
+      "arxiv_id": "2608.07890",
+      "tokens": [
+        "experts",
+        "experts",
+        "fine",
+        "identifies",
+        "lightweight",
+        "mixture",
+        "prunable",
+        "router",
+        "sensitivity",
+        "tuning"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.07814v1",
+      "title": "Shape Mutating Expert Compression:LorExperts and BTExperts",
+      "arxiv_id": "2608.07814",
+      "tokens": [
+        "btexperts",
+        "compression",
+        "expert",
+        "lorexperts",
+        "mutating",
+        "shape"
+      ],
+      "first_seen_round": 165
     }
   ],
-  "total_unique": 1277
+  "total_unique": 1287
 }

@@ -389,17 +389,16 @@
   },
   "moe": {
     "name": "Mixture of Experts",
-    "total_new_papers": 36,
-    "total_watering": 28,
+    "total_new_papers": 46,
+    "total_watering": 29,
     "all_keywords_matched": [
-      "router",
       "expert routing",
-      "mixture of experts",
       "deepseek",
-      "moe"
+      "moe",
+      "router",
+      "mixture of experts"
     ],
     "avg_relevance_trend": [
-      1.0,
       2.0,
       0.0,
       0.0,
@@ -418,9 +417,10 @@
       0.0,
       0.0,
       1.0,
-      0.0
+      0.0,
+      2.0
     ],
-    "high_relevance_total": 26,
+    "high_relevance_total": 33,
     "best_papers": [
       {
         "title": "Multi-level context Modeling for consistent expert selection in Mixture-of-Experts",
@@ -441,9 +441,24 @@
         "title": "SpecDrop: Parameter-Free Category-Conditioned Routing for Modular Specialization",
         "score": 3,
         "published": "2026-08-04"
+      },
+      {
+        "title": "Beyond Routing: Decoupling Expert Dispatch and Aggregation in Sparse Mixture-of-Experts",
+        "score": 3,
+        "published": "2026-08-09"
+      },
+      {
+        "title": "Router Sensitivity Under Lightweight Fine-Tuning Identifies Prunable Experts in Mixture-of-Experts M",
+        "score": 3,
+        "published": "2026-08-08"
+      },
+      {
+        "title": "Shape Mutating Expert Compression:LorExperts and BTExperts",
+        "score": 3,
+        "published": "2026-08-07"
       }
     ],
-    "last_updated": "2026-08-10T22:23:54.080273"
+    "last_updated": "2026-08-11T18:42:59.184023"
   },
   "kv-cache": {
     "name": "KV Cache Optimization",

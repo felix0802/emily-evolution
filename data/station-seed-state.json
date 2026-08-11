@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 327,
+  "_rotation_idx": 328,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 39,
@@ -3721,8 +3721,8 @@
   },
   "moe": {
     "name": "Mixture of Experts",
-    "total_papers_found": 36,
-    "watering_count": 29,
+    "total_papers_found": 46,
+    "watering_count": 30,
     "history": [
       {
         "timestamp": "2026-07-15T09:46:58.985365",
@@ -4224,6 +4224,37 @@
         "avg_relevance": 0.0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-08-11T18:42:59.184549",
+        "papers_found": 10,
+        "duplicates": 0,
+        "irrelevant_filtered": 0,
+        "avg_relevance": 2.0,
+        "high_relevance": 7,
+        "papers": [
+          {
+            "title": "Disentangling Co-Occurring Retinal Pathologies with Saliency-Guided Sparse Expert Routing",
+            "summary": "Retinal fundus images frequently exhibit multiple co-occurring pathologies, yet standard deep learning classifiers apply static, identical computation to every image regardless of the underlying disease distribution. We propose a novel architecture that resolves this via sparse conditional computati",
+            "published": "2026-08-10",
+            "url": "http://arxiv.org/abs/2608.09752v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Tied Trit-Planes: Constraining PTQTP to a Uniform Nine-Level Quantizer, with a Persistent Folded Format for Disk-Streamed Mixture-of-Experts Serving",
+            "summary": "PTQTP decomposes LLM weight matrices into two ternary (trit) planes with two free per-group scales. Tying the scales to a fixed ratio of three collapses the decomposition into a single uniform nine-level quantizer, a known balanced-ternary identity. To our knowledge, at the time of writing, this wor",
+            "published": "2026-08-09",
+            "url": "http://arxiv.org/abs/2608.08910v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Beyond Routing: Decoupling Expert Dispatch and Aggregation in Sparse Mixture-of-Experts",
+            "summary": "Sparse Mixture-of-Experts (MoE) routers commonly use the same scores both to select experts and to weight their already-computed outputs. We study whether these two roles, dispatch and aggregation, should be coupled. On pretrained OLMoE-1B-7B, we keep selected Top-8 expert IDs, expert computation, a",
+            "published": "2026-08-09",
+            "url": "http://arxiv.org/abs/2608.08853v1",
+            "seed_match_score": 3
+          }
+        ]
       }
     ],
     "keywords": [
@@ -4235,7 +4266,7 @@
       "switch transformer",
       "deepseek"
     ],
-    "last_watered": "2026-08-10T22:23:54.080826"
+    "last_watered": "2026-08-11T18:42:59.184546"
   },
   "kv-cache": {
     "name": "KV Cache Optimization",
