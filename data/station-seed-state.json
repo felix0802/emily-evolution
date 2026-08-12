@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 337,
+  "_rotation_idx": 338,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 39,
@@ -3836,8 +3836,8 @@
   },
   "moe": {
     "name": "Mixture of Experts",
-    "total_papers_found": 46,
-    "watering_count": 30,
+    "total_papers_found": 48,
+    "watering_count": 31,
     "history": [
       {
         "timestamp": "2026-07-15T09:46:58.985365",
@@ -4370,6 +4370,30 @@
             "seed_match_score": 3
           }
         ]
+      },
+      {
+        "timestamp": "2026-08-12T14:49:15.559000",
+        "papers_found": 2,
+        "duplicates": 7,
+        "irrelevant_filtered": 1,
+        "avg_relevance": 2.0,
+        "high_relevance": 1,
+        "papers": [
+          {
+            "title": "Compute-Optimal Is Not Cluster-Optimal: Systems-Aware Scaling for Sparse Mixture-of-Experts",
+            "summary": "In large-scale pretraining, the algorithm, architecture, and systems decisions are conventionally made in disconnected stages. A scaling law stage selects an architecture and training recipe, optimizing loss under compute constraints, and a separate systems stage then optimizes the implementation fo",
+            "published": "2026-08-11",
+            "url": "http://arxiv.org/abs/2608.10605v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Share First, Route What Remains: A Unified Framework for Token-Adaptive MoE Computation",
+            "summary": "Mixture-of-experts (MoE) models have recently moved beyond routing a fixed number of complete experts. Shared-expert designs preserve reusable knowledge, fine-grained methods vary computation within experts, and dynamic routers adapt the number of active experts. Yet these decisions are usually made",
+            "published": "2026-08-11",
+            "url": "http://arxiv.org/abs/2608.10392v1",
+            "seed_match_score": 3
+          }
+        ]
       }
     ],
     "keywords": [
@@ -4381,7 +4405,7 @@
       "switch transformer",
       "deepseek"
     ],
-    "last_watered": "2026-08-11T18:42:59.184546"
+    "last_watered": "2026-08-12T14:49:15.558995"
   },
   "kv-cache": {
     "name": "KV Cache Optimization",

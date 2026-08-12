@@ -389,17 +389,16 @@
   },
   "moe": {
     "name": "Mixture of Experts",
-    "total_new_papers": 46,
-    "total_watering": 29,
+    "total_new_papers": 48,
+    "total_watering": 30,
     "all_keywords_matched": [
-      "expert routing",
+      "mixture of experts",
       "deepseek",
+      "expert routing",
       "moe",
-      "router",
-      "mixture of experts"
+      "router"
     ],
     "avg_relevance_trend": [
-      2.0,
       0.0,
       0.0,
       3.0,
@@ -418,9 +417,10 @@
       0.0,
       1.0,
       0.0,
+      2.0,
       2.0
     ],
-    "high_relevance_total": 33,
+    "high_relevance_total": 34,
     "best_papers": [
       {
         "title": "Multi-level context Modeling for consistent expert selection in Mixture-of-Experts",
@@ -456,9 +456,14 @@
         "title": "Shape Mutating Expert Compression:LorExperts and BTExperts",
         "score": 3,
         "published": "2026-08-07"
+      },
+      {
+        "title": "Share First, Route What Remains: A Unified Framework for Token-Adaptive MoE Computation",
+        "score": 3,
+        "published": "2026-08-11"
       }
     ],
-    "last_updated": "2026-08-11T18:42:59.184023"
+    "last_updated": "2026-08-12T14:49:15.558404"
   },
   "kv-cache": {
     "name": "KV Cache Optimization",

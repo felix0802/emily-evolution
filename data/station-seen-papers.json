@@ -21086,7 +21086,40 @@
         "robust"
       ],
       "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.10605v1",
+      "title": "Compute-Optimal Is Not Cluster-Optimal: Systems-Aware Scaling for Sparse Mixture-of-Experts",
+      "arxiv_id": "2608.10605",
+      "tokens": [
+        "aware",
+        "cluster",
+        "compute",
+        "experts",
+        "mixture",
+        "optimal",
+        "optimal",
+        "scaling",
+        "sparse"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.10392v1",
+      "title": "Share First, Route What Remains: A Unified Framework for Token-Adaptive MoE Computation",
+      "arxiv_id": "2608.10392",
+      "tokens": [
+        "adaptive",
+        "computation",
+        "moe",
+        "remains",
+        "route",
+        "share",
+        "token",
+        "unified"
+      ],
+      "first_seen_round": 165
     }
   ],
-  "total_unique": 1313
+  "total_unique": 1315
 }
