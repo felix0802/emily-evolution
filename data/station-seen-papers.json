@@ -21119,7 +21119,55 @@
         "unified"
       ],
       "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.08878v1",
+      "title": "DistillCache: KL-Guided Adaptive KV-Cache Eviction for Memory-Efficient LLM Inference",
+      "arxiv_id": "2608.08878",
+      "tokens": [
+        "adaptive",
+        "cache",
+        "distillcache",
+        "eviction",
+        "guided",
+        "inference",
+        "llm",
+        "memory"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.08721v1",
+      "title": "LibraSpec: Dynamic Diffusion-Based Speculative Decoding via Marginal-Gain-Driven Optimization",
+      "arxiv_id": "2608.08721",
+      "tokens": [
+        "decoding",
+        "diffusion",
+        "driven",
+        "dynamic",
+        "gain",
+        "libraspec",
+        "marginal",
+        "optimization",
+        "speculative"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.08684v1",
+      "title": "RippleKV: Cross-Layer KV Cache Allocation via Perturbation Propagation",
+      "arxiv_id": "2608.08684",
+      "tokens": [
+        "allocation",
+        "cache",
+        "cross",
+        "layer",
+        "perturbation",
+        "propagation",
+        "ripplekv"
+      ],
+      "first_seen_round": 165
     }
   ],
-  "total_unique": 1315
+  "total_unique": 1318
 }
