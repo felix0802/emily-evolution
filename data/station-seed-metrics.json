@@ -1,17 +1,16 @@
 {
   "spiking-nn": {
     "name": "Spiking Neural Networks",
-    "total_new_papers": 20,
-    "total_watering": 34,
+    "total_new_papers": 21,
+    "total_watering": 35,
     "all_keywords_matched": [
-      "spiking",
-      "neuromorphic",
+      "spike-timing",
       "snn",
-      "spike-timing"
+      "spiking",
+      "neuromorphic"
     ],
     "avg_relevance_trend": [
       1.0,
-      1.0,
       0.0,
       0.0,
       0.0,
@@ -29,9 +28,10 @@
       0.0,
       0.0,
       0.0,
-      0.0
+      0.0,
+      2.0
     ],
-    "high_relevance_total": 15,
+    "high_relevance_total": 16,
     "best_papers": [
       {
         "title": "Unified Complex-valued Neural Network: A Magnitude-Phase Computational Model for Event-Driven Neurom",
@@ -59,7 +59,7 @@
         "published": "2026-07-07"
       }
     ],
-    "last_updated": "2026-08-10T14:48:36.413965"
+    "last_updated": "2026-08-12T07:03:36.325742"
   },
   "few-shot": {
     "name": "Few-Shot Learning",

@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 333,
+  "_rotation_idx": 334,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 39,
@@ -1857,8 +1857,8 @@
   },
   "spiking-nn": {
     "name": "Spiking Neural Networks",
-    "total_papers_found": 20,
-    "watering_count": 35,
+    "total_papers_found": 21,
+    "watering_count": 36,
     "history": [
       {
         "timestamp": "2026-07-07T08:54:38.442223",
@@ -2295,6 +2295,23 @@
         "avg_relevance": 0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-08-12T07:03:36.326300",
+        "papers_found": 1,
+        "duplicates": 8,
+        "irrelevant_filtered": 1,
+        "avg_relevance": 2.0,
+        "high_relevance": 1,
+        "papers": [
+          {
+            "title": "SuperNeuroMAT: An Efficient Matrix-based Simulator for Spiking Neural Networks",
+            "summary": "Spiking neural networks (SNNs) offer a promising pathway to energy-efficient AI and brain-inspired computing. However, their widespread adoption is hindered by a lack of fast, accessible, and versatile simulation frameworks. In this paper, we introduce SuperNeuroMAT, an open-source, scalable, and hi",
+            "published": "2026-08-09",
+            "url": "http://arxiv.org/abs/2608.08479v1",
+            "seed_match_score": 2
+          }
+        ]
       }
     ],
     "keywords": [
@@ -2303,7 +2320,7 @@
       "neuromorphic",
       "spike-timing"
     ],
-    "last_watered": "2026-08-11T10:42:26.706113"
+    "last_watered": "2026-08-12T07:03:36.326295"
   },
   "non-transformer": {
     "name": "Non-Transformer Arch",
