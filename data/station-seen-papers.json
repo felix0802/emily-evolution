@@ -20937,7 +20937,74 @@
         "words"
       ],
       "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.10699v1",
+      "title": "ProTAGAD: A Foundation Model for TAG Anomaly Detection with Decoupled Topological and Textual Prototypes",
+      "arxiv_id": "2608.10699",
+      "tokens": [
+        "anomaly",
+        "decoupled",
+        "detection",
+        "foundation",
+        "protagad",
+        "prototypes",
+        "tag",
+        "textual",
+        "topological"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.10587v1",
+      "title": "BREAD: Baseline-Referenced Explanations for Anomaly Diagnosis",
+      "arxiv_id": "2608.10587",
+      "tokens": [
+        "anomaly",
+        "baseline",
+        "bread",
+        "diagnosis",
+        "explanations",
+        "referenced"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.10256v1",
+      "title": "CRHT: A Continuous Regression Hybrid Transformer for Vessel Trajectory Prediction with Online Cluster Sampling",
+      "arxiv_id": "2608.10256",
+      "tokens": [
+        "cluster",
+        "continuous",
+        "crht",
+        "hybrid",
+        "online",
+        "prediction",
+        "regression",
+        "sampling",
+        "trajectory",
+        "transformer",
+        "vessel"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.10249v1",
+      "title": "STCAD: Scalable Trajectory Clustering and Anomaly Detection on Terabyte-Scale AIS Data",
+      "arxiv_id": "2608.10249",
+      "tokens": [
+        "ais",
+        "anomaly",
+        "clustering",
+        "detection",
+        "scalable",
+        "scale",
+        "stcad",
+        "terabyte",
+        "trajectory"
+      ],
+      "first_seen_round": 165
     }
   ],
-  "total_unique": 1303
+  "total_unique": 1307
 }

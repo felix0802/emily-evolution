@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 332,
+  "_rotation_idx": 333,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 39,
@@ -1142,8 +1142,8 @@
   },
   "htm": {
     "name": "HTM",
-    "total_papers_found": 53,
-    "watering_count": 36,
+    "total_papers_found": 57,
+    "watering_count": 37,
     "history": [
       {
         "timestamp": "2026-07-07T08:08:03.935545",
@@ -1808,6 +1808,37 @@
             "seed_match_score": 1
           }
         ]
+      },
+      {
+        "timestamp": "2026-08-12T05:21:37.389597",
+        "papers_found": 4,
+        "duplicates": 1,
+        "irrelevant_filtered": 5,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "ProTAGAD: A Foundation Model for TAG Anomaly Detection with Decoupled Topological and Textual Prototypes",
+            "summary": "Text-Attributed Graphs (TAGs), endowed with abundant textual content along with topological structures, have emerged as a versatile backbone for real-world anomaly detection spanning large language model security, social network moderation, and cyber threat identification. Unlike conventional Graph ",
+            "published": "2026-08-11",
+            "url": "http://arxiv.org/abs/2608.10699v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "BREAD: Baseline-Referenced Explanations for Anomaly Diagnosis",
+            "summary": "Artificial Intelligence (AI)-based prospective anomaly detection methods are increasingly deployed in high-dimensional and nonlinear settings. Among these approaches, AI-based statistical process monitoring (SPM) is widely used, providing a structured framework for prospective monitoring. Once an an",
+            "published": "2026-08-11",
+            "url": "http://arxiv.org/abs/2608.10587v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "CRHT: A Continuous Regression Hybrid Transformer for Vessel Trajectory Prediction with Online Cluster Sampling",
+            "summary": "Accurate vessel trajectory prediction is critical for maritime safety and anomaly detection, yet existing models often struggle with geographic bias and navigational realism. We propose the Continuous Regression Hybrid Transformer (CRHT), a deep learning framework designed to forecast vessel motion ",
+            "published": "2026-08-10",
+            "url": "http://arxiv.org/abs/2608.10256v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -1822,7 +1853,7 @@
       "anomaly detection",
       "continuous learning"
     ],
-    "last_watered": "2026-08-11T08:41:43.355748"
+    "last_watered": "2026-08-12T05:21:37.389592"
   },
   "spiking-nn": {
     "name": "Spiking Neural Networks",
