@@ -21596,7 +21596,44 @@
         "undermines"
       ],
       "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.12149v1",
+      "title": "Massive Activations in Hybrid Linear Attention Large Language Models: Pre-Attention Spikes and Inter-Spike Plateaus",
+      "arxiv_id": "2608.12149",
+      "tokens": [
+        "activations",
+        "attention",
+        "attention",
+        "hybrid",
+        "inter",
+        "language",
+        "linear",
+        "massive",
+        "plateaus",
+        "pre",
+        "spike",
+        "spikes"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.12099v1",
+      "title": "RT-SEMamba: Real-Time Speech Enhancement Mamba via Progressive Knowledge Distillation",
+      "arxiv_id": "2608.12099",
+      "tokens": [
+        "distillation",
+        "enhancement",
+        "knowledge",
+        "mamba",
+        "progressive",
+        "real",
+        "semamba",
+        "speech",
+        "time"
+      ],
+      "first_seen_round": 165
     }
   ],
-  "total_unique": 1343
+  "total_unique": 1345
 }

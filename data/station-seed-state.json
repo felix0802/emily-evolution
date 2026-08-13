@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 344,
+  "_rotation_idx": 345,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 40,
@@ -2368,8 +2368,8 @@
   },
   "non-transformer": {
     "name": "Non-Transformer Arch",
-    "total_papers_found": 14,
-    "watering_count": 37,
+    "total_papers_found": 16,
+    "watering_count": 38,
     "history": [
       {
         "timestamp": "2026-07-07T10:14:36.288723",
@@ -2798,6 +2798,30 @@
         "avg_relevance": 0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-08-13T05:28:36.010729",
+        "papers_found": 2,
+        "duplicates": 6,
+        "irrelevant_filtered": 2,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "Massive Activations in Hybrid Linear Attention Large Language Models: Pre-Attention Spikes and Inter-Spike Plateaus",
+            "summary": "We present the first systematic study of Massive activations (MAs) in layer-interleaved HLA LLMs and uncover two architecture-aligned morphologies: MAs consistently spike immediately before full attention layers, forming pre-attention spikes (PAS), and can persist through intervening linear attentio",
+            "published": "2026-08-12",
+            "url": "http://arxiv.org/abs/2608.12149v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "RT-SEMamba: Real-Time Speech Enhancement Mamba via Progressive Knowledge Distillation",
+            "summary": "We present RT-SEMamba, a fully causal speech enhancement (SE) model built upon causal time-frequency Mamba blocks. Unlike Transformer-based architectures that rely on a growing key-value cache, Mamba propagates a fixed-size recurrent state per layer, enabling memory- and bandwidth-efficient long-for",
+            "published": "2026-08-12",
+            "url": "http://arxiv.org/abs/2608.12099v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -2810,7 +2834,7 @@
       "sub-quadratic",
       "mamba"
     ],
-    "last_watered": "2026-08-12T09:00:12.085714"
+    "last_watered": "2026-08-13T05:28:36.010724"
   },
   "few-shot": {
     "name": "Few-Shot Learning",
