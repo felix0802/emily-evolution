@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 347,
+  "_rotation_idx": 348,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 40,
@@ -3930,8 +3930,8 @@
   },
   "moe": {
     "name": "Mixture of Experts",
-    "total_papers_found": 48,
-    "watering_count": 31,
+    "total_papers_found": 51,
+    "watering_count": 32,
     "history": [
       {
         "timestamp": "2026-07-15T09:46:58.985365",
@@ -4488,6 +4488,37 @@
             "seed_match_score": 3
           }
         ]
+      },
+      {
+        "timestamp": "2026-08-13T10:50:04.353972",
+        "papers_found": 3,
+        "duplicates": 6,
+        "irrelevant_filtered": 1,
+        "avg_relevance": 1.33,
+        "high_relevance": 1,
+        "papers": [
+          {
+            "title": "TradingMoE: Routing the Right Experts in Evolving Markets",
+            "summary": "Large language models (LLMs) have shown strong potential for financial analysis and trading, but direct trading remains challenging because the predictive capabilities required can vary across assets, decision fields, and market conditions. Existing LLM-based trading systems either coordinate human-",
+            "published": "2026-08-12",
+            "url": "http://arxiv.org/abs/2608.11785v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "APEX: Adaptive Expert Prefetching for Memory-Efficient Edge MoE Inference",
+            "summary": "Mixture-of-Experts (MoE) models are attractive for edge deployment because they provide high model capacity while activating only a small subset of parameters per token, improving compute efficiency. However, MoE inference at the edge is fundamentally limited by memory. Expert parameters are large a",
+            "published": "2026-08-12",
+            "url": "http://arxiv.org/abs/2608.11688v1",
+            "seed_match_score": 2
+          },
+          {
+            "title": "FM-LLM: A frequency-enhanced mixture-of-experts framework for adapting LLMs to time series forecasting",
+            "summary": "Recent advances in Large Language Models (LLMs) have spurred cross-modal solutions for time-series forecasting. However, existing methods rely heavily on textual prompts for modality alignment-introducing nontrivial computational overhead and failing to leverage the rich spectral dynamics inherent i",
+            "published": "2026-08-12",
+            "url": "http://arxiv.org/abs/2608.11623v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -4499,7 +4530,7 @@
       "switch transformer",
       "deepseek"
     ],
-    "last_watered": "2026-08-12T14:49:15.558995"
+    "last_watered": "2026-08-13T10:50:04.353967"
   },
   "kv-cache": {
     "name": "KV Cache Optimization",

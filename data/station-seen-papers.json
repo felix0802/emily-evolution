@@ -21650,7 +21650,55 @@
         "wise"
       ],
       "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.11785v1",
+      "title": "TradingMoE: Routing the Right Experts in Evolving Markets",
+      "arxiv_id": "2608.11785",
+      "tokens": [
+        "evolving",
+        "experts",
+        "markets",
+        "right",
+        "routing",
+        "tradingmoe"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.11688v1",
+      "title": "APEX: Adaptive Expert Prefetching for Memory-Efficient Edge MoE Inference",
+      "arxiv_id": "2608.11688",
+      "tokens": [
+        "adaptive",
+        "apex",
+        "edge",
+        "expert",
+        "inference",
+        "memory",
+        "moe",
+        "prefetching"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.11623v1",
+      "title": "FM-LLM: A frequency-enhanced mixture-of-experts framework for adapting LLMs to time series forecasting",
+      "arxiv_id": "2608.11623",
+      "tokens": [
+        "adapting",
+        "enhanced",
+        "experts",
+        "forecasting",
+        "frequency",
+        "llm",
+        "llms",
+        "mixture",
+        "series",
+        "time"
+      ],
+      "first_seen_round": 165
     }
   ],
-  "total_unique": 1346
+  "total_unique": 1349
 }
