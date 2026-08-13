@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 346,
+  "_rotation_idx": 347,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 40,
@@ -3313,8 +3313,8 @@
   },
   "continual-learning": {
     "name": "Continual Learning",
-    "total_papers_found": 48,
-    "watering_count": 35,
+    "total_papers_found": 49,
+    "watering_count": 36,
     "history": [
       {
         "timestamp": "2026-07-07T13:06:50.870963",
@@ -3900,6 +3900,23 @@
             "seed_match_score": 1
           }
         ]
+      },
+      {
+        "timestamp": "2026-08-13T08:59:58.720939",
+        "papers_found": 1,
+        "duplicates": 6,
+        "irrelevant_filtered": 3,
+        "avg_relevance": 2.0,
+        "high_relevance": 1,
+        "papers": [
+          {
+            "title": "Drift and Dependence: Layer-wise Information-Theoretic Bounds for Replay-Based Continual Learning",
+            "summary": "Continual learning must absorb new tasks without erasing old ones, and replay---mixing a small buffer of past examples into current training---is among the most effective remedies for catastrophic forgetting. Yet its generalization behavior is shaped by two coupled effects that existing analyses fol",
+            "published": "2026-08-12",
+            "url": "http://arxiv.org/abs/2608.11690v1",
+            "seed_match_score": 2
+          }
+        ]
       }
     ],
     "keywords": [
@@ -3909,7 +3926,7 @@
       "ewc",
       "elastic weight"
     ],
-    "last_watered": "2026-08-12T12:39:03.458159"
+    "last_watered": "2026-08-13T08:59:58.720934"
   },
   "moe": {
     "name": "Mixture of Experts",
