@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 352,
+  "_rotation_idx": 353,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 40,
@@ -1194,8 +1194,8 @@
   },
   "htm": {
     "name": "HTM",
-    "total_papers_found": 57,
-    "watering_count": 38,
+    "total_papers_found": 60,
+    "watering_count": 39,
     "history": [
       {
         "timestamp": "2026-07-07T08:08:03.935545",
@@ -1900,6 +1900,37 @@
         "avg_relevance": 0.0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-08-13T20:27:54.612124",
+        "papers_found": 3,
+        "duplicates": 4,
+        "irrelevant_filtered": 3,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "Towards Model-based Run-time Cybersecurity: On Control-Flow Anomaly Detection, Attack Identification, and Hardware Monitoring",
+            "summary": "Methods to increase the resilience of systems to cyber-attacks become increasingly important. Control-flow monitoring provides a principled basis to ensure integrity and detect possible anomalies at run-time. Once anomalies have been detected, so-called attack trees can be used to identify possible ",
+            "published": "2026-08-12",
+            "url": "http://arxiv.org/abs/2608.11802v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "AgenticTwin: An Agentic LLM Framework Integrated with Digital Twin for Anomaly Detection",
+            "summary": "Digital twins are increasingly used to monitor and simulate the behavior of cyber-physical systems. Even with skilled operators, interpreting anomalies detected within digital twin pipelines is challenging, as the sheer complexity and volume of raw sensor data make thorough analysis difficult. Recen",
+            "published": "2026-08-12",
+            "url": "http://arxiv.org/abs/2608.11679v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "When Offline Evaluation Misleads: A Diagnostic Protocol for Reward and Policy Selection in Delayed-Feedback Contextual Bandits",
+            "summary": "Personalizing marketing messages with contextual multi-armed bandits (CMABs) drives real business value, yet the objective that ultimately matters - a downstream conversion - is observed only weeks later, too late to drive online learning. Teams therefore train the bandit on a fast proxy reward, and",
+            "published": "2026-08-12",
+            "url": "http://arxiv.org/abs/2608.11560v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -1914,7 +1945,7 @@
       "anomaly detection",
       "continuous learning"
     ],
-    "last_watered": "2026-08-13T00:54:33.952931"
+    "last_watered": "2026-08-13T20:27:54.612121"
   },
   "spiking-nn": {
     "name": "Spiking Neural Networks",

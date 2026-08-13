@@ -21780,7 +21780,62 @@
         "why"
       ],
       "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.11802v1",
+      "title": "Towards Model-based Run-time Cybersecurity: On Control-Flow Anomaly Detection, Attack Identification, and Hardware Monitoring",
+      "arxiv_id": "2608.11802",
+      "tokens": [
+        "anomaly",
+        "attack",
+        "control",
+        "cybersecurity",
+        "detection",
+        "flow",
+        "hardware",
+        "identification",
+        "monitoring",
+        "run",
+        "time"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.11679v1",
+      "title": "AgenticTwin: An Agentic LLM Framework Integrated with Digital Twin for Anomaly Detection",
+      "arxiv_id": "2608.11679",
+      "tokens": [
+        "agentic",
+        "agentictwin",
+        "anomaly",
+        "detection",
+        "digital",
+        "integrated",
+        "llm",
+        "twin"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.11560v1",
+      "title": "When Offline Evaluation Misleads: A Diagnostic Protocol for Reward and Policy Selection in Delayed-Feedback Contextual Bandits",
+      "arxiv_id": "2608.11560",
+      "tokens": [
+        "bandits",
+        "contextual",
+        "delayed",
+        "diagnostic",
+        "evaluation",
+        "feedback",
+        "misleads",
+        "offline",
+        "policy",
+        "protocol",
+        "reward",
+        "selection"
+      ],
+      "first_seen_round": 165
     }
   ],
-  "total_unique": 1354
+  "total_unique": 1357
 }
