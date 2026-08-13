@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 349,
+  "_rotation_idx": 350,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 40,
@@ -5100,8 +5100,8 @@
   },
   "gnn": {
     "name": "Graph Neural Networks",
-    "total_papers_found": 71,
-    "watering_count": 33,
+    "total_papers_found": 75,
+    "watering_count": 34,
     "history": [
       {
         "timestamp": "2026-07-15T15:16:02.082257",
@@ -5725,6 +5725,37 @@
             "seed_match_score": 1
           }
         ]
+      },
+      {
+        "timestamp": "2026-08-13T14:49:01.273618",
+        "papers_found": 4,
+        "duplicates": 2,
+        "irrelevant_filtered": 4,
+        "avg_relevance": 1.5,
+        "high_relevance": 2,
+        "papers": [
+          {
+            "title": "HSTGFormer: Hyper Spatial-Temporal Graph Transformer for 3D Human Pose Estimation",
+            "summary": "Transformer-based methods have achieved strong performance in monocular 3D human pose estimation, but most existing approaches organise spatial and temporal reasoning as separate stages, which may weaken unified spatial-temporal interdependencies inherent in human motion and compress frame-level str",
+            "published": "2026-08-12",
+            "url": "http://arxiv.org/abs/2608.12187v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Faithful, Sufficient and Understandable: Rethinking Graph Counterfactual Explanations via Discrete Diffusion Inversion",
+            "summary": "Graph Neural Networks (GNNs) achieve strong predictive performance on graph-structured data across domains such as chemistry, biology, and network analysis, yet they provide no intrinsic explanation of their predictions. This limits their adoption in high-stakes and safety-critical settings. Counter",
+            "published": "2026-08-12",
+            "url": "http://arxiv.org/abs/2608.12083v1",
+            "seed_match_score": 2
+          },
+          {
+            "title": "Defending against Model Extraction for GNNs with Model Reprogramming",
+            "summary": "Graph Neural Networks (GNNs) serve as the backbone for high-stakes applications in Machine-Learning-as-a-Service (MLaaS). Still, their black-box deployment exposes them to Model Extraction (ME) attacks, in which adversaries steal intellectual property by querying APIs. Existing defenses suffer from ",
+            "published": "2026-08-11",
+            "url": "http://arxiv.org/abs/2608.11495v1",
+            "seed_match_score": 2
+          }
+        ]
       }
     ],
     "keywords": [
@@ -5736,6 +5767,6 @@
       "node embedding",
       "graph transformer"
     ],
-    "last_watered": "2026-08-12T18:43:53.694228"
+    "last_watered": "2026-08-13T14:49:01.273615"
   }
 }

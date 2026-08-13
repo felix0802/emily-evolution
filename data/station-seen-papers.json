@@ -21698,7 +21698,67 @@
         "time"
       ],
       "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.12187v1",
+      "title": "HSTGFormer: Hyper Spatial-Temporal Graph Transformer for 3D Human Pose Estimation",
+      "arxiv_id": "2608.12187",
+      "tokens": [
+        "estimation",
+        "graph",
+        "hstgformer",
+        "human",
+        "hyper",
+        "pose",
+        "spatial",
+        "temporal",
+        "transformer"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.12083v1",
+      "title": "Faithful, Sufficient and Understandable: Rethinking Graph Counterfactual Explanations via Discrete Diffusion Inversion",
+      "arxiv_id": "2608.12083",
+      "tokens": [
+        "counterfactual",
+        "diffusion",
+        "discrete",
+        "explanations",
+        "faithful",
+        "graph",
+        "inversion",
+        "rethinking",
+        "sufficient",
+        "understandable"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.11495v1",
+      "title": "Defending against Model Extraction for GNNs with Model Reprogramming",
+      "arxiv_id": "2608.11495",
+      "tokens": [
+        "against",
+        "defending",
+        "extraction",
+        "gnns",
+        "reprogramming"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.11431v1",
+      "title": "AutoGrable: What Is a Good Graph for a Table?",
+      "arxiv_id": "2608.11431",
+      "tokens": [
+        "autograble",
+        "good",
+        "graph",
+        "table"
+      ],
+      "first_seen_round": 165
     }
   ],
-  "total_unique": 1349
+  "total_unique": 1353
 }
