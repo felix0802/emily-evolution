@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 359,
+  "_rotation_idx": 360,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 40,
@@ -5250,8 +5250,8 @@
   },
   "gnn": {
     "name": "Graph Neural Networks",
-    "total_papers_found": 75,
-    "watering_count": 34,
+    "total_papers_found": 77,
+    "watering_count": 35,
     "history": [
       {
         "timestamp": "2026-07-15T15:16:02.082257",
@@ -5906,6 +5906,30 @@
             "seed_match_score": 2
           }
         ]
+      },
+      {
+        "timestamp": "2026-08-14T10:45:35.270392",
+        "papers_found": 2,
+        "duplicates": 3,
+        "irrelevant_filtered": 5,
+        "avg_relevance": 1.5,
+        "high_relevance": 1,
+        "papers": [
+          {
+            "title": "EGRL: Edge generation-guided relation-aware learning for RNA-protein interaction prediction",
+            "summary": "RNA-Protein Interactions (RPIs) are critical for regulating cellular functions. While traditional wet-lab experiments for RPI detection are costly and time-consuming, Deep Learning (DL) methods provide an efficient computational alternative for RPI Prediction (RPIP). In particular, Graph Neural Netw",
+            "published": "2026-08-13",
+            "url": "http://arxiv.org/abs/2608.12906v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Exploring Oversmoothing with Householder Matrices",
+            "summary": "Deep graph neural networks(GNNs) suffer from oversmoothing- a progressive collapse of node representation towards a low information subspace as network depth increases because the normalized graph propagation operator is repeatedly applied directly to the hidden representations. In this work we stud",
+            "published": "2026-08-12",
+            "url": "http://arxiv.org/abs/2608.12514v1",
+            "seed_match_score": 2
+          }
+        ]
       }
     ],
     "keywords": [
@@ -5917,6 +5941,6 @@
       "node embedding",
       "graph transformer"
     ],
-    "last_watered": "2026-08-13T14:49:01.273615"
+    "last_watered": "2026-08-14T10:45:35.270387"
   }
 }

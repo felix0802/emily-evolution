@@ -22172,7 +22172,37 @@
         "expert"
       ],
       "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.12906v1",
+      "title": "EGRL: Edge generation-guided relation-aware learning for RNA-protein interaction prediction",
+      "arxiv_id": "2608.12906",
+      "tokens": [
+        "aware",
+        "edge",
+        "egrl",
+        "generation",
+        "guided",
+        "interaction",
+        "prediction",
+        "protein",
+        "relation",
+        "rna"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.12514v1",
+      "title": "Exploring Oversmoothing with Householder Matrices",
+      "arxiv_id": "2608.12514",
+      "tokens": [
+        "exploring",
+        "householder",
+        "matrices",
+        "oversmoothing"
+      ],
+      "first_seen_round": 165
     }
   ],
-  "total_unique": 1379
+  "total_unique": 1381
 }
