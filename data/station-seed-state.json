@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 361,
+  "_rotation_idx": 362,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 40,
@@ -600,8 +600,8 @@
   },
   "liquid-networks": {
     "name": "Liquid Networks",
-    "total_papers_found": 48,
-    "watering_count": 39,
+    "total_papers_found": 50,
+    "watering_count": 40,
     "history": [
       {
         "timestamp": "2026-07-06T21:47:31.917958",
@@ -1190,6 +1190,30 @@
             "seed_match_score": 1
           }
         ]
+      },
+      {
+        "timestamp": "2026-08-14T14:43:29.000586",
+        "papers_found": 2,
+        "duplicates": 7,
+        "irrelevant_filtered": 1,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "Virtual Temperature Sensors in Power Transformers Using Neural Ordinary Differential Equations",
+            "summary": "Accurate modeling and forecasting of power transformer thermal behavior are critical for reliability, asset lifetime, and optimized power system operation. Numerical approaches such as finite element methods (FEM) and computational fluid dynamics (CFD) offer high fidelity but are computationally exp",
+            "published": "2026-08-13",
+            "url": "http://arxiv.org/abs/2608.13260v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Incremental Evaluation and Training in Relational Deep Learning",
+            "summary": "Relational Deep Learning (RDL) models multi-tabular databases as temporal heterogeneous graphs to enable end-to-end representation learning. However, prevailing RDL evaluation practices rely on static, single-episode dataset snapshots, overlooking the continuous, time-evolving nature of real-world d",
+            "published": "2026-08-13",
+            "url": "http://arxiv.org/abs/2608.13023v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -1199,7 +1223,7 @@
       "ode",
       "continuous-time"
     ],
-    "last_watered": "2026-08-13T18:44:25.288624"
+    "last_watered": "2026-08-14T14:43:29.000582"
   },
   "htm": {
     "name": "HTM",
