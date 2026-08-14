@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 355,
+  "_rotation_idx": 356,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 40,
@@ -2913,8 +2913,8 @@
   },
   "few-shot": {
     "name": "Few-Shot Learning",
-    "total_papers_found": 23,
-    "watering_count": 37,
+    "total_papers_found": 25,
+    "watering_count": 38,
     "history": [
       {
         "timestamp": "2026-07-07T13:04:52.717562",
@@ -3375,6 +3375,30 @@
         "avg_relevance": 0.0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-08-14T03:53:55.575014",
+        "papers_found": 2,
+        "duplicates": 4,
+        "irrelevant_filtered": 4,
+        "avg_relevance": 1.5,
+        "high_relevance": 1,
+        "papers": [
+          {
+            "title": "Comment on \"Modeling rapid language learning by distilling Bayesian priors into artificial neural networks\"",
+            "summary": "McCoy & Griffiths (2025, henceforth M&G) suggest that a Bayesian prior can be distilled into Artificial Neural Networks (ANNs) through Model-Agnostic Meta-Learning (MAML, Finn et al., 2017). They support this empirically by showing that meta-trained networks demonstrate formal language learning abil",
+            "published": "2026-08-13",
+            "url": "http://arxiv.org/abs/2608.12974v1",
+            "seed_match_score": 2
+          },
+          {
+            "title": "Efficient Hessian-Free Methods for Multi-Objective Bilevel Optimization with Nonconvex Lower Level",
+            "summary": "Multi-objective bilevel optimization has wide applications in the AI area such as automated learning and multi-task meta-learning. Although recently some works have been begun to study the multi-objective bilevel optimization, the proposed methods rely on the (strongly) convex lower level problems. ",
+            "published": "2026-08-13",
+            "url": "http://arxiv.org/abs/2608.12704v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -3384,7 +3408,7 @@
       "prototypical",
       "in-context"
     ],
-    "last_watered": "2026-08-13T07:07:22.662991"
+    "last_watered": "2026-08-14T03:53:55.574992"
   },
   "continual-learning": {
     "name": "Continual Learning",
