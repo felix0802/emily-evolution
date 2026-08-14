@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 358,
+  "_rotation_idx": 359,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 40,
@@ -4667,8 +4667,8 @@
   },
   "kv-cache": {
     "name": "KV Cache Optimization",
-    "total_papers_found": 46,
-    "watering_count": 33,
+    "total_papers_found": 47,
+    "watering_count": 34,
     "history": [
       {
         "timestamp": "2026-07-15T11:19:09.355556",
@@ -5218,6 +5218,23 @@
         "avg_relevance": 0.0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-08-14T08:55:21.436919",
+        "papers_found": 1,
+        "duplicates": 2,
+        "irrelevant_filtered": 7,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "Decoupled Contrastive Decoding via Expert-Aligned Drafting",
+            "summary": "Contrastive Decoding (CD) improves generation quality, but its amateur-model pass makes decoding expensive. Accelerating CD with speculative decoding raises a proposal-alignment question: should the contrastive signal shape the drafter, or should it remain only in verification? We study this questio",
+            "published": "2026-08-13",
+            "url": "http://arxiv.org/abs/2608.12913v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -5229,7 +5246,7 @@
       "flash attention",
       "speculative decoding"
     ],
-    "last_watered": "2026-08-13T12:40:05.777424"
+    "last_watered": "2026-08-14T08:55:21.436913"
   },
   "gnn": {
     "name": "Graph Neural Networks",
