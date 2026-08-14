@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 364,
+  "_rotation_idx": 365,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 40,
@@ -2493,8 +2493,8 @@
   },
   "non-transformer": {
     "name": "Non-Transformer Arch",
-    "total_papers_found": 16,
-    "watering_count": 39,
+    "total_papers_found": 17,
+    "watering_count": 40,
     "history": [
       {
         "timestamp": "2026-07-07T10:14:36.288723",
@@ -2956,6 +2956,23 @@
         "avg_relevance": 0.0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-08-14T20:19:41.640681",
+        "papers_found": 1,
+        "duplicates": 7,
+        "irrelevant_filtered": 2,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "A Contract-Grade Verifier for LLM-Generated GPU Kernels, and a Native Blackwell Backward for the Gated-Linear-Recurrence Family",
+            "summary": "Systems that generate GPU kernels with language models report high correctness rates. Those rates come from a single loose test: run the kernel on a few random inputs at one fixed shape and accept it if the output is close to a reference. A kernel can pass that test and still be silently wrong. It c",
+            "published": "2026-08-13",
+            "url": "http://arxiv.org/abs/2608.12700v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -2968,7 +2985,7 @@
       "sub-quadratic",
       "mamba"
     ],
-    "last_watered": "2026-08-14T00:54:15.955732"
+    "last_watered": "2026-08-14T20:19:41.640677"
   },
   "few-shot": {
     "name": "Few-Shot Learning",

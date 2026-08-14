@@ -22252,7 +22252,29 @@
         "temporal"
       ],
       "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.12700v1",
+      "title": "A Contract-Grade Verifier for LLM-Generated GPU Kernels, and a Native Blackwell Backward for the Gated-Linear-Recurrence Family",
+      "arxiv_id": "2608.12700",
+      "tokens": [
+        "backward",
+        "blackwell",
+        "contract",
+        "family",
+        "gated",
+        "generated",
+        "gpu",
+        "grade",
+        "kernels",
+        "linear",
+        "llm",
+        "native",
+        "recurrence",
+        "verifier"
+      ],
+      "first_seen_round": 165
     }
   ],
-  "total_unique": 1384
+  "total_unique": 1385
 }
