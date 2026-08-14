@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 362,
+  "_rotation_idx": 363,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 40,
@@ -1227,8 +1227,8 @@
   },
   "htm": {
     "name": "HTM",
-    "total_papers_found": 60,
-    "watering_count": 39,
+    "total_papers_found": 61,
+    "watering_count": 40,
     "history": [
       {
         "timestamp": "2026-07-07T08:08:03.935545",
@@ -1964,6 +1964,23 @@
             "seed_match_score": 1
           }
         ]
+      },
+      {
+        "timestamp": "2026-08-14T16:37:49.415938",
+        "papers_found": 1,
+        "duplicates": 4,
+        "irrelevant_filtered": 5,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "Dual Spatial-Temporal Attribution: Architecture-Aligned Post-Hoc Explainability for Recurrent Graph Anomaly Detection",
+            "summary": "Deep learning detectors for anomalies in dynamic graphs have reached strong accuracy, yet they remain opaque: when an edge is flagged, the analyst receives a score but no reason. This opacity is untenable in the cooperative, regulated information systems where such detectors are deployed, where auto",
+            "published": "2026-08-12",
+            "url": "http://arxiv.org/abs/2608.12441v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -1978,7 +1995,7 @@
       "anomaly detection",
       "continuous learning"
     ],
-    "last_watered": "2026-08-13T20:27:54.612121"
+    "last_watered": "2026-08-14T16:37:49.415932"
   },
   "spiking-nn": {
     "name": "Spiking Neural Networks",
