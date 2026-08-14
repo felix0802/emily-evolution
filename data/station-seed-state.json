@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 356,
+  "_rotation_idx": 357,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 40,
@@ -3412,8 +3412,8 @@
   },
   "continual-learning": {
     "name": "Continual Learning",
-    "total_papers_found": 49,
-    "watering_count": 36,
+    "total_papers_found": 50,
+    "watering_count": 37,
     "history": [
       {
         "timestamp": "2026-07-07T13:06:50.870963",
@@ -4016,6 +4016,23 @@
             "seed_match_score": 2
           }
         ]
+      },
+      {
+        "timestamp": "2026-08-14T05:22:51.730940",
+        "papers_found": 1,
+        "duplicates": 7,
+        "irrelevant_filtered": 2,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "Sustaining Plasticity via Learnable Wavelet Activations in Continual Learning",
+            "summary": "Plasticity loss has emerged as a critical challenge in continual learning that significantly hinders the acquisition of sequential tasks. While optimizing activation designs offers a potential solution, current fixed-form functions suffer from an inherent spectral bias towards low-frequency variatio",
+            "published": "2026-08-13",
+            "url": "http://arxiv.org/abs/2608.12874v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -4025,7 +4042,7 @@
       "ewc",
       "elastic weight"
     ],
-    "last_watered": "2026-08-13T08:59:58.720934"
+    "last_watered": "2026-08-14T05:22:51.730935"
   },
   "moe": {
     "name": "Mixture of Experts",
