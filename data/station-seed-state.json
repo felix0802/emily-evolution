@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 357,
+  "_rotation_idx": 358,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 40,
@@ -4046,8 +4046,8 @@
   },
   "moe": {
     "name": "Mixture of Experts",
-    "total_papers_found": 51,
-    "watering_count": 32,
+    "total_papers_found": 52,
+    "watering_count": 33,
     "history": [
       {
         "timestamp": "2026-07-15T09:46:58.985365",
@@ -4635,6 +4635,23 @@
             "seed_match_score": 1
           }
         ]
+      },
+      {
+        "timestamp": "2026-08-14T07:03:55.167143",
+        "papers_found": 1,
+        "duplicates": 5,
+        "irrelevant_filtered": 4,
+        "avg_relevance": 2.0,
+        "high_relevance": 1,
+        "papers": [
+          {
+            "title": "RoutePack: Expert Placement and Attention-Aware Data Packing for MoE Reinforcement Learning",
+            "summary": "Training Mixture-of-Experts (MoE) models for reinforcement learning (RL) couples two load-balancing problems: sequence composition determines dense attention work in each data-parallel microbatch, while token routing determines sparse expert work on expert-parallel ranks. Optimizing either alone can",
+            "published": "2026-08-12",
+            "url": "http://arxiv.org/abs/2608.12146v1",
+            "seed_match_score": 2
+          }
+        ]
       }
     ],
     "keywords": [
@@ -4646,7 +4663,7 @@
       "switch transformer",
       "deepseek"
     ],
-    "last_watered": "2026-08-13T10:50:04.353967"
+    "last_watered": "2026-08-14T07:03:55.167136"
   },
   "kv-cache": {
     "name": "KV Cache Optimization",
