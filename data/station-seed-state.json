@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 399,
+  "_rotation_idx": 400,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 40,
@@ -5688,8 +5688,8 @@
   },
   "gnn": {
     "name": "Graph Neural Networks",
-    "total_papers_found": 77,
-    "watering_count": 38,
+    "total_papers_found": 80,
+    "watering_count": 39,
     "history": [
       {
         "timestamp": "2026-07-15T15:16:02.082257",
@@ -6395,6 +6395,37 @@
         "avg_relevance": 0.0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-08-17T18:19:48.034179",
+        "papers_found": 3,
+        "duplicates": 3,
+        "irrelevant_filtered": 4,
+        "avg_relevance": 2.0,
+        "high_relevance": 2,
+        "papers": [
+          {
+            "title": "Structure-Guided Spatiotemporal Attention Graph Neural Network for Traffic Flow Prediction",
+            "summary": "Deep spatiotemporal models integrating graph convolutions and attention mechanisms have demonstrated excellent performance in network-level traffic flow prediction, owing to their exceptional ability to capture complex spatiotemporal dependencies. Despite their predictive success, deployment of such",
+            "published": "2026-08-14",
+            "url": "http://arxiv.org/abs/2608.14177v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Overcoming Shortcut Learning in Graph Neural Networks through Active Explanation Guidance",
+            "summary": "Graph Neural Networks (GNNs) can solve prediction tasks by unintentionally exploiting shortcuts---that is, edges, nodes, and features that correlate with but are not causal for the prediction---which compromise their reliability in out-of-distribution tasks. We introduce XIGL, an architecture-agnost",
+            "published": "2026-08-14",
+            "url": "http://arxiv.org/abs/2608.14121v1",
+            "seed_match_score": 2
+          },
+          {
+            "title": "HI-MeshGraphNets: Efficient and Accurate Mesh-based Physics Learning with Hierarchical Multi-scale Graph Neural Networks",
+            "summary": "Machine-learned physical surrogate models have become promising alternatives to mesh-based numerical solvers. Among them, graph neural networks (GNNs) are well suited for representing simulation meshes and learning nodal state evolution through message passing. However, conventional flat message pas",
+            "published": "2026-08-13",
+            "url": "http://arxiv.org/abs/2608.13827v1",
+            "seed_match_score": 3
+          }
+        ]
       }
     ],
     "keywords": [
@@ -6406,6 +6437,6 @@
       "node embedding",
       "graph transformer"
     ],
-    "last_watered": "2026-08-16T22:08:19.692226"
+    "last_watered": "2026-08-17T18:19:48.034173"
   }
 }

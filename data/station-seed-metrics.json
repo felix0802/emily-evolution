@@ -314,19 +314,18 @@
   },
   "gnn": {
     "name": "Graph Neural Networks",
-    "total_new_papers": 77,
-    "total_watering": 36,
+    "total_new_papers": 80,
+    "total_watering": 37,
     "all_keywords_matched": [
       "node embedding",
-      "gnn",
-      "graph neural",
-      "geometric",
       "graph attention",
       "graph transformer",
+      "gnn",
+      "geometric",
+      "graph neural",
       "message passing"
     ],
     "avg_relevance_trend": [
-      1.75,
       3.0,
       1.6,
       0.0,
@@ -345,9 +344,10 @@
       1.5,
       0.0,
       0.0,
-      0.0
+      0.0,
+      2.0
     ],
-    "high_relevance_total": 35,
+    "high_relevance_total": 37,
     "best_papers": [
       {
         "title": "Local-Global Geometric Insights for Graph Neural Networks via Entropic Curvature",
@@ -388,9 +388,14 @@
         "title": "LEED: Local Embedding Evolution Distance for over-smoothing estimation and virtual node selection in",
         "score": 3,
         "published": "2026-08-10"
+      },
+      {
+        "title": "HI-MeshGraphNets: Efficient and Accurate Mesh-based Physics Learning with Hierarchical Multi-scale G",
+        "score": 3,
+        "published": "2026-08-13"
       }
     ],
-    "last_updated": "2026-08-16T22:08:19.691674"
+    "last_updated": "2026-08-17T18:19:48.033575"
   },
   "moe": {
     "name": "Mixture of Experts",

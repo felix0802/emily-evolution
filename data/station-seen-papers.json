@@ -22723,7 +22723,56 @@
         "transform"
       ],
       "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.14177v1",
+      "title": "Structure-Guided Spatiotemporal Attention Graph Neural Network for Traffic Flow Prediction",
+      "arxiv_id": "2608.14177",
+      "tokens": [
+        "attention",
+        "flow",
+        "graph",
+        "guided",
+        "neural",
+        "prediction",
+        "spatiotemporal",
+        "structure",
+        "traffic"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.14121v1",
+      "title": "Overcoming Shortcut Learning in Graph Neural Networks through Active Explanation Guidance",
+      "arxiv_id": "2608.14121",
+      "tokens": [
+        "active",
+        "explanation",
+        "graph",
+        "guidance",
+        "neural",
+        "overcoming",
+        "shortcut"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.13827v1",
+      "title": "HI-MeshGraphNets: Efficient and Accurate Mesh-based Physics Learning with Hierarchical Multi-scale Graph Neural Networks",
+      "arxiv_id": "2608.13827",
+      "tokens": [
+        "accurate",
+        "graph",
+        "hierarchical",
+        "mesh",
+        "meshgraphnets",
+        "multi",
+        "neural",
+        "physics",
+        "scale"
+      ],
+      "first_seen_round": 165
     }
   ],
-  "total_unique": 1415
+  "total_unique": 1418
 }
