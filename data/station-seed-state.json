@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 394,
+  "_rotation_idx": 395,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 40,
@@ -2638,8 +2638,8 @@
   },
   "non-transformer": {
     "name": "Non-Transformer Arch",
-    "total_papers_found": 17,
-    "watering_count": 42,
+    "total_papers_found": 18,
+    "watering_count": 43,
     "history": [
       {
         "timestamp": "2026-07-07T10:14:36.288723",
@@ -3136,6 +3136,23 @@
         "avg_relevance": 0.0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-08-17T08:28:56.166737",
+        "papers_found": 1,
+        "duplicates": 7,
+        "irrelevant_filtered": 2,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "The Query Knows What to Forget: A Second Erase Direction for Linear Attention",
+            "summary": "Linear attention keeps a state of fixed size. At long context, many stored items share this state, and interference between them degrades retrieval. Gated DeltaNet-2 (GDN-2), like every delta-rule model before it, derives its erase vector from the key of the current token. However, the interference ",
+            "published": "2026-08-13",
+            "url": "http://arxiv.org/abs/2608.13668v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -3148,7 +3165,7 @@
       "sub-quadratic",
       "mamba"
     ],
-    "last_watered": "2026-08-16T12:14:02.690788"
+    "last_watered": "2026-08-17T08:28:56.166732"
   },
   "few-shot": {
     "name": "Few-Shot Learning",

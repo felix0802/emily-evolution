@@ -22632,7 +22632,22 @@
         "transformers"
       ],
       "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.13668v1",
+      "title": "The Query Knows What to Forget: A Second Erase Direction for Linear Attention",
+      "arxiv_id": "2608.13668",
+      "tokens": [
+        "attention",
+        "direction",
+        "erase",
+        "forget",
+        "knows",
+        "linear",
+        "query"
+      ],
+      "first_seen_round": 165
     }
   ],
-  "total_unique": 1409
+  "total_unique": 1410
 }
