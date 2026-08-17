@@ -22598,7 +22598,41 @@
         "interpretable"
       ],
       "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.13952v1",
+      "title": "Reducing ANN-SNN Conversion Error via Residual Membrane Potential Alignment",
+      "arxiv_id": "2608.13952",
+      "tokens": [
+        "alignment",
+        "ann",
+        "conversion",
+        "error",
+        "membrane",
+        "potential",
+        "reducing",
+        "residual",
+        "snn"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.13702v1",
+      "title": "SAGE: Surrogate-gradient Adaptation via Attention-Guided Entropy for Spiking Transformers",
+      "arxiv_id": "2608.13702",
+      "tokens": [
+        "adaptation",
+        "attention",
+        "entropy",
+        "gradient",
+        "guided",
+        "sage",
+        "spiking",
+        "surrogate",
+        "transformers"
+      ],
+      "first_seen_round": 165
     }
   ],
-  "total_unique": 1407
+  "total_unique": 1409
 }

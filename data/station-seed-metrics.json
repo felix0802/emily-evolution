@@ -1,17 +1,16 @@
 {
   "spiking-nn": {
     "name": "Spiking Neural Networks",
-    "total_new_papers": 21,
-    "total_watering": 40,
+    "total_new_papers": 23,
+    "total_watering": 41,
     "all_keywords_matched": [
-      "spiking",
       "neuromorphic",
       "snn",
+      "spiking",
       "spike-timing"
     ],
     "avg_relevance_trend": [
       0.0,
-      0.0,
       2.0,
       0.0,
       0.0,
@@ -29,9 +28,10 @@
       0.0,
       0.0,
       0.0,
-      0.0
+      0.0,
+      2.5
     ],
-    "high_relevance_total": 16,
+    "high_relevance_total": 18,
     "best_papers": [
       {
         "title": "Unified Complex-valued Neural Network: A Magnitude-Phase Computational Model for Event-Driven Neurom",
@@ -57,9 +57,14 @@
         "title": "A Hardware-Aware Open-Source Framework for Design Space Exploration of Mixed-Signal Spiking Neural N",
         "score": 3,
         "published": "2026-07-07"
+      },
+      {
+        "title": "Reducing ANN-SNN Conversion Error via Residual Membrane Potential Alignment",
+        "score": 3,
+        "published": "2026-08-14"
       }
     ],
-    "last_updated": "2026-08-16T10:11:08.804773"
+    "last_updated": "2026-08-17T06:27:33.042962"
   },
   "few-shot": {
     "name": "Few-Shot Learning",
