@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 396,
+  "_rotation_idx": 397,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 40,
@@ -3704,8 +3704,8 @@
   },
   "continual-learning": {
     "name": "Continual Learning",
-    "total_papers_found": 50,
-    "watering_count": 40,
+    "total_papers_found": 51,
+    "watering_count": 41,
     "history": [
       {
         "timestamp": "2026-07-07T13:06:50.870963",
@@ -4352,6 +4352,23 @@
         "avg_relevance": 0.0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-08-17T12:17:41.672396",
+        "papers_found": 1,
+        "duplicates": 6,
+        "irrelevant_filtered": 3,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "Evaluating Agentic Learning Harness Capabilities Without Labels via the Scaling Hypothesis",
+            "summary": "Agentic \"Continual Learning Harnesses\", systems that pair an LLM with retrieval or memory to improve from feedback without retraining, have shown growing value in cybersecurity. But their value is conventionally measured by gains against labeled benchmarks, an approach that often fails in operationa",
+            "published": "2026-08-11",
+            "url": "http://arxiv.org/abs/2608.13608v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -4361,7 +4378,7 @@
       "ewc",
       "elastic weight"
     ],
-    "last_watered": "2026-08-16T16:09:57.803167"
+    "last_watered": "2026-08-17T12:17:41.672392"
   },
   "moe": {
     "name": "Mixture of Experts",
