@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 397,
+  "_rotation_idx": 398,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 40,
@@ -4382,8 +4382,8 @@
   },
   "moe": {
     "name": "Mixture of Experts",
-    "total_papers_found": 52,
-    "watering_count": 36,
+    "total_papers_found": 55,
+    "watering_count": 37,
     "history": [
       {
         "timestamp": "2026-07-15T09:46:58.985365",
@@ -5015,6 +5015,37 @@
         "avg_relevance": 0.0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-08-17T14:15:54.858565",
+        "papers_found": 3,
+        "duplicates": 4,
+        "irrelevant_filtered": 3,
+        "avg_relevance": 2.0,
+        "high_relevance": 3,
+        "papers": [
+          {
+            "title": "DeaMoE: Efficient MoE Structure for Fast Small-Batch Decoding",
+            "summary": "Mixture-of-Experts (MoE) models have been widely adopted in real-time interactive applications such as coding assistants, real-time audio-video interaction systems. To meet the extremely low response latency requirements of these scenarios, practitioners commonly employ small-batch decoding, under w",
+            "published": "2026-08-14",
+            "url": "http://arxiv.org/abs/2608.14385v1",
+            "seed_match_score": 2
+          },
+          {
+            "title": "FreeBalance: Pre-Routing Online Moe Load Balancing via Residual Workload Prediction",
+            "summary": "Load imbalance poses a major bottleneck to the efficiency of expert parallelism in distributed inference of Mixture-of-Experts (MoE) models. The most heavily loaded rank stalls global execution due to skewed routing distributions, directly increasing latency. While offline expert placement can allev",
+            "published": "2026-08-14",
+            "url": "http://arxiv.org/abs/2608.14205v1",
+            "seed_match_score": 2
+          },
+          {
+            "title": "MedMix: Specialization-Consistent Federated Sparse MoEs under Modality Heterogeneity",
+            "summary": "Federated multimodal medical AI faces modality heterogeneity at both the client and sample levels: clients may systematically lack access to specific modality types, while individual records within the same client may contain different partial modality subsets. Sparse Mixture-of-Experts (MoE) archit",
+            "published": "2026-08-14",
+            "url": "http://arxiv.org/abs/2608.13911v1",
+            "seed_match_score": 2
+          }
+        ]
       }
     ],
     "keywords": [
@@ -5026,7 +5057,7 @@
       "switch transformer",
       "deepseek"
     ],
-    "last_watered": "2026-08-16T18:10:59.533293"
+    "last_watered": "2026-08-17T14:15:54.858560"
   },
   "kv-cache": {
     "name": "KV Cache Optimization",

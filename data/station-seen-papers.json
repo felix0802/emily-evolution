@@ -22662,7 +22662,55 @@
         "scaling"
       ],
       "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.14385v1",
+      "title": "DeaMoE: Efficient MoE Structure for Fast Small-Batch Decoding",
+      "arxiv_id": "2608.14385",
+      "tokens": [
+        "batch",
+        "deamoe",
+        "decoding",
+        "fast",
+        "moe",
+        "structure"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.14205v1",
+      "title": "FreeBalance: Pre-Routing Online Moe Load Balancing via Residual Workload Prediction",
+      "arxiv_id": "2608.14205",
+      "tokens": [
+        "balancing",
+        "freebalance",
+        "load",
+        "moe",
+        "online",
+        "pre",
+        "prediction",
+        "residual",
+        "routing",
+        "workload"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.13911v1",
+      "title": "MedMix: Specialization-Consistent Federated Sparse MoEs under Modality Heterogeneity",
+      "arxiv_id": "2608.13911",
+      "tokens": [
+        "consistent",
+        "federated",
+        "heterogeneity",
+        "medmix",
+        "modality",
+        "moes",
+        "sparse",
+        "specialization"
+      ],
+      "first_seen_round": 165
     }
   ],
-  "total_unique": 1411
+  "total_unique": 1414
 }
