@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 392,
+  "_rotation_idx": 393,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 40,
@@ -1281,8 +1281,8 @@
   },
   "htm": {
     "name": "HTM",
-    "total_papers_found": 61,
-    "watering_count": 42,
+    "total_papers_found": 64,
+    "watering_count": 43,
     "history": [
       {
         "timestamp": "2026-07-07T08:08:03.935545",
@@ -2053,6 +2053,37 @@
         "avg_relevance": 0.0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-08-17T04:29:29.805661",
+        "papers_found": 3,
+        "duplicates": 2,
+        "irrelevant_filtered": 5,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "Revisiting Energy-based Tabular Anomaly Detection: Energy and Reconstruction are Complementary",
+            "summary": "Tabular anomaly detection is dominated by classical density-proxy methods (Isolation Forest, OCSVM, LOF), reconstruction-based detectors (Autoencoders, VAEs), and modern non-parametric scorers (COPOD, ECOD, Deep SVDD), all of which approximate the inlier distribution only indirectly; explicit energy",
+            "published": "2026-08-14",
+            "url": "http://arxiv.org/abs/2608.14186v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "What preferences can - and cannot - predict in multi-agent online learning",
+            "summary": "We examine the interplay between ordinal, preference-based solution concepts in games and the long-run behavior of game dynamics, asking in particular to what extent the combinatorial data of a game -- its preference graph -- determine the outcomes of no-regret learning dynamics -- such as follow-th",
+            "published": "2026-08-13",
+            "url": "http://arxiv.org/abs/2608.13810v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Contrastive Learning for Interpretable Anomaly Detection at Collider Experiments",
+            "summary": "Generic event-level anomaly detection for collider physics has two recurring problems: anomaly scores are hard to interpret, and they correlate strongly with energy scale and object multiplicity. We present Organized Representation via Contrastive learning for Anomaly detection (ORCA), a two-stage f",
+            "published": "2026-08-13",
+            "url": "http://arxiv.org/abs/2608.13652v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -2067,7 +2098,7 @@
       "anomaly detection",
       "continuous learning"
     ],
-    "last_watered": "2026-08-16T08:14:13.647405"
+    "last_watered": "2026-08-17T04:29:29.805654"
   },
   "spiking-nn": {
     "name": "Spiking Neural Networks",
