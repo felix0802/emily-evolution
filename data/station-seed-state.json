@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 398,
+  "_rotation_idx": 399,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 40,
@@ -5061,8 +5061,8 @@
   },
   "kv-cache": {
     "name": "KV Cache Optimization",
-    "total_papers_found": 47,
-    "watering_count": 37,
+    "total_papers_found": 48,
+    "watering_count": 38,
     "history": [
       {
         "timestamp": "2026-07-15T11:19:09.355556",
@@ -5656,6 +5656,23 @@
         "avg_relevance": 0.0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-08-17T16:12:38.624193",
+        "papers_found": 1,
+        "duplicates": 3,
+        "irrelevant_filtered": 6,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "KV Cache Compression Through the Lens of Transform Coding",
+            "summary": "The key-value (KV) cache stores information from past tokens and is a major memory bottleneck in long-context inference. Existing quantization methods address this bottleneck by representing the KV cache uniformly with lower-precision data types and designing quantization schemes to minimize reconst",
+            "published": "2026-08-14",
+            "url": "http://arxiv.org/abs/2608.14191v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -5667,7 +5684,7 @@
       "flash attention",
       "speculative decoding"
     ],
-    "last_watered": "2026-08-16T20:08:14.905668"
+    "last_watered": "2026-08-17T16:12:38.624188"
   },
   "gnn": {
     "name": "Graph Neural Networks",
