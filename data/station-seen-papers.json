@@ -23249,7 +23249,107 @@
         "window"
       ],
       "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.16477v1",
+      "title": "Pallas: A Proactive KV Cache Migration Framework for LLM Inference in AI-RAN",
+      "arxiv_id": "2608.16477",
+      "tokens": [
+        "cache",
+        "inference",
+        "llm",
+        "migration",
+        "pallas",
+        "proactive",
+        "ran"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.15939v1",
+      "title": "Aborted but Not Forgotten: KV-Cache Retention Breaks Rollback Consistency in Language Agents",
+      "arxiv_id": "2608.15939",
+      "tokens": [
+        "aborted",
+        "agents",
+        "breaks",
+        "cache",
+        "consistency",
+        "forgotten",
+        "language",
+        "retention",
+        "rollback"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.15797v1",
+      "title": "KV-Rescue: Recovering Reasoning Language Model KV Eviction Loss via Stepwise Interleaving",
+      "arxiv_id": "2608.15797",
+      "tokens": [
+        "eviction",
+        "interleaving",
+        "language",
+        "loss",
+        "reasoning",
+        "recovering",
+        "rescue",
+        "stepwise"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.15584v1",
+      "title": "GraniKV: Asymmetric Granularity KV-Cache Paging for Multi-Agent Systems with Long Shared Prefix",
+      "arxiv_id": "2608.15584",
+      "tokens": [
+        "agent",
+        "asymmetric",
+        "cache",
+        "granikv",
+        "granularity",
+        "long",
+        "multi",
+        "paging",
+        "prefix",
+        "shared"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.15117v1",
+      "title": "Anatomy of a Quantized Agent: VRAM Stability and Forecasting in Code-Synthesis Agentic Workloads",
+      "arxiv_id": "2608.15117",
+      "tokens": [
+        "agent",
+        "agentic",
+        "anatomy",
+        "code",
+        "forecasting",
+        "quantized",
+        "stability",
+        "synthesis",
+        "vram",
+        "workloads"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.14787v1",
+      "title": "From Positionwise Confidence to Prefix Scheduling: Verifier Skipping in Speculative Decoding",
+      "arxiv_id": "2608.14787",
+      "tokens": [
+        "confidence",
+        "decoding",
+        "positionwise",
+        "prefix",
+        "scheduling",
+        "skipping",
+        "speculative",
+        "verifier"
+      ],
+      "first_seen_round": 165
     }
   ],
-  "total_unique": 1448
+  "total_unique": 1454
 }

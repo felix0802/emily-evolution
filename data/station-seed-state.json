@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 408,
+  "_rotation_idx": 409,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 40,
@@ -5185,8 +5185,8 @@
   },
   "kv-cache": {
     "name": "KV Cache Optimization",
-    "total_papers_found": 48,
-    "watering_count": 38,
+    "total_papers_found": 54,
+    "watering_count": 39,
     "history": [
       {
         "timestamp": "2026-07-15T11:19:09.355556",
@@ -5797,6 +5797,37 @@
             "seed_match_score": 1
           }
         ]
+      },
+      {
+        "timestamp": "2026-08-18T12:19:28.080451",
+        "papers_found": 6,
+        "duplicates": 3,
+        "irrelevant_filtered": 1,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "Pallas: A Proactive KV Cache Migration Framework for LLM Inference in AI-RAN",
+            "summary": "AI-RAN brings large language model (LLM) serving close to mobile users, but cellular handover can separate an active request from its inference state: the user attaches to a target base station (gNB) while the large and growing key-value (KV) cache remains at the source. Retaining inference at the s",
+            "published": "2026-08-17",
+            "url": "http://arxiv.org/abs/2608.16477v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Aborted but Not Forgotten: KV-Cache Retention Breaks Rollback Consistency in Language Agents",
+            "summary": "Stateful language agents assume a rejected branch can be taken back by clearing it from the application transcript. We show this breaks when the serving session retains key/value (KV) state across the logical abort: the model can continue attending to content the application believes it discarded. W",
+            "published": "2026-08-16",
+            "url": "http://arxiv.org/abs/2608.15939v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "KV-Rescue: Recovering Reasoning Language Model KV Eviction Loss via Stepwise Interleaving",
+            "summary": "KV-cache eviction caps the memory cost of long reasoning traces but is inherently lossy because the model decodes from a partial view of its history. Under aggressive budgets, this not only lowers accuracy but can also cause runaway degeneration, where the model produces incoherent or repetitive tok",
+            "published": "2026-08-16",
+            "url": "http://arxiv.org/abs/2608.15797v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -5808,7 +5839,7 @@
       "flash attention",
       "speculative decoding"
     ],
-    "last_watered": "2026-08-17T16:12:38.624188"
+    "last_watered": "2026-08-18T12:19:28.080446"
   },
   "gnn": {
     "name": "Graph Neural Networks",
