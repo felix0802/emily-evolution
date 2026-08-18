@@ -1,9 +1,9 @@
 {
-  "_rotation_idx": 410,
+  "_rotation_idx": 411,
   "mamba": {
     "name": "Mamba (SSM)",
-    "total_papers_found": 40,
-    "watering_count": 44,
+    "total_papers_found": 42,
+    "watering_count": 45,
     "history": [
       {
         "timestamp": "2026-07-06T21:46:12.361778",
@@ -624,6 +624,30 @@
         "avg_relevance": 0.0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-08-18T16:16:49.734738",
+        "papers_found": 2,
+        "duplicates": 4,
+        "irrelevant_filtered": 4,
+        "avg_relevance": 1.5,
+        "high_relevance": 1,
+        "papers": [
+          {
+            "title": "SIGMA-Lane: Scale-pyramId Gated MAmba for Temporally Consistent Video Lane Detection",
+            "summary": "Video lane detection requires predictions that remain stable across frames, yet severe vehicle occlusions can break temporal cues. In streaming recurrent models, corrupted observations may enter the hidden state and produce errors that persist into later frames. Existing occlusion-aware refinements ",
+            "published": "2026-08-17",
+            "url": "http://arxiv.org/abs/2608.16338v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "CardiacMamba: Fair and Robust RGB-RF Fusion for Remote Heart Rate Estimation via State Space Modeling",
+            "summary": "Remote photoplethysmography (rPPG) enables non-contact heart rate (HR) monitoring from facial videos, but RGB-only methods are vulnerable to illumination changes, motion artifacts, and skin-tone-dependent optical reflectance. We propose CardiacMamba, a fair and robust RGB-RF fusion framework that in",
+            "published": "2026-08-16",
+            "url": "http://arxiv.org/abs/2608.15831v1",
+            "seed_match_score": 2
+          }
+        ]
       }
     ],
     "keywords": [
@@ -632,7 +656,7 @@
       "ssm",
       "selective scan"
     ],
-    "last_watered": "2026-08-17T20:12:46.971789"
+    "last_watered": "2026-08-18T16:16:49.734733"
   },
   "liquid-networks": {
     "name": "Liquid Networks",

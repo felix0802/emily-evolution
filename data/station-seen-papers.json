@@ -23457,7 +23457,46 @@
         "weight"
       ],
       "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.16338v1",
+      "title": "SIGMA-Lane: Scale-pyramId Gated MAmba for Temporally Consistent Video Lane Detection",
+      "arxiv_id": "2608.16338",
+      "tokens": [
+        "consistent",
+        "detection",
+        "gated",
+        "lane",
+        "lane",
+        "mamba",
+        "pyramid",
+        "scale",
+        "sigma",
+        "temporally",
+        "video"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.15831v1",
+      "title": "CardiacMamba: Fair and Robust RGB-RF Fusion for Remote Heart Rate Estimation via State Space Modeling",
+      "arxiv_id": "2608.15831",
+      "tokens": [
+        "cardiacmamba",
+        "estimation",
+        "fair",
+        "fusion",
+        "heart",
+        "modeling",
+        "rate",
+        "remote",
+        "rgb",
+        "robust",
+        "space",
+        "state"
+      ],
+      "first_seen_round": 165
     }
   ],
-  "total_unique": 1461
+  "total_unique": 1463
 }
