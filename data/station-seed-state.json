@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 409,
+  "_rotation_idx": 410,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 40,
@@ -5843,8 +5843,8 @@
   },
   "gnn": {
     "name": "Graph Neural Networks",
-    "total_papers_found": 80,
-    "watering_count": 39,
+    "total_papers_found": 87,
+    "watering_count": 40,
     "history": [
       {
         "timestamp": "2026-07-15T15:16:02.082257",
@@ -6581,6 +6581,37 @@
             "seed_match_score": 3
           }
         ]
+      },
+      {
+        "timestamp": "2026-08-18T14:20:17.941308",
+        "papers_found": 7,
+        "duplicates": 0,
+        "irrelevant_filtered": 3,
+        "avg_relevance": 1.14,
+        "high_relevance": 1,
+        "papers": [
+          {
+            "title": "POI Recommendation with LLM-Augmented Multi-Graph Learning and Contrastive Alignment",
+            "summary": "Point-of-interest (POI) recommendation models based on graph neural networks achieve strong performance by propagating collaborative signals over user-item interactions, yet they struggle with the cold-start problem, where items with few or no interactions are not represented. In this paper, we prop",
+            "published": "2026-08-17",
+            "url": "http://arxiv.org/abs/2608.16407v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Graph Neural Assisted Actor-Critic for Latency-Efficient Edge Vision System",
+            "summary": "UAV on-board vision systems are widely used for different activities, including monitoring in no-fly zones. In this case, the vision-equipped UAV streams a video to a ground server where an operator assists its activities. The latency of video transmission has a profound impact on the effectiveness ",
+            "published": "2026-08-17",
+            "url": "http://arxiv.org/abs/2608.16142v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Unifying Graph Neural Networks Through a Common Layer Equation",
+            "summary": "Graph neural networks are commonly described through family-specific equations whose notation obscures shared computations and structural differences. We introduce a common layer equation that represents covered architectures through seven components: an update domain, channel set, propagation bank,",
+            "published": "2026-08-17",
+            "url": "http://arxiv.org/abs/2608.16097v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -6592,6 +6623,6 @@
       "node embedding",
       "graph transformer"
     ],
-    "last_watered": "2026-08-17T18:19:48.034173"
+    "last_watered": "2026-08-18T14:20:17.941304"
   }
 }
