@@ -23496,7 +23496,98 @@
         "state"
       ],
       "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.16725v1",
+      "title": "Unsupervised Anomaly Detection for Image Dataset Quality Assurance in Multi-Center Breast MRI",
+      "arxiv_id": "2608.16725",
+      "tokens": [
+        "anomaly",
+        "assurance",
+        "breast",
+        "center",
+        "dataset",
+        "detection",
+        "image",
+        "mri",
+        "multi",
+        "quality",
+        "unsupervised"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.16018v1",
+      "title": "RagGAD: Rationale-Aware Conditional Gaussian Mixture Normalizing Flow for Unsupervised Graph Anomaly Detection",
+      "arxiv_id": "2608.16018",
+      "tokens": [
+        "anomaly",
+        "aware",
+        "conditional",
+        "detection",
+        "flow",
+        "gaussian",
+        "graph",
+        "mixture",
+        "normalizing",
+        "raggad",
+        "rationale",
+        "unsupervised"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.15965v1",
+      "title": "Beat the Counter First: A Baseline for Temporal-Graph Anomaly Detectors",
+      "arxiv_id": "2608.15965",
+      "tokens": [
+        "anomaly",
+        "baseline",
+        "beat",
+        "counter",
+        "detectors",
+        "graph",
+        "temporal"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.15727v1",
+      "title": "FirstDiff: One-Step Diffusion-Based Anomaly Detection for Multivariate Time Series via Initial Noise Prediction",
+      "arxiv_id": "2608.15727",
+      "tokens": [
+        "anomaly",
+        "detection",
+        "diffusion",
+        "firstdiff",
+        "initial",
+        "multivariate",
+        "noise",
+        "prediction",
+        "series",
+        "step",
+        "time"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.15559v1",
+      "title": "Amortised Post-Hoc Explanation with Exact Preservation for Dynamic Graph Anomaly Detectors",
+      "arxiv_id": "2608.15559",
+      "tokens": [
+        "amortised",
+        "anomaly",
+        "detectors",
+        "dynamic",
+        "exact",
+        "explanation",
+        "graph",
+        "hoc",
+        "post",
+        "preservation"
+      ],
+      "first_seen_round": 165
     }
   ],
-  "total_unique": 1463
+  "total_unique": 1468
 }

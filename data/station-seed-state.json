@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 412,
+  "_rotation_idx": 413,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 42,
@@ -1332,8 +1332,8 @@
   },
   "htm": {
     "name": "HTM",
-    "total_papers_found": 64,
-    "watering_count": 44,
+    "total_papers_found": 69,
+    "watering_count": 45,
     "history": [
       {
         "timestamp": "2026-07-07T08:08:03.935545",
@@ -2144,6 +2144,37 @@
         "avg_relevance": 0.0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-08-18T20:10:05.140659",
+        "papers_found": 5,
+        "duplicates": 0,
+        "irrelevant_filtered": 5,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "Unsupervised Anomaly Detection for Image Dataset Quality Assurance in Multi-Center Breast MRI",
+            "summary": "Corrupted, inconsistent, or anomalous data silently threatens the safety and reliability of medical AI. Despite growing regulatory recognition of dataset quality assurance (QA) for high-risk medical AI, scalable automated detection remains underdeveloped. We employ unsupervised anomaly detection (AD",
+            "published": "2026-08-17",
+            "url": "http://arxiv.org/abs/2608.16725v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "RagGAD: Rationale-Aware Conditional Gaussian Mixture Normalizing Flow for Unsupervised Graph Anomaly Detection",
+            "summary": "Graph anomaly detection aims to identify nodes that deviate from normal behavioral patterns within graphs. However, existing methods largely rely on the homophily assumption, which makes it difficult to distinguish spurious affinities and to capture the diverse behaviors of normal nodes,limiting the",
+            "published": "2026-08-17",
+            "url": "http://arxiv.org/abs/2608.16018v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Beat the Counter First: A Baseline for Temporal-Graph Anomaly Detectors",
+            "summary": "Progress in streaming, edge-level graph anomaly detection (GAD) has been marked by increasingly elaborate architectures, from count-min-sketch chi square tests to memory-augmented attention networks. Yet the empirical gains attributable to this added complexity have not been systematically evaluated",
+            "published": "2026-08-16",
+            "url": "http://arxiv.org/abs/2608.15965v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -2158,7 +2189,7 @@
       "anomaly detection",
       "continuous learning"
     ],
-    "last_watered": "2026-08-18T00:29:59.324614"
+    "last_watered": "2026-08-18T20:10:05.140654"
   },
   "spiking-nn": {
     "name": "Spiking Neural Networks",
