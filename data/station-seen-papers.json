@@ -23088,7 +23088,63 @@
         "states"
       ],
       "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.16345v1",
+      "title": "Task-Anchored Representation Shaping for Pre-Trained Model-Based Continual Learning",
+      "arxiv_id": "2608.16345",
+      "tokens": [
+        "anchored",
+        "continual",
+        "pre",
+        "representation",
+        "shaping",
+        "task",
+        "trained"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.15901v1",
+      "title": "Layers Matter: Why Continual Learning Regularization Should Be Layer-Adaptive",
+      "arxiv_id": "2608.15901",
+      "tokens": [
+        "adaptive",
+        "continual",
+        "layer",
+        "layers",
+        "matter",
+        "regularization",
+        "why"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.15854v1",
+      "title": "Geometry of Forgetting: Representation Flux in Continual Learning",
+      "arxiv_id": "2608.15854",
+      "tokens": [
+        "continual",
+        "flux",
+        "forgetting",
+        "geometry",
+        "representation"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.14774v1",
+      "title": "p-Spin Glass Network Efficient Single-Batch Continual Learning",
+      "arxiv_id": "2608.14774",
+      "tokens": [
+        "batch",
+        "continual",
+        "glass",
+        "single",
+        "spin"
+      ],
+      "first_seen_round": 165
     }
   ],
-  "total_unique": 1438
+  "total_unique": 1442
 }

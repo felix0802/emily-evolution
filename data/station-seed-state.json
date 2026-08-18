@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 406,
+  "_rotation_idx": 407,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 40,
@@ -3766,8 +3766,8 @@
   },
   "continual-learning": {
     "name": "Continual Learning",
-    "total_papers_found": 51,
-    "watering_count": 41,
+    "total_papers_found": 55,
+    "watering_count": 42,
     "history": [
       {
         "timestamp": "2026-07-07T13:06:50.870963",
@@ -4431,6 +4431,37 @@
             "seed_match_score": 1
           }
         ]
+      },
+      {
+        "timestamp": "2026-08-18T08:21:10.809965",
+        "papers_found": 4,
+        "duplicates": 2,
+        "irrelevant_filtered": 4,
+        "avg_relevance": 1.5,
+        "high_relevance": 2,
+        "papers": [
+          {
+            "title": "Task-Anchored Representation Shaping for Pre-Trained Model-Based Continual Learning",
+            "summary": "Pre-trained models (PTMs) provide a strong foundation for continual learning by offering stable representations that facilitate lightweight adaptation to new tasks. However, adapting well to each task does not ensure reliable inference over all learned tasks. Since task boundaries are often artifici",
+            "published": "2026-08-17",
+            "url": "http://arxiv.org/abs/2608.16345v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Layers Matter: Why Continual Learning Regularization Should Be Layer-Adaptive",
+            "summary": "Continual learning regularizers like EWC fight forgetting by penalizing changes from previous-task parameters with per-parameter importance, typically diagonal Fisher values. Per-parameter looks more flexible than per-layer, but each layer's diagonal Fisher is a weak summary of its actual curvature,",
+            "published": "2026-08-16",
+            "url": "http://arxiv.org/abs/2608.15901v1",
+            "seed_match_score": 2
+          },
+          {
+            "title": "Geometry of Forgetting: Representation Flux in Continual Learning",
+            "summary": "Catastrophic forgetting remains a fundamental obstacle to continual learning, where neural networks lose previously acquired knowledge while learning new tasks. Existing methods primarily mitigate forgetting through parameter regularization or experience replay, while the representation-space dynami",
+            "published": "2026-08-16",
+            "url": "http://arxiv.org/abs/2608.15854v1",
+            "seed_match_score": 2
+          }
+        ]
       }
     ],
     "keywords": [
@@ -4440,7 +4471,7 @@
       "ewc",
       "elastic weight"
     ],
-    "last_watered": "2026-08-17T12:17:41.672392"
+    "last_watered": "2026-08-18T08:21:10.809959"
   },
   "moe": {
     "name": "Mixture of Experts",
