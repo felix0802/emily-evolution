@@ -23144,7 +23144,112 @@
         "spin"
       ],
       "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.16620v1",
+      "title": "Palmyra x6 Technical Report: An Agentic, Tool-Use Model Post-Trained via Anchored Supervised Fine-Tuning",
+      "arxiv_id": "2608.16620",
+      "tokens": [
+        "agentic",
+        "anchored",
+        "fine",
+        "palmyra",
+        "post",
+        "report",
+        "supervised",
+        "technical",
+        "tool",
+        "trained",
+        "tuning",
+        "use"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.15787v1",
+      "title": "Routing Divergence Is Not Evidence of Behavioral Influence in Same-Weight MoE Self-Distillation",
+      "arxiv_id": "2608.15787",
+      "tokens": [
+        "behavioral",
+        "distillation",
+        "divergence",
+        "evidence",
+        "influence",
+        "moe",
+        "routing",
+        "self",
+        "weight"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.15383v1",
+      "title": "Every Expert Counts: ExactMoE for Memory-Efficient W4A16 Inference",
+      "arxiv_id": "2608.15383",
+      "tokens": [
+        "counts",
+        "exactmoe",
+        "expert",
+        "inference",
+        "memory",
+        "w4a16"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.15299v1",
+      "title": "MAPLE: MoE Adaptive Plug-and-play Layer-wise Expert allocation",
+      "arxiv_id": "2608.15299",
+      "tokens": [
+        "adaptive",
+        "allocation",
+        "expert",
+        "layer",
+        "maple",
+        "moe",
+        "play",
+        "plug",
+        "wise"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.15102v1",
+      "title": "A Declarative-Procedural Perspective on Expert Routing in Bilingual Mixture-of-Experts Language Models",
+      "arxiv_id": "2608.15102",
+      "tokens": [
+        "bilingual",
+        "declarative",
+        "expert",
+        "experts",
+        "language",
+        "mixture",
+        "perspective",
+        "procedural",
+        "routing"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.15051v1",
+      "title": "A Unified Mamba--MoE Surrogate for Closed-Loop Simulation and Measurement-Window Forecasting of Inverter Transients",
+      "arxiv_id": "2608.15051",
+      "tokens": [
+        "closed",
+        "forecasting",
+        "inverter",
+        "loop",
+        "mamba",
+        "measurement",
+        "moe",
+        "simulation",
+        "surrogate",
+        "transients",
+        "unified",
+        "window"
+      ],
+      "first_seen_round": 165
     }
   ],
-  "total_unique": 1442
+  "total_unique": 1448
 }

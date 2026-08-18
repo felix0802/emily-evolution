@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 407,
+  "_rotation_idx": 408,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 40,
@@ -4475,8 +4475,8 @@
   },
   "moe": {
     "name": "Mixture of Experts",
-    "total_papers_found": 55,
-    "watering_count": 37,
+    "total_papers_found": 61,
+    "watering_count": 38,
     "history": [
       {
         "timestamp": "2026-07-15T09:46:58.985365",
@@ -5139,6 +5139,37 @@
             "seed_match_score": 2
           }
         ]
+      },
+      {
+        "timestamp": "2026-08-18T10:15:40.783663",
+        "papers_found": 6,
+        "duplicates": 2,
+        "irrelevant_filtered": 2,
+        "avg_relevance": 2.17,
+        "high_relevance": 5,
+        "papers": [
+          {
+            "title": "Palmyra x6 Technical Report: An Agentic, Tool-Use Model Post-Trained via Anchored Supervised Fine-Tuning",
+            "summary": "Palmyra x6 is a large language model optimized for use with enterprise-oriented agentic tasks. The model was built by post-training a Mixture-of-Experts base model with Anchored Supervised Fine-Tuning on a compact corpus of verified, synthetic tool-use trajectories, optimized with a Muon + Adam hybr",
+            "published": "2026-08-17",
+            "url": "http://arxiv.org/abs/2608.16620v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Routing Divergence Is Not Evidence of Behavioral Influence in Same-Weight MoE Self-Distillation",
+            "summary": "Two Mixture-of-Experts (MoE) forward passes can share every weight yet route the same token through different experts. This creates a possible blind spot in same-weight self-distillation, where a demonstration-conditioned teacher supervises a query-only student. We study this mismatch in its single-",
+            "published": "2026-08-16",
+            "url": "http://arxiv.org/abs/2608.15787v1",
+            "seed_match_score": 2
+          },
+          {
+            "title": "Every Expert Counts: ExactMoE for Memory-Efficient W4A16 Inference",
+            "summary": "Sparse mixture-of-experts (MoE) language models reduce arithmetic by activating only a small subset of experts per token, yet deployment still requires storing and moving the full expert bank. We present ExactMoE, an inference design that applies symmetric group-128 four-bit weight quantization only",
+            "published": "2026-08-15",
+            "url": "http://arxiv.org/abs/2608.15383v1",
+            "seed_match_score": 2
+          }
+        ]
       }
     ],
     "keywords": [
@@ -5150,7 +5181,7 @@
       "switch transformer",
       "deepseek"
     ],
-    "last_watered": "2026-08-17T14:15:54.858560"
+    "last_watered": "2026-08-18T10:15:40.783657"
   },
   "kv-cache": {
     "name": "KV Cache Optimization",
