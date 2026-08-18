@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 404,
+  "_rotation_idx": 405,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 40,
@@ -2674,8 +2674,8 @@
   },
   "non-transformer": {
     "name": "Non-Transformer Arch",
-    "total_papers_found": 18,
-    "watering_count": 43,
+    "total_papers_found": 19,
+    "watering_count": 44,
     "history": [
       {
         "timestamp": "2026-07-07T10:14:36.288723",
@@ -3189,6 +3189,23 @@
             "seed_match_score": 1
           }
         ]
+      },
+      {
+        "timestamp": "2026-08-18T04:22:55.368623",
+        "papers_found": 1,
+        "duplicates": 6,
+        "irrelevant_filtered": 3,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "DeltaLog: Deferred Materialization of Recurrent States for Linear Attention Decoding",
+            "summary": "Linear attention models eliminate the quadratic prefix computation and context-growing KV cache of softmax attention by replacing pairwise token interactions with recurrent state updates. However, existing decoding implementations often materialize and write back the full recurrent state after every",
+            "published": "2026-08-16",
+            "url": "http://arxiv.org/abs/2608.15533v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -3201,7 +3218,7 @@
       "sub-quadratic",
       "mamba"
     ],
-    "last_watered": "2026-08-17T08:28:56.166732"
+    "last_watered": "2026-08-18T04:22:55.368618"
   },
   "few-shot": {
     "name": "Few-Shot Learning",

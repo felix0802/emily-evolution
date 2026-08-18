@@ -23072,7 +23072,23 @@
         "speaker"
       ],
       "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.15533v1",
+      "title": "DeltaLog: Deferred Materialization of Recurrent States for Linear Attention Decoding",
+      "arxiv_id": "2608.15533",
+      "tokens": [
+        "attention",
+        "decoding",
+        "deferred",
+        "deltalog",
+        "linear",
+        "materialization",
+        "recurrent",
+        "states"
+      ],
+      "first_seen_round": 165
     }
   ],
-  "total_unique": 1437
+  "total_unique": 1438
 }
