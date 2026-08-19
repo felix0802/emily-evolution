@@ -23924,7 +23924,41 @@
         "unlock"
       ],
       "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.17744v1",
+      "title": "Thinking in a Low-Resource Language: What SFT Builds, What RL Fixes, What Accuracy Cannot See",
+      "arxiv_id": "2608.17744",
+      "tokens": [
+        "accuracy",
+        "builds",
+        "cannot",
+        "fixes",
+        "language",
+        "low",
+        "resource",
+        "see",
+        "sft",
+        "thinking"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.17342v1",
+      "title": "MoFE: A Novel Mixture-of-Experts Framework with Fourier Neural Operators for Cryptocurrency Forecasting",
+      "arxiv_id": "2608.17342",
+      "tokens": [
+        "cryptocurrency",
+        "experts",
+        "forecasting",
+        "fourier",
+        "mixture",
+        "mofe",
+        "neural",
+        "operators"
+      ],
+      "first_seen_round": 165
     }
   ],
-  "total_unique": 1489
+  "total_unique": 1491
 }
