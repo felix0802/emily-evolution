@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 421,
+  "_rotation_idx": 422,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 42,
@@ -669,8 +669,8 @@
   },
   "liquid-networks": {
     "name": "Liquid Networks",
-    "total_papers_found": 50,
-    "watering_count": 45,
+    "total_papers_found": 51,
+    "watering_count": 46,
     "history": [
       {
         "timestamp": "2026-07-06T21:47:31.917958",
@@ -1328,6 +1328,23 @@
         "avg_relevance": 0.0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-08-19T14:21:20.253928",
+        "papers_found": 1,
+        "duplicates": 7,
+        "irrelevant_filtered": 2,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "Beyond MSE: Rethinking the Evaluation Metric and Benchmarking for Irregular Time Series Forecasting",
+            "summary": "Existing research on irregular time-series forecasting has primarily focused on model design, while evaluation metrics remain insufficiently studied. Existing benchmarks typically use mean squared error (MSE) as the evaluation metric. We show that, in irregular forecasting, MSE is determined not onl",
+            "published": "2026-08-18",
+            "url": "http://arxiv.org/abs/2608.17293v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -1337,7 +1354,7 @@
       "ode",
       "continuous-time"
     ],
-    "last_watered": "2026-08-18T18:18:49.161542"
+    "last_watered": "2026-08-19T14:21:20.253924"
   },
   "htm": {
     "name": "HTM",
