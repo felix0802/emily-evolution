@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 416,
+  "_rotation_idx": 417,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 42,
@@ -3857,8 +3857,8 @@
   },
   "continual-learning": {
     "name": "Continual Learning",
-    "total_papers_found": 55,
-    "watering_count": 42,
+    "total_papers_found": 56,
+    "watering_count": 43,
     "history": [
       {
         "timestamp": "2026-07-07T13:06:50.870963",
@@ -4553,6 +4553,23 @@
             "seed_match_score": 2
           }
         ]
+      },
+      {
+        "timestamp": "2026-08-19T04:24:45.965632",
+        "papers_found": 1,
+        "duplicates": 4,
+        "irrelevant_filtered": 5,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "Agents unlock new capabilities through Switching LoRA Adapters as a Tool (SLAaaT)",
+            "summary": "Post-training can unlock new capabilities and improve performance on specialized tasks, but sometimes at the cost of catastrophic forgetting in other domains. This poses a problem in long agent trajectories that compose different capabilities. We reject this tradeoff by giving an agent a tool to swi",
+            "published": "2026-08-17",
+            "url": "http://arxiv.org/abs/2608.17034v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -4562,7 +4579,7 @@
       "ewc",
       "elastic weight"
     ],
-    "last_watered": "2026-08-18T08:21:10.809959"
+    "last_watered": "2026-08-19T04:24:45.965627"
   },
   "moe": {
     "name": "Mixture of Experts",
