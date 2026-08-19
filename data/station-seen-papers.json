@@ -23975,7 +23975,39 @@
         "time"
       ],
       "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.17965v1",
+      "title": "Too Sure to Be Safe: Model Calibration for Reliable Log Anomaly Detection",
+      "arxiv_id": "2608.17965",
+      "tokens": [
+        "anomaly",
+        "calibration",
+        "detection",
+        "log",
+        "reliable",
+        "safe",
+        "sure"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.17775v1",
+      "title": "Training-Free Human-in-the-Loop Anomaly Detection via Memory Bank Correction",
+      "arxiv_id": "2608.17775",
+      "tokens": [
+        "anomaly",
+        "bank",
+        "correction",
+        "detection",
+        "free",
+        "human",
+        "loop",
+        "memory",
+        "training"
+      ],
+      "first_seen_round": 165
     }
   ],
-  "total_unique": 1492
+  "total_unique": 1494
 }

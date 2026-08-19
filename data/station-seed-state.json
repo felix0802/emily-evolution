@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 422,
+  "_rotation_idx": 423,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 42,
@@ -1358,8 +1358,8 @@
   },
   "htm": {
     "name": "HTM",
-    "total_papers_found": 69,
-    "watering_count": 45,
+    "total_papers_found": 71,
+    "watering_count": 46,
     "history": [
       {
         "timestamp": "2026-07-07T08:08:03.935545",
@@ -2201,6 +2201,30 @@
             "seed_match_score": 1
           }
         ]
+      },
+      {
+        "timestamp": "2026-08-19T16:17:00.017512",
+        "papers_found": 2,
+        "duplicates": 2,
+        "irrelevant_filtered": 6,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "Too Sure to Be Safe: Model Calibration for Reliable Log Anomaly Detection",
+            "summary": "Online log anomaly detection is critical for maintaining the reliability of large-scale computing systems. Although recent language model-based log anomaly detectors achieve strong detection performance, their confidence estimates remain poorly calibrated. We show that these detectors frequently ass",
+            "published": "2026-08-18",
+            "url": "http://arxiv.org/abs/2608.17965v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Training-Free Human-in-the-Loop Anomaly Detection via Memory Bank Correction",
+            "summary": "Anomaly detectors are hardest to deploy exactly where training data is scarcest: a newly commissioned production line has a handful of verified \"golden\" samples and no machine-learning engineer on the factory floor. We present a training-free human-in-the-loop framework in which a domain expert corr",
+            "published": "2026-08-18",
+            "url": "http://arxiv.org/abs/2608.17775v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -2215,7 +2239,7 @@
       "anomaly detection",
       "continuous learning"
     ],
-    "last_watered": "2026-08-18T20:10:05.140654"
+    "last_watered": "2026-08-19T16:17:00.017505"
   },
   "spiking-nn": {
     "name": "Spiking Neural Networks",
