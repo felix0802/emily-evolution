@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 431,
+  "_rotation_idx": 432,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 43,
@@ -686,8 +686,8 @@
   },
   "liquid-networks": {
     "name": "Liquid Networks",
-    "total_papers_found": 51,
-    "watering_count": 46,
+    "total_papers_found": 52,
+    "watering_count": 47,
     "history": [
       {
         "timestamp": "2026-07-06T21:47:31.917958",
@@ -1362,6 +1362,23 @@
             "seed_match_score": 1
           }
         ]
+      },
+      {
+        "timestamp": "2026-08-20T10:17:32.628595",
+        "papers_found": 1,
+        "duplicates": 8,
+        "irrelevant_filtered": 1,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "Discretizing Continuous Time Series for Imputation with Masked Diffusion Training",
+            "summary": "Time series imputation is a crucial area for reliable time series analysis, yet it remains challenging due to the complex temporal dynamics and noise of real-world data. Existing approaches, however, exhibit two limitations: missing and observed values are embedded within the same representation spa",
+            "published": "2026-08-19",
+            "url": "http://arxiv.org/abs/2608.19119v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -1371,7 +1388,7 @@
       "ode",
       "continuous-time"
     ],
-    "last_watered": "2026-08-19T14:21:20.253924"
+    "last_watered": "2026-08-20T10:17:32.628592"
   },
   "htm": {
     "name": "HTM",
