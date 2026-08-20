@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 436,
+  "_rotation_idx": 437,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 43,
@@ -4012,8 +4012,8 @@
   },
   "continual-learning": {
     "name": "Continual Learning",
-    "total_papers_found": 56,
-    "watering_count": 44,
+    "total_papers_found": 59,
+    "watering_count": 45,
     "history": [
       {
         "timestamp": "2026-07-07T13:06:50.870963",
@@ -4734,6 +4734,37 @@
         "avg_relevance": 0.0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-08-20T20:15:05.545448",
+        "papers_found": 3,
+        "duplicates": 4,
+        "irrelevant_filtered": 3,
+        "avg_relevance": 1.33,
+        "high_relevance": 1,
+        "papers": [
+          {
+            "title": "Harness Continual Learning: Continual Adaptation Beyond Model Parameters",
+            "summary": "Continual learning has largely been model-centric, treating model parameters as the state that changes with sequential experience. Modern agents can also adapt through a harness of prompts, memories, tools, skills, and routing rules. Because these contents jointly shape later execution, a harness up",
+            "published": "2026-08-19",
+            "url": "http://arxiv.org/abs/2608.19013v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Forgetting, plasticity, and co-observation: a third facet of continual learning",
+            "summary": "Efficient continual learning remains a fundamental challenge for deep neural networks. While catastrophic forgetting and loss of plasticity are widely considered the primary obstacles to overcome, we show that these two issues cannot fully explain the performance gap between naive sequential trainin",
+            "published": "2026-08-19",
+            "url": "http://arxiv.org/abs/2608.18803v1",
+            "seed_match_score": 2
+          },
+          {
+            "title": "Towards Reversible Forgetting: Managing Obsolete Knowledge in Continual Enterprise AI Agents",
+            "summary": "Continual learning has traditionally treated forgetting as a failure, emphasizing preservation of previously acquired knowledge as environments evolve. We argue that this objective is incomplete for enterprise AI agents operating in non-stationary environments, where customers, policies, tools, work",
+            "published": "2026-08-18",
+            "url": "http://arxiv.org/abs/2608.18177v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -4743,7 +4774,7 @@
       "ewc",
       "elastic weight"
     ],
-    "last_watered": "2026-08-20T00:30:47.699152"
+    "last_watered": "2026-08-20T20:15:05.545444"
   },
   "moe": {
     "name": "Mixture of Experts",
