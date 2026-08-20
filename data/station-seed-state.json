@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 432,
+  "_rotation_idx": 433,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 43,
@@ -1392,8 +1392,8 @@
   },
   "htm": {
     "name": "HTM",
-    "total_papers_found": 71,
-    "watering_count": 46,
+    "total_papers_found": 72,
+    "watering_count": 47,
     "history": [
       {
         "timestamp": "2026-07-07T08:08:03.935545",
@@ -2259,6 +2259,23 @@
             "seed_match_score": 1
           }
         ]
+      },
+      {
+        "timestamp": "2026-08-20T12:20:46.717598",
+        "papers_found": 1,
+        "duplicates": 2,
+        "irrelevant_filtered": 7,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "Low-Power, Neuromorphic, Acoustic Anomaly Detection for Persistent Machine Monitoring",
+            "summary": "Persistent acoustic monitoring can detect machine faults without physical contact, but always-on inference is constrained by power, latency, and deployment complexity. We demonstrate autoencoder-based acoustic anomaly detection on an Intel Loihi 2 neuromorphic processor under clean and noisy conditi",
+            "published": "2026-08-18",
+            "url": "http://arxiv.org/abs/2608.18341v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -2273,7 +2290,7 @@
       "anomaly detection",
       "continuous learning"
     ],
-    "last_watered": "2026-08-19T16:17:00.017505"
+    "last_watered": "2026-08-20T12:20:46.717593"
   },
   "spiking-nn": {
     "name": "Spiking Neural Networks",
