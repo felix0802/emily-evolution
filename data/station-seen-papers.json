@@ -24007,7 +24007,354 @@
         "training"
       ],
       "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.19197v1",
+      "title": "SPADE: Self-Play in Adaptive Synthetic Executable Environments",
+      "arxiv_id": "2608.19197",
+      "tokens": [
+        "adaptive",
+        "environments",
+        "executable",
+        "play",
+        "self",
+        "spade",
+        "synthetic"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.19182v1",
+      "title": "ADEPT: Accelerating Dexterity via Pre-Training and Post-Training using Reinforcement Learning",
+      "arxiv_id": "2608.19182",
+      "tokens": [
+        "accelerating",
+        "adept",
+        "dexterity",
+        "post",
+        "pre",
+        "reinforcement",
+        "training",
+        "training"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.19181v1",
+      "title": "Beyond Teacher Likelihood: Group-Calibrated On-Policy Distillation for Long-Context Reasoning",
+      "arxiv_id": "2608.19181",
+      "tokens": [
+        "calibrated",
+        "context",
+        "distillation",
+        "group",
+        "likelihood",
+        "long",
+        "policy",
+        "reasoning",
+        "teacher"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.19174v1",
+      "title": "Finetuning Strategies for Querying Sounds by Vocal Imitation",
+      "arxiv_id": "2608.19174",
+      "tokens": [
+        "finetuning",
+        "imitation",
+        "querying",
+        "sounds",
+        "strategies",
+        "vocal"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.19163v1",
+      "title": "Interpretable AI predicts a 2026 summer dry anomaly in central China",
+      "arxiv_id": "2608.19163",
+      "tokens": [
+        "2026",
+        "anomaly",
+        "central",
+        "china",
+        "dry",
+        "interpretable",
+        "predicts",
+        "summer"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.19161v1",
+      "title": "Beyond the Transcript: Detecting Covert Co ordination in Latent Multi-Agent Communication",
+      "arxiv_id": "2608.19161",
+      "tokens": [
+        "agent",
+        "communication",
+        "covert",
+        "detecting",
+        "latent",
+        "multi",
+        "ordination",
+        "transcript"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.19147v1",
+      "title": "Pre-Compiled Pipeline Shards for Distributed LLM Inference on Intel AI PC Fleets",
+      "arxiv_id": "2608.19147",
+      "tokens": [
+        "compiled",
+        "distributed",
+        "fleets",
+        "inference",
+        "intel",
+        "llm",
+        "pipeline",
+        "pre",
+        "shards"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.19140v1",
+      "title": "Grouping the Stochastic Machine: Precision, Not Capability, as the Frontier Metric for AI Systems",
+      "arxiv_id": "2608.19140",
+      "tokens": [
+        "capability",
+        "frontier",
+        "grouping",
+        "machine",
+        "metric",
+        "precision",
+        "stochastic"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.19171v1",
+      "title": "Lévy Attention: Single-Pass Predictive Uncertainty for Continuous-Time Attention",
+      "arxiv_id": "2608.19171",
+      "tokens": [
+        "attention",
+        "attention",
+        "continuous",
+        "pass",
+        "predictive",
+        "single",
+        "time",
+        "uncertainty"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.19168v1",
+      "title": "Learned, Then Lost: A Measured Single-Example Counterfactual in Pre-training",
+      "arxiv_id": "2608.19168",
+      "tokens": [
+        "counterfactual",
+        "example",
+        "learned",
+        "lost",
+        "measured",
+        "pre",
+        "single",
+        "training"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.19151v1",
+      "title": "Continuous-Time Reinforcement Learning for Controlled Hawkes Jump-Diffusions",
+      "arxiv_id": "2608.19151",
+      "tokens": [
+        "continuous",
+        "controlled",
+        "diffusions",
+        "hawkes",
+        "jump",
+        "reinforcement",
+        "time"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.19141v1",
+      "title": "Geometric Iterative Retrieval for Neural Audio Codec Resynthesis",
+      "arxiv_id": "2608.19141",
+      "tokens": [
+        "audio",
+        "codec",
+        "geometric",
+        "iterative",
+        "neural",
+        "resynthesis",
+        "retrieval"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.19134v1",
+      "title": "SCORE: Subject Coordinate Recovery for Label-Free Cross-Subject EEG-to-Image Retrieval",
+      "arxiv_id": "2608.19134",
+      "tokens": [
+        "coordinate",
+        "cross",
+        "eeg",
+        "free",
+        "image",
+        "label",
+        "recovery",
+        "retrieval",
+        "score",
+        "subject",
+        "subject"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.19128v1",
+      "title": "Beyond Trial Averaging: Anchoring Neural and Visual Representations for Few-Repetition Brain-to-Image Retrieval",
+      "arxiv_id": "2608.19128",
+      "tokens": [
+        "anchoring",
+        "averaging",
+        "brain",
+        "image",
+        "neural",
+        "repetition",
+        "representations",
+        "retrieval",
+        "trial",
+        "visual"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.19165v1",
+      "title": "ChildSafeAds Shared Task 2026: Commercial Content in Child-Facing YouTube Videos",
+      "arxiv_id": "2608.19165",
+      "tokens": [
+        "2026",
+        "child",
+        "childsafeads",
+        "commercial",
+        "content",
+        "facing",
+        "shared",
+        "task",
+        "videos",
+        "youtube"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.19133v1",
+      "title": "Comment-level Topic Drift Analysis in the Reddit Corpus",
+      "arxiv_id": "2608.19133",
+      "tokens": [
+        "comment",
+        "corpus",
+        "drift",
+        "level",
+        "reddit",
+        "topic"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.19098v1",
+      "title": "Open-MOPD: Diagnosing and Fixing Capability Imbalance in Multi-Teacher On-Policy Distillation",
+      "arxiv_id": "2608.19098",
+      "tokens": [
+        "capability",
+        "diagnosing",
+        "distillation",
+        "fixing",
+        "imbalance",
+        "mopd",
+        "multi",
+        "open",
+        "policy",
+        "teacher"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.19083v1",
+      "title": "When Readability and Source Retention Diverge: An Evaluability Gap in AI Translation",
+      "arxiv_id": "2608.19083",
+      "tokens": [
+        "diverge",
+        "evaluability",
+        "gap",
+        "readability",
+        "retention",
+        "source",
+        "translation"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.19075v1",
+      "title": "ReWEIGH the Evidence: Calibrating Token-Level Ordinal Visual Evidence to Mitigate Hallucinations in Large Vision-Language Models",
+      "arxiv_id": "2608.19075",
+      "tokens": [
+        "calibrating",
+        "evidence",
+        "evidence",
+        "hallucinations",
+        "language",
+        "level",
+        "mitigate",
+        "ordinal",
+        "reweigh",
+        "token",
+        "vision",
+        "visual"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.19072v1",
+      "title": "What is Missing from AI Post-Training AI: An Empirical Analysis",
+      "arxiv_id": "2608.19072",
+      "tokens": [
+        "empirical",
+        "missing",
+        "post",
+        "training"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.18261v1",
+      "title": "Cacheable by Design? Training Mixture-of-Experts Routers for Locality Against the Edge Memory-Bandwidth Wall: A Pre-Registered Negative Result with a Systems Measurement Study",
+      "arxiv_id": "2608.18261",
+      "tokens": [
+        "against",
+        "bandwidth",
+        "cacheable",
+        "design",
+        "edge",
+        "experts",
+        "locality",
+        "measurement",
+        "memory",
+        "mixture",
+        "negative",
+        "pre",
+        "registered",
+        "result",
+        "routers",
+        "training",
+        "wall"
+      ],
+      "first_seen_round": 165
     }
   ],
-  "total_unique": 1494
+  "total_unique": 1515
 }

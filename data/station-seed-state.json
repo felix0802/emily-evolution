@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 427,
+  "_rotation_idx": 428,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 42,
@@ -4669,8 +4669,8 @@
   },
   "moe": {
     "name": "Mixture of Experts",
-    "total_papers_found": 63,
-    "watering_count": 39,
+    "total_papers_found": 64,
+    "watering_count": 40,
     "history": [
       {
         "timestamp": "2026-07-15T09:46:58.985365",
@@ -5388,6 +5388,23 @@
             "seed_match_score": 1
           }
         ]
+      },
+      {
+        "timestamp": "2026-08-20T02:46:57.614959",
+        "papers_found": 1,
+        "duplicates": 6,
+        "irrelevant_filtered": 3,
+        "avg_relevance": 3.0,
+        "high_relevance": 1,
+        "papers": [
+          {
+            "title": "Cacheable by Design? Training Mixture-of-Experts Routers for Locality Against the Edge Memory-Bandwidth Wall: A Pre-Registered Negative Result with a Systems Measurement Study",
+            "summary": "Serving a 235B-parameter Mixture-of-Experts (MoE) model on a single 8 GB GPU is bottlenecked not by compute but by memory bandwidth: decode must stream each token's active experts from whichever tier holds them, and on consumer hardware most experts sit on an SSD far slower than RAM. We quantify thi",
+            "published": "2026-08-18",
+            "url": "http://arxiv.org/abs/2608.18261v1",
+            "seed_match_score": 3
+          }
+        ]
       }
     ],
     "keywords": [
@@ -5399,7 +5416,7 @@
       "switch transformer",
       "deepseek"
     ],
-    "last_watered": "2026-08-19T06:21:48.801103"
+    "last_watered": "2026-08-20T02:46:57.614954"
   },
   "kv-cache": {
     "name": "KV Cache Optimization",
