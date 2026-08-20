@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 429,
+  "_rotation_idx": 430,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 42,
@@ -6096,8 +6096,8 @@
   },
   "gnn": {
     "name": "Graph Neural Networks",
-    "total_papers_found": 87,
-    "watering_count": 41,
+    "total_papers_found": 92,
+    "watering_count": 42,
     "history": [
       {
         "timestamp": "2026-07-15T15:16:02.082257",
@@ -6874,6 +6874,37 @@
         "avg_relevance": 0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-08-20T06:22:55.014168",
+        "papers_found": 5,
+        "duplicates": 2,
+        "irrelevant_filtered": 3,
+        "avg_relevance": 1.8,
+        "high_relevance": 4,
+        "papers": [
+          {
+            "title": "A Unifying Relational Perspective on Expressive Lottery Tickets",
+            "summary": "Graph neural networks (GNNs) are widely used, but how parameter sparsity affects the expressivity of relational (RGNNs) and temporal (TGNNs) variants is poorly understood. The Strong Expressive Lottery Ticket Hypothesis (SELTH) posits the existence of sparse GNNs that preserve Weisfeiler-Leman (WL) ",
+            "published": "2026-08-19",
+            "url": "http://arxiv.org/abs/2608.18819v1",
+            "seed_match_score": 2
+          },
+          {
+            "title": "Communicating Credit Risk with Large Language Models: Evaluation of Explanations from Standard and Alternative Data-Based Models",
+            "summary": "Credit decisioning is a high-stakes task in which model outputs must be accurate and explainable to support compliant decisions. Although modern credit risk models such as eXtreme Gradient Boosting (XGBoost) and Graph Neural Networks (GNNs) improve predictive performance, their explanations are ofte",
+            "published": "2026-08-18",
+            "url": "http://arxiv.org/abs/2608.17715v1",
+            "seed_match_score": 2
+          },
+          {
+            "title": "General Semantic Knowledge Infusion for Spatio-Temporal Traffic Forecasting",
+            "summary": "Although Graph Neural Networks (GNNs) have made significant advances in spatio-temporal traffic forecasting, their performance is limited when they rely solely on sensor proximity or road-network topology. This paper presents a spatio-temporal prediction framework, developed to incorporate knowledge",
+            "published": "2026-08-18",
+            "url": "http://arxiv.org/abs/2608.17440v1",
+            "seed_match_score": 2
+          }
+        ]
       }
     ],
     "keywords": [
@@ -6885,6 +6916,6 @@
       "node embedding",
       "graph transformer"
     ],
-    "last_watered": "2026-08-19T10:19:11.704987"
+    "last_watered": "2026-08-20T06:22:55.014163"
   }
 }
