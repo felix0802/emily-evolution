@@ -1,9 +1,9 @@
 {
-  "_rotation_idx": 430,
+  "_rotation_idx": 431,
   "mamba": {
     "name": "Mamba (SSM)",
-    "total_papers_found": 42,
-    "watering_count": 46,
+    "total_papers_found": 43,
+    "watering_count": 47,
     "history": [
       {
         "timestamp": "2026-07-06T21:46:12.361778",
@@ -657,6 +657,23 @@
         "avg_relevance": 0.0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-08-20T08:22:24.158082",
+        "papers_found": 1,
+        "duplicates": 6,
+        "irrelevant_filtered": 3,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "Infrared Universality of Collective Dynamics across Transformer and State-Space Architectures",
+            "summary": "Whether distinct neural architectures develop common collective dynamics remains an open question. Recent analysis of Transformer language models revealed a nearly flat, weakly infrared-enhanced time-scale density of states (TDOS) associated with near-marginal long-memory dynamics. Here we test whet",
+            "published": "2026-08-19",
+            "url": "http://arxiv.org/abs/2608.18592v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -665,7 +682,7 @@
       "ssm",
       "selective scan"
     ],
-    "last_watered": "2026-08-19T12:20:59.660354"
+    "last_watered": "2026-08-20T08:22:24.158076"
   },
   "liquid-networks": {
     "name": "Liquid Networks",
