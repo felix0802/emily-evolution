@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 443,
+  "_rotation_idx": 444,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 44,
@@ -2359,8 +2359,8 @@
   },
   "spiking-nn": {
     "name": "Spiking Neural Networks",
-    "total_papers_found": 23,
-    "watering_count": 46,
+    "total_papers_found": 24,
+    "watering_count": 47,
     "history": [
       {
         "timestamp": "2026-07-07T08:54:38.442223",
@@ -2919,6 +2919,23 @@
         "avg_relevance": 0.0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-08-21T10:17:40.370037",
+        "papers_found": 1,
+        "duplicates": 8,
+        "irrelevant_filtered": 1,
+        "avg_relevance": 2.0,
+        "high_relevance": 1,
+        "papers": [
+          {
+            "title": "BASC : Behavior-Aligned Quantization and Pruning for Low-Bit Spiking Neural Networks",
+            "summary": "Spiking Neural Networks (SNNs) encode information through binary spikes and compute in an event-driven manner, offering an energy-efficient paradigm for machine intelligence. However, high-performance SNNs incur substantial memory and timestep-wise computation costs that hinder deployment on resourc",
+            "published": "2026-08-12",
+            "url": "http://arxiv.org/abs/2608.19239v1",
+            "seed_match_score": 2
+          }
+        ]
       }
     ],
     "keywords": [
@@ -2927,7 +2944,7 @@
       "neuromorphic",
       "spike-timing"
     ],
-    "last_watered": "2026-08-20T14:23:27.094176"
+    "last_watered": "2026-08-21T10:17:40.370032"
   },
   "non-transformer": {
     "name": "Non-Transformer Arch",
