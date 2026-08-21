@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 442,
+  "_rotation_idx": 443,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 44,
@@ -1426,8 +1426,8 @@
   },
   "htm": {
     "name": "HTM",
-    "total_papers_found": 72,
-    "watering_count": 47,
+    "total_papers_found": 76,
+    "watering_count": 48,
     "history": [
       {
         "timestamp": "2026-07-07T08:08:03.935545",
@@ -2310,6 +2310,37 @@
             "seed_match_score": 1
           }
         ]
+      },
+      {
+        "timestamp": "2026-08-21T08:24:11.202227",
+        "papers_found": 4,
+        "duplicates": 0,
+        "irrelevant_filtered": 6,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "From Noise to Signal: Improving Security Log Anomaly Detection Using LLMs with Endpoint-Specific Logs",
+            "summary": "Existing approaches to anomalous behaviour log detection, such as Wazuh rely primarily on predefined detection rules, while statistical anomaly detection approaches such as OpenSearch identify deviations from previously observed behavioural patterns. Recent research has investigated LLMs for log ano",
+            "published": "2026-08-20",
+            "url": "http://arxiv.org/abs/2608.19938v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Online Test-Time Adaptation for Generalizable Dynamic Graph Anomaly Detection",
+            "summary": "Generalizable dynamic graph anomaly detection (DGAD) enables pretrained detectors to identify anomalies in unseen target domains without costly retraining. However, existing methods often fail for two reasons. First, they mainly rely on domain-agnostic patterns and miss domain-specific patterns that",
+            "published": "2026-08-20",
+            "url": "http://arxiv.org/abs/2608.19858v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Unsupervised Anomaly Detection Using Flow Matching on Tabular Data",
+            "summary": "Financial anomaly detection often relies on large unlabeled transaction logs, where anomalous samples may already be present during training. Such training-set contamination violates the clean-normal data assumption underlying many anomaly detection methods. Although flow matching has demonstrated s",
+            "published": "2026-08-20",
+            "url": "http://arxiv.org/abs/2608.19801v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -2324,7 +2355,7 @@
       "anomaly detection",
       "continuous learning"
     ],
-    "last_watered": "2026-08-20T12:20:46.717593"
+    "last_watered": "2026-08-21T08:24:11.202224"
   },
   "spiking-nn": {
     "name": "Spiking Neural Networks",
