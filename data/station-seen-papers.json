@@ -24798,7 +24798,24 @@
         "transfer"
       ],
       "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.19395v1",
+      "title": "HYDRA: A Heterogeneous Chiplet DSE Framework for Serving Dynamic Hybrid LLM Workloads",
+      "arxiv_id": "2608.19395",
+      "tokens": [
+        "chiplet",
+        "dse",
+        "dynamic",
+        "heterogeneous",
+        "hybrid",
+        "hydra",
+        "llm",
+        "serving",
+        "workloads"
+      ],
+      "first_seen_round": 165
     }
   ],
-  "total_unique": 1543
+  "total_unique": 1544
 }

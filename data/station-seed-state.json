@@ -1,9 +1,9 @@
 {
-  "_rotation_idx": 440,
+  "_rotation_idx": 441,
   "mamba": {
     "name": "Mamba (SSM)",
-    "total_papers_found": 43,
-    "watering_count": 47,
+    "total_papers_found": 44,
+    "watering_count": 48,
     "history": [
       {
         "timestamp": "2026-07-06T21:46:12.361778",
@@ -674,6 +674,23 @@
             "seed_match_score": 1
           }
         ]
+      },
+      {
+        "timestamp": "2026-08-21T04:26:17.746967",
+        "papers_found": 1,
+        "duplicates": 6,
+        "irrelevant_filtered": 3,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "HYDRA: A Heterogeneous Chiplet DSE Framework for Serving Dynamic Hybrid LLM Workloads",
+            "summary": "Hybrid Transformer-Mamba large language models (LLMs) enhance long-context efficiency, but their heterogeneous computation and communication patterns complicate efficient hardware acceleration. Chiplet-based architectures offer a scalable solution by integrating specialized compute and memory units.",
+            "published": "2026-08-19",
+            "url": "http://arxiv.org/abs/2608.19395v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -682,7 +699,7 @@
       "ssm",
       "selective scan"
     ],
-    "last_watered": "2026-08-20T08:22:24.158076"
+    "last_watered": "2026-08-21T04:26:17.746962"
   },
   "liquid-networks": {
     "name": "Liquid Networks",
