@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 447,
+  "_rotation_idx": 448,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 44,
@@ -4902,8 +4902,8 @@
   },
   "moe": {
     "name": "Mixture of Experts",
-    "total_papers_found": 64,
-    "watering_count": 41,
+    "total_papers_found": 65,
+    "watering_count": 42,
     "history": [
       {
         "timestamp": "2026-07-15T09:46:58.985365",
@@ -5647,6 +5647,23 @@
         "avg_relevance": 0.0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-08-21T18:19:00.637402",
+        "papers_found": 1,
+        "duplicates": 6,
+        "irrelevant_filtered": 3,
+        "avg_relevance": 2.0,
+        "high_relevance": 1,
+        "papers": [
+          {
+            "title": "Let's Scale Step by Step: Compute-Efficient Hyperparameter Transfer for Large-Scale Mixture-of-Experts",
+            "summary": "Mixture-of-Experts (MoE) architectures significantly expand model capacity without a proportional increase in computational cost. However, optimizing their hyperparameters---particularly the learning rate---at extreme scales of both model size and token budget via sweeping remains computationally pr",
+            "published": "2026-08-20",
+            "url": "http://arxiv.org/abs/2608.20061v1",
+            "seed_match_score": 2
+          }
+        ]
       }
     ],
     "keywords": [
@@ -5658,7 +5675,7 @@
       "switch transformer",
       "deepseek"
     ],
-    "last_watered": "2026-08-20T22:14:04.057900"
+    "last_watered": "2026-08-21T18:19:00.637397"
   },
   "kv-cache": {
     "name": "KV Cache Optimization",
