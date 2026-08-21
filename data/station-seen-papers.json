@@ -24962,7 +24962,54 @@
         "transfer"
       ],
       "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.19920v1",
+      "title": "Learning how to Forget: Fine-tuning for Long-Context Sparse Attention",
+      "arxiv_id": "2608.19920",
+      "tokens": [
+        "attention",
+        "context",
+        "fine",
+        "forget",
+        "long",
+        "sparse",
+        "tuning"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.19662v1",
+      "title": "ReCache: Efficient KV Cache Reuse and Compression for Tool-Augmented LLM Agents",
+      "arxiv_id": "2608.19662",
+      "tokens": [
+        "agents",
+        "augmented",
+        "cache",
+        "compression",
+        "llm",
+        "recache",
+        "reuse",
+        "tool"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.19535v1",
+      "title": "From Retrieved Context to Runtime Control: Adaptive Compression for Edge-based RAG",
+      "arxiv_id": "2608.19535",
+      "tokens": [
+        "adaptive",
+        "compression",
+        "context",
+        "control",
+        "edge",
+        "rag",
+        "retrieved",
+        "runtime"
+      ],
+      "first_seen_round": 165
     }
   ],
-  "total_unique": 1553
+  "total_unique": 1556
 }

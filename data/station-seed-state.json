@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 448,
+  "_rotation_idx": 449,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 44,
@@ -5679,8 +5679,8 @@
   },
   "kv-cache": {
     "name": "KV Cache Optimization",
-    "total_papers_found": 54,
-    "watering_count": 42,
+    "total_papers_found": 57,
+    "watering_count": 43,
     "history": [
       {
         "timestamp": "2026-07-15T11:19:09.355556",
@@ -6349,6 +6349,37 @@
         "avg_relevance": 0.0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-08-21T20:11:33.928311",
+        "papers_found": 3,
+        "duplicates": 4,
+        "irrelevant_filtered": 3,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "Learning how to Forget: Fine-tuning for Long-Context Sparse Attention",
+            "summary": "A lot of prior work addressed key-value (KV) cache selection and compression by sparse attention to enable long-context inference for transformer language models without excessive hardware budgets. We provide a new method for fine-tuning models with sparse attention. It works for any KV cache policy",
+            "published": "2026-08-20",
+            "url": "http://arxiv.org/abs/2608.19920v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "ReCache: Efficient KV Cache Reuse and Compression for Tool-Augmented LLM Agents",
+            "summary": "Agentic language models repeatedly encode tool and skill schemas that recur across requests in different combinations and orders, preventing standard prefix caching from reusing their key--value (KV) states. We introduce \\textbf{ReCache}, a framework for independently caching resource representation",
+            "published": "2026-08-20",
+            "url": "http://arxiv.org/abs/2608.19662v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "From Retrieved Context to Runtime Control: Adaptive Compression for Edge-based RAG",
+            "summary": "Retrieval-augmented generation (RAG) improves language-model responses by grounding generation in external passages, which comes with overhead: retrieved context lengthens the prompt, increasing prefill work, KV-cache footprint, memory traffic, latency, and energy. Context compression offers a natur",
+            "published": "2026-08-20",
+            "url": "http://arxiv.org/abs/2608.19535v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -6360,7 +6391,7 @@
       "flash attention",
       "speculative decoding"
     ],
-    "last_watered": "2026-08-21T00:33:35.589407"
+    "last_watered": "2026-08-21T20:11:33.928305"
   },
   "gnn": {
     "name": "Graph Neural Networks",
