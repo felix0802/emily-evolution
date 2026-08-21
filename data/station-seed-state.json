@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 441,
+  "_rotation_idx": 442,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 44,
@@ -703,8 +703,8 @@
   },
   "liquid-networks": {
     "name": "Liquid Networks",
-    "total_papers_found": 52,
-    "watering_count": 47,
+    "total_papers_found": 53,
+    "watering_count": 48,
     "history": [
       {
         "timestamp": "2026-07-06T21:47:31.917958",
@@ -1396,6 +1396,23 @@
             "seed_match_score": 1
           }
         ]
+      },
+      {
+        "timestamp": "2026-08-21T06:22:50.637839",
+        "papers_found": 1,
+        "duplicates": 6,
+        "irrelevant_filtered": 3,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "The Forward-Backward Disconnect: State Dynamics, Credit Assignment, and Biological Grounding in Neural Computation",
+            "summary": "A recurring pattern in neural computation is the reintroduction of dynamical and biological structure into models originally simplified for scalable optimization. Early feedforward networks reduced biological neurons to threshold or rate-like summation units, an abstraction compatible with global-gr",
+            "published": "2026-08-20",
+            "url": "http://arxiv.org/abs/2608.19995v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -1405,7 +1422,7 @@
       "ode",
       "continuous-time"
     ],
-    "last_watered": "2026-08-20T10:17:32.628592"
+    "last_watered": "2026-08-21T06:22:50.637834"
   },
   "htm": {
     "name": "HTM",
