@@ -230,16 +230,15 @@
   "non-transformer": {
     "name": "Non-Transformer Arch",
     "total_new_papers": 19,
-    "total_watering": 44,
+    "total_watering": 45,
     "all_keywords_matched": [
       "linear attention",
-      "efficient transformer",
-      "state space",
       "mamba",
-      "gated linear"
+      "state space",
+      "gated linear",
+      "efficient transformer"
     ],
     "avg_relevance_trend": [
-      1.5,
       0.0,
       1.0,
       0.0,
@@ -258,11 +257,12 @@
       0.0,
       0.0,
       0.0,
+      0.0,
       0.0
     ],
     "high_relevance_total": 3,
     "best_papers": [],
-    "last_updated": "2026-08-22T08:14:54.342023"
+    "last_updated": "2026-08-23T04:25:06.495692"
   },
   "continual-learning": {
     "name": "Continual Learning",
