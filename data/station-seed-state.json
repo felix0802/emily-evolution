@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 478,
+  "_rotation_idx": 479,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 44,
@@ -5911,8 +5911,8 @@
   },
   "kv-cache": {
     "name": "KV Cache Optimization",
-    "total_papers_found": 57,
-    "watering_count": 45,
+    "total_papers_found": 59,
+    "watering_count": 46,
     "history": [
       {
         "timestamp": "2026-07-15T11:19:09.355556",
@@ -6630,6 +6630,30 @@
         "avg_relevance": 0.0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-08-24T08:33:31.070811",
+        "papers_found": 2,
+        "duplicates": 3,
+        "irrelevant_filtered": 5,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "TreeWY: Speculative Verification for Gated DeltaNet Hybrids",
+            "summary": "Modern open models are hybrids: most layers are linear-attention (Gated DeltaNet, GDN) layers carrying a small fixed-size recurrent state instead of a growing key-value (KV) cache. This makes ordinary decoding memory-efficient, but hurts speculative decoding. To verify a batch of draft tokens and th",
+            "published": "2026-08-21",
+            "url": "http://arxiv.org/abs/2608.20961v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "LiLiCorr: Lightweight Likelihood Correlation of Parallel Drafts for Speculative Decoding",
+            "summary": "Speculative decoding accelerates language-model inference by drafting future tokens that the target model verifies in parallel. A diffusion-style block head such as DFlash is an attractive drafter, predicting an entire block of future tokens in one forward pass. However, it is trained on per-positio",
+            "published": "2026-08-20",
+            "url": "http://arxiv.org/abs/2608.20530v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -6641,7 +6665,7 @@
       "flash attention",
       "speculative decoding"
     ],
-    "last_watered": "2026-08-23T12:14:36.044720"
+    "last_watered": "2026-08-24T08:33:31.070806"
   },
   "gnn": {
     "name": "Graph Neural Networks",
