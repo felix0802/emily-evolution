@@ -25009,7 +25009,333 @@
         "runtime"
       ],
       "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.21359v1",
+      "title": "Primal Acceleration of Newton's Method",
+      "arxiv_id": "2608.21359",
+      "tokens": [
+        "acceleration",
+        "newton",
+        "primal"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.21357v1",
+      "title": "VIALS: A Benchmark for Visual Interpretation of Artifacts in the Life Sciences",
+      "arxiv_id": "2608.21357",
+      "tokens": [
+        "artifacts",
+        "benchmark",
+        "interpretation",
+        "life",
+        "sciences",
+        "vials",
+        "visual"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.21356v1",
+      "title": "AI with Authority, from Application to Silicon",
+      "arxiv_id": "2608.21356",
+      "tokens": [
+        "application",
+        "authority",
+        "silicon"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.21343v1",
+      "title": "TurboBias 2.0: Streaming Context-Biasing for Production-Efficient ASR Systems",
+      "arxiv_id": "2608.21343",
+      "tokens": [
+        "asr",
+        "biasing",
+        "context",
+        "production",
+        "streaming",
+        "turbobias"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.21332v1",
+      "title": "Anatomy-Informed Neural Networks: Encoding Anatomic Priors in Loss and Architecture, with an SE(3) Formulation of Guidewire-Induced Aortoiliac Deformation",
+      "arxiv_id": "2608.21332",
+      "tokens": [
+        "anatomic",
+        "anatomy",
+        "aortoiliac",
+        "architecture",
+        "deformation",
+        "encoding",
+        "formulation",
+        "guidewire",
+        "induced",
+        "informed",
+        "loss",
+        "neural",
+        "priors"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.21319v1",
+      "title": "Unified Branch-and-Bound Search for the Steiner Traveling Salesman Problem on Graphs of Convex Sets",
+      "arxiv_id": "2608.21319",
+      "tokens": [
+        "bound",
+        "branch",
+        "convex",
+        "graphs",
+        "problem",
+        "salesman",
+        "search",
+        "sets",
+        "steiner",
+        "traveling",
+        "unified"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.21317v1",
+      "title": "From Regulation to Implementation: A Critical Evaluation of LLM-Assisted Regulatory Compliance in Industry",
+      "arxiv_id": "2608.21317",
+      "tokens": [
+        "assisted",
+        "compliance",
+        "critical",
+        "evaluation",
+        "implementation",
+        "industry",
+        "llm",
+        "regulation",
+        "regulatory"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.21305v1",
+      "title": "Re$^3$Cap: Retrieval-Guided Refinement for Image Captioning Enhancement via Reinforcement Learning",
+      "arxiv_id": "2608.21305",
+      "tokens": [
+        "cap",
+        "captioning",
+        "enhancement",
+        "guided",
+        "image",
+        "refinement",
+        "reinforcement",
+        "retrieval"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.21349v1",
+      "title": "PerturbRx: Learning Treatment-Conditioned Latent Transitions for Patient Drug Response Prediction",
+      "arxiv_id": "2608.21349",
+      "tokens": [
+        "conditioned",
+        "drug",
+        "latent",
+        "patient",
+        "perturbrx",
+        "prediction",
+        "response",
+        "transitions",
+        "treatment"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.21348v1",
+      "title": "Truthful Calibration Measures for Sequential Prediction",
+      "arxiv_id": "2608.21348",
+      "tokens": [
+        "calibration",
+        "measures",
+        "prediction",
+        "sequential",
+        "truthful"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.21345v1",
+      "title": "Asymmetric Capacity Allocation in Self-Refinement Pipelines",
+      "arxiv_id": "2608.21345",
+      "tokens": [
+        "allocation",
+        "asymmetric",
+        "capacity",
+        "pipelines",
+        "refinement",
+        "self"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.21334v1",
+      "title": "Across-Design Uncertainty in Short Pricing Panels: Evidence from Simulated Price Trajectories",
+      "arxiv_id": "2608.21334",
+      "tokens": [
+        "design",
+        "evidence",
+        "panels",
+        "price",
+        "pricing",
+        "short",
+        "simulated",
+        "trajectories",
+        "uncertainty"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.21324v1",
+      "title": "Time-Aware Tranformer-Based Prediction Model for AECOPD",
+      "arxiv_id": "2608.21324",
+      "tokens": [
+        "aecopd",
+        "aware",
+        "prediction",
+        "time",
+        "tranformer"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.21308v1",
+      "title": "Rethinking Expressivity and Efficiency in Test-Time Training",
+      "arxiv_id": "2608.21308",
+      "tokens": [
+        "efficiency",
+        "expressivity",
+        "rethinking",
+        "test",
+        "time",
+        "training"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.21325v1",
+      "title": "Move by Move: Measuring and Steering How LLMs Conduct Psychotherapy",
+      "arxiv_id": "2608.21325",
+      "tokens": [
+        "conduct",
+        "llms",
+        "measuring",
+        "move",
+        "move",
+        "psychotherapy",
+        "steering"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.21315v1",
+      "title": "Prompt-Model Interaction Reaches the Fixed Points: A deterministic, task-free structural readout -- and the factorizations of it that failed",
+      "arxiv_id": "2608.21315",
+      "tokens": [
+        "deterministic",
+        "factorizations",
+        "failed",
+        "fixed",
+        "free",
+        "interaction",
+        "points",
+        "prompt",
+        "reaches",
+        "readout",
+        "structural",
+        "task"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.21265v1",
+      "title": "Memory Augmentation Unlocks Efficient Chain-of-Thought Reasoning",
+      "arxiv_id": "2608.21265",
+      "tokens": [
+        "augmentation",
+        "chain",
+        "memory",
+        "reasoning",
+        "thought",
+        "unlocks"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.21252v1",
+      "title": "EnSI-RAG: Entity-Structure-Indexed Retrieval-Augmented Generation for Long-Document Question Answering",
+      "arxiv_id": "2608.21252",
+      "tokens": [
+        "answering",
+        "augmented",
+        "document",
+        "ensi",
+        "entity",
+        "generation",
+        "indexed",
+        "long",
+        "question",
+        "rag",
+        "retrieval",
+        "structure"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.21249v1",
+      "title": "Benchmarking Patent Drafting from Inventor-Style Disclosures",
+      "arxiv_id": "2608.21249",
+      "tokens": [
+        "benchmarking",
+        "disclosures",
+        "drafting",
+        "inventor",
+        "patent",
+        "style"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.21242v1",
+      "title": "Affective Context Amplifies Sycophancy in LLM Responses",
+      "arxiv_id": "2608.21242",
+      "tokens": [
+        "affective",
+        "amplifies",
+        "context",
+        "llm",
+        "responses",
+        "sycophancy"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.21236v1",
+      "title": "RARE: Decoupling Representation Steering from Expert Routing in Mixture-of-Experts Language Models",
+      "arxiv_id": "2608.21236",
+      "tokens": [
+        "decoupling",
+        "expert",
+        "experts",
+        "language",
+        "mixture",
+        "rare",
+        "representation",
+        "routing",
+        "steering"
+      ],
+      "first_seen_round": 165
     }
   ],
-  "total_unique": 1556
+  "total_unique": 1577
 }
