@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 484,
+  "_rotation_idx": 485,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 45,
@@ -3021,14 +3021,9 @@
   },
   "non-transformer": {
     "name": "Non-Transformer Arch",
-    "total_papers_found": 19,
-    "watering_count": 51,
+    "total_papers_found": 20,
+    "watering_count": 52,
     "history": [
-      {
-        "timestamp": "2026-07-07T10:14:36.288723",
-        "papers_found": 0,
-        "papers": []
-      },
       {
         "timestamp": "2026-07-07T13:37:19.639076",
         "papers_found": 3,
@@ -3616,6 +3611,23 @@
         "avg_relevance": 0.0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-08-24T20:16:01.023278",
+        "papers_found": 1,
+        "duplicates": 4,
+        "irrelevant_filtered": 5,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "Sparse Token Routing in Efficient Transformers",
+            "summary": "Efficient-transformer research often motivates token pruning and adaptive computation with the claim that not all tokens require equal computational effort. We test this claim end to end using SEWN, a two-stream Transformer that routes tokens through either lightweight or full-capacity processing us",
+            "published": "2026-08-21",
+            "url": "http://arxiv.org/abs/2608.20632v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -3628,7 +3640,7 @@
       "sub-quadratic",
       "mamba"
     ],
-    "last_watered": "2026-08-24T00:32:12.539443"
+    "last_watered": "2026-08-24T20:16:01.023251"
   },
   "few-shot": {
     "name": "Few-Shot Learning",
