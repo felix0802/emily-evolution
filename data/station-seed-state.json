@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 477,
+  "_rotation_idx": 478,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 44,
@@ -5099,8 +5099,8 @@
   },
   "moe": {
     "name": "Mixture of Experts",
-    "total_papers_found": 65,
-    "watering_count": 44,
+    "total_papers_found": 66,
+    "watering_count": 45,
     "history": [
       {
         "timestamp": "2026-07-15T09:46:58.985365",
@@ -5879,6 +5879,23 @@
         "avg_relevance": 0.0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-08-24T06:32:08.660669",
+        "papers_found": 1,
+        "duplicates": 7,
+        "irrelevant_filtered": 2,
+        "avg_relevance": 2.0,
+        "high_relevance": 1,
+        "papers": [
+          {
+            "title": "Fuzzy-MoE: Interpretable Regime-Conditioned Expert Routing for Non-Stationary Multivariate Time Series Forecasting",
+            "summary": "In non-stationary multivariate time series, different variables and samples often exhibit heterogeneous latent dynamic states, while existing deep forecasting models usually compress them into a unified end-to-end mapping, leading to suboptimal modeling of time-varying dynamics and limited interpret",
+            "published": "2026-08-21",
+            "url": "http://arxiv.org/abs/2608.20761v1",
+            "seed_match_score": 2
+          }
+        ]
       }
     ],
     "keywords": [
@@ -5890,7 +5907,7 @@
       "switch transformer",
       "deepseek"
     ],
-    "last_watered": "2026-08-23T10:11:22.837308"
+    "last_watered": "2026-08-24T06:32:08.660663"
   },
   "kv-cache": {
     "name": "KV Cache Optimization",
