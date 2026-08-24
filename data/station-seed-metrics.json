@@ -314,19 +314,18 @@
   },
   "gnn": {
     "name": "Graph Neural Networks",
-    "total_new_papers": 92,
-    "total_watering": 43,
+    "total_new_papers": 96,
+    "total_watering": 44,
     "all_keywords_matched": [
       "geometric",
-      "graph neural",
-      "message passing",
       "graph attention",
-      "gnn",
       "node embedding",
+      "graph neural",
+      "gnn",
+      "message passing",
       "graph transformer"
     ],
     "avg_relevance_trend": [
-      1.6,
       0.0,
       0.0,
       0.0,
@@ -345,9 +344,10 @@
       0.0,
       0.0,
       0.0,
-      0.0
+      0.0,
+      1.75
     ],
-    "high_relevance_total": 42,
+    "high_relevance_total": 44,
     "best_papers": [
       {
         "title": "Local-Global Geometric Insights for Graph Neural Networks via Entropic Curvature",
@@ -393,9 +393,14 @@
         "title": "HI-MeshGraphNets: Efficient and Accurate Mesh-based Physics Learning with Hierarchical Multi-scale G",
         "score": 3,
         "published": "2026-08-13"
+      },
+      {
+        "title": "Continuous-Time Quantum Walks based Graph Neural Network",
+        "score": 3,
+        "published": "2026-08-21"
       }
     ],
-    "last_updated": "2026-08-23T14:11:44.269848"
+    "last_updated": "2026-08-24T10:25:49.365821"
   },
   "moe": {
     "name": "Mixture of Experts",

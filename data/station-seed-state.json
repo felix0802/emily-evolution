@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 479,
+  "_rotation_idx": 480,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 44,
@@ -6669,8 +6669,8 @@
   },
   "gnn": {
     "name": "Graph Neural Networks",
-    "total_papers_found": 92,
-    "watering_count": 46,
+    "total_papers_found": 96,
+    "watering_count": 47,
     "history": [
       {
         "timestamp": "2026-07-15T15:16:02.082257",
@@ -7514,6 +7514,37 @@
         "avg_relevance": 0.0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-08-24T10:25:49.366410",
+        "papers_found": 4,
+        "duplicates": 1,
+        "irrelevant_filtered": 5,
+        "avg_relevance": 1.75,
+        "high_relevance": 2,
+        "papers": [
+          {
+            "title": "A Critical Audit of Spatiotemporal Forecasting Benchmark Datasets and Baselines",
+            "summary": "Graph neural networks (GNNs) are routinely employed for short-range forecasting on multivariate time series with a spatial graph structure. Despite the availability of many alternative datasets, method innovations within this domain are predominantly assessed against a rather limited set of benchmar",
+            "published": "2026-08-21",
+            "url": "http://arxiv.org/abs/2608.20980v1",
+            "seed_match_score": 2
+          },
+          {
+            "title": "Hidden Axis of Uncertainty: Latent-Posterior Alignment in Graph Neural Networks with Bayesian Output Layers",
+            "summary": "Bayesian Neural Networks (BNNs) with Bayesian output layers provide a principled and tractable framework for quantifying predictive uncertainty, yet the mechanisms shaping that uncertainty remain unclear. While conventional theory attributes uncertainty reduction to posterior contraction, the corres",
+            "published": "2026-08-21",
+            "url": "http://arxiv.org/abs/2608.20758v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Continuous-Time Quantum Walks based Graph Neural Network",
+            "summary": "Graph Neural Networks (GNNs) are widely used on graph-structured data, but most suffer from two key weaknesses. First, message passing behaves as a low-pass filter under the homophily assumption, leading to poor performance on heterophilic graphs. Second, stacking layers drives node features toward ",
+            "published": "2026-08-21",
+            "url": "http://arxiv.org/abs/2608.20738v1",
+            "seed_match_score": 3
+          }
+        ]
       }
     ],
     "keywords": [
@@ -7525,6 +7556,6 @@
       "node embedding",
       "graph transformer"
     ],
-    "last_watered": "2026-08-23T14:11:44.270413"
+    "last_watered": "2026-08-24T10:25:49.366405"
   }
 }
