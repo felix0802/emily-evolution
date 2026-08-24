@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 481,
+  "_rotation_idx": 482,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 45,
@@ -723,33 +723,9 @@
   },
   "liquid-networks": {
     "name": "Liquid Networks",
-    "total_papers_found": 53,
-    "watering_count": 51,
+    "total_papers_found": 55,
+    "watering_count": 52,
     "history": [
-      {
-        "timestamp": "2026-07-06T21:47:31.917958",
-        "papers_found": 5,
-        "papers": [
-          {
-            "title": "Alignment Is All You Need For X-to-4D Generation",
-            "summary": "Generative diffusion models excel at synthesizing high-quality images, videos, and 3D content under multimodal control. However, arbitrary user-defined modality-to-4D (X-to-4D) generation remains challenging due to the high cost of constructing diverse datasets and the limited scalability of existin",
-            "published": "2026-07-02",
-            "seed_match_score": 1
-          },
-          {
-            "title": "ReContext: Recursive Evidence Replay as LLM Harness for Long-Context Reasoning",
-            "summary": "Understanding and reasoning over long contexts has become a key requirement for deploying large language models (LLMs) in realistic applications. Although recent LLMs support increasingly long context windows, they often fail to use relevant evidence that is already present in the input, revealing a",
-            "published": "2026-07-02",
-            "seed_match_score": 1
-          },
-          {
-            "title": "Reasoning LLM Improves Speaker Recognition in Long-form TV Dramas",
-            "summary": "Long-form TV dramas present a formidable challenge for comprehensive video understanding, where deciphering complex storyline often relies on \\textbf{speaker recognition}, the task of accurately attributing each spoken utterance to its respective character. In this paper, we advance this field throu",
-            "published": "2026-07-02",
-            "seed_match_score": 0
-          }
-        ]
-      },
       {
         "timestamp": "2026-07-07T13:20:32.252781",
         "papers_found": 8,
@@ -1460,6 +1436,30 @@
         "avg_relevance": 0.0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-08-24T14:30:21.422462",
+        "papers_found": 2,
+        "duplicates": 5,
+        "irrelevant_filtered": 3,
+        "avg_relevance": 1.5,
+        "high_relevance": 1,
+        "papers": [
+          {
+            "title": "Reinforcement Learning for Continuous-Time Jump Markov Decision Processes with Applications to Network Dynamic Pricing",
+            "summary": "We study reinforcement learning (RL) in Continuous-Time Jump Markov Decision Processes (CTJMDPs) featuring general discrete state spaces (which need not possess a vector space structure) and continuous/discrete action spaces. The setup covers many well-known applications in operations such as multi-",
+            "published": "2026-08-21",
+            "url": "http://arxiv.org/abs/2608.20680v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Predicting Resource Efficient Hamiltonian Decomposition for Continuous-Time Quantum Walk Simulations",
+            "summary": "Simulating a continuous-time quantum walk (CTQW) on a graph in the circuit model of quantum computing requires decomposing its Hamiltonian into terms that can be Trotterized into hardware-native gates. We consider two such decompositions: the standard Pauli decomposition and the recently introduced ",
+            "published": "2026-08-21",
+            "url": "http://arxiv.org/abs/2608.20660v1",
+            "seed_match_score": 2
+          }
+        ]
       }
     ],
     "keywords": [
@@ -1469,7 +1469,7 @@
       "ode",
       "continuous-time"
     ],
-    "last_watered": "2026-08-23T18:11:35.888954"
+    "last_watered": "2026-08-24T14:30:21.422457"
   },
   "htm": {
     "name": "HTM",
