@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 482,
+  "_rotation_idx": 483,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 45,
@@ -1474,32 +1474,8 @@
   "htm": {
     "name": "HTM",
     "total_papers_found": 76,
-    "watering_count": 51,
+    "watering_count": 52,
     "history": [
-      {
-        "timestamp": "2026-07-07T08:08:03.935545",
-        "papers_found": 5,
-        "papers": [
-          {
-            "title": "Alignment Is All You Need For X-to-4D Generation",
-            "summary": "Generative diffusion models excel at synthesizing high-quality images, videos, and 3D content under multimodal control. However, arbitrary user-defined modality-to-4D (X-to-4D) generation remains challenging due to the high cost of constructing diverse datasets and the limited scalability of existin",
-            "published": "2026-07-02",
-            "seed_match_score": 0
-          },
-          {
-            "title": "ReContext: Recursive Evidence Replay as LLM Harness for Long-Context Reasoning",
-            "summary": "Understanding and reasoning over long contexts has become a key requirement for deploying large language models (LLMs) in realistic applications. Although recent LLMs support increasingly long context windows, they often fail to use relevant evidence that is already present in the input, revealing a",
-            "published": "2026-07-02",
-            "seed_match_score": 0
-          },
-          {
-            "title": "Reasoning LLM Improves Speaker Recognition in Long-form TV Dramas",
-            "summary": "Long-form TV dramas present a formidable challenge for comprehensive video understanding, where deciphering complex storyline often relies on \\textbf{speaker recognition}, the task of accurately attributing each spoken utterance to its respective character. In this paper, we advance this field throu",
-            "published": "2026-07-02",
-            "seed_match_score": 0
-          }
-        ]
-      },
       {
         "timestamp": "2026-07-07T13:28:34.873433",
         "papers_found": 4,
@@ -2415,6 +2391,15 @@
         "avg_relevance": 0.0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-08-24T16:22:52.848038",
+        "papers_found": 0,
+        "duplicates": 0,
+        "irrelevant_filtered": 0,
+        "avg_relevance": 0,
+        "high_relevance": 0,
+        "papers": []
       }
     ],
     "keywords": [
@@ -2429,7 +2414,7 @@
       "anomaly detection",
       "continuous learning"
     ],
-    "last_watered": "2026-08-23T20:08:49.203995"
+    "last_watered": "2026-08-24T16:22:52.848031"
   },
   "spiking-nn": {
     "name": "Spiking Neural Networks",
