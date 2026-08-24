@@ -1,34 +1,10 @@
 {
-  "_rotation_idx": 480,
+  "_rotation_idx": 481,
   "mamba": {
     "name": "Mamba (SSM)",
-    "total_papers_found": 44,
-    "watering_count": 51,
+    "total_papers_found": 45,
+    "watering_count": 52,
     "history": [
-      {
-        "timestamp": "2026-07-06T21:46:12.361778",
-        "papers_found": 5,
-        "papers": [
-          {
-            "title": "Alignment Is All You Need For X-to-4D Generation",
-            "summary": "Generative diffusion models excel at synthesizing high-quality images, videos, and 3D content under multimodal control. However, arbitrary user-defined modality-to-4D (X-to-4D) generation remains challenging due to the high cost of constructing diverse datasets and the limited scalability of existin",
-            "published": "2026-07-02",
-            "seed_match_score": 0
-          },
-          {
-            "title": "ReContext: Recursive Evidence Replay as LLM Harness for Long-Context Reasoning",
-            "summary": "Understanding and reasoning over long contexts has become a key requirement for deploying large language models (LLMs) in realistic applications. Although recent LLMs support increasingly long context windows, they often fail to use relevant evidence that is already present in the input, revealing a",
-            "published": "2026-07-02",
-            "seed_match_score": 0
-          },
-          {
-            "title": "Reasoning LLM Improves Speaker Recognition in Long-form TV Dramas",
-            "summary": "Long-form TV dramas present a formidable challenge for comprehensive video understanding, where deciphering complex storyline often relies on \\textbf{speaker recognition}, the task of accurately attributing each spoken utterance to its respective character. In this paper, we advance this field throu",
-            "published": "2026-07-02",
-            "seed_match_score": 0
-          }
-        ]
-      },
       {
         "timestamp": "2026-07-07T13:08:54.229357",
         "papers_found": 6,
@@ -718,6 +694,23 @@
         "avg_relevance": 0.0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-08-24T12:21:07.530336",
+        "papers_found": 1,
+        "duplicates": 6,
+        "irrelevant_filtered": 3,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "Tydra: An Efficient Hybrid Model for Tabular Data",
+            "summary": "Transformer-based tabular foundation models such as TabPFN achieve strong predictive performance but incur quadratic computational cost with context length. On the other hand, subquadratic SSM-based alternatives such as Hydra trade away accuracy for efficiency. To balance both, we introduce Tydra, a",
+            "published": "2026-08-21",
+            "url": "http://arxiv.org/abs/2608.21199v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -726,7 +719,7 @@
       "ssm",
       "selective scan"
     ],
-    "last_watered": "2026-08-23T16:10:43.325455"
+    "last_watered": "2026-08-24T12:21:07.530331"
   },
   "liquid-networks": {
     "name": "Liquid Networks",
