@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 476,
+  "_rotation_idx": 477,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 44,
@@ -4274,8 +4274,8 @@
   },
   "continual-learning": {
     "name": "Continual Learning",
-    "total_papers_found": 61,
-    "watering_count": 48,
+    "total_papers_found": 62,
+    "watering_count": 49,
     "history": [
       {
         "timestamp": "2026-07-07T13:06:50.870963",
@@ -5069,6 +5069,23 @@
         "avg_relevance": 0.0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-08-24T04:33:34.890802",
+        "papers_found": 1,
+        "duplicates": 6,
+        "irrelevant_filtered": 3,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "SPARCL: Spectral Partitioned Analytic Continual Learning",
+            "summary": "Analytic continual learning has emerged as a strong exemplar-free alternative to gradient-based class-incremental learning because it replaces iterative optimization with closed-form ridge updates. Yet the usual forgetting narrative, centered on stochastic gradient overwriting, does not explain why ",
+            "published": "2026-08-21",
+            "url": "http://arxiv.org/abs/2608.21307v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -5078,7 +5095,7 @@
       "ewc",
       "elastic weight"
     ],
-    "last_watered": "2026-08-23T08:15:33.740528"
+    "last_watered": "2026-08-24T04:33:34.890798"
   },
   "moe": {
     "name": "Mixture of Experts",
