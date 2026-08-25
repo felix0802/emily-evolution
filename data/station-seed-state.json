@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 492,
+  "_rotation_idx": 493,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 45,
@@ -1437,40 +1437,9 @@
   },
   "htm": {
     "name": "HTM",
-    "total_papers_found": 76,
-    "watering_count": 52,
+    "total_papers_found": 80,
+    "watering_count": 53,
     "history": [
-      {
-        "timestamp": "2026-07-07T13:28:34.873433",
-        "papers_found": 4,
-        "duplicates": 0,
-        "irrelevant_filtered": 6,
-        "avg_relevance": 1.0,
-        "high_relevance": 0,
-        "papers": [
-          {
-            "title": "Rank-Order N-of-M Codes for Sparse Distributed Memory: Disentangling Representation and Learning Effects in Noise Robustness Against Contemporary Neuromorphic Architectures",
-            "summary": "Large language models remain limited as continual learning systems, motivating renewed interest in Sparse Distributed Memory (SDM) as an explicit online episodic memory. CALM (Nechesov and Ruponen, 2025) identifies its threshold-binary encoder as an open design question. This paper evaluates rank-or",
-            "published": "2026-07-03",
-            "url": "http://arxiv.org/abs/2607.02967v1",
-            "seed_match_score": 1
-          },
-          {
-            "title": "Distributed Hierarchical Temporal Memory with Shared Associative Memory for Cross-Entity Preemptive Warning",
-            "summary": "Anomaly detection in multivariate time series remains a critical challenge in large-scale distributed systems, where related entities may exhibit transferable precursor behavior prior to anomaly onset. Existing methods typically operate independently on each data stream and therefore remain fundamen",
-            "published": "2026-06-30",
-            "url": "http://arxiv.org/abs/2606.31789v1",
-            "seed_match_score": 1
-          },
-          {
-            "title": "Spiking Sequence Machines and Transformers",
-            "summary": "Sequence learning reduces to similarity-based retrieval over a temporally indexed representation space, a constraint on any sequence model, not a property of a specific architecture. We show that a spiking Sparse Distributed Memory sequence machine (2007) and the transformer (2017) independently ins",
-            "published": "2026-05-01",
-            "url": "http://arxiv.org/abs/2605.00662v1",
-            "seed_match_score": 1
-          }
-        ]
-      },
       {
         "timestamp": "2026-07-08T10:55:22.772566",
         "papers_found": 0,
@@ -2364,6 +2333,37 @@
         "avg_relevance": 0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-08-25T12:21:55.681635",
+        "papers_found": 4,
+        "duplicates": 2,
+        "irrelevant_filtered": 4,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "RAD: Rule-Augmented Relational Anomaly Detection",
+            "summary": "Anomaly detection is often applied to data stored in relational databases, yet most existing methods require flattening multiple tables into a single feature matrix. This flattening can obscure entity identity, schema structure, and multi-hop dependencies, limiting the detection of anomalies that de",
+            "published": "2026-08-24",
+            "url": "http://arxiv.org/abs/2608.23468v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "GuidedFlow: An Attention-Guided Framework for Anomaly Detection in Additive Manufacturing",
+            "summary": "Additive Manufacturing (AM) plays a vital role in the ongoing industrial revolution. However, quality control remains crucial and challenging due to printing defects or potential cyber-physical intrusions. Image or video-based anomaly detection is a key effort towards addressing these challenges. Va",
+            "published": "2026-08-24",
+            "url": "http://arxiv.org/abs/2608.22789v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Lightweight Multi-scale Hierarchical Anomaly Detection and Localization for Geospatial Big Data Applications at the Edge",
+            "summary": "As an increasing number of critical applications, including environmental, emergency, meteorological, and agricultural, rely on real-time anomaly detection in geospatial data streams, challenges related to the storage, processing, and communication of this data arise. Traditionally, large volumes of",
+            "published": "2026-08-23",
+            "url": "http://arxiv.org/abs/2608.22648v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -2378,7 +2378,7 @@
       "anomaly detection",
       "continuous learning"
     ],
-    "last_watered": "2026-08-24T16:22:52.848031"
+    "last_watered": "2026-08-25T12:21:55.681630"
   },
   "spiking-nn": {
     "name": "Spiking Neural Networks",
