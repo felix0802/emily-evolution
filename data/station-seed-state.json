@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 487,
+  "_rotation_idx": 488,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 45,
@@ -5094,8 +5094,8 @@
   },
   "moe": {
     "name": "Mixture of Experts",
-    "total_papers_found": 66,
-    "watering_count": 45,
+    "total_papers_found": 70,
+    "watering_count": 46,
     "history": [
       {
         "timestamp": "2026-07-15T09:46:58.985365",
@@ -5891,6 +5891,37 @@
             "seed_match_score": 2
           }
         ]
+      },
+      {
+        "timestamp": "2026-08-25T02:49:02.421184",
+        "papers_found": 4,
+        "duplicates": 5,
+        "irrelevant_filtered": 1,
+        "avg_relevance": 1.75,
+        "high_relevance": 3,
+        "papers": [
+          {
+            "title": "DF-MoE: Generalizable Deepfake Detection via Multimodal Sparse Mixture-of-Experts",
+            "summary": "Audio-visual deepfake detection is an actively studied topic, where one of the main challenges is to develop detectors able to generalize across deepfake generation methods. We conjecture that overfitting can be mitigated by extracting multiple high-level cues from the available audio and visual mod",
+            "published": "2026-08-24",
+            "url": "http://arxiv.org/abs/2608.23363v1",
+            "seed_match_score": 2
+          },
+          {
+            "title": "Fairness-Aware Mixture-of-Experts via Subgroup Reweighting and Gate Regularization",
+            "summary": "Deep learning models often produce performance disparities across demographic groups, due to the training data imbalance with respect to sensitive attributes such as gender or age. To address this problem, existing work has explored fair representation learning, data re-sampling, and adversarial tra",
+            "published": "2026-08-24",
+            "url": "http://arxiv.org/abs/2608.22820v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "More Experts, Worse Dynamics: Inverse Scaling and Spectral Bias in Mixture-of-Experts State-Space Models",
+            "summary": "Mixture-of-Experts (MoE) architectures are commonly motivated as a way to increase expressivity by decomposing complex systems into simpler local dynamics. This intuition has recently been extended to spectral state-space models, where mixing stable operators is assumed to enable adaptation to heter",
+            "published": "2026-08-22",
+            "url": "http://arxiv.org/abs/2608.21840v1",
+            "seed_match_score": 2
+          }
+        ]
       }
     ],
     "keywords": [
@@ -5902,7 +5933,7 @@
       "switch transformer",
       "deepseek"
     ],
-    "last_watered": "2026-08-24T06:32:08.660663"
+    "last_watered": "2026-08-25T02:49:02.421179"
   },
   "kv-cache": {
     "name": "KV Cache Optimization",
