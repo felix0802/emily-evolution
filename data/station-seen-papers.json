@@ -25899,7 +25899,50 @@
         "techniques"
       ],
       "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.23296v1",
+      "title": "Sigmoid Attention as a Better Substrate for Learned KV Cache Eviction",
+      "arxiv_id": "2608.23296",
+      "tokens": [
+        "attention",
+        "better",
+        "cache",
+        "eviction",
+        "learned",
+        "sigmoid",
+        "substrate"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.22704v1",
+      "title": "WnW: Waxing-and-Waning KV Cache for Long-Form Speech LLMs",
+      "arxiv_id": "2608.22704",
+      "tokens": [
+        "cache",
+        "form",
+        "llms",
+        "long",
+        "speech",
+        "waning",
+        "waxing",
+        "wnw"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.21541v1",
+      "title": "Beyond Sparse Weights: When Is Attention Compressible?",
+      "arxiv_id": "2608.21541",
+      "tokens": [
+        "attention",
+        "compressible",
+        "sparse",
+        "weights"
+      ],
+      "first_seen_round": 165
     }
   ],
-  "total_unique": 1612
+  "total_unique": 1615
 }

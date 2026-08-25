@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 488,
+  "_rotation_idx": 489,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 45,
@@ -5937,8 +5937,8 @@
   },
   "kv-cache": {
     "name": "KV Cache Optimization",
-    "total_papers_found": 59,
-    "watering_count": 46,
+    "total_papers_found": 62,
+    "watering_count": 47,
     "history": [
       {
         "timestamp": "2026-07-15T11:19:09.355556",
@@ -6680,6 +6680,37 @@
             "seed_match_score": 1
           }
         ]
+      },
+      {
+        "timestamp": "2026-08-25T04:26:37.094600",
+        "papers_found": 3,
+        "duplicates": 2,
+        "irrelevant_filtered": 5,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "Sigmoid Attention as a Better Substrate for Learned KV Cache Eviction",
+            "summary": "Learned KV-cache eviction often faces a soft-to-hard mismatch: during training, differentiable gates typically attenuate token contributions, whereas inference saves memory only when KV entries are physically removed. We ask whether the attention substrate affects this soft-to-hard transition. Using",
+            "published": "2026-08-24",
+            "url": "http://arxiv.org/abs/2608.23296v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "WnW: Waxing-and-Waning KV Cache for Long-Form Speech LLMs",
+            "summary": "Long-form audio inputs make the KV cache the dominant memory cost of speech LLMs. Prefill-only KV compression methods permanently discard audio KV positions once evicted, with no pathway to recover them during decoding. We show this is fragile on long-form audio: prefill attention concentrates near ",
+            "published": "2026-08-24",
+            "url": "http://arxiv.org/abs/2608.22704v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Beyond Sparse Weights: When Is Attention Compressible?",
+            "summary": "KV-cache compression is often justified by attention maps with a few large weights. This is incomplete: large weights may not contain most of the mass, omitted values can cancel, and preserving the attention output may not preserve the task. We separate these questions. Global score gaps -- not thre",
+            "published": "2026-08-21",
+            "url": "http://arxiv.org/abs/2608.21541v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -6691,7 +6722,7 @@
       "flash attention",
       "speculative decoding"
     ],
-    "last_watered": "2026-08-24T08:33:31.070806"
+    "last_watered": "2026-08-25T04:26:37.094594"
   },
   "gnn": {
     "name": "Graph Neural Networks",
