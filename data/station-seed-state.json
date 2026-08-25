@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 495,
+  "_rotation_idx": 496,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 45,
@@ -3587,40 +3587,9 @@
   },
   "few-shot": {
     "name": "Few-Shot Learning",
-    "total_papers_found": 25,
-    "watering_count": 51,
+    "total_papers_found": 27,
+    "watering_count": 52,
     "history": [
-      {
-        "timestamp": "2026-07-07T13:04:52.717562",
-        "papers_found": 5,
-        "duplicates": 0,
-        "irrelevant_filtered": 5,
-        "avg_relevance": 1.0,
-        "high_relevance": 0,
-        "papers": [
-          {
-            "title": "PulmoSight-XAI: An Explainable Multi-View Attention Ensemble with Gradient Boosting Meta-Learning for Multi-Label Chest X-Ray Classification",
-            "summary": "Automated chest X-ray classification remains challenging due to severe class imbalance, co-occurring pathologies, and the loss of localized features in conventional architectures. To address these, we propose an explainable hierarchical multi-view ensemble framework for the robust classification of ",
-            "published": "2026-07-05",
-            "url": "http://arxiv.org/abs/2607.04478v1",
-            "seed_match_score": 1
-          },
-          {
-            "title": "Labeled-Data-Free Meta-Learning: Efficient Task Generation Using Pre-trained Models and Unlabeled Data",
-            "summary": "Meta-learning without labeled data is crucial for real-world applications, where obtaining labeled datasets can be expensive or restricted due to privacy concerns. Data-Free Meta-Learning (DFML) addresses this challenge by leveraging pre-trained models without access to training data. However, exist",
-            "published": "2026-07-03",
-            "url": "http://arxiv.org/abs/2607.02850v1",
-            "seed_match_score": 1
-          },
-          {
-            "title": "Neuron-Aware Active Few-Shot Learning for LLMs",
-            "summary": "Active Few-Shot Learning (AFSL) adapts LLMs to specialized domains by identifying the most valuable unlabeled samples for annotation and use as few-shot demonstrations, effectively reducing human annotation costs while promoting high performance. However, existing methods typically rely on output-le",
-            "published": "2026-07-02",
-            "url": "http://arxiv.org/abs/2607.02423v1",
-            "seed_match_score": 1
-          }
-        ]
-      },
       {
         "timestamp": "2026-07-07T15:06:54.119608",
         "papers_found": 5,
@@ -4190,6 +4159,30 @@
         "avg_relevance": 0.0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-08-25T18:20:39.896563",
+        "papers_found": 2,
+        "duplicates": 3,
+        "irrelevant_filtered": 5,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "MetaCaster: Meta-Harness-Optimized Agent for End-to-End Few-Shot Learning of Lightweight Time Series Forecasters",
+            "summary": "Time series forecasting (TSF) is evolving toward multimodal and agentic settings, yet using foundation models remains uneconomical in resource-constrained scenarios, where compact, specialized forecasters are more desirable. However, lightweight forecasters typically require substantial training dat",
+            "published": "2026-08-24",
+            "url": "http://arxiv.org/abs/2608.23473v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "BioMed-Agent-RL: A Meta Learning, All You Need for Biomedical Applications",
+            "summary": "The current progress of Clinical Vision Large Language Models (C-VLLMs) has substantially improved digital diagnostics, still these frameworks often endure lesion noises, modality misalignment, hallucination, and missed contextual grounding in complex clinical cases. Moreover, prevailing agent syste",
+            "published": "2026-08-22",
+            "url": "http://arxiv.org/abs/2608.21864v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -4199,7 +4192,7 @@
       "prototypical",
       "in-context"
     ],
-    "last_watered": "2026-08-24T22:13:02.580733"
+    "last_watered": "2026-08-25T18:20:39.896557"
   },
   "continual-learning": {
     "name": "Continual Learning",

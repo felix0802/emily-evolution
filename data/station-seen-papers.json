@@ -26171,7 +26171,41 @@
         "state"
       ],
       "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.23473v1",
+      "title": "MetaCaster: Meta-Harness-Optimized Agent for End-to-End Few-Shot Learning of Lightweight Time Series Forecasters",
+      "arxiv_id": "2608.23473",
+      "tokens": [
+        "agent",
+        "end",
+        "end",
+        "forecasters",
+        "harness",
+        "lightweight",
+        "meta",
+        "metacaster",
+        "optimized",
+        "series",
+        "shot",
+        "time"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.21864v1",
+      "title": "BioMed-Agent-RL: A Meta Learning, All You Need for Biomedical Applications",
+      "arxiv_id": "2608.21864",
+      "tokens": [
+        "agent",
+        "applications",
+        "biomed",
+        "biomedical",
+        "meta",
+        "need"
+      ],
+      "first_seen_round": 165
     }
   ],
-  "total_unique": 1629
+  "total_unique": 1631
 }
