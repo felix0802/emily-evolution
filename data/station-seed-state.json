@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 489,
+  "_rotation_idx": 490,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 45,
@@ -6726,8 +6726,8 @@
   },
   "gnn": {
     "name": "Graph Neural Networks",
-    "total_papers_found": 96,
-    "watering_count": 47,
+    "total_papers_found": 102,
+    "watering_count": 48,
     "history": [
       {
         "timestamp": "2026-07-15T15:16:02.082257",
@@ -7602,6 +7602,37 @@
             "seed_match_score": 3
           }
         ]
+      },
+      {
+        "timestamp": "2026-08-25T06:23:20.759414",
+        "papers_found": 6,
+        "duplicates": 0,
+        "irrelevant_filtered": 4,
+        "avg_relevance": 1.5,
+        "high_relevance": 2,
+        "papers": [
+          {
+            "title": "Hierarchy-Aware Semantic Losses for Knowledge Graph Link Prediction",
+            "summary": "Knowledge graphs are often accompanied by ontological class hierarchies that encode valuable semantic information, yet many link prediction methods either ignore such hierarchies or incorporate them indirectly through additional graph edges. Recent work introduced hierarchy-aware graph neural networ",
+            "published": "2026-08-24",
+            "url": "http://arxiv.org/abs/2608.22981v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Beyond Observed Auxiliary Relations: Environment-Conditioned Modeling for Multi-Behavior Recommendation",
+            "summary": "Multi-behavior recommendation (MBR) leverages auxiliary behavioral signals, such as clicks and add-to-cart, to enhance target behavior prediction like purchases. While recent graph neural network-based approaches have achieved strong performance by systematically propagating auxiliary behavior signa",
+            "published": "2026-08-24",
+            "url": "http://arxiv.org/abs/2608.22920v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "ReCoG: Reciprocal Co-Evolution for Multimodal Graph Learning",
+            "summary": "Multimodal graph learning requires jointly training over graph structure and heterogeneous node attributes, yet existing methods largely decouple these processes: prior multimodal graph neural networks (GNNs) focus on aligning modalities in a shared embedding space while operating on fixed or weakly",
+            "published": "2026-08-24",
+            "url": "http://arxiv.org/abs/2608.22786v1",
+            "seed_match_score": 2
+          }
+        ]
       }
     ],
     "keywords": [
@@ -7613,6 +7644,6 @@
       "node embedding",
       "graph transformer"
     ],
-    "last_watered": "2026-08-24T10:25:49.366405"
+    "last_watered": "2026-08-25T06:23:20.759409"
   }
 }
