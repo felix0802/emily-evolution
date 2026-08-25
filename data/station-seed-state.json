@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 494,
+  "_rotation_idx": 495,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 45,
@@ -2971,40 +2971,9 @@
   },
   "non-transformer": {
     "name": "Non-Transformer Arch",
-    "total_papers_found": 20,
-    "watering_count": 52,
+    "total_papers_found": 22,
+    "watering_count": 53,
     "history": [
-      {
-        "timestamp": "2026-07-07T13:37:19.639076",
-        "papers_found": 3,
-        "duplicates": 3,
-        "irrelevant_filtered": 4,
-        "avg_relevance": 1.33,
-        "high_relevance": 1,
-        "papers": [
-          {
-            "title": "Lacuna Inc. at SemEval-2026 Task 4: Structurally Gated State-Space Models for Disentangling Narrative Similarity",
-            "summary": "In this paper, we present the Invariant-Variant Disentangled State-Space Model (IVD-SSM), our submission to SemEval-2026 Task 4 on Narrative Story Similarity and Narrative Representation Learning. Evaluating narrative similarity is a profound computational challenge that requires models to look past",
-            "published": "2026-07-03",
-            "url": "http://arxiv.org/abs/2607.03482v1",
-            "seed_match_score": 1
-          },
-          {
-            "title": "From Monolingual to Multilingual: Evaluating Mamba for ASR in South African Languages",
-            "summary": "Recent advances in automatic speech recognition (ASR) have explored different sequence models, including Conformer-based models and newer state space models such as Mamba. Although prior work has evaluated these architectures in multiple languages, their effectiveness in African languages remains un",
-            "published": "2026-07-01",
-            "url": "http://arxiv.org/abs/2607.01502v1",
-            "seed_match_score": 2
-          },
-          {
-            "title": "Ghost in the Kernel: In-Context Learning with Efficient Transformers via Domain Generalization",
-            "summary": "Transformer-based large models have demonstrated remarkable generalization abilities across different tasks by leveraging a context-aware attention module for in-context learning. With richer context, transformers adapt more effectively to the current use case without any parameter updates. However,",
-            "published": "2026-07-01",
-            "url": "http://arxiv.org/abs/2607.00479v1",
-            "seed_match_score": 1
-          }
-        ]
-      },
       {
         "timestamp": "2026-07-08T14:02:53.151794",
         "papers_found": 0,
@@ -3578,6 +3547,30 @@
             "seed_match_score": 1
           }
         ]
+      },
+      {
+        "timestamp": "2026-08-25T16:21:59.655056",
+        "papers_found": 2,
+        "duplicates": 4,
+        "irrelevant_filtered": 4,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "Dual-Scale State-Space Modeling with Speaker-Wise Dynamic CRF for Speech Emotion Recognition in Conversation",
+            "summary": "Conversational speech emotion recognition must reconcile acoustic evidence across temporal scales with two interaction processes: cross-speaker contextual influence and within-speaker emotion evolution. We propose DSSM-CRF, an audio-only architecture that explicitly separates these processes. Bidire",
+            "published": "2026-08-23",
+            "url": "http://arxiv.org/abs/2608.22399v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "SANE: State Anomaly Neutralization for Stable Extreme-Context Delta-Rule Models",
+            "summary": "Delta-Rule recurrent models maintain a fixed-size state, enabling $O(1)$ inference memory but potentially becoming unstable under extreme-context extrapolation. By tracking RWKV-7 over sequences of up to 100M tokens, we empirically identify a distinct failure pattern: \\textbf{localized norm explosio",
+            "published": "2026-08-23",
+            "url": "http://arxiv.org/abs/2608.22354v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -3590,7 +3583,7 @@
       "sub-quadratic",
       "mamba"
     ],
-    "last_watered": "2026-08-24T20:16:01.023251"
+    "last_watered": "2026-08-25T16:21:59.655052"
   },
   "few-shot": {
     "name": "Few-Shot Learning",

@@ -26133,7 +26133,45 @@
         "spiking"
       ],
       "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.22399v1",
+      "title": "Dual-Scale State-Space Modeling with Speaker-Wise Dynamic CRF for Speech Emotion Recognition in Conversation",
+      "arxiv_id": "2608.22399",
+      "tokens": [
+        "conversation",
+        "crf",
+        "dual",
+        "dynamic",
+        "emotion",
+        "modeling",
+        "recognition",
+        "scale",
+        "space",
+        "speaker",
+        "speech",
+        "state",
+        "wise"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.22354v1",
+      "title": "SANE: State Anomaly Neutralization for Stable Extreme-Context Delta-Rule Models",
+      "arxiv_id": "2608.22354",
+      "tokens": [
+        "anomaly",
+        "context",
+        "delta",
+        "extreme",
+        "neutralization",
+        "rule",
+        "sane",
+        "stable",
+        "state"
+      ],
+      "first_seen_round": 165
     }
   ],
-  "total_unique": 1627
+  "total_unique": 1629
 }
