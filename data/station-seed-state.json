@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 491,
+  "_rotation_idx": 492,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 45,
@@ -701,40 +701,9 @@
   },
   "liquid-networks": {
     "name": "Liquid Networks",
-    "total_papers_found": 55,
-    "watering_count": 52,
+    "total_papers_found": 56,
+    "watering_count": 53,
     "history": [
-      {
-        "timestamp": "2026-07-07T13:20:32.252781",
-        "papers_found": 8,
-        "duplicates": 1,
-        "irrelevant_filtered": 1,
-        "avg_relevance": 1.38,
-        "high_relevance": 3,
-        "papers": [
-          {
-            "title": "Advances in Neural Controlled Differential Equations",
-            "summary": "Many real-world systems evolve continuously, yet most machine learning models interpret time series as discrete sequences. Continuous-time approaches instead treat time series as samples from an underlying input path, a formulation that naturally accommodates irregularly sampled or oversampled data.",
-            "published": "2026-07-06",
-            "url": "http://arxiv.org/abs/2607.05280v1",
-            "seed_match_score": 2
-          },
-          {
-            "title": "Entropy Regularization Improves Policy Robustness in Continuous-Time Reinforcement Learning",
-            "summary": "Entropy regularization is widely used in continuous-time reinforcement learning (RL) to reduce sensitivity to environmental perturbations, yet its robustness benefits lack a rigorous theoretical foundation. This paper establishes the first robustness guarantees for entropy-regularized continuous-tim",
-            "published": "2026-07-03",
-            "url": "http://arxiv.org/abs/2607.03168v1",
-            "seed_match_score": 1
-          },
-          {
-            "title": "ART for Diffusion Sampling: Continuous-Time Control and Actor-Critic Learning",
-            "summary": "We study timestep allocation for score-based diffusion sampling, where a learned reverse-time dynamics is discretized on a finite grid. Uniform and hand-crafted schedules are standard choices, but they rely on fixed prescriptions and can therefore be suboptimal. To address this limitation, we propos",
-            "published": "2026-07-02",
-            "url": "http://arxiv.org/abs/2607.02137v2",
-            "seed_match_score": 1
-          }
-        ]
-      },
       {
         "timestamp": "2026-07-07T20:57:29.535356",
         "papers_found": 0,
@@ -1438,6 +1407,23 @@
             "seed_match_score": 2
           }
         ]
+      },
+      {
+        "timestamp": "2026-08-25T10:19:30.459020",
+        "papers_found": 1,
+        "duplicates": 4,
+        "irrelevant_filtered": 5,
+        "avg_relevance": 2.0,
+        "high_relevance": 1,
+        "papers": [
+          {
+            "title": "Scalable quantum simulation of continuous-time generative models via tensor networks",
+            "summary": "Continuous-time flow and diffusion models are widely used across many application domains, from large-scale deployment in computer vision and protein folding to emerging adoption for modeling language, time series, and quantum states. After training, inferring statistical properties from continuous-",
+            "published": "2026-08-22",
+            "url": "http://arxiv.org/abs/2608.21700v1",
+            "seed_match_score": 2
+          }
+        ]
       }
     ],
     "keywords": [
@@ -1447,7 +1433,7 @@
       "ode",
       "continuous-time"
     ],
-    "last_watered": "2026-08-24T14:30:21.422457"
+    "last_watered": "2026-08-25T10:19:30.459014"
   },
   "htm": {
     "name": "HTM",
