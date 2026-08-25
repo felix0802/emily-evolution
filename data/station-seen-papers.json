@@ -26205,7 +26205,40 @@
         "need"
       ],
       "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.21577v1",
+      "title": "Anchoring Bias: A Persistent Fairness Backdoor Attack against MLLMs under Continual Learning",
+      "arxiv_id": "2608.21577",
+      "tokens": [
+        "against",
+        "anchoring",
+        "attack",
+        "backdoor",
+        "bias",
+        "continual",
+        "fairness",
+        "mllms",
+        "persistent"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.21539v1",
+      "title": "Federated Continual Learning as a Distributed Drift-Plus-Penalty Control Problem",
+      "arxiv_id": "2608.21539",
+      "tokens": [
+        "continual",
+        "control",
+        "distributed",
+        "drift",
+        "federated",
+        "penalty",
+        "plus",
+        "problem"
+      ],
+      "first_seen_round": 165
     }
   ],
-  "total_unique": 1631
+  "total_unique": 1633
 }

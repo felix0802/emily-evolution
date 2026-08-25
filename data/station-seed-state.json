@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 496,
+  "_rotation_idx": 497,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 45,
@@ -4196,33 +4196,9 @@
   },
   "continual-learning": {
     "name": "Continual Learning",
-    "total_papers_found": 62,
-    "watering_count": 50,
+    "total_papers_found": 64,
+    "watering_count": 51,
     "history": [
-      {
-        "timestamp": "2026-07-07T13:06:50.870963",
-        "papers_found": 5,
-        "papers": [
-          {
-            "title": "CATs: Secure Blockchain Interoperability with Cross-chain Atomic Transactions",
-            "summary": "We propose a protocol for cross-chain atomic transactions (CATs), enabling composable atomic execution across different blockchains. The protocol addresses the key interoperability challenge of providing atomicity guarantees in the presence of asynchronous communication and Byzantine actors. It pres",
-            "published": "2026-07-06",
-            "seed_match_score": 0
-          },
-          {
-            "title": "Well-invertible column subsets of sparse matrices are rare",
-            "summary": "A random $n\\times k$ matrix $S$ is an \\emph{$(r,α)$-oblivious subspace injection} (OSI) if $\\Exp\\|S^\\top x\\|_2^2=\\|x\\|_2^2$ for every $x\\in\\R^n$, and for every fixed $r$-dimensional subspace $V\\subset\\R^n$, with probability close to one, one has $α\\|x\\|_2^2\\le\\|S^\\top x\\|_2^2$ for all $x\\in V$. In t",
-            "published": "2026-07-06",
-            "seed_match_score": 0
-          },
-          {
-            "title": "Abstract Color Voronoi Diagrams and Circular Sequences of Color Permutations",
-            "summary": "Abstract Voronoi diagrams are defined in terms of a given system of planar bisecting curves satisfying some simple combinatorial properties. They offer a unifying framework for a wide range of concrete Voronoi instances on generalized sites and metrics. In this paper, we formulate higher-order abstr",
-            "published": "2026-07-06",
-            "seed_match_score": 0
-          }
-        ]
-      },
       {
         "timestamp": "2026-07-07T16:32:47.038773",
         "papers_found": 2,
@@ -5017,6 +4993,30 @@
         "avg_relevance": 0.0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-08-25T20:14:44.016508",
+        "papers_found": 2,
+        "duplicates": 6,
+        "irrelevant_filtered": 2,
+        "avg_relevance": 1.5,
+        "high_relevance": 1,
+        "papers": [
+          {
+            "title": "Anchoring Bias: A Persistent Fairness Backdoor Attack against MLLMs under Continual Learning",
+            "summary": "Multimodal Large Language Models (MLLMs) are increasingly deployed in high-stakes domains where fairness is a critical safety requirement. In practice, these models are continually updated through continual learning (CL) to adapt to evolving tasks and data distributions. Prior work has shown that ba",
+            "published": "2026-08-21",
+            "url": "http://arxiv.org/abs/2608.21577v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Federated Continual Learning as a Distributed Drift-Plus-Penalty Control Problem",
+            "summary": "Federated Continual Learning (FCL) is fundamental to real-world distributed learning systems, requiring models to adapt to sequential, non-IID data across clients while mitigating catastrophic forgetting and client drift. Existing approaches formulate continual learning (CL) as a sequence of per-tas",
+            "published": "2026-08-21",
+            "url": "http://arxiv.org/abs/2608.21539v1",
+            "seed_match_score": 2
+          }
+        ]
       }
     ],
     "keywords": [
@@ -5026,7 +5026,7 @@
       "ewc",
       "elastic weight"
     ],
-    "last_watered": "2026-08-25T00:31:36.198912"
+    "last_watered": "2026-08-25T20:14:44.016502"
   },
   "moe": {
     "name": "Mixture of Experts",
