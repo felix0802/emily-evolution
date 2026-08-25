@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 493,
+  "_rotation_idx": 494,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 45,
@@ -2382,40 +2382,9 @@
   },
   "spiking-nn": {
     "name": "Spiking Neural Networks",
-    "total_papers_found": 25,
-    "watering_count": 51,
+    "total_papers_found": 26,
+    "watering_count": 52,
     "history": [
-      {
-        "timestamp": "2026-07-07T13:34:00.072863",
-        "papers_found": 5,
-        "duplicates": 5,
-        "irrelevant_filtered": 0,
-        "avg_relevance": 2.4,
-        "high_relevance": 5,
-        "papers": [
-          {
-            "title": "A Spiking Sequence Generator for Polar Trajectories on Neuromorphic Hardware",
-            "summary": "Neuromorphic controllers for size, weight, and power-constrained systems require neural architectures that are both energy-efficient and interpretable at the level of system dynamics. However, existing approaches either rely on end-to-end trained spiking networks with limited interpretability, or on",
-            "published": "2026-07-02",
-            "url": "http://arxiv.org/abs/2607.02753v1",
-            "seed_match_score": 2
-          },
-          {
-            "title": "Hybrid ANN-SNN Pipeline with Local Plasticity",
-            "summary": "This work proposes a hybrid ANN-SNN pipeline that effectively leverages the rich embeddings of pretrained artificial neural networks (ANNs) to enable high-performance spiking neural networks (SNNs). The architecture couples a pretrained EfficientNet encoder with a CoLaNET spiking classifier. We conv",
-            "published": "2026-06-18",
-            "url": "http://arxiv.org/abs/2606.20151v1",
-            "seed_match_score": 2
-          },
-          {
-            "title": "Adaptive Speech-to-Spike Encoding for Spiking Neural Networks",
-            "summary": "The mismatch between continuous acoustic signals and discrete event-driven processing remains a fundamental bottleneck for neuromorphic speech processing. Current systems typically rely on fixed spike encoders, forcing downstream Spiking Neural Networks (SNNs) to compensate for non-adaptive input re",
-            "published": "2026-06-17",
-            "url": "http://arxiv.org/abs/2606.19039v1",
-            "seed_match_score": 3
-          }
-        ]
-      },
       {
         "timestamp": "2026-07-08T13:04:21.851312",
         "papers_found": 1,
@@ -2973,6 +2942,23 @@
             "seed_match_score": 2
           }
         ]
+      },
+      {
+        "timestamp": "2026-08-25T14:32:47.377178",
+        "papers_found": 1,
+        "duplicates": 8,
+        "irrelevant_filtered": 1,
+        "avg_relevance": 2.0,
+        "high_relevance": 1,
+        "papers": [
+          {
+            "title": "Spiking Neural Networks for Continuous Control: Neuromorphic Reinforcement Learning in Conventional Computing",
+            "summary": "Reinforcement learning (RL) algorithms have made strides over the past decade applying them to a wide range of problems and control tasks. However, the deployment of RL on neuromorphic hardware for continuous control tasks remains under-validated. Namely it is unclear whether replacing a conventiona",
+            "published": "2026-08-24",
+            "url": "http://arxiv.org/abs/2608.22729v1",
+            "seed_match_score": 2
+          }
+        ]
       }
     ],
     "keywords": [
@@ -2981,7 +2967,7 @@
       "neuromorphic",
       "spike-timing"
     ],
-    "last_watered": "2026-08-24T18:21:32.420813"
+    "last_watered": "2026-08-25T14:32:47.377172"
   },
   "non-transformer": {
     "name": "Non-Transformer Arch",
