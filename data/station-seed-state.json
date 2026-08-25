@@ -1,41 +1,10 @@
 {
-  "_rotation_idx": 490,
+  "_rotation_idx": 491,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 45,
-    "watering_count": 52,
+    "watering_count": 53,
     "history": [
-      {
-        "timestamp": "2026-07-07T13:08:54.229357",
-        "papers_found": 6,
-        "duplicates": 1,
-        "irrelevant_filtered": 3,
-        "avg_relevance": 1.33,
-        "high_relevance": 2,
-        "papers": [
-          {
-            "title": "RUFNet: Query-Guided Support Mask Refinement and Uncertainty Fusion based on Hybrid Mamba for Few-Shot Brain Tumor Segmentation",
-            "summary": "Few-shot brain tumor segmentation remains challenging due to noisy support masks, inter-patient variations between support and query images, and the lack of pixel-wise confidence estimation. This study proposes RUFNet, a Hybrid Mamba-based few-shot framework that combines support mask refinement wit",
-            "published": "2026-07-06",
-            "url": "http://arxiv.org/abs/2607.05035v1",
-            "seed_match_score": 1
-          },
-          {
-            "title": "Lightweight ML-Based Automatic Sleep Staging Framework with Constrained CNN and Mamba for Small-Sample EEG Datasets",
-            "summary": "Automatic sleep staging is a key technology for precise diagnosis and treatment of sleep disorders as well as long-term home sleep monitoring. Portable electroencephalogram (EEG) devices have become the focus of research due to their convenience in data collection. However, current methods still fac",
-            "published": "2026-07-06",
-            "url": "http://arxiv.org/abs/2607.04934v1",
-            "seed_match_score": 1
-          },
-          {
-            "title": "MambaLIE: Scene Light Intensity-Boosted Low-Light Image Enhancement with State Space Model",
-            "summary": "Images captured by consumer electronic devices, such as mobile phones and digital cameras, often suffer from low-light degradation due to sensor limitations and imaging pipelines, which degrades visual quality and affects downstream vision tasks.   Existing methods based on Convolutional Neural Netw",
-            "published": "2026-07-03",
-            "url": "http://arxiv.org/abs/2607.03013v1",
-            "seed_match_score": 2
-          }
-        ]
-      },
       {
         "timestamp": "2026-07-07T17:23:35.461028",
         "papers_found": 0,
@@ -711,6 +680,15 @@
             "seed_match_score": 1
           }
         ]
+      },
+      {
+        "timestamp": "2026-08-25T08:28:20.038099",
+        "papers_found": 0,
+        "duplicates": 0,
+        "irrelevant_filtered": 0,
+        "avg_relevance": 0,
+        "high_relevance": 0,
+        "papers": []
       }
     ],
     "keywords": [
@@ -719,7 +697,7 @@
       "ssm",
       "selective scan"
     ],
-    "last_watered": "2026-08-24T12:21:07.530331"
+    "last_watered": "2026-08-25T08:28:20.038093"
   },
   "liquid-networks": {
     "name": "Liquid Networks",
