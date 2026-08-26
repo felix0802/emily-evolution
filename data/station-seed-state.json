@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 507,
+  "_rotation_idx": 508,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 47,
@@ -5075,8 +5075,8 @@
   },
   "moe": {
     "name": "Mixture of Experts",
-    "total_papers_found": 70,
-    "watering_count": 47,
+    "total_papers_found": 73,
+    "watering_count": 48,
     "history": [
       {
         "timestamp": "2026-07-15T09:46:58.985365",
@@ -5912,6 +5912,37 @@
         "avg_relevance": 0.0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-08-26T19:29:18.319533",
+        "papers_found": 3,
+        "duplicates": 4,
+        "irrelevant_filtered": 3,
+        "avg_relevance": 1.67,
+        "high_relevance": 2,
+        "papers": [
+          {
+            "title": "A Heterogeneous Mixture of Experts Framework for Interpretable Machine Learning",
+            "summary": "Mixture-of-Experts (MoE) models provide a flexible framework for partitioning complex prediction problems into simpler local learning tasks through an input-dependent gating mechanism. Existing interpretable MoE approaches, such as Mixture of Decision Trees (MoDT), achieve transparency by employing ",
+            "published": "2026-08-25",
+            "url": "http://arxiv.org/abs/2608.24195v1",
+            "seed_match_score": 2
+          },
+          {
+            "title": "Giga-Embeddings: Mixture-of-Experts Encoders for High-Throughput Text Embeddings",
+            "summary": "We introduce Giga-Embeddings, a family of text embedding models designed to combine strong retrieval quality with efficient serving. Its largest member is a sparse 10B-parameter Mixture-of-Experts encoder with approximately 1.8B active parameters per token. Across English, Russian, multilingual, and",
+            "published": "2026-08-24",
+            "url": "http://arxiv.org/abs/2608.23806v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Mixture of Channel Experts: Static Sparse Supports with Input-Adaptive Mixing for Pointwise Projections",
+            "summary": "Mixture-of-Experts (MoE) scales language models by routing each input through a small set of independently parameterized experts. We show that copying this design into convolutional networks fails for a structural reason: parallel convolutional experts that read the same input channels learn nearly ",
+            "published": "2026-08-24",
+            "url": "http://arxiv.org/abs/2608.23794v1",
+            "seed_match_score": 2
+          }
+        ]
       }
     ],
     "keywords": [
@@ -5923,7 +5954,7 @@
       "switch transformer",
       "deepseek"
     ],
-    "last_watered": "2026-08-25T22:13:06.791479"
+    "last_watered": "2026-08-26T19:29:18.319529"
   },
   "kv-cache": {
     "name": "KV Cache Optimization",
