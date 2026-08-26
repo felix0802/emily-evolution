@@ -26238,7 +26238,399 @@
         "problem"
       ],
       "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.24876v1",
+      "title": "Recursive Experiential-Working Memory Evolution for Long-Horizon Agent Harnesses",
+      "arxiv_id": "2608.24876",
+      "tokens": [
+        "agent",
+        "evolution",
+        "experiential",
+        "harnesses",
+        "horizon",
+        "long",
+        "memory",
+        "recursive",
+        "working"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.24870v1",
+      "title": "SPO++: Stream-Aligned Policy Optimization for Asynchronous Agentic RL",
+      "arxiv_id": "2608.24870",
+      "tokens": [
+        "agentic",
+        "aligned",
+        "asynchronous",
+        "optimization",
+        "policy",
+        "spo",
+        "stream"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.24846v1",
+      "title": "FedV-KGQA: Multi-Hop Question Answering over Vertically Partitioned Knowledge Graphs",
+      "arxiv_id": "2608.24846",
+      "tokens": [
+        "answering",
+        "fedv",
+        "graphs",
+        "hop",
+        "kgqa",
+        "knowledge",
+        "multi",
+        "partitioned",
+        "question",
+        "vertically"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.24845v1",
+      "title": "LAION-BVD: A 10-Million-Hour Open Video Dataset for Multimodal Pre-training",
+      "arxiv_id": "2608.24845",
+      "tokens": [
+        "bvd",
+        "dataset",
+        "hour",
+        "laion",
+        "million",
+        "multimodal",
+        "open",
+        "pre",
+        "training",
+        "video"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.24842v1",
+      "title": "Reading Is Not Using: Retrieval, Judgment, and the Design of AI Financial Research Workflows",
+      "arxiv_id": "2608.24842",
+      "tokens": [
+        "design",
+        "financial",
+        "judgment",
+        "reading",
+        "research",
+        "retrieval",
+        "workflows"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.24825v1",
+      "title": "A Dual-Dimensional LLM Framework for Automated Item Incidental Content Similarity Analysis in Large-Scale Assessments",
+      "arxiv_id": "2608.24825",
+      "tokens": [
+        "assessments",
+        "automated",
+        "content",
+        "dimensional",
+        "dual",
+        "incidental",
+        "item",
+        "llm",
+        "scale",
+        "similarity"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.24824v1",
+      "title": "Constrained Entity Selection under Partial Knowledge for LLM-Based Knowledge Graph QA",
+      "arxiv_id": "2608.24824",
+      "tokens": [
+        "constrained",
+        "entity",
+        "graph",
+        "knowledge",
+        "knowledge",
+        "llm",
+        "partial",
+        "selection"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.24810v1",
+      "title": "Strictly Causal Streaming Video Anomaly Detection with a Theoretically-Grounded State-Space Core",
+      "arxiv_id": "2608.24810",
+      "tokens": [
+        "anomaly",
+        "causal",
+        "core",
+        "detection",
+        "grounded",
+        "space",
+        "state",
+        "streaming",
+        "strictly",
+        "theoretically",
+        "video"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.24881v1",
+      "title": "What FID Hides: Detecting, Ranking, and Diagnosing Deviations in Generative Evaluation",
+      "arxiv_id": "2608.24881",
+      "tokens": [
+        "detecting",
+        "deviations",
+        "diagnosing",
+        "evaluation",
+        "fid",
+        "generative",
+        "hides",
+        "ranking"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.24865v1",
+      "title": "Parameterized Complexity of $L_p$-Lipschitz Constants for Input Convex Neural Networks and $L_p$-Norm Maximization over Zonotopes",
+      "arxiv_id": "2608.24865",
+      "tokens": [
+        "complexity",
+        "constants",
+        "convex",
+        "input",
+        "lipschitz",
+        "maximization",
+        "neural",
+        "norm",
+        "parameterized",
+        "zonotopes"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.24859v1",
+      "title": "Improving Cross-Problem Vehicle Routing with Locally Augmented Preferences and Representation Disentanglement",
+      "arxiv_id": "2608.24859",
+      "tokens": [
+        "augmented",
+        "cross",
+        "disentanglement",
+        "improving",
+        "locally",
+        "preferences",
+        "problem",
+        "representation",
+        "routing",
+        "vehicle"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.24858v1",
+      "title": "Bellman Calibration for Marginalized Importance Weighting in Offline Reinforcement Learning",
+      "arxiv_id": "2608.24858",
+      "tokens": [
+        "bellman",
+        "calibration",
+        "importance",
+        "marginalized",
+        "offline",
+        "reinforcement",
+        "weighting"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.24823v1",
+      "title": "BioKERN: Biological Kernel Regularization for Histology-to-Transcriptomics Neighborhood Retrieval",
+      "arxiv_id": "2608.24823",
+      "tokens": [
+        "biokern",
+        "biological",
+        "histology",
+        "kernel",
+        "neighborhood",
+        "regularization",
+        "retrieval",
+        "transcriptomics"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.24818v1",
+      "title": "A Geometric Theory of Robust Fairness Audits",
+      "arxiv_id": "2608.24818",
+      "tokens": [
+        "audits",
+        "fairness",
+        "geometric",
+        "robust",
+        "theory"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.24814v1",
+      "title": "Effective Learning Rate Governs Loss Dynamics in Language Model Pretraining",
+      "arxiv_id": "2608.24814",
+      "tokens": [
+        "dynamics",
+        "effective",
+        "governs",
+        "language",
+        "loss",
+        "pretraining",
+        "rate"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.24848v1",
+      "title": "BrowserForge: Scaling Web Episode via Parallel Browser Sandboxes",
+      "arxiv_id": "2608.24848",
+      "tokens": [
+        "browser",
+        "browserforge",
+        "episode",
+        "parallel",
+        "sandboxes",
+        "scaling",
+        "web"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.24809v1",
+      "title": "Structurally-bounded Agentic Graph Exploration for Evidence-Grounded Scholarly DeepSearch",
+      "arxiv_id": "2608.24809",
+      "tokens": [
+        "agentic",
+        "bounded",
+        "deepsearch",
+        "evidence",
+        "exploration",
+        "graph",
+        "grounded",
+        "scholarly",
+        "structurally"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.24780v1",
+      "title": "Linear Probing Provides Robust and Efficient Detection of Machine-Generated Text",
+      "arxiv_id": "2608.24780",
+      "tokens": [
+        "detection",
+        "generated",
+        "linear",
+        "machine",
+        "probing",
+        "provides",
+        "robust",
+        "text"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.24760v1",
+      "title": "ExpConCAD: Experience-Guided Text-to-CAD Generation from Shape Descriptions with Implicit Spatial Constraints",
+      "arxiv_id": "2608.24760",
+      "tokens": [
+        "cad",
+        "constraints",
+        "descriptions",
+        "expconcad",
+        "experience",
+        "generation",
+        "guided",
+        "implicit",
+        "shape",
+        "spatial",
+        "text"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.24753v1",
+      "title": "The RAT: A Unified Bayesian Model for RAG Evaluation",
+      "arxiv_id": "2608.24753",
+      "tokens": [
+        "bayesian",
+        "evaluation",
+        "rag",
+        "rat",
+        "unified"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.24748v1",
+      "title": "Method, Mind, and Morality: How People Make Sense of Artificial Intelligence",
+      "arxiv_id": "2608.24748",
+      "tokens": [
+        "artificial",
+        "intelligence",
+        "make",
+        "mind",
+        "morality",
+        "people",
+        "sense"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.24386v1",
+      "title": "Equivariant Covariance Tensors: Guaranteed SPD Uncertainty for Tensor-Valued Geometric Learning",
+      "arxiv_id": "2608.24386",
+      "tokens": [
+        "covariance",
+        "equivariant",
+        "geometric",
+        "guaranteed",
+        "spd",
+        "tensor",
+        "tensors",
+        "uncertainty",
+        "valued"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.23917v1",
+      "title": "GATNextHop: A GAT for Shortest Path Routing with Cross-Topology Generalization",
+      "arxiv_id": "2608.23917",
+      "tokens": [
+        "cross",
+        "gat",
+        "gatnexthop",
+        "generalization",
+        "path",
+        "routing",
+        "shortest",
+        "topology"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.23835v1",
+      "title": "Generating Intervention Hypotheses using Explainable Explanations on Graphs: G2I, a Two-Stage Greedy Framework",
+      "arxiv_id": "2608.23835",
+      "tokens": [
+        "explainable",
+        "explanations",
+        "g2i",
+        "generating",
+        "graphs",
+        "greedy",
+        "hypotheses",
+        "intervention",
+        "stage"
+      ],
+      "first_seen_round": 165
     }
   ],
-  "total_unique": 1633
+  "total_unique": 1657
 }

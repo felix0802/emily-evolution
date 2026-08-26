@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 499,
+  "_rotation_idx": 500,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 45,
@@ -6680,8 +6680,8 @@
   },
   "gnn": {
     "name": "Graph Neural Networks",
-    "total_papers_found": 102,
-    "watering_count": 48,
+    "total_papers_found": 105,
+    "watering_count": 49,
     "history": [
       {
         "timestamp": "2026-07-15T15:16:02.082257",
@@ -7587,6 +7587,37 @@
             "seed_match_score": 2
           }
         ]
+      },
+      {
+        "timestamp": "2026-08-26T02:55:15.951186",
+        "papers_found": 3,
+        "duplicates": 4,
+        "irrelevant_filtered": 3,
+        "avg_relevance": 1.33,
+        "high_relevance": 1,
+        "papers": [
+          {
+            "title": "Equivariant Covariance Tensors: Guaranteed SPD Uncertainty for Tensor-Valued Geometric Learning",
+            "summary": "Tensor-valued prediction is fundamental to geometric deep learning, yet uncertainty quantification (UQ) for such outputs remains an open challenge. While E(3)-equivariant neural networks excel at point estimates, they lack rigorous confidence measures. We focus on symmetric rank-2 tensor prediction,",
+            "published": "2026-08-25",
+            "url": "http://arxiv.org/abs/2608.24386v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "GATNextHop: A GAT for Shortest Path Routing with Cross-Topology Generalization",
+            "summary": "Common shortest-path algorithms, such as Dijkstra's (SPF), that OSPF uses, provide exact routing solutions but must be recomputed for each network topology, limiting scalability in dynamic or large-scale networks. This paper proposes the GATNextHop model to determine whether a Graph Neural Network, ",
+            "published": "2026-08-24",
+            "url": "http://arxiv.org/abs/2608.23917v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Generating Intervention Hypotheses using Explainable Explanations on Graphs: G2I, a Two-Stage Greedy Framework",
+            "summary": "Real-world decision-making in public health and social science can greatly benefit from predictive models, yet translating predictions into effective interventions requires explaining the model behavior. While Graph Neural Networks (GNNs) are well-suited for modeling relational data, existing explan",
+            "published": "2026-08-24",
+            "url": "http://arxiv.org/abs/2608.23835v1",
+            "seed_match_score": 2
+          }
+        ]
       }
     ],
     "keywords": [
@@ -7598,6 +7629,6 @@
       "node embedding",
       "graph transformer"
     ],
-    "last_watered": "2026-08-25T06:23:20.759409"
+    "last_watered": "2026-08-26T02:55:15.951180"
   }
 }
