@@ -26630,7 +26630,43 @@
         "stage"
       ],
       "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.24561v1",
+      "title": "SeisMamba: Low-Latency Single-Station Seismic Magnitude Estimation for Spatially Distributed Earthquake Early Warning",
+      "arxiv_id": "2608.24561",
+      "tokens": [
+        "distributed",
+        "early",
+        "earthquake",
+        "estimation",
+        "latency",
+        "low",
+        "magnitude",
+        "seismamba",
+        "seismic",
+        "single",
+        "spatially",
+        "station",
+        "warning"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.21952v1",
+      "title": "SSDi8: Accurate and Efficient 8-bit Quantization for State Space Duality",
+      "arxiv_id": "2608.21952",
+      "tokens": [
+        "accurate",
+        "bit",
+        "duality",
+        "quantization",
+        "space",
+        "ssdi8",
+        "state"
+      ],
+      "first_seen_round": 165
     }
   ],
-  "total_unique": 1657
+  "total_unique": 1659
 }

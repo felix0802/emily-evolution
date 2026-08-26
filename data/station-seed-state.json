@@ -1,19 +1,10 @@
 {
-  "_rotation_idx": 500,
+  "_rotation_idx": 501,
   "mamba": {
     "name": "Mamba (SSM)",
-    "total_papers_found": 45,
-    "watering_count": 53,
+    "total_papers_found": 47,
+    "watering_count": 54,
     "history": [
-      {
-        "timestamp": "2026-07-07T17:23:35.461028",
-        "papers_found": 0,
-        "duplicates": 7,
-        "irrelevant_filtered": 3,
-        "avg_relevance": 0.0,
-        "high_relevance": 0,
-        "papers": []
-      },
       {
         "timestamp": "2026-07-08T19:45:22.432003",
         "papers_found": 1,
@@ -689,6 +680,30 @@
         "avg_relevance": 0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-08-26T04:28:02.517460",
+        "papers_found": 2,
+        "duplicates": 7,
+        "irrelevant_filtered": 1,
+        "avg_relevance": 1.5,
+        "high_relevance": 1,
+        "papers": [
+          {
+            "title": "SeisMamba: Low-Latency Single-Station Seismic Magnitude Estimation for Spatially Distributed Earthquake Early Warning",
+            "summary": "Rapid earthquake magnitude estimation is central to earthquake early warning, yet many operational systems depend on dense regional seismic networks and region-specific calibration. This creates a spatial coverage barrier for high-risk areas with sparse sensing infrastructure. Single-station learnin",
+            "published": "2026-08-25",
+            "url": "http://arxiv.org/abs/2608.24561v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "SSDi8: Accurate and Efficient 8-bit Quantization for State Space Duality",
+            "summary": "Recent advances in sequence modeling have highlighted Mamba as a state space architecture offering efficient long-range dependency modeling and providing a viable alternative to Transformers. Building upon this, Mamba-2 introduces the Structured State Space Duality (SSD), which integrates recurrent ",
+            "published": "2026-08-22",
+            "url": "http://arxiv.org/abs/2608.21952v1",
+            "seed_match_score": 2
+          }
+        ]
       }
     ],
     "keywords": [
@@ -697,7 +712,7 @@
       "ssm",
       "selective scan"
     ],
-    "last_watered": "2026-08-25T08:28:20.038093"
+    "last_watered": "2026-08-26T04:28:02.517455"
   },
   "liquid-networks": {
     "name": "Liquid Networks",
