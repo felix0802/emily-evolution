@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 502,
+  "_rotation_idx": 503,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 47,
@@ -1460,18 +1460,9 @@
   },
   "htm": {
     "name": "HTM",
-    "total_papers_found": 80,
-    "watering_count": 53,
+    "total_papers_found": 86,
+    "watering_count": 54,
     "history": [
-      {
-        "timestamp": "2026-07-08T10:55:22.772566",
-        "papers_found": 0,
-        "duplicates": 4,
-        "irrelevant_filtered": 6,
-        "avg_relevance": 0.0,
-        "high_relevance": 0,
-        "papers": []
-      },
       {
         "timestamp": "2026-07-09T10:12:16.361426",
         "papers_found": 0,
@@ -2387,6 +2378,37 @@
             "seed_match_score": 1
           }
         ]
+      },
+      {
+        "timestamp": "2026-08-26T08:28:20.479828",
+        "papers_found": 6,
+        "duplicates": 1,
+        "irrelevant_filtered": 3,
+        "avg_relevance": 1.17,
+        "high_relevance": 1,
+        "papers": [
+          {
+            "title": "Optimal Alternating Regret for Online Learning and Games",
+            "summary": "We settle the minimax-optimal alternating regret, a regret notion motivated by alternating learning dynamics in games, for both online linear optimization (OLO) and online convex optimization (OCO).   For OLO over the probability simplex $Δ_d$, we give an algorithm with $O(\\log d)$ alternating regre",
+            "published": "2026-08-25",
+            "url": "http://arxiv.org/abs/2608.24731v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Single State Update Predictive Coding training for Time Series Forecasting and Anomaly Detection",
+            "summary": "Predictive Coding (PC) is a neural learning paradigm that enables parallelizable neural network layer updates. However, the main bottleneck of PC Networks (PCN) is the sequential backwards error propagation. To tackle this, we introduce a training technique that pairs a Generative PCN with a support",
+            "published": "2026-08-25",
+            "url": "http://arxiv.org/abs/2608.24697v1",
+            "seed_match_score": 2
+          },
+          {
+            "title": "When Similarity Is Interaction-Driven: Quantum Kernels for Regime-Sensitive Learning",
+            "summary": "Similarity in many decision systems is governed not by distance alone but by interactions among variables. In fraud and anomaly detection, small local perturbations can cross interaction-sensitive decision boundaries while leaving ambient distance almost unchanged. Motivated by this setting, we intr",
+            "published": "2026-08-25",
+            "url": "http://arxiv.org/abs/2608.24631v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -2401,7 +2423,7 @@
       "anomaly detection",
       "continuous learning"
     ],
-    "last_watered": "2026-08-25T12:21:55.681630"
+    "last_watered": "2026-08-26T08:28:20.479822"
   },
   "spiking-nn": {
     "name": "Spiking Neural Networks",
