@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 503,
+  "_rotation_idx": 504,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 47,
@@ -2427,26 +2427,9 @@
   },
   "spiking-nn": {
     "name": "Spiking Neural Networks",
-    "total_papers_found": 26,
-    "watering_count": 52,
+    "total_papers_found": 27,
+    "watering_count": 53,
     "history": [
-      {
-        "timestamp": "2026-07-08T13:04:21.851312",
-        "papers_found": 1,
-        "duplicates": 9,
-        "irrelevant_filtered": 0,
-        "avg_relevance": 3.0,
-        "high_relevance": 1,
-        "papers": [
-          {
-            "title": "A Hardware-Aware Open-Source Framework for Design Space Exploration of Mixed-Signal Spiking Neural Networks",
-            "summary": "Energy-efficient neuromorphic computing at the edge requires simulation tools that can capture the non-ideal behavior of mixed-signal spiking neural network (SNN) hardware while supporting system-level design exploration. This work presents an open-source hardware-aware simulation framework for mixe",
-            "published": "2026-07-07",
-            "url": "http://arxiv.org/abs/2607.06456v1",
-            "seed_match_score": 3
-          }
-        ]
-      },
       {
         "timestamp": "2026-07-09T13:19:55.384488",
         "papers_found": 0,
@@ -3004,6 +2987,23 @@
             "seed_match_score": 2
           }
         ]
+      },
+      {
+        "timestamp": "2026-08-26T10:22:35.393470",
+        "papers_found": 1,
+        "duplicates": 8,
+        "irrelevant_filtered": 1,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "ORBITALIF: An Efficient Spiking Federated Learning Framework for Onboard Cloud Removal",
+            "summary": "Low-earth-orbit (LEO) satellites enable high-resolution, large-scale Earth observation for applications such as disaster monitoring and environmental surveillance. However, cloud coverage often obscures the Earth's surface, and conventional cloud-removal pipelines that download cloudy images to grou",
+            "published": "2026-08-25",
+            "url": "http://arxiv.org/abs/2608.24073v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -3012,7 +3012,7 @@
       "neuromorphic",
       "spike-timing"
     ],
-    "last_watered": "2026-08-25T14:32:47.377172"
+    "last_watered": "2026-08-26T10:22:35.393468"
   },
   "non-transformer": {
     "name": "Non-Transformer Arch",
