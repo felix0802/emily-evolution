@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 506,
+  "_rotation_idx": 507,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 47,
@@ -4234,33 +4234,9 @@
   },
   "continual-learning": {
     "name": "Continual Learning",
-    "total_papers_found": 64,
-    "watering_count": 51,
+    "total_papers_found": 67,
+    "watering_count": 52,
     "history": [
-      {
-        "timestamp": "2026-07-07T16:32:47.038773",
-        "papers_found": 2,
-        "duplicates": 1,
-        "irrelevant_filtered": 7,
-        "avg_relevance": 1.0,
-        "high_relevance": 0,
-        "papers": [
-          {
-            "title": "FlatManifold: Robust Continual Learning under Severe Label Noise and Domain Shifts via Intrinsic Manifold Flattening",
-            "summary": "In non-stationary streaming environments, simultaneously adapting to complex, non-linear domain shifts via continual learning while mitigating the catastrophic effects of severe, uncalibrated label noise poses a fundamental mathematical challenge. In this paper, we propose \\FlatManifold{}, a novel, ",
-            "published": "2026-07-06",
-            "url": "http://arxiv.org/abs/2607.05201v1",
-            "seed_match_score": 1
-          },
-          {
-            "title": "Information-Regularized Attention for Visual-Centric Reasoning",
-            "summary": "Vision-language models (VLMs) have become a paradigm for multimodal learning, yet remain unstable due to object hallucination, weak visual grounding, and catastrophic forgetting after full-parameter instruction tuning. We claim these failures result from a lack of explicit control over visual repres",
-            "published": "2026-07-01",
-            "url": "http://arxiv.org/abs/2607.00434v1",
-            "seed_match_score": 1
-          }
-        ]
-      },
       {
         "timestamp": "2026-07-08T17:44:19.850424",
         "papers_found": 1,
@@ -5055,6 +5031,37 @@
             "seed_match_score": 2
           }
         ]
+      },
+      {
+        "timestamp": "2026-08-26T16:40:10.019012",
+        "papers_found": 3,
+        "duplicates": 6,
+        "irrelevant_filtered": 1,
+        "avg_relevance": 1.33,
+        "high_relevance": 1,
+        "papers": [
+          {
+            "title": "Dimensionless Controls of Plasticity Under Alternating Tasks: From Evolutionary Biology to Continual Learning",
+            "summary": "Plasticity under changing environments is central to both evolutionary biology and continual learning. Motivated by recent work on genotype--phenotype maps, we study a minimal deep-learning analogue where a network is trained alternately on two Boolean label sets, and ask which biological controls o",
+            "published": "2026-08-24",
+            "url": "http://arxiv.org/abs/2608.23889v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Restoring Without Forgetting: Continual Learning Across Image Degradations",
+            "summary": "Recent progress in image restoration has converged on all-in-one architectures that jointly handle multiple degradations within a single network. These methods are effective on static benchmarks but target a closed-world setting that assumes simultaneous access to every target degradation at trainin",
+            "published": "2026-08-24",
+            "url": "http://arxiv.org/abs/2608.23799v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "GAP-Prompt: Gated Adaptive Prompting for Efficient Continual Learning",
+            "summary": "Continual learning faces the persistent challenge of catastrophic forgetting, where sequential task updates degrade previously acquired knowledge. While prompt-based methods integrated with pre-trained models offer a compelling solution by freezing the backbone, they often rely on static, task-level",
+            "published": "2026-08-24",
+            "url": "http://arxiv.org/abs/2608.23782v1",
+            "seed_match_score": 2
+          }
+        ]
       }
     ],
     "keywords": [
@@ -5064,7 +5071,7 @@
       "ewc",
       "elastic weight"
     ],
-    "last_watered": "2026-08-25T20:14:44.016502"
+    "last_watered": "2026-08-26T16:40:10.019006"
   },
   "moe": {
     "name": "Mixture of Experts",
