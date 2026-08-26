@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 501,
+  "_rotation_idx": 502,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 47,
@@ -716,18 +716,9 @@
   },
   "liquid-networks": {
     "name": "Liquid Networks",
-    "total_papers_found": 56,
-    "watering_count": 53,
+    "total_papers_found": 57,
+    "watering_count": 54,
     "history": [
-      {
-        "timestamp": "2026-07-07T20:57:29.535356",
-        "papers_found": 0,
-        "duplicates": 9,
-        "irrelevant_filtered": 1,
-        "avg_relevance": 0.0,
-        "high_relevance": 0,
-        "papers": []
-      },
       {
         "timestamp": "2026-07-09T08:07:00.308608",
         "papers_found": 0,
@@ -1439,6 +1430,23 @@
             "seed_match_score": 2
           }
         ]
+      },
+      {
+        "timestamp": "2026-08-26T06:25:21.206962",
+        "papers_found": 1,
+        "duplicates": 4,
+        "irrelevant_filtered": 5,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "The Loss Floor of Denoising Score Matching: Fisher Geometry from Schrödinger Bridges",
+            "summary": "Denoising score matching trains diffusion models by regressing onto a conditional score, although generation ultimately requires the marginal score. The two objectives share the same population minimizer, but the conditional target remains random at fixed noisy state and introduces an irreducible ex",
+            "published": "2026-08-24",
+            "url": "http://arxiv.org/abs/2608.23916v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -1448,7 +1456,7 @@
       "ode",
       "continuous-time"
     ],
-    "last_watered": "2026-08-25T10:19:30.459014"
+    "last_watered": "2026-08-26T06:25:21.206957"
   },
   "htm": {
     "name": "HTM",

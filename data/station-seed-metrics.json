@@ -155,15 +155,14 @@
   },
   "liquid-networks": {
     "name": "Liquid Networks",
-    "total_new_papers": 51,
-    "total_watering": 52,
+    "total_new_papers": 52,
+    "total_watering": 53,
     "all_keywords_matched": [
       "liquid neural",
       "continuous-time",
       "ode"
     ],
     "avg_relevance_trend": [
-      0.0,
       0.0,
       0.0,
       0.0,
@@ -182,11 +181,12 @@
       0.0,
       0.0,
       1.5,
-      2.0
+      2.0,
+      1.0
     ],
     "high_relevance_total": 15,
     "best_papers": [],
-    "last_updated": "2026-08-25T10:19:30.458419"
+    "last_updated": "2026-08-26T06:25:21.206386"
   },
   "htm": {
     "name": "HTM",
