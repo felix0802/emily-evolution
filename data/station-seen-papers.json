@@ -26795,7 +26795,25 @@
         "spiking"
       ],
       "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.22368v1",
+      "title": "DiD It in 87 Minutes: A Label-Free Softmax-to-Linear Adaptation of Vision Transformers for Object Detection",
+      "arxiv_id": "2608.22368",
+      "tokens": [
+        "adaptation",
+        "detection",
+        "free",
+        "label",
+        "linear",
+        "minutes",
+        "object",
+        "softmax",
+        "transformers",
+        "vision"
+      ],
+      "first_seen_round": 165
     }
   ],
-  "total_unique": 1667
+  "total_unique": 1668
 }

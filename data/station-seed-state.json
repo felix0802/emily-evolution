@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 504,
+  "_rotation_idx": 505,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 47,
@@ -3016,18 +3016,9 @@
   },
   "non-transformer": {
     "name": "Non-Transformer Arch",
-    "total_papers_found": 22,
-    "watering_count": 53,
+    "total_papers_found": 23,
+    "watering_count": 54,
     "history": [
-      {
-        "timestamp": "2026-07-08T14:02:53.151794",
-        "papers_found": 0,
-        "duplicates": 0,
-        "irrelevant_filtered": 0,
-        "avg_relevance": 0,
-        "high_relevance": 0,
-        "papers": []
-      },
       {
         "timestamp": "2026-07-09T15:20:53.914912",
         "papers_found": 1,
@@ -3616,6 +3607,23 @@
             "seed_match_score": 1
           }
         ]
+      },
+      {
+        "timestamp": "2026-08-26T12:23:43.214985",
+        "papers_found": 1,
+        "duplicates": 6,
+        "irrelevant_filtered": 3,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "DiD It in 87 Minutes: A Label-Free Softmax-to-Linear Adaptation of Vision Transformers for Object Detection",
+            "summary": "While linear attention is a compelling mechanism for high-resolution object detection due to its reduced cost for global token mixing, converting the Softmax-attention ViT backbone of a trained detector into a linear-attention one is not a trivial drop-in replacement. Directly swapping the attention",
+            "published": "2026-08-23",
+            "url": "http://arxiv.org/abs/2608.22368v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -3628,7 +3636,7 @@
       "sub-quadratic",
       "mamba"
     ],
-    "last_watered": "2026-08-25T16:21:59.655052"
+    "last_watered": "2026-08-26T12:23:43.214982"
   },
   "few-shot": {
     "name": "Few-Shot Learning",
