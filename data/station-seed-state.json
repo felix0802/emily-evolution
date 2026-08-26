@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 505,
+  "_rotation_idx": 506,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 47,
@@ -3641,32 +3641,8 @@
   "few-shot": {
     "name": "Few-Shot Learning",
     "total_papers_found": 27,
-    "watering_count": 52,
+    "watering_count": 53,
     "history": [
-      {
-        "timestamp": "2026-07-07T15:06:54.119608",
-        "papers_found": 5,
-        "papers": [
-          {
-            "title": "CATs: Secure Blockchain Interoperability with Cross-chain Atomic Transactions",
-            "summary": "We propose a protocol for cross-chain atomic transactions (CATs), enabling composable atomic execution across different blockchains. The protocol addresses the key interoperability challenge of providing atomicity guarantees in the presence of asynchronous communication and Byzantine actors. It pres",
-            "published": "2026-07-06",
-            "seed_match_score": 0
-          },
-          {
-            "title": "Well-invertible column subsets of sparse matrices are rare",
-            "summary": "A random $n\\times k$ matrix $S$ is an \\emph{$(r,α)$-oblivious subspace injection} (OSI) if $\\Exp\\|S^\\top x\\|_2^2=\\|x\\|_2^2$ for every $x\\in\\R^n$, and for every fixed $r$-dimensional subspace $V\\subset\\R^n$, with probability close to one, one has $α\\|x\\|_2^2\\le\\|S^\\top x\\|_2^2$ for all $x\\in V$. In t",
-            "published": "2026-07-06",
-            "seed_match_score": 0
-          },
-          {
-            "title": "Abstract Color Voronoi Diagrams and Circular Sequences of Color Permutations",
-            "summary": "Abstract Voronoi diagrams are defined in terms of a given system of planar bisecting curves satisfying some simple combinatorial properties. They offer a unifying framework for a wide range of concrete Voronoi instances on generalized sites and metrics. In this paper, we formulate higher-order abstr",
-            "published": "2026-07-06",
-            "seed_match_score": 0
-          }
-        ]
-      },
       {
         "timestamp": "2026-07-08T15:49:12.485144",
         "papers_found": 0,
@@ -4236,6 +4212,15 @@
             "seed_match_score": 1
           }
         ]
+      },
+      {
+        "timestamp": "2026-08-26T14:32:42.269974",
+        "papers_found": 0,
+        "duplicates": 5,
+        "irrelevant_filtered": 5,
+        "avg_relevance": 0.0,
+        "high_relevance": 0,
+        "papers": []
       }
     ],
     "keywords": [
@@ -4245,7 +4230,7 @@
       "prototypical",
       "in-context"
     ],
-    "last_watered": "2026-08-25T18:20:39.896557"
+    "last_watered": "2026-08-26T14:32:42.269970"
   },
   "continual-learning": {
     "name": "Continual Learning",
