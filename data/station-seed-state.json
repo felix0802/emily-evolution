@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 508,
+  "_rotation_idx": 509,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 47,
@@ -5958,8 +5958,8 @@
   },
   "kv-cache": {
     "name": "KV Cache Optimization",
-    "total_papers_found": 62,
-    "watering_count": 48,
+    "total_papers_found": 64,
+    "watering_count": 49,
     "history": [
       {
         "timestamp": "2026-07-15T11:19:09.355556",
@@ -6741,6 +6741,30 @@
         "avg_relevance": 0.0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-08-26T22:33:14.433279",
+        "papers_found": 2,
+        "duplicates": 4,
+        "irrelevant_filtered": 4,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "AgentSpec: Speculative Decoding for Batch Inference of LLM Agents",
+            "summary": "Large language model (LLM)-based agent applications often incur high response time. Speculative decoding is a promising solution to improve the inference efficiency of LLM agents without impacting generation quality. However, state-of-the-art speculative decoding algorithms exhibit substantial speed",
+            "published": "2026-08-25",
+            "url": "http://arxiv.org/abs/2608.24004v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "PuzzleKV: Page-Wise Low-Rank Decomposition for KV Cache Compression",
+            "summary": "Long-context inference in large language models (LLMs) is increasingly limited by the memory required for the key-value (KV) cache. KV cache compression addresses this problem by reducing the storage cost of previous tokens. Among existing approaches, low-rank compression is particularly attractive ",
+            "published": "2026-08-24",
+            "url": "http://arxiv.org/abs/2608.23843v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -6752,7 +6776,7 @@
       "flash attention",
       "speculative decoding"
     ],
-    "last_watered": "2026-08-26T00:33:03.842640"
+    "last_watered": "2026-08-26T22:33:14.433276"
   },
   "gnn": {
     "name": "Graph Neural Networks",

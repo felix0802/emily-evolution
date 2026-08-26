@@ -26905,7 +26905,38 @@
         "supports"
       ],
       "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.24004v1",
+      "title": "AgentSpec: Speculative Decoding for Batch Inference of LLM Agents",
+      "arxiv_id": "2608.24004",
+      "tokens": [
+        "agents",
+        "agentspec",
+        "batch",
+        "decoding",
+        "inference",
+        "llm",
+        "speculative"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.23843v1",
+      "title": "PuzzleKV: Page-Wise Low-Rank Decomposition for KV Cache Compression",
+      "arxiv_id": "2608.23843",
+      "tokens": [
+        "cache",
+        "compression",
+        "decomposition",
+        "low",
+        "page",
+        "puzzlekv",
+        "rank",
+        "wise"
+      ],
+      "first_seen_round": 165
     }
   ],
-  "total_unique": 1674
+  "total_unique": 1676
 }
