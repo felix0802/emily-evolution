@@ -1,27 +1,10 @@
 {
-  "_rotation_idx": 510,
+  "_rotation_idx": 511,
   "mamba": {
     "name": "Mamba (SSM)",
-    "total_papers_found": 47,
-    "watering_count": 54,
+    "total_papers_found": 51,
+    "watering_count": 55,
     "history": [
-      {
-        "timestamp": "2026-07-08T19:45:22.432003",
-        "papers_found": 1,
-        "duplicates": 6,
-        "irrelevant_filtered": 3,
-        "avg_relevance": 1.0,
-        "high_relevance": 0,
-        "papers": [
-          {
-            "title": "Uncertainty-Aware Velocity Correction for Proprioceptive Vehicle Localization using Evidential Mamba",
-            "summary": "Reliable localization in GNSS-denied environments remains a fundamental challenge for intelligent vehicles, as inertial navigation systems accumulate unbounded drift without external correction. Existing approaches provide drift correction through dedicated infrastructure, expensive external sensors",
-            "published": "2026-07-06",
-            "url": "http://arxiv.org/abs/2607.05669v1",
-            "seed_match_score": 1
-          }
-        ]
-      },
       {
         "timestamp": "2026-07-09T21:08:45.630262",
         "papers_found": 0,
@@ -704,6 +687,37 @@
             "seed_match_score": 2
           }
         ]
+      },
+      {
+        "timestamp": "2026-08-27T16:57:27.486620",
+        "papers_found": 4,
+        "duplicates": 5,
+        "irrelevant_filtered": 1,
+        "avg_relevance": 2.0,
+        "high_relevance": 4,
+        "papers": [
+          {
+            "title": "CrossMambaTuning: Synergistic Spatial and Cross-Layer Adaptation for Machine Vision Compression",
+            "summary": "To reduce deployment cost and retraining overhead, adapting pretrained learned image compression (LIC) models to downstream machine vision tasks has attracted growing attention. However, existing methods typically insert fine-tuning modules independently into frozen backbones, lacking explicit mecha",
+            "published": "2026-08-26",
+            "url": "http://arxiv.org/abs/2608.25568v1",
+            "seed_match_score": 2
+          },
+          {
+            "title": "Neither Precision Nor Architecture Alone: Controlled Tests of Failure Remedies for Physics-Informed Neural Networks",
+            "summary": "Physics-Informed Neural Networks (PINNs) frequently fail on stiff or advection-dominated PDEs, and two recent accounts offer competing remedies: switching from FP32 to FP64 to repair an L-BFGS stopping artifact, or replacing the MLP with a state-space-model (SSM) backbone plus sub-sequence alignment",
+            "published": "2026-08-26",
+            "url": "http://arxiv.org/abs/2608.25327v1",
+            "seed_match_score": 2
+          },
+          {
+            "title": "Long-Term Behavioral Evaluation for Trusted Collaborator Selection via Bidirectional Mamba",
+            "summary": "Effective selection of trustworthy collaborators is crucial to ensuring the successful completion of collaborative tasks, which requires accurate assessments of both long-term device behavior and short-term collaborative dynamics. Consistent device behavior patterns, which are learned from historica",
+            "published": "2026-08-25",
+            "url": "http://arxiv.org/abs/2608.25232v1",
+            "seed_match_score": 2
+          }
+        ]
       }
     ],
     "keywords": [
@@ -712,7 +726,7 @@
       "ssm",
       "selective scan"
     ],
-    "last_watered": "2026-08-26T04:28:02.517455"
+    "last_watered": "2026-08-27T16:57:27.486615"
   },
   "liquid-networks": {
     "name": "Liquid Networks",
