@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 509,
+  "_rotation_idx": 510,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 47,
@@ -6780,8 +6780,8 @@
   },
   "gnn": {
     "name": "Graph Neural Networks",
-    "total_papers_found": 105,
-    "watering_count": 49,
+    "total_papers_found": 108,
+    "watering_count": 50,
     "history": [
       {
         "timestamp": "2026-07-15T15:16:02.082257",
@@ -7718,6 +7718,37 @@
             "seed_match_score": 2
           }
         ]
+      },
+      {
+        "timestamp": "2026-08-27T05:23:06.480250",
+        "papers_found": 3,
+        "duplicates": 2,
+        "irrelevant_filtered": 5,
+        "avg_relevance": 2.0,
+        "high_relevance": 3,
+        "papers": [
+          {
+            "title": "MetaSieve: Faster Relational Deep Learning through SQL-Based Metapath Selection",
+            "summary": "Relational Deep Learning (RDL) is an effective approach to machine learning over multi-table relational databases. In RDL, a database is modeled as a graph in which each row is a node and each foreign-key relation is an edge, and a graph neural network (GNN) is trained on this graph. Training a GNN ",
+            "published": "2026-08-26",
+            "url": "http://arxiv.org/abs/2608.25903v1",
+            "seed_match_score": 2
+          },
+          {
+            "title": "Why Does Graph Learning Fail to Fully Benefit from a Text Teacher?",
+            "summary": "Graph neural networks (GNNs) are widely used to represent complex interactions and relationships among entities. We investigate a multimodal model that combines two complementary ideas: a self-supervised method that enables a GNN encoder pretrained on one dataset to operate directly on another datas",
+            "published": "2026-08-26",
+            "url": "http://arxiv.org/abs/2608.25741v1",
+            "seed_match_score": 2
+          },
+          {
+            "title": "Are LLM-Enhanced GNNs Privacy-Safe?",
+            "summary": "Large language models (LLMs) have recently advanced graph neural networks (GNNs) by enriching node representations with semantic information, giving rise to LLM-enhanced GNNs that achieve substantial performance gains. However, their vulnerability to privacy attacks, in which adversaries infer sensi",
+            "published": "2026-08-26",
+            "url": "http://arxiv.org/abs/2608.25727v1",
+            "seed_match_score": 2
+          }
+        ]
       }
     ],
     "keywords": [
@@ -7729,6 +7760,6 @@
       "node embedding",
       "graph transformer"
     ],
-    "last_watered": "2026-08-26T02:55:15.951180"
+    "last_watered": "2026-08-27T05:23:06.480244"
   }
 }
