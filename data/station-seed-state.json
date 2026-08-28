@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 512,
+  "_rotation_idx": 513,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 51,
@@ -1474,18 +1474,9 @@
   },
   "htm": {
     "name": "HTM",
-    "total_papers_found": 86,
-    "watering_count": 54,
+    "total_papers_found": 90,
+    "watering_count": 55,
     "history": [
-      {
-        "timestamp": "2026-07-09T10:12:16.361426",
-        "papers_found": 0,
-        "duplicates": 4,
-        "irrelevant_filtered": 6,
-        "avg_relevance": 0.0,
-        "high_relevance": 0,
-        "papers": []
-      },
       {
         "timestamp": "2026-07-10T07:45:07.338172",
         "papers_found": 0,
@@ -2423,6 +2414,37 @@
             "seed_match_score": 1
           }
         ]
+      },
+      {
+        "timestamp": "2026-08-28T13:27:14.715130",
+        "papers_found": 4,
+        "duplicates": 0,
+        "irrelevant_filtered": 6,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "Compositional Online Learning for Semantic Data Processing Systems",
+            "summary": "An LLM call in a semantic data processing system is expensive enough to dominate query cost, yet slow enough to hide a CPU-side learner's update behind its round-trip. In production, LLM compute accounts for $80-90\\%$ of query cost, and each call costs $10^5-10^7\\times$ a relational predicate. The l",
+            "published": "2026-08-27",
+            "url": "http://arxiv.org/abs/2608.27244v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "TraceBench: Controlled Evaluation of LLM Agents for Time-Series Root-Cause Attribution",
+            "summary": "LLM agents are increasingly applied to anomaly detection and root-cause analysis in time-series observations collected from real-world systems; however, their performance on these tasks has not been systematically evaluated under controlled conditions. We introduce TraceBench, a simulation-based fra",
+            "published": "2026-08-27",
+            "url": "http://arxiv.org/abs/2608.27182v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Feature Transformation Enhanced Jacobi Polynomial Graph Filtering for Graph Anomaly Detection",
+            "summary": "In recent years, graph anomaly detection (GAD) based on frequency-domain filtering have achieved promising results. However, existing approaches still face three major challenges: First, they use static basic function to constructed graph filter which cannot effectively adapt to the frequency-domain",
+            "published": "2026-08-27",
+            "url": "http://arxiv.org/abs/2608.27144v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -2437,7 +2459,7 @@
       "anomaly detection",
       "continuous learning"
     ],
-    "last_watered": "2026-08-26T08:28:20.479822"
+    "last_watered": "2026-08-28T13:27:14.715126"
   },
   "spiking-nn": {
     "name": "Spiking Neural Networks",

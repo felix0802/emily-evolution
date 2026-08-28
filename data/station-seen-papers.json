@@ -27437,7 +27437,375 @@
         "tool"
       ],
       "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.27454v1",
+      "title": "WikiSkill: Compiling Agent Experience into Persistent Knowledge for Skill Evolution",
+      "arxiv_id": "2608.27454",
+      "tokens": [
+        "agent",
+        "compiling",
+        "evolution",
+        "experience",
+        "knowledge",
+        "persistent",
+        "skill",
+        "wikiskill"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.27449v1",
+      "title": "SWE-Prime: Fewer Trajectories, Better Performance",
+      "arxiv_id": "2608.27449",
+      "tokens": [
+        "better",
+        "fewer",
+        "performance",
+        "prime",
+        "swe",
+        "trajectories"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.27442v1",
+      "title": "From Static to Dynamic: Benchmarking Real-World Code Review with MCR-Bench",
+      "arxiv_id": "2608.27442",
+      "tokens": [
+        "bench",
+        "benchmarking",
+        "code",
+        "dynamic",
+        "mcr",
+        "real",
+        "static",
+        "world"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.27439v1",
+      "title": "RedEvoAgent: Automatic Red-Teaming Agent with Experience-Driven Skill Evolution",
+      "arxiv_id": "2608.27439",
+      "tokens": [
+        "agent",
+        "automatic",
+        "driven",
+        "evolution",
+        "experience",
+        "red",
+        "redevoagent",
+        "skill",
+        "teaming"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.27429v1",
+      "title": "Mechanistic Reaction Prediction via Discrete Flow Matching on Graph-Structured Electron Occupation",
+      "arxiv_id": "2608.27429",
+      "tokens": [
+        "discrete",
+        "electron",
+        "flow",
+        "graph",
+        "matching",
+        "mechanistic",
+        "occupation",
+        "prediction",
+        "reaction",
+        "structured"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.27427v1",
+      "title": "Persona-Execution Separation: An Architecture Pattern for Evolving LLM Agents under Execution Audit",
+      "arxiv_id": "2608.27427",
+      "tokens": [
+        "agents",
+        "architecture",
+        "audit",
+        "evolving",
+        "execution",
+        "execution",
+        "llm",
+        "pattern",
+        "persona",
+        "separation"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.27424v1",
+      "title": "Beyond F1: Evaluating Coverage and Failure Recovery in AI Model Security Scanners",
+      "arxiv_id": "2608.27424",
+      "tokens": [
+        "coverage",
+        "evaluating",
+        "failure",
+        "recovery",
+        "scanners",
+        "security"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.27421v1",
+      "title": "Learning a Continuous Sepsis Severity Score Without Hour-by-Hour Supervision: A Two-Site Retrospective Study",
+      "arxiv_id": "2608.27421",
+      "tokens": [
+        "continuous",
+        "hour",
+        "hour",
+        "retrospective",
+        "score",
+        "sepsis",
+        "severity",
+        "site",
+        "supervision"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.27413v1",
+      "title": "Scaling Graph Neural Networks for Friend Recommendation: Multi-Hash User Embeddings and Temporal Neighbor Sampling",
+      "arxiv_id": "2608.27413",
+      "tokens": [
+        "embeddings",
+        "friend",
+        "graph",
+        "hash",
+        "multi",
+        "neighbor",
+        "neural",
+        "recommendation",
+        "sampling",
+        "scaling",
+        "temporal",
+        "user"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.27402v1",
+      "title": "How Language Models Organize and Structure Moral Knowledge",
+      "arxiv_id": "2608.27402",
+      "tokens": [
+        "knowledge",
+        "language",
+        "moral",
+        "organize",
+        "structure"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.27391v1",
+      "title": "CorporateBench: Large-Scale Q&A Benchmarking with Temporal Knowledge Bases",
+      "arxiv_id": "2608.27391",
+      "tokens": [
+        "bases",
+        "benchmarking",
+        "corporatebench",
+        "knowledge",
+        "scale",
+        "temporal"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.27382v1",
+      "title": "Token-Level Advertising",
+      "arxiv_id": "2608.27382",
+      "tokens": [
+        "advertising",
+        "level",
+        "token"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.27372v1",
+      "title": "Universality and sharp thresholds for ellipsoid fitting",
+      "arxiv_id": "2608.27372",
+      "tokens": [
+        "ellipsoid",
+        "fitting",
+        "sharp",
+        "thresholds",
+        "universality"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.27370v1",
+      "title": "Puro-2B: Poor Lab's Qwen2-1.5B Trained on RTX 5090 within $5090",
+      "arxiv_id": "2608.27370",
+      "tokens": [
+        "5090",
+        "5090",
+        "lab",
+        "poor",
+        "puro",
+        "qwen2",
+        "rtx",
+        "trained",
+        "within"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.27351v1",
+      "title": "Understanding Evolution Strategies for LLM Reasoning: Broader Reasoning Coverage than GRPO",
+      "arxiv_id": "2608.27351",
+      "tokens": [
+        "broader",
+        "coverage",
+        "evolution",
+        "grpo",
+        "llm",
+        "reasoning",
+        "reasoning",
+        "strategies",
+        "understanding"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.27455v1",
+      "title": "CritICL: Inference-Time Weak-to-Strong Generalization from Small Language Model Failure Modes",
+      "arxiv_id": "2608.27455",
+      "tokens": [
+        "criticl",
+        "failure",
+        "generalization",
+        "inference",
+        "language",
+        "modes",
+        "strong",
+        "time",
+        "weak"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.27448v1",
+      "title": "TTPO: Test-Time Policy Optimization",
+      "arxiv_id": "2608.27448",
+      "tokens": [
+        "optimization",
+        "policy",
+        "test",
+        "time",
+        "ttpo"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.27428v1",
+      "title": "Stochastic Estimation of Transduced Language Models",
+      "arxiv_id": "2608.27428",
+      "tokens": [
+        "estimation",
+        "language",
+        "stochastic",
+        "transduced"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.27420v1",
+      "title": "Boosting LLM Exploration via Weak-Model Guidance in RLVR",
+      "arxiv_id": "2608.27420",
+      "tokens": [
+        "boosting",
+        "exploration",
+        "guidance",
+        "llm",
+        "rlvr",
+        "weak"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.27409v1",
+      "title": "Consolidating RLVR Capabilities Across Domains: A Deep Dive into Fusion Paradigms",
+      "arxiv_id": "2608.27409",
+      "tokens": [
+        "capabilities",
+        "consolidating",
+        "dive",
+        "domains",
+        "fusion",
+        "paradigms",
+        "rlvr"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.27244v1",
+      "title": "Compositional Online Learning for Semantic Data Processing Systems",
+      "arxiv_id": "2608.27244",
+      "tokens": [
+        "compositional",
+        "online",
+        "processing",
+        "semantic"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.27182v1",
+      "title": "TraceBench: Controlled Evaluation of LLM Agents for Time-Series Root-Cause Attribution",
+      "arxiv_id": "2608.27182",
+      "tokens": [
+        "agents",
+        "attribution",
+        "cause",
+        "controlled",
+        "evaluation",
+        "llm",
+        "root",
+        "series",
+        "time",
+        "tracebench"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.27144v1",
+      "title": "Feature Transformation Enhanced Jacobi Polynomial Graph Filtering for Graph Anomaly Detection",
+      "arxiv_id": "2608.27144",
+      "tokens": [
+        "anomaly",
+        "detection",
+        "enhanced",
+        "feature",
+        "filtering",
+        "graph",
+        "graph",
+        "jacobi",
+        "polynomial",
+        "transformation"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.25706v1",
+      "title": "Fast rates in Bayesian online learning with approximate posteriors",
+      "arxiv_id": "2608.25706",
+      "tokens": [
+        "approximate",
+        "bayesian",
+        "fast",
+        "online",
+        "posteriors",
+        "rates"
+      ],
+      "first_seen_round": 165
     }
   ],
-  "total_unique": 1707
+  "total_unique": 1731
 }
