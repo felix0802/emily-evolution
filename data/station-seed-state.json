@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 513,
+  "_rotation_idx": 514,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 51,
@@ -2463,18 +2463,9 @@
   },
   "spiking-nn": {
     "name": "Spiking Neural Networks",
-    "total_papers_found": 27,
-    "watering_count": 53,
+    "total_papers_found": 28,
+    "watering_count": 54,
     "history": [
-      {
-        "timestamp": "2026-07-09T13:19:55.384488",
-        "papers_found": 0,
-        "duplicates": 10,
-        "irrelevant_filtered": 0,
-        "avg_relevance": 0.0,
-        "high_relevance": 0,
-        "papers": []
-      },
       {
         "timestamp": "2026-07-10T09:32:32.721503",
         "papers_found": 0,
@@ -3040,6 +3031,23 @@
             "seed_match_score": 1
           }
         ]
+      },
+      {
+        "timestamp": "2026-08-28T23:15:24.581374",
+        "papers_found": 1,
+        "duplicates": 8,
+        "irrelevant_filtered": 1,
+        "avg_relevance": 3.0,
+        "high_relevance": 1,
+        "papers": [
+          {
+            "title": "Beyond Edge Cuts: Activity-Weighted Multicast Hypergraph Mapping for Spiking Neural Networks on Mesh NoCs",
+            "summary": "Mapping spiking neural networks (SNNs) onto neuromorphic many-core platforms is often formulated with graph partitioning and pairwise placement costs. That abstraction is convenient, but it does not match the physical communication event: one spike from a source neuron is delivered to a set of posts",
+            "published": "2026-08-26",
+            "url": "http://arxiv.org/abs/2608.26223v1",
+            "seed_match_score": 3
+          }
+        ]
       }
     ],
     "keywords": [
@@ -3048,7 +3056,7 @@
       "neuromorphic",
       "spike-timing"
     ],
-    "last_watered": "2026-08-26T10:22:35.393468"
+    "last_watered": "2026-08-28T23:15:24.581369"
   },
   "non-transformer": {
     "name": "Non-Transformer Arch",
