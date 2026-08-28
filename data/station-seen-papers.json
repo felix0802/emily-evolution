@@ -27307,7 +27307,137 @@
         "state"
       ],
       "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.27206v1",
+      "title": "PACE: A Unified Condense-and-Extract Paradigm for Fast VLM Inference",
+      "arxiv_id": "2608.27206",
+      "tokens": [
+        "condense",
+        "extract",
+        "fast",
+        "inference",
+        "pace",
+        "paradigm",
+        "unified",
+        "vlm"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.27184v1",
+      "title": "LLMs in Digital EDA: A perspective on shifting roles from Generation to Orchestration",
+      "arxiv_id": "2608.27184",
+      "tokens": [
+        "digital",
+        "eda",
+        "generation",
+        "llms",
+        "orchestration",
+        "perspective",
+        "roles",
+        "shifting"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.27176v1",
+      "title": "When Text Misleads: Inconsistent-Aware Reasoning for Audio-Grounded Dialogue",
+      "arxiv_id": "2608.27176",
+      "tokens": [
+        "audio",
+        "aware",
+        "dialogue",
+        "grounded",
+        "inconsistent",
+        "misleads",
+        "reasoning",
+        "text"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.27167v1",
+      "title": "Calibrated Enough to Know, Not Calibrated to Act: Fabricated Evidence Makes LLM Agents Commit to the Unknowable",
+      "arxiv_id": "2608.27167",
+      "tokens": [
+        "act",
+        "agents",
+        "calibrated",
+        "calibrated",
+        "commit",
+        "enough",
+        "evidence",
+        "fabricated",
+        "know",
+        "llm",
+        "makes",
+        "unknowable"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.27150v1",
+      "title": "ANTShapes Benchmarking Datasets for Event-Based Neuromorphic Object Classification",
+      "arxiv_id": "2608.27150",
+      "tokens": [
+        "antshapes",
+        "benchmarking",
+        "classification",
+        "datasets",
+        "event",
+        "neuromorphic",
+        "object"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.27149v1",
+      "title": "BPMN4CAI: A BPMN Extension for Modeling Dynamic Conversational AI",
+      "arxiv_id": "2608.27149",
+      "tokens": [
+        "bpmn",
+        "bpmn4cai",
+        "conversational",
+        "dynamic",
+        "extension",
+        "modeling"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.27147v1",
+      "title": "Thomson: Continual Learning of Frontier Models for SovereignAI",
+      "arxiv_id": "2608.27147",
+      "tokens": [
+        "continual",
+        "frontier",
+        "sovereignai",
+        "thomson"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.27146v1",
+      "title": "When Tool Outputs Become Commands: Separating Action Induction from Runtime Authorization in Tool-Augmented LLM Agents",
+      "arxiv_id": "2608.27146",
+      "tokens": [
+        "action",
+        "agents",
+        "augmented",
+        "authorization",
+        "become",
+        "commands",
+        "induction",
+        "llm",
+        "outputs",
+        "runtime",
+        "separating",
+        "tool",
+        "tool"
+      ],
+      "first_seen_round": 165
     }
   ],
-  "total_unique": 1699
+  "total_unique": 1707
 }
