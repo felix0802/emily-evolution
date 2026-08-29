@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 514,
+  "_rotation_idx": 515,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 51,
@@ -3061,25 +3061,8 @@
   "non-transformer": {
     "name": "Non-Transformer Arch",
     "total_papers_found": 23,
-    "watering_count": 54,
+    "watering_count": 55,
     "history": [
-      {
-        "timestamp": "2026-07-09T15:20:53.914912",
-        "papers_found": 1,
-        "duplicates": 5,
-        "irrelevant_filtered": 4,
-        "avg_relevance": 1.0,
-        "high_relevance": 0,
-        "papers": [
-          {
-            "title": "Sparse Delta Memory: Scaling the State of Linear RNNs through Sparsity",
-            "summary": "Linear attention models allow a fixed state size and a fixed amount of compute per token. However, due to their limited state size, linear attention models fall behind in long-context recall compared to softmax-attention-based transformer architectures. Increasing the state size of linear attention ",
-            "published": "2026-07-08",
-            "url": "http://arxiv.org/abs/2607.07386v1",
-            "seed_match_score": 1
-          }
-        ]
-      },
       {
         "timestamp": "2026-07-10T11:36:15.688082",
         "papers_found": 1,
@@ -3668,6 +3651,15 @@
             "seed_match_score": 1
           }
         ]
+      },
+      {
+        "timestamp": "2026-08-29T04:30:59.236140",
+        "papers_found": 0,
+        "duplicates": 8,
+        "irrelevant_filtered": 2,
+        "avg_relevance": 0.0,
+        "high_relevance": 0,
+        "papers": []
       }
     ],
     "keywords": [
@@ -3680,7 +3672,7 @@
       "sub-quadratic",
       "mamba"
     ],
-    "last_watered": "2026-08-26T12:23:43.214982"
+    "last_watered": "2026-08-29T04:30:59.236135"
   },
   "few-shot": {
     "name": "Few-Shot Learning",
