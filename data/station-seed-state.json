@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 517,
+  "_rotation_idx": 518,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 51,
@@ -5119,8 +5119,8 @@
   },
   "moe": {
     "name": "Mixture of Experts",
-    "total_papers_found": 73,
-    "watering_count": 48,
+    "total_papers_found": 79,
+    "watering_count": 49,
     "history": [
       {
         "timestamp": "2026-07-15T09:46:58.985365",
@@ -5987,6 +5987,37 @@
             "seed_match_score": 2
           }
         ]
+      },
+      {
+        "timestamp": "2026-08-29T18:57:30.654475",
+        "papers_found": 6,
+        "duplicates": 1,
+        "irrelevant_filtered": 3,
+        "avg_relevance": 1.83,
+        "high_relevance": 5,
+        "papers": [
+          {
+            "title": "MM-Spectrum: Multimodal Multi-spectral Molecular Structural Elucidation with a Stable MoE Framework",
+            "summary": "Inferring molecular structures from multimodal spectroscopic measurements requires integrating complementary yet highly heterogeneous signals. However, the common paradigm of directly concatenating multispectral sequences can exhibit anomalous performance degradation, primarily due to pronounced het",
+            "published": "2026-08-27",
+            "url": "http://arxiv.org/abs/2608.27286v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Meta-Learning Where to Allocate Experts: Task-Conditioned Layer-Wise Compression for MoEs",
+            "summary": "Mixture-of-Experts (MoE) models route each token to a subset of expert networks, increasing capacity while keeping per-token computation sparse. In many deployed MoEs, the number of active experts is fixed across layers and tasks, although layer roles and expert redundancy vary with depth and demand",
+            "published": "2026-08-27",
+            "url": "http://arxiv.org/abs/2608.26650v1",
+            "seed_match_score": 2
+          },
+          {
+            "title": "Robust CurveMoE: Multi-Norm Adversarial Defense for Mixture-of-Experts Models via Mode Connectivity",
+            "summary": "Multi-norm adversarial defense aims to protect neural networks against perturbations defined by different norm constraints, but existing methods typically optimize competing robustness objectives within a single parameter configuration, leading to substantial training cost and unfavorable robustness",
+            "published": "2026-08-26",
+            "url": "http://arxiv.org/abs/2608.26043v1",
+            "seed_match_score": 2
+          }
+        ]
       }
     ],
     "keywords": [
@@ -5998,7 +6029,7 @@
       "switch transformer",
       "deepseek"
     ],
-    "last_watered": "2026-08-26T19:29:18.319529"
+    "last_watered": "2026-08-29T18:57:30.654470"
   },
   "kv-cache": {
     "name": "KV Cache Optimization",

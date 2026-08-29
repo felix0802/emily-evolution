@@ -27853,7 +27853,114 @@
         "unifying"
       ],
       "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.27286v1",
+      "title": "MM-Spectrum: Multimodal Multi-spectral Molecular Structural Elucidation with a Stable MoE Framework",
+      "arxiv_id": "2608.27286",
+      "tokens": [
+        "elucidation",
+        "moe",
+        "molecular",
+        "multi",
+        "multimodal",
+        "spectral",
+        "spectrum",
+        "stable",
+        "structural"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.26650v1",
+      "title": "Meta-Learning Where to Allocate Experts: Task-Conditioned Layer-Wise Compression for MoEs",
+      "arxiv_id": "2608.26650",
+      "tokens": [
+        "allocate",
+        "compression",
+        "conditioned",
+        "experts",
+        "layer",
+        "meta",
+        "moes",
+        "task",
+        "wise"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.26043v1",
+      "title": "Robust CurveMoE: Multi-Norm Adversarial Defense for Mixture-of-Experts Models via Mode Connectivity",
+      "arxiv_id": "2608.26043",
+      "tokens": [
+        "adversarial",
+        "connectivity",
+        "curvemoe",
+        "defense",
+        "experts",
+        "mixture",
+        "mode",
+        "multi",
+        "norm",
+        "robust"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.25773v1",
+      "title": "Drift-Aware Multimodal User Representation Learning via Multi-Scale Temporal Modeling and Sparse Mixture-of-Experts",
+      "arxiv_id": "2608.25773",
+      "tokens": [
+        "aware",
+        "drift",
+        "experts",
+        "mixture",
+        "modeling",
+        "multi",
+        "multimodal",
+        "representation",
+        "scale",
+        "sparse",
+        "temporal",
+        "user"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.25276v1",
+      "title": "Groundhog Bit-Flip Attack: Seeding Infinite Generation Loops in Mixture-of-Experts LLMs through Bit Flips",
+      "arxiv_id": "2608.25276",
+      "tokens": [
+        "attack",
+        "bit",
+        "bit",
+        "experts",
+        "flip",
+        "flips",
+        "generation",
+        "groundhog",
+        "infinite",
+        "llms",
+        "loops",
+        "mixture",
+        "seeding"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.25231v1",
+      "title": "Output Dilution: Redundant but Fragile Representations in MoE Models",
+      "arxiv_id": "2608.25231",
+      "tokens": [
+        "dilution",
+        "fragile",
+        "moe",
+        "output",
+        "redundant",
+        "representations"
+      ],
+      "first_seen_round": 165
     }
   ],
-  "total_unique": 1734
+  "total_unique": 1740
 }
