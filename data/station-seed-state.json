@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 516,
+  "_rotation_idx": 517,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 51,
@@ -4278,26 +4278,9 @@
   },
   "continual-learning": {
     "name": "Continual Learning",
-    "total_papers_found": 67,
-    "watering_count": 52,
+    "total_papers_found": 68,
+    "watering_count": 53,
     "history": [
-      {
-        "timestamp": "2026-07-08T17:44:19.850424",
-        "papers_found": 1,
-        "duplicates": 3,
-        "irrelevant_filtered": 6,
-        "avg_relevance": 3.0,
-        "high_relevance": 1,
-        "papers": [
-          {
-            "title": "To Retain or to Adapt? Generalizing Continual Learning",
-            "summary": "The Continual Learning (CL) literature has long been driven by the goal of mitigating catastrophic forgetting. This objective rests on a pervasive, often unstated assumption: that a lifelong learner should approximate the Joint-Task Learning (JTL) solution and retain all previously acquired knowledg",
-            "published": "2026-07-06",
-            "url": "http://arxiv.org/abs/2607.05609v1",
-            "seed_match_score": 3
-          }
-        ]
-      },
       {
         "timestamp": "2026-07-09T20:02:01.895280",
         "papers_found": 3,
@@ -5106,6 +5089,23 @@
             "seed_match_score": 2
           }
         ]
+      },
+      {
+        "timestamp": "2026-08-29T15:50:02.268908",
+        "papers_found": 1,
+        "duplicates": 5,
+        "irrelevant_filtered": 4,
+        "avg_relevance": 2.0,
+        "high_relevance": 1,
+        "papers": [
+          {
+            "title": "Unifying Detection and Adaptation in Task-Free Continual Learning",
+            "summary": "To mitigate catastrophic forgetting in downstream continual learning (CL) for large language models (LLMs), existing methods typically constrain parameter updates or introduce task-specific adaptation modules. However, these methods often rely on explicit task boundaries during training, limiting th",
+            "published": "2026-08-27",
+            "url": "http://arxiv.org/abs/2608.27070v1",
+            "seed_match_score": 2
+          }
+        ]
       }
     ],
     "keywords": [
@@ -5115,7 +5115,7 @@
       "ewc",
       "elastic weight"
     ],
-    "last_watered": "2026-08-26T16:40:10.019006"
+    "last_watered": "2026-08-29T15:50:02.268902"
   },
   "moe": {
     "name": "Mixture of Experts",
