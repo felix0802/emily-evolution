@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 515,
+  "_rotation_idx": 516,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 51,
@@ -3676,18 +3676,9 @@
   },
   "few-shot": {
     "name": "Few-Shot Learning",
-    "total_papers_found": 27,
-    "watering_count": 53,
+    "total_papers_found": 28,
+    "watering_count": 54,
     "history": [
-      {
-        "timestamp": "2026-07-08T15:49:12.485144",
-        "papers_found": 0,
-        "duplicates": 5,
-        "irrelevant_filtered": 5,
-        "avg_relevance": 0.0,
-        "high_relevance": 0,
-        "papers": []
-      },
       {
         "timestamp": "2026-07-09T17:31:37.532885",
         "papers_found": 1,
@@ -4257,6 +4248,23 @@
         "avg_relevance": 0.0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-08-29T11:51:50.543598",
+        "papers_found": 1,
+        "duplicates": 4,
+        "irrelevant_filtered": 5,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "Robust Neural Stimulation Response Modeling Through Meta-Learning and Pretraining",
+            "summary": "Objective: Model-based closed-loop neural stimulation holds promise for therapeutic applications ranging from Parkinson's disease to sensory restoration, but deployment has been limited by two obstacles: 1) forecasting models for predicting the consequences of stimulation fail catastrophically on a ",
+            "published": "2026-08-27",
+            "url": "http://arxiv.org/abs/2608.26649v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -4266,7 +4274,7 @@
       "prototypical",
       "in-context"
     ],
-    "last_watered": "2026-08-26T14:32:42.269970"
+    "last_watered": "2026-08-29T11:51:50.543591"
   },
   "continual-learning": {
     "name": "Continual Learning",
