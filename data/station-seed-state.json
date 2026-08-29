@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 518,
+  "_rotation_idx": 519,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 51,
@@ -6033,8 +6033,8 @@
   },
   "kv-cache": {
     "name": "KV Cache Optimization",
-    "total_papers_found": 64,
-    "watering_count": 49,
+    "total_papers_found": 67,
+    "watering_count": 50,
     "history": [
       {
         "timestamp": "2026-07-15T11:19:09.355556",
@@ -6840,6 +6840,37 @@
             "seed_match_score": 1
           }
         ]
+      },
+      {
+        "timestamp": "2026-08-29T22:04:44.236570",
+        "papers_found": 3,
+        "duplicates": 3,
+        "irrelevant_filtered": 4,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "TwinKV: A Composable Repair Pass for KV Cache Eviction via Pairwise Key Redundancy",
+            "summary": "Long-context inference is bottlenecked by the memory footprint of the key-value (KV) cache, especially for small models under tight resource budgets. Existing KV cache eviction methods score tokens using the model's attention distribution or, in attention-free variants, each key's distance from a gl",
+            "published": "2026-08-27",
+            "url": "http://arxiv.org/abs/2608.27128v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "AsymSpec: Context-Asymmetric Speculative Decoding for Agentic LLMs",
+            "summary": "Agentic LLM pipelines face escalating inference costs as context accumulates across retrieval, tool use, and multi-turn interactions. To control latency, deployments routinely compress inputs, but this degrades task accuracy. Speculative decoding (SD) accelerates generation losslessly, yet it assume",
+            "published": "2026-08-26",
+            "url": "http://arxiv.org/abs/2608.26004v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Trust the Mass: Forced Weights in KV-Cache Eviction",
+            "summary": "Every deployed sparse-attention or KV-cache-eviction rule keeps a subset of the keys, discards the rest, and renormalizes the attention weights over the kept set. Enumerating the exact best subset under that constraint on $168{,}192$ attention rows from five models shows that keeping the largest wei",
+            "published": "2026-08-25",
+            "url": "http://arxiv.org/abs/2608.25230v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -6851,7 +6882,7 @@
       "flash attention",
       "speculative decoding"
     ],
-    "last_watered": "2026-08-26T22:33:14.433276"
+    "last_watered": "2026-08-29T22:04:44.236565"
   },
   "gnn": {
     "name": "Graph Neural Networks",

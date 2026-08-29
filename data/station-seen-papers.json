@@ -27960,7 +27960,53 @@
         "representations"
       ],
       "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.27128v1",
+      "title": "TwinKV: A Composable Repair Pass for KV Cache Eviction via Pairwise Key Redundancy",
+      "arxiv_id": "2608.27128",
+      "tokens": [
+        "cache",
+        "composable",
+        "eviction",
+        "key",
+        "pairwise",
+        "pass",
+        "redundancy",
+        "repair",
+        "twinkv"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.26004v1",
+      "title": "AsymSpec: Context-Asymmetric Speculative Decoding for Agentic LLMs",
+      "arxiv_id": "2608.26004",
+      "tokens": [
+        "agentic",
+        "asymmetric",
+        "asymspec",
+        "context",
+        "decoding",
+        "llms",
+        "speculative"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.25230v1",
+      "title": "Trust the Mass: Forced Weights in KV-Cache Eviction",
+      "arxiv_id": "2608.25230",
+      "tokens": [
+        "cache",
+        "eviction",
+        "forced",
+        "mass",
+        "trust",
+        "weights"
+      ],
+      "first_seen_round": 165
     }
   ],
-  "total_unique": 1740
+  "total_unique": 1743
 }
