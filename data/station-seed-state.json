@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 521,
+  "_rotation_idx": 522,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 51,
@@ -730,26 +730,9 @@
   },
   "liquid-networks": {
     "name": "Liquid Networks",
-    "total_papers_found": 57,
-    "watering_count": 55,
+    "total_papers_found": 58,
+    "watering_count": 56,
     "history": [
-      {
-        "timestamp": "2026-07-09T21:43:07.496356",
-        "papers_found": 1,
-        "duplicates": 8,
-        "irrelevant_filtered": 1,
-        "avg_relevance": 1.0,
-        "high_relevance": 0,
-        "papers": [
-          {
-            "title": "An optimal control approach for neural network architecture adaptation with a posteriori error estimation",
-            "summary": "This work presents a novel approach for adapting neural network architecture along the depth based on a posteriori error estimation. By formulating neural network training as a continuous-time optimal control problem, we derive rigorous error estimates that quantify how approximation error distribut",
-            "published": "2026-07-08",
-            "url": "http://arxiv.org/abs/2607.07637v1",
-            "seed_match_score": 1
-          }
-        ]
-      },
       {
         "timestamp": "2026-07-14T13:04:24.015371",
         "papers_found": 3,
@@ -1461,6 +1444,23 @@
         "avg_relevance": 0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-08-30T13:27:07.922028",
+        "papers_found": 1,
+        "duplicates": 5,
+        "irrelevant_filtered": 4,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "Data-driven Effective Modeling of Stochastic Chemical Reaction Networks",
+            "summary": "The Stochastic Simulation Algorithm (SSA), widely considered an exact algorithm for stochastic chemical reaction networks, suffers from high computational cost. In this work, we propose a data-driven effective model that operates on a user-defined coarse time step independent of the underlying micro",
+            "published": "2026-08-26",
+            "url": "http://arxiv.org/abs/2608.25421v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -1470,7 +1470,7 @@
       "ode",
       "continuous-time"
     ],
-    "last_watered": "2026-08-28T01:50:09.748266"
+    "last_watered": "2026-08-30T13:27:07.922023"
   },
   "htm": {
     "name": "HTM",
