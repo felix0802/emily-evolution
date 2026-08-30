@@ -28006,7 +28006,66 @@
         "weights"
       ],
       "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.27153v1",
+      "title": "Inductive Correlation Clustering with Graph Neural Networks",
+      "arxiv_id": "2608.27153",
+      "tokens": [
+        "clustering",
+        "correlation",
+        "graph",
+        "inductive",
+        "neural"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.26848v1",
+      "title": "MedFG-VQA: Low-Frequency Memory and Graph Attention for Lightweight Medical VQA",
+      "arxiv_id": "2608.26848",
+      "tokens": [
+        "attention",
+        "frequency",
+        "graph",
+        "lightweight",
+        "low",
+        "medfg",
+        "medical",
+        "memory",
+        "vqa",
+        "vqa"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.26732v1",
+      "title": "Rethinking Message Passing as Retrieval for Text-Attributed Graph Learning",
+      "arxiv_id": "2608.26732",
+      "tokens": [
+        "attributed",
+        "graph",
+        "message",
+        "passing",
+        "rethinking",
+        "retrieval",
+        "text"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.26437v1",
+      "title": "Subgraph Filtering for Fair Graph Neural Networks",
+      "arxiv_id": "2608.26437",
+      "tokens": [
+        "fair",
+        "filtering",
+        "graph",
+        "neural",
+        "subgraph"
+      ],
+      "first_seen_round": 165
     }
   ],
-  "total_unique": 1743
+  "total_unique": 1747
 }

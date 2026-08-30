@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 519,
+  "_rotation_idx": 520,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 51,
@@ -6886,8 +6886,8 @@
   },
   "gnn": {
     "name": "Graph Neural Networks",
-    "total_papers_found": 108,
-    "watering_count": 50,
+    "total_papers_found": 112,
+    "watering_count": 51,
     "history": [
       {
         "timestamp": "2026-07-15T15:16:02.082257",
@@ -7855,6 +7855,37 @@
             "seed_match_score": 2
           }
         ]
+      },
+      {
+        "timestamp": "2026-08-30T01:59:55.034953",
+        "papers_found": 4,
+        "duplicates": 3,
+        "irrelevant_filtered": 3,
+        "avg_relevance": 2.0,
+        "high_relevance": 2,
+        "papers": [
+          {
+            "title": "Inductive Correlation Clustering with Graph Neural Networks",
+            "summary": "Correlation Clustering (CC) is a natural formulation of clustering in combinatorial optimization, which uses a graph representation of the input and does not require a pre-specified number of clusters. Given $n$ objects and a pairwise similarity function, the goal is to cluster the objects so that s",
+            "published": "2026-08-27",
+            "url": "http://arxiv.org/abs/2608.27153v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "MedFG-VQA: Low-Frequency Memory and Graph Attention for Lightweight Medical VQA",
+            "summary": "Medical Visual Question Answering (Med-VQA) holds significant promise for clinical decision support, yet faces challenges due to limited annotated data and the high computational demands of existing large vision-language models. We propose MedFG-VQA, a lightweight framework that leverages a memory b",
+            "published": "2026-08-27",
+            "url": "http://arxiv.org/abs/2608.26848v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Rethinking Message Passing as Retrieval for Text-Attributed Graph Learning",
+            "summary": "Graph neural networks (GNNs) are typically conceptualized as message-passing neural networks, yet it remains unclear why neighborhood aggregation reliably outperforms node-wise multilayer perceptrons (MLPs). Despite its empirical success, this paradigm can be computationally expensive and sensitive ",
+            "published": "2026-08-27",
+            "url": "http://arxiv.org/abs/2608.26732v1",
+            "seed_match_score": 3
+          }
+        ]
       }
     ],
     "keywords": [
@@ -7866,6 +7897,6 @@
       "node embedding",
       "graph transformer"
     ],
-    "last_watered": "2026-08-27T05:23:06.480244"
+    "last_watered": "2026-08-30T01:59:55.034948"
   }
 }
