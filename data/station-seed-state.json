@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 525,
+  "_rotation_idx": 526,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 51,
@@ -3669,25 +3669,8 @@
   "few-shot": {
     "name": "Few-Shot Learning",
     "total_papers_found": 28,
-    "watering_count": 54,
+    "watering_count": 55,
     "history": [
-      {
-        "timestamp": "2026-07-09T17:31:37.532885",
-        "papers_found": 1,
-        "duplicates": 4,
-        "irrelevant_filtered": 5,
-        "avg_relevance": 1.0,
-        "high_relevance": 0,
-        "papers": [
-          {
-            "title": "Efficient Long-Horizon Learning for Learned Optimization",
-            "summary": "Learned optimization aims to improve upon hand-designed optimizers (e.g., Adam and Muon) by meta-learning small neural network optimizers over a distribution of tasks. While recent work has greatly advanced the architectural design and inductive biases of learned optimizers (LOs), current meta-train",
-            "published": "2026-07-07",
-            "url": "http://arxiv.org/abs/2607.06772v1",
-            "seed_match_score": 1
-          }
-        ]
-      },
       {
         "timestamp": "2026-07-14T07:47:07.707055",
         "papers_found": 0,
@@ -4257,6 +4240,15 @@
             "seed_match_score": 1
           }
         ]
+      },
+      {
+        "timestamp": "2026-08-31T03:46:46.019688",
+        "papers_found": 0,
+        "duplicates": 5,
+        "irrelevant_filtered": 5,
+        "avg_relevance": 0.0,
+        "high_relevance": 0,
+        "papers": []
       }
     ],
     "keywords": [
@@ -4266,7 +4258,7 @@
       "prototypical",
       "in-context"
     ],
-    "last_watered": "2026-08-29T11:51:50.543591"
+    "last_watered": "2026-08-31T03:46:46.019683"
   },
   "continual-learning": {
     "name": "Continual Learning",
