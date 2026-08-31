@@ -28470,7 +28470,64 @@
         "task"
       ],
       "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.28293v1",
+      "title": "A Probabilistic Interpretation of KV Cache Eviction",
+      "arxiv_id": "2608.28293",
+      "tokens": [
+        "cache",
+        "eviction",
+        "interpretation",
+        "probabilistic"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.28099v1",
+      "title": "Speculative Probing: LLM Monitoring at Speculative-Decoding Cost",
+      "arxiv_id": "2608.28099",
+      "tokens": [
+        "cost",
+        "decoding",
+        "llm",
+        "monitoring",
+        "probing",
+        "speculative",
+        "speculative"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.27514v1",
+      "title": "Trajectory-Level Speculative Decoding for Diffusion Language Models",
+      "arxiv_id": "2608.27514",
+      "tokens": [
+        "decoding",
+        "diffusion",
+        "language",
+        "level",
+        "speculative",
+        "trajectory"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.27513v1",
+      "title": "DAMP: Decay-Aware Mixed-Precision Recurrent-State Quantization",
+      "arxiv_id": "2608.27513",
+      "tokens": [
+        "aware",
+        "damp",
+        "decay",
+        "mixed",
+        "precision",
+        "quantization",
+        "recurrent",
+        "state"
+      ],
+      "first_seen_round": 165
     }
   ],
-  "total_unique": 1773
+  "total_unique": 1777
 }

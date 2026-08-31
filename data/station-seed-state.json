@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 528,
+  "_rotation_idx": 529,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 51,
@@ -6026,8 +6026,8 @@
   },
   "kv-cache": {
     "name": "KV Cache Optimization",
-    "total_papers_found": 67,
-    "watering_count": 50,
+    "total_papers_found": 71,
+    "watering_count": 51,
     "history": [
       {
         "timestamp": "2026-07-15T11:19:09.355556",
@@ -6864,6 +6864,37 @@
             "seed_match_score": 1
           }
         ]
+      },
+      {
+        "timestamp": "2026-08-31T23:28:17.412095",
+        "papers_found": 4,
+        "duplicates": 3,
+        "irrelevant_filtered": 3,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "A Probabilistic Interpretation of KV Cache Eviction",
+            "summary": "The premise and promise of KV (cache) eviction is simple: higher throughput can be achieved by evicting some entries from the KV cache, at a negligible cost to quality. This holds empirically for many existing methods, though most rely on creative heuristics for selecting which entries to drop. Desp",
+            "published": "2026-08-28",
+            "url": "http://arxiv.org/abs/2608.28293v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Speculative Probing: LLM Monitoring at Speculative-Decoding Cost",
+            "summary": "Real-time classification during language model inference is valuable for safety filtering, behavioral analysis, and model monitoring, but current approaches force a trade-off between accuracy and efficiency. Hidden-state probes are fast but limited: they are either not context-aware: operating on a ",
+            "published": "2026-08-28",
+            "url": "http://arxiv.org/abs/2608.28099v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Trajectory-Level Speculative Decoding for Diffusion Language Models",
+            "summary": "Diffusion-based language models (dLLMs) enable parallel token generation through iterative denoising, but existing decoding strategies collapse to single-token generation under low confidence, severely limiting throughput. Unlike autoregressive models where speculative decoding operates on token seq",
+            "published": "2026-08-27",
+            "url": "http://arxiv.org/abs/2608.27514v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -6875,7 +6906,7 @@
       "flash attention",
       "speculative decoding"
     ],
-    "last_watered": "2026-08-29T22:04:44.236565"
+    "last_watered": "2026-08-31T23:28:17.412090"
   },
   "gnn": {
     "name": "Graph Neural Networks",
