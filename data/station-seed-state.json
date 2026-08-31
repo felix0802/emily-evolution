@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 526,
+  "_rotation_idx": 527,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 51,
@@ -4262,40 +4262,9 @@
   },
   "continual-learning": {
     "name": "Continual Learning",
-    "total_papers_found": 68,
-    "watering_count": 53,
+    "total_papers_found": 72,
+    "watering_count": 54,
     "history": [
-      {
-        "timestamp": "2026-07-09T20:02:01.895280",
-        "papers_found": 3,
-        "duplicates": 3,
-        "irrelevant_filtered": 4,
-        "avg_relevance": 1.0,
-        "high_relevance": 0,
-        "papers": [
-          {
-            "title": "Continual Learning With Participation Privacy: An Auditable Buffering-Aggregation Recipe",
-            "summary": "Modern federated and streaming learning systems often release intermediate models, so privacy must hold for the full trajectory under adaptive interaction. Motivated by participation privacy, we study single-edit neighboring user streams, where one insertion/deletion shifts all subsequent updates an",
-            "published": "2026-07-08",
-            "url": "http://arxiv.org/abs/2607.07209v1",
-            "seed_match_score": 1
-          },
-          {
-            "title": "Intrinsic-Noise Consolidation: A Doob-Barrier-Conditioned Diffusion Turns Analog Device Noise into a Continual-Learning Resource",
-            "summary": "On analog neuromorphic hardware, intrinsic device noise is normally an accuracy tax. We ask whether it can instead consolidate memories. We cast per-synapse consolidation as a Doob h-transform: condition each weight's stochastic dynamics on never crossing a memory-critical barrier around its consoli",
-            "published": "2026-07-08",
-            "url": "http://arxiv.org/abs/2607.06924v1",
-            "seed_match_score": 1
-          },
-          {
-            "title": "LoCA: Spatially-Aware Low-Rank Convolutional Adaptation of Vision Foundation Models",
-            "summary": "Pre-trained Vision Foundation Models (VFMs) provide strong visual representations for diverse downstream tasks. The key challenge of VFM adaptation stems from the prohibitive costs of full fine-tuning and catastrophic forgetting. To address this, Low-Rank Adaptation (LoRA) has emerged as the prevail",
-            "published": "2026-07-08",
-            "url": "http://arxiv.org/abs/2607.06918v1",
-            "seed_match_score": 1
-          }
-        ]
-      },
       {
         "timestamp": "2026-07-14T09:51:46.594548",
         "papers_found": 0,
@@ -5090,6 +5059,37 @@
             "seed_match_score": 2
           }
         ]
+      },
+      {
+        "timestamp": "2026-08-31T10:10:55.675906",
+        "papers_found": 4,
+        "duplicates": 2,
+        "irrelevant_filtered": 4,
+        "avg_relevance": 1.25,
+        "high_relevance": 1,
+        "papers": [
+          {
+            "title": "Efficient Online Continual Foundation Model Fine-Tuning for Predictive Process Monitoring",
+            "summary": "Predictive Process Monitoring (PPM) models are increasingly deployed in dynamic environments where concept drift causes the underlying process distribution to shift over time. While recent work has moved toward online continual learning, existing methods train compact, task-specific networks entirel",
+            "published": "2026-08-28",
+            "url": "http://arxiv.org/abs/2608.28237v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Fast Weight Attention for Continual Learning",
+            "summary": "Recurrent fast-weight memories and selective state-space models compress an expanding context into a fixed-size recurrent state, making the state transition an online learning rule. We study this rule under read-after-write autoregressive semantics. For the prefix-prediction objective considered her",
+            "published": "2026-08-27",
+            "url": "http://arxiv.org/abs/2608.27763v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Unsupervised Continual Learning with Growing Self-Organizing Maps and Synthetic Replay",
+            "summary": "This work presents a generative continual learning framework based on growing self-organizing maps (GSOMs) that are augmented with learned distributional statistics as well as encoder-decoder models for class-incremental learning. The proposed approach enables exemplar-free replay using distribution",
+            "published": "2026-08-27",
+            "url": "http://arxiv.org/abs/2608.27662v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -5099,7 +5099,7 @@
       "ewc",
       "elastic weight"
     ],
-    "last_watered": "2026-08-29T15:50:02.268902"
+    "last_watered": "2026-08-31T10:10:55.675902"
   },
   "moe": {
     "name": "Mixture of Experts",
