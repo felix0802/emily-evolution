@@ -668,6 +668,66 @@
         ],
         "decided_at": "2026-09-01T08:57:25.493747"
       }
+    },
+    {
+      "id": "auto-efficient",
+      "name": "Efficient",
+      "adopted_at": "2026-09-01T14:22:37.549749",
+      "decision": {
+        "tech_id": "auto-efficient",
+        "tech_name": "Efficient",
+        "action": "adopt",
+        "confidence": 0.35,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-09-01T14:22:37.548806"
+      }
+    },
+    {
+      "id": "auto-distillation",
+      "name": "Distillation",
+      "adopted_at": "2026-09-01T14:22:37.549762",
+      "decision": {
+        "tech_id": "auto-distillation",
+        "tech_name": "Distillation",
+        "action": "adopt",
+        "confidence": 0.35,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-09-01T14:22:37.548899"
+      }
+    },
+    {
+      "id": "auto-rl",
+      "name": "Rl",
+      "adopted_at": "2026-09-01T14:22:37.549770",
+      "decision": {
+        "tech_id": "auto-rl",
+        "tech_name": "Rl",
+        "action": "adopt",
+        "confidence": 0.35,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-09-01T14:22:37.548978"
+      }
+    },
+    {
+      "id": "auto-lora",
+      "name": "Lora",
+      "adopted_at": "2026-09-01T14:22:37.549777",
+      "decision": {
+        "tech_id": "auto-lora",
+        "tech_name": "Lora",
+        "action": "adopt",
+        "confidence": 0.35,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-09-01T14:22:37.549038"
+      }
     }
   ],
   "history": [
@@ -934,6 +994,30 @@
       "tech_id": "llm-task-conditioned-feature-trans",
       "tech_name": "Task-Conditioned Feature Transformations",
       "timestamp": "2026-09-01T08:57:25.494879"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "auto-efficient",
+      "tech_name": "Efficient",
+      "timestamp": "2026-09-01T14:22:37.549752"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "auto-distillation",
+      "tech_name": "Distillation",
+      "timestamp": "2026-09-01T14:22:37.549764"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "auto-rl",
+      "tech_name": "Rl",
+      "timestamp": "2026-09-01T14:22:37.549771"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "auto-lora",
+      "tech_name": "Lora",
+      "timestamp": "2026-09-01T14:22:37.549778"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 532,
+  "_rotation_idx": 533,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 56,
@@ -1474,18 +1474,9 @@
   },
   "htm": {
     "name": "HTM",
-    "total_papers_found": 90,
-    "watering_count": 56,
+    "total_papers_found": 95,
+    "watering_count": 57,
     "history": [
-      {
-        "timestamp": "2026-07-14T17:43:49.730223",
-        "papers_found": 0,
-        "duplicates": 4,
-        "irrelevant_filtered": 6,
-        "avg_relevance": 0.0,
-        "high_relevance": 0,
-        "papers": []
-      },
       {
         "timestamp": "2026-07-15T03:55:17.562747",
         "papers_found": 1,
@@ -2445,6 +2436,37 @@
         "avg_relevance": 0.0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-09-01T14:22:30.810605",
+        "papers_found": 5,
+        "duplicates": 1,
+        "irrelevant_filtered": 4,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "Generative multi-domain transfer learning for fault detection in data-scarce wind turbines",
+            "summary": "Normal behavior models have shown promise for reliable fault detection in wind turbines. However, these unsupervised anomaly detection models require sufficient fault-free training data to learn the normal operation behavior of turbines. Under data scarcity, for example in newly deployed wind turbin",
+            "published": "2026-08-31",
+            "url": "http://arxiv.org/abs/2608.30323v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Forward-Deployed Full-Stack Engineering for Autonomous Cloud MLOps",
+            "summary": "Across industries, machine-learning systems support applications ranging from prediction and anomaly detection to forecasting, optimization, and scheduling, yet operationalizing these systems requires coordinating application development, model pipelines, cloud infrastructure, security, deployment, ",
+            "published": "2026-08-30",
+            "url": "http://arxiv.org/abs/2608.29615v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Event-triggered Control and Online Learning for Networked Systems under Computational Delays",
+            "summary": "Online learning-based control is a promising approach to control uncertain systems, where unknown components are identified during operation to improve control performance. However, resource-intensive online learning algorithms introduce non-negligible computational delays, especially when executed ",
+            "published": "2026-08-30",
+            "url": "http://arxiv.org/abs/2608.29576v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -2459,7 +2481,7 @@
       "anomaly detection",
       "continuous learning"
     ],
-    "last_watered": "2026-08-30T17:49:19.953711"
+    "last_watered": "2026-09-01T14:22:30.810599"
   },
   "spiking-nn": {
     "name": "Spiking Neural Networks",

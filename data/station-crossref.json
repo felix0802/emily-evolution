@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-01T08:57:28.530705",
+  "timestamp": "2026-09-01T14:22:42.001478",
   "connections": [
     {
       "seed_a": "Mamba (SSM)",
@@ -15,7 +15,7 @@
         "with"
       ],
       "strength": 7,
-      "discovered_at": "2026-09-01T08:57:28.530563"
+      "discovered_at": "2026-09-01T14:22:42.001326"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -31,7 +31,7 @@
         "with"
       ],
       "strength": 7,
-      "discovered_at": "2026-09-01T08:57:28.530570"
+      "discovered_at": "2026-09-01T14:22:42.001334"
     },
     {
       "seed_a": "Liquid Networks",
@@ -47,7 +47,7 @@
         "with"
       ],
       "strength": 7,
-      "discovered_at": "2026-09-01T08:57:28.530595"
+      "discovered_at": "2026-09-01T14:22:42.001359"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -62,22 +62,7 @@
         "with"
       ],
       "strength": 6,
-      "discovered_at": "2026-09-01T08:57:28.530537"
-    },
-    {
-      "seed_a": "Mamba (SSM)",
-      "seed_b": "HTM",
-      "shared_keywords": [],
-      "shared_paper_concepts": [
-        "controlled",
-        "data",
-        "driven",
-        "evaluation",
-        "graph",
-        "state"
-      ],
-      "strength": 6,
-      "discovered_at": "2026-09-01T08:57:28.530545"
+      "discovered_at": "2026-09-01T14:22:42.001297"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -91,35 +76,21 @@
         "vision"
       ],
       "strength": 6,
-      "discovered_at": "2026-09-01T08:57:28.530553"
+      "discovered_at": "2026-09-01T14:22:42.001315"
     },
     {
-      "seed_a": "Liquid Networks",
+      "seed_a": "Mamba (SSM)",
       "seed_b": "HTM",
       "shared_keywords": [],
       "shared_paper_concepts": [
+        "controlled",
         "data",
-        "driven",
-        "enhanced",
-        "time",
-        "training"
+        "evaluation",
+        "event",
+        "graph"
       ],
       "strength": 5,
-      "discovered_at": "2026-09-01T08:57:28.530575"
-    },
-    {
-      "seed_a": "HTM",
-      "seed_b": "Continual Learning",
-      "shared_keywords": [],
-      "shared_paper_concepts": [
-        "alternating",
-        "detection",
-        "learning",
-        "online",
-        "predictive"
-      ],
-      "strength": 5,
-      "discovered_at": "2026-09-01T08:57:28.530642"
+      "discovered_at": "2026-09-01T14:22:42.001307"
     },
     {
       "seed_a": "Continual Learning",
@@ -133,7 +104,7 @@
         "with"
       ],
       "strength": 5,
-      "discovered_at": "2026-09-01T08:57:28.530688"
+      "discovered_at": "2026-09-01T14:22:42.001461"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -146,7 +117,33 @@
         "neural"
       ],
       "strength": 4,
-      "discovered_at": "2026-09-01T08:57:28.530550"
+      "discovered_at": "2026-09-01T14:22:42.001312"
+    },
+    {
+      "seed_a": "Mamba (SSM)",
+      "seed_b": "KV Cache Optimization",
+      "shared_keywords": [],
+      "shared_paper_concepts": [
+        "compression",
+        "diffusion",
+        "language",
+        "models"
+      ],
+      "strength": 4,
+      "discovered_at": "2026-09-01T14:22:42.001330"
+    },
+    {
+      "seed_a": "HTM",
+      "seed_b": "Continual Learning",
+      "shared_keywords": [],
+      "shared_paper_concepts": [
+        "detection",
+        "learning",
+        "online",
+        "under"
+      ],
+      "strength": 4,
+      "discovered_at": "2026-09-01T14:22:42.001413"
     }
   ],
   "total_seeds": 10

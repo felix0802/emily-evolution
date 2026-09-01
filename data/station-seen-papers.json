@@ -29540,7 +29540,311 @@
         "straight"
       ],
       "first_seen_round": 166
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.31046v1",
+      "title": "Does On-Policy Distillation Really Distill? From Noisy Teacher to Self-Improvement",
+      "arxiv_id": "2608.31046",
+      "tokens": [
+        "distill",
+        "distillation",
+        "improvement",
+        "noisy",
+        "policy",
+        "really",
+        "self",
+        "teacher"
+      ],
+      "first_seen_round": 167
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.31036v1",
+      "title": "Normalized Low-Rank Adaptation",
+      "arxiv_id": "2608.31036",
+      "tokens": [
+        "adaptation",
+        "low",
+        "normalized",
+        "rank"
+      ],
+      "first_seen_round": 167
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.30952v1",
+      "title": "One Policy Is Enough: Single-Agent Reinforcement Learning Outperforms Tree Search for Chemistry Tool Learning",
+      "arxiv_id": "2608.30952",
+      "tokens": [
+        "agent",
+        "chemistry",
+        "enough",
+        "outperforms",
+        "policy",
+        "reinforcement",
+        "search",
+        "single",
+        "tool",
+        "tree"
+      ],
+      "first_seen_round": 167
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.30910v1",
+      "title": "S3C-LLM: Skill-Code Guided Agentic Language Models for Spectrum-to-Structure Elucidation",
+      "arxiv_id": "2608.30910",
+      "tokens": [
+        "agentic",
+        "code",
+        "elucidation",
+        "guided",
+        "language",
+        "llm",
+        "s3c",
+        "skill",
+        "spectrum",
+        "structure"
+      ],
+      "first_seen_round": 167
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.30765v1",
+      "title": "T3S: Improving Multi-Task Reinforcement Learning with Task-Specific Feature Selector and Scheduler",
+      "arxiv_id": "2608.30765",
+      "tokens": [
+        "feature",
+        "improving",
+        "multi",
+        "reinforcement",
+        "scheduler",
+        "selector",
+        "specific",
+        "t3s",
+        "task",
+        "task"
+      ],
+      "first_seen_round": 167
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.31069v1",
+      "title": "A Model with No Head and Many Thoughts",
+      "arxiv_id": "2608.31069",
+      "tokens": [
+        "head",
+        "many",
+        "thoughts"
+      ],
+      "first_seen_round": 167
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.30903v1",
+      "title": "MMDS-Bench: Benchmarking Multimodal Large Language Models on Dynamic Stance in Social Media Interactions",
+      "arxiv_id": "2608.30903",
+      "tokens": [
+        "bench",
+        "benchmarking",
+        "dynamic",
+        "interactions",
+        "language",
+        "media",
+        "mmds",
+        "multimodal",
+        "social",
+        "stance"
+      ],
+      "first_seen_round": 167
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.30902v1",
+      "title": "Low-Resource Preference Adaptation of LLMs via Activation-Based Label Propagation",
+      "arxiv_id": "2608.30902",
+      "tokens": [
+        "activation",
+        "adaptation",
+        "label",
+        "llms",
+        "low",
+        "preference",
+        "propagation",
+        "resource"
+      ],
+      "first_seen_round": 167
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.31053v1",
+      "title": "Identity-Conditioned Latent Consistency Distillation for Face Synthesis",
+      "arxiv_id": "2608.31053",
+      "tokens": [
+        "conditioned",
+        "consistency",
+        "distillation",
+        "face",
+        "identity",
+        "latent",
+        "synthesis"
+      ],
+      "first_seen_round": 167
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.30603v1",
+      "title": "DiffSAC: Diffusion-guided Sampling for Consensus-based Robust Estimation",
+      "arxiv_id": "2608.30603",
+      "tokens": [
+        "consensus",
+        "diffsac",
+        "diffusion",
+        "estimation",
+        "guided",
+        "robust",
+        "sampling"
+      ],
+      "first_seen_round": 167
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.30194v1",
+      "title": "NoisEasier: Test-Time Noise Optimization for Text-to-Video Generation",
+      "arxiv_id": "2608.30194",
+      "tokens": [
+        "generation",
+        "noise",
+        "noiseasier",
+        "optimization",
+        "test",
+        "text",
+        "time",
+        "video"
+      ],
+      "first_seen_round": 167
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.29910v1",
+      "title": "Matrix-Game 3.5: Enhancing Real-Time Streaming Interactive World Models with Patch Memory",
+      "arxiv_id": "2608.29910",
+      "tokens": [
+        "enhancing",
+        "game",
+        "interactive",
+        "matrix",
+        "memory",
+        "patch",
+        "real",
+        "streaming",
+        "time",
+        "world"
+      ],
+      "first_seen_round": 167
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.29346v1",
+      "title": "GSPotential: Camera Potential Field for Sparse-View 3D Gaussian Splatting",
+      "arxiv_id": "2608.29346",
+      "tokens": [
+        "camera",
+        "field",
+        "gaussian",
+        "gspotential",
+        "potential",
+        "sparse",
+        "splatting",
+        "view"
+      ],
+      "first_seen_round": 167
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.29322v1",
+      "title": "Test-Time Scaling for Video Diffusion Models via Diagnosis-Guided Candidate Recycling",
+      "arxiv_id": "2608.29322",
+      "tokens": [
+        "candidate",
+        "diagnosis",
+        "diffusion",
+        "guided",
+        "recycling",
+        "scaling",
+        "test",
+        "time",
+        "video"
+      ],
+      "first_seen_round": 167
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.30323v1",
+      "title": "Generative multi-domain transfer learning for fault detection in data-scarce wind turbines",
+      "arxiv_id": "2608.30323",
+      "tokens": [
+        "detection",
+        "domain",
+        "fault",
+        "generative",
+        "multi",
+        "scarce",
+        "transfer",
+        "turbines",
+        "wind"
+      ],
+      "first_seen_round": 167
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.29615v1",
+      "title": "Forward-Deployed Full-Stack Engineering for Autonomous Cloud MLOps",
+      "arxiv_id": "2608.29615",
+      "tokens": [
+        "autonomous",
+        "cloud",
+        "deployed",
+        "engineering",
+        "forward",
+        "full",
+        "mlops",
+        "stack"
+      ],
+      "first_seen_round": 167
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.29576v1",
+      "title": "Event-triggered Control and Online Learning for Networked Systems under Computational Delays",
+      "arxiv_id": "2608.29576",
+      "tokens": [
+        "computational",
+        "control",
+        "delays",
+        "event",
+        "networked",
+        "online",
+        "triggered"
+      ],
+      "first_seen_round": 167
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.29562v1",
+      "title": "Asynchronous Cooperative Online Learning for Multi-Robot Control under Computational Delays",
+      "arxiv_id": "2608.29562",
+      "tokens": [
+        "asynchronous",
+        "computational",
+        "control",
+        "cooperative",
+        "delays",
+        "multi",
+        "online",
+        "robot"
+      ],
+      "first_seen_round": 167
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.28375v1",
+      "title": "Localizing Global Discrepancies: Marginal Contributions and Contextual Anomaly Detection",
+      "arxiv_id": "2608.28375",
+      "tokens": [
+        "anomaly",
+        "contextual",
+        "contributions",
+        "detection",
+        "discrepancies",
+        "global",
+        "localizing",
+        "marginal"
+      ],
+      "first_seen_round": 167
     }
   ],
-  "total_unique": 1839
+  "total_unique": 1858
 }

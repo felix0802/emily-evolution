@@ -153,6 +153,28 @@
           0.49
         ]
       ]
+    },
+    {
+      "round": 167,
+      "timestamp": "2026-09-01T14:22:30.824868",
+      "prediction_error": 0.5,
+      "seeds_active": 10,
+      "seeds_dormant": 0,
+      "new_seeds_added": 0,
+      "top_motivated": [
+        [
+          "mamba",
+          0.49
+        ],
+        [
+          "liquid-networks",
+          0.49
+        ],
+        [
+          "htm",
+          0.49
+        ]
+      ]
     }
   ],
   "seed_scores": {
@@ -162,6 +184,7 @@
       "novelty": 1.0,
       "motivation_score": 0.49,
       "info_gain_history": [
+        0.1,
         0.1,
         0.1,
         0.1,
@@ -183,6 +206,7 @@
         0.1,
         0.1,
         0.1,
+        0.1,
         0.1
       ]
     },
@@ -192,6 +216,7 @@
       "novelty": 1.0,
       "motivation_score": 0.49,
       "info_gain_history": [
+        0.1,
         0.1,
         0.1,
         0.1,
@@ -213,6 +238,7 @@
         0.1,
         0.1,
         0.1,
+        0.1,
         0.1
       ]
     },
@@ -222,6 +248,7 @@
       "novelty": 1.0,
       "motivation_score": 0.49,
       "info_gain_history": [
+        0.1,
         0.1,
         0.1,
         0.1,
@@ -243,6 +270,7 @@
         0.1,
         0.1,
         0.1,
+        0.1,
         0.1
       ]
     },
@@ -252,6 +280,7 @@
       "novelty": 1.0,
       "motivation_score": 0.49,
       "info_gain_history": [
+        0.1,
         0.1,
         0.1,
         0.1,
@@ -273,6 +302,7 @@
         0.1,
         0.1,
         0.1,
+        0.1,
         0.1
       ]
     },
@@ -287,6 +317,7 @@
         0.5,
         0.5,
         0.5,
+        0.1,
         0.1,
         0.1
       ]
@@ -303,12 +334,13 @@
         0.5,
         0.5,
         0.1,
+        0.1,
         0.1
       ]
     }
   },
   "auto_created_seeds": [],
   "dormant_seeds": [],
-  "total_motivation_evaluations": 7,
+  "total_motivation_evaluations": 8,
   "current_prediction_error": 0.5
 }

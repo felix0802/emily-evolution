@@ -1,37 +1,6 @@
 {
   "sessions": [
     {
-      "timestamp": "2026-07-02T22:46:02.640891",
-      "arxiv_papers_count": 20,
-      "arxiv_top_keywords": [
-        "llm",
-        "learning",
-        "theoria",
-        "verification",
-        "offer",
-        "cannot",
-        "state",
-        "prediction",
-        "separation",
-        "hypothesis"
-      ],
-      "huggingface_models_tracked": 10,
-      "huggingface_top_tasks": [
-        "sentence-similarity",
-        "fill-mask",
-        "text-ranking",
-        "feature-extraction",
-        "unknown"
-      ],
-      "ml_benchmarks_run": 10,
-      "ml_top_classifier": "RandomForest",
-      "evolution": {
-        "techniques_discovered": 0,
-        "techniques_adopted": 0,
-        "decisions": 0
-      }
-    },
-    {
       "timestamp": "2026-07-02T23:12:12.764374",
       "arxiv_papers_count": 20,
       "arxiv_top_keywords": [
@@ -3873,12 +3842,54 @@
         "seed_name": "Liquid Networks",
         "papers_found": 8
       }
+    },
+    {
+      "timestamp": "2026-09-01T14:22:41.988138",
+      "arxiv_papers_count": 17,
+      "arxiv_top_keywords": [
+        "learning",
+        "time",
+        "policy",
+        "low",
+        "diffusion",
+        "generation",
+        "test",
+        "teacher",
+        "supervision",
+        "student"
+      ],
+      "arxiv_strategies": [
+        "搜索: reinforcement learning",
+        "搜索: large language model",
+        "搜索: diffusion model"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "fill-mask",
+        "unknown",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [],
+      "ml_total_tests": 0,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 15,
+        "adopted": 4,
+        "decisions": 4
+      },
+      "seed_watering": {
+        "seed_name": "HTM",
+        "papers_found": 6
+      }
     }
   ],
   "total_sessions": 101,
-  "last_updated": "2026-09-01T08:57:28.517883",
+  "last_updated": "2026-09-01T14:22:41.988154",
   "evolution_summary": {
-    "total_adopted": 44,
+    "total_adopted": 48,
     "adopted_list": [
       "Knowledge Distillation",
       "World Models / Model-Based RL",
@@ -3923,7 +3934,11 @@
       "细粒度对象幻觉基准",
       "隐藏状态轨迹几何分析",
       "3D Gaussian Splatting",
-      "Task-Conditioned Feature Transformations"
+      "Task-Conditioned Feature Transformations",
+      "Efficient",
+      "Distillation",
+      "Rl",
+      "Lora"
     ],
     "seeds": {
       "mamba": {
@@ -3938,8 +3953,8 @@
       },
       "htm": {
         "name": "HTM",
-        "watering": 56,
-        "papers": 90
+        "watering": 57,
+        "papers": 95
       },
       "spiking-nn": {
         "name": "Spiking Neural Networks",
@@ -4030,18 +4045,18 @@
       },
       "htm": {
         "name": "HTM",
-        "new_papers": 85,
+        "new_papers": 90,
         "keywords_matched": [
+          "predictive coding",
+          "cortical",
           "sequence memory",
           "anomaly detection",
-          "predictive coding",
-          "sparse distributed",
-          "online learning",
           "hierarchical temporal",
-          "cortical"
+          "sparse distributed",
+          "online learning"
         ],
         "high_relevance_total": 3,
-        "avg_relevance_latest": 0.0,
+        "avg_relevance_latest": 1.0,
         "best_papers_count": 0
       },
       "non-transformer": {
@@ -4118,6 +4133,6 @@
         "best_papers_count": 1
       }
     },
-    "last_evolution": "2026-09-01T08:57:28.520065"
+    "last_evolution": "2026-09-01T14:22:41.990378"
   }
 }
