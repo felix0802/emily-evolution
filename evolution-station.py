@@ -611,7 +611,7 @@ def check_ollama():
     except:
         return False, []
 
-def call_ollama(prompt, system_prompt="", timeout_sec=60):
+def call_ollama(prompt, system_prompt="", timeout_sec=60, max_tokens=None, temperature=None):
     """调用 Ollama LLM"""
     full_prompt = prompt
     if system_prompt:
@@ -621,7 +621,8 @@ def call_ollama(prompt, system_prompt="", timeout_sec=60):
         "model": OLLAMA_MODEL,
         "prompt": full_prompt,
         "stream": False,
-        "options": {"temperature": 0.3, "num_predict": 512}
+        "options": {"temperature": temperature if temperature is not None else 0.3,
+                    "num_predict": max_tokens if max_tokens is not None else 512}
     }).encode()
 
     try:
@@ -634,7 +635,7 @@ def call_ollama(prompt, system_prompt="", timeout_sec=60):
         return f"[LLM_ERROR: {str(e)[:60]}]"
 
 # P0: 云端 LLM (SiliconFlow) 回退
-def call_cloud_llm(prompt, system_prompt="", timeout_sec=60):
+def call_cloud_llm(prompt, system_prompt="", timeout_sec=60, max_tokens=None, temperature=None):
     """调用 SiliconFlow 云端 LLM (OpenAI 兼容格式，qwen2.5-7b 免费额度)"""
     if not SILICONFLOW_API_KEY:
         return None
@@ -647,8 +648,8 @@ def call_cloud_llm(prompt, system_prompt="", timeout_sec=60):
     payload = json.dumps({
         "model": SILICONFLOW_MODEL,
         "messages": messages,
-        "temperature": 0.3,
-        "max_tokens": 1024,
+        "temperature": temperature if temperature is not None else 0.3,
+        "max_tokens": max_tokens if max_tokens is not None else 1024,
     }).encode()
 
     try:
@@ -668,7 +669,7 @@ def call_cloud_llm(prompt, system_prompt="", timeout_sec=60):
     except Exception as e:
         return f"[CLOUD_LLM_ERROR: {str(e)[:60]}]"
 
-def call_deepseek(prompt, system_prompt="", timeout_sec=60):
+def call_deepseek(prompt, system_prompt="", timeout_sec=60, max_tokens=None, temperature=None):
     """调用 DeepSeek API (OpenAI 兼容格式, deepseek-chat V3.2)"""
     if not DEEPSEEK_API_KEY:
         return None
@@ -681,8 +682,8 @@ def call_deepseek(prompt, system_prompt="", timeout_sec=60):
     payload = json.dumps({
         "model": DEEPSEEK_MODEL,
         "messages": messages,
-        "temperature": 0.3,
-        "max_tokens": 1024,
+        "temperature": temperature if temperature is not None else 0.3,
+        "max_tokens": max_tokens if max_tokens is not None else 1024,
     }).encode()
 
     try:
@@ -703,24 +704,24 @@ def call_deepseek(prompt, system_prompt="", timeout_sec=60):
         return f"[DEEPSEEK_ERROR: {str(e)[:60]}]"
 
 
-def call_llm_smart(prompt, system_prompt="", timeout_sec=60):
+def call_llm_smart(prompt, system_prompt="", timeout_sec=60, max_tokens=None, temperature=None):
     """智能 LLM 调用：优先 Ollama → DeepSeek → SiliconFlow → 无"""
     # 先试 Ollama
     ollama_ok, _ = check_ollama()
     if ollama_ok:
-        result = call_ollama(prompt, system_prompt, timeout_sec)
+        result = call_ollama(prompt, system_prompt, timeout_sec, max_tokens, temperature)
         if result and not result.startswith("[LLM_ERROR"):
             return result, "ollama"
 
     # 回退到 DeepSeek (已充值，優先使用)
     if DEEPSEEK_API_KEY:
-        result = call_deepseek(prompt, system_prompt, timeout_sec)
+        result = call_deepseek(prompt, system_prompt, timeout_sec, max_tokens, temperature)
         if result and not result.startswith("[DEEPSEEK_ERROR"):
             return result, "deepseek"
 
     # 最後回退到 SiliconFlow
     if SILICONFLOW_API_KEY:
-        result = call_cloud_llm(prompt, system_prompt, timeout_sec)
+        result = call_cloud_llm(prompt, system_prompt, timeout_sec, max_tokens, temperature)
         if result and not result.startswith("[CLOUD_LLM_ERROR"):
             return result, "siliconflow"
 
