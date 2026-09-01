@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 529,
+  "_rotation_idx": 530,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 51,
@@ -6910,8 +6910,8 @@
   },
   "gnn": {
     "name": "Graph Neural Networks",
-    "total_papers_found": 112,
-    "watering_count": 51,
+    "total_papers_found": 119,
+    "watering_count": 52,
     "history": [
       {
         "timestamp": "2026-07-15T15:16:02.082257",
@@ -7910,6 +7910,37 @@
             "seed_match_score": 3
           }
         ]
+      },
+      {
+        "timestamp": "2026-09-01T02:17:54.645699",
+        "papers_found": 7,
+        "duplicates": 1,
+        "irrelevant_filtered": 2,
+        "avg_relevance": 1.57,
+        "high_relevance": 4,
+        "papers": [
+          {
+            "title": "Beamforming Design Via GNN in mmWave Cell-Free Massive MIMO Using Sub-6 GHz CSI",
+            "summary": "Beamforming methods in millimeter-wave (mmWave) cell-free massive multiple-input multiple-output (CFmMIMO) systems require accurate channel state information (CSI), whose acquisition entails significant training overhead. This paper shows that fully digital cell-free mmWave beamforming can be effect",
+            "published": "2026-08-31",
+            "url": "http://arxiv.org/abs/2608.30524v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Converse and Collision-Based Achievability for Node Localization with Hybrid Distance-Spectral Graph Positional Encodings",
+            "summary": "Graph positional encodings are widely used in graph neural networks and graph Transformers, yet it remains unclear when the code itself can identify nodes. We study a hybrid distance-spectral encoding that combines anchor-distance profiles with quantized low-frequency Laplacian-energy coordinates. T",
+            "published": "2026-08-31",
+            "url": "http://arxiv.org/abs/2608.30152v1",
+            "seed_match_score": 2
+          },
+          {
+            "title": "Graph4BiLO: Graph Neural Network Approximation for Bilevel Mixed-Integer Linear Optimization",
+            "summary": "Bilevel mixed-integer linear optimization problems model hierarchical decision processes in which a leader anticipates the optimal response of a follower. Although expressive, these problems are computationally challenging because lower-level optimality is embedded in the leader's feasible region. V",
+            "published": "2026-08-31",
+            "url": "http://arxiv.org/abs/2608.30103v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -7921,6 +7952,6 @@
       "node embedding",
       "graph transformer"
     ],
-    "last_watered": "2026-08-30T01:59:55.034948"
+    "last_watered": "2026-09-01T02:17:54.645694"
   }
 }
