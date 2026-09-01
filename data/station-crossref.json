@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-01T14:22:42.001478",
+  "timestamp": "2026-09-01T18:55:41.703761",
   "connections": [
     {
       "seed_a": "Mamba (SSM)",
@@ -15,7 +15,7 @@
         "with"
       ],
       "strength": 7,
-      "discovered_at": "2026-09-01T14:22:42.001326"
+      "discovered_at": "2026-09-01T18:55:41.703597"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -31,7 +31,7 @@
         "with"
       ],
       "strength": 7,
-      "discovered_at": "2026-09-01T14:22:42.001334"
+      "discovered_at": "2026-09-01T18:55:41.703605"
     },
     {
       "seed_a": "Liquid Networks",
@@ -47,7 +47,7 @@
         "with"
       ],
       "strength": 7,
-      "discovered_at": "2026-09-01T14:22:42.001359"
+      "discovered_at": "2026-09-01T18:55:41.703664"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -62,7 +62,7 @@
         "with"
       ],
       "strength": 6,
-      "discovered_at": "2026-09-01T14:22:42.001297"
+      "discovered_at": "2026-09-01T18:55:41.703570"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -76,7 +76,7 @@
         "vision"
       ],
       "strength": 6,
-      "discovered_at": "2026-09-01T14:22:42.001315"
+      "discovered_at": "2026-09-01T18:55:41.703586"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -90,7 +90,21 @@
         "graph"
       ],
       "strength": 5,
-      "discovered_at": "2026-09-01T14:22:42.001307"
+      "discovered_at": "2026-09-01T18:55:41.703579"
+    },
+    {
+      "seed_a": "Mamba (SSM)",
+      "seed_b": "Spiking Neural Networks",
+      "shared_keywords": [],
+      "shared_paper_concepts": [
+        "activity",
+        "networks",
+        "neural",
+        "neuromorphic",
+        "with"
+      ],
+      "strength": 5,
+      "discovered_at": "2026-09-01T18:55:41.703583"
     },
     {
       "seed_a": "Continual Learning",
@@ -104,20 +118,7 @@
         "with"
       ],
       "strength": 5,
-      "discovered_at": "2026-09-01T14:22:42.001461"
-    },
-    {
-      "seed_a": "Mamba (SSM)",
-      "seed_b": "Spiking Neural Networks",
-      "shared_keywords": [],
-      "shared_paper_concepts": [
-        "activity",
-        "framework",
-        "networks",
-        "neural"
-      ],
-      "strength": 4,
-      "discovered_at": "2026-09-01T14:22:42.001312"
+      "discovered_at": "2026-09-01T18:55:41.703745"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -130,7 +131,7 @@
         "models"
       ],
       "strength": 4,
-      "discovered_at": "2026-09-01T14:22:42.001330"
+      "discovered_at": "2026-09-01T18:55:41.703601"
     },
     {
       "seed_a": "HTM",
@@ -143,7 +144,7 @@
         "under"
       ],
       "strength": 4,
-      "discovered_at": "2026-09-01T14:22:42.001413"
+      "discovered_at": "2026-09-01T18:55:41.703697"
     }
   ],
   "total_seeds": 10

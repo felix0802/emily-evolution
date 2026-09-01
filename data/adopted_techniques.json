@@ -728,6 +728,21 @@
         ],
         "decided_at": "2026-09-01T14:22:37.549038"
       }
+    },
+    {
+      "id": "llm-llm-guided-bilevel-program-evo",
+      "name": "LLM-guided bilevel program evolution",
+      "adopted_at": "2026-09-01T18:55:41.687033",
+      "decision": {
+        "tech_id": "llm-llm-guided-bilevel-program-evo",
+        "tech_name": "LLM-guided bilevel program evolution",
+        "action": "adopt",
+        "confidence": 0.8,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-09-01T18:55:41.685960"
+      }
     }
   ],
   "history": [
@@ -1018,6 +1033,12 @@
       "tech_id": "auto-lora",
       "tech_name": "Lora",
       "timestamp": "2026-09-01T14:22:37.549778"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-llm-guided-bilevel-program-evo",
+      "tech_name": "LLM-guided bilevel program evolution",
+      "timestamp": "2026-09-01T18:55:41.687037"
     }
   ]
 }

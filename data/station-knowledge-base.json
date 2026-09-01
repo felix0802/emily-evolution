@@ -1,37 +1,6 @@
 {
   "sessions": [
     {
-      "timestamp": "2026-07-02T23:12:12.764374",
-      "arxiv_papers_count": 20,
-      "arxiv_top_keywords": [
-        "llm",
-        "learning",
-        "theoria",
-        "verification",
-        "offer",
-        "cannot",
-        "state",
-        "prediction",
-        "separation",
-        "hypothesis"
-      ],
-      "huggingface_models_tracked": 10,
-      "huggingface_top_tasks": [
-        "sentence-similarity",
-        "fill-mask",
-        "text-ranking",
-        "feature-extraction",
-        "unknown"
-      ],
-      "ml_benchmarks_run": 10,
-      "ml_top_classifier": "RandomForest",
-      "evolution": {
-        "techniques_discovered": 0,
-        "techniques_adopted": 0,
-        "decisions": 0
-      }
-    },
-    {
       "timestamp": "2026-07-03T13:47:58.561576",
       "arxiv_papers_count": 5,
       "arxiv_top_keywords": [
@@ -3884,12 +3853,54 @@
         "seed_name": "HTM",
         "papers_found": 6
       }
+    },
+    {
+      "timestamp": "2026-09-01T18:55:41.690612",
+      "arxiv_papers_count": 18,
+      "arxiv_top_keywords": [
+        "agent",
+        "multi",
+        "learning",
+        "power",
+        "knowledge",
+        "supervised",
+        "self",
+        "llm",
+        "generalization",
+        "attention"
+      ],
+      "arxiv_strategies": [
+        "搜索: neural architecture",
+        "搜索: self-supervised learning",
+        "搜索: multi-agent system"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "fill-mask",
+        "unknown",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [],
+      "ml_total_tests": 0,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 13,
+        "adopted": 1,
+        "decisions": 1
+      },
+      "seed_watering": {
+        "seed_name": "Spiking Neural Networks",
+        "papers_found": 9
+      }
     }
   ],
   "total_sessions": 101,
-  "last_updated": "2026-09-01T14:22:41.988154",
+  "last_updated": "2026-09-01T18:55:41.690626",
   "evolution_summary": {
-    "total_adopted": 48,
+    "total_adopted": 49,
     "adopted_list": [
       "Knowledge Distillation",
       "World Models / Model-Based RL",
@@ -3938,7 +3949,8 @@
       "Efficient",
       "Distillation",
       "Rl",
-      "Lora"
+      "Lora",
+      "LLM-guided bilevel program evolution"
     ],
     "seeds": {
       "mamba": {
@@ -3958,8 +3970,8 @@
       },
       "spiking-nn": {
         "name": "Spiking Neural Networks",
-        "watering": 55,
-        "papers": 28
+        "watering": 56,
+        "papers": 30
       },
       "non-transformer": {
         "name": "Non-Transformer Arch",
@@ -3995,15 +4007,15 @@
     "seed_metrics": {
       "spiking-nn": {
         "name": "Spiking Neural Networks",
-        "new_papers": 28,
+        "new_papers": 30,
         "keywords_matched": [
+          "snn",
           "spike-timing",
           "neuromorphic",
-          "spiking",
-          "snn"
+          "spiking"
         ],
-        "high_relevance_total": 22,
-        "avg_relevance_latest": 0.0,
+        "high_relevance_total": 23,
+        "avg_relevance_latest": 1.5,
         "best_papers_count": 7
       },
       "few-shot": {
@@ -4133,6 +4145,6 @@
         "best_papers_count": 1
       }
     },
-    "last_evolution": "2026-09-01T14:22:41.990378"
+    "last_evolution": "2026-09-01T18:55:41.692860"
   }
 }

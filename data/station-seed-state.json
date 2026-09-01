@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 533,
+  "_rotation_idx": 534,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 56,
@@ -2485,26 +2485,9 @@
   },
   "spiking-nn": {
     "name": "Spiking Neural Networks",
-    "total_papers_found": 28,
-    "watering_count": 55,
+    "total_papers_found": 30,
+    "watering_count": 56,
     "history": [
-      {
-        "timestamp": "2026-07-14T19:44:41.742239",
-        "papers_found": 1,
-        "duplicates": 8,
-        "irrelevant_filtered": 1,
-        "avg_relevance": 1.0,
-        "high_relevance": 0,
-        "papers": [
-          {
-            "title": "Efficient and Robust Spiking Neural Networks for sEMG-Based Muscle Fatigue Detection",
-            "summary": "Detecting muscle fatigue via surface electromyography (sEMG) is essential for applications in sports, rehabilitation, and wearable health monitoring. Accurate and timely detection of fatigue is crucial for preventing injuries, optimizing physical performance, and ensuring user safety during prolonge",
-            "published": "2026-07-13",
-            "url": "http://arxiv.org/abs/2607.11065v1",
-            "seed_match_score": 1
-          }
-        ]
-      },
       {
         "timestamp": "2026-07-15T03:59:00.435067",
         "papers_found": 2,
@@ -3070,6 +3053,30 @@
         "avg_relevance": 0.0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-09-01T18:55:35.118793",
+        "papers_found": 2,
+        "duplicates": 7,
+        "irrelevant_filtered": 1,
+        "avg_relevance": 1.5,
+        "high_relevance": 1,
+        "papers": [
+          {
+            "title": "Conjoint Audio-to-Spikes Encoding and Processing for Efficient Neuromorphic Speech Recognition",
+            "summary": "Obtaining data from neuromorphic sensors and processing it with Spiking Neural Networks is a promising solution to lower the energy cost of artificial intelligence. The current rarity of natively neuromorphic datasets promotes the development of software tools to translate input sensory data into sp",
+            "published": "2026-08-31",
+            "url": "http://arxiv.org/abs/2608.30792v1",
+            "seed_match_score": 2
+          },
+          {
+            "title": "Low-Power End-to-End Cochlear Implant Speech Denoising with Spiking Neural Networks",
+            "summary": "Cochlear implants (CI) restore hearing for individuals with severe to profound hearing loss. However, CI users often struggle to understand speech in noisy environments. Deep neural networks (DNN) have shown promise in enhancing speech for CI users, yet their high energy demands make them non-ideal ",
+            "published": "2026-08-28",
+            "url": "http://arxiv.org/abs/2608.28493v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -3078,7 +3085,7 @@
       "neuromorphic",
       "spike-timing"
     ],
-    "last_watered": "2026-08-30T20:10:23.885789"
+    "last_watered": "2026-09-01T18:55:35.118787"
   },
   "non-transformer": {
     "name": "Non-Transformer Arch",
