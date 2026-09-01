@@ -1,31 +1,6 @@
 {
   "sessions": [
     {
-      "timestamp": "2026-07-03T13:47:58.561576",
-      "arxiv_papers_count": 5,
-      "arxiv_top_keywords": [
-        "alignment",
-        "diffusion",
-        "world",
-        "worlddirector",
-        "controllable",
-        "persistent",
-        "dynamic",
-        "generation",
-        "high",
-        "align"
-      ],
-      "huggingface_models_tracked": 0,
-      "huggingface_top_tasks": [],
-      "ml_benchmarks_run": 10,
-      "ml_top_classifier": "RandomForest",
-      "evolution": {
-        "techniques_discovered": 3,
-        "techniques_adopted": 0,
-        "decisions": 0
-      }
-    },
-    {
       "timestamp": "2026-07-03T16:55:20.252675",
       "arxiv_papers_count": 20,
       "arxiv_top_keywords": [
@@ -3895,12 +3870,54 @@
         "seed_name": "Spiking Neural Networks",
         "papers_found": 9
       }
+    },
+    {
+      "timestamp": "2026-09-01T22:08:55.986132",
+      "arxiv_papers_count": 18,
+      "arxiv_top_keywords": [
+        "world",
+        "graph",
+        "latent",
+        "flow",
+        "data",
+        "learning",
+        "action",
+        "jepa",
+        "compass",
+        "molecular"
+      ],
+      "arxiv_strategies": [
+        "搜索: graph neural network",
+        "搜索: transfer learning",
+        "搜索: world model"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "fill-mask",
+        "unknown",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [],
+      "ml_total_tests": 0,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 17,
+        "adopted": 2,
+        "decisions": 2
+      },
+      "seed_watering": {
+        "seed_name": "Non-Transformer Arch",
+        "papers_found": 8
+      }
     }
   ],
   "total_sessions": 101,
-  "last_updated": "2026-09-01T18:55:41.690626",
+  "last_updated": "2026-09-01T22:08:55.986146",
   "evolution_summary": {
-    "total_adopted": 49,
+    "total_adopted": 51,
     "adopted_list": [
       "Knowledge Distillation",
       "World Models / Model-Based RL",
@@ -3950,7 +3967,9 @@
       "Distillation",
       "Rl",
       "Lora",
-      "LLM-guided bilevel program evolution"
+      "LLM-guided bilevel program evolution",
+      "自适应小-大模型协同",
+      "加性图神经网络"
     ],
     "seeds": {
       "mamba": {
@@ -3975,8 +3994,8 @@
       },
       "non-transformer": {
         "name": "Non-Transformer Arch",
-        "watering": 56,
-        "papers": 23
+        "watering": 57,
+        "papers": 26
       },
       "few-shot": {
         "name": "Few-Shot Learning",
@@ -4073,17 +4092,17 @@
       },
       "non-transformer": {
         "name": "Non-Transformer Arch",
-        "new_papers": 23,
+        "new_papers": 26,
         "keywords_matched": [
           "linear attention",
           "gated linear",
-          "rwkv",
           "efficient transformer",
+          "state space",
           "mamba",
-          "state space"
+          "rwkv"
         ],
         "high_relevance_total": 3,
-        "avg_relevance_latest": 0.0,
+        "avg_relevance_latest": 1.0,
         "best_papers_count": 0
       },
       "continual-learning": {
@@ -4145,6 +4164,6 @@
         "best_papers_count": 1
       }
     },
-    "last_evolution": "2026-09-01T18:55:41.692860"
+    "last_evolution": "2026-09-01T22:08:55.988404"
   }
 }

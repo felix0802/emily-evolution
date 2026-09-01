@@ -1,6 +1,21 @@
 {
-  "timestamp": "2026-09-01T18:55:41.703761",
+  "timestamp": "2026-09-01T22:08:55.999754",
   "connections": [
+    {
+      "seed_a": "Mamba (SSM)",
+      "seed_b": "Non-Transformer Arch",
+      "shared_keywords": [
+        "mamba",
+        "state space"
+      ],
+      "shared_paper_concepts": [
+        "compression",
+        "hybrid",
+        "state"
+      ],
+      "strength": 7,
+      "discovered_at": "2026-09-01T22:08:55.999597"
+    },
     {
       "seed_a": "Mamba (SSM)",
       "seed_b": "Mixture of Experts",
@@ -15,7 +30,7 @@
         "with"
       ],
       "strength": 7,
-      "discovered_at": "2026-09-01T18:55:41.703597"
+      "discovered_at": "2026-09-01T22:08:55.999608"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -31,7 +46,7 @@
         "with"
       ],
       "strength": 7,
-      "discovered_at": "2026-09-01T18:55:41.703605"
+      "discovered_at": "2026-09-01T22:08:55.999615"
     },
     {
       "seed_a": "Liquid Networks",
@@ -47,7 +62,7 @@
         "with"
       ],
       "strength": 7,
-      "discovered_at": "2026-09-01T18:55:41.703664"
+      "discovered_at": "2026-09-01T22:08:55.999676"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -62,21 +77,7 @@
         "with"
       ],
       "strength": 6,
-      "discovered_at": "2026-09-01T18:55:41.703570"
-    },
-    {
-      "seed_a": "Mamba (SSM)",
-      "seed_b": "Non-Transformer Arch",
-      "shared_keywords": [
-        "mamba",
-        "state space"
-      ],
-      "shared_paper_concepts": [
-        "adaptation",
-        "vision"
-      ],
-      "strength": 6,
-      "discovered_at": "2026-09-01T18:55:41.703586"
+      "discovered_at": "2026-09-01T22:08:55.999580"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -90,7 +91,7 @@
         "graph"
       ],
       "strength": 5,
-      "discovered_at": "2026-09-01T18:55:41.703579"
+      "discovered_at": "2026-09-01T22:08:55.999589"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -104,7 +105,7 @@
         "with"
       ],
       "strength": 5,
-      "discovered_at": "2026-09-01T18:55:41.703583"
+      "discovered_at": "2026-09-01T22:08:55.999594"
     },
     {
       "seed_a": "Continual Learning",
@@ -118,7 +119,7 @@
         "with"
       ],
       "strength": 5,
-      "discovered_at": "2026-09-01T18:55:41.703745"
+      "discovered_at": "2026-09-01T22:08:55.999738"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -131,7 +132,7 @@
         "models"
       ],
       "strength": 4,
-      "discovered_at": "2026-09-01T18:55:41.703601"
+      "discovered_at": "2026-09-01T22:08:55.999611"
     },
     {
       "seed_a": "HTM",
@@ -144,7 +145,7 @@
         "under"
       ],
       "strength": 4,
-      "discovered_at": "2026-09-01T18:55:41.703697"
+      "discovered_at": "2026-09-01T22:08:55.999686"
     }
   ],
   "total_seeds": 10

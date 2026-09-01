@@ -743,6 +743,36 @@
         ],
         "decided_at": "2026-09-01T18:55:41.685960"
       }
+    },
+    {
+      "id": "llm-自适应小-大模型协同",
+      "name": "自适应小-大模型协同",
+      "adopted_at": "2026-09-01T22:08:51.048841",
+      "decision": {
+        "tech_id": "llm-自适应小-大模型协同",
+        "tech_name": "自适应小-大模型协同",
+        "action": "adopt",
+        "confidence": 0.9,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-09-01T22:08:51.047666"
+      }
+    },
+    {
+      "id": "llm-加性图神经网络",
+      "name": "加性图神经网络",
+      "adopted_at": "2026-09-01T22:08:51.048855",
+      "decision": {
+        "tech_id": "llm-加性图神经网络",
+        "tech_name": "加性图神经网络",
+        "action": "adopt",
+        "confidence": 0.8,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-09-01T22:08:51.047798"
+      }
     }
   ],
   "history": [
@@ -1039,6 +1069,18 @@
       "tech_id": "llm-llm-guided-bilevel-program-evo",
       "tech_name": "LLM-guided bilevel program evolution",
       "timestamp": "2026-09-01T18:55:41.687037"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-自适应小-大模型协同",
+      "tech_name": "自适应小-大模型协同",
+      "timestamp": "2026-09-01T22:08:51.048845"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-加性图神经网络",
+      "tech_name": "加性图神经网络",
+      "timestamp": "2026-09-01T22:08:51.048856"
     }
   ]
 }

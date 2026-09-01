@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 534,
+  "_rotation_idx": 535,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 56,
@@ -3089,18 +3089,9 @@
   },
   "non-transformer": {
     "name": "Non-Transformer Arch",
-    "total_papers_found": 23,
-    "watering_count": 56,
+    "total_papers_found": 26,
+    "watering_count": 57,
     "history": [
-      {
-        "timestamp": "2026-07-15T10:06:08.816580",
-        "papers_found": 0,
-        "duplicates": 0,
-        "irrelevant_filtered": 0,
-        "avg_relevance": 0,
-        "high_relevance": 0,
-        "papers": []
-      },
       {
         "timestamp": "2026-07-15T05:33:26.592581",
         "papers_found": 0,
@@ -3681,6 +3672,37 @@
         "avg_relevance": 0.0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-09-01T22:08:45.944409",
+        "papers_found": 3,
+        "duplicates": 5,
+        "irrelevant_filtered": 2,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "DASC: Decay-Aware State Compression for Hybrid Linear-Attention Serving",
+            "summary": "Hybrid linear-attention architectures have recently scaled to large open-weight models, offering quality competitive with full attention while substantially reducing key/value (KV) cache growth. However, their in-place recurrent-state updates complicate cache management: prefix reuse requires state ",
+            "published": "2026-08-31",
+            "url": "http://arxiv.org/abs/2608.30386v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Tail-Replay: Escaping the Curse of Linear Attention in Prefix Caching for Hybrid LLMs",
+            "summary": "Hybrid large language models interleave full-attention layers with linear-attention layers to reduce the cost of long-context inference. This structure complicates prefix caching: full-attention key-value caches are token-addressable, whereas linear-attention layers maintain recurrent states that ca",
+            "published": "2026-08-31",
+            "url": "http://arxiv.org/abs/2608.30310v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Sliding-window beats linear attention",
+            "summary": "Due to the nature of quadratic attention, Large Language Models (LLMs) consume a lot of memory and energy. Every new token costs more than the previous one. For each additional token, the keys and values must be stored in memory indefinitely, which is unsustainable.   Several alternatives have been ",
+            "published": "2026-08-28",
+            "url": "http://arxiv.org/abs/2608.28444v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -3693,7 +3715,7 @@
       "sub-quadratic",
       "mamba"
     ],
-    "last_watered": "2026-08-30T23:59:22.316332"
+    "last_watered": "2026-09-01T22:08:45.944403"
   },
   "few-shot": {
     "name": "Few-Shot Learning",

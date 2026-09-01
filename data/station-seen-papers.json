@@ -30176,7 +30176,231 @@
         "spiking"
       ],
       "first_seen_round": 168
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.30674v1",
+      "title": "CoMPASS: Collaborative Molecular Property Prediction via Adaptive Small-Large Model Synergy",
+      "arxiv_id": "2608.30674",
+      "tokens": [
+        "adaptive",
+        "collaborative",
+        "compass",
+        "molecular",
+        "prediction",
+        "property",
+        "synergy"
+      ],
+      "first_seen_round": 169
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.28209v1",
+      "title": "Generalized Context in Cross Attention for Transfer Learning of Disjoint Tabular Data",
+      "arxiv_id": "2608.28209",
+      "tokens": [
+        "attention",
+        "context",
+        "cross",
+        "disjoint",
+        "generalized",
+        "tabular",
+        "transfer"
+      ],
+      "first_seen_round": 169
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.28207v1",
+      "title": "Explainable Diabetic Retinopathy Classification Using Vision Foundation Models",
+      "arxiv_id": "2608.28207",
+      "tokens": [
+        "classification",
+        "diabetic",
+        "explainable",
+        "foundation",
+        "retinopathy",
+        "vision"
+      ],
+      "first_seen_round": 169
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.27715v1",
+      "title": "Beyond Non-IID: Learner--Client Distribution Mismatch in Federated Learning",
+      "arxiv_id": "2608.27715",
+      "tokens": [
+        "client",
+        "distribution",
+        "federated",
+        "iid",
+        "learner",
+        "mismatch",
+        "non"
+      ],
+      "first_seen_round": 169
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.26594v1",
+      "title": "SimCast-S2S: An Efficient Generative Model for Subseasonal Precipitation Forecasting via Transfer Learning from Climate Simulations",
+      "arxiv_id": "2608.26594",
+      "tokens": [
+        "climate",
+        "forecasting",
+        "generative",
+        "precipitation",
+        "s2s",
+        "simcast",
+        "simulations",
+        "subseasonal",
+        "transfer"
+      ],
+      "first_seen_round": 169
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.30897v1",
+      "title": "CAER: Causal Action Effect Reweighting for World Model Training",
+      "arxiv_id": "2608.30897",
+      "tokens": [
+        "action",
+        "caer",
+        "causal",
+        "effect",
+        "reweighting",
+        "training",
+        "world"
+      ],
+      "first_seen_round": 169
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.30237v1",
+      "title": "Motus2: A Self-Evolving General World Model for Dexterous Manipulation",
+      "arxiv_id": "2608.30237",
+      "tokens": [
+        "dexterous",
+        "evolving",
+        "general",
+        "manipulation",
+        "motus2",
+        "self",
+        "world"
+      ],
+      "first_seen_round": 169
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.30067v1",
+      "title": "How do World Models and Policies Compose in LLM Agents? A Joint Spectral and Behavioral Account",
+      "arxiv_id": "2608.30067",
+      "tokens": [
+        "account",
+        "agents",
+        "behavioral",
+        "compose",
+        "joint",
+        "llm",
+        "policies",
+        "spectral",
+        "world"
+      ],
+      "first_seen_round": 169
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.29937v1",
+      "title": "AcrossWAM1.0:A Modular Latent World-Action Stack for Compact Robot Policies",
+      "arxiv_id": "2608.29937",
+      "tokens": [
+        "acrosswam1",
+        "action",
+        "compact",
+        "latent",
+        "modular",
+        "policies",
+        "robot",
+        "stack",
+        "world"
+      ],
+      "first_seen_round": 169
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.29434v1",
+      "title": "Does Latent Planning Survive Point Clouds? Action-Conditioned JEPA World Models for Geometric Observations",
+      "arxiv_id": "2608.29434",
+      "tokens": [
+        "action",
+        "clouds",
+        "conditioned",
+        "geometric",
+        "jepa",
+        "latent",
+        "observations",
+        "planning",
+        "point",
+        "survive",
+        "world"
+      ],
+      "first_seen_round": 169
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.29029v1",
+      "title": "Flow-JEPA: Flow Matching for Robust Latent Dynamics in JEPA World Models",
+      "arxiv_id": "2608.29029",
+      "tokens": [
+        "dynamics",
+        "flow",
+        "flow",
+        "jepa",
+        "jepa",
+        "latent",
+        "matching",
+        "robust",
+        "world"
+      ],
+      "first_seen_round": 169
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.30386v1",
+      "title": "DASC: Decay-Aware State Compression for Hybrid Linear-Attention Serving",
+      "arxiv_id": "2608.30386",
+      "tokens": [
+        "attention",
+        "aware",
+        "compression",
+        "dasc",
+        "decay",
+        "hybrid",
+        "linear",
+        "serving",
+        "state"
+      ],
+      "first_seen_round": 169
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.30310v1",
+      "title": "Tail-Replay: Escaping the Curse of Linear Attention in Prefix Caching for Hybrid LLMs",
+      "arxiv_id": "2608.30310",
+      "tokens": [
+        "attention",
+        "caching",
+        "curse",
+        "escaping",
+        "hybrid",
+        "linear",
+        "llms",
+        "prefix",
+        "replay",
+        "tail"
+      ],
+      "first_seen_round": 169
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.28444v1",
+      "title": "Sliding-window beats linear attention",
+      "arxiv_id": "2608.28444",
+      "tokens": [
+        "attention",
+        "beats",
+        "linear",
+        "sliding",
+        "window"
+      ],
+      "first_seen_round": 169
     }
   ],
-  "total_unique": 1878
+  "total_unique": 1892
 }

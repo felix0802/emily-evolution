@@ -147,9 +147,83 @@
       ],
       "refuting_papers": [],
       "llm_source": "deepseek"
+    },
+    {
+      "id": "hyp-0007",
+      "timestamp": "2026-09-01T22:08:59.479138",
+      "seed_a": "Mamba (SSM)",
+      "seed_b": "Mixture of Experts",
+      "crossref_strength": 7,
+      "shared_keywords": [],
+      "hypothesis": "將Mamba的選擇性狀態空間模型與Mixture of Experts的稀疏路由結合，可構建一個動態稀疏的序列模型，其中每個token僅激活少量專家，且專家選擇由狀態空間的隱狀態驅動，從而在保持線性計算複雜度的同時實現條件計算。",
+      "reasoning": "Mamba的選擇性機制允許模型根據輸入動態調整狀態更新，而MoE通過稀疏激活降低計算成本。兩者共享稀疏性和條件計算的核心理念：Mamba在時間維度上稀疏化信息流，MoE在空間維度上稀疏化參數使用。結合後，路由決策可依賴於狀態空間的隱狀態，實現更高效的序列建模。",
+      "arxiv_query": "Mamba Mixture of Experts sparse state space model conditional computation",
+      "potential_breakthrough": "突破在於實現一個線性複雜度、可擴展至萬億參數的序列模型，同時保持對長序列的動態適應性，適用於實時和資源受限場景。",
+      "status": "unverified",
+      "verification_rounds": 1,
+      "supporting_papers": [
+        {
+          "title": "Routing Mamba: Scaling State Space Models with Mixture-of-Experts Projection",
+          "url": "http://arxiv.org/abs/2506.18145v1",
+          "reason": "該論文提出將MoE投影應用於Mamba，直接支持結合Mamba與MoE的可行性。"
+        }
+      ],
+      "refuting_papers": [],
+      "llm_source": "deepseek"
+    },
+    {
+      "id": "hyp-0008",
+      "timestamp": "2026-09-01T22:09:02.661210",
+      "seed_a": "Mamba (SSM)",
+      "seed_b": "Graph Neural Networks",
+      "crossref_strength": 7,
+      "shared_keywords": [],
+      "hypothesis": "A hybrid Mamba-GNN architecture with selective state-space modeling on graph-structured data can achieve linear-time complexity while capturing long-range dependencies in dynamic graphs, outperforming current transformer-based GNNs on node classification tasks.",
+      "reasoning": "Mamba's selective state-space mechanism processes sequences with input-dependent gating, which parallels GNN's message passing but lacks global context; GNNs excel at local structure but suffer from over-smoothing and quadratic attention. The shared concept of 'selection' in Mamba can be adapted to selectively aggregate neighbor information, while the state-space formulation provides a continuous-time view of graph dynamics, enabling efficient long-range propagation without deep layers.",
+      "arxiv_query": "Mamba graph neural network selective state space hybrid",
+      "potential_breakthrough": "This could yield a new class of graph models that scale to million-node graphs with linear memory, enabling real-time learning on evolving social or biological networks.",
+      "status": "unverified",
+      "verification_rounds": 0,
+      "supporting_papers": [],
+      "refuting_papers": [],
+      "llm_source": "deepseek"
+    },
+    {
+      "id": "hyp-0009",
+      "timestamp": "2026-09-01T22:09:05.410653",
+      "seed_a": "Liquid Networks",
+      "seed_b": "Graph Neural Networks",
+      "crossref_strength": 7,
+      "shared_keywords": [],
+      "hypothesis": "Integrating liquid time-constant dynamics into graph neural networks (GNNs) will enable adaptive temporal graph processing, significantly improving performance on dynamic graph tasks such as traffic forecasting and epidemic spread prediction.",
+      "reasoning": "Liquid networks excel at modeling continuous-time dynamics with adaptable time constants, while GNNs capture relational structure. Their combination addresses the limitation of static graph convolutions by allowing node states to evolve fluidly over time, leveraging shared attention mechanisms for dynamic edge weighting.",
+      "arxiv_query": "liquid time-constant graph neural networks dynamic graphs",
+      "potential_breakthrough": "A new class of 'liquid graph networks' that seamlessly handle both structural and temporal dependencies, achieving state-of-the-art accuracy on real-world dynamic graph benchmarks with improved robustness to noise.",
+      "status": "unverified",
+      "verification_rounds": 0,
+      "supporting_papers": [],
+      "refuting_papers": [],
+      "llm_source": "deepseek"
+    },
+    {
+      "id": "hyp-0010",
+      "timestamp": "2026-09-01T22:09:09.101512",
+      "seed_a": "Mamba (SSM)",
+      "seed_b": "Liquid Networks",
+      "crossref_strength": 6,
+      "shared_keywords": [],
+      "hypothesis": "結合 Mamba 的選擇性狀態空間與 Liquid Networks 的時間連續動態，可開發出一個統一框架，用於事件驅動的線上學習，該框架能在非平穩環境中動態調整其神經動力學，實現即時適應與節能推理。",
+      "reasoning": "Mamba 透過輸入依賴的選擇機制高效處理長序列，而 Liquid Networks 提供時間連續、因果的動態，擅長建模非平穩系統。兩者皆為資料驅動的神經網路，共享對序列建模的關注，且 Mamba 的離散化步驟可與 Liquid 的微分方程整合，形成一個混合架構，兼具 Mamba 的平行效率與 Liquid 的連續適應性。",
+      "arxiv_query": "Mamba Liquid State Space Model online learning non-stationary",
+      "potential_breakthrough": "此結合可能催生新一代節能、即時適應的神經網路，適用於邊緣 AI 與機器人控制，能在動態環境中持續學習，同時保持低延遲與高能效。",
+      "status": "unverified",
+      "verification_rounds": 0,
+      "supporting_papers": [],
+      "refuting_papers": [],
+      "llm_source": "deepseek"
     }
   ],
-  "last_updated": "2026-09-01T08:57:31.451123",
-  "total_generated": 6,
+  "last_updated": "2026-09-01T22:09:12.569220",
+  "total_generated": 10,
   "total_verified": 6
 }
