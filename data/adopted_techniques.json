@@ -608,6 +608,36 @@
         ],
         "decided_at": "2026-07-16T09:53:00.066672"
       }
+    },
+    {
+      "id": "llm-细粒度对象幻觉基准",
+      "name": "细粒度对象幻觉基准",
+      "adopted_at": "2026-09-01T03:08:13.952296",
+      "decision": {
+        "tech_id": "llm-细粒度对象幻觉基准",
+        "tech_name": "细粒度对象幻觉基准",
+        "action": "adopt",
+        "confidence": 0.9,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-09-01T03:08:13.950863"
+      }
+    },
+    {
+      "id": "llm-隐藏状态轨迹几何分析",
+      "name": "隐藏状态轨迹几何分析",
+      "adopted_at": "2026-09-01T03:08:13.952316",
+      "decision": {
+        "tech_id": "llm-隐藏状态轨迹几何分析",
+        "tech_name": "隐藏状态轨迹几何分析",
+        "action": "adopt",
+        "confidence": 0.85,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-09-01T03:08:13.951034"
+      }
     }
   ],
   "history": [
@@ -850,6 +880,18 @@
       "tech_id": "llm-低秩分解与jl残差分配",
       "tech_name": "低秩分解与JL残差分配",
       "timestamp": "2026-07-16T09:53:00.067628"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-细粒度对象幻觉基准",
+      "tech_name": "细粒度对象幻觉基准",
+      "timestamp": "2026-09-01T03:08:13.952301"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-隐藏状态轨迹几何分析",
+      "tech_name": "隐藏状态轨迹几何分析",
+      "timestamp": "2026-09-01T03:08:13.952318"
     }
   ]
 }

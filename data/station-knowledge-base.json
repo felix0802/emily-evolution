@@ -1,37 +1,6 @@
 {
   "sessions": [
     {
-      "timestamp": "2026-07-02T20:45:43.233723",
-      "arxiv_papers_count": 20,
-      "arxiv_top_keywords": [
-        "llm",
-        "learning",
-        "theoria",
-        "verification",
-        "offer",
-        "cannot",
-        "state",
-        "prediction",
-        "separation",
-        "hypothesis"
-      ],
-      "huggingface_models_tracked": 10,
-      "huggingface_top_tasks": [
-        "sentence-similarity",
-        "fill-mask",
-        "text-ranking",
-        "feature-extraction",
-        "unknown"
-      ],
-      "ml_benchmarks_run": 10,
-      "ml_top_classifier": "RandomForest",
-      "evolution": {
-        "techniques_discovered": 0,
-        "techniques_adopted": 0,
-        "decisions": 0
-      }
-    },
-    {
       "timestamp": "2026-07-02T21:09:59.272990",
       "arxiv_papers_count": 20,
       "arxiv_top_keywords": [
@@ -3851,12 +3820,54 @@
         "seed_name": "KV Cache Optimization",
         "papers_found": 7
       }
+    },
+    {
+      "timestamp": "2026-09-01T03:08:18.717329",
+      "arxiv_papers_count": 21,
+      "arxiv_top_keywords": [
+        "multi",
+        "reasoning",
+        "semantic",
+        "training",
+        "learning",
+        "self",
+        "image",
+        "object",
+        "hallucination",
+        "fine"
+      ],
+      "arxiv_strategies": [
+        "cs.AI 最新",
+        "cs.LG 最新",
+        "cs.CL 最新"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "fill-mask",
+        "unknown",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [],
+      "ml_total_tests": 0,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 20,
+        "adopted": 2,
+        "decisions": 2
+      },
+      "seed_watering": {
+        "seed_name": "Mamba (SSM)",
+        "papers_found": 8
+      }
     }
   ],
   "total_sessions": 101,
-  "last_updated": "2026-07-16T11:25:20.472957",
+  "last_updated": "2026-09-01T03:08:18.717344",
   "evolution_summary": {
-    "total_adopted": 40,
+    "total_adopted": 42,
     "adopted_list": [
       "Knowledge Distillation",
       "World Models / Model-Based RL",
@@ -3897,176 +3908,203 @@
       "局部冗余度（Local Redundancy）",
       "显著性时间编辑（Salience-based Temporal Editing）",
       "KV缓存驱逐（H2O及其衍生）",
-      "低秩分解与JL残差分配"
+      "低秩分解与JL残差分配",
+      "细粒度对象幻觉基准",
+      "隐藏状态轨迹几何分析"
     ],
     "seeds": {
       "mamba": {
         "name": "Mamba (SSM)",
-        "watering": 9,
-        "papers": 18
+        "watering": 57,
+        "papers": 56
       },
       "liquid-networks": {
         "name": "Liquid Networks",
-        "watering": 9,
-        "papers": 20
+        "watering": 56,
+        "papers": 58
       },
       "htm": {
         "name": "HTM",
-        "watering": 9,
-        "papers": 10
+        "watering": 56,
+        "papers": 90
       },
       "spiking-nn": {
         "name": "Spiking Neural Networks",
-        "watering": 8,
-        "papers": 14
+        "watering": 55,
+        "papers": 28
       },
       "non-transformer": {
         "name": "Non-Transformer Arch",
-        "watering": 9,
-        "papers": 6
+        "watering": 56,
+        "papers": 23
       },
       "few-shot": {
         "name": "Few-Shot Learning",
-        "watering": 8,
-        "papers": 14
+        "watering": 55,
+        "papers": 28
       },
       "continual-learning": {
         "name": "Continual Learning",
-        "watering": 7,
-        "papers": 17
+        "watering": 54,
+        "papers": 72
       },
       "moe": {
         "name": "Mixture of Experts",
-        "watering": 3,
-        "papers": 4
+        "watering": 50,
+        "papers": 79
       },
       "kv-cache": {
         "name": "KV Cache Optimization",
-        "watering": 3,
-        "papers": 2
+        "watering": 51,
+        "papers": 71
       },
       "gnn": {
         "name": "Graph Neural Networks",
-        "watering": 4,
-        "papers": 0
+        "watering": 52,
+        "papers": 119
       }
     },
     "seed_metrics": {
       "spiking-nn": {
         "name": "Spiking Neural Networks",
-        "new_papers": 14,
+        "new_papers": 28,
         "keywords_matched": [
-          "spiking",
-          "neuromorphic",
           "spike-timing",
+          "neuromorphic",
+          "spiking",
           "snn"
         ],
-        "high_relevance_total": 11,
+        "high_relevance_total": 22,
         "avg_relevance_latest": 0.0,
-        "best_papers_count": 5
+        "best_papers_count": 7
       },
       "few-shot": {
         "name": "Few-Shot Learning",
-        "new_papers": 9,
+        "new_papers": 23,
         "keywords_matched": [
+          "few-shot",
           "meta-learning",
-          "few-shot"
+          "maml",
+          "in-context"
         ],
-        "high_relevance_total": 0,
+        "high_relevance_total": 3,
         "avg_relevance_latest": 0.0,
         "best_papers_count": 0
       },
       "mamba": {
         "name": "Mamba (SSM)",
-        "new_papers": 13,
+        "new_papers": 51,
         "keywords_matched": [
-          "mamba",
+          "ssm",
           "state space",
-          "ssm"
+          "mamba"
         ],
-        "high_relevance_total": 4,
-        "avg_relevance_latest": 0.0,
-        "best_papers_count": 0
+        "high_relevance_total": 19,
+        "avg_relevance_latest": 1.2,
+        "best_papers_count": 3
       },
       "liquid-networks": {
         "name": "Liquid Networks",
-        "new_papers": 15,
+        "new_papers": 53,
         "keywords_matched": [
-          "liquid neural",
           "continuous-time",
+          "liquid neural",
           "ode"
         ],
-        "high_relevance_total": 4,
-        "avg_relevance_latest": 0.0,
+        "high_relevance_total": 15,
+        "avg_relevance_latest": 1.0,
         "best_papers_count": 0
       },
       "htm": {
         "name": "HTM",
-        "new_papers": 5,
+        "new_papers": 85,
         "keywords_matched": [
-          "hierarchical temporal",
+          "sequence memory",
+          "anomaly detection",
+          "predictive coding",
           "sparse distributed",
-          "anomaly detection"
+          "online learning",
+          "hierarchical temporal",
+          "cortical"
         ],
-        "high_relevance_total": 0,
+        "high_relevance_total": 3,
         "avg_relevance_latest": 0.0,
         "best_papers_count": 0
       },
       "non-transformer": {
         "name": "Non-Transformer Arch",
-        "new_papers": 6,
+        "new_papers": 23,
         "keywords_matched": [
-          "mamba",
-          "state space",
           "linear attention",
-          "efficient transformer"
+          "gated linear",
+          "rwkv",
+          "efficient transformer",
+          "mamba",
+          "state space"
         ],
-        "high_relevance_total": 1,
-        "avg_relevance_latest": 1.0,
+        "high_relevance_total": 3,
+        "avg_relevance_latest": 0.0,
         "best_papers_count": 0
       },
       "continual-learning": {
         "name": "Continual Learning",
-        "new_papers": 12,
+        "new_papers": 67,
         "keywords_matched": [
-          "continual learning",
+          "ewc",
           "catastrophic forgetting",
+          "continual learning",
+          "elastic weight",
           "lifelong"
         ],
-        "high_relevance_total": 3,
-        "avg_relevance_latest": 1.33,
-        "best_papers_count": 1
+        "high_relevance_total": 16,
+        "avg_relevance_latest": 1.25,
+        "best_papers_count": 2
       },
       "gnn": {
         "name": "Graph Neural Networks",
-        "new_papers": 0,
-        "keywords_matched": [],
-        "high_relevance_total": 0,
-        "avg_relevance_latest": 0.0,
-        "best_papers_count": 0
+        "new_papers": 119,
+        "keywords_matched": [
+          "geometric",
+          "graph attention",
+          "node embedding",
+          "graph neural",
+          "message passing",
+          "graph transformer",
+          "gnn"
+        ],
+        "high_relevance_total": 56,
+        "avg_relevance_latest": 1.57,
+        "best_papers_count": 10
       },
       "moe": {
         "name": "Mixture of Experts",
-        "new_papers": 4,
+        "new_papers": 79,
         "keywords_matched": [
           "moe",
+          "deepseek",
+          "mixture of experts",
+          "router",
           "expert routing"
         ],
-        "high_relevance_total": 2,
-        "avg_relevance_latest": 1.0,
-        "best_papers_count": 0
+        "high_relevance_total": 57,
+        "avg_relevance_latest": 0.0,
+        "best_papers_count": 10
       },
       "kv-cache": {
         "name": "KV Cache Optimization",
-        "new_papers": 2,
+        "new_papers": 71,
         "keywords_matched": [
-          "kv cache"
+          "key-value cache",
+          "kv cache",
+          "flash attention",
+          "speculative decoding",
+          "gqa"
         ],
-        "high_relevance_total": 0,
-        "avg_relevance_latest": 0.0,
-        "best_papers_count": 0
+        "high_relevance_total": 3,
+        "avg_relevance_latest": 1.0,
+        "best_papers_count": 1
       }
     },
-    "last_evolution": "2026-07-16T11:25:20.474101"
+    "last_evolution": "2026-09-01T03:08:18.719621"
   }
 }

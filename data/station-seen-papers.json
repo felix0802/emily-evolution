@@ -28931,7 +28931,211 @@
         "transport"
       ],
       "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.31170v1",
+      "title": "Context-Aware Interleaved Batching for WhisperX",
+      "arxiv_id": "2608.31170",
+      "tokens": [
+        "aware",
+        "batching",
+        "context",
+        "interleaved",
+        "whisperx"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.31139v1",
+      "title": "Configurable Semantic Chunking for Biomedical Information Extraction in Retrieval-Augmented Generation",
+      "arxiv_id": "2608.31139",
+      "tokens": [
+        "augmented",
+        "biomedical",
+        "chunking",
+        "configurable",
+        "extraction",
+        "generation",
+        "information",
+        "retrieval",
+        "semantic"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.31128v1",
+      "title": "DIASENTINEL: An Auditable Multi-Agent System for Guideline-Grounded Diabetes Risk Screening",
+      "arxiv_id": "2608.31128",
+      "tokens": [
+        "agent",
+        "auditable",
+        "diabetes",
+        "diasentinel",
+        "grounded",
+        "guideline",
+        "multi",
+        "risk",
+        "screening"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.31119v1",
+      "title": "PaperGym: Rubric-Centered Evolution for Research-Plan Generation",
+      "arxiv_id": "2608.31119",
+      "tokens": [
+        "centered",
+        "evolution",
+        "generation",
+        "papergym",
+        "plan",
+        "research",
+        "rubric"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.31111v1",
+      "title": "Aspire: Can Models Self-Evolve from Vague Goals?",
+      "arxiv_id": "2608.31111",
+      "tokens": [
+        "aspire",
+        "evolve",
+        "goals",
+        "self",
+        "vague"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.31105v1",
+      "title": "BLOOM-WILT: Logit Tilting for Behaviour Elicitation in Automated LLM Auditing",
+      "arxiv_id": "2608.31105",
+      "tokens": [
+        "auditing",
+        "automated",
+        "behaviour",
+        "bloom",
+        "elicitation",
+        "llm",
+        "logit",
+        "tilting",
+        "wilt"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.31100v1",
+      "title": "S3Gym: Can LLMs Turn Self-Testing and Self-Judging into Self-Improvement?",
+      "arxiv_id": "2608.31100",
+      "tokens": [
+        "improvement",
+        "judging",
+        "llms",
+        "s3gym",
+        "self",
+        "self",
+        "self",
+        "testing",
+        "turn"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.31084v1",
+      "title": "The First Token Is a Clue: Verbalizing Multi-Token Concepts from the J-lens",
+      "arxiv_id": "2608.31084",
+      "tokens": [
+        "clue",
+        "concepts",
+        "lens",
+        "multi",
+        "token",
+        "token",
+        "verbalizing"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.30439v1",
+      "title": "Event-Driven Language Models with Sparse Neural Activity for Neuromorphic Hardware",
+      "arxiv_id": "2608.30439",
+      "tokens": [
+        "activity",
+        "driven",
+        "event",
+        "hardware",
+        "language",
+        "neural",
+        "neuromorphic",
+        "sparse"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.30094v1",
+      "title": "A Hybrid State-Space Approach for Census-Tract Population Estimation",
+      "arxiv_id": "2608.30094",
+      "tokens": [
+        "census",
+        "estimation",
+        "hybrid",
+        "population",
+        "space",
+        "state",
+        "tract"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.29755v1",
+      "title": "GraM-Diff: A Unified Graph-Mamba Diffusion Framework for EEG-Based Alzheimer's Disease Data Generation and Diagnosis",
+      "arxiv_id": "2608.29755",
+      "tokens": [
+        "alzheimer",
+        "diagnosis",
+        "diff",
+        "diffusion",
+        "disease",
+        "eeg",
+        "generation",
+        "gram",
+        "graph",
+        "mamba",
+        "unified"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.27978v1",
+      "title": "PhyMamba: Physics-Modulated Mamba for Robust Battery Health Prognostics",
+      "arxiv_id": "2608.27978",
+      "tokens": [
+        "battery",
+        "health",
+        "mamba",
+        "modulated",
+        "phymamba",
+        "physics",
+        "prognostics",
+        "robust"
+      ],
+      "first_seen_round": 165
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.27882v1",
+      "title": "SOMTab: Set-Order Mamba for Efficient Tabular In-Context Learning",
+      "arxiv_id": "2608.27882",
+      "tokens": [
+        "context",
+        "mamba",
+        "order",
+        "set",
+        "somtab",
+        "tabular"
+      ],
+      "first_seen_round": 165
     }
   ],
-  "total_unique": 1801
+  "total_unique": 1814
 }

@@ -1,41 +1,10 @@
 {
-  "_rotation_idx": 530,
+  "_rotation_idx": 531,
   "mamba": {
     "name": "Mamba (SSM)",
-    "total_papers_found": 51,
-    "watering_count": 56,
+    "total_papers_found": 56,
+    "watering_count": 57,
     "history": [
-      {
-        "timestamp": "2026-07-14T11:52:43.222533",
-        "papers_found": 5,
-        "duplicates": 3,
-        "irrelevant_filtered": 2,
-        "avg_relevance": 1.4,
-        "high_relevance": 2,
-        "papers": [
-          {
-            "title": "An Exact Instrument for State Usage in Selective State-Space Models, and the Input-Driven Migration It Reveals",
-            "summary": "Selective state-space models such as Mamba route information through a bank of first-order modes whose input coupling is set by a learned selection mechanism. We give an exact instrument for measuring how a trained model uses these modes. Because the state matrix is diagonal, each channel's output d",
-            "published": "2026-07-13",
-            "url": "http://arxiv.org/abs/2607.11796v1",
-            "seed_match_score": 2
-          },
-          {
-            "title": "DSSMs: State Space Models with Explicit Memory via Delay Differential Equations",
-            "summary": "State Space Models (SSMs) have emerged as a powerful paradigm for efficient long-sequence modeling, offering parallel training and fast linear-time recurrent inference. However, like other recurrent architectures, SSMs must compress an unbounded history into a fixed-size state, which limits context ",
-            "published": "2026-07-11",
-            "url": "http://arxiv.org/abs/2607.10244v1",
-            "seed_match_score": 2
-          },
-          {
-            "title": "Looped State-Space Language Models with Adaptive Exit-State Selection",
-            "summary": "Recent work on looped language models suggests that many reasoning problems benefit from greater computational depth rather than from additional independent parameters. Existing studies, however, focus almost exclusively on Transformer backbones, leaving open whether this principle also applies to s",
-            "published": "2026-07-11",
-            "url": "http://arxiv.org/abs/2607.10110v1",
-            "seed_match_score": 1
-          }
-        ]
-      },
       {
         "timestamp": "2026-07-15T03:32:20.954260",
         "papers_found": 1,
@@ -718,6 +687,37 @@
         "avg_relevance": 0.0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-09-01T03:08:03.883843",
+        "papers_found": 5,
+        "duplicates": 3,
+        "irrelevant_filtered": 2,
+        "avg_relevance": 1.2,
+        "high_relevance": 1,
+        "papers": [
+          {
+            "title": "Event-Driven Language Models with Sparse Neural Activity for Neuromorphic Hardware",
+            "summary": "Inference with transformer-based large language models (LLMs) is often limited by the memory-bound KV cache and quadratic attention cost. State-space models (SSMs) mitigate this through linear attention and fixed-size recurrent states, but their large dense linear projections remain computationally ",
+            "published": "2026-08-31",
+            "url": "http://arxiv.org/abs/2608.30439v1",
+            "seed_match_score": 2
+          },
+          {
+            "title": "A Hybrid State-Space Approach for Census-Tract Population Estimation",
+            "summary": "Sequence models---the architecture family behind large language models and, increasingly, state-of-the-art image recognition---have redefined how machines learn from high-dimensional data. Yet population estimation from satellite imagery, a task that underpins infrastructure planning, public health,",
+            "published": "2026-08-30",
+            "url": "http://arxiv.org/abs/2608.30094v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "GraM-Diff: A Unified Graph-Mamba Diffusion Framework for EEG-Based Alzheimer's Disease Data Generation and Diagnosis",
+            "summary": "Electroencephalography (EEG) is a promising, non-invasive, and cost-effective modality for Alzheimer's disease (AD) detection, but deep learning methods are limited by small and imbalanced clinical datasets. Generative augmentation offers a solution, yet existing approaches rely on inefficient class",
+            "published": "2026-08-30",
+            "url": "http://arxiv.org/abs/2608.29755v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -726,7 +726,7 @@
       "ssm",
       "selective scan"
     ],
-    "last_watered": "2026-08-30T07:57:38.314151"
+    "last_watered": "2026-09-01T03:08:03.883838"
   },
   "liquid-networks": {
     "name": "Liquid Networks",
