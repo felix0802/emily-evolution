@@ -1,37 +1,6 @@
 {
   "sessions": [
     {
-      "timestamp": "2026-07-02T21:09:59.272990",
-      "arxiv_papers_count": 20,
-      "arxiv_top_keywords": [
-        "llm",
-        "learning",
-        "theoria",
-        "verification",
-        "offer",
-        "cannot",
-        "state",
-        "prediction",
-        "separation",
-        "hypothesis"
-      ],
-      "huggingface_models_tracked": 10,
-      "huggingface_top_tasks": [
-        "sentence-similarity",
-        "fill-mask",
-        "text-ranking",
-        "feature-extraction",
-        "unknown"
-      ],
-      "ml_benchmarks_run": 10,
-      "ml_top_classifier": "RandomForest",
-      "evolution": {
-        "techniques_discovered": 0,
-        "techniques_adopted": 0,
-        "decisions": 0
-      }
-    },
-    {
       "timestamp": "2026-07-02T22:46:02.640891",
       "arxiv_papers_count": 20,
       "arxiv_top_keywords": [
@@ -3862,12 +3831,54 @@
         "seed_name": "Mamba (SSM)",
         "papers_found": 8
       }
+    },
+    {
+      "timestamp": "2026-09-01T08:57:28.517869",
+      "arxiv_papers_count": 26,
+      "arxiv_top_keywords": [
+        "video",
+        "learning",
+        "data",
+        "audio",
+        "identity",
+        "stage",
+        "ontology",
+        "self",
+        "reflectance",
+        "radiative"
+      ],
+      "arxiv_strategies": [
+        "cs.CV 最新",
+        "cs.AI+cs.LG 混合",
+        "cs.CL+cs.CV 混合"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "fill-mask",
+        "unknown",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [],
+      "ml_total_tests": 0,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 16,
+        "adopted": 2,
+        "decisions": 2
+      },
+      "seed_watering": {
+        "seed_name": "Liquid Networks",
+        "papers_found": 8
+      }
     }
   ],
   "total_sessions": 101,
-  "last_updated": "2026-09-01T03:08:18.717344",
+  "last_updated": "2026-09-01T08:57:28.517883",
   "evolution_summary": {
-    "total_adopted": 42,
+    "total_adopted": 44,
     "adopted_list": [
       "Knowledge Distillation",
       "World Models / Model-Based RL",
@@ -3910,7 +3921,9 @@
       "KV缓存驱逐（H2O及其衍生）",
       "低秩分解与JL残差分配",
       "细粒度对象幻觉基准",
-      "隐藏状态轨迹几何分析"
+      "隐藏状态轨迹几何分析",
+      "3D Gaussian Splatting",
+      "Task-Conditioned Feature Transformations"
     ],
     "seeds": {
       "mamba": {
@@ -3920,8 +3933,8 @@
       },
       "liquid-networks": {
         "name": "Liquid Networks",
-        "watering": 56,
-        "papers": 58
+        "watering": 57,
+        "papers": 64
       },
       "htm": {
         "name": "HTM",
@@ -4005,14 +4018,14 @@
       },
       "liquid-networks": {
         "name": "Liquid Networks",
-        "new_papers": 53,
+        "new_papers": 59,
         "keywords_matched": [
-          "continuous-time",
           "liquid neural",
-          "ode"
+          "ode",
+          "continuous-time"
         ],
-        "high_relevance_total": 15,
-        "avg_relevance_latest": 1.0,
+        "high_relevance_total": 17,
+        "avg_relevance_latest": 1.33,
         "best_papers_count": 0
       },
       "htm": {
@@ -4105,6 +4118,6 @@
         "best_papers_count": 1
       }
     },
-    "last_evolution": "2026-09-01T03:08:18.719621"
+    "last_evolution": "2026-09-01T08:57:28.520065"
   }
 }

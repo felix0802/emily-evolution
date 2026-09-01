@@ -638,6 +638,36 @@
         ],
         "decided_at": "2026-09-01T03:08:13.951034"
       }
+    },
+    {
+      "id": "llm-3d-gaussian-splatting",
+      "name": "3D Gaussian Splatting",
+      "adopted_at": "2026-09-01T08:57:25.494857",
+      "decision": {
+        "tech_id": "llm-3d-gaussian-splatting",
+        "tech_name": "3D Gaussian Splatting",
+        "action": "adopt",
+        "confidence": 0.9,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-09-01T08:57:25.493608"
+      }
+    },
+    {
+      "id": "llm-task-conditioned-feature-trans",
+      "name": "Task-Conditioned Feature Transformations",
+      "adopted_at": "2026-09-01T08:57:25.494877",
+      "decision": {
+        "tech_id": "llm-task-conditioned-feature-trans",
+        "tech_name": "Task-Conditioned Feature Transformations",
+        "action": "adopt",
+        "confidence": 0.85,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-09-01T08:57:25.493747"
+      }
     }
   ],
   "history": [
@@ -892,6 +922,18 @@
       "tech_id": "llm-隐藏状态轨迹几何分析",
       "tech_name": "隐藏状态轨迹几何分析",
       "timestamp": "2026-09-01T03:08:13.952318"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-3d-gaussian-splatting",
+      "tech_name": "3D Gaussian Splatting",
+      "timestamp": "2026-09-01T08:57:25.494863"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-task-conditioned-feature-trans",
+      "tech_name": "Task-Conditioned Feature Transformations",
+      "timestamp": "2026-09-01T08:57:25.494879"
     }
   ]
 }

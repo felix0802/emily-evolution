@@ -35,8 +35,26 @@
         "status": "skipped",
         "reason": "sklearn_missing"
       }
+    },
+    {
+      "id": "exp-hyp-0006",
+      "hypothesis_id": "hyp-0006",
+      "hypothesis_text": "結合Few-Shot Learning與Continual Learning，提出一個基於隱私感知的邊界感知Transformer架構，能在少量樣本下持續學習新任務而不遺忘舊知識，並保護數據隱私。",
+      "dataset": "Iris",
+      "algorithms": [
+        "SGDClassifier",
+        "KNeighbors"
+      ],
+      "metric": "accuracy",
+      "cross_val": 5,
+      "designed_at": "2026-09-01T08:57:31.452192",
+      "status": "skipped",
+      "outcome": {
+        "status": "skipped",
+        "reason": "sklearn_missing"
+      }
     }
   ],
-  "total_experiments": 2,
-  "last_updated": "2026-07-16T09:53:06.269310"
+  "total_experiments": 3,
+  "last_updated": "2026-09-01T08:57:31.452755"
 }

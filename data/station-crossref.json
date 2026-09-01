@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-01T03:08:18.730329",
+  "timestamp": "2026-09-01T08:57:28.530705",
   "connections": [
     {
       "seed_a": "Mamba (SSM)",
@@ -15,7 +15,7 @@
         "with"
       ],
       "strength": 7,
-      "discovered_at": "2026-09-01T03:08:18.730195"
+      "discovered_at": "2026-09-01T08:57:28.530563"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -31,7 +31,38 @@
         "with"
       ],
       "strength": 7,
-      "discovered_at": "2026-09-01T03:08:18.730203"
+      "discovered_at": "2026-09-01T08:57:28.530570"
+    },
+    {
+      "seed_a": "Liquid Networks",
+      "seed_b": "Graph Neural Networks",
+      "shared_keywords": [],
+      "shared_paper_concepts": [
+        "attention",
+        "enhanced",
+        "linear",
+        "mixed",
+        "networks",
+        "neural",
+        "with"
+      ],
+      "strength": 7,
+      "discovered_at": "2026-09-01T08:57:28.530595"
+    },
+    {
+      "seed_a": "Mamba (SSM)",
+      "seed_b": "Liquid Networks",
+      "shared_keywords": [],
+      "shared_paper_concepts": [
+        "data",
+        "driven",
+        "models",
+        "networks",
+        "neural",
+        "with"
+      ],
+      "strength": 6,
+      "discovered_at": "2026-09-01T08:57:28.530537"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -46,7 +77,7 @@
         "state"
       ],
       "strength": 6,
-      "discovered_at": "2026-09-01T03:08:18.730177"
+      "discovered_at": "2026-09-01T08:57:28.530545"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -60,7 +91,21 @@
         "vision"
       ],
       "strength": 6,
-      "discovered_at": "2026-09-01T03:08:18.730185"
+      "discovered_at": "2026-09-01T08:57:28.530553"
+    },
+    {
+      "seed_a": "Liquid Networks",
+      "seed_b": "HTM",
+      "shared_keywords": [],
+      "shared_paper_concepts": [
+        "data",
+        "driven",
+        "enhanced",
+        "time",
+        "training"
+      ],
+      "strength": 5,
+      "discovered_at": "2026-09-01T08:57:28.530575"
     },
     {
       "seed_a": "HTM",
@@ -74,7 +119,7 @@
         "predictive"
       ],
       "strength": 5,
-      "discovered_at": "2026-09-01T03:08:18.730230"
+      "discovered_at": "2026-09-01T08:57:28.530642"
     },
     {
       "seed_a": "Continual Learning",
@@ -88,7 +133,7 @@
         "with"
       ],
       "strength": 5,
-      "discovered_at": "2026-09-01T03:08:18.730314"
+      "discovered_at": "2026-09-01T08:57:28.530688"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -101,46 +146,7 @@
         "neural"
       ],
       "strength": 4,
-      "discovered_at": "2026-09-01T03:08:18.730182"
-    },
-    {
-      "seed_a": "Mamba (SSM)",
-      "seed_b": "KV Cache Optimization",
-      "shared_keywords": [],
-      "shared_paper_concepts": [
-        "compression",
-        "diffusion",
-        "language",
-        "models"
-      ],
-      "strength": 4,
-      "discovered_at": "2026-09-01T03:08:18.730199"
-    },
-    {
-      "seed_a": "Continual Learning",
-      "seed_b": "Mixture of Experts",
-      "shared_keywords": [],
-      "shared_paper_concepts": [
-        "adaptive",
-        "learning",
-        "task",
-        "with"
-      ],
-      "strength": 4,
-      "discovered_at": "2026-09-01T03:08:18.730307"
-    },
-    {
-      "seed_a": "Mixture of Experts",
-      "seed_b": "Graph Neural Networks",
-      "shared_keywords": [],
-      "shared_paper_concepts": [
-        "learning",
-        "spectral",
-        "text",
-        "with"
-      ],
-      "strength": 4,
-      "discovered_at": "2026-09-01T03:08:18.730321"
+      "discovered_at": "2026-09-01T08:57:28.530550"
     }
   ],
   "total_seeds": 10

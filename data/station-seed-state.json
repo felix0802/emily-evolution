@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 531,
+  "_rotation_idx": 532,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 56,
@@ -730,40 +730,9 @@
   },
   "liquid-networks": {
     "name": "Liquid Networks",
-    "total_papers_found": 58,
-    "watering_count": 56,
+    "total_papers_found": 64,
+    "watering_count": 57,
     "history": [
-      {
-        "timestamp": "2026-07-14T13:04:24.015371",
-        "papers_found": 3,
-        "duplicates": 5,
-        "irrelevant_filtered": 2,
-        "avg_relevance": 1.0,
-        "high_relevance": 0,
-        "papers": [
-          {
-            "title": "Actor-Critic Learning for Extended Mean Field Control with Deterministic Policies",
-            "summary": "This paper develops a model-free reinforcement learning framework for continuous--time extended mean field control problems, where both the dynamics and reward may depend on the joint distribution of states and controls. We adopt deterministic feedback policies, under which the state--action distrib",
-            "published": "2026-07-13",
-            "url": "http://arxiv.org/abs/2607.11005v1",
-            "seed_match_score": 1
-          },
-          {
-            "title": "Sticky Jump Diffusions: A Unifying View of Masked, Continuous, and Hybrid Diffusion",
-            "summary": "We introduce Sticky Jump Diffusions (SJDs), continuous-time Markov processes on $\\mathbb R^d$ whose discrete anchors are token embeddings. In forward time, anchors release their mass at a hazard rate and the released mass diffuses in the continuous ambient space; time reversal couples a score-driven",
-            "published": "2026-07-12",
-            "url": "http://arxiv.org/abs/2607.10951v1",
-            "seed_match_score": 1
-          },
-          {
-            "title": "Unlocking Temporal Generalization in Hamiltonian Video Dynamics Models",
-            "summary": "World models are typically trained to predict discrete-time physical dynamics with a fixed step size baked into the model weights, preventing prediction at variable temporal resolutions. This matters for hierarchical planning, sim-to-real transfer, and scientific or game-engine applications that mus",
-            "published": "2026-07-08",
-            "url": "http://arxiv.org/abs/2607.07763v1",
-            "seed_match_score": 1
-          }
-        ]
-      },
       {
         "timestamp": "2026-07-15T03:48:27.632141",
         "papers_found": 3,
@@ -1461,6 +1430,37 @@
             "seed_match_score": 1
           }
         ]
+      },
+      {
+        "timestamp": "2026-09-01T08:57:19.268473",
+        "papers_found": 6,
+        "duplicates": 2,
+        "irrelevant_filtered": 2,
+        "avg_relevance": 1.33,
+        "high_relevance": 2,
+        "papers": [
+          {
+            "title": "Singular Curvature in ReLU Training:Differentiation and the Gradient-Flow Limit Need Not Commute",
+            "summary": "Gradient descent (GD) is explicit Euler for gradient flow, but a state-accurate continuous-time surrogate need not remain accurate after differentiation. At every fixed nonresonant step size, ordinary automatic differentiation exactly differentiates the executed hard-ReLU GD program. We prove that, ",
+            "published": "2026-08-31",
+            "url": "http://arxiv.org/abs/2608.30960v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Liquid Gated Attention",
+            "summary": "Real-world time series often exhibit irregular sampling and extended temporal horizons, requiring models to capture continuous-time dynamics across arbitrary intervals without prohibitive scaling costs. Discrete-time methods collapse variable time intervals into static positional steps; solver-depen",
+            "published": "2026-08-31",
+            "url": "http://arxiv.org/abs/2608.30695v1",
+            "seed_match_score": 2
+          },
+          {
+            "title": "Neural ODE enhanced linear mixed effect models for estimating complex association patterns of time-varying covariates with the marker trajectory",
+            "summary": "Longitudinal cohort studies produce repeated data that enable the assessment of time-varying association patterns between exposures and health outcomes. Classical linear mixed-effects models (LMMs) can accommodate a large variety of association patterns while accounting for the irregularly spaced, p",
+            "published": "2026-08-30",
+            "url": "http://arxiv.org/abs/2608.29714v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -1470,7 +1470,7 @@
       "ode",
       "continuous-time"
     ],
-    "last_watered": "2026-08-30T13:27:07.922023"
+    "last_watered": "2026-09-01T08:57:19.268467"
   },
   "htm": {
     "name": "HTM",
