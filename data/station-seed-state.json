@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 537,
+  "_rotation_idx": 538,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 56,
@@ -5154,8 +5154,8 @@
   },
   "moe": {
     "name": "Mixture of Experts",
-    "total_papers_found": 79,
-    "watering_count": 50,
+    "total_papers_found": 83,
+    "watering_count": 51,
     "history": [
       {
         "timestamp": "2026-07-15T09:46:58.985365",
@@ -6062,6 +6062,37 @@
         "avg_relevance": 0.0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-09-02T12:20:21.782057",
+        "papers_found": 4,
+        "duplicates": 2,
+        "irrelevant_filtered": 4,
+        "avg_relevance": 1.75,
+        "high_relevance": 3,
+        "papers": [
+          {
+            "title": "SMELT: Scaling Laws for Compute-Matched MoE Looped Transformers",
+            "summary": "Looped Transformers increase effective depth by iterating a shared block of layers, but most evaluations compare at fixed model size, conflating architectural advantage with extra FLOPs. We study looping on Mixture-of-Experts Transformers while closely matching per-token FLOPs, total non-embedding p",
+            "published": "2026-09-01",
+            "url": "http://arxiv.org/abs/2609.01343v1",
+            "seed_match_score": 2
+          },
+          {
+            "title": "Beyond Magnitude: Contrastive Routing for Modular Mixture-of-Experts",
+            "summary": "In current Mixture-of-Experts architectures, routing is performed based on representations dominated by structure shared across all tokens, limiting expert specialization. We show that contrasting each token against an Exponential Moving Average of the layer's hidden states, rather than routing on a",
+            "published": "2026-09-01",
+            "url": "http://arxiv.org/abs/2609.01100v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "PCoMoE: Shifting MoE Inference from Monolithic Expert Selection to Fine-Grained Path Composition",
+            "summary": "Mixture-of-Experts (MoE) architectures scale Large Language Model (LLM) capacity efficiently by activating a sparse subset of experts per token. However, modern MoE inference remains heavily constrained by the rigid, whole-expert abstraction. Existing frameworks manage, schedule, or prune experts as",
+            "published": "2026-09-01",
+            "url": "http://arxiv.org/abs/2609.01024v1",
+            "seed_match_score": 2
+          }
+        ]
       }
     ],
     "keywords": [
@@ -6073,7 +6104,7 @@
       "switch transformer",
       "deepseek"
     ],
-    "last_watered": "2026-08-31T18:18:13.162493"
+    "last_watered": "2026-09-02T12:20:21.782052"
   },
   "kv-cache": {
     "name": "KV Cache Optimization",

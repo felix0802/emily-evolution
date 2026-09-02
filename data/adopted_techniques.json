@@ -833,6 +833,21 @@
         ],
         "decided_at": "2026-09-02T06:31:29.795967"
       }
+    },
+    {
+      "id": "llm-zeroth-order-optimization",
+      "name": "Zeroth-Order Optimization",
+      "adopted_at": "2026-09-02T12:20:28.420010",
+      "decision": {
+        "tech_id": "llm-zeroth-order-optimization",
+        "tech_name": "Zeroth-Order Optimization",
+        "action": "adopt",
+        "confidence": 0.9,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-09-02T12:20:28.418705"
+      }
     }
   ],
   "history": [
@@ -1165,6 +1180,12 @@
       "tech_id": "llm-kv缓存驱逐",
       "tech_name": "KV缓存驱逐",
       "timestamp": "2026-09-02T06:31:29.797868"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-zeroth-order-optimization",
+      "tech_name": "Zeroth-Order Optimization",
+      "timestamp": "2026-09-02T12:20:28.420015"
     }
   ]
 }

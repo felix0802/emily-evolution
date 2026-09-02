@@ -1,37 +1,6 @@
 {
   "sessions": [
     {
-      "timestamp": "2026-07-03T18:57:29.437915",
-      "arxiv_papers_count": 20,
-      "arxiv_top_keywords": [
-        "unlearning",
-        "methods",
-        "lacuna",
-        "testbed",
-        "evaluating",
-        "programming",
-        "program",
-        "weights",
-        "paradigm",
-        "fuzzy"
-      ],
-      "huggingface_models_tracked": 10,
-      "huggingface_top_tasks": [
-        "sentence-similarity",
-        "fill-mask",
-        "text-ranking",
-        "feature-extraction",
-        "unknown"
-      ],
-      "ml_benchmarks_run": 10,
-      "ml_top_classifier": "RandomForest",
-      "evolution": {
-        "techniques_discovered": 3,
-        "techniques_adopted": 0,
-        "decisions": 0
-      }
-    },
-    {
       "timestamp": "2026-07-03T18:57:58.681646",
       "arxiv_papers_count": 20,
       "arxiv_top_keywords": [
@@ -3946,12 +3915,54 @@
         "seed_name": "Continual Learning",
         "papers_found": 5
       }
+    },
+    {
+      "timestamp": "2026-09-02T12:20:28.423235",
+      "arxiv_papers_count": 18,
+      "arxiv_top_keywords": [
+        "language",
+        "attention",
+        "linear",
+        "learning",
+        "graph",
+        "neural",
+        "distillation",
+        "teacher",
+        "subzero",
+        "gradient"
+      ],
+      "arxiv_strategies": [
+        "搜索: multi-query attention",
+        "搜索: geometric deep learning",
+        "搜索: knowledge distillation"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "fill-mask",
+        "unknown",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [],
+      "ml_total_tests": 0,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 20,
+        "adopted": 1,
+        "decisions": 1
+      },
+      "seed_watering": {
+        "seed_name": "Mixture of Experts",
+        "papers_found": 6
+      }
     }
   ],
   "total_sessions": 101,
-  "last_updated": "2026-09-02T06:31:33.378883",
+  "last_updated": "2026-09-02T12:20:28.423248",
   "evolution_summary": {
-    "total_adopted": 55,
+    "total_adopted": 56,
     "adopted_list": [
       "Knowledge Distillation",
       "World Models / Model-Based RL",
@@ -4007,7 +4018,8 @@
       "无泄漏流式评估协议",
       "时变转移动力学的泊松-伽马动态系统",
       "KV缓存量化",
-      "KV缓存驱逐"
+      "KV缓存驱逐",
+      "Zeroth-Order Optimization"
     ],
     "seeds": {
       "mamba": {
@@ -4047,8 +4059,8 @@
       },
       "moe": {
         "name": "Mixture of Experts",
-        "watering": 50,
-        "papers": 79
+        "watering": 51,
+        "papers": 83
       },
       "kv-cache": {
         "name": "KV Cache Optimization",
@@ -4175,16 +4187,16 @@
       },
       "moe": {
         "name": "Mixture of Experts",
-        "new_papers": 79,
+        "new_papers": 83,
         "keywords_matched": [
-          "moe",
+          "router",
           "deepseek",
           "mixture of experts",
-          "router",
+          "moe",
           "expert routing"
         ],
-        "high_relevance_total": 57,
-        "avg_relevance_latest": 0.0,
+        "high_relevance_total": 60,
+        "avg_relevance_latest": 1.75,
         "best_papers_count": 10
       },
       "kv-cache": {
@@ -4202,6 +4214,6 @@
         "best_papers_count": 1
       }
     },
-    "last_evolution": "2026-09-02T06:31:33.381991"
+    "last_evolution": "2026-09-02T12:20:28.425509"
   }
 }
