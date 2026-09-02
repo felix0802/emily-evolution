@@ -803,6 +803,36 @@
         ],
         "decided_at": "2026-09-02T01:40:10.079646"
       }
+    },
+    {
+      "id": "llm-kv缓存量化",
+      "name": "KV缓存量化",
+      "adopted_at": "2026-09-02T06:31:29.797815",
+      "decision": {
+        "tech_id": "llm-kv缓存量化",
+        "tech_name": "KV缓存量化",
+        "action": "adopt",
+        "confidence": 0.95,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-09-02T06:31:29.795755"
+      }
+    },
+    {
+      "id": "llm-kv缓存驱逐",
+      "name": "KV缓存驱逐",
+      "adopted_at": "2026-09-02T06:31:29.797865",
+      "decision": {
+        "tech_id": "llm-kv缓存驱逐",
+        "tech_name": "KV缓存驱逐",
+        "action": "adopt",
+        "confidence": 0.9,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-09-02T06:31:29.795967"
+      }
     }
   ],
   "history": [
@@ -1123,6 +1153,18 @@
       "tech_id": "llm-时变转移动力学的泊松-伽马动态系统",
       "tech_name": "时变转移动力学的泊松-伽马动态系统",
       "timestamp": "2026-09-02T01:40:10.080525"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-kv缓存量化",
+      "tech_name": "KV缓存量化",
+      "timestamp": "2026-09-02T06:31:29.797822"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-kv缓存驱逐",
+      "tech_name": "KV缓存驱逐",
+      "timestamp": "2026-09-02T06:31:29.797868"
     }
   ]
 }

@@ -30609,7 +30609,211 @@
         "soups"
       ],
       "first_seen_round": 170
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.30996v1",
+      "title": "Faithfulness Is Not Free: Auditing Offline KV-Cache Quantization in Retrieval-Augmented Generation",
+      "arxiv_id": "2608.30996",
+      "tokens": [
+        "auditing",
+        "augmented",
+        "cache",
+        "faithfulness",
+        "free",
+        "generation",
+        "offline",
+        "quantization",
+        "retrieval"
+      ],
+      "first_seen_round": 171
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.30076v1",
+      "title": "Budget-Aware Compression Pipeline for Single-GPU LLM Inference: Methods, Trade-offs, and Coupling Effects",
+      "arxiv_id": "2608.30076",
+      "tokens": [
+        "aware",
+        "budget",
+        "compression",
+        "coupling",
+        "effects",
+        "gpu",
+        "inference",
+        "llm",
+        "offs",
+        "pipeline",
+        "single",
+        "trade"
+      ],
+      "first_seen_round": 171
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.29934v1",
+      "title": "Compression-Aware Abstention: Teaching LLMs to Refuse When KV-Compression Masks Remove Answer Evidence",
+      "arxiv_id": "2608.29934",
+      "tokens": [
+        "abstention",
+        "answer",
+        "aware",
+        "compression",
+        "compression",
+        "evidence",
+        "llms",
+        "masks",
+        "refuse",
+        "remove",
+        "teaching"
+      ],
+      "first_seen_round": 171
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.28911v1",
+      "title": "SemKV: Semantic Mixed-Precision KV Cache Quantization Guided by the Quality Cliff for Long-Context LLM Inference",
+      "arxiv_id": "2608.28911",
+      "tokens": [
+        "cache",
+        "cliff",
+        "context",
+        "guided",
+        "inference",
+        "llm",
+        "long",
+        "mixed",
+        "precision",
+        "quality",
+        "quantization",
+        "semantic",
+        "semkv"
+      ],
+      "first_seen_round": 171
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.01441v1",
+      "title": "Edge-Girth as a Structural Edge Feature for Graph Neural Networks",
+      "arxiv_id": "2609.01441",
+      "tokens": [
+        "edge",
+        "edge",
+        "feature",
+        "girth",
+        "graph",
+        "neural",
+        "structural"
+      ],
+      "first_seen_round": 171
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.00528v1",
+      "title": "Why Multi-Layer Message Passing Works: Completeness Theory for Graph Neural Network Interatomic Potentials",
+      "arxiv_id": "2609.00528",
+      "tokens": [
+        "completeness",
+        "graph",
+        "interatomic",
+        "layer",
+        "message",
+        "multi",
+        "neural",
+        "passing",
+        "potentials",
+        "theory",
+        "why",
+        "works"
+      ],
+      "first_seen_round": 171
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.01068v1",
+      "title": "OUTLETS: Output-Length Prediction from Speculative Decoding Backbones",
+      "arxiv_id": "2609.01068",
+      "tokens": [
+        "backbones",
+        "decoding",
+        "length",
+        "outlets",
+        "output",
+        "prediction",
+        "speculative"
+      ],
+      "first_seen_round": 171
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.00796v1",
+      "title": "SFAD: Speculative Factuality-Aware Decoding",
+      "arxiv_id": "2609.00796",
+      "tokens": [
+        "aware",
+        "decoding",
+        "factuality",
+        "sfad",
+        "speculative"
+      ],
+      "first_seen_round": 171
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.00355v1",
+      "title": "Vision Is Not Overhead: One-Pass Block Drafting for Lossless Speculative Decoding in Vision-Language Models",
+      "arxiv_id": "2609.00355",
+      "tokens": [
+        "block",
+        "decoding",
+        "drafting",
+        "language",
+        "lossless",
+        "overhead",
+        "pass",
+        "speculative",
+        "vision",
+        "vision"
+      ],
+      "first_seen_round": 171
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.30427v1",
+      "title": "Ceiling-Clipped Acceptance Histograms Indicate Stranded Speed-up in Block-Diffusion Speculative Decoding",
+      "arxiv_id": "2608.30427",
+      "tokens": [
+        "acceptance",
+        "block",
+        "ceiling",
+        "clipped",
+        "decoding",
+        "diffusion",
+        "histograms",
+        "indicate",
+        "speculative",
+        "speed",
+        "stranded"
+      ],
+      "first_seen_round": 171
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.30135v1",
+      "title": "Verification-Aware Training for Speculative Decoding",
+      "arxiv_id": "2608.30135",
+      "tokens": [
+        "aware",
+        "decoding",
+        "speculative",
+        "training",
+        "verification"
+      ],
+      "first_seen_round": 171
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.29748v1",
+      "title": "ReTrace: Rejected-Trajectory Conditioning for Speculative Decoding",
+      "arxiv_id": "2608.29748",
+      "tokens": [
+        "conditioning",
+        "decoding",
+        "rejected",
+        "retrace",
+        "speculative",
+        "trajectory"
+      ],
+      "first_seen_round": 171
     }
   ],
-  "total_unique": 1904
+  "total_unique": 1916
 }

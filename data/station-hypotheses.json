@@ -200,8 +200,14 @@
       "arxiv_query": "liquid time-constant graph neural networks dynamic graphs",
       "potential_breakthrough": "A new class of 'liquid graph networks' that seamlessly handle both structural and temporal dependencies, achieving state-of-the-art accuracy on real-world dynamic graph benchmarks with improved robustness to noise.",
       "status": "unverified",
-      "verification_rounds": 0,
-      "supporting_papers": [],
+      "verification_rounds": 1,
+      "supporting_papers": [
+        {
+          "title": "Liquid Time-constant Recurrent Neural Networks as Universal Approximators",
+          "url": "http://arxiv.org/abs/1811.00321v1",
+          "reason": "該論文提出液態時間常數遞迴神經網路，能建模連續時間動態與可調時間常數，為結合GNN提供基礎，支持假設的可行性。"
+        }
+      ],
       "refuting_papers": [],
       "llm_source": "deepseek"
     },
@@ -223,7 +229,7 @@
       "llm_source": "deepseek"
     }
   ],
-  "last_updated": "2026-09-02T01:40:17.197714",
+  "last_updated": "2026-09-02T06:31:36.562529",
   "total_generated": 10,
   "total_verified": 6
 }

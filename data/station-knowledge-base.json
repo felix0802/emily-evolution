@@ -1,31 +1,6 @@
 {
   "sessions": [
     {
-      "timestamp": "2026-07-03T16:55:50.337141",
-      "arxiv_papers_count": 20,
-      "arxiv_top_keywords": [
-        "unlearning",
-        "methods",
-        "lacuna",
-        "testbed",
-        "evaluating",
-        "programming",
-        "program",
-        "weights",
-        "paradigm",
-        "fuzzy"
-      ],
-      "huggingface_models_tracked": 0,
-      "huggingface_top_tasks": [],
-      "ml_benchmarks_run": 10,
-      "ml_top_classifier": "RandomForest",
-      "evolution": {
-        "techniques_discovered": 3,
-        "techniques_adopted": 0,
-        "decisions": 0
-      }
-    },
-    {
       "timestamp": "2026-07-03T18:57:29.437915",
       "arxiv_papers_count": 20,
       "arxiv_top_keywords": [
@@ -3929,12 +3904,54 @@
         "seed_name": "Few-Shot Learning",
         "papers_found": 5
       }
+    },
+    {
+      "timestamp": "2026-09-02T06:31:33.378862",
+      "arxiv_papers_count": 18,
+      "arxiv_top_keywords": [
+        "speculative",
+        "decoding",
+        "quantization",
+        "aware",
+        "graph",
+        "cache",
+        "neural",
+        "block",
+        "target",
+        "faithfulness"
+      ],
+      "arxiv_strategies": [
+        "搜索: kv cache LLM",
+        "搜索: graph neural network recent",
+        "搜索: speculative decoding"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "fill-mask",
+        "unknown",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [],
+      "ml_total_tests": 0,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 21,
+        "adopted": 2,
+        "decisions": 2
+      },
+      "seed_watering": {
+        "seed_name": "Continual Learning",
+        "papers_found": 5
+      }
     }
   ],
   "total_sessions": 101,
-  "last_updated": "2026-09-02T01:40:13.880224",
+  "last_updated": "2026-09-02T06:31:33.378883",
   "evolution_summary": {
-    "total_adopted": 53,
+    "total_adopted": 55,
     "adopted_list": [
       "Knowledge Distillation",
       "World Models / Model-Based RL",
@@ -3988,7 +4005,9 @@
       "自适应小-大模型协同",
       "加性图神经网络",
       "无泄漏流式评估协议",
-      "时变转移动力学的泊松-伽马动态系统"
+      "时变转移动力学的泊松-伽马动态系统",
+      "KV缓存量化",
+      "KV缓存驱逐"
     ],
     "seeds": {
       "mamba": {
@@ -4023,7 +4042,7 @@
       },
       "continual-learning": {
         "name": "Continual Learning",
-        "watering": 54,
+        "watering": 55,
         "papers": 72
       },
       "moe": {
@@ -4128,14 +4147,14 @@
         "name": "Continual Learning",
         "new_papers": 67,
         "keywords_matched": [
+          "elastic weight",
           "ewc",
           "catastrophic forgetting",
-          "continual learning",
-          "elastic weight",
-          "lifelong"
+          "lifelong",
+          "continual learning"
         ],
         "high_relevance_total": 16,
-        "avg_relevance_latest": 1.25,
+        "avg_relevance_latest": 0.0,
         "best_papers_count": 2
       },
       "gnn": {
@@ -4183,6 +4202,6 @@
         "best_papers_count": 1
       }
     },
-    "last_evolution": "2026-09-02T01:40:13.882487"
+    "last_evolution": "2026-09-02T06:31:33.381991"
   }
 }
