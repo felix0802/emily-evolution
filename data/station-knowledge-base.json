@@ -1,31 +1,6 @@
 {
   "sessions": [
     {
-      "timestamp": "2026-07-03T21:02:20.862669",
-      "arxiv_papers_count": 20,
-      "arxiv_top_keywords": [
-        "unlearning",
-        "methods",
-        "lacuna",
-        "testbed",
-        "evaluating",
-        "programming",
-        "program",
-        "weights",
-        "paradigm",
-        "fuzzy"
-      ],
-      "huggingface_models_tracked": 0,
-      "huggingface_top_tasks": [],
-      "ml_benchmarks_run": 10,
-      "ml_top_classifier": "RandomForest",
-      "evolution": {
-        "techniques_discovered": 0,
-        "techniques_adopted": 0,
-        "decisions": 0
-      }
-    },
-    {
       "timestamp": "2026-07-04T08:10:19.677814",
       "arxiv_papers_count": 15,
       "arxiv_top_keywords": [
@@ -3985,12 +3960,54 @@
         "seed_name": "Graph Neural Networks",
         "papers_found": 7
       }
+    },
+    {
+      "timestamp": "2026-09-02T23:39:23.357262",
+      "arxiv_papers_count": 18,
+      "arxiv_top_keywords": [
+        "agent",
+        "llms",
+        "image",
+        "diffusion",
+        "facet",
+        "robotic",
+        "contact",
+        "wrench",
+        "foundation",
+        "optimal"
+      ],
+      "arxiv_strategies": [
+        "搜索: reinforcement learning",
+        "搜索: large language model",
+        "搜索: diffusion model"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "fill-mask",
+        "unknown",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [],
+      "ml_total_tests": 0,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 19,
+        "adopted": 3,
+        "decisions": 3
+      },
+      "seed_watering": {
+        "seed_name": "Mamba (SSM)",
+        "papers_found": 7
+      }
     }
   ],
   "total_sessions": 101,
-  "last_updated": "2026-09-02T20:12:15.086965",
+  "last_updated": "2026-09-02T23:39:23.357277",
   "evolution_summary": {
-    "total_adopted": 59,
+    "total_adopted": 62,
     "adopted_list": [
       "Knowledge Distillation",
       "World Models / Model-Based RL",
@@ -4050,12 +4067,15 @@
       "Zeroth-Order Optimization",
       "Trajectory-Aware Evaluation",
       "U-Net",
-      "Multimodal"
+      "Multimodal",
+      "接触后果预测与价值评估",
+      "SFT-RL注释预算分配框架",
+      "Sft"
     ],
     "seeds": {
       "mamba": {
         "name": "Mamba (SSM)",
-        "watering": 57,
+        "watering": 58,
         "papers": 56
       },
       "liquid-networks": {
@@ -4136,11 +4156,11 @@
         "new_papers": 51,
         "keywords_matched": [
           "ssm",
-          "state space",
-          "mamba"
+          "mamba",
+          "state space"
         ],
         "high_relevance_total": 19,
-        "avg_relevance_latest": 1.2,
+        "avg_relevance_latest": 0.0,
         "best_papers_count": 3
       },
       "liquid-networks": {
@@ -4245,6 +4265,6 @@
         "best_papers_count": 1
       }
     },
-    "last_evolution": "2026-09-02T20:12:15.089433"
+    "last_evolution": "2026-09-02T23:39:23.359593"
   }
 }

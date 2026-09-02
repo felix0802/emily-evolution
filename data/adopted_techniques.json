@@ -893,6 +893,51 @@
         ],
         "decided_at": "2026-09-02T20:12:12.122847"
       }
+    },
+    {
+      "id": "llm-接触后果预测与价值评估",
+      "name": "接触后果预测与价值评估",
+      "adopted_at": "2026-09-02T23:39:18.995452",
+      "decision": {
+        "tech_id": "llm-接触后果预测与价值评估",
+        "tech_name": "接触后果预测与价值评估",
+        "action": "adopt",
+        "confidence": 0.9,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-09-02T23:39:18.993944"
+      }
+    },
+    {
+      "id": "llm-sft-rl注释预算分配框架",
+      "name": "SFT-RL注释预算分配框架",
+      "adopted_at": "2026-09-02T23:39:18.995473",
+      "decision": {
+        "tech_id": "llm-sft-rl注释预算分配框架",
+        "tech_name": "SFT-RL注释预算分配框架",
+        "action": "adopt",
+        "confidence": 0.85,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-09-02T23:39:18.994122"
+      }
+    },
+    {
+      "id": "auto-sft",
+      "name": "Sft",
+      "adopted_at": "2026-09-02T23:39:18.995487",
+      "decision": {
+        "tech_id": "auto-sft",
+        "tech_name": "Sft",
+        "action": "adopt",
+        "confidence": 0.35,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-09-02T23:39:18.994339"
+      }
     }
   ],
   "history": [
@@ -1249,6 +1294,24 @@
       "tech_id": "auto-multimodal",
       "tech_name": "Multimodal",
       "timestamp": "2026-09-02T20:12:12.123838"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-接触后果预测与价值评估",
+      "tech_name": "接触后果预测与价值评估",
+      "timestamp": "2026-09-02T23:39:18.995457"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-sft-rl注释预算分配框架",
+      "tech_name": "SFT-RL注释预算分配框架",
+      "timestamp": "2026-09-02T23:39:18.995476"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "auto-sft",
+      "tech_name": "Sft",
+      "timestamp": "2026-09-02T23:39:18.995489"
     }
   ]
 }

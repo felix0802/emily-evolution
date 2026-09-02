@@ -1,0 +1,60 @@
+{
+  "graphs": [
+    {
+      "variables": [
+        {
+          "name": "X",
+          "role": "cause",
+          "mechanism": "X integrates selective state space models and continuous-time dynamics to enable adaptive time constants and selective state updates, which directly enhance the model's capacity to capture long-range dependencies in non-stationary sequences.",
+          "observable": true
+        },
+        {
+          "name": "Y",
+          "role": "effect",
+          "mechanism": "Y represents the improved long-term dependency modeling performance on non-stationary time series, which is measured by metrics such as prediction accuracy or error reduction, and is influenced by X's architectural innovations.",
+          "observable": true
+        },
+        {
+          "name": "Z",
+          "role": "confounder",
+          "mechanism": "Z includes shared mathematical foundations (e.g., ODE solvers) and common architectural improvements in recurrent networks that independently contribute to performance gains, potentially confounding the observed relationship between X and Y.",
+          "observable": false
+        }
+      ],
+      "edges": [
+        {
+          "from": "X",
+          "to": "Y",
+          "type": "direct_causal",
+          "confidence": 0.7
+        }
+      ],
+      "counterfactual": {
+        "question": "If the combined architecture (X) were not implemented, but instead a standard recurrent network without adaptive time constants and selective gating was used, what would happen to the long-term dependency modeling performance (Y)?",
+        "predicted_answer": "Without X, the model would likely exhibit degraded performance on non-stationary time series, particularly in capturing long-range dependencies, because the adaptive time constants and selective state updates are crucial for handling multi-scale temporal patterns. However, some improvement might still occur due to baseline recurrent architectures, but the magnitude would be significantly lower than with X.",
+        "confidence": 0.65
+      },
+      "confounders_detected": [
+        "Z"
+      ],
+      "is_correlation_only": false,
+      "causal_strength": 0.7,
+      "alternative_explanations": [
+        "The performance improvement could be attributed to increased model capacity or parameter count rather than the specific combination of Mamba and Liquid Networks.",
+        "The observed gains might be due to better optimization techniques or regularization methods used in the experiments, not the architectural design itself.",
+        "The evidence cited may not directly compare the combined model against each component individually, so the incremental benefit of the combination is unclear."
+      ],
+      "hypothesis_id": "hyp-0002",
+      "hypothesis_text": "結合Mamba的選擇性狀態空間模型與Liquid Networks的連續時間動力學，可創建一個具備自適應時間常數和狀態選擇能力的循環神經網路，顯著提升對非平穩時間序列的長期依賴建模能力。",
+      "seed_a": "Mamba (SSM)",
+      "seed_b": "Non-Transformer Arch",
+      "evidence_counts": {
+        "supporting": 3,
+        "refuting": 0
+      },
+      "analyzed_at": "2026-09-02T23:39:30.832891",
+      "llm_source": "deepseek"
+    }
+  ],
+  "total_analyzed": 1
+}
