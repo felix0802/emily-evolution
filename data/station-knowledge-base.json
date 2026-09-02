@@ -1,31 +1,6 @@
 {
   "sessions": [
     {
-      "timestamp": "2026-07-03T16:55:20.252675",
-      "arxiv_papers_count": 20,
-      "arxiv_top_keywords": [
-        "unlearning",
-        "methods",
-        "lacuna",
-        "testbed",
-        "evaluating",
-        "programming",
-        "program",
-        "weights",
-        "paradigm",
-        "fuzzy"
-      ],
-      "huggingface_models_tracked": 0,
-      "huggingface_top_tasks": [],
-      "ml_benchmarks_run": 10,
-      "ml_top_classifier": "RandomForest",
-      "evolution": {
-        "techniques_discovered": 3,
-        "techniques_adopted": 0,
-        "decisions": 0
-      }
-    },
-    {
       "timestamp": "2026-07-03T16:55:50.337141",
       "arxiv_papers_count": 20,
       "arxiv_top_keywords": [
@@ -3912,12 +3887,54 @@
         "seed_name": "Non-Transformer Arch",
         "papers_found": 8
       }
+    },
+    {
+      "timestamp": "2026-09-02T01:40:13.880210",
+      "arxiv_papers_count": 18,
+      "arxiv_top_keywords": [
+        "time",
+        "detection",
+        "data",
+        "network",
+        "warmup",
+        "adaptation",
+        "online",
+        "edge",
+        "leakage",
+        "transition"
+      ],
+      "arxiv_strategies": [
+        "搜索: time series forecasting",
+        "搜索: anomaly detection",
+        "搜索: mixture of experts"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "fill-mask",
+        "unknown",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [],
+      "ml_total_tests": 0,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 15,
+        "adopted": 2,
+        "decisions": 2
+      },
+      "seed_watering": {
+        "seed_name": "Few-Shot Learning",
+        "papers_found": 5
+      }
     }
   ],
   "total_sessions": 101,
-  "last_updated": "2026-09-01T22:08:55.986146",
+  "last_updated": "2026-09-02T01:40:13.880224",
   "evolution_summary": {
-    "total_adopted": 51,
+    "total_adopted": 53,
     "adopted_list": [
       "Knowledge Distillation",
       "World Models / Model-Based RL",
@@ -3969,7 +3986,9 @@
       "Lora",
       "LLM-guided bilevel program evolution",
       "自适应小-大模型协同",
-      "加性图神经网络"
+      "加性图神经网络",
+      "无泄漏流式评估协议",
+      "时变转移动力学的泊松-伽马动态系统"
     ],
     "seeds": {
       "mamba": {
@@ -3999,7 +4018,7 @@
       },
       "few-shot": {
         "name": "Few-Shot Learning",
-        "watering": 55,
+        "watering": 56,
         "papers": 28
       },
       "continual-learning": {
@@ -4041,8 +4060,8 @@
         "name": "Few-Shot Learning",
         "new_papers": 23,
         "keywords_matched": [
-          "few-shot",
           "meta-learning",
+          "few-shot",
           "maml",
           "in-context"
         ],
@@ -4164,6 +4183,6 @@
         "best_papers_count": 1
       }
     },
-    "last_evolution": "2026-09-01T22:08:55.988404"
+    "last_evolution": "2026-09-02T01:40:13.882487"
   }
 }

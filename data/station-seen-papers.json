@@ -30400,7 +30400,216 @@
         "window"
       ],
       "first_seen_round": 169
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.01126v1",
+      "title": "When Does Online Adaptation Pay on the Edge? A Leakage-Free Evaluation of Warmup, Learning-Rate Selection, and Resource Trade-offs for Time-Series Forecasting",
+      "arxiv_id": "2609.01126",
+      "tokens": [
+        "adaptation",
+        "edge",
+        "evaluation",
+        "forecasting",
+        "free",
+        "leakage",
+        "offs",
+        "online",
+        "pay",
+        "rate",
+        "resource",
+        "selection",
+        "series",
+        "time",
+        "trade",
+        "warmup"
+      ],
+      "first_seen_round": 170
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.00896v1",
+      "title": "Poisson-Gamma Dynamical Systems with Time-varying Transition Dynamics",
+      "arxiv_id": "2609.00896",
+      "tokens": [
+        "dynamical",
+        "dynamics",
+        "gamma",
+        "poisson",
+        "time",
+        "transition",
+        "varying"
+      ],
+      "first_seen_round": 170
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.00402v1",
+      "title": "A convolutional framework for detecting event-driven dynamics in energy price series",
+      "arxiv_id": "2609.00402",
+      "tokens": [
+        "convolutional",
+        "detecting",
+        "driven",
+        "dynamics",
+        "energy",
+        "event",
+        "price",
+        "series"
+      ],
+      "first_seen_round": 170
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.31013v1",
+      "title": "TSPFN: A Temporal Tabular Foundation Model for Physiological Time Series Classification",
+      "arxiv_id": "2608.31013",
+      "tokens": [
+        "classification",
+        "foundation",
+        "physiological",
+        "series",
+        "tabular",
+        "temporal",
+        "time",
+        "tspfn"
+      ],
+      "first_seen_round": 170
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.30976v1",
+      "title": "A Human-in-the-Loop Autonomous Agent for Industry Time Series Forecasting",
+      "arxiv_id": "2608.30976",
+      "tokens": [
+        "agent",
+        "autonomous",
+        "forecasting",
+        "human",
+        "industry",
+        "loop",
+        "series",
+        "time"
+      ],
+      "first_seen_round": 170
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.00093v1",
+      "title": "Local Reference Geometry Residual Augmentation for Imbalanced Time Series Classification",
+      "arxiv_id": "2609.00093",
+      "tokens": [
+        "augmentation",
+        "classification",
+        "geometry",
+        "imbalanced",
+        "local",
+        "reference",
+        "residual",
+        "series",
+        "time"
+      ],
+      "first_seen_round": 170
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.27500v1",
+      "title": "Optimal Transport for Network Comparison: A Review with Machine Learning Applications",
+      "arxiv_id": "2608.27500",
+      "tokens": [
+        "applications",
+        "comparison",
+        "machine",
+        "optimal",
+        "transport"
+      ],
+      "first_seen_round": 170
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.00407v1",
+      "title": "DynaNDE: Dynamic Near-Data Expert Scheduling for Batched MoE Inference",
+      "arxiv_id": "2609.00407",
+      "tokens": [
+        "batched",
+        "dynamic",
+        "dynande",
+        "expert",
+        "inference",
+        "moe",
+        "near",
+        "scheduling"
+      ],
+      "first_seen_round": 170
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.00284v1",
+      "title": "WiSDoM: Wireless Sparse Decision Transformer with Mixture-of-Experts for Multi-Task Mobile Network Optimization",
+      "arxiv_id": "2609.00284",
+      "tokens": [
+        "decision",
+        "experts",
+        "mixture",
+        "mobile",
+        "multi",
+        "optimization",
+        "sparse",
+        "task",
+        "transformer",
+        "wireless",
+        "wisdom"
+      ],
+      "first_seen_round": 170
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.30564v1",
+      "title": "Q-Strata: Hierarchical Bit Allocation for Mixed-Precision Quantization of Mixture-of-Experts LLMs",
+      "arxiv_id": "2608.30564",
+      "tokens": [
+        "allocation",
+        "bit",
+        "experts",
+        "hierarchical",
+        "llms",
+        "mixed",
+        "mixture",
+        "precision",
+        "quantization",
+        "strata"
+      ],
+      "first_seen_round": 170
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.30449v1",
+      "title": "PRIME: Mitigating Subgroup Optimization Competition in Shared CTR Top Networks with Plug-in Residual Input-Conditioned Mixture of Expert",
+      "arxiv_id": "2608.30449",
+      "tokens": [
+        "competition",
+        "conditioned",
+        "ctr",
+        "expert",
+        "input",
+        "mitigating",
+        "mixture",
+        "optimization",
+        "plug",
+        "prime",
+        "residual",
+        "shared",
+        "subgroup",
+        "top"
+      ],
+      "first_seen_round": 170
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.29978v1",
+      "title": "Evolutionary Soups: Evolving Mixture-of-Experts for Multi-Objective LLM Alignment",
+      "arxiv_id": "2608.29978",
+      "tokens": [
+        "alignment",
+        "evolutionary",
+        "evolving",
+        "experts",
+        "llm",
+        "mixture",
+        "multi",
+        "objective",
+        "soups"
+      ],
+      "first_seen_round": 170
     }
   ],
-  "total_unique": 1892
+  "total_unique": 1904
 }
