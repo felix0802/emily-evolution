@@ -863,6 +863,36 @@
         ],
         "decided_at": "2026-09-02T17:28:27.215579"
       }
+    },
+    {
+      "id": "llm-u-net",
+      "name": "U-Net",
+      "adopted_at": "2026-09-02T20:12:12.123822",
+      "decision": {
+        "tech_id": "llm-u-net",
+        "tech_name": "U-Net",
+        "action": "adopt",
+        "confidence": 0.9,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-09-02T20:12:12.122599"
+      }
+    },
+    {
+      "id": "auto-multimodal",
+      "name": "Multimodal",
+      "adopted_at": "2026-09-02T20:12:12.123837",
+      "decision": {
+        "tech_id": "auto-multimodal",
+        "tech_name": "Multimodal",
+        "action": "adopt",
+        "confidence": 0.35,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-09-02T20:12:12.122847"
+      }
     }
   ],
   "history": [
@@ -1207,6 +1237,18 @@
       "tech_id": "llm-trajectory-aware-evaluation",
       "tech_name": "Trajectory-Aware Evaluation",
       "timestamp": "2026-09-02T17:28:27.216696"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-u-net",
+      "tech_name": "U-Net",
+      "timestamp": "2026-09-02T20:12:12.123826"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "auto-multimodal",
+      "tech_name": "Multimodal",
+      "timestamp": "2026-09-02T20:12:12.123838"
     }
   ]
 }

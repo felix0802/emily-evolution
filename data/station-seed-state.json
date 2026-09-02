@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 539,
+  "_rotation_idx": 540,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 56,
@@ -7016,8 +7016,8 @@
   },
   "gnn": {
     "name": "Graph Neural Networks",
-    "total_papers_found": 119,
-    "watering_count": 52,
+    "total_papers_found": 120,
+    "watering_count": 53,
     "history": [
       {
         "timestamp": "2026-07-15T15:16:02.082257",
@@ -8047,6 +8047,23 @@
             "seed_match_score": 1
           }
         ]
+      },
+      {
+        "timestamp": "2026-09-02T20:12:06.299790",
+        "papers_found": 1,
+        "duplicates": 6,
+        "irrelevant_filtered": 3,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "LCoT-GV: Graph Attention Networks for Verifying Long Reasoning Chains in Large Language Models",
+            "summary": "Large Reasoning Models produce Long Chains-of-Thought (LCoTs) which involve breaking down the problem into smaller reasoning steps before reaching the conclusion. However, these steps often contain contradictions, unsupported inferences, or irrelevant steps, even when the final answer is correct. We",
+            "published": "2026-08-31",
+            "url": "http://arxiv.org/abs/2608.30679v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -8058,6 +8075,6 @@
       "node embedding",
       "graph transformer"
     ],
-    "last_watered": "2026-09-01T02:17:54.645694"
+    "last_watered": "2026-09-02T20:12:06.299784"
   }
 }

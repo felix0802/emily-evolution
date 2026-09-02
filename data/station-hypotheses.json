@@ -188,7 +188,7 @@
       "arxiv_query": "Mamba graph neural network selective state space hybrid",
       "potential_breakthrough": "This could yield a new class of graph models that scale to million-node graphs with linear memory, enabling real-time learning on evolving social or biological networks.",
       "status": "unverified",
-      "verification_rounds": 1,
+      "verification_rounds": 2,
       "supporting_papers": [],
       "refuting_papers": [],
       "llm_source": "deepseek"
@@ -234,7 +234,7 @@
       "llm_source": "deepseek"
     }
   ],
-  "last_updated": "2026-09-02T17:28:30.499245",
+  "last_updated": "2026-09-02T20:12:18.346627",
   "total_generated": 10,
   "total_verified": 6
 }

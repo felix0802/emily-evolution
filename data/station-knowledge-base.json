@@ -1,31 +1,6 @@
 {
   "sessions": [
     {
-      "timestamp": "2026-07-03T21:01:54.452347",
-      "arxiv_papers_count": 20,
-      "arxiv_top_keywords": [
-        "unlearning",
-        "methods",
-        "lacuna",
-        "testbed",
-        "evaluating",
-        "programming",
-        "program",
-        "weights",
-        "paradigm",
-        "fuzzy"
-      ],
-      "huggingface_models_tracked": 0,
-      "huggingface_top_tasks": [],
-      "ml_benchmarks_run": 10,
-      "ml_top_classifier": "RandomForest",
-      "evolution": {
-        "techniques_discovered": 2,
-        "techniques_adopted": 0,
-        "decisions": 0
-      }
-    },
-    {
       "timestamp": "2026-07-03T21:02:20.862669",
       "arxiv_papers_count": 20,
       "arxiv_top_keywords": [
@@ -3968,12 +3943,54 @@
         "seed_name": "KV Cache Optimization",
         "papers_found": 6
       }
+    },
+    {
+      "timestamp": "2026-09-02T20:12:15.086951",
+      "arxiv_papers_count": 21,
+      "arxiv_top_keywords": [
+        "generation",
+        "language",
+        "segmentation",
+        "text",
+        "foundation",
+        "llm",
+        "agents",
+        "retrieval",
+        "agent",
+        "guidance"
+      ],
+      "arxiv_strategies": [
+        "cs.CV 最新",
+        "cs.AI+cs.LG 混合",
+        "cs.CL+cs.CV 混合"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "fill-mask",
+        "unknown",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [],
+      "ml_total_tests": 0,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 18,
+        "adopted": 2,
+        "decisions": 2
+      },
+      "seed_watering": {
+        "seed_name": "Graph Neural Networks",
+        "papers_found": 7
+      }
     }
   ],
   "total_sessions": 101,
-  "last_updated": "2026-09-02T17:28:27.219113",
+  "last_updated": "2026-09-02T20:12:15.086965",
   "evolution_summary": {
-    "total_adopted": 57,
+    "total_adopted": 59,
     "adopted_list": [
       "Knowledge Distillation",
       "World Models / Model-Based RL",
@@ -4031,7 +4048,9 @@
       "KV缓存量化",
       "KV缓存驱逐",
       "Zeroth-Order Optimization",
-      "Trajectory-Aware Evaluation"
+      "Trajectory-Aware Evaluation",
+      "U-Net",
+      "Multimodal"
     ],
     "seeds": {
       "mamba": {
@@ -4081,8 +4100,8 @@
       },
       "gnn": {
         "name": "Graph Neural Networks",
-        "watering": 52,
-        "papers": 119
+        "watering": 53,
+        "papers": 120
       }
     },
     "seed_metrics": {
@@ -4183,18 +4202,18 @@
       },
       "gnn": {
         "name": "Graph Neural Networks",
-        "new_papers": 119,
+        "new_papers": 120,
         "keywords_matched": [
           "geometric",
           "graph attention",
-          "node embedding",
-          "graph neural",
+          "gnn",
           "message passing",
+          "graph neural",
           "graph transformer",
-          "gnn"
+          "node embedding"
         ],
         "high_relevance_total": 56,
-        "avg_relevance_latest": 1.57,
+        "avg_relevance_latest": 1.0,
         "best_papers_count": 10
       },
       "moe": {
@@ -4226,6 +4245,6 @@
         "best_papers_count": 1
       }
     },
-    "last_evolution": "2026-09-02T17:28:27.221042"
+    "last_evolution": "2026-09-02T20:12:15.089433"
   }
 }
