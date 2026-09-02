@@ -160,12 +160,17 @@
       "arxiv_query": "Mamba Mixture of Experts sparse state space model conditional computation",
       "potential_breakthrough": "突破在於實現一個線性複雜度、可擴展至萬億參數的序列模型，同時保持對長序列的動態適應性，適用於實時和資源受限場景。",
       "status": "unverified",
-      "verification_rounds": 1,
+      "verification_rounds": 2,
       "supporting_papers": [
         {
           "title": "Routing Mamba: Scaling State Space Models with Mixture-of-Experts Projection",
           "url": "http://arxiv.org/abs/2506.18145v1",
           "reason": "該論文提出將MoE投影應用於Mamba，直接支持結合Mamba與MoE的可行性。"
+        },
+        {
+          "title": "Routing Mamba: Scaling State Space Models with Mixture-of-Experts Projection",
+          "url": "http://arxiv.org/abs/2506.18145v1",
+          "reason": "論文直接提出將Mamba與MoE結合的架構，支持假設中結合兩者的可行性。"
         }
       ],
       "refuting_papers": [],
@@ -229,7 +234,7 @@
       "llm_source": "deepseek"
     }
   ],
-  "last_updated": "2026-09-02T12:20:32.162655",
+  "last_updated": "2026-09-02T17:28:30.499245",
   "total_generated": 10,
   "total_verified": 6
 }

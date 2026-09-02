@@ -848,6 +848,21 @@
         ],
         "decided_at": "2026-09-02T12:20:28.418705"
       }
+    },
+    {
+      "id": "llm-trajectory-aware-evaluation",
+      "name": "Trajectory-Aware Evaluation",
+      "adopted_at": "2026-09-02T17:28:27.216692",
+      "decision": {
+        "tech_id": "llm-trajectory-aware-evaluation",
+        "tech_name": "Trajectory-Aware Evaluation",
+        "action": "adopt",
+        "confidence": 0.9,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-09-02T17:28:27.215579"
+      }
     }
   ],
   "history": [
@@ -1186,6 +1201,12 @@
       "tech_id": "llm-zeroth-order-optimization",
       "tech_name": "Zeroth-Order Optimization",
       "timestamp": "2026-09-02T12:20:28.420015"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-trajectory-aware-evaluation",
+      "tech_name": "Trajectory-Aware Evaluation",
+      "timestamp": "2026-09-02T17:28:27.216696"
     }
   ]
 }

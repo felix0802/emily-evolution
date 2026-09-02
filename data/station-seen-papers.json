@@ -31055,7 +31055,262 @@
         "technical"
       ],
       "first_seen_round": 172
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.01603v1",
+      "title": "Efficient SWE Agent Benchmarking via Trajectory-Aware Evaluation",
+      "arxiv_id": "2609.01603",
+      "tokens": [
+        "agent",
+        "aware",
+        "benchmarking",
+        "evaluation",
+        "swe",
+        "trajectory"
+      ],
+      "first_seen_round": 173
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.01601v1",
+      "title": "Adaptive Critical Token-Aware Retrieval for Repository-Level Code Generation",
+      "arxiv_id": "2609.01601",
+      "tokens": [
+        "adaptive",
+        "aware",
+        "code",
+        "critical",
+        "generation",
+        "level",
+        "repository",
+        "retrieval",
+        "token"
+      ],
+      "first_seen_round": 173
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.01600v1",
+      "title": "CordisBench: Can Language Models Reason About Component Lifecycles in Dynamic Agent Harnesses?",
+      "arxiv_id": "2609.01600",
+      "tokens": [
+        "agent",
+        "component",
+        "cordisbench",
+        "dynamic",
+        "harnesses",
+        "language",
+        "lifecycles",
+        "reason"
+      ],
+      "first_seen_round": 173
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.01597v1",
+      "title": "The Rise of Verbal Reinforcement Learning",
+      "arxiv_id": "2609.01597",
+      "tokens": [
+        "reinforcement",
+        "rise",
+        "verbal"
+      ],
+      "first_seen_round": 173
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.01595v1",
+      "title": "Mechanism Design for Alignment and Control",
+      "arxiv_id": "2609.01595",
+      "tokens": [
+        "alignment",
+        "control",
+        "design",
+        "mechanism"
+      ],
+      "first_seen_round": 173
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.01588v1",
+      "title": "Designing Proactive Thought Partners for Writing",
+      "arxiv_id": "2609.01588",
+      "tokens": [
+        "designing",
+        "partners",
+        "proactive",
+        "thought",
+        "writing"
+      ],
+      "first_seen_round": 173
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.01573v1",
+      "title": "Scaling Near-Optimal SFT-RL Annotation Budget Allocation from Small to Large LLMs",
+      "arxiv_id": "2609.01573",
+      "tokens": [
+        "allocation",
+        "annotation",
+        "budget",
+        "llms",
+        "near",
+        "optimal",
+        "scaling",
+        "sft"
+      ],
+      "first_seen_round": 173
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.01567v1",
+      "title": "Selective Agent Guidance via Entropy: Learning Autonomous Policies from Imperfect VLM Teachers",
+      "arxiv_id": "2609.01567",
+      "tokens": [
+        "agent",
+        "autonomous",
+        "entropy",
+        "guidance",
+        "imperfect",
+        "policies",
+        "selective",
+        "teachers",
+        "vlm"
+      ],
+      "first_seen_round": 173
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.01604v1",
+      "title": "Beyond Scores: Understanding LLM-as-a-Judge Mechanisms in Summarization Evaluation",
+      "arxiv_id": "2609.01604",
+      "tokens": [
+        "evaluation",
+        "judge",
+        "llm",
+        "mechanisms",
+        "scores",
+        "summarization",
+        "understanding"
+      ],
+      "first_seen_round": 173
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.01596v1",
+      "title": "Facet-0: A Robotic Foundation Model for Contact-Rich Precise Manipulation",
+      "arxiv_id": "2609.01596",
+      "tokens": [
+        "contact",
+        "facet",
+        "foundation",
+        "manipulation",
+        "precise",
+        "rich",
+        "robotic"
+      ],
+      "first_seen_round": 173
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.01587v1",
+      "title": "The Structure of Quantization Damage in LLMs: Why the Next Bit Should Be Spent Globally",
+      "arxiv_id": "2609.01587",
+      "tokens": [
+        "bit",
+        "damage",
+        "globally",
+        "llms",
+        "next",
+        "quantization",
+        "spent",
+        "structure",
+        "why"
+      ],
+      "first_seen_round": 173
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.01558v1",
+      "title": "Gradient-Update Mismatch: Rethinking Conflict-Free Training of Physics-Informed Neural Networks",
+      "arxiv_id": "2609.01558",
+      "tokens": [
+        "conflict",
+        "free",
+        "gradient",
+        "informed",
+        "mismatch",
+        "neural",
+        "physics",
+        "rethinking",
+        "training",
+        "update"
+      ],
+      "first_seen_round": 173
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.01556v1",
+      "title": "Retrieved but not ranked: surface-form bias in structural retrieval, from mathematics to agent trajectories",
+      "arxiv_id": "2609.01556",
+      "tokens": [
+        "agent",
+        "bias",
+        "form",
+        "mathematics",
+        "ranked",
+        "retrieval",
+        "retrieved",
+        "structural",
+        "surface",
+        "trajectories"
+      ],
+      "first_seen_round": 173
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.01552v1",
+      "title": "Can LLMs Discover Scientific Laws in Real and Parallel Worlds?",
+      "arxiv_id": "2609.01552",
+      "tokens": [
+        "discover",
+        "laws",
+        "llms",
+        "parallel",
+        "real",
+        "scientific",
+        "worlds"
+      ],
+      "first_seen_round": 173
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.01591v1",
+      "title": "StudentSim: Training LLM-based Student Simulators",
+      "arxiv_id": "2609.01591",
+      "tokens": [
+        "llm",
+        "simulators",
+        "student",
+        "studentsim",
+        "training"
+      ],
+      "first_seen_round": 173
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.01338v1",
+      "title": "mzCache: On-Device LLM Memory Management under Multitasking",
+      "arxiv_id": "2609.01338",
+      "tokens": [
+        "device",
+        "llm",
+        "management",
+        "memory",
+        "multitasking",
+        "mzcache"
+      ],
+      "first_seen_round": 173
+    },
+    {
+      "url": "http://arxiv.org/abs/2608.30963v1",
+      "title": "A Universal Context-Reuse Layer for Cross-Model KV Sharing",
+      "arxiv_id": "2608.30963",
+      "tokens": [
+        "context",
+        "cross",
+        "layer",
+        "reuse",
+        "sharing",
+        "universal"
+      ],
+      "first_seen_round": 173
     }
   ],
-  "total_unique": 1932
+  "total_unique": 1949
 }

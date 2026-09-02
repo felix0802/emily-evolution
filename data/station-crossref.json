@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-02T12:20:28.436230",
+  "timestamp": "2026-09-02T17:28:27.229852",
   "connections": [
     {
       "seed_a": "Mamba (SSM)",
@@ -14,7 +14,7 @@
         "state"
       ],
       "strength": 7,
-      "discovered_at": "2026-09-02T12:20:28.436075"
+      "discovered_at": "2026-09-02T17:28:27.229717"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -30,7 +30,7 @@
         "with"
       ],
       "strength": 7,
-      "discovered_at": "2026-09-02T12:20:28.436093"
+      "discovered_at": "2026-09-02T17:28:27.229732"
     },
     {
       "seed_a": "Liquid Networks",
@@ -46,7 +46,7 @@
         "with"
       ],
       "strength": 7,
-      "discovered_at": "2026-09-02T12:20:28.436153"
+      "discovered_at": "2026-09-02T17:28:27.229786"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -61,7 +61,7 @@
         "with"
       ],
       "strength": 6,
-      "discovered_at": "2026-09-02T12:20:28.436059"
+      "discovered_at": "2026-09-02T17:28:27.229701"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -76,7 +76,7 @@
         "with"
       ],
       "strength": 6,
-      "discovered_at": "2026-09-02T12:20:28.436085"
+      "discovered_at": "2026-09-02T17:28:27.229726"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -90,7 +90,7 @@
         "graph"
       ],
       "strength": 5,
-      "discovered_at": "2026-09-02T12:20:28.436067"
+      "discovered_at": "2026-09-02T17:28:27.229710"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -104,7 +104,21 @@
         "with"
       ],
       "strength": 5,
-      "discovered_at": "2026-09-02T12:20:28.436072"
+      "discovered_at": "2026-09-02T17:28:27.229714"
+    },
+    {
+      "seed_a": "Mamba (SSM)",
+      "seed_b": "KV Cache Optimization",
+      "shared_keywords": [],
+      "shared_paper_concepts": [
+        "cross",
+        "diffusion",
+        "language",
+        "layer",
+        "models"
+      ],
+      "strength": 5,
+      "discovered_at": "2026-09-02T17:28:27.229729"
     },
     {
       "seed_a": "Mixture of Experts",
@@ -118,20 +132,7 @@
         "with"
       ],
       "strength": 5,
-      "discovered_at": "2026-09-02T12:20:28.436221"
-    },
-    {
-      "seed_a": "Mamba (SSM)",
-      "seed_b": "KV Cache Optimization",
-      "shared_keywords": [],
-      "shared_paper_concepts": [
-        "compression",
-        "diffusion",
-        "language",
-        "models"
-      ],
-      "strength": 4,
-      "discovered_at": "2026-09-02T12:20:28.436089"
+      "discovered_at": "2026-09-02T17:28:27.229842"
     },
     {
       "seed_a": "Continual Learning",
@@ -144,7 +145,7 @@
         "with"
       ],
       "strength": 4,
-      "discovered_at": "2026-09-02T12:20:28.436208"
+      "discovered_at": "2026-09-02T17:28:27.229832"
     }
   ],
   "total_seeds": 10

@@ -1,37 +1,6 @@
 {
   "sessions": [
     {
-      "timestamp": "2026-07-03T18:57:58.681646",
-      "arxiv_papers_count": 20,
-      "arxiv_top_keywords": [
-        "unlearning",
-        "methods",
-        "lacuna",
-        "testbed",
-        "evaluating",
-        "programming",
-        "program",
-        "weights",
-        "paradigm",
-        "fuzzy"
-      ],
-      "huggingface_models_tracked": 10,
-      "huggingface_top_tasks": [
-        "sentence-similarity",
-        "fill-mask",
-        "text-ranking",
-        "feature-extraction",
-        "unknown"
-      ],
-      "ml_benchmarks_run": 10,
-      "ml_top_classifier": "RandomForest",
-      "evolution": {
-        "techniques_discovered": 3,
-        "techniques_adopted": 0,
-        "decisions": 0
-      }
-    },
-    {
       "timestamp": "2026-07-03T21:01:54.452347",
       "arxiv_papers_count": 20,
       "arxiv_top_keywords": [
@@ -3957,12 +3926,54 @@
         "seed_name": "Mixture of Experts",
         "papers_found": 6
       }
+    },
+    {
+      "timestamp": "2026-09-02T17:28:27.219104",
+      "arxiv_papers_count": 15,
+      "arxiv_top_keywords": [
+        "agents",
+        "generation",
+        "retrieval",
+        "language",
+        "agent",
+        "guidance",
+        "llm",
+        "llms",
+        "efficient",
+        "trajectory"
+      ],
+      "arxiv_strategies": [
+        "cs.AI 最新",
+        "cs.LG 最新",
+        "cs.CL 最新"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "fill-mask",
+        "unknown",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [],
+      "ml_total_tests": 0,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 20,
+        "adopted": 1,
+        "decisions": 1
+      },
+      "seed_watering": {
+        "seed_name": "KV Cache Optimization",
+        "papers_found": 6
+      }
     }
   ],
   "total_sessions": 101,
-  "last_updated": "2026-09-02T12:20:28.423248",
+  "last_updated": "2026-09-02T17:28:27.219113",
   "evolution_summary": {
-    "total_adopted": 56,
+    "total_adopted": 57,
     "adopted_list": [
       "Knowledge Distillation",
       "World Models / Model-Based RL",
@@ -4019,7 +4030,8 @@
       "时变转移动力学的泊松-伽马动态系统",
       "KV缓存量化",
       "KV缓存驱逐",
-      "Zeroth-Order Optimization"
+      "Zeroth-Order Optimization",
+      "Trajectory-Aware Evaluation"
     ],
     "seeds": {
       "mamba": {
@@ -4064,8 +4076,8 @@
       },
       "kv-cache": {
         "name": "KV Cache Optimization",
-        "watering": 51,
-        "papers": 71
+        "watering": 52,
+        "papers": 73
       },
       "gnn": {
         "name": "Graph Neural Networks",
@@ -4201,19 +4213,19 @@
       },
       "kv-cache": {
         "name": "KV Cache Optimization",
-        "new_papers": 71,
+        "new_papers": 73,
         "keywords_matched": [
-          "key-value cache",
+          "gqa",
+          "speculative decoding",
           "kv cache",
           "flash attention",
-          "speculative decoding",
-          "gqa"
+          "key-value cache"
         ],
         "high_relevance_total": 3,
         "avg_relevance_latest": 1.0,
         "best_papers_count": 1
       }
     },
-    "last_evolution": "2026-09-02T12:20:28.425509"
+    "last_evolution": "2026-09-02T17:28:27.221042"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 538,
+  "_rotation_idx": 539,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 56,
@@ -6108,8 +6108,8 @@
   },
   "kv-cache": {
     "name": "KV Cache Optimization",
-    "total_papers_found": 71,
-    "watering_count": 51,
+    "total_papers_found": 73,
+    "watering_count": 52,
     "history": [
       {
         "timestamp": "2026-07-15T11:19:09.355556",
@@ -6977,6 +6977,30 @@
             "seed_match_score": 1
           }
         ]
+      },
+      {
+        "timestamp": "2026-09-02T17:28:21.852288",
+        "papers_found": 2,
+        "duplicates": 4,
+        "irrelevant_filtered": 4,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "mzCache: On-Device LLM Memory Management under Multitasking",
+            "summary": "On-device mobile Large Language Model (LLM) inference is gaining significant attention. However, mobile devices operate in highly dynamic multitasking environments where users frequently switch between applications. This creates memory pressure, forcing LLM memory (model weights and KV cache) to be ",
+            "published": "2026-09-01",
+            "url": "http://arxiv.org/abs/2609.01338v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "A Universal Context-Reuse Layer for Cross-Model KV Sharing",
+            "summary": "Modern large language model (LLM) serving systems increasingly operate over repeated or shared context, yet each model typically performs its own prefill computation even when another model has already processed the same input. Existing KV-cache reuse mechanisms substantially reduce redundant comput",
+            "published": "2026-08-31",
+            "url": "http://arxiv.org/abs/2608.30963v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -6988,7 +7012,7 @@
       "flash attention",
       "speculative decoding"
     ],
-    "last_watered": "2026-08-31T23:28:17.412090"
+    "last_watered": "2026-09-02T17:28:21.852279"
   },
   "gnn": {
     "name": "Graph Neural Networks",
