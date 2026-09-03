@@ -1028,6 +1028,36 @@
         ],
         "decided_at": "2026-09-03T17:21:18.891752"
       }
+    },
+    {
+      "id": "llm-判别式世界模型",
+      "name": "判别式世界模型",
+      "adopted_at": "2026-09-03T23:37:14.201782",
+      "decision": {
+        "tech_id": "llm-判别式世界模型",
+        "tech_name": "判别式世界模型",
+        "action": "adopt",
+        "confidence": 0.9,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-09-03T23:37:14.200267"
+      }
+    },
+    {
+      "id": "llm-可解释ai决策框架",
+      "name": "可解释AI决策框架",
+      "adopted_at": "2026-09-03T23:37:14.201800",
+      "decision": {
+        "tech_id": "llm-可解释ai决策框架",
+        "tech_name": "可解释AI决策框架",
+        "action": "adopt",
+        "confidence": 0.85,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-09-03T23:37:14.200450"
+      }
     }
   ],
   "history": [
@@ -1438,6 +1468,18 @@
       "tech_id": "llm-kv缓存压缩/掩码",
       "tech_name": "KV缓存压缩/掩码",
       "timestamp": "2026-09-03T17:21:18.892789"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-判别式世界模型",
+      "tech_name": "判别式世界模型",
+      "timestamp": "2026-09-03T23:37:14.201788"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-可解释ai决策框架",
+      "tech_name": "可解释AI决策框架",
+      "timestamp": "2026-09-03T23:37:14.201802"
     }
   ]
 }
