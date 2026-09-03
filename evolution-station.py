@@ -295,6 +295,12 @@ def log(m):
     except UnicodeEncodeError:
         print(line.encode("ascii", errors="replace").decode("ascii"), flush=True)
     try:
+        # v13.0-fix: log rotation - rotate to .1 when over 2MB to keep git repo slim
+        if os.path.exists(LOG) and os.path.getsize(LOG) > 2 * 1024 * 1024:
+            try:
+                os.replace(LOG, LOG + ".1")
+            except Exception:
+                pass
         with open(LOG, "a", encoding="utf-8") as f:
             f.write(line + "\n")
     except:
@@ -1881,6 +1887,17 @@ def self_modify(new_techniques):
     if not response or response.startswith("[LLM_ERROR"):
         log(f"🔧 [自修改] LLM 响应无效，跳过")
         return {"status": "skipped", "reason": "llm_error"}
+
+    # v13.0-fix: 剥离 LLM 输出的 markdown 围栏（```python ... ```），否则 py_compile 必败
+    cleaned = response.strip()
+    if "```" in cleaned:
+        import re as _re
+        _m = _re.search(r"```(?:python|py)?\s*\n(.*?)```", cleaned, _re.DOTALL)
+        if _m:
+            cleaned = _m.group(1).strip()
+        else:
+            cleaned = "\n".join(l for l in cleaned.split("\n") if not l.strip().startswith("```")).strip()
+    response = cleaned
 
     # 写入沙盒
     sandbox_file = os.path.join(SANDBOX_DIR, f"evolution-candidate-{datetime.now().strftime('%Y%m%d-%H%M%S')}.patch.py")
@@ -3488,8 +3505,9 @@ def calculate_information_gain(seed_id, seed_state):
     recent = history[-5:]
     older = history[:-5] if len(history) > 5 else history
 
-    recent_new = sum(h.get("new_found", 0) for h in recent)
-    older_new = sum(h.get("new_found", 0) for h in older) if older else 0
+    # v13.0-fix: 種子歷史實際欄位為 papers_found（new_found 為舊欄位名，相容保留）
+    recent_new = sum(h.get("papers_found", h.get("new_found", 0)) for h in recent)
+    older_new = sum(h.get("papers_found", h.get("new_found", 0)) for h in older) if older else 0
 
     if not older or older_new == 0:
         return min(1.0, recent_new / 5.0) if recent_new > 0 else 0.1
@@ -3514,14 +3532,15 @@ def calculate_prediction_error(hypotheses_data):
     if not all_hyps:
         return 0.5
 
-    verified = sum(1 for h in all_hyps if h.get("status") == "verified")
-    refuted = sum(1 for h in all_hyps if h.get("status") == "refuted")
-    tested = verified + refuted
+    # v13.0-fix: 相容實際 status 值 (supported/inconclusive/unverified) 與舊語義 (verified/refuted)
+    supported = sum(1 for h in all_hyps if h.get("status") in ("supported", "verified"))
+    refuted = sum(1 for h in all_hyps if h.get("status") in ("refuted", "rejected"))
+    tested = supported + refuted
 
     if tested == 0:
         return 0.5
 
-    verification_rate = verified / tested
+    verification_rate = supported / tested
     # 適度驗證率 (0.4-0.7) 是最佳學習區
     # 太高 = 太保守, 太低 = 太激進
     if verification_rate > 0.8:
