@@ -1,31 +1,6 @@
 {
   "sessions": [
     {
-      "timestamp": "2026-07-04T08:10:19.677814",
-      "arxiv_papers_count": 15,
-      "arxiv_top_keywords": [
-        "unlearning",
-        "methods",
-        "lacuna",
-        "testbed",
-        "evaluating",
-        "programming",
-        "program",
-        "weights",
-        "paradigm",
-        "fuzzy"
-      ],
-      "huggingface_models_tracked": 0,
-      "huggingface_top_tasks": [],
-      "ml_benchmarks_run": 10,
-      "ml_top_classifier": "RandomForest",
-      "evolution": {
-        "techniques_discovered": 0,
-        "techniques_adopted": 0,
-        "decisions": 0
-      }
-    },
-    {
       "timestamp": "2026-07-04T10:12:41.096587",
       "arxiv_papers_count": 20,
       "arxiv_top_keywords": [
@@ -4002,12 +3977,54 @@
         "seed_name": "Mamba (SSM)",
         "papers_found": 7
       }
+    },
+    {
+      "timestamp": "2026-09-03T01:44:57.741122",
+      "arxiv_papers_count": 18,
+      "arxiv_top_keywords": [
+        "learning",
+        "agent",
+        "multi",
+        "networks",
+        "knowledge",
+        "guided",
+        "conceptual",
+        "neural",
+        "concepts",
+        "thinking"
+      ],
+      "arxiv_strategies": [
+        "搜索: neural architecture",
+        "搜索: self-supervised learning",
+        "搜索: multi-agent system"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "fill-mask",
+        "unknown",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [],
+      "ml_total_tests": 0,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 17,
+        "adopted": 1,
+        "decisions": 1
+      },
+      "seed_watering": {
+        "seed_name": "Liquid Networks",
+        "papers_found": 7
+      }
     }
   ],
   "total_sessions": 101,
-  "last_updated": "2026-09-02T23:39:23.357277",
+  "last_updated": "2026-09-03T01:44:57.741140",
   "evolution_summary": {
-    "total_adopted": 62,
+    "total_adopted": 63,
     "adopted_list": [
       "Knowledge Distillation",
       "World Models / Model-Based RL",
@@ -4070,7 +4087,8 @@
       "Multimodal",
       "接触后果预测与价值评估",
       "SFT-RL注释预算分配框架",
-      "Sft"
+      "Sft",
+      "概念分离分析"
     ],
     "seeds": {
       "mamba": {
@@ -4080,8 +4098,8 @@
       },
       "liquid-networks": {
         "name": "Liquid Networks",
-        "watering": 57,
-        "papers": 64
+        "watering": 58,
+        "papers": 66
       },
       "htm": {
         "name": "HTM",
@@ -4165,14 +4183,14 @@
       },
       "liquid-networks": {
         "name": "Liquid Networks",
-        "new_papers": 59,
+        "new_papers": 61,
         "keywords_matched": [
           "liquid neural",
-          "ode",
-          "continuous-time"
+          "continuous-time",
+          "ode"
         ],
-        "high_relevance_total": 17,
-        "avg_relevance_latest": 1.33,
+        "high_relevance_total": 18,
+        "avg_relevance_latest": 1.5,
         "best_papers_count": 0
       },
       "htm": {
@@ -4265,6 +4283,6 @@
         "best_papers_count": 1
       }
     },
-    "last_evolution": "2026-09-02T23:39:23.359593"
+    "last_evolution": "2026-09-03T01:44:57.745883"
   }
 }

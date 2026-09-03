@@ -938,6 +938,21 @@
         ],
         "decided_at": "2026-09-02T23:39:18.994339"
       }
+    },
+    {
+      "id": "llm-概念分离分析",
+      "name": "概念分离分析",
+      "adopted_at": "2026-09-03T01:44:57.735435",
+      "decision": {
+        "tech_id": "llm-概念分离分析",
+        "tech_name": "概念分离分析",
+        "action": "adopt",
+        "confidence": 0.9,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-09-03T01:44:57.733861"
+      }
     }
   ],
   "history": [
@@ -1312,6 +1327,12 @@
       "tech_id": "auto-sft",
       "tech_name": "Sft",
       "timestamp": "2026-09-02T23:39:18.995489"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-概念分离分析",
+      "tech_name": "概念分离分析",
+      "timestamp": "2026-09-03T01:44:57.735442"
     }
   ]
 }
