@@ -983,6 +983,36 @@
         ],
         "decided_at": "2026-09-03T06:35:48.092646"
       }
+    },
+    {
+      "id": "llm-kolmogorov-arnold-networks-(ka",
+      "name": "Kolmogorov-Arnold Networks (KANs)",
+      "adopted_at": "2026-09-03T12:18:33.943167",
+      "decision": {
+        "tech_id": "llm-kolmogorov-arnold-networks-(ka",
+        "tech_name": "Kolmogorov-Arnold Networks (KANs)",
+        "action": "adopt",
+        "confidence": 0.8,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-09-03T12:18:33.942565"
+      }
+    },
+    {
+      "id": "auto-diffusion",
+      "name": "Diffusion",
+      "adopted_at": "2026-09-03T12:18:33.943177",
+      "decision": {
+        "tech_id": "auto-diffusion",
+        "tech_name": "Diffusion",
+        "action": "adopt",
+        "confidence": 0.35,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-09-03T12:18:33.942620"
+      }
     }
   ],
   "history": [
@@ -1375,6 +1405,18 @@
       "tech_id": "llm-消息传递",
       "tech_name": "消息传递",
       "timestamp": "2026-09-03T06:35:48.093870"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-kolmogorov-arnold-networks-(ka",
+      "tech_name": "Kolmogorov-Arnold Networks (KANs)",
+      "timestamp": "2026-09-03T12:18:33.943169"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "auto-diffusion",
+      "tech_name": "Diffusion",
+      "timestamp": "2026-09-03T12:18:33.943178"
     }
   ]
 }

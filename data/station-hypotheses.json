@@ -192,8 +192,8 @@
       "reasoning": "Mamba's selective state-space mechanism processes sequences with input-dependent gating, which parallels GNN's message passing but lacks global context; GNNs excel at local structure but suffer from over-smoothing and quadratic attention. The shared concept of 'selection' in Mamba can be adapted to selectively aggregate neighbor information, while the state-space formulation provides a continuous-time view of graph dynamics, enabling efficient long-range propagation without deep layers.",
       "arxiv_query": "Mamba graph neural network selective state space hybrid",
       "potential_breakthrough": "This could yield a new class of graph models that scale to million-node graphs with linear memory, enabling real-time learning on evolving social or biological networks.",
-      "status": "unverified",
-      "verification_rounds": 2,
+      "status": "inconclusive",
+      "verification_rounds": 3,
       "supporting_papers": [],
       "refuting_papers": [],
       "llm_source": "deepseek"
@@ -244,7 +244,7 @@
       "llm_source": "deepseek"
     }
   ],
-  "last_updated": "2026-09-03T06:35:56.304912",
+  "last_updated": "2026-09-03T12:18:40.716586",
   "total_generated": 10,
-  "total_verified": 7
+  "total_verified": 8
 }

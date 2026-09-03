@@ -32066,7 +32066,152 @@
         "state"
       ],
       "first_seen_round": 177
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.02203v1",
+      "title": "SMart: A Multi-source Multi-phase Time Series Representation Transfer Framework",
+      "arxiv_id": "2609.02203",
+      "tokens": [
+        "multi",
+        "multi",
+        "phase",
+        "representation",
+        "series",
+        "smart",
+        "source",
+        "time",
+        "transfer"
+      ],
+      "first_seen_round": 178
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.02093v1",
+      "title": "Compositional Spectral Prompts for LLM-based Online Time Series Forecasting",
+      "arxiv_id": "2609.02093",
+      "tokens": [
+        "compositional",
+        "forecasting",
+        "llm",
+        "online",
+        "prompts",
+        "series",
+        "spectral",
+        "time"
+      ],
+      "first_seen_round": 178
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.02068v1",
+      "title": "DynG-Diff: A State-Aware Dynamic Guidance Diffusion Framework for Probabilistic Time Series Forecasting",
+      "arxiv_id": "2609.02068",
+      "tokens": [
+        "aware",
+        "diff",
+        "diffusion",
+        "dynamic",
+        "dyng",
+        "forecasting",
+        "guidance",
+        "probabilistic",
+        "series",
+        "state",
+        "time"
+      ],
+      "first_seen_round": 178
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.01729v1",
+      "title": "RecKAN: Kolmogorov-Arnold Networks with a Learnable Recursive Polynomial Basis",
+      "arxiv_id": "2609.01729",
+      "tokens": [
+        "arnold",
+        "basis",
+        "kolmogorov",
+        "learnable",
+        "polynomial",
+        "reckan",
+        "recursive"
+      ],
+      "first_seen_round": 178
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.01425v1",
+      "title": "CATeye: Coupled Attribute-Topology Invariance Learning for Voucher Abuse Detection",
+      "arxiv_id": "2609.01425",
+      "tokens": [
+        "abuse",
+        "attribute",
+        "cateye",
+        "coupled",
+        "detection",
+        "invariance",
+        "topology",
+        "voucher"
+      ],
+      "first_seen_round": 178
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.02404v1",
+      "title": "Evidence for Shared Routing Geometry and Dynamics in Sparse Mixture-of-Experts",
+      "arxiv_id": "2609.02404",
+      "tokens": [
+        "dynamics",
+        "evidence",
+        "experts",
+        "geometry",
+        "mixture",
+        "routing",
+        "shared",
+        "sparse"
+      ],
+      "first_seen_round": 178
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.02293v1",
+      "title": "SEAL: Reinforcing Global Safety in Mixture-of-Experts through Shared Expert ALignment",
+      "arxiv_id": "2609.02293",
+      "tokens": [
+        "alignment",
+        "expert",
+        "experts",
+        "global",
+        "mixture",
+        "reinforcing",
+        "safety",
+        "seal",
+        "shared"
+      ],
+      "first_seen_round": 178
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.01244v1",
+      "title": "Post-Training Science for Supervised Fine-Tuning",
+      "arxiv_id": "2609.01244",
+      "tokens": [
+        "fine",
+        "post",
+        "science",
+        "supervised",
+        "training",
+        "tuning"
+      ],
+      "first_seen_round": 178
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.00026v1",
+      "title": "Benchmarking spiking neural networks across sensing modalities on edge devices",
+      "arxiv_id": "2609.00026",
+      "tokens": [
+        "benchmarking",
+        "devices",
+        "edge",
+        "modalities",
+        "neural",
+        "sensing",
+        "spiking"
+      ],
+      "first_seen_round": 178
     }
   ],
-  "total_unique": 1997
+  "total_unique": 2006
 }

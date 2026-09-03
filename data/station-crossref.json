@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-03T06:35:52.865320",
+  "timestamp": "2026-09-03T12:18:37.460662",
   "connections": [
     {
       "seed_a": "Liquid Networks",
@@ -16,7 +16,7 @@
         "with"
       ],
       "strength": 8,
-      "discovered_at": "2026-09-03T06:35:52.865232"
+      "discovered_at": "2026-09-03T12:18:37.460600"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -32,7 +32,7 @@
         "with"
       ],
       "strength": 7,
-      "discovered_at": "2026-09-03T06:35:52.865169"
+      "discovered_at": "2026-09-03T12:18:37.460543"
     },
     {
       "seed_a": "HTM",
@@ -48,7 +48,7 @@
         "retrieval"
       ],
       "strength": 7,
-      "discovered_at": "2026-09-03T06:35:52.865260"
+      "discovered_at": "2026-09-03T12:18:37.460618"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -63,7 +63,7 @@
         "state"
       ],
       "strength": 6,
-      "discovered_at": "2026-09-03T06:35:52.865147"
+      "discovered_at": "2026-09-03T12:18:37.460527"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -77,7 +77,7 @@
         "state"
       ],
       "strength": 6,
-      "discovered_at": "2026-09-03T06:35:52.865154"
+      "discovered_at": "2026-09-03T12:18:37.460532"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -91,20 +91,7 @@
         "with"
       ],
       "strength": 5,
-      "discovered_at": "2026-09-03T06:35:52.865138"
-    },
-    {
-      "seed_a": "Mamba (SSM)",
-      "seed_b": "Spiking Neural Networks",
-      "shared_keywords": [],
-      "shared_paper_concepts": [
-        "activity",
-        "neural",
-        "neuromorphic",
-        "with"
-      ],
-      "strength": 4,
-      "discovered_at": "2026-09-03T06:35:52.865151"
+      "discovered_at": "2026-09-03T12:18:37.460519"
     },
     {
       "seed_a": "Liquid Networks",
@@ -117,7 +104,7 @@
         "time"
       ],
       "strength": 4,
-      "discovered_at": "2026-09-03T06:35:52.865174"
+      "discovered_at": "2026-09-03T12:18:37.460547"
     },
     {
       "seed_a": "Liquid Networks",
@@ -130,7 +117,7 @@
         "with"
       ],
       "strength": 4,
-      "discovered_at": "2026-09-03T06:35:52.865177"
+      "discovered_at": "2026-09-03T12:18:37.460549"
     },
     {
       "seed_a": "HTM",
@@ -143,7 +130,20 @@
         "predictive"
       ],
       "strength": 4,
-      "discovered_at": "2026-09-03T06:35:52.865249"
+      "discovered_at": "2026-09-03T12:18:37.460609"
+    },
+    {
+      "seed_a": "HTM",
+      "seed_b": "Mixture of Experts",
+      "shared_keywords": [],
+      "shared_paper_concepts": [
+        "learning",
+        "multi",
+        "robust",
+        "structural"
+      ],
+      "strength": 4,
+      "discovered_at": "2026-09-03T12:18:37.460612"
     }
   ],
   "total_seeds": 10

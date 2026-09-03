@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 543,
+  "_rotation_idx": 544,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 56,
@@ -2484,33 +2484,9 @@
   },
   "spiking-nn": {
     "name": "Spiking Neural Networks",
-    "total_papers_found": 30,
-    "watering_count": 56,
+    "total_papers_found": 31,
+    "watering_count": 57,
     "history": [
-      {
-        "timestamp": "2026-07-15T03:59:00.435067",
-        "papers_found": 2,
-        "duplicates": 7,
-        "irrelevant_filtered": 1,
-        "avg_relevance": 1.5,
-        "high_relevance": 1,
-        "papers": [
-          {
-            "title": "A 32-channel event-based bio-signal analog front-end with adaptive delta and pulse frequency encoding",
-            "summary": "Low-power event-based Analog Front-Ends (AFEs) are essential for building efficient, end-to-end neuromorphic signal processing systems. In this paper, we present an event-based AFE Application-Specific Integrated Circuit (ASIC) optimized for biomedical signal acquisition and encoding. The chip featu",
-            "published": "2026-07-14",
-            "url": "http://arxiv.org/abs/2607.12901v1",
-            "seed_match_score": 1
-          },
-          {
-            "title": "Burst Spiking Neural Networks",
-            "summary": "A central goal of current Spiking Neural Network (SNN) research is to improve their accuracy toward becoming low-power alternatives to Artificial Neural Networks (ANNs). This work further argues that realizing this ambition requires improving not only accuracy but also robustness, defined as the abi",
-            "published": "2026-07-05",
-            "url": "http://arxiv.org/abs/2607.11914v1",
-            "seed_match_score": 2
-          }
-        ]
-      },
       {
         "timestamp": "2026-07-15T22:45:35.953366",
         "papers_found": 0,
@@ -3076,6 +3052,23 @@
             "seed_match_score": 1
           }
         ]
+      },
+      {
+        "timestamp": "2026-09-03T12:18:28.295645",
+        "papers_found": 1,
+        "duplicates": 8,
+        "irrelevant_filtered": 1,
+        "avg_relevance": 2.0,
+        "high_relevance": 1,
+        "papers": [
+          {
+            "title": "Benchmarking spiking neural networks across sensing modalities on edge devices",
+            "summary": "Edge computing systems need to support diverse sensing workloads under tight energy and memory constraints, thereby motivating deployment-aware model selection. Spiking neural networks (SNNs) are a promising alternative to conventional artificial neural networks (ANNs), yet systematic evidence for w",
+            "published": "2026-08-27",
+            "url": "http://arxiv.org/abs/2609.00026v1",
+            "seed_match_score": 2
+          }
+        ]
       }
     ],
     "keywords": [
@@ -3084,7 +3077,7 @@
       "neuromorphic",
       "spike-timing"
     ],
-    "last_watered": "2026-09-01T18:55:35.118787"
+    "last_watered": "2026-09-03T12:18:28.295641"
   },
   "non-transformer": {
     "name": "Non-Transformer Arch",

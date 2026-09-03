@@ -1,37 +1,6 @@
 {
   "sessions": [
     {
-      "timestamp": "2026-07-04T12:14:48.486653",
-      "arxiv_papers_count": 20,
-      "arxiv_top_keywords": [
-        "unlearning",
-        "methods",
-        "lacuna",
-        "testbed",
-        "evaluating",
-        "programming",
-        "program",
-        "weights",
-        "paradigm",
-        "fuzzy"
-      ],
-      "huggingface_models_tracked": 10,
-      "huggingface_top_tasks": [
-        "sentence-similarity",
-        "fill-mask",
-        "text-ranking",
-        "feature-extraction",
-        "unknown"
-      ],
-      "ml_benchmarks_run": 10,
-      "ml_top_classifier": "RandomForest",
-      "evolution": {
-        "techniques_discovered": 0,
-        "techniques_adopted": 0,
-        "decisions": 0
-      }
-    },
-    {
       "timestamp": "2026-07-04T14:17:20.520728",
       "arxiv_papers_count": 20,
       "arxiv_top_keywords": [
@@ -4030,12 +3999,59 @@
         "seed_name": "HTM",
         "papers_found": 3
       }
+    },
+    {
+      "timestamp": "2026-09-03T12:18:37.451599",
+      "arxiv_papers_count": 18,
+      "arxiv_top_keywords": [
+        "time",
+        "series",
+        "online",
+        "detection",
+        "data",
+        "experts",
+        "across",
+        "moe",
+        "representation",
+        "framework"
+      ],
+      "arxiv_strategies": [
+        "搜索: time series forecasting",
+        "搜索: anomaly detection",
+        "搜索: mixture of experts"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "fill-mask",
+        "unknown",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 13,
+        "adopted": 2,
+        "decisions": 2
+      },
+      "seed_watering": {
+        "seed_name": "Spiking Neural Networks",
+        "papers_found": 9
+      }
     }
   ],
   "total_sessions": 101,
-  "last_updated": "2026-09-03T06:35:52.852094",
+  "last_updated": "2026-09-03T12:18:37.451615",
   "evolution_summary": {
-    "total_adopted": 65,
+    "total_adopted": 67,
     "adopted_list": [
       "Knowledge Distillation",
       "World Models / Model-Based RL",
@@ -4101,7 +4117,9 @@
       "Sft",
       "概念分离分析",
       "图神经网络",
-      "消息传递"
+      "消息传递",
+      "Kolmogorov-Arnold Networks (KANs)",
+      "Diffusion"
     ],
     "seeds": {
       "mamba": {
@@ -4121,8 +4139,8 @@
       },
       "spiking-nn": {
         "name": "Spiking Neural Networks",
-        "watering": 56,
-        "papers": 30
+        "watering": 57,
+        "papers": 31
       },
       "non-transformer": {
         "name": "Non-Transformer Arch",
@@ -4158,15 +4176,15 @@
     "seed_metrics": {
       "spiking-nn": {
         "name": "Spiking Neural Networks",
-        "new_papers": 30,
+        "new_papers": 31,
         "keywords_matched": [
+          "spiking",
           "snn",
           "spike-timing",
-          "neuromorphic",
-          "spiking"
+          "neuromorphic"
         ],
-        "high_relevance_total": 23,
-        "avg_relevance_latest": 1.5,
+        "high_relevance_total": 24,
+        "avg_relevance_latest": 2.0,
         "best_papers_count": 7
       },
       "few-shot": {
@@ -4296,6 +4314,6 @@
         "best_papers_count": 1
       }
     },
-    "last_evolution": "2026-09-03T06:35:52.854380"
+    "last_evolution": "2026-09-03T12:18:37.453349"
   }
 }
