@@ -32211,7 +32211,48 @@
         "spiking"
       ],
       "first_seen_round": 178
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.02780v1",
+      "title": "ShallowStream: Index Shallow then Answer Deep for Streaming Video Understanding",
+      "arxiv_id": "2609.02780",
+      "tokens": [
+        "answer",
+        "index",
+        "shallow",
+        "shallowstream",
+        "streaming",
+        "understanding",
+        "video"
+      ],
+      "first_seen_round": 179
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.02737v1",
+      "title": "Language Models Can Control Their Own Attention",
+      "arxiv_id": "2609.02737",
+      "tokens": [
+        "attention",
+        "control",
+        "language"
+      ],
+      "first_seen_round": 179
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.00420v1",
+      "title": "How Temporal Correlations Shape Memory in Linear Recurrent Neural Networks",
+      "arxiv_id": "2609.00420",
+      "tokens": [
+        "correlations",
+        "linear",
+        "memory",
+        "neural",
+        "recurrent",
+        "shape",
+        "temporal"
+      ],
+      "first_seen_round": 179
     }
   ],
-  "total_unique": 2006
+  "total_unique": 2009
 }

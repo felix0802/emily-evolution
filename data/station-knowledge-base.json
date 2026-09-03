@@ -1,37 +1,6 @@
 {
   "sessions": [
     {
-      "timestamp": "2026-07-04T14:17:20.520728",
-      "arxiv_papers_count": 20,
-      "arxiv_top_keywords": [
-        "unlearning",
-        "methods",
-        "lacuna",
-        "testbed",
-        "evaluating",
-        "programming",
-        "program",
-        "weights",
-        "paradigm",
-        "fuzzy"
-      ],
-      "huggingface_models_tracked": 10,
-      "huggingface_top_tasks": [
-        "sentence-similarity",
-        "fill-mask",
-        "text-ranking",
-        "feature-extraction",
-        "unknown"
-      ],
-      "ml_benchmarks_run": 10,
-      "ml_top_classifier": "RandomForest",
-      "evolution": {
-        "techniques_discovered": 0,
-        "techniques_adopted": 0,
-        "decisions": 0
-      }
-    },
-    {
       "timestamp": "2026-07-04T16:19:31.919621",
       "arxiv_papers_count": 20,
       "arxiv_top_keywords": [
@@ -4046,12 +4015,59 @@
         "seed_name": "Spiking Neural Networks",
         "papers_found": 9
       }
+    },
+    {
+      "timestamp": "2026-09-03T17:21:18.896138",
+      "arxiv_papers_count": 18,
+      "arxiv_top_keywords": [
+        "speculative",
+        "decoding",
+        "quantization",
+        "aware",
+        "context",
+        "graph",
+        "neural",
+        "block",
+        "target",
+        "streaming"
+      ],
+      "arxiv_strategies": [
+        "搜索: kv cache LLM",
+        "搜索: graph neural network recent",
+        "搜索: speculative decoding"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "fill-mask",
+        "unknown",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 23,
+        "adopted": 1,
+        "decisions": 1
+      },
+      "seed_watering": {
+        "seed_name": "Non-Transformer Arch",
+        "papers_found": 6
+      }
     }
   ],
   "total_sessions": 101,
-  "last_updated": "2026-09-03T12:18:37.451615",
+  "last_updated": "2026-09-03T17:21:18.896157",
   "evolution_summary": {
-    "total_adopted": 67,
+    "total_adopted": 68,
     "adopted_list": [
       "Knowledge Distillation",
       "World Models / Model-Based RL",
@@ -4119,7 +4135,8 @@
       "图神经网络",
       "消息传递",
       "Kolmogorov-Arnold Networks (KANs)",
-      "Diffusion"
+      "Diffusion",
+      "KV缓存压缩/掩码"
     ],
     "seeds": {
       "mamba": {
@@ -4144,8 +4161,8 @@
       },
       "non-transformer": {
         "name": "Non-Transformer Arch",
-        "watering": 57,
-        "papers": 26
+        "watering": 58,
+        "papers": 27
       },
       "few-shot": {
         "name": "Few-Shot Learning",
@@ -4242,14 +4259,15 @@
       },
       "non-transformer": {
         "name": "Non-Transformer Arch",
-        "new_papers": 26,
+        "new_papers": 27,
         "keywords_matched": [
-          "linear attention",
-          "gated linear",
           "efficient transformer",
+          "linear attention",
           "state space",
+          "rwkv",
+          "gated linear",
           "mamba",
-          "rwkv"
+          "linear recurrent"
         ],
         "high_relevance_total": 3,
         "avg_relevance_latest": 1.0,
@@ -4314,6 +4332,6 @@
         "best_papers_count": 1
       }
     },
-    "last_evolution": "2026-09-03T12:18:37.453349"
+    "last_evolution": "2026-09-03T17:21:18.898396"
   }
 }

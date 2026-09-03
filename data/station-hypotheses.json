@@ -242,9 +242,43 @@
       "supporting_papers": [],
       "refuting_papers": [],
       "llm_source": "deepseek"
+    },
+    {
+      "id": "hyp-0011",
+      "timestamp": "2026-09-03T17:21:21.312616",
+      "seed_a": "HTM",
+      "seed_b": "Graph Neural Networks",
+      "crossref_strength": 7,
+      "shared_keywords": [],
+      "hypothesis": "Integrating Hierarchical Temporal Memory (HTM) with Graph Neural Networks (GNNs) via a graph-structured sparse memory mechanism will enable continual learning of evolving relational data, outperforming current GNNs in dynamic graph prediction tasks.",
+      "reasoning": "HTM's core principles—sparse distributed representations, temporal context, and online learning—align with GNNs' message passing over graph structures. The mathematical commonality lies in both using sparse, high-dimensional vectors and iterative updates (HTM's cell states vs. GNN's node embeddings), suggesting a hybrid where graph edges encode temporal dependencies and HTM-like sparse activations regulate information flow to prevent catastrophic forgetting.",
+      "arxiv_query": "hierarchical temporal memory graph neural network continual learning",
+      "potential_breakthrough": "This fusion could create a new class of neuro-symbolic models that learn continuously from dynamic graphs (e.g., social networks, knowledge graphs) without forgetting, enabling real-time adaptation in streaming data environments.",
+      "status": "unverified",
+      "verification_rounds": 1,
+      "supporting_papers": [],
+      "refuting_papers": [],
+      "llm_source": "deepseek"
+    },
+    {
+      "id": "hyp-0012",
+      "timestamp": "2026-09-03T17:21:23.827883",
+      "seed_a": "Mamba (SSM)",
+      "seed_b": "HTM",
+      "crossref_strength": 6,
+      "shared_keywords": [],
+      "hypothesis": "Integrating Mamba's selective state-space dynamics with HTM's sparse distributed representations and temporal memory can yield a novel event-driven architecture that achieves superior online sequence learning and prediction under non-stationary conditions, as validated by improved performance on continuous time-series benchmarks.",
+      "reasoning": "Mamba excels at efficient modeling of long-range dependencies via input-dependent state transitions, while HTM provides biologically plausible sparse coding and online learning with explicit temporal context. Both share a graph-like state representation and event-based processing, suggesting a mathematical bridge where Mamba's continuous state updates can be discretized into HTM-like sparse events, enabling robust estimation and adaptation in streaming data.",
+      "arxiv_query": "Mamba state space model HTM sparse temporal memory event-driven sequence learning",
+      "potential_breakthrough": "A unified framework that combines the scalability of Mamba with the online adaptability of HTM, enabling real-time, low-power learning on neuromorphic hardware for non-stationary data streams.",
+      "status": "unverified",
+      "verification_rounds": 0,
+      "supporting_papers": [],
+      "refuting_papers": [],
+      "llm_source": "deepseek"
     }
   ],
-  "last_updated": "2026-09-03T12:18:40.716586",
-  "total_generated": 10,
+  "last_updated": "2026-09-03T17:21:26.951535",
+  "total_generated": 12,
   "total_verified": 8
 }

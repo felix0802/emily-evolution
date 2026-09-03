@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 544,
+  "_rotation_idx": 545,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 56,
@@ -3081,18 +3081,9 @@
   },
   "non-transformer": {
     "name": "Non-Transformer Arch",
-    "total_papers_found": 26,
-    "watering_count": 57,
+    "total_papers_found": 27,
+    "watering_count": 58,
     "history": [
-      {
-        "timestamp": "2026-07-15T05:33:26.592581",
-        "papers_found": 0,
-        "duplicates": 6,
-        "irrelevant_filtered": 4,
-        "avg_relevance": 0.0,
-        "high_relevance": 0,
-        "papers": []
-      },
       {
         "timestamp": "2026-07-16T01:19:47.672875",
         "papers_found": 1,
@@ -3695,6 +3686,23 @@
             "seed_match_score": 1
           }
         ]
+      },
+      {
+        "timestamp": "2026-09-03T17:21:12.779221",
+        "papers_found": 1,
+        "duplicates": 5,
+        "irrelevant_filtered": 4,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "How Temporal Correlations Shape Memory in Linear Recurrent Neural Networks",
+            "summary": "The linear recurrent neural network (LRNN) is a simple model for studying how much memory a network builds up as it trains. For uncorrelated inputs, earlier work found that training itself settles the network between keeping the past and reacting only to the present. Real sequences are correlated, a",
+            "published": "2026-08-31",
+            "url": "http://arxiv.org/abs/2609.00420v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -3707,7 +3715,7 @@
       "sub-quadratic",
       "mamba"
     ],
-    "last_watered": "2026-09-01T22:08:45.944403"
+    "last_watered": "2026-09-03T17:21:12.779216"
   },
   "few-shot": {
     "name": "Few-Shot Learning",

@@ -1013,6 +1013,21 @@
         ],
         "decided_at": "2026-09-03T12:18:33.942620"
       }
+    },
+    {
+      "id": "llm-kv缓存压缩/掩码",
+      "name": "KV缓存压缩/掩码",
+      "adopted_at": "2026-09-03T17:21:18.892784",
+      "decision": {
+        "tech_id": "llm-kv缓存压缩/掩码",
+        "tech_name": "KV缓存压缩/掩码",
+        "action": "adopt",
+        "confidence": 0.85,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-09-03T17:21:18.891752"
+      }
     }
   ],
   "history": [
@@ -1417,6 +1432,12 @@
       "tech_id": "auto-diffusion",
       "tech_name": "Diffusion",
       "timestamp": "2026-09-03T12:18:33.943178"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-kv缓存压缩/掩码",
+      "tech_name": "KV缓存压缩/掩码",
+      "timestamp": "2026-09-03T17:21:18.892789"
     }
   ]
 }
