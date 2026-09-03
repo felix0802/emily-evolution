@@ -23,6 +23,12 @@ jobs:
         with:
           python-version: '3.11'
 
+      - name: Install Dependencies
+        run: |
+          # P0-fix: 實驗引擎/ML 基準需要 scikit-learn + numpy（此前缺失導致全部跳過）
+          pip install --quiet scikit-learn numpy
+          python -c "import sklearn, numpy; print('✅ sklearn', sklearn.__version__, '| numpy', numpy.__version__)"
+
       - name: Check Data State
         run: |
           echo "=== Data Directory ==="
