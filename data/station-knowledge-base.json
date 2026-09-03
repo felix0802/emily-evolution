@@ -1,37 +1,6 @@
 {
   "sessions": [
     {
-      "timestamp": "2026-07-04T10:12:41.096587",
-      "arxiv_papers_count": 20,
-      "arxiv_top_keywords": [
-        "unlearning",
-        "methods",
-        "lacuna",
-        "testbed",
-        "evaluating",
-        "programming",
-        "program",
-        "weights",
-        "paradigm",
-        "fuzzy"
-      ],
-      "huggingface_models_tracked": 10,
-      "huggingface_top_tasks": [
-        "sentence-similarity",
-        "fill-mask",
-        "text-ranking",
-        "feature-extraction",
-        "unknown"
-      ],
-      "ml_benchmarks_run": 10,
-      "ml_top_classifier": "RandomForest",
-      "evolution": {
-        "techniques_discovered": 0,
-        "techniques_adopted": 0,
-        "decisions": 0
-      }
-    },
-    {
       "timestamp": "2026-07-04T12:14:48.486653",
       "arxiv_papers_count": 20,
       "arxiv_top_keywords": [
@@ -4019,12 +3988,54 @@
         "seed_name": "Liquid Networks",
         "papers_found": 7
       }
+    },
+    {
+      "timestamp": "2026-09-03T06:35:52.852081",
+      "arxiv_papers_count": 18,
+      "arxiv_top_keywords": [
+        "world",
+        "graph",
+        "neural",
+        "vision",
+        "data",
+        "learning",
+        "language",
+        "heuristic",
+        "user",
+        "refining"
+      ],
+      "arxiv_strategies": [
+        "搜索: graph neural network",
+        "搜索: transfer learning",
+        "搜索: world model"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "fill-mask",
+        "unknown",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [],
+      "ml_total_tests": 0,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 22,
+        "adopted": 2,
+        "decisions": 3
+      },
+      "seed_watering": {
+        "seed_name": "HTM",
+        "papers_found": 3
+      }
     }
   ],
   "total_sessions": 101,
-  "last_updated": "2026-09-03T01:44:57.741140",
+  "last_updated": "2026-09-03T06:35:52.852094",
   "evolution_summary": {
-    "total_adopted": 63,
+    "total_adopted": 65,
     "adopted_list": [
       "Knowledge Distillation",
       "World Models / Model-Based RL",
@@ -4088,7 +4099,9 @@
       "接触后果预测与价值评估",
       "SFT-RL注释预算分配框架",
       "Sft",
-      "概念分离分析"
+      "概念分离分析",
+      "图神经网络",
+      "消息传递"
     ],
     "seeds": {
       "mamba": {
@@ -4103,8 +4116,8 @@
       },
       "htm": {
         "name": "HTM",
-        "watering": 57,
-        "papers": 95
+        "watering": 58,
+        "papers": 98
       },
       "spiking-nn": {
         "name": "Spiking Neural Networks",
@@ -4195,14 +4208,14 @@
       },
       "htm": {
         "name": "HTM",
-        "new_papers": 90,
+        "new_papers": 93,
         "keywords_matched": [
           "predictive coding",
-          "cortical",
           "sequence memory",
+          "cortical",
+          "sparse distributed",
           "anomaly detection",
           "hierarchical temporal",
-          "sparse distributed",
           "online learning"
         ],
         "high_relevance_total": 3,
@@ -4283,6 +4296,6 @@
         "best_papers_count": 1
       }
     },
-    "last_evolution": "2026-09-03T01:44:57.745883"
+    "last_evolution": "2026-09-03T06:35:52.854380"
   }
 }

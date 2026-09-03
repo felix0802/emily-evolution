@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 542,
+  "_rotation_idx": 543,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 56,
@@ -1459,26 +1459,9 @@
   },
   "htm": {
     "name": "HTM",
-    "total_papers_found": 95,
-    "watering_count": 57,
+    "total_papers_found": 98,
+    "watering_count": 58,
     "history": [
-      {
-        "timestamp": "2026-07-15T03:55:17.562747",
-        "papers_found": 1,
-        "duplicates": 2,
-        "irrelevant_filtered": 7,
-        "avg_relevance": 1.0,
-        "high_relevance": 0,
-        "papers": [
-          {
-            "title": "Closing the Loop: An Access-Control Architecture for Automated, Anomaly-Driven Network Revocation in IoT Deployments",
-            "summary": "Network-based anomaly detection for IoT devices has matured to the point of reporting strong detection accuracy, yet most published systems stop at raising an alert and leave the question of automated enforcement to future work or to a programmable data plane that few real networks operate. This pap",
-            "published": "2026-07-13",
-            "url": "http://arxiv.org/abs/2607.11649v1",
-            "seed_match_score": 1
-          }
-        ]
-      },
       {
         "timestamp": "2026-07-15T20:47:40.307654",
         "papers_found": 0,
@@ -2452,6 +2435,37 @@
             "seed_match_score": 1
           }
         ]
+      },
+      {
+        "timestamp": "2026-09-03T06:35:41.820711",
+        "papers_found": 3,
+        "duplicates": 0,
+        "irrelevant_filtered": 7,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "RINSE: Robust Target-Time Normality Estimation for Zero-Shot Graph Anomaly Detection",
+            "summary": "Zero-shot graph anomaly detection seeks to deploy a detector trained on source graphs to unseen, unlabeled targets, yet domain shift can make source-derived notions of normality unreliable. We introduce RINSE (Robust Iterative Normality Self-Estimation), a gradient-free target-time framework that ke",
+            "published": "2026-09-02",
+            "url": "http://arxiv.org/abs/2609.02497v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "SSAKG 2.0: An Open-Source Package for Structural Associative Sequence Memory and Context-Based Retrieval",
+            "summary": "This article presents SSAKG 2.0, an open-source software package for constructing and operating Structural Sequential Associative Knowledge Graphs (SSAKGs). An SSAKG represents objects as graph vertices and ordered sequences as structural patterns of graph connections. The resulting sparse graph is ",
+            "published": "2026-09-01",
+            "url": "http://arxiv.org/abs/2609.01849v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "A Study of Hidden-State Optimization Order in Predictive Coding Networks",
+            "summary": "Local learning methods offer an alternative to end-to-end backpropagation, but their unstructured local objectives can produce weak feature learning in deep networks. We study whether the order of hidden-state optimization can address this limitation. We propose a boundary-first inference schedule t",
+            "published": "2026-09-01",
+            "url": "http://arxiv.org/abs/2609.00686v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -2466,7 +2480,7 @@
       "anomaly detection",
       "continuous learning"
     ],
-    "last_watered": "2026-09-01T14:22:30.810599"
+    "last_watered": "2026-09-03T06:35:41.820706"
   },
   "spiking-nn": {
     "name": "Spiking Neural Networks",

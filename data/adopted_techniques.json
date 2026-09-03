@@ -953,6 +953,36 @@
         ],
         "decided_at": "2026-09-03T01:44:57.733861"
       }
+    },
+    {
+      "id": "llm-图神经网络",
+      "name": "图神经网络",
+      "adopted_at": "2026-09-03T06:35:48.093854",
+      "decision": {
+        "tech_id": "llm-图神经网络",
+        "tech_name": "图神经网络",
+        "action": "adopt",
+        "confidence": 0.95,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-09-03T06:35:48.092505"
+      }
+    },
+    {
+      "id": "llm-消息传递",
+      "name": "消息传递",
+      "adopted_at": "2026-09-03T06:35:48.093869",
+      "decision": {
+        "tech_id": "llm-消息传递",
+        "tech_name": "消息传递",
+        "action": "adopt",
+        "confidence": 0.9,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-09-03T06:35:48.092646"
+      }
     }
   ],
   "history": [
@@ -1333,6 +1363,18 @@
       "tech_id": "llm-概念分离分析",
       "tech_name": "概念分离分析",
       "timestamp": "2026-09-03T01:44:57.735442"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-图神经网络",
+      "tech_name": "图神经网络",
+      "timestamp": "2026-09-03T06:35:48.093858"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-消息传递",
+      "tech_name": "消息传递",
+      "timestamp": "2026-09-03T06:35:48.093870"
     }
   ]
 }

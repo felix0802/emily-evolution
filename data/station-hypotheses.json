@@ -159,8 +159,8 @@
       "reasoning": "Mamba的選擇性機制允許模型根據輸入動態調整狀態更新，而MoE通過稀疏激活降低計算成本。兩者共享稀疏性和條件計算的核心理念：Mamba在時間維度上稀疏化信息流，MoE在空間維度上稀疏化參數使用。結合後，路由決策可依賴於狀態空間的隱狀態，實現更高效的序列建模。",
       "arxiv_query": "Mamba Mixture of Experts sparse state space model conditional computation",
       "potential_breakthrough": "突破在於實現一個線性複雜度、可擴展至萬億參數的序列模型，同時保持對長序列的動態適應性，適用於實時和資源受限場景。",
-      "status": "unverified",
-      "verification_rounds": 2,
+      "status": "supported",
+      "verification_rounds": 3,
       "supporting_papers": [
         {
           "title": "Routing Mamba: Scaling State Space Models with Mixture-of-Experts Projection",
@@ -171,6 +171,11 @@
           "title": "Routing Mamba: Scaling State Space Models with Mixture-of-Experts Projection",
           "url": "http://arxiv.org/abs/2506.18145v1",
           "reason": "論文直接提出將Mamba與MoE結合的架構，支持假設中結合兩者的可行性。"
+        },
+        {
+          "title": "Routing Mamba: Scaling State Space Models with Mixture-of-Experts Projection",
+          "url": "http://arxiv.org/abs/2506.18145v1",
+          "reason": "該論文直接提出將MoE投影應用於Mamba，實現輸入相關的專家混合，支持結合兩者的可行性。"
         }
       ],
       "refuting_papers": [],
@@ -239,7 +244,7 @@
       "llm_source": "deepseek"
     }
   ],
-  "last_updated": "2026-09-03T01:45:01.786594",
+  "last_updated": "2026-09-03T06:35:56.304912",
   "total_generated": 10,
-  "total_verified": 6
+  "total_verified": 7
 }

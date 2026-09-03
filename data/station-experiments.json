@@ -53,8 +53,26 @@
         "status": "skipped",
         "reason": "sklearn_missing"
       }
+    },
+    {
+      "id": "exp-hyp-0007",
+      "hypothesis_id": "hyp-0007",
+      "hypothesis_text": "將Mamba的選擇性狀態空間模型與Mixture of Experts的稀疏路由結合，可構建一個動態稀疏的序列模型，其中每個token僅激活少量專家，且專家選擇由狀態空間的隱狀態驅動，從而在保持線性計算複雜度的同時實現條件計算。",
+      "dataset": "Iris",
+      "algorithms": [
+        "LogisticRegression",
+        "RandomForest"
+      ],
+      "metric": "accuracy",
+      "cross_val": 5,
+      "designed_at": "2026-09-03T06:35:56.306133",
+      "status": "skipped",
+      "outcome": {
+        "status": "skipped",
+        "reason": "sklearn_missing"
+      }
     }
   ],
-  "total_experiments": 3,
-  "last_updated": "2026-09-01T08:57:31.452755"
+  "total_experiments": 4,
+  "last_updated": "2026-09-03T06:35:56.306629"
 }
