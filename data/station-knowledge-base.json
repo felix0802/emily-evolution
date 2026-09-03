@@ -1,37 +1,6 @@
 {
   "sessions": [
     {
-      "timestamp": "2026-07-04T16:19:31.919621",
-      "arxiv_papers_count": 20,
-      "arxiv_top_keywords": [
-        "unlearning",
-        "methods",
-        "lacuna",
-        "testbed",
-        "evaluating",
-        "programming",
-        "program",
-        "weights",
-        "paradigm",
-        "fuzzy"
-      ],
-      "huggingface_models_tracked": 10,
-      "huggingface_top_tasks": [
-        "sentence-similarity",
-        "fill-mask",
-        "text-ranking",
-        "feature-extraction",
-        "unknown"
-      ],
-      "ml_benchmarks_run": 10,
-      "ml_top_classifier": "RandomForest",
-      "evolution": {
-        "techniques_discovered": 0,
-        "techniques_adopted": 0,
-        "decisions": 0
-      }
-    },
-    {
       "timestamp": "2026-07-04T18:20:43.263889",
       "arxiv_papers_count": 20,
       "arxiv_top_keywords": [
@@ -4062,10 +4031,57 @@
         "seed_name": "Non-Transformer Arch",
         "papers_found": 6
       }
+    },
+    {
+      "timestamp": "2026-09-03T20:13:36.963068",
+      "arxiv_papers_count": 18,
+      "arxiv_top_keywords": [
+        "language",
+        "attention",
+        "linear",
+        "learning",
+        "theory",
+        "graph",
+        "neural",
+        "decentralized",
+        "knowledge",
+        "distillation"
+      ],
+      "arxiv_strategies": [
+        "搜索: multi-query attention",
+        "搜索: geometric deep learning",
+        "搜索: knowledge distillation"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "fill-mask",
+        "unknown",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 20,
+        "adopted": 0,
+        "decisions": 0
+      },
+      "seed_watering": {
+        "seed_name": "Few-Shot Learning",
+        "papers_found": 5
+      }
     }
   ],
   "total_sessions": 101,
-  "last_updated": "2026-09-03T17:21:18.896157",
+  "last_updated": "2026-09-03T20:13:36.963085",
   "evolution_summary": {
     "total_adopted": 68,
     "adopted_list": [
@@ -4166,7 +4182,7 @@
       },
       "few-shot": {
         "name": "Few-Shot Learning",
-        "watering": 56,
+        "watering": 57,
         "papers": 28
       },
       "continual-learning": {
@@ -4208,9 +4224,9 @@
         "name": "Few-Shot Learning",
         "new_papers": 23,
         "keywords_matched": [
-          "meta-learning",
           "few-shot",
           "maml",
+          "meta-learning",
           "in-context"
         ],
         "high_relevance_total": 3,
@@ -4332,6 +4348,6 @@
         "best_papers_count": 1
       }
     },
-    "last_evolution": "2026-09-03T17:21:18.898396"
+    "last_evolution": "2026-09-03T20:13:36.965372"
   }
 }

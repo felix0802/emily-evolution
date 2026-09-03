@@ -439,6 +439,28 @@
           0.91
         ]
       ]
+    },
+    {
+      "round": 180,
+      "timestamp": "2026-09-03T20:13:30.704236",
+      "prediction_error": 0.7,
+      "seeds_active": 10,
+      "seeds_dormant": 0,
+      "new_seeds_added": 0,
+      "top_motivated": [
+        [
+          "mamba",
+          0.91
+        ],
+        [
+          "liquid-networks",
+          0.91
+        ],
+        [
+          "htm",
+          0.91
+        ]
+      ]
     }
   ],
   "seed_scores": {
@@ -466,6 +488,7 @@
         0.1,
         0.1,
         0.1,
+        1.0,
         1.0,
         1.0
       ]
@@ -495,6 +518,7 @@
         0.1,
         0.1,
         1.0,
+        1.0,
         1.0
       ]
     },
@@ -522,6 +546,7 @@
         0.1,
         0.1,
         0.1,
+        1.0,
         1.0,
         1.0
       ]
@@ -551,6 +576,7 @@
         0.1,
         0.1,
         1.0,
+        1.0,
         1.0
       ]
     },
@@ -579,14 +605,15 @@
         0.1,
         0.1,
         1.0,
+        1.0,
         1.0
       ]
     },
     "few-shot": {
       "name": "Few-Shot Learning",
-      "info_gain": 1.0,
+      "info_gain": 0.692,
       "novelty": 1.0,
-      "motivation_score": 0.91,
+      "motivation_score": 0.787,
       "info_gain_history": [
         0.1,
         0.1,
@@ -607,7 +634,8 @@
         0.1,
         0.1,
         1.0,
-        1.0
+        1.0,
+        0.692
       ]
     },
     "continual-learning": {
@@ -634,6 +662,7 @@
         0.1,
         0.1,
         0.1,
+        1.0,
         1.0,
         1.0
       ]
@@ -663,6 +692,7 @@
         0.1,
         0.1,
         1.0,
+        1.0,
         1.0
       ]
     },
@@ -690,6 +720,7 @@
         0.1,
         0.1,
         0.1,
+        1.0,
         1.0,
         1.0
       ]
@@ -719,12 +750,13 @@
         0.1,
         0.1,
         1.0,
+        1.0,
         1.0
       ]
     }
   },
   "auto_created_seeds": [],
   "dormant_seeds": [],
-  "total_motivation_evaluations": 20,
+  "total_motivation_evaluations": 21,
   "current_prediction_error": 0.7
 }
