@@ -33303,7 +33303,24 @@
         "time"
       ],
       "first_seen_round": 186
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.03949v1",
+      "title": "VestigeKV: The NoPE-MLA KV Cache Carries Its Own Eviction Signal in a Vestigial Branch",
+      "arxiv_id": "2609.03949",
+      "tokens": [
+        "branch",
+        "cache",
+        "carries",
+        "eviction",
+        "mla",
+        "nope",
+        "signal",
+        "vestigekv",
+        "vestigial"
+      ],
+      "first_seen_round": 187
     }
   ],
-  "total_unique": 2077
+  "total_unique": 2078
 }

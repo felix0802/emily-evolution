@@ -111,20 +111,8 @@
       "timestamp": "2026-07-07T08:54:37.763781"
     }
   },
-  "evolution_count": 186,
+  "evolution_count": 187,
   "history": [
-    {
-      "evolution": 103,
-      "timestamp": "2026-07-07T13:04:51.138357",
-      "total_tests": 22,
-      "improvements": [
-        "Wine_GradientBoosting: 0.8315 → 0.8316",
-        "Wine_KNeighbors: 0.9329 → 0.9385",
-        "Wine_SVM: 0.9831 → 0.9887",
-        "Wine_DecisionTree: 0.8709 → 0.8986",
-        "Breast Cancer_GradientBoosting: 0.9526 → 0.9543"
-      ]
-    },
     {
       "evolution": 105,
       "timestamp": "2026-07-07T13:08:53.482235",
@@ -456,6 +444,12 @@
     {
       "evolution": 186,
       "timestamp": "2026-09-04T17:13:10.633653",
+      "total_tests": 22,
+      "improvements": []
+    },
+    {
+      "evolution": 187,
+      "timestamp": "2026-09-04T19:58:24.899259",
       "total_tests": 22,
       "improvements": []
     }

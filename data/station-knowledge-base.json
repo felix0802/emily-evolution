@@ -1,37 +1,6 @@
 {
   "sessions": [
     {
-      "timestamp": "2026-07-05T16:32:11.430629",
-      "arxiv_papers_count": 20,
-      "arxiv_top_keywords": [
-        "unlearning",
-        "methods",
-        "lacuna",
-        "testbed",
-        "evaluating",
-        "programming",
-        "program",
-        "weights",
-        "paradigm",
-        "fuzzy"
-      ],
-      "huggingface_models_tracked": 10,
-      "huggingface_top_tasks": [
-        "sentence-similarity",
-        "fill-mask",
-        "text-generation",
-        "text-ranking",
-        "feature-extraction"
-      ],
-      "ml_benchmarks_run": 10,
-      "ml_top_classifier": "RandomForest",
-      "evolution": {
-        "techniques_discovered": 0,
-        "techniques_adopted": 0,
-        "decisions": 0
-      }
-    },
-    {
       "timestamp": "2026-07-05T18:24:48.971527",
       "arxiv_papers_count": 20,
       "arxiv_top_keywords": [
@@ -4180,12 +4149,59 @@
         "seed_name": "Liquid Networks",
         "papers_found": 8
       }
+    },
+    {
+      "timestamp": "2026-09-04T19:58:31.424137",
+      "arxiv_papers_count": 18,
+      "arxiv_top_keywords": [
+        "decoding",
+        "cache",
+        "graph",
+        "speculative",
+        "attention",
+        "vision",
+        "aware",
+        "user",
+        "target",
+        "block"
+      ],
+      "arxiv_strategies": [
+        "搜索: kv cache LLM",
+        "搜索: graph neural network recent",
+        "搜索: speculative decoding"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "unknown",
+        "fill-mask",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 20,
+        "adopted": 1,
+        "decisions": 1
+      },
+      "seed_watering": {
+        "seed_name": "HTM",
+        "papers_found": 6
+      }
     }
   ],
   "total_sessions": 101,
-  "last_updated": "2026-09-04T17:13:16.548795",
+  "last_updated": "2026-09-04T19:58:31.424154",
   "evolution_summary": {
-    "total_adopted": 74,
+    "total_adopted": 75,
     "adopted_list": [
       "Knowledge Distillation",
       "World Models / Model-Based RL",
@@ -4260,7 +4276,8 @@
       "EF1 (Envy-Freeness up to One Good)",
       "概念分离（Conceptual Separation）",
       "Graph Neural Networks",
-      "Spatiotemporal contact memory"
+      "Spatiotemporal contact memory",
+      "VestigeKV"
     ],
     "seeds": {
       "mamba": {
@@ -4275,7 +4292,7 @@
       },
       "htm": {
         "name": "HTM",
-        "watering": 58,
+        "watering": 59,
         "papers": 98
       },
       "spiking-nn": {
@@ -4369,16 +4386,16 @@
         "name": "HTM",
         "new_papers": 93,
         "keywords_matched": [
-          "predictive coding",
           "sequence memory",
-          "cortical",
+          "online learning",
           "sparse distributed",
-          "anomaly detection",
+          "predictive coding",
+          "cortical",
           "hierarchical temporal",
-          "online learning"
+          "anomaly detection"
         ],
         "high_relevance_total": 3,
-        "avg_relevance_latest": 1.0,
+        "avg_relevance_latest": 0.0,
         "best_papers_count": 0
       },
       "non-transformer": {
@@ -4456,6 +4473,6 @@
         "best_papers_count": 1
       }
     },
-    "last_evolution": "2026-09-04T17:13:16.550796"
+    "last_evolution": "2026-09-04T19:58:31.426542"
   }
 }

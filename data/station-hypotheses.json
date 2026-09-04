@@ -268,8 +268,8 @@
       "reasoning": "HTM's core principles—sparse distributed representations, temporal context, and online learning—align with GNNs' message passing over graph structures. The mathematical commonality lies in both using sparse, high-dimensional vectors and iterative updates (HTM's cell states vs. GNN's node embeddings), suggesting a hybrid where graph edges encode temporal dependencies and HTM-like sparse activations regulate information flow to prevent catastrophic forgetting.",
       "arxiv_query": "hierarchical temporal memory graph neural network continual learning",
       "potential_breakthrough": "This fusion could create a new class of neuro-symbolic models that learn continuously from dynamic graphs (e.g., social networks, knowledge graphs) without forgetting, enabling real-time adaptation in streaming data environments.",
-      "status": "unverified",
-      "verification_rounds": 2,
+      "status": "inconclusive",
+      "verification_rounds": 3,
       "supporting_papers": [],
       "refuting_papers": [],
       "llm_source": "deepseek"
@@ -309,7 +309,7 @@
       "llm_source": "deepseek"
     }
   ],
-  "last_updated": "2026-09-04T17:13:20.317995",
+  "last_updated": "2026-09-04T19:58:34.411536",
   "total_generated": 13,
-  "total_verified": 10
+  "total_verified": 11
 }

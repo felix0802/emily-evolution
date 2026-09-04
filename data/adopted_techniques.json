@@ -1118,6 +1118,21 @@
         ],
         "decided_at": "2026-09-04T12:19:21.936329"
       }
+    },
+    {
+      "id": "llm-vestigekv",
+      "name": "VestigeKV",
+      "adopted_at": "2026-09-04T19:58:31.420259",
+      "decision": {
+        "tech_id": "llm-vestigekv",
+        "tech_name": "VestigeKV",
+        "action": "adopt",
+        "confidence": 0.9,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-09-04T19:58:31.419069"
+      }
     }
   ],
   "history": [
@@ -1564,6 +1579,12 @@
       "tech_id": "llm-spatiotemporal-contact-memory",
       "tech_name": "Spatiotemporal contact memory",
       "timestamp": "2026-09-04T12:19:21.937689"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-vestigekv",
+      "tech_name": "VestigeKV",
+      "timestamp": "2026-09-04T19:58:31.420264"
     }
   ]
 }
