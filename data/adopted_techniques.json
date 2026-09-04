@@ -1088,6 +1088,36 @@
         ],
         "decided_at": "2026-09-04T06:38:20.553455"
       }
+    },
+    {
+      "id": "graph-nn",
+      "name": "Graph Neural Networks",
+      "adopted_at": "2026-09-04T12:19:21.937664",
+      "decision": {
+        "tech_id": "graph-nn",
+        "tech_name": "Graph Neural Networks",
+        "action": "adopt",
+        "confidence": 0.95,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-09-04T12:19:21.936048"
+      }
+    },
+    {
+      "id": "llm-spatiotemporal-contact-memory",
+      "name": "Spatiotemporal contact memory",
+      "adopted_at": "2026-09-04T12:19:21.937688",
+      "decision": {
+        "tech_id": "llm-spatiotemporal-contact-memory",
+        "tech_name": "Spatiotemporal contact memory",
+        "action": "adopt",
+        "confidence": 0.85,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-09-04T12:19:21.936329"
+      }
     }
   ],
   "history": [
@@ -1522,6 +1552,18 @@
       "tech_id": "llm-概念分离（conceptual-separation）",
       "tech_name": "概念分离（Conceptual Separation）",
       "timestamp": "2026-09-04T06:38:20.554814"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "graph-nn",
+      "tech_name": "Graph Neural Networks",
+      "timestamp": "2026-09-04T12:19:21.937669"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-spatiotemporal-contact-memory",
+      "tech_name": "Spatiotemporal contact memory",
+      "timestamp": "2026-09-04T12:19:21.937689"
     }
   ]
 }
