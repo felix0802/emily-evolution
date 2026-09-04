@@ -251,8 +251,8 @@
       "reasoning": "Mamba 透過輸入依賴的選擇機制高效處理長序列，而 Liquid Networks 提供時間連續、因果的動態，擅長建模非平穩系統。兩者皆為資料驅動的神經網路，共享對序列建模的關注，且 Mamba 的離散化步驟可與 Liquid 的微分方程整合，形成一個混合架構，兼具 Mamba 的平行效率與 Liquid 的連續適應性。",
       "arxiv_query": "Mamba Liquid State Space Model online learning non-stationary",
       "potential_breakthrough": "此結合可能催生新一代節能、即時適應的神經網路，適用於邊緣 AI 與機器人控制，能在動態環境中持續學習，同時保持低延遲與高能效。",
-      "status": "unverified",
-      "verification_rounds": 2,
+      "status": "inconclusive",
+      "verification_rounds": 3,
       "supporting_papers": [],
       "refuting_papers": [],
       "llm_source": "deepseek"
@@ -309,7 +309,7 @@
       "llm_source": "deepseek"
     }
   ],
-  "last_updated": "2026-09-04T12:19:28.655463",
+  "last_updated": "2026-09-04T17:13:20.317995",
   "total_generated": 13,
-  "total_verified": 9
+  "total_verified": 10
 }

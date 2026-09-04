@@ -111,37 +111,8 @@
       "timestamp": "2026-07-07T08:54:37.763781"
     }
   },
-  "evolution_count": 185,
+  "evolution_count": 186,
   "history": [
-    {
-      "evolution": 101,
-      "timestamp": "2026-07-07T08:54:37.763788",
-      "total_tests": 22,
-      "improvements": [
-        "Iris_RandomForest: 0.0000 → 0.9667",
-        "Iris_GradientBoosting: 0.0000 → 0.9733",
-        "Iris_LogisticRegression: 0.0000 → 0.9667",
-        "Iris_KNeighbors: 0.0000 → 0.9533",
-        "Iris_SVM: 0.0000 → 0.9667",
-        "Iris_DecisionTree: 0.0000 → 0.9733",
-        "Wine_RandomForest: 0.0000 → 0.9551",
-        "Wine_GradientBoosting: 0.0000 → 0.8315",
-        "Wine_LogisticRegression: 0.0000 → 0.9719",
-        "Wine_KNeighbors: 0.0000 → 0.9329",
-        "Wine_SVM: 0.0000 → 0.9831",
-        "Wine_DecisionTree: 0.0000 → 0.8709",
-        "Breast Cancer_RandomForest: 0.0000 → 0.9543",
-        "Breast Cancer_GradientBoosting: 0.0000 → 0.9526",
-        "Breast Cancer_LogisticRegression: 0.0000 → 0.9736",
-        "Breast Cancer_KNeighbors: 0.0000 → 0.9578",
-        "Breast Cancer_SVM: 0.0000 → 0.9631",
-        "Breast Cancer_DecisionTree: 0.0000 → 0.9244",
-        "Diabetes_RandomForest: -999.0000 → 0.4325",
-        "Diabetes_GradientBoosting: -999.0000 → 0.4110",
-        "Diabetes_Ridge: -999.0000 → 0.4823",
-        "Diabetes_LinearRegression: -999.0000 → 0.4823"
-      ]
-    },
     {
       "evolution": 103,
       "timestamp": "2026-07-07T13:04:51.138357",
@@ -479,6 +450,12 @@
     {
       "evolution": 185,
       "timestamp": "2026-09-04T12:19:16.014290",
+      "total_tests": 22,
+      "improvements": []
+    },
+    {
+      "evolution": 186,
+      "timestamp": "2026-09-04T17:13:10.633653",
       "total_tests": 22,
       "improvements": []
     }

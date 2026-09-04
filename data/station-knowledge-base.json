@@ -1,37 +1,6 @@
 {
   "sessions": [
     {
-      "timestamp": "2026-07-05T15:55:32.191340",
-      "arxiv_papers_count": 20,
-      "arxiv_top_keywords": [
-        "unlearning",
-        "methods",
-        "lacuna",
-        "testbed",
-        "evaluating",
-        "programming",
-        "program",
-        "weights",
-        "paradigm",
-        "fuzzy"
-      ],
-      "huggingface_models_tracked": 10,
-      "huggingface_top_tasks": [
-        "sentence-similarity",
-        "fill-mask",
-        "text-generation",
-        "text-ranking",
-        "feature-extraction"
-      ],
-      "ml_benchmarks_run": 10,
-      "ml_top_classifier": "RandomForest",
-      "evolution": {
-        "techniques_discovered": 0,
-        "techniques_adopted": 0,
-        "decisions": 0
-      }
-    },
-    {
       "timestamp": "2026-07-05T16:32:11.430629",
       "arxiv_papers_count": 20,
       "arxiv_top_keywords": [
@@ -4164,10 +4133,57 @@
         "seed_name": "Mamba (SSM)",
         "papers_found": 5
       }
+    },
+    {
+      "timestamp": "2026-09-04T17:13:16.548781",
+      "arxiv_papers_count": 17,
+      "arxiv_top_keywords": [
+        "time",
+        "anomaly",
+        "data",
+        "experts",
+        "moe",
+        "forecasting",
+        "series",
+        "statistical",
+        "dynamic",
+        "mixture"
+      ],
+      "arxiv_strategies": [
+        "搜索: time series forecasting",
+        "搜索: anomaly detection",
+        "搜索: mixture of experts"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "unknown",
+        "fill-mask",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 17,
+        "adopted": 0,
+        "decisions": 0
+      },
+      "seed_watering": {
+        "seed_name": "Liquid Networks",
+        "papers_found": 8
+      }
     }
   ],
   "total_sessions": 101,
-  "last_updated": "2026-09-04T12:19:25.154148",
+  "last_updated": "2026-09-04T17:13:16.548795",
   "evolution_summary": {
     "total_adopted": 74,
     "adopted_list": [
@@ -4254,8 +4270,8 @@
       },
       "liquid-networks": {
         "name": "Liquid Networks",
-        "watering": 58,
-        "papers": 66
+        "watering": 59,
+        "papers": 67
       },
       "htm": {
         "name": "HTM",
@@ -4339,14 +4355,14 @@
       },
       "liquid-networks": {
         "name": "Liquid Networks",
-        "new_papers": 61,
+        "new_papers": 62,
         "keywords_matched": [
           "liquid neural",
-          "continuous-time",
-          "ode"
+          "ode",
+          "continuous-time"
         ],
         "high_relevance_total": 18,
-        "avg_relevance_latest": 1.5,
+        "avg_relevance_latest": 1.0,
         "best_papers_count": 0
       },
       "htm": {
@@ -4440,6 +4456,6 @@
         "best_papers_count": 1
       }
     },
-    "last_evolution": "2026-09-04T12:19:25.156451"
+    "last_evolution": "2026-09-04T17:13:16.550796"
   }
 }

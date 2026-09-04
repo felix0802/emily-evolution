@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 551,
+  "_rotation_idx": 552,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 56,
@@ -722,18 +722,9 @@
   },
   "liquid-networks": {
     "name": "Liquid Networks",
-    "total_papers_found": 66,
-    "watering_count": 58,
+    "total_papers_found": 67,
+    "watering_count": 59,
     "history": [
-      {
-        "timestamp": "2026-07-15T18:51:19.218844",
-        "papers_found": 0,
-        "duplicates": 8,
-        "irrelevant_filtered": 2,
-        "avg_relevance": 0.0,
-        "high_relevance": 0,
-        "papers": []
-      },
       {
         "timestamp": "2026-07-16T18:52:44.326673",
         "papers_found": 1,
@@ -1446,6 +1437,23 @@
             "seed_match_score": 1
           }
         ]
+      },
+      {
+        "timestamp": "2026-09-04T17:13:11.105283",
+        "papers_found": 1,
+        "duplicates": 7,
+        "irrelevant_filtered": 2,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "Prospective Coding Improves Learning in Deep Continuous-Time Recurrent Networks",
+            "summary": "Temporal integration gives continuous-time recurrent networks memory, but in deep stacks it also delays bottom-up signals and attenuates top-down errors. We develop Recursive Quadrature Filters (RQFs), biologically motivated complex-valued temporal filters that are a special case of diagonal state-s",
+            "published": "2026-09-03",
+            "url": "http://arxiv.org/abs/2609.04134v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -1455,7 +1463,7 @@
       "ode",
       "continuous-time"
     ],
-    "last_watered": "2026-09-03T01:44:52.020129"
+    "last_watered": "2026-09-04T17:13:11.105279"
   },
   "htm": {
     "name": "HTM",
