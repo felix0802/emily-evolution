@@ -1073,6 +1073,21 @@
         ],
         "decided_at": "2026-09-04T01:39:31.643741"
       }
+    },
+    {
+      "id": "llm-概念分离（conceptual-separation）",
+      "name": "概念分离（Conceptual Separation）",
+      "adopted_at": "2026-09-04T06:38:20.554808",
+      "decision": {
+        "tech_id": "llm-概念分离（conceptual-separation）",
+        "tech_name": "概念分离（Conceptual Separation）",
+        "action": "adopt",
+        "confidence": 0.9,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-09-04T06:38:20.553455"
+      }
     }
   ],
   "history": [
@@ -1501,6 +1516,12 @@
       "tech_id": "llm-ef1-(envy-freeness-up-to-one-g",
       "tech_name": "EF1 (Envy-Freeness up to One Good)",
       "timestamp": "2026-09-04T01:39:31.645143"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-概念分离（conceptual-separation）",
+      "tech_name": "概念分离（Conceptual Separation）",
+      "timestamp": "2026-09-04T06:38:20.554814"
     }
   ]
 }

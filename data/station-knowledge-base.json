@@ -1,37 +1,6 @@
 {
   "sessions": [
     {
-      "timestamp": "2026-07-05T11:04:34.622965",
-      "arxiv_papers_count": 20,
-      "arxiv_top_keywords": [
-        "unlearning",
-        "methods",
-        "lacuna",
-        "testbed",
-        "evaluating",
-        "programming",
-        "program",
-        "weights",
-        "paradigm",
-        "fuzzy"
-      ],
-      "huggingface_models_tracked": 10,
-      "huggingface_top_tasks": [
-        "sentence-similarity",
-        "fill-mask",
-        "text-ranking",
-        "feature-extraction",
-        "unknown"
-      ],
-      "ml_benchmarks_run": 10,
-      "ml_top_classifier": "RandomForest",
-      "evolution": {
-        "techniques_discovered": 0,
-        "techniques_adopted": 0,
-        "decisions": 0
-      }
-    },
-    {
       "timestamp": "2026-07-05T13:57:57.117795",
       "arxiv_papers_count": 20,
       "arxiv_top_keywords": [
@@ -4126,12 +4095,59 @@
         "seed_name": "KV Cache Optimization",
         "papers_found": 5
       }
+    },
+    {
+      "timestamp": "2026-09-04T06:38:20.558438",
+      "arxiv_papers_count": 18,
+      "arxiv_top_keywords": [
+        "agent",
+        "learning",
+        "deep",
+        "guided",
+        "systems",
+        "topology",
+        "multi",
+        "conceptual",
+        "neural",
+        "networks"
+      ],
+      "arxiv_strategies": [
+        "搜索: neural architecture",
+        "搜索: self-supervised learning",
+        "搜索: multi-agent system"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "fill-mask",
+        "unknown",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 16,
+        "adopted": 1,
+        "decisions": 1
+      },
+      "seed_watering": {
+        "seed_name": "Graph Neural Networks",
+        "papers_found": 5
+      }
     }
   ],
   "total_sessions": 101,
-  "last_updated": "2026-09-04T01:39:31.648755",
+  "last_updated": "2026-09-04T06:38:20.558453",
   "evolution_summary": {
-    "total_adopted": 71,
+    "total_adopted": 72,
     "adopted_list": [
       "Knowledge Distillation",
       "World Models / Model-Based RL",
@@ -4203,7 +4219,8 @@
       "KV缓存压缩/掩码",
       "判别式世界模型",
       "可解释AI决策框架",
-      "EF1 (Envy-Freeness up to One Good)"
+      "EF1 (Envy-Freeness up to One Good)",
+      "概念分离（Conceptual Separation）"
     ],
     "seeds": {
       "mamba": {
@@ -4253,8 +4270,8 @@
       },
       "gnn": {
         "name": "Graph Neural Networks",
-        "watering": 53,
-        "papers": 120
+        "watering": 54,
+        "papers": 125
       }
     },
     "seed_metrics": {
@@ -4356,18 +4373,18 @@
       },
       "gnn": {
         "name": "Graph Neural Networks",
-        "new_papers": 120,
+        "new_papers": 125,
         "keywords_matched": [
-          "geometric",
           "graph attention",
-          "gnn",
-          "message passing",
-          "graph neural",
+          "node embedding",
           "graph transformer",
-          "node embedding"
+          "gnn",
+          "geometric",
+          "graph neural",
+          "message passing"
         ],
-        "high_relevance_total": 56,
-        "avg_relevance_latest": 1.0,
+        "high_relevance_total": 60,
+        "avg_relevance_latest": 2.0,
         "best_papers_count": 10
       },
       "moe": {
@@ -4399,6 +4416,6 @@
         "best_papers_count": 1
       }
     },
-    "last_evolution": "2026-09-04T01:39:31.651013"
+    "last_evolution": "2026-09-04T06:38:20.560722"
   }
 }

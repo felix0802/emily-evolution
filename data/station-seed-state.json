@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 549,
+  "_rotation_idx": 550,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 56,
@@ -6979,18 +6979,9 @@
   },
   "gnn": {
     "name": "Graph Neural Networks",
-    "total_papers_found": 120,
-    "watering_count": 53,
+    "total_papers_found": 125,
+    "watering_count": 54,
     "history": [
-      {
-        "timestamp": "2026-07-15T15:16:02.082257",
-        "papers_found": 0,
-        "duplicates": 5,
-        "irrelevant_filtered": 5,
-        "avg_relevance": 0.0,
-        "high_relevance": 0,
-        "papers": []
-      },
       {
         "timestamp": "2026-07-16T15:23:43.302527",
         "papers_found": 0,
@@ -8027,6 +8018,37 @@
             "seed_match_score": 1
           }
         ]
+      },
+      {
+        "timestamp": "2026-09-04T06:38:14.078856",
+        "papers_found": 5,
+        "duplicates": 0,
+        "irrelevant_filtered": 5,
+        "avg_relevance": 2.0,
+        "high_relevance": 4,
+        "papers": [
+          {
+            "title": "When Vision Meets Graphs: A Survey on Graph Reasoning and Learning",
+            "summary": "Graphs are a fundamental data structure underlying many problems in the natural and social sciences. Over the past decade, Graph Neural Networks (GNNs) have dominated graph machine learning, supported by solid theoretical foundations. Yet scientists often understand graph structure through vision: c",
+            "published": "2026-09-03",
+            "url": "http://arxiv.org/abs/2609.03816v1",
+            "seed_match_score": 2
+          },
+          {
+            "title": "LevelSyn: Physical-Aware Logic Synthesis via Level-Asynchronous Graph Neural Networks",
+            "summary": "As integrated circuit technology scales into the nanometer regime, the traditional disconnect between logic synthesis and physical design has led to significant PPA (Power, Performance, and Area) degradation and prolonged design closure cycles. Traditional logic synthesis relies on non-physical Wire",
+            "published": "2026-09-03",
+            "url": "http://arxiv.org/abs/2609.03594v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "PPO-STGNN: A Proximal Policy Optimization Approach with Spatio-Temporal Graph Neural Networks for DAG Task Scheduling in Cloud-Edge-End Computing",
+            "summary": "With the rapid development of the Internet of Things, computation intensive directed acyclic graph (DAG) tasks have become increasingly common in cloud-edge-end collaborative environments. However, cloud, edge, and end nodes are highly heterogeneous in computing capacity, network bandwidth, and ener",
+            "published": "2026-09-03",
+            "url": "http://arxiv.org/abs/2609.03503v1",
+            "seed_match_score": 2
+          }
+        ]
       }
     ],
     "keywords": [
@@ -8038,6 +8060,6 @@
       "node embedding",
       "graph transformer"
     ],
-    "last_watered": "2026-09-02T20:12:06.299784"
+    "last_watered": "2026-09-04T06:38:14.078849"
   }
 }

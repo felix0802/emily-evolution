@@ -290,9 +290,26 @@
       "supporting_papers": [],
       "refuting_papers": [],
       "llm_source": "deepseek"
+    },
+    {
+      "id": "hyp-0013",
+      "timestamp": "2026-09-04T06:38:23.658864",
+      "seed_a": "Non-Transformer Arch",
+      "seed_b": "Graph Neural Networks",
+      "crossref_strength": 7,
+      "shared_keywords": [],
+      "hypothesis": "A hybrid architecture integrating state-space models (SSM) with graph neural networks (GNN) can achieve linear-time complexity and superior temporal-spatial modeling for dynamic graph sequences, outperforming Transformer-based baselines on long-range dependency tasks.",
+      "reasoning": "SSMs (e.g., Mamba) offer linear-time sequential processing with selective state updates, while GNNs excel at relational inductive biases. Their combination leverages shared attention-like mechanisms (e.g., graph attention) and temporal dynamics, enabling efficient handling of non-Euclidean data with long-range temporal dependencies, a known weakness of Transformers.",
+      "arxiv_query": "state space model graph neural network hybrid temporal",
+      "potential_breakthrough": "Enables scalable, real-time learning on dynamic graphs (e.g., traffic, social networks) with linear complexity, surpassing Transformer performance on long-sequence spatiotemporal tasks.",
+      "status": "unverified",
+      "verification_rounds": 1,
+      "supporting_papers": [],
+      "refuting_papers": [],
+      "llm_source": "deepseek"
     }
   ],
-  "last_updated": "2026-09-04T01:39:35.310193",
-  "total_generated": 12,
+  "last_updated": "2026-09-04T06:38:28.796495",
+  "total_generated": 13,
   "total_verified": 9
 }
