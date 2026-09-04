@@ -1,31 +1,6 @@
 {
   "sessions": [
     {
-      "timestamp": "2026-07-05T18:24:48.971527",
-      "arxiv_papers_count": 20,
-      "arxiv_top_keywords": [
-        "unlearning",
-        "methods",
-        "lacuna",
-        "testbed",
-        "evaluating",
-        "programming",
-        "program",
-        "weights",
-        "paradigm",
-        "fuzzy"
-      ],
-      "huggingface_models_tracked": 0,
-      "huggingface_top_tasks": [],
-      "ml_benchmarks_run": 10,
-      "ml_top_classifier": "RandomForest",
-      "evolution": {
-        "techniques_discovered": 0,
-        "techniques_adopted": 0,
-        "decisions": 0
-      }
-    },
-    {
       "timestamp": "2026-07-05T18:35:12.140469",
       "arxiv_papers_count": 20,
       "arxiv_top_keywords": [
@@ -4196,10 +4171,57 @@
         "seed_name": "HTM",
         "papers_found": 6
       }
+    },
+    {
+      "timestamp": "2026-09-04T22:02:46.839715",
+      "arxiv_papers_count": 18,
+      "arxiv_top_keywords": [
+        "teacher",
+        "language",
+        "attention",
+        "linear",
+        "learning",
+        "theory",
+        "graph",
+        "neural",
+        "student",
+        "decentralized"
+      ],
+      "arxiv_strategies": [
+        "搜索: multi-query attention",
+        "搜索: geometric deep learning",
+        "搜索: knowledge distillation"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "unknown",
+        "fill-mask",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 20,
+        "adopted": 0,
+        "decisions": 0
+      },
+      "seed_watering": {
+        "seed_name": "Spiking Neural Networks",
+        "papers_found": 9
+      }
     }
   ],
   "total_sessions": 101,
-  "last_updated": "2026-09-04T19:58:31.424154",
+  "last_updated": "2026-09-04T22:02:46.839730",
   "evolution_summary": {
     "total_adopted": 75,
     "adopted_list": [
@@ -4297,7 +4319,7 @@
       },
       "spiking-nn": {
         "name": "Spiking Neural Networks",
-        "watering": 57,
+        "watering": 58,
         "papers": 31
       },
       "non-transformer": {
@@ -4336,13 +4358,13 @@
         "name": "Spiking Neural Networks",
         "new_papers": 31,
         "keywords_matched": [
-          "spiking",
-          "snn",
           "spike-timing",
-          "neuromorphic"
+          "neuromorphic",
+          "spiking",
+          "snn"
         ],
         "high_relevance_total": 24,
-        "avg_relevance_latest": 2.0,
+        "avg_relevance_latest": 0.0,
         "best_papers_count": 7
       },
       "few-shot": {
@@ -4473,6 +4495,6 @@
         "best_papers_count": 1
       }
     },
-    "last_evolution": "2026-09-04T19:58:31.426542"
+    "last_evolution": "2026-09-04T22:02:46.842011"
   }
 }

@@ -86,9 +86,9 @@
       "timestamp": "2026-07-07T08:54:37.763746"
     },
     "Breast Cancer_DecisionTree": {
-      "accuracy_mean": 0.9262,
-      "evolution": 121,
-      "timestamp": "2026-07-08T15:49:10.698176"
+      "accuracy_mean": 0.9315,
+      "evolution": 188,
+      "timestamp": "2026-09-04T22:02:40.383501"
     },
     "Diabetes_RandomForest": {
       "r2_mean": 0.4427,
@@ -111,18 +111,8 @@
       "timestamp": "2026-07-07T08:54:37.763781"
     }
   },
-  "evolution_count": 187,
+  "evolution_count": 188,
   "history": [
-    {
-      "evolution": 105,
-      "timestamp": "2026-07-07T13:08:53.482235",
-      "total_tests": 22,
-      "improvements": [
-        "Wine_GradientBoosting: 0.8316 → 0.8371",
-        "Breast Cancer_KNeighbors: 0.9578 → 0.9596",
-        "Diabetes_RandomForest: 0.4325 → 0.4401"
-      ]
-    },
     {
       "evolution": 106,
       "timestamp": "2026-07-07T13:20:31.418415",
@@ -452,6 +442,14 @@
       "timestamp": "2026-09-04T19:58:24.899259",
       "total_tests": 22,
       "improvements": []
+    },
+    {
+      "evolution": 188,
+      "timestamp": "2026-09-04T22:02:40.383518",
+      "total_tests": 22,
+      "improvements": [
+        "Breast Cancer_DecisionTree: 0.9262 → 0.9315"
+      ]
     }
   ]
 }

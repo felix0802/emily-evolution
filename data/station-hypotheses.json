@@ -285,8 +285,8 @@
       "reasoning": "Mamba excels at efficient modeling of long-range dependencies via input-dependent state transitions, while HTM provides biologically plausible sparse coding and online learning with explicit temporal context. Both share a graph-like state representation and event-based processing, suggesting a mathematical bridge where Mamba's continuous state updates can be discretized into HTM-like sparse events, enabling robust estimation and adaptation in streaming data.",
       "arxiv_query": "Mamba state space model HTM sparse temporal memory event-driven sequence learning",
       "potential_breakthrough": "A unified framework that combines the scalability of Mamba with the online adaptability of HTM, enabling real-time, low-power learning on neuromorphic hardware for non-stationary data streams.",
-      "status": "unverified",
-      "verification_rounds": 2,
+      "status": "inconclusive",
+      "verification_rounds": 3,
       "supporting_papers": [],
       "refuting_papers": [],
       "llm_source": "deepseek"
@@ -309,7 +309,7 @@
       "llm_source": "deepseek"
     }
   ],
-  "last_updated": "2026-09-04T19:58:34.411536",
+  "last_updated": "2026-09-04T22:02:50.715324",
   "total_generated": 13,
-  "total_verified": 11
+  "total_verified": 12
 }
