@@ -1,37 +1,6 @@
 {
   "sessions": [
     {
-      "timestamp": "2026-07-05T09:02:21.277383",
-      "arxiv_papers_count": 20,
-      "arxiv_top_keywords": [
-        "unlearning",
-        "methods",
-        "lacuna",
-        "testbed",
-        "evaluating",
-        "programming",
-        "program",
-        "weights",
-        "paradigm",
-        "fuzzy"
-      ],
-      "huggingface_models_tracked": 10,
-      "huggingface_top_tasks": [
-        "sentence-similarity",
-        "fill-mask",
-        "text-ranking",
-        "feature-extraction",
-        "unknown"
-      ],
-      "ml_benchmarks_run": 10,
-      "ml_top_classifier": "RandomForest",
-      "evolution": {
-        "techniques_discovered": 0,
-        "techniques_adopted": 0,
-        "decisions": 0
-      }
-    },
-    {
       "timestamp": "2026-07-05T11:04:34.622965",
       "arxiv_papers_count": 20,
       "arxiv_top_keywords": [
@@ -4110,12 +4079,59 @@
         "seed_name": "",
         "papers_found": 0
       }
+    },
+    {
+      "timestamp": "2026-09-04T01:39:31.648739",
+      "arxiv_papers_count": 18,
+      "arxiv_top_keywords": [
+        "offline",
+        "diffusion",
+        "reward",
+        "learning",
+        "view",
+        "generation",
+        "additive",
+        "valuations",
+        "nsw",
+        "welfare"
+      ],
+      "arxiv_strategies": [
+        "搜索: reinforcement learning",
+        "搜索: large language model",
+        "搜索: diffusion model"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "fill-mask",
+        "unknown",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 20,
+        "adopted": 1,
+        "decisions": 1
+      },
+      "seed_watering": {
+        "seed_name": "KV Cache Optimization",
+        "papers_found": 5
+      }
     }
   ],
   "total_sessions": 101,
-  "last_updated": "2026-09-04T00:10:44.929617",
+  "last_updated": "2026-09-04T01:39:31.648755",
   "evolution_summary": {
-    "total_adopted": 70,
+    "total_adopted": 71,
     "adopted_list": [
       "Knowledge Distillation",
       "World Models / Model-Based RL",
@@ -4186,7 +4202,8 @@
       "Diffusion",
       "KV缓存压缩/掩码",
       "判别式世界模型",
-      "可解释AI决策框架"
+      "可解释AI决策框架",
+      "EF1 (Envy-Freeness up to One Good)"
     ],
     "seeds": {
       "mamba": {
@@ -4231,8 +4248,8 @@
       },
       "kv-cache": {
         "name": "KV Cache Optimization",
-        "watering": 52,
-        "papers": 73
+        "watering": 53,
+        "papers": 76
       },
       "gnn": {
         "name": "Graph Neural Networks",
@@ -4369,19 +4386,19 @@
       },
       "kv-cache": {
         "name": "KV Cache Optimization",
-        "new_papers": 73,
+        "new_papers": 76,
         "keywords_matched": [
-          "gqa",
-          "speculative decoding",
           "kv cache",
-          "flash attention",
-          "key-value cache"
+          "speculative decoding",
+          "key-value cache",
+          "gqa",
+          "flash attention"
         ],
         "high_relevance_total": 3,
         "avg_relevance_latest": 1.0,
         "best_papers_count": 1
       }
     },
-    "last_evolution": "2026-09-04T00:10:44.931644"
+    "last_evolution": "2026-09-04T01:39:31.651013"
   }
 }

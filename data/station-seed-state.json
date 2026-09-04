@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 548,
+  "_rotation_idx": 549,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 56,
@@ -6064,33 +6064,9 @@
   },
   "kv-cache": {
     "name": "KV Cache Optimization",
-    "total_papers_found": 73,
-    "watering_count": 52,
+    "total_papers_found": 76,
+    "watering_count": 53,
     "history": [
-      {
-        "timestamp": "2026-07-15T11:19:09.355556",
-        "papers_found": 2,
-        "duplicates": 4,
-        "irrelevant_filtered": 4,
-        "avg_relevance": 1.0,
-        "high_relevance": 0,
-        "papers": [
-          {
-            "title": "MemDecay: Region-Aware KV Cache Eviction for Efficient LLM Agent Inference",
-            "summary": "Large language model (LLM) agents accumulate heterogeneous context, including system instructions, plans, user turns, retrieved documents, tool outputs, and intermediate reasoning, whose key-value (KV) cache can become a major memory bottleneck. Existing eviction policies generally apply the same at",
-            "published": "2026-07-12",
-            "url": "http://arxiv.org/abs/2607.10582v1",
-            "seed_match_score": 1
-          },
-          {
-            "title": "How Query Visibility Changes KV-Cache Compression Rankings: A Matched-Budget Audit",
-            "summary": "KV-cache compression methods are predominantly evaluated with the query appended to the context before compression -- a query-aware protocol. Yet the economic case for a compressed KV cache is reuse: compress a document once, answer many future questions against it. In that deployment, compression m",
-            "published": "2026-07-11",
-            "url": "http://arxiv.org/abs/2607.11942v1",
-            "seed_match_score": 1
-          }
-        ]
-      },
       {
         "timestamp": "2026-07-16T13:13:04.882796",
         "papers_found": 0,
@@ -6957,6 +6933,37 @@
             "seed_match_score": 1
           }
         ]
+      },
+      {
+        "timestamp": "2026-09-04T01:39:24.507173",
+        "papers_found": 3,
+        "duplicates": 2,
+        "irrelevant_filtered": 5,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "Random Attention: Rethinking KV Cache Eviction for Efficient Reasoning",
+            "summary": "Large language models achieve superior performance on tasks that require extended reasoning, but long chains of thought make the KV cache a severe memory bottleneck. Existing KV cache compression methods share one paradigm: score each cached token by some estimate of how much it will matter later, a",
+            "published": "2026-09-03",
+            "url": "http://arxiv.org/abs/2609.03430v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "SGD-KV: Summarization Guided KV Cache Compression",
+            "summary": "Large language models (LLMs) face severe memory bottlenecks in long-context inference due to the linearly growing size of key-value (KV) caches. Existing KV cache compression techniques typically rely on simple heuristics, overlooking the distinct functional roles of different attention heads. We pr",
+            "published": "2026-09-03",
+            "url": "http://arxiv.org/abs/2609.03235v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Jina-OCR-v1: Efficient Document Parsing with Speculative Decoding and Dense Verifiable Rewards",
+            "summary": "We present Jina-OCR-v1, an end-to-end document parsing model built to serve on low-budget GPUs. It combines the compressed-vision encoder and the 3B mixture-of-experts decoder of DeepSeek-OCR, which activates about 570M parameters per token, with a FastMTP speculative decoding head that shares a sin",
+            "published": "2026-09-02",
+            "url": "http://arxiv.org/abs/2609.03181v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -6968,7 +6975,7 @@
       "flash attention",
       "speculative decoding"
     ],
-    "last_watered": "2026-09-02T17:28:21.852279"
+    "last_watered": "2026-09-04T01:39:24.507167"
   },
   "gnn": {
     "name": "Graph Neural Networks",

@@ -1058,6 +1058,21 @@
         ],
         "decided_at": "2026-09-03T23:37:14.200450"
       }
+    },
+    {
+      "id": "llm-ef1-(envy-freeness-up-to-one-g",
+      "name": "EF1 (Envy-Freeness up to One Good)",
+      "adopted_at": "2026-09-04T01:39:31.645137",
+      "decision": {
+        "tech_id": "llm-ef1-(envy-freeness-up-to-one-g",
+        "tech_name": "EF1 (Envy-Freeness up to One Good)",
+        "action": "adopt",
+        "confidence": 0.9,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-09-04T01:39:31.643741"
+      }
     }
   ],
   "history": [
@@ -1480,6 +1495,12 @@
       "tech_id": "llm-可解释ai决策框架",
       "tech_name": "可解释AI决策框架",
       "timestamp": "2026-09-03T23:37:14.201802"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-ef1-(envy-freeness-up-to-one-g",
+      "tech_name": "EF1 (Envy-Freeness up to One Good)",
+      "timestamp": "2026-09-04T01:39:31.645143"
     }
   ]
 }

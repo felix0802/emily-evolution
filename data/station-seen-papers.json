@@ -32556,7 +32556,330 @@
         "rewards"
       ],
       "first_seen_round": 182
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.03846v1",
+      "title": "EF1-Constrained Nash Social Welfare with Identical Additive Valuations: Complexity, Guarantees, and Experiments",
+      "arxiv_id": "2609.03846",
+      "tokens": [
+        "additive",
+        "complexity",
+        "constrained",
+        "ef1",
+        "experiments",
+        "guarantees",
+        "identical",
+        "nash",
+        "social",
+        "valuations",
+        "welfare"
+      ],
+      "first_seen_round": 183
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.03842v1",
+      "title": "Multi-step Proximal Policy Improvement in Offline Reinforcement Learning",
+      "arxiv_id": "2609.03842",
+      "tokens": [
+        "improvement",
+        "multi",
+        "offline",
+        "policy",
+        "proximal",
+        "reinforcement",
+        "step"
+      ],
+      "first_seen_round": 183
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.03667v1",
+      "title": "Out-of-Distribution Generalisation with Sequence Models in Offline Multi-Agent Reinforcement Learning",
+      "arxiv_id": "2609.03667",
+      "tokens": [
+        "agent",
+        "distribution",
+        "generalisation",
+        "multi",
+        "offline",
+        "reinforcement",
+        "sequence"
+      ],
+      "first_seen_round": 183
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.03528v1",
+      "title": "LeanGRPO: Eliminating Redundant Recomputation in Diffusion RL",
+      "arxiv_id": "2609.03528",
+      "tokens": [
+        "diffusion",
+        "eliminating",
+        "leangrpo",
+        "recomputation",
+        "redundant"
+      ],
+      "first_seen_round": 183
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.03342v1",
+      "title": "Gradients Know What Outcomes Don't: Unlocking Reinforcement Learning for LLM Reasoning with Gradient-Aligned Rewards",
+      "arxiv_id": "2609.03342",
+      "tokens": [
+        "aligned",
+        "don",
+        "gradient",
+        "gradients",
+        "know",
+        "llm",
+        "outcomes",
+        "reasoning",
+        "reinforcement",
+        "rewards",
+        "unlocking"
+      ],
+      "first_seen_round": 183
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.03324v1",
+      "title": "DE-Venus: A Data-Efficient RLVR Framework for Large Language Models",
+      "arxiv_id": "2609.03324",
+      "tokens": [
+        "language",
+        "rlvr",
+        "venus"
+      ],
+      "first_seen_round": 183
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.03894v1",
+      "title": "CROCODIL: Cross-Model Code Editing with LLMs",
+      "arxiv_id": "2609.03894",
+      "tokens": [
+        "code",
+        "crocodil",
+        "cross",
+        "editing",
+        "llms"
+      ],
+      "first_seen_round": 183
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.03844v1",
+      "title": "Flip, Don't Shuffle: Watermarking LLMs at the Speed of Inference",
+      "arxiv_id": "2609.03844",
+      "tokens": [
+        "don",
+        "flip",
+        "inference",
+        "llms",
+        "shuffle",
+        "speed",
+        "watermarking"
+      ],
+      "first_seen_round": 183
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.03814v1",
+      "title": "Evaluating Criterion-Conditioned Behaviour of Large Language Models in Content Moderation",
+      "arxiv_id": "2609.03814",
+      "tokens": [
+        "behaviour",
+        "conditioned",
+        "content",
+        "criterion",
+        "evaluating",
+        "language",
+        "moderation"
+      ],
+      "first_seen_round": 183
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.03781v1",
+      "title": "IndicSafeEval: Safety Robustness of Large Language Models under Multilingual Persuasive Jailbreak Attacks",
+      "arxiv_id": "2609.03781",
+      "tokens": [
+        "attacks",
+        "indicsafeeval",
+        "jailbreak",
+        "language",
+        "multilingual",
+        "persuasive",
+        "robustness",
+        "safety"
+      ],
+      "first_seen_round": 183
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.03775v1",
+      "title": "Typological Feature Prediction with Large Language Models: An In-Context Learning Approach",
+      "arxiv_id": "2609.03775",
+      "tokens": [
+        "context",
+        "feature",
+        "language",
+        "prediction",
+        "typological"
+      ],
+      "first_seen_round": 183
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.03718v1",
+      "title": "What Do CAE Simulation Agents Really Need Beyond a Generic Harness?",
+      "arxiv_id": "2609.03718",
+      "tokens": [
+        "agents",
+        "cae",
+        "generic",
+        "harness",
+        "need",
+        "really",
+        "simulation"
+      ],
+      "first_seen_round": 183
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.03688v1",
+      "title": "ToPO: Token-Conditioned Preference Routing for Attention-Based Latent Diffusion Models",
+      "arxiv_id": "2609.03688",
+      "tokens": [
+        "attention",
+        "conditioned",
+        "diffusion",
+        "latent",
+        "preference",
+        "routing",
+        "token",
+        "topo"
+      ],
+      "first_seen_round": 183
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.03639v1",
+      "title": "Stabilizing Camera-Controlled Novel View Synthesis at Inference Time",
+      "arxiv_id": "2609.03639",
+      "tokens": [
+        "camera",
+        "controlled",
+        "inference",
+        "stabilizing",
+        "synthesis",
+        "time",
+        "view"
+      ],
+      "first_seen_round": 183
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.03629v1",
+      "title": "EraseSAE: Surgical Concept Erasure in Text-to-Video Diffusion Models via Sparse Autoencoders",
+      "arxiv_id": "2609.03629",
+      "tokens": [
+        "autoencoders",
+        "concept",
+        "diffusion",
+        "erasesae",
+        "erasure",
+        "sparse",
+        "surgical",
+        "text",
+        "video"
+      ],
+      "first_seen_round": 183
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.03415v1",
+      "title": "Mudragen: Geometrically Supervised Generation of Interacting Two-Hand Mudras for Preserving Indian Classical Dance Heritage",
+      "arxiv_id": "2609.03415",
+      "tokens": [
+        "classical",
+        "dance",
+        "generation",
+        "geometrically",
+        "hand",
+        "heritage",
+        "indian",
+        "interacting",
+        "mudragen",
+        "mudras",
+        "preserving",
+        "supervised"
+      ],
+      "first_seen_round": 183
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.02847v1",
+      "title": "RoGe: Novel View Synthesis via End-to-End Implicit Reconstruction and Generation",
+      "arxiv_id": "2609.02847",
+      "tokens": [
+        "end",
+        "end",
+        "generation",
+        "implicit",
+        "reconstruction",
+        "roge",
+        "synthesis",
+        "view"
+      ],
+      "first_seen_round": 183
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.02813v1",
+      "title": "GDB-Reward: From Evaluation Metrics to Training Rewards for Graphic Design",
+      "arxiv_id": "2609.02813",
+      "tokens": [
+        "design",
+        "evaluation",
+        "gdb",
+        "graphic",
+        "metrics",
+        "reward",
+        "rewards",
+        "training"
+      ],
+      "first_seen_round": 183
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.03430v1",
+      "title": "Random Attention: Rethinking KV Cache Eviction for Efficient Reasoning",
+      "arxiv_id": "2609.03430",
+      "tokens": [
+        "attention",
+        "cache",
+        "eviction",
+        "random",
+        "reasoning",
+        "rethinking"
+      ],
+      "first_seen_round": 183
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.03235v1",
+      "title": "SGD-KV: Summarization Guided KV Cache Compression",
+      "arxiv_id": "2609.03235",
+      "tokens": [
+        "cache",
+        "compression",
+        "guided",
+        "sgd",
+        "summarization"
+      ],
+      "first_seen_round": 183
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.03181v1",
+      "title": "Jina-OCR-v1: Efficient Document Parsing with Speculative Decoding and Dense Verifiable Rewards",
+      "arxiv_id": "2609.03181",
+      "tokens": [
+        "decoding",
+        "dense",
+        "document",
+        "jina",
+        "ocr",
+        "parsing",
+        "rewards",
+        "speculative",
+        "verifiable"
+      ],
+      "first_seen_round": 183
     }
   ],
-  "total_unique": 2029
+  "total_unique": 2050
 }
