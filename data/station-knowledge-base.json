@@ -1,37 +1,6 @@
 {
   "sessions": [
     {
-      "timestamp": "2026-07-04T20:22:57.086132",
-      "arxiv_papers_count": 20,
-      "arxiv_top_keywords": [
-        "unlearning",
-        "methods",
-        "lacuna",
-        "testbed",
-        "evaluating",
-        "programming",
-        "program",
-        "weights",
-        "paradigm",
-        "fuzzy"
-      ],
-      "huggingface_models_tracked": 10,
-      "huggingface_top_tasks": [
-        "sentence-similarity",
-        "fill-mask",
-        "text-ranking",
-        "feature-extraction",
-        "unknown"
-      ],
-      "ml_benchmarks_run": 10,
-      "ml_top_classifier": "RandomForest",
-      "evolution": {
-        "techniques_discovered": 0,
-        "techniques_adopted": 0,
-        "decisions": 0
-      }
-    },
-    {
       "timestamp": "2026-07-05T09:02:21.277383",
       "arxiv_papers_count": 20,
       "arxiv_top_keywords": [
@@ -4094,10 +4063,57 @@
         "seed_name": "Continual Learning",
         "papers_found": 4
       }
+    },
+    {
+      "timestamp": "2026-09-04T00:10:44.929603",
+      "arxiv_papers_count": 13,
+      "arxiv_top_keywords": [
+        "reasoning",
+        "language",
+        "large",
+        "llms",
+        "world",
+        "web",
+        "discriminative",
+        "agents",
+        "states",
+        "autonomous"
+      ],
+      "arxiv_strategies": [
+        "cs.AI (fallback)",
+        "cs.AI+cs.LG 混合",
+        "cs.AI (fallback)"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "fill-mask",
+        "unknown",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 20,
+        "adopted": 0,
+        "decisions": 0
+      },
+      "seed_watering": {
+        "seed_name": "",
+        "papers_found": 0
+      }
     }
   ],
   "total_sessions": 101,
-  "last_updated": "2026-09-03T23:37:17.528556",
+  "last_updated": "2026-09-04T00:10:44.929617",
   "evolution_summary": {
     "total_adopted": 70,
     "adopted_list": [
@@ -4210,7 +4226,7 @@
       },
       "moe": {
         "name": "Mixture of Experts",
-        "watering": 51,
+        "watering": 52,
         "papers": 83
       },
       "kv-cache": {
@@ -4366,6 +4382,6 @@
         "best_papers_count": 1
       }
     },
-    "last_evolution": "2026-09-03T23:37:17.530815"
+    "last_evolution": "2026-09-04T00:10:44.931644"
   }
 }
