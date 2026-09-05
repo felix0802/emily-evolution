@@ -1238,6 +1238,36 @@
         ],
         "decided_at": "2026-09-05T21:45:44.817019"
       }
+    },
+    {
+      "id": "llm-零阶优化-(zeroth-order-optimizatio",
+      "name": "零阶优化 (Zeroth-Order Optimization)",
+      "adopted_at": "2026-09-05T23:26:03.227050",
+      "decision": {
+        "tech_id": "llm-零阶优化-(zeroth-order-optimizatio",
+        "tech_name": "零阶优化 (Zeroth-Order Optimization)",
+        "action": "adopt",
+        "confidence": 0.9,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-09-05T23:26:03.225620"
+      }
+    },
+    {
+      "id": "auto-alignment",
+      "name": "Alignment",
+      "adopted_at": "2026-09-05T23:26:03.227070",
+      "decision": {
+        "tech_id": "auto-alignment",
+        "tech_name": "Alignment",
+        "action": "adopt",
+        "confidence": 0.35,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-09-05T23:26:03.225975"
+      }
     }
   ],
   "history": [
@@ -1732,6 +1762,18 @@
       "tech_id": "llm-sgd-kv",
       "tech_name": "SGD-KV",
       "timestamp": "2026-09-05T21:45:44.818197"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-零阶优化-(zeroth-order-optimizatio",
+      "tech_name": "零阶优化 (Zeroth-Order Optimization)",
+      "timestamp": "2026-09-05T23:26:03.227057"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "auto-alignment",
+      "tech_name": "Alignment",
+      "timestamp": "2026-09-05T23:26:03.227072"
     }
   ]
 }

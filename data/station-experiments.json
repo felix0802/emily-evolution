@@ -123,8 +123,60 @@
         "accuracy_difference": -0.0067,
         "winner": "RandomForest"
       }
+    },
+    {
+      "id": "exp-hyp-0014",
+      "hypothesis_id": "hyp-0014",
+      "hypothesis_text": "Integrating liquid time-constant dynamics into non-transformer recurrent architectures (e.g., HTM or predictive coding networks) will enable adaptive ",
+      "dataset": "Iris",
+      "algorithms": [
+        "KNeighbors",
+        "RandomForest"
+      ],
+      "metric": "accuracy",
+      "cross_val": 5,
+      "designed_at": "2026-09-05T23:26:09.384314",
+      "status": "completed",
+      "outcome": {
+        "status": "completed",
+        "executed_at": "2026-09-05T23:26:09.940943",
+        "dataset": "Iris",
+        "n_samples": 150,
+        "n_features": 4,
+        "n_classes": 3,
+        "algorithms_compared": [
+          "KNeighbors",
+          "RandomForest"
+        ],
+        "results": {
+          "KNeighbors": {
+            "mean": 0.96,
+            "std": 0.0249,
+            "scores": [
+              0.9667,
+              0.9667,
+              0.9333,
+              0.9333,
+              1.0
+            ]
+          },
+          "RandomForest": {
+            "mean": 0.9667,
+            "std": 0.0211,
+            "scores": [
+              0.9667,
+              0.9667,
+              0.9333,
+              0.9667,
+              1.0
+            ]
+          }
+        },
+        "accuracy_difference": -0.0067,
+        "winner": "RandomForest"
+      }
     }
   ],
-  "total_experiments": 5,
-  "last_updated": "2026-09-04T01:39:35.310849"
+  "total_experiments": 6,
+  "last_updated": "2026-09-05T23:26:09.941917"
 }

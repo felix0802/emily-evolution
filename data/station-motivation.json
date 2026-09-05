@@ -791,6 +791,28 @@
           0.91
         ]
       ]
+    },
+    {
+      "round": 196,
+      "timestamp": "2026-09-05T23:25:58.339004",
+      "prediction_error": 0.7,
+      "seeds_active": 10,
+      "seeds_dormant": 0,
+      "new_seeds_added": 0,
+      "top_motivated": [
+        [
+          "mamba",
+          0.91
+        ],
+        [
+          "liquid-networks",
+          0.91
+        ],
+        [
+          "htm",
+          0.91
+        ]
+      ]
     }
   ],
   "seed_scores": {
@@ -802,7 +824,7 @@
       "info_gain_history": [
         0.1,
         0.1,
-        0.1,
+        1.0,
         1.0,
         1.0,
         1.0,
@@ -831,7 +853,7 @@
       "info_gain_history": [
         0.1,
         0.1,
-        0.1,
+        1.0,
         1.0,
         1.0,
         1.0,
@@ -860,7 +882,7 @@
       "info_gain_history": [
         0.1,
         0.1,
-        0.1,
+        1.0,
         1.0,
         1.0,
         1.0,
@@ -889,7 +911,7 @@
       "info_gain_history": [
         0.1,
         0.1,
-        0.1,
+        1.0,
         1.0,
         1.0,
         1.0,
@@ -918,7 +940,7 @@
       "info_gain_history": [
         0.1,
         0.1,
-        0.1,
+        1.0,
         1.0,
         1.0,
         1.0,
@@ -947,9 +969,9 @@
       "info_gain_history": [
         0.1,
         0.1,
-        0.1,
         1.0,
         1.0,
+        0.692,
         0.692,
         0.692,
         0.692,
@@ -976,7 +998,6 @@
       "info_gain_history": [
         0.1,
         0.1,
-        0.1,
         1.0,
         1.0,
         1.0,
@@ -990,6 +1011,7 @@
         1.0,
         1.0,
         1.0,
+        0.9,
         0.9,
         0.9,
         0.9,
@@ -1005,7 +1027,7 @@
       "info_gain_history": [
         0.1,
         0.1,
-        0.1,
+        1.0,
         1.0,
         1.0,
         1.0,
@@ -1034,7 +1056,7 @@
       "info_gain_history": [
         0.1,
         0.1,
-        0.1,
+        1.0,
         1.0,
         1.0,
         1.0,
@@ -1063,7 +1085,7 @@
       "info_gain_history": [
         0.1,
         0.1,
-        0.1,
+        1.0,
         1.0,
         1.0,
         1.0,
@@ -1087,6 +1109,6 @@
   },
   "auto_created_seeds": [],
   "dormant_seeds": [],
-  "total_motivation_evaluations": 36,
+  "total_motivation_evaluations": 37,
   "current_prediction_error": 0.7
 }

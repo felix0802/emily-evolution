@@ -319,8 +319,8 @@
       "reasoning": "Liquid networks excel at modeling continuous-time dynamics with adaptable timescales, while non-transformer recurrent architectures (like HTM and predictive coding) offer biologically plausible, sparse, and hierarchical processing. The mathematical commonality lies in their use of recurrent neural ODEs and differentiation, where liquid networks' time-constant modulation can be injected into the state-update equations of these architectures, enabling dynamic reconfiguration of memory and computation without attention's quadratic cost.",
       "arxiv_query": "liquid time-constant recurrent neural networks hierarchical predictive coding non-transformer",
       "potential_breakthrough": "A new class of energy-efficient, biologically inspired recurrent models that dynamically adapt their temporal processing to input statistics, achieving state-of-the-art performance on streaming and continual learning tasks with lower computational overhead than transformers.",
-      "status": "unverified",
-      "verification_rounds": 2,
+      "status": "supported",
+      "verification_rounds": 3,
       "supporting_papers": [
         {
           "title": "Liquid Time-constant Recurrent Neural Networks as Universal Approximators",
@@ -331,13 +331,27 @@
           "title": "Liquid Time-constant Recurrent Neural Networks as Universal Approximators",
           "url": "http://arxiv.org/abs/1811.00321v1",
           "reason": "該論文提出液體時間常數遞迴神經網路（LTC），其可變時間常數特性正是假設中整合液體動力學於非Transformer架構的基礎，直接支持其可行性。"
+        },
+        {
+          "title": "Liquid Time-constant Recurrent Neural Networks as Universal Approximators",
+          "url": "http://arxiv.org/abs/1811.00321v1",
+          "reason": "該論文提出液態時間常數遞歸神經網路，強調可變時間常數與非線性突觸傳遞，支持假設中液態動力學能提供自適應時間尺度分離的可行性。"
         }
       ],
       "refuting_papers": [],
-      "llm_source": "deepseek"
+      "llm_source": "deepseek",
+      "experiment_result": {
+        "algorithms": [
+          "KNeighbors",
+          "RandomForest"
+        ],
+        "winner": "RandomForest",
+        "accuracy_diff": -0.0067,
+        "executed_at": "2026-09-05T23:26:09.940943"
+      }
     }
   ],
-  "last_updated": "2026-09-05T21:45:48.899602",
+  "last_updated": "2026-09-05T23:26:09.941158",
   "total_generated": 14,
-  "total_verified": 13
+  "total_verified": 14
 }
