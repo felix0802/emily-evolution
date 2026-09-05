@@ -302,14 +302,14 @@
       "reasoning": "SSMs (e.g., Mamba) offer linear-time sequential processing with selective state updates, while GNNs excel at relational inductive biases. Their combination leverages shared attention-like mechanisms (e.g., graph attention) and temporal dynamics, enabling efficient handling of non-Euclidean data with long-range temporal dependencies, a known weakness of Transformers.",
       "arxiv_query": "state space model graph neural network hybrid temporal",
       "potential_breakthrough": "Enables scalable, real-time learning on dynamic graphs (e.g., traffic, social networks) with linear complexity, surpassing Transformer performance on long-sequence spatiotemporal tasks.",
-      "status": "unverified",
-      "verification_rounds": 2,
+      "status": "inconclusive",
+      "verification_rounds": 3,
       "supporting_papers": [],
       "refuting_papers": [],
       "llm_source": "deepseek"
     }
   ],
-  "last_updated": "2026-09-04T22:02:50.715324",
+  "last_updated": "2026-09-05T01:40:23.184671",
   "total_generated": 13,
-  "total_verified": 12
+  "total_verified": 13
 }

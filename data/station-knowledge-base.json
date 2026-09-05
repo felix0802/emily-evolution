@@ -1,31 +1,6 @@
 {
   "sessions": [
     {
-      "timestamp": "2026-07-05T18:35:12.140469",
-      "arxiv_papers_count": 20,
-      "arxiv_top_keywords": [
-        "unlearning",
-        "methods",
-        "lacuna",
-        "testbed",
-        "evaluating",
-        "programming",
-        "program",
-        "weights",
-        "paradigm",
-        "fuzzy"
-      ],
-      "huggingface_models_tracked": 0,
-      "huggingface_top_tasks": [],
-      "ml_benchmarks_run": 10,
-      "ml_top_classifier": "RandomForest",
-      "evolution": {
-        "techniques_discovered": 0,
-        "techniques_adopted": 0,
-        "decisions": 0
-      }
-    },
-    {
       "timestamp": "2026-07-06T12:59:15.305983",
       "arxiv_papers_count": 20,
       "arxiv_top_keywords": [
@@ -4218,12 +4193,59 @@
         "seed_name": "Spiking Neural Networks",
         "papers_found": 9
       }
+    },
+    {
+      "timestamp": "2026-09-05T01:40:20.116789",
+      "arxiv_papers_count": 17,
+      "arxiv_top_keywords": [
+        "training",
+        "opd",
+        "policy",
+        "distillation",
+        "compile",
+        "natural",
+        "language",
+        "neural",
+        "measurement",
+        "preregistered"
+      ],
+      "arxiv_strategies": [
+        "cs.AI 最新",
+        "cs.LG 最新",
+        "cs.CL 最新"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "unknown",
+        "fill-mask",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 12,
+        "adopted": 1,
+        "decisions": 1
+      },
+      "seed_watering": {
+        "seed_name": "Non-Transformer Arch",
+        "papers_found": 6
+      }
     }
   ],
   "total_sessions": 101,
-  "last_updated": "2026-09-04T22:02:46.839730",
+  "last_updated": "2026-09-05T01:40:20.116805",
   "evolution_summary": {
-    "total_adopted": 75,
+    "total_adopted": 76,
     "adopted_list": [
       "Knowledge Distillation",
       "World Models / Model-Based RL",
@@ -4299,7 +4321,8 @@
       "概念分离（Conceptual Separation）",
       "Graph Neural Networks",
       "Spatiotemporal contact memory",
-      "VestigeKV"
+      "VestigeKV",
+      "Compile by Training"
     ],
     "seeds": {
       "mamba": {
@@ -4324,8 +4347,8 @@
       },
       "non-transformer": {
         "name": "Non-Transformer Arch",
-        "watering": 58,
-        "papers": 27
+        "watering": 59,
+        "papers": 28
       },
       "few-shot": {
         "name": "Few-Shot Learning",
@@ -4422,15 +4445,15 @@
       },
       "non-transformer": {
         "name": "Non-Transformer Arch",
-        "new_papers": 27,
+        "new_papers": 28,
         "keywords_matched": [
-          "efficient transformer",
-          "linear attention",
+          "gated linear",
           "state space",
           "rwkv",
-          "gated linear",
-          "mamba",
-          "linear recurrent"
+          "efficient transformer",
+          "linear attention",
+          "linear recurrent",
+          "mamba"
         ],
         "high_relevance_total": 3,
         "avg_relevance_latest": 1.0,
@@ -4495,6 +4518,6 @@
         "best_papers_count": 1
       }
     },
-    "last_evolution": "2026-09-04T22:02:46.842011"
+    "last_evolution": "2026-09-05T01:40:20.119252"
   }
 }

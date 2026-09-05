@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 554,
+  "_rotation_idx": 555,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 56,
@@ -3089,26 +3089,9 @@
   },
   "non-transformer": {
     "name": "Non-Transformer Arch",
-    "total_papers_found": 27,
-    "watering_count": 58,
+    "total_papers_found": 28,
+    "watering_count": 59,
     "history": [
-      {
-        "timestamp": "2026-07-16T01:19:47.672875",
-        "papers_found": 1,
-        "duplicates": 6,
-        "irrelevant_filtered": 3,
-        "avg_relevance": 1.0,
-        "high_relevance": 0,
-        "papers": [
-          {
-            "title": "TSSM: Triaxial State Space Model for Global Station Weather Forecasting with Temporal-Variable-Historical Modeling",
-            "summary": "Global Station Weather Forecasting (GSWF) is pivotal for localized and extreme weather prediction over key regions. Despite efforts to exploit look-back windows, existing methods show limited accuracy gains and struggle with extreme events and error accumulation. These limitations stem from overreli",
-            "published": "2026-07-14",
-            "url": "http://arxiv.org/abs/2607.13101v1",
-            "seed_match_score": 1
-          }
-        ]
-      },
       {
         "timestamp": "2026-07-17T01:23:33.009530",
         "papers_found": 0,
@@ -3711,6 +3694,23 @@
             "seed_match_score": 1
           }
         ]
+      },
+      {
+        "timestamp": "2026-09-05T01:40:14.380331",
+        "papers_found": 1,
+        "duplicates": 5,
+        "irrelevant_filtered": 4,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "Modern Transformers Are Implicit Hybrids: From Functional Differentiation to Principled Hybrid Architecture Design",
+            "summary": "Hybrid architectures combining Full Attention (FA) and Linear Attention (LA) are increasingly prominent, yet their allocation remains heuristic. We seek an evidence-grounded basis in head-level functional organization learned by RoPE-based Transformers. Behavioral probes do not yield a complete taxo",
+            "published": "2026-09-02",
+            "url": "http://arxiv.org/abs/2609.02986v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -3723,7 +3723,7 @@
       "sub-quadratic",
       "mamba"
     ],
-    "last_watered": "2026-09-03T17:21:12.779216"
+    "last_watered": "2026-09-05T01:40:14.380322"
   },
   "few-shot": {
     "name": "Few-Shot Learning",
