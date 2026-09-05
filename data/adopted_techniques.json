@@ -1208,6 +1208,21 @@
         ],
         "decided_at": "2026-09-05T17:46:28.078113"
       }
+    },
+    {
+      "id": "contrastive",
+      "name": "Contrastive / Self-Supervised Learning",
+      "adopted_at": "2026-09-05T19:38:44.167384",
+      "decision": {
+        "tech_id": "contrastive",
+        "tech_name": "Contrastive / Self-Supervised Learning",
+        "action": "adopt",
+        "confidence": 0.9,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-09-05T19:38:44.166572"
+      }
     }
   ],
   "history": [
@@ -1690,6 +1705,12 @@
       "tech_id": "llm-消息传递机制",
       "tech_name": "消息传递机制",
       "timestamp": "2026-09-05T17:46:28.079353"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "contrastive",
+      "tech_name": "Contrastive / Self-Supervised Learning",
+      "timestamp": "2026-09-05T19:38:44.167388"
     }
   ]
 }

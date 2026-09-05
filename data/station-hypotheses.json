@@ -307,9 +307,32 @@
       "supporting_papers": [],
       "refuting_papers": [],
       "llm_source": "deepseek"
+    },
+    {
+      "id": "hyp-0014",
+      "timestamp": "2026-09-05T19:38:47.052510",
+      "seed_a": "Liquid Networks",
+      "seed_b": "Non-Transformer Arch",
+      "crossref_strength": 6,
+      "shared_keywords": [],
+      "hypothesis": "Integrating liquid time-constant dynamics into non-transformer recurrent architectures (e.g., HTM or predictive coding networks) will enable adaptive timescale separation that improves stability and memory retention under non-stationary inputs, outperforming both standalone liquid networks and fixed-timescale recurrent networks.",
+      "reasoning": "Liquid networks excel at modeling continuous-time dynamics with adaptable timescales, while non-transformer recurrent architectures (like HTM and predictive coding) offer biologically plausible, sparse, and hierarchical processing. The mathematical commonality lies in their use of recurrent neural ODEs and differentiation, where liquid networks' time-constant modulation can be injected into the state-update equations of these architectures, enabling dynamic reconfiguration of memory and computation without attention's quadratic cost.",
+      "arxiv_query": "liquid time-constant recurrent neural networks hierarchical predictive coding non-transformer",
+      "potential_breakthrough": "A new class of energy-efficient, biologically inspired recurrent models that dynamically adapt their temporal processing to input statistics, achieving state-of-the-art performance on streaming and continual learning tasks with lower computational overhead than transformers.",
+      "status": "unverified",
+      "verification_rounds": 1,
+      "supporting_papers": [
+        {
+          "title": "Liquid Time-constant Recurrent Neural Networks as Universal Approximators",
+          "url": "http://arxiv.org/abs/1811.00321v1",
+          "reason": "該論文提出液態時間常數遞歸神經網路（LTC），其可變時間常數特性支持假設中關於自適應時間尺度分離的可行性，但未涉及HTM或預測編碼等非Transformer架構。"
+        }
+      ],
+      "refuting_papers": [],
+      "llm_source": "deepseek"
     }
   ],
-  "last_updated": "2026-09-05T01:40:23.184671",
-  "total_generated": 13,
+  "last_updated": "2026-09-05T19:38:50.391381",
+  "total_generated": 14,
   "total_verified": 13
 }

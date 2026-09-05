@@ -1,37 +1,6 @@
 {
   "sessions": [
     {
-      "timestamp": "2026-07-06T19:17:41.740660",
-      "arxiv_papers_count": 20,
-      "arxiv_top_keywords": [
-        "unlearning",
-        "methods",
-        "lacuna",
-        "testbed",
-        "evaluating",
-        "programming",
-        "program",
-        "weights",
-        "paradigm",
-        "fuzzy"
-      ],
-      "huggingface_models_tracked": 10,
-      "huggingface_top_tasks": [
-        "sentence-similarity",
-        "fill-mask",
-        "text-generation",
-        "text-ranking",
-        "feature-extraction"
-      ],
-      "ml_benchmarks_run": 10,
-      "ml_top_classifier": "RandomForest",
-      "evolution": {
-        "techniques_discovered": 0,
-        "techniques_adopted": 0,
-        "decisions": 0
-      }
-    },
-    {
       "timestamp": "2026-07-06T19:30:00.047781",
       "arxiv_papers_count": 20,
       "arxiv_top_keywords": [
@@ -4310,12 +4279,59 @@
         "seed_name": "KV Cache Optimization",
         "papers_found": 5
       }
+    },
+    {
+      "timestamp": "2026-09-05T19:38:44.170298",
+      "arxiv_papers_count": 17,
+      "arxiv_top_keywords": [
+        "time",
+        "anomaly",
+        "data",
+        "experts",
+        "moe",
+        "forecasting",
+        "series",
+        "statistical",
+        "dynamic",
+        "mixture"
+      ],
+      "arxiv_strategies": [
+        "搜索: time series forecasting",
+        "搜索: anomaly detection",
+        "搜索: mixture of experts"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "unknown",
+        "fill-mask",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 17,
+        "adopted": 1,
+        "decisions": 1
+      },
+      "seed_watering": {
+        "seed_name": "Graph Neural Networks",
+        "papers_found": 5
+      }
     }
   ],
   "total_sessions": 101,
-  "last_updated": "2026-09-05T17:46:28.083301",
+  "last_updated": "2026-09-05T19:38:44.170311",
   "evolution_summary": {
-    "total_adopted": 80,
+    "total_adopted": 81,
     "adopted_list": [
       "Knowledge Distillation",
       "World Models / Model-Based RL",
@@ -4396,7 +4412,8 @@
       "原生3D世界状态建模",
       "Dynamic Rubrics",
       "Conceptual Separation",
-      "消息传递机制"
+      "消息传递机制",
+      "Contrastive / Self-Supervised Learning"
     ],
     "seeds": {
       "mamba": {
@@ -4446,7 +4463,7 @@
       },
       "gnn": {
         "name": "Graph Neural Networks",
-        "watering": 54,
+        "watering": 55,
         "papers": 125
       }
     },
@@ -4551,16 +4568,16 @@
         "name": "Graph Neural Networks",
         "new_papers": 125,
         "keywords_matched": [
-          "graph attention",
           "node embedding",
           "graph transformer",
           "gnn",
+          "message passing",
+          "graph attention",
           "geometric",
-          "graph neural",
-          "message passing"
+          "graph neural"
         ],
         "high_relevance_total": 60,
-        "avg_relevance_latest": 2.0,
+        "avg_relevance_latest": 0.0,
         "best_papers_count": 10
       },
       "moe": {
@@ -4592,6 +4609,6 @@
         "best_papers_count": 1
       }
     },
-    "last_evolution": "2026-09-05T17:46:28.085737"
+    "last_evolution": "2026-09-05T19:38:44.172395"
   }
 }
