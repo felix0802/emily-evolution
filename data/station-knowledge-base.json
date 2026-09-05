@@ -1,31 +1,6 @@
 {
   "sessions": [
     {
-      "timestamp": "2026-07-06T12:59:15.305983",
-      "arxiv_papers_count": 20,
-      "arxiv_top_keywords": [
-        "unlearning",
-        "methods",
-        "lacuna",
-        "testbed",
-        "evaluating",
-        "programming",
-        "program",
-        "weights",
-        "paradigm",
-        "fuzzy"
-      ],
-      "huggingface_models_tracked": 0,
-      "huggingface_top_tasks": [],
-      "ml_benchmarks_run": 10,
-      "ml_top_classifier": "RandomForest",
-      "evolution": {
-        "techniques_discovered": 0,
-        "techniques_adopted": 0,
-        "decisions": 0
-      }
-    },
-    {
       "timestamp": "2026-07-06T15:01:13.398671",
       "arxiv_papers_count": 20,
       "arxiv_top_keywords": [
@@ -4240,12 +4215,59 @@
         "seed_name": "Non-Transformer Arch",
         "papers_found": 6
       }
+    },
+    {
+      "timestamp": "2026-09-05T06:24:53.710816",
+      "arxiv_papers_count": 18,
+      "arxiv_top_keywords": [
+        "distillation",
+        "video",
+        "unified",
+        "training",
+        "self",
+        "state",
+        "view",
+        "temporal",
+        "tokenmatch",
+        "correspondence"
+      ],
+      "arxiv_strategies": [
+        "cs.CV 最新",
+        "cs.AI+cs.LG 混合",
+        "cs.CL+cs.CV 混合"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "unknown",
+        "fill-mask",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 21,
+        "adopted": 1,
+        "decisions": 1
+      },
+      "seed_watering": {
+        "seed_name": "Few-Shot Learning",
+        "papers_found": 4
+      }
     }
   ],
   "total_sessions": 101,
-  "last_updated": "2026-09-05T01:40:20.116805",
+  "last_updated": "2026-09-05T06:24:53.710832",
   "evolution_summary": {
-    "total_adopted": 76,
+    "total_adopted": 77,
     "adopted_list": [
       "Knowledge Distillation",
       "World Models / Model-Based RL",
@@ -4322,7 +4344,8 @@
       "Graph Neural Networks",
       "Spatiotemporal contact memory",
       "VestigeKV",
-      "Compile by Training"
+      "Compile by Training",
+      "原生3D世界状态建模"
     ],
     "seeds": {
       "mamba": {
@@ -4352,7 +4375,7 @@
       },
       "few-shot": {
         "name": "Few-Shot Learning",
-        "watering": 57,
+        "watering": 58,
         "papers": 28
       },
       "continual-learning": {
@@ -4394,10 +4417,10 @@
         "name": "Few-Shot Learning",
         "new_papers": 23,
         "keywords_matched": [
+          "in-context",
           "few-shot",
           "maml",
-          "meta-learning",
-          "in-context"
+          "meta-learning"
         ],
         "high_relevance_total": 3,
         "avg_relevance_latest": 0.0,
@@ -4518,6 +4541,6 @@
         "best_papers_count": 1
       }
     },
-    "last_evolution": "2026-09-05T01:40:20.119252"
+    "last_evolution": "2026-09-05T06:24:53.713255"
   }
 }

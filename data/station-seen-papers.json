@@ -33618,7 +33618,113 @@
         "transformers"
       ],
       "first_seen_round": 189
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.04203v1",
+      "title": "Temporal Self-Distillation: Learning Visual State Tracking in Videos Without Supervision",
+      "arxiv_id": "2609.04203",
+      "tokens": [
+        "distillation",
+        "self",
+        "state",
+        "supervision",
+        "temporal",
+        "tracking",
+        "videos",
+        "visual"
+      ],
+      "first_seen_round": 190
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.04202v1",
+      "title": "TokenMatch: 3D Mesh Correspondence Transformer with Curvature-Guided Tokenisation",
+      "arxiv_id": "2609.04202",
+      "tokens": [
+        "correspondence",
+        "curvature",
+        "guided",
+        "mesh",
+        "tokenisation",
+        "tokenmatch",
+        "transformer"
+      ],
+      "first_seen_round": 190
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.04201v1",
+      "title": "Scal3R: Learning Efficient Multi-Relative Pose Query for Scalable Online 3D Reconstruction",
+      "arxiv_id": "2609.04201",
+      "tokens": [
+        "multi",
+        "online",
+        "pose",
+        "query",
+        "reconstruction",
+        "relative",
+        "scal3r",
+        "scalable"
+      ],
+      "first_seen_round": 190
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.04200v1",
+      "title": "Principia: Relational Physics Tests for Video Models",
+      "arxiv_id": "2609.04200",
+      "tokens": [
+        "physics",
+        "principia",
+        "relational",
+        "tests",
+        "video"
+      ],
+      "first_seen_round": 190
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.04196v1",
+      "title": "Puffin-World: Scaling a Unified Multimodal Model with Native 3D World States",
+      "arxiv_id": "2609.04196",
+      "tokens": [
+        "multimodal",
+        "native",
+        "puffin",
+        "scaling",
+        "states",
+        "unified",
+        "world",
+        "world"
+      ],
+      "first_seen_round": 190
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.04174v1",
+      "title": "Zero-Shot Novel Depth Synthesis Using 3D Foundation Models Scene Representations",
+      "arxiv_id": "2609.04174",
+      "tokens": [
+        "depth",
+        "foundation",
+        "representations",
+        "scene",
+        "shot",
+        "synthesis",
+        "zero"
+      ],
+      "first_seen_round": 190
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.04170v1",
+      "title": "A Case Study on Emergent Cheating and Whistleblowing in Autonomous Research Swarms",
+      "arxiv_id": "2609.04170",
+      "tokens": [
+        "autonomous",
+        "case",
+        "cheating",
+        "emergent",
+        "research",
+        "swarms",
+        "whistleblowing"
+      ],
+      "first_seen_round": 190
     }
   ],
-  "total_unique": 2096
+  "total_unique": 2103
 }

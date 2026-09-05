@@ -1148,6 +1148,21 @@
         ],
         "decided_at": "2026-09-05T01:40:20.111625"
       }
+    },
+    {
+      "id": "llm-原生3d世界状态建模",
+      "name": "原生3D世界状态建模",
+      "adopted_at": "2026-09-05T06:24:53.706903",
+      "decision": {
+        "tech_id": "llm-原生3d世界状态建模",
+        "tech_name": "原生3D世界状态建模",
+        "action": "adopt",
+        "confidence": 0.9,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-09-05T06:24:53.705473"
+      }
     }
   ],
   "history": [
@@ -1606,6 +1621,12 @@
       "tech_id": "llm-compile-by-training",
       "tech_name": "Compile by Training",
       "timestamp": "2026-09-05T01:40:20.113026"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-原生3d世界状态建模",
+      "tech_name": "原生3D世界状态建模",
+      "timestamp": "2026-09-05T06:24:53.706908"
     }
   ]
 }
