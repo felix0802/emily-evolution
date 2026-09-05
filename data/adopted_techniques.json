@@ -1193,6 +1193,21 @@
         ],
         "decided_at": "2026-09-05T14:06:07.404934"
       }
+    },
+    {
+      "id": "llm-消息传递机制",
+      "name": "消息传递机制",
+      "adopted_at": "2026-09-05T17:46:28.079348",
+      "decision": {
+        "tech_id": "llm-消息传递机制",
+        "tech_name": "消息传递机制",
+        "action": "adopt",
+        "confidence": 0.8,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-09-05T17:46:28.078113"
+      }
     }
   ],
   "history": [
@@ -1669,6 +1684,12 @@
       "tech_id": "llm-conceptual-separation",
       "tech_name": "Conceptual Separation",
       "timestamp": "2026-09-05T14:06:07.406518"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-消息传递机制",
+      "tech_name": "消息传递机制",
+      "timestamp": "2026-09-05T17:46:28.079353"
     }
   ]
 }
