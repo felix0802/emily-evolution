@@ -33724,7 +33724,133 @@
         "whistleblowing"
       ],
       "first_seen_round": 190
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.04094v1",
+      "title": "DRACO: Fine-Grained Credit Assignment with Dynamic Rubrics for Long-Horizon Agent Training",
+      "arxiv_id": "2609.04094",
+      "tokens": [
+        "agent",
+        "assignment",
+        "credit",
+        "draco",
+        "dynamic",
+        "fine",
+        "grained",
+        "horizon",
+        "long",
+        "rubrics",
+        "training"
+      ],
+      "first_seen_round": 191
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.04066v1",
+      "title": "Subspace Inference Enables Efficient Active Reward Learning from Preferences",
+      "arxiv_id": "2609.04066",
+      "tokens": [
+        "active",
+        "enables",
+        "inference",
+        "preferences",
+        "reward",
+        "subspace"
+      ],
+      "first_seen_round": 191
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.03955v1",
+      "title": "Two-Stage Reinforcement Learning for Sound and Adversarial Test Generation in Code LLMs",
+      "arxiv_id": "2609.03955",
+      "tokens": [
+        "adversarial",
+        "code",
+        "generation",
+        "llms",
+        "reinforcement",
+        "sound",
+        "stage",
+        "test"
+      ],
+      "first_seen_round": 191
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.04061v1",
+      "title": "When Models Edit Too Much: On the Fidelity of Minimal Code Edits",
+      "arxiv_id": "2609.04061",
+      "tokens": [
+        "code",
+        "edit",
+        "edits",
+        "fidelity",
+        "minimal",
+        "much"
+      ],
+      "first_seen_round": 191
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.04047v1",
+      "title": "The Dice Roll Method: A Standardized Protocol for Repeated-Query Auditing of Large Language Model Brand Recommendations",
+      "arxiv_id": "2609.04047",
+      "tokens": [
+        "auditing",
+        "brand",
+        "dice",
+        "language",
+        "protocol",
+        "query",
+        "recommendations",
+        "repeated",
+        "roll",
+        "standardized"
+      ],
+      "first_seen_round": 191
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.04022v1",
+      "title": "Representational alignment yields generalizable safety in language models",
+      "arxiv_id": "2609.04022",
+      "tokens": [
+        "alignment",
+        "generalizable",
+        "language",
+        "representational",
+        "safety",
+        "yields"
+      ],
+      "first_seen_round": 191
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.03967v1",
+      "title": "Investigating the Ability of Large Language Models to Analyze Recipes for Diabetes",
+      "arxiv_id": "2609.03967",
+      "tokens": [
+        "ability",
+        "analyze",
+        "diabetes",
+        "investigating",
+        "language",
+        "recipes"
+      ],
+      "first_seen_round": 191
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.04031v1",
+      "title": "DSAQuant: Denoising-Stage-Aligned Quantization-Aware Training for Video Generation",
+      "arxiv_id": "2609.04031",
+      "tokens": [
+        "aligned",
+        "aware",
+        "denoising",
+        "dsaquant",
+        "generation",
+        "quantization",
+        "stage",
+        "training",
+        "video"
+      ],
+      "first_seen_round": 191
     }
   ],
-  "total_unique": 2103
+  "total_unique": 2111
 }

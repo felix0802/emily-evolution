@@ -1,37 +1,6 @@
 {
   "sessions": [
     {
-      "timestamp": "2026-07-06T15:01:13.398671",
-      "arxiv_papers_count": 20,
-      "arxiv_top_keywords": [
-        "unlearning",
-        "methods",
-        "lacuna",
-        "testbed",
-        "evaluating",
-        "programming",
-        "program",
-        "weights",
-        "paradigm",
-        "fuzzy"
-      ],
-      "huggingface_models_tracked": 10,
-      "huggingface_top_tasks": [
-        "sentence-similarity",
-        "fill-mask",
-        "text-generation",
-        "text-ranking",
-        "feature-extraction"
-      ],
-      "ml_benchmarks_run": 10,
-      "ml_top_classifier": "RandomForest",
-      "evolution": {
-        "techniques_discovered": 0,
-        "techniques_adopted": 0,
-        "decisions": 0
-      }
-    },
-    {
       "timestamp": "2026-07-06T17:03:20.463580",
       "arxiv_papers_count": 20,
       "arxiv_top_keywords": [
@@ -4262,12 +4231,59 @@
         "seed_name": "Few-Shot Learning",
         "papers_found": 4
       }
+    },
+    {
+      "timestamp": "2026-09-05T11:26:35.527809",
+      "arxiv_papers_count": 18,
+      "arxiv_top_keywords": [
+        "generation",
+        "policy",
+        "llms",
+        "opd",
+        "distillation",
+        "learning",
+        "training",
+        "language",
+        "video",
+        "view"
+      ],
+      "arxiv_strategies": [
+        "搜索: reinforcement learning",
+        "搜索: large language model",
+        "搜索: diffusion model"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "unknown",
+        "fill-mask",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 17,
+        "adopted": 1,
+        "decisions": 1
+      },
+      "seed_watering": {
+        "seed_name": "Continual Learning",
+        "papers_found": 4
+      }
     }
   ],
   "total_sessions": 101,
-  "last_updated": "2026-09-05T06:24:53.710832",
+  "last_updated": "2026-09-05T11:26:35.527825",
   "evolution_summary": {
-    "total_adopted": 77,
+    "total_adopted": 78,
     "adopted_list": [
       "Knowledge Distillation",
       "World Models / Model-Based RL",
@@ -4345,7 +4361,8 @@
       "Spatiotemporal contact memory",
       "VestigeKV",
       "Compile by Training",
-      "原生3D世界状态建模"
+      "原生3D世界状态建模",
+      "Dynamic Rubrics"
     ],
     "seeds": {
       "mamba": {
@@ -4380,7 +4397,7 @@
       },
       "continual-learning": {
         "name": "Continual Learning",
-        "watering": 56,
+        "watering": 57,
         "papers": 72
       },
       "moe": {
@@ -4486,11 +4503,11 @@
         "name": "Continual Learning",
         "new_papers": 67,
         "keywords_matched": [
-          "elastic weight",
+          "ewc",
           "lifelong",
           "continual learning",
-          "ewc",
-          "catastrophic forgetting"
+          "catastrophic forgetting",
+          "elastic weight"
         ],
         "high_relevance_total": 16,
         "avg_relevance_latest": 0.0,
@@ -4541,6 +4558,6 @@
         "best_papers_count": 1
       }
     },
-    "last_evolution": "2026-09-05T06:24:53.713255"
+    "last_evolution": "2026-09-05T11:26:35.529826"
   }
 }

@@ -111,16 +111,8 @@
       "timestamp": "2026-07-07T08:54:37.763781"
     }
   },
-  "evolution_count": 190,
+  "evolution_count": 191,
   "history": [
-    {
-      "evolution": 108,
-      "timestamp": "2026-07-07T13:33:59.455867",
-      "total_tests": 22,
-      "improvements": [
-        "Diabetes_GradientBoosting: 0.4110 → 0.4366"
-      ]
-    },
     {
       "evolution": 109,
       "timestamp": "2026-07-07T13:37:18.628461",
@@ -441,6 +433,12 @@
     {
       "evolution": 190,
       "timestamp": "2026-09-05T06:24:47.905864",
+      "total_tests": 22,
+      "improvements": []
+    },
+    {
+      "evolution": 191,
+      "timestamp": "2026-09-05T11:26:29.463900",
       "total_tests": 22,
       "improvements": []
     }
