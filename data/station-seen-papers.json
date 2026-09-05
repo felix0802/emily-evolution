@@ -33850,7 +33850,26 @@
         "video"
       ],
       "first_seen_round": 191
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.03150v1",
+      "title": "Routing Is Not Enough: Diagnosing Intra-Adapter Subspace Contention in MoE+LoRA Fine-Tuning",
+      "arxiv_id": "2609.03150",
+      "tokens": [
+        "adapter",
+        "contention",
+        "diagnosing",
+        "enough",
+        "fine",
+        "intra",
+        "lora",
+        "moe",
+        "routing",
+        "subspace",
+        "tuning"
+      ],
+      "first_seen_round": 192
     }
   ],
-  "total_unique": 2111
+  "total_unique": 2112
 }

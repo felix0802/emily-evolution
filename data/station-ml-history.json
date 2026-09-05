@@ -111,16 +111,8 @@
       "timestamp": "2026-07-07T08:54:37.763781"
     }
   },
-  "evolution_count": 191,
+  "evolution_count": 192,
   "history": [
-    {
-      "evolution": 109,
-      "timestamp": "2026-07-07T13:37:18.628461",
-      "total_tests": 22,
-      "improvements": [
-        "Iris_KNeighbors: 0.9533 → 0.9600"
-      ]
-    },
     {
       "evolution": 110,
       "timestamp": "2026-07-07T13:44:42.311403",
@@ -439,6 +431,12 @@
     {
       "evolution": 191,
       "timestamp": "2026-09-05T11:26:29.463900",
+      "total_tests": 22,
+      "improvements": []
+    },
+    {
+      "evolution": 192,
+      "timestamp": "2026-09-05T14:06:00.881147",
       "total_tests": 22,
       "improvements": []
     }

@@ -1,37 +1,6 @@
 {
   "sessions": [
     {
-      "timestamp": "2026-07-06T17:03:20.463580",
-      "arxiv_papers_count": 20,
-      "arxiv_top_keywords": [
-        "unlearning",
-        "methods",
-        "lacuna",
-        "testbed",
-        "evaluating",
-        "programming",
-        "program",
-        "weights",
-        "paradigm",
-        "fuzzy"
-      ],
-      "huggingface_models_tracked": 10,
-      "huggingface_top_tasks": [
-        "sentence-similarity",
-        "fill-mask",
-        "text-generation",
-        "text-ranking",
-        "feature-extraction"
-      ],
-      "ml_benchmarks_run": 10,
-      "ml_top_classifier": "RandomForest",
-      "evolution": {
-        "techniques_discovered": 0,
-        "techniques_adopted": 0,
-        "decisions": 0
-      }
-    },
-    {
       "timestamp": "2026-07-06T17:15:05.313537",
       "arxiv_papers_count": 20,
       "arxiv_top_keywords": [
@@ -4278,12 +4247,59 @@
         "seed_name": "Continual Learning",
         "papers_found": 4
       }
+    },
+    {
+      "timestamp": "2026-09-05T14:06:07.410380",
+      "arxiv_papers_count": 18,
+      "arxiv_top_keywords": [
+        "agent",
+        "learning",
+        "deep",
+        "guided",
+        "systems",
+        "topology",
+        "multi",
+        "conceptual",
+        "neural",
+        "networks"
+      ],
+      "arxiv_strategies": [
+        "搜索: neural architecture",
+        "搜索: self-supervised learning",
+        "搜索: multi-agent system"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "unknown",
+        "fill-mask",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 16,
+        "adopted": 1,
+        "decisions": 1
+      },
+      "seed_watering": {
+        "seed_name": "Mixture of Experts",
+        "papers_found": 8
+      }
     }
   ],
   "total_sessions": 101,
-  "last_updated": "2026-09-05T11:26:35.527825",
+  "last_updated": "2026-09-05T14:06:07.410395",
   "evolution_summary": {
-    "total_adopted": 78,
+    "total_adopted": 79,
     "adopted_list": [
       "Knowledge Distillation",
       "World Models / Model-Based RL",
@@ -4362,7 +4378,8 @@
       "VestigeKV",
       "Compile by Training",
       "原生3D世界状态建模",
-      "Dynamic Rubrics"
+      "Dynamic Rubrics",
+      "Conceptual Separation"
     ],
     "seeds": {
       "mamba": {
@@ -4402,8 +4419,8 @@
       },
       "moe": {
         "name": "Mixture of Experts",
-        "watering": 52,
-        "papers": 83
+        "watering": 53,
+        "papers": 84
       },
       "kv-cache": {
         "name": "KV Cache Optimization",
@@ -4531,16 +4548,16 @@
       },
       "moe": {
         "name": "Mixture of Experts",
-        "new_papers": 83,
+        "new_papers": 84,
         "keywords_matched": [
-          "router",
-          "deepseek",
           "mixture of experts",
+          "router",
           "moe",
-          "expert routing"
+          "expert routing",
+          "deepseek"
         ],
-        "high_relevance_total": 60,
-        "avg_relevance_latest": 1.75,
+        "high_relevance_total": 61,
+        "avg_relevance_latest": 2.0,
         "best_papers_count": 10
       },
       "kv-cache": {
@@ -4558,6 +4575,6 @@
         "best_papers_count": 1
       }
     },
-    "last_evolution": "2026-09-05T11:26:35.529826"
+    "last_evolution": "2026-09-05T14:06:07.412692"
   }
 }

@@ -1178,6 +1178,21 @@
         ],
         "decided_at": "2026-09-05T11:26:35.524184"
       }
+    },
+    {
+      "id": "llm-conceptual-separation",
+      "name": "Conceptual Separation",
+      "adopted_at": "2026-09-05T14:06:07.406513",
+      "decision": {
+        "tech_id": "llm-conceptual-separation",
+        "tech_name": "Conceptual Separation",
+        "action": "adopt",
+        "confidence": 0.85,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-09-05T14:06:07.404934"
+      }
     }
   ],
   "history": [
@@ -1648,6 +1663,12 @@
       "tech_id": "llm-dynamic-rubrics",
       "tech_name": "Dynamic Rubrics",
       "timestamp": "2026-09-05T11:26:35.525028"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-conceptual-separation",
+      "tech_name": "Conceptual Separation",
+      "timestamp": "2026-09-05T14:06:07.406518"
     }
   ]
 }

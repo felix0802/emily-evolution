@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-05T11:26:35.538682",
+  "timestamp": "2026-09-05T14:06:07.423759",
   "connections": [
     {
       "seed_a": "Liquid Networks",
@@ -16,7 +16,7 @@
         "networks"
       ],
       "strength": 10,
-      "discovered_at": "2026-09-05T11:26:35.538596"
+      "discovered_at": "2026-09-05T14:06:07.423539"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -33,7 +33,7 @@
         "with"
       ],
       "strength": 8,
-      "discovered_at": "2026-09-05T11:26:35.538576"
+      "discovered_at": "2026-09-05T14:06:07.423517"
     },
     {
       "seed_a": "Non-Transformer Arch",
@@ -50,7 +50,7 @@
         "temporal"
       ],
       "strength": 8,
-      "discovered_at": "2026-09-05T11:26:35.538667"
+      "discovered_at": "2026-09-05T14:06:07.423743"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -65,7 +65,7 @@
         "state"
       ],
       "strength": 7,
-      "discovered_at": "2026-09-05T11:26:35.538568"
+      "discovered_at": "2026-09-05T14:06:07.423507"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -80,7 +80,7 @@
         "state"
       ],
       "strength": 6,
-      "discovered_at": "2026-09-05T11:26:35.538560"
+      "discovered_at": "2026-09-05T14:06:07.423498"
     },
     {
       "seed_a": "Liquid Networks",
@@ -95,7 +95,7 @@
         "recurrent"
       ],
       "strength": 6,
-      "discovered_at": "2026-09-05T11:26:35.538587"
+      "discovered_at": "2026-09-05T14:06:07.423528"
     },
     {
       "seed_a": "HTM",
@@ -110,7 +110,7 @@
         "optimization"
       ],
       "strength": 6,
-      "discovered_at": "2026-09-05T11:26:35.538647"
+      "discovered_at": "2026-09-05T14:06:07.423719"
     },
     {
       "seed_a": "KV Cache Optimization",
@@ -125,7 +125,7 @@
         "with"
       ],
       "strength": 6,
-      "discovered_at": "2026-09-05T11:26:35.538676"
+      "discovered_at": "2026-09-05T14:06:07.423752"
     },
     {
       "seed_a": "Liquid Networks",
@@ -139,7 +139,7 @@
         "time"
       ],
       "strength": 5,
-      "discovered_at": "2026-09-05T11:26:35.538580"
+      "discovered_at": "2026-09-05T14:06:07.423521"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -152,7 +152,7 @@
         "with"
       ],
       "strength": 4,
-      "discovered_at": "2026-09-05T11:26:35.538572"
+      "discovered_at": "2026-09-05T14:06:07.423512"
     }
   ],
   "total_seeds": 10

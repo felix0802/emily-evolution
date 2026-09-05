@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 557,
+  "_rotation_idx": 558,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 56,
@@ -5118,26 +5118,9 @@
   },
   "moe": {
     "name": "Mixture of Experts",
-    "total_papers_found": 83,
-    "watering_count": 52,
+    "total_papers_found": 84,
+    "watering_count": 53,
     "history": [
-      {
-        "timestamp": "2026-07-16T09:52:54.319880",
-        "papers_found": 1,
-        "duplicates": 8,
-        "irrelevant_filtered": 1,
-        "avg_relevance": 1.0,
-        "high_relevance": 0,
-        "papers": [
-          {
-            "title": "Multi-Expert Routing for Multi-Domain Low-Resource OCR: A Manchu Case Study",
-            "summary": "Historical Manchu OCR must accommodate various visually distinct writing styles, including regular script, running script, and the semi-cursive chancery hand used in palace memorials, despite limited labeled data. We study a multi-expert system that reuses checkpoints from an iterative fine-tuning p",
-            "published": "2026-07-15",
-            "url": "http://arxiv.org/abs/2607.14041v1",
-            "seed_match_score": 1
-          }
-        ]
-      },
       {
         "timestamp": "2026-07-17T09:43:51.691457",
         "papers_found": 0,
@@ -6035,6 +6018,23 @@
         "avg_relevance": 0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-09-05T14:06:01.276001",
+        "papers_found": 1,
+        "duplicates": 7,
+        "irrelevant_filtered": 2,
+        "avg_relevance": 2.0,
+        "high_relevance": 1,
+        "papers": [
+          {
+            "title": "Routing Is Not Enough: Diagnosing Intra-Adapter Subspace Contention in MoE+LoRA Fine-Tuning",
+            "summary": "Multi-domain fine-tuning often combines MoE routing with LoRA, assuming that token-level routing separates domain-specific updates. We test this assumption in MoE+LoRA using Python code paired with biomedical text and mathematical reasoning. Although these domains show near-disjoint expert routing, ",
+            "published": "2026-09-02",
+            "url": "http://arxiv.org/abs/2609.03150v1",
+            "seed_match_score": 2
+          }
+        ]
       }
     ],
     "keywords": [
@@ -6046,7 +6046,7 @@
       "switch transformer",
       "deepseek"
     ],
-    "last_watered": "2026-09-04T00:10:39.556163"
+    "last_watered": "2026-09-05T14:06:01.275995"
   },
   "kv-cache": {
     "name": "KV Cache Optimization",
