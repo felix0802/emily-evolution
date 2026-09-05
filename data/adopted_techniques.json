@@ -1223,6 +1223,21 @@
         ],
         "decided_at": "2026-09-05T19:38:44.166572"
       }
+    },
+    {
+      "id": "llm-sgd-kv",
+      "name": "SGD-KV",
+      "adopted_at": "2026-09-05T21:45:44.818192",
+      "decision": {
+        "tech_id": "llm-sgd-kv",
+        "tech_name": "SGD-KV",
+        "action": "adopt",
+        "confidence": 0.8,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-09-05T21:45:44.817019"
+      }
     }
   ],
   "history": [
@@ -1711,6 +1726,12 @@
       "tech_id": "contrastive",
       "tech_name": "Contrastive / Self-Supervised Learning",
       "timestamp": "2026-09-05T19:38:44.167388"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-sgd-kv",
+      "tech_name": "SGD-KV",
+      "timestamp": "2026-09-05T21:45:44.818197"
     }
   ]
 }

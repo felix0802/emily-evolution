@@ -1,37 +1,6 @@
 {
   "sessions": [
     {
-      "timestamp": "2026-07-06T19:30:00.047781",
-      "arxiv_papers_count": 20,
-      "arxiv_top_keywords": [
-        "unlearning",
-        "methods",
-        "lacuna",
-        "testbed",
-        "evaluating",
-        "programming",
-        "program",
-        "weights",
-        "paradigm",
-        "fuzzy"
-      ],
-      "huggingface_models_tracked": 10,
-      "huggingface_top_tasks": [
-        "sentence-similarity",
-        "fill-mask",
-        "text-generation",
-        "text-ranking",
-        "feature-extraction"
-      ],
-      "ml_benchmarks_run": 10,
-      "ml_top_classifier": "RandomForest",
-      "evolution": {
-        "techniques_discovered": 0,
-        "techniques_adopted": 0,
-        "decisions": 0
-      }
-    },
-    {
       "timestamp": "2026-07-06T21:28:31.805059",
       "arxiv_papers_count": 14,
       "arxiv_top_keywords": [
@@ -4326,12 +4295,59 @@
         "seed_name": "Graph Neural Networks",
         "papers_found": 5
       }
+    },
+    {
+      "timestamp": "2026-09-05T21:45:44.822193",
+      "arxiv_papers_count": 18,
+      "arxiv_top_keywords": [
+        "decoding",
+        "cache",
+        "graph",
+        "speculative",
+        "attention",
+        "vision",
+        "aware",
+        "user",
+        "target",
+        "block"
+      ],
+      "arxiv_strategies": [
+        "搜索: kv cache LLM",
+        "搜索: graph neural network recent",
+        "搜索: speculative decoding"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "unknown",
+        "fill-mask",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 18,
+        "adopted": 1,
+        "decisions": 1
+      },
+      "seed_watering": {
+        "seed_name": "Mamba (SSM)",
+        "papers_found": 5
+      }
     }
   ],
   "total_sessions": 101,
-  "last_updated": "2026-09-05T19:38:44.170311",
+  "last_updated": "2026-09-05T21:45:44.822208",
   "evolution_summary": {
-    "total_adopted": 81,
+    "total_adopted": 82,
     "adopted_list": [
       "Knowledge Distillation",
       "World Models / Model-Based RL",
@@ -4413,12 +4429,13 @@
       "Dynamic Rubrics",
       "Conceptual Separation",
       "消息传递机制",
-      "Contrastive / Self-Supervised Learning"
+      "Contrastive / Self-Supervised Learning",
+      "SGD-KV"
     ],
     "seeds": {
       "mamba": {
         "name": "Mamba (SSM)",
-        "watering": 59,
+        "watering": 60,
         "papers": 56
       },
       "liquid-networks": {
@@ -4609,6 +4626,6 @@
         "best_papers_count": 1
       }
     },
-    "last_evolution": "2026-09-05T19:38:44.172395"
+    "last_evolution": "2026-09-05T21:45:44.824547"
   }
 }

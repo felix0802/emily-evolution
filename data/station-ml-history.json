@@ -111,16 +111,8 @@
       "timestamp": "2026-07-07T08:54:37.763781"
     }
   },
-  "evolution_count": 194,
+  "evolution_count": 195,
   "history": [
-    {
-      "evolution": 113,
-      "timestamp": "2026-07-07T17:23:34.579770",
-      "total_tests": 22,
-      "improvements": [
-        "Breast Cancer_RandomForest: 0.9543 → 0.9578"
-      ]
-    },
     {
       "evolution": 114,
       "timestamp": "2026-07-07T19:27:33.293674",
@@ -437,6 +429,12 @@
     {
       "evolution": 194,
       "timestamp": "2026-09-05T19:38:38.154257",
+      "total_tests": 22,
+      "improvements": []
+    },
+    {
+      "evolution": 195,
+      "timestamp": "2026-09-05T21:45:36.389766",
       "total_tests": 22,
       "improvements": []
     }

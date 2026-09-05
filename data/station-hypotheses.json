@@ -320,19 +320,24 @@
       "arxiv_query": "liquid time-constant recurrent neural networks hierarchical predictive coding non-transformer",
       "potential_breakthrough": "A new class of energy-efficient, biologically inspired recurrent models that dynamically adapt their temporal processing to input statistics, achieving state-of-the-art performance on streaming and continual learning tasks with lower computational overhead than transformers.",
       "status": "unverified",
-      "verification_rounds": 1,
+      "verification_rounds": 2,
       "supporting_papers": [
         {
           "title": "Liquid Time-constant Recurrent Neural Networks as Universal Approximators",
           "url": "http://arxiv.org/abs/1811.00321v1",
           "reason": "該論文提出液態時間常數遞歸神經網路（LTC），其可變時間常數特性支持假設中關於自適應時間尺度分離的可行性，但未涉及HTM或預測編碼等非Transformer架構。"
+        },
+        {
+          "title": "Liquid Time-constant Recurrent Neural Networks as Universal Approximators",
+          "url": "http://arxiv.org/abs/1811.00321v1",
+          "reason": "該論文提出液體時間常數遞迴神經網路（LTC），其可變時間常數特性正是假設中整合液體動力學於非Transformer架構的基礎，直接支持其可行性。"
         }
       ],
       "refuting_papers": [],
       "llm_source": "deepseek"
     }
   ],
-  "last_updated": "2026-09-05T19:38:50.391381",
+  "last_updated": "2026-09-05T21:45:48.899602",
   "total_generated": 14,
   "total_verified": 13
 }
