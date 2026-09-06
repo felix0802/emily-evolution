@@ -1283,6 +1283,21 @@
         ],
         "decided_at": "2026-09-06T06:35:02.682382"
       }
+    },
+    {
+      "id": "llm-概念分离度量",
+      "name": "概念分离度量",
+      "adopted_at": "2026-09-06T14:30:33.143591",
+      "decision": {
+        "tech_id": "llm-概念分离度量",
+        "tech_name": "概念分离度量",
+        "action": "adopt",
+        "confidence": 0.9,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-09-06T14:30:33.142064"
+      }
     }
   ],
   "history": [
@@ -1795,6 +1810,12 @@
       "tech_id": "llm-multi-relative-pose-query",
       "tech_name": "Multi-Relative Pose Query",
       "timestamp": "2026-09-06T06:35:02.683604"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-概念分离度量",
+      "tech_name": "概念分离度量",
+      "timestamp": "2026-09-06T14:30:33.143596"
     }
   ]
 }

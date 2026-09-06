@@ -74,12 +74,12 @@
   "few-shot": {
     "name": "Few-Shot Learning",
     "total_new_papers": 23,
-    "total_watering": 57,
+    "total_watering": 58,
     "all_keywords_matched": [
-      "in-context",
-      "few-shot",
+      "meta-learning",
       "maml",
-      "meta-learning"
+      "in-context",
+      "few-shot"
     ],
     "avg_relevance_trend": [
       0.0,
@@ -94,10 +94,10 @@
       0.0,
       0.0,
       0.0,
-      0.0,
       1.0,
       0.0,
       1.0,
+      0.0,
       0.0,
       0.0,
       0.0,
@@ -105,7 +105,7 @@
     ],
     "high_relevance_total": 3,
     "best_papers": [],
-    "last_updated": "2026-09-05T06:24:48.322186"
+    "last_updated": "2026-09-06T14:30:26.852746"
   },
   "mamba": {
     "name": "Mamba (SSM)",
