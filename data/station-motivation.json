@@ -835,6 +835,28 @@
           0.91
         ]
       ]
+    },
+    {
+      "round": 198,
+      "timestamp": "2026-09-06T06:34:57.623126",
+      "prediction_error": 0.7,
+      "seeds_active": 10,
+      "seeds_dormant": 0,
+      "new_seeds_added": 0,
+      "top_motivated": [
+        [
+          "mamba",
+          0.91
+        ],
+        [
+          "liquid-networks",
+          0.91
+        ],
+        [
+          "spiking-nn",
+          0.91
+        ]
+      ]
     }
   ],
   "seed_scores": {
@@ -844,7 +866,7 @@
       "novelty": 1.0,
       "motivation_score": 0.91,
       "info_gain_history": [
-        0.1,
+        1.0,
         1.0,
         1.0,
         1.0,
@@ -873,7 +895,7 @@
       "novelty": 1.0,
       "motivation_score": 0.91,
       "info_gain_history": [
-        0.1,
+        1.0,
         1.0,
         1.0,
         1.0,
@@ -902,7 +924,6 @@
       "novelty": 1.0,
       "motivation_score": 0.879,
       "info_gain_history": [
-        0.1,
         1.0,
         1.0,
         1.0,
@@ -922,6 +943,7 @@
         1.0,
         1.0,
         1.0,
+        0.923,
         0.923
       ]
     },
@@ -931,7 +953,7 @@
       "novelty": 1.0,
       "motivation_score": 0.91,
       "info_gain_history": [
-        0.1,
+        1.0,
         1.0,
         1.0,
         1.0,
@@ -960,7 +982,7 @@
       "novelty": 1.0,
       "motivation_score": 0.91,
       "info_gain_history": [
-        0.1,
+        1.0,
         1.0,
         1.0,
         1.0,
@@ -989,9 +1011,9 @@
       "novelty": 1.0,
       "motivation_score": 0.787,
       "info_gain_history": [
-        0.1,
         1.0,
         1.0,
+        0.692,
         0.692,
         0.692,
         0.692,
@@ -1018,7 +1040,6 @@
       "novelty": 1.0,
       "motivation_score": 0.87,
       "info_gain_history": [
-        0.1,
         1.0,
         1.0,
         1.0,
@@ -1032,6 +1053,7 @@
         1.0,
         1.0,
         1.0,
+        0.9,
         0.9,
         0.9,
         0.9,
@@ -1047,7 +1069,7 @@
       "novelty": 0.857,
       "motivation_score": 0.867,
       "info_gain_history": [
-        0.1,
+        1.0,
         1.0,
         1.0,
         1.0,
@@ -1076,7 +1098,7 @@
       "novelty": 1.0,
       "motivation_score": 0.91,
       "info_gain_history": [
-        0.1,
+        1.0,
         1.0,
         1.0,
         1.0,
@@ -1105,7 +1127,7 @@
       "novelty": 0.857,
       "motivation_score": 0.867,
       "info_gain_history": [
-        0.1,
+        1.0,
         1.0,
         1.0,
         1.0,
@@ -1131,6 +1153,6 @@
   },
   "auto_created_seeds": [],
   "dormant_seeds": [],
-  "total_motivation_evaluations": 38,
+  "total_motivation_evaluations": 39,
   "current_prediction_error": 0.7
 }

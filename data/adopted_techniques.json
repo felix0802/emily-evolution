@@ -1268,6 +1268,21 @@
         ],
         "decided_at": "2026-09-05T23:26:03.225975"
       }
+    },
+    {
+      "id": "llm-multi-relative-pose-query",
+      "name": "Multi-Relative Pose Query",
+      "adopted_at": "2026-09-06T06:35:02.683599",
+      "decision": {
+        "tech_id": "llm-multi-relative-pose-query",
+        "tech_name": "Multi-Relative Pose Query",
+        "action": "adopt",
+        "confidence": 0.85,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-09-06T06:35:02.682382"
+      }
     }
   ],
   "history": [
@@ -1774,6 +1789,12 @@
       "tech_id": "auto-alignment",
       "tech_name": "Alignment",
       "timestamp": "2026-09-05T23:26:03.227072"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-multi-relative-pose-query",
+      "tech_name": "Multi-Relative Pose Query",
+      "timestamp": "2026-09-06T06:35:02.683604"
     }
   ]
 }
