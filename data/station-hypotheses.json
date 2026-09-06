@@ -349,9 +349,26 @@
         "accuracy_diff": -0.0067,
         "executed_at": "2026-09-05T23:26:09.940943"
       }
+    },
+    {
+      "id": "hyp-0015",
+      "timestamp": "2026-09-06T11:47:54.750669",
+      "seed_a": "Spiking Neural Networks",
+      "seed_b": "Graph Neural Networks",
+      "crossref_strength": 3,
+      "shared_keywords": [],
+      "hypothesis": "Integrating spike-based temporal dynamics into graph neural networks via event-driven message passing will enable energy-efficient, asynchronous processing of dynamic graphs, improving predictive accuracy on spatio-temporal tasks by up to 15% over synchronous GNN baselines.",
+      "reasoning": "Both SNNs and GNNs operate on graph-structured data where edges represent communication pathways; SNNs use discrete spike events for temporal coding, while GNNs aggregate information along edges. The mathematical commonality lies in message passing: SNNs propagate spikes through synaptic connections (weighted edges), and GNNs propagate features through graph edges. By replacing continuous activations with spike-based event-driven updates, we can exploit the inherent sparsity of dynamic graphs (only active nodes/edges spike), reducing computation and enabling asynchronous, neuromorphic hardware implementation.",
+      "arxiv_query": "spiking graph neural networks event-driven dynamic graphs",
+      "potential_breakthrough": "A unified spiking graph neural network framework that achieves state-of-the-art performance on temporal graph benchmarks while consuming orders of magnitude less energy, enabling real-time learning on edge devices.",
+      "status": "unverified",
+      "verification_rounds": 1,
+      "supporting_papers": [],
+      "refuting_papers": [],
+      "llm_source": "deepseek"
     }
   ],
-  "last_updated": "2026-09-05T23:26:09.941158",
-  "total_generated": 14,
+  "last_updated": "2026-09-06T11:47:57.901655",
+  "total_generated": 15,
   "total_verified": 14
 }

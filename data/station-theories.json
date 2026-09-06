@@ -1,6 +1,58 @@
 {
-  "theories": [],
-  "total_synthesized": 0,
-  "last_synthesis_round": 0,
-  "last_updated": "2026-07-15T03:59:13.305207"
+  "theories": [
+    {
+      "id": "th-001",
+      "title": "動態稀疏狀態演化",
+      "statement": "多個支持性假設顯示，將選擇性狀態空間模型（如Mamba）與稀疏路由機制（如MoE）或連續時間動力學（如Liquid Networks）結合，能實現動態稀疏的狀態演化，在保持計算效率的同時增強對非平穩序列的適應性。此模式表明，AI模型正從固定架構轉向自適應、條件計算的設計，其中狀態更新和參數激活均由輸入動態驅動。",
+      "supporting_hypotheses": [
+        "hyp-0002",
+        "hyp-0003",
+        "hyp-0007"
+      ],
+      "refuting_hypotheses": [],
+      "confidence": 0.85,
+      "key_insight": "AI領域的深層規律是：模型效能提升來自於在時間和空間維度上同時引入動態稀疏性，使計算資源集中於最相關的狀態和參數。",
+      "practical_implication": "指導研究者和工程師設計下一代序列模型時，應優先考慮結合選擇性狀態更新與稀疏專家路由，以在資源受限環境下處理長序列和非平穩數據。",
+      "synthesized_at": "2026-09-06T11:48:14.044040",
+      "synthesis_round": 200,
+      "llm_source": "deepseek"
+    },
+    {
+      "id": "th-002",
+      "title": "連續時間持續學習",
+      "statement": "支持性假設指出，連續時間動力學（如Liquid Networks）與持續學習機制結合，可透過擴散或狀態演化實現知識平滑轉移，避免災難性遺忘。此模式顯示，將模型視為連續動態系統而非離散層疊，有助於在任務邊界處自然整合新知識，而無需顯式重放。",
+      "supporting_hypotheses": [
+        "hyp-0001",
+        "hyp-0004",
+        "hyp-0005"
+      ],
+      "refuting_hypotheses": [],
+      "confidence": 0.7,
+      "key_insight": "AI模型若模擬生物神經系統的連續時間適應，可更優雅地解決持續學習中的穩定性-可塑性困境。",
+      "practical_implication": "建議在設計終身學習系統時，採用微分方程驅動的架構，以實現無重放的即時適應，特別適用於非平穩環境中的異常檢測和機器人控制。",
+      "synthesized_at": "2026-09-06T11:48:14.044054",
+      "synthesis_round": 200,
+      "llm_source": "deepseek"
+    },
+    {
+      "id": "th-003",
+      "title": "跨域稀疏共享",
+      "statement": "多個假設顯示，不同AI子領域（如SSM、GNN、MoE）共享稀疏性和條件計算的核心理念，可透過跨域整合實現線性複雜度與高效泛化。此模式表明，稀疏表示和動態路由是連接序列、圖和持續學習任務的通用原則。",
+      "supporting_hypotheses": [
+        "hyp-0007",
+        "hyp-0008"
+      ],
+      "refuting_hypotheses": [],
+      "confidence": 0.6,
+      "key_insight": "AI的統一趨勢是：稀疏性不僅是計算優化手段，更是知識組織和泛化的基礎機制。",
+      "practical_implication": "研究人員可跨領域借鑒稀疏建模技術，例如將Mamba的選擇性機制應用於圖數據，以開發高效且可擴展的架構。",
+      "synthesized_at": "2026-09-06T11:48:14.044057",
+      "synthesis_round": 200,
+      "llm_source": "deepseek"
+    }
+  ],
+  "total_synthesized": 3,
+  "last_synthesis_round": 200,
+  "last_updated": "2026-09-06T11:48:14.044061",
+  "emerging_paradigm": "當前AI研究正從靜態、密集的深度學習模型，轉向動態、稀疏且具時間連續性的自適應系統，強調在計算效率和學習能力之間取得平衡，並透過跨領域整合（如SSM、MoE、持續學習）實現通用智能。"
 }

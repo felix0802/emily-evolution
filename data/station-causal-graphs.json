@@ -108,7 +108,62 @@
       },
       "analyzed_at": "2026-09-04T01:39:38.668741",
       "llm_source": "deepseek"
+    },
+    {
+      "variables": [
+        {
+          "name": "X",
+          "role": "cause",
+          "mechanism": "X (combining Mamba's selective state space with MoE's sparse routing) enables dynamic sparse activation where each token only activates a few experts, driven by the hidden state, thereby achieving conditional computation.",
+          "observable": true
+        },
+        {
+          "name": "Y",
+          "role": "effect",
+          "mechanism": "Y (the resulting model's performance and efficiency) is improved in terms of maintaining linear computational complexity while achieving conditional computation, as a direct consequence of the architectural integration.",
+          "observable": true
+        },
+        {
+          "name": "Z",
+          "role": "confounder",
+          "mechanism": "Z (the scale of model parameters and training data) simultaneously influences the feasibility and effectiveness of the combined architecture (X) and the final performance metrics (Y), as larger scale often necessitates sparse methods and also boosts performance.",
+          "observable": true
+        }
+      ],
+      "edges": [
+        {
+          "from": "X",
+          "to": "Y",
+          "type": "direct_causal",
+          "confidence": 0.7
+        }
+      ],
+      "counterfactual": {
+        "question": "If the integration of Mamba and MoE (X) were not implemented, would the model still achieve linear complexity and conditional computation with comparable performance?",
+        "predicted_answer": "Without the integration, the model would likely either rely on dense attention or standard MoE, which would either increase computational cost or lose the selective state-space dynamics. The performance might degrade on long sequences or require more parameters to match the efficiency, indicating that the integration provides a causal benefit in balancing efficiency and expressiveness.",
+        "confidence": 0.65
+      },
+      "confounders_detected": [
+        "Z"
+      ],
+      "is_correlation_only": false,
+      "causal_strength": 0.7,
+      "alternative_explanations": [
+        "The observed performance gains might be due to increased model capacity from the MoE component alone, not the specific combination.",
+        "The efficiency improvements could be attributed to the selective state space mechanism independently, without needing MoE.",
+        "The results might be confounded by the scale of training data or compute budget, which independently improve performance."
+      ],
+      "hypothesis_id": "hyp-0007",
+      "hypothesis_text": "將Mamba的選擇性狀態空間模型與Mixture of Experts的稀疏路由結合，可構建一個動態稀疏的序列模型，其中每個token僅激活少量專家，且專家選擇由狀態空間的隱狀態驅動，從而在保持線性計算複雜度的同時實現條件計算。",
+      "seed_a": "Mamba (SSM)",
+      "seed_b": "Mixture of Experts",
+      "evidence_counts": {
+        "supporting": 3,
+        "refuting": 0
+      },
+      "analyzed_at": "2026-09-06T11:48:06.374015",
+      "llm_source": "deepseek"
     }
   ],
-  "total_analyzed": 2
+  "total_analyzed": 3
 }
