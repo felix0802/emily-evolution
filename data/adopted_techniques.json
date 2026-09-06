@@ -1298,6 +1298,21 @@
         ],
         "decided_at": "2026-09-06T14:30:33.142064"
       }
+    },
+    {
+      "id": "llm-基础模型嵌入",
+      "name": "基础模型嵌入",
+      "adopted_at": "2026-09-06T19:41:27.868842",
+      "decision": {
+        "tech_id": "llm-基础模型嵌入",
+        "tech_name": "基础模型嵌入",
+        "action": "adopt",
+        "confidence": 0.85,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-09-06T19:41:27.867346"
+      }
     }
   ],
   "history": [
@@ -1816,6 +1831,12 @@
       "tech_id": "llm-概念分离度量",
       "tech_name": "概念分离度量",
       "timestamp": "2026-09-06T14:30:33.143596"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-基础模型嵌入",
+      "tech_name": "基础模型嵌入",
+      "timestamp": "2026-09-06T19:41:27.868847"
     }
   ]
 }

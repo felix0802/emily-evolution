@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-06T17:49:49.691387",
+  "timestamp": "2026-09-06T19:41:27.886115",
   "connections": [
     {
       "seed_a": "Mamba (SSM)",
@@ -10,7 +10,7 @@
       ],
       "shared_paper_concepts": [],
       "strength": 4,
-      "discovered_at": "2026-09-06T17:49:49.691293"
+      "discovered_at": "2026-09-06T19:41:27.886048"
     },
     {
       "seed_a": "Liquid Networks",
@@ -22,7 +22,7 @@
         "time"
       ],
       "strength": 3,
-      "discovered_at": "2026-09-06T17:49:49.691304"
+      "discovered_at": "2026-09-06T19:41:27.886058"
     },
     {
       "seed_a": "Liquid Networks",
@@ -34,7 +34,7 @@
         "networks"
       ],
       "strength": 3,
-      "discovered_at": "2026-09-06T17:49:49.691316"
+      "discovered_at": "2026-09-06T19:41:27.886072"
     },
     {
       "seed_a": "HTM",
@@ -46,7 +46,7 @@
         "optimization"
       ],
       "strength": 3,
-      "discovered_at": "2026-09-06T17:49:49.691330"
+      "discovered_at": "2026-09-06T19:41:27.886087"
     },
     {
       "seed_a": "Spiking Neural Networks",
@@ -58,7 +58,7 @@
         "neural"
       ],
       "strength": 3,
-      "discovered_at": "2026-09-06T17:49:49.691336"
+      "discovered_at": "2026-09-06T19:41:27.886094"
     },
     {
       "seed_a": "Non-Transformer Arch",
@@ -70,7 +70,7 @@
         "temporal"
       ],
       "strength": 3,
-      "discovered_at": "2026-09-06T17:49:49.691345"
+      "discovered_at": "2026-09-06T19:41:27.886102"
     },
     {
       "seed_a": "KV Cache Optimization",
@@ -82,7 +82,7 @@
         "with"
       ],
       "strength": 3,
-      "discovered_at": "2026-09-06T17:49:49.691381"
+      "discovered_at": "2026-09-06T19:41:27.886110"
     },
     {
       "seed_a": "Liquid Networks",
@@ -93,7 +93,7 @@
         "networks"
       ],
       "strength": 2,
-      "discovered_at": "2026-09-06T17:49:49.691308"
+      "discovered_at": "2026-09-06T19:41:27.886062"
     },
     {
       "seed_a": "Liquid Networks",
@@ -104,7 +104,7 @@
         "recurrent"
       ],
       "strength": 2,
-      "discovered_at": "2026-09-06T17:49:49.691311"
+      "discovered_at": "2026-09-06T19:41:27.886066"
     },
     {
       "seed_a": "HTM",
@@ -115,7 +115,7 @@
         "networks"
       ],
       "strength": 2,
-      "discovered_at": "2026-09-06T17:49:49.691322"
+      "discovered_at": "2026-09-06T19:41:27.886078"
     }
   ],
   "total_seeds": 10

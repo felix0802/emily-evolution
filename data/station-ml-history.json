@@ -111,16 +111,8 @@
       "timestamp": "2026-07-07T08:54:37.763781"
     }
   },
-  "evolution_count": 201,
+  "evolution_count": 202,
   "history": [
-    {
-      "evolution": 120,
-      "timestamp": "2026-07-08T14:02:49.141958",
-      "total_tests": 22,
-      "improvements": [
-        "Wine_DecisionTree: 0.9042 → 0.9044"
-      ]
-    },
     {
       "evolution": 121,
       "timestamp": "2026-07-08T15:49:10.698206",
@@ -433,6 +425,12 @@
     {
       "evolution": 201,
       "timestamp": "2026-09-06T17:49:44.362468",
+      "total_tests": 22,
+      "improvements": []
+    },
+    {
+      "evolution": 202,
+      "timestamp": "2026-09-06T19:41:22.398079",
       "total_tests": 22,
       "improvements": []
     }

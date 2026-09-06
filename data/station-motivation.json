@@ -923,6 +923,28 @@
           0.91
         ]
       ]
+    },
+    {
+      "round": 202,
+      "timestamp": "2026-09-06T19:41:23.142326",
+      "prediction_error": 0.7,
+      "seeds_active": 10,
+      "seeds_dormant": 0,
+      "new_seeds_added": 0,
+      "top_motivated": [
+        [
+          "mamba",
+          0.91
+        ],
+        [
+          "liquid-networks",
+          0.91
+        ],
+        [
+          "spiking-nn",
+          0.91
+        ]
+      ]
     }
   ],
   "seed_scores": {
@@ -1005,7 +1027,7 @@
         1.0,
         1.0,
         1.0,
-        1.0,
+        0.923,
         0.923,
         0.923,
         0.923,
@@ -1095,7 +1117,7 @@
         0.692,
         0.692,
         0.692,
-        0.692,
+        0.0,
         0.0,
         0.0
       ]
@@ -1115,7 +1137,6 @@
         1.0,
         1.0,
         1.0,
-        1.0,
         0.9,
         0.9,
         0.9,
@@ -1126,14 +1147,15 @@
         0.9,
         0.9,
         0.9,
+        0.735,
         0.735
       ]
     },
     "moe": {
       "name": "Mixture of Experts",
-      "info_gain": 1.0,
+      "info_gain": 0.6,
       "novelty": 0.857,
-      "motivation_score": 0.867,
+      "motivation_score": 0.707,
       "info_gain_history": [
         1.0,
         1.0,
@@ -1155,7 +1177,7 @@
         1.0,
         1.0,
         1.0,
-        1.0
+        0.6
       ]
     },
     "kv-cache": {
@@ -1219,6 +1241,6 @@
   },
   "auto_created_seeds": [],
   "dormant_seeds": [],
-  "total_motivation_evaluations": 42,
+  "total_motivation_evaluations": 43,
   "current_prediction_error": 0.7
 }
