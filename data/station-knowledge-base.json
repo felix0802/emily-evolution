@@ -1,47 +1,6 @@
 {
   "sessions": [
     {
-      "timestamp": "2026-07-07T13:05:00.941856",
-      "arxiv_papers_count": 15,
-      "arxiv_top_keywords": [
-        "what",
-        "camera",
-        "view",
-        "vla",
-        "free",
-        "cameras",
-        "weak",
-        "strong",
-        "policy",
-        "target"
-      ],
-      "arxiv_strategies": [
-        "cs.AI 最新",
-        "cs.LG 最新",
-        "cs.CL 最新"
-      ],
-      "huggingface_models": 0,
-      "huggingface_tasks": [],
-      "ml_datasets": [
-        "Iris",
-        "Wine",
-        "Breast Cancer",
-        "Diabetes"
-      ],
-      "ml_total_tests": 22,
-      "github_trending_repos": 8,
-      "paperswithcode_papers": 0,
-      "evolution": {
-        "discovered": 1,
-        "adopted": 0,
-        "decisions": 0
-      },
-      "seed_watering": {
-        "seed_name": "Few-Shot Learning",
-        "papers_found": 5
-      }
-    },
-    {
       "timestamp": "2026-07-07T13:06:59.118599",
       "arxiv_papers_count": 5,
       "arxiv_top_keywords": [
@@ -4360,10 +4319,57 @@
         "seed_name": "Mixture of Experts",
         "papers_found": 8
       }
+    },
+    {
+      "timestamp": "2026-09-06T21:48:25.543667",
+      "arxiv_papers_count": 18,
+      "arxiv_top_keywords": [
+        "decoding",
+        "cache",
+        "graph",
+        "speculative",
+        "attention",
+        "vision",
+        "aware",
+        "user",
+        "target",
+        "block"
+      ],
+      "arxiv_strategies": [
+        "搜索: kv cache LLM",
+        "搜索: graph neural network recent",
+        "搜索: speculative decoding"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "unknown",
+        "fill-mask",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 20,
+        "adopted": 0,
+        "decisions": 0
+      },
+      "seed_watering": {
+        "seed_name": "KV Cache Optimization",
+        "papers_found": 5
+      }
     }
   ],
   "total_sessions": 101,
-  "last_updated": "2026-09-06T19:41:27.872916",
+  "last_updated": "2026-09-06T21:48:25.543683",
   "evolution_summary": {
     "total_adopted": 87,
     "adopted_list": [
@@ -4498,7 +4504,7 @@
       },
       "kv-cache": {
         "name": "KV Cache Optimization",
-        "watering": 54,
+        "watering": 55,
         "papers": 76
       },
       "gnn": {
@@ -4638,17 +4644,17 @@
         "name": "KV Cache Optimization",
         "new_papers": 76,
         "keywords_matched": [
-          "speculative decoding",
-          "kv cache",
-          "key-value cache",
           "gqa",
-          "flash attention"
+          "flash attention",
+          "key-value cache",
+          "kv cache",
+          "speculative decoding"
         ],
         "high_relevance_total": 3,
         "avg_relevance_latest": 0.0,
         "best_papers_count": 1
       }
     },
-    "last_evolution": "2026-09-06T19:41:27.875300"
+    "last_evolution": "2026-09-06T21:48:25.545903"
   }
 }

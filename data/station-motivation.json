@@ -945,6 +945,28 @@
           0.91
         ]
       ]
+    },
+    {
+      "round": 203,
+      "timestamp": "2026-09-06T21:48:20.004862",
+      "prediction_error": 0.7,
+      "seeds_active": 10,
+      "seeds_dormant": 0,
+      "new_seeds_added": 0,
+      "top_motivated": [
+        [
+          "mamba",
+          0.91
+        ],
+        [
+          "liquid-networks",
+          0.91
+        ],
+        [
+          "spiking-nn",
+          0.91
+        ]
+      ]
     }
   ],
   "seed_scores": {
@@ -1026,7 +1048,7 @@
         1.0,
         1.0,
         1.0,
-        1.0,
+        0.923,
         0.923,
         0.923,
         0.923,
@@ -1116,7 +1138,7 @@
         0.692,
         0.692,
         0.692,
-        0.692,
+        0.0,
         0.0,
         0.0,
         0.0
@@ -1136,7 +1158,6 @@
         1.0,
         1.0,
         1.0,
-        1.0,
         0.9,
         0.9,
         0.9,
@@ -1147,6 +1168,7 @@
         0.9,
         0.9,
         0.9,
+        0.735,
         0.735,
         0.735
       ]
@@ -1176,7 +1198,7 @@
         1.0,
         1.0,
         1.0,
-        1.0,
+        0.6,
         0.6
       ]
     },
@@ -1241,6 +1263,6 @@
   },
   "auto_created_seeds": [],
   "dormant_seeds": [],
-  "total_motivation_evaluations": 43,
+  "total_motivation_evaluations": 44,
   "current_prediction_error": 0.7
 }
