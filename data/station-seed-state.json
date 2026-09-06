@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 566,
+  "_rotation_idx": 567,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 56,
@@ -4277,32 +4277,8 @@
   "continual-learning": {
     "name": "Continual Learning",
     "total_papers_found": 72,
-    "watering_count": 57,
+    "watering_count": 58,
     "history": [
-      {
-        "timestamp": "2026-07-17T07:49:02.930536",
-        "papers_found": 2,
-        "duplicates": 5,
-        "irrelevant_filtered": 3,
-        "avg_relevance": 1.0,
-        "high_relevance": 0,
-        "papers": [
-          {
-            "title": "AlphaWiSE: Adaptive Weight Interpolation for Continual Multimodal Representation Learning",
-            "summary": "Multimodal models such as CLIP learn a shared embedding space for cross-modal retrieval, but continual adaptation to sequentially arriving data can disrupt the cross-modal alignment acquired from earlier phases. Conventional continual-learning methods return a single checkpoint, which commits every ",
-            "published": "2026-07-16",
-            "url": "http://arxiv.org/abs/2607.15094v1",
-            "seed_match_score": 1
-          },
-          {
-            "title": "Gate-Zero Growth: A Geometric Framework for Function-Preserving Continual Learning",
-            "summary": "We introduce \\emph{gate-zero growth}, a function-preserving (FP) operator for continual learning that adds new residual blocks through a zero-initialised gate. Under a transversality condition, gate-zero growth induces \\emph{rank separation} in the functional Jacobian: old directions are unchanged, ",
-            "published": "2026-07-16",
-            "url": "http://arxiv.org/abs/2607.14571v1",
-            "seed_match_score": 1
-          }
-        ]
-      },
       {
         "timestamp": "2026-07-18T04:36:01.808167",
         "papers_found": 0,
@@ -5082,6 +5058,15 @@
         "avg_relevance": 0.0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-09-06T17:49:44.887149",
+        "papers_found": 0,
+        "duplicates": 4,
+        "irrelevant_filtered": 6,
+        "avg_relevance": 0.0,
+        "high_relevance": 0,
+        "papers": []
       }
     ],
     "keywords": [
@@ -5091,7 +5076,7 @@
       "ewc",
       "elastic weight"
     ],
-    "last_watered": "2026-09-05T11:26:30.029802"
+    "last_watered": "2026-09-06T17:49:44.887146"
   },
   "moe": {
     "name": "Mixture of Experts",

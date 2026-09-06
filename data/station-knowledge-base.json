@@ -1,47 +1,6 @@
 {
   "sessions": [
     {
-      "timestamp": "2026-07-07T08:54:46.621283",
-      "arxiv_papers_count": 14,
-      "arxiv_top_keywords": [
-        "long",
-        "agents",
-        "self",
-        "attacks",
-        "persistent",
-        "control",
-        "coding",
-        "codebase",
-        "unlearning",
-        "methods"
-      ],
-      "arxiv_strategies": [
-        "cs.AI 最新",
-        "cs.LG 最新",
-        "cs.CL 最新"
-      ],
-      "huggingface_models": 0,
-      "huggingface_tasks": [],
-      "ml_datasets": [
-        "Iris",
-        "Wine",
-        "Breast Cancer",
-        "Diabetes"
-      ],
-      "ml_total_tests": 22,
-      "github_trending_repos": 8,
-      "paperswithcode_papers": 0,
-      "evolution": {
-        "discovered": 0,
-        "adopted": 0,
-        "decisions": 0
-      },
-      "seed_watering": {
-        "seed_name": "Spiking Neural Networks",
-        "papers_found": 5
-      }
-    },
-    {
       "timestamp": "2026-07-07T10:14:44.488185",
       "arxiv_papers_count": 21,
       "arxiv_top_keywords": [
@@ -4348,10 +4307,57 @@
         "seed_name": "Few-Shot Learning",
         "papers_found": 4
       }
+    },
+    {
+      "timestamp": "2026-09-06T17:49:49.679615",
+      "arxiv_papers_count": 18,
+      "arxiv_top_keywords": [
+        "world",
+        "graph",
+        "learning",
+        "vision",
+        "graphs",
+        "user",
+        "data",
+        "structure",
+        "logic",
+        "physical"
+      ],
+      "arxiv_strategies": [
+        "搜索: graph neural network",
+        "搜索: transfer learning",
+        "搜索: world model"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "unknown",
+        "fill-mask",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 22,
+        "adopted": 0,
+        "decisions": 0
+      },
+      "seed_watering": {
+        "seed_name": "Continual Learning",
+        "papers_found": 4
+      }
     }
   ],
   "total_sessions": 101,
-  "last_updated": "2026-09-06T14:30:33.147760",
+  "last_updated": "2026-09-06T17:49:49.679630",
   "evolution_summary": {
     "total_adopted": 86,
     "adopted_list": [
@@ -4475,7 +4481,7 @@
       },
       "continual-learning": {
         "name": "Continual Learning",
-        "watering": 57,
+        "watering": 58,
         "papers": 72
       },
       "moe": {
@@ -4581,11 +4587,11 @@
         "name": "Continual Learning",
         "new_papers": 67,
         "keywords_matched": [
-          "ewc",
           "lifelong",
-          "continual learning",
+          "elastic weight",
+          "ewc",
           "catastrophic forgetting",
-          "elastic weight"
+          "continual learning"
         ],
         "high_relevance_total": 16,
         "avg_relevance_latest": 0.0,
@@ -4636,6 +4642,6 @@
         "best_papers_count": 1
       }
     },
-    "last_evolution": "2026-09-06T14:30:33.150142"
+    "last_evolution": "2026-09-06T17:49:49.681943"
   }
 }

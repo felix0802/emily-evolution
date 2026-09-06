@@ -361,14 +361,14 @@
       "reasoning": "Both SNNs and GNNs operate on graph-structured data where edges represent communication pathways; SNNs use discrete spike events for temporal coding, while GNNs aggregate information along edges. The mathematical commonality lies in message passing: SNNs propagate spikes through synaptic connections (weighted edges), and GNNs propagate features through graph edges. By replacing continuous activations with spike-based event-driven updates, we can exploit the inherent sparsity of dynamic graphs (only active nodes/edges spike), reducing computation and enabling asynchronous, neuromorphic hardware implementation.",
       "arxiv_query": "spiking graph neural networks event-driven dynamic graphs",
       "potential_breakthrough": "A unified spiking graph neural network framework that achieves state-of-the-art performance on temporal graph benchmarks while consuming orders of magnitude less energy, enabling real-time learning on edge devices.",
-      "status": "unverified",
-      "verification_rounds": 2,
+      "status": "inconclusive",
+      "verification_rounds": 3,
       "supporting_papers": [],
       "refuting_papers": [],
       "llm_source": "deepseek"
     }
   ],
-  "last_updated": "2026-09-06T14:30:37.031584",
+  "last_updated": "2026-09-06T17:49:52.767918",
   "total_generated": 15,
-  "total_verified": 14
+  "total_verified": 15
 }
