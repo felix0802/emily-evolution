@@ -1,47 +1,6 @@
 {
   "sessions": [
     {
-      "timestamp": "2026-07-07T13:06:59.118599",
-      "arxiv_papers_count": 5,
-      "arxiv_top_keywords": [
-        "camera",
-        "view",
-        "vla",
-        "free",
-        "cameras",
-        "weak",
-        "strong",
-        "policy",
-        "target",
-        "rollouts"
-      ],
-      "arxiv_strategies": [
-        "cs.AI (fallback)",
-        "cs.AI (fallback)",
-        "cs.AI (fallback)"
-      ],
-      "huggingface_models": 0,
-      "huggingface_tasks": [],
-      "ml_datasets": [
-        "Iris",
-        "Wine",
-        "Breast Cancer",
-        "Diabetes"
-      ],
-      "ml_total_tests": 22,
-      "github_trending_repos": 8,
-      "paperswithcode_papers": 0,
-      "evolution": {
-        "discovered": 0,
-        "adopted": 0,
-        "decisions": 0
-      },
-      "seed_watering": {
-        "seed_name": "Continual Learning",
-        "papers_found": 5
-      }
-    },
-    {
       "timestamp": "2026-07-07T13:08:54.304465",
       "arxiv_papers_count": 0,
       "arxiv_top_keywords": [],
@@ -4366,12 +4325,59 @@
         "seed_name": "KV Cache Optimization",
         "papers_found": 5
       }
+    },
+    {
+      "timestamp": "2026-09-06T23:18:43.928204",
+      "arxiv_papers_count": 18,
+      "arxiv_top_keywords": [
+        "teacher",
+        "language",
+        "attention",
+        "linear",
+        "learning",
+        "theory",
+        "graph",
+        "neural",
+        "student",
+        "decentralized"
+      ],
+      "arxiv_strategies": [
+        "搜索: multi-query attention",
+        "搜索: geometric deep learning",
+        "搜索: knowledge distillation"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "unknown",
+        "fill-mask",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 19,
+        "adopted": 1,
+        "decisions": 1
+      },
+      "seed_watering": {
+        "seed_name": "Graph Neural Networks",
+        "papers_found": 5
+      }
     }
   ],
   "total_sessions": 101,
-  "last_updated": "2026-09-06T21:48:25.543683",
+  "last_updated": "2026-09-06T23:18:43.928215",
   "evolution_summary": {
-    "total_adopted": 87,
+    "total_adopted": 88,
     "adopted_list": [
       "Knowledge Distillation",
       "World Models / Model-Based RL",
@@ -4459,7 +4465,8 @@
       "Alignment",
       "Multi-Relative Pose Query",
       "概念分离度量",
-      "基础模型嵌入"
+      "基础模型嵌入",
+      "Mathematics of Arrays (MoA)"
     ],
     "seeds": {
       "mamba": {
@@ -4509,7 +4516,7 @@
       },
       "gnn": {
         "name": "Graph Neural Networks",
-        "watering": 55,
+        "watering": 56,
         "papers": 125
       }
     },
@@ -4614,13 +4621,13 @@
         "name": "Graph Neural Networks",
         "new_papers": 125,
         "keywords_matched": [
-          "node embedding",
+          "message passing",
+          "geometric",
           "graph transformer",
           "gnn",
-          "message passing",
+          "graph neural",
           "graph attention",
-          "geometric",
-          "graph neural"
+          "node embedding"
         ],
         "high_relevance_total": 60,
         "avg_relevance_latest": 0.0,
@@ -4655,6 +4662,6 @@
         "best_papers_count": 1
       }
     },
-    "last_evolution": "2026-09-06T21:48:25.545903"
+    "last_evolution": "2026-09-06T23:18:43.929594"
   }
 }

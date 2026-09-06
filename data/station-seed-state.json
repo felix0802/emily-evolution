@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 569,
+  "_rotation_idx": 570,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 56,
@@ -6913,39 +6913,8 @@
   "gnn": {
     "name": "Graph Neural Networks",
     "total_papers_found": 125,
-    "watering_count": 55,
+    "watering_count": 56,
     "history": [
-      {
-        "timestamp": "2026-07-17T12:57:25.247256",
-        "papers_found": 3,
-        "duplicates": 1,
-        "irrelevant_filtered": 6,
-        "avg_relevance": 1.67,
-        "high_relevance": 2,
-        "papers": [
-          {
-            "title": "Grad2Fair: A Gradient-driven Approach for Graph Fairness without Demographics",
-            "summary": "Graph neural networks (GNNs) frequently encounter group fairness issues, often yielding biased predictions against specific demographic groups defined by sensitive attributes such as gender or race. While this challenge has motivated extensive research, most existing solutions rely on the strong ass",
-            "published": "2026-07-16",
-            "url": "http://arxiv.org/abs/2607.14705v1",
-            "seed_match_score": 2
-          },
-          {
-            "title": "CausalGraphX: A Counterfactual Graph Neural Network Framework for Explainable Systemic Risk Assessment",
-            "summary": "The interconnected nature of global financial systems makes them vulnerable to systemic risks, where the failure of a few institutions can trigger catastrophic cascading defaults. Traditional risk models often fail to capture the complex, non-linear dynamics of these networks. While Graph Neural Net",
-            "published": "2026-07-15",
-            "url": "http://arxiv.org/abs/2607.14416v1",
-            "seed_match_score": 1
-          },
-          {
-            "title": "NeuroGRIP: Retrieval-Augmented Graph Refinement for Knowledge-Grounded EEG Seizure Diagnosis",
-            "summary": "Seizure diagnosis from EEG signals is a critical yet persistently challenging task, due to the complicated neural dynamics and the spurious connections in inter-channel modeling. While spatial-temporal graph neural networks (STGNNs) have advanced EEG brain network representation learning, the result",
-            "published": "2026-07-15",
-            "url": "http://arxiv.org/abs/2607.14314v1",
-            "seed_match_score": 2
-          }
-        ]
-      },
       {
         "timestamp": "2026-07-18T10:54:25.553798",
         "papers_found": 0,
@@ -7982,6 +7951,15 @@
         "avg_relevance": 0.0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-09-06T23:18:39.144073",
+        "papers_found": 0,
+        "duplicates": 5,
+        "irrelevant_filtered": 5,
+        "avg_relevance": 0.0,
+        "high_relevance": 0,
+        "papers": []
       }
     ],
     "keywords": [
@@ -7993,6 +7971,6 @@
       "node embedding",
       "graph transformer"
     ],
-    "last_watered": "2026-09-05T19:38:38.760568"
+    "last_watered": "2026-09-06T23:18:39.144070"
   }
 }

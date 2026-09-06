@@ -1313,6 +1313,21 @@
         ],
         "decided_at": "2026-09-06T19:41:27.867346"
       }
+    },
+    {
+      "id": "llm-mathematics-of-arrays-(moa)",
+      "name": "Mathematics of Arrays (MoA)",
+      "adopted_at": "2026-09-06T23:18:43.925627",
+      "decision": {
+        "tech_id": "llm-mathematics-of-arrays-(moa)",
+        "tech_name": "Mathematics of Arrays (MoA)",
+        "action": "adopt",
+        "confidence": 0.8,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-09-06T23:18:43.924830"
+      }
     }
   ],
   "history": [
@@ -1837,6 +1852,12 @@
       "tech_id": "llm-基础模型嵌入",
       "tech_name": "基础模型嵌入",
       "timestamp": "2026-09-06T19:41:27.868847"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-mathematics-of-arrays-(moa)",
+      "tech_name": "Mathematics of Arrays (MoA)",
+      "timestamp": "2026-09-06T23:18:43.925630"
     }
   ]
 }
