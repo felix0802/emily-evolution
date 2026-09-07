@@ -1343,6 +1343,36 @@
         ],
         "decided_at": "2026-09-07T01:32:52.095388"
       }
+    },
+    {
+      "id": "llm-组合式3d场景生成",
+      "name": "组合式3D场景生成",
+      "adopted_at": "2026-09-07T06:42:57.391016",
+      "decision": {
+        "tech_id": "llm-组合式3d场景生成",
+        "tech_name": "组合式3D场景生成",
+        "action": "adopt",
+        "confidence": 0.9,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-09-07T06:42:57.389507"
+      }
+    },
+    {
+      "id": "llm-统一骨架动画模型",
+      "name": "统一骨架动画模型",
+      "adopted_at": "2026-09-07T06:42:57.391035",
+      "decision": {
+        "tech_id": "llm-统一骨架动画模型",
+        "tech_name": "统一骨架动画模型",
+        "action": "adopt",
+        "confidence": 0.85,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-09-07T06:42:57.389714"
+      }
     }
   ],
   "history": [
@@ -1879,6 +1909,18 @@
       "tech_id": "llm-超连接-(hyper-connections)-和-mhc",
       "tech_name": "超连接 (Hyper-Connections) 和 mHC",
       "timestamp": "2026-09-07T01:32:52.096947"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-组合式3d场景生成",
+      "tech_name": "组合式3D场景生成",
+      "timestamp": "2026-09-07T06:42:57.391022"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-统一骨架动画模型",
+      "tech_name": "统一骨架动画模型",
+      "timestamp": "2026-09-07T06:42:57.391036"
     }
   ]
 }

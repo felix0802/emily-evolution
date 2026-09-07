@@ -34219,7 +34219,345 @@
         "steering"
       ],
       "first_seen_round": 205
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.05416v1",
+      "title": "WorldSculpt: Generating Compositional Worlds from Grounded Videos",
+      "arxiv_id": "2609.05416",
+      "tokens": [
+        "compositional",
+        "generating",
+        "grounded",
+        "videos",
+        "worlds",
+        "worldsculpt"
+      ],
+      "first_seen_round": 206
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.05415v1",
+      "title": "UniMate: One Unified Model to Animate Diverse Skeletons",
+      "arxiv_id": "2609.05415",
+      "tokens": [
+        "animate",
+        "diverse",
+        "skeletons",
+        "unified",
+        "unimate"
+      ],
+      "first_seen_round": 206
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.05400v1",
+      "title": "A Generalizable Feature Extractor for Alzheimer's-Related Brain MRI Tasks",
+      "arxiv_id": "2609.05400",
+      "tokens": [
+        "alzheimer",
+        "brain",
+        "extractor",
+        "feature",
+        "generalizable",
+        "mri",
+        "related",
+        "tasks"
+      ],
+      "first_seen_round": 206
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.05399v1",
+      "title": "From Interpretability Methods to Interpretable Models",
+      "arxiv_id": "2609.05399",
+      "tokens": [
+        "interpretability",
+        "interpretable"
+      ],
+      "first_seen_round": 206
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.05397v1",
+      "title": "CrossDepth: Geometry-Constrained Attention for Generalizable Multi-View Surround Depth Estimation",
+      "arxiv_id": "2609.05397",
+      "tokens": [
+        "attention",
+        "constrained",
+        "crossdepth",
+        "depth",
+        "estimation",
+        "generalizable",
+        "geometry",
+        "multi",
+        "surround",
+        "view"
+      ],
+      "first_seen_round": 206
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.05388v1",
+      "title": "Think-Verify-Revise: Neuro-Symbolic Visual Reasoning with Vision-Language Models and Dynamic Logic Tensor Networks",
+      "arxiv_id": "2609.05388",
+      "tokens": [
+        "dynamic",
+        "language",
+        "logic",
+        "neuro",
+        "reasoning",
+        "revise",
+        "symbolic",
+        "tensor",
+        "think",
+        "verify",
+        "vision",
+        "visual"
+      ],
+      "first_seen_round": 206
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.05382v1",
+      "title": "Reflection-aware Generative Novel View Synthesis",
+      "arxiv_id": "2609.05382",
+      "tokens": [
+        "aware",
+        "generative",
+        "reflection",
+        "synthesis",
+        "view"
+      ],
+      "first_seen_round": 206
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.05376v1",
+      "title": "What Matters, When? Diagnosing and Improving Conditional Visual Grounding in Visuomotor Imitation Policies",
+      "arxiv_id": "2609.05376",
+      "tokens": [
+        "conditional",
+        "diagnosing",
+        "grounding",
+        "imitation",
+        "improving",
+        "matters",
+        "policies",
+        "visual",
+        "visuomotor"
+      ],
+      "first_seen_round": 206
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.05404v1",
+      "title": "Diffusion TV: Experiencing Diffusion Models through Tangible, Embodied Interaction",
+      "arxiv_id": "2609.05404",
+      "tokens": [
+        "diffusion",
+        "diffusion",
+        "embodied",
+        "experiencing",
+        "interaction",
+        "tangible"
+      ],
+      "first_seen_round": 206
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.05403v1",
+      "title": "RegionFed: Federated Learning for Personalized Query Understanding in Heterogeneous Retail Environments",
+      "arxiv_id": "2609.05403",
+      "tokens": [
+        "environments",
+        "federated",
+        "heterogeneous",
+        "personalized",
+        "query",
+        "regionfed",
+        "retail",
+        "understanding"
+      ],
+      "first_seen_round": 206
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.05396v1",
+      "title": "A Deep Generative Model for Synthesizing Labeled Wireless Signals",
+      "arxiv_id": "2609.05396",
+      "tokens": [
+        "generative",
+        "labeled",
+        "signals",
+        "synthesizing",
+        "wireless"
+      ],
+      "first_seen_round": 206
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.05395v1",
+      "title": "Multi-Step Tool-Calling over Korean Open Public APIs: A Benchmark and a Data-Synthesis Recipe",
+      "arxiv_id": "2609.05395",
+      "tokens": [
+        "apis",
+        "benchmark",
+        "calling",
+        "korean",
+        "multi",
+        "open",
+        "public",
+        "recipe",
+        "step",
+        "synthesis",
+        "tool"
+      ],
+      "first_seen_round": 206
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.05385v1",
+      "title": "Necessary or Sufficient? Evaluating LLM Explanations With Behavioural Evidence",
+      "arxiv_id": "2609.05385",
+      "tokens": [
+        "behavioural",
+        "evaluating",
+        "evidence",
+        "explanations",
+        "llm",
+        "necessary",
+        "sufficient"
+      ],
+      "first_seen_round": 206
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.05381v1",
+      "title": "Molecular Déjà Vu: Digit-Level Retrieval of Published Values in Frontier Language Models",
+      "arxiv_id": "2609.05381",
+      "tokens": [
+        "digit",
+        "frontier",
+        "language",
+        "level",
+        "molecular",
+        "published",
+        "retrieval",
+        "values"
+      ],
+      "first_seen_round": 206
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.05374v1",
+      "title": "CUA-Universe: A Scalable and Dynamic Environment for Hybrid GUI+CLI Agents",
+      "arxiv_id": "2609.05374",
+      "tokens": [
+        "agents",
+        "cli",
+        "cua",
+        "dynamic",
+        "environment",
+        "gui",
+        "hybrid",
+        "scalable",
+        "universe"
+      ],
+      "first_seen_round": 206
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.05370v1",
+      "title": "When LLM Decompilers Recompile More and Preserve Less",
+      "arxiv_id": "2609.05370",
+      "tokens": [
+        "decompilers",
+        "less",
+        "llm",
+        "preserve",
+        "recompile"
+      ],
+      "first_seen_round": 206
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.05364v1",
+      "title": "Design Docs Are All You Need: An AI-native Machine-Learning Performance Tool",
+      "arxiv_id": "2609.05364",
+      "tokens": [
+        "design",
+        "docs",
+        "machine",
+        "native",
+        "need",
+        "performance",
+        "tool"
+      ],
+      "first_seen_round": 206
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.05405v1",
+      "title": "WearableQA: A Benchmark for Health Reasoning over Real-World Wearable Data",
+      "arxiv_id": "2609.05405",
+      "tokens": [
+        "benchmark",
+        "health",
+        "real",
+        "reasoning",
+        "wearable",
+        "wearableqa",
+        "world"
+      ],
+      "first_seen_round": 206
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.05401v1",
+      "title": "Same Trajectory, Contradictory Rewards (ROBORMBENCH): Paraphrase Fragility in Vision Language Reward Models",
+      "arxiv_id": "2609.05401",
+      "tokens": [
+        "contradictory",
+        "fragility",
+        "language",
+        "paraphrase",
+        "reward",
+        "rewards",
+        "robormbench",
+        "trajectory",
+        "vision"
+      ],
+      "first_seen_round": 206
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.05369v1",
+      "title": "Towards Neuro-Symbolic Procedural Reasoning for Long-Horizon Vision-Language-Action Manipulation",
+      "arxiv_id": "2609.05369",
+      "tokens": [
+        "action",
+        "horizon",
+        "language",
+        "long",
+        "manipulation",
+        "neuro",
+        "procedural",
+        "reasoning",
+        "symbolic",
+        "vision"
+      ],
+      "first_seen_round": 206
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.04779v1",
+      "title": "Dynamic Heterogeneous Graph Representation Learning: A Survey",
+      "arxiv_id": "2609.04779",
+      "tokens": [
+        "dynamic",
+        "graph",
+        "heterogeneous",
+        "representation"
+      ],
+      "first_seen_round": 206
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.04530v1",
+      "title": "An Energy-Based Conservative-Dissipative Latent Neural Evolution Operator for Magnetization Dynamics",
+      "arxiv_id": "2609.04530",
+      "tokens": [
+        "conservative",
+        "dissipative",
+        "dynamics",
+        "energy",
+        "evolution",
+        "latent",
+        "magnetization",
+        "neural",
+        "operator"
+      ],
+      "first_seen_round": 206
     }
   ],
-  "total_unique": 2134
+  "total_unique": 2156
 }

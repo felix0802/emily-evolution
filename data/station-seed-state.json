@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 571,
+  "_rotation_idx": 572,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 57,
@@ -715,40 +715,9 @@
   },
   "liquid-networks": {
     "name": "Liquid Networks",
-    "total_papers_found": 67,
-    "watering_count": 60,
+    "total_papers_found": 69,
+    "watering_count": 61,
     "history": [
-      {
-        "timestamp": "2026-07-17T16:56:46.142990",
-        "papers_found": 5,
-        "duplicates": 5,
-        "irrelevant_filtered": 0,
-        "avg_relevance": 1.2,
-        "high_relevance": 1,
-        "papers": [
-          {
-            "title": "Optimal Self-Distillation for Rectified Flow via Linear Probing",
-            "summary": "Modern generative models are increasingly trained using model-generated signals, creating both opportunities for self-improvement and risks of collapse. We study optimal self-distillation (SD) for rectified flow (RF): given a suboptimal teacher velocity field, can a student trained on a mixture of t",
-            "published": "2026-07-16",
-            "url": "http://arxiv.org/abs/2607.14947v1",
-            "seed_match_score": 1
-          },
-          {
-            "title": "GAttNHP: Group Attention Neural Hawkes Process for Extrapolation Reasoning in Temporal Knowledge Graphs",
-            "summary": "Temporal Knowledge Graphs (TKGs) record how facts evolve over time, but forecasting future events on a TKG remains difficult for three reasons: (i) long-range temporal dependencies are hard to encode; (ii) events on different chains mutually excite or inhibit one another in ways that snapshot-level ",
-            "published": "2026-07-16",
-            "url": "http://arxiv.org/abs/2607.14733v1",
-            "seed_match_score": 1
-          },
-          {
-            "title": "Scalable Training of Continuous-Time Spiking Neural Networks with Differentiable Spike-Time Discretization",
-            "summary": "Continuous-time spiking neural networks (SNNs) provide an event-driven framework for temporal computation, computational neuroscience, and neuromorphic hardware. However, training deep continuous-time SNNs is severely constrained by the memory required for exact spike-time computation, which evaluat",
-            "published": "2026-07-16",
-            "url": "http://arxiv.org/abs/2607.14672v1",
-            "seed_match_score": 1
-          }
-        ]
-      },
       {
         "timestamp": "2026-07-18T14:43:12.083994",
         "papers_found": 0,
@@ -1439,6 +1408,30 @@
         "avg_relevance": 0.0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-09-07T06:42:51.539311",
+        "papers_found": 2,
+        "duplicates": 6,
+        "irrelevant_filtered": 2,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "Dynamic Heterogeneous Graph Representation Learning: A Survey",
+            "summary": "Graph representation learning (GRL) serves as a canonical paradigm for modeling complex networks. However, real-world AI systems inherently manifest as evolving heterogeneous entities with complex interactions, posing significant challenges to static or homogeneous modeling. To address these complex",
+            "published": "2026-09-04",
+            "url": "http://arxiv.org/abs/2609.04779v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "An Energy-Based Conservative-Dissipative Latent Neural Evolution Operator for Magnetization Dynamics",
+            "summary": "We develop an energy-based reduced-order model for micromagnetic magnetization dynamics that couples a convolutional autoencoder to a structured latent neural ordinary differential equation. Motivated by the precessional-dissipative structure of the Landau-Lifshitz-Gilbert equation, the latent vecto",
+            "published": "2026-09-03",
+            "url": "http://arxiv.org/abs/2609.04530v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -1448,7 +1441,7 @@
       "ode",
       "continuous-time"
     ],
-    "last_watered": "2026-09-05T23:25:58.324330"
+    "last_watered": "2026-09-07T06:42:51.539305"
   },
   "htm": {
     "name": "HTM",

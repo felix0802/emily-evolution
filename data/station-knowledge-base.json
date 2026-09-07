@@ -1,36 +1,6 @@
 {
   "sessions": [
     {
-      "timestamp": "2026-07-07T13:20:32.326784",
-      "arxiv_papers_count": 0,
-      "arxiv_top_keywords": [],
-      "arxiv_strategies": [
-        "cs.AI 最新",
-        "cs.LG 最新",
-        "cs.CL 最新"
-      ],
-      "huggingface_models": 0,
-      "huggingface_tasks": [],
-      "ml_datasets": [
-        "Iris",
-        "Wine",
-        "Breast Cancer",
-        "Diabetes"
-      ],
-      "ml_total_tests": 22,
-      "github_trending_repos": 8,
-      "paperswithcode_papers": 0,
-      "evolution": {
-        "discovered": 0,
-        "adopted": 0,
-        "decisions": 0
-      },
-      "seed_watering": {
-        "seed_name": "Liquid Networks",
-        "papers_found": 9
-      }
-    },
-    {
       "timestamp": "2026-07-07T13:28:34.895679",
       "arxiv_papers_count": 0,
       "arxiv_top_keywords": [],
@@ -4389,12 +4359,59 @@
         "seed_name": "Mamba (SSM)",
         "papers_found": 5
       }
+    },
+    {
+      "timestamp": "2026-09-07T06:43:00.498505",
+      "arxiv_papers_count": 20,
+      "arxiv_top_keywords": [
+        "learning",
+        "view",
+        "visual",
+        "symbolic",
+        "neuro",
+        "generative",
+        "benchmark",
+        "output",
+        "llm",
+        "scene"
+      ],
+      "arxiv_strategies": [
+        "cs.CV 最新",
+        "cs.AI+cs.LG 混合",
+        "cs.CL+cs.CV 混合"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "unknown",
+        "fill-mask",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 16,
+        "adopted": 2,
+        "decisions": 2
+      },
+      "seed_watering": {
+        "seed_name": "Liquid Networks",
+        "papers_found": 8
+      }
     }
   ],
   "total_sessions": 101,
-  "last_updated": "2026-09-07T01:32:52.101025",
+  "last_updated": "2026-09-07T06:43:00.498535",
   "evolution_summary": {
-    "total_adopted": 89,
+    "total_adopted": 91,
     "adopted_list": [
       "Knowledge Distillation",
       "World Models / Model-Based RL",
@@ -4484,7 +4501,9 @@
       "概念分离度量",
       "基础模型嵌入",
       "Mathematics of Arrays (MoA)",
-      "超连接 (Hyper-Connections) 和 mHC"
+      "超连接 (Hyper-Connections) 和 mHC",
+      "组合式3D场景生成",
+      "统一骨架动画模型"
     ],
     "seeds": {
       "mamba": {
@@ -4494,8 +4513,8 @@
       },
       "liquid-networks": {
         "name": "Liquid Networks",
-        "watering": 60,
-        "papers": 67
+        "watering": 61,
+        "papers": 69
       },
       "htm": {
         "name": "HTM",
@@ -4579,14 +4598,14 @@
       },
       "liquid-networks": {
         "name": "Liquid Networks",
-        "new_papers": 62,
+        "new_papers": 64,
         "keywords_matched": [
           "ode",
           "liquid neural",
           "continuous-time"
         ],
         "high_relevance_total": 18,
-        "avg_relevance_latest": 0.0,
+        "avg_relevance_latest": 1.0,
         "best_papers_count": 0
       },
       "htm": {
@@ -4680,6 +4699,6 @@
         "best_papers_count": 1
       }
     },
-    "last_evolution": "2026-09-07T01:32:52.103422"
+    "last_evolution": "2026-09-07T06:43:00.500988"
   }
 }
