@@ -111,18 +111,8 @@
       "timestamp": "2026-07-07T08:54:37.763781"
     }
   },
-  "evolution_count": 207,
+  "evolution_count": 208,
   "history": [
-    {
-      "evolution": 126,
-      "timestamp": "2026-07-09T13:19:54.570015",
-      "total_tests": 22,
-      "improvements": [
-        "Wine_RandomForest: 0.9552 → 0.9606",
-        "Wine_GradientBoosting: 0.8485 → 0.8540",
-        "Diabetes_RandomForest: 0.4401 → 0.4427"
-      ]
-    },
     {
       "evolution": 127,
       "timestamp": "2026-07-09T15:20:52.685402",
@@ -427,6 +417,12 @@
     {
       "evolution": 207,
       "timestamp": "2026-09-07T13:44:37.154091",
+      "total_tests": 22,
+      "improvements": []
+    },
+    {
+      "evolution": 208,
+      "timestamp": "2026-09-07T18:27:17.793891",
       "total_tests": 22,
       "improvements": []
     }

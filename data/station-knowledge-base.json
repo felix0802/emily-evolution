@@ -1,36 +1,6 @@
 {
   "sessions": [
     {
-      "timestamp": "2026-07-07T13:34:00.093372",
-      "arxiv_papers_count": 0,
-      "arxiv_top_keywords": [],
-      "arxiv_strategies": [
-        "cs.AI 最新",
-        "cs.LG 最新",
-        "cs.CL 最新"
-      ],
-      "huggingface_models": 0,
-      "huggingface_tasks": [],
-      "ml_datasets": [
-        "Iris",
-        "Wine",
-        "Breast Cancer",
-        "Diabetes"
-      ],
-      "ml_total_tests": 22,
-      "github_trending_repos": 8,
-      "paperswithcode_papers": 0,
-      "evolution": {
-        "discovered": 0,
-        "adopted": 0,
-        "decisions": 0
-      },
-      "seed_watering": {
-        "seed_name": "Spiking Neural Networks",
-        "papers_found": 10
-      }
-    },
-    {
       "timestamp": "2026-07-07T13:37:27.887316",
       "arxiv_papers_count": 17,
       "arxiv_top_keywords": [
@@ -4423,12 +4393,59 @@
         "seed_name": "HTM",
         "papers_found": 4
       }
+    },
+    {
+      "timestamp": "2026-09-07T18:27:27.662908",
+      "arxiv_papers_count": 18,
+      "arxiv_top_keywords": [
+        "agent",
+        "systems",
+        "deep",
+        "learning",
+        "agentic",
+        "purchase",
+        "complementary",
+        "allegro",
+        "camera",
+        "together"
+      ],
+      "arxiv_strategies": [
+        "搜索: neural architecture",
+        "搜索: self-supervised learning",
+        "搜索: multi-agent system"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "unknown",
+        "fill-mask",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 16,
+        "adopted": 2,
+        "decisions": 2
+      },
+      "seed_watering": {
+        "seed_name": "Spiking Neural Networks",
+        "papers_found": 9
+      }
     }
   ],
   "total_sessions": 101,
-  "last_updated": "2026-09-07T13:44:48.348539",
+  "last_updated": "2026-09-07T18:27:27.662924",
   "evolution_summary": {
-    "total_adopted": 93,
+    "total_adopted": 95,
     "adopted_list": [
       "Knowledge Distillation",
       "World Models / Model-Based RL",
@@ -4522,7 +4539,9 @@
       "组合式3D场景生成",
       "统一骨架动画模型",
       "在线变点检测",
-      "合成任务扩展"
+      "合成任务扩展",
+      "互补推荐（Complementary Recommendation）",
+      "TinyML"
     ],
     "seeds": {
       "mamba": {
@@ -4542,7 +4561,7 @@
       },
       "spiking-nn": {
         "name": "Spiking Neural Networks",
-        "watering": 59,
+        "watering": 60,
         "papers": 31
       },
       "non-transformer": {
@@ -4583,8 +4602,8 @@
         "keywords_matched": [
           "neuromorphic",
           "snn",
-          "spike-timing",
-          "spiking"
+          "spiking",
+          "spike-timing"
         ],
         "high_relevance_total": 24,
         "avg_relevance_latest": 0.0,
@@ -4718,6 +4737,6 @@
         "best_papers_count": 1
       }
     },
-    "last_evolution": "2026-09-07T13:44:48.350567"
+    "last_evolution": "2026-09-07T18:27:27.665207"
   }
 }

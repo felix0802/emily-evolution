@@ -1403,6 +1403,36 @@
         ],
         "decided_at": "2026-09-07T13:44:44.229048"
       }
+    },
+    {
+      "id": "llm-互补推荐（complementary-recommendat",
+      "name": "互补推荐（Complementary Recommendation）",
+      "adopted_at": "2026-09-07T18:27:24.424779",
+      "decision": {
+        "tech_id": "llm-互补推荐（complementary-recommendat",
+        "tech_name": "互补推荐（Complementary Recommendation）",
+        "action": "adopt",
+        "confidence": 0.9,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-09-07T18:27:24.423223"
+      }
+    },
+    {
+      "id": "llm-tinyml",
+      "name": "TinyML",
+      "adopted_at": "2026-09-07T18:27:24.424799",
+      "decision": {
+        "tech_id": "llm-tinyml",
+        "tech_name": "TinyML",
+        "action": "adopt",
+        "confidence": 0.95,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-09-07T18:27:24.423439"
+      }
     }
   ],
   "history": [
@@ -1963,6 +1993,18 @@
       "tech_id": "llm-合成任务扩展",
       "tech_name": "合成任务扩展",
       "timestamp": "2026-09-07T13:44:44.230081"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-互补推荐（complementary-recommendat",
+      "tech_name": "互补推荐（Complementary Recommendation）",
+      "timestamp": "2026-09-07T18:27:24.424784"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-tinyml",
+      "tech_name": "TinyML",
+      "timestamp": "2026-09-07T18:27:24.424800"
     }
   ]
 }
