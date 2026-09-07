@@ -1,47 +1,6 @@
 {
   "sessions": [
     {
-      "timestamp": "2026-07-07T13:37:27.887316",
-      "arxiv_papers_count": 17,
-      "arxiv_top_keywords": [
-        "view",
-        "real",
-        "what",
-        "long",
-        "camera",
-        "vla",
-        "free",
-        "cameras",
-        "scene",
-        "data"
-      ],
-      "arxiv_strategies": [
-        "cs.CV 最新",
-        "cs.AI+cs.LG 混合",
-        "cs.CL+cs.CV 混合"
-      ],
-      "huggingface_models": 0,
-      "huggingface_tasks": [],
-      "ml_datasets": [
-        "Iris",
-        "Wine",
-        "Breast Cancer",
-        "Diabetes"
-      ],
-      "ml_total_tests": 22,
-      "github_trending_repos": 8,
-      "paperswithcode_papers": 0,
-      "evolution": {
-        "discovered": 16,
-        "adopted": 0,
-        "decisions": 0
-      },
-      "seed_watering": {
-        "seed_name": "Non-Transformer Arch",
-        "papers_found": 6
-      }
-    },
-    {
       "timestamp": "2026-07-07T13:44:50.758420",
       "arxiv_papers_count": 18,
       "arxiv_top_keywords": [
@@ -4440,12 +4399,59 @@
         "seed_name": "Spiking Neural Networks",
         "papers_found": 9
       }
+    },
+    {
+      "timestamp": "2026-09-07T22:20:58.673870",
+      "arxiv_papers_count": 18,
+      "arxiv_top_keywords": [
+        "world",
+        "graph",
+        "learning",
+        "methods",
+        "vision",
+        "data",
+        "counterfactual",
+        "explainers",
+        "explanations",
+        "walk"
+      ],
+      "arxiv_strategies": [
+        "搜索: graph neural network",
+        "搜索: transfer learning",
+        "搜索: world model"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "unknown",
+        "fill-mask",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 18,
+        "adopted": 2,
+        "decisions": 2
+      },
+      "seed_watering": {
+        "seed_name": "Non-Transformer Arch",
+        "papers_found": 6
+      }
     }
   ],
   "total_sessions": 101,
-  "last_updated": "2026-09-07T18:27:27.662924",
+  "last_updated": "2026-09-07T22:20:58.673885",
   "evolution_summary": {
-    "total_adopted": 95,
+    "total_adopted": 97,
     "adopted_list": [
       "Knowledge Distillation",
       "World Models / Model-Based RL",
@@ -4541,7 +4547,9 @@
       "在线变点检测",
       "合成任务扩展",
       "互补推荐（Complementary Recommendation）",
-      "TinyML"
+      "TinyML",
+      "反事实解释",
+      "随机游走指纹"
     ],
     "seeds": {
       "mamba": {
@@ -4566,7 +4574,7 @@
       },
       "non-transformer": {
         "name": "Non-Transformer Arch",
-        "watering": 60,
+        "watering": 61,
         "papers": 28
       },
       "few-shot": {
@@ -4666,13 +4674,13 @@
         "name": "Non-Transformer Arch",
         "new_papers": 28,
         "keywords_matched": [
+          "efficient transformer",
+          "linear attention",
           "gated linear",
           "mamba",
           "rwkv",
-          "linear attention",
-          "state space",
-          "efficient transformer",
-          "linear recurrent"
+          "linear recurrent",
+          "state space"
         ],
         "high_relevance_total": 3,
         "avg_relevance_latest": 0.0,
@@ -4737,6 +4745,6 @@
         "best_papers_count": 1
       }
     },
-    "last_evolution": "2026-09-07T18:27:27.665207"
+    "last_evolution": "2026-09-07T22:20:58.676054"
   }
 }

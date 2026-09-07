@@ -1433,6 +1433,36 @@
         ],
         "decided_at": "2026-09-07T18:27:24.423439"
       }
+    },
+    {
+      "id": "llm-反事实解释",
+      "name": "反事实解释",
+      "adopted_at": "2026-09-07T22:20:55.948853",
+      "decision": {
+        "tech_id": "llm-反事实解释",
+        "tech_name": "反事实解释",
+        "action": "adopt",
+        "confidence": 0.9,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-09-07T22:20:55.947713"
+      }
+    },
+    {
+      "id": "llm-随机游走指纹",
+      "name": "随机游走指纹",
+      "adopted_at": "2026-09-07T22:20:55.948869",
+      "decision": {
+        "tech_id": "llm-随机游走指纹",
+        "tech_name": "随机游走指纹",
+        "action": "adopt",
+        "confidence": 0.8,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-09-07T22:20:55.947865"
+      }
     }
   ],
   "history": [
@@ -2005,6 +2035,18 @@
       "tech_id": "llm-tinyml",
       "tech_name": "TinyML",
       "timestamp": "2026-09-07T18:27:24.424800"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-反事实解释",
+      "tech_name": "反事实解释",
+      "timestamp": "2026-09-07T22:20:55.948858"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-随机游走指纹",
+      "tech_name": "随机游走指纹",
+      "timestamp": "2026-09-07T22:20:55.948870"
     }
   ]
 }
