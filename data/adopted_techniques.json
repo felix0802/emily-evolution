@@ -1328,6 +1328,21 @@
         ],
         "decided_at": "2026-09-06T23:18:43.924830"
       }
+    },
+    {
+      "id": "llm-超连接-(hyper-connections)-和-mhc",
+      "name": "超连接 (Hyper-Connections) 和 mHC",
+      "adopted_at": "2026-09-07T01:32:52.096941",
+      "decision": {
+        "tech_id": "llm-超连接-(hyper-connections)-和-mhc",
+        "tech_name": "超连接 (Hyper-Connections) 和 mHC",
+        "action": "adopt",
+        "confidence": 0.85,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-09-07T01:32:52.095388"
+      }
     }
   ],
   "history": [
@@ -1858,6 +1873,12 @@
       "tech_id": "llm-mathematics-of-arrays-(moa)",
       "tech_name": "Mathematics of Arrays (MoA)",
       "timestamp": "2026-09-06T23:18:43.925630"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-超连接-(hyper-connections)-和-mhc",
+      "tech_name": "超连接 (Hyper-Connections) 和 mHC",
+      "timestamp": "2026-09-07T01:32:52.096947"
     }
   ]
 }

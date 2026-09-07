@@ -1,34 +1,10 @@
 {
-  "_rotation_idx": 570,
+  "_rotation_idx": 571,
   "mamba": {
     "name": "Mamba (SSM)",
-    "total_papers_found": 56,
-    "watering_count": 60,
+    "total_papers_found": 57,
+    "watering_count": 61,
     "history": [
-      {
-        "timestamp": "2026-07-17T15:04:27.643050",
-        "papers_found": 2,
-        "duplicates": 7,
-        "irrelevant_filtered": 1,
-        "avg_relevance": 1.0,
-        "high_relevance": 0,
-        "papers": [
-          {
-            "title": "VideoSEMA: a scalable and efficient Mamba-like attention for video understanding",
-            "summary": "We present for video understanding (classification) a split space-time attention model, VideoSEMA, consisting of a scalable and efficient Mamba-like attention (SEMA) block in space and a softmax temporal attention in time. In each frame, SEMA attention applies a local window attention in parallel wi",
-            "published": "2026-07-16",
-            "url": "http://arxiv.org/abs/2607.14711v1",
-            "seed_match_score": 1
-          },
-          {
-            "title": "A Hybrid Mamba for Audio-Visual Navigation",
-            "summary": "Since the paradigm centered on convolutional neural networks and recurrent architectures was established in 2020, the fundamental backbone networks for audio-visual navigation have undergone no essential changes for more than five years, making them inadequate to support efficient representation of ",
-            "published": "2026-07-14",
-            "url": "http://arxiv.org/abs/2607.13110v1",
-            "seed_match_score": 1
-          }
-        ]
-      },
       {
         "timestamp": "2026-07-18T12:44:14.499903",
         "papers_found": 0,
@@ -710,6 +686,23 @@
         "avg_relevance": 0.0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-09-07T01:32:45.798262",
+        "papers_found": 1,
+        "duplicates": 4,
+        "irrelevant_filtered": 5,
+        "avg_relevance": 2.0,
+        "high_relevance": 1,
+        "papers": [
+          {
+            "title": "Locating and Steering Refusal Beyond Attention",
+            "summary": "Where inside a language model does refusal live, and does that place change when the architecture does? In a transformer, refusal is governed by a single direction in the residual stream, a finding that safety and interpretability tooling now depend on. State-space models (SSMs) route information th",
+            "published": "2026-09-04",
+            "url": "http://arxiv.org/abs/2609.04721v1",
+            "seed_match_score": 2
+          }
+        ]
       }
     ],
     "keywords": [
@@ -718,7 +711,7 @@
       "ssm",
       "selective scan"
     ],
-    "last_watered": "2026-09-05T21:45:36.843148"
+    "last_watered": "2026-09-07T01:32:45.798257"
   },
   "liquid-networks": {
     "name": "Liquid Networks",

@@ -33869,7 +33869,357 @@
         "tuning"
       ],
       "first_seen_round": 192
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.05324v1",
+      "title": "RoboSPA: Can VLA Models Go Beyond Simple Scenes and Short-Horizon Tasks?",
+      "arxiv_id": "2609.05324",
+      "tokens": [
+        "horizon",
+        "robospa",
+        "scenes",
+        "short",
+        "simple",
+        "tasks",
+        "vla"
+      ],
+      "first_seen_round": 205
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.05314v1",
+      "title": "Large Language Models for HVAC Operations in Building Energy Systems: A Critical Review of Methods, Applications, and Deployment Readiness",
+      "arxiv_id": "2609.05314",
+      "tokens": [
+        "applications",
+        "building",
+        "critical",
+        "deployment",
+        "energy",
+        "hvac",
+        "language",
+        "operations",
+        "readiness"
+      ],
+      "first_seen_round": 205
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.05309v1",
+      "title": "How Does mHC Use Its Residual Streams? Selective Routing and Near-Identity Mixing",
+      "arxiv_id": "2609.05309",
+      "tokens": [
+        "identity",
+        "mhc",
+        "mixing",
+        "near",
+        "residual",
+        "routing",
+        "selective",
+        "streams",
+        "use"
+      ],
+      "first_seen_round": 205
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.05295v1",
+      "title": "RISE: Recursive Improvement via Self-Extrapolating Policy Distillation",
+      "arxiv_id": "2609.05295",
+      "tokens": [
+        "distillation",
+        "extrapolating",
+        "improvement",
+        "policy",
+        "recursive",
+        "rise",
+        "self"
+      ],
+      "first_seen_round": 205
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.05289v1",
+      "title": "Beyond Aggregate Scores: Behavioral Correctness Assumptions for Assessing Reference-Based Automatic Evaluation Methods",
+      "arxiv_id": "2609.05289",
+      "tokens": [
+        "aggregate",
+        "assessing",
+        "assumptions",
+        "automatic",
+        "behavioral",
+        "correctness",
+        "evaluation",
+        "reference",
+        "scores"
+      ],
+      "first_seen_round": 205
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.05284v1",
+      "title": "GUT: Quantifying and Optimizing the Reasoning Uncertainty of LLMs via Graph Complexity",
+      "arxiv_id": "2609.05284",
+      "tokens": [
+        "complexity",
+        "graph",
+        "gut",
+        "llms",
+        "optimizing",
+        "quantifying",
+        "reasoning",
+        "uncertainty"
+      ],
+      "first_seen_round": 205
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.05279v1",
+      "title": "Testing Interchangeability in LLM Agent Teams",
+      "arxiv_id": "2609.05279",
+      "tokens": [
+        "agent",
+        "interchangeability",
+        "llm",
+        "teams",
+        "testing"
+      ],
+      "first_seen_round": 205
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.05275v1",
+      "title": "Don't Drop Dropout: Optimizing Layer Sparsity for Efficient LLM Training and Inference",
+      "arxiv_id": "2609.05275",
+      "tokens": [
+        "don",
+        "drop",
+        "dropout",
+        "inference",
+        "layer",
+        "llm",
+        "optimizing",
+        "sparsity",
+        "training"
+      ],
+      "first_seen_round": 205
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.05320v1",
+      "title": "Adaptive Gated Deepfake Detection for Low-Resolution and Resource-Constrained Environments",
+      "arxiv_id": "2609.05320",
+      "tokens": [
+        "adaptive",
+        "constrained",
+        "deepfake",
+        "detection",
+        "environments",
+        "gated",
+        "low",
+        "resolution",
+        "resource"
+      ],
+      "first_seen_round": 205
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.05318v1",
+      "title": "Optimal Rates for Agentic Networked Information Aggregation",
+      "arxiv_id": "2609.05318",
+      "tokens": [
+        "agentic",
+        "aggregation",
+        "information",
+        "networked",
+        "optimal",
+        "rates"
+      ],
+      "first_seen_round": 205
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.05298v1",
+      "title": "Online Change-point Detection for Cooperative Multi-Agent Reinforcement Learning",
+      "arxiv_id": "2609.05298",
+      "tokens": [
+        "agent",
+        "change",
+        "cooperative",
+        "detection",
+        "multi",
+        "online",
+        "point",
+        "reinforcement"
+      ],
+      "first_seen_round": 205
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.05296v1",
+      "title": "LexFlip: A Dissociation Diagnostic for Legal Meaning Preservation Metrics",
+      "arxiv_id": "2609.05296",
+      "tokens": [
+        "diagnostic",
+        "dissociation",
+        "legal",
+        "lexflip",
+        "meaning",
+        "metrics",
+        "preservation"
+      ],
+      "first_seen_round": 205
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.05294v1",
+      "title": "Learning from VAE Errors to support ECG-based Differential Diagnosis of Myocardial Scar",
+      "arxiv_id": "2609.05294",
+      "tokens": [
+        "diagnosis",
+        "differential",
+        "ecg",
+        "errors",
+        "myocardial",
+        "scar",
+        "support",
+        "vae"
+      ],
+      "first_seen_round": 205
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.05274v1",
+      "title": "How to Speculate about Uncertainty in Agentic Coding? A Draft-Model Gate Method",
+      "arxiv_id": "2609.05274",
+      "tokens": [
+        "agentic",
+        "coding",
+        "draft",
+        "gate",
+        "speculate",
+        "uncertainty"
+      ],
+      "first_seen_round": 205
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.05263v1",
+      "title": "Shallow neural network approximation in mixed Sobolev spaces",
+      "arxiv_id": "2609.05263",
+      "tokens": [
+        "approximation",
+        "mixed",
+        "neural",
+        "shallow",
+        "sobolev",
+        "spaces"
+      ],
+      "first_seen_round": 205
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.05262v1",
+      "title": "Self-Supervised Lexical Representation Learning for Fast, Large-Scale Phylogenetic Inference",
+      "arxiv_id": "2609.05262",
+      "tokens": [
+        "fast",
+        "inference",
+        "lexical",
+        "phylogenetic",
+        "representation",
+        "scale",
+        "self",
+        "supervised"
+      ],
+      "first_seen_round": 205
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.05221v1",
+      "title": "A Verifier-Guided Explainable Reasoning Framework with Gold-Anchored QLoRA, Task-Aware Mixture-of-Experts, and Group-Relative RLVR",
+      "arxiv_id": "2609.05221",
+      "tokens": [
+        "anchored",
+        "aware",
+        "experts",
+        "explainable",
+        "gold",
+        "group",
+        "guided",
+        "mixture",
+        "qlora",
+        "reasoning",
+        "relative",
+        "rlvr",
+        "task",
+        "verifier"
+      ],
+      "first_seen_round": 205
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.05189v1",
+      "title": "Can Large Language Models Anticipate Behavioral Responses to Social Policies? A Case of Pension Enrollment Prediction among China's Flexible Workers",
+      "arxiv_id": "2609.05189",
+      "tokens": [
+        "among",
+        "anticipate",
+        "behavioral",
+        "case",
+        "china",
+        "enrollment",
+        "flexible",
+        "language",
+        "pension",
+        "policies",
+        "prediction",
+        "responses",
+        "social",
+        "workers"
+      ],
+      "first_seen_round": 205
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.05175v1",
+      "title": "Measuring the Novelty of Biomedical Papers Using the Latent Distances between Knowledge Units",
+      "arxiv_id": "2609.05175",
+      "tokens": [
+        "biomedical",
+        "distances",
+        "knowledge",
+        "latent",
+        "measuring",
+        "novelty",
+        "papers",
+        "units"
+      ],
+      "first_seen_round": 205
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.05152v1",
+      "title": "Compression Beyond the Uncompressed: A Two-Stage Training Recipe for Soft Context Compression in RAG",
+      "arxiv_id": "2609.05152",
+      "tokens": [
+        "compression",
+        "compression",
+        "context",
+        "rag",
+        "recipe",
+        "soft",
+        "stage",
+        "training",
+        "uncompressed"
+      ],
+      "first_seen_round": 205
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.05151v1",
+      "title": "Large Language Models with At Most One Spike per Neuron",
+      "arxiv_id": "2609.05151",
+      "tokens": [
+        "language",
+        "neuron",
+        "per",
+        "spike"
+      ],
+      "first_seen_round": 205
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.04721v1",
+      "title": "Locating and Steering Refusal Beyond Attention",
+      "arxiv_id": "2609.04721",
+      "tokens": [
+        "attention",
+        "locating",
+        "refusal",
+        "steering"
+      ],
+      "first_seen_round": 205
     }
   ],
-  "total_unique": 2112
+  "total_unique": 2134
 }

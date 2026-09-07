@@ -1,36 +1,6 @@
 {
   "sessions": [
     {
-      "timestamp": "2026-07-07T13:08:54.304465",
-      "arxiv_papers_count": 0,
-      "arxiv_top_keywords": [],
-      "arxiv_strategies": [
-        "cs.AI 最新",
-        "cs.LG 最新",
-        "cs.CL 最新"
-      ],
-      "huggingface_models": 0,
-      "huggingface_tasks": [],
-      "ml_datasets": [
-        "Iris",
-        "Wine",
-        "Breast Cancer",
-        "Diabetes"
-      ],
-      "ml_total_tests": 22,
-      "github_trending_repos": 8,
-      "paperswithcode_papers": 0,
-      "evolution": {
-        "discovered": 0,
-        "adopted": 0,
-        "decisions": 0
-      },
-      "seed_watering": {
-        "seed_name": "Mamba (SSM)",
-        "papers_found": 7
-      }
-    },
-    {
       "timestamp": "2026-07-07T13:20:32.326784",
       "arxiv_papers_count": 0,
       "arxiv_top_keywords": [],
@@ -4372,12 +4342,59 @@
         "seed_name": "Graph Neural Networks",
         "papers_found": 5
       }
+    },
+    {
+      "timestamp": "2026-09-07T01:32:52.101011",
+      "arxiv_papers_count": 21,
+      "arxiv_top_keywords": [
+        "language",
+        "large",
+        "textbf",
+        "policy",
+        "reasoning",
+        "uncertainty",
+        "agent",
+        "learning",
+        "robospa",
+        "vla"
+      ],
+      "arxiv_strategies": [
+        "cs.AI 最新",
+        "cs.LG 最新",
+        "cs.CL 最新"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "unknown",
+        "fill-mask",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 21,
+        "adopted": 1,
+        "decisions": 1
+      },
+      "seed_watering": {
+        "seed_name": "Mamba (SSM)",
+        "papers_found": 5
+      }
     }
   ],
   "total_sessions": 101,
-  "last_updated": "2026-09-06T23:18:43.928215",
+  "last_updated": "2026-09-07T01:32:52.101025",
   "evolution_summary": {
-    "total_adopted": 88,
+    "total_adopted": 89,
     "adopted_list": [
       "Knowledge Distillation",
       "World Models / Model-Based RL",
@@ -4466,13 +4483,14 @@
       "Multi-Relative Pose Query",
       "概念分离度量",
       "基础模型嵌入",
-      "Mathematics of Arrays (MoA)"
+      "Mathematics of Arrays (MoA)",
+      "超连接 (Hyper-Connections) 和 mHC"
     ],
     "seeds": {
       "mamba": {
         "name": "Mamba (SSM)",
-        "watering": 60,
-        "papers": 56
+        "watering": 61,
+        "papers": 57
       },
       "liquid-networks": {
         "name": "Liquid Networks",
@@ -4549,14 +4567,14 @@
       },
       "mamba": {
         "name": "Mamba (SSM)",
-        "new_papers": 51,
+        "new_papers": 52,
         "keywords_matched": [
-          "ssm",
+          "state space",
           "mamba",
-          "state space"
+          "ssm"
         ],
-        "high_relevance_total": 19,
-        "avg_relevance_latest": 0.0,
+        "high_relevance_total": 20,
+        "avg_relevance_latest": 2.0,
         "best_papers_count": 3
       },
       "liquid-networks": {
@@ -4662,6 +4680,6 @@
         "best_papers_count": 1
       }
     },
-    "last_evolution": "2026-09-06T23:18:43.929594"
+    "last_evolution": "2026-09-07T01:32:52.103422"
   }
 }
