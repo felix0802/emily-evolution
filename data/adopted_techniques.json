@@ -1373,6 +1373,36 @@
         ],
         "decided_at": "2026-09-07T06:42:57.389714"
       }
+    },
+    {
+      "id": "llm-在线变点检测",
+      "name": "在线变点检测",
+      "adopted_at": "2026-09-07T13:44:44.230046",
+      "decision": {
+        "tech_id": "llm-在线变点检测",
+        "tech_name": "在线变点检测",
+        "action": "adopt",
+        "confidence": 0.9,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-09-07T13:44:44.228887"
+      }
+    },
+    {
+      "id": "llm-合成任务扩展",
+      "name": "合成任务扩展",
+      "adopted_at": "2026-09-07T13:44:44.230079",
+      "decision": {
+        "tech_id": "llm-合成任务扩展",
+        "tech_name": "合成任务扩展",
+        "action": "adopt",
+        "confidence": 0.85,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-09-07T13:44:44.229048"
+      }
     }
   ],
   "history": [
@@ -1921,6 +1951,18 @@
       "tech_id": "llm-统一骨架动画模型",
       "tech_name": "统一骨架动画模型",
       "timestamp": "2026-09-07T06:42:57.391036"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-在线变点检测",
+      "tech_name": "在线变点检测",
+      "timestamp": "2026-09-07T13:44:44.230052"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-合成任务扩展",
+      "tech_name": "合成任务扩展",
+      "timestamp": "2026-09-07T13:44:44.230081"
     }
   ]
 }

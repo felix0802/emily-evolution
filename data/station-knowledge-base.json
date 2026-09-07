@@ -1,36 +1,6 @@
 {
   "sessions": [
     {
-      "timestamp": "2026-07-07T13:28:34.895679",
-      "arxiv_papers_count": 0,
-      "arxiv_top_keywords": [],
-      "arxiv_strategies": [
-        "cs.AI 最新",
-        "cs.LG 最新",
-        "cs.CL 最新"
-      ],
-      "huggingface_models": 0,
-      "huggingface_tasks": [],
-      "ml_datasets": [
-        "Iris",
-        "Wine",
-        "Breast Cancer",
-        "Diabetes"
-      ],
-      "ml_total_tests": 22,
-      "github_trending_repos": 8,
-      "paperswithcode_papers": 0,
-      "evolution": {
-        "discovered": 0,
-        "adopted": 0,
-        "decisions": 0
-      },
-      "seed_watering": {
-        "seed_name": "HTM",
-        "papers_found": 4
-      }
-    },
-    {
       "timestamp": "2026-07-07T13:34:00.093372",
       "arxiv_papers_count": 0,
       "arxiv_top_keywords": [],
@@ -4406,12 +4376,59 @@
         "seed_name": "Liquid Networks",
         "papers_found": 8
       }
+    },
+    {
+      "timestamp": "2026-09-07T13:44:48.348525",
+      "arxiv_papers_count": 18,
+      "arxiv_top_keywords": [
+        "large",
+        "language",
+        "learning",
+        "online",
+        "reasoning",
+        "medical",
+        "text",
+        "aware",
+        "loop",
+        "domain"
+      ],
+      "arxiv_strategies": [
+        "搜索: reinforcement learning",
+        "搜索: large language model",
+        "搜索: diffusion model"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "unknown",
+        "fill-mask",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 25,
+        "adopted": 2,
+        "decisions": 2
+      },
+      "seed_watering": {
+        "seed_name": "HTM",
+        "papers_found": 4
+      }
     }
   ],
   "total_sessions": 101,
-  "last_updated": "2026-09-07T06:43:00.498535",
+  "last_updated": "2026-09-07T13:44:48.348539",
   "evolution_summary": {
-    "total_adopted": 91,
+    "total_adopted": 93,
     "adopted_list": [
       "Knowledge Distillation",
       "World Models / Model-Based RL",
@@ -4503,7 +4520,9 @@
       "Mathematics of Arrays (MoA)",
       "超连接 (Hyper-Connections) 和 mHC",
       "组合式3D场景生成",
-      "统一骨架动画模型"
+      "统一骨架动画模型",
+      "在线变点检测",
+      "合成任务扩展"
     ],
     "seeds": {
       "mamba": {
@@ -4518,8 +4537,8 @@
       },
       "htm": {
         "name": "HTM",
-        "watering": 60,
-        "papers": 98
+        "watering": 61,
+        "papers": 100
       },
       "spiking-nn": {
         "name": "Spiking Neural Networks",
@@ -4610,18 +4629,18 @@
       },
       "htm": {
         "name": "HTM",
-        "new_papers": 93,
+        "new_papers": 95,
         "keywords_matched": [
-          "anomaly detection",
+          "hierarchical temporal",
           "sequence memory",
           "sparse distributed",
-          "cortical",
+          "online learning",
           "predictive coding",
-          "hierarchical temporal",
-          "online learning"
+          "anomaly detection",
+          "cortical"
         ],
         "high_relevance_total": 3,
-        "avg_relevance_latest": 0.0,
+        "avg_relevance_latest": 1.0,
         "best_papers_count": 0
       },
       "non-transformer": {
@@ -4699,6 +4718,6 @@
         "best_papers_count": 1
       }
     },
-    "last_evolution": "2026-09-07T06:43:00.500988"
+    "last_evolution": "2026-09-07T13:44:48.350567"
   }
 }

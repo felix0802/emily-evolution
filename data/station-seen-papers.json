@@ -34557,7 +34557,240 @@
         "operator"
       ],
       "first_seen_round": 206
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.04735v1",
+      "title": "Training Large Language Models for Small-Molecule Design with Synthetic Task Scaling",
+      "arxiv_id": "2609.04735",
+      "tokens": [
+        "design",
+        "language",
+        "molecule",
+        "scaling",
+        "synthetic",
+        "task",
+        "training"
+      ],
+      "first_seen_round": 207
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.04698v1",
+      "title": "LookThere! Sparse Vision by Reinforced Selection",
+      "arxiv_id": "2609.04698",
+      "tokens": [
+        "lookthere",
+        "reinforced",
+        "selection",
+        "sparse",
+        "vision"
+      ],
+      "first_seen_round": 207
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.04565v1",
+      "title": "Extremely Sparse Supervision Incentivizes Reasoning Ability",
+      "arxiv_id": "2609.04565",
+      "tokens": [
+        "ability",
+        "extremely",
+        "incentivizes",
+        "reasoning",
+        "sparse",
+        "supervision"
+      ],
+      "first_seen_round": 207
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.04415v1",
+      "title": "REFINE: LLM Refinement over Budgeted Text-Attributed Graphs for Personalized Medical Concept Representation",
+      "arxiv_id": "2609.04415",
+      "tokens": [
+        "attributed",
+        "budgeted",
+        "concept",
+        "graphs",
+        "llm",
+        "medical",
+        "personalized",
+        "refine",
+        "refinement",
+        "representation",
+        "text"
+      ],
+      "first_seen_round": 207
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.04355v1",
+      "title": "VLA-Precision: Asymmetric Co-Bootstrapping for Efficient Real-World Online RL of Vision-Language-Action Models",
+      "arxiv_id": "2609.04355",
+      "tokens": [
+        "action",
+        "asymmetric",
+        "bootstrapping",
+        "language",
+        "online",
+        "precision",
+        "real",
+        "vision",
+        "vla",
+        "world"
+      ],
+      "first_seen_round": 207
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.05143v1",
+      "title": "A Human-in-the-Loop Framework for AI-Assisted Scoring in Large-Scale Writing Assessment",
+      "arxiv_id": "2609.05143",
+      "tokens": [
+        "assessment",
+        "assisted",
+        "human",
+        "loop",
+        "scale",
+        "scoring",
+        "writing"
+      ],
+      "first_seen_round": 207
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.05099v1",
+      "title": "Improving Language Identification for Code-Switched Utterances with Integer Linear Programming",
+      "arxiv_id": "2609.05099",
+      "tokens": [
+        "code",
+        "identification",
+        "improving",
+        "integer",
+        "language",
+        "linear",
+        "programming",
+        "switched",
+        "utterances"
+      ],
+      "first_seen_round": 207
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.05028v1",
+      "title": "Compositional Reward Models for Conditional Medical Image Generation",
+      "arxiv_id": "2609.05028",
+      "tokens": [
+        "compositional",
+        "conditional",
+        "generation",
+        "image",
+        "medical",
+        "reward"
+      ],
+      "first_seen_round": 207
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.04921v1",
+      "title": "One Diffusion Model, Two Roles: Guided Trajectory Planning and Safety-Critical Scenario Generation in Closed-Loop Simulation",
+      "arxiv_id": "2609.04921",
+      "tokens": [
+        "closed",
+        "critical",
+        "diffusion",
+        "generation",
+        "guided",
+        "loop",
+        "planning",
+        "roles",
+        "safety",
+        "scenario",
+        "simulation",
+        "trajectory"
+      ],
+      "first_seen_round": 207
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.04903v1",
+      "title": "InterSing: Explicit Interaction Dynamics for 3D Duet Singing Animation and Beyond",
+      "arxiv_id": "2609.04903",
+      "tokens": [
+        "animation",
+        "duet",
+        "dynamics",
+        "explicit",
+        "interaction",
+        "intersing",
+        "singing"
+      ],
+      "first_seen_round": 207
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.04837v1",
+      "title": "PAPT++: Risk-Aware Adversarial Tuning and Generation for Single Domain Generalization",
+      "arxiv_id": "2609.04837",
+      "tokens": [
+        "adversarial",
+        "aware",
+        "domain",
+        "generalization",
+        "generation",
+        "papt",
+        "risk",
+        "single",
+        "tuning"
+      ],
+      "first_seen_round": 207
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.04709v1",
+      "title": "AngelFingerprint: A Traceable, Explainable, and White-Box Stealthy Watermark for Text-Guided Image Editing",
+      "arxiv_id": "2609.04709",
+      "tokens": [
+        "angelfingerprint",
+        "box",
+        "editing",
+        "explainable",
+        "guided",
+        "image",
+        "stealthy",
+        "text",
+        "traceable",
+        "watermark",
+        "white"
+      ],
+      "first_seen_round": 207
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.05253v1",
+      "title": "GLASS: Graph-Language Alignment with Spherical Scoring for Transferable Graph-Level Anomaly Detection",
+      "arxiv_id": "2609.05253",
+      "tokens": [
+        "alignment",
+        "anomaly",
+        "detection",
+        "glass",
+        "graph",
+        "graph",
+        "language",
+        "level",
+        "scoring",
+        "spherical",
+        "transferable"
+      ],
+      "first_seen_round": 207
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.05066v1",
+      "title": "Adaptive Multi-Granularity Temporal Modeling for Weakly Supervised Video Anomaly Detection",
+      "arxiv_id": "2609.05066",
+      "tokens": [
+        "adaptive",
+        "anomaly",
+        "detection",
+        "granularity",
+        "modeling",
+        "multi",
+        "supervised",
+        "temporal",
+        "video",
+        "weakly"
+      ],
+      "first_seen_round": 207
     }
   ],
-  "total_unique": 2156
+  "total_unique": 2170
 }
