@@ -1,28 +1,6 @@
 {
   "rounds": [
     {
-      "round": 161,
-      "timestamp": "2026-07-16T04:47:51.241613",
-      "prediction_error": 0.5,
-      "seeds_active": 10,
-      "seeds_dormant": 0,
-      "new_seeds_added": 0,
-      "top_motivated": [
-        [
-          "moe",
-          0.65
-        ],
-        [
-          "kv-cache",
-          0.65
-        ],
-        [
-          "gnn",
-          0.607
-        ]
-      ]
-    },
-    {
       "round": 162,
       "timestamp": "2026-07-16T07:51:44.478785",
       "prediction_error": 0.5,
@@ -1099,6 +1077,28 @@
           0.91
         ]
       ]
+    },
+    {
+      "round": 211,
+      "timestamp": "2026-09-08T06:38:35.341587",
+      "prediction_error": 0.7,
+      "seeds_active": 9,
+      "seeds_dormant": 1,
+      "new_seeds_added": 0,
+      "top_motivated": [
+        [
+          "mamba",
+          0.91
+        ],
+        [
+          "liquid-networks",
+          0.91
+        ],
+        [
+          "htm",
+          0.91
+        ]
+      ]
     }
   ],
   "seed_scores": {
@@ -1172,17 +1172,17 @@
         1.0,
         1.0,
         1.0,
+        0.923,
+        0.923,
+        0.923,
+        0.923,
+        0.923,
+        0.923,
+        0.923,
+        0.923,
+        0.923,
+        0.923,
         1.0,
-        0.923,
-        0.923,
-        0.923,
-        0.923,
-        0.923,
-        0.923,
-        0.923,
-        0.923,
-        0.923,
-        0.923,
         1.0,
         1.0,
         1.0,
@@ -1262,7 +1262,7 @@
         0.692,
         0.692,
         0.692,
-        0.692,
+        0.0,
         0.0,
         0.0,
         0.0,
@@ -1278,11 +1278,10 @@
     },
     "continual-learning": {
       "name": "Continual Learning",
-      "info_gain": 0.735,
+      "info_gain": 0.0,
       "novelty": 1.0,
-      "motivation_score": 0.804,
+      "motivation_score": 0.51,
       "info_gain_history": [
-        1.0,
         0.9,
         0.9,
         0.9,
@@ -1302,7 +1301,8 @@
         0.735,
         0.735,
         0.735,
-        0.735
+        0.735,
+        0.0
       ]
     },
     "moe": {
@@ -1322,7 +1322,7 @@
         1.0,
         1.0,
         1.0,
-        1.0,
+        0.6,
         0.6,
         0.6,
         0.6,
@@ -1397,6 +1397,6 @@
   "dormant_seeds": [
     "few-shot"
   ],
-  "total_motivation_evaluations": 51,
+  "total_motivation_evaluations": 52,
   "current_prediction_error": 0.7
 }

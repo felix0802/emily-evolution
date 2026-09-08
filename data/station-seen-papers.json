@@ -35107,7 +35107,39 @@
         "pruning"
       ],
       "first_seen_round": 210
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.04971v1",
+      "title": "BeaconKV: Key-Value Cache Compression Guided by Beacon Queries for Efficient Large Reasoning Model Inference",
+      "arxiv_id": "2609.04971",
+      "tokens": [
+        "beacon",
+        "beaconkv",
+        "cache",
+        "compression",
+        "guided",
+        "inference",
+        "key",
+        "queries",
+        "reasoning",
+        "value"
+      ],
+      "first_seen_round": 211
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.04434v1",
+      "title": "What Attention Recalls and Recurrence Controls in Hybrid Language Models",
+      "arxiv_id": "2609.04434",
+      "tokens": [
+        "attention",
+        "controls",
+        "hybrid",
+        "language",
+        "recalls",
+        "recurrence"
+      ],
+      "first_seen_round": 211
     }
   ],
-  "total_unique": 2189
+  "total_unique": 2191
 }

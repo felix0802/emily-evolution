@@ -1493,6 +1493,21 @@
         ],
         "decided_at": "2026-09-08T01:43:16.075677"
       }
+    },
+    {
+      "id": "llm-beaconkv",
+      "name": "BeaconKV",
+      "adopted_at": "2026-09-08T06:38:41.014002",
+      "decision": {
+        "tech_id": "llm-beaconkv",
+        "tech_name": "BeaconKV",
+        "action": "adopt",
+        "confidence": 0.9,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-09-08T06:38:41.012643"
+      }
     }
   ],
   "history": [
@@ -2089,6 +2104,12 @@
       "tech_id": "llm-马尔可夫毯因果发现",
       "tech_name": "马尔可夫毯因果发现",
       "timestamp": "2026-09-08T01:43:16.077532"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-beaconkv",
+      "tech_name": "BeaconKV",
+      "timestamp": "2026-09-08T06:38:41.014008"
     }
   ]
 }
