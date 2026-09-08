@@ -1463,6 +1463,36 @@
         ],
         "decided_at": "2026-09-07T22:20:55.947865"
       }
+    },
+    {
+      "id": "llm-llm适应选择",
+      "name": "LLM适应选择",
+      "adopted_at": "2026-09-08T01:43:16.077508",
+      "decision": {
+        "tech_id": "llm-llm适应选择",
+        "tech_name": "LLM适应选择",
+        "action": "adopt",
+        "confidence": 0.9,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-09-08T01:43:16.075466"
+      }
+    },
+    {
+      "id": "llm-马尔可夫毯因果发现",
+      "name": "马尔可夫毯因果发现",
+      "adopted_at": "2026-09-08T01:43:16.077531",
+      "decision": {
+        "tech_id": "llm-马尔可夫毯因果发现",
+        "tech_name": "马尔可夫毯因果发现",
+        "action": "adopt",
+        "confidence": 0.85,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-09-08T01:43:16.075677"
+      }
     }
   ],
   "history": [
@@ -2047,6 +2077,18 @@
       "tech_id": "llm-随机游走指纹",
       "tech_name": "随机游走指纹",
       "timestamp": "2026-09-07T22:20:55.948870"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-llm适应选择",
+      "tech_name": "LLM适应选择",
+      "timestamp": "2026-09-08T01:43:16.077516"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-马尔可夫毯因果发现",
+      "tech_name": "马尔可夫毯因果发现",
+      "timestamp": "2026-09-08T01:43:16.077532"
     }
   ]
 }

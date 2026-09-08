@@ -35005,7 +35005,109 @@
         "world"
       ],
       "first_seen_round": 209
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.05235v1",
+      "title": "PRICE: A Systematic Study of LLM Adaptation Choices for Bitcoin Price Forecasting",
+      "arxiv_id": "2609.05235",
+      "tokens": [
+        "adaptation",
+        "bitcoin",
+        "choices",
+        "forecasting",
+        "llm",
+        "price",
+        "price",
+        "systematic"
+      ],
+      "first_seen_round": 210
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.05212v1",
+      "title": "PAC-Bayesian Reconstruction Guarantees for Time Series Variational Autoencoders",
+      "arxiv_id": "2609.05212",
+      "tokens": [
+        "autoencoders",
+        "bayesian",
+        "guarantees",
+        "pac",
+        "reconstruction",
+        "series",
+        "time",
+        "variational"
+      ],
+      "first_seen_round": 210
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.05150v1",
+      "title": "Beyond Stationarity in Time Series: Discovering Causal Structures and Latent Regimes via Markov Blankets",
+      "arxiv_id": "2609.05150",
+      "tokens": [
+        "blankets",
+        "causal",
+        "discovering",
+        "latent",
+        "markov",
+        "regimes",
+        "series",
+        "stationarity",
+        "structures",
+        "time"
+      ],
+      "first_seen_round": 210
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.05136v1",
+      "title": "MomentQuant: an even more minimalist interval method with linear time complexity for time series classification",
+      "arxiv_id": "2609.05136",
+      "tokens": [
+        "classification",
+        "complexity",
+        "even",
+        "interval",
+        "linear",
+        "minimalist",
+        "momentquant",
+        "series",
+        "time",
+        "time"
+      ],
+      "first_seen_round": 210
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.04575v1",
+      "title": "Training-Free Halving of Activated Experts in Fine-Grained Mixture-of-Experts Models",
+      "arxiv_id": "2609.04575",
+      "tokens": [
+        "activated",
+        "experts",
+        "experts",
+        "fine",
+        "free",
+        "grained",
+        "halving",
+        "mixture",
+        "training"
+      ],
+      "first_seen_round": 210
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.04453v1",
+      "title": "When Load-Balancing Goes Too Far: Expert Pruning in Over-Dispersed Mixture-of-Experts Models",
+      "arxiv_id": "2609.04453",
+      "tokens": [
+        "balancing",
+        "dispersed",
+        "expert",
+        "experts",
+        "far",
+        "goes",
+        "load",
+        "mixture",
+        "pruning"
+      ],
+      "first_seen_round": 210
     }
   ],
-  "total_unique": 2183
+  "total_unique": 2189
 }
