@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-08T20:24:30.462050",
+  "timestamp": "2026-09-08T23:43:57.131450",
   "connections": [
     {
       "seed_a": "Mamba (SSM)",
@@ -10,7 +10,7 @@
       ],
       "shared_paper_concepts": [],
       "strength": 4,
-      "discovered_at": "2026-09-08T20:24:30.461991"
+      "discovered_at": "2026-09-08T23:43:57.131422"
     },
     {
       "seed_a": "Liquid Networks",
@@ -23,7 +23,7 @@
         "neural"
       ],
       "strength": 4,
-      "discovered_at": "2026-09-08T20:24:30.462012"
+      "discovered_at": "2026-09-08T23:43:57.131434"
     },
     {
       "seed_a": "HTM",
@@ -34,7 +34,7 @@
         "with"
       ],
       "strength": 2,
-      "discovered_at": "2026-09-08T20:24:30.462032"
+      "discovered_at": "2026-09-08T23:43:57.131439"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -44,7 +44,7 @@
         "attention"
       ],
       "strength": 1,
-      "discovered_at": "2026-09-08T20:24:30.462000"
+      "discovered_at": "2026-09-08T23:43:57.131427"
     },
     {
       "seed_a": "Liquid Networks",
@@ -54,7 +54,7 @@
         "graph"
       ],
       "strength": 1,
-      "discovered_at": "2026-09-08T20:24:30.462005"
+      "discovered_at": "2026-09-08T23:43:57.131430"
     },
     {
       "seed_a": "Mixture of Experts",
@@ -64,7 +64,7 @@
         "aware"
       ],
       "strength": 1,
-      "discovered_at": "2026-09-08T20:24:30.462044"
+      "discovered_at": "2026-09-08T23:43:57.131446"
     }
   ],
   "total_seeds": 10

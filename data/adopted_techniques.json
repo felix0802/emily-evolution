@@ -1553,6 +1553,21 @@
         ],
         "decided_at": "2026-09-08T17:38:00.217717"
       }
+    },
+    {
+      "id": "llm-变化点检测",
+      "name": "变化点检测",
+      "adopted_at": "2026-09-08T23:43:57.121368",
+      "decision": {
+        "tech_id": "llm-变化点检测",
+        "tech_name": "变化点检测",
+        "action": "adopt",
+        "confidence": 0.9,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-09-08T23:43:57.120450"
+      }
     }
   ],
   "history": [
@@ -2173,6 +2188,12 @@
       "tech_id": "llm-深度生成模型",
       "tech_name": "深度生成模型",
       "timestamp": "2026-09-08T17:38:00.218942"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-变化点检测",
+      "tech_name": "变化点检测",
+      "timestamp": "2026-09-08T23:43:57.121370"
     }
   ]
 }

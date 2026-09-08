@@ -110,14 +110,13 @@
   "mamba": {
     "name": "Mamba (SSM)",
     "total_new_papers": 52,
-    "total_watering": 54,
+    "total_watering": 55,
     "all_keywords_matched": [
-      "state space",
       "mamba",
+      "state space",
       "ssm"
     ],
     "avg_relevance_trend": [
-      0.0,
       0.0,
       0.0,
       0.0,
@@ -136,7 +135,8 @@
       0.0,
       0.0,
       0.0,
-      2.0
+      2.0,
+      0.0
     ],
     "high_relevance_total": 20,
     "best_papers": [
@@ -156,7 +156,7 @@
         "published": "2026-07-21"
       }
     ],
-    "last_updated": "2026-09-07T01:32:45.797679"
+    "last_updated": "2026-09-08T23:43:51.677490"
   },
   "liquid-networks": {
     "name": "Liquid Networks",
