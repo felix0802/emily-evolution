@@ -1,20 +1,6 @@
 {
-  "timestamp": "2026-09-08T17:38:03.874820",
+  "timestamp": "2026-09-08T20:24:30.462050",
   "connections": [
-    {
-      "seed_a": "Liquid Networks",
-      "seed_b": "Graph Neural Networks",
-      "shared_keywords": [],
-      "shared_paper_concepts": [
-        "graph",
-        "learning",
-        "networks",
-        "neural",
-        "survey"
-      ],
-      "strength": 5,
-      "discovered_at": "2026-09-08T17:38:03.874794"
-    },
     {
       "seed_a": "Mamba (SSM)",
       "seed_b": "Non-Transformer Arch",
@@ -24,7 +10,20 @@
       ],
       "shared_paper_concepts": [],
       "strength": 4,
-      "discovered_at": "2026-09-08T17:38:03.874772"
+      "discovered_at": "2026-09-08T20:24:30.461991"
+    },
+    {
+      "seed_a": "Liquid Networks",
+      "seed_b": "Graph Neural Networks",
+      "shared_keywords": [],
+      "shared_paper_concepts": [
+        "based",
+        "graph",
+        "learning",
+        "neural"
+      ],
+      "strength": 4,
+      "discovered_at": "2026-09-08T20:24:30.462012"
     },
     {
       "seed_a": "HTM",
@@ -32,12 +31,10 @@
       "shared_keywords": [],
       "shared_paper_concepts": [
         "graph",
-        "level",
-        "temporal",
         "with"
       ],
-      "strength": 4,
-      "discovered_at": "2026-09-08T17:38:03.874802"
+      "strength": 2,
+      "discovered_at": "2026-09-08T20:24:30.462032"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -47,7 +44,7 @@
         "attention"
       ],
       "strength": 1,
-      "discovered_at": "2026-09-08T17:38:03.874781"
+      "discovered_at": "2026-09-08T20:24:30.462000"
     },
     {
       "seed_a": "Liquid Networks",
@@ -57,7 +54,7 @@
         "graph"
       ],
       "strength": 1,
-      "discovered_at": "2026-09-08T17:38:03.874786"
+      "discovered_at": "2026-09-08T20:24:30.462005"
     },
     {
       "seed_a": "Mixture of Experts",
@@ -67,7 +64,7 @@
         "aware"
       ],
       "strength": 1,
-      "discovered_at": "2026-09-08T17:38:03.874814"
+      "discovered_at": "2026-09-08T20:24:30.462044"
     }
   ],
   "total_seeds": 10

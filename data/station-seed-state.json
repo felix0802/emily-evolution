@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 579,
+  "_rotation_idx": 580,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 57,
@@ -6929,18 +6929,9 @@
   },
   "gnn": {
     "name": "Graph Neural Networks",
-    "total_papers_found": 125,
-    "watering_count": 56,
+    "total_papers_found": 127,
+    "watering_count": 57,
     "history": [
-      {
-        "timestamp": "2026-07-18T10:54:25.553798",
-        "papers_found": 0,
-        "duplicates": 4,
-        "irrelevant_filtered": 6,
-        "avg_relevance": 0.0,
-        "high_relevance": 0,
-        "papers": []
-      },
       {
         "timestamp": "2026-07-19T09:41:59.616974",
         "papers_found": 0,
@@ -7977,6 +7968,30 @@
         "avg_relevance": 0.0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-09-08T20:24:24.243433",
+        "papers_found": 2,
+        "duplicates": 6,
+        "irrelevant_filtered": 2,
+        "avg_relevance": 1.5,
+        "high_relevance": 1,
+        "papers": [
+          {
+            "title": "A Unified Physics-Aware Quantum Machine Learning Framework across Power GaN HEMTs and Logic Nanowire FETs: Predicting Unseen Process Splits and Held-Out Geometry Combinations with Lower Error and Tighter Split-to-Split Variability",
+            "summary": "We present a unified reinforcement-learning (RL) framework that discovers compact parametrized quantum circuits (PQCs) for data-scarce device modeling. A graph neural network (GNN) policy optimized by proximal policy optimization (PPO) searches circuit architectures using leave-one-group-out cross-v",
+            "published": "2026-09-04",
+            "url": "http://arxiv.org/abs/2609.05251v1",
+            "seed_match_score": 2
+          },
+          {
+            "title": "Predicting Spatiotemporal Mobile Sensing-Based PM2.5 Concentrations Using Low-Rank Adapted Spatially Attentive Graph Neural Network",
+            "summary": "Urban air quality can vary significantly along transit corridors, necessitating high-resolution monitoring. This work introduces a novel mobile-sensing dataset from Surat, Gujarat, India, comprising PM$*{2.5}$ concentrations, meteorological variables (temperature, humidity, wind speed, wind directio",
+            "published": "2026-09-04",
+            "url": "http://arxiv.org/abs/2609.04693v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -7988,6 +8003,6 @@
       "node embedding",
       "graph transformer"
     ],
-    "last_watered": "2026-09-06T23:18:39.144070"
+    "last_watered": "2026-09-08T20:24:24.243427"
   }
 }
