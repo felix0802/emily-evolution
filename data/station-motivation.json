@@ -1,28 +1,6 @@
 {
   "rounds": [
     {
-      "round": 163,
-      "timestamp": "2026-07-16T09:52:54.323339",
-      "prediction_error": 0.5,
-      "seeds_active": 10,
-      "seeds_dormant": 0,
-      "new_seeds_added": 0,
-      "top_motivated": [
-        [
-          "kv-cache",
-          0.65
-        ],
-        [
-          "gnn",
-          0.607
-        ],
-        [
-          "mamba",
-          0.49
-        ]
-      ]
-    },
-    {
       "round": 164,
       "timestamp": "2026-07-16T11:25:10.541179",
       "prediction_error": 0.5,
@@ -1099,6 +1077,28 @@
           0.91
         ]
       ]
+    },
+    {
+      "round": 213,
+      "timestamp": "2026-09-08T17:37:54.645886",
+      "prediction_error": 0.7,
+      "seeds_active": 9,
+      "seeds_dormant": 1,
+      "new_seeds_added": 0,
+      "top_motivated": [
+        [
+          "mamba",
+          0.91
+        ],
+        [
+          "liquid-networks",
+          0.91
+        ],
+        [
+          "htm",
+          0.91
+        ]
+      ]
     }
   ],
   "seed_scores": {
@@ -1170,17 +1170,17 @@
         1.0,
         1.0,
         1.0,
+        0.923,
+        0.923,
+        0.923,
+        0.923,
+        0.923,
+        0.923,
+        0.923,
+        0.923,
+        0.923,
+        0.923,
         1.0,
-        0.923,
-        0.923,
-        0.923,
-        0.923,
-        0.923,
-        0.923,
-        0.923,
-        0.923,
-        0.923,
-        0.923,
         1.0,
         1.0,
         1.0,
@@ -1260,7 +1260,7 @@
         0.692,
         0.692,
         0.692,
-        0.692,
+        0.0,
         0.0,
         0.0,
         0.0,
@@ -1290,7 +1290,6 @@
         0.9,
         0.9,
         0.9,
-        0.9,
         0.735,
         0.735,
         0.735,
@@ -1301,6 +1300,7 @@
         0.735,
         0.735,
         0.735,
+        0.0,
         0.0,
         0.0
       ]
@@ -1320,7 +1320,6 @@
         1.0,
         1.0,
         1.0,
-        1.0,
         0.6,
         0.6,
         0.6,
@@ -1331,14 +1330,15 @@
         0.6,
         0.6,
         0.6,
+        0.72,
         0.72
       ]
     },
     "kv-cache": {
       "name": "KV Cache Optimization",
-      "info_gain": 1.0,
+      "info_gain": 0.806,
       "novelty": 1.0,
-      "motivation_score": 0.91,
+      "motivation_score": 0.832,
       "info_gain_history": [
         1.0,
         1.0,
@@ -1360,7 +1360,7 @@
         1.0,
         1.0,
         1.0,
-        1.0
+        0.806
       ]
     },
     "gnn": {
@@ -1397,6 +1397,6 @@
   "dormant_seeds": [
     "few-shot"
   ],
-  "total_motivation_evaluations": 53,
+  "total_motivation_evaluations": 54,
   "current_prediction_error": 0.7
 }

@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 578,
+  "_rotation_idx": 579,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 57,
@@ -6021,18 +6021,9 @@
   },
   "kv-cache": {
     "name": "KV Cache Optimization",
-    "total_papers_found": 76,
-    "watering_count": 55,
+    "total_papers_found": 77,
+    "watering_count": 56,
     "history": [
-      {
-        "timestamp": "2026-07-18T09:13:52.937818",
-        "papers_found": 0,
-        "duplicates": 6,
-        "irrelevant_filtered": 4,
-        "avg_relevance": 0.0,
-        "high_relevance": 0,
-        "papers": []
-      },
       {
         "timestamp": "2026-07-19T07:54:40.308963",
         "papers_found": 0,
@@ -6906,6 +6897,23 @@
         "avg_relevance": 0.0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-09-08T17:37:54.631361",
+        "papers_found": 1,
+        "duplicates": 5,
+        "irrelevant_filtered": 4,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "Fast Gauss Sums via Flash Attention",
+            "summary": "Gaussian kernel sums are the computational core of maximum mean discrepancies (MMDs), kernel gradient flows, Stein variational gradient descent (SVGD), and many other kernel methods. At the same time, softmax attention has received an extraordinary amount of hardware-aware code engineering, culminat",
+            "published": "2026-09-04",
+            "url": "http://arxiv.org/abs/2609.04910v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -6917,7 +6925,7 @@
       "flash attention",
       "speculative decoding"
     ],
-    "last_watered": "2026-09-06T21:48:19.993478"
+    "last_watered": "2026-09-08T17:37:54.631354"
   },
   "gnn": {
     "name": "Graph Neural Networks",

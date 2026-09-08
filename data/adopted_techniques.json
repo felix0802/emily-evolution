@@ -1508,6 +1508,51 @@
         ],
         "decided_at": "2026-09-08T06:38:41.012643"
       }
+    },
+    {
+      "id": "llm-扩散模型",
+      "name": "扩散模型",
+      "adopted_at": "2026-09-08T17:38:00.218911",
+      "decision": {
+        "tech_id": "llm-扩散模型",
+        "tech_name": "扩散模型",
+        "action": "adopt",
+        "confidence": 0.9,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-09-08T17:38:00.217454"
+      }
+    },
+    {
+      "id": "llm-联邦学习",
+      "name": "联邦学习",
+      "adopted_at": "2026-09-08T17:38:00.218930",
+      "decision": {
+        "tech_id": "llm-联邦学习",
+        "tech_name": "联邦学习",
+        "action": "adopt",
+        "confidence": 0.85,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-09-08T17:38:00.217636"
+      }
+    },
+    {
+      "id": "llm-深度生成模型",
+      "name": "深度生成模型",
+      "adopted_at": "2026-09-08T17:38:00.218941",
+      "decision": {
+        "tech_id": "llm-深度生成模型",
+        "tech_name": "深度生成模型",
+        "action": "adopt",
+        "confidence": 0.8,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-09-08T17:38:00.217717"
+      }
     }
   ],
   "history": [
@@ -2110,6 +2155,24 @@
       "tech_id": "llm-beaconkv",
       "tech_name": "BeaconKV",
       "timestamp": "2026-09-08T06:38:41.014008"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-扩散模型",
+      "tech_name": "扩散模型",
+      "timestamp": "2026-09-08T17:38:00.218916"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-联邦学习",
+      "tech_name": "联邦学习",
+      "timestamp": "2026-09-08T17:38:00.218931"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-深度生成模型",
+      "tech_name": "深度生成模型",
+      "timestamp": "2026-09-08T17:38:00.218942"
     }
   ]
 }

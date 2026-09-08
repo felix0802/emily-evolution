@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-08T12:20:28.256474",
+  "timestamp": "2026-09-08T17:38:03.874820",
   "connections": [
     {
       "seed_a": "Liquid Networks",
@@ -13,7 +13,7 @@
         "survey"
       ],
       "strength": 5,
-      "discovered_at": "2026-09-08T12:20:28.256443"
+      "discovered_at": "2026-09-08T17:38:03.874794"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -24,7 +24,7 @@
       ],
       "shared_paper_concepts": [],
       "strength": 4,
-      "discovered_at": "2026-09-08T12:20:28.256422"
+      "discovered_at": "2026-09-08T17:38:03.874772"
     },
     {
       "seed_a": "HTM",
@@ -37,29 +37,7 @@
         "with"
       ],
       "strength": 4,
-      "discovered_at": "2026-09-08T12:20:28.256453"
-    },
-    {
-      "seed_a": "Mixture of Experts",
-      "seed_b": "KV Cache Optimization",
-      "shared_keywords": [],
-      "shared_paper_concepts": [
-        "cache",
-        "efficient"
-      ],
-      "strength": 2,
-      "discovered_at": "2026-09-08T12:20:28.256463"
-    },
-    {
-      "seed_a": "KV Cache Optimization",
-      "seed_b": "Graph Neural Networks",
-      "shared_keywords": [],
-      "shared_paper_concepts": [
-        "reasoning",
-        "with"
-      ],
-      "strength": 2,
-      "discovered_at": "2026-09-08T12:20:28.256469"
+      "discovered_at": "2026-09-08T17:38:03.874802"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -69,7 +47,7 @@
         "attention"
       ],
       "strength": 1,
-      "discovered_at": "2026-09-08T12:20:28.256431"
+      "discovered_at": "2026-09-08T17:38:03.874781"
     },
     {
       "seed_a": "Liquid Networks",
@@ -79,17 +57,7 @@
         "graph"
       ],
       "strength": 1,
-      "discovered_at": "2026-09-08T12:20:28.256436"
-    },
-    {
-      "seed_a": "HTM",
-      "seed_b": "KV Cache Optimization",
-      "shared_keywords": [],
-      "shared_paper_concepts": [
-        "with"
-      ],
-      "strength": 1,
-      "discovered_at": "2026-09-08T12:20:28.256449"
+      "discovered_at": "2026-09-08T17:38:03.874786"
     },
     {
       "seed_a": "Mixture of Experts",
@@ -99,7 +67,7 @@
         "aware"
       ],
       "strength": 1,
-      "discovered_at": "2026-09-08T12:20:28.256466"
+      "discovered_at": "2026-09-08T17:38:03.874814"
     }
   ],
   "total_seeds": 10
