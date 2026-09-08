@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 577,
+  "_rotation_idx": 578,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 57,
@@ -5081,18 +5081,9 @@
   },
   "moe": {
     "name": "Mixture of Experts",
-    "total_papers_found": 84,
-    "watering_count": 54,
+    "total_papers_found": 85,
+    "watering_count": 55,
     "history": [
-      {
-        "timestamp": "2026-07-18T07:23:41.064247",
-        "papers_found": 0,
-        "duplicates": 6,
-        "irrelevant_filtered": 4,
-        "avg_relevance": 0.0,
-        "high_relevance": 0,
-        "papers": []
-      },
       {
         "timestamp": "2026-07-19T04:58:03.382788",
         "papers_found": 0,
@@ -5998,6 +5989,23 @@
         "avg_relevance": 0.0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-09-08T12:20:23.080866",
+        "papers_found": 1,
+        "duplicates": 8,
+        "irrelevant_filtered": 1,
+        "avg_relevance": 3.0,
+        "high_relevance": 1,
+        "papers": [
+          {
+            "title": "Cache-Aware Joint Router Adaptation for Memory-Efficient MoE Inference",
+            "summary": "Mixture-of-Experts (MoE) models activate only a small subset of experts per token, but the full expert set often exceeds GPU memory, causing repeated weight transfers during decoding. We formulate expert-cache management as a model-side algorithmic problem and propose a cache-aware post-training fra",
+            "published": "2026-09-04",
+            "url": "http://arxiv.org/abs/2609.04895v1",
+            "seed_match_score": 3
+          }
+        ]
       }
     ],
     "keywords": [
@@ -6009,7 +6017,7 @@
       "switch transformer",
       "deepseek"
     ],
-    "last_watered": "2026-09-06T19:41:23.128220"
+    "last_watered": "2026-09-08T12:20:23.080860"
   },
   "kv-cache": {
     "name": "KV Cache Optimization",
