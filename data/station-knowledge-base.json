@@ -1,53 +1,6 @@
 {
   "sessions": [
     {
-      "timestamp": "2026-07-08T10:55:30.956898",
-      "arxiv_papers_count": 5,
-      "arxiv_top_keywords": [
-        "question",
-        "answer",
-        "type",
-        "llm",
-        "bioasq",
-        "danus",
-        "mathematical",
-        "reasoning",
-        "agents",
-        "orchestrating"
-      ],
-      "arxiv_strategies": [
-        "cs.AI (fallback)",
-        "cs.AI (fallback)",
-        "cs.AI (fallback)"
-      ],
-      "huggingface_models": 10,
-      "huggingface_tasks": [
-        "sentence-similarity",
-        "fill-mask",
-        "text-generation",
-        "text-ranking",
-        "feature-extraction"
-      ],
-      "ml_datasets": [
-        "Iris",
-        "Wine",
-        "Breast Cancer",
-        "Diabetes"
-      ],
-      "ml_total_tests": 22,
-      "github_trending_repos": 8,
-      "paperswithcode_papers": 8,
-      "evolution": {
-        "discovered": 26,
-        "adopted": 0,
-        "decisions": 0
-      },
-      "seed_watering": {
-        "seed_name": "HTM",
-        "papers_found": 4
-      }
-    },
-    {
       "timestamp": "2026-07-08T13:04:30.104751",
       "arxiv_papers_count": 18,
       "arxiv_top_keywords": [
@@ -4470,12 +4423,59 @@
         "seed_name": "Liquid Networks",
         "papers_found": 7
       }
+    },
+    {
+      "timestamp": "2026-09-09T06:49:41.990324",
+      "arxiv_papers_count": 18,
+      "arxiv_top_keywords": [
+        "learning",
+        "world",
+        "classification",
+        "prediction",
+        "graph",
+        "multi",
+        "data",
+        "state",
+        "open",
+        "set"
+      ],
+      "arxiv_strategies": [
+        "搜索: graph neural network",
+        "搜索: transfer learning",
+        "搜索: world model"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "unknown",
+        "fill-mask",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 14,
+        "adopted": 1,
+        "decisions": 1
+      },
+      "seed_watering": {
+        "seed_name": "HTM",
+        "papers_found": 4
+      }
     }
   ],
   "total_sessions": 101,
-  "last_updated": "2026-09-09T01:49:52.622769",
+  "last_updated": "2026-09-09T06:49:41.990340",
   "evolution_summary": {
-    "total_adopted": 106,
+    "total_adopted": 107,
     "adopted_list": [
       "Knowledge Distillation",
       "World Models / Model-Based RL",
@@ -4582,7 +4582,8 @@
       "深度生成模型",
       "变化点检测",
       "互补推荐模型",
-      "AI代理模型"
+      "AI代理模型",
+      "伪外推 (Pseudo-Extrapolation)"
     ],
     "seeds": {
       "mamba": {
@@ -4597,8 +4598,8 @@
       },
       "htm": {
         "name": "HTM",
-        "watering": 61,
-        "papers": 100
+        "watering": 62,
+        "papers": 104
       },
       "spiking-nn": {
         "name": "Spiking Neural Networks",
@@ -4689,15 +4690,15 @@
       },
       "htm": {
         "name": "HTM",
-        "new_papers": 95,
+        "new_papers": 99,
         "keywords_matched": [
-          "hierarchical temporal",
-          "sequence memory",
-          "sparse distributed",
           "online learning",
           "predictive coding",
+          "sequence memory",
+          "hierarchical temporal",
           "anomaly detection",
-          "cortical"
+          "cortical",
+          "sparse distributed"
         ],
         "high_relevance_total": 3,
         "avg_relevance_latest": 1.0,
@@ -4778,6 +4779,6 @@
         "best_papers_count": 1
       }
     },
-    "last_evolution": "2026-09-09T01:49:52.624552"
+    "last_evolution": "2026-09-09T06:49:41.992770"
   }
 }

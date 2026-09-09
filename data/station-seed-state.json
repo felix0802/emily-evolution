@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 582,
+  "_rotation_idx": 583,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 57,
@@ -1445,18 +1445,9 @@
   },
   "htm": {
     "name": "HTM",
-    "total_papers_found": 100,
-    "watering_count": 61,
+    "total_papers_found": 104,
+    "watering_count": 62,
     "history": [
-      {
-        "timestamp": "2026-07-18T16:41:39.845375",
-        "papers_found": 0,
-        "duplicates": 4,
-        "irrelevant_filtered": 6,
-        "avg_relevance": 0.0,
-        "high_relevance": 0,
-        "papers": []
-      },
       {
         "timestamp": "2026-07-19T14:45:19.258092",
         "papers_found": 0,
@@ -2452,6 +2443,37 @@
             "seed_match_score": 1
           }
         ]
+      },
+      {
+        "timestamp": "2026-09-09T06:49:36.677801",
+        "papers_found": 4,
+        "duplicates": 0,
+        "irrelevant_filtered": 6,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "SIM: Subspace Interaction-based Method for Token-Level Text Anomaly Detection",
+            "summary": "Token-level text anomaly detection, as an emerging trend of text anomaly detection, moves beyond coarse-grained document-level detection by localizing anomalous tokens within text. By providing fine-grained abnormality prediction, token-level text anomaly detection plays a critical role in various r",
+            "published": "2026-09-08",
+            "url": "http://arxiv.org/abs/2609.08200v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "No-Regret Mixing of LRU and LFU with Optimal Switching Cost",
+            "summary": "Caching systems often rely on simple eviction policies such as Least Recently Used (LRU) and Least Frequently Used (LFU), which perform well in complementary request regimes. Recent policies such as LeCar and Cacheus combine LRU and LFU using ideas from the experts problem in online learning. Specif",
+            "published": "2026-09-07",
+            "url": "http://arxiv.org/abs/2609.07566v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Parser-Free VLM Verification for Federated Weakly Supervised Video Anomaly Detection",
+            "summary": "How can vision-language models help video anomaly detection (VAD) when surveillance data remain distributed, weakly labeled, and resource-constrained? Most weakly supervised VAD methods assume centralized training; recent VLM-based extensions further rely on dense inference, generated explanations, ",
+            "published": "2026-09-07",
+            "url": "http://arxiv.org/abs/2609.07455v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -2466,7 +2488,7 @@
       "anomaly detection",
       "continuous learning"
     ],
-    "last_watered": "2026-09-07T13:44:38.007617"
+    "last_watered": "2026-09-09T06:49:36.677794"
   },
   "spiking-nn": {
     "name": "Spiking Neural Networks",

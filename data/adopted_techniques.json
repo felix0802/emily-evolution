@@ -1598,6 +1598,21 @@
         ],
         "decided_at": "2026-09-09T01:49:50.325684"
       }
+    },
+    {
+      "id": "llm-伪外推-(pseudo-extrapolation)",
+      "name": "伪外推 (Pseudo-Extrapolation)",
+      "adopted_at": "2026-09-09T06:49:41.985812",
+      "decision": {
+        "tech_id": "llm-伪外推-(pseudo-extrapolation)",
+        "tech_name": "伪外推 (Pseudo-Extrapolation)",
+        "action": "adopt",
+        "confidence": 0.85,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-09-09T06:49:41.984466"
+      }
     }
   ],
   "history": [
@@ -2236,6 +2251,12 @@
       "tech_id": "llm-ai代理模型",
       "tech_name": "AI代理模型",
       "timestamp": "2026-09-09T01:49:50.326610"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-伪外推-(pseudo-extrapolation)",
+      "tech_name": "伪外推 (Pseudo-Extrapolation)",
+      "timestamp": "2026-09-09T06:49:41.985817"
     }
   ]
 }

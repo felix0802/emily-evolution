@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-09T01:49:52.632051",
+  "timestamp": "2026-09-09T06:49:42.003837",
   "connections": [
     {
       "seed_a": "Mamba (SSM)",
@@ -10,7 +10,7 @@
       ],
       "shared_paper_concepts": [],
       "strength": 4,
-      "discovered_at": "2026-09-09T01:49:52.632020"
+      "discovered_at": "2026-09-09T06:49:42.003791"
     },
     {
       "seed_a": "Liquid Networks",
@@ -23,18 +23,30 @@
         "neural"
       ],
       "strength": 4,
-      "discovered_at": "2026-09-09T01:49:52.632035"
+      "discovered_at": "2026-09-09T06:49:42.003811"
     },
     {
       "seed_a": "HTM",
       "seed_b": "Graph Neural Networks",
       "shared_keywords": [],
       "shared_paper_concepts": [
+        "based",
         "graph",
         "with"
       ],
+      "strength": 3,
+      "discovered_at": "2026-09-09T06:49:42.003821"
+    },
+    {
+      "seed_a": "Liquid Networks",
+      "seed_b": "HTM",
+      "shared_keywords": [],
+      "shared_paper_concepts": [
+        "based",
+        "graph"
+      ],
       "strength": 2,
-      "discovered_at": "2026-09-09T01:49:52.632040"
+      "discovered_at": "2026-09-09T06:49:42.003805"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -44,17 +56,17 @@
         "attention"
       ],
       "strength": 1,
-      "discovered_at": "2026-09-09T01:49:52.632028"
+      "discovered_at": "2026-09-09T06:49:42.003800"
     },
     {
-      "seed_a": "Liquid Networks",
-      "seed_b": "HTM",
+      "seed_a": "HTM",
+      "seed_b": "Mixture of Experts",
       "shared_keywords": [],
       "shared_paper_concepts": [
-        "graph"
+        "subspace"
       ],
       "strength": 1,
-      "discovered_at": "2026-09-09T01:49:52.632031"
+      "discovered_at": "2026-09-09T06:49:42.003817"
     },
     {
       "seed_a": "Mixture of Experts",
@@ -64,7 +76,7 @@
         "aware"
       ],
       "strength": 1,
-      "discovered_at": "2026-09-09T01:49:52.632047"
+      "discovered_at": "2026-09-09T06:49:42.003831"
     }
   ],
   "total_seeds": 10
