@@ -1568,6 +1568,36 @@
         ],
         "decided_at": "2026-09-08T23:43:57.120450"
       }
+    },
+    {
+      "id": "llm-互补推荐模型",
+      "name": "互补推荐模型",
+      "adopted_at": "2026-09-09T01:49:50.326590",
+      "decision": {
+        "tech_id": "llm-互补推荐模型",
+        "tech_name": "互补推荐模型",
+        "action": "adopt",
+        "confidence": 0.9,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-09-09T01:49:50.325514"
+      }
+    },
+    {
+      "id": "llm-ai代理模型",
+      "name": "AI代理模型",
+      "adopted_at": "2026-09-09T01:49:50.326609",
+      "decision": {
+        "tech_id": "llm-ai代理模型",
+        "tech_name": "AI代理模型",
+        "action": "adopt",
+        "confidence": 0.9,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-09-09T01:49:50.325684"
+      }
     }
   ],
   "history": [
@@ -2194,6 +2224,18 @@
       "tech_id": "llm-变化点检测",
       "tech_name": "变化点检测",
       "timestamp": "2026-09-08T23:43:57.121370"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-互补推荐模型",
+      "tech_name": "互补推荐模型",
+      "timestamp": "2026-09-09T01:49:50.326596"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-ai代理模型",
+      "tech_name": "AI代理模型",
+      "timestamp": "2026-09-09T01:49:50.326610"
     }
   ]
 }

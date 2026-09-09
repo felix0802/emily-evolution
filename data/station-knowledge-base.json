@@ -1,47 +1,6 @@
 {
   "sessions": [
     {
-      "timestamp": "2026-07-08T08:51:56.109614",
-      "arxiv_papers_count": 17,
-      "arxiv_top_keywords": [
-        "view",
-        "real",
-        "what",
-        "long",
-        "camera",
-        "vla",
-        "free",
-        "cameras",
-        "scene",
-        "data"
-      ],
-      "arxiv_strategies": [
-        "cs.CV 最新",
-        "cs.AI+cs.LG 混合",
-        "cs.CL+cs.CV 混合"
-      ],
-      "huggingface_models": 0,
-      "huggingface_tasks": [],
-      "ml_datasets": [
-        "Iris",
-        "Wine",
-        "Breast Cancer",
-        "Diabetes"
-      ],
-      "ml_total_tests": 22,
-      "github_trending_repos": 8,
-      "paperswithcode_papers": 8,
-      "evolution": {
-        "discovered": 29,
-        "adopted": 2,
-        "decisions": 2
-      },
-      "seed_watering": {
-        "seed_name": "HTM",
-        "papers_found": 4
-      }
-    },
-    {
       "timestamp": "2026-07-08T10:55:30.956898",
       "arxiv_papers_count": 5,
       "arxiv_top_keywords": [
@@ -4464,12 +4423,59 @@
         "seed_name": "Mamba (SSM)",
         "papers_found": 5
       }
+    },
+    {
+      "timestamp": "2026-09-09T01:49:52.622750",
+      "arxiv_papers_count": 18,
+      "arxiv_top_keywords": [
+        "deep",
+        "learning",
+        "data",
+        "agent",
+        "purchase",
+        "complementary",
+        "allegro",
+        "camera",
+        "together",
+        "conceptual"
+      ],
+      "arxiv_strategies": [
+        "搜索: neural architecture",
+        "搜索: self-supervised learning",
+        "搜索: multi-agent system"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "unknown",
+        "fill-mask",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 18,
+        "adopted": 2,
+        "decisions": 2
+      },
+      "seed_watering": {
+        "seed_name": "Liquid Networks",
+        "papers_found": 7
+      }
     }
   ],
   "total_sessions": 101,
-  "last_updated": "2026-09-08T23:43:57.123982",
+  "last_updated": "2026-09-09T01:49:52.622769",
   "evolution_summary": {
-    "total_adopted": 104,
+    "total_adopted": 106,
     "adopted_list": [
       "Knowledge Distillation",
       "World Models / Model-Based RL",
@@ -4574,7 +4580,9 @@
       "扩散模型",
       "联邦学习",
       "深度生成模型",
-      "变化点检测"
+      "变化点检测",
+      "互补推荐模型",
+      "AI代理模型"
     ],
     "seeds": {
       "mamba": {
@@ -4584,7 +4592,7 @@
       },
       "liquid-networks": {
         "name": "Liquid Networks",
-        "watering": 61,
+        "watering": 62,
         "papers": 69
       },
       "htm": {
@@ -4672,11 +4680,11 @@
         "new_papers": 64,
         "keywords_matched": [
           "ode",
-          "liquid neural",
-          "continuous-time"
+          "continuous-time",
+          "liquid neural"
         ],
         "high_relevance_total": 18,
-        "avg_relevance_latest": 1.0,
+        "avg_relevance_latest": 0.0,
         "best_papers_count": 0
       },
       "htm": {
@@ -4770,6 +4778,6 @@
         "best_papers_count": 1
       }
     },
-    "last_evolution": "2026-09-08T23:43:57.125293"
+    "last_evolution": "2026-09-09T01:49:52.624552"
   }
 }
