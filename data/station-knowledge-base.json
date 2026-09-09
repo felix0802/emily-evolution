@@ -1,36 +1,6 @@
 {
   "sessions": [
     {
-      "timestamp": "2026-07-08T13:55:34.801083",
-      "arxiv_papers_count": 0,
-      "arxiv_top_keywords": [],
-      "arxiv_strategies": [
-        "搜索: graph neural network",
-        "搜索: transfer learning",
-        "搜索: world model"
-      ],
-      "huggingface_models": 0,
-      "huggingface_tasks": [],
-      "ml_datasets": [
-        "Iris",
-        "Wine",
-        "Breast Cancer",
-        "Diabetes"
-      ],
-      "ml_total_tests": 22,
-      "github_trending_repos": 0,
-      "paperswithcode_papers": 0,
-      "evolution": {
-        "discovered": 0,
-        "adopted": 0,
-        "decisions": 0
-      },
-      "seed_watering": {
-        "seed_name": "",
-        "papers_found": 0
-      }
-    },
-    {
       "timestamp": "2026-07-08T14:02:53.171533",
       "arxiv_papers_count": 0,
       "arxiv_top_keywords": [],
@@ -4476,12 +4446,59 @@
         "seed_name": "Spiking Neural Networks",
         "papers_found": 10
       }
+    },
+    {
+      "timestamp": "2026-09-09T17:23:58.112316",
+      "arxiv_papers_count": 18,
+      "arxiv_top_keywords": [
+        "cache",
+        "decoding",
+        "attention",
+        "block",
+        "speculative",
+        "eviction",
+        "visual",
+        "reasoning",
+        "state",
+        "vision"
+      ],
+      "arxiv_strategies": [
+        "搜索: kv cache LLM",
+        "搜索: graph neural network recent",
+        "搜索: speculative decoding"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "unknown",
+        "fill-mask",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 19,
+        "adopted": 2,
+        "decisions": 2
+      },
+      "seed_watering": {
+        "seed_name": "Non-Transformer Arch",
+        "papers_found": 7
+      }
     }
   ],
   "total_sessions": 101,
-  "last_updated": "2026-09-09T12:32:12.465664",
+  "last_updated": "2026-09-09T17:23:58.112334",
   "evolution_summary": {
-    "total_adopted": 109,
+    "total_adopted": 111,
     "adopted_list": [
       "Knowledge Distillation",
       "World Models / Model-Based RL",
@@ -4591,7 +4608,9 @@
       "AI代理模型",
       "伪外推 (Pseudo-Extrapolation)",
       "多任务学习 (MTL)",
-      "梯度手术 (Gradient Surgery)"
+      "梯度手术 (Gradient Surgery)",
+      "Jacobian-based nonlinear information capacity preservation",
+      "Geometry-aware complementary diversity metrics"
     ],
     "seeds": {
       "mamba": {
@@ -4616,8 +4635,8 @@
       },
       "non-transformer": {
         "name": "Non-Transformer Arch",
-        "watering": 61,
-        "papers": 28
+        "watering": 62,
+        "papers": 35
       },
       "few-shot": {
         "name": "Few-Shot Learning",
@@ -4714,18 +4733,18 @@
       },
       "non-transformer": {
         "name": "Non-Transformer Arch",
-        "new_papers": 28,
+        "new_papers": 35,
         "keywords_matched": [
-          "efficient transformer",
-          "linear attention",
-          "gated linear",
-          "mamba",
-          "rwkv",
           "linear recurrent",
-          "state space"
+          "rwkv",
+          "efficient transformer",
+          "state space",
+          "linear attention",
+          "mamba",
+          "gated linear"
         ],
-        "high_relevance_total": 3,
-        "avg_relevance_latest": 0.0,
+        "high_relevance_total": 5,
+        "avg_relevance_latest": 1.29,
         "best_papers_count": 0
       },
       "continual-learning": {
@@ -4787,6 +4806,6 @@
         "best_papers_count": 1
       }
     },
-    "last_evolution": "2026-09-09T12:32:12.467588"
+    "last_evolution": "2026-09-09T17:23:58.114835"
   }
 }

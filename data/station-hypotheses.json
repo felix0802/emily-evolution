@@ -366,9 +366,38 @@
       "supporting_papers": [],
       "refuting_papers": [],
       "llm_source": "deepseek"
+    },
+    {
+      "id": "hyp-0016",
+      "timestamp": "2026-09-09T17:24:01.810192",
+      "seed_a": "Liquid Networks",
+      "seed_b": "Spiking Neural Networks",
+      "crossref_strength": 3,
+      "shared_keywords": [],
+      "hypothesis": "結合 Liquid Networks 的動態時間常數與 Spiking Neural Networks 的事件驅動機制，可設計一種新型神經網路，其神經元在連續時間內以液態閘控方式調整膜電位，並僅在閾值跨越時產生稀疏脈衝，從而實現對非平穩時序資料的線上適應學習，且能耗遠低於現有 SNN。",
+      "reasoning": "Liquid Networks 的連續動力系統（ODE）與 SNN 的脈衝發射模型在數學上可統一為閾值化 ODE，其中 Liquid 的動態時間常數可作為 SNN 膜電位的可學習衰減率，而 SNN 的脈衝稀疏性則能提供 Liquid 所需的非線性事件觸發，兩者共享梯度學習框架（基於代理梯度或 adjoint 方法），可互補解決 Liquid 的計算成本與 SNN 的靜態編碼限制。",
+      "arxiv_query": "liquid time-constant spiking neural networks event-driven learning",
+      "potential_breakthrough": "此結合可能催生首個具備生物可塑性與液態適應性的高效能時序學習架構，突破現有 SNN 在連續控制與線上學習的瓶頸。",
+      "status": "unverified",
+      "verification_rounds": 1,
+      "supporting_papers": [
+        {
+          "title": "Liquid Time-constant Recurrent Neural Networks as Universal Approximators",
+          "url": "http://arxiv.org/abs/1811.00321v1",
+          "reason": "該論文提出液態時間常數RNN，其可變神經元時間常數與假設中液態閘控調整膜電位的概念一致，支持動態時間常數的可行性。"
+        }
+      ],
+      "refuting_papers": [
+        {
+          "title": "Chemical Reaction Networks Learn Better than Spiking Neural Networks",
+          "url": "http://arxiv.org/abs/2603.12060v1",
+          "reason": "該論文證明化學反應網路在無隱藏層時可勝任SNN需隱藏層的任務，暗示SNN的計算能力可能受限，與假設中SNN作為核心組件的優勢相矛盾。"
+        }
+      ],
+      "llm_source": "deepseek"
     }
   ],
-  "last_updated": "2026-09-06T17:49:52.767918",
-  "total_generated": 15,
+  "last_updated": "2026-09-09T17:24:05.042345",
+  "total_generated": 16,
   "total_verified": 15
 }

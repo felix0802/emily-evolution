@@ -1643,6 +1643,36 @@
         ],
         "decided_at": "2026-09-09T12:32:09.968100"
       }
+    },
+    {
+      "id": "llm-jacobian-based-nonlinear-infor",
+      "name": "Jacobian-based nonlinear information capacity preservation",
+      "adopted_at": "2026-09-09T17:23:53.002595",
+      "decision": {
+        "tech_id": "llm-jacobian-based-nonlinear-infor",
+        "tech_name": "Jacobian-based nonlinear information capacity preservation",
+        "action": "adopt",
+        "confidence": 0.9,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-09-09T17:23:53.000925"
+      }
+    },
+    {
+      "id": "llm-geometry-aware-complementary-d",
+      "name": "Geometry-aware complementary diversity metrics",
+      "adopted_at": "2026-09-09T17:23:53.002615",
+      "decision": {
+        "tech_id": "llm-geometry-aware-complementary-d",
+        "tech_name": "Geometry-aware complementary diversity metrics",
+        "action": "adopt",
+        "confidence": 0.85,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-09-09T17:23:53.001143"
+      }
     }
   ],
   "history": [
@@ -2299,6 +2329,18 @@
       "tech_id": "llm-梯度手术-(gradient-surgery)",
       "tech_name": "梯度手术 (Gradient Surgery)",
       "timestamp": "2026-09-09T12:32:09.969124"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-jacobian-based-nonlinear-infor",
+      "tech_name": "Jacobian-based nonlinear information capacity preservation",
+      "timestamp": "2026-09-09T17:23:53.002600"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-geometry-aware-complementary-d",
+      "tech_name": "Geometry-aware complementary diversity metrics",
+      "timestamp": "2026-09-09T17:23:53.002617"
     }
   ]
 }

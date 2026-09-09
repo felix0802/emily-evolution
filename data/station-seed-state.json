@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 584,
+  "_rotation_idx": 585,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 57,
@@ -3097,18 +3097,9 @@
   },
   "non-transformer": {
     "name": "Non-Transformer Arch",
-    "total_papers_found": 28,
-    "watering_count": 61,
+    "total_papers_found": 35,
+    "watering_count": 62,
     "history": [
-      {
-        "timestamp": "2026-07-18T20:35:22.683437",
-        "papers_found": 0,
-        "duplicates": 7,
-        "irrelevant_filtered": 3,
-        "avg_relevance": 0.0,
-        "high_relevance": 0,
-        "papers": []
-      },
       {
         "timestamp": "2026-07-19T18:45:12.292912",
         "papers_found": 0,
@@ -3719,6 +3710,37 @@
         "avg_relevance": 0.0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-09-09T17:23:48.166210",
+        "papers_found": 7,
+        "duplicates": 0,
+        "irrelevant_filtered": 3,
+        "avg_relevance": 1.29,
+        "high_relevance": 2,
+        "papers": [
+          {
+            "title": "Global Divergence, Local Convergence: Representation Geometry in SSMs and Transformers",
+            "summary": "Recent state-space models (SSMs) such as Mamba achieve language modeling performance comparable to transformers despite relying on fundamentally different architectures. This raises an important question: how do these structural differences influence the geometry and functional nature of their inter",
+            "published": "2026-09-08",
+            "url": "http://arxiv.org/abs/2609.08692v1",
+            "seed_match_score": 2
+          },
+          {
+            "title": "Online Signature Verification Using Augmented Path Signature and T-Mamba",
+            "summary": "Handwritten signature verification is vital for personal authentication across commercial and financial applications. Although deep learning methods are widely adopted for online signature verification (OSV), they often struggle with capturing highly discriminative features and modelling long-range ",
+            "published": "2026-09-08",
+            "url": "http://arxiv.org/abs/2609.08276v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Kalman Delta Networks: Uncertainty-aware Associative Memory",
+            "summary": "Linear attention is increasingly used in frontier language models for efficient long-context inference and constant-memory decoding. Its fixed-size recurrent memory, however, requires an online decision at each token: what to write and how strongly to overwrite existing associations before knowing w",
+            "published": "2026-09-07",
+            "url": "http://arxiv.org/abs/2609.07816v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -3731,7 +3753,7 @@
       "sub-quadratic",
       "mamba"
     ],
-    "last_watered": "2026-09-07T22:20:51.532417"
+    "last_watered": "2026-09-09T17:23:48.166203"
   },
   "few-shot": {
     "name": "Few-Shot Learning",

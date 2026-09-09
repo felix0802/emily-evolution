@@ -35949,7 +35949,200 @@
         "yet"
       ],
       "first_seen_round": 218
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.08131v1",
+      "title": "Jacap: Robust KV Cache Eviction via Jacobian-Based Nonlinear Information Capacity Preservation",
+      "arxiv_id": "2609.08131",
+      "tokens": [
+        "cache",
+        "capacity",
+        "eviction",
+        "information",
+        "jacap",
+        "jacobian",
+        "nonlinear",
+        "preservation",
+        "robust"
+      ],
+      "first_seen_round": 219
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.06746v1",
+      "title": "Reason Through the Latent! Making Latent Visual Reasoning Necessary",
+      "arxiv_id": "2609.06746",
+      "tokens": [
+        "latent",
+        "latent",
+        "making",
+        "necessary",
+        "reason",
+        "reasoning",
+        "visual"
+      ],
+      "first_seen_round": 219
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.06663v1",
+      "title": "ECOKV: Geometry-Aware KV Cache Eviction via Complementary Diversity Metrics",
+      "arxiv_id": "2609.06663",
+      "tokens": [
+        "aware",
+        "cache",
+        "complementary",
+        "diversity",
+        "ecokv",
+        "eviction",
+        "geometry",
+        "metrics"
+      ],
+      "first_seen_round": 219
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.05821v1",
+      "title": "CONDUIT: A Unified Residual-Stream Restoration Framework for KV Cache Reuse in Vision-Language Models",
+      "arxiv_id": "2609.05821",
+      "tokens": [
+        "cache",
+        "conduit",
+        "language",
+        "residual",
+        "restoration",
+        "reuse",
+        "stream",
+        "unified",
+        "vision"
+      ],
+      "first_seen_round": 219
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.06498v1",
+      "title": "DFlow: Enabling Verifier Information Flow in Block Diffusion Speculative Decoding",
+      "arxiv_id": "2609.06498",
+      "tokens": [
+        "block",
+        "decoding",
+        "dflow",
+        "diffusion",
+        "enabling",
+        "flow",
+        "information",
+        "speculative",
+        "verifier"
+      ],
+      "first_seen_round": 219
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.08692v1",
+      "title": "Global Divergence, Local Convergence: Representation Geometry in SSMs and Transformers",
+      "arxiv_id": "2609.08692",
+      "tokens": [
+        "convergence",
+        "divergence",
+        "geometry",
+        "global",
+        "local",
+        "representation",
+        "ssms",
+        "transformers"
+      ],
+      "first_seen_round": 219
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.08276v1",
+      "title": "Online Signature Verification Using Augmented Path Signature and T-Mamba",
+      "arxiv_id": "2609.08276",
+      "tokens": [
+        "augmented",
+        "mamba",
+        "online",
+        "path",
+        "signature",
+        "signature",
+        "verification"
+      ],
+      "first_seen_round": 219
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.07816v1",
+      "title": "Kalman Delta Networks: Uncertainty-aware Associative Memory",
+      "arxiv_id": "2609.07816",
+      "tokens": [
+        "associative",
+        "aware",
+        "delta",
+        "kalman",
+        "memory",
+        "uncertainty"
+      ],
+      "first_seen_round": 219
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.07294v1",
+      "title": "Constitutive State-Space Modeling of Path-Dependent Plasticity: A Resolution-Consistent and Parallelizable Computational Framework",
+      "arxiv_id": "2609.07294",
+      "tokens": [
+        "computational",
+        "consistent",
+        "constitutive",
+        "dependent",
+        "modeling",
+        "parallelizable",
+        "path",
+        "plasticity",
+        "resolution",
+        "space",
+        "state"
+      ],
+      "first_seen_round": 219
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.06984v1",
+      "title": "AF-Mamba: Efficient Long-Term Signal Modeling for Early Prediction of Atrial Fibrillation Onset",
+      "arxiv_id": "2609.06984",
+      "tokens": [
+        "atrial",
+        "early",
+        "fibrillation",
+        "long",
+        "mamba",
+        "modeling",
+        "onset",
+        "prediction",
+        "signal",
+        "term"
+      ],
+      "first_seen_round": 219
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.06869v1",
+      "title": "PPIM: Pennes Physics-Informed Mamba for Heat-Source-Conditioned 3D Bioheat Simulation",
+      "arxiv_id": "2609.06869",
+      "tokens": [
+        "bioheat",
+        "conditioned",
+        "heat",
+        "informed",
+        "mamba",
+        "pennes",
+        "physics",
+        "ppim",
+        "simulation",
+        "source"
+      ],
+      "first_seen_round": 219
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.06006v1",
+      "title": "Memory in Deep Time-Series Models",
+      "arxiv_id": "2609.06006",
+      "tokens": [
+        "memory",
+        "series",
+        "time"
+      ],
+      "first_seen_round": 219
     }
   ],
-  "total_unique": 2240
+  "total_unique": 2252
 }
