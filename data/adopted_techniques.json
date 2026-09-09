@@ -1613,6 +1613,36 @@
         ],
         "decided_at": "2026-09-09T06:49:41.984466"
       }
+    },
+    {
+      "id": "llm-多任务学习-(mtl)",
+      "name": "多任务学习 (MTL)",
+      "adopted_at": "2026-09-09T12:32:09.969108",
+      "decision": {
+        "tech_id": "llm-多任务学习-(mtl)",
+        "tech_name": "多任务学习 (MTL)",
+        "action": "adopt",
+        "confidence": 0.9,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-09-09T12:32:09.967926"
+      }
+    },
+    {
+      "id": "llm-梯度手术-(gradient-surgery)",
+      "name": "梯度手术 (Gradient Surgery)",
+      "adopted_at": "2026-09-09T12:32:09.969122",
+      "decision": {
+        "tech_id": "llm-梯度手术-(gradient-surgery)",
+        "tech_name": "梯度手术 (Gradient Surgery)",
+        "action": "adopt",
+        "confidence": 0.85,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-09-09T12:32:09.968100"
+      }
     }
   ],
   "history": [
@@ -2257,6 +2287,18 @@
       "tech_id": "llm-伪外推-(pseudo-extrapolation)",
       "tech_name": "伪外推 (Pseudo-Extrapolation)",
       "timestamp": "2026-09-09T06:49:41.985817"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-多任务学习-(mtl)",
+      "tech_name": "多任务学习 (MTL)",
+      "timestamp": "2026-09-09T12:32:09.969111"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-梯度手术-(gradient-surgery)",
+      "tech_name": "梯度手术 (Gradient Surgery)",
+      "timestamp": "2026-09-09T12:32:09.969124"
     }
   ]
 }

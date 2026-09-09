@@ -35705,7 +35705,251 @@
         "theoretic"
       ],
       "first_seen_round": 217
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.09140v1",
+      "title": "NOAH: Learning the Full Patient Journey. A Longitudinal Multimodal Time-Aware Model for Representation and Forecasting",
+      "arxiv_id": "2609.09140",
+      "tokens": [
+        "aware",
+        "forecasting",
+        "full",
+        "journey",
+        "longitudinal",
+        "multimodal",
+        "noah",
+        "patient",
+        "representation",
+        "time"
+      ],
+      "first_seen_round": 218
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.08554v1",
+      "title": "Not All Variables Agree: Reliability-Aware Variable-Wise Gradient Surgery for Multivariate Time-Series Forecasting",
+      "arxiv_id": "2609.08554",
+      "tokens": [
+        "agree",
+        "aware",
+        "forecasting",
+        "gradient",
+        "multivariate",
+        "reliability",
+        "series",
+        "surgery",
+        "time",
+        "variable",
+        "variables",
+        "wise"
+      ],
+      "first_seen_round": 218
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.08375v1",
+      "title": "IPM-FM: A Foundation Model with Consensus Feature Selection for Industrial Process Monitoring",
+      "arxiv_id": "2609.08375",
+      "tokens": [
+        "consensus",
+        "feature",
+        "foundation",
+        "industrial",
+        "ipm",
+        "monitoring",
+        "process",
+        "selection"
+      ],
+      "first_seen_round": 218
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.08286v1",
+      "title": "HypLTSF: A Hyperbolic Geometric View of Multi-Scale Hierarchies for Long-Term Time Series Forecasting",
+      "arxiv_id": "2609.08286",
+      "tokens": [
+        "forecasting",
+        "geometric",
+        "hierarchies",
+        "hyperbolic",
+        "hypltsf",
+        "long",
+        "multi",
+        "scale",
+        "series",
+        "term",
+        "time",
+        "view"
+      ],
+      "first_seen_round": 218
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.08078v1",
+      "title": "A Machine Learning Framework for Predicting Restaurant Food Waste to Support Sustainable Food Management",
+      "arxiv_id": "2609.08078",
+      "tokens": [
+        "food",
+        "food",
+        "machine",
+        "management",
+        "predicting",
+        "restaurant",
+        "support",
+        "sustainable",
+        "waste"
+      ],
+      "first_seen_round": 218
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.06976v1",
+      "title": "HealthLoopQA: A Context-Aware Question Answering Benchmark for Interpreting Wearable Monitoring Data in Diabetes Care",
+      "arxiv_id": "2609.06976",
+      "tokens": [
+        "answering",
+        "aware",
+        "benchmark",
+        "care",
+        "context",
+        "diabetes",
+        "healthloopqa",
+        "interpreting",
+        "monitoring",
+        "question",
+        "wearable"
+      ],
+      "first_seen_round": 218
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.06686v1",
+      "title": "Likelihood-Based Unsupervised Anomaly Detection in CMS Dijet Events",
+      "arxiv_id": "2609.06686",
+      "tokens": [
+        "anomaly",
+        "cms",
+        "detection",
+        "dijet",
+        "events",
+        "likelihood",
+        "unsupervised"
+      ],
+      "first_seen_round": 218
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.08709v1",
+      "title": "Chimaera: A Mixture-of-Graph-Experts Architecture for Cross-Task and Cross-Dataset Graph Learning",
+      "arxiv_id": "2609.08709",
+      "tokens": [
+        "architecture",
+        "chimaera",
+        "cross",
+        "cross",
+        "dataset",
+        "experts",
+        "graph",
+        "graph",
+        "mixture",
+        "task"
+      ],
+      "first_seen_round": 218
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.08690v1",
+      "title": "Hyperparameter Scaling Laws Across MoE Sparsity",
+      "arxiv_id": "2609.08690",
+      "tokens": [
+        "hyperparameter",
+        "laws",
+        "moe",
+        "scaling",
+        "sparsity"
+      ],
+      "first_seen_round": 218
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.08663v1",
+      "title": "MoEMB: Scaling Universal Multimodal Embeddings with Efficient Mixture-of-Experts Models",
+      "arxiv_id": "2609.08663",
+      "tokens": [
+        "embeddings",
+        "experts",
+        "mixture",
+        "moemb",
+        "multimodal",
+        "scaling",
+        "universal"
+      ],
+      "first_seen_round": 218
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.08059v1",
+      "title": "MI-PEFT: Mixture-of-Experts Integrated Parameter-Efficient Fine-Tuning Protein Language Models Improves Acidophilic Proteins Classification",
+      "arxiv_id": "2609.08059",
+      "tokens": [
+        "acidophilic",
+        "classification",
+        "experts",
+        "fine",
+        "improves",
+        "integrated",
+        "language",
+        "mixture",
+        "parameter",
+        "peft",
+        "protein",
+        "proteins",
+        "tuning"
+      ],
+      "first_seen_round": 218
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.07814v1",
+      "title": "Latent-MoE: Domain-Aware Mixture-of-Experts for PDEs with Multi-Regime Physics",
+      "arxiv_id": "2609.07814",
+      "tokens": [
+        "aware",
+        "domain",
+        "experts",
+        "latent",
+        "mixture",
+        "moe",
+        "multi",
+        "pdes",
+        "physics",
+        "regime"
+      ],
+      "first_seen_round": 218
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.07009v1",
+      "title": "NeuCME: Toward Dynamic Multimodal Continual Learning via Neural Combinatorics of Multiple Experts",
+      "arxiv_id": "2609.07009",
+      "tokens": [
+        "combinatorics",
+        "continual",
+        "dynamic",
+        "experts",
+        "multimodal",
+        "multiple",
+        "neucme",
+        "neural"
+      ],
+      "first_seen_round": 218
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.08070v1",
+      "title": "A Gradient-based yet Spike-Timing-Dependent Solution to the Feedback Learning Problem in Neural Microcircuits",
+      "arxiv_id": "2609.08070",
+      "tokens": [
+        "dependent",
+        "feedback",
+        "gradient",
+        "microcircuits",
+        "neural",
+        "problem",
+        "solution",
+        "spike",
+        "timing",
+        "yet"
+      ],
+      "first_seen_round": 218
     }
   ],
-  "total_unique": 2226
+  "total_unique": 2240
 }

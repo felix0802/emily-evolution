@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 583,
+  "_rotation_idx": 584,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 57,
@@ -2492,18 +2492,9 @@
   },
   "spiking-nn": {
     "name": "Spiking Neural Networks",
-    "total_papers_found": 31,
-    "watering_count": 60,
+    "total_papers_found": 32,
+    "watering_count": 61,
     "history": [
-      {
-        "timestamp": "2026-07-18T18:42:31.530268",
-        "papers_found": 0,
-        "duplicates": 9,
-        "irrelevant_filtered": 1,
-        "avg_relevance": 0.0,
-        "high_relevance": 0,
-        "papers": []
-      },
       {
         "timestamp": "2026-07-19T16:41:40.961829",
         "papers_found": 0,
@@ -3077,6 +3068,23 @@
         "avg_relevance": 0.0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-09-09T12:32:04.376033",
+        "papers_found": 1,
+        "duplicates": 9,
+        "irrelevant_filtered": 0,
+        "avg_relevance": 3.0,
+        "high_relevance": 1,
+        "papers": [
+          {
+            "title": "A Gradient-based yet Spike-Timing-Dependent Solution to the Feedback Learning Problem in Neural Microcircuits",
+            "summary": "The brain uses discrete spikes for dynamic computation, yet, how neural microcircuits (NMCs) solve temporal credit assignment using local spike timing remains a fundamental open question. Dominant spiking neural network (SNN) approaches circumvent this by approximating backpropagation through surrog",
+            "published": "2026-09-08",
+            "url": "http://arxiv.org/abs/2609.08070v1",
+            "seed_match_score": 3
+          }
+        ]
       }
     ],
     "keywords": [
@@ -3085,7 +3093,7 @@
       "neuromorphic",
       "spike-timing"
     ],
-    "last_watered": "2026-09-07T18:27:18.836205"
+    "last_watered": "2026-09-09T12:32:04.376027"
   },
   "non-transformer": {
     "name": "Non-Transformer Arch",

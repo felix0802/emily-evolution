@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-09T06:49:42.003837",
+  "timestamp": "2026-09-09T12:32:12.477587",
   "connections": [
     {
       "seed_a": "Mamba (SSM)",
@@ -10,7 +10,7 @@
       ],
       "shared_paper_concepts": [],
       "strength": 4,
-      "discovered_at": "2026-09-09T06:49:42.003791"
+      "discovered_at": "2026-09-09T12:32:12.477538"
     },
     {
       "seed_a": "Liquid Networks",
@@ -23,7 +23,19 @@
         "neural"
       ],
       "strength": 4,
-      "discovered_at": "2026-09-09T06:49:42.003811"
+      "discovered_at": "2026-09-09T12:32:12.477560"
+    },
+    {
+      "seed_a": "Liquid Networks",
+      "seed_b": "Spiking Neural Networks",
+      "shared_keywords": [],
+      "shared_paper_concepts": [
+        "based",
+        "learning",
+        "neural"
+      ],
+      "strength": 3,
+      "discovered_at": "2026-09-09T12:32:12.477555"
     },
     {
       "seed_a": "HTM",
@@ -35,7 +47,19 @@
         "with"
       ],
       "strength": 3,
-      "discovered_at": "2026-09-09T06:49:42.003821"
+      "discovered_at": "2026-09-09T12:32:12.477570"
+    },
+    {
+      "seed_a": "Spiking Neural Networks",
+      "seed_b": "Graph Neural Networks",
+      "shared_keywords": [],
+      "shared_paper_concepts": [
+        "based",
+        "learning",
+        "neural"
+      ],
+      "strength": 3,
+      "discovered_at": "2026-09-09T12:32:12.477574"
     },
     {
       "seed_a": "Liquid Networks",
@@ -46,7 +70,7 @@
         "graph"
       ],
       "strength": 2,
-      "discovered_at": "2026-09-09T06:49:42.003805"
+      "discovered_at": "2026-09-09T12:32:12.477553"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -56,7 +80,17 @@
         "attention"
       ],
       "strength": 1,
-      "discovered_at": "2026-09-09T06:49:42.003800"
+      "discovered_at": "2026-09-09T12:32:12.477549"
+    },
+    {
+      "seed_a": "HTM",
+      "seed_b": "Spiking Neural Networks",
+      "shared_keywords": [],
+      "shared_paper_concepts": [
+        "based"
+      ],
+      "strength": 1,
+      "discovered_at": "2026-09-09T12:32:12.477563"
     },
     {
       "seed_a": "HTM",
@@ -66,7 +100,7 @@
         "subspace"
       ],
       "strength": 1,
-      "discovered_at": "2026-09-09T06:49:42.003817"
+      "discovered_at": "2026-09-09T12:32:12.477567"
     },
     {
       "seed_a": "Mixture of Experts",
@@ -76,7 +110,7 @@
         "aware"
       ],
       "strength": 1,
-      "discovered_at": "2026-09-09T06:49:42.003831"
+      "discovered_at": "2026-09-09T12:32:12.477581"
     }
   ],
   "total_seeds": 10
