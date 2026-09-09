@@ -378,8 +378,8 @@
       "reasoning": "Liquid Networks 的連續動力系統（ODE）與 SNN 的脈衝發射模型在數學上可統一為閾值化 ODE，其中 Liquid 的動態時間常數可作為 SNN 膜電位的可學習衰減率，而 SNN 的脈衝稀疏性則能提供 Liquid 所需的非線性事件觸發，兩者共享梯度學習框架（基於代理梯度或 adjoint 方法），可互補解決 Liquid 的計算成本與 SNN 的靜態編碼限制。",
       "arxiv_query": "liquid time-constant spiking neural networks event-driven learning",
       "potential_breakthrough": "此結合可能催生首個具備生物可塑性與液態適應性的高效能時序學習架構，突破現有 SNN 在連續控制與線上學習的瓶頸。",
-      "status": "unverified",
-      "verification_rounds": 2,
+      "status": "inconclusive",
+      "verification_rounds": 3,
       "supporting_papers": [
         {
           "title": "Liquid Time-constant Recurrent Neural Networks as Universal Approximators",
@@ -390,6 +390,11 @@
           "title": "Liquid Time-constant Recurrent Neural Networks as Universal Approximators",
           "url": "http://arxiv.org/abs/1811.00321v1",
           "reason": "該論文提出液態時間常數RNN，其可變神經元時間常數與假設中Liquid Networks的動態時間常數一致，支持其作為連續動力系統的基礎。"
+        },
+        {
+          "title": "Liquid Time-constant Recurrent Neural Networks as Universal Approximators",
+          "url": "http://arxiv.org/abs/1811.00321v1",
+          "reason": "該論文提出液態時間常數遞歸神經網路，其可變神經元時間常數由非線性突觸傳輸模型實現，支持假設中液態網路動態時間常數可作為膜電位可學習衰減率的觀點。"
         }
       ],
       "refuting_papers": [
@@ -402,12 +407,17 @@
           "title": "Chemical Reaction Networks Learn Better than Spiking Neural Networks",
           "url": "http://arxiv.org/abs/2603.12060v1",
           "reason": "該論文證明化學反應網路在無隱藏層時可解決SNN需隱藏層的任務，暗示SNN的結構限制，可能削弱假設中SNN與Liquid結合的優勢。"
+        },
+        {
+          "title": "Chemical Reaction Networks Learn Better than Spiking Neural Networks",
+          "url": "http://arxiv.org/abs/2603.12060v1",
+          "reason": "該論文證明化學反應網路在無隱藏層時可解決需隱藏層的SNN任務，暗示SNN在表達能力上存在限制，可能削弱假設中SNN與液態網路結合的優勢。"
         }
       ],
       "llm_source": "deepseek"
     }
   ],
-  "last_updated": "2026-09-09T20:07:52.555459",
+  "last_updated": "2026-09-09T23:36:56.398218",
   "total_generated": 16,
-  "total_verified": 15
+  "total_verified": 16
 }

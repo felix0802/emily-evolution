@@ -1,47 +1,6 @@
 {
   "sessions": [
     {
-      "timestamp": "2026-07-08T15:49:20.969467",
-      "arxiv_papers_count": 18,
-      "arxiv_top_keywords": [
-        "semantic",
-        "graph",
-        "large",
-        "multi",
-        "compression",
-        "language",
-        "data",
-        "elsa",
-        "unified",
-        "elastic"
-      ],
-      "arxiv_strategies": [
-        "cs.AI 最新",
-        "cs.LG 最新",
-        "cs.CL 最新"
-      ],
-      "huggingface_models": 0,
-      "huggingface_tasks": [],
-      "ml_datasets": [
-        "Iris",
-        "Wine",
-        "Breast Cancer",
-        "Diabetes"
-      ],
-      "ml_total_tests": 22,
-      "github_trending_repos": 8,
-      "paperswithcode_papers": 0,
-      "evolution": {
-        "discovered": 33,
-        "adopted": 1,
-        "decisions": 1
-      },
-      "seed_watering": {
-        "seed_name": "Few-Shot Learning",
-        "papers_found": 5
-      }
-    },
-    {
       "timestamp": "2026-07-08T17:44:28.040404",
       "arxiv_papers_count": 22,
       "arxiv_top_keywords": [
@@ -4510,12 +4469,59 @@
         "seed_name": "Few-Shot Learning",
         "papers_found": 4
       }
+    },
+    {
+      "timestamp": "2026-09-09T23:36:52.409676",
+      "arxiv_papers_count": 17,
+      "arxiv_top_keywords": [
+        "agents",
+        "what",
+        "multimodal",
+        "time",
+        "agent",
+        "test",
+        "decay",
+        "sqrt",
+        "humanoid",
+        "cluttered"
+      ],
+      "arxiv_strategies": [
+        "cs.AI 最新",
+        "cs.LG 最新",
+        "cs.CL 最新"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "unknown",
+        "fill-mask",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 16,
+        "adopted": 1,
+        "decisions": 1
+      },
+      "seed_watering": {
+        "seed_name": "Continual Learning",
+        "papers_found": 4
+      }
     }
   ],
   "total_sessions": 101,
-  "last_updated": "2026-09-09T20:07:49.164609",
+  "last_updated": "2026-09-09T23:36:52.409686",
   "evolution_summary": {
-    "total_adopted": 113,
+    "total_adopted": 114,
     "adopted_list": [
       "Knowledge Distillation",
       "World Models / Model-Based RL",
@@ -4629,7 +4635,8 @@
       "Jacobian-based nonlinear information capacity preservation",
       "Geometry-aware complementary diversity metrics",
       "零阶优化",
-      "连续潜在预测建模"
+      "连续潜在预测建模",
+      "视觉-语言-动作模型 (VLA)"
     ],
     "seeds": {
       "mamba": {
@@ -4664,8 +4671,8 @@
       },
       "continual-learning": {
         "name": "Continual Learning",
-        "watering": 59,
-        "papers": 72
+        "watering": 60,
+        "papers": 74
       },
       "moe": {
         "name": "Mixture of Experts",
@@ -4768,16 +4775,16 @@
       },
       "continual-learning": {
         "name": "Continual Learning",
-        "new_papers": 67,
+        "new_papers": 69,
         "keywords_matched": [
-          "lifelong",
-          "continual learning",
           "ewc",
+          "lifelong",
+          "elastic weight",
           "catastrophic forgetting",
-          "elastic weight"
+          "continual learning"
         ],
         "high_relevance_total": 16,
-        "avg_relevance_latest": 0.0,
+        "avg_relevance_latest": 1.0,
         "best_papers_count": 2
       },
       "gnn": {
@@ -4825,6 +4832,6 @@
         "best_papers_count": 1
       }
     },
-    "last_evolution": "2026-09-09T20:07:49.167063"
+    "last_evolution": "2026-09-09T23:36:52.411033"
   }
 }

@@ -1703,6 +1703,21 @@
         ],
         "decided_at": "2026-09-09T20:07:46.172118"
       }
+    },
+    {
+      "id": "llm-视觉-语言-动作模型-(vla)",
+      "name": "视觉-语言-动作模型 (VLA)",
+      "adopted_at": "2026-09-09T23:36:52.407177",
+      "decision": {
+        "tech_id": "llm-视觉-语言-动作模型-(vla)",
+        "tech_name": "视觉-语言-动作模型 (VLA)",
+        "action": "adopt",
+        "confidence": 0.9,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-09-09T23:36:52.406501"
+      }
     }
   ],
   "history": [
@@ -2383,6 +2398,12 @@
       "tech_id": "llm-连续潜在预测建模",
       "tech_name": "连续潜在预测建模",
       "timestamp": "2026-09-09T20:07:46.173397"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-视觉-语言-动作模型-(vla)",
+      "tech_name": "视觉-语言-动作模型 (VLA)",
+      "timestamp": "2026-09-09T23:36:52.407179"
     }
   ]
 }

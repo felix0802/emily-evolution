@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 586,
+  "_rotation_idx": 587,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 57,
@@ -4329,18 +4329,9 @@
   },
   "continual-learning": {
     "name": "Continual Learning",
-    "total_papers_found": 72,
-    "watering_count": 59,
+    "total_papers_found": 74,
+    "watering_count": 60,
     "history": [
-      {
-        "timestamp": "2026-07-19T01:21:05.142603",
-        "papers_found": 0,
-        "duplicates": 7,
-        "irrelevant_filtered": 3,
-        "avg_relevance": 0.0,
-        "high_relevance": 0,
-        "papers": []
-      },
       {
         "timestamp": "2026-07-19T22:39:01.535827",
         "papers_found": 0,
@@ -5120,6 +5111,30 @@
         "avg_relevance": 0.0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-09-09T23:36:46.349303",
+        "papers_found": 2,
+        "duplicates": 2,
+        "irrelevant_filtered": 6,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "Continual Learning Mechanisms Compose for Long-Horizon Memorization",
+            "summary": "Language models may need to internalize information that arrives over time and retain it through many subsequent updates. To study this challenge, we introduce long-horizon memorization, a setting in which a model learns 100 query-answer tasks through continual supervised fine-tuning without retaini",
+            "published": "2026-09-07",
+            "url": "http://arxiv.org/abs/2609.06986v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Robust Dynamic Expansion for Continual Learning under Backdoor Attacks via Purification and Selective Recovery",
+            "summary": "Continual learning (CL) enables models to acquire new knowledge from sequentially arriving tasks while retaining previously learned knowledge. However, in practical scenarios, task streams collected from untrusted sources may contain backdoor-poisoned samples, posing a critical challenge to the stab",
+            "published": "2026-09-06",
+            "url": "http://arxiv.org/abs/2609.06346v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -5129,7 +5144,7 @@
       "ewc",
       "elastic weight"
     ],
-    "last_watered": "2026-09-08T06:38:35.327194"
+    "last_watered": "2026-09-09T23:36:46.349300"
   },
   "moe": {
     "name": "Mixture of Experts",

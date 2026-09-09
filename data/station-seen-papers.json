@@ -36160,7 +36160,283 @@
         "multi"
       ],
       "first_seen_round": 220
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.09158v1",
+      "title": "TANGO: Humanoid Navigation in Cluttered Environments with a Whole-Body Vision-Language-Action Model",
+      "arxiv_id": "2609.09158",
+      "tokens": [
+        "action",
+        "body",
+        "cluttered",
+        "environments",
+        "humanoid",
+        "language",
+        "navigation",
+        "tango",
+        "vision",
+        "whole"
+      ],
+      "first_seen_round": 221
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.09153v1",
+      "title": "Procedural Graphs: Self-Evolving Execution Structures for LLM Agents",
+      "arxiv_id": "2609.09153",
+      "tokens": [
+        "agents",
+        "evolving",
+        "execution",
+        "graphs",
+        "llm",
+        "procedural",
+        "self",
+        "structures"
+      ],
+      "first_seen_round": 221
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.09137v1",
+      "title": "A Data-Driven Framework for Identifying and Prioritizing RPA Opportunities in Healthcare Processes",
+      "arxiv_id": "2609.09137",
+      "tokens": [
+        "driven",
+        "healthcare",
+        "identifying",
+        "opportunities",
+        "prioritizing",
+        "processes",
+        "rpa"
+      ],
+      "first_seen_round": 221
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.09134v1",
+      "title": "Co-Evolving Harnesses and Models: On-Policy Correction Helps Weaker Models Catch Up Where Imitation Fails",
+      "arxiv_id": "2609.09134",
+      "tokens": [
+        "catch",
+        "correction",
+        "evolving",
+        "fails",
+        "harnesses",
+        "helps",
+        "imitation",
+        "policy",
+        "weaker"
+      ],
+      "first_seen_round": 221
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.09133v1",
+      "title": "ExecCritic: Learn to Test, Test to Improve for Coding Agents",
+      "arxiv_id": "2609.09133",
+      "tokens": [
+        "agents",
+        "coding",
+        "execcritic",
+        "improve",
+        "learn",
+        "test",
+        "test"
+      ],
+      "first_seen_round": 221
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.09126v1",
+      "title": "A Generalization of Amari's Bayesian Duality",
+      "arxiv_id": "2609.09126",
+      "tokens": [
+        "amari",
+        "bayesian",
+        "duality",
+        "generalization"
+      ],
+      "first_seen_round": 221
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.09124v1",
+      "title": "Canonical Color as a Lens into Concept Decodability in Vision Encoders and VLMs",
+      "arxiv_id": "2609.09124",
+      "tokens": [
+        "canonical",
+        "color",
+        "concept",
+        "decodability",
+        "encoders",
+        "lens",
+        "vision",
+        "vlms"
+      ],
+      "first_seen_round": 221
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.09157v1",
+      "title": "Learning Length-Extrapolatable Recurrent Models",
+      "arxiv_id": "2609.09157",
+      "tokens": [
+        "extrapolatable",
+        "length",
+        "recurrent"
+      ],
+      "first_seen_round": 221
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.09152v1",
+      "title": "Silver Rate Is (Almost) Optimal for Gradient Descent Acceleration",
+      "arxiv_id": "2609.09152",
+      "tokens": [
+        "acceleration",
+        "almost",
+        "descent",
+        "gradient",
+        "optimal",
+        "rate",
+        "silver"
+      ],
+      "first_seen_round": 221
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.09135v1",
+      "title": "Entropy-Regularized Rank-Masked Policy Optimization for Test-Time Reinforcement Learning in Code Generation",
+      "arxiv_id": "2609.09135",
+      "tokens": [
+        "code",
+        "entropy",
+        "generation",
+        "masked",
+        "optimization",
+        "policy",
+        "rank",
+        "regularized",
+        "reinforcement",
+        "test",
+        "time"
+      ],
+      "first_seen_round": 221
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.09130v1",
+      "title": "Nearly Tight Rademacher Bounds for Sparsely Activated Neural Networks",
+      "arxiv_id": "2609.09130",
+      "tokens": [
+        "activated",
+        "bounds",
+        "nearly",
+        "neural",
+        "rademacher",
+        "sparsely",
+        "tight"
+      ],
+      "first_seen_round": 221
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.09116v1",
+      "title": "When Does Scale-Invariant Optimization Become Unstable? An Exact Schedule Law with Weight Decay",
+      "arxiv_id": "2609.09116",
+      "tokens": [
+        "become",
+        "decay",
+        "exact",
+        "invariant",
+        "law",
+        "optimization",
+        "scale",
+        "schedule",
+        "unstable",
+        "weight"
+      ],
+      "first_seen_round": 221
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.09113v1",
+      "title": "SAEScientist-Bench: Can AI Agents Conduct Autonomous SAE Interpretability Research?",
+      "arxiv_id": "2609.09113",
+      "tokens": [
+        "agents",
+        "autonomous",
+        "bench",
+        "conduct",
+        "interpretability",
+        "research",
+        "sae",
+        "saescientist"
+      ],
+      "first_seen_round": 221
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.09156v1",
+      "title": "ReCite: Agentic Reasoning for Faithful Citation",
+      "arxiv_id": "2609.09156",
+      "tokens": [
+        "agentic",
+        "citation",
+        "faithful",
+        "reasoning",
+        "recite"
+      ],
+      "first_seen_round": 221
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.09150v1",
+      "title": "Copying explains the collective behavior of AI agents in the wild",
+      "arxiv_id": "2609.09150",
+      "tokens": [
+        "agents",
+        "behavior",
+        "collective",
+        "copying",
+        "explains",
+        "wild"
+      ],
+      "first_seen_round": 221
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.09143v1",
+      "title": "Studying Image Tokenizers as Visual Languages in Unified Multimodal Models",
+      "arxiv_id": "2609.09143",
+      "tokens": [
+        "image",
+        "languages",
+        "multimodal",
+        "studying",
+        "tokenizers",
+        "unified",
+        "visual"
+      ],
+      "first_seen_round": 221
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.06986v1",
+      "title": "Continual Learning Mechanisms Compose for Long-Horizon Memorization",
+      "arxiv_id": "2609.06986",
+      "tokens": [
+        "compose",
+        "continual",
+        "horizon",
+        "long",
+        "mechanisms",
+        "memorization"
+      ],
+      "first_seen_round": 221
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.06346v1",
+      "title": "Robust Dynamic Expansion for Continual Learning under Backdoor Attacks via Purification and Selective Recovery",
+      "arxiv_id": "2609.06346",
+      "tokens": [
+        "attacks",
+        "backdoor",
+        "continual",
+        "dynamic",
+        "expansion",
+        "purification",
+        "recovery",
+        "robust",
+        "selective"
+      ],
+      "first_seen_round": 221
     }
   ],
-  "total_unique": 2253
+  "total_unique": 2271
 }
