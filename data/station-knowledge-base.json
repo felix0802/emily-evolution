@@ -1,36 +1,6 @@
 {
   "sessions": [
     {
-      "timestamp": "2026-07-08T14:02:53.171533",
-      "arxiv_papers_count": 0,
-      "arxiv_top_keywords": [],
-      "arxiv_strategies": [
-        "搜索: time series forecasting",
-        "搜索: anomaly detection",
-        "搜索: knowledge distillation"
-      ],
-      "huggingface_models": 0,
-      "huggingface_tasks": [],
-      "ml_datasets": [
-        "Iris",
-        "Wine",
-        "Breast Cancer",
-        "Diabetes"
-      ],
-      "ml_total_tests": 22,
-      "github_trending_repos": 0,
-      "paperswithcode_papers": 0,
-      "evolution": {
-        "discovered": 0,
-        "adopted": 0,
-        "decisions": 0
-      },
-      "seed_watering": {
-        "seed_name": "",
-        "papers_found": 0
-      }
-    },
-    {
       "timestamp": "2026-07-08T15:49:20.969467",
       "arxiv_papers_count": 18,
       "arxiv_top_keywords": [
@@ -4493,12 +4463,59 @@
         "seed_name": "Non-Transformer Arch",
         "papers_found": 7
       }
+    },
+    {
+      "timestamp": "2026-09-09T20:07:49.164592",
+      "arxiv_papers_count": 18,
+      "arxiv_top_keywords": [
+        "learning",
+        "distillation",
+        "multi",
+        "language",
+        "attention",
+        "linear",
+        "theory",
+        "compression",
+        "teacher",
+        "student"
+      ],
+      "arxiv_strategies": [
+        "搜索: multi-query attention",
+        "搜索: geometric deep learning",
+        "搜索: knowledge distillation"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "unknown",
+        "fill-mask",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 21,
+        "adopted": 2,
+        "decisions": 2
+      },
+      "seed_watering": {
+        "seed_name": "Few-Shot Learning",
+        "papers_found": 4
+      }
     }
   ],
   "total_sessions": 101,
-  "last_updated": "2026-09-09T17:23:58.112334",
+  "last_updated": "2026-09-09T20:07:49.164609",
   "evolution_summary": {
-    "total_adopted": 111,
+    "total_adopted": 113,
     "adopted_list": [
       "Knowledge Distillation",
       "World Models / Model-Based RL",
@@ -4610,7 +4627,9 @@
       "多任务学习 (MTL)",
       "梯度手术 (Gradient Surgery)",
       "Jacobian-based nonlinear information capacity preservation",
-      "Geometry-aware complementary diversity metrics"
+      "Geometry-aware complementary diversity metrics",
+      "零阶优化",
+      "连续潜在预测建模"
     ],
     "seeds": {
       "mamba": {
@@ -4640,7 +4659,7 @@
       },
       "few-shot": {
         "name": "Few-Shot Learning",
-        "watering": 60,
+        "watering": 61,
         "papers": 28
       },
       "continual-learning": {
@@ -4682,10 +4701,10 @@
         "name": "Few-Shot Learning",
         "new_papers": 23,
         "keywords_matched": [
-          "few-shot",
+          "meta-learning",
           "in-context",
-          "maml",
-          "meta-learning"
+          "few-shot",
+          "maml"
         ],
         "high_relevance_total": 3,
         "avg_relevance_latest": 0.0,
@@ -4806,6 +4825,6 @@
         "best_papers_count": 1
       }
     },
-    "last_evolution": "2026-09-09T17:23:58.114835"
+    "last_evolution": "2026-09-09T20:07:49.167063"
   }
 }

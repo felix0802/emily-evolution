@@ -379,12 +379,17 @@
       "arxiv_query": "liquid time-constant spiking neural networks event-driven learning",
       "potential_breakthrough": "此結合可能催生首個具備生物可塑性與液態適應性的高效能時序學習架構，突破現有 SNN 在連續控制與線上學習的瓶頸。",
       "status": "unverified",
-      "verification_rounds": 1,
+      "verification_rounds": 2,
       "supporting_papers": [
         {
           "title": "Liquid Time-constant Recurrent Neural Networks as Universal Approximators",
           "url": "http://arxiv.org/abs/1811.00321v1",
           "reason": "該論文提出液態時間常數RNN，其可變神經元時間常數與假設中液態閘控調整膜電位的概念一致，支持動態時間常數的可行性。"
+        },
+        {
+          "title": "Liquid Time-constant Recurrent Neural Networks as Universal Approximators",
+          "url": "http://arxiv.org/abs/1811.00321v1",
+          "reason": "該論文提出液態時間常數RNN，其可變神經元時間常數與假設中Liquid Networks的動態時間常數一致，支持其作為連續動力系統的基礎。"
         }
       ],
       "refuting_papers": [
@@ -392,12 +397,17 @@
           "title": "Chemical Reaction Networks Learn Better than Spiking Neural Networks",
           "url": "http://arxiv.org/abs/2603.12060v1",
           "reason": "該論文證明化學反應網路在無隱藏層時可勝任SNN需隱藏層的任務，暗示SNN的計算能力可能受限，與假設中SNN作為核心組件的優勢相矛盾。"
+        },
+        {
+          "title": "Chemical Reaction Networks Learn Better than Spiking Neural Networks",
+          "url": "http://arxiv.org/abs/2603.12060v1",
+          "reason": "該論文證明化學反應網路在無隱藏層時可解決SNN需隱藏層的任務，暗示SNN的結構限制，可能削弱假設中SNN與Liquid結合的優勢。"
         }
       ],
       "llm_source": "deepseek"
     }
   ],
-  "last_updated": "2026-09-09T17:24:05.042345",
+  "last_updated": "2026-09-09T20:07:52.555459",
   "total_generated": 16,
   "total_verified": 15
 }

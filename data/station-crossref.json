@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-09T17:23:58.127178",
+  "timestamp": "2026-09-09T20:07:49.178992",
   "connections": [
     {
       "seed_a": "Mamba (SSM)",
@@ -10,7 +10,7 @@
       ],
       "shared_paper_concepts": [],
       "strength": 4,
-      "discovered_at": "2026-09-09T17:23:58.127078"
+      "discovered_at": "2026-09-09T20:07:49.178889"
     },
     {
       "seed_a": "Liquid Networks",
@@ -23,7 +23,7 @@
         "neural"
       ],
       "strength": 4,
-      "discovered_at": "2026-09-09T17:23:58.127105"
+      "discovered_at": "2026-09-09T20:07:49.178916"
     },
     {
       "seed_a": "Liquid Networks",
@@ -35,7 +35,7 @@
         "neural"
       ],
       "strength": 3,
-      "discovered_at": "2026-09-09T17:23:58.127096"
+      "discovered_at": "2026-09-09T20:07:49.178907"
     },
     {
       "seed_a": "HTM",
@@ -47,7 +47,7 @@
         "with"
       ],
       "strength": 3,
-      "discovered_at": "2026-09-09T17:23:58.127119"
+      "discovered_at": "2026-09-09T20:07:49.178931"
     },
     {
       "seed_a": "Spiking Neural Networks",
@@ -59,7 +59,7 @@
         "neural"
       ],
       "strength": 3,
-      "discovered_at": "2026-09-09T17:23:58.127124"
+      "discovered_at": "2026-09-09T20:07:49.178936"
     },
     {
       "seed_a": "Non-Transformer Arch",
@@ -71,7 +71,7 @@
         "using"
       ],
       "strength": 3,
-      "discovered_at": "2026-09-09T17:23:58.127162"
+      "discovered_at": "2026-09-09T20:07:49.178979"
     },
     {
       "seed_a": "Liquid Networks",
@@ -82,7 +82,7 @@
         "graph"
       ],
       "strength": 2,
-      "discovered_at": "2026-09-09T17:23:58.127093"
+      "discovered_at": "2026-09-09T20:07:49.178904"
     },
     {
       "seed_a": "Non-Transformer Arch",
@@ -93,7 +93,7 @@
         "memory"
       ],
       "strength": 2,
-      "discovered_at": "2026-09-09T17:23:58.127128"
+      "discovered_at": "2026-09-09T20:07:49.178940"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -103,7 +103,7 @@
         "attention"
       ],
       "strength": 1,
-      "discovered_at": "2026-09-09T17:23:58.127088"
+      "discovered_at": "2026-09-09T20:07:49.178899"
     },
     {
       "seed_a": "Liquid Networks",
@@ -113,7 +113,7 @@
         "representation"
       ],
       "strength": 1,
-      "discovered_at": "2026-09-09T17:23:58.127100"
+      "discovered_at": "2026-09-09T20:07:49.178911"
     }
   ],
   "total_seeds": 10

@@ -96,9 +96,9 @@
       "timestamp": "2026-07-09T13:19:54.570005"
     },
     "Diabetes_GradientBoosting": {
-      "r2_mean": 0.4368,
-      "evolution": 180,
-      "timestamp": "2026-09-03T20:13:26.383104"
+      "r2_mean": 0.4375,
+      "evolution": 220,
+      "timestamp": "2026-09-09T20:07:39.978227"
     },
     "Diabetes_Ridge": {
       "r2_mean": 0.4823,
@@ -111,14 +111,8 @@
       "timestamp": "2026-07-07T08:54:37.763781"
     }
   },
-  "evolution_count": 219,
+  "evolution_count": 220,
   "history": [
-    {
-      "evolution": 138,
-      "timestamp": "2026-07-14T13:04:21.441860",
-      "total_tests": 22,
-      "improvements": []
-    },
     {
       "evolution": 139,
       "timestamp": "2026-07-14T17:43:48.582420",
@@ -418,6 +412,14 @@
       "timestamp": "2026-09-09T17:23:47.254834",
       "total_tests": 22,
       "improvements": []
+    },
+    {
+      "evolution": 220,
+      "timestamp": "2026-09-09T20:07:39.978240",
+      "total_tests": 22,
+      "improvements": [
+        "Diabetes_GradientBoosting: 0.4368 → 0.4375"
+      ]
     }
   ]
 }

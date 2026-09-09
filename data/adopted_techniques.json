@@ -1673,6 +1673,36 @@
         ],
         "decided_at": "2026-09-09T17:23:53.001143"
       }
+    },
+    {
+      "id": "llm-零阶优化",
+      "name": "零阶优化",
+      "adopted_at": "2026-09-09T20:07:46.173376",
+      "decision": {
+        "tech_id": "llm-零阶优化",
+        "tech_name": "零阶优化",
+        "action": "adopt",
+        "confidence": 0.9,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-09-09T20:07:46.171926"
+      }
+    },
+    {
+      "id": "llm-连续潜在预测建模",
+      "name": "连续潜在预测建模",
+      "adopted_at": "2026-09-09T20:07:46.173395",
+      "decision": {
+        "tech_id": "llm-连续潜在预测建模",
+        "tech_name": "连续潜在预测建模",
+        "action": "adopt",
+        "confidence": 0.8,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-09-09T20:07:46.172118"
+      }
     }
   ],
   "history": [
@@ -2341,6 +2371,18 @@
       "tech_id": "llm-geometry-aware-complementary-d",
       "tech_name": "Geometry-aware complementary diversity metrics",
       "timestamp": "2026-09-09T17:23:53.002617"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-零阶优化",
+      "tech_name": "零阶优化",
+      "timestamp": "2026-09-09T20:07:46.173381"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-连续潜在预测建模",
+      "tech_name": "连续潜在预测建模",
+      "timestamp": "2026-09-09T20:07:46.173397"
     }
   ]
 }
