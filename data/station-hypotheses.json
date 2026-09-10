@@ -428,7 +428,7 @@
       "arxiv_query": "dynamic expert routing KV cache eviction inference",
       "potential_breakthrough": "A co-optimized inference system that reduces both memory footprint and compute cost by 2-3x through joint dynamic routing and cache management.",
       "status": "unverified",
-      "verification_rounds": 1,
+      "verification_rounds": 2,
       "supporting_papers": [],
       "refuting_papers": [],
       "llm_source": "deepseek"
@@ -451,7 +451,7 @@
       "llm_source": "deepseek"
     }
   ],
-  "last_updated": "2026-09-10T17:21:47.960464",
+  "last_updated": "2026-09-10T20:10:19.476221",
   "total_generated": 18,
   "total_verified": 16
 }

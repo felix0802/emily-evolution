@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 591,
+  "_rotation_idx": 592,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 59,
@@ -730,18 +730,9 @@
   },
   "liquid-networks": {
     "name": "Liquid Networks",
-    "total_papers_found": 69,
-    "watering_count": 62,
+    "total_papers_found": 70,
+    "watering_count": 63,
     "history": [
-      {
-        "timestamp": "2026-07-19T12:45:45.205933",
-        "papers_found": 0,
-        "duplicates": 10,
-        "irrelevant_filtered": 0,
-        "avg_relevance": 0.0,
-        "high_relevance": 0,
-        "papers": []
-      },
       {
         "timestamp": "2026-07-20T15:42:52.612933",
         "papers_found": 0,
@@ -1447,6 +1438,23 @@
         "avg_relevance": 0.0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-09-10T20:10:11.801950",
+        "papers_found": 1,
+        "duplicates": 6,
+        "irrelevant_filtered": 3,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "Algorithmic Optimality Guarantees for Nonsmooth $H_\\infty$ Output-Feedback Policy Search",
+            "summary": "We study continuous-time full-order dynamic output-feedback $H_\\infty$ policy search, a nonconvex and nonsmooth problem. Direct policy search is a central paradigm in reinforcement learning and continuous control, but rigorous guarantees remain scarce in robust output-feedback settings. The $H_\\inft",
+            "published": "2026-09-05",
+            "url": "http://arxiv.org/abs/2609.06197v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -1456,7 +1464,7 @@
       "ode",
       "continuous-time"
     ],
-    "last_watered": "2026-09-09T01:49:44.412553"
+    "last_watered": "2026-09-10T20:10:11.801943"
   },
   "htm": {
     "name": "HTM",

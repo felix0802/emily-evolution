@@ -1763,6 +1763,36 @@
         ],
         "decided_at": "2026-09-10T12:25:51.669320"
       }
+    },
+    {
+      "id": "llm-硬件感知深度学习",
+      "name": "硬件感知深度学习",
+      "adopted_at": "2026-09-10T20:10:15.728130",
+      "decision": {
+        "tech_id": "llm-硬件感知深度学习",
+        "tech_name": "硬件感知深度学习",
+        "action": "adopt",
+        "confidence": 0.85,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-09-10T20:10:15.726600"
+      }
+    },
+    {
+      "id": "llm-无污染时间序列留出评估",
+      "name": "无污染时间序列留出评估",
+      "adopted_at": "2026-09-10T20:10:15.728149",
+      "decision": {
+        "tech_id": "llm-无污染时间序列留出评估",
+        "tech_name": "无污染时间序列留出评估",
+        "action": "adopt",
+        "confidence": 0.9,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-09-10T20:10:15.726783"
+      }
     }
   ],
   "history": [
@@ -2467,6 +2497,18 @@
       "tech_id": "llm-leave-one-subject-out-(loso)-评",
       "tech_name": "Leave-One-Subject-Out (LOSO) 评估",
       "timestamp": "2026-09-10T12:25:51.670835"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-硬件感知深度学习",
+      "tech_name": "硬件感知深度学习",
+      "timestamp": "2026-09-10T20:10:15.728135"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-无污染时间序列留出评估",
+      "tech_name": "无污染时间序列留出评估",
+      "timestamp": "2026-09-10T20:10:15.728151"
     }
   ]
 }
