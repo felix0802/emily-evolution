@@ -1,19 +1,10 @@
 {
-  "_rotation_idx": 590,
+  "_rotation_idx": 591,
   "mamba": {
     "name": "Mamba (SSM)",
-    "total_papers_found": 57,
-    "watering_count": 62,
+    "total_papers_found": 59,
+    "watering_count": 63,
     "history": [
-      {
-        "timestamp": "2026-07-19T11:01:54.221395",
-        "papers_found": 0,
-        "duplicates": 9,
-        "irrelevant_filtered": 1,
-        "avg_relevance": 0.0,
-        "high_relevance": 0,
-        "papers": []
-      },
       {
         "timestamp": "2026-07-20T12:07:33.017945",
         "papers_found": 0,
@@ -703,6 +694,30 @@
         "avg_relevance": 0.0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-09-10T17:21:38.598558",
+        "papers_found": 2,
+        "duplicates": 6,
+        "irrelevant_filtered": 2,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "MamMA: A Mamba-Based Pedestrian Trajectory Prediction Algorithm Considering Occupancy Map and Pedestrian Awareness States",
+            "summary": "Many pedestrian trajectory prediction algorithms have been proposed to improve the safety of navigation for mobile robots working in human-robot coexistence environments. Some pedestrian trajectory prediction algorithms extract information about obstacles near pedestrians from top-down view images t",
+            "published": "2026-09-07",
+            "url": "http://arxiv.org/abs/2609.08041v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "On the Recall Scaling Laws in Mamba: A Theoretical and Mechanistic Study via Hashing",
+            "summary": "Associative Recall (AR) is the cognitive ability to learn and retrieve links between items in memory. In NLP, AR is used as a benchmark for evaluating the in-context memory capacity of architectures such as Mamba, and has been found to strongly correlate with language modeling performance. This pape",
+            "published": "2026-09-07",
+            "url": "http://arxiv.org/abs/2609.07681v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -711,7 +726,7 @@
       "ssm",
       "selective scan"
     ],
-    "last_watered": "2026-09-08T23:43:51.677831"
+    "last_watered": "2026-09-10T17:21:38.598552"
   },
   "liquid-networks": {
     "name": "Liquid Networks",

@@ -37319,7 +37319,161 @@
         "training"
       ],
       "first_seen_round": 224
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.09891v1",
+      "title": "ProMeta: Few-shot PROTAC-targeted degradation prediction across E3 ligases",
+      "arxiv_id": "2609.09891",
+      "tokens": [
+        "degradation",
+        "ligases",
+        "prediction",
+        "prometa",
+        "protac",
+        "shot",
+        "targeted"
+      ],
+      "first_seen_round": 225
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.09504v1",
+      "title": "Inductive Biases in Field-Level Cosmological Inference from Galaxy Catalogs",
+      "arxiv_id": "2609.09504",
+      "tokens": [
+        "biases",
+        "catalogs",
+        "cosmological",
+        "field",
+        "galaxy",
+        "inductive",
+        "inference",
+        "level"
+      ],
+      "first_seen_round": 225
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.09920v1",
+      "title": "Multi-Pass, Multi-View Blended Learning for High-Fidelity Volumetric CT Synthesis from Chest X-Rays",
+      "arxiv_id": "2609.09920",
+      "tokens": [
+        "blended",
+        "chest",
+        "fidelity",
+        "high",
+        "multi",
+        "multi",
+        "pass",
+        "rays",
+        "synthesis",
+        "view",
+        "volumetric"
+      ],
+      "first_seen_round": 225
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.10464v1",
+      "title": "Semigroup-JEPA: Latent Dynamics Consistency for Zero-Shot Physics Generalization",
+      "arxiv_id": "2609.10464",
+      "tokens": [
+        "consistency",
+        "dynamics",
+        "generalization",
+        "jepa",
+        "latent",
+        "physics",
+        "semigroup",
+        "shot",
+        "zero"
+      ],
+      "first_seen_round": 225
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.09776v1",
+      "title": "Proof-Carrying Cognition: Closing the Verification Gap with Reality-Settled Reward",
+      "arxiv_id": "2609.09776",
+      "tokens": [
+        "carrying",
+        "closing",
+        "cognition",
+        "gap",
+        "proof",
+        "reality",
+        "reward",
+        "settled",
+        "verification"
+      ],
+      "first_seen_round": 225
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.09597v1",
+      "title": "Compact Visuotactile World Models for Lifting: Prediction, Reward Alignment, and Force Constraints",
+      "arxiv_id": "2609.09597",
+      "tokens": [
+        "alignment",
+        "compact",
+        "constraints",
+        "force",
+        "lifting",
+        "prediction",
+        "reward",
+        "visuotactile",
+        "world"
+      ],
+      "first_seen_round": 225
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.09418v1",
+      "title": "Valerant: An Automatic Navigable Game Map Generator via Action-Conditioned World Model Exploration",
+      "arxiv_id": "2609.09418",
+      "tokens": [
+        "action",
+        "automatic",
+        "conditioned",
+        "exploration",
+        "game",
+        "generator",
+        "map",
+        "navigable",
+        "valerant",
+        "world"
+      ],
+      "first_seen_round": 225
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.08041v1",
+      "title": "MamMA: A Mamba-Based Pedestrian Trajectory Prediction Algorithm Considering Occupancy Map and Pedestrian Awareness States",
+      "arxiv_id": "2609.08041",
+      "tokens": [
+        "algorithm",
+        "awareness",
+        "considering",
+        "mamba",
+        "mamma",
+        "map",
+        "occupancy",
+        "pedestrian",
+        "pedestrian",
+        "prediction",
+        "states",
+        "trajectory"
+      ],
+      "first_seen_round": 225
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.07681v1",
+      "title": "On the Recall Scaling Laws in Mamba: A Theoretical and Mechanistic Study via Hashing",
+      "arxiv_id": "2609.07681",
+      "tokens": [
+        "hashing",
+        "laws",
+        "mamba",
+        "mechanistic",
+        "recall",
+        "scaling",
+        "theoretical"
+      ],
+      "first_seen_round": 225
     }
   ],
-  "total_unique": 2327
+  "total_unique": 2336
 }

@@ -445,13 +445,13 @@
       "arxiv_query": "graph neural network KV cache optimization transformer inference",
       "potential_breakthrough": "A GNN-based KV cache manager that dynamically compresses cache by up to 80% while maintaining model accuracy, enabling long-context inference on memory-constrained devices.",
       "status": "unverified",
-      "verification_rounds": 0,
+      "verification_rounds": 1,
       "supporting_papers": [],
       "refuting_papers": [],
       "llm_source": "deepseek"
     }
   ],
-  "last_updated": "2026-09-10T12:25:57.704415",
+  "last_updated": "2026-09-10T17:21:47.960464",
   "total_generated": 18,
   "total_verified": 16
 }
