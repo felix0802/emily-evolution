@@ -1748,6 +1748,21 @@
         ],
         "decided_at": "2026-09-10T06:44:58.470559"
       }
+    },
+    {
+      "id": "llm-leave-one-subject-out-(loso)-评",
+      "name": "Leave-One-Subject-Out (LOSO) 评估",
+      "adopted_at": "2026-09-10T12:25:51.670829",
+      "decision": {
+        "tech_id": "llm-leave-one-subject-out-(loso)-评",
+        "tech_name": "Leave-One-Subject-Out (LOSO) 评估",
+        "action": "adopt",
+        "confidence": 0.9,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-09-10T12:25:51.669320"
+      }
     }
   ],
   "history": [
@@ -2446,6 +2461,12 @@
       "tech_id": "llm-合成奖励与rlvr",
       "tech_name": "合成奖励与RLVR",
       "timestamp": "2026-09-10T06:44:58.471606"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-leave-one-subject-out-(loso)-评",
+      "tech_name": "Leave-One-Subject-Out (LOSO) 评估",
+      "timestamp": "2026-09-10T12:25:51.670835"
     }
   ]
 }

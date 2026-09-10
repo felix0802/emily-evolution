@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 589,
+  "_rotation_idx": 590,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 57,
@@ -7040,18 +7040,9 @@
   },
   "gnn": {
     "name": "Graph Neural Networks",
-    "total_papers_found": 127,
-    "watering_count": 57,
+    "total_papers_found": 131,
+    "watering_count": 58,
     "history": [
-      {
-        "timestamp": "2026-07-19T09:41:59.616974",
-        "papers_found": 0,
-        "duplicates": 4,
-        "irrelevant_filtered": 6,
-        "avg_relevance": 0.0,
-        "high_relevance": 0,
-        "papers": []
-      },
       {
         "timestamp": "2026-07-20T08:33:56.827111",
         "papers_found": 1,
@@ -8103,6 +8094,37 @@
             "seed_match_score": 1
           }
         ]
+      },
+      {
+        "timestamp": "2026-09-10T12:25:46.901482",
+        "papers_found": 4,
+        "duplicates": 0,
+        "irrelevant_filtered": 6,
+        "avg_relevance": 1.5,
+        "high_relevance": 2,
+        "papers": [
+          {
+            "title": "Learning with Covariance Matrices: Principal Component Analysis Meets Learning with Graphs",
+            "summary": "This feature article provides an overview of the theoretical foundations for coVariance neural networks (VNNs), i.e., graph neural networks (GNNs) operating on covariance matrices as graphs. Covariance matrices are ubiquitous across domains, and hence, the deployment of GNNs often leverages graphs o",
+            "published": "2026-09-09",
+            "url": "http://arxiv.org/abs/2609.10490v1",
+            "seed_match_score": 2
+          },
+          {
+            "title": "Field-level prediction of mid-plane stress tensor fields in concrete target penetration: a cross-velocity graph neural operator surrogate",
+            "summary": "Although the impact resistance of concrete has been studied extensively, a framework linking mesoscale heterogeneity to full-field stress-tensor prediction has been lacking. Data were generated with a full-scale aggregate-resolved LS-DYNA model (projectile diameter 45 mm, mass 2.13 kg, target diamet",
+            "published": "2026-09-09",
+            "url": "http://arxiv.org/abs/2609.10032v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Efficient Graph Neural Networks for Multicarrier Wideband Hybrid Beamforming Optimization",
+            "summary": "6G wireless technology is poised to adopt higher and wider frequency bands, leveraging highly directional beamforming. However, the vast bandwidths amplify the impact of beam squinting. Traditional solutions, such as adding a true-time-delay filter to each antenna, are cost-prohibitive due to the re",
+            "published": "2026-09-09",
+            "url": "http://arxiv.org/abs/2609.09708v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -8114,6 +8136,6 @@
       "node embedding",
       "graph transformer"
     ],
-    "last_watered": "2026-09-08T20:24:24.243427"
+    "last_watered": "2026-09-10T12:25:46.901475"
   }
 }

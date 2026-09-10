@@ -415,9 +415,43 @@
         }
       ],
       "llm_source": "deepseek"
+    },
+    {
+      "id": "hyp-0017",
+      "timestamp": "2026-09-10T12:25:53.569680",
+      "seed_a": "Mixture of Experts",
+      "seed_b": "KV Cache Optimization",
+      "crossref_strength": 6,
+      "shared_keywords": [],
+      "hypothesis": "Dynamic expert routing in Mixture of Experts can be conditioned on KV cache eviction statistics to jointly optimize memory and compute, achieving higher throughput than separately optimized MoE and KV cache methods.",
+      "reasoning": "Both MoE and KV cache optimization deal with dynamic resource allocation under inference constraints: MoE routes tokens to experts based on input, while KV cache eviction selects tokens to retain based on attention patterns. The shared concepts of 'dynamic', 'cache', and 'aware' suggest a unified framework where cache eviction signals inform expert routing, and expert load balancing informs cache retention policies, creating a feedback loop that improves both memory efficiency and compute efficiency.",
+      "arxiv_query": "dynamic expert routing KV cache eviction inference",
+      "potential_breakthrough": "A co-optimized inference system that reduces both memory footprint and compute cost by 2-3x through joint dynamic routing and cache management.",
+      "status": "unverified",
+      "verification_rounds": 1,
+      "supporting_papers": [],
+      "refuting_papers": [],
+      "llm_source": "deepseek"
+    },
+    {
+      "id": "hyp-0018",
+      "timestamp": "2026-09-10T12:25:55.481572",
+      "seed_a": "KV Cache Optimization",
+      "seed_b": "Graph Neural Networks",
+      "crossref_strength": 5,
+      "shared_keywords": [],
+      "hypothesis": "By modeling the KV cache as a dynamic graph where tokens are nodes and attention-based similarities are edges, a graph neural network can learn to selectively retain or evict cache entries, achieving higher compression rates with lower perplexity than heuristic-based KV cache optimization methods.",
+      "reasoning": "KV cache optimization and graph neural networks intersect through the shared concepts of efficiency, awareness, and power. The KV cache can be represented as a graph where tokens are nodes and their attention interactions form edges; GNNs can then learn structural patterns to predict which cache entries are redundant, enabling adaptive, context-aware eviction. This leverages the mathematical commonality of message passing in GNNs and attention mechanisms in transformers, allowing GNNs to operate directly on the cache's relational structure.",
+      "arxiv_query": "graph neural network KV cache optimization transformer inference",
+      "potential_breakthrough": "A GNN-based KV cache manager that dynamically compresses cache by up to 80% while maintaining model accuracy, enabling long-context inference on memory-constrained devices.",
+      "status": "unverified",
+      "verification_rounds": 0,
+      "supporting_papers": [],
+      "refuting_papers": [],
+      "llm_source": "deepseek"
     }
   ],
-  "last_updated": "2026-09-09T23:36:56.398218",
-  "total_generated": 16,
+  "last_updated": "2026-09-10T12:25:57.704415",
+  "total_generated": 18,
   "total_verified": 16
 }
