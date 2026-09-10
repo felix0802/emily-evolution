@@ -1718,6 +1718,36 @@
         ],
         "decided_at": "2026-09-09T23:36:52.406501"
       }
+    },
+    {
+      "id": "llm-多智能体强化学习",
+      "name": "多智能体强化学习",
+      "adopted_at": "2026-09-10T06:44:58.471590",
+      "decision": {
+        "tech_id": "llm-多智能体强化学习",
+        "tech_name": "多智能体强化学习",
+        "action": "adopt",
+        "confidence": 0.9,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-09-10T06:44:58.470368"
+      }
+    },
+    {
+      "id": "llm-合成奖励与rlvr",
+      "name": "合成奖励与RLVR",
+      "adopted_at": "2026-09-10T06:44:58.471604",
+      "decision": {
+        "tech_id": "llm-合成奖励与rlvr",
+        "tech_name": "合成奖励与RLVR",
+        "action": "adopt",
+        "confidence": 0.9,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-09-10T06:44:58.470559"
+      }
     }
   ],
   "history": [
@@ -2404,6 +2434,18 @@
       "tech_id": "llm-视觉-语言-动作模型-(vla)",
       "tech_name": "视觉-语言-动作模型 (VLA)",
       "timestamp": "2026-09-09T23:36:52.407179"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-多智能体强化学习",
+      "tech_name": "多智能体强化学习",
+      "timestamp": "2026-09-10T06:44:58.471593"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-合成奖励与rlvr",
+      "tech_name": "合成奖励与RLVR",
+      "timestamp": "2026-09-10T06:44:58.471606"
     }
   ]
 }

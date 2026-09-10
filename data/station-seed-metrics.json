@@ -504,17 +504,16 @@
   },
   "kv-cache": {
     "name": "KV Cache Optimization",
-    "total_new_papers": 77,
-    "total_watering": 54,
+    "total_new_papers": 83,
+    "total_watering": 55,
     "all_keywords_matched": [
-      "kv cache",
-      "flash attention",
-      "gqa",
+      "key-value cache",
       "speculative decoding",
-      "key-value cache"
+      "flash attention",
+      "kv cache",
+      "gqa"
     ],
     "avg_relevance_trend": [
-      0.0,
       1.0,
       1.0,
       0.0,
@@ -533,6 +532,7 @@
       1.0,
       0.0,
       0.0,
+      1.0,
       1.0
     ],
     "high_relevance_total": 3,
@@ -543,6 +543,6 @@
         "published": "2026-07-29"
       }
     ],
-    "last_updated": "2026-09-08T17:37:54.630768"
+    "last_updated": "2026-09-10T06:44:54.052535"
   }
 }

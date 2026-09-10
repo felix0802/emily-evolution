@@ -36832,7 +36832,275 @@
         "sparse"
       ],
       "first_seen_round": 222
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.10433v1",
+      "title": "Multi-Agent Reinforcement Learning for Autonomous UAV Exploration in Wildfire Response",
+      "arxiv_id": "2609.10433",
+      "tokens": [
+        "agent",
+        "autonomous",
+        "exploration",
+        "multi",
+        "reinforcement",
+        "response",
+        "uav",
+        "wildfire"
+      ],
+      "first_seen_round": 223
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.10382v1",
+      "title": "Searching for New Physics with Reinforcement Learning",
+      "arxiv_id": "2609.10382",
+      "tokens": [
+        "physics",
+        "reinforcement",
+        "searching"
+      ],
+      "first_seen_round": 223
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.10225v1",
+      "title": "Hierarchical and Permutation-Invariant Feature Transformation Learning via Policy-Guided Embedding Search",
+      "arxiv_id": "2609.10225",
+      "tokens": [
+        "embedding",
+        "feature",
+        "guided",
+        "hierarchical",
+        "invariant",
+        "permutation",
+        "policy",
+        "search",
+        "transformation"
+      ],
+      "first_seen_round": 223
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.09981v1",
+      "title": "Optimal Value Inference for Reinforcement Learning",
+      "arxiv_id": "2609.09981",
+      "tokens": [
+        "inference",
+        "optimal",
+        "reinforcement",
+        "value"
+      ],
+      "first_seen_round": 223
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.09905v1",
+      "title": "FlowCPO: A Unified Divergence View of Preference Alignment for Flow Models",
+      "arxiv_id": "2609.09905",
+      "tokens": [
+        "alignment",
+        "divergence",
+        "flow",
+        "flowcpo",
+        "preference",
+        "unified",
+        "view"
+      ],
+      "first_seen_round": 223
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.10441v1",
+      "title": "ConvMem: Convolutional Memory for Long-Context Reasoning",
+      "arxiv_id": "2609.10441",
+      "tokens": [
+        "context",
+        "convmem",
+        "convolutional",
+        "long",
+        "memory",
+        "reasoning"
+      ],
+      "first_seen_round": 223
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.10397v1",
+      "title": "Retrofitting Code Using LLMs to Support Exceptional Behavior",
+      "arxiv_id": "2609.10397",
+      "tokens": [
+        "behavior",
+        "code",
+        "exceptional",
+        "llms",
+        "retrofitting",
+        "support"
+      ],
+      "first_seen_round": 223
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.10253v1",
+      "title": "DiSCo: A Distribution-First Steering and Cultural Prior Evaluation Framework for Measuring Cultural Preference Bias in LLMs",
+      "arxiv_id": "2609.10253",
+      "tokens": [
+        "bias",
+        "cultural",
+        "cultural",
+        "disco",
+        "distribution",
+        "evaluation",
+        "llms",
+        "measuring",
+        "preference",
+        "prior",
+        "steering"
+      ],
+      "first_seen_round": 223
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.10237v1",
+      "title": "The Answer Path and the Grounding Instruction in LLM Question Answering over Knowledge Graphs",
+      "arxiv_id": "2609.10237",
+      "tokens": [
+        "answer",
+        "answering",
+        "graphs",
+        "grounding",
+        "instruction",
+        "knowledge",
+        "llm",
+        "path",
+        "question"
+      ],
+      "first_seen_round": 223
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.10303v1",
+      "title": "SynThermFace: Amplifying Limited Paired Data for Visible-Thermal Face Recognition via Synthetic Data Generation",
+      "arxiv_id": "2609.10303",
+      "tokens": [
+        "amplifying",
+        "face",
+        "generation",
+        "limited",
+        "paired",
+        "recognition",
+        "synthermface",
+        "synthetic",
+        "thermal",
+        "visible"
+      ],
+      "first_seen_round": 223
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.09909v1",
+      "title": "Interpreting Object-Dependent Concept Brittleness in Text-to-Image Diffusion Models",
+      "arxiv_id": "2609.09909",
+      "tokens": [
+        "brittleness",
+        "concept",
+        "dependent",
+        "diffusion",
+        "image",
+        "interpreting",
+        "object",
+        "text"
+      ],
+      "first_seen_round": 223
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.10266v1",
+      "title": "KVShareArena: KV-Cache Reuse Across Contexts and Model Checkpoints",
+      "arxiv_id": "2609.10266",
+      "tokens": [
+        "cache",
+        "checkpoints",
+        "contexts",
+        "kvsharearena",
+        "reuse"
+      ],
+      "first_seen_round": 223
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.09768v1",
+      "title": "Fine-Tuning a KV Cache Concatenation-Aware Model or Recomputing KV Caches? Why Not Both?",
+      "arxiv_id": "2609.09768",
+      "tokens": [
+        "aware",
+        "cache",
+        "caches",
+        "concatenation",
+        "fine",
+        "recomputing",
+        "tuning",
+        "why"
+      ],
+      "first_seen_round": 223
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.09662v1",
+      "title": "PELM: Power Efficient On-Device LLM Inference with Speculative Decoding and Dynamic Voltage Frequency Scaling",
+      "arxiv_id": "2609.09662",
+      "tokens": [
+        "decoding",
+        "device",
+        "dynamic",
+        "frequency",
+        "inference",
+        "llm",
+        "pelm",
+        "power",
+        "scaling",
+        "speculative",
+        "voltage"
+      ],
+      "first_seen_round": 223
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.09338v1",
+      "title": "Osprey: Target-agnostic Pre-training Makes Stronger Drafters in Speculative Decoding",
+      "arxiv_id": "2609.09338",
+      "tokens": [
+        "agnostic",
+        "decoding",
+        "drafters",
+        "makes",
+        "osprey",
+        "pre",
+        "speculative",
+        "stronger",
+        "target",
+        "training"
+      ],
+      "first_seen_round": 223
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.07966v1",
+      "title": "MetaKV: Adaptive KV Cache Compression for Constrained LLM Inference",
+      "arxiv_id": "2609.07966",
+      "tokens": [
+        "adaptive",
+        "cache",
+        "compression",
+        "constrained",
+        "inference",
+        "llm",
+        "metakv"
+      ],
+      "first_seen_round": 223
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.07108v1",
+      "title": "Online Draft Co-Training for Speculative Decoding in Large-Scale, Long-Context RL Post-Training",
+      "arxiv_id": "2609.07108",
+      "tokens": [
+        "context",
+        "decoding",
+        "draft",
+        "long",
+        "online",
+        "post",
+        "scale",
+        "speculative",
+        "training",
+        "training"
+      ],
+      "first_seen_round": 223
     }
   ],
-  "total_unique": 2296
+  "total_unique": 2313
 }

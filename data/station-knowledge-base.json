@@ -1,53 +1,6 @@
 {
   "sessions": [
     {
-      "timestamp": "2026-07-08T19:45:30.675140",
-      "arxiv_papers_count": 18,
-      "arxiv_top_keywords": [
-        "llm",
-        "video",
-        "diffusion",
-        "quality",
-        "multi",
-        "native",
-        "throwing",
-        "obstacle",
-        "learning",
-        "objects"
-      ],
-      "arxiv_strategies": [
-        "搜索: reinforcement learning",
-        "搜索: large language model",
-        "搜索: diffusion model"
-      ],
-      "huggingface_models": 10,
-      "huggingface_tasks": [
-        "sentence-similarity",
-        "fill-mask",
-        "text-generation",
-        "text-ranking",
-        "feature-extraction"
-      ],
-      "ml_datasets": [
-        "Iris",
-        "Wine",
-        "Breast Cancer",
-        "Diabetes"
-      ],
-      "ml_total_tests": 22,
-      "github_trending_repos": 8,
-      "paperswithcode_papers": 8,
-      "evolution": {
-        "discovered": 27,
-        "adopted": 0,
-        "decisions": 0
-      },
-      "seed_watering": {
-        "seed_name": "Mamba (SSM)",
-        "papers_found": 7
-      }
-    },
-    {
       "timestamp": "2026-07-09T08:07:08.468259",
       "arxiv_papers_count": 17,
       "arxiv_top_keywords": [
@@ -4522,12 +4475,59 @@
         "seed_name": "Mixture of Experts",
         "papers_found": 8
       }
+    },
+    {
+      "timestamp": "2026-09-10T06:45:01.162347",
+      "arxiv_papers_count": 17,
+      "arxiv_top_keywords": [
+        "reinforcement",
+        "learning",
+        "inference",
+        "uav",
+        "wildfire",
+        "autonomous",
+        "physics",
+        "smeft",
+        "anomalies",
+        "searching"
+      ],
+      "arxiv_strategies": [
+        "搜索: reinforcement learning",
+        "搜索: large language model",
+        "搜索: diffusion model"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "unknown",
+        "fill-mask",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 20,
+        "adopted": 2,
+        "decisions": 2
+      },
+      "seed_watering": {
+        "seed_name": "KV Cache Optimization",
+        "papers_found": 9
+      }
     }
   ],
   "total_sessions": 101,
-  "last_updated": "2026-09-10T01:45:31.806132",
+  "last_updated": "2026-09-10T06:45:01.162362",
   "evolution_summary": {
-    "total_adopted": 114,
+    "total_adopted": 116,
     "adopted_list": [
       "Knowledge Distillation",
       "World Models / Model-Based RL",
@@ -4642,7 +4642,9 @@
       "Geometry-aware complementary diversity metrics",
       "零阶优化",
       "连续潜在预测建模",
-      "视觉-语言-动作模型 (VLA)"
+      "视觉-语言-动作模型 (VLA)",
+      "多智能体强化学习",
+      "合成奖励与RLVR"
     ],
     "seeds": {
       "mamba": {
@@ -4687,8 +4689,8 @@
       },
       "kv-cache": {
         "name": "KV Cache Optimization",
-        "watering": 56,
-        "papers": 77
+        "watering": 57,
+        "papers": 83
       },
       "gnn": {
         "name": "Graph Neural Networks",
@@ -4825,19 +4827,19 @@
       },
       "kv-cache": {
         "name": "KV Cache Optimization",
-        "new_papers": 77,
+        "new_papers": 83,
         "keywords_matched": [
-          "kv cache",
-          "flash attention",
-          "gqa",
+          "key-value cache",
           "speculative decoding",
-          "key-value cache"
+          "flash attention",
+          "kv cache",
+          "gqa"
         ],
         "high_relevance_total": 3,
         "avg_relevance_latest": 1.0,
         "best_papers_count": 1
       }
     },
-    "last_evolution": "2026-09-10T01:45:31.808530"
+    "last_evolution": "2026-09-10T06:45:01.164297"
   }
 }
