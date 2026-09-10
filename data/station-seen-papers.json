@@ -36436,7 +36436,403 @@
         "selective"
       ],
       "first_seen_round": 221
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.10371v1",
+      "title": "Beyond Weak Labels: Prompt-Guided Local Refinement for Weakly Supervised Water Segmentation in High-Resolution Multispectral Imagery",
+      "arxiv_id": "2609.10371",
+      "tokens": [
+        "guided",
+        "high",
+        "imagery",
+        "labels",
+        "local",
+        "multispectral",
+        "prompt",
+        "refinement",
+        "resolution",
+        "segmentation",
+        "supervised",
+        "water",
+        "weak",
+        "weakly"
+      ],
+      "first_seen_round": 222
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.10366v1",
+      "title": "AVSRBench: A Multi-Condition AVSR Benchmark",
+      "arxiv_id": "2609.10366",
+      "tokens": [
+        "avsr",
+        "avsrbench",
+        "benchmark",
+        "condition",
+        "multi"
+      ],
+      "first_seen_round": 222
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.10363v1",
+      "title": "SceneHI: High-Resolution 3D-Consistent Scene Texturing with Controllable Illumination",
+      "arxiv_id": "2609.10363",
+      "tokens": [
+        "consistent",
+        "controllable",
+        "high",
+        "illumination",
+        "resolution",
+        "scene",
+        "scenehi",
+        "texturing"
+      ],
+      "first_seen_round": 222
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.10356v1",
+      "title": "Spot-the-shift: Evaluating Grounded Image Difference Captioning of Long-term Changes",
+      "arxiv_id": "2609.10356",
+      "tokens": [
+        "captioning",
+        "changes",
+        "difference",
+        "evaluating",
+        "grounded",
+        "image",
+        "long",
+        "shift",
+        "spot",
+        "term"
+      ],
+      "first_seen_round": 222
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.10355v1",
+      "title": "Why Is Video Still So Expensive? A Survey of Inference-Efficiency Mechanisms in Video and Audiovisual LLMs",
+      "arxiv_id": "2609.10355",
+      "tokens": [
+        "audiovisual",
+        "efficiency",
+        "expensive",
+        "inference",
+        "llms",
+        "mechanisms",
+        "still",
+        "video",
+        "video",
+        "why"
+      ],
+      "first_seen_round": 222
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.10346v1",
+      "title": "Beyond One-Size-Fits-All: Sample-Adaptive Strategy Routing for Vision Token Pruning in MLLMs",
+      "arxiv_id": "2609.10346",
+      "tokens": [
+        "adaptive",
+        "fits",
+        "mllms",
+        "pruning",
+        "routing",
+        "sample",
+        "size",
+        "strategy",
+        "token",
+        "vision"
+      ],
+      "first_seen_round": 222
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.10334v1",
+      "title": "Dimensionality Reduction for Hyperspectral Image Classification",
+      "arxiv_id": "2609.10334",
+      "tokens": [
+        "classification",
+        "dimensionality",
+        "hyperspectral",
+        "image",
+        "reduction"
+      ],
+      "first_seen_round": 222
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.10333v1",
+      "title": "Learning to Adapt and Calibrate: Score Distribution Alignment for Few-Shot Uncertainty Prediction in Medical VLMs",
+      "arxiv_id": "2609.10333",
+      "tokens": [
+        "adapt",
+        "alignment",
+        "calibrate",
+        "distribution",
+        "medical",
+        "prediction",
+        "score",
+        "shot",
+        "uncertainty",
+        "vlms"
+      ],
+      "first_seen_round": 222
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.10364v1",
+      "title": "OmniMed-FL: A Robust Multimodal Federated Learning Framework for Clinical Diagnosis",
+      "arxiv_id": "2609.10364",
+      "tokens": [
+        "clinical",
+        "diagnosis",
+        "federated",
+        "multimodal",
+        "omnimed",
+        "robust"
+      ],
+      "first_seen_round": 222
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.10357v1",
+      "title": "A Later Test Set Is Not a New Domain: Pretraining Familiarity Survives a Contamination-Free Hold-Out",
+      "arxiv_id": "2609.10357",
+      "tokens": [
+        "contamination",
+        "domain",
+        "familiarity",
+        "free",
+        "hold",
+        "later",
+        "pretraining",
+        "set",
+        "survives",
+        "test"
+      ],
+      "first_seen_round": 222
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.10350v1",
+      "title": "Cyber-Financial Contagion: Modeling the Propagation of an AI Vendor Compromise Through the Banking System",
+      "arxiv_id": "2609.10350",
+      "tokens": [
+        "banking",
+        "compromise",
+        "contagion",
+        "cyber",
+        "financial",
+        "modeling",
+        "propagation",
+        "vendor"
+      ],
+      "first_seen_round": 222
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.10338v1",
+      "title": "TimeCues Studio: A Workspace for Music Annotation and Algorithm Prototyping",
+      "arxiv_id": "2609.10338",
+      "tokens": [
+        "algorithm",
+        "annotation",
+        "music",
+        "prototyping",
+        "studio",
+        "timecues",
+        "workspace"
+      ],
+      "first_seen_round": 222
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.10335v1",
+      "title": "From Symbolic Perception to Logical Deduction: A Framework for Guiding Language Models in Geometric Reasoning",
+      "arxiv_id": "2609.10335",
+      "tokens": [
+        "deduction",
+        "geometric",
+        "guiding",
+        "language",
+        "logical",
+        "perception",
+        "reasoning",
+        "symbolic"
+      ],
+      "first_seen_round": 222
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.10315v1",
+      "title": "TRACE: Training Reasoning Agents for Causal Exploration with Synthesized Rewards",
+      "arxiv_id": "2609.10315",
+      "tokens": [
+        "agents",
+        "causal",
+        "exploration",
+        "reasoning",
+        "rewards",
+        "synthesized",
+        "trace",
+        "training"
+      ],
+      "first_seen_round": 222
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.10311v1",
+      "title": "One Loop, Two Gains: Can Active Learning win the Lottery for Free?",
+      "arxiv_id": "2609.10311",
+      "tokens": [
+        "active",
+        "free",
+        "gains",
+        "loop",
+        "lottery",
+        "win"
+      ],
+      "first_seen_round": 222
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.10307v1",
+      "title": "View-Structured Conformal Prediction for 3D Gaussian Splatting",
+      "arxiv_id": "2609.10307",
+      "tokens": [
+        "conformal",
+        "gaussian",
+        "prediction",
+        "splatting",
+        "structured",
+        "view"
+      ],
+      "first_seen_round": 222
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.10305v1",
+      "title": "RiLM: Parameter-Efficient Language Modeling via Geodesic Decoding",
+      "arxiv_id": "2609.10305",
+      "tokens": [
+        "decoding",
+        "geodesic",
+        "language",
+        "modeling",
+        "parameter",
+        "rilm"
+      ],
+      "first_seen_round": 222
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.10299v1",
+      "title": "A Dominant Diffuse Phase in the Sparse Autoencoder Phase Diagram",
+      "arxiv_id": "2609.10299",
+      "tokens": [
+        "autoencoder",
+        "diagram",
+        "diffuse",
+        "dominant",
+        "phase",
+        "phase",
+        "sparse"
+      ],
+      "first_seen_round": 222
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.10298v1",
+      "title": "Learning Intrusion Response Strategies for OT Systems",
+      "arxiv_id": "2609.10298",
+      "tokens": [
+        "intrusion",
+        "response",
+        "strategies"
+      ],
+      "first_seen_round": 222
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.10322v1",
+      "title": "Geometry Without Coordinates: LiDAR Diffusion as a 3D Feature Bridge",
+      "arxiv_id": "2609.10322",
+      "tokens": [
+        "bridge",
+        "coordinates",
+        "diffusion",
+        "feature",
+        "geometry",
+        "lidar"
+      ],
+      "first_seen_round": 222
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.10321v1",
+      "title": "On-Policy Distillation for Vision-Language Model Adaptation, an Effective Paradigm on Low-Quality Multimodal Data",
+      "arxiv_id": "2609.10321",
+      "tokens": [
+        "adaptation",
+        "distillation",
+        "effective",
+        "language",
+        "low",
+        "multimodal",
+        "paradigm",
+        "policy",
+        "quality",
+        "vision"
+      ],
+      "first_seen_round": 222
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.10317v1",
+      "title": "Decoupled Self-Forcing Distillation for Streaming Talking Head Generation",
+      "arxiv_id": "2609.10317",
+      "tokens": [
+        "decoupled",
+        "distillation",
+        "forcing",
+        "generation",
+        "head",
+        "self",
+        "streaming",
+        "talking"
+      ],
+      "first_seen_round": 222
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.09793v1",
+      "title": "How Fragile Is Safety Alignment at Frontier Scale? A Single-Direction Attack on a 320B MoE",
+      "arxiv_id": "2609.09793",
+      "tokens": [
+        "320b",
+        "alignment",
+        "attack",
+        "direction",
+        "fragile",
+        "frontier",
+        "moe",
+        "safety",
+        "scale",
+        "single"
+      ],
+      "first_seen_round": 222
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.08966v1",
+      "title": "Good Pretraining, Bad SFT: Checkpoint Quality Across the Training Stack",
+      "arxiv_id": "2609.08966",
+      "tokens": [
+        "bad",
+        "checkpoint",
+        "good",
+        "pretraining",
+        "quality",
+        "sft",
+        "stack",
+        "training"
+      ],
+      "first_seen_round": 222
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.09241v1",
+      "title": "Distribution-Consistent Inference for Dynamic Sparse Mixture-of-Experts",
+      "arxiv_id": "2609.09241",
+      "tokens": [
+        "consistent",
+        "distribution",
+        "dynamic",
+        "experts",
+        "inference",
+        "mixture",
+        "sparse"
+      ],
+      "first_seen_round": 222
     }
   ],
-  "total_unique": 2271
+  "total_unique": 2296
 }

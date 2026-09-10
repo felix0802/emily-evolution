@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 587,
+  "_rotation_idx": 588,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 57,
@@ -5148,18 +5148,9 @@
   },
   "moe": {
     "name": "Mixture of Experts",
-    "total_papers_found": 85,
-    "watering_count": 55,
+    "total_papers_found": 88,
+    "watering_count": 56,
     "history": [
-      {
-        "timestamp": "2026-07-19T04:58:03.382788",
-        "papers_found": 0,
-        "duplicates": 6,
-        "irrelevant_filtered": 4,
-        "avg_relevance": 0.0,
-        "high_relevance": 0,
-        "papers": []
-      },
       {
         "timestamp": "2026-07-20T01:24:39.351147",
         "papers_found": 3,
@@ -6073,6 +6064,37 @@
             "seed_match_score": 3
           }
         ]
+      },
+      {
+        "timestamp": "2026-09-10T01:45:25.995854",
+        "papers_found": 3,
+        "duplicates": 5,
+        "irrelevant_filtered": 2,
+        "avg_relevance": 1.33,
+        "high_relevance": 1,
+        "papers": [
+          {
+            "title": "How Fragile Is Safety Alignment at Frontier Scale? A Single-Direction Attack on a 320B MoE",
+            "summary": "Directional ablation removes an aligned language model's ability to refuse by projecting a single \"refusal direction\" out of the weights that write the residual stream. It needs no gradient-based training and no optimization, only a few hundred contrastive prompts, which makes it the canonical white",
+            "published": "2026-09-09",
+            "url": "http://arxiv.org/abs/2609.09793v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Good Pretraining, Bad SFT: Checkpoint Quality Across the Training Stack",
+            "summary": "Language-model checkpoints are commonly selected by pretraining loss or benchmark scores, assuming that the highest-scoring checkpoint will remain the best starting point for subsequent training. We show that this assumption can fail in a full 30B mixture-of-experts training pipeline. The checkpoint",
+            "published": "2026-09-08",
+            "url": "http://arxiv.org/abs/2609.08966v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Distribution-Consistent Inference for Dynamic Sparse Mixture-of-Experts",
+            "summary": "Mixture-of-Experts (MoE) architectures have emerged as a powerful paradigm for scaling model capacity while preserving efficient inference in large foundation models. However, most MoE models use a fixed top-$k$ expert selection policy, assigning the same expert budget to every token even when fewer",
+            "published": "2026-09-08",
+            "url": "http://arxiv.org/abs/2609.09241v1",
+            "seed_match_score": 2
+          }
+        ]
       }
     ],
     "keywords": [
@@ -6084,7 +6106,7 @@
       "switch transformer",
       "deepseek"
     ],
-    "last_watered": "2026-09-08T12:20:23.080860"
+    "last_watered": "2026-09-10T01:45:25.995849"
   },
   "kv-cache": {
     "name": "KV Cache Optimization",

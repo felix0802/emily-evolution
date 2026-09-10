@@ -1,28 +1,6 @@
 {
   "rounds": [
     {
-      "round": 172,
-      "timestamp": "2026-09-02T12:20:21.796478",
-      "prediction_error": 0.5,
-      "seeds_active": 10,
-      "seeds_dormant": 0,
-      "new_seeds_added": 0,
-      "top_motivated": [
-        [
-          "mamba",
-          0.49
-        ],
-        [
-          "liquid-networks",
-          0.49
-        ],
-        [
-          "htm",
-          0.49
-        ]
-      ]
-    },
-    {
       "round": 173,
       "timestamp": "2026-09-02T17:28:21.960481",
       "prediction_error": 0.5,
@@ -1099,6 +1077,28 @@
           0.91
         ]
       ]
+    },
+    {
+      "round": 222,
+      "timestamp": "2026-09-10T01:45:26.010485",
+      "prediction_error": 0.7,
+      "seeds_active": 9,
+      "seeds_dormant": 1,
+      "new_seeds_added": 0,
+      "top_motivated": [
+        [
+          "liquid-networks",
+          0.91
+        ],
+        [
+          "spiking-nn",
+          0.91
+        ],
+        [
+          "non-transformer",
+          0.91
+        ]
+      ]
     }
   ],
   "seed_scores": {
@@ -1121,7 +1121,7 @@
         1.0,
         1.0,
         1.0,
-        1.0,
+        0.25,
         0.25,
         0.25,
         0.25,
@@ -1171,7 +1171,6 @@
         0.923,
         0.923,
         0.923,
-        0.923,
         1.0,
         1.0,
         1.0,
@@ -1182,6 +1181,7 @@
         1.0,
         1.0,
         1.0,
+        0.976,
         0.976,
         0.976,
         0.976,
@@ -1291,7 +1291,6 @@
         0.735,
         0.735,
         0.735,
-        0.735,
         0.0,
         0.0,
         0.0,
@@ -1302,16 +1301,16 @@
         0.0,
         0.0,
         0.0,
+        0.34,
         0.34
       ]
     },
     "moe": {
       "name": "Mixture of Experts",
-      "info_gain": 0.72,
+      "info_gain": 0.57,
       "novelty": 0.857,
-      "motivation_score": 0.755,
+      "motivation_score": 0.695,
       "info_gain_history": [
-        1.0,
         0.6,
         0.6,
         0.6,
@@ -1331,7 +1330,8 @@
         0.72,
         0.72,
         0.72,
-        0.72
+        0.72,
+        0.57
       ]
     },
     "kv-cache": {
@@ -1351,7 +1351,7 @@
         1.0,
         1.0,
         1.0,
-        1.0,
+        0.806,
         0.806,
         0.806,
         0.806,
@@ -1381,7 +1381,7 @@
         1.0,
         1.0,
         1.0,
-        1.0,
+        0.621,
         0.621,
         0.621,
         0.621,
@@ -1398,6 +1398,6 @@
     "few-shot",
     "continual-learning"
   ],
-  "total_motivation_evaluations": 62,
+  "total_motivation_evaluations": 63,
   "current_prediction_error": 0.7
 }
