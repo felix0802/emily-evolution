@@ -1,53 +1,6 @@
 {
   "sessions": [
     {
-      "timestamp": "2026-07-09T15:21:02.194607",
-      "arxiv_papers_count": 16,
-      "arxiv_top_keywords": [
-        "reasoning",
-        "structural",
-        "structure",
-        "property",
-        "native",
-        "knowledge",
-        "lmlm",
-        "continuous",
-        "query",
-        "limited"
-      ],
-      "arxiv_strategies": [
-        "cs.AI 最新",
-        "cs.LG 最新",
-        "cs.CL 最新"
-      ],
-      "huggingface_models": 10,
-      "huggingface_tasks": [
-        "sentence-similarity",
-        "fill-mask",
-        "text-generation",
-        "text-ranking",
-        "feature-extraction"
-      ],
-      "ml_datasets": [
-        "Iris",
-        "Wine",
-        "Breast Cancer",
-        "Diabetes"
-      ],
-      "ml_total_tests": 22,
-      "github_trending_repos": 8,
-      "paperswithcode_papers": 8,
-      "evolution": {
-        "discovered": 31,
-        "adopted": 0,
-        "decisions": 0
-      },
-      "seed_watering": {
-        "seed_name": "Non-Transformer Arch",
-        "papers_found": 6
-      }
-    },
-    {
       "timestamp": "2026-07-09T17:31:49.905534",
       "arxiv_papers_count": 25,
       "arxiv_top_keywords": [
@@ -4522,12 +4475,59 @@
         "seed_name": "Liquid Networks",
         "papers_found": 7
       }
+    },
+    {
+      "timestamp": "2026-09-10T23:30:01.711422",
+      "arxiv_papers_count": 18,
+      "arxiv_top_keywords": [
+        "decoding",
+        "cache",
+        "speculative",
+        "reuse",
+        "caches",
+        "eviction",
+        "visual",
+        "field",
+        "prediction",
+        "graph"
+      ],
+      "arxiv_strategies": [
+        "搜索: kv cache LLM",
+        "搜索: graph neural network recent",
+        "搜索: speculative decoding"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "unknown",
+        "fill-mask",
+        "text-generation",
+        "text-ranking"
+      ],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 18,
+        "adopted": 1,
+        "decisions": 1
+      },
+      "seed_watering": {
+        "seed_name": "HTM",
+        "papers_found": 7
+      }
     }
   ],
   "total_sessions": 101,
-  "last_updated": "2026-09-10T20:10:17.674990",
+  "last_updated": "2026-09-10T23:30:01.711436",
   "evolution_summary": {
-    "total_adopted": 119,
+    "total_adopted": 120,
     "adopted_list": [
       "Knowledge Distillation",
       "World Models / Model-Based RL",
@@ -4647,7 +4647,8 @@
       "合成奖励与RLVR",
       "Leave-One-Subject-Out (LOSO) 评估",
       "硬件感知深度学习",
-      "无污染时间序列留出评估"
+      "无污染时间序列留出评估",
+      "KV 缓存跨上下文与检查点复用"
     ],
     "seeds": {
       "mamba": {
@@ -4662,8 +4663,8 @@
       },
       "htm": {
         "name": "HTM",
-        "watering": 62,
-        "papers": 104
+        "watering": 63,
+        "papers": 106
       },
       "spiking-nn": {
         "name": "Spiking Neural Networks",
@@ -4754,15 +4755,15 @@
       },
       "htm": {
         "name": "HTM",
-        "new_papers": 99,
+        "new_papers": 101,
         "keywords_matched": [
-          "online learning",
-          "predictive coding",
           "sequence memory",
+          "online learning",
+          "sparse distributed",
           "hierarchical temporal",
-          "anomaly detection",
+          "predictive coding",
           "cortical",
-          "sparse distributed"
+          "anomaly detection"
         ],
         "high_relevance_total": 3,
         "avg_relevance_latest": 1.0,
@@ -4843,6 +4844,6 @@
         "best_papers_count": 1
       }
     },
-    "last_evolution": "2026-09-10T20:10:17.677432"
+    "last_evolution": "2026-09-10T23:30:01.714033"
   }
 }

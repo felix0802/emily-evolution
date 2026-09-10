@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 592,
+  "_rotation_idx": 593,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 59,
@@ -1468,18 +1468,9 @@
   },
   "htm": {
     "name": "HTM",
-    "total_papers_found": 104,
-    "watering_count": 62,
+    "total_papers_found": 106,
+    "watering_count": 63,
     "history": [
-      {
-        "timestamp": "2026-07-19T14:45:19.258092",
-        "papers_found": 0,
-        "duplicates": 4,
-        "irrelevant_filtered": 6,
-        "avg_relevance": 0.0,
-        "high_relevance": 0,
-        "papers": []
-      },
       {
         "timestamp": "2026-07-20T17:14:55.547493",
         "papers_found": 3,
@@ -2497,6 +2488,30 @@
             "seed_match_score": 1
           }
         ]
+      },
+      {
+        "timestamp": "2026-09-10T23:29:56.085399",
+        "papers_found": 2,
+        "duplicates": 5,
+        "irrelevant_filtered": 3,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "An Exponential Deterministic--Randomized Gap in ERM-Oracle Complexity for Thresholds on an Unknown Order",
+            "summary": "Attias, Hanneke and Ramaswami (NeurIPS 2025) asked whether randomization provably reduces the oracle calls needed for online learning when the class is accessible only through an oracle. We study the instance they singled out: transductive online learning of thresholds on an unknown total order of T",
+            "published": "2026-09-09",
+            "url": "http://arxiv.org/abs/2609.10196v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Meta-LinEXP3: Online-within-Online Learning for Adversarial Linear Contextual Bandits",
+            "summary": "Meta-learning has emerged as an effective paradigm for transferring knowledge across sequential bandit tasks. While substantial progress has been made for stochastic bandits and non-contextual adversarial bandits, meta-learning for adversarial linear contextual bandits (ALCBs) with random action set",
+            "published": "2026-09-09",
+            "url": "http://arxiv.org/abs/2609.09907v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -2511,7 +2526,7 @@
       "anomaly detection",
       "continuous learning"
     ],
-    "last_watered": "2026-09-09T06:49:36.677794"
+    "last_watered": "2026-09-10T23:29:56.085393"
   },
   "spiking-nn": {
     "name": "Spiking Neural Networks",

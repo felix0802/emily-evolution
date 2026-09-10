@@ -37567,7 +37567,42 @@
         "search"
       ],
       "first_seen_round": 226
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.10196v1",
+      "title": "An Exponential Deterministic--Randomized Gap in ERM-Oracle Complexity for Thresholds on an Unknown Order",
+      "arxiv_id": "2609.10196",
+      "tokens": [
+        "complexity",
+        "deterministic",
+        "erm",
+        "exponential",
+        "gap",
+        "oracle",
+        "order",
+        "randomized",
+        "thresholds",
+        "unknown"
+      ],
+      "first_seen_round": 227
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.09907v1",
+      "title": "Meta-LinEXP3: Online-within-Online Learning for Adversarial Linear Contextual Bandits",
+      "arxiv_id": "2609.09907",
+      "tokens": [
+        "adversarial",
+        "bandits",
+        "contextual",
+        "linear",
+        "linexp3",
+        "meta",
+        "online",
+        "online",
+        "within"
+      ],
+      "first_seen_round": 227
     }
   ],
-  "total_unique": 2342
+  "total_unique": 2344
 }

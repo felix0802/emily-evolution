@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-10T20:10:17.688746",
+  "timestamp": "2026-09-10T23:30:01.726024",
   "connections": [
     {
       "seed_a": "Mixture of Experts",
@@ -14,7 +14,7 @@
         "inference"
       ],
       "strength": 6,
-      "discovered_at": "2026-09-10T20:10:17.688731"
+      "discovered_at": "2026-09-10T23:30:01.726009"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -27,7 +27,7 @@
         "mamba"
       ],
       "strength": 5,
-      "discovered_at": "2026-09-10T20:10:17.688618"
+      "discovered_at": "2026-09-10T23:30:01.725893"
     },
     {
       "seed_a": "Liquid Networks",
@@ -41,7 +41,21 @@
         "operator"
       ],
       "strength": 5,
-      "discovered_at": "2026-09-10T20:10:17.688682"
+      "discovered_at": "2026-09-10T23:30:01.725957"
+    },
+    {
+      "seed_a": "HTM",
+      "seed_b": "Graph Neural Networks",
+      "shared_keywords": [],
+      "shared_paper_concepts": [
+        "based",
+        "graph",
+        "learning",
+        "level",
+        "with"
+      ],
+      "strength": 5,
+      "discovered_at": "2026-09-10T23:30:01.725977"
     },
     {
       "seed_a": "KV Cache Optimization",
@@ -55,7 +69,7 @@
         "with"
       ],
       "strength": 5,
-      "discovered_at": "2026-09-10T20:10:17.688738"
+      "discovered_at": "2026-09-10T23:30:01.726017"
     },
     {
       "seed_a": "Liquid Networks",
@@ -68,20 +82,7 @@
         "neural"
       ],
       "strength": 4,
-      "discovered_at": "2026-09-10T20:10:17.688633"
-    },
-    {
-      "seed_a": "HTM",
-      "seed_b": "Graph Neural Networks",
-      "shared_keywords": [],
-      "shared_paper_concepts": [
-        "based",
-        "graph",
-        "level",
-        "with"
-      ],
-      "strength": 4,
-      "discovered_at": "2026-09-10T20:10:17.688699"
+      "discovered_at": "2026-09-10T23:30:01.725940"
     },
     {
       "seed_a": "Non-Transformer Arch",
@@ -94,7 +95,19 @@
         "using"
       ],
       "strength": 4,
-      "discovered_at": "2026-09-10T20:10:17.688717"
+      "discovered_at": "2026-09-10T23:30:01.725996"
+    },
+    {
+      "seed_a": "Liquid Networks",
+      "seed_b": "HTM",
+      "shared_keywords": [],
+      "shared_paper_concepts": [
+        "based",
+        "graph",
+        "learning"
+      ],
+      "strength": 3,
+      "discovered_at": "2026-09-10T23:30:01.725906"
     },
     {
       "seed_a": "Spiking Neural Networks",
@@ -106,7 +119,7 @@
         "neural"
       ],
       "strength": 3,
-      "discovered_at": "2026-09-10T20:10:17.688707"
+      "discovered_at": "2026-09-10T23:30:01.725985"
     },
     {
       "seed_a": "Mixture of Experts",
@@ -118,18 +131,7 @@
         "efficient"
       ],
       "strength": 3,
-      "discovered_at": "2026-09-10T20:10:17.688734"
-    },
-    {
-      "seed_a": "Mamba (SSM)",
-      "seed_b": "KV Cache Optimization",
-      "shared_keywords": [],
-      "shared_paper_concepts": [
-        "attention",
-        "scaling"
-      ],
-      "strength": 2,
-      "discovered_at": "2026-09-10T20:10:17.688623"
+      "discovered_at": "2026-09-10T23:30:01.726013"
     }
   ],
   "total_seeds": 10
