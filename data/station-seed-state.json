@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 595,
+  "_rotation_idx": 596,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 59,
@@ -3803,18 +3803,9 @@
   },
   "few-shot": {
     "name": "Few-Shot Learning",
-    "total_papers_found": 28,
-    "watering_count": 61,
+    "total_papers_found": 32,
+    "watering_count": 62,
     "history": [
-      {
-        "timestamp": "2026-07-19T20:35:59.995529",
-        "papers_found": 0,
-        "duplicates": 5,
-        "irrelevant_filtered": 5,
-        "avg_relevance": 0.0,
-        "high_relevance": 0,
-        "papers": []
-      },
       {
         "timestamp": "2026-07-20T22:44:13.764802",
         "papers_found": 0,
@@ -4362,6 +4353,37 @@
         "avg_relevance": 0.0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-09-11T12:24:14.130936",
+        "papers_found": 4,
+        "duplicates": 3,
+        "irrelevant_filtered": 3,
+        "avg_relevance": 1.25,
+        "high_relevance": 1,
+        "papers": [
+          {
+            "title": "Meta-Learning for Classifier Selection in Image Datasets: A Feature-Driven Framework for Accuracy Prediction",
+            "summary": "No Free Lunch theorem implies that any performance gains achieved by a classifier on a particular image distribution are necessarily offset by a loss of performance over the set of all possible problems; thus, no single model is universally optimal. Selecting the most suitable classifier for image d",
+            "published": "2026-09-10",
+            "url": "http://arxiv.org/abs/2609.11041v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Are We Really Doing Few-Shot Learning? A Critical Examination of Pre-Training Assumptions",
+            "summary": "Few-shot learning is commonly evaluated under protocols that pre-train a model on a large auxiliary set whose classes are disjoint from the target episodes yet drawn from the same visual domain. This paper examines whether such protocols truly reflect low-data learning. We systematically compare no ",
+            "published": "2026-09-09",
+            "url": "http://arxiv.org/abs/2609.10851v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Meta-Learning for Data-Efficient Plant Growth Estimation via Vision Transformers and Fuzzy Clustering",
+            "summary": "Accurate plant growth estimation is essential for greenhouse monitoring, yet obtaining labeled data remains costly and time-consuming. To address this, we propose a few-shot regression framework that combines Vision Transformer (ViT) feature embeddings, clustering-based task construction, and gradie",
+            "published": "2026-09-09",
+            "url": "http://arxiv.org/abs/2609.10749v1",
+            "seed_match_score": 2
+          }
+        ]
       }
     ],
     "keywords": [
@@ -4371,7 +4393,7 @@
       "prototypical",
       "in-context"
     ],
-    "last_watered": "2026-09-09T20:07:40.521436"
+    "last_watered": "2026-09-11T12:24:14.130931"
   },
   "continual-learning": {
     "name": "Continual Learning",
