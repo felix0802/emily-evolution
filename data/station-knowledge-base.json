@@ -1,53 +1,6 @@
 {
   "sessions": [
     {
-      "timestamp": "2026-07-09T21:43:15.676671",
-      "arxiv_papers_count": 18,
-      "arxiv_top_keywords": [
-        "graph",
-        "learning",
-        "world",
-        "transfer",
-        "signals",
-        "neural",
-        "target",
-        "inputs",
-        "many",
-        "sizes"
-      ],
-      "arxiv_strategies": [
-        "搜索: graph neural network",
-        "搜索: transfer learning",
-        "搜索: world model"
-      ],
-      "huggingface_models": 10,
-      "huggingface_tasks": [
-        "sentence-similarity",
-        "fill-mask",
-        "text-generation",
-        "text-ranking",
-        "feature-extraction"
-      ],
-      "ml_datasets": [
-        "Iris",
-        "Wine",
-        "Breast Cancer",
-        "Diabetes"
-      ],
-      "ml_total_tests": 22,
-      "github_trending_repos": 8,
-      "paperswithcode_papers": 8,
-      "evolution": {
-        "discovered": 28,
-        "adopted": 0,
-        "decisions": 0
-      },
-      "seed_watering": {
-        "seed_name": "Liquid Networks",
-        "papers_found": 9
-      }
-    },
-    {
       "timestamp": "2026-07-10T07:45:15.555160",
       "arxiv_papers_count": 5,
       "arxiv_top_keywords": [
@@ -4522,12 +4475,59 @@
         "seed_name": "Few-Shot Learning",
         "papers_found": 7
       }
+    },
+    {
+      "timestamp": "2026-09-11T17:23:19.260127",
+      "arxiv_papers_count": 5,
+      "arxiv_top_keywords": [
+        "gpu",
+        "cfr",
+        "game",
+        "faster",
+        "counterfactual",
+        "concept",
+        "shifts",
+        "general",
+        "covariate",
+        "shift"
+      ],
+      "arxiv_strategies": [
+        "cs.AI (fallback)",
+        "cs.AI (fallback)",
+        "cs.AI (fallback)"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "unknown",
+        "fill-mask",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 17,
+        "adopted": 1,
+        "decisions": 1
+      },
+      "seed_watering": {
+        "seed_name": "",
+        "papers_found": 0
+      }
     }
   ],
   "total_sessions": 101,
-  "last_updated": "2026-09-11T12:24:23.411725",
+  "last_updated": "2026-09-11T17:23:19.260143",
   "evolution_summary": {
-    "total_adopted": 126,
+    "total_adopted": 127,
     "adopted_list": [
       "Knowledge Distillation",
       "World Models / Model-Based RL",
@@ -4654,7 +4654,8 @@
       "无编码器、无 VAE 的统一多模态架构",
       "空间一致 patch 重建",
       "基于扩散模型的 DEM 引导超分辨率",
-      "Vae"
+      "Vae",
+      "静态数据流编译"
     ],
     "seeds": {
       "mamba": {
@@ -4689,7 +4690,7 @@
       },
       "continual-learning": {
         "name": "Continual Learning",
-        "watering": 60,
+        "watering": 61,
         "papers": 74
       },
       "moe": {
@@ -4850,6 +4851,6 @@
         "best_papers_count": 1
       }
     },
-    "last_evolution": "2026-09-11T12:24:23.414424"
+    "last_evolution": "2026-09-11T17:23:19.263167"
   }
 }

@@ -1898,6 +1898,21 @@
         ],
         "decided_at": "2026-09-11T12:24:19.373431"
       }
+    },
+    {
+      "id": "llm-静态数据流编译",
+      "name": "静态数据流编译",
+      "adopted_at": "2026-09-11T17:23:19.254743",
+      "decision": {
+        "tech_id": "llm-静态数据流编译",
+        "tech_name": "静态数据流编译",
+        "action": "adopt",
+        "confidence": 0.85,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-09-11T17:23:19.253240"
+      }
     }
   ],
   "history": [
@@ -2656,6 +2671,12 @@
       "tech_id": "auto-vae",
       "tech_name": "Vae",
       "timestamp": "2026-09-11T12:24:19.374987"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-静态数据流编译",
+      "tech_name": "静态数据流编译",
+      "timestamp": "2026-09-11T17:23:19.254749"
     }
   ]
 }
