@@ -1808,6 +1808,36 @@
         ],
         "decided_at": "2026-09-10T23:30:01.705010"
       }
+    },
+    {
+      "id": "llm-counterfactual-regret-minimiza",
+      "name": "Counterfactual Regret Minimization (CFR)",
+      "adopted_at": "2026-09-11T06:44:31.632159",
+      "decision": {
+        "tech_id": "llm-counterfactual-regret-minimiza",
+        "tech_name": "Counterfactual Regret Minimization (CFR)",
+        "action": "adopt",
+        "confidence": 0.95,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-09-11T06:44:31.630399"
+      }
+    },
+    {
+      "id": "llm-artificial-id",
+      "name": "Artificial Id",
+      "adopted_at": "2026-09-11T06:44:31.632178",
+      "decision": {
+        "tech_id": "llm-artificial-id",
+        "tech_name": "Artificial Id",
+        "action": "adopt",
+        "confidence": 0.65,
+        "reason": [
+          "预置技术(0.7)"
+        ],
+        "decided_at": "2026-09-11T06:44:31.630715"
+      }
     }
   ],
   "history": [
@@ -2530,6 +2560,18 @@
       "tech_id": "llm-kv-缓存跨上下文与检查点复用",
       "tech_name": "KV 缓存跨上下文与检查点复用",
       "timestamp": "2026-09-10T23:30:01.706439"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-counterfactual-regret-minimiza",
+      "tech_name": "Counterfactual Regret Minimization (CFR)",
+      "timestamp": "2026-09-11T06:44:31.632164"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-artificial-id",
+      "tech_name": "Artificial Id",
+      "timestamp": "2026-09-11T06:44:31.632180"
     }
   ]
 }

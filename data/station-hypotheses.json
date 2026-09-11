@@ -444,14 +444,14 @@
       "reasoning": "KV cache optimization and graph neural networks intersect through the shared concepts of efficiency, awareness, and power. The KV cache can be represented as a graph where tokens are nodes and their attention interactions form edges; GNNs can then learn structural patterns to predict which cache entries are redundant, enabling adaptive, context-aware eviction. This leverages the mathematical commonality of message passing in GNNs and attention mechanisms in transformers, allowing GNNs to operate directly on the cache's relational structure.",
       "arxiv_query": "graph neural network KV cache optimization transformer inference",
       "potential_breakthrough": "A GNN-based KV cache manager that dynamically compresses cache by up to 80% while maintaining model accuracy, enabling long-context inference on memory-constrained devices.",
-      "status": "unverified",
-      "verification_rounds": 2,
+      "status": "inconclusive",
+      "verification_rounds": 3,
       "supporting_papers": [],
       "refuting_papers": [],
       "llm_source": "deepseek"
     }
   ],
-  "last_updated": "2026-09-11T01:44:29.605576",
+  "last_updated": "2026-09-11T06:44:38.043052",
   "total_generated": 18,
-  "total_verified": 17
+  "total_verified": 18
 }

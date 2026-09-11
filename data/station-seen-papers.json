@@ -37642,7 +37642,283 @@
         "xgboost"
       ],
       "first_seen_round": 228
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.11923v1",
+      "title": "GPU-CFR: 80x Faster Counterfactual Regret Minimization by Compiling the Game to Static Dataflow and CUDA Graph Replay",
+      "arxiv_id": "2609.11923",
+      "tokens": [
+        "80x",
+        "cfr",
+        "compiling",
+        "counterfactual",
+        "cuda",
+        "dataflow",
+        "faster",
+        "game",
+        "gpu",
+        "graph",
+        "minimization",
+        "regret",
+        "replay",
+        "static"
+      ],
+      "first_seen_round": 229
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.11918v1",
+      "title": "General Quantification of Covariate and Concept Shifts",
+      "arxiv_id": "2609.11918",
+      "tokens": [
+        "concept",
+        "covariate",
+        "general",
+        "quantification",
+        "shifts"
+      ],
+      "first_seen_round": 229
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.11916v1",
+      "title": "Can Edge-Deployable Vision-Language Models Identify Species?",
+      "arxiv_id": "2609.11916",
+      "tokens": [
+        "deployable",
+        "edge",
+        "identify",
+        "language",
+        "species",
+        "vision"
+      ],
+      "first_seen_round": 229
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.11915v1",
+      "title": "Generative Marketing Mix Modeling: A Causal Inference Framework Linking GEO and GEM to Business Impact",
+      "arxiv_id": "2609.11915",
+      "tokens": [
+        "business",
+        "causal",
+        "gem",
+        "generative",
+        "geo",
+        "impact",
+        "inference",
+        "linking",
+        "marketing",
+        "mix",
+        "modeling"
+      ],
+      "first_seen_round": 229
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.11911v1",
+      "title": "Artificial Id: Drive and Persistent Alignment in Agentic AI",
+      "arxiv_id": "2609.11911",
+      "tokens": [
+        "agentic",
+        "alignment",
+        "artificial",
+        "drive",
+        "persistent"
+      ],
+      "first_seen_round": 229
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.11900v1",
+      "title": "MindTopo: Can Foundation Models Reason in Topological Space?",
+      "arxiv_id": "2609.11900",
+      "tokens": [
+        "foundation",
+        "mindtopo",
+        "reason",
+        "space",
+        "topological"
+      ],
+      "first_seen_round": 229
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.11878v1",
+      "title": "Domain-Specific Hallucination Detection in Large Language Models",
+      "arxiv_id": "2609.11878",
+      "tokens": [
+        "detection",
+        "domain",
+        "hallucination",
+        "language",
+        "specific"
+      ],
+      "first_seen_round": 229
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.11877v1",
+      "title": "Biology-in-the-loop: Amortized Adaptive Hit Discovery in CRISPR Screens",
+      "arxiv_id": "2609.11877",
+      "tokens": [
+        "adaptive",
+        "amortized",
+        "biology",
+        "crispr",
+        "discovery",
+        "hit",
+        "loop",
+        "screens"
+      ],
+      "first_seen_round": 229
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.11917v1",
+      "title": "Data Scarcity and Model Sparsity: Mixtures-of-Experts Overfit More to Repeated Data",
+      "arxiv_id": "2609.11917",
+      "tokens": [
+        "experts",
+        "mixtures",
+        "overfit",
+        "repeated",
+        "scarcity",
+        "sparsity"
+      ],
+      "first_seen_round": 229
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.11910v1",
+      "title": "From Protocols to Evidence: Bounded Claims for AI in Service of the Common Good",
+      "arxiv_id": "2609.11910",
+      "tokens": [
+        "bounded",
+        "claims",
+        "common",
+        "evidence",
+        "good",
+        "protocols",
+        "service"
+      ],
+      "first_seen_round": 229
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.11904v1",
+      "title": "TART: A Modular Tool for Technique-Aware Audio-to-Tablature Guitar Transcription",
+      "arxiv_id": "2609.11904",
+      "tokens": [
+        "audio",
+        "aware",
+        "guitar",
+        "modular",
+        "tablature",
+        "tart",
+        "technique",
+        "tool",
+        "transcription"
+      ],
+      "first_seen_round": 229
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.11897v1",
+      "title": "CausalArena: Benchmarking Causal Discovery in the Foundation Model Era",
+      "arxiv_id": "2609.11897",
+      "tokens": [
+        "benchmarking",
+        "causal",
+        "causalarena",
+        "discovery",
+        "era",
+        "foundation"
+      ],
+      "first_seen_round": 229
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.11894v1",
+      "title": "3D Point Splatting for mmWave Radar Novel View Synthesis",
+      "arxiv_id": "2609.11894",
+      "tokens": [
+        "mmwave",
+        "point",
+        "radar",
+        "splatting",
+        "synthesis",
+        "view"
+      ],
+      "first_seen_round": 229
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.11884v1",
+      "title": "CoRA-NAS: Coarse Ranking and Anchor-Residual Refinement for Neural Architecture Search",
+      "arxiv_id": "2609.11884",
+      "tokens": [
+        "anchor",
+        "architecture",
+        "coarse",
+        "cora",
+        "nas",
+        "neural",
+        "ranking",
+        "refinement",
+        "residual",
+        "search"
+      ],
+      "first_seen_round": 229
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.11913v1",
+      "title": "Distance generalization in transformers: why bother with positional encoding?",
+      "arxiv_id": "2609.11913",
+      "tokens": [
+        "bother",
+        "distance",
+        "encoding",
+        "generalization",
+        "positional",
+        "transformers",
+        "why"
+      ],
+      "first_seen_round": 229
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.11892v1",
+      "title": "Nuha-Speech: Building General-Purpose Arabic Speech-LLMs",
+      "arxiv_id": "2609.11892",
+      "tokens": [
+        "arabic",
+        "building",
+        "general",
+        "llms",
+        "nuha",
+        "purpose",
+        "speech",
+        "speech"
+      ],
+      "first_seen_round": 229
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.11873v1",
+      "title": "The Last AI Built by Humans: Toward Genuine Recursive Self-Improvement",
+      "arxiv_id": "2609.11873",
+      "tokens": [
+        "built",
+        "genuine",
+        "humans",
+        "improvement",
+        "last",
+        "recursive",
+        "self"
+      ],
+      "first_seen_round": 229
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.11870v1",
+      "title": "Augustinian BabyLM: What Ostensive Definition Can and Cannot Teach a Small Language Model",
+      "arxiv_id": "2609.11870",
+      "tokens": [
+        "augustinian",
+        "babylm",
+        "cannot",
+        "definition",
+        "language",
+        "ostensive",
+        "teach"
+      ],
+      "first_seen_round": 229
     }
   ],
-  "total_unique": 2346
+  "total_unique": 2364
 }
