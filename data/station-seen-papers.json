@@ -38116,7 +38116,24 @@
         "terminal"
       ],
       "first_seen_round": 232
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.10790v1",
+      "title": "Composable CXL Memory as a Kubernetes-Native Shared Memory for LLM Serving",
+      "arxiv_id": "2609.10790",
+      "tokens": [
+        "composable",
+        "cxl",
+        "kubernetes",
+        "llm",
+        "memory",
+        "memory",
+        "native",
+        "serving",
+        "shared"
+      ],
+      "first_seen_round": 233
     }
   ],
-  "total_unique": 2376
+  "total_unique": 2377
 }

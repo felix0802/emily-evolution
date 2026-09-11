@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 598,
+  "_rotation_idx": 599,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 59,
@@ -6164,26 +6164,9 @@
   },
   "kv-cache": {
     "name": "KV Cache Optimization",
-    "total_papers_found": 83,
-    "watering_count": 57,
+    "total_papers_found": 84,
+    "watering_count": 58,
     "history": [
-      {
-        "timestamp": "2026-07-20T05:26:38.595152",
-        "papers_found": 1,
-        "duplicates": 5,
-        "irrelevant_filtered": 4,
-        "avg_relevance": 1.0,
-        "high_relevance": 0,
-        "papers": [
-          {
-            "title": "VarRate: Training-Free Variable-Rate KV Cache Compression for Long-Context LLMs",
-            "summary": "The key-value (KV) cache is the main memory bottleneck in long-context large language model (LLM) inference. Two leading training-free families are both structurally limited: token-selection methods (SnapKV, Ada-KV) score importance from an observation window and evict low-scoring tokens, but evicti",
-            "published": "2026-07-16",
-            "url": "http://arxiv.org/abs/2607.15498v1",
-            "seed_match_score": 1
-          }
-        ]
-      },
       {
         "timestamp": "2026-07-21T08:03:55.727046",
         "papers_found": 5,
@@ -7079,6 +7062,23 @@
             "seed_match_score": 1
           }
         ]
+      },
+      {
+        "timestamp": "2026-09-11T23:41:52.516183",
+        "papers_found": 1,
+        "duplicates": 4,
+        "irrelevant_filtered": 5,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "Composable CXL Memory as a Kubernetes-Native Shared Memory for LLM Serving",
+            "summary": "We present a Kubernetes Dynamic Resource Allocation (DRA) driver that makes composable CXL memory a schedulable cluster resource, and evaluate the resulting shared-memory tier for cross-node KV-cache reuse in LLM serving. The driver composes CXL regions on demand, materializes them as DAX devices on",
+            "published": "2026-09-09",
+            "url": "http://arxiv.org/abs/2609.10790v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -7090,7 +7090,7 @@
       "flash attention",
       "speculative decoding"
     ],
-    "last_watered": "2026-09-10T06:44:54.052978"
+    "last_watered": "2026-09-11T23:41:52.516179"
   },
   "gnn": {
     "name": "Graph Neural Networks",

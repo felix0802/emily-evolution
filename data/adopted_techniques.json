@@ -1913,6 +1913,21 @@
         ],
         "decided_at": "2026-09-11T17:23:19.253240"
       }
+    },
+    {
+      "id": "llm-人工本我-(artificial-id)",
+      "name": "人工本我 (Artificial Id)",
+      "adopted_at": "2026-09-11T23:41:59.018516",
+      "decision": {
+        "tech_id": "llm-人工本我-(artificial-id)",
+        "tech_name": "人工本我 (Artificial Id)",
+        "action": "adopt",
+        "confidence": 0.7,
+        "reason": [
+          "预置技术(0.7)"
+        ],
+        "decided_at": "2026-09-11T23:41:59.017365"
+      }
     }
   ],
   "history": [
@@ -2677,6 +2692,12 @@
       "tech_id": "llm-静态数据流编译",
       "tech_name": "静态数据流编译",
       "timestamp": "2026-09-11T17:23:19.254749"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-人工本我-(artificial-id)",
+      "tech_name": "人工本我 (Artificial Id)",
+      "timestamp": "2026-09-11T23:41:59.018520"
     }
   ]
 }
