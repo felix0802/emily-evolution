@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 593,
+  "_rotation_idx": 594,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 59,
@@ -2530,18 +2530,9 @@
   },
   "spiking-nn": {
     "name": "Spiking Neural Networks",
-    "total_papers_found": 32,
-    "watering_count": 61,
+    "total_papers_found": 33,
+    "watering_count": 62,
     "history": [
-      {
-        "timestamp": "2026-07-19T16:41:40.961829",
-        "papers_found": 0,
-        "duplicates": 9,
-        "irrelevant_filtered": 1,
-        "avg_relevance": 0.0,
-        "high_relevance": 0,
-        "papers": []
-      },
       {
         "timestamp": "2026-07-20T19:21:07.695656",
         "papers_found": 0,
@@ -3123,6 +3114,23 @@
             "seed_match_score": 3
           }
         ]
+      },
+      {
+        "timestamp": "2026-09-11T01:44:22.279562",
+        "papers_found": 1,
+        "duplicates": 9,
+        "irrelevant_filtered": 0,
+        "avg_relevance": 2.0,
+        "high_relevance": 1,
+        "papers": [
+          {
+            "title": "Robust Industrial Cyber Physical Classification Using Neuromorphic Temporal Embeddings and Hybrid SNN XGBoost Under Machine Unlearning Attacks",
+            "summary": "The digitalisation of electrical distribution networks has increased the exposure of power-grid infrastructure to cyber attacks. Existing intrusion detection systems (IDSs), however, often rely on computationally expensive deep learning models that are difficult to deploy at the edge. Periodic retra",
+            "published": "2026-09-09",
+            "url": "http://arxiv.org/abs/2609.09564v1",
+            "seed_match_score": 2
+          }
+        ]
       }
     ],
     "keywords": [
@@ -3131,7 +3139,7 @@
       "neuromorphic",
       "spike-timing"
     ],
-    "last_watered": "2026-09-09T12:32:04.376027"
+    "last_watered": "2026-09-11T01:44:22.279556"
   },
   "non-transformer": {
     "name": "Non-Transformer Arch",

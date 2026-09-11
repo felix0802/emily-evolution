@@ -427,8 +427,8 @@
       "reasoning": "Both MoE and KV cache optimization deal with dynamic resource allocation under inference constraints: MoE routes tokens to experts based on input, while KV cache eviction selects tokens to retain based on attention patterns. The shared concepts of 'dynamic', 'cache', and 'aware' suggest a unified framework where cache eviction signals inform expert routing, and expert load balancing informs cache retention policies, creating a feedback loop that improves both memory efficiency and compute efficiency.",
       "arxiv_query": "dynamic expert routing KV cache eviction inference",
       "potential_breakthrough": "A co-optimized inference system that reduces both memory footprint and compute cost by 2-3x through joint dynamic routing and cache management.",
-      "status": "unverified",
-      "verification_rounds": 2,
+      "status": "inconclusive",
+      "verification_rounds": 3,
       "supporting_papers": [],
       "refuting_papers": [],
       "llm_source": "deepseek"
@@ -451,7 +451,7 @@
       "llm_source": "deepseek"
     }
   ],
-  "last_updated": "2026-09-10T23:30:04.592027",
+  "last_updated": "2026-09-11T01:44:29.605576",
   "total_generated": 18,
-  "total_verified": 16
+  "total_verified": 17
 }

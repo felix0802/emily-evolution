@@ -37602,7 +37602,47 @@
         "within"
       ],
       "first_seen_round": 227
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.09971v1",
+      "title": "Deep Neural Networks for Learning Intent from sEMG Signals to Support Hardware Devices for Post-Stroke Neurorehabilitation",
+      "arxiv_id": "2609.09971",
+      "tokens": [
+        "devices",
+        "hardware",
+        "intent",
+        "neural",
+        "neurorehabilitation",
+        "post",
+        "semg",
+        "signals",
+        "stroke",
+        "support"
+      ],
+      "first_seen_round": 228
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.09564v1",
+      "title": "Robust Industrial Cyber Physical Classification Using Neuromorphic Temporal Embeddings and Hybrid SNN XGBoost Under Machine Unlearning Attacks",
+      "arxiv_id": "2609.09564",
+      "tokens": [
+        "attacks",
+        "classification",
+        "cyber",
+        "embeddings",
+        "hybrid",
+        "industrial",
+        "machine",
+        "neuromorphic",
+        "physical",
+        "robust",
+        "snn",
+        "temporal",
+        "unlearning",
+        "xgboost"
+      ],
+      "first_seen_round": 228
     }
   ],
-  "total_unique": 2344
+  "total_unique": 2346
 }
