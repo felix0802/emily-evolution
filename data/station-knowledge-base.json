@@ -1,53 +1,6 @@
 {
   "sessions": [
     {
-      "timestamp": "2026-07-14T19:44:49.929739",
-      "arxiv_papers_count": 19,
-      "arxiv_top_keywords": [
-        "video",
-        "image",
-        "text",
-        "neural",
-        "reward",
-        "pretrained",
-        "mllms",
-        "identity",
-        "tuning",
-        "personalization"
-      ],
-      "arxiv_strategies": [
-        "cs.CV 最新",
-        "cs.AI+cs.LG 混合",
-        "cs.CL+cs.CV 混合"
-      ],
-      "huggingface_models": 10,
-      "huggingface_tasks": [
-        "sentence-similarity",
-        "fill-mask",
-        "text-generation",
-        "text-ranking",
-        "feature-extraction"
-      ],
-      "ml_datasets": [
-        "Iris",
-        "Wine",
-        "Breast Cancer",
-        "Diabetes"
-      ],
-      "ml_total_tests": 22,
-      "github_trending_repos": 8,
-      "paperswithcode_papers": 8,
-      "evolution": {
-        "discovered": 34,
-        "adopted": 0,
-        "decisions": 0
-      },
-      "seed_watering": {
-        "seed_name": "Spiking Neural Networks",
-        "papers_found": 9
-      }
-    },
-    {
       "timestamp": "2026-07-15T09:50:51.617171",
       "arxiv_papers_count": 17,
       "arxiv_top_keywords": [
@@ -4534,10 +4487,57 @@
         "seed_name": "Non-Transformer Arch",
         "papers_found": 6
       }
+    },
+    {
+      "timestamp": "2026-09-12T21:45:54.674778",
+      "arxiv_papers_count": 18,
+      "arxiv_top_keywords": [
+        "learning",
+        "agent",
+        "multi",
+        "neural",
+        "formation",
+        "time",
+        "data",
+        "system",
+        "architecture",
+        "subject"
+      ],
+      "arxiv_strategies": [
+        "搜索: neural architecture",
+        "搜索: self-supervised learning",
+        "搜索: multi-agent system"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "unknown",
+        "fill-mask",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 16,
+        "adopted": 0,
+        "decisions": 0
+      },
+      "seed_watering": {
+        "seed_name": "Few-Shot Learning",
+        "papers_found": 7
+      }
     }
   ],
   "total_sessions": 101,
-  "last_updated": "2026-09-12T19:50:07.547135",
+  "last_updated": "2026-09-12T21:45:54.674793",
   "evolution_summary": {
     "total_adopted": 140,
     "adopted_list": [
@@ -4710,7 +4710,7 @@
       },
       "few-shot": {
         "name": "Few-Shot Learning",
-        "watering": 62,
+        "watering": 63,
         "papers": 32
       },
       "continual-learning": {
@@ -4752,13 +4752,13 @@
         "name": "Few-Shot Learning",
         "new_papers": 27,
         "keywords_matched": [
-          "meta-learning",
           "maml",
+          "meta-learning",
           "in-context",
           "few-shot"
         ],
         "high_relevance_total": 4,
-        "avg_relevance_latest": 1.25,
+        "avg_relevance_latest": 0.0,
         "best_papers_count": 0
       },
       "mamba": {
@@ -4876,6 +4876,6 @@
         "best_papers_count": 1
       }
     },
-    "last_evolution": "2026-09-12T19:50:07.549441"
+    "last_evolution": "2026-09-12T21:45:54.677084"
   }
 }
