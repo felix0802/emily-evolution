@@ -1,47 +1,6 @@
 {
   "sessions": [
     {
-      "timestamp": "2026-07-14T17:44:01.979898",
-      "arxiv_papers_count": 17,
-      "arxiv_top_keywords": [
-        "human",
-        "neural",
-        "metacognition",
-        "llms",
-        "progress",
-        "intelligence",
-        "effective",
-        "dynamics",
-        "tasks",
-        "learning"
-      ],
-      "arxiv_strategies": [
-        "cs.AI 最新",
-        "cs.LG 最新",
-        "cs.CL 最新"
-      ],
-      "huggingface_models": 0,
-      "huggingface_tasks": [],
-      "ml_datasets": [
-        "Iris",
-        "Wine",
-        "Breast Cancer",
-        "Diabetes"
-      ],
-      "ml_total_tests": 22,
-      "github_trending_repos": 8,
-      "paperswithcode_papers": 0,
-      "evolution": {
-        "discovered": 39,
-        "adopted": 2,
-        "decisions": 2
-      },
-      "seed_watering": {
-        "seed_name": "HTM",
-        "papers_found": 4
-      }
-    },
-    {
       "timestamp": "2026-07-14T19:44:49.929739",
       "arxiv_papers_count": 19,
       "arxiv_top_keywords": [
@@ -4528,12 +4487,59 @@
         "seed_name": "",
         "papers_found": 0
       }
+    },
+    {
+      "timestamp": "2026-09-12T19:50:07.547121",
+      "arxiv_papers_count": 18,
+      "arxiv_top_keywords": [
+        "reinforcement",
+        "learning",
+        "speech",
+        "llms",
+        "large",
+        "language",
+        "image",
+        "generation",
+        "optimal",
+        "transition"
+      ],
+      "arxiv_strategies": [
+        "搜索: reinforcement learning",
+        "搜索: large language model",
+        "搜索: diffusion model"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "unknown",
+        "fill-mask",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 22,
+        "adopted": 2,
+        "decisions": 2
+      },
+      "seed_watering": {
+        "seed_name": "Non-Transformer Arch",
+        "papers_found": 6
+      }
     }
   ],
   "total_sessions": 101,
-  "last_updated": "2026-09-12T17:59:25.690918",
+  "last_updated": "2026-09-12T19:50:07.547135",
   "evolution_summary": {
-    "total_adopted": 138,
+    "total_adopted": 140,
     "adopted_list": [
       "Knowledge Distillation",
       "World Models / Model-Based RL",
@@ -4672,7 +4678,9 @@
       "Cuda",
       "无编码器/无VAE架构",
       "Mixture Of Experts",
-      "Mixture Of"
+      "Mixture Of",
+      "多步转移前瞻",
+      "生成式回放"
     ],
     "seeds": {
       "mamba": {
@@ -4697,7 +4705,7 @@
       },
       "non-transformer": {
         "name": "Non-Transformer Arch",
-        "watering": 63,
+        "watering": 64,
         "papers": 35
       },
       "few-shot": {
@@ -4797,13 +4805,13 @@
         "name": "Non-Transformer Arch",
         "new_papers": 35,
         "keywords_matched": [
-          "state space",
-          "linear recurrent",
+          "gated linear",
           "linear attention",
+          "linear recurrent",
+          "rwkv",
           "efficient transformer",
           "mamba",
-          "gated linear",
-          "rwkv"
+          "state space"
         ],
         "high_relevance_total": 5,
         "avg_relevance_latest": 0.0,
@@ -4868,6 +4876,6 @@
         "best_papers_count": 1
       }
     },
-    "last_evolution": "2026-09-12T17:59:25.694038"
+    "last_evolution": "2026-09-12T19:50:07.549441"
   }
 }

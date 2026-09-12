@@ -2078,6 +2078,36 @@
         ],
         "decided_at": "2026-09-12T17:59:23.494988"
       }
+    },
+    {
+      "id": "llm-多步转移前瞻",
+      "name": "多步转移前瞻",
+      "adopted_at": "2026-09-12T19:50:05.143428",
+      "decision": {
+        "tech_id": "llm-多步转移前瞻",
+        "tech_name": "多步转移前瞻",
+        "action": "adopt",
+        "confidence": 0.95,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-09-12T19:50:05.141934"
+      }
+    },
+    {
+      "id": "llm-生成式回放",
+      "name": "生成式回放",
+      "adopted_at": "2026-09-12T19:50:05.143445",
+      "decision": {
+        "tech_id": "llm-生成式回放",
+        "tech_name": "生成式回放",
+        "action": "adopt",
+        "confidence": 0.9,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-09-12T19:50:05.142137"
+      }
     }
   ],
   "history": [
@@ -2908,6 +2938,18 @@
       "tech_id": "auto-mixture of",
       "tech_name": "Mixture Of",
       "timestamp": "2026-09-12T17:59:23.496832"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-多步转移前瞻",
+      "tech_name": "多步转移前瞻",
+      "timestamp": "2026-09-12T19:50:05.143433"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-生成式回放",
+      "tech_name": "生成式回放",
+      "timestamp": "2026-09-12T19:50:05.143446"
     }
   ]
 }
