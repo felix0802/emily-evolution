@@ -38133,7 +38133,118 @@
         "shared"
       ],
       "first_seen_round": 233
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.11209v1",
+      "title": "REVA: Reusable Evidence View Aggregation for Context-Efficient RAG Serving",
+      "arxiv_id": "2609.11209",
+      "tokens": [
+        "aggregation",
+        "context",
+        "evidence",
+        "rag",
+        "reusable",
+        "reva",
+        "serving",
+        "view"
+      ],
+      "first_seen_round": 235
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.11192v1",
+      "title": "FlexComp: One Model for Every Ratio in Context Compression",
+      "arxiv_id": "2609.11192",
+      "tokens": [
+        "compression",
+        "context",
+        "flexcomp",
+        "ratio"
+      ],
+      "first_seen_round": 235
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.11166v1",
+      "title": "When does a spectral prior help graph learning? Connectivity-loss estimation under road-network disruptions",
+      "arxiv_id": "2609.11166",
+      "tokens": [
+        "connectivity",
+        "disruptions",
+        "estimation",
+        "graph",
+        "help",
+        "loss",
+        "prior",
+        "road",
+        "spectral"
+      ],
+      "first_seen_round": 235
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.10983v1",
+      "title": "A variational physics-informed graph neural network for heterogeneous solid mechanics",
+      "arxiv_id": "2609.10983",
+      "tokens": [
+        "graph",
+        "heterogeneous",
+        "informed",
+        "mechanics",
+        "neural",
+        "physics",
+        "solid",
+        "variational"
+      ],
+      "first_seen_round": 235
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.10742v1",
+      "title": "SynCo: Synthetic Community-Aware Attributed Graph Generator for Graph Neural Network Benchmarking",
+      "arxiv_id": "2609.10742",
+      "tokens": [
+        "attributed",
+        "aware",
+        "benchmarking",
+        "community",
+        "generator",
+        "graph",
+        "graph",
+        "neural",
+        "synco",
+        "synthetic"
+      ],
+      "first_seen_round": 235
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.11799v1",
+      "title": "SpecGuard: Inference-Time Backdoor Detection For Free",
+      "arxiv_id": "2609.11799",
+      "tokens": [
+        "backdoor",
+        "detection",
+        "free",
+        "inference",
+        "specguard",
+        "time"
+      ],
+      "first_seen_round": 235
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.11372v1",
+      "title": "RAMamba-Net: A Reliability-Aware and Mamba-Based Multimodal Fusion Network for Auditory Attention Detection",
+      "arxiv_id": "2609.11372",
+      "tokens": [
+        "attention",
+        "auditory",
+        "aware",
+        "detection",
+        "fusion",
+        "mamba",
+        "multimodal",
+        "net",
+        "ramamba",
+        "reliability"
+      ],
+      "first_seen_round": 235
     }
   ],
-  "total_unique": 2377
+  "total_unique": 2384
 }

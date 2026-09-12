@@ -1,19 +1,10 @@
 {
-  "_rotation_idx": 600,
+  "_rotation_idx": 601,
   "mamba": {
     "name": "Mamba (SSM)",
-    "total_papers_found": 59,
-    "watering_count": 63,
+    "total_papers_found": 60,
+    "watering_count": 64,
     "history": [
-      {
-        "timestamp": "2026-07-20T12:07:33.017945",
-        "papers_found": 0,
-        "duplicates": 9,
-        "irrelevant_filtered": 1,
-        "avg_relevance": 0.0,
-        "high_relevance": 0,
-        "papers": []
-      },
       {
         "timestamp": "2026-07-21T13:10:27.561699",
         "papers_found": 2,
@@ -718,6 +709,23 @@
             "seed_match_score": 1
           }
         ]
+      },
+      {
+        "timestamp": "2026-09-12T06:37:39.035177",
+        "papers_found": 1,
+        "duplicates": 6,
+        "irrelevant_filtered": 3,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "RAMamba-Net: A Reliability-Aware and Mamba-Based Multimodal Fusion Network for Auditory Attention Detection",
+            "summary": "Auditory attention decoding (AAD) identifies the attended speaker from physiological signals, supporting neuro-steered hearing devices and natural human-machine interaction. Electroencephalography (EEG) is the dominant modality for AAD but provides incomplete evidence in naturalistic audio-visual sc",
+            "published": "2026-09-10",
+            "url": "http://arxiv.org/abs/2609.11372v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -726,7 +734,7 @@
       "ssm",
       "selective scan"
     ],
-    "last_watered": "2026-09-10T17:21:38.598552"
+    "last_watered": "2026-09-12T06:37:39.035170"
   },
   "liquid-networks": {
     "name": "Liquid Networks",

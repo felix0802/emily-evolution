@@ -1928,6 +1928,21 @@
         ],
         "decided_at": "2026-09-11T23:41:59.017365"
       }
+    },
+    {
+      "id": "llm-kv缓存重用",
+      "name": "KV缓存重用",
+      "adopted_at": "2026-09-12T06:37:45.228114",
+      "decision": {
+        "tech_id": "llm-kv缓存重用",
+        "tech_name": "KV缓存重用",
+        "action": "adopt",
+        "confidence": 0.9,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-09-12T06:37:45.226542"
+      }
     }
   ],
   "history": [
@@ -2698,6 +2713,12 @@
       "tech_id": "llm-人工本我-(artificial-id)",
       "tech_name": "人工本我 (Artificial Id)",
       "timestamp": "2026-09-11T23:41:59.018520"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-kv缓存重用",
+      "tech_name": "KV缓存重用",
+      "timestamp": "2026-09-12T06:37:45.228157"
     }
   ]
 }
