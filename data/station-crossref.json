@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-12T06:37:45.247606",
+  "timestamp": "2026-09-12T11:45:49.227719",
   "connections": [
     {
       "seed_a": "Mixture of Experts",
@@ -15,7 +15,7 @@
         "memory"
       ],
       "strength": 7,
-      "discovered_at": "2026-09-12T06:37:45.247590"
+      "discovered_at": "2026-09-12T11:45:49.227704"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -29,7 +29,7 @@
         "mamba"
       ],
       "strength": 6,
-      "discovered_at": "2026-09-12T06:37:45.247438"
+      "discovered_at": "2026-09-12T11:45:49.227560"
     },
     {
       "seed_a": "Spiking Neural Networks",
@@ -44,21 +44,7 @@
         "using"
       ],
       "strength": 6,
-      "discovered_at": "2026-09-12T06:37:45.247553"
-    },
-    {
-      "seed_a": "Liquid Networks",
-      "seed_b": "Graph Neural Networks",
-      "shared_keywords": [],
-      "shared_paper_concepts": [
-        "based",
-        "graph",
-        "learning",
-        "neural",
-        "operator"
-      ],
-      "strength": 5,
-      "discovered_at": "2026-09-12T06:37:45.247514"
+      "discovered_at": "2026-09-12T11:45:49.227664"
     },
     {
       "seed_a": "HTM",
@@ -72,7 +58,7 @@
         "with"
       ],
       "strength": 5,
-      "discovered_at": "2026-09-12T06:37:45.247536"
+      "discovered_at": "2026-09-12T11:45:49.227646"
     },
     {
       "seed_a": "KV Cache Optimization",
@@ -86,7 +72,7 @@
         "with"
       ],
       "strength": 5,
-      "discovered_at": "2026-09-12T06:37:45.247598"
+      "discovered_at": "2026-09-12T11:45:49.227712"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -99,20 +85,7 @@
         "prediction"
       ],
       "strength": 4,
-      "discovered_at": "2026-09-12T06:37:45.247489"
-    },
-    {
-      "seed_a": "Liquid Networks",
-      "seed_b": "Spiking Neural Networks",
-      "shared_keywords": [],
-      "shared_paper_concepts": [
-        "based",
-        "feedback",
-        "learning",
-        "neural"
-      ],
-      "strength": 4,
-      "discovered_at": "2026-09-12T06:37:45.247496"
+      "discovered_at": "2026-09-12T11:45:49.227614"
     },
     {
       "seed_a": "Spiking Neural Networks",
@@ -125,7 +98,7 @@
         "under"
       ],
       "strength": 4,
-      "discovered_at": "2026-09-12T06:37:45.247545"
+      "discovered_at": "2026-09-12T11:45:49.227656"
     },
     {
       "seed_a": "Non-Transformer Arch",
@@ -138,7 +111,33 @@
         "using"
       ],
       "strength": 4,
-      "discovered_at": "2026-09-12T06:37:45.247566"
+      "discovered_at": "2026-09-12T11:45:49.227678"
+    },
+    {
+      "seed_a": "Few-Shot Learning",
+      "seed_b": "Graph Neural Networks",
+      "shared_keywords": [],
+      "shared_paper_concepts": [
+        "efficient",
+        "framework",
+        "learning",
+        "prediction"
+      ],
+      "strength": 4,
+      "discovered_at": "2026-09-12T11:45:49.227691"
+    },
+    {
+      "seed_a": "Continual Learning",
+      "seed_b": "Mixture of Experts",
+      "shared_keywords": [],
+      "shared_paper_concepts": [
+        "dynamic",
+        "horizon",
+        "learning",
+        "long"
+      ],
+      "strength": 4,
+      "discovered_at": "2026-09-12T11:45:49.227694"
     }
   ],
   "total_seeds": 10

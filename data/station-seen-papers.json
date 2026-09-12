@@ -38244,7 +38244,29 @@
         "reliability"
       ],
       "first_seen_round": 235
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.11768v1",
+      "title": "A Unified Per-Token Gating Family for On-Policy Distillation: FKL/RKL Mixing with Multi-Channel and Bias Coefficients",
+      "arxiv_id": "2609.11768",
+      "tokens": [
+        "bias",
+        "channel",
+        "coefficients",
+        "distillation",
+        "family",
+        "fkl",
+        "gating",
+        "mixing",
+        "multi",
+        "per",
+        "policy",
+        "rkl",
+        "token",
+        "unified"
+      ],
+      "first_seen_round": 236
     }
   ],
-  "total_unique": 2384
+  "total_unique": 2385
 }

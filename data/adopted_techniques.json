@@ -1943,6 +1943,51 @@
         ],
         "decided_at": "2026-09-12T06:37:45.226542"
       }
+    },
+    {
+      "id": "llm-kv-cache-accumulation",
+      "name": "KV-Cache accumulation",
+      "adopted_at": "2026-09-12T11:45:46.872967",
+      "decision": {
+        "tech_id": "llm-kv-cache-accumulation",
+        "tech_name": "KV-Cache accumulation",
+        "action": "adopt",
+        "confidence": 0.8,
+        "reason": [
+          "预置技术(0.8)"
+        ],
+        "decided_at": "2026-09-12T11:45:46.871190"
+      }
+    },
+    {
+      "id": "llm-gqa/mqa",
+      "name": "GQA/MQA",
+      "adopted_at": "2026-09-12T11:45:46.872988",
+      "decision": {
+        "tech_id": "llm-gqa/mqa",
+        "tech_name": "GQA/MQA",
+        "action": "adopt",
+        "confidence": 0.85,
+        "reason": [
+          "预置技术(0.8)"
+        ],
+        "decided_at": "2026-09-12T11:45:46.871272"
+      }
+    },
+    {
+      "id": "llm-openacc-kernel",
+      "name": "OpenACC kernel",
+      "adopted_at": "2026-09-12T11:45:46.873000",
+      "decision": {
+        "tech_id": "llm-openacc-kernel",
+        "tech_name": "OpenACC kernel",
+        "action": "adopt",
+        "confidence": 0.7,
+        "reason": [
+          "预置技术(0.7)"
+        ],
+        "decided_at": "2026-09-12T11:45:46.871354"
+      }
     }
   ],
   "history": [
@@ -2719,6 +2764,24 @@
       "tech_id": "llm-kv缓存重用",
       "tech_name": "KV缓存重用",
       "timestamp": "2026-09-12T06:37:45.228157"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-kv-cache-accumulation",
+      "tech_name": "KV-Cache accumulation",
+      "timestamp": "2026-09-12T11:45:46.872973"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-gqa/mqa",
+      "tech_name": "GQA/MQA",
+      "timestamp": "2026-09-12T11:45:46.872990"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-openacc-kernel",
+      "tech_name": "OpenACC kernel",
+      "timestamp": "2026-09-12T11:45:46.873002"
     }
   ]
 }
