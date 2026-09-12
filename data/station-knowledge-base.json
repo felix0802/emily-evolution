@@ -1,53 +1,6 @@
 {
   "sessions": [
     {
-      "timestamp": "2026-07-15T09:50:51.617171",
-      "arxiv_papers_count": 17,
-      "arxiv_top_keywords": [
-        "human",
-        "neural",
-        "metacognition",
-        "llms",
-        "progress",
-        "intelligence",
-        "effective",
-        "dynamics",
-        "tasks",
-        "learning"
-      ],
-      "arxiv_strategies": [
-        "cs.AI 最新",
-        "cs.LG 最新",
-        "cs.CL 最新"
-      ],
-      "huggingface_models": 10,
-      "huggingface_tasks": [
-        "sentence-similarity",
-        "fill-mask",
-        "text-generation",
-        "text-ranking",
-        "feature-extraction"
-      ],
-      "ml_datasets": [
-        "Iris",
-        "Wine",
-        "Breast Cancer",
-        "Diabetes"
-      ],
-      "ml_total_tests": 22,
-      "github_trending_repos": 8,
-      "paperswithcode_papers": 8,
-      "evolution": {
-        "discovered": 38,
-        "adopted": 0,
-        "decisions": 0
-      },
-      "seed_watering": {
-        "seed_name": "Graph Neural Networks",
-        "papers_found": 5
-      }
-    },
-    {
       "timestamp": "2026-07-15T10:06:36.546736",
       "arxiv_papers_count": 5,
       "arxiv_top_keywords": [
@@ -4534,10 +4487,46 @@
         "seed_name": "Few-Shot Learning",
         "papers_found": 7
       }
+    },
+    {
+      "timestamp": "2026-09-12T23:32:22.769374",
+      "arxiv_papers_count": 0,
+      "arxiv_top_keywords": [],
+      "arxiv_strategies": [
+        "搜索: graph neural network",
+        "搜索: transfer learning",
+        "搜索: world model"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "unknown",
+        "fill-mask",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 0,
+        "adopted": 0,
+        "decisions": 0
+      },
+      "seed_watering": {
+        "seed_name": "",
+        "papers_found": 0
+      }
     }
   ],
   "total_sessions": 101,
-  "last_updated": "2026-09-12T21:45:54.674793",
+  "last_updated": "2026-09-12T23:32:22.769389",
   "evolution_summary": {
     "total_adopted": 140,
     "adopted_list": [
@@ -4715,7 +4704,7 @@
       },
       "continual-learning": {
         "name": "Continual Learning",
-        "watering": 61,
+        "watering": 62,
         "papers": 74
       },
       "moe": {
@@ -4876,6 +4865,6 @@
         "best_papers_count": 1
       }
     },
-    "last_evolution": "2026-09-12T21:45:54.677084"
+    "last_evolution": "2026-09-12T23:32:22.772340"
   }
 }

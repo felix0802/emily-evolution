@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 606,
+  "_rotation_idx": 607,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 60,
@@ -4384,32 +4384,8 @@
   "continual-learning": {
     "name": "Continual Learning",
     "total_papers_found": 74,
-    "watering_count": 61,
+    "watering_count": 62,
     "history": [
-      {
-        "timestamp": "2026-07-21T01:20:56.989422",
-        "papers_found": 2,
-        "duplicates": 4,
-        "irrelevant_filtered": 4,
-        "avg_relevance": 2.5,
-        "high_relevance": 1,
-        "papers": [
-          {
-            "title": "Rethinking Quantum Continual Learning with Quantum Fisher Information",
-            "summary": "Quantum continual learning aims to train quantum models on sequential tasks without losing previously learned knowledge. However, variational quantum classifiers (VQCs) are prone to catastrophic forgetting under nonstationary task distributions. We propose quantum elastic weight consolidation (QEWC)",
-            "published": "2026-07-17",
-            "url": "http://arxiv.org/abs/2607.16030v1",
-            "seed_match_score": 4
-          },
-          {
-            "title": "Rethinking Transfer in Continual Learning: A Replay-Based Realisation",
-            "summary": "Continual learning studies how deployed language models can continually acquire new tasks without expensive retraining from scratch. Existing methods, whether rehearsal-based (replaying stored past data) or rehearsal-free (regularising or isolating parameters), overwhelmingly target one objective: p",
-            "published": "2026-07-17",
-            "url": "http://arxiv.org/abs/2607.15587v1",
-            "seed_match_score": 1
-          }
-        ]
-      },
       {
         "timestamp": "2026-07-22T01:19:42.265943",
         "papers_found": 1,
@@ -5189,6 +5165,15 @@
         "avg_relevance": 0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-09-12T23:32:22.747560",
+        "papers_found": 0,
+        "duplicates": 0,
+        "irrelevant_filtered": 0,
+        "avg_relevance": 0,
+        "high_relevance": 0,
+        "papers": []
       }
     ],
     "keywords": [
@@ -5198,7 +5183,7 @@
       "ewc",
       "elastic weight"
     ],
-    "last_watered": "2026-09-11T17:23:13.910269"
+    "last_watered": "2026-09-12T23:32:22.747552"
   },
   "moe": {
     "name": "Mixture of Experts",
