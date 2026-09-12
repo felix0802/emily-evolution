@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 602,
+  "_rotation_idx": 603,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 60,
@@ -1477,39 +1477,8 @@
   "htm": {
     "name": "HTM",
     "total_papers_found": 106,
-    "watering_count": 63,
+    "watering_count": 64,
     "history": [
-      {
-        "timestamp": "2026-07-20T17:14:55.547493",
-        "papers_found": 3,
-        "duplicates": 0,
-        "irrelevant_filtered": 7,
-        "avg_relevance": 1.0,
-        "high_relevance": 0,
-        "papers": [
-          {
-            "title": "Knowledge-Assisted Multi-Graph Dependency Learning for Multivariate Time Series Anomaly Detection in Multi-Stage Industrial Processes",
-            "summary": "Industrial processes often generate complex, interdependent time-series data from multiple sensors across multiple stages, forming complex dependencies among variables and process stages. Effective monitoring and timely anomaly detection of these time series through multivariate time series anomaly ",
-            "published": "2026-07-17",
-            "url": "http://arxiv.org/abs/2607.15799v1",
-            "seed_match_score": 1
-          },
-          {
-            "title": "Improving Network Anomaly Detection via Choquet-Integral-Based Feature Aggregation",
-            "summary": "This work investigates a generalized Choquet-integral-based feature aggregation framework to improve anomaly detection in high-dimensional network traffic data. The approach combines adaptive weighting with incremental feature selection to address feature redundancy. Using Random Forest and XGBoost ",
-            "published": "2026-07-16",
-            "url": "http://arxiv.org/abs/2607.15389v1",
-            "seed_match_score": 1
-          },
-          {
-            "title": "On the Impact of Entropy-based Features",
-            "summary": "Network anomaly detection is increasingly challenging due to the growing diversity and variability of traffic patterns, which are not always well captured by traditional statistical features. In this work, we explore the use of entropy as an additional feature to support supervised network traffic c",
-            "published": "2026-07-16",
-            "url": "http://arxiv.org/abs/2607.15379v1",
-            "seed_match_score": 1
-          }
-        ]
-      },
       {
         "timestamp": "2026-07-21T17:05:07.291145",
         "papers_found": 2,
@@ -2520,6 +2489,15 @@
             "seed_match_score": 1
           }
         ]
+      },
+      {
+        "timestamp": "2026-09-12T14:30:36.781041",
+        "papers_found": 0,
+        "duplicates": 5,
+        "irrelevant_filtered": 5,
+        "avg_relevance": 0.0,
+        "high_relevance": 0,
+        "papers": []
       }
     ],
     "keywords": [
@@ -2534,7 +2512,7 @@
       "anomaly detection",
       "continuous learning"
     ],
-    "last_watered": "2026-09-10T23:29:56.085393"
+    "last_watered": "2026-09-12T14:30:36.781035"
   },
   "spiking-nn": {
     "name": "Spiking Neural Networks",

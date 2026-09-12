@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-12T11:45:49.227719",
+  "timestamp": "2026-09-12T14:30:44.897411",
   "connections": [
     {
       "seed_a": "Mixture of Experts",
@@ -15,7 +15,7 @@
         "memory"
       ],
       "strength": 7,
-      "discovered_at": "2026-09-12T11:45:49.227704"
+      "discovered_at": "2026-09-12T14:30:44.897395"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -29,7 +29,7 @@
         "mamba"
       ],
       "strength": 6,
-      "discovered_at": "2026-09-12T11:45:49.227560"
+      "discovered_at": "2026-09-12T14:30:44.897261"
     },
     {
       "seed_a": "Spiking Neural Networks",
@@ -44,21 +44,7 @@
         "using"
       ],
       "strength": 6,
-      "discovered_at": "2026-09-12T11:45:49.227664"
-    },
-    {
-      "seed_a": "HTM",
-      "seed_b": "Graph Neural Networks",
-      "shared_keywords": [],
-      "shared_paper_concepts": [
-        "based",
-        "graph",
-        "learning",
-        "level",
-        "with"
-      ],
-      "strength": 5,
-      "discovered_at": "2026-09-12T11:45:49.227646"
+      "discovered_at": "2026-09-12T14:30:44.897356"
     },
     {
       "seed_a": "KV Cache Optimization",
@@ -72,7 +58,7 @@
         "with"
       ],
       "strength": 5,
-      "discovered_at": "2026-09-12T11:45:49.227712"
+      "discovered_at": "2026-09-12T14:30:44.897403"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -85,7 +71,20 @@
         "prediction"
       ],
       "strength": 4,
-      "discovered_at": "2026-09-12T11:45:49.227614"
+      "discovered_at": "2026-09-12T14:30:44.897276"
+    },
+    {
+      "seed_a": "HTM",
+      "seed_b": "Graph Neural Networks",
+      "shared_keywords": [],
+      "shared_paper_concepts": [
+        "based",
+        "learning",
+        "level",
+        "with"
+      ],
+      "strength": 4,
+      "discovered_at": "2026-09-12T14:30:44.897340"
     },
     {
       "seed_a": "Spiking Neural Networks",
@@ -98,7 +97,7 @@
         "under"
       ],
       "strength": 4,
-      "discovered_at": "2026-09-12T11:45:49.227656"
+      "discovered_at": "2026-09-12T14:30:44.897349"
     },
     {
       "seed_a": "Non-Transformer Arch",
@@ -111,7 +110,7 @@
         "using"
       ],
       "strength": 4,
-      "discovered_at": "2026-09-12T11:45:49.227678"
+      "discovered_at": "2026-09-12T14:30:44.897370"
     },
     {
       "seed_a": "Few-Shot Learning",
@@ -124,7 +123,7 @@
         "prediction"
       ],
       "strength": 4,
-      "discovered_at": "2026-09-12T11:45:49.227691"
+      "discovered_at": "2026-09-12T14:30:44.897382"
     },
     {
       "seed_a": "Continual Learning",
@@ -137,7 +136,7 @@
         "long"
       ],
       "strength": 4,
-      "discovered_at": "2026-09-12T11:45:49.227694"
+      "discovered_at": "2026-09-12T14:30:44.897386"
     }
   ],
   "total_seeds": 10

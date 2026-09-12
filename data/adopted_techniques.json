@@ -1988,6 +1988,51 @@
         ],
         "decided_at": "2026-09-12T11:45:46.871354"
       }
+    },
+    {
+      "id": "llm-静态数据流编译与cuda图重放",
+      "name": "静态数据流编译与CUDA图重放",
+      "adopted_at": "2026-09-12T14:30:42.407916",
+      "decision": {
+        "tech_id": "llm-静态数据流编译与cuda图重放",
+        "tech_name": "静态数据流编译与CUDA图重放",
+        "action": "adopt",
+        "confidence": 0.95,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-09-12T14:30:42.405836"
+      }
+    },
+    {
+      "id": "llm-分布偏移的通用量化",
+      "name": "分布偏移的通用量化",
+      "adopted_at": "2026-09-12T14:30:42.407936",
+      "decision": {
+        "tech_id": "llm-分布偏移的通用量化",
+        "tech_name": "分布偏移的通用量化",
+        "action": "adopt",
+        "confidence": 0.9,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-09-12T14:30:42.406016"
+      }
+    },
+    {
+      "id": "auto-cuda",
+      "name": "Cuda",
+      "adopted_at": "2026-09-12T14:30:42.407949",
+      "decision": {
+        "tech_id": "auto-cuda",
+        "tech_name": "Cuda",
+        "action": "adopt",
+        "confidence": 0.35,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-09-12T14:30:42.406223"
+      }
     }
   ],
   "history": [
@@ -2782,6 +2827,24 @@
       "tech_id": "llm-openacc-kernel",
       "tech_name": "OpenACC kernel",
       "timestamp": "2026-09-12T11:45:46.873002"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-静态数据流编译与cuda图重放",
+      "tech_name": "静态数据流编译与CUDA图重放",
+      "timestamp": "2026-09-12T14:30:42.407922"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-分布偏移的通用量化",
+      "tech_name": "分布偏移的通用量化",
+      "timestamp": "2026-09-12T14:30:42.407938"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "auto-cuda",
+      "tech_name": "Cuda",
+      "timestamp": "2026-09-12T14:30:42.407950"
     }
   ]
 }

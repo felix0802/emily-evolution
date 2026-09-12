@@ -1,53 +1,6 @@
 {
   "sessions": [
     {
-      "timestamp": "2026-07-14T11:52:51.427534",
-      "arxiv_papers_count": 18,
-      "arxiv_top_keywords": [
-        "graph",
-        "learning",
-        "world",
-        "multi",
-        "neural",
-        "feature",
-        "foundation",
-        "target",
-        "self",
-        "scale"
-      ],
-      "arxiv_strategies": [
-        "搜索: graph neural network",
-        "搜索: transfer learning",
-        "搜索: world model"
-      ],
-      "huggingface_models": 10,
-      "huggingface_tasks": [
-        "sentence-similarity",
-        "fill-mask",
-        "text-generation",
-        "text-ranking",
-        "feature-extraction"
-      ],
-      "ml_datasets": [
-        "Iris",
-        "Wine",
-        "Breast Cancer",
-        "Diabetes"
-      ],
-      "ml_total_tests": 22,
-      "github_trending_repos": 8,
-      "paperswithcode_papers": 8,
-      "evolution": {
-        "discovered": 22,
-        "adopted": 0,
-        "decisions": 0
-      },
-      "seed_watering": {
-        "seed_name": "Mamba (SSM)",
-        "papers_found": 8
-      }
-    },
-    {
       "timestamp": "2026-07-14T13:04:32.264203",
       "arxiv_papers_count": 17,
       "arxiv_top_keywords": [
@@ -4528,12 +4481,59 @@
         "seed_name": "Liquid Networks",
         "papers_found": 7
       }
+    },
+    {
+      "timestamp": "2026-09-12T14:30:44.882355",
+      "arxiv_papers_count": 18,
+      "arxiv_top_keywords": [
+        "language",
+        "general",
+        "foundation",
+        "discovery",
+        "data",
+        "gpu",
+        "cfr",
+        "game",
+        "faster",
+        "counterfactual"
+      ],
+      "arxiv_strategies": [
+        "cs.AI 最新",
+        "cs.LG 最新",
+        "cs.CL 最新"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "unknown",
+        "fill-mask",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 19,
+        "adopted": 3,
+        "decisions": 3
+      },
+      "seed_watering": {
+        "seed_name": "HTM",
+        "papers_found": 5
+      }
     }
   ],
   "total_sessions": 101,
-  "last_updated": "2026-09-12T11:45:49.212602",
+  "last_updated": "2026-09-12T14:30:44.882371",
   "evolution_summary": {
-    "total_adopted": 132,
+    "total_adopted": 135,
     "adopted_list": [
       "Knowledge Distillation",
       "World Models / Model-Based RL",
@@ -4666,7 +4666,10 @@
       "KV缓存重用",
       "KV-Cache accumulation",
       "GQA/MQA",
-      "OpenACC kernel"
+      "OpenACC kernel",
+      "静态数据流编译与CUDA图重放",
+      "分布偏移的通用量化",
+      "Cuda"
     ],
     "seeds": {
       "mamba": {
@@ -4681,7 +4684,7 @@
       },
       "htm": {
         "name": "HTM",
-        "watering": 63,
+        "watering": 64,
         "papers": 106
       },
       "spiking-nn": {
@@ -4775,16 +4778,16 @@
         "name": "HTM",
         "new_papers": 101,
         "keywords_matched": [
-          "sequence memory",
-          "online learning",
-          "sparse distributed",
-          "hierarchical temporal",
           "predictive coding",
+          "hierarchical temporal",
+          "sparse distributed",
+          "sequence memory",
           "cortical",
-          "anomaly detection"
+          "anomaly detection",
+          "online learning"
         ],
         "high_relevance_total": 3,
-        "avg_relevance_latest": 1.0,
+        "avg_relevance_latest": 0.0,
         "best_papers_count": 0
       },
       "non-transformer": {
@@ -4862,6 +4865,6 @@
         "best_papers_count": 1
       }
     },
-    "last_evolution": "2026-09-12T11:45:49.215404"
+    "last_evolution": "2026-09-12T14:30:44.885181"
   }
 }
