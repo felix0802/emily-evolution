@@ -2033,6 +2033,51 @@
         ],
         "decided_at": "2026-09-12T14:30:42.406223"
       }
+    },
+    {
+      "id": "llm-无编码器/无vae架构",
+      "name": "无编码器/无VAE架构",
+      "adopted_at": "2026-09-12T17:59:23.496779",
+      "decision": {
+        "tech_id": "llm-无编码器/无vae架构",
+        "tech_name": "无编码器/无VAE架构",
+        "action": "adopt",
+        "confidence": 0.85,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-09-12T17:59:23.494562"
+      }
+    },
+    {
+      "id": "auto-mixture of experts",
+      "name": "Mixture Of Experts",
+      "adopted_at": "2026-09-12T17:59:23.496809",
+      "decision": {
+        "tech_id": "auto-mixture of experts",
+        "tech_name": "Mixture Of Experts",
+        "action": "adopt",
+        "confidence": 0.35,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-09-12T17:59:23.494780"
+      }
+    },
+    {
+      "id": "auto-mixture of",
+      "name": "Mixture Of",
+      "adopted_at": "2026-09-12T17:59:23.496829",
+      "decision": {
+        "tech_id": "auto-mixture of",
+        "tech_name": "Mixture Of",
+        "action": "adopt",
+        "confidence": 0.35,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-09-12T17:59:23.494988"
+      }
     }
   ],
   "history": [
@@ -2845,6 +2890,24 @@
       "tech_id": "auto-cuda",
       "tech_name": "Cuda",
       "timestamp": "2026-09-12T14:30:42.407950"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-无编码器/无vae架构",
+      "tech_name": "无编码器/无VAE架构",
+      "timestamp": "2026-09-12T17:59:23.496786"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "auto-mixture of experts",
+      "tech_name": "Mixture Of Experts",
+      "timestamp": "2026-09-12T17:59:23.496812"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "auto-mixture of",
+      "tech_name": "Mixture Of",
+      "timestamp": "2026-09-12T17:59:23.496832"
     }
   ]
 }

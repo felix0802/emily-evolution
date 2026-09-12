@@ -1,53 +1,6 @@
 {
   "sessions": [
     {
-      "timestamp": "2026-07-14T13:04:32.264203",
-      "arxiv_papers_count": 17,
-      "arxiv_top_keywords": [
-        "anomaly",
-        "time",
-        "detection",
-        "learning",
-        "semantic",
-        "series",
-        "behavior",
-        "distillation",
-        "metacognition",
-        "llms"
-      ],
-      "arxiv_strategies": [
-        "cs.AI (fallback)",
-        "搜索: anomaly detection",
-        "搜索: knowledge distillation"
-      ],
-      "huggingface_models": 10,
-      "huggingface_tasks": [
-        "sentence-similarity",
-        "fill-mask",
-        "text-generation",
-        "text-ranking",
-        "feature-extraction"
-      ],
-      "ml_datasets": [
-        "Iris",
-        "Wine",
-        "Breast Cancer",
-        "Diabetes"
-      ],
-      "ml_total_tests": 22,
-      "github_trending_repos": 8,
-      "paperswithcode_papers": 8,
-      "evolution": {
-        "discovered": 37,
-        "adopted": 0,
-        "decisions": 0
-      },
-      "seed_watering": {
-        "seed_name": "Liquid Networks",
-        "papers_found": 8
-      }
-    },
-    {
       "timestamp": "2026-07-14T17:44:01.979898",
       "arxiv_papers_count": 17,
       "arxiv_top_keywords": [
@@ -4528,12 +4481,59 @@
         "seed_name": "HTM",
         "papers_found": 5
       }
+    },
+    {
+      "timestamp": "2026-09-12T17:59:25.690899",
+      "arxiv_papers_count": 12,
+      "arxiv_top_keywords": [
+        "visual",
+        "native",
+        "sensenova",
+        "unified",
+        "free",
+        "data",
+        "repetition",
+        "experts",
+        "moe",
+        "across"
+      ],
+      "arxiv_strategies": [
+        "cs.CV 最新",
+        "cs.AI+cs.LG 混合",
+        "cs.CL+cs.CV 混合"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "unknown",
+        "fill-mask",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 19,
+        "adopted": 3,
+        "decisions": 3
+      },
+      "seed_watering": {
+        "seed_name": "",
+        "papers_found": 0
+      }
     }
   ],
   "total_sessions": 101,
-  "last_updated": "2026-09-12T14:30:44.882371",
+  "last_updated": "2026-09-12T17:59:25.690918",
   "evolution_summary": {
-    "total_adopted": 135,
+    "total_adopted": 138,
     "adopted_list": [
       "Knowledge Distillation",
       "World Models / Model-Based RL",
@@ -4669,7 +4669,10 @@
       "OpenACC kernel",
       "静态数据流编译与CUDA图重放",
       "分布偏移的通用量化",
-      "Cuda"
+      "Cuda",
+      "无编码器/无VAE架构",
+      "Mixture Of Experts",
+      "Mixture Of"
     ],
     "seeds": {
       "mamba": {
@@ -4689,7 +4692,7 @@
       },
       "spiking-nn": {
         "name": "Spiking Neural Networks",
-        "watering": 62,
+        "watering": 63,
         "papers": 33
       },
       "non-transformer": {
@@ -4865,6 +4868,6 @@
         "best_papers_count": 1
       }
     },
-    "last_evolution": "2026-09-12T14:30:44.885181"
+    "last_evolution": "2026-09-12T17:59:25.694038"
   }
 }
