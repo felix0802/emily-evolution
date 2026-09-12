@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-11T23:41:59.034502",
+  "timestamp": "2026-09-12T01:56:59.149056",
   "connections": [
     {
       "seed_a": "Mixture of Experts",
@@ -15,7 +15,7 @@
         "memory"
       ],
       "strength": 7,
-      "discovered_at": "2026-09-11T23:41:59.034488"
+      "discovered_at": "2026-09-12T01:56:59.149042"
     },
     {
       "seed_a": "Spiking Neural Networks",
@@ -30,7 +30,7 @@
         "using"
       ],
       "strength": 6,
-      "discovered_at": "2026-09-11T23:41:59.034456"
+      "discovered_at": "2026-09-12T01:56:59.149012"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -43,7 +43,7 @@
         "mamba"
       ],
       "strength": 5,
-      "discovered_at": "2026-09-11T23:41:59.034230"
+      "discovered_at": "2026-09-12T01:56:59.148921"
     },
     {
       "seed_a": "Liquid Networks",
@@ -57,7 +57,7 @@
         "operator"
       ],
       "strength": 5,
-      "discovered_at": "2026-09-11T23:41:59.034423"
+      "discovered_at": "2026-09-12T01:56:59.148980"
     },
     {
       "seed_a": "HTM",
@@ -71,7 +71,7 @@
         "with"
       ],
       "strength": 5,
-      "discovered_at": "2026-09-11T23:41:59.034442"
+      "discovered_at": "2026-09-12T01:56:59.148999"
     },
     {
       "seed_a": "KV Cache Optimization",
@@ -85,7 +85,7 @@
         "with"
       ],
       "strength": 5,
-      "discovered_at": "2026-09-11T23:41:59.034494"
+      "discovered_at": "2026-09-12T01:56:59.149048"
     },
     {
       "seed_a": "Liquid Networks",
@@ -98,7 +98,7 @@
         "neural"
       ],
       "strength": 4,
-      "discovered_at": "2026-09-11T23:41:59.034407"
+      "discovered_at": "2026-09-12T01:56:59.148965"
     },
     {
       "seed_a": "Spiking Neural Networks",
@@ -111,7 +111,7 @@
         "under"
       ],
       "strength": 4,
-      "discovered_at": "2026-09-11T23:41:59.034450"
+      "discovered_at": "2026-09-12T01:56:59.149006"
     },
     {
       "seed_a": "Non-Transformer Arch",
@@ -124,7 +124,7 @@
         "using"
       ],
       "strength": 4,
-      "discovered_at": "2026-09-11T23:41:59.034467"
+      "discovered_at": "2026-09-12T01:56:59.149022"
     },
     {
       "seed_a": "Few-Shot Learning",
@@ -137,7 +137,7 @@
         "prediction"
       ],
       "strength": 4,
-      "discovered_at": "2026-09-11T23:41:59.034477"
+      "discovered_at": "2026-09-12T01:56:59.149032"
     }
   ],
   "total_seeds": 10
