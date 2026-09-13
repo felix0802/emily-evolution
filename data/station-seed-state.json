@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 608,
+  "_rotation_idx": 609,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 60,
@@ -6114,39 +6114,8 @@
   "kv-cache": {
     "name": "KV Cache Optimization",
     "total_papers_found": 84,
-    "watering_count": 58,
+    "watering_count": 59,
     "history": [
-      {
-        "timestamp": "2026-07-21T08:03:55.727046",
-        "papers_found": 5,
-        "duplicates": 2,
-        "irrelevant_filtered": 3,
-        "avg_relevance": 1.2,
-        "high_relevance": 1,
-        "papers": [
-          {
-            "title": "C$^2$KV: Compressed and Composable KV Cache Reuse for Efficient LLM Inference",
-            "summary": "Long-context inference is central to modern large language model (LLM) applications such as retrieval-augmented generation and multi-document reasoning. To mitigate the growing inference cost, recent work has explored key-value (KV) cache reuse to reduce redundant prefill computation. However, exist",
-            "published": "2026-07-20",
-            "url": "http://arxiv.org/abs/2607.17715v1",
-            "seed_match_score": 1
-          },
-          {
-            "title": "SALT: Salience-Aware Lexical Trie for Long-Context Compression",
-            "summary": "As large language models (LLMs) process increasingly longer prompts, computation and KV-cache memory costs have emerged as major bottlenecks in inference systems. Existing input-level prompt compression methods address this, but rank each sentence by a scalar relevance score, treating the document a",
-            "published": "2026-07-20",
-            "url": "http://arxiv.org/abs/2607.17486v1",
-            "seed_match_score": 1
-          },
-          {
-            "title": "Lossless but Not Free: An Empirical Anatomy of Speculative Decoding on Consumer Hardware",
-            "summary": "Single-stream autoregressive decoding of large language models is bound by memory bandwidth: each generated token requires one full forward pass through the target model, and successive passes cannot be parallelized. Speculative decoding restructures this computation: a small draft model proposes $K",
-            "published": "2026-07-19",
-            "url": "http://arxiv.org/abs/2607.17283v1",
-            "seed_match_score": 1
-          }
-        ]
-      },
       {
         "timestamp": "2026-07-22T08:04:49.152450",
         "papers_found": 1,
@@ -7028,6 +6997,15 @@
             "seed_match_score": 1
           }
         ]
+      },
+      {
+        "timestamp": "2026-09-13T06:57:15.210047",
+        "papers_found": 0,
+        "duplicates": 0,
+        "irrelevant_filtered": 0,
+        "avg_relevance": 0,
+        "high_relevance": 0,
+        "papers": []
       }
     ],
     "keywords": [
@@ -7039,7 +7017,7 @@
       "flash attention",
       "speculative decoding"
     ],
-    "last_watered": "2026-09-11T23:41:52.516179"
+    "last_watered": "2026-09-13T06:57:15.210041"
   },
   "gnn": {
     "name": "Graph Neural Networks",

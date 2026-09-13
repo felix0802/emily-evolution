@@ -1,53 +1,6 @@
 {
   "sessions": [
     {
-      "timestamp": "2026-07-15T10:12:37.076257",
-      "arxiv_papers_count": 5,
-      "arxiv_top_keywords": [
-        "time",
-        "detection",
-        "falling",
-        "vision",
-        "support",
-        "memory",
-        "long",
-        "memops",
-        "benchmarking",
-        "lifecycle"
-      ],
-      "arxiv_strategies": [
-        "cs.AI (fallback)",
-        "cs.AI (fallback)",
-        "cs.AI (fallback)"
-      ],
-      "huggingface_models": 10,
-      "huggingface_tasks": [
-        "sentence-similarity",
-        "fill-mask",
-        "text-generation",
-        "text-ranking",
-        "feature-extraction"
-      ],
-      "ml_datasets": [
-        "Iris",
-        "Wine",
-        "Breast Cancer",
-        "Diabetes"
-      ],
-      "ml_total_tests": 22,
-      "github_trending_repos": 8,
-      "paperswithcode_papers": 8,
-      "evolution": {
-        "discovered": 26,
-        "adopted": 0,
-        "decisions": 0
-      },
-      "seed_watering": {
-        "seed_name": "",
-        "papers_found": 0
-      }
-    },
-    {
       "timestamp": "2026-07-15T10:22:05.186004",
       "arxiv_papers_count": 5,
       "arxiv_top_keywords": [
@@ -4512,10 +4465,46 @@
         "seed_name": "",
         "papers_found": 0
       }
+    },
+    {
+      "timestamp": "2026-09-13T06:57:15.231263",
+      "arxiv_papers_count": 0,
+      "arxiv_top_keywords": [],
+      "arxiv_strategies": [
+        "搜索: kv cache LLM",
+        "搜索: graph neural network recent",
+        "搜索: speculative decoding"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "unknown",
+        "fill-mask",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 0,
+        "adopted": 0,
+        "decisions": 0
+      },
+      "seed_watering": {
+        "seed_name": "",
+        "papers_found": 0
+      }
     }
   ],
   "total_sessions": 101,
-  "last_updated": "2026-09-13T01:45:11.124462",
+  "last_updated": "2026-09-13T06:57:15.231275",
   "evolution_summary": {
     "total_adopted": 140,
     "adopted_list": [
@@ -4703,7 +4692,7 @@
       },
       "kv-cache": {
         "name": "KV Cache Optimization",
-        "watering": 58,
+        "watering": 59,
         "papers": 84
       },
       "gnn": {
@@ -4854,6 +4843,6 @@
         "best_papers_count": 1
       }
     },
-    "last_evolution": "2026-09-13T01:45:11.127269"
+    "last_evolution": "2026-09-13T06:57:15.233690"
   }
 }
