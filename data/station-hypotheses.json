@@ -449,9 +449,43 @@
       "supporting_papers": [],
       "refuting_papers": [],
       "llm_source": "deepseek"
+    },
+    {
+      "id": "hyp-0019",
+      "timestamp": "2026-09-13T12:59:15.421663",
+      "seed_a": "Spiking Neural Networks",
+      "seed_b": "Continual Learning",
+      "crossref_strength": 4,
+      "shared_keywords": [],
+      "hypothesis": "在持續學習場景中，使用脈衝神經網路（SNN）的稀疏時序編碼與突觸可塑性規則，能顯著提升對抗性攻擊下的魯棒性，同時避免災難性遺忘。",
+      "reasoning": "SNN 的稀疏事件驅動特性天然過濾高頻對抗擾動，而持續學習中的正則化或重播機制可與 SNN 的局部突觸可塑性（如 STDP）結合，形成時序穩定的權重更新。兩者共享對「學習穩定性」與「抗干擾」的數學需求，可透過能量效率與遺忘邊界的聯合優化來統一。",
+      "arxiv_query": "spiking neural networks continual learning adversarial robustness",
+      "potential_breakthrough": "實現首個在對抗攻擊下具備終身學習能力的超低功耗神經形態系統。",
+      "status": "unverified",
+      "verification_rounds": 1,
+      "supporting_papers": [],
+      "refuting_papers": [],
+      "llm_source": "deepseek"
+    },
+    {
+      "id": "hyp-0020",
+      "timestamp": "2026-09-13T12:59:17.778314",
+      "seed_a": "Continual Learning",
+      "seed_b": "Mixture of Experts",
+      "crossref_strength": 4,
+      "shared_keywords": [],
+      "hypothesis": "在持續學習場景中，使用動態路由的混合專家模型（MoE）並結合液態網路（Liquid Networks）的時變動態，可以顯著緩解災難性遺忘，同時保持對新任務的快速適應。",
+      "reasoning": "持續學習與混合專家模型共享『動態』與『長期學習』的概念：MoE 通過動態選擇專家來隔離不同任務的參數，而持續學習需要動態調整模型以適應新任務而不遺忘舊任務。液態網路提供連續時間的動態系統，可建模任務隨時間的演變，其數學基礎（常微分方程）與 MoE 的門控機制結合，能實現平滑的專家切換與參數更新。",
+      "arxiv_query": "continual learning mixture of experts dynamic routing liquid networks",
+      "potential_breakthrough": "實現一個能終身學習且不遺忘的動態專家系統，在非平穩數據流中達到接近聯合訓練的性能。",
+      "status": "unverified",
+      "verification_rounds": 0,
+      "supporting_papers": [],
+      "refuting_papers": [],
+      "llm_source": "deepseek"
     }
   ],
-  "last_updated": "2026-09-11T06:44:38.043052",
-  "total_generated": 18,
+  "last_updated": "2026-09-13T12:59:59.623570",
+  "total_generated": 20,
   "total_verified": 18
 }
