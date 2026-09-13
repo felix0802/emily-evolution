@@ -1,53 +1,6 @@
 {
   "sessions": [
     {
-      "timestamp": "2026-07-15T10:06:36.546736",
-      "arxiv_papers_count": 5,
-      "arxiv_top_keywords": [
-        "metacognition",
-        "llms",
-        "progress",
-        "intelligence",
-        "effective",
-        "dynamics",
-        "tasks",
-        "learning",
-        "inductive",
-        "reasoning"
-      ],
-      "arxiv_strategies": [
-        "cs.AI (fallback)",
-        "cs.AI (fallback)",
-        "cs.AI (fallback)"
-      ],
-      "huggingface_models": 10,
-      "huggingface_tasks": [
-        "sentence-similarity",
-        "fill-mask",
-        "text-generation",
-        "text-ranking",
-        "feature-extraction"
-      ],
-      "ml_datasets": [
-        "Iris",
-        "Wine",
-        "Breast Cancer",
-        "Diabetes"
-      ],
-      "ml_total_tests": 22,
-      "github_trending_repos": 8,
-      "paperswithcode_papers": 8,
-      "evolution": {
-        "discovered": 30,
-        "adopted": 0,
-        "decisions": 0
-      },
-      "seed_watering": {
-        "seed_name": "",
-        "papers_found": 0
-      }
-    },
-    {
       "timestamp": "2026-07-15T10:12:37.076257",
       "arxiv_papers_count": 5,
       "arxiv_top_keywords": [
@@ -4523,10 +4476,46 @@
         "seed_name": "",
         "papers_found": 0
       }
+    },
+    {
+      "timestamp": "2026-09-13T01:45:11.124447",
+      "arxiv_papers_count": 0,
+      "arxiv_top_keywords": [],
+      "arxiv_strategies": [
+        "搜索: time series forecasting",
+        "搜索: anomaly detection",
+        "搜索: mixture of experts"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "unknown",
+        "fill-mask",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 0,
+        "adopted": 0,
+        "decisions": 0
+      },
+      "seed_watering": {
+        "seed_name": "",
+        "papers_found": 0
+      }
     }
   ],
   "total_sessions": 101,
-  "last_updated": "2026-09-12T23:32:22.769389",
+  "last_updated": "2026-09-13T01:45:11.124462",
   "evolution_summary": {
     "total_adopted": 140,
     "adopted_list": [
@@ -4709,7 +4698,7 @@
       },
       "moe": {
         "name": "Mixture of Experts",
-        "watering": 57,
+        "watering": 58,
         "papers": 89
       },
       "kv-cache": {
@@ -4865,6 +4854,6 @@
         "best_papers_count": 1
       }
     },
-    "last_evolution": "2026-09-12T23:32:22.772340"
+    "last_evolution": "2026-09-13T01:45:11.127269"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 607,
+  "_rotation_idx": 608,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 60,
@@ -5188,39 +5188,8 @@
   "moe": {
     "name": "Mixture of Experts",
     "total_papers_found": 89,
-    "watering_count": 57,
+    "watering_count": 58,
     "history": [
-      {
-        "timestamp": "2026-07-21T04:55:53.169708",
-        "papers_found": 3,
-        "duplicates": 4,
-        "irrelevant_filtered": 3,
-        "avg_relevance": 2.33,
-        "high_relevance": 3,
-        "papers": [
-          {
-            "title": "OrderMoE: An expert similarity driven distributed edge MoE inference",
-            "summary": "Although mixture-of-experts, MoE, models have been increasingly adopted to scale large language models with moderate computation cost, it remains challenging to deploy MoE inference over resource-constrained and bandwidth-limited edge infrastructures. Existing distributed MoE serving methods mainly ",
-            "published": "2026-07-19",
-            "url": "http://arxiv.org/abs/2607.17154v1",
-            "seed_match_score": 2
-          },
-          {
-            "title": "Half the Experts, All the Code: One-Shot Domain Pruning of Mixture-of-Experts LLMs for Coding",
-            "summary": "The strongest open-weight coding models are mixture-of-experts (MoE) networks: most of their size comes from large pools of \"expert\" subnetworks, of which only a few act on any token. That pool is why these models do not fit on the machines most developers own, yet for a user who only wants coding h",
-            "published": "2026-07-18",
-            "url": "http://arxiv.org/abs/2607.16721v1",
-            "seed_match_score": 2
-          },
-          {
-            "title": "Multi-level context Modeling for consistent expert selection in Mixture-of-Experts",
-            "summary": "Mixture-of-Experts (MoE) enables efficient scaling of Transformer models by routing tokens to a small subset of experts. However, existing routers typically condition expert selection on shallow or isolated token representations, which often produce unstable and semantically inconsistent routing dec",
-            "published": "2026-07-17",
-            "url": "http://arxiv.org/abs/2607.16427v1",
-            "seed_match_score": 3
-          }
-        ]
-      },
       {
         "timestamp": "2026-07-22T04:55:20.797189",
         "papers_found": 2,
@@ -6120,6 +6089,15 @@
             "seed_match_score": 1
           }
         ]
+      },
+      {
+        "timestamp": "2026-09-13T01:45:11.097341",
+        "papers_found": 0,
+        "duplicates": 0,
+        "irrelevant_filtered": 0,
+        "avg_relevance": 0,
+        "high_relevance": 0,
+        "papers": []
       }
     ],
     "keywords": [
@@ -6131,7 +6109,7 @@
       "switch transformer",
       "deepseek"
     ],
-    "last_watered": "2026-09-11T20:09:00.769186"
+    "last_watered": "2026-09-13T01:45:11.097334"
   },
   "kv-cache": {
     "name": "KV Cache Optimization",

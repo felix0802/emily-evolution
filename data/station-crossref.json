@@ -1,22 +1,6 @@
 {
-  "timestamp": "2026-09-12T23:32:22.783381",
+  "timestamp": "2026-09-13T01:45:11.139527",
   "connections": [
-    {
-      "seed_a": "Mixture of Experts",
-      "seed_b": "KV Cache Optimization",
-      "shared_keywords": [],
-      "shared_paper_concepts": [
-        "across",
-        "aware",
-        "cache",
-        "dynamic",
-        "efficient",
-        "inference",
-        "memory"
-      ],
-      "strength": 7,
-      "discovered_at": "2026-09-12T23:32:22.783367"
-    },
     {
       "seed_a": "Mamba (SSM)",
       "seed_b": "Non-Transformer Arch",
@@ -29,7 +13,7 @@
         "mamba"
       ],
       "strength": 6,
-      "discovered_at": "2026-09-12T23:32:22.783123"
+      "discovered_at": "2026-09-13T01:45:11.139370"
     },
     {
       "seed_a": "Spiking Neural Networks",
@@ -44,7 +28,7 @@
         "using"
       ],
       "strength": 6,
-      "discovered_at": "2026-09-12T23:32:22.783330"
+      "discovered_at": "2026-09-13T01:45:11.139470"
     },
     {
       "seed_a": "KV Cache Optimization",
@@ -58,7 +42,7 @@
         "with"
       ],
       "strength": 5,
-      "discovered_at": "2026-09-12T23:32:22.783374"
+      "discovered_at": "2026-09-13T01:45:11.139519"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -71,7 +55,7 @@
         "prediction"
       ],
       "strength": 4,
-      "discovered_at": "2026-09-12T23:32:22.783137"
+      "discovered_at": "2026-09-13T01:45:11.139383"
     },
     {
       "seed_a": "HTM",
@@ -84,7 +68,7 @@
         "with"
       ],
       "strength": 4,
-      "discovered_at": "2026-09-12T23:32:22.783315"
+      "discovered_at": "2026-09-13T01:45:11.139453"
     },
     {
       "seed_a": "Spiking Neural Networks",
@@ -97,7 +81,7 @@
         "under"
       ],
       "strength": 4,
-      "discovered_at": "2026-09-12T23:32:22.783323"
+      "discovered_at": "2026-09-13T01:45:11.139462"
     },
     {
       "seed_a": "Non-Transformer Arch",
@@ -110,7 +94,7 @@
         "using"
       ],
       "strength": 4,
-      "discovered_at": "2026-09-12T23:32:22.783343"
+      "discovered_at": "2026-09-13T01:45:11.139482"
     },
     {
       "seed_a": "Few-Shot Learning",
@@ -123,7 +107,7 @@
         "prediction"
       ],
       "strength": 4,
-      "discovered_at": "2026-09-12T23:32:22.783355"
+      "discovered_at": "2026-09-13T01:45:11.139494"
     },
     {
       "seed_a": "Continual Learning",
@@ -136,7 +120,19 @@
         "long"
       ],
       "strength": 4,
-      "discovered_at": "2026-09-12T23:32:22.783358"
+      "discovered_at": "2026-09-13T01:45:11.139502"
+    },
+    {
+      "seed_a": "Mamba (SSM)",
+      "seed_b": "KV Cache Optimization",
+      "shared_keywords": [],
+      "shared_paper_concepts": [
+        "attention",
+        "aware",
+        "scaling"
+      ],
+      "strength": 3,
+      "discovered_at": "2026-09-13T01:45:11.139379"
     }
   ],
   "total_seeds": 10
