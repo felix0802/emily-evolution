@@ -1,48 +1,6 @@
 {
   "sessions": [
     {
-      "timestamp": "2026-07-15T03:32:32.422179",
-      "arxiv_papers_count": 18,
-      "arxiv_top_keywords": [
-        "graph",
-        "neural",
-        "multi",
-        "learning",
-        "world",
-        "group",
-        "feature",
-        "foundation",
-        "target",
-        "self"
-      ],
-      "arxiv_strategies": [
-        "搜索: graph neural network",
-        "搜索: transfer learning",
-        "搜索: world model"
-      ],
-      "huggingface_models": 10,
-      "huggingface_tasks": [
-        "sentence-similarity",
-        "fill-mask",
-        "text-generation",
-        "text-ranking",
-        "feature-extraction"
-      ],
-      "ml_datasets": [],
-      "ml_total_tests": 0,
-      "github_trending_repos": 8,
-      "paperswithcode_papers": 8,
-      "evolution": {
-        "discovered": 16,
-        "adopted": 0,
-        "decisions": 0
-      },
-      "seed_watering": {
-        "seed_name": "Mamba (SSM)",
-        "papers_found": 8
-      }
-    },
-    {
       "timestamp": "2026-07-15T03:48:39.216655",
       "arxiv_papers_count": 16,
       "arxiv_top_keywords": [
@@ -4490,10 +4448,46 @@
         "seed_name": "",
         "papers_found": 0
       }
+    },
+    {
+      "timestamp": "2026-09-13T17:09:31.923200",
+      "arxiv_papers_count": 0,
+      "arxiv_top_keywords": [],
+      "arxiv_strategies": [
+        "cs.AI 最新",
+        "cs.LG 最新",
+        "cs.CL 最新"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "unknown",
+        "fill-mask",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 0,
+        "adopted": 0,
+        "decisions": 0
+      },
+      "seed_watering": {
+        "seed_name": "",
+        "papers_found": 0
+      }
     }
   ],
   "total_sessions": 101,
-  "last_updated": "2026-09-13T12:59:13.110330",
+  "last_updated": "2026-09-13T17:09:31.923214",
   "evolution_summary": {
     "total_adopted": 140,
     "adopted_list": [
@@ -4641,7 +4635,7 @@
     "seeds": {
       "mamba": {
         "name": "Mamba (SSM)",
-        "watering": 64,
+        "watering": 65,
         "papers": 60
       },
       "liquid-networks": {
@@ -4832,6 +4826,6 @@
         "best_papers_count": 1
       }
     },
-    "last_evolution": "2026-09-13T12:59:13.113387"
+    "last_evolution": "2026-09-13T17:09:31.926090"
   }
 }
