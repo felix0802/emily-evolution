@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 612,
+  "_rotation_idx": 613,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 60,
@@ -1454,32 +1454,8 @@
   "htm": {
     "name": "HTM",
     "total_papers_found": 106,
-    "watering_count": 64,
+    "watering_count": 65,
     "history": [
-      {
-        "timestamp": "2026-07-21T17:05:07.291145",
-        "papers_found": 2,
-        "duplicates": 3,
-        "irrelevant_filtered": 5,
-        "avg_relevance": 1.0,
-        "high_relevance": 0,
-        "papers": [
-          {
-            "title": "ClouDens: Operational Context-Aware Anomaly Detection for Large-scale Cloud System Monitoring",
-            "summary": "With the rapid growth of cloud computing infrastructures in scale and complexity, network monitoring for Large-scale Cloud Systems (LCSs) has become increasingly challenging, requiring automated and reliable anomaly detection to maintain service availability. Modern LCSs continuously generate teleme",
-            "published": "2026-07-20",
-            "url": "http://arxiv.org/abs/2607.18127v1",
-            "seed_match_score": 1
-          },
-          {
-            "title": "Interpretable Anomaly and Drift Detection with Gaussian Mixture Models",
-            "summary": "We revisit Gaussian Mixture Models (GMMs) as a lightweight, interpretable tool for anomaly detection and, in particular, for detecting distributional drift in data streams. We make three practical choices explicit and evaluate them on seven public benchmarks. First, the number of mixture components ",
-            "published": "2026-07-18",
-            "url": "http://arxiv.org/abs/2607.16811v1",
-            "seed_match_score": 1
-          }
-        ]
-      },
       {
         "timestamp": "2026-07-22T17:05:11.735654",
         "papers_found": 3,
@@ -2475,6 +2451,15 @@
         "avg_relevance": 0.0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-09-13T22:02:47.553484",
+        "papers_found": 0,
+        "duplicates": 0,
+        "irrelevant_filtered": 0,
+        "avg_relevance": 0,
+        "high_relevance": 0,
+        "papers": []
       }
     ],
     "keywords": [
@@ -2489,7 +2474,7 @@
       "anomaly detection",
       "continuous learning"
     ],
-    "last_watered": "2026-09-12T14:30:36.781035"
+    "last_watered": "2026-09-13T22:02:47.553474"
   },
   "spiking-nn": {
     "name": "Spiking Neural Networks",

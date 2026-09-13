@@ -1,48 +1,6 @@
 {
   "sessions": [
     {
-      "timestamp": "2026-07-15T03:55:29.624765",
-      "arxiv_papers_count": 18,
-      "arxiv_top_keywords": [
-        "speculative",
-        "graph",
-        "language",
-        "neural",
-        "decoding",
-        "methods",
-        "context",
-        "group",
-        "feature",
-        "draft"
-      ],
-      "arxiv_strategies": [
-        "搜索: kv cache LLM",
-        "搜索: graph neural network recent",
-        "搜索: speculative decoding"
-      ],
-      "huggingface_models": 10,
-      "huggingface_tasks": [
-        "sentence-similarity",
-        "fill-mask",
-        "text-generation",
-        "text-ranking",
-        "feature-extraction"
-      ],
-      "ml_datasets": [],
-      "ml_total_tests": 0,
-      "github_trending_repos": 8,
-      "paperswithcode_papers": 8,
-      "evolution": {
-        "discovered": 29,
-        "adopted": 1,
-        "decisions": 1
-      },
-      "seed_watering": {
-        "seed_name": "HTM",
-        "papers_found": 3
-      }
-    },
-    {
       "timestamp": "2026-07-15T03:59:13.296379",
       "arxiv_papers_count": 18,
       "arxiv_top_keywords": [
@@ -4489,10 +4447,46 @@
         "seed_name": "",
         "papers_found": 0
       }
+    },
+    {
+      "timestamp": "2026-09-13T22:02:47.581787",
+      "arxiv_papers_count": 0,
+      "arxiv_top_keywords": [],
+      "arxiv_strategies": [
+        "搜索: reinforcement learning",
+        "搜索: large language model",
+        "搜索: diffusion model"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "unknown",
+        "fill-mask",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 0,
+        "adopted": 0,
+        "decisions": 0
+      },
+      "seed_watering": {
+        "seed_name": "",
+        "papers_found": 0
+      }
     }
   ],
   "total_sessions": 101,
-  "last_updated": "2026-09-13T19:58:33.299932",
+  "last_updated": "2026-09-13T22:02:47.581802",
   "evolution_summary": {
     "total_adopted": 140,
     "adopted_list": [
@@ -4650,7 +4644,7 @@
       },
       "htm": {
         "name": "HTM",
-        "watering": 64,
+        "watering": 65,
         "papers": 106
       },
       "spiking-nn": {
@@ -4831,6 +4825,6 @@
         "best_papers_count": 1
       }
     },
-    "last_evolution": "2026-09-13T19:58:33.303100"
+    "last_evolution": "2026-09-13T22:02:47.584764"
   }
 }

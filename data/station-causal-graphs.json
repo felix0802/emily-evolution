@@ -163,7 +163,99 @@
       },
       "analyzed_at": "2026-09-06T11:48:06.374015",
       "llm_source": "deepseek"
+    },
+    {
+      "variables": [
+        {
+          "name": "LiquidTimeConstant",
+          "role": "cause",
+          "mechanism": "Learnable time constants in liquid networks modulate the membrane potential decay rate, enabling continuous-time dynamic adaptation to non-stationary temporal data.",
+          "observable": true
+        },
+        {
+          "name": "SpikingEventDriven",
+          "role": "cause",
+          "mechanism": "Event-driven spiking mechanism generates sparse pulses only when the membrane potential crosses a threshold, reducing energy consumption and providing nonlinear event triggers.",
+          "observable": true
+        },
+        {
+          "name": "OnlineAdaptiveLearning",
+          "role": "effect",
+          "mechanism": "The combined liquid-gated membrane dynamics and sparse spiking enable online adaptation to non-stationary time series with low energy cost.",
+          "observable": true
+        },
+        {
+          "name": "EnergyConsumption",
+          "role": "effect",
+          "mechanism": "Sparse event-driven spiking reduces the number of operations, leading to lower energy consumption compared to dense SNNs.",
+          "observable": true
+        },
+        {
+          "name": "TaskComplexity",
+          "role": "confounder",
+          "mechanism": "Task complexity simultaneously influences the need for liquid time constants and spiking sparsity (cause) and the achievable online adaptation performance and energy consumption (effect).",
+          "observable": true
+        },
+        {
+          "name": "HardwarePlatform",
+          "role": "confounder",
+          "mechanism": "The hardware platform (e.g., neuromorphic vs. GPU) simultaneously affects the feasibility of implementing liquid time constants and spiking mechanisms (cause) and the measured energy consumption and adaptation speed (effect).",
+          "observable": true
+        }
+      ],
+      "edges": [
+        {
+          "from": "LiquidTimeConstant",
+          "to": "OnlineAdaptiveLearning",
+          "type": "direct_causal",
+          "confidence": 0.7
+        },
+        {
+          "from": "SpikingEventDriven",
+          "to": "OnlineAdaptiveLearning",
+          "type": "direct_causal",
+          "confidence": 0.6
+        },
+        {
+          "from": "SpikingEventDriven",
+          "to": "EnergyConsumption",
+          "type": "direct_causal",
+          "confidence": 0.8
+        },
+        {
+          "from": "LiquidTimeConstant",
+          "to": "EnergyConsumption",
+          "type": "direct_causal",
+          "confidence": 0.4
+        }
+      ],
+      "counterfactual": {
+        "question": "If the liquid time constant mechanism were removed (i.e., fixed decay rates), would the network still achieve low-energy online adaptation to non-stationary time series?",
+        "predicted_answer": "Without liquid time constants, the network would lose its continuous-time adaptive gating, likely reducing online adaptation performance on non-stationary data. Energy consumption might remain low due to spiking sparsity, but the ability to dynamically adjust membrane potentials would be compromised, leading to worse task performance.",
+        "confidence": 0.6
+      },
+      "confounders_detected": [
+        "TaskComplexity",
+        "HardwarePlatform"
+      ],
+      "is_correlation_only": false,
+      "causal_strength": 0.6,
+      "alternative_explanations": [
+        "The observed benefits may stem from the universal approximation property of liquid networks alone, independent of spiking mechanisms.",
+        "Energy savings could be primarily due to hardware-specific optimizations rather than the spiking event-driven mechanism.",
+        "Chemical reaction networks might outperform both liquid networks and SNNs on certain tasks, as suggested by opposing evidence."
+      ],
+      "hypothesis_id": "hyp-0016",
+      "hypothesis_text": "結合 Liquid Networks 的動態時間常數與 Spiking Neural Networks 的事件驅動機制，可設計一種新型神經網路，其神經元在連續時間內以液態閘控方式調整膜電位，並僅在閾值跨越時產生稀疏脈衝，從而實現對非平穩時序資料的線上適應學習，且能耗遠低於現有 SNN。",
+      "seed_a": "Liquid Networks",
+      "seed_b": "Spiking Neural Networks",
+      "evidence_counts": {
+        "supporting": 3,
+        "refuting": 3
+      },
+      "analyzed_at": "2026-09-13T22:02:53.469857",
+      "llm_source": "deepseek"
     }
   ],
-  "total_analyzed": 3
+  "total_analyzed": 4
 }
