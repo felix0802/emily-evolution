@@ -1,48 +1,6 @@
 {
   "sessions": [
     {
-      "timestamp": "2026-07-15T03:59:13.296379",
-      "arxiv_papers_count": 18,
-      "arxiv_top_keywords": [
-        "linear",
-        "attention",
-        "state",
-        "language",
-        "data",
-        "memory",
-        "neural",
-        "geometric",
-        "deep",
-        "learning"
-      ],
-      "arxiv_strategies": [
-        "搜索: multi-query attention",
-        "搜索: geometric deep learning",
-        "搜索: knowledge distillation"
-      ],
-      "huggingface_models": 10,
-      "huggingface_tasks": [
-        "sentence-similarity",
-        "fill-mask",
-        "text-generation",
-        "text-ranking",
-        "feature-extraction"
-      ],
-      "ml_datasets": [],
-      "ml_total_tests": 0,
-      "github_trending_repos": 8,
-      "paperswithcode_papers": 8,
-      "evolution": {
-        "discovered": 31,
-        "adopted": 0,
-        "decisions": 0
-      },
-      "seed_watering": {
-        "seed_name": "Spiking Neural Networks",
-        "papers_found": 9
-      }
-    },
-    {
       "timestamp": "2026-07-15T05:33:34.651924",
       "arxiv_papers_count": 21,
       "arxiv_top_keywords": [
@@ -4483,12 +4441,59 @@
         "seed_name": "",
         "papers_found": 0
       }
+    },
+    {
+      "timestamp": "2026-09-13T23:53:03.022977",
+      "arxiv_papers_count": 5,
+      "arxiv_top_keywords": [
+        "gpu",
+        "cfr",
+        "game",
+        "faster",
+        "counterfactual",
+        "concept",
+        "shifts",
+        "general",
+        "covariate",
+        "shift"
+      ],
+      "arxiv_strategies": [
+        "cs.AI (fallback)",
+        "cs.AI (fallback)",
+        "cs.AI (fallback)"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "unknown",
+        "fill-mask",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 17,
+        "adopted": 1,
+        "decisions": 1
+      },
+      "seed_watering": {
+        "seed_name": "",
+        "papers_found": 0
+      }
     }
   ],
   "total_sessions": 101,
-  "last_updated": "2026-09-13T22:02:47.581802",
+  "last_updated": "2026-09-13T23:53:03.022993",
   "evolution_summary": {
-    "total_adopted": 140,
+    "total_adopted": 141,
     "adopted_list": [
       "Knowledge Distillation",
       "World Models / Model-Based RL",
@@ -4629,7 +4634,8 @@
       "Mixture Of Experts",
       "Mixture Of",
       "多步转移前瞻",
-      "生成式回放"
+      "生成式回放",
+      "Static Dataflow Compilation"
     ],
     "seeds": {
       "mamba": {
@@ -4649,7 +4655,7 @@
       },
       "spiking-nn": {
         "name": "Spiking Neural Networks",
-        "watering": 63,
+        "watering": 64,
         "papers": 33
       },
       "non-transformer": {
@@ -4825,6 +4831,6 @@
         "best_papers_count": 1
       }
     },
-    "last_evolution": "2026-09-13T22:02:47.584764"
+    "last_evolution": "2026-09-13T23:53:03.025990"
   }
 }

@@ -461,8 +461,8 @@
       "reasoning": "SNN 的稀疏事件驅動特性天然過濾高頻對抗擾動，而持續學習中的正則化或重播機制可與 SNN 的局部突觸可塑性（如 STDP）結合，形成時序穩定的權重更新。兩者共享對「學習穩定性」與「抗干擾」的數學需求，可透過能量效率與遺忘邊界的聯合優化來統一。",
       "arxiv_query": "spiking neural networks continual learning adversarial robustness",
       "potential_breakthrough": "實現首個在對抗攻擊下具備終身學習能力的超低功耗神經形態系統。",
-      "status": "unverified",
-      "verification_rounds": 2,
+      "status": "inconclusive",
+      "verification_rounds": 3,
       "supporting_papers": [],
       "refuting_papers": [],
       "llm_source": "deepseek"
@@ -485,7 +485,7 @@
       "llm_source": "deepseek"
     }
   ],
-  "last_updated": "2026-09-13T22:02:49.066405",
+  "last_updated": "2026-09-13T23:53:44.546470",
   "total_generated": 20,
-  "total_verified": 18
+  "total_verified": 19
 }

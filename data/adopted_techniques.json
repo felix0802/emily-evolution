@@ -2108,6 +2108,21 @@
         ],
         "decided_at": "2026-09-12T19:50:05.142137"
       }
+    },
+    {
+      "id": "llm-static-dataflow-compilation",
+      "name": "Static Dataflow Compilation",
+      "adopted_at": "2026-09-13T23:53:03.017265",
+      "decision": {
+        "tech_id": "llm-static-dataflow-compilation",
+        "tech_name": "Static Dataflow Compilation",
+        "action": "adopt",
+        "confidence": 0.85,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-09-13T23:53:03.015589"
+      }
     }
   ],
   "history": [
@@ -2950,6 +2965,12 @@
       "tech_id": "llm-生成式回放",
       "tech_name": "生成式回放",
       "timestamp": "2026-09-12T19:50:05.143446"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-static-dataflow-compilation",
+      "tech_name": "Static Dataflow Compilation",
+      "timestamp": "2026-09-13T23:53:03.017271"
     }
   ]
 }
