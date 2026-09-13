@@ -1,48 +1,6 @@
 {
   "sessions": [
     {
-      "timestamp": "2026-07-15T03:48:39.216655",
-      "arxiv_papers_count": 16,
-      "arxiv_top_keywords": [
-        "anomaly",
-        "time",
-        "series",
-        "detection",
-        "adversarial",
-        "parameter",
-        "spectrum",
-        "context",
-        "scores",
-        "question"
-      ],
-      "arxiv_strategies": [
-        "搜索: time series forecasting",
-        "搜索: anomaly detection",
-        "搜索: mixture of experts"
-      ],
-      "huggingface_models": 10,
-      "huggingface_tasks": [
-        "sentence-similarity",
-        "fill-mask",
-        "text-generation",
-        "text-ranking",
-        "feature-extraction"
-      ],
-      "ml_datasets": [],
-      "ml_total_tests": 0,
-      "github_trending_repos": 8,
-      "paperswithcode_papers": 8,
-      "evolution": {
-        "discovered": 26,
-        "adopted": 0,
-        "decisions": 0
-      },
-      "seed_watering": {
-        "seed_name": "Liquid Networks",
-        "papers_found": 8
-      }
-    },
-    {
       "timestamp": "2026-07-15T03:55:29.624765",
       "arxiv_papers_count": 18,
       "arxiv_top_keywords": [
@@ -4484,10 +4442,57 @@
         "seed_name": "",
         "papers_found": 0
       }
+    },
+    {
+      "timestamp": "2026-09-13T19:58:33.299917",
+      "arxiv_papers_count": 5,
+      "arxiv_top_keywords": [
+        "gpu",
+        "cfr",
+        "game",
+        "faster",
+        "counterfactual",
+        "concept",
+        "shifts",
+        "general",
+        "covariate",
+        "shift"
+      ],
+      "arxiv_strategies": [
+        "cs.AI (fallback)",
+        "cs.AI (fallback)",
+        "cs.AI (fallback)"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "unknown",
+        "fill-mask",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 17,
+        "adopted": 0,
+        "decisions": 0
+      },
+      "seed_watering": {
+        "seed_name": "",
+        "papers_found": 0
+      }
     }
   ],
   "total_sessions": 101,
-  "last_updated": "2026-09-13T17:09:31.923214",
+  "last_updated": "2026-09-13T19:58:33.299932",
   "evolution_summary": {
     "total_adopted": 140,
     "adopted_list": [
@@ -4640,7 +4645,7 @@
       },
       "liquid-networks": {
         "name": "Liquid Networks",
-        "watering": 64,
+        "watering": 65,
         "papers": 70
       },
       "htm": {
@@ -4826,6 +4831,6 @@
         "best_papers_count": 1
       }
     },
-    "last_evolution": "2026-09-13T17:09:31.926090"
+    "last_evolution": "2026-09-13T19:58:33.303100"
   }
 }
