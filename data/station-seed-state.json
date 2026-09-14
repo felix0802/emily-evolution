@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 616,
+  "_rotation_idx": 617,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 60,
@@ -4323,25 +4323,8 @@
   "continual-learning": {
     "name": "Continual Learning",
     "total_papers_found": 74,
-    "watering_count": 62,
+    "watering_count": 63,
     "history": [
-      {
-        "timestamp": "2026-07-22T01:19:42.265943",
-        "papers_found": 1,
-        "duplicates": 5,
-        "irrelevant_filtered": 4,
-        "avg_relevance": 1.0,
-        "high_relevance": 0,
-        "papers": [
-          {
-            "title": "TypiCore: A Hybrid Active Query Strategy for Class-Incremental Learning on Time Series",
-            "summary": "Time series data play a pivotal role across numerous domains, including healthcare and manufacturing. In real-world environments, models must cope with distribution shifts over time, a challenge commonly addressed through Continual Learning (CL) techniques. However, existing CL methods face a critic",
-            "published": "2026-07-20",
-            "url": "http://arxiv.org/abs/2607.17632v1",
-            "seed_match_score": 1
-          }
-        ]
-      },
       {
         "timestamp": "2026-07-23T01:28:54.020685",
         "papers_found": 0,
@@ -5113,6 +5096,15 @@
         "avg_relevance": 0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-09-14T14:34:39.255889",
+        "papers_found": 0,
+        "duplicates": 0,
+        "irrelevant_filtered": 0,
+        "avg_relevance": 0,
+        "high_relevance": 0,
+        "papers": []
       }
     ],
     "keywords": [
@@ -5122,7 +5114,7 @@
       "ewc",
       "elastic weight"
     ],
-    "last_watered": "2026-09-12T23:32:22.747552"
+    "last_watered": "2026-09-14T14:34:39.255878"
   },
   "moe": {
     "name": "Mixture of Experts",

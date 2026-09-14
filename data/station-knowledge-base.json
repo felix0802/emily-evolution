@@ -1,48 +1,6 @@
 {
   "sessions": [
     {
-      "timestamp": "2026-07-15T06:10:00.396584",
-      "arxiv_papers_count": 5,
-      "arxiv_top_keywords": [
-        "agents",
-        "task",
-        "execution",
-        "aware",
-        "know",
-        "driving",
-        "enough",
-        "terrazero",
-        "procedural",
-        "simulation"
-      ],
-      "arxiv_strategies": [
-        "cs.AI (fallback)",
-        "cs.AI (fallback)",
-        "cs.AI (fallback)"
-      ],
-      "huggingface_models": 10,
-      "huggingface_tasks": [
-        "sentence-similarity",
-        "fill-mask",
-        "text-generation",
-        "text-ranking",
-        "feature-extraction"
-      ],
-      "ml_datasets": [],
-      "ml_total_tests": 0,
-      "github_trending_repos": 8,
-      "paperswithcode_papers": 8,
-      "evolution": {
-        "discovered": 19,
-        "adopted": 1,
-        "decisions": 1
-      },
-      "seed_watering": {
-        "seed_name": "",
-        "papers_found": 0
-      }
-    },
-    {
       "timestamp": "2026-07-15T09:47:06.545129",
       "arxiv_papers_count": 18,
       "arxiv_top_keywords": [
@@ -4476,10 +4434,46 @@
         "seed_name": "",
         "papers_found": 0
       }
+    },
+    {
+      "timestamp": "2026-09-14T14:34:39.285509",
+      "arxiv_papers_count": 0,
+      "arxiv_top_keywords": [],
+      "arxiv_strategies": [
+        "搜索: kv cache LLM",
+        "搜索: graph neural network recent",
+        "搜索: speculative decoding"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "unknown",
+        "fill-mask",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 0,
+        "adopted": 0,
+        "decisions": 0
+      },
+      "seed_watering": {
+        "seed_name": "",
+        "papers_found": 0
+      }
     }
   ],
   "total_sessions": 101,
-  "last_updated": "2026-09-14T07:37:12.021965",
+  "last_updated": "2026-09-14T14:34:39.285525",
   "evolution_summary": {
     "total_adopted": 141,
     "adopted_list": [
@@ -4658,7 +4652,7 @@
       },
       "continual-learning": {
         "name": "Continual Learning",
-        "watering": 62,
+        "watering": 63,
         "papers": 74
       },
       "moe": {
@@ -4819,6 +4813,6 @@
         "best_papers_count": 1
       }
     },
-    "last_evolution": "2026-09-14T07:37:12.024771"
+    "last_evolution": "2026-09-14T14:34:39.288624"
   }
 }

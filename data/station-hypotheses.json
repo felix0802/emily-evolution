@@ -478,8 +478,8 @@
       "reasoning": "持續學習與混合專家模型共享『動態』與『長期學習』的概念：MoE 通過動態選擇專家來隔離不同任務的參數，而持續學習需要動態調整模型以適應新任務而不遺忘舊任務。液態網路提供連續時間的動態系統，可建模任務隨時間的演變，其數學基礎（常微分方程）與 MoE 的門控機制結合，能實現平滑的專家切換與參數更新。",
       "arxiv_query": "continual learning mixture of experts dynamic routing liquid networks",
       "potential_breakthrough": "實現一個能終身學習且不遺忘的動態專家系統，在非平穩數據流中達到接近聯合訓練的性能。",
-      "status": "unverified",
-      "verification_rounds": 2,
+      "status": "inconclusive",
+      "verification_rounds": 3,
       "supporting_papers": [],
       "refuting_papers": [],
       "llm_source": "deepseek"
@@ -502,7 +502,7 @@
       "llm_source": "deepseek"
     }
   ],
-  "last_updated": "2026-09-14T07:37:44.311996",
+  "last_updated": "2026-09-14T14:35:25.404708",
   "total_generated": 21,
-  "total_verified": 19
+  "total_verified": 20
 }
