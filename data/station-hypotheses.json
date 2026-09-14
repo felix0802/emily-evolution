@@ -495,14 +495,14 @@
       "reasoning": "Few-shot learning and graph neural networks share a focus on efficient learning from limited supervision and relational structure. GNNs can model inter-sample relationships as a graph, allowing meta-learners to propagate label information across nodes, which is mathematically equivalent to message passing on a similarity graph. This combination leverages graph-based inductive biases to enhance generalization in low-data regimes.",
       "arxiv_query": "few-shot learning graph neural networks meta-learning",
       "potential_breakthrough": "A unified framework that achieves state-of-the-art few-shot classification on non-Euclidean data by dynamically constructing and refining task-specific graphs.",
-      "status": "unverified",
-      "verification_rounds": 2,
+      "status": "inconclusive",
+      "verification_rounds": 3,
       "supporting_papers": [],
       "refuting_papers": [],
       "llm_source": "deepseek"
     }
   ],
-  "last_updated": "2026-09-14T14:35:25.404708",
+  "last_updated": "2026-09-14T22:56:24.040259",
   "total_generated": 21,
-  "total_verified": 20
+  "total_verified": 21
 }

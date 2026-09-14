@@ -1,48 +1,6 @@
 {
   "sessions": [
     {
-      "timestamp": "2026-07-15T09:47:06.545129",
-      "arxiv_papers_count": 18,
-      "arxiv_top_keywords": [
-        "neural",
-        "multi",
-        "agent",
-        "self",
-        "architecture",
-        "search",
-        "detection",
-        "supervised",
-        "learning",
-        "transformer"
-      ],
-      "arxiv_strategies": [
-        "搜索: neural architecture",
-        "搜索: self-supervised learning",
-        "搜索: multi-agent system"
-      ],
-      "huggingface_models": 10,
-      "huggingface_tasks": [
-        "sentence-similarity",
-        "fill-mask",
-        "text-generation",
-        "text-ranking",
-        "feature-extraction"
-      ],
-      "ml_datasets": [],
-      "ml_total_tests": 0,
-      "github_trending_repos": 8,
-      "paperswithcode_papers": 8,
-      "evolution": {
-        "discovered": 19,
-        "adopted": 3,
-        "decisions": 3
-      },
-      "seed_watering": {
-        "seed_name": "Mixture of Experts",
-        "papers_found": 9
-      }
-    },
-    {
       "timestamp": "2026-07-15T11:19:18.776048",
       "arxiv_papers_count": 18,
       "arxiv_top_keywords": [
@@ -4470,12 +4428,59 @@
         "seed_name": "",
         "papers_found": 0
       }
+    },
+    {
+      "timestamp": "2026-09-14T22:56:21.995444",
+      "arxiv_papers_count": 18,
+      "arxiv_top_keywords": [
+        "linear",
+        "attention",
+        "language",
+        "learning",
+        "theory",
+        "compression",
+        "distillation",
+        "teacher",
+        "student",
+        "order"
+      ],
+      "arxiv_strategies": [
+        "搜索: multi-query attention",
+        "搜索: geometric deep learning",
+        "搜索: knowledge distillation"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "unknown",
+        "fill-mask",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 21,
+        "adopted": 2,
+        "decisions": 2
+      },
+      "seed_watering": {
+        "seed_name": "KV Cache Optimization",
+        "papers_found": 3
+      }
     }
   ],
   "total_sessions": 101,
-  "last_updated": "2026-09-14T14:34:39.285525",
+  "last_updated": "2026-09-14T22:56:21.995456",
   "evolution_summary": {
-    "total_adopted": 141,
+    "total_adopted": 143,
     "adopted_list": [
       "Knowledge Distillation",
       "World Models / Model-Based RL",
@@ -4617,7 +4622,9 @@
       "Mixture Of",
       "多步转移前瞻",
       "生成式回放",
-      "Static Dataflow Compilation"
+      "Static Dataflow Compilation",
+      "RunningTensor",
+      "SubZero+"
     ],
     "seeds": {
       "mamba": {
@@ -4657,12 +4664,12 @@
       },
       "moe": {
         "name": "Mixture of Experts",
-        "watering": 58,
-        "papers": 89
+        "watering": 59,
+        "papers": 92
       },
       "kv-cache": {
         "name": "KV Cache Optimization",
-        "watering": 59,
+        "watering": 60,
         "papers": 84
       },
       "gnn": {
@@ -4786,33 +4793,33 @@
       },
       "moe": {
         "name": "Mixture of Experts",
-        "new_papers": 89,
+        "new_papers": 92,
         "keywords_matched": [
-          "expert routing",
-          "mixture of experts",
           "moe",
+          "mixture of experts",
           "deepseek",
+          "expert routing",
           "router"
         ],
-        "high_relevance_total": 63,
-        "avg_relevance_latest": 1.0,
+        "high_relevance_total": 65,
+        "avg_relevance_latest": 1.67,
         "best_papers_count": 10
       },
       "kv-cache": {
         "name": "KV Cache Optimization",
         "new_papers": 84,
         "keywords_matched": [
-          "gqa",
-          "speculative decoding",
-          "key-value cache",
           "flash attention",
-          "kv cache"
+          "kv cache",
+          "speculative decoding",
+          "gqa",
+          "key-value cache"
         ],
         "high_relevance_total": 3,
-        "avg_relevance_latest": 1.0,
+        "avg_relevance_latest": 0.0,
         "best_papers_count": 1
       }
     },
-    "last_evolution": "2026-09-14T14:34:39.288624"
+    "last_evolution": "2026-09-14T22:56:21.997044"
   }
 }

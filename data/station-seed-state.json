@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 618,
+  "_rotation_idx": 619,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 60,
@@ -6052,25 +6052,8 @@
   "kv-cache": {
     "name": "KV Cache Optimization",
     "total_papers_found": 84,
-    "watering_count": 59,
+    "watering_count": 60,
     "history": [
-      {
-        "timestamp": "2026-07-22T08:04:49.152450",
-        "papers_found": 1,
-        "duplicates": 6,
-        "irrelevant_filtered": 3,
-        "avg_relevance": 1.0,
-        "high_relevance": 0,
-        "papers": [
-          {
-            "title": "AdaFlash: Adaptive Speculative Decoding via On-Policy Distilled Diffusion Drafters",
-            "summary": "Speculative decoding, in which a lightweight draft model first generates a draft sequence that is then verified in parallel by the target model, has become a prevalent paradigm for accelerating large language model inference. Recent work such as DFlash further boosts drafting efficiency by leveragin",
-            "published": "2026-07-21",
-            "url": "http://arxiv.org/abs/2607.19223v1",
-            "seed_match_score": 1
-          }
-        ]
-      },
       {
         "timestamp": "2026-07-23T08:06:50.231126",
         "papers_found": 2,
@@ -6944,6 +6927,15 @@
         "avg_relevance": 0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-09-14T22:56:15.005433",
+        "papers_found": 0,
+        "duplicates": 3,
+        "irrelevant_filtered": 7,
+        "avg_relevance": 0.0,
+        "high_relevance": 0,
+        "papers": []
       }
     ],
     "keywords": [
@@ -6955,7 +6947,7 @@
       "flash attention",
       "speculative decoding"
     ],
-    "last_watered": "2026-09-13T06:57:15.210041"
+    "last_watered": "2026-09-14T22:56:15.005430"
   },
   "gnn": {
     "name": "Graph Neural Networks",

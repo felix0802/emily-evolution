@@ -2123,6 +2123,36 @@
         ],
         "decided_at": "2026-09-13T23:53:03.015589"
       }
+    },
+    {
+      "id": "llm-runningtensor",
+      "name": "RunningTensor",
+      "adopted_at": "2026-09-14T22:56:19.623131",
+      "decision": {
+        "tech_id": "llm-runningtensor",
+        "tech_name": "RunningTensor",
+        "action": "adopt",
+        "confidence": 0.9,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-09-14T22:56:19.621687"
+      }
+    },
+    {
+      "id": "llm-subzero+",
+      "name": "SubZero+",
+      "adopted_at": "2026-09-14T22:56:19.623145",
+      "decision": {
+        "tech_id": "llm-subzero+",
+        "tech_name": "SubZero+",
+        "action": "adopt",
+        "confidence": 0.85,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-09-14T22:56:19.621852"
+      }
     }
   ],
   "history": [
@@ -2971,6 +3001,18 @@
       "tech_id": "llm-static-dataflow-compilation",
       "tech_name": "Static Dataflow Compilation",
       "timestamp": "2026-09-13T23:53:03.017271"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-runningtensor",
+      "tech_name": "RunningTensor",
+      "timestamp": "2026-09-14T22:56:19.623135"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-subzero+",
+      "tech_name": "SubZero+",
+      "timestamp": "2026-09-14T22:56:19.623146"
     }
   ]
 }
