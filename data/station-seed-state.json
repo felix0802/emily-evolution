@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 617,
+  "_rotation_idx": 618,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 60,
@@ -5118,33 +5118,9 @@
   },
   "moe": {
     "name": "Mixture of Experts",
-    "total_papers_found": 89,
-    "watering_count": 58,
+    "total_papers_found": 92,
+    "watering_count": 59,
     "history": [
-      {
-        "timestamp": "2026-07-22T04:55:20.797189",
-        "papers_found": 2,
-        "duplicates": 6,
-        "irrelevant_filtered": 2,
-        "avg_relevance": 1.5,
-        "high_relevance": 1,
-        "papers": [
-          {
-            "title": "Where Should Optimizer State Live? Tiered State Allocation for Memory-Efficient Mixture-of-Experts Training",
-            "summary": "Optimizer state is the largest single line item in the memory budget of mixture-of-experts (MoE) training: on a 6.78B-parameter MoE language model, AdamW keeps 50.6 GB of first and second moments to update 12.6 GB of bfloat16 weights. We study SkewAdam, an optimizer built on the observation that the",
-            "published": "2026-07-21",
-            "url": "http://arxiv.org/abs/2607.19058v1",
-            "seed_match_score": 2
-          },
-          {
-            "title": "Stale but Stable: Staleness-Adaptive Trust Regions for Stabilizing Asynchronous Reinforcement Learning",
-            "summary": "Asynchronous reinforcement learning improves throughput by decoupling rollout generation from optimization, but staleness is an inevitable byproduct compounded by policy lag, engine delays, and mixture-of-experts routing. From a trust-region perspective, this mismatch is critical: training-inference",
-            "published": "2026-07-21",
-            "url": "http://arxiv.org/abs/2607.18722v1",
-            "seed_match_score": 1
-          }
-        ]
-      },
       {
         "timestamp": "2026-07-23T05:12:25.472829",
         "papers_found": 1,
@@ -6029,6 +6005,37 @@
         "avg_relevance": 0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-09-14T19:59:08.721509",
+        "papers_found": 3,
+        "duplicates": 4,
+        "irrelevant_filtered": 3,
+        "avg_relevance": 1.67,
+        "high_relevance": 2,
+        "papers": [
+          {
+            "title": "Expert-Space Exploration in MoE Reinforcement Learning",
+            "summary": "Reinforcement learning (RL) has become central to post-training of large language models. Recent advances in RL for Mixture-of-Experts (MoE) models have primarily focused on improving optimization stability and training efficiency, while treating the expert selection as a fixed component. Since rout",
+            "published": "2026-09-11",
+            "url": "http://arxiv.org/abs/2609.13058v1",
+            "seed_match_score": 2
+          },
+          {
+            "title": "ExpertHTR: Unified Handwritten Text Recognition with Multi-Task Learning and Sparse Mixture-of-Experts",
+            "summary": "Handwritten text recognition resources are often small and distributed across collections that differ in language, script, document structure, and annotation format, making joint page-level training difficult. We propose ExpertHTR, a unified vision-language framework that addresses this problem thro",
+            "published": "2026-09-11",
+            "url": "http://arxiv.org/abs/2609.12705v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Quality-Constrained Routing over a Fixed Pool of Quantized Mixture-of-Experts Instances",
+            "summary": "Quantized Mixture-of-Experts (MoE) services can hold several pre-materialized instances of one base model, but quantization damage varies sharply across requests and bitwidths. Because instance materialization and replica counts consume memory and require slow reconfiguration, we treat them as upstr",
+            "published": "2026-09-11",
+            "url": "http://arxiv.org/abs/2609.12550v1",
+            "seed_match_score": 2
+          }
+        ]
       }
     ],
     "keywords": [
@@ -6040,7 +6047,7 @@
       "switch transformer",
       "deepseek"
     ],
-    "last_watered": "2026-09-13T01:45:11.097334"
+    "last_watered": "2026-09-14T19:59:08.721503"
   },
   "kv-cache": {
     "name": "KV Cache Optimization",

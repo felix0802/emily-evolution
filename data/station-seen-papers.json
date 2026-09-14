@@ -38434,7 +38434,71 @@
         "overpainting"
       ],
       "first_seen_round": 239
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.12814v1",
+      "title": "RunningTensor: Generalizing Linear Attention to Higher-Order Recurrent States",
+      "arxiv_id": "2609.12814",
+      "tokens": [
+        "attention",
+        "generalizing",
+        "higher",
+        "linear",
+        "order",
+        "recurrent",
+        "runningtensor",
+        "states"
+      ],
+      "first_seen_round": 252
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.13058v1",
+      "title": "Expert-Space Exploration in MoE Reinforcement Learning",
+      "arxiv_id": "2609.13058",
+      "tokens": [
+        "expert",
+        "exploration",
+        "moe",
+        "reinforcement",
+        "space"
+      ],
+      "first_seen_round": 252
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.12705v1",
+      "title": "ExpertHTR: Unified Handwritten Text Recognition with Multi-Task Learning and Sparse Mixture-of-Experts",
+      "arxiv_id": "2609.12705",
+      "tokens": [
+        "experthtr",
+        "experts",
+        "handwritten",
+        "mixture",
+        "multi",
+        "recognition",
+        "sparse",
+        "task",
+        "text",
+        "unified"
+      ],
+      "first_seen_round": 252
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.12550v1",
+      "title": "Quality-Constrained Routing over a Fixed Pool of Quantized Mixture-of-Experts Instances",
+      "arxiv_id": "2609.12550",
+      "tokens": [
+        "constrained",
+        "experts",
+        "fixed",
+        "instances",
+        "mixture",
+        "pool",
+        "quality",
+        "quantized",
+        "routing"
+      ],
+      "first_seen_round": 252
     }
   ],
-  "total_unique": 2396
+  "total_unique": 2400
 }
