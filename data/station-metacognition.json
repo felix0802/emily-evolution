@@ -365,6 +365,71 @@
           "recommendation": "優先設計消融實驗驗證動態路由與液態網路各自對遺忘的貢獻，並警惕種子狀態中高頻主題帶來的確認偏誤。"
         }
       }
+    },
+    {
+      "id": "meta-0015",
+      "timestamp": "2026-09-14T02:01:15.392005",
+      "trigger": "hypothesis_generated",
+      "evolution_round": 250,
+      "llm_source": "deepseek",
+      "summary": {
+        "q1": {
+          "identified_premises": [
+            "稀疏時序編碼與突觸可塑性規則的結合能同時提升對抗魯棒性並避免災難性遺忘",
+            "動態路由 MoE 與液態網路的時變動態可顯著緩解災難性遺忘且保持快速適應",
+            "圖神經網路整合進少樣本學習框架能提升效率（最近假設之一）",
+            "當前假設分布（支持6/推翻0/未驗證2）足以支持持續生成新假設"
+          ],
+          "validity_assessment": "這些前提多為未經驗證的推測，尤其 SNN 與 MoE 的結合缺乏實證；支持數雖高但推翻數為零，可能反映驗證偏誤而非真實穩健性。",
+          "risk_flag": "yellow"
+        },
+        "q2": {
+          "alternative_explanation": "災難性遺忘的緩解可能主要來自模型容量增加或正則化效果，而非稀疏編碼或動態路由的特定機制；對抗魯棒性提升也可能僅是梯度遮蔽的副產品。",
+          "confounding_factors": [
+            "任務相似性與順序未控制，可能主導遺忘程度",
+            "評估指標單一（如準確率）可能掩蓋魯棒性與遺忘的權衡",
+            "種子狀態中 Continual Learning 與 MoE 的高關注度可能造成確認偏誤"
+          ],
+          "considered_sufficiently": false
+        },
+        "q3": {
+          "logical_gaps": "從『稀疏編碼』直接推論到『對抗魯棒性與避免遺忘的雙重提升』缺乏中介機制；未區分『避免遺忘』與『快速適應』之間可能存在的矛盾。",
+          "self_consistency": "medium",
+          "recommendation": "優先設計消融實驗，分離稀疏編碼、動態路由與模型容量對遺忘和魯棒性的獨立貢獻，並引入多樣化任務序列以檢驗泛化性。"
+        }
+      }
+    },
+    {
+      "id": "meta-0016",
+      "timestamp": "2026-09-14T02:01:20.398695",
+      "trigger": "periodic_check",
+      "evolution_round": 250,
+      "llm_source": "deepseek",
+      "summary": {
+        "q1": {
+          "identified_premises": [
+            "假设分布中「支持6/推翻0」代表当前理论方向获得实证支持，而非仅因缺乏反例测试",
+            "三个理论（動態稀疏狀態演化、連續時間持續學習）与最近假设之间存在实质性的逻辑支撑关系，而非事后叙事拼接",
+            "种子状态中浇灌次数（如GNN 60次/131篇）反映的是认知重要性，而非路径依赖导致的注意力沉没成本"
+          ],
+          "validity_assessment": "「推翻0」在250轮进化后极不寻常——更可能说明验证机制偏向确认而非证伪，而非所有假设都正确。理论数与假设数（3 vs 21）的比例暗示理论层可能过度抽象，与具体假设的对应关系未经严格检验。",
+          "risk_flag": "red"
+        },
+        "q2": {
+          "alternative_explanation": "当前认知状态可能反映的是「主题惯性」而非「知识收敛」：GNN、HTM、MoE、Continual Learning 四个种子长期高频浇灌，可能已形成自我强化的注意力回路，新假设只是在既有框架内做排列组合，而非真正探索未知空间。",
+          "confounding_factors": [
+            "浇灌次数与论文数的比值（如HTM 65/106≈0.61，GNN 60/131≈0.46）差异可能反映的是领域文献密度而非认知价值",
+            "「未验证2」的假设可能因与主流种子主题不兼容而被系统性忽视，构成选择偏差",
+            "250轮的时间尺度下，早期假设可能已过时但未被重新评估，形成认知债务"
+          ],
+          "considered_sufficiently": false
+        },
+        "q3": {
+          "logical_gaps": "从「假设被支持」到「理论成立」之间存在归纳跳跃——6个支持案例无法排除大量未测试的反例场景。此外，最近三个假设分别涉及GNN+few-shot、MoE+Liquid Networks、SNN+持续学习，它们与两个理论（動態稀疏狀態演化、連續時間持續學習）的映射关系未被明确陈述，存在「理论套用」而非「理论推导」的风险。",
+          "self_consistency": "medium",
+          "recommendation": "下一步应主动设计证伪实验：针对「推翻0」的异常，强制为每个理论寻找至少一个反例场景；同时检查「未验证2」是否因主题边缘化而被搁置，并警惕种子浇灌的路径依赖。"
+        }
+      }
     }
   ],
   "qa_sessions": [],
@@ -508,6 +573,26 @@
       "type": "confirmation_bias_risk",
       "severity": "warning",
       "detail": "可能未充分考虑替代解释"
+    },
+    {
+      "type": "premise_uncertainty",
+      "severity": "warning",
+      "detail": "前提存在不确定性"
+    },
+    {
+      "type": "confirmation_bias_risk",
+      "severity": "warning",
+      "detail": "可能未充分考虑替代解释"
+    },
+    {
+      "type": "premise_collapse",
+      "severity": "critical",
+      "detail": "关键前提可能已被推翻"
+    },
+    {
+      "type": "confirmation_bias_risk",
+      "severity": "warning",
+      "detail": "可能未充分考虑替代解释"
     }
   ],
   "trend_snapshots": [
@@ -521,6 +606,6 @@
       "reflections_total": 10
     }
   ],
-  "total_reflections": 14,
-  "last_updated": "2026-09-13T13:00:03.591965"
+  "total_reflections": 16,
+  "last_updated": "2026-09-14T02:01:20.398952"
 }

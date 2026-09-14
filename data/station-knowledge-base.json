@@ -1,48 +1,6 @@
 {
   "sessions": [
     {
-      "timestamp": "2026-07-15T05:33:34.651924",
-      "arxiv_papers_count": 21,
-      "arxiv_top_keywords": [
-        "llm",
-        "task",
-        "agents",
-        "diffusion",
-        "language",
-        "context",
-        "controlled",
-        "evaluation",
-        "execution",
-        "aware"
-      ],
-      "arxiv_strategies": [
-        "cs.AI 最新",
-        "cs.LG 最新",
-        "cs.CL 最新"
-      ],
-      "huggingface_models": 10,
-      "huggingface_tasks": [
-        "sentence-similarity",
-        "fill-mask",
-        "text-generation",
-        "text-ranking",
-        "feature-extraction"
-      ],
-      "ml_datasets": [],
-      "ml_total_tests": 0,
-      "github_trending_repos": 8,
-      "paperswithcode_papers": 8,
-      "evolution": {
-        "discovered": 24,
-        "adopted": 2,
-        "decisions": 2
-      },
-      "seed_watering": {
-        "seed_name": "Non-Transformer Arch",
-        "papers_found": 6
-      }
-    },
-    {
       "timestamp": "2026-07-15T05:56:03.310679",
       "arxiv_papers_count": 21,
       "arxiv_top_keywords": [
@@ -4488,10 +4446,46 @@
         "seed_name": "",
         "papers_found": 0
       }
+    },
+    {
+      "timestamp": "2026-09-14T02:01:07.440108",
+      "arxiv_papers_count": 0,
+      "arxiv_top_keywords": [],
+      "arxiv_strategies": [
+        "搜索: graph neural network",
+        "搜索: transfer learning",
+        "搜索: world model"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "unknown",
+        "fill-mask",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 0,
+        "adopted": 0,
+        "decisions": 0
+      },
+      "seed_watering": {
+        "seed_name": "",
+        "papers_found": 0
+      }
     }
   ],
   "total_sessions": 101,
-  "last_updated": "2026-09-13T23:53:03.022993",
+  "last_updated": "2026-09-14T02:01:07.440124",
   "evolution_summary": {
     "total_adopted": 141,
     "adopted_list": [
@@ -4660,7 +4654,7 @@
       },
       "non-transformer": {
         "name": "Non-Transformer Arch",
-        "watering": 64,
+        "watering": 65,
         "papers": 35
       },
       "few-shot": {
@@ -4831,6 +4825,6 @@
         "best_papers_count": 1
       }
     },
-    "last_evolution": "2026-09-13T23:53:03.025990"
+    "last_evolution": "2026-09-14T02:01:07.442790"
   }
 }
