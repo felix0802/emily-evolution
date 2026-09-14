@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 615,
+  "_rotation_idx": 616,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 60,
@@ -3744,32 +3744,8 @@
   "few-shot": {
     "name": "Few-Shot Learning",
     "total_papers_found": 32,
-    "watering_count": 63,
+    "watering_count": 64,
     "history": [
-      {
-        "timestamp": "2026-07-21T22:43:03.383181",
-        "papers_found": 2,
-        "duplicates": 3,
-        "irrelevant_filtered": 5,
-        "avg_relevance": 1.0,
-        "high_relevance": 0,
-        "papers": [
-          {
-            "title": "Retrieval-Augmented Interpretable Learning: Towards Task-Specific Zero-Shot Models in Healthcare",
-            "summary": "We introduce Retrieval-Augmented Interpretable Learning (RAIL), a probabilistic meta-learning framework for zero-shot generation of task-specific interpretable models that synthesizes coefficient-space structure from natural-language task descriptions and a memory of previously learned task-specific",
-            "published": "2026-07-20",
-            "url": "http://arxiv.org/abs/2607.17508v1",
-            "seed_match_score": 1
-          },
-          {
-            "title": "DA-MergeLoRA: Hypernetwork-Based LoRA Merging for Few-Shot Test-Time Domain Adaptation",
-            "summary": "Few-shot Test-Time Domain Adaptation (FSTT-DA) seeks to adapt models to novel domains using only a handful of unlabeled target samples. This setting is more realistic than typical domain adaptation setups, which assume access to target data during source training. However, prior FSTT-DA approaches f",
-            "published": "2026-07-20",
-            "url": "http://arxiv.org/abs/2607.17467v1",
-            "seed_match_score": 1
-          }
-        ]
-      },
       {
         "timestamp": "2026-07-22T22:50:41.151405",
         "papers_found": 2,
@@ -4324,6 +4300,15 @@
         "avg_relevance": 0.0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-09-14T07:37:11.994407",
+        "papers_found": 0,
+        "duplicates": 0,
+        "irrelevant_filtered": 0,
+        "avg_relevance": 0,
+        "high_relevance": 0,
+        "papers": []
       }
     ],
     "keywords": [
@@ -4333,7 +4318,7 @@
       "prototypical",
       "in-context"
     ],
-    "last_watered": "2026-09-12T21:45:46.503267"
+    "last_watered": "2026-09-14T07:37:11.994398"
   },
   "continual-learning": {
     "name": "Continual Learning",
