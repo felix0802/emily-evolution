@@ -1,28 +1,6 @@
 {
   "rounds": [
     {
-      "round": 206,
-      "timestamp": "2026-09-07T06:42:51.554257",
-      "prediction_error": 0.7,
-      "seeds_active": 10,
-      "seeds_dormant": 0,
-      "new_seeds_added": 0,
-      "top_motivated": [
-        [
-          "mamba",
-          0.91
-        ],
-        [
-          "liquid-networks",
-          0.91
-        ],
-        [
-          "spiking-nn",
-          0.91
-        ]
-      ]
-    },
-    {
       "round": 207,
       "timestamp": "2026-09-07T13:44:38.130943",
       "prediction_error": 0.7,
@@ -1099,6 +1077,28 @@
           0.91
         ]
       ]
+    },
+    {
+      "round": 255,
+      "timestamp": "2026-09-15T14:35:30.217616",
+      "prediction_error": 0.7,
+      "seeds_active": 10,
+      "seeds_dormant": 0,
+      "new_seeds_added": 0,
+      "top_motivated": [
+        [
+          "spiking-nn",
+          0.91
+        ],
+        [
+          "non-transformer",
+          0.91
+        ],
+        [
+          "few-shot",
+          0.91
+        ]
+      ]
     }
   ],
   "seed_scores": {
@@ -1127,17 +1127,16 @@
         1.0,
         1.0,
         1.0,
-        1.0,
+        0.871,
         0.871
       ]
     },
     "liquid-networks": {
       "name": "Liquid Networks",
-      "info_gain": 0.675,
+      "info_gain": 0.214,
       "novelty": 1.0,
-      "motivation_score": 0.78,
+      "motivation_score": 0.596,
       "info_gain_history": [
-        0.9,
         0.659,
         0.659,
         0.659,
@@ -1157,7 +1156,8 @@
         0.675,
         0.675,
         0.675,
-        0.675
+        0.675,
+        0.214
       ]
     },
     "htm": {
@@ -1167,7 +1167,6 @@
       "motivation_score": 0.866,
       "info_gain_history": [
         0.837,
-        0.837,
         0.867,
         0.867,
         0.867,
@@ -1178,6 +1177,7 @@
         0.867,
         0.867,
         0.867,
+        0.889,
         0.889,
         0.889,
         0.889,
@@ -1287,7 +1287,6 @@
         0.34,
         0.34,
         0.34,
-        0.34,
         0.353,
         0.353,
         0.353,
@@ -1298,6 +1297,7 @@
         0.353,
         0.353,
         0.353,
+        0.36,
         0.36,
         0.36,
         0.36,
@@ -1317,7 +1317,6 @@
         0.711,
         0.711,
         0.711,
-        0.711,
         0.608,
         0.608,
         0.608,
@@ -1328,6 +1327,7 @@
         0.608,
         0.608,
         0.608,
+        1.0,
         1.0,
         1.0,
         1.0,
@@ -1377,7 +1377,6 @@
         0.446,
         0.446,
         0.446,
-        0.446,
         0.47,
         0.47,
         0.47,
@@ -1389,6 +1388,7 @@
         0.47,
         0.47,
         0.5,
+        0.5,
         0.5
       ]
     }
@@ -1398,6 +1398,6 @@
     "few-shot",
     "continual-learning"
   ],
-  "total_motivation_evaluations": 96,
+  "total_motivation_evaluations": 97,
   "current_prediction_error": 0.7
 }

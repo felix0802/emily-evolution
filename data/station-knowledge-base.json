@@ -1,48 +1,6 @@
 {
   "sessions": [
     {
-      "timestamp": "2026-07-15T15:16:09.428687",
-      "arxiv_papers_count": 18,
-      "arxiv_top_keywords": [
-        "speculative",
-        "graph",
-        "language",
-        "neural",
-        "decoding",
-        "methods",
-        "context",
-        "group",
-        "feature",
-        "draft"
-      ],
-      "arxiv_strategies": [
-        "搜索: kv cache LLM",
-        "搜索: graph neural network recent",
-        "搜索: speculative decoding"
-      ],
-      "huggingface_models": 10,
-      "huggingface_tasks": [
-        "sentence-similarity",
-        "fill-mask",
-        "text-generation",
-        "text-ranking",
-        "feature-extraction"
-      ],
-      "ml_datasets": [],
-      "ml_total_tests": 0,
-      "github_trending_repos": 8,
-      "paperswithcode_papers": 8,
-      "evolution": {
-        "discovered": 19,
-        "adopted": 2,
-        "decisions": 2
-      },
-      "seed_watering": {
-        "seed_name": "Graph Neural Networks",
-        "papers_found": 5
-      }
-    },
-    {
       "timestamp": "2026-07-15T17:02:16.786766",
       "arxiv_papers_count": 18,
       "arxiv_top_keywords": [
@@ -4463,10 +4421,46 @@
         "seed_name": "",
         "papers_found": 0
       }
+    },
+    {
+      "timestamp": "2026-09-15T14:35:30.229684",
+      "arxiv_papers_count": 0,
+      "arxiv_top_keywords": [],
+      "arxiv_strategies": [
+        "搜索: reinforcement learning",
+        "搜索: large language model",
+        "搜索: diffusion model"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "unknown",
+        "fill-mask",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 0,
+        "adopted": 0,
+        "decisions": 0
+      },
+      "seed_watering": {
+        "seed_name": "",
+        "papers_found": 0
+      }
     }
   ],
   "total_sessions": 101,
-  "last_updated": "2026-09-15T09:03:21.532357",
+  "last_updated": "2026-09-15T14:35:30.229699",
   "evolution_summary": {
     "total_adopted": 143,
     "adopted_list": [
@@ -4622,7 +4616,7 @@
       },
       "liquid-networks": {
         "name": "Liquid Networks",
-        "watering": 65,
+        "watering": 66,
         "papers": 70
       },
       "htm": {
@@ -4808,6 +4802,6 @@
         "best_papers_count": 1
       }
     },
-    "last_evolution": "2026-09-15T09:03:21.535281"
+    "last_evolution": "2026-09-15T14:35:30.232834"
   }
 }
