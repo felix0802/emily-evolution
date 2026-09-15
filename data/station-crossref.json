@@ -1,6 +1,20 @@
 {
-  "timestamp": "2026-09-15T14:35:30.244761",
+  "timestamp": "2026-09-15T19:20:04.554470",
   "connections": [
+    {
+      "seed_a": "HTM",
+      "seed_b": "Few-Shot Learning",
+      "shared_keywords": [],
+      "shared_paper_concepts": [
+        "data",
+        "efficient",
+        "learning",
+        "shot",
+        "vision"
+      ],
+      "strength": 5,
+      "discovered_at": "2026-09-15T19:20:04.554448"
+    },
     {
       "seed_a": "Mamba (SSM)",
       "seed_b": "Non-Transformer Arch",
@@ -10,28 +24,39 @@
       ],
       "shared_paper_concepts": [],
       "strength": 4,
-      "discovered_at": "2026-09-15T14:35:30.244721"
+      "discovered_at": "2026-09-15T19:20:04.554433"
     },
     {
-      "seed_a": "HTM",
-      "seed_b": "Few-Shot Learning",
+      "seed_a": "Mamba (SSM)",
+      "seed_b": "HTM",
       "shared_keywords": [],
       "shared_paper_concepts": [
-        "learning",
-        "meta"
+        "aware",
+        "detection"
       ],
       "strength": 2,
-      "discovered_at": "2026-09-15T14:35:30.244738"
+      "discovered_at": "2026-09-15T19:20:04.554424"
     },
     {
       "seed_a": "HTM",
       "seed_b": "Mixture of Experts",
       "shared_keywords": [],
       "shared_paper_concepts": [
-        "learning"
+        "learning",
+        "with"
+      ],
+      "strength": 2,
+      "discovered_at": "2026-09-15T19:20:04.554452"
+    },
+    {
+      "seed_a": "HTM",
+      "seed_b": "Spiking Neural Networks",
+      "shared_keywords": [],
+      "shared_paper_concepts": [
+        "industrial"
       ],
       "strength": 1,
-      "discovered_at": "2026-09-15T14:35:30.244742"
+      "discovered_at": "2026-09-15T19:20:04.554443"
     },
     {
       "seed_a": "Few-Shot Learning",
@@ -41,7 +66,7 @@
         "learning"
       ],
       "strength": 1,
-      "discovered_at": "2026-09-15T14:35:30.244752"
+      "discovered_at": "2026-09-15T19:20:04.554462"
     }
   ],
   "total_seeds": 10

@@ -38498,7 +38498,273 @@
         "routing"
       ],
       "first_seen_round": 252
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.15921v1",
+      "title": "Touch2Trace: Tactile-Driven Imitation Learning for Dexterous Cable Tracing",
+      "arxiv_id": "2609.15921",
+      "tokens": [
+        "cable",
+        "dexterous",
+        "driven",
+        "imitation",
+        "tactile",
+        "touch2trace",
+        "tracing"
+      ],
+      "first_seen_round": 256
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.15650v1",
+      "title": "Graph Attention Design Choices Matter: A Controlled Study of LoRA-Adapted Audio Anti-Spoofing",
+      "arxiv_id": "2609.15650",
+      "tokens": [
+        "adapted",
+        "anti",
+        "attention",
+        "audio",
+        "choices",
+        "controlled",
+        "design",
+        "graph",
+        "lora",
+        "matter",
+        "spoofing"
+      ],
+      "first_seen_round": 256
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.15338v1",
+      "title": "Dynamic Semantic Compression for Efficient Latent-Space Inference in Large Language Models",
+      "arxiv_id": "2609.15338",
+      "tokens": [
+        "compression",
+        "dynamic",
+        "inference",
+        "language",
+        "latent",
+        "semantic",
+        "space"
+      ],
+      "first_seen_round": 256
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.13842v1",
+      "title": "CRAF: Cross-View Residual-Aware Fusion for Deepfake Speech Detection",
+      "arxiv_id": "2609.13842",
+      "tokens": [
+        "aware",
+        "craf",
+        "cross",
+        "deepfake",
+        "detection",
+        "fusion",
+        "residual",
+        "speech",
+        "view"
+      ],
+      "first_seen_round": 256
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.13507v1",
+      "title": "Pretraining for Sample-Efficient Neural Interfaces",
+      "arxiv_id": "2609.13507",
+      "tokens": [
+        "interfaces",
+        "neural",
+        "pretraining",
+        "sample"
+      ],
+      "first_seen_round": 256
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.13045v1",
+      "title": "Kraken: LLM-based Speech-to-Speech Translation via Low-bitrate VQ and Dual-path Source Conditioning",
+      "arxiv_id": "2609.13045",
+      "tokens": [
+        "bitrate",
+        "conditioning",
+        "dual",
+        "kraken",
+        "llm",
+        "low",
+        "path",
+        "source",
+        "speech",
+        "speech",
+        "translation"
+      ],
+      "first_seen_round": 256
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.15161v1",
+      "title": "EMR: Self-Evolving Medical Multi-Agent System via Experience Mining and Reuse",
+      "arxiv_id": "2609.15161",
+      "tokens": [
+        "agent",
+        "emr",
+        "evolving",
+        "experience",
+        "medical",
+        "mining",
+        "multi",
+        "reuse",
+        "self"
+      ],
+      "first_seen_round": 256
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.15054v1",
+      "title": "BusMA: A Bus Communication Substrate for Multi-Agent Systems",
+      "arxiv_id": "2609.15054",
+      "tokens": [
+        "agent",
+        "bus",
+        "busma",
+        "communication",
+        "multi",
+        "substrate"
+      ],
+      "first_seen_round": 256
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.15009v1",
+      "title": "CoMem: Collective-Individual Memory Synergy for Evolutionary Multi-Agent Systems",
+      "arxiv_id": "2609.15009",
+      "tokens": [
+        "agent",
+        "collective",
+        "comem",
+        "evolutionary",
+        "individual",
+        "memory",
+        "multi",
+        "synergy"
+      ],
+      "first_seen_round": 256
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.13334v1",
+      "title": "The Agentic Company OS: Substrate Inversion for Sustained Enterprise Agent Deployment",
+      "arxiv_id": "2609.13334",
+      "tokens": [
+        "agent",
+        "agentic",
+        "company",
+        "deployment",
+        "enterprise",
+        "inversion",
+        "substrate",
+        "sustained"
+      ],
+      "first_seen_round": 256
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.12495v1",
+      "title": "Information Specialization and Constrained Synthesis in Multi-Agent LLM Forecasting: A Prospective Live-Study of the 2026 FIFA World Cup",
+      "arxiv_id": "2609.12495",
+      "tokens": [
+        "2026",
+        "agent",
+        "constrained",
+        "cup",
+        "fifa",
+        "forecasting",
+        "information",
+        "live",
+        "llm",
+        "multi",
+        "prospective",
+        "specialization",
+        "synthesis",
+        "world"
+      ],
+      "first_seen_round": 256
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.12097v1",
+      "title": "MAIA: Multi-Agent Intent Articulation for Requirement Discovery in Art Commissions",
+      "arxiv_id": "2609.12097",
+      "tokens": [
+        "agent",
+        "art",
+        "articulation",
+        "commissions",
+        "discovery",
+        "intent",
+        "maia",
+        "multi",
+        "requirement"
+      ],
+      "first_seen_round": 256
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.15483v1",
+      "title": "GSLAD: Prototype-Regularized Graph Structure Learning for Multivariate Time Series Anomaly Detection",
+      "arxiv_id": "2609.15483",
+      "tokens": [
+        "anomaly",
+        "detection",
+        "graph",
+        "gslad",
+        "multivariate",
+        "prototype",
+        "regularized",
+        "series",
+        "structure",
+        "time"
+      ],
+      "first_seen_round": 256
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.13940v1",
+      "title": "Optimal Transport for Efficient, Unsupervised Anomaly Detection on Industrial Data",
+      "arxiv_id": "2609.13940",
+      "tokens": [
+        "anomaly",
+        "detection",
+        "industrial",
+        "optimal",
+        "transport",
+        "unsupervised"
+      ],
+      "first_seen_round": 256
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.12454v1",
+      "title": "Bridging Vision Foundation Model Priors with CLIP for Spatial-aware Few-shot Anomaly Detection in Medical Images",
+      "arxiv_id": "2609.12454",
+      "tokens": [
+        "anomaly",
+        "aware",
+        "bridging",
+        "clip",
+        "detection",
+        "foundation",
+        "images",
+        "medical",
+        "priors",
+        "shot",
+        "spatial",
+        "vision"
+      ],
+      "first_seen_round": 256
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.12403v1",
+      "title": "Beyond ID Embeddings: Process-Grounded Language Modeling for Cognitive Diagnosis",
+      "arxiv_id": "2609.12403",
+      "tokens": [
+        "cognitive",
+        "diagnosis",
+        "embeddings",
+        "grounded",
+        "language",
+        "modeling",
+        "process"
+      ],
+      "first_seen_round": 256
     }
   ],
-  "total_unique": 2400
+  "total_unique": 2416
 }
