@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 623,
+  "_rotation_idx": 624,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 60,
@@ -2456,26 +2456,9 @@
   },
   "spiking-nn": {
     "name": "Spiking Neural Networks",
-    "total_papers_found": 33,
-    "watering_count": 64,
+    "total_papers_found": 35,
+    "watering_count": 65,
     "history": [
-      {
-        "timestamp": "2026-07-22T18:53:50.103748",
-        "papers_found": 1,
-        "duplicates": 8,
-        "irrelevant_filtered": 1,
-        "avg_relevance": 1.0,
-        "high_relevance": 0,
-        "papers": [
-          {
-            "title": "Spiking Neural Networks for fMRI-Based Visual Semantic Decoding",
-            "summary": "Functional magnetic resonance imaging (fMRI)-based visual decoding aims to recover visual information from measured brain activity, commonly by mapping fMRI responses into latent visual features for downstream decoding tasks. Most existing methods learn mappings from fMRI responses to visual feature",
-            "published": "2026-07-21",
-            "url": "http://arxiv.org/abs/2607.19170v1",
-            "seed_match_score": 1
-          }
-        ]
-      },
       {
         "timestamp": "2026-07-23T18:56:11.307751",
         "papers_found": 1,
@@ -3057,6 +3040,30 @@
         "avg_relevance": 0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-09-15T22:30:29.708474",
+        "papers_found": 2,
+        "duplicates": 8,
+        "irrelevant_filtered": 0,
+        "avg_relevance": 2.5,
+        "high_relevance": 2,
+        "papers": [
+          {
+            "title": "Event-Native Symbolic-Temporal Spike Encoding Framework for Heterogeneous Cyber Streams",
+            "summary": "Spiking neural networks (SNNs) have shown promise for sparse, event-driven computation through stateful processing that is naturally compatible with low-power edge hardware. These properties align with cyber monitoring, where data arrives asynchronously, and malicious behavior often emerges through ",
+            "published": "2026-09-14",
+            "url": "http://arxiv.org/abs/2609.15772v1",
+            "seed_match_score": 2
+          },
+          {
+            "title": "A Memristive Synapse for Online STDP Learning and Inference in SNNs",
+            "summary": "This work presents a fully analog memristive synaptic circuit for online spike-timing-dependent plasticity (STDP) learning in spiking neural networks (SNNs). The proposed synapse integrates a local STDP circuit generating gradual timing-dependent conductance updates directly from pre- and post-synap",
+            "published": "2026-09-14",
+            "url": "http://arxiv.org/abs/2609.15339v1",
+            "seed_match_score": 3
+          }
+        ]
       }
     ],
     "keywords": [
@@ -3065,7 +3072,7 @@
       "neuromorphic",
       "spike-timing"
     ],
-    "last_watered": "2026-09-13T23:52:57.504302"
+    "last_watered": "2026-09-15T22:30:29.708467"
   },
   "non-transformer": {
     "name": "Non-Transformer Arch",

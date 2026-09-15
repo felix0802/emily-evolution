@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-15T19:20:04.554470",
+  "timestamp": "2026-09-15T22:30:35.044389",
   "connections": [
     {
       "seed_a": "HTM",
@@ -13,7 +13,7 @@
         "vision"
       ],
       "strength": 5,
-      "discovered_at": "2026-09-15T19:20:04.554448"
+      "discovered_at": "2026-09-15T22:30:35.044369"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -24,7 +24,7 @@
       ],
       "shared_paper_concepts": [],
       "strength": 4,
-      "discovered_at": "2026-09-15T19:20:04.554433"
+      "discovered_at": "2026-09-15T22:30:35.044359"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -35,7 +35,7 @@
         "detection"
       ],
       "strength": 2,
-      "discovered_at": "2026-09-15T19:20:04.554424"
+      "discovered_at": "2026-09-15T22:30:35.044352"
     },
     {
       "seed_a": "HTM",
@@ -46,17 +46,48 @@
         "with"
       ],
       "strength": 2,
-      "discovered_at": "2026-09-15T19:20:04.554452"
+      "discovered_at": "2026-09-15T22:30:35.044372"
+    },
+    {
+      "seed_a": "Spiking Neural Networks",
+      "seed_b": "Few-Shot Learning",
+      "shared_keywords": [],
+      "shared_paper_concepts": [
+        "framework",
+        "learning"
+      ],
+      "strength": 2,
+      "discovered_at": "2026-09-15T22:30:35.044375"
     },
     {
       "seed_a": "HTM",
       "seed_b": "Spiking Neural Networks",
       "shared_keywords": [],
       "shared_paper_concepts": [
-        "industrial"
+        "learning"
       ],
       "strength": 1,
-      "discovered_at": "2026-09-15T19:20:04.554443"
+      "discovered_at": "2026-09-15T22:30:35.044366"
+    },
+    {
+      "seed_a": "Spiking Neural Networks",
+      "seed_b": "Mixture of Experts",
+      "shared_keywords": [],
+      "shared_paper_concepts": [
+        "learning"
+      ],
+      "strength": 1,
+      "discovered_at": "2026-09-15T22:30:35.044377"
+    },
+    {
+      "seed_a": "Spiking Neural Networks",
+      "seed_b": "KV Cache Optimization",
+      "shared_keywords": [],
+      "shared_paper_concepts": [
+        "native"
+      ],
+      "strength": 1,
+      "discovered_at": "2026-09-15T22:30:35.044378"
     },
     {
       "seed_a": "Few-Shot Learning",
@@ -66,7 +97,7 @@
         "learning"
       ],
       "strength": 1,
-      "discovered_at": "2026-09-15T19:20:04.554462"
+      "discovered_at": "2026-09-15T22:30:35.044382"
     }
   ],
   "total_seeds": 10

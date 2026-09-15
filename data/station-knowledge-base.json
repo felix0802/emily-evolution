@@ -1,48 +1,6 @@
 {
   "sessions": [
     {
-      "timestamp": "2026-07-15T18:51:25.791945",
-      "arxiv_papers_count": 21,
-      "arxiv_top_keywords": [
-        "llm",
-        "task",
-        "agents",
-        "diffusion",
-        "language",
-        "context",
-        "controlled",
-        "evaluation",
-        "execution",
-        "aware"
-      ],
-      "arxiv_strategies": [
-        "cs.AI 最新",
-        "cs.LG 最新",
-        "cs.CL 最新"
-      ],
-      "huggingface_models": 10,
-      "huggingface_tasks": [
-        "sentence-similarity",
-        "fill-mask",
-        "text-generation",
-        "text-ranking",
-        "feature-extraction"
-      ],
-      "ml_datasets": [],
-      "ml_total_tests": 0,
-      "github_trending_repos": 8,
-      "paperswithcode_papers": 8,
-      "evolution": {
-        "discovered": 24,
-        "adopted": 1,
-        "decisions": 1
-      },
-      "seed_watering": {
-        "seed_name": "Liquid Networks",
-        "papers_found": 8
-      }
-    },
-    {
       "timestamp": "2026-07-15T20:47:45.981601",
       "arxiv_papers_count": 21,
       "arxiv_top_keywords": [
@@ -4462,12 +4420,59 @@
         "seed_name": "HTM",
         "papers_found": 4
       }
+    },
+    {
+      "timestamp": "2026-09-15T22:30:35.034702",
+      "arxiv_papers_count": 18,
+      "arxiv_top_keywords": [
+        "graph",
+        "time",
+        "learning",
+        "world",
+        "finite",
+        "node",
+        "transfer",
+        "physical",
+        "class",
+        "discrete"
+      ],
+      "arxiv_strategies": [
+        "搜索: graph neural network",
+        "搜索: transfer learning",
+        "搜索: world model"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "unknown",
+        "fill-mask",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 13,
+        "adopted": 1,
+        "decisions": 1
+      },
+      "seed_watering": {
+        "seed_name": "Spiking Neural Networks",
+        "papers_found": 10
+      }
     }
   ],
   "total_sessions": 101,
-  "last_updated": "2026-09-15T19:20:04.539828",
+  "last_updated": "2026-09-15T22:30:35.034717",
   "evolution_summary": {
-    "total_adopted": 143,
+    "total_adopted": 144,
     "adopted_list": [
       "Knowledge Distillation",
       "World Models / Model-Based RL",
@@ -4611,7 +4616,8 @@
       "生成式回放",
       "Static Dataflow Compilation",
       "RunningTensor",
-      "SubZero+"
+      "SubZero+",
+      "原型驱动引导 (Prototype-Driven Guidance)"
     ],
     "seeds": {
       "mamba": {
@@ -4631,8 +4637,8 @@
       },
       "spiking-nn": {
         "name": "Spiking Neural Networks",
-        "watering": 64,
-        "papers": 33
+        "watering": 65,
+        "papers": 35
       },
       "non-transformer": {
         "name": "Non-Transformer Arch",
@@ -4668,16 +4674,16 @@
     "seed_metrics": {
       "spiking-nn": {
         "name": "Spiking Neural Networks",
-        "new_papers": 33,
+        "new_papers": 35,
         "keywords_matched": [
-          "neuromorphic",
+          "snn",
           "spiking",
-          "spike-timing",
-          "snn"
+          "neuromorphic",
+          "spike-timing"
         ],
-        "high_relevance_total": 26,
-        "avg_relevance_latest": 2.0,
-        "best_papers_count": 8
+        "high_relevance_total": 28,
+        "avg_relevance_latest": 2.5,
+        "best_papers_count": 9
       },
       "few-shot": {
         "name": "Few-Shot Learning",
@@ -4807,6 +4813,6 @@
         "best_papers_count": 1
       }
     },
-    "last_evolution": "2026-09-15T19:20:04.542666"
+    "last_evolution": "2026-09-15T22:30:35.036681"
   }
 }

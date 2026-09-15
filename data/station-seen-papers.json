@@ -38764,7 +38764,319 @@
         "process"
       ],
       "first_seen_round": 256
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.15239v1",
+      "title": "ProtoGuide: Prototype-Driven Guidance for Class-Conditional Graph Generation",
+      "arxiv_id": "2609.15239",
+      "tokens": [
+        "class",
+        "conditional",
+        "driven",
+        "generation",
+        "graph",
+        "guidance",
+        "protoguide",
+        "prototype"
+      ],
+      "first_seen_round": 257
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.14977v1",
+      "title": "LiftGCN: Efficient Energy-Preserving Graph Learning via Joukowski Spectral Lifting for Finite Element Stress Prediction",
+      "arxiv_id": "2609.14977",
+      "tokens": [
+        "element",
+        "energy",
+        "finite",
+        "graph",
+        "joukowski",
+        "liftgcn",
+        "lifting",
+        "prediction",
+        "preserving",
+        "spectral",
+        "stress"
+      ],
+      "first_seen_round": 257
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.13920v1",
+      "title": "Finite-Time Node Separation in Recurrent Graph Neural Networks with Persistent Gaussian Perturbations",
+      "arxiv_id": "2609.13920",
+      "tokens": [
+        "finite",
+        "gaussian",
+        "graph",
+        "neural",
+        "node",
+        "persistent",
+        "perturbations",
+        "recurrent",
+        "separation",
+        "time"
+      ],
+      "first_seen_round": 257
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.13919v1",
+      "title": "Machine Learning in Fish Farming",
+      "arxiv_id": "2609.13919",
+      "tokens": [
+        "farming",
+        "fish",
+        "machine"
+      ],
+      "first_seen_round": 257
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.13836v1",
+      "title": "Graph Neural Networks for Influence Maximization in Social Networks: An Unsupervised Minimum Dominating Set Approach",
+      "arxiv_id": "2609.13836",
+      "tokens": [
+        "dominating",
+        "graph",
+        "influence",
+        "maximization",
+        "minimum",
+        "neural",
+        "set",
+        "social",
+        "unsupervised"
+      ],
+      "first_seen_round": 257
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.13655v1",
+      "title": "Online Bayesian Node Classification on Inductive Graphs under Distribution Shift",
+      "arxiv_id": "2609.13655",
+      "tokens": [
+        "bayesian",
+        "classification",
+        "distribution",
+        "graphs",
+        "inductive",
+        "node",
+        "online",
+        "shift"
+      ],
+      "first_seen_round": 257
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.15807v1",
+      "title": "Accelerating Transfer-Learning-Based Autotuning with Predictive LLVM IR Performance Ranking",
+      "arxiv_id": "2609.15807",
+      "tokens": [
+        "accelerating",
+        "autotuning",
+        "llvm",
+        "performance",
+        "predictive",
+        "ranking",
+        "transfer"
+      ],
+      "first_seen_round": 257
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.15773v1",
+      "title": "Transfer Learning for Socioeconomic Estimation in Forced-Displacement Settings",
+      "arxiv_id": "2609.15773",
+      "tokens": [
+        "displacement",
+        "estimation",
+        "forced",
+        "settings",
+        "socioeconomic",
+        "transfer"
+      ],
+      "first_seen_round": 257
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.15344v1",
+      "title": "Parameter-Efficient Adaptation of Pretrained Language Models for Time-Series Forecasting",
+      "arxiv_id": "2609.15344",
+      "tokens": [
+        "adaptation",
+        "forecasting",
+        "language",
+        "parameter",
+        "pretrained",
+        "series",
+        "time"
+      ],
+      "first_seen_round": 257
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.15148v1",
+      "title": "Multi-source Transfer Learning of Time Series with a Shapelet-based Distance Measure",
+      "arxiv_id": "2609.15148",
+      "tokens": [
+        "distance",
+        "measure",
+        "multi",
+        "series",
+        "shapelet",
+        "source",
+        "time",
+        "transfer"
+      ],
+      "first_seen_round": 257
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.14764v1",
+      "title": "CCMAN: Cognitive Instability-Aware Cross-Modal Attention Network for Interpretable Temporal Biomarkers of Verbal Fluency Speech",
+      "arxiv_id": "2609.14764",
+      "tokens": [
+        "attention",
+        "aware",
+        "biomarkers",
+        "ccman",
+        "cognitive",
+        "cross",
+        "fluency",
+        "instability",
+        "interpretable",
+        "modal",
+        "speech",
+        "temporal",
+        "verbal"
+      ],
+      "first_seen_round": 257
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.14097v1",
+      "title": "Bridging the Synthetic-to-Real Gap for Few-Shot Cryo-ET Classification",
+      "arxiv_id": "2609.14097",
+      "tokens": [
+        "bridging",
+        "classification",
+        "cryo",
+        "gap",
+        "real",
+        "shot",
+        "synthetic"
+      ],
+      "first_seen_round": 257
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.15801v1",
+      "title": "When Should a World Model Move? Loss-Conditioned State Execution",
+      "arxiv_id": "2609.15801",
+      "tokens": [
+        "conditioned",
+        "execution",
+        "loss",
+        "move",
+        "state",
+        "world"
+      ],
+      "first_seen_round": 257
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.15781v1",
+      "title": "When the World Lies: Backdoor Attacks on Latent World Models for Downstream Control",
+      "arxiv_id": "2609.15781",
+      "tokens": [
+        "attacks",
+        "backdoor",
+        "control",
+        "downstream",
+        "latent",
+        "lies",
+        "world",
+        "world"
+      ],
+      "first_seen_round": 257
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.15289v1",
+      "title": "Math for AI safety: an invitation for mathematicians",
+      "arxiv_id": "2609.15289",
+      "tokens": [
+        "invitation",
+        "math",
+        "mathematicians",
+        "safety"
+      ],
+      "first_seen_round": 257
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.15113v1",
+      "title": "Legislating World-Model-Based Planning with Legal Reasoning",
+      "arxiv_id": "2609.15113",
+      "tokens": [
+        "legal",
+        "legislating",
+        "planning",
+        "reasoning",
+        "world"
+      ],
+      "first_seen_round": 257
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.14833v1",
+      "title": "One Model, Two Physical Stories: Auditing Misalignment in Multi-Modal World Modeling",
+      "arxiv_id": "2609.14833",
+      "tokens": [
+        "auditing",
+        "misalignment",
+        "modal",
+        "modeling",
+        "multi",
+        "physical",
+        "stories",
+        "world"
+      ],
+      "first_seen_round": 257
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.14073v1",
+      "title": "LPA-CWM: A Learned Physical Adjudicator for Motion Reasoning with Counterfactual World Models",
+      "arxiv_id": "2609.14073",
+      "tokens": [
+        "adjudicator",
+        "counterfactual",
+        "cwm",
+        "learned",
+        "lpa",
+        "motion",
+        "physical",
+        "reasoning",
+        "world"
+      ],
+      "first_seen_round": 257
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.15772v1",
+      "title": "Event-Native Symbolic-Temporal Spike Encoding Framework for Heterogeneous Cyber Streams",
+      "arxiv_id": "2609.15772",
+      "tokens": [
+        "cyber",
+        "encoding",
+        "event",
+        "heterogeneous",
+        "native",
+        "spike",
+        "streams",
+        "symbolic",
+        "temporal"
+      ],
+      "first_seen_round": 257
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.15339v1",
+      "title": "A Memristive Synapse for Online STDP Learning and Inference in SNNs",
+      "arxiv_id": "2609.15339",
+      "tokens": [
+        "inference",
+        "memristive",
+        "online",
+        "snns",
+        "stdp",
+        "synapse"
+      ],
+      "first_seen_round": 257
     }
   ],
-  "total_unique": 2416
+  "total_unique": 2436
 }

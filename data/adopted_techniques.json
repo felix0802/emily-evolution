@@ -2153,6 +2153,21 @@
         ],
         "decided_at": "2026-09-14T22:56:19.621852"
       }
+    },
+    {
+      "id": "llm-原型驱动引导-(prototype-driven-guida",
+      "name": "原型驱动引导 (Prototype-Driven Guidance)",
+      "adopted_at": "2026-09-15T22:30:35.030979",
+      "decision": {
+        "tech_id": "llm-原型驱动引导-(prototype-driven-guida",
+        "tech_name": "原型驱动引导 (Prototype-Driven Guidance)",
+        "action": "adopt",
+        "confidence": 0.9,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-09-15T22:30:35.029887"
+      }
     }
   ],
   "history": [
@@ -3013,6 +3028,12 @@
       "tech_id": "llm-subzero+",
       "tech_name": "SubZero+",
       "timestamp": "2026-09-14T22:56:19.623146"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-原型驱动引导-(prototype-driven-guida",
+      "tech_name": "原型驱动引导 (Prototype-Driven Guidance)",
+      "timestamp": "2026-09-15T22:30:35.030982"
     }
   ]
 }
