@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-14T22:56:22.003637",
+  "timestamp": "2026-09-15T02:11:45.476753",
   "connections": [
     {
       "seed_a": "Mamba (SSM)",
@@ -10,19 +10,7 @@
       ],
       "shared_paper_concepts": [],
       "strength": 4,
-      "discovered_at": "2026-09-14T22:56:22.003601"
-    },
-    {
-      "seed_a": "Few-Shot Learning",
-      "seed_b": "Graph Neural Networks",
-      "shared_keywords": [],
-      "shared_paper_concepts": [
-        "efficient",
-        "learning",
-        "prediction"
-      ],
-      "strength": 3,
-      "discovered_at": "2026-09-14T22:56:22.003629"
+      "discovered_at": "2026-09-15T02:11:45.476711"
     },
     {
       "seed_a": "HTM",
@@ -33,18 +21,7 @@
         "meta"
       ],
       "strength": 2,
-      "discovered_at": "2026-09-14T22:56:22.003615"
-    },
-    {
-      "seed_a": "Mixture of Experts",
-      "seed_b": "Graph Neural Networks",
-      "shared_keywords": [],
-      "shared_paper_concepts": [
-        "learning",
-        "with"
-      ],
-      "strength": 2,
-      "discovered_at": "2026-09-14T22:56:22.003632"
+      "discovered_at": "2026-09-15T02:11:45.476731"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -54,17 +31,7 @@
         "prediction"
       ],
       "strength": 1,
-      "discovered_at": "2026-09-14T22:56:22.003606"
-    },
-    {
-      "seed_a": "Mamba (SSM)",
-      "seed_b": "Graph Neural Networks",
-      "shared_keywords": [],
-      "shared_paper_concepts": [
-        "prediction"
-      ],
-      "strength": 1,
-      "discovered_at": "2026-09-14T22:56:22.003609"
+      "discovered_at": "2026-09-15T02:11:45.476719"
     },
     {
       "seed_a": "HTM",
@@ -74,27 +41,7 @@
         "learning"
       ],
       "strength": 1,
-      "discovered_at": "2026-09-14T22:56:22.003617"
-    },
-    {
-      "seed_a": "HTM",
-      "seed_b": "Graph Neural Networks",
-      "shared_keywords": [],
-      "shared_paper_concepts": [
-        "learning"
-      ],
-      "strength": 1,
-      "discovered_at": "2026-09-14T22:56:22.003619"
-    },
-    {
-      "seed_a": "Spiking Neural Networks",
-      "seed_b": "Graph Neural Networks",
-      "shared_keywords": [],
-      "shared_paper_concepts": [
-        "hybrid"
-      ],
-      "strength": 1,
-      "discovered_at": "2026-09-14T22:56:22.003623"
+      "discovered_at": "2026-09-15T02:11:45.476735"
     },
     {
       "seed_a": "Few-Shot Learning",
@@ -104,7 +51,7 @@
         "learning"
       ],
       "strength": 1,
-      "discovered_at": "2026-09-14T22:56:22.003627"
+      "discovered_at": "2026-09-15T02:11:45.476744"
     }
   ],
   "total_seeds": 10

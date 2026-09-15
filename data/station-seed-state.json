@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 619,
+  "_rotation_idx": 620,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 60,
@@ -6952,39 +6952,8 @@
   "gnn": {
     "name": "Graph Neural Networks",
     "total_papers_found": 131,
-    "watering_count": 60,
+    "watering_count": 61,
     "history": [
-      {
-        "timestamp": "2026-07-22T11:40:49.781978",
-        "papers_found": 7,
-        "duplicates": 0,
-        "irrelevant_filtered": 3,
-        "avg_relevance": 1.29,
-        "high_relevance": 2,
-        "papers": [
-          {
-            "title": "GUIDED Network-Agnostic Feature Initialization for Spatial Transferability in GNN-based Models",
-            "summary": "The Traffic Assignment Problem is a fundamental but computationally expensive component of transportation planning. While Graph Neural Networks have emerged as fast, data-driven surrogates, their practical deployment is severely constrained by a spatial generalization gap. Standard models rely on tr",
-            "published": "2026-07-21",
-            "url": "http://arxiv.org/abs/2607.19270v1",
-            "seed_match_score": 2
-          },
-          {
-            "title": "Sequential Learner Modeling Using Multi-Relational Graph Convolutional Networks",
-            "summary": "User modeling is a critical task in a variety of personalized systems. Recognizing their effectiveness in learning from graph-structured data, Graph Neural Networks (GNNs), particularly Graph Convolutional Networks (GCNs), are increasingly employed for user modeling. However, existing approaches typ",
-            "published": "2026-07-21",
-            "url": "http://arxiv.org/abs/2607.19253v1",
-            "seed_match_score": 2
-          },
-          {
-            "title": "GEqTrain: A Configuration-Driven Framework for Retargeting Equivariant Graph Neural Networks Across 3D Scientific Tasks",
-            "summary": "Equivariant graph neural networks provide a powerful modeling language for three-dimensional scientific data, but their reuse is often limited by implementations tied to specific tasks, outputs, and training regimes. We present GEqTrain, a configuration-driven framework that separates dataset semant",
-            "published": "2026-07-21",
-            "url": "http://arxiv.org/abs/2607.19083v1",
-            "seed_match_score": 1
-          }
-        ]
-      },
       {
         "timestamp": "2026-07-23T11:44:23.334695",
         "papers_found": 2,
@@ -8006,6 +7975,15 @@
         "avg_relevance": 0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-09-15T02:11:45.435386",
+        "papers_found": 0,
+        "duplicates": 0,
+        "irrelevant_filtered": 0,
+        "avg_relevance": 0,
+        "high_relevance": 0,
+        "papers": []
       }
     ],
     "keywords": [
@@ -8017,6 +7995,6 @@
       "node embedding",
       "graph transformer"
     ],
-    "last_watered": "2026-09-13T12:59:13.084102"
+    "last_watered": "2026-09-15T02:11:45.435379"
   }
 }

@@ -1,48 +1,6 @@
 {
   "sessions": [
     {
-      "timestamp": "2026-07-15T11:19:18.776048",
-      "arxiv_papers_count": 18,
-      "arxiv_top_keywords": [
-        "graph",
-        "neural",
-        "multi",
-        "learning",
-        "world",
-        "group",
-        "feature",
-        "foundation",
-        "target",
-        "self"
-      ],
-      "arxiv_strategies": [
-        "搜索: graph neural network",
-        "搜索: transfer learning",
-        "搜索: world model"
-      ],
-      "huggingface_models": 10,
-      "huggingface_tasks": [
-        "sentence-similarity",
-        "fill-mask",
-        "text-generation",
-        "text-ranking",
-        "feature-extraction"
-      ],
-      "ml_datasets": [],
-      "ml_total_tests": 0,
-      "github_trending_repos": 8,
-      "paperswithcode_papers": 8,
-      "evolution": {
-        "discovered": 13,
-        "adopted": 1,
-        "decisions": 1
-      },
-      "seed_watering": {
-        "seed_name": "KV Cache Optimization",
-        "papers_found": 6
-      }
-    },
-    {
       "timestamp": "2026-07-15T13:04:45.257718",
       "arxiv_papers_count": 16,
       "arxiv_top_keywords": [
@@ -4475,10 +4433,46 @@
         "seed_name": "KV Cache Optimization",
         "papers_found": 3
       }
+    },
+    {
+      "timestamp": "2026-09-15T02:11:45.461949",
+      "arxiv_papers_count": 0,
+      "arxiv_top_keywords": [],
+      "arxiv_strategies": [
+        "cs.AI 最新",
+        "cs.LG 最新",
+        "cs.CL 最新"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "unknown",
+        "fill-mask",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 0,
+        "adopted": 0,
+        "decisions": 0
+      },
+      "seed_watering": {
+        "seed_name": "",
+        "papers_found": 0
+      }
     }
   ],
   "total_sessions": 101,
-  "last_updated": "2026-09-14T22:56:21.995456",
+  "last_updated": "2026-09-15T02:11:45.461964",
   "evolution_summary": {
     "total_adopted": 143,
     "adopted_list": [
@@ -4674,7 +4668,7 @@
       },
       "gnn": {
         "name": "Graph Neural Networks",
-        "watering": 60,
+        "watering": 61,
         "papers": 131
       }
     },
@@ -4820,6 +4814,6 @@
         "best_papers_count": 1
       }
     },
-    "last_evolution": "2026-09-14T22:56:21.997044"
+    "last_evolution": "2026-09-15T02:11:45.464854"
   }
 }
