@@ -1,28 +1,6 @@
 {
   "rounds": [
     {
-      "round": 205,
-      "timestamp": "2026-09-07T01:32:45.812101",
-      "prediction_error": 0.7,
-      "seeds_active": 10,
-      "seeds_dormant": 0,
-      "new_seeds_added": 0,
-      "top_motivated": [
-        [
-          "mamba",
-          0.91
-        ],
-        [
-          "liquid-networks",
-          0.91
-        ],
-        [
-          "spiking-nn",
-          0.91
-        ]
-      ]
-    },
-    {
       "round": 206,
       "timestamp": "2026-09-07T06:42:51.554257",
       "prediction_error": 0.7,
@@ -1099,16 +1077,37 @@
           0.91
         ]
       ]
+    },
+    {
+      "round": 254,
+      "timestamp": "2026-09-15T09:03:21.522974",
+      "prediction_error": 0.7,
+      "seeds_active": 10,
+      "seeds_dormant": 0,
+      "new_seeds_added": 0,
+      "top_motivated": [
+        [
+          "spiking-nn",
+          0.91
+        ],
+        [
+          "non-transformer",
+          0.91
+        ],
+        [
+          "few-shot",
+          0.91
+        ]
+      ]
     }
   ],
   "seed_scores": {
     "mamba": {
       "name": "Mamba (SSM)",
-      "info_gain": 1.0,
+      "info_gain": 0.871,
       "novelty": 1.0,
-      "motivation_score": 0.91,
+      "motivation_score": 0.858,
       "info_gain_history": [
-        0.75,
         1.0,
         1.0,
         1.0,
@@ -1128,7 +1127,8 @@
         1.0,
         1.0,
         1.0,
-        1.0
+        1.0,
+        0.871
       ]
     },
     "liquid-networks": {
@@ -1138,7 +1138,6 @@
       "motivation_score": 0.78,
       "info_gain_history": [
         0.9,
-        0.9,
         0.659,
         0.659,
         0.659,
@@ -1149,6 +1148,7 @@
         0.659,
         0.659,
         0.659,
+        0.675,
         0.675,
         0.675,
         0.675,
@@ -1168,7 +1168,6 @@
       "info_gain_history": [
         0.837,
         0.837,
-        0.837,
         0.867,
         0.867,
         0.867,
@@ -1179,6 +1178,7 @@
         0.867,
         0.867,
         0.867,
+        0.889,
         0.889,
         0.889,
         0.889,
@@ -1288,7 +1288,6 @@
         0.34,
         0.34,
         0.34,
-        0.34,
         0.353,
         0.353,
         0.353,
@@ -1299,6 +1298,7 @@
         0.353,
         0.353,
         0.353,
+        0.36,
         0.36,
         0.36,
         0.36,
@@ -1318,7 +1318,6 @@
         0.711,
         0.711,
         0.711,
-        0.711,
         0.608,
         0.608,
         0.608,
@@ -1329,6 +1328,7 @@
         0.608,
         0.608,
         0.608,
+        1.0,
         1.0,
         1.0,
         1.0
@@ -1378,7 +1378,6 @@
         0.446,
         0.446,
         0.446,
-        0.446,
         0.47,
         0.47,
         0.47,
@@ -1389,6 +1388,7 @@
         0.47,
         0.47,
         0.47,
+        0.5,
         0.5
       ]
     }
@@ -1398,6 +1398,6 @@
     "few-shot",
     "continual-learning"
   ],
-  "total_motivation_evaluations": 95,
+  "total_motivation_evaluations": 96,
   "current_prediction_error": 0.7
 }

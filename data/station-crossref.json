@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-15T02:11:45.476753",
+  "timestamp": "2026-09-15T09:03:21.547403",
   "connections": [
     {
       "seed_a": "Mamba (SSM)",
@@ -10,7 +10,7 @@
       ],
       "shared_paper_concepts": [],
       "strength": 4,
-      "discovered_at": "2026-09-15T02:11:45.476711"
+      "discovered_at": "2026-09-15T09:03:21.547364"
     },
     {
       "seed_a": "HTM",
@@ -21,17 +21,7 @@
         "meta"
       ],
       "strength": 2,
-      "discovered_at": "2026-09-15T02:11:45.476731"
-    },
-    {
-      "seed_a": "Mamba (SSM)",
-      "seed_b": "Few-Shot Learning",
-      "shared_keywords": [],
-      "shared_paper_concepts": [
-        "prediction"
-      ],
-      "strength": 1,
-      "discovered_at": "2026-09-15T02:11:45.476719"
+      "discovered_at": "2026-09-15T09:03:21.547381"
     },
     {
       "seed_a": "HTM",
@@ -41,7 +31,7 @@
         "learning"
       ],
       "strength": 1,
-      "discovered_at": "2026-09-15T02:11:45.476735"
+      "discovered_at": "2026-09-15T09:03:21.547385"
     },
     {
       "seed_a": "Few-Shot Learning",
@@ -51,7 +41,7 @@
         "learning"
       ],
       "strength": 1,
-      "discovered_at": "2026-09-15T02:11:45.476744"
+      "discovered_at": "2026-09-15T09:03:21.547395"
     }
   ],
   "total_seeds": 10
