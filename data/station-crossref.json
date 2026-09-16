@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-16T07:14:31.648445",
+  "timestamp": "2026-09-16T12:53:47.408597",
   "connections": [
     {
       "seed_a": "Mamba (SSM)",
@@ -10,7 +10,19 @@
       ],
       "shared_paper_concepts": [],
       "strength": 4,
-      "discovered_at": "2026-09-16T07:14:31.648397"
+      "discovered_at": "2026-09-16T12:53:47.408501"
+    },
+    {
+      "seed_a": "HTM",
+      "seed_b": "Continual Learning",
+      "shared_keywords": [],
+      "shared_paper_concepts": [
+        "aware",
+        "learning",
+        "with"
+      ],
+      "strength": 3,
+      "discovered_at": "2026-09-16T12:53:47.408524"
     },
     {
       "seed_a": "Non-Transformer Arch",
@@ -22,7 +34,7 @@
         "space"
       ],
       "strength": 3,
-      "discovered_at": "2026-09-16T07:14:31.648434"
+      "discovered_at": "2026-09-16T12:53:47.408548"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -33,7 +45,18 @@
         "detection"
       ],
       "strength": 2,
-      "discovered_at": "2026-09-16T07:14:31.648388"
+      "discovered_at": "2026-09-16T12:53:47.408491"
+    },
+    {
+      "seed_a": "Mamba (SSM)",
+      "seed_b": "Continual Learning",
+      "shared_keywords": [],
+      "shared_paper_concepts": [
+        "aware",
+        "based"
+      ],
+      "strength": 2,
+      "discovered_at": "2026-09-16T12:53:47.408505"
     },
     {
       "seed_a": "HTM",
@@ -44,7 +67,29 @@
         "with"
       ],
       "strength": 2,
-      "discovered_at": "2026-09-16T07:14:31.648418"
+      "discovered_at": "2026-09-16T12:53:47.408528"
+    },
+    {
+      "seed_a": "Spiking Neural Networks",
+      "seed_b": "Continual Learning",
+      "shared_keywords": [],
+      "shared_paper_concepts": [
+        "framework",
+        "learning"
+      ],
+      "strength": 2,
+      "discovered_at": "2026-09-16T12:53:47.408535"
+    },
+    {
+      "seed_a": "Continual Learning",
+      "seed_b": "Mixture of Experts",
+      "shared_keywords": [],
+      "shared_paper_concepts": [
+        "learning",
+        "with"
+      ],
+      "strength": 2,
+      "discovered_at": "2026-09-16T12:53:47.408588"
     },
     {
       "seed_a": "HTM",
@@ -54,7 +99,7 @@
         "learning"
       ],
       "strength": 1,
-      "discovered_at": "2026-09-16T07:14:31.648408"
+      "discovered_at": "2026-09-16T12:53:47.408514"
     },
     {
       "seed_a": "HTM",
@@ -64,47 +109,7 @@
         "learning"
       ],
       "strength": 1,
-      "discovered_at": "2026-09-16T07:14:31.648411"
-    },
-    {
-      "seed_a": "HTM",
-      "seed_b": "Few-Shot Learning",
-      "shared_keywords": [],
-      "shared_paper_concepts": [
-        "shot"
-      ],
-      "strength": 1,
-      "discovered_at": "2026-09-16T07:14:31.648414"
-    },
-    {
-      "seed_a": "Spiking Neural Networks",
-      "seed_b": "Non-Transformer Arch",
-      "shared_keywords": [],
-      "shared_paper_concepts": [
-        "learning"
-      ],
-      "strength": 1,
-      "discovered_at": "2026-09-16T07:14:31.648422"
-    },
-    {
-      "seed_a": "Spiking Neural Networks",
-      "seed_b": "Mixture of Experts",
-      "shared_keywords": [],
-      "shared_paper_concepts": [
-        "learning"
-      ],
-      "strength": 1,
-      "discovered_at": "2026-09-16T07:14:31.648426"
-    },
-    {
-      "seed_a": "Spiking Neural Networks",
-      "seed_b": "KV Cache Optimization",
-      "shared_keywords": [],
-      "shared_paper_concepts": [
-        "native"
-      ],
-      "strength": 1,
-      "discovered_at": "2026-09-16T07:14:31.648429"
+      "discovered_at": "2026-09-16T12:53:47.408518"
     }
   ],
   "total_seeds": 10

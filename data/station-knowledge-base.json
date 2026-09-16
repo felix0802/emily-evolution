@@ -1,48 +1,6 @@
 {
   "sessions": [
     {
-      "timestamp": "2026-07-16T01:19:55.175347",
-      "arxiv_papers_count": 18,
-      "arxiv_top_keywords": [
-        "neural",
-        "self",
-        "supervised",
-        "learning",
-        "multi",
-        "agent",
-        "architecture",
-        "search",
-        "detection",
-        "transformer"
-      ],
-      "arxiv_strategies": [
-        "搜索: neural architecture",
-        "搜索: self-supervised learning",
-        "搜索: multi-agent system"
-      ],
-      "huggingface_models": 10,
-      "huggingface_tasks": [
-        "sentence-similarity",
-        "fill-mask",
-        "text-generation",
-        "text-ranking",
-        "feature-extraction"
-      ],
-      "ml_datasets": [],
-      "ml_total_tests": 0,
-      "github_trending_repos": 8,
-      "paperswithcode_papers": 8,
-      "evolution": {
-        "discovered": 19,
-        "adopted": 0,
-        "decisions": 0
-      },
-      "seed_watering": {
-        "seed_name": "Non-Transformer Arch",
-        "papers_found": 7
-      }
-    },
-    {
       "timestamp": "2026-07-16T04:47:56.775307",
       "arxiv_papers_count": 18,
       "arxiv_top_keywords": [
@@ -4477,12 +4435,59 @@
         "seed_name": "Few-Shot Learning",
         "papers_found": 7
       }
+    },
+    {
+      "timestamp": "2026-09-16T12:53:47.394001",
+      "arxiv_papers_count": 18,
+      "arxiv_top_keywords": [
+        "attention",
+        "learning",
+        "distillation",
+        "state",
+        "linear",
+        "language",
+        "graph",
+        "neural",
+        "convolution",
+        "recall"
+      ],
+      "arxiv_strategies": [
+        "搜索: multi-query attention",
+        "搜索: geometric deep learning",
+        "搜索: knowledge distillation"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "unknown",
+        "fill-mask",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 19,
+        "adopted": 1,
+        "decisions": 1
+      },
+      "seed_watering": {
+        "seed_name": "Continual Learning",
+        "papers_found": 4
+      }
     }
   ],
   "total_sessions": 101,
-  "last_updated": "2026-09-16T07:14:31.633944",
+  "last_updated": "2026-09-16T12:53:47.394017",
   "evolution_summary": {
-    "total_adopted": 146,
+    "total_adopted": 147,
     "adopted_list": [
       "Knowledge Distillation",
       "World Models / Model-Based RL",
@@ -4629,7 +4634,8 @@
       "SubZero+",
       "原型驱动引导 (Prototype-Driven Guidance)",
       "Joint Embedding Predictive Architecture (JEPA)",
-      "Embedding"
+      "Embedding",
+      "匹配状态分解"
     ],
     "seeds": {
       "mamba": {
@@ -4664,8 +4670,8 @@
       },
       "continual-learning": {
         "name": "Continual Learning",
-        "watering": 63,
-        "papers": 74
+        "watering": 64,
+        "papers": 78
       },
       "moe": {
         "name": "Mixture of Experts",
@@ -4769,16 +4775,16 @@
       },
       "continual-learning": {
         "name": "Continual Learning",
-        "new_papers": 69,
+        "new_papers": 73,
         "keywords_matched": [
-          "ewc",
           "lifelong",
-          "elastic weight",
+          "ewc",
+          "continual learning",
           "catastrophic forgetting",
-          "continual learning"
+          "elastic weight"
         ],
-        "high_relevance_total": 16,
-        "avg_relevance_latest": 1.0,
+        "high_relevance_total": 17,
+        "avg_relevance_latest": 1.25,
         "best_papers_count": 2
       },
       "gnn": {
@@ -4826,6 +4832,6 @@
         "best_papers_count": 1
       }
     },
-    "last_evolution": "2026-09-16T07:14:31.636731"
+    "last_evolution": "2026-09-16T12:53:47.396801"
   }
 }

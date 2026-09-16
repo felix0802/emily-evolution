@@ -39564,7 +39564,102 @@
         "shot"
       ],
       "first_seen_round": 259
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.17284v1",
+      "title": "Personalized Federated Learning through Global Knowledge Distillation and Local Head Adaptation",
+      "arxiv_id": "2609.17284",
+      "tokens": [
+        "adaptation",
+        "distillation",
+        "federated",
+        "global",
+        "head",
+        "knowledge",
+        "local",
+        "personalized"
+      ],
+      "first_seen_round": 260
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.13271v1",
+      "title": "CANAL: Channel-Aware Noise Allocation for Differentially Private Feature Distillation in Medical Image Segmentation",
+      "arxiv_id": "2609.13271",
+      "tokens": [
+        "allocation",
+        "aware",
+        "canal",
+        "channel",
+        "differentially",
+        "distillation",
+        "feature",
+        "image",
+        "medical",
+        "noise",
+        "private",
+        "segmentation"
+      ],
+      "first_seen_round": 260
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.17141v1",
+      "title": "Continual Learning for Traversability Prediction with Uncertainty-Aware Adaptation",
+      "arxiv_id": "2609.17141",
+      "tokens": [
+        "adaptation",
+        "aware",
+        "continual",
+        "prediction",
+        "traversability",
+        "uncertainty"
+      ],
+      "first_seen_round": 260
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.17026v1",
+      "title": "CLARE: Scalable Class-Incremental Continual Learning via a Sparsity-Based Framework",
+      "arxiv_id": "2609.17026",
+      "tokens": [
+        "clare",
+        "class",
+        "continual",
+        "incremental",
+        "scalable",
+        "sparsity"
+      ],
+      "first_seen_round": 260
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.15763v1",
+      "title": "Sylvas: Synergistic Learning Value based Device Scheduling in Federated Continual Learning",
+      "arxiv_id": "2609.15763",
+      "tokens": [
+        "continual",
+        "device",
+        "federated",
+        "scheduling",
+        "sylvas",
+        "synergistic",
+        "value"
+      ],
+      "first_seen_round": 260
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.10750v1",
+      "title": "When Synthetic Data Hurts: On Catastrophic Forgetting in Skill Retrieval for LLM Agents",
+      "arxiv_id": "2609.10750",
+      "tokens": [
+        "agents",
+        "catastrophic",
+        "forgetting",
+        "hurts",
+        "llm",
+        "retrieval",
+        "skill",
+        "synthetic"
+      ],
+      "first_seen_round": 260
     }
   ],
-  "total_unique": 2466
+  "total_unique": 2472
 }

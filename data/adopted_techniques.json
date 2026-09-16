@@ -2198,6 +2198,21 @@
         ],
         "decided_at": "2026-09-16T01:59:32.564528"
       }
+    },
+    {
+      "id": "llm-匹配状态分解",
+      "name": "匹配状态分解",
+      "adopted_at": "2026-09-16T12:53:47.388177",
+      "decision": {
+        "tech_id": "llm-匹配状态分解",
+        "tech_name": "匹配状态分解",
+        "action": "adopt",
+        "confidence": 0.9,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-09-16T12:53:47.386285"
+      }
     }
   ],
   "history": [
@@ -3076,6 +3091,12 @@
       "tech_id": "auto-embedding",
       "tech_name": "Embedding",
       "timestamp": "2026-09-16T01:59:32.565979"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-匹配状态分解",
+      "tech_name": "匹配状态分解",
+      "timestamp": "2026-09-16T12:53:47.388183"
     }
   ]
 }

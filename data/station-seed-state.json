@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 626,
+  "_rotation_idx": 627,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 60,
@@ -4322,18 +4322,9 @@
   },
   "continual-learning": {
     "name": "Continual Learning",
-    "total_papers_found": 74,
-    "watering_count": 63,
+    "total_papers_found": 78,
+    "watering_count": 64,
     "history": [
-      {
-        "timestamp": "2026-07-23T01:28:54.020685",
-        "papers_found": 0,
-        "duplicates": 0,
-        "irrelevant_filtered": 0,
-        "avg_relevance": 0,
-        "high_relevance": 0,
-        "papers": []
-      },
       {
         "timestamp": "2026-07-24T01:23:19.933144",
         "papers_found": 1,
@@ -5105,6 +5096,37 @@
         "avg_relevance": 0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-09-16T12:53:42.568227",
+        "papers_found": 4,
+        "duplicates": 0,
+        "irrelevant_filtered": 6,
+        "avg_relevance": 1.25,
+        "high_relevance": 1,
+        "papers": [
+          {
+            "title": "Continual Learning for Traversability Prediction with Uncertainty-Aware Adaptation",
+            "summary": "Traversability prediction is a critical component of autonomous navigation in unstructured environments, where complex and uncertain robot-terrain interactions pose significant challenges such as traction loss and dynamic instability. Despite recent progress in learning-based traversability predicti",
+            "published": "2026-09-15",
+            "url": "http://arxiv.org/abs/2609.17141v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "CLARE: Scalable Class-Incremental Continual Learning via a Sparsity-Based Framework",
+            "summary": "Continual learning must balance the learning of new knowledge with the retention of previously learned knowledge to incrementally learn tasks from a data stream without catastrophic forgetting. While leveraging pretrained models has significantly advanced continual learning, existing methods exhibit",
+            "published": "2026-09-15",
+            "url": "http://arxiv.org/abs/2609.17026v1",
+            "seed_match_score": 2
+          },
+          {
+            "title": "Sylvas: Synergistic Learning Value based Device Scheduling in Federated Continual Learning",
+            "summary": "Federated continual learning (FCL) enables shared global models to continuously adapt to distributed and non-stationary data streams, making it important for Internet of Things applications such as intelligent transportation, industrial monitoring, and unmanned systems. Under spatio-temporal data di",
+            "published": "2026-09-14",
+            "url": "http://arxiv.org/abs/2609.15763v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -5114,7 +5136,7 @@
       "ewc",
       "elastic weight"
     ],
-    "last_watered": "2026-09-14T14:34:39.255878"
+    "last_watered": "2026-09-16T12:53:42.568221"
   },
   "moe": {
     "name": "Mixture of Experts",
