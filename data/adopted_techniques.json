@@ -2243,6 +2243,36 @@
         ],
         "decided_at": "2026-09-16T20:32:38.890770"
       }
+    },
+    {
+      "id": "llm-social-harness",
+      "name": "Social Harness",
+      "adopted_at": "2026-09-16T23:57:05.735654",
+      "decision": {
+        "tech_id": "llm-social-harness",
+        "tech_name": "Social Harness",
+        "action": "adopt",
+        "confidence": 0.85,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-09-16T23:57:05.734242"
+      }
+    },
+    {
+      "id": "llm-recursive-in-recursive-self-im",
+      "name": "Recursive-in-Recursive Self-Improvement",
+      "adopted_at": "2026-09-16T23:57:05.735671",
+      "decision": {
+        "tech_id": "llm-recursive-in-recursive-self-im",
+        "tech_name": "Recursive-in-Recursive Self-Improvement",
+        "action": "adopt",
+        "confidence": 0.8,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-09-16T23:57:05.734411"
+      }
     }
   ],
   "history": [
@@ -3139,6 +3169,18 @@
       "tech_id": "llm-chain-of-self-questioning-(cos",
       "tech_name": "Chain-of-Self-Questioning (CoSQ)",
       "timestamp": "2026-09-16T20:32:38.892660"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-social-harness",
+      "tech_name": "Social Harness",
+      "timestamp": "2026-09-16T23:57:05.735658"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-recursive-in-recursive-self-im",
+      "tech_name": "Recursive-in-Recursive Self-Improvement",
+      "timestamp": "2026-09-16T23:57:05.735672"
     }
   ]
 }

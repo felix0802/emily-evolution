@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 629,
+  "_rotation_idx": 630,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 60,
@@ -6951,32 +6951,8 @@
   "gnn": {
     "name": "Graph Neural Networks",
     "total_papers_found": 131,
-    "watering_count": 61,
+    "watering_count": 62,
     "history": [
-      {
-        "timestamp": "2026-07-23T11:44:23.334695",
-        "papers_found": 2,
-        "duplicates": 4,
-        "irrelevant_filtered": 4,
-        "avg_relevance": 1.5,
-        "high_relevance": 1,
-        "papers": [
-          {
-            "title": "Label-Free Finite-Volume-Residual Training of Attention Graph Neural Networks for Coupled Thermo-Fluid Fields",
-            "summary": "Neural surrogates are widely used in scientific machine learning for fast prediction of three-dimensional (3D) thermo-fluid fields. However, generating training data using conventional numerical solvers often incurs substantial computational and storage costs. We propose to train an attention graph ",
-            "published": "2026-07-22",
-            "url": "http://arxiv.org/abs/2607.20321v1",
-            "seed_match_score": 1
-          },
-          {
-            "title": "FedLSG: LLM-Enhanced Semantic Calibration for Federated Graph Backdoor Defense",
-            "summary": "Federated Graph Neural Networks (FedGNNs) are highly vulnerable to backdoor poisoning, yet existing defenses typically rely on rule-based approaches that lack semantic understanding, making them vulnerable to stealthy triggers and harmful to benign structures. To solve this, we present FedLSG, the f",
-            "published": "2026-07-22",
-            "url": "http://arxiv.org/abs/2607.19674v1",
-            "seed_match_score": 2
-          }
-        ]
-      },
       {
         "timestamp": "2026-07-24T11:28:56.573645",
         "papers_found": 5,
@@ -7983,6 +7959,15 @@
         "avg_relevance": 0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-09-16T23:57:00.635458",
+        "papers_found": 0,
+        "duplicates": 0,
+        "irrelevant_filtered": 0,
+        "avg_relevance": 0,
+        "high_relevance": 0,
+        "papers": []
       }
     ],
     "keywords": [
@@ -7994,6 +7979,6 @@
       "node embedding",
       "graph transformer"
     ],
-    "last_watered": "2026-09-15T02:11:45.435379"
+    "last_watered": "2026-09-16T23:57:00.635452"
   }
 }
