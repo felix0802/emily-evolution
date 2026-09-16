@@ -1,48 +1,6 @@
 {
   "sessions": [
     {
-      "timestamp": "2026-07-16T04:47:56.775307",
-      "arxiv_papers_count": 18,
-      "arxiv_top_keywords": [
-        "graph",
-        "learning",
-        "world",
-        "neural",
-        "multi",
-        "feature",
-        "multiplex",
-        "mxgps",
-        "power",
-        "grid"
-      ],
-      "arxiv_strategies": [
-        "搜索: graph neural network",
-        "搜索: transfer learning",
-        "搜索: world model"
-      ],
-      "huggingface_models": 10,
-      "huggingface_tasks": [
-        "sentence-similarity",
-        "fill-mask",
-        "text-generation",
-        "text-ranking",
-        "feature-extraction"
-      ],
-      "ml_datasets": [],
-      "ml_total_tests": 0,
-      "github_trending_repos": 8,
-      "paperswithcode_papers": 8,
-      "evolution": {
-        "discovered": 9,
-        "adopted": 0,
-        "decisions": 0
-      },
-      "seed_watering": {
-        "seed_name": "Few-Shot Learning",
-        "papers_found": 5
-      }
-    },
-    {
       "timestamp": "2026-07-16T07:51:52.909704",
       "arxiv_papers_count": 16,
       "arxiv_top_keywords": [
@@ -4482,12 +4440,59 @@
         "seed_name": "Continual Learning",
         "papers_found": 4
       }
+    },
+    {
+      "timestamp": "2026-09-16T17:47:35.344452",
+      "arxiv_papers_count": 19,
+      "arxiv_top_keywords": [
+        "language",
+        "social",
+        "self",
+        "llm",
+        "agentic",
+        "societies",
+        "agents",
+        "need",
+        "recursive",
+        "scientific"
+      ],
+      "arxiv_strategies": [
+        "cs.AI 最新",
+        "cs.LG 最新",
+        "cs.CL 最新"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "unknown",
+        "fill-mask",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 21,
+        "adopted": 1,
+        "decisions": 1
+      },
+      "seed_watering": {
+        "seed_name": "",
+        "papers_found": 0
+      }
     }
   ],
   "total_sessions": 101,
-  "last_updated": "2026-09-16T12:53:47.394017",
+  "last_updated": "2026-09-16T17:47:35.344469",
   "evolution_summary": {
-    "total_adopted": 147,
+    "total_adopted": 148,
     "adopted_list": [
       "Knowledge Distillation",
       "World Models / Model-Based RL",
@@ -4635,7 +4640,8 @@
       "原型驱动引导 (Prototype-Driven Guidance)",
       "Joint Embedding Predictive Architecture (JEPA)",
       "Embedding",
-      "匹配状态分解"
+      "匹配状态分解",
+      "Quantization"
     ],
     "seeds": {
       "mamba": {
@@ -4675,7 +4681,7 @@
       },
       "moe": {
         "name": "Mixture of Experts",
-        "watering": 59,
+        "watering": 60,
         "papers": 92
       },
       "kv-cache": {
@@ -4832,6 +4838,6 @@
         "best_papers_count": 1
       }
     },
-    "last_evolution": "2026-09-16T12:53:47.396801"
+    "last_evolution": "2026-09-16T17:47:35.347614"
   }
 }

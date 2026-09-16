@@ -2213,6 +2213,21 @@
         ],
         "decided_at": "2026-09-16T12:53:47.386285"
       }
+    },
+    {
+      "id": "auto-quantization",
+      "name": "Quantization",
+      "adopted_at": "2026-09-16T17:47:35.337798",
+      "decision": {
+        "tech_id": "auto-quantization",
+        "tech_name": "Quantization",
+        "action": "adopt",
+        "confidence": 0.35,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-09-16T17:47:35.335934"
+      }
     }
   ],
   "history": [
@@ -3097,6 +3112,12 @@
       "tech_id": "llm-匹配状态分解",
       "tech_name": "匹配状态分解",
       "timestamp": "2026-09-16T12:53:47.388183"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "auto-quantization",
+      "tech_name": "Quantization",
+      "timestamp": "2026-09-16T17:47:35.337803"
     }
   ]
 }

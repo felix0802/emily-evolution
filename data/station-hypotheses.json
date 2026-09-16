@@ -512,14 +512,14 @@
       "reasoning": "非 Transformer 架構（如狀態空間模型）的瓶頸在於固定狀態空間限制了記憶容量，而混合專家通過條件計算動態分配參數，能在不增加推理時固定狀態大小的前提下擴展模型容量。兩者共享「固定狀態」與「學習路由」的概念，數學上可將 MoE 視為對狀態轉移函數的動態分段線性近似，從而在固定狀態維度下增加表達能力。",
       "arxiv_query": "mixture of experts state space model fixed state recurrent memory",
       "potential_breakthrough": "實現固定狀態大小下可擴展的長序列記憶，突破非 Transformer 架構的容量瓶頸，同時保持高效推理。",
-      "status": "unverified",
-      "verification_rounds": 2,
+      "status": "inconclusive",
+      "verification_rounds": 3,
       "supporting_papers": [],
       "refuting_papers": [],
       "llm_source": "deepseek"
     }
   ],
-  "last_updated": "2026-09-16T12:53:50.477654",
+  "last_updated": "2026-09-16T17:47:36.477831",
   "total_generated": 22,
-  "total_verified": 21
+  "total_verified": 22
 }

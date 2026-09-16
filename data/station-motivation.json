@@ -1,28 +1,6 @@
 {
   "rounds": [
     {
-      "round": 212,
-      "timestamp": "2026-09-08T12:20:23.095122",
-      "prediction_error": 0.7,
-      "seeds_active": 9,
-      "seeds_dormant": 1,
-      "new_seeds_added": 0,
-      "top_motivated": [
-        [
-          "mamba",
-          0.91
-        ],
-        [
-          "liquid-networks",
-          0.91
-        ],
-        [
-          "htm",
-          0.91
-        ]
-      ]
-    },
-    {
       "round": 213,
       "timestamp": "2026-09-08T17:37:54.645886",
       "prediction_error": 0.7,
@@ -1099,6 +1077,28 @@
           0.91
         ]
       ]
+    },
+    {
+      "round": 261,
+      "timestamp": "2026-09-16T17:47:30.283404",
+      "prediction_error": 0.7,
+      "seeds_active": 10,
+      "seeds_dormant": 0,
+      "new_seeds_added": 0,
+      "top_motivated": [
+        [
+          "htm",
+          0.91
+        ],
+        [
+          "spiking-nn",
+          0.91
+        ],
+        [
+          "non-transformer",
+          0.91
+        ]
+      ]
     }
   ],
   "seed_scores": {
@@ -1121,7 +1121,7 @@
         1.0,
         1.0,
         1.0,
-        1.0,
+        0.871,
         0.871,
         0.871,
         0.871,
@@ -1141,7 +1141,6 @@
         0.659,
         0.659,
         0.659,
-        0.659,
         0.675,
         0.675,
         0.675,
@@ -1152,6 +1151,7 @@
         0.675,
         0.675,
         0.675,
+        0.214,
         0.214,
         0.214,
         0.214,
@@ -1171,7 +1171,6 @@
         0.867,
         0.867,
         0.867,
-        0.867,
         0.889,
         0.889,
         0.889,
@@ -1182,6 +1181,7 @@
         0.889,
         0.889,
         0.889,
+        1.0,
         1.0,
         1.0,
         1.0,
@@ -1291,7 +1291,6 @@
         0.353,
         0.353,
         0.353,
-        0.353,
         0.36,
         0.36,
         0.36,
@@ -1302,16 +1301,16 @@
         0.36,
         0.36,
         0.36,
+        1.0,
         1.0
       ]
     },
     "moe": {
       "name": "Mixture of Experts",
-      "info_gain": 1.0,
+      "info_gain": 0.875,
       "novelty": 0.857,
-      "motivation_score": 0.867,
+      "motivation_score": 0.817,
       "info_gain_history": [
-        0.711,
         0.608,
         0.608,
         0.608,
@@ -1331,7 +1330,8 @@
         1.0,
         1.0,
         1.0,
-        1.0
+        1.0,
+        0.875
       ]
     },
     "kv-cache": {
@@ -1371,7 +1371,6 @@
       "info_gain_history": [
         0.446,
         0.446,
-        0.446,
         0.47,
         0.47,
         0.47,
@@ -1382,6 +1381,7 @@
         0.47,
         0.47,
         0.47,
+        0.5,
         0.5,
         0.5,
         0.5,
@@ -1398,6 +1398,6 @@
     "few-shot",
     "continual-learning"
   ],
-  "total_motivation_evaluations": 102,
+  "total_motivation_evaluations": 103,
   "current_prediction_error": 0.7
 }
