@@ -2168,6 +2168,36 @@
         ],
         "decided_at": "2026-09-15T22:30:35.029887"
       }
+    },
+    {
+      "id": "llm-joint-embedding-predictive-arc",
+      "name": "Joint Embedding Predictive Architecture (JEPA)",
+      "adopted_at": "2026-09-16T01:59:32.565955",
+      "decision": {
+        "tech_id": "llm-joint-embedding-predictive-arc",
+        "tech_name": "Joint Embedding Predictive Architecture (JEPA)",
+        "action": "adopt",
+        "confidence": 0.9,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-09-16T01:59:32.564042"
+      }
+    },
+    {
+      "id": "auto-embedding",
+      "name": "Embedding",
+      "adopted_at": "2026-09-16T01:59:32.565977",
+      "decision": {
+        "tech_id": "auto-embedding",
+        "tech_name": "Embedding",
+        "action": "adopt",
+        "confidence": 0.35,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-09-16T01:59:32.564528"
+      }
     }
   ],
   "history": [
@@ -3034,6 +3064,18 @@
       "tech_id": "llm-原型驱动引导-(prototype-driven-guida",
       "tech_name": "原型驱动引导 (Prototype-Driven Guidance)",
       "timestamp": "2026-09-15T22:30:35.030982"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-joint-embedding-predictive-arc",
+      "tech_name": "Joint Embedding Predictive Architecture (JEPA)",
+      "timestamp": "2026-09-16T01:59:32.565960"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "auto-embedding",
+      "tech_name": "Embedding",
+      "timestamp": "2026-09-16T01:59:32.565979"
     }
   ]
 }

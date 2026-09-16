@@ -1,48 +1,6 @@
 {
   "sessions": [
     {
-      "timestamp": "2026-07-15T20:47:45.981601",
-      "arxiv_papers_count": 21,
-      "arxiv_top_keywords": [
-        "diffusion",
-        "video",
-        "metric",
-        "skin",
-        "generation",
-        "task",
-        "agents",
-        "context",
-        "ball",
-        "another"
-      ],
-      "arxiv_strategies": [
-        "cs.CV 最新",
-        "cs.AI+cs.LG 混合",
-        "cs.CL+cs.CV 混合"
-      ],
-      "huggingface_models": 10,
-      "huggingface_tasks": [
-        "sentence-similarity",
-        "fill-mask",
-        "text-generation",
-        "text-ranking",
-        "feature-extraction"
-      ],
-      "ml_datasets": [],
-      "ml_total_tests": 0,
-      "github_trending_repos": 8,
-      "paperswithcode_papers": 8,
-      "evolution": {
-        "discovered": 15,
-        "adopted": 0,
-        "decisions": 0
-      },
-      "seed_watering": {
-        "seed_name": "HTM",
-        "papers_found": 3
-      }
-    },
-    {
       "timestamp": "2026-07-15T22:45:43.734303",
       "arxiv_papers_count": 18,
       "arxiv_top_keywords": [
@@ -4467,12 +4425,59 @@
         "seed_name": "Spiking Neural Networks",
         "papers_found": 10
       }
+    },
+    {
+      "timestamp": "2026-09-16T01:59:35.330360",
+      "arxiv_papers_count": 14,
+      "arxiv_top_keywords": [
+        "time",
+        "foundation",
+        "llms",
+        "series",
+        "detection",
+        "data",
+        "anomaly",
+        "multi",
+        "energy",
+        "temporal"
+      ],
+      "arxiv_strategies": [
+        "搜索: time series forecasting",
+        "搜索: anomaly detection",
+        "搜索: mixture of experts"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "unknown",
+        "fill-mask",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 18,
+        "adopted": 2,
+        "decisions": 2
+      },
+      "seed_watering": {
+        "seed_name": "Non-Transformer Arch",
+        "papers_found": 6
+      }
     }
   ],
   "total_sessions": 101,
-  "last_updated": "2026-09-15T22:30:35.034717",
+  "last_updated": "2026-09-16T01:59:35.330379",
   "evolution_summary": {
-    "total_adopted": 144,
+    "total_adopted": 146,
     "adopted_list": [
       "Knowledge Distillation",
       "World Models / Model-Based RL",
@@ -4617,7 +4622,9 @@
       "Static Dataflow Compilation",
       "RunningTensor",
       "SubZero+",
-      "原型驱动引导 (Prototype-Driven Guidance)"
+      "原型驱动引导 (Prototype-Driven Guidance)",
+      "Joint Embedding Predictive Architecture (JEPA)",
+      "Embedding"
     ],
     "seeds": {
       "mamba": {
@@ -4642,8 +4649,8 @@
       },
       "non-transformer": {
         "name": "Non-Transformer Arch",
-        "watering": 65,
-        "papers": 35
+        "watering": 66,
+        "papers": 39
       },
       "few-shot": {
         "name": "Few-Shot Learning",
@@ -4740,18 +4747,18 @@
       },
       "non-transformer": {
         "name": "Non-Transformer Arch",
-        "new_papers": 35,
+        "new_papers": 39,
         "keywords_matched": [
-          "gated linear",
-          "linear attention",
           "linear recurrent",
           "rwkv",
+          "gated linear",
+          "state space",
+          "linear attention",
           "efficient transformer",
-          "mamba",
-          "state space"
+          "mamba"
         ],
-        "high_relevance_total": 5,
-        "avg_relevance_latest": 0.0,
+        "high_relevance_total": 6,
+        "avg_relevance_latest": 1.25,
         "best_papers_count": 0
       },
       "continual-learning": {
@@ -4813,6 +4820,6 @@
         "best_papers_count": 1
       }
     },
-    "last_evolution": "2026-09-15T22:30:35.036681"
+    "last_evolution": "2026-09-16T01:59:35.333231"
   }
 }

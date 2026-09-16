@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 624,
+  "_rotation_idx": 625,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 60,
@@ -3076,18 +3076,9 @@
   },
   "non-transformer": {
     "name": "Non-Transformer Arch",
-    "total_papers_found": 35,
-    "watering_count": 65,
+    "total_papers_found": 39,
+    "watering_count": 66,
     "history": [
-      {
-        "timestamp": "2026-07-22T20:52:55.089940",
-        "papers_found": 0,
-        "duplicates": 8,
-        "irrelevant_filtered": 2,
-        "avg_relevance": 0.0,
-        "high_relevance": 0,
-        "papers": []
-      },
       {
         "timestamp": "2026-07-23T20:49:08.995835",
         "papers_found": 0,
@@ -3712,6 +3703,37 @@
         "avg_relevance": 0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-09-16T01:59:27.290706",
+        "papers_found": 4,
+        "duplicates": 2,
+        "irrelevant_filtered": 4,
+        "avg_relevance": 1.25,
+        "high_relevance": 1,
+        "papers": [
+          {
+            "title": "On the Importance of Gating: Memorization vs. In-Context Learning in State Space Models",
+            "summary": "State Space Models (SSMs) have emerged as a compelling alternative to Transformers, enabling sequence modeling with constant memory and linear compute. Although SSMs exhibit reasonable performance and favorable computational characteristics, they continue to lag behind Transformers on tasks that req",
+            "published": "2026-09-15",
+            "url": "http://arxiv.org/abs/2609.16540v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "What Does Layer-Importance Reveal About Transformers and State-Space Models?",
+            "summary": "Transformers and state-space models (SSMs) are the two dominant families of sequence models, and a central open question is how far the analytical knowledge built for transformers transfers to SSMs. We address this through the lens of layer importance which underpins compression, selective fine-tuni",
+            "published": "2026-09-15",
+            "url": "http://arxiv.org/abs/2609.16537v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Anatomy of Associative Recall in Fixed-State Recurrences: A Matched-State Decomposition, an Interference Wall, and a Curriculum That Breaks It",
+            "summary": "Fixed-state recurrences--linear attention and state-space models--are reported to lag behind attention on associative recall, but whole-architecture comparisons cannot say which ingredient is responsible. We decompose masked multi-query recall at a fixed state budget along three single-knob axes: a ",
+            "published": "2026-09-14",
+            "url": "http://arxiv.org/abs/2609.16183v1",
+            "seed_match_score": 2
+          }
+        ]
       }
     ],
     "keywords": [
@@ -3724,7 +3746,7 @@
       "sub-quadratic",
       "mamba"
     ],
-    "last_watered": "2026-09-14T02:01:07.414647"
+    "last_watered": "2026-09-16T01:59:27.290700"
   },
   "few-shot": {
     "name": "Few-Shot Learning",
