@@ -1,48 +1,6 @@
 {
   "sessions": [
     {
-      "timestamp": "2026-07-16T07:51:52.909704",
-      "arxiv_papers_count": 16,
-      "arxiv_top_keywords": [
-        "anomaly",
-        "series",
-        "detection",
-        "adversarial",
-        "time",
-        "quantum",
-        "parameter",
-        "local",
-        "redundancy",
-        "measure"
-      ],
-      "arxiv_strategies": [
-        "搜索: time series forecasting",
-        "搜索: anomaly detection",
-        "搜索: mixture of experts"
-      ],
-      "huggingface_models": 10,
-      "huggingface_tasks": [
-        "sentence-similarity",
-        "fill-mask",
-        "text-generation",
-        "text-ranking",
-        "feature-extraction"
-      ],
-      "ml_datasets": [],
-      "ml_total_tests": 0,
-      "github_trending_repos": 8,
-      "paperswithcode_papers": 8,
-      "evolution": {
-        "discovered": 14,
-        "adopted": 2,
-        "decisions": 2
-      },
-      "seed_watering": {
-        "seed_name": "Continual Learning",
-        "papers_found": 7
-      }
-    },
-    {
       "timestamp": "2026-07-16T09:53:02.775525",
       "arxiv_papers_count": 18,
       "arxiv_top_keywords": [
@@ -4487,12 +4445,59 @@
         "seed_name": "",
         "papers_found": 0
       }
+    },
+    {
+      "timestamp": "2026-09-16T20:32:38.898454",
+      "arxiv_papers_count": 5,
+      "arxiv_top_keywords": [
+        "self",
+        "agentic",
+        "societies",
+        "agents",
+        "need",
+        "social",
+        "recursive",
+        "scientific",
+        "sciencebuddy",
+        "improvement"
+      ],
+      "arxiv_strategies": [
+        "cs.AI (fallback)",
+        "cs.AI (fallback)",
+        "cs.AI (fallback)"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "unknown",
+        "fill-mask",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 16,
+        "adopted": 1,
+        "decisions": 1
+      },
+      "seed_watering": {
+        "seed_name": "",
+        "papers_found": 0
+      }
     }
   ],
   "total_sessions": 101,
-  "last_updated": "2026-09-16T17:47:35.344469",
+  "last_updated": "2026-09-16T20:32:38.898469",
   "evolution_summary": {
-    "total_adopted": 148,
+    "total_adopted": 149,
     "adopted_list": [
       "Knowledge Distillation",
       "World Models / Model-Based RL",
@@ -4641,7 +4646,8 @@
       "Joint Embedding Predictive Architecture (JEPA)",
       "Embedding",
       "匹配状态分解",
-      "Quantization"
+      "Quantization",
+      "Chain-of-Self-Questioning (CoSQ)"
     ],
     "seeds": {
       "mamba": {
@@ -4686,7 +4692,7 @@
       },
       "kv-cache": {
         "name": "KV Cache Optimization",
-        "watering": 60,
+        "watering": 61,
         "papers": 84
       },
       "gnn": {
@@ -4838,6 +4844,6 @@
         "best_papers_count": 1
       }
     },
-    "last_evolution": "2026-09-16T17:47:35.347614"
+    "last_evolution": "2026-09-16T20:32:38.901375"
   }
 }

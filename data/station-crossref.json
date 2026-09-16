@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-16T17:47:35.360556",
+  "timestamp": "2026-09-16T20:32:38.913387",
   "connections": [
     {
       "seed_a": "Mamba (SSM)",
@@ -10,7 +10,7 @@
       ],
       "shared_paper_concepts": [],
       "strength": 4,
-      "discovered_at": "2026-09-16T17:47:35.360462"
+      "discovered_at": "2026-09-16T20:32:38.913329"
     },
     {
       "seed_a": "HTM",
@@ -22,7 +22,7 @@
         "with"
       ],
       "strength": 3,
-      "discovered_at": "2026-09-16T17:47:35.360486"
+      "discovered_at": "2026-09-16T20:32:38.913351"
     },
     {
       "seed_a": "Non-Transformer Arch",
@@ -34,7 +34,7 @@
         "space"
       ],
       "strength": 3,
-      "discovered_at": "2026-09-16T17:47:35.360510"
+      "discovered_at": "2026-09-16T20:32:38.913371"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -45,7 +45,7 @@
         "detection"
       ],
       "strength": 2,
-      "discovered_at": "2026-09-16T17:47:35.360453"
+      "discovered_at": "2026-09-16T20:32:38.913320"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -56,7 +56,7 @@
         "based"
       ],
       "strength": 2,
-      "discovered_at": "2026-09-16T17:47:35.360468"
+      "discovered_at": "2026-09-16T20:32:38.913334"
     },
     {
       "seed_a": "HTM",
@@ -67,7 +67,7 @@
         "with"
       ],
       "strength": 2,
-      "discovered_at": "2026-09-16T17:47:35.360490"
+      "discovered_at": "2026-09-16T20:32:38.913354"
     },
     {
       "seed_a": "Spiking Neural Networks",
@@ -78,7 +78,7 @@
         "learning"
       ],
       "strength": 2,
-      "discovered_at": "2026-09-16T17:47:35.360498"
+      "discovered_at": "2026-09-16T20:32:38.913361"
     },
     {
       "seed_a": "Continual Learning",
@@ -89,7 +89,7 @@
         "with"
       ],
       "strength": 2,
-      "discovered_at": "2026-09-16T17:47:35.360546"
+      "discovered_at": "2026-09-16T20:32:38.913377"
     },
     {
       "seed_a": "HTM",
@@ -99,7 +99,7 @@
         "learning"
       ],
       "strength": 1,
-      "discovered_at": "2026-09-16T17:47:35.360477"
+      "discovered_at": "2026-09-16T20:32:38.913342"
     },
     {
       "seed_a": "HTM",
@@ -109,7 +109,7 @@
         "learning"
       ],
       "strength": 1,
-      "discovered_at": "2026-09-16T17:47:35.360480"
+      "discovered_at": "2026-09-16T20:32:38.913345"
     }
   ],
   "total_seeds": 10

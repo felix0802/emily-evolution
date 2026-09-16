@@ -2228,6 +2228,21 @@
         ],
         "decided_at": "2026-09-16T17:47:35.335934"
       }
+    },
+    {
+      "id": "llm-chain-of-self-questioning-(cos",
+      "name": "Chain-of-Self-Questioning (CoSQ)",
+      "adopted_at": "2026-09-16T20:32:38.892655",
+      "decision": {
+        "tech_id": "llm-chain-of-self-questioning-(cos",
+        "tech_name": "Chain-of-Self-Questioning (CoSQ)",
+        "action": "adopt",
+        "confidence": 0.9,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-09-16T20:32:38.890770"
+      }
     }
   ],
   "history": [
@@ -3118,6 +3133,12 @@
       "tech_id": "auto-quantization",
       "tech_name": "Quantization",
       "timestamp": "2026-09-16T17:47:35.337803"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-chain-of-self-questioning-(cos",
+      "tech_name": "Chain-of-Self-Questioning (CoSQ)",
+      "timestamp": "2026-09-16T20:32:38.892660"
     }
   ]
 }
