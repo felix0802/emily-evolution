@@ -500,9 +500,26 @@
       "supporting_papers": [],
       "refuting_papers": [],
       "llm_source": "deepseek"
+    },
+    {
+      "id": "hyp-0022",
+      "timestamp": "2026-09-16T07:14:34.004205",
+      "seed_a": "Non-Transformer Arch",
+      "seed_b": "Mixture of Experts",
+      "crossref_strength": 3,
+      "shared_keywords": [],
+      "hypothesis": "在固定狀態的非 Transformer 架構（如狀態空間模型）中引入混合專家（MoE）路由機制，可以讓模型在保持固定狀態大小的同時，通過動態選擇專家來擴展有效記憶容量，從而提升長序列關聯回憶任務的表現。",
+      "reasoning": "非 Transformer 架構（如狀態空間模型）的瓶頸在於固定狀態空間限制了記憶容量，而混合專家通過條件計算動態分配參數，能在不增加推理時固定狀態大小的前提下擴展模型容量。兩者共享「固定狀態」與「學習路由」的概念，數學上可將 MoE 視為對狀態轉移函數的動態分段線性近似，從而在固定狀態維度下增加表達能力。",
+      "arxiv_query": "mixture of experts state space model fixed state recurrent memory",
+      "potential_breakthrough": "實現固定狀態大小下可擴展的長序列記憶，突破非 Transformer 架構的容量瓶頸，同時保持高效推理。",
+      "status": "unverified",
+      "verification_rounds": 1,
+      "supporting_papers": [],
+      "refuting_papers": [],
+      "llm_source": "deepseek"
     }
   ],
-  "last_updated": "2026-09-14T22:56:24.040259",
-  "total_generated": 21,
+  "last_updated": "2026-09-16T07:14:36.700668",
+  "total_generated": 22,
   "total_verified": 21
 }

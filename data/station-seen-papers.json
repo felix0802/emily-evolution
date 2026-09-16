@@ -39328,7 +39328,243 @@
         "window"
       ],
       "first_seen_round": 258
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.17346v1",
+      "title": "Where Should a Document Live: Context, Representations, or Parameters?",
+      "arxiv_id": "2609.17346",
+      "tokens": [
+        "context",
+        "document",
+        "live",
+        "parameters",
+        "representations"
+      ],
+      "first_seen_round": 259
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.17109v1",
+      "title": "Shared-Prefix KV Reuse Across Standard LoRA Adapters: Quality and Serving Tradeoffs",
+      "arxiv_id": "2609.17109",
+      "tokens": [
+        "adapters",
+        "lora",
+        "prefix",
+        "quality",
+        "reuse",
+        "serving",
+        "shared",
+        "standard",
+        "tradeoffs"
+      ],
+      "first_seen_round": 259
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.16450v1",
+      "title": "Early-Bird Decoding: Accelerating Diffusion LLMs with Learnable Block Sizes and Parallel Sampling",
+      "arxiv_id": "2609.16450",
+      "tokens": [
+        "accelerating",
+        "bird",
+        "block",
+        "decoding",
+        "diffusion",
+        "early",
+        "learnable",
+        "llms",
+        "parallel",
+        "sampling",
+        "sizes"
+      ],
+      "first_seen_round": 259
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.14872v1",
+      "title": "AgentKV: Phase-Aware KV Eviction for Agentic LLMs",
+      "arxiv_id": "2609.14872",
+      "tokens": [
+        "agentic",
+        "agentkv",
+        "aware",
+        "eviction",
+        "llms",
+        "phase"
+      ],
+      "first_seen_round": 259
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.14850v1",
+      "title": "Self-Orchestrating Language Models: Leveraging Semantic Dependence for Efficient Inference",
+      "arxiv_id": "2609.14850",
+      "tokens": [
+        "dependence",
+        "inference",
+        "language",
+        "leveraging",
+        "orchestrating",
+        "self",
+        "semantic"
+      ],
+      "first_seen_round": 259
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.13692v1",
+      "title": "Prefix Sharing Is a Sorting Problem",
+      "arxiv_id": "2609.13692",
+      "tokens": [
+        "prefix",
+        "problem",
+        "sharing",
+        "sorting"
+      ],
+      "first_seen_round": 259
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.17061v1",
+      "title": "Repurposing Unified Topological Signatures for Graph Representation Learning",
+      "arxiv_id": "2609.17061",
+      "tokens": [
+        "graph",
+        "representation",
+        "repurposing",
+        "signatures",
+        "topological",
+        "unified"
+      ],
+      "first_seen_round": 259
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.16977v1",
+      "title": "Structural Negative Transfer in Federated Graph Neural Networks: Diagnosis, Causal Investigation, and the Limits of Divergence-Aware Mitigation",
+      "arxiv_id": "2609.16977",
+      "tokens": [
+        "aware",
+        "causal",
+        "diagnosis",
+        "divergence",
+        "federated",
+        "graph",
+        "investigation",
+        "limits",
+        "mitigation",
+        "negative",
+        "neural",
+        "structural",
+        "transfer"
+      ],
+      "first_seen_round": 259
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.16738v1",
+      "title": "Unified Heterogeneous Graph Neural Network solver for Power Flow, Optimal Power Flow and State Estimation",
+      "arxiv_id": "2609.16738",
+      "tokens": [
+        "estimation",
+        "flow",
+        "flow",
+        "graph",
+        "heterogeneous",
+        "neural",
+        "optimal",
+        "power",
+        "power",
+        "solver",
+        "state",
+        "unified"
+      ],
+      "first_seen_round": 259
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.17241v1",
+      "title": "ECHO: Early-layer Collaborative Hierarchical Orchestration with Bonus Logits in Speculative Decoding",
+      "arxiv_id": "2609.17241",
+      "tokens": [
+        "bonus",
+        "collaborative",
+        "decoding",
+        "early",
+        "echo",
+        "hierarchical",
+        "layer",
+        "logits",
+        "orchestration",
+        "speculative"
+      ],
+      "first_seen_round": 259
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.17184v1",
+      "title": "LoopSpec: Pipelined Self-Speculative Decoding for Looped Transformers",
+      "arxiv_id": "2609.17184",
+      "tokens": [
+        "decoding",
+        "looped",
+        "loopspec",
+        "pipelined",
+        "self",
+        "speculative",
+        "transformers"
+      ],
+      "first_seen_round": 259
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.16648v1",
+      "title": "GrowMTP: Can RL Grow Its Own Draft Head?",
+      "arxiv_id": "2609.16648",
+      "tokens": [
+        "draft",
+        "grow",
+        "growmtp",
+        "head"
+      ],
+      "first_seen_round": 259
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.15504v1",
+      "title": "How Lossless Is Lossless Speculative Decoding? The Role of Numerical Precision in Orthrus",
+      "arxiv_id": "2609.15504",
+      "tokens": [
+        "decoding",
+        "lossless",
+        "lossless",
+        "numerical",
+        "orthrus",
+        "precision",
+        "role",
+        "speculative"
+      ],
+      "first_seen_round": 259
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.15296v1",
+      "title": "Reason What Matters: Retrieval-Grounded Reasoning for Universal Multimodal Embeddings",
+      "arxiv_id": "2609.15296",
+      "tokens": [
+        "embeddings",
+        "grounded",
+        "matters",
+        "multimodal",
+        "reason",
+        "reasoning",
+        "retrieval",
+        "universal"
+      ],
+      "first_seen_round": 259
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.12287v1",
+      "title": "Robust Prototypical Networks for Few-Shot Sensor Fault Diagnosis",
+      "arxiv_id": "2609.12287",
+      "tokens": [
+        "diagnosis",
+        "fault",
+        "prototypical",
+        "robust",
+        "sensor",
+        "shot"
+      ],
+      "first_seen_round": 259
     }
   ],
-  "total_unique": 2451
+  "total_unique": 2466
 }
