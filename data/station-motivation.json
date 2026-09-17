@@ -1,28 +1,6 @@
 {
   "rounds": [
     {
-      "round": 216,
-      "timestamp": "2026-09-09T01:49:44.422197",
-      "prediction_error": 0.7,
-      "seeds_active": 9,
-      "seeds_dormant": 1,
-      "new_seeds_added": 0,
-      "top_motivated": [
-        [
-          "liquid-networks",
-          0.91
-        ],
-        [
-          "htm",
-          0.91
-        ],
-        [
-          "spiking-nn",
-          0.91
-        ]
-      ]
-    },
-    {
       "round": 217,
       "timestamp": "2026-09-09T06:49:36.692401",
       "prediction_error": 0.7,
@@ -1099,6 +1077,28 @@
           0.91
         ]
       ]
+    },
+    {
+      "round": 265,
+      "timestamp": "2026-09-17T08:58:20.847920",
+      "prediction_error": 0.7,
+      "seeds_active": 10,
+      "seeds_dormant": 0,
+      "new_seeds_added": 0,
+      "top_motivated": [
+        [
+          "htm",
+          0.91
+        ],
+        [
+          "spiking-nn",
+          0.91
+        ],
+        [
+          "non-transformer",
+          0.91
+        ]
+      ]
     }
   ],
   "seed_scores": {
@@ -1117,7 +1117,6 @@
         1.0,
         1.0,
         1.0,
-        1.0,
         0.871,
         0.871,
         0.871,
@@ -1128,6 +1127,7 @@
         0.871,
         0.871,
         0.871,
+        0.931,
         0.931
       ]
     },
@@ -1137,7 +1137,6 @@
       "novelty": 1.0,
       "motivation_score": 0.596,
       "info_gain_history": [
-        0.659,
         0.675,
         0.675,
         0.675,
@@ -1148,6 +1147,7 @@
         0.675,
         0.675,
         0.675,
+        0.214,
         0.214,
         0.214,
         0.214,
@@ -1167,7 +1167,6 @@
       "motivation_score": 0.91,
       "info_gain_history": [
         0.867,
-        0.867,
         0.889,
         0.889,
         0.889,
@@ -1178,6 +1177,7 @@
         0.889,
         0.889,
         0.889,
+        1.0,
         1.0,
         1.0,
         1.0,
@@ -1287,7 +1287,6 @@
         0.353,
         0.353,
         0.353,
-        0.353,
         0.36,
         0.36,
         0.36,
@@ -1298,6 +1297,7 @@
         0.36,
         0.36,
         0.36,
+        1.0,
         1.0,
         1.0,
         1.0,
@@ -1317,7 +1317,6 @@
         0.608,
         0.608,
         0.608,
-        0.608,
         1.0,
         1.0,
         1.0,
@@ -1328,6 +1327,7 @@
         1.0,
         1.0,
         1.0,
+        0.875,
         0.875,
         0.875,
         0.875,
@@ -1357,7 +1357,7 @@
         1.0,
         1.0,
         1.0,
-        1.0,
+        0.984,
         0.984,
         0.984,
         0.984
@@ -1366,10 +1366,9 @@
     "gnn": {
       "name": "Graph Neural Networks",
       "info_gain": 0.333,
-      "novelty": 0.857,
-      "motivation_score": 0.6,
+      "novelty": 1.0,
+      "motivation_score": 0.643,
       "info_gain_history": [
-        0.47,
         0.47,
         0.47,
         0.47,
@@ -1389,6 +1388,7 @@
         0.5,
         0.5,
         0.333,
+        0.333,
         0.333
       ]
     }
@@ -1398,6 +1398,6 @@
     "few-shot",
     "continual-learning"
   ],
-  "total_motivation_evaluations": 106,
+  "total_motivation_evaluations": 107,
   "current_prediction_error": 0.7
 }
