@@ -1,48 +1,6 @@
 {
   "sessions": [
     {
-      "timestamp": "2026-09-01T08:57:28.517869",
-      "arxiv_papers_count": 26,
-      "arxiv_top_keywords": [
-        "video",
-        "learning",
-        "data",
-        "audio",
-        "identity",
-        "stage",
-        "ontology",
-        "self",
-        "reflectance",
-        "radiative"
-      ],
-      "arxiv_strategies": [
-        "cs.CV 最新",
-        "cs.AI+cs.LG 混合",
-        "cs.CL+cs.CV 混合"
-      ],
-      "huggingface_models": 10,
-      "huggingface_tasks": [
-        "sentence-similarity",
-        "fill-mask",
-        "unknown",
-        "text-ranking",
-        "feature-extraction"
-      ],
-      "ml_datasets": [],
-      "ml_total_tests": 0,
-      "github_trending_repos": 8,
-      "paperswithcode_papers": 8,
-      "evolution": {
-        "discovered": 16,
-        "adopted": 2,
-        "decisions": 2
-      },
-      "seed_watering": {
-        "seed_name": "Liquid Networks",
-        "papers_found": 8
-      }
-    },
-    {
       "timestamp": "2026-09-01T14:22:41.988138",
       "arxiv_papers_count": 17,
       "arxiv_top_keywords": [
@@ -4507,12 +4465,59 @@
         "seed_name": "",
         "papers_found": 0
       }
+    },
+    {
+      "timestamp": "2026-09-17T14:30:54.467237",
+      "arxiv_papers_count": 5,
+      "arxiv_top_keywords": [
+        "their",
+        "objective",
+        "search",
+        "what",
+        "tokenisation",
+        "preference",
+        "alignment",
+        "zeroth",
+        "order",
+        "likelihood"
+      ],
+      "arxiv_strategies": [
+        "cs.AI (fallback)",
+        "cs.AI (fallback)",
+        "cs.AI (fallback)"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "unknown",
+        "fill-mask",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 15,
+        "adopted": 2,
+        "decisions": 2
+      },
+      "seed_watering": {
+        "seed_name": "",
+        "papers_found": 0
+      }
     }
   ],
   "total_sessions": 101,
-  "last_updated": "2026-09-17T08:58:27.137169",
+  "last_updated": "2026-09-17T14:30:54.467254",
   "evolution_summary": {
-    "total_adopted": 152,
+    "total_adopted": 154,
     "adopted_list": [
       "Knowledge Distillation",
       "World Models / Model-Based RL",
@@ -4665,7 +4670,9 @@
       "Chain-of-Self-Questioning (CoSQ)",
       "Social Harness",
       "Recursive-in-Recursive Self-Improvement",
-      "BPE 与 UnigramLM 的解耦分析"
+      "BPE 与 UnigramLM 的解耦分析",
+      "Byte-Pair Encoding (BPE)",
+      "UnigramLM"
     ],
     "seeds": {
       "mamba": {
@@ -4680,7 +4687,7 @@
       },
       "htm": {
         "name": "HTM",
-        "watering": 66,
+        "watering": 67,
         "papers": 110
       },
       "spiking-nn": {
@@ -4862,6 +4869,6 @@
         "best_papers_count": 1
       }
     },
-    "last_evolution": "2026-09-17T08:58:27.140127"
+    "last_evolution": "2026-09-17T14:30:54.470180"
   }
 }

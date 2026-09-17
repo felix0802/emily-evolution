@@ -529,14 +529,14 @@
       "reasoning": "HTM's hierarchical temporal memory and continual learning both rely on sparse distributed representations and synaptic consolidation to balance plasticity and stability. The shared concepts of awareness and learning suggest that HTM's anomaly detection can be framed as a continual learning problem where new patterns are learned without overwriting old ones.",
       "arxiv_query": "hierarchical temporal memory continual learning catastrophic forgetting",
       "potential_breakthrough": "A brain-inspired continual anomaly detection system that adapts to evolving data streams while preserving long-term memory.",
-      "status": "unverified",
-      "verification_rounds": 2,
+      "status": "inconclusive",
+      "verification_rounds": 3,
       "supporting_papers": [],
       "refuting_papers": [],
       "llm_source": "deepseek"
     }
   ],
-  "last_updated": "2026-09-17T08:58:28.271390",
+  "last_updated": "2026-09-17T14:30:55.752121",
   "total_generated": 23,
-  "total_verified": 22
+  "total_verified": 23
 }

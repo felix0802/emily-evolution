@@ -2288,6 +2288,36 @@
         ],
         "decided_at": "2026-09-17T02:33:30.920817"
       }
+    },
+    {
+      "id": "llm-byte-pair-encoding-(bpe)",
+      "name": "Byte-Pair Encoding (BPE)",
+      "adopted_at": "2026-09-17T14:30:51.477001",
+      "decision": {
+        "tech_id": "llm-byte-pair-encoding-(bpe)",
+        "tech_name": "Byte-Pair Encoding (BPE)",
+        "action": "adopt",
+        "confidence": 0.95,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-09-17T14:30:51.475046"
+      }
+    },
+    {
+      "id": "llm-unigramlm",
+      "name": "UnigramLM",
+      "adopted_at": "2026-09-17T14:30:51.477022",
+      "decision": {
+        "tech_id": "llm-unigramlm",
+        "tech_name": "UnigramLM",
+        "action": "adopt",
+        "confidence": 0.95,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-09-17T14:30:51.475249"
+      }
     }
   ],
   "history": [
@@ -3202,6 +3232,18 @@
       "tech_id": "llm-bpe-与-unigramlm-的解耦分析",
       "tech_name": "BPE 与 UnigramLM 的解耦分析",
       "timestamp": "2026-09-17T02:33:30.922133"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-byte-pair-encoding-(bpe)",
+      "tech_name": "Byte-Pair Encoding (BPE)",
+      "timestamp": "2026-09-17T14:30:51.477006"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-unigramlm",
+      "tech_name": "UnigramLM",
+      "timestamp": "2026-09-17T14:30:51.477023"
     }
   ]
 }
