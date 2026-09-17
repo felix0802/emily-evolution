@@ -1,48 +1,6 @@
 {
   "sessions": [
     {
-      "timestamp": "2026-09-01T14:22:41.988138",
-      "arxiv_papers_count": 17,
-      "arxiv_top_keywords": [
-        "learning",
-        "time",
-        "policy",
-        "low",
-        "diffusion",
-        "generation",
-        "test",
-        "teacher",
-        "supervision",
-        "student"
-      ],
-      "arxiv_strategies": [
-        "搜索: reinforcement learning",
-        "搜索: large language model",
-        "搜索: diffusion model"
-      ],
-      "huggingface_models": 10,
-      "huggingface_tasks": [
-        "sentence-similarity",
-        "fill-mask",
-        "unknown",
-        "text-ranking",
-        "feature-extraction"
-      ],
-      "ml_datasets": [],
-      "ml_total_tests": 0,
-      "github_trending_repos": 8,
-      "paperswithcode_papers": 8,
-      "evolution": {
-        "discovered": 15,
-        "adopted": 4,
-        "decisions": 4
-      },
-      "seed_watering": {
-        "seed_name": "HTM",
-        "papers_found": 6
-      }
-    },
-    {
       "timestamp": "2026-09-01T18:55:41.690612",
       "arxiv_papers_count": 18,
       "arxiv_top_keywords": [
@@ -4512,12 +4470,59 @@
         "seed_name": "",
         "papers_found": 0
       }
+    },
+    {
+      "timestamp": "2026-09-17T19:22:07.764674",
+      "arxiv_papers_count": 5,
+      "arxiv_top_keywords": [
+        "their",
+        "objective",
+        "search",
+        "what",
+        "tokenisation",
+        "preference",
+        "alignment",
+        "zeroth",
+        "order",
+        "likelihood"
+      ],
+      "arxiv_strategies": [
+        "cs.AI (fallback)",
+        "cs.AI (fallback)",
+        "cs.AI (fallback)"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "unknown",
+        "fill-mask",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 17,
+        "adopted": 2,
+        "decisions": 2
+      },
+      "seed_watering": {
+        "seed_name": "",
+        "papers_found": 0
+      }
     }
   ],
   "total_sessions": 101,
-  "last_updated": "2026-09-17T14:30:54.467254",
+  "last_updated": "2026-09-17T19:22:07.764690",
   "evolution_summary": {
-    "total_adopted": 154,
+    "total_adopted": 156,
     "adopted_list": [
       "Knowledge Distillation",
       "World Models / Model-Based RL",
@@ -4672,7 +4677,9 @@
       "Recursive-in-Recursive Self-Improvement",
       "BPE 与 UnigramLM 的解耦分析",
       "Byte-Pair Encoding (BPE)",
-      "UnigramLM"
+      "UnigramLM",
+      "Audio Generation for Force-Aware Manipulation",
+      "Memory and Self-Reflection Modules"
     ],
     "seeds": {
       "mamba": {
@@ -4692,7 +4699,7 @@
       },
       "spiking-nn": {
         "name": "Spiking Neural Networks",
-        "watering": 65,
+        "watering": 66,
         "papers": 35
       },
       "non-transformer": {
@@ -4869,6 +4876,6 @@
         "best_papers_count": 1
       }
     },
-    "last_evolution": "2026-09-17T14:30:54.470180"
+    "last_evolution": "2026-09-17T19:22:07.767318"
   }
 }

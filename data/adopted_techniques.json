@@ -2318,6 +2318,36 @@
         ],
         "decided_at": "2026-09-17T14:30:51.475249"
       }
+    },
+    {
+      "id": "llm-audio-generation-for-force-awa",
+      "name": "Audio Generation for Force-Aware Manipulation",
+      "adopted_at": "2026-09-17T19:22:04.841794",
+      "decision": {
+        "tech_id": "llm-audio-generation-for-force-awa",
+        "tech_name": "Audio Generation for Force-Aware Manipulation",
+        "action": "adopt",
+        "confidence": 0.8,
+        "reason": [
+          "预置技术(0.8)"
+        ],
+        "decided_at": "2026-09-17T19:22:04.840551"
+      }
+    },
+    {
+      "id": "llm-memory-and-self-reflection-mod",
+      "name": "Memory and Self-Reflection Modules",
+      "adopted_at": "2026-09-17T19:22:04.841825",
+      "decision": {
+        "tech_id": "llm-memory-and-self-reflection-mod",
+        "tech_name": "Memory and Self-Reflection Modules",
+        "action": "adopt",
+        "confidence": 0.8,
+        "reason": [
+          "预置技术(0.8)"
+        ],
+        "decided_at": "2026-09-17T19:22:04.840666"
+      }
     }
   ],
   "history": [
@@ -3244,6 +3274,18 @@
       "tech_id": "llm-unigramlm",
       "tech_name": "UnigramLM",
       "timestamp": "2026-09-17T14:30:51.477023"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-audio-generation-for-force-awa",
+      "tech_name": "Audio Generation for Force-Aware Manipulation",
+      "timestamp": "2026-09-17T19:22:04.841798"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-memory-and-self-reflection-mod",
+      "tech_name": "Memory and Self-Reflection Modules",
+      "timestamp": "2026-09-17T19:22:04.841827"
     }
   ]
 }
