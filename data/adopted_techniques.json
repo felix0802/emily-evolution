@@ -2273,6 +2273,21 @@
         ],
         "decided_at": "2026-09-16T23:57:05.734411"
       }
+    },
+    {
+      "id": "llm-bpe-与-unigramlm-的解耦分析",
+      "name": "BPE 与 UnigramLM 的解耦分析",
+      "adopted_at": "2026-09-17T02:33:30.922129",
+      "decision": {
+        "tech_id": "llm-bpe-与-unigramlm-的解耦分析",
+        "tech_name": "BPE 与 UnigramLM 的解耦分析",
+        "action": "adopt",
+        "confidence": 0.9,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-09-17T02:33:30.920817"
+      }
     }
   ],
   "history": [
@@ -3181,6 +3196,12 @@
       "tech_id": "llm-recursive-in-recursive-self-im",
       "tech_name": "Recursive-in-Recursive Self-Improvement",
       "timestamp": "2026-09-16T23:57:05.735672"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-bpe-与-unigramlm-的解耦分析",
+      "tech_name": "BPE 与 UnigramLM 的解耦分析",
+      "timestamp": "2026-09-17T02:33:30.922133"
     }
   ]
 }

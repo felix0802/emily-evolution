@@ -1,34 +1,10 @@
 {
-  "_rotation_idx": 630,
+  "_rotation_idx": 631,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 60,
-    "watering_count": 66,
+    "watering_count": 67,
     "history": [
-      {
-        "timestamp": "2026-07-23T13:20:42.835259",
-        "papers_found": 2,
-        "duplicates": 6,
-        "irrelevant_filtered": 2,
-        "avg_relevance": 1.5,
-        "high_relevance": 1,
-        "papers": [
-          {
-            "title": "User-Centric Modeling of Transactional Sequences with Explainable State Space Models",
-            "summary": "We propose a hybrid approach for user-centric modeling of transactional event sequences that combines contrastive representation learning (CoLES) with State Space Models (SSMs). While contrastive methods yield high-quality compressed user representations, existing encoders -- RNNs and Transformers -",
-            "published": "2026-07-22",
-            "url": "http://arxiv.org/abs/2607.20228v1",
-            "seed_match_score": 2
-          },
-          {
-            "title": "Physics-Aware Complex-Valued State Space Model with Scattering-Prior Feature Modulation for PolSAR Image Classification",
-            "summary": "Polarimetric synthetic aperture radar (PolSAR) image classification is a representative task for physics-aware GeoAI, where land-cover semantics are closely coupled with electromagnetic scattering mechanisms. Many existing complex-valued networks can preserve amplitude-phase information, but they ar",
-            "published": "2026-07-22",
-            "url": "http://arxiv.org/abs/2607.19787v1",
-            "seed_match_score": 1
-          }
-        ]
-      },
       {
         "timestamp": "2026-07-24T13:16:33.662915",
         "papers_found": 0,
@@ -689,6 +665,15 @@
         "avg_relevance": 0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-09-17T02:33:24.745944",
+        "papers_found": 0,
+        "duplicates": 0,
+        "irrelevant_filtered": 0,
+        "avg_relevance": 0,
+        "high_relevance": 0,
+        "papers": []
       }
     ],
     "keywords": [
@@ -697,7 +682,7 @@
       "ssm",
       "selective scan"
     ],
-    "last_watered": "2026-09-15T09:03:21.506534"
+    "last_watered": "2026-09-17T02:33:24.745937"
   },
   "liquid-networks": {
     "name": "Liquid Networks",
