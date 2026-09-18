@@ -1,48 +1,6 @@
 {
   "sessions": [
     {
-      "timestamp": "2026-09-02T17:28:27.219104",
-      "arxiv_papers_count": 15,
-      "arxiv_top_keywords": [
-        "agents",
-        "generation",
-        "retrieval",
-        "language",
-        "agent",
-        "guidance",
-        "llm",
-        "llms",
-        "efficient",
-        "trajectory"
-      ],
-      "arxiv_strategies": [
-        "cs.AI 最新",
-        "cs.LG 最新",
-        "cs.CL 最新"
-      ],
-      "huggingface_models": 10,
-      "huggingface_tasks": [
-        "sentence-similarity",
-        "fill-mask",
-        "unknown",
-        "text-ranking",
-        "feature-extraction"
-      ],
-      "ml_datasets": [],
-      "ml_total_tests": 0,
-      "github_trending_repos": 8,
-      "paperswithcode_papers": 8,
-      "evolution": {
-        "discovered": 20,
-        "adopted": 1,
-        "decisions": 1
-      },
-      "seed_watering": {
-        "seed_name": "KV Cache Optimization",
-        "papers_found": 6
-      }
-    },
-    {
       "timestamp": "2026-09-02T20:12:15.086951",
       "arxiv_papers_count": 21,
       "arxiv_top_keywords": [
@@ -4542,10 +4500,57 @@
         "seed_name": "",
         "papers_found": 0
       }
+    },
+    {
+      "timestamp": "2026-09-18T20:04:43.283465",
+      "arxiv_papers_count": 5,
+      "arxiv_top_keywords": [
+        "robot",
+        "obstacle",
+        "coding",
+        "agents",
+        "manipulation",
+        "memory",
+        "lightweight",
+        "robotic",
+        "information",
+        "vlm"
+      ],
+      "arxiv_strategies": [
+        "cs.AI (fallback)",
+        "cs.AI (fallback)",
+        "cs.AI (fallback)"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "unknown",
+        "fill-mask",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 14,
+        "adopted": 0,
+        "decisions": 0
+      },
+      "seed_watering": {
+        "seed_name": "",
+        "papers_found": 0
+      }
     }
   ],
   "total_sessions": 101,
-  "last_updated": "2026-09-18T17:20:12.965061",
+  "last_updated": "2026-09-18T20:04:43.283481",
   "evolution_summary": {
     "total_adopted": 161,
     "adopted_list": [
@@ -4759,7 +4764,7 @@
       },
       "gnn": {
         "name": "Graph Neural Networks",
-        "watering": 62,
+        "watering": 63,
         "papers": 131
       }
     },
@@ -4906,6 +4911,6 @@
         "best_papers_count": 1
       }
     },
-    "last_evolution": "2026-09-18T17:20:12.968086"
+    "last_evolution": "2026-09-18T20:04:43.286453"
   }
 }
