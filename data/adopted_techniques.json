@@ -2378,6 +2378,36 @@
         ],
         "decided_at": "2026-09-17T22:30:28.552778"
       }
+    },
+    {
+      "id": "llm-sharded-data-parallelism-(sdp)",
+      "name": "Sharded Data Parallelism (SDP)",
+      "adopted_at": "2026-09-18T01:50:40.642635",
+      "decision": {
+        "tech_id": "llm-sharded-data-parallelism-(sdp)",
+        "tech_name": "Sharded Data Parallelism (SDP)",
+        "action": "adopt",
+        "confidence": 0.9,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-09-18T01:50:40.640400"
+      }
+    },
+    {
+      "id": "llm-prolog-for-legal-translation",
+      "name": "PROLOG for Legal Translation",
+      "adopted_at": "2026-09-18T01:50:40.642661",
+      "decision": {
+        "tech_id": "llm-prolog-for-legal-translation",
+        "tech_name": "PROLOG for Legal Translation",
+        "action": "adopt",
+        "confidence": 0.65,
+        "reason": [
+          "预置技术(0.7)"
+        ],
+        "decided_at": "2026-09-18T01:50:40.640624"
+      }
     }
   ],
   "history": [
@@ -3328,6 +3358,18 @@
       "tech_id": "llm-零阶偏好对齐",
       "tech_name": "零阶偏好对齐",
       "timestamp": "2026-09-17T22:30:28.554490"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-sharded-data-parallelism-(sdp)",
+      "tech_name": "Sharded Data Parallelism (SDP)",
+      "timestamp": "2026-09-18T01:50:40.642641"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-prolog-for-legal-translation",
+      "tech_name": "PROLOG for Legal Translation",
+      "timestamp": "2026-09-18T01:50:40.642663"
     }
   ]
 }

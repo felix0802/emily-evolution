@@ -1,48 +1,6 @@
 {
   "sessions": [
     {
-      "timestamp": "2026-09-01T22:08:55.986132",
-      "arxiv_papers_count": 18,
-      "arxiv_top_keywords": [
-        "world",
-        "graph",
-        "latent",
-        "flow",
-        "data",
-        "learning",
-        "action",
-        "jepa",
-        "compass",
-        "molecular"
-      ],
-      "arxiv_strategies": [
-        "搜索: graph neural network",
-        "搜索: transfer learning",
-        "搜索: world model"
-      ],
-      "huggingface_models": 10,
-      "huggingface_tasks": [
-        "sentence-similarity",
-        "fill-mask",
-        "unknown",
-        "text-ranking",
-        "feature-extraction"
-      ],
-      "ml_datasets": [],
-      "ml_total_tests": 0,
-      "github_trending_repos": 8,
-      "paperswithcode_papers": 8,
-      "evolution": {
-        "discovered": 17,
-        "adopted": 2,
-        "decisions": 2
-      },
-      "seed_watering": {
-        "seed_name": "Non-Transformer Arch",
-        "papers_found": 8
-      }
-    },
-    {
       "timestamp": "2026-09-02T01:40:13.880210",
       "arxiv_papers_count": 18,
       "arxiv_top_keywords": [
@@ -4522,12 +4480,59 @@
         "seed_name": "",
         "papers_found": 0
       }
+    },
+    {
+      "timestamp": "2026-09-18T01:50:43.010065",
+      "arxiv_papers_count": 23,
+      "arxiv_top_keywords": [
+        "scale",
+        "data",
+        "reasoning",
+        "human",
+        "routing",
+        "agent",
+        "language",
+        "reconstruction",
+        "training",
+        "learning"
+      ],
+      "arxiv_strategies": [
+        "cs.AI 最新",
+        "cs.LG 最新",
+        "cs.CL 最新"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "unknown",
+        "fill-mask",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 26,
+        "adopted": 2,
+        "decisions": 2
+      },
+      "seed_watering": {
+        "seed_name": "",
+        "papers_found": 0
+      }
     }
   ],
   "total_sessions": 101,
-  "last_updated": "2026-09-17T22:30:31.786857",
+  "last_updated": "2026-09-18T01:50:43.010083",
   "evolution_summary": {
-    "total_adopted": 158,
+    "total_adopted": 160,
     "adopted_list": [
       "Knowledge Distillation",
       "World Models / Model-Based RL",
@@ -4686,7 +4691,9 @@
       "Audio Generation for Force-Aware Manipulation",
       "Memory and Self-Reflection Modules",
       "BPE 与 UnigramLM 的解耦比较",
-      "零阶偏好对齐"
+      "零阶偏好对齐",
+      "Sharded Data Parallelism (SDP)",
+      "PROLOG for Legal Translation"
     ],
     "seeds": {
       "mamba": {
@@ -4716,7 +4723,7 @@
       },
       "few-shot": {
         "name": "Few-Shot Learning",
-        "watering": 65,
+        "watering": 66,
         "papers": 33
       },
       "continual-learning": {
@@ -4883,6 +4890,6 @@
         "best_papers_count": 1
       }
     },
-    "last_evolution": "2026-09-17T22:30:31.789780"
+    "last_evolution": "2026-09-18T01:50:43.013307"
   }
 }

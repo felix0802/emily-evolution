@@ -40053,7 +40053,373 @@
         "interfaces"
       ],
       "first_seen_round": 264
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.20359v1",
+      "title": "Accelerating Sharded Data Parallelism at Scale with Federated Learning",
+      "arxiv_id": "2609.20359",
+      "tokens": [
+        "accelerating",
+        "federated",
+        "parallelism",
+        "scale",
+        "sharded"
+      ],
+      "first_seen_round": 269
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.20358v1",
+      "title": "Generating Heterogeneous 3D Geological Microstructures from 2D Images via a Stable Diffusion-Adversarial Model",
+      "arxiv_id": "2609.20358",
+      "tokens": [
+        "adversarial",
+        "diffusion",
+        "generating",
+        "geological",
+        "heterogeneous",
+        "images",
+        "microstructures",
+        "stable"
+      ],
+      "first_seen_round": 269
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.20349v1",
+      "title": "A Qualitative Model for Reasoning about Path and Support",
+      "arxiv_id": "2609.20349",
+      "tokens": [
+        "path",
+        "qualitative",
+        "reasoning",
+        "support"
+      ],
+      "first_seen_round": 269
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.20347v1",
+      "title": "STR-Agent: An LLM-Driven Agent for QoS-Aware Routing in LEO Satellite Networks",
+      "arxiv_id": "2609.20347",
+      "tokens": [
+        "agent",
+        "agent",
+        "aware",
+        "driven",
+        "leo",
+        "llm",
+        "qos",
+        "routing",
+        "satellite",
+        "str"
+      ],
+      "first_seen_round": 269
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.20334v1",
+      "title": "Structured Four-Stage Legal Translation: From Natural-Language Traffic Rules to PROLOG",
+      "arxiv_id": "2609.20334",
+      "tokens": [
+        "four",
+        "language",
+        "legal",
+        "natural",
+        "prolog",
+        "rules",
+        "stage",
+        "structured",
+        "traffic",
+        "translation"
+      ],
+      "first_seen_round": 269
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.20323v1",
+      "title": "NeuSOGA3D: A Neuro-Symbolic Framework for Explainable 3D Geometric Reconstruction",
+      "arxiv_id": "2609.20323",
+      "tokens": [
+        "explainable",
+        "geometric",
+        "neuro",
+        "neusoga3d",
+        "reconstruction",
+        "symbolic"
+      ],
+      "first_seen_round": 269
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.20156v1",
+      "title": "QUALS: Corpus Equilibrium for Universal Forecasting via Pattern Quantization and Learnability Synchronization",
+      "arxiv_id": "2609.20156",
+      "tokens": [
+        "corpus",
+        "equilibrium",
+        "forecasting",
+        "learnability",
+        "pattern",
+        "quals",
+        "quantization",
+        "synchronization",
+        "universal"
+      ],
+      "first_seen_round": 269
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.20152v1",
+      "title": "MTVA-Bench: Evaluating the Language Model Inside Cascaded Voice Agents",
+      "arxiv_id": "2609.20152",
+      "tokens": [
+        "agents",
+        "bench",
+        "cascaded",
+        "evaluating",
+        "inside",
+        "language",
+        "mtva",
+        "voice"
+      ],
+      "first_seen_round": 269
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.20353v1",
+      "title": "Minimax-Optimal Online Contract Design with Unrestricted Bounded Contracts",
+      "arxiv_id": "2609.20353",
+      "tokens": [
+        "bounded",
+        "contract",
+        "contracts",
+        "design",
+        "minimax",
+        "online",
+        "optimal",
+        "unrestricted"
+      ],
+      "first_seen_round": 269
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.20352v1",
+      "title": "COMPASS: Ordered Clustered Routing at 100K Scale",
+      "arxiv_id": "2609.20352",
+      "tokens": [
+        "100k",
+        "clustered",
+        "compass",
+        "ordered",
+        "routing",
+        "scale"
+      ],
+      "first_seen_round": 269
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.20341v1",
+      "title": "Fast Cross-Strength Multi-Contrast Brain MRI Translation using Latent Bridge Matching",
+      "arxiv_id": "2609.20341",
+      "tokens": [
+        "brain",
+        "bridge",
+        "contrast",
+        "cross",
+        "fast",
+        "latent",
+        "matching",
+        "mri",
+        "multi",
+        "strength",
+        "translation"
+      ],
+      "first_seen_round": 269
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.20336v1",
+      "title": "Detecting Deceptive Recruitment: A Signal-theoretic Machine Learning Framework for Early Identification of Labour Exploitation",
+      "arxiv_id": "2609.20336",
+      "tokens": [
+        "deceptive",
+        "detecting",
+        "early",
+        "exploitation",
+        "identification",
+        "labour",
+        "machine",
+        "recruitment",
+        "signal",
+        "theoretic"
+      ],
+      "first_seen_round": 269
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.20333v1",
+      "title": "Sharp Reconstruction Bounds for Autoencoders Using the Same Forward Map",
+      "arxiv_id": "2609.20333",
+      "tokens": [
+        "autoencoders",
+        "bounds",
+        "forward",
+        "map",
+        "reconstruction",
+        "sharp"
+      ],
+      "first_seen_round": 269
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.20327v1",
+      "title": "Near-Optimal Pure Single-Loop Extragradient Method for Strongly Convex--Strongly Concave Minimax Optimization",
+      "arxiv_id": "2609.20327",
+      "tokens": [
+        "concave",
+        "convex",
+        "extragradient",
+        "loop",
+        "minimax",
+        "near",
+        "optimal",
+        "optimization",
+        "pure",
+        "single",
+        "strongly",
+        "strongly"
+      ],
+      "first_seen_round": 269
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.20159v1",
+      "title": "Special Lagrangian cones in Deep Learning",
+      "arxiv_id": "2609.20159",
+      "tokens": [
+        "cones",
+        "lagrangian",
+        "special"
+      ],
+      "first_seen_round": 269
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.20186v1",
+      "title": "To Copy or Not to Copy: Controlling Speculative Decoding via Intrinsic Model Signals",
+      "arxiv_id": "2609.20186",
+      "tokens": [
+        "controlling",
+        "copy",
+        "copy",
+        "decoding",
+        "intrinsic",
+        "signals",
+        "speculative"
+      ],
+      "first_seen_round": 269
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.20131v1",
+      "title": "Think Thrice Before Reranking: Multi-perspective Evidence and Reasoning Integration for Text Reranking",
+      "arxiv_id": "2609.20131",
+      "tokens": [
+        "evidence",
+        "integration",
+        "multi",
+        "perspective",
+        "reasoning",
+        "reranking",
+        "reranking",
+        "text",
+        "think",
+        "thrice"
+      ],
+      "first_seen_round": 269
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.20104v1",
+      "title": "Design of the IBM Granite 5.0 TurboCTC ASR Model",
+      "arxiv_id": "2609.20104",
+      "tokens": [
+        "asr",
+        "design",
+        "granite",
+        "ibm",
+        "turboctc"
+      ],
+      "first_seen_round": 269
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.20082v1",
+      "title": "MATCH: Model-Aware Tool Learning with Curriculum Scheduling and Hierarchically Gated Rewards",
+      "arxiv_id": "2609.20082",
+      "tokens": [
+        "aware",
+        "curriculum",
+        "gated",
+        "hierarchically",
+        "match",
+        "rewards",
+        "scheduling",
+        "tool"
+      ],
+      "first_seen_round": 269
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.20081v1",
+      "title": "Reading Emotions in the Token Space: Discriminative Adaptation of SpeechLLMs for Emotion Recognition",
+      "arxiv_id": "2609.20081",
+      "tokens": [
+        "adaptation",
+        "discriminative",
+        "emotion",
+        "emotions",
+        "reading",
+        "recognition",
+        "space",
+        "speechllms",
+        "token"
+      ],
+      "first_seen_round": 269
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.20068v1",
+      "title": "Marginal utility, matrix factorization, and the Key-Value (KV) cache: a unified information-economic framework for sovereign geo-mining inference",
+      "arxiv_id": "2609.20068",
+      "tokens": [
+        "cache",
+        "economic",
+        "factorization",
+        "geo",
+        "inference",
+        "information",
+        "key",
+        "marginal",
+        "matrix",
+        "mining",
+        "sovereign",
+        "unified",
+        "utility",
+        "value"
+      ],
+      "first_seen_round": 269
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.20059v1",
+      "title": "AI Should Facilitate Democratic Deliberation at Scale",
+      "arxiv_id": "2609.20059",
+      "tokens": [
+        "deliberation",
+        "democratic",
+        "facilitate",
+        "scale"
+      ],
+      "first_seen_round": 269
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.20050v1",
+      "title": "The Missing Complement: State-Conditioned Minimal Sufficient Evidence for Coding Agents",
+      "arxiv_id": "2609.20050",
+      "tokens": [
+        "agents",
+        "coding",
+        "complement",
+        "conditioned",
+        "evidence",
+        "minimal",
+        "missing",
+        "state",
+        "sufficient"
+      ],
+      "first_seen_round": 269
     }
   ],
-  "total_unique": 2496
+  "total_unique": 2519
 }
