@@ -61,9 +61,9 @@
       "timestamp": "2026-07-09T10:11:14.464676"
     },
     "Breast Cancer_RandomForest": {
-      "accuracy_mean": 0.9596,
-      "evolution": 132,
-      "timestamp": "2026-07-10T07:45:06.461642"
+      "accuracy_mean": 0.9613,
+      "evolution": 274,
+      "timestamp": "2026-09-18T23:42:17.155108"
     },
     "Breast Cancer_GradientBoosting": {
       "accuracy_mean": 0.9579,
@@ -111,14 +111,8 @@
       "timestamp": "2026-07-07T08:54:37.763781"
     }
   },
-  "evolution_count": 273,
+  "evolution_count": 274,
   "history": [
-    {
-      "evolution": 225,
-      "timestamp": "2026-09-10T17:21:38.057240",
-      "total_tests": 22,
-      "improvements": []
-    },
     {
       "evolution": 226,
       "timestamp": "2026-09-10T20:10:11.356340",
@@ -412,6 +406,14 @@
       "timestamp": "2026-09-18T20:04:34.124408",
       "total_tests": 22,
       "improvements": []
+    },
+    {
+      "evolution": 274,
+      "timestamp": "2026-09-18T23:42:17.155118",
+      "total_tests": 22,
+      "improvements": [
+        "Breast Cancer_RandomForest: 0.9596 → 0.9613"
+      ]
     }
   ]
 }

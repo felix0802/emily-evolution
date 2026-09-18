@@ -1,48 +1,6 @@
 {
   "sessions": [
     {
-      "timestamp": "2026-09-02T20:12:15.086951",
-      "arxiv_papers_count": 21,
-      "arxiv_top_keywords": [
-        "generation",
-        "language",
-        "segmentation",
-        "text",
-        "foundation",
-        "llm",
-        "agents",
-        "retrieval",
-        "agent",
-        "guidance"
-      ],
-      "arxiv_strategies": [
-        "cs.CV 最新",
-        "cs.AI+cs.LG 混合",
-        "cs.CL+cs.CV 混合"
-      ],
-      "huggingface_models": 10,
-      "huggingface_tasks": [
-        "sentence-similarity",
-        "fill-mask",
-        "unknown",
-        "text-ranking",
-        "feature-extraction"
-      ],
-      "ml_datasets": [],
-      "ml_total_tests": 0,
-      "github_trending_repos": 8,
-      "paperswithcode_papers": 8,
-      "evolution": {
-        "discovered": 18,
-        "adopted": 2,
-        "decisions": 2
-      },
-      "seed_watering": {
-        "seed_name": "Graph Neural Networks",
-        "papers_found": 7
-      }
-    },
-    {
       "timestamp": "2026-09-02T23:39:23.357262",
       "arxiv_papers_count": 18,
       "arxiv_top_keywords": [
@@ -4547,10 +4505,57 @@
         "seed_name": "",
         "papers_found": 0
       }
+    },
+    {
+      "timestamp": "2026-09-18T23:42:26.044839",
+      "arxiv_papers_count": 5,
+      "arxiv_top_keywords": [
+        "robot",
+        "obstacle",
+        "coding",
+        "agents",
+        "manipulation",
+        "memory",
+        "lightweight",
+        "robotic",
+        "information",
+        "vlm"
+      ],
+      "arxiv_strategies": [
+        "cs.AI (fallback)",
+        "cs.AI (fallback)",
+        "cs.AI (fallback)"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "unknown",
+        "fill-mask",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 14,
+        "adopted": 0,
+        "decisions": 0
+      },
+      "seed_watering": {
+        "seed_name": "",
+        "papers_found": 0
+      }
     }
   ],
   "total_sessions": 101,
-  "last_updated": "2026-09-18T20:04:43.283481",
+  "last_updated": "2026-09-18T23:42:26.044855",
   "evolution_summary": {
     "total_adopted": 161,
     "adopted_list": [
@@ -4719,7 +4724,7 @@
     "seeds": {
       "mamba": {
         "name": "Mamba (SSM)",
-        "watering": 67,
+        "watering": 68,
         "papers": 60
       },
       "liquid-networks": {
@@ -4911,6 +4916,6 @@
         "best_papers_count": 1
       }
     },
-    "last_evolution": "2026-09-18T20:04:43.286453"
+    "last_evolution": "2026-09-18T23:42:26.047198"
   }
 }

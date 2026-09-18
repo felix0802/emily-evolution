@@ -1,19 +1,10 @@
 {
-  "_rotation_idx": 640,
+  "_rotation_idx": 641,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 60,
-    "watering_count": 67,
+    "watering_count": 68,
     "history": [
-      {
-        "timestamp": "2026-07-24T13:16:33.662915",
-        "papers_found": 0,
-        "duplicates": 0,
-        "irrelevant_filtered": 0,
-        "avg_relevance": 0,
-        "high_relevance": 0,
-        "papers": []
-      },
       {
         "timestamp": "2026-07-25T10:59:27.337227",
         "papers_found": 0,
@@ -674,6 +665,15 @@
         "avg_relevance": 0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-09-18T23:42:21.762867",
+        "papers_found": 0,
+        "duplicates": 0,
+        "irrelevant_filtered": 0,
+        "avg_relevance": 0,
+        "high_relevance": 0,
+        "papers": []
       }
     ],
     "keywords": [
@@ -682,7 +682,7 @@
       "ssm",
       "selective scan"
     ],
-    "last_watered": "2026-09-17T02:33:24.745937"
+    "last_watered": "2026-09-18T23:42:21.762858"
   },
   "liquid-networks": {
     "name": "Liquid Networks",
