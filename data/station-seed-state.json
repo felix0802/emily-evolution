@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 637,
+  "_rotation_idx": 638,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 60,
@@ -5088,25 +5088,8 @@
   "moe": {
     "name": "Mixture of Experts",
     "total_papers_found": 92,
-    "watering_count": 60,
+    "watering_count": 61,
     "history": [
-      {
-        "timestamp": "2026-07-24T04:57:44.261038",
-        "papers_found": 1,
-        "duplicates": 4,
-        "irrelevant_filtered": 5,
-        "avg_relevance": 2.0,
-        "high_relevance": 1,
-        "papers": [
-          {
-            "title": "Emergent Compositional Skills in Mixture-of-Experts VLAs",
-            "summary": "We consider the problem of learning compositional robot policies end-to-end from expert demonstrations, without any pre-specified notion of task decomposition or hierarchy. We ask whether a VLA trained with a simplified Mixture-of-Experts (MoE) action head can emergently learn to decompose tasks int",
-            "published": "2026-07-22",
-            "url": "http://arxiv.org/abs/2607.20771v1",
-            "seed_match_score": 2
-          }
-        ]
-      },
       {
         "timestamp": "2026-07-25T04:53:29.886999",
         "papers_found": 0,
@@ -5997,6 +5980,15 @@
         "avg_relevance": 0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-09-18T12:25:17.590137",
+        "papers_found": 0,
+        "duplicates": 0,
+        "irrelevant_filtered": 0,
+        "avg_relevance": 0,
+        "high_relevance": 0,
+        "papers": []
       }
     ],
     "keywords": [
@@ -6008,7 +6000,7 @@
       "switch transformer",
       "deepseek"
     ],
-    "last_watered": "2026-09-16T17:47:30.263999"
+    "last_watered": "2026-09-18T12:25:17.590130"
   },
   "kv-cache": {
     "name": "KV Cache Optimization",
