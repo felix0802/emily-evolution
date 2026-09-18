@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 636,
+  "_rotation_idx": 637,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 60,
@@ -4278,25 +4278,8 @@
   "continual-learning": {
     "name": "Continual Learning",
     "total_papers_found": 78,
-    "watering_count": 64,
+    "watering_count": 65,
     "history": [
-      {
-        "timestamp": "2026-07-24T01:23:19.933144",
-        "papers_found": 1,
-        "duplicates": 5,
-        "irrelevant_filtered": 4,
-        "avg_relevance": 1.0,
-        "high_relevance": 0,
-        "papers": [
-          {
-            "title": "Leveraging ECRAM for Edge Continual Learning",
-            "summary": "Several edge computing platforms, such as autonomous vehicles and smart sensing devices, need to adapt to dynamic environments in real time by learning from new data in the field. Continual learning has emerged as a promising solution for edge training, by incorporating techniques that successfully ",
-            "published": "2026-07-22",
-            "url": "http://arxiv.org/abs/2607.19661v1",
-            "seed_match_score": 1
-          }
-        ]
-      },
       {
         "timestamp": "2026-07-25T01:23:37.626418",
         "papers_found": 0,
@@ -5082,6 +5065,15 @@
             "seed_match_score": 1
           }
         ]
+      },
+      {
+        "timestamp": "2026-09-18T06:47:51.561688",
+        "papers_found": 0,
+        "duplicates": 0,
+        "irrelevant_filtered": 0,
+        "avg_relevance": 0,
+        "high_relevance": 0,
+        "papers": []
       }
     ],
     "keywords": [
@@ -5091,7 +5083,7 @@
       "ewc",
       "elastic weight"
     ],
-    "last_watered": "2026-09-16T12:53:42.568221"
+    "last_watered": "2026-09-18T06:47:51.561680"
   },
   "moe": {
     "name": "Mixture of Experts",

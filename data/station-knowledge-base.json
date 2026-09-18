@@ -1,48 +1,6 @@
 {
   "sessions": [
     {
-      "timestamp": "2026-09-02T01:40:13.880210",
-      "arxiv_papers_count": 18,
-      "arxiv_top_keywords": [
-        "time",
-        "detection",
-        "data",
-        "network",
-        "warmup",
-        "adaptation",
-        "online",
-        "edge",
-        "leakage",
-        "transition"
-      ],
-      "arxiv_strategies": [
-        "搜索: time series forecasting",
-        "搜索: anomaly detection",
-        "搜索: mixture of experts"
-      ],
-      "huggingface_models": 10,
-      "huggingface_tasks": [
-        "sentence-similarity",
-        "fill-mask",
-        "unknown",
-        "text-ranking",
-        "feature-extraction"
-      ],
-      "ml_datasets": [],
-      "ml_total_tests": 0,
-      "github_trending_repos": 8,
-      "paperswithcode_papers": 8,
-      "evolution": {
-        "discovered": 15,
-        "adopted": 2,
-        "decisions": 2
-      },
-      "seed_watering": {
-        "seed_name": "Few-Shot Learning",
-        "papers_found": 5
-      }
-    },
-    {
       "timestamp": "2026-09-02T06:31:33.378862",
       "arxiv_papers_count": 18,
       "arxiv_top_keywords": [
@@ -4527,12 +4485,59 @@
         "seed_name": "",
         "papers_found": 0
       }
+    },
+    {
+      "timestamp": "2026-09-18T06:47:58.481343",
+      "arxiv_papers_count": 5,
+      "arxiv_top_keywords": [
+        "robot",
+        "obstacle",
+        "coding",
+        "agents",
+        "manipulation",
+        "memory",
+        "lightweight",
+        "robotic",
+        "information",
+        "vlm"
+      ],
+      "arxiv_strategies": [
+        "cs.AI (fallback)",
+        "cs.AI (fallback)",
+        "cs.AI (fallback)"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "unknown",
+        "fill-mask",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 14,
+        "adopted": 1,
+        "decisions": 1
+      },
+      "seed_watering": {
+        "seed_name": "",
+        "papers_found": 0
+      }
     }
   ],
   "total_sessions": 101,
-  "last_updated": "2026-09-18T01:50:43.010083",
+  "last_updated": "2026-09-18T06:47:58.481360",
   "evolution_summary": {
-    "total_adopted": 160,
+    "total_adopted": 161,
     "adopted_list": [
       "Knowledge Distillation",
       "World Models / Model-Based RL",
@@ -4693,7 +4698,8 @@
       "BPE 与 UnigramLM 的解耦比较",
       "零阶偏好对齐",
       "Sharded Data Parallelism (SDP)",
-      "PROLOG for Legal Translation"
+      "PROLOG for Legal Translation",
+      "Obstacle-Aware Harness"
     ],
     "seeds": {
       "mamba": {
@@ -4728,7 +4734,7 @@
       },
       "continual-learning": {
         "name": "Continual Learning",
-        "watering": 64,
+        "watering": 65,
         "papers": 78
       },
       "moe": {
@@ -4890,6 +4896,6 @@
         "best_papers_count": 1
       }
     },
-    "last_evolution": "2026-09-18T01:50:43.013307"
+    "last_evolution": "2026-09-18T06:47:58.483856"
   }
 }
