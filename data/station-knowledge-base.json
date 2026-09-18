@@ -1,48 +1,6 @@
 {
   "sessions": [
     {
-      "timestamp": "2026-09-02T12:20:28.423235",
-      "arxiv_papers_count": 18,
-      "arxiv_top_keywords": [
-        "language",
-        "attention",
-        "linear",
-        "learning",
-        "graph",
-        "neural",
-        "distillation",
-        "teacher",
-        "subzero",
-        "gradient"
-      ],
-      "arxiv_strategies": [
-        "搜索: multi-query attention",
-        "搜索: geometric deep learning",
-        "搜索: knowledge distillation"
-      ],
-      "huggingface_models": 10,
-      "huggingface_tasks": [
-        "sentence-similarity",
-        "fill-mask",
-        "unknown",
-        "text-ranking",
-        "feature-extraction"
-      ],
-      "ml_datasets": [],
-      "ml_total_tests": 0,
-      "github_trending_repos": 8,
-      "paperswithcode_papers": 8,
-      "evolution": {
-        "discovered": 20,
-        "adopted": 1,
-        "decisions": 1
-      },
-      "seed_watering": {
-        "seed_name": "Mixture of Experts",
-        "papers_found": 6
-      }
-    },
-    {
       "timestamp": "2026-09-02T17:28:27.219104",
       "arxiv_papers_count": 15,
       "arxiv_top_keywords": [
@@ -4537,10 +4495,57 @@
         "seed_name": "",
         "papers_found": 0
       }
+    },
+    {
+      "timestamp": "2026-09-18T17:20:12.965047",
+      "arxiv_papers_count": 5,
+      "arxiv_top_keywords": [
+        "robot",
+        "obstacle",
+        "coding",
+        "agents",
+        "manipulation",
+        "memory",
+        "lightweight",
+        "robotic",
+        "information",
+        "vlm"
+      ],
+      "arxiv_strategies": [
+        "cs.AI (fallback)",
+        "cs.AI (fallback)",
+        "cs.AI (fallback)"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "unknown",
+        "fill-mask",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 14,
+        "adopted": 0,
+        "decisions": 0
+      },
+      "seed_watering": {
+        "seed_name": "",
+        "papers_found": 0
+      }
     }
   ],
   "total_sessions": 101,
-  "last_updated": "2026-09-18T12:25:22.906721",
+  "last_updated": "2026-09-18T17:20:12.965061",
   "evolution_summary": {
     "total_adopted": 161,
     "adopted_list": [
@@ -4749,7 +4754,7 @@
       },
       "kv-cache": {
         "name": "KV Cache Optimization",
-        "watering": 61,
+        "watering": 62,
         "papers": 84
       },
       "gnn": {
@@ -4901,6 +4906,6 @@
         "best_papers_count": 1
       }
     },
-    "last_evolution": "2026-09-18T12:25:22.909708"
+    "last_evolution": "2026-09-18T17:20:12.968086"
   }
 }
