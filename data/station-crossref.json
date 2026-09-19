@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-19T16:51:49.954149",
+  "timestamp": "2026-09-19T19:41:38.859623",
   "connections": [
     {
       "seed_a": "Mamba (SSM)",
@@ -10,7 +10,7 @@
       ],
       "shared_paper_concepts": [],
       "strength": 4,
-      "discovered_at": "2026-09-19T16:51:49.954090"
+      "discovered_at": "2026-09-19T19:41:38.859575"
     },
     {
       "seed_a": "HTM",
@@ -22,7 +22,7 @@
         "with"
       ],
       "strength": 3,
-      "discovered_at": "2026-09-19T16:51:49.954114"
+      "discovered_at": "2026-09-19T19:41:38.859595"
     },
     {
       "seed_a": "Non-Transformer Arch",
@@ -34,7 +34,7 @@
         "space"
       ],
       "strength": 3,
-      "discovered_at": "2026-09-19T16:51:49.954136"
+      "discovered_at": "2026-09-19T19:41:38.859612"
     },
     {
       "seed_a": "HTM",
@@ -45,7 +45,7 @@
         "with"
       ],
       "strength": 2,
-      "discovered_at": "2026-09-19T16:51:49.954117"
+      "discovered_at": "2026-09-19T19:41:38.859597"
     },
     {
       "seed_a": "Spiking Neural Networks",
@@ -56,7 +56,7 @@
         "learning"
       ],
       "strength": 2,
-      "discovered_at": "2026-09-19T16:51:49.954125"
+      "discovered_at": "2026-09-19T19:41:38.859603"
     },
     {
       "seed_a": "Continual Learning",
@@ -67,7 +67,7 @@
         "with"
       ],
       "strength": 2,
-      "discovered_at": "2026-09-19T16:51:49.954142"
+      "discovered_at": "2026-09-19T19:41:38.859616"
     },
     {
       "seed_a": "HTM",
@@ -77,7 +77,7 @@
         "learning"
       ],
       "strength": 1,
-      "discovered_at": "2026-09-19T16:51:49.954103"
+      "discovered_at": "2026-09-19T19:41:38.859586"
     },
     {
       "seed_a": "HTM",
@@ -87,7 +87,7 @@
         "learning"
       ],
       "strength": 1,
-      "discovered_at": "2026-09-19T16:51:49.954107"
+      "discovered_at": "2026-09-19T19:41:38.859589"
     },
     {
       "seed_a": "HTM",
@@ -97,7 +97,7 @@
         "shot"
       ],
       "strength": 1,
-      "discovered_at": "2026-09-19T16:51:49.954110"
+      "discovered_at": "2026-09-19T19:41:38.859592"
     },
     {
       "seed_a": "Spiking Neural Networks",
@@ -107,7 +107,7 @@
         "learning"
       ],
       "strength": 1,
-      "discovered_at": "2026-09-19T16:51:49.954122"
+      "discovered_at": "2026-09-19T19:41:38.859601"
     }
   ],
   "total_seeds": 10
