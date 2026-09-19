@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 641,
+  "_rotation_idx": 642,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 60,
@@ -687,32 +687,8 @@
   "liquid-networks": {
     "name": "Liquid Networks",
     "total_papers_found": 70,
-    "watering_count": 67,
+    "watering_count": 68,
     "history": [
-      {
-        "timestamp": "2026-07-24T15:19:28.182457",
-        "papers_found": 2,
-        "duplicates": 7,
-        "irrelevant_filtered": 1,
-        "avg_relevance": 1.5,
-        "high_relevance": 1,
-        "papers": [
-          {
-            "title": "Context-weighted Discrete Flow Matching",
-            "summary": "Discrete flow matching provides a flexible framework for generative modeling on discrete structures. However, the standard factorized training objective exposes the model to targets of varying difficulty, mixing well-conditioned, predictable tokens with ambiguous, high-entropy ones. We empirically d",
-            "published": "2026-07-23",
-            "url": "http://arxiv.org/abs/2607.21427v1",
-            "seed_match_score": 1
-          },
-          {
-            "title": "Smooth Neural Point Processes via B-Splines",
-            "summary": "Temporal point processes (TPPs) provide a general and flexible framework for modeling sequences of events in continuous time. Neural networks have been successfully employed to model TPPs in a highly expressive and data-driven way. Neural TPPs are typically trained via Maximum Likelihood Estimation ",
-            "published": "2026-07-23",
-            "url": "http://arxiv.org/abs/2607.21098v1",
-            "seed_match_score": 2
-          }
-        ]
-      },
       {
         "timestamp": "2026-07-25T12:55:05.694574",
         "papers_found": 0,
@@ -1403,6 +1379,15 @@
         "avg_relevance": 0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-09-19T01:55:41.706519",
+        "papers_found": 0,
+        "duplicates": 0,
+        "irrelevant_filtered": 0,
+        "avg_relevance": 0,
+        "high_relevance": 0,
+        "papers": []
       }
     ],
     "keywords": [
@@ -1412,7 +1397,7 @@
       "ode",
       "continuous-time"
     ],
-    "last_watered": "2026-09-17T08:58:20.830507"
+    "last_watered": "2026-09-19T01:55:41.706512"
   },
   "htm": {
     "name": "HTM",
