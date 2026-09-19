@@ -1,48 +1,6 @@
 {
   "sessions": [
     {
-      "timestamp": "2026-09-03T06:35:52.852081",
-      "arxiv_papers_count": 18,
-      "arxiv_top_keywords": [
-        "world",
-        "graph",
-        "neural",
-        "vision",
-        "data",
-        "learning",
-        "language",
-        "heuristic",
-        "user",
-        "refining"
-      ],
-      "arxiv_strategies": [
-        "搜索: graph neural network",
-        "搜索: transfer learning",
-        "搜索: world model"
-      ],
-      "huggingface_models": 10,
-      "huggingface_tasks": [
-        "sentence-similarity",
-        "fill-mask",
-        "unknown",
-        "text-ranking",
-        "feature-extraction"
-      ],
-      "ml_datasets": [],
-      "ml_total_tests": 0,
-      "github_trending_repos": 8,
-      "paperswithcode_papers": 8,
-      "evolution": {
-        "discovered": 22,
-        "adopted": 2,
-        "decisions": 3
-      },
-      "seed_watering": {
-        "seed_name": "HTM",
-        "papers_found": 3
-      }
-    },
-    {
       "timestamp": "2026-09-03T12:18:37.451599",
       "arxiv_papers_count": 18,
       "arxiv_top_keywords": [
@@ -4562,10 +4520,57 @@
         "seed_name": "",
         "papers_found": 0
       }
+    },
+    {
+      "timestamp": "2026-09-19T12:06:55.719918",
+      "arxiv_papers_count": 17,
+      "arxiv_top_keywords": [
+        "agents",
+        "coding",
+        "across",
+        "robot",
+        "obstacle",
+        "manipulation",
+        "memory",
+        "lightweight",
+        "robotic",
+        "information"
+      ],
+      "arxiv_strategies": [
+        "cs.AI 最新",
+        "cs.LG 最新",
+        "cs.CL 最新"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "unknown",
+        "fill-mask",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 20,
+        "adopted": 0,
+        "decisions": 0
+      },
+      "seed_watering": {
+        "seed_name": "",
+        "papers_found": 0
+      }
     }
   ],
   "total_sessions": 101,
-  "last_updated": "2026-09-19T06:47:58.373605",
+  "last_updated": "2026-09-19T12:06:55.719931",
   "evolution_summary": {
     "total_adopted": 161,
     "adopted_list": [
@@ -4749,7 +4754,7 @@
       },
       "spiking-nn": {
         "name": "Spiking Neural Networks",
-        "watering": 66,
+        "watering": 67,
         "papers": 35
       },
       "non-transformer": {
@@ -4926,6 +4931,6 @@
         "best_papers_count": 1
       }
     },
-    "last_evolution": "2026-09-19T06:47:58.376564"
+    "last_evolution": "2026-09-19T12:06:55.722221"
   }
 }

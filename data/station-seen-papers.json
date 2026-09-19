@@ -40501,7 +40501,183 @@
         "video"
       ],
       "first_seen_round": 270
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.20812v1",
+      "title": "Quantifying Overclaiming Propensity in Frontier LLM Agents",
+      "arxiv_id": "2609.20812",
+      "tokens": [
+        "agents",
+        "frontier",
+        "llm",
+        "overclaiming",
+        "propensity",
+        "quantifying"
+      ],
+      "first_seen_round": 277
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.20804v1",
+      "title": "An Empirical Study of Harness Design for Coding Agents",
+      "arxiv_id": "2609.20804",
+      "tokens": [
+        "agents",
+        "coding",
+        "design",
+        "empirical",
+        "harness"
+      ],
+      "first_seen_round": 277
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.20784v1",
+      "title": "RetireOPD: Self-Retiring On-Policy Distillation for Agentic Reinforcement Learning",
+      "arxiv_id": "2609.20784",
+      "tokens": [
+        "agentic",
+        "distillation",
+        "policy",
+        "reinforcement",
+        "retireopd",
+        "retiring",
+        "self"
+      ],
+      "first_seen_round": 277
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.20821v1",
+      "title": "Embedding Models Measure in Peculiar Ways",
+      "arxiv_id": "2609.20821",
+      "tokens": [
+        "embedding",
+        "measure",
+        "peculiar",
+        "ways"
+      ],
+      "first_seen_round": 277
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.20814v1",
+      "title": "How Does Distribution Shift Shape Pretraining Gains in Neural PDE Surrogates?",
+      "arxiv_id": "2609.20814",
+      "tokens": [
+        "distribution",
+        "gains",
+        "neural",
+        "pde",
+        "pretraining",
+        "shape",
+        "shift",
+        "surrogates"
+      ],
+      "first_seen_round": 277
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.20807v1",
+      "title": "Score Centering Stabilizes Off-policy Reinforcement Learning",
+      "arxiv_id": "2609.20807",
+      "tokens": [
+        "centering",
+        "policy",
+        "reinforcement",
+        "score",
+        "stabilizes"
+      ],
+      "first_seen_round": 277
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.20794v1",
+      "title": "PosteriorBench: From Point Estimates to Posterior Matching in Evaluating Generative Inverse Solvers",
+      "arxiv_id": "2609.20794",
+      "tokens": [
+        "estimates",
+        "evaluating",
+        "generative",
+        "inverse",
+        "matching",
+        "point",
+        "posterior",
+        "posteriorbench",
+        "solvers"
+      ],
+      "first_seen_round": 277
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.20776v1",
+      "title": "GeoAAC: Geometry-Based Adaptive Action Chunking from Denoising Trajectories in VLA Policies",
+      "arxiv_id": "2609.20776",
+      "tokens": [
+        "action",
+        "adaptive",
+        "chunking",
+        "denoising",
+        "geoaac",
+        "geometry",
+        "policies",
+        "trajectories",
+        "vla"
+      ],
+      "first_seen_round": 277
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.20808v1",
+      "title": "Unifying Models of Intergroup Hostility in Online Discourse",
+      "arxiv_id": "2609.20808",
+      "tokens": [
+        "discourse",
+        "hostility",
+        "intergroup",
+        "online",
+        "unifying"
+      ],
+      "first_seen_round": 277
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.20800v1",
+      "title": "JEPA-Anything: Learning Predictive Models across Different Worlds",
+      "arxiv_id": "2609.20800",
+      "tokens": [
+        "anything",
+        "different",
+        "jepa",
+        "predictive",
+        "worlds"
+      ],
+      "first_seen_round": 277
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.20779v1",
+      "title": "Harm Laundering in GPT Models: Evidence That Gender Discrimination Is Transformed Rather Than Reduced Across Safety-Trained Generations",
+      "arxiv_id": "2609.20779",
+      "tokens": [
+        "discrimination",
+        "evidence",
+        "gender",
+        "generations",
+        "gpt",
+        "harm",
+        "laundering",
+        "rather",
+        "reduced",
+        "safety",
+        "trained",
+        "transformed"
+      ],
+      "first_seen_round": 277
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.20751v1",
+      "title": "dQwen3.5: Hybrid-Attention Diffusion Language Models",
+      "arxiv_id": "2609.20751",
+      "tokens": [
+        "attention",
+        "diffusion",
+        "dqwen3",
+        "hybrid",
+        "language"
+      ],
+      "first_seen_round": 277
     }
   ],
-  "total_unique": 2524
+  "total_unique": 2536
 }
