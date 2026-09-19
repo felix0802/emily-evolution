@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-19T21:51:24.260755",
+  "timestamp": "2026-09-19T23:43:47.019837",
   "connections": [
     {
       "seed_a": "Mamba (SSM)",
@@ -10,7 +10,7 @@
       ],
       "shared_paper_concepts": [],
       "strength": 4,
-      "discovered_at": "2026-09-19T21:51:24.260688"
+      "discovered_at": "2026-09-19T23:43:47.019789"
     },
     {
       "seed_a": "HTM",
@@ -22,30 +22,7 @@
         "with"
       ],
       "strength": 3,
-      "discovered_at": "2026-09-19T21:51:24.260708"
-    },
-    {
-      "seed_a": "Non-Transformer Arch",
-      "seed_b": "Mixture of Experts",
-      "shared_keywords": [],
-      "shared_paper_concepts": [
-        "fixed",
-        "learning",
-        "space"
-      ],
-      "strength": 3,
-      "discovered_at": "2026-09-19T21:51:24.260743"
-    },
-    {
-      "seed_a": "HTM",
-      "seed_b": "Mixture of Experts",
-      "shared_keywords": [],
-      "shared_paper_concepts": [
-        "learning",
-        "with"
-      ],
-      "strength": 2,
-      "discovered_at": "2026-09-19T21:51:24.260711"
+      "discovered_at": "2026-09-19T23:43:47.019813"
     },
     {
       "seed_a": "Spiking Neural Networks",
@@ -56,18 +33,7 @@
         "learning"
       ],
       "strength": 2,
-      "discovered_at": "2026-09-19T21:51:24.260717"
-    },
-    {
-      "seed_a": "Continual Learning",
-      "seed_b": "Mixture of Experts",
-      "shared_keywords": [],
-      "shared_paper_concepts": [
-        "learning",
-        "with"
-      ],
-      "strength": 2,
-      "discovered_at": "2026-09-19T21:51:24.260749"
+      "discovered_at": "2026-09-19T23:43:47.019822"
     },
     {
       "seed_a": "HTM",
@@ -77,7 +43,7 @@
         "learning"
       ],
       "strength": 1,
-      "discovered_at": "2026-09-19T21:51:24.260700"
+      "discovered_at": "2026-09-19T23:43:47.019803"
     },
     {
       "seed_a": "HTM",
@@ -87,7 +53,7 @@
         "learning"
       ],
       "strength": 1,
-      "discovered_at": "2026-09-19T21:51:24.260703"
+      "discovered_at": "2026-09-19T23:43:47.019807"
     },
     {
       "seed_a": "HTM",
@@ -97,7 +63,7 @@
         "shot"
       ],
       "strength": 1,
-      "discovered_at": "2026-09-19T21:51:24.260706"
+      "discovered_at": "2026-09-19T23:43:47.019810"
     },
     {
       "seed_a": "Spiking Neural Networks",
@@ -107,7 +73,17 @@
         "learning"
       ],
       "strength": 1,
-      "discovered_at": "2026-09-19T21:51:24.260715"
+      "discovered_at": "2026-09-19T23:43:47.019818"
+    },
+    {
+      "seed_a": "Non-Transformer Arch",
+      "seed_b": "Continual Learning",
+      "shared_keywords": [],
+      "shared_paper_concepts": [
+        "learning"
+      ],
+      "strength": 1,
+      "discovered_at": "2026-09-19T23:43:47.019826"
     }
   ],
   "total_seeds": 10
