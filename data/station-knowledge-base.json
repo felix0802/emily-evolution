@@ -1,53 +1,6 @@
 {
   "sessions": [
     {
-      "timestamp": "2026-09-03T12:18:37.451599",
-      "arxiv_papers_count": 18,
-      "arxiv_top_keywords": [
-        "time",
-        "series",
-        "online",
-        "detection",
-        "data",
-        "experts",
-        "across",
-        "moe",
-        "representation",
-        "framework"
-      ],
-      "arxiv_strategies": [
-        "搜索: time series forecasting",
-        "搜索: anomaly detection",
-        "搜索: mixture of experts"
-      ],
-      "huggingface_models": 10,
-      "huggingface_tasks": [
-        "sentence-similarity",
-        "fill-mask",
-        "unknown",
-        "text-ranking",
-        "feature-extraction"
-      ],
-      "ml_datasets": [
-        "Iris",
-        "Wine",
-        "Breast Cancer",
-        "Diabetes"
-      ],
-      "ml_total_tests": 22,
-      "github_trending_repos": 8,
-      "paperswithcode_papers": 8,
-      "evolution": {
-        "discovered": 13,
-        "adopted": 2,
-        "decisions": 2
-      },
-      "seed_watering": {
-        "seed_name": "Spiking Neural Networks",
-        "papers_found": 9
-      }
-    },
-    {
       "timestamp": "2026-09-03T17:21:18.896138",
       "arxiv_papers_count": 18,
       "arxiv_top_keywords": [
@@ -4567,10 +4520,57 @@
         "seed_name": "",
         "papers_found": 0
       }
+    },
+    {
+      "timestamp": "2026-09-19T16:51:49.939075",
+      "arxiv_papers_count": 5,
+      "arxiv_top_keywords": [
+        "robot",
+        "obstacle",
+        "coding",
+        "agents",
+        "manipulation",
+        "memory",
+        "lightweight",
+        "robotic",
+        "information",
+        "vlm"
+      ],
+      "arxiv_strategies": [
+        "cs.AI (fallback)",
+        "cs.AI (fallback)",
+        "cs.AI (fallback)"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "unknown",
+        "fill-mask",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 14,
+        "adopted": 0,
+        "decisions": 0
+      },
+      "seed_watering": {
+        "seed_name": "",
+        "papers_found": 0
+      }
     }
   ],
   "total_sessions": 101,
-  "last_updated": "2026-09-19T12:06:55.719931",
+  "last_updated": "2026-09-19T16:51:49.939090",
   "evolution_summary": {
     "total_adopted": 161,
     "adopted_list": [
@@ -4759,7 +4759,7 @@
       },
       "non-transformer": {
         "name": "Non-Transformer Arch",
-        "watering": 67,
+        "watering": 68,
         "papers": 39
       },
       "few-shot": {
@@ -4931,6 +4931,6 @@
         "best_papers_count": 1
       }
     },
-    "last_evolution": "2026-09-19T12:06:55.722221"
+    "last_evolution": "2026-09-19T16:51:49.942084"
   }
 }
