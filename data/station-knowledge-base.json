@@ -1,53 +1,6 @@
 {
   "sessions": [
     {
-      "timestamp": "2026-09-03T20:13:36.963068",
-      "arxiv_papers_count": 18,
-      "arxiv_top_keywords": [
-        "language",
-        "attention",
-        "linear",
-        "learning",
-        "theory",
-        "graph",
-        "neural",
-        "decentralized",
-        "knowledge",
-        "distillation"
-      ],
-      "arxiv_strategies": [
-        "搜索: multi-query attention",
-        "搜索: geometric deep learning",
-        "搜索: knowledge distillation"
-      ],
-      "huggingface_models": 10,
-      "huggingface_tasks": [
-        "sentence-similarity",
-        "fill-mask",
-        "unknown",
-        "text-ranking",
-        "feature-extraction"
-      ],
-      "ml_datasets": [
-        "Iris",
-        "Wine",
-        "Breast Cancer",
-        "Diabetes"
-      ],
-      "ml_total_tests": 22,
-      "github_trending_repos": 8,
-      "paperswithcode_papers": 8,
-      "evolution": {
-        "discovered": 20,
-        "adopted": 0,
-        "decisions": 0
-      },
-      "seed_watering": {
-        "seed_name": "Few-Shot Learning",
-        "papers_found": 5
-      }
-    },
-    {
       "timestamp": "2026-09-03T23:37:17.528539",
       "arxiv_papers_count": 20,
       "arxiv_top_keywords": [
@@ -4567,10 +4520,57 @@
         "seed_name": "",
         "papers_found": 0
       }
+    },
+    {
+      "timestamp": "2026-09-19T21:51:24.243852",
+      "arxiv_papers_count": 5,
+      "arxiv_top_keywords": [
+        "robot",
+        "obstacle",
+        "coding",
+        "agents",
+        "manipulation",
+        "memory",
+        "lightweight",
+        "robotic",
+        "information",
+        "vlm"
+      ],
+      "arxiv_strategies": [
+        "cs.AI (fallback)",
+        "cs.AI (fallback)",
+        "cs.AI (fallback)"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "unknown",
+        "fill-mask",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 13,
+        "adopted": 0,
+        "decisions": 0
+      },
+      "seed_watering": {
+        "seed_name": "",
+        "papers_found": 0
+      }
     }
   ],
   "total_sessions": 101,
-  "last_updated": "2026-09-19T19:41:38.847772",
+  "last_updated": "2026-09-19T21:51:24.243867",
   "evolution_summary": {
     "total_adopted": 161,
     "adopted_list": [
@@ -4769,7 +4769,7 @@
       },
       "continual-learning": {
         "name": "Continual Learning",
-        "watering": 65,
+        "watering": 66,
         "papers": 78
       },
       "moe": {
@@ -4931,6 +4931,6 @@
         "best_papers_count": 1
       }
     },
-    "last_evolution": "2026-09-19T19:41:38.850125"
+    "last_evolution": "2026-09-19T21:51:24.247764"
   }
 }
