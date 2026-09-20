@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-20T21:59:40.438437",
+  "timestamp": "2026-09-20T23:51:00.510310",
   "connections": [
     {
       "seed_a": "Mamba (SSM)",
@@ -10,17 +10,7 @@
       ],
       "shared_paper_concepts": [],
       "strength": 4,
-      "discovered_at": "2026-09-20T21:59:40.438414"
-    },
-    {
-      "seed_a": "Non-Transformer Arch",
-      "seed_b": "Continual Learning",
-      "shared_keywords": [],
-      "shared_paper_concepts": [
-        "learning"
-      ],
-      "strength": 1,
-      "discovered_at": "2026-09-20T21:59:40.438429"
+      "discovered_at": "2026-09-20T23:51:00.510286"
     }
   ],
   "total_seeds": 10
