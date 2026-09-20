@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-20T12:42:10.955260",
+  "timestamp": "2026-09-20T17:04:47.377600",
   "connections": [
     {
       "seed_a": "Mamba (SSM)",
@@ -10,7 +10,7 @@
       ],
       "shared_paper_concepts": [],
       "strength": 4,
-      "discovered_at": "2026-09-20T12:42:10.955211"
+      "discovered_at": "2026-09-20T17:04:47.377559"
     },
     {
       "seed_a": "HTM",
@@ -22,7 +22,7 @@
         "with"
       ],
       "strength": 3,
-      "discovered_at": "2026-09-20T12:42:10.955234"
+      "discovered_at": "2026-09-20T17:04:47.377581"
     },
     {
       "seed_a": "Spiking Neural Networks",
@@ -33,7 +33,7 @@
         "learning"
       ],
       "strength": 2,
-      "discovered_at": "2026-09-20T12:42:10.955245"
+      "discovered_at": "2026-09-20T17:04:47.377587"
     },
     {
       "seed_a": "HTM",
@@ -43,7 +43,7 @@
         "learning"
       ],
       "strength": 1,
-      "discovered_at": "2026-09-20T12:42:10.955224"
+      "discovered_at": "2026-09-20T17:04:47.377572"
     },
     {
       "seed_a": "HTM",
@@ -53,7 +53,7 @@
         "learning"
       ],
       "strength": 1,
-      "discovered_at": "2026-09-20T12:42:10.955228"
+      "discovered_at": "2026-09-20T17:04:47.377575"
     },
     {
       "seed_a": "HTM",
@@ -63,7 +63,7 @@
         "shot"
       ],
       "strength": 1,
-      "discovered_at": "2026-09-20T12:42:10.955231"
+      "discovered_at": "2026-09-20T17:04:47.377578"
     },
     {
       "seed_a": "Spiking Neural Networks",
@@ -73,7 +73,7 @@
         "learning"
       ],
       "strength": 1,
-      "discovered_at": "2026-09-20T12:42:10.955242"
+      "discovered_at": "2026-09-20T17:04:47.377585"
     },
     {
       "seed_a": "Non-Transformer Arch",
@@ -83,7 +83,7 @@
         "learning"
       ],
       "strength": 1,
-      "discovered_at": "2026-09-20T12:42:10.955250"
+      "discovered_at": "2026-09-20T17:04:47.377591"
     }
   ],
   "total_seeds": 10
