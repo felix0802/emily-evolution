@@ -1,28 +1,6 @@
 {
   "rounds": [
     {
-      "round": 235,
-      "timestamp": "2026-09-12T06:37:39.048901",
-      "prediction_error": 0.7,
-      "seeds_active": 10,
-      "seeds_dormant": 0,
-      "new_seeds_added": 0,
-      "top_motivated": [
-        [
-          "mamba",
-          0.91
-        ],
-        [
-          "spiking-nn",
-          0.91
-        ],
-        [
-          "non-transformer",
-          0.91
-        ]
-      ]
-    },
-    {
       "round": 236,
       "timestamp": "2026-09-12T11:45:41.155455",
       "prediction_error": 0.7,
@@ -1099,16 +1077,37 @@
           0.792
         ]
       ]
+    },
+    {
+      "round": 284,
+      "timestamp": "2026-09-20T12:42:06.905495",
+      "prediction_error": 0.7,
+      "seeds_active": 8,
+      "seeds_dormant": 2,
+      "new_seeds_added": 0,
+      "top_motivated": [
+        [
+          "spiking-nn",
+          0.91
+        ],
+        [
+          "non-transformer",
+          0.91
+        ],
+        [
+          "continual-learning",
+          0.792
+        ]
+      ]
     }
   ],
   "seed_scores": {
     "mamba": {
       "name": "Mamba (SSM)",
-      "info_gain": 0.29,
+      "info_gain": 0.0,
       "novelty": 1.0,
-      "motivation_score": 0.626,
+      "motivation_score": 0.51,
       "info_gain_history": [
-        0.871,
         0.931,
         0.931,
         0.931,
@@ -1128,7 +1127,8 @@
         0.29,
         0.29,
         0.29,
-        0.29
+        0.29,
+        0.0
       ]
     },
     "liquid-networks": {
@@ -1148,7 +1148,7 @@
         0.214,
         0.214,
         0.214,
-        0.214,
+        0.0,
         0.0,
         0.0,
         0.0,
@@ -1168,7 +1168,6 @@
       "info_gain_history": [
         1.0,
         1.0,
-        1.0,
         0.667,
         0.667,
         0.667,
@@ -1179,6 +1178,7 @@
         0.667,
         0.667,
         0.667,
+        0.45,
         0.45,
         0.45,
         0.45,
@@ -1268,7 +1268,7 @@
         1.0,
         1.0,
         1.0,
-        1.0,
+        0.643,
         0.643,
         0.643,
         0.643,
@@ -1288,7 +1288,7 @@
         1.0,
         1.0,
         1.0,
-        1.0,
+        0.706,
         0.706,
         0.706,
         0.706,
@@ -1318,7 +1318,6 @@
         0.875,
         0.875,
         0.875,
-        0.875,
         0.486,
         0.486,
         0.486,
@@ -1329,6 +1328,7 @@
         0.486,
         0.486,
         0.486,
+        0.36,
         0.36,
         0.36,
         0.36
@@ -1348,7 +1348,6 @@
         0.984,
         0.984,
         0.984,
-        0.984,
         0.129,
         0.129,
         0.129,
@@ -1359,6 +1358,7 @@
         0.129,
         0.129,
         0.129,
+        0.0,
         0.0,
         0.0
       ]
@@ -1378,7 +1378,7 @@
         0.333,
         0.333,
         0.333,
-        0.333,
+        0.0,
         0.0,
         0.0,
         0.0,
@@ -1397,8 +1397,9 @@
   "dormant_seeds": [
     "few-shot",
     "continual-learning",
-    "gnn"
+    "gnn",
+    "liquid-networks"
   ],
-  "total_motivation_evaluations": 125,
+  "total_motivation_evaluations": 126,
   "current_prediction_error": 0.7
 }
