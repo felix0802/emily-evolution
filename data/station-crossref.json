@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-20T19:54:03.638424",
+  "timestamp": "2026-09-20T21:59:40.438437",
   "connections": [
     {
       "seed_a": "Mamba (SSM)",
@@ -10,28 +10,7 @@
       ],
       "shared_paper_concepts": [],
       "strength": 4,
-      "discovered_at": "2026-09-20T19:54:03.638388"
-    },
-    {
-      "seed_a": "Spiking Neural Networks",
-      "seed_b": "Continual Learning",
-      "shared_keywords": [],
-      "shared_paper_concepts": [
-        "framework",
-        "learning"
-      ],
-      "strength": 2,
-      "discovered_at": "2026-09-20T19:54:03.638408"
-    },
-    {
-      "seed_a": "Spiking Neural Networks",
-      "seed_b": "Non-Transformer Arch",
-      "shared_keywords": [],
-      "shared_paper_concepts": [
-        "learning"
-      ],
-      "strength": 1,
-      "discovered_at": "2026-09-20T19:54:03.638404"
+      "discovered_at": "2026-09-20T21:59:40.438414"
     },
     {
       "seed_a": "Non-Transformer Arch",
@@ -41,7 +20,7 @@
         "learning"
       ],
       "strength": 1,
-      "discovered_at": "2026-09-20T19:54:03.638413"
+      "discovered_at": "2026-09-20T21:59:40.438429"
     }
   ],
   "total_seeds": 10
