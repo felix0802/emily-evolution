@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-20T17:04:47.377600",
+  "timestamp": "2026-09-20T19:54:03.638424",
   "connections": [
     {
       "seed_a": "Mamba (SSM)",
@@ -10,19 +10,7 @@
       ],
       "shared_paper_concepts": [],
       "strength": 4,
-      "discovered_at": "2026-09-20T17:04:47.377559"
-    },
-    {
-      "seed_a": "HTM",
-      "seed_b": "Continual Learning",
-      "shared_keywords": [],
-      "shared_paper_concepts": [
-        "aware",
-        "learning",
-        "with"
-      ],
-      "strength": 3,
-      "discovered_at": "2026-09-20T17:04:47.377581"
+      "discovered_at": "2026-09-20T19:54:03.638388"
     },
     {
       "seed_a": "Spiking Neural Networks",
@@ -33,37 +21,7 @@
         "learning"
       ],
       "strength": 2,
-      "discovered_at": "2026-09-20T17:04:47.377587"
-    },
-    {
-      "seed_a": "HTM",
-      "seed_b": "Spiking Neural Networks",
-      "shared_keywords": [],
-      "shared_paper_concepts": [
-        "learning"
-      ],
-      "strength": 1,
-      "discovered_at": "2026-09-20T17:04:47.377572"
-    },
-    {
-      "seed_a": "HTM",
-      "seed_b": "Non-Transformer Arch",
-      "shared_keywords": [],
-      "shared_paper_concepts": [
-        "learning"
-      ],
-      "strength": 1,
-      "discovered_at": "2026-09-20T17:04:47.377575"
-    },
-    {
-      "seed_a": "HTM",
-      "seed_b": "Few-Shot Learning",
-      "shared_keywords": [],
-      "shared_paper_concepts": [
-        "shot"
-      ],
-      "strength": 1,
-      "discovered_at": "2026-09-20T17:04:47.377578"
+      "discovered_at": "2026-09-20T19:54:03.638408"
     },
     {
       "seed_a": "Spiking Neural Networks",
@@ -73,7 +31,7 @@
         "learning"
       ],
       "strength": 1,
-      "discovered_at": "2026-09-20T17:04:47.377585"
+      "discovered_at": "2026-09-20T19:54:03.638404"
     },
     {
       "seed_a": "Non-Transformer Arch",
@@ -83,7 +41,7 @@
         "learning"
       ],
       "strength": 1,
-      "discovered_at": "2026-09-20T17:04:47.377591"
+      "discovered_at": "2026-09-20T19:54:03.638413"
     }
   ],
   "total_seeds": 10
