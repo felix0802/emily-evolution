@@ -2423,6 +2423,36 @@
         ],
         "decided_at": "2026-09-18T06:47:58.475788"
       }
+    },
+    {
+      "id": "llm-autoreclab",
+      "name": "AutoRecLab",
+      "adopted_at": "2026-09-21T01:59:40.193870",
+      "decision": {
+        "tech_id": "llm-autoreclab",
+        "tech_name": "AutoRecLab",
+        "action": "adopt",
+        "confidence": 0.9,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-09-21T01:59:40.192125"
+      }
+    },
+    {
+      "id": "llm-人格微调llm",
+      "name": "人格微调LLM",
+      "adopted_at": "2026-09-21T01:59:40.193892",
+      "decision": {
+        "tech_id": "llm-人格微调llm",
+        "tech_name": "人格微调LLM",
+        "action": "adopt",
+        "confidence": 0.85,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-09-21T01:59:40.192293"
+      }
     }
   ],
   "history": [
@@ -3391,6 +3421,18 @@
       "tech_id": "llm-obstacle-aware-harness",
       "tech_name": "Obstacle-Aware Harness",
       "timestamp": "2026-09-18T06:47:58.477042"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-autoreclab",
+      "tech_name": "AutoRecLab",
+      "timestamp": "2026-09-21T01:59:40.193875"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-人格微调llm",
+      "tech_name": "人格微调LLM",
+      "timestamp": "2026-09-21T01:59:40.193893"
     }
   ]
 }

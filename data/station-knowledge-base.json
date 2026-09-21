@@ -1,53 +1,6 @@
 {
   "sessions": [
     {
-      "timestamp": "2026-09-05T01:40:20.116789",
-      "arxiv_papers_count": 17,
-      "arxiv_top_keywords": [
-        "training",
-        "opd",
-        "policy",
-        "distillation",
-        "compile",
-        "natural",
-        "language",
-        "neural",
-        "measurement",
-        "preregistered"
-      ],
-      "arxiv_strategies": [
-        "cs.AI 最新",
-        "cs.LG 最新",
-        "cs.CL 最新"
-      ],
-      "huggingface_models": 10,
-      "huggingface_tasks": [
-        "sentence-similarity",
-        "unknown",
-        "fill-mask",
-        "text-ranking",
-        "feature-extraction"
-      ],
-      "ml_datasets": [
-        "Iris",
-        "Wine",
-        "Breast Cancer",
-        "Diabetes"
-      ],
-      "ml_total_tests": 22,
-      "github_trending_repos": 8,
-      "paperswithcode_papers": 8,
-      "evolution": {
-        "discovered": 12,
-        "adopted": 1,
-        "decisions": 1
-      },
-      "seed_watering": {
-        "seed_name": "Non-Transformer Arch",
-        "papers_found": 6
-      }
-    },
-    {
       "timestamp": "2026-09-05T06:24:53.710816",
       "arxiv_papers_count": 18,
       "arxiv_top_keywords": [
@@ -4567,12 +4520,59 @@
         "seed_name": "",
         "papers_found": 0
       }
+    },
+    {
+      "timestamp": "2026-09-21T01:59:43.571652",
+      "arxiv_papers_count": 5,
+      "arxiv_top_keywords": [
+        "autoreclab",
+        "experiment",
+        "recsys",
+        "code",
+        "research",
+        "personality",
+        "llms",
+        "social",
+        "agents",
+        "fine"
+      ],
+      "arxiv_strategies": [
+        "cs.AI (fallback)",
+        "cs.AI (fallback)",
+        "cs.AI (fallback)"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "unknown",
+        "fill-mask",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 13,
+        "adopted": 2,
+        "decisions": 2
+      },
+      "seed_watering": {
+        "seed_name": "",
+        "papers_found": 0
+      }
     }
   ],
   "total_sessions": 101,
-  "last_updated": "2026-09-20T23:51:00.495513",
+  "last_updated": "2026-09-21T01:59:43.571669",
   "evolution_summary": {
-    "total_adopted": 161,
+    "total_adopted": 163,
     "adopted_list": [
       "Knowledge Distillation",
       "World Models / Model-Based RL",
@@ -4734,7 +4734,9 @@
       "零阶偏好对齐",
       "Sharded Data Parallelism (SDP)",
       "PROLOG for Legal Translation",
-      "Obstacle-Aware Harness"
+      "Obstacle-Aware Harness",
+      "AutoRecLab",
+      "人格微调LLM"
     ],
     "seeds": {
       "mamba": {
@@ -4764,7 +4766,7 @@
       },
       "few-shot": {
         "name": "Few-Shot Learning",
-        "watering": 67,
+        "watering": 68,
         "papers": 33
       },
       "continual-learning": {
@@ -4931,6 +4933,6 @@
         "best_papers_count": 1
       }
     },
-    "last_evolution": "2026-09-20T23:51:00.498509"
+    "last_evolution": "2026-09-21T01:59:43.574593"
   }
 }
