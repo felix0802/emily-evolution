@@ -1,28 +1,6 @@
 {
   "rounds": [
     {
-      "round": 243,
-      "timestamp": "2026-09-13T06:57:15.223432",
-      "prediction_error": 0.7,
-      "seeds_active": 10,
-      "seeds_dormant": 0,
-      "new_seeds_added": 0,
-      "top_motivated": [
-        [
-          "mamba",
-          0.91
-        ],
-        [
-          "spiking-nn",
-          0.91
-        ],
-        [
-          "non-transformer",
-          0.91
-        ]
-      ]
-    },
-    {
       "round": 244,
       "timestamp": "2026-09-13T12:59:13.101020",
       "prediction_error": 0.7,
@@ -1099,6 +1077,28 @@
           0.792
         ]
       ]
+    },
+    {
+      "round": 292,
+      "timestamp": "2026-09-21T20:09:47.539307",
+      "prediction_error": 0.7,
+      "seeds_active": 7,
+      "seeds_dormant": 3,
+      "new_seeds_added": 0,
+      "top_motivated": [
+        [
+          "spiking-nn",
+          0.91
+        ],
+        [
+          "non-transformer",
+          0.91
+        ],
+        [
+          "continual-learning",
+          0.792
+        ]
+      ]
     }
   ],
   "seed_scores": {
@@ -1110,7 +1110,6 @@
       "info_gain_history": [
         0.931,
         0.931,
-        0.931,
         0.29,
         0.29,
         0.29,
@@ -1121,6 +1120,7 @@
         0.29,
         0.29,
         0.29,
+        0.0,
         0.0,
         0.0,
         0.0,
@@ -1140,7 +1140,7 @@
         0.214,
         0.214,
         0.214,
-        0.214,
+        0.0,
         0.0,
         0.0,
         0.0,
@@ -1170,7 +1170,7 @@
         0.667,
         0.667,
         0.667,
-        0.667,
+        0.45,
         0.45,
         0.45,
         0.45,
@@ -1260,7 +1260,7 @@
         1.0,
         1.0,
         1.0,
-        1.0,
+        0.643,
         0.643,
         0.643,
         0.643,
@@ -1320,7 +1320,7 @@
         0.486,
         0.486,
         0.486,
-        0.486,
+        0.36,
         0.36,
         0.36,
         0.36,
@@ -1340,7 +1340,6 @@
       "novelty": 1.0,
       "motivation_score": 0.51,
       "info_gain_history": [
-        0.984,
         0.129,
         0.129,
         0.129,
@@ -1351,6 +1350,7 @@
         0.129,
         0.129,
         0.129,
+        0.0,
         0.0,
         0.0,
         0.0,
@@ -1370,7 +1370,7 @@
       "motivation_score": 0.51,
       "info_gain_history": [
         0.333,
-        0.333,
+        0.0,
         0.0,
         0.0,
         0.0,
@@ -1401,6 +1401,6 @@
     "liquid-networks",
     "kv-cache"
   ],
-  "total_motivation_evaluations": 133,
+  "total_motivation_evaluations": 134,
   "current_prediction_error": 0.7
 }
