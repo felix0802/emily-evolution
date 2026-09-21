@@ -2453,6 +2453,21 @@
         ],
         "decided_at": "2026-09-21T01:59:40.192293"
       }
+    },
+    {
+      "id": "llm-持续适应框架（continual-adaptation）",
+      "name": "持续适应框架（Continual Adaptation）",
+      "adopted_at": "2026-09-21T14:38:07.332997",
+      "decision": {
+        "tech_id": "llm-持续适应框架（continual-adaptation）",
+        "tech_name": "持续适应框架（Continual Adaptation）",
+        "action": "adopt",
+        "confidence": 0.85,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-09-21T14:38:07.331253"
+      }
     }
   ],
   "history": [
@@ -3433,6 +3448,12 @@
       "tech_id": "llm-人格微调llm",
       "tech_name": "人格微调LLM",
       "timestamp": "2026-09-21T01:59:40.193893"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-持续适应框架（continual-adaptation）",
+      "tech_name": "持续适应框架（Continual Adaptation）",
+      "timestamp": "2026-09-21T14:38:07.333002"
     }
   ]
 }

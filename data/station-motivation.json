@@ -1,28 +1,6 @@
 {
   "rounds": [
     {
-      "round": 242,
-      "timestamp": "2026-09-13T01:45:11.115150",
-      "prediction_error": 0.7,
-      "seeds_active": 10,
-      "seeds_dormant": 0,
-      "new_seeds_added": 0,
-      "top_motivated": [
-        [
-          "mamba",
-          0.91
-        ],
-        [
-          "spiking-nn",
-          0.91
-        ],
-        [
-          "non-transformer",
-          0.91
-        ]
-      ]
-    },
-    {
       "round": 243,
       "timestamp": "2026-09-13T06:57:15.223432",
       "prediction_error": 0.7,
@@ -1099,6 +1077,28 @@
           0.792
         ]
       ]
+    },
+    {
+      "round": 291,
+      "timestamp": "2026-09-21T14:38:02.277054",
+      "prediction_error": 0.7,
+      "seeds_active": 7,
+      "seeds_dormant": 3,
+      "new_seeds_added": 0,
+      "top_motivated": [
+        [
+          "spiking-nn",
+          0.91
+        ],
+        [
+          "non-transformer",
+          0.91
+        ],
+        [
+          "continual-learning",
+          0.792
+        ]
+      ]
     }
   ],
   "seed_scores": {
@@ -1111,7 +1111,6 @@
         0.931,
         0.931,
         0.931,
-        0.931,
         0.29,
         0.29,
         0.29,
@@ -1122,6 +1121,7 @@
         0.29,
         0.29,
         0.29,
+        0.0,
         0.0,
         0.0,
         0.0,
@@ -1141,7 +1141,7 @@
         0.214,
         0.214,
         0.214,
-        0.214,
+        0.0,
         0.0,
         0.0,
         0.0,
@@ -1171,7 +1171,7 @@
         0.667,
         0.667,
         0.667,
-        0.667,
+        0.45,
         0.45,
         0.45,
         0.45,
@@ -1261,7 +1261,7 @@
         1.0,
         1.0,
         1.0,
-        1.0,
+        0.643,
         0.643,
         0.643,
         0.643,
@@ -1311,7 +1311,6 @@
       "novelty": 0.857,
       "motivation_score": 0.611,
       "info_gain_history": [
-        0.875,
         0.486,
         0.486,
         0.486,
@@ -1322,6 +1321,7 @@
         0.486,
         0.486,
         0.486,
+        0.36,
         0.36,
         0.36,
         0.36,
@@ -1341,7 +1341,6 @@
       "motivation_score": 0.51,
       "info_gain_history": [
         0.984,
-        0.984,
         0.129,
         0.129,
         0.129,
@@ -1352,6 +1351,7 @@
         0.129,
         0.129,
         0.129,
+        0.0,
         0.0,
         0.0,
         0.0,
@@ -1371,7 +1371,7 @@
       "info_gain_history": [
         0.333,
         0.333,
-        0.333,
+        0.0,
         0.0,
         0.0,
         0.0,
@@ -1398,8 +1398,9 @@
     "few-shot",
     "continual-learning",
     "gnn",
-    "liquid-networks"
+    "liquid-networks",
+    "kv-cache"
   ],
-  "total_motivation_evaluations": 132,
+  "total_motivation_evaluations": 133,
   "current_prediction_error": 0.7
 }
