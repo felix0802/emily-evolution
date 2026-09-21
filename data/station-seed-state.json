@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 656,
+  "_rotation_idx": 657,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 60,
@@ -4233,17 +4233,8 @@
   "continual-learning": {
     "name": "Continual Learning",
     "total_papers_found": 78,
-    "watering_count": 66,
+    "watering_count": 67,
     "history": [
-      {
-        "timestamp": "2026-07-25T22:45:41.522358",
-        "papers_found": 0,
-        "duplicates": 0,
-        "irrelevant_filtered": 0,
-        "avg_relevance": 0,
-        "high_relevance": 0,
-        "papers": []
-      },
       {
         "timestamp": "2026-07-26T22:46:16.541272",
         "papers_found": 0,
@@ -5029,6 +5020,15 @@
         "avg_relevance": 0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-09-21T07:38:18.954671",
+        "papers_found": 0,
+        "duplicates": 0,
+        "irrelevant_filtered": 0,
+        "avg_relevance": 0,
+        "high_relevance": 0,
+        "papers": []
       }
     ],
     "keywords": [
@@ -5038,7 +5038,7 @@
       "ewc",
       "elastic weight"
     ],
-    "last_watered": "2026-09-19T21:51:20.212372"
+    "last_watered": "2026-09-21T07:38:18.954663"
   },
   "moe": {
     "name": "Mixture of Experts",
