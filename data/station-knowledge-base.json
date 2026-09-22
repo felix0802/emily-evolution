@@ -1,53 +1,6 @@
 {
   "sessions": [
     {
-      "timestamp": "2026-09-05T17:46:28.083286",
-      "arxiv_papers_count": 18,
-      "arxiv_top_keywords": [
-        "world",
-        "graph",
-        "learning",
-        "vision",
-        "graphs",
-        "user",
-        "data",
-        "structure",
-        "logic",
-        "physical"
-      ],
-      "arxiv_strategies": [
-        "搜索: graph neural network",
-        "搜索: transfer learning",
-        "搜索: world model"
-      ],
-      "huggingface_models": 10,
-      "huggingface_tasks": [
-        "sentence-similarity",
-        "unknown",
-        "fill-mask",
-        "text-ranking",
-        "feature-extraction"
-      ],
-      "ml_datasets": [
-        "Iris",
-        "Wine",
-        "Breast Cancer",
-        "Diabetes"
-      ],
-      "ml_total_tests": 22,
-      "github_trending_repos": 8,
-      "paperswithcode_papers": 8,
-      "evolution": {
-        "discovered": 22,
-        "adopted": 1,
-        "decisions": 1
-      },
-      "seed_watering": {
-        "seed_name": "KV Cache Optimization",
-        "papers_found": 5
-      }
-    },
-    {
       "timestamp": "2026-09-05T19:38:44.170298",
       "arxiv_papers_count": 17,
       "arxiv_top_keywords": [
@@ -4567,12 +4520,59 @@
         "seed_name": "",
         "papers_found": 0
       }
+    },
+    {
+      "timestamp": "2026-09-22T00:20:26.112410",
+      "arxiv_papers_count": 21,
+      "arxiv_top_keywords": [
+        "memory",
+        "agentic",
+        "environments",
+        "tasks",
+        "language",
+        "agents",
+        "retrieval",
+        "design",
+        "procedures",
+        "procedural"
+      ],
+      "arxiv_strategies": [
+        "cs.AI 最新",
+        "cs.LG 最新",
+        "cs.CL 最新"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "unknown",
+        "fill-mask",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 15,
+        "adopted": 1,
+        "decisions": 1
+      },
+      "seed_watering": {
+        "seed_name": "",
+        "papers_found": 0
+      }
     }
   ],
   "total_sessions": 101,
-  "last_updated": "2026-09-21T20:09:52.887865",
+  "last_updated": "2026-09-22T00:20:26.112423",
   "evolution_summary": {
-    "total_adopted": 164,
+    "total_adopted": 165,
     "adopted_list": [
       "Knowledge Distillation",
       "World Models / Model-Based RL",
@@ -4737,7 +4737,8 @@
       "Obstacle-Aware Harness",
       "AutoRecLab",
       "人格微调LLM",
-      "持续适应框架（Continual Adaptation）"
+      "持续适应框架（Continual Adaptation）",
+      "程序记忆演化（Procedural Memory Evolution）"
     ],
     "seeds": {
       "mamba": {
@@ -4787,7 +4788,7 @@
       },
       "gnn": {
         "name": "Graph Neural Networks",
-        "watering": 64,
+        "watering": 65,
         "papers": 131
       }
     },
@@ -4934,6 +4935,6 @@
         "best_papers_count": 1
       }
     },
-    "last_evolution": "2026-09-21T20:09:52.891027"
+    "last_evolution": "2026-09-22T00:20:26.114808"
   }
 }
