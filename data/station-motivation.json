@@ -1,28 +1,6 @@
 {
   "rounds": [
     {
-      "round": 245,
-      "timestamp": "2026-09-13T17:09:31.911837",
-      "prediction_error": 0.7,
-      "seeds_active": 10,
-      "seeds_dormant": 0,
-      "new_seeds_added": 0,
-      "top_motivated": [
-        [
-          "mamba",
-          0.91
-        ],
-        [
-          "spiking-nn",
-          0.91
-        ],
-        [
-          "non-transformer",
-          0.91
-        ]
-      ]
-    },
-    {
       "round": 246,
       "timestamp": "2026-09-13T19:58:28.821252",
       "prediction_error": 0.7,
@@ -1099,6 +1077,28 @@
           0.792
         ]
       ]
+    },
+    {
+      "round": 294,
+      "timestamp": "2026-09-22T06:57:34.746827",
+      "prediction_error": 0.7,
+      "seeds_active": 6,
+      "seeds_dormant": 4,
+      "new_seeds_added": 0,
+      "top_motivated": [
+        [
+          "spiking-nn",
+          0.91
+        ],
+        [
+          "non-transformer",
+          0.91
+        ],
+        [
+          "continual-learning",
+          0.792
+        ]
+      ]
     }
   ],
   "seed_scores": {
@@ -1108,7 +1108,6 @@
       "novelty": 1.0,
       "motivation_score": 0.51,
       "info_gain_history": [
-        0.931,
         0.29,
         0.29,
         0.29,
@@ -1119,6 +1118,7 @@
         0.29,
         0.29,
         0.29,
+        0.0,
         0.0,
         0.0,
         0.0,
@@ -1138,7 +1138,7 @@
       "motivation_score": 0.51,
       "info_gain_history": [
         0.214,
-        0.214,
+        0.0,
         0.0,
         0.0,
         0.0,
@@ -1168,7 +1168,7 @@
       "info_gain_history": [
         0.667,
         0.667,
-        0.667,
+        0.45,
         0.45,
         0.45,
         0.45,
@@ -1258,7 +1258,7 @@
         1.0,
         1.0,
         1.0,
-        1.0,
+        0.643,
         0.643,
         0.643,
         0.643,
@@ -1318,7 +1318,7 @@
         0.486,
         0.486,
         0.486,
-        0.486,
+        0.36,
         0.36,
         0.36,
         0.36,
@@ -1348,7 +1348,7 @@
         0.129,
         0.129,
         0.129,
-        0.129,
+        0.0,
         0.0,
         0.0,
         0.0,
@@ -1402,6 +1402,6 @@
     "kv-cache",
     "mamba"
   ],
-  "total_motivation_evaluations": 135,
+  "total_motivation_evaluations": 136,
   "current_prediction_error": 0.7
 }

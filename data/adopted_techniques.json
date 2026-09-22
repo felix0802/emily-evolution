@@ -2483,6 +2483,21 @@
         ],
         "decided_at": "2026-09-22T00:20:26.105900"
       }
+    },
+    {
+      "id": "llm-隐式-3d-感知记忆",
+      "name": "隐式 3D 感知记忆",
+      "adopted_at": "2026-09-22T06:57:39.613172",
+      "decision": {
+        "tech_id": "llm-隐式-3d-感知记忆",
+        "tech_name": "隐式 3D 感知记忆",
+        "action": "adopt",
+        "confidence": 0.9,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-09-22T06:57:39.611329"
+      }
     }
   ],
   "history": [
@@ -3475,6 +3490,12 @@
       "tech_id": "llm-程序记忆演化（procedural-memory-evolu",
       "tech_name": "程序记忆演化（Procedural Memory Evolution）",
       "timestamp": "2026-09-22T00:20:26.107619"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-隐式-3d-感知记忆",
+      "tech_name": "隐式 3D 感知记忆",
+      "timestamp": "2026-09-22T06:57:39.613177"
     }
   ]
 }
