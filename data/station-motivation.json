@@ -1,28 +1,6 @@
 {
   "rounds": [
     {
-      "round": 247,
-      "timestamp": "2026-09-13T22:02:47.570201",
-      "prediction_error": 0.7,
-      "seeds_active": 10,
-      "seeds_dormant": 0,
-      "new_seeds_added": 0,
-      "top_motivated": [
-        [
-          "mamba",
-          0.91
-        ],
-        [
-          "spiking-nn",
-          0.91
-        ],
-        [
-          "non-transformer",
-          0.91
-        ]
-      ]
-    },
-    {
       "round": 248,
       "timestamp": "2026-09-13T23:52:57.521927",
       "prediction_error": 0.7,
@@ -1099,6 +1077,28 @@
           0.792
         ]
       ]
+    },
+    {
+      "round": 296,
+      "timestamp": "2026-09-22T17:47:59.314557",
+      "prediction_error": 0.7,
+      "seeds_active": 6,
+      "seeds_dormant": 4,
+      "new_seeds_added": 0,
+      "top_motivated": [
+        [
+          "spiking-nn",
+          0.91
+        ],
+        [
+          "non-transformer",
+          0.91
+        ],
+        [
+          "continual-learning",
+          0.792
+        ]
+      ]
     }
   ],
   "seed_scores": {
@@ -1116,7 +1116,7 @@
         0.29,
         0.29,
         0.29,
-        0.29,
+        0.0,
         0.0,
         0.0,
         0.0,
@@ -1166,7 +1166,7 @@
       "novelty": 1.0,
       "motivation_score": 0.69,
       "info_gain_history": [
-        0.667,
+        0.45,
         0.45,
         0.45,
         0.45,
@@ -1256,7 +1256,7 @@
         1.0,
         1.0,
         1.0,
-        1.0,
+        0.643,
         0.643,
         0.643,
         0.643,
@@ -1316,7 +1316,7 @@
         0.486,
         0.486,
         0.486,
-        0.486,
+        0.36,
         0.36,
         0.36,
         0.36,
@@ -1346,7 +1346,7 @@
         0.129,
         0.129,
         0.129,
-        0.129,
+        0.0,
         0.0,
         0.0,
         0.0,
@@ -1402,6 +1402,6 @@
     "kv-cache",
     "mamba"
   ],
-  "total_motivation_evaluations": 137,
+  "total_motivation_evaluations": 138,
   "current_prediction_error": 0.7
 }

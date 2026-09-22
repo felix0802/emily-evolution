@@ -2513,6 +2513,21 @@
         ],
         "decided_at": "2026-09-22T12:53:50.009265"
       }
+    },
+    {
+      "id": "llm-视觉-触觉世界-动作模型",
+      "name": "视觉-触觉世界-动作模型",
+      "adopted_at": "2026-09-22T17:48:03.986502",
+      "decision": {
+        "tech_id": "llm-视觉-触觉世界-动作模型",
+        "tech_name": "视觉-触觉世界-动作模型",
+        "action": "adopt",
+        "confidence": 0.85,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-09-22T17:48:03.984775"
+      }
     }
   ],
   "history": [
@@ -3517,6 +3532,12 @@
       "tech_id": "llm-implicit-3d-aware-memory",
       "tech_name": "Implicit 3D-aware Memory",
       "timestamp": "2026-09-22T12:53:50.011068"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-视觉-触觉世界-动作模型",
+      "tech_name": "视觉-触觉世界-动作模型",
+      "timestamp": "2026-09-22T17:48:03.986507"
     }
   ]
 }
