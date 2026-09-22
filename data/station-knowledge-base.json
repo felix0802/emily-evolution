@@ -1,53 +1,6 @@
 {
   "sessions": [
     {
-      "timestamp": "2026-09-05T21:45:44.822193",
-      "arxiv_papers_count": 18,
-      "arxiv_top_keywords": [
-        "decoding",
-        "cache",
-        "graph",
-        "speculative",
-        "attention",
-        "vision",
-        "aware",
-        "user",
-        "target",
-        "block"
-      ],
-      "arxiv_strategies": [
-        "搜索: kv cache LLM",
-        "搜索: graph neural network recent",
-        "搜索: speculative decoding"
-      ],
-      "huggingface_models": 10,
-      "huggingface_tasks": [
-        "sentence-similarity",
-        "unknown",
-        "fill-mask",
-        "text-ranking",
-        "feature-extraction"
-      ],
-      "ml_datasets": [
-        "Iris",
-        "Wine",
-        "Breast Cancer",
-        "Diabetes"
-      ],
-      "ml_total_tests": 22,
-      "github_trending_repos": 8,
-      "paperswithcode_papers": 8,
-      "evolution": {
-        "discovered": 18,
-        "adopted": 1,
-        "decisions": 1
-      },
-      "seed_watering": {
-        "seed_name": "Mamba (SSM)",
-        "papers_found": 5
-      }
-    },
-    {
       "timestamp": "2026-09-05T23:26:05.983446",
       "arxiv_papers_count": 18,
       "arxiv_top_keywords": [
@@ -4567,12 +4520,59 @@
         "seed_name": "",
         "papers_found": 0
       }
+    },
+    {
+      "timestamp": "2026-09-22T12:53:50.017370",
+      "arxiv_papers_count": 5,
+      "arxiv_top_keywords": [
+        "world",
+        "harness",
+        "agent",
+        "gamehorizon",
+        "suite",
+        "data",
+        "evaluation",
+        "gameplay",
+        "video",
+        "memory"
+      ],
+      "arxiv_strategies": [
+        "cs.AI (fallback)",
+        "cs.AI (fallback)",
+        "cs.AI (fallback)"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "unknown",
+        "fill-mask",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 12,
+        "adopted": 1,
+        "decisions": 1
+      },
+      "seed_watering": {
+        "seed_name": "",
+        "papers_found": 0
+      }
     }
   ],
   "total_sessions": 101,
-  "last_updated": "2026-09-22T06:57:39.619475",
+  "last_updated": "2026-09-22T12:53:50.017385",
   "evolution_summary": {
-    "total_adopted": 166,
+    "total_adopted": 167,
     "adopted_list": [
       "Knowledge Distillation",
       "World Models / Model-Based RL",
@@ -4739,7 +4739,8 @@
       "人格微调LLM",
       "持续适应框架（Continual Adaptation）",
       "程序记忆演化（Procedural Memory Evolution）",
-      "隐式 3D 感知记忆"
+      "隐式 3D 感知记忆",
+      "Implicit 3D-aware Memory"
     ],
     "seeds": {
       "mamba": {
@@ -4749,7 +4750,7 @@
       },
       "liquid-networks": {
         "name": "Liquid Networks",
-        "watering": 69,
+        "watering": 70,
         "papers": 70
       },
       "htm": {
@@ -4936,6 +4937,6 @@
         "best_papers_count": 1
       }
     },
-    "last_evolution": "2026-09-22T06:57:39.622512"
+    "last_evolution": "2026-09-22T12:53:50.020360"
   }
 }

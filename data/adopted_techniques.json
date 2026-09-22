@@ -2498,6 +2498,21 @@
         ],
         "decided_at": "2026-09-22T06:57:39.611329"
       }
+    },
+    {
+      "id": "llm-implicit-3d-aware-memory",
+      "name": "Implicit 3D-aware Memory",
+      "adopted_at": "2026-09-22T12:53:50.011063",
+      "decision": {
+        "tech_id": "llm-implicit-3d-aware-memory",
+        "tech_name": "Implicit 3D-aware Memory",
+        "action": "adopt",
+        "confidence": 0.9,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-09-22T12:53:50.009265"
+      }
     }
   ],
   "history": [
@@ -3496,6 +3511,12 @@
       "tech_id": "llm-隐式-3d-感知记忆",
       "tech_name": "隐式 3D 感知记忆",
       "timestamp": "2026-09-22T06:57:39.613177"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-implicit-3d-aware-memory",
+      "tech_name": "Implicit 3D-aware Memory",
+      "timestamp": "2026-09-22T12:53:50.011068"
     }
   ]
 }
