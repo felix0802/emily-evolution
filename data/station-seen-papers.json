@@ -41238,7 +41238,87 @@
         "pact"
       ],
       "first_seen_round": 299
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.26780v1",
+      "title": "SpeakerMem-R1: Speaker-Centered Dual-Track Memory for Multi-Party Dialogue",
+      "arxiv_id": "2609.26780",
+      "tokens": [
+        "centered",
+        "dialogue",
+        "dual",
+        "memory",
+        "multi",
+        "party",
+        "speaker",
+        "speakermem",
+        "track"
+      ],
+      "first_seen_round": 300
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.26779v1",
+      "title": "CliffCompaction: Cost-Efficient Compaction for Long-Horizon Coding Agents",
+      "arxiv_id": "2609.26779",
+      "tokens": [
+        "agents",
+        "cliffcompaction",
+        "coding",
+        "compaction",
+        "cost",
+        "horizon",
+        "long"
+      ],
+      "first_seen_round": 300
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.26777v1",
+      "title": "SWE-Serve: Benchmarking Agentic Engineering For Production Inference Serving",
+      "arxiv_id": "2609.26777",
+      "tokens": [
+        "agentic",
+        "benchmarking",
+        "engineering",
+        "inference",
+        "production",
+        "serve",
+        "serving",
+        "swe"
+      ],
+      "first_seen_round": 300
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.26761v1",
+      "title": "A2M: Trace-Optimized Agent Hijacking in the MCP Ecosystem",
+      "arxiv_id": "2609.26761",
+      "tokens": [
+        "a2m",
+        "agent",
+        "ecosystem",
+        "hijacking",
+        "mcp",
+        "optimized",
+        "trace"
+      ],
+      "first_seen_round": 300
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.26760v1",
+      "title": "Grow the Harness, Not the Context: From Strategy-Free Scaffolds to Reusable Specialist Agents",
+      "arxiv_id": "2609.26760",
+      "tokens": [
+        "agents",
+        "context",
+        "free",
+        "grow",
+        "harness",
+        "reusable",
+        "scaffolds",
+        "specialist",
+        "strategy"
+      ],
+      "first_seen_round": 300
     }
   ],
-  "total_unique": 2572
+  "total_unique": 2577
 }

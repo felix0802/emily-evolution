@@ -2558,6 +2558,36 @@
         ],
         "decided_at": "2026-09-23T02:05:11.182340"
       }
+    },
+    {
+      "id": "llm-speaker-centered-dual-track-me",
+      "name": "Speaker-Centered Dual-Track Memory",
+      "adopted_at": "2026-09-23T08:53:14.522393",
+      "decision": {
+        "tech_id": "llm-speaker-centered-dual-track-me",
+        "tech_name": "Speaker-Centered Dual-Track Memory",
+        "action": "adopt",
+        "confidence": 0.9,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-09-23T08:53:14.520824"
+      }
+    },
+    {
+      "id": "llm-autocompaction",
+      "name": "Autocompaction",
+      "adopted_at": "2026-09-23T08:53:14.522413",
+      "decision": {
+        "tech_id": "llm-autocompaction",
+        "tech_name": "Autocompaction",
+        "action": "adopt",
+        "confidence": 0.85,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-09-23T08:53:14.520984"
+      }
     }
   ],
   "history": [
@@ -3580,6 +3610,18 @@
       "tech_id": "llm-地图感知视觉运动策略",
       "tech_name": "地图感知视觉运动策略",
       "timestamp": "2026-09-23T02:05:11.184002"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-speaker-centered-dual-track-me",
+      "tech_name": "Speaker-Centered Dual-Track Memory",
+      "timestamp": "2026-09-23T08:53:14.522398"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-autocompaction",
+      "tech_name": "Autocompaction",
+      "timestamp": "2026-09-23T08:53:14.522415"
     }
   ]
 }
