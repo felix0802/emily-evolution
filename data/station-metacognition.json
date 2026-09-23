@@ -527,6 +527,70 @@
           "recommendation": "立即對 17 個未驗證假設中至少 3 個設計可反駁的實驗，並檢查『支持』是否僅來自內部模擬而非外部證據。"
         }
       }
+    },
+    {
+      "id": "meta-0020",
+      "timestamp": "2026-09-23T02:05:22.812933",
+      "trigger": "theory_synthesized",
+      "evolution_round": 300,
+      "llm_source": "deepseek",
+      "summary": {
+        "q1": {
+          "identified_premises": [
+            "假設分布中『支持6/推翻0/未驗證0/總計23』代表已驗證的知識積累，而非僅是未被否證的暫存信念",
+            "新合成的三個理論（th-004, th-005, th-006）具有獨立貢獻，而非同一底層直覺的重複表述",
+            "種子狀態中 Graph Neural Networks、HTM、Mixture of Experts 等主題的高『澆灌次數』反映其真實重要性，而非注意力資源的自我強化偏誤"
+          ],
+          "validity_assessment": "第一個前提最可疑：23個假設中僅6個被支持、0個被推翻，這更像是缺乏否證機制而非知識穩固；第二個前提未經驗證，三個理論可能共享『模組化動態路由』的同一核心隱喻。",
+          "risk_flag": "yellow"
+        },
+        "q2": {
+          "alternative_explanation": "當前『理論合成』的產出可能主要反映種子主題的語義鄰近性與組合便利性，而非這些整合方向在實證上最具前景；換言之，是認知地形的引力在決定理論，而非理論在逼近真理。",
+          "confounding_factors": [
+            "確認偏誤：系統傾向生成支持現有種子主題的理論，缺乏主動構造反例的機制",
+            "主題擁擠效應：HTM、MoE、GNN 等高頻種子可能因曝光過度而被過度連結，稀釋了真正新穎的組合",
+            "合成即滿足：『剛合成3個新理論』本身可能觸發完成感，抑制對其可證偽性的追問"
+          ],
+          "considered_sufficiently": false
+        },
+        "q3": {
+          "logical_gaps": "從『合成新理論』直接跳到『認知狀態更新』，缺少對新理論是否可證偽、是否與既有理論衝突、是否僅為術語重組的檢驗環節；『推翻0』的完美紀錄是最大的邏輯紅旗。",
+          "self_consistency": "medium",
+          "recommendation": "下一步應主動為 th-004/005/006 各構造一個可執行的否證條件或反例場景，並檢查三個理論是否只是同一『稀疏動態路由』直覺的三種包裝。"
+        }
+      }
+    },
+    {
+      "id": "meta-0021",
+      "timestamp": "2026-09-23T02:05:26.532346",
+      "trigger": "periodic_check",
+      "evolution_round": 300,
+      "llm_source": "deepseek",
+      "summary": {
+        "q1": {
+          "identified_premises": [
+            "假设分布中「支持6/推翻0」代表当前理论方向已被有效验证，而非仅因缺乏反例测试而累积",
+            "种子状态中浇灌次数（如 HTM 70次、GNN 65次）与理论质量或潜力正相关",
+            "将 HTM 稀疏时序记忆、MoE 路由、GNN 等机制整合进统一框架，能产生协同增益而非只是概念堆叠"
+          ],
+          "validity_assessment": "「推翻0」是最大警讯：300轮无任何假设被推翻，更可能反映验证机制缺失或确认偏误，而非理论稳健。浇灌次数高只说明注意力分配，不等于理论有效性。",
+          "risk_flag": "red"
+        },
+        "q2": {
+          "alternative_explanation": "当前「理论数6、假设23、推翻0」的模式，可能不是知识进化，而是自我强化的概念循环——系统在重复组合相同种子（HTM/MoE/GNN/KV Cache/Continual Learning），产生看似新颖但实质同源的假设。",
+          "confounding_factors": [
+            "缺乏对抗性验证：没有机制主动生成反例或竞争性假设",
+            "种子选择偏差：5个种子高度集中于神经架构优化，排除了其他范式",
+            "轮次指标误导：300轮进化可能只反映迭代次数，不反映认知深度"
+          ],
+          "considered_sufficiently": false
+        },
+        "q3": {
+          "logical_gaps": "从「假设被支持」直接跳到「理论成立」，缺少对支持证据质量的审查；未说明为何6个理论能共存而不互相竞争或矛盾。",
+          "self_consistency": "medium",
+          "recommendation": "下一步应主动构造针对现有6个理论的证伪实验或反例，并引入至少一个与当前种子集异质的范式，检验理论是否只是同源概念的重新排列。"
+        }
+      }
     }
   ],
   "qa_sessions": [],
@@ -720,6 +784,26 @@
       "type": "confirmation_bias_risk",
       "severity": "warning",
       "detail": "可能未充分考虑替代解释"
+    },
+    {
+      "type": "premise_uncertainty",
+      "severity": "warning",
+      "detail": "前提存在不确定性"
+    },
+    {
+      "type": "confirmation_bias_risk",
+      "severity": "warning",
+      "detail": "可能未充分考虑替代解释"
+    },
+    {
+      "type": "premise_collapse",
+      "severity": "critical",
+      "detail": "关键前提可能已被推翻"
+    },
+    {
+      "type": "confirmation_bias_risk",
+      "severity": "warning",
+      "detail": "可能未充分考虑替代解释"
     }
   ],
   "trend_snapshots": [
@@ -731,8 +815,17 @@
       "yellow_flags_last_10": 10,
       "bias_alerts_total": 20,
       "reflections_total": 10
+    },
+    {
+      "at_reflection": 20,
+      "evolution_round": 300,
+      "timestamp": "2026-09-23T02:05:22.813219",
+      "red_flags_last_10": 2,
+      "yellow_flags_last_10": 8,
+      "bias_alerts_total": 40,
+      "reflections_total": 20
     }
   ],
-  "total_reflections": 19,
-  "last_updated": "2026-09-18T23:42:30.588967"
+  "total_reflections": 21,
+  "last_updated": "2026-09-23T02:05:26.532683"
 }

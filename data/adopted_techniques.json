@@ -2528,6 +2528,36 @@
         ],
         "decided_at": "2026-09-22T17:48:03.984775"
       }
+    },
+    {
+      "id": "llm-流式时间序列语言模型",
+      "name": "流式时间序列语言模型",
+      "adopted_at": "2026-09-23T02:05:11.183978",
+      "decision": {
+        "tech_id": "llm-流式时间序列语言模型",
+        "tech_name": "流式时间序列语言模型",
+        "action": "adopt",
+        "confidence": 0.9,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-09-23T02:05:11.182141"
+      }
+    },
+    {
+      "id": "llm-地图感知视觉运动策略",
+      "name": "地图感知视觉运动策略",
+      "adopted_at": "2026-09-23T02:05:11.184000",
+      "decision": {
+        "tech_id": "llm-地图感知视觉运动策略",
+        "tech_name": "地图感知视觉运动策略",
+        "action": "adopt",
+        "confidence": 0.85,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-09-23T02:05:11.182340"
+      }
     }
   ],
   "history": [
@@ -3538,6 +3568,18 @@
       "tech_id": "llm-视觉-触觉世界-动作模型",
       "tech_name": "视觉-触觉世界-动作模型",
       "timestamp": "2026-09-22T17:48:03.986507"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-流式时间序列语言模型",
+      "tech_name": "流式时间序列语言模型",
+      "timestamp": "2026-09-23T02:05:11.183984"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-地图感知视觉运动策略",
+      "tech_name": "地图感知视觉运动策略",
+      "timestamp": "2026-09-23T02:05:11.184002"
     }
   ]
 }
