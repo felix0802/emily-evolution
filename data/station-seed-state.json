@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 667,
+  "_rotation_idx": 668,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 60,
@@ -5043,25 +5043,8 @@
   "moe": {
     "name": "Mixture of Experts",
     "total_papers_found": 92,
-    "watering_count": 63,
+    "watering_count": 64,
     "history": [
-      {
-        "timestamp": "2026-07-27T01:31:01.487296",
-        "papers_found": 1,
-        "duplicates": 4,
-        "irrelevant_filtered": 5,
-        "avg_relevance": 3.0,
-        "high_relevance": 1,
-        "papers": [
-          {
-            "title": "MoE$^2$-LoRA: When MoE Models Meet MoE-style Low-Rank Adaptation",
-            "summary": "Mixture-of-Experts (MoE) architectures have been widely adopted in large language models, yet parameter-efficient fine-tuning (PEFT) for MoE models remains underexplored. Existing PEFT methods for MoE either ignore router priors with uniform adapters, reducing efficiency and risking forgetting, or r",
-            "published": "2026-07-24",
-            "url": "http://arxiv.org/abs/2607.21978v1",
-            "seed_match_score": 3
-          }
-        ]
-      },
       {
         "timestamp": "2026-07-28T08:10:33.140420",
         "papers_found": 2,
@@ -5944,6 +5927,15 @@
         "avg_relevance": 0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-09-23T14:29:48.458457",
+        "papers_found": 0,
+        "duplicates": 0,
+        "irrelevant_filtered": 0,
+        "avg_relevance": 0,
+        "high_relevance": 0,
+        "papers": []
       }
     ],
     "keywords": [
@@ -5955,7 +5947,7 @@
       "switch transformer",
       "deepseek"
     ],
-    "last_watered": "2026-09-21T14:38:02.260000"
+    "last_watered": "2026-09-23T14:29:48.458450"
   },
   "kv-cache": {
     "name": "KV Cache Optimization",
