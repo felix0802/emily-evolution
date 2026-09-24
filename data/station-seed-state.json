@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 674,
+  "_rotation_idx": 675,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 60,
@@ -2965,17 +2965,8 @@
   "non-transformer": {
     "name": "Non-Transformer Arch",
     "total_papers_found": 39,
-    "watering_count": 70,
+    "watering_count": 71,
     "history": [
-      {
-        "timestamp": "2026-07-27T22:48:03.655338",
-        "papers_found": 0,
-        "duplicates": 6,
-        "irrelevant_filtered": 4,
-        "avg_relevance": 0.0,
-        "high_relevance": 0,
-        "papers": []
-      },
       {
         "timestamp": "2026-07-28T22:48:35.556032",
         "papers_found": 0,
@@ -3614,6 +3605,15 @@
         "avg_relevance": 0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-09-24T22:47:04.126126",
+        "papers_found": 0,
+        "duplicates": 0,
+        "irrelevant_filtered": 0,
+        "avg_relevance": 0,
+        "high_relevance": 0,
+        "papers": []
       }
     ],
     "keywords": [
@@ -3626,7 +3626,7 @@
       "sub-quadratic",
       "mamba"
     ],
-    "last_watered": "2026-09-22T23:53:52.579124"
+    "last_watered": "2026-09-24T22:47:04.126119"
   },
   "few-shot": {
     "name": "Few-Shot Learning",
