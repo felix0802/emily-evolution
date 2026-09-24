@@ -1,28 +1,6 @@
 {
   "rounds": [
     {
-      "round": 257,
-      "timestamp": "2026-09-15T22:30:29.723377",
-      "prediction_error": 0.7,
-      "seeds_active": 10,
-      "seeds_dormant": 0,
-      "new_seeds_added": 0,
-      "top_motivated": [
-        [
-          "htm",
-          0.91
-        ],
-        [
-          "spiking-nn",
-          0.91
-        ],
-        [
-          "non-transformer",
-          0.91
-        ]
-      ]
-    },
-    {
       "round": 258,
       "timestamp": "2026-09-16T01:59:27.306152",
       "prediction_error": 0.7,
@@ -1099,6 +1077,28 @@
           0.792
         ]
       ]
+    },
+    {
+      "round": 307,
+      "timestamp": "2026-09-24T18:01:38.278006",
+      "prediction_error": 0.7,
+      "seeds_active": 6,
+      "seeds_dormant": 4,
+      "new_seeds_added": 0,
+      "top_motivated": [
+        [
+          "non-transformer",
+          0.91
+        ],
+        [
+          "continual-learning",
+          0.792
+        ],
+        [
+          "few-shot",
+          0.767
+        ]
+      ]
     }
   ],
   "seed_scores": {
@@ -1185,15 +1185,15 @@
         0.45,
         0.45,
         0.45,
-        0.45,
+        0.0,
         0.0
       ]
     },
     "spiking-nn": {
       "name": "Spiking Neural Networks",
-      "info_gain": 1.0,
+      "info_gain": 0.0,
       "novelty": 1.0,
-      "motivation_score": 0.91,
+      "motivation_score": 0.51,
       "info_gain_history": [
         1.0,
         1.0,
@@ -1215,7 +1215,7 @@
         1.0,
         1.0,
         1.0,
-        1.0
+        0.0
       ]
     },
     "non-transformer": {
@@ -1325,7 +1325,7 @@
         0.36,
         0.36,
         0.36,
-        0.36,
+        0.0,
         0.0,
         0.0,
         0.0,
@@ -1402,6 +1402,6 @@
     "kv-cache",
     "mamba"
   ],
-  "total_motivation_evaluations": 148,
+  "total_motivation_evaluations": 149,
   "current_prediction_error": 0.7
 }

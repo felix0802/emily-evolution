@@ -1,53 +1,6 @@
 {
   "sessions": [
     {
-      "timestamp": "2026-09-07T13:44:48.348525",
-      "arxiv_papers_count": 18,
-      "arxiv_top_keywords": [
-        "large",
-        "language",
-        "learning",
-        "online",
-        "reasoning",
-        "medical",
-        "text",
-        "aware",
-        "loop",
-        "domain"
-      ],
-      "arxiv_strategies": [
-        "搜索: reinforcement learning",
-        "搜索: large language model",
-        "搜索: diffusion model"
-      ],
-      "huggingface_models": 10,
-      "huggingface_tasks": [
-        "sentence-similarity",
-        "unknown",
-        "fill-mask",
-        "text-ranking",
-        "feature-extraction"
-      ],
-      "ml_datasets": [
-        "Iris",
-        "Wine",
-        "Breast Cancer",
-        "Diabetes"
-      ],
-      "ml_total_tests": 22,
-      "github_trending_repos": 8,
-      "paperswithcode_papers": 8,
-      "evolution": {
-        "discovered": 25,
-        "adopted": 2,
-        "decisions": 2
-      },
-      "seed_watering": {
-        "seed_name": "HTM",
-        "papers_found": 4
-      }
-    },
-    {
       "timestamp": "2026-09-07T18:27:27.662908",
       "arxiv_papers_count": 18,
       "arxiv_top_keywords": [
@@ -4556,10 +4509,57 @@
         "seed_name": "",
         "papers_found": 0
       }
+    },
+    {
+      "timestamp": "2026-09-24T18:01:42.147814",
+      "arxiv_papers_count": 5,
+      "arxiv_top_keywords": [
+        "language",
+        "human",
+        "tutoring",
+        "studentbench",
+        "learning",
+        "gains",
+        "group",
+        "robot",
+        "joining",
+        "join"
+      ],
+      "arxiv_strategies": [
+        "cs.AI (fallback)",
+        "cs.AI (fallback)",
+        "cs.AI (fallback)"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "unknown",
+        "fill-mask",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 12,
+        "adopted": 0,
+        "decisions": 0
+      },
+      "seed_watering": {
+        "seed_name": "",
+        "papers_found": 0
+      }
     }
   ],
   "total_sessions": 101,
-  "last_updated": "2026-09-24T12:57:52.474593",
+  "last_updated": "2026-09-24T18:01:42.147828",
   "evolution_summary": {
     "total_adopted": 172,
     "adopted_list": [
@@ -4754,7 +4754,7 @@
       },
       "spiking-nn": {
         "name": "Spiking Neural Networks",
-        "watering": 69,
+        "watering": 70,
         "papers": 35
       },
       "non-transformer": {
@@ -4931,6 +4931,6 @@
         "best_papers_count": 1
       }
     },
-    "last_evolution": "2026-09-24T12:57:52.477614"
+    "last_evolution": "2026-09-24T18:01:42.150945"
   }
 }
