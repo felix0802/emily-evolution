@@ -1,28 +1,6 @@
 {
   "rounds": [
     {
-      "round": 260,
-      "timestamp": "2026-09-16T12:53:42.583176",
-      "prediction_error": 0.7,
-      "seeds_active": 10,
-      "seeds_dormant": 0,
-      "new_seeds_added": 0,
-      "top_motivated": [
-        [
-          "htm",
-          0.91
-        ],
-        [
-          "spiking-nn",
-          0.91
-        ],
-        [
-          "non-transformer",
-          0.91
-        ]
-      ]
-    },
-    {
       "round": 261,
       "timestamp": "2026-09-16T17:47:30.283404",
       "prediction_error": 0.7,
@@ -1099,6 +1077,28 @@
           0.51
         ]
       ]
+    },
+    {
+      "round": 310,
+      "timestamp": "2026-09-25T09:09:24.030297",
+      "prediction_error": 0.7,
+      "seeds_active": 5,
+      "seeds_dormant": 5,
+      "new_seeds_added": 0,
+      "top_motivated": [
+        [
+          "mamba",
+          0.51
+        ],
+        [
+          "liquid-networks",
+          0.51
+        ],
+        [
+          "htm",
+          0.51
+        ]
+      ]
     }
   ],
   "seed_scores": {
@@ -1182,7 +1182,7 @@
         0.45,
         0.45,
         0.45,
-        0.45,
+        0.0,
         0.0,
         0.0,
         0.0,
@@ -1212,7 +1212,7 @@
         1.0,
         1.0,
         1.0,
-        1.0,
+        0.0,
         0.0,
         0.0,
         0.0
@@ -1242,7 +1242,7 @@
         1.0,
         1.0,
         1.0,
-        1.0,
+        0.0,
         0.0,
         0.0
       ]
@@ -1272,15 +1272,15 @@
         0.643,
         0.643,
         0.643,
-        0.643,
+        0.0,
         0.0
       ]
     },
     "continual-learning": {
       "name": "Continual Learning",
-      "info_gain": 0.706,
+      "info_gain": 0.0,
       "novelty": 1.0,
-      "motivation_score": 0.792,
+      "motivation_score": 0.51,
       "info_gain_history": [
         0.706,
         0.706,
@@ -1302,7 +1302,7 @@
         0.706,
         0.706,
         0.706,
-        0.706
+        0.0
       ]
     },
     "moe": {
@@ -1322,7 +1322,7 @@
         0.36,
         0.36,
         0.36,
-        0.36,
+        0.0,
         0.0,
         0.0,
         0.0,
@@ -1400,8 +1400,9 @@
     "gnn",
     "liquid-networks",
     "kv-cache",
-    "mamba"
+    "mamba",
+    "moe"
   ],
-  "total_motivation_evaluations": 151,
+  "total_motivation_evaluations": 152,
   "current_prediction_error": 0.7
 }
