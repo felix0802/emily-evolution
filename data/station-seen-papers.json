@@ -41627,7 +41627,338 @@
         "world"
       ],
       "first_seen_round": 305
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.29808v1",
+      "title": "Hard Stop: Kernel-Level Preemption and Containment for Rogue Agentic Execution",
+      "arxiv_id": "2609.29808",
+      "tokens": [
+        "agentic",
+        "containment",
+        "execution",
+        "hard",
+        "kernel",
+        "level",
+        "preemption",
+        "rogue",
+        "stop"
+      ],
+      "first_seen_round": 309
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.29803v1",
+      "title": "SEEK: Skill-Routed Evaluation with Evolvable Knowledge for Industrial Search",
+      "arxiv_id": "2609.29803",
+      "tokens": [
+        "evaluation",
+        "evolvable",
+        "industrial",
+        "knowledge",
+        "routed",
+        "search",
+        "seek",
+        "skill"
+      ],
+      "first_seen_round": 309
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.29802v1",
+      "title": "Learning to Ideate for Scientific Impact",
+      "arxiv_id": "2609.29802",
+      "tokens": [
+        "ideate",
+        "impact",
+        "scientific"
+      ],
+      "first_seen_round": 309
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.29798v1",
+      "title": "Benchmarking and Domain Adaptation of Automatic Speech Recognition (ASR) for Adolescent Health Communication in Ghanaian Languages",
+      "arxiv_id": "2609.29798",
+      "tokens": [
+        "adaptation",
+        "adolescent",
+        "asr",
+        "automatic",
+        "benchmarking",
+        "communication",
+        "domain",
+        "ghanaian",
+        "health",
+        "languages",
+        "recognition",
+        "speech"
+      ],
+      "first_seen_round": 309
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.29792v1",
+      "title": "TimeBraid: Unifying Time Series and Language for Understanding and Forecasting",
+      "arxiv_id": "2609.29792",
+      "tokens": [
+        "forecasting",
+        "language",
+        "series",
+        "time",
+        "timebraid",
+        "understanding",
+        "unifying"
+      ],
+      "first_seen_round": 309
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.29781v1",
+      "title": "Hallucination Neurons and Where to Find Them: An Investigation into the existence of Hallucination Neurons",
+      "arxiv_id": "2609.29781",
+      "tokens": [
+        "existence",
+        "find",
+        "hallucination",
+        "hallucination",
+        "investigation",
+        "neurons",
+        "neurons"
+      ],
+      "first_seen_round": 309
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.29775v1",
+      "title": "Prefilling the Reasoning Channel: Output-Prefix Attacks on Reasoning LLMs",
+      "arxiv_id": "2609.29775",
+      "tokens": [
+        "attacks",
+        "channel",
+        "llms",
+        "output",
+        "prefilling",
+        "prefix",
+        "reasoning",
+        "reasoning"
+      ],
+      "first_seen_round": 309
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.29773v1",
+      "title": "Breaking the Environment Wall: Evolving LLM Agent Environments for Recursive Self-Improvement",
+      "arxiv_id": "2609.29773",
+      "tokens": [
+        "agent",
+        "breaking",
+        "environment",
+        "environments",
+        "evolving",
+        "improvement",
+        "llm",
+        "recursive",
+        "self",
+        "wall"
+      ],
+      "first_seen_round": 309
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.29807v1",
+      "title": "CORDIAL: Calibrating Ordinal LLM Outputs from Few Labels",
+      "arxiv_id": "2609.29807",
+      "tokens": [
+        "calibrating",
+        "cordial",
+        "labels",
+        "llm",
+        "ordinal",
+        "outputs"
+      ],
+      "first_seen_round": 309
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.29774v1",
+      "title": "An Analytical Theory of Auxiliary Learning",
+      "arxiv_id": "2609.29774",
+      "tokens": [
+        "analytical",
+        "auxiliary",
+        "theory"
+      ],
+      "first_seen_round": 309
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.29772v1",
+      "title": "WeatherDiagFlow: Evidence-Grounded Radar Nowcasting with Diagnostic Flow Refinement",
+      "arxiv_id": "2609.29772",
+      "tokens": [
+        "diagnostic",
+        "evidence",
+        "flow",
+        "grounded",
+        "nowcasting",
+        "radar",
+        "refinement",
+        "weatherdiagflow"
+      ],
+      "first_seen_round": 309
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.29755v1",
+      "title": "On Growth and Form, and Function: Reusable Regulatory Handles Control Phenotypic Variation",
+      "arxiv_id": "2609.29755",
+      "tokens": [
+        "control",
+        "form",
+        "function",
+        "growth",
+        "handles",
+        "phenotypic",
+        "regulatory",
+        "reusable",
+        "variation"
+      ],
+      "first_seen_round": 309
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.29740v1",
+      "title": "TopU-LBVS: A Realistic Multi Target Benchmark for Ligand Based Virtual Screening",
+      "arxiv_id": "2609.29740",
+      "tokens": [
+        "benchmark",
+        "lbvs",
+        "ligand",
+        "multi",
+        "realistic",
+        "screening",
+        "target",
+        "topu",
+        "virtual"
+      ],
+      "first_seen_round": 309
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.29733v1",
+      "title": "TTLab at StanceEval-2026: A Cloze-Style Prompting Approach for Arabic-Language Stance Detection (CLASP-Ar)",
+      "arxiv_id": "2609.29733",
+      "tokens": [
+        "2026",
+        "arabic",
+        "clasp",
+        "cloze",
+        "detection",
+        "language",
+        "prompting",
+        "stance",
+        "stanceeval",
+        "style",
+        "ttlab"
+      ],
+      "first_seen_round": 309
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.29633v1",
+      "title": "TTLab at AlexandriaX-2026: A Fine-Tuned Surface Tagger for Arabic Machine-Translation Error-Span Detection and Classification",
+      "arxiv_id": "2609.29633",
+      "tokens": [
+        "2026",
+        "alexandriax",
+        "arabic",
+        "classification",
+        "detection",
+        "error",
+        "fine",
+        "machine",
+        "span",
+        "surface",
+        "tagger",
+        "translation",
+        "ttlab",
+        "tuned"
+      ],
+      "first_seen_round": 309
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.29466v1",
+      "title": "Direct Message Approximation (DMA): A Consistency-Based Framework for Tractable Approximate Inference on Factor Graphs",
+      "arxiv_id": "2609.29466",
+      "tokens": [
+        "approximate",
+        "approximation",
+        "consistency",
+        "direct",
+        "dma",
+        "factor",
+        "graphs",
+        "inference",
+        "message",
+        "tractable"
+      ],
+      "first_seen_round": 309
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.30266v1",
+      "title": "LLM Agents Can Easily Tamper With Their Own Traces",
+      "arxiv_id": "2609.30266",
+      "tokens": [
+        "agents",
+        "easily",
+        "llm",
+        "tamper",
+        "traces"
+      ],
+      "first_seen_round": 309
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.30264v1",
+      "title": "AD-WM: Action-Discriminative World Models for Counterfactual Model Predictive Control",
+      "arxiv_id": "2609.30264",
+      "tokens": [
+        "action",
+        "control",
+        "counterfactual",
+        "discriminative",
+        "predictive",
+        "world"
+      ],
+      "first_seen_round": 309
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.30249v1",
+      "title": "RAPID: Robot Agentic Programming from Demonstrations",
+      "arxiv_id": "2609.30249",
+      "tokens": [
+        "agentic",
+        "demonstrations",
+        "programming",
+        "rapid",
+        "robot"
+      ],
+      "first_seen_round": 309
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.30247v1",
+      "title": "Rolling-WAM: World Action Models with Rolling Imagination",
+      "arxiv_id": "2609.30247",
+      "tokens": [
+        "action",
+        "imagination",
+        "rolling",
+        "rolling",
+        "wam",
+        "world"
+      ],
+      "first_seen_round": 309
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.30233v1",
+      "title": "Coding Agents for Generalized Task and Motion Planning Problems",
+      "arxiv_id": "2609.30233",
+      "tokens": [
+        "agents",
+        "coding",
+        "generalized",
+        "motion",
+        "planning",
+        "problems",
+        "task"
+      ],
+      "first_seen_round": 309
     }
   ],
-  "total_unique": 2596
+  "total_unique": 2617
 }
