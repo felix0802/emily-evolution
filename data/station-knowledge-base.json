@@ -1,53 +1,6 @@
 {
   "sessions": [
     {
-      "timestamp": "2026-09-08T12:20:28.243228",
-      "arxiv_papers_count": 18,
-      "arxiv_top_keywords": [
-        "learning",
-        "language",
-        "attention",
-        "linear",
-        "theory",
-        "compression",
-        "teacher",
-        "student",
-        "distillation",
-        "decentralized"
-      ],
-      "arxiv_strategies": [
-        "搜索: multi-query attention",
-        "搜索: geometric deep learning",
-        "搜索: knowledge distillation"
-      ],
-      "huggingface_models": 10,
-      "huggingface_tasks": [
-        "sentence-similarity",
-        "unknown",
-        "fill-mask",
-        "text-ranking",
-        "feature-extraction"
-      ],
-      "ml_datasets": [
-        "Iris",
-        "Wine",
-        "Breast Cancer",
-        "Diabetes"
-      ],
-      "ml_total_tests": 22,
-      "github_trending_repos": 8,
-      "paperswithcode_papers": 8,
-      "evolution": {
-        "discovered": 20,
-        "adopted": 0,
-        "decisions": 0
-      },
-      "seed_watering": {
-        "seed_name": "Mixture of Experts",
-        "papers_found": 9
-      }
-    },
-    {
       "timestamp": "2026-09-08T17:38:03.861001",
       "arxiv_papers_count": 22,
       "arxiv_top_keywords": [
@@ -4556,12 +4509,59 @@
         "seed_name": "",
         "papers_found": 0
       }
+    },
+    {
+      "timestamp": "2026-09-25T19:38:32.200862",
+      "arxiv_papers_count": 5,
+      "arxiv_top_keywords": [
+        "action",
+        "world",
+        "agents",
+        "traces",
+        "llm",
+        "their",
+        "code",
+        "discriminative",
+        "counterfactual",
+        "predictive"
+      ],
+      "arxiv_strategies": [
+        "cs.AI (fallback)",
+        "cs.AI (fallback)",
+        "cs.AI (fallback)"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "unknown",
+        "fill-mask",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 14,
+        "adopted": 1,
+        "decisions": 1
+      },
+      "seed_watering": {
+        "seed_name": "",
+        "papers_found": 0
+      }
     }
   ],
   "total_sessions": 101,
-  "last_updated": "2026-09-25T14:49:44.915094",
+  "last_updated": "2026-09-25T19:38:32.200877",
   "evolution_summary": {
-    "total_adopted": 172,
+    "total_adopted": 173,
     "adopted_list": [
       "Knowledge Distillation",
       "World Models / Model-Based RL",
@@ -4734,7 +4734,8 @@
       "流式时间序列语言模型",
       "地图感知视觉运动策略",
       "Speaker-Centered Dual-Track Memory",
-      "Autocompaction"
+      "Autocompaction",
+      "LLM 智能体轨迹篡改"
     ],
     "seeds": {
       "mamba": {
@@ -4779,7 +4780,7 @@
       },
       "kv-cache": {
         "name": "KV Cache Optimization",
-        "watering": 65,
+        "watering": 66,
         "papers": 84
       },
       "gnn": {
@@ -4931,6 +4932,6 @@
         "best_papers_count": 1
       }
     },
-    "last_evolution": "2026-09-25T14:49:44.917883"
+    "last_evolution": "2026-09-25T19:38:32.203886"
   }
 }

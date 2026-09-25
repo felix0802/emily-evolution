@@ -2588,6 +2588,21 @@
         ],
         "decided_at": "2026-09-23T08:53:14.520984"
       }
+    },
+    {
+      "id": "llm-llm-智能体轨迹篡改",
+      "name": "LLM 智能体轨迹篡改",
+      "adopted_at": "2026-09-25T19:38:32.194084",
+      "decision": {
+        "tech_id": "llm-llm-智能体轨迹篡改",
+        "tech_name": "LLM 智能体轨迹篡改",
+        "action": "adopt",
+        "confidence": 0.95,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-09-25T19:38:32.192095"
+      }
     }
   ],
   "history": [
@@ -3622,6 +3637,12 @@
       "tech_id": "llm-autocompaction",
       "tech_name": "Autocompaction",
       "timestamp": "2026-09-23T08:53:14.522415"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-llm-智能体轨迹篡改",
+      "tech_name": "LLM 智能体轨迹篡改",
+      "timestamp": "2026-09-25T19:38:32.194090"
     }
   ]
 }

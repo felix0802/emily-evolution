@@ -1,28 +1,6 @@
 {
   "rounds": [
     {
-      "round": 262,
-      "timestamp": "2026-09-16T20:32:34.154234",
-      "prediction_error": 0.7,
-      "seeds_active": 10,
-      "seeds_dormant": 0,
-      "new_seeds_added": 0,
-      "top_motivated": [
-        [
-          "htm",
-          0.91
-        ],
-        [
-          "spiking-nn",
-          0.91
-        ],
-        [
-          "non-transformer",
-          0.91
-        ]
-      ]
-    },
-    {
       "round": 263,
       "timestamp": "2026-09-16T23:57:00.648812",
       "prediction_error": 0.7,
@@ -1099,6 +1077,28 @@
           0.51
         ]
       ]
+    },
+    {
+      "round": 312,
+      "timestamp": "2026-09-25T19:38:27.014337",
+      "prediction_error": 0.7,
+      "seeds_active": 5,
+      "seeds_dormant": 5,
+      "new_seeds_added": 0,
+      "top_motivated": [
+        [
+          "mamba",
+          0.51
+        ],
+        [
+          "liquid-networks",
+          0.51
+        ],
+        [
+          "htm",
+          0.51
+        ]
+      ]
     }
   ],
   "seed_scores": {
@@ -1180,7 +1180,7 @@
         0.45,
         0.45,
         0.45,
-        0.45,
+        0.0,
         0.0,
         0.0,
         0.0,
@@ -1210,7 +1210,7 @@
         1.0,
         1.0,
         1.0,
-        1.0,
+        0.0,
         0.0,
         0.0,
         0.0,
@@ -1240,7 +1240,7 @@
         1.0,
         1.0,
         1.0,
-        1.0,
+        0.0,
         0.0,
         0.0,
         0.0,
@@ -1270,7 +1270,7 @@
         0.643,
         0.643,
         0.643,
-        0.643,
+        0.0,
         0.0,
         0.0,
         0.0
@@ -1300,7 +1300,7 @@
         0.706,
         0.706,
         0.706,
-        0.706,
+        0.0,
         0.0,
         0.0
       ]
@@ -1320,7 +1320,7 @@
         0.36,
         0.36,
         0.36,
-        0.36,
+        0.0,
         0.0,
         0.0,
         0.0,
@@ -1403,6 +1403,6 @@
     "mamba",
     "moe"
   ],
-  "total_motivation_evaluations": 153,
+  "total_motivation_evaluations": 154,
   "current_prediction_error": 0.7
 }

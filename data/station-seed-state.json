@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 678,
+  "_rotation_idx": 679,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 60,
@@ -5885,32 +5885,8 @@
   "kv-cache": {
     "name": "KV Cache Optimization",
     "total_papers_found": 84,
-    "watering_count": 65,
+    "watering_count": 66,
     "history": [
-      {
-        "timestamp": "2026-07-28T11:49:00.518059",
-        "papers_found": 2,
-        "duplicates": 5,
-        "irrelevant_filtered": 3,
-        "avg_relevance": 1.0,
-        "high_relevance": 0,
-        "papers": [
-          {
-            "title": "DynaCalKV: Key-Value Cache Compression via Head Grouping and Adaptive Rank Allocation",
-            "summary": "As the inference phase of Large Language Models (LLMs) requires handling long context windows, the Key-Value (KV) cache initially appears to address this challenge but eventually becomes a significant bottleneck as the context window continues to grow. Low-rank compression has recently been studied ",
-            "published": "2026-07-27",
-            "url": "http://arxiv.org/abs/2607.24331v1",
-            "seed_match_score": 1
-          },
-          {
-            "title": "Through the Bottleneck: How Multi-head Latent Attention Separates Content from Position in Language Models",
-            "summary": "Multi-head Latent Attention (MLA), introduced in DeepSeek-V2, compresses key-value pairs through a shared low-rank bottleneck (cKV), achieving 81% KV-cache reduction during inference. Despite its adoption in massive production models, no prior work has studied what information this bottleneck preser",
-            "published": "2026-07-25",
-            "url": "http://arxiv.org/abs/2607.23054v1",
-            "seed_match_score": 1
-          }
-        ]
-      },
       {
         "timestamp": "2026-07-29T11:52:31.009100",
         "papers_found": 1,
@@ -6739,6 +6715,15 @@
         "avg_relevance": 0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-09-25T19:38:26.997680",
+        "papers_found": 0,
+        "duplicates": 0,
+        "irrelevant_filtered": 0,
+        "avg_relevance": 0,
+        "high_relevance": 0,
+        "papers": []
       }
     ],
     "keywords": [
@@ -6750,7 +6735,7 @@
       "flash attention",
       "speculative decoding"
     ],
-    "last_watered": "2026-09-23T19:17:09.233238"
+    "last_watered": "2026-09-25T19:38:26.997673"
   },
   "gnn": {
     "name": "Graph Neural Networks",
