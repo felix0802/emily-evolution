@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 677,
+  "_rotation_idx": 678,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 60,
@@ -4991,32 +4991,8 @@
   "moe": {
     "name": "Mixture of Experts",
     "total_papers_found": 92,
-    "watering_count": 64,
+    "watering_count": 65,
     "history": [
-      {
-        "timestamp": "2026-07-28T08:10:33.140420",
-        "papers_found": 2,
-        "duplicates": 3,
-        "irrelevant_filtered": 5,
-        "avg_relevance": 1.5,
-        "high_relevance": 1,
-        "papers": [
-          {
-            "title": "DraftExpert: Expansion-Aware Self-Speculative Decoding for End-Device MoE Inference",
-            "summary": "Large Mixture-of-Experts (MoE) language models are attractive for end-device deployment because only a small subset of experts is active per token, but their routed expert weights often exceed accelerator memory. We target latency-critical single-user settings where routed experts are staged on dema",
-            "published": "2026-07-27",
-            "url": "http://arxiv.org/abs/2607.24434v1",
-            "seed_match_score": 2
-          },
-          {
-            "title": "Context-Adaptive Inference: A Unified Statistical and Foundation-Model View",
-            "summary": "Modern predictive systems are expected to adapt their behavior to the specific situation they are facing. A clinical model should not treat every patient the same; a retrieval-augmented model should change its answer when given different evidence; a mixture-of-experts model should route different in",
-            "published": "2026-07-25",
-            "url": "http://arxiv.org/abs/2607.23304v1",
-            "seed_match_score": 1
-          }
-        ]
-      },
       {
         "timestamp": "2026-07-29T08:14:47.687623",
         "papers_found": 1,
@@ -5884,6 +5860,15 @@
         "avg_relevance": 0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-09-25T14:49:39.610102",
+        "papers_found": 0,
+        "duplicates": 0,
+        "irrelevant_filtered": 0,
+        "avg_relevance": 0,
+        "high_relevance": 0,
+        "papers": []
       }
     ],
     "keywords": [
@@ -5895,7 +5880,7 @@
       "switch transformer",
       "deepseek"
     ],
-    "last_watered": "2026-09-23T14:29:48.458450"
+    "last_watered": "2026-09-25T14:49:39.610096"
   },
   "kv-cache": {
     "name": "KV Cache Optimization",
