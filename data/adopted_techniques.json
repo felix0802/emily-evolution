@@ -2618,6 +2618,36 @@
         ],
         "decided_at": "2026-09-26T02:15:30.218131"
       }
+    },
+    {
+      "id": "llm-智能体轨迹篡改",
+      "name": "智能体轨迹篡改",
+      "adopted_at": "2026-09-26T13:56:44.556785",
+      "decision": {
+        "tech_id": "llm-智能体轨迹篡改",
+        "tech_name": "智能体轨迹篡改",
+        "action": "adopt",
+        "confidence": 0.9,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-09-26T13:56:44.554760"
+      }
+    },
+    {
+      "id": "llm-动作判别性世界模型",
+      "name": "动作判别性世界模型",
+      "adopted_at": "2026-09-26T13:56:44.556809",
+      "decision": {
+        "tech_id": "llm-动作判别性世界模型",
+        "tech_name": "动作判别性世界模型",
+        "action": "adopt",
+        "confidence": 0.85,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-09-26T13:56:44.554944"
+      }
     }
   ],
   "history": [
@@ -3664,6 +3694,18 @@
       "tech_id": "llm-动作判别式世界模型",
       "tech_name": "动作判别式世界模型",
       "timestamp": "2026-09-26T02:15:30.220155"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-智能体轨迹篡改",
+      "tech_name": "智能体轨迹篡改",
+      "timestamp": "2026-09-26T13:56:44.556793"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-动作判别性世界模型",
+      "tech_name": "动作判别性世界模型",
+      "timestamp": "2026-09-26T13:56:44.556811"
     }
   ]
 }
