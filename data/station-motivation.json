@@ -1,28 +1,6 @@
 {
   "rounds": [
     {
-      "round": 264,
-      "timestamp": "2026-09-17T02:33:24.846747",
-      "prediction_error": 0.7,
-      "seeds_active": 10,
-      "seeds_dormant": 0,
-      "new_seeds_added": 0,
-      "top_motivated": [
-        [
-          "htm",
-          0.91
-        ],
-        [
-          "spiking-nn",
-          0.91
-        ],
-        [
-          "non-transformer",
-          0.91
-        ]
-      ]
-    },
-    {
       "round": 265,
       "timestamp": "2026-09-17T08:58:20.847920",
       "prediction_error": 0.7,
@@ -1099,6 +1077,28 @@
           0.51
         ]
       ]
+    },
+    {
+      "round": 314,
+      "timestamp": "2026-09-26T02:15:25.923826",
+      "prediction_error": 0.7,
+      "seeds_active": 5,
+      "seeds_dormant": 5,
+      "new_seeds_added": 0,
+      "top_motivated": [
+        [
+          "mamba",
+          0.51
+        ],
+        [
+          "liquid-networks",
+          0.51
+        ],
+        [
+          "htm",
+          0.51
+        ]
+      ]
     }
   ],
   "seed_scores": {
@@ -1178,7 +1178,7 @@
         0.45,
         0.45,
         0.45,
-        0.45,
+        0.0,
         0.0,
         0.0,
         0.0,
@@ -1208,7 +1208,7 @@
         1.0,
         1.0,
         1.0,
-        1.0,
+        0.0,
         0.0,
         0.0,
         0.0,
@@ -1238,7 +1238,7 @@
         1.0,
         1.0,
         1.0,
-        1.0,
+        0.0,
         0.0,
         0.0,
         0.0,
@@ -1268,7 +1268,7 @@
         0.643,
         0.643,
         0.643,
-        0.643,
+        0.0,
         0.0,
         0.0,
         0.0,
@@ -1298,7 +1298,7 @@
         0.706,
         0.706,
         0.706,
-        0.706,
+        0.0,
         0.0,
         0.0,
         0.0,
@@ -1318,7 +1318,7 @@
         0.36,
         0.36,
         0.36,
-        0.36,
+        0.0,
         0.0,
         0.0,
         0.0,
@@ -1403,6 +1403,6 @@
     "mamba",
     "moe"
   ],
-  "total_motivation_evaluations": 155,
+  "total_motivation_evaluations": 156,
   "current_prediction_error": 0.7
 }
