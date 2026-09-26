@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 681,
+  "_rotation_idx": 682,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 60,
@@ -657,39 +657,8 @@
   "liquid-networks": {
     "name": "Liquid Networks",
     "total_papers_found": 70,
-    "watering_count": 71,
+    "watering_count": 72,
     "history": [
-      {
-        "timestamp": "2026-07-28T17:22:04.990312",
-        "papers_found": 7,
-        "duplicates": 1,
-        "irrelevant_filtered": 2,
-        "avg_relevance": 1.43,
-        "high_relevance": 3,
-        "papers": [
-          {
-            "title": "Self-Attention Dynamics with Rotary Position Embeddings: Twisted States and Explicit Consensus Rates on the Sphere",
-            "summary": "Rotary position embeddings (RoPE) modify attention scores through position-dependent rotations, but their effect on normalized token dynamics is not captured by the vanilla spherical self-attention model. We study the continuous-time dynamics obtained when queries and keys are rotated while values r",
-            "published": "2026-07-27",
-            "url": "http://arxiv.org/abs/2607.24502v1",
-            "seed_match_score": 2
-          },
-          {
-            "title": "Grokking on the Weight-Decay Clock: A Rate Hierarchy from Softly Broken Symmetries",
-            "summary": "Delayed generalization, or grokking, remains poorly understood despite extensive empirical study. We identify an exactly solvable late-time relaxation mechanism for grokking in linear models trained with full-batch heavy-ball optimization and weight decay, together with a locally quadratic extension",
-            "published": "2026-07-27",
-            "url": "http://arxiv.org/abs/2607.23967v1",
-            "seed_match_score": 1
-          },
-          {
-            "title": "When Rates Are Geometric: Rate-Certificate Transfer for Contact Splittings in Optimization",
-            "summary": "Discrete optimization algorithms are often analyzed through continuous-time limiting ODEs, but a convergence certificate for the ODE is not automatically one for the discrete algorithm. We develop contact Hamiltonian systems as a setting where the transfer can be made precise. A contact Hamiltonian ",
-            "published": "2026-07-26",
-            "url": "http://arxiv.org/abs/2607.23642v1",
-            "seed_match_score": 2
-          }
-        ]
-      },
       {
         "timestamp": "2026-07-29T17:01:40.933219",
         "papers_found": 0,
@@ -1358,6 +1327,15 @@
         "avg_relevance": 0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-09-26T08:53:04.806608",
+        "papers_found": 0,
+        "duplicates": 0,
+        "irrelevant_filtered": 0,
+        "avg_relevance": 0,
+        "high_relevance": 0,
+        "papers": []
       }
     ],
     "keywords": [
@@ -1367,7 +1345,7 @@
       "ode",
       "continuous-time"
     ],
-    "last_watered": "2026-09-24T06:52:00.051427"
+    "last_watered": "2026-09-26T08:53:04.806600"
   },
   "htm": {
     "name": "HTM",
