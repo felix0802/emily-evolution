@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 685,
+  "_rotation_idx": 686,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 60,
@@ -3572,25 +3572,8 @@
   "few-shot": {
     "name": "Few-Shot Learning",
     "total_papers_found": 33,
-    "watering_count": 70,
+    "watering_count": 71,
     "history": [
-      {
-        "timestamp": "2026-07-29T01:20:46.769569",
-        "papers_found": 1,
-        "duplicates": 4,
-        "irrelevant_filtered": 5,
-        "avg_relevance": 1.0,
-        "high_relevance": 0,
-        "papers": [
-          {
-            "title": "Greedy dynamical meta-learning",
-            "summary": "Gradient descent scales well to large models, but becomes unstable over long time horizons. Gradient-free optimizers can scale to arbitrary timespans, but are hobbled by high dimensions. Since learning occurs in large models over long timescales, neither of these approaches is likely to produce trai",
-            "published": "2026-07-27",
-            "url": "http://arxiv.org/abs/2607.23925v1",
-            "seed_match_score": 1
-          }
-        ]
-      },
       {
         "timestamp": "2026-07-30T01:13:51.131887",
         "papers_found": 1,
@@ -4130,6 +4113,15 @@
         "avg_relevance": 0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-09-26T23:58:59.883833",
+        "papers_found": 0,
+        "duplicates": 0,
+        "irrelevant_filtered": 0,
+        "avg_relevance": 0,
+        "high_relevance": 0,
+        "papers": []
       }
     ],
     "keywords": [
@@ -4139,7 +4131,7 @@
       "prototypical",
       "in-context"
     ],
-    "last_watered": "2026-09-25T02:09:51.496131"
+    "last_watered": "2026-09-26T23:58:59.883827"
   },
   "continual-learning": {
     "name": "Continual Learning",
