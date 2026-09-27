@@ -1,53 +1,6 @@
 {
   "sessions": [
     {
-      "timestamp": "2026-09-10T12:25:51.675618",
-      "arxiv_papers_count": 18,
-      "arxiv_top_keywords": [
-        "learning",
-        "agent",
-        "neural",
-        "formation",
-        "time",
-        "data",
-        "multi",
-        "architecture",
-        "subject",
-        "leakage"
-      ],
-      "arxiv_strategies": [
-        "搜索: neural architecture",
-        "搜索: self-supervised learning",
-        "搜索: multi-agent system"
-      ],
-      "huggingface_models": 10,
-      "huggingface_tasks": [
-        "sentence-similarity",
-        "unknown",
-        "fill-mask",
-        "text-generation",
-        "text-ranking"
-      ],
-      "ml_datasets": [
-        "Iris",
-        "Wine",
-        "Breast Cancer",
-        "Diabetes"
-      ],
-      "ml_total_tests": 22,
-      "github_trending_repos": 8,
-      "paperswithcode_papers": 8,
-      "evolution": {
-        "discovered": 16,
-        "adopted": 1,
-        "decisions": 1
-      },
-      "seed_watering": {
-        "seed_name": "Graph Neural Networks",
-        "papers_found": 4
-      }
-    },
-    {
       "timestamp": "2026-09-10T17:21:45.316602",
       "arxiv_papers_count": 18,
       "arxiv_top_keywords": [
@@ -4545,10 +4498,57 @@
         "seed_name": "",
         "papers_found": 0
       }
+    },
+    {
+      "timestamp": "2026-09-27T22:38:24.681066",
+      "arxiv_papers_count": 5,
+      "arxiv_top_keywords": [
+        "action",
+        "world",
+        "agents",
+        "traces",
+        "llm",
+        "their",
+        "code",
+        "discriminative",
+        "counterfactual",
+        "predictive"
+      ],
+      "arxiv_strategies": [
+        "cs.AI (fallback)",
+        "cs.AI (fallback)",
+        "cs.AI (fallback)"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "unknown",
+        "fill-mask",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 14,
+        "adopted": 0,
+        "decisions": 0
+      },
+      "seed_watering": {
+        "seed_name": "",
+        "papers_found": 0
+      }
     }
   ],
   "total_sessions": 101,
-  "last_updated": "2026-09-27T19:22:13.223536",
+  "last_updated": "2026-09-27T22:38:24.681085",
   "evolution_summary": {
     "total_adopted": 176,
     "adopted_list": [
@@ -4732,7 +4732,7 @@
     "seeds": {
       "mamba": {
         "name": "Mamba (SSM)",
-        "watering": 72,
+        "watering": 73,
         "papers": 60
       },
       "liquid-networks": {
@@ -4924,6 +4924,6 @@
         "best_papers_count": 1
       }
     },
-    "last_evolution": "2026-09-27T19:22:13.226476"
+    "last_evolution": "2026-09-27T22:38:24.683922"
   }
 }
