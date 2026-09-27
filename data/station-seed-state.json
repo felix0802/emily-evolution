@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 686,
+  "_rotation_idx": 687,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 60,
@@ -4136,32 +4136,8 @@
   "continual-learning": {
     "name": "Continual Learning",
     "total_papers_found": 78,
-    "watering_count": 69,
+    "watering_count": 70,
     "history": [
-      {
-        "timestamp": "2026-07-29T04:56:15.598939",
-        "papers_found": 2,
-        "duplicates": 5,
-        "irrelevant_filtered": 3,
-        "avg_relevance": 1.0,
-        "high_relevance": 0,
-        "papers": [
-          {
-            "title": "MemSFT: Mitigating Alignment Tax with an External Parametric Memory",
-            "summary": "Adapting Large Language Models (LLMs) to specialized domains often incurs an alignment tax, as fine-tuning on domain-specific tasks can cause catastrophic forgetting and substantially degrade performance on general tasks. We propose MemSFT, which mitigates the alignment tax by decoupling domain spec",
-            "published": "2026-07-28",
-            "url": "http://arxiv.org/abs/2607.25614v1",
-            "seed_match_score": 1
-          },
-          {
-            "title": "PIcsC: Partitioning-Induced Covariate Shift Correction",
-            "summary": "Covariate shift across training-data partitions biases model selection and parameter estimation in cross-validation, lifelong learning, and federated learning. We propose \\textit{Partition-Induced Covariate-shift Correction} (\\texttt{PIcsC}), a Fisher information-based regularization framework that ",
-            "published": "2026-07-28",
-            "url": "http://arxiv.org/abs/2607.25441v1",
-            "seed_match_score": 1
-          }
-        ]
-      },
       {
         "timestamp": "2026-07-30T04:44:32.190176",
         "papers_found": 1,
@@ -4910,6 +4886,15 @@
         "avg_relevance": 0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-09-27T03:29:34.345176",
+        "papers_found": 0,
+        "duplicates": 0,
+        "irrelevant_filtered": 0,
+        "avg_relevance": 0,
+        "high_relevance": 0,
+        "papers": []
       }
     ],
     "keywords": [
@@ -4919,7 +4904,7 @@
       "ewc",
       "elastic weight"
     ],
-    "last_watered": "2026-09-25T09:09:24.012744"
+    "last_watered": "2026-09-27T03:29:34.345170"
   },
   "moe": {
     "name": "Mixture of Experts",
