@@ -1,53 +1,6 @@
 {
   "sessions": [
     {
-      "timestamp": "2026-09-10T01:45:31.806118",
-      "arxiv_papers_count": 22,
-      "arxiv_top_keywords": [
-        "learning",
-        "language",
-        "high",
-        "resolution",
-        "vision",
-        "prediction",
-        "set",
-        "training",
-        "water",
-        "labels"
-      ],
-      "arxiv_strategies": [
-        "cs.CV 最新",
-        "cs.AI+cs.LG 混合",
-        "cs.CL+cs.CV 混合"
-      ],
-      "huggingface_models": 10,
-      "huggingface_tasks": [
-        "sentence-similarity",
-        "unknown",
-        "fill-mask",
-        "text-ranking",
-        "feature-extraction"
-      ],
-      "ml_datasets": [
-        "Iris",
-        "Wine",
-        "Breast Cancer",
-        "Diabetes"
-      ],
-      "ml_total_tests": 22,
-      "github_trending_repos": 8,
-      "paperswithcode_papers": 8,
-      "evolution": {
-        "discovered": 22,
-        "adopted": 0,
-        "decisions": 0
-      },
-      "seed_watering": {
-        "seed_name": "Mixture of Experts",
-        "papers_found": 8
-      }
-    },
-    {
       "timestamp": "2026-09-10T06:45:01.162347",
       "arxiv_papers_count": 17,
       "arxiv_top_keywords": [
@@ -4545,10 +4498,57 @@
         "seed_name": "",
         "papers_found": 0
       }
+    },
+    {
+      "timestamp": "2026-09-27T14:52:42.169628",
+      "arxiv_papers_count": 5,
+      "arxiv_top_keywords": [
+        "action",
+        "world",
+        "agents",
+        "traces",
+        "llm",
+        "their",
+        "code",
+        "discriminative",
+        "counterfactual",
+        "predictive"
+      ],
+      "arxiv_strategies": [
+        "cs.AI (fallback)",
+        "cs.AI (fallback)",
+        "cs.AI (fallback)"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "unknown",
+        "fill-mask",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 14,
+        "adopted": 0,
+        "decisions": 0
+      },
+      "seed_watering": {
+        "seed_name": "",
+        "papers_found": 0
+      }
     }
   ],
   "total_sessions": 101,
-  "last_updated": "2026-09-27T09:36:12.806496",
+  "last_updated": "2026-09-27T14:52:42.169643",
   "evolution_summary": {
     "total_adopted": 176,
     "adopted_list": [
@@ -4772,7 +4772,7 @@
       },
       "kv-cache": {
         "name": "KV Cache Optimization",
-        "watering": 66,
+        "watering": 67,
         "papers": 84
       },
       "gnn": {
@@ -4924,6 +4924,6 @@
         "best_papers_count": 1
       }
     },
-    "last_evolution": "2026-09-27T09:36:12.809476"
+    "last_evolution": "2026-09-27T14:52:42.172888"
   }
 }
