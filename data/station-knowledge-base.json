@@ -1,53 +1,6 @@
 {
   "sessions": [
     {
-      "timestamp": "2026-09-10T20:10:17.674974",
-      "arxiv_papers_count": 18,
-      "arxiv_top_keywords": [
-        "learning",
-        "data",
-        "time",
-        "anomaly",
-        "detection",
-        "multimodal",
-        "unsupervised",
-        "level",
-        "federated",
-        "experts"
-      ],
-      "arxiv_strategies": [
-        "搜索: time series forecasting",
-        "搜索: anomaly detection",
-        "搜索: mixture of experts"
-      ],
-      "huggingface_models": 10,
-      "huggingface_tasks": [
-        "sentence-similarity",
-        "unknown",
-        "fill-mask",
-        "text-generation",
-        "text-ranking"
-      ],
-      "ml_datasets": [
-        "Iris",
-        "Wine",
-        "Breast Cancer",
-        "Diabetes"
-      ],
-      "ml_total_tests": 22,
-      "github_trending_repos": 8,
-      "paperswithcode_papers": 8,
-      "evolution": {
-        "discovered": 14,
-        "adopted": 2,
-        "decisions": 2
-      },
-      "seed_watering": {
-        "seed_name": "Liquid Networks",
-        "papers_found": 7
-      }
-    },
-    {
       "timestamp": "2026-09-10T23:30:01.711422",
       "arxiv_papers_count": 18,
       "arxiv_top_keywords": [
@@ -4545,12 +4498,59 @@
         "seed_name": "",
         "papers_found": 0
       }
+    },
+    {
+      "timestamp": "2026-09-28T10:15:26.576343",
+      "arxiv_papers_count": 5,
+      "arxiv_top_keywords": [
+        "reasoning",
+        "learning",
+        "confidence",
+        "efficiency",
+        "stop",
+        "attribute",
+        "distribution",
+        "black",
+        "box",
+        "generative"
+      ],
+      "arxiv_strategies": [
+        "cs.AI (fallback)",
+        "cs.AI (fallback)",
+        "cs.AI (fallback)"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "unknown",
+        "fill-mask",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 11,
+        "adopted": 2,
+        "decisions": 2
+      },
+      "seed_watering": {
+        "seed_name": "",
+        "papers_found": 0
+      }
     }
   ],
   "total_sessions": 101,
-  "last_updated": "2026-09-28T02:14:00.751655",
+  "last_updated": "2026-09-28T10:15:26.576358",
   "evolution_summary": {
-    "total_adopted": 176,
+    "total_adopted": 178,
     "adopted_list": [
       "Knowledge Distillation",
       "World Models / Model-Based RL",
@@ -4727,7 +4727,9 @@
       "LLM 智能体轨迹篡改",
       "动作判别式世界模型",
       "智能体轨迹篡改",
-      "动作判别性世界模型"
+      "动作判别性世界模型",
+      "自监督置信度训练",
+      "输出后处理属性对齐"
     ],
     "seeds": {
       "mamba": {
@@ -4742,7 +4744,7 @@
       },
       "htm": {
         "name": "HTM",
-        "watering": 72,
+        "watering": 73,
         "papers": 110
       },
       "spiking-nn": {
@@ -4924,6 +4926,6 @@
         "best_papers_count": 1
       }
     },
-    "last_evolution": "2026-09-28T02:14:00.754638"
+    "last_evolution": "2026-09-28T10:15:26.579544"
   }
 }

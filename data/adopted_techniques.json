@@ -2648,6 +2648,36 @@
         ],
         "decided_at": "2026-09-26T13:56:44.554944"
       }
+    },
+    {
+      "id": "llm-自监督置信度训练",
+      "name": "自监督置信度训练",
+      "adopted_at": "2026-09-28T10:15:23.702902",
+      "decision": {
+        "tech_id": "llm-自监督置信度训练",
+        "tech_name": "自监督置信度训练",
+        "action": "adopt",
+        "confidence": 0.9,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-09-28T10:15:23.700350"
+      }
+    },
+    {
+      "id": "llm-输出后处理属性对齐",
+      "name": "输出后处理属性对齐",
+      "adopted_at": "2026-09-28T10:15:23.702924",
+      "decision": {
+        "tech_id": "llm-输出后处理属性对齐",
+        "tech_name": "输出后处理属性对齐",
+        "action": "adopt",
+        "confidence": 0.85,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-09-28T10:15:23.700538"
+      }
     }
   ],
   "history": [
@@ -3706,6 +3736,18 @@
       "tech_id": "llm-动作判别性世界模型",
       "tech_name": "动作判别性世界模型",
       "timestamp": "2026-09-26T13:56:44.556811"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-自监督置信度训练",
+      "tech_name": "自监督置信度训练",
+      "timestamp": "2026-09-28T10:15:23.702907"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-输出后处理属性对齐",
+      "tech_name": "输出后处理属性对齐",
+      "timestamp": "2026-09-28T10:15:23.702926"
     }
   ]
 }
