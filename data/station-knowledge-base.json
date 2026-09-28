@@ -1,53 +1,6 @@
 {
   "sessions": [
     {
-      "timestamp": "2026-09-10T17:21:45.316602",
-      "arxiv_papers_count": 18,
-      "arxiv_top_keywords": [
-        "world",
-        "field",
-        "prediction",
-        "graph",
-        "training",
-        "galaxy",
-        "multi",
-        "learning",
-        "covariance",
-        "matrices"
-      ],
-      "arxiv_strategies": [
-        "搜索: graph neural network",
-        "搜索: transfer learning",
-        "搜索: world model"
-      ],
-      "huggingface_models": 10,
-      "huggingface_tasks": [
-        "sentence-similarity",
-        "unknown",
-        "fill-mask",
-        "text-generation",
-        "text-ranking"
-      ],
-      "ml_datasets": [
-        "Iris",
-        "Wine",
-        "Breast Cancer",
-        "Diabetes"
-      ],
-      "ml_total_tests": 22,
-      "github_trending_repos": 8,
-      "paperswithcode_papers": 8,
-      "evolution": {
-        "discovered": 13,
-        "adopted": 0,
-        "decisions": 0
-      },
-      "seed_watering": {
-        "seed_name": "Mamba (SSM)",
-        "papers_found": 8
-      }
-    },
-    {
       "timestamp": "2026-09-10T20:10:17.674974",
       "arxiv_papers_count": 18,
       "arxiv_top_keywords": [
@@ -4545,10 +4498,57 @@
         "seed_name": "",
         "papers_found": 0
       }
+    },
+    {
+      "timestamp": "2026-09-28T02:14:00.751636",
+      "arxiv_papers_count": 19,
+      "arxiv_top_keywords": [
+        "distribution",
+        "agents",
+        "their",
+        "context",
+        "reasoning",
+        "learning",
+        "confidence",
+        "efficiency",
+        "stop",
+        "attribute"
+      ],
+      "arxiv_strategies": [
+        "cs.AI 最新",
+        "cs.LG 最新",
+        "cs.AI (fallback)"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "unknown",
+        "fill-mask",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 17,
+        "adopted": 0,
+        "decisions": 0
+      },
+      "seed_watering": {
+        "seed_name": "",
+        "papers_found": 0
+      }
     }
   ],
   "total_sessions": 101,
-  "last_updated": "2026-09-27T22:38:24.681085",
+  "last_updated": "2026-09-28T02:14:00.751655",
   "evolution_summary": {
     "total_adopted": 176,
     "adopted_list": [
@@ -4737,7 +4737,7 @@
       },
       "liquid-networks": {
         "name": "Liquid Networks",
-        "watering": 72,
+        "watering": 73,
         "papers": 70
       },
       "htm": {
@@ -4924,6 +4924,6 @@
         "best_papers_count": 1
       }
     },
-    "last_evolution": "2026-09-27T22:38:24.683922"
+    "last_evolution": "2026-09-28T02:14:00.754638"
   }
 }
