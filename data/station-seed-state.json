@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 696,
+  "_rotation_idx": 697,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 60,
@@ -4148,26 +4148,9 @@
   },
   "continual-learning": {
     "name": "Continual Learning",
-    "total_papers_found": 78,
-    "watering_count": 70,
+    "total_papers_found": 84,
+    "watering_count": 71,
     "history": [
-      {
-        "timestamp": "2026-07-30T04:44:32.190176",
-        "papers_found": 1,
-        "duplicates": 4,
-        "irrelevant_filtered": 5,
-        "avg_relevance": 1.0,
-        "high_relevance": 0,
-        "papers": [
-          {
-            "title": "The Art of Not Forgetting A Local Learning Architecture for Continual Learning",
-            "summary": "We introduce CMP (Cognitive Memory Primitive), a continual-learning architecture that repre?sents inputs as sparse relational codes, stores them in a two-tier competitive memory, and learns through local updates without end-to-end backpropagation through its feature-generating system. We investigate",
-            "published": "2026-07-29",
-            "url": "http://arxiv.org/abs/2607.26523v1",
-            "seed_match_score": 1
-          }
-        ]
-      },
       {
         "timestamp": "2026-07-31T05:22:04.260445",
         "papers_found": 2,
@@ -4908,6 +4891,37 @@
         "avg_relevance": 0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-09-29T14:24:47.957886",
+        "papers_found": 6,
+        "duplicates": 0,
+        "irrelevant_filtered": 4,
+        "avg_relevance": 1.5,
+        "high_relevance": 2,
+        "papers": [
+          {
+            "title": "On-Policy or Off-Policy Learning? A Systematic Study of Distillation Dynamics",
+            "summary": "On-policy learning has been argued to reduce catastrophic forgetting, produce sparser parameter updates, and improve generalisation. However, existing comparisons between supervised fine-tuning and reinforcement learning vary many factors simultaneously, making the contribution of rollout policy dif",
+            "published": "2026-09-28",
+            "url": "http://arxiv.org/abs/2609.35259v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "SPACE-LoRA: Allocating Activation-Subspace Protection for Continual Learning",
+            "summary": "This study addresses the catastrophic forgetting problem that occurs when sequentially learning successive tasks using Low-Rank Adaptation (LoRA) from a lifelong learning perspective. While existing approaches have primarily constrained parameter updates or learning subspaces to reduce interference ",
+            "published": "2026-09-28",
+            "url": "http://arxiv.org/abs/2609.34453v1",
+            "seed_match_score": 3
+          },
+          {
+            "title": "Reliable Replay through Spatial Coherence in Online Continual Learning",
+            "summary": "Continually adapting models to new tasks requires retaining earlier knowledge under limited memory and computation. Experience replay addresses this challenge, but priorities based on individual loss increases overlook how related memories respond to the same update and can overemphasize isolated re",
+            "published": "2026-09-27",
+            "url": "http://arxiv.org/abs/2609.33725v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -4917,7 +4931,7 @@
       "ewc",
       "elastic weight"
     ],
-    "last_watered": "2026-09-27T03:29:34.345170"
+    "last_watered": "2026-09-29T14:24:47.957879"
   },
   "moe": {
     "name": "Mixture of Experts",

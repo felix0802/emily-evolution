@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-29T07:36:21.812926",
+  "timestamp": "2026-09-29T14:24:55.192322",
   "connections": [
     {
       "seed_a": "Mamba (SSM)",
@@ -10,7 +10,28 @@
       ],
       "shared_paper_concepts": [],
       "strength": 4,
-      "discovered_at": "2026-09-29T07:36:21.812901"
+      "discovered_at": "2026-09-29T14:24:55.192288"
+    },
+    {
+      "seed_a": "Non-Transformer Arch",
+      "seed_b": "Continual Learning",
+      "shared_keywords": [],
+      "shared_paper_concepts": [
+        "dynamics",
+        "space"
+      ],
+      "strength": 2,
+      "discovered_at": "2026-09-29T14:24:55.192308"
+    },
+    {
+      "seed_a": "Few-Shot Learning",
+      "seed_b": "Continual Learning",
+      "shared_keywords": [],
+      "shared_paper_concepts": [
+        "learning"
+      ],
+      "strength": 1,
+      "discovered_at": "2026-09-29T14:24:55.192313"
     }
   ],
   "total_seeds": 10

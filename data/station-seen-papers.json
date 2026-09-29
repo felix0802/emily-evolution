@@ -42843,7 +42843,394 @@
         "transmit"
       ],
       "first_seen_round": 329
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.35634v1",
+      "title": "DR-net-Mamba: Selective State-Space Modeling for Long-Range ECG Time-Series Denoising",
+      "arxiv_id": "2609.35634",
+      "tokens": [
+        "denoising",
+        "ecg",
+        "long",
+        "mamba",
+        "modeling",
+        "net",
+        "range",
+        "selective",
+        "series",
+        "space",
+        "state",
+        "time"
+      ],
+      "first_seen_round": 330
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.35527v1",
+      "title": "GeoGAE: Scalable Graph-Level Autoencoding via Hyperball Cloud Representations",
+      "arxiv_id": "2609.35527",
+      "tokens": [
+        "autoencoding",
+        "cloud",
+        "geogae",
+        "graph",
+        "hyperball",
+        "level",
+        "representations",
+        "scalable"
+      ],
+      "first_seen_round": 330
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.35335v1",
+      "title": "Large Language Models for Automated Cross-Domain Machine Learning Task Type Identification: A Benchmark Dataset and Evaluation",
+      "arxiv_id": "2609.35335",
+      "tokens": [
+        "automated",
+        "benchmark",
+        "cross",
+        "dataset",
+        "domain",
+        "evaluation",
+        "identification",
+        "language",
+        "machine",
+        "task",
+        "type"
+      ],
+      "first_seen_round": 330
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.35217v1",
+      "title": "A Hierarchy of Entropy-Shapley Games for Multivariate Predictive Uncertainty",
+      "arxiv_id": "2609.35217",
+      "tokens": [
+        "entropy",
+        "games",
+        "hierarchy",
+        "multivariate",
+        "predictive",
+        "shapley",
+        "uncertainty"
+      ],
+      "first_seen_round": 330
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.35097v1",
+      "title": "SpikeLite: Lightweight Spiking Neural Networks for Time-Series Forecasting",
+      "arxiv_id": "2609.35097",
+      "tokens": [
+        "forecasting",
+        "lightweight",
+        "neural",
+        "series",
+        "spikelite",
+        "spiking",
+        "time"
+      ],
+      "first_seen_round": 330
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.35055v1",
+      "title": "Universality and Generalization of Causal Transformers Across Context Lengths",
+      "arxiv_id": "2609.35055",
+      "tokens": [
+        "causal",
+        "context",
+        "generalization",
+        "lengths",
+        "transformers",
+        "universality"
+      ],
+      "first_seen_round": 330
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.34804v1",
+      "title": "Physics-Attested Federated Learning: Securing Collaborative Anomaly Detection in Critical Water Infrastructure",
+      "arxiv_id": "2609.34804",
+      "tokens": [
+        "anomaly",
+        "attested",
+        "collaborative",
+        "critical",
+        "detection",
+        "federated",
+        "infrastructure",
+        "physics",
+        "securing",
+        "water"
+      ],
+      "first_seen_round": 330
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.34161v1",
+      "title": "GT-PSSM: Unified Probabilistic Framework for Stochastic Dynamics Modeling and Dependency Learning in Multivariate Time Series Anomaly Detection",
+      "arxiv_id": "2609.34161",
+      "tokens": [
+        "anomaly",
+        "dependency",
+        "detection",
+        "dynamics",
+        "modeling",
+        "multivariate",
+        "probabilistic",
+        "pssm",
+        "series",
+        "stochastic",
+        "time",
+        "unified"
+      ],
+      "first_seen_round": 330
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.33980v1",
+      "title": "DynGraphAgentBench: A Benchmark for Agentic Lifecycle Control in Dynamic Graph Anomaly Detection",
+      "arxiv_id": "2609.33980",
+      "tokens": [
+        "agentic",
+        "anomaly",
+        "benchmark",
+        "control",
+        "detection",
+        "dynamic",
+        "dyngraphagentbench",
+        "graph",
+        "lifecycle"
+      ],
+      "first_seen_round": 330
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.33370v1",
+      "title": "The Selection Rule Decides the Winner: A Pre-Registered Audit of Open-Set Graph Anomaly Detection",
+      "arxiv_id": "2609.33370",
+      "tokens": [
+        "anomaly",
+        "audit",
+        "decides",
+        "detection",
+        "graph",
+        "open",
+        "pre",
+        "registered",
+        "rule",
+        "selection",
+        "set",
+        "winner"
+      ],
+      "first_seen_round": 330
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.31371v1",
+      "title": "Towards Understanding LLM-Based Log Anomaly Detection: An Empirical Study of Performance, Efficiency, and Robustness",
+      "arxiv_id": "2609.31371",
+      "tokens": [
+        "anomaly",
+        "detection",
+        "efficiency",
+        "empirical",
+        "llm",
+        "log",
+        "performance",
+        "robustness",
+        "understanding"
+      ],
+      "first_seen_round": 330
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.31157v1",
+      "title": "Bayesian Tensor Autoencoder with Physics-informed Predictive Prior for Multi-dimensional Time Series Anomaly Detection",
+      "arxiv_id": "2609.31157",
+      "tokens": [
+        "anomaly",
+        "autoencoder",
+        "bayesian",
+        "detection",
+        "dimensional",
+        "informed",
+        "multi",
+        "physics",
+        "predictive",
+        "prior",
+        "series",
+        "tensor",
+        "time"
+      ],
+      "first_seen_round": 330
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.35751v1",
+      "title": "How to Loop MoE: Flatten the Experts, Untie the Attention",
+      "arxiv_id": "2609.35751",
+      "tokens": [
+        "attention",
+        "experts",
+        "flatten",
+        "loop",
+        "moe",
+        "untie"
+      ],
+      "first_seen_round": 330
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.35481v1",
+      "title": "TopoEP: Topology-Aware Load Balancing for Expert-Parallel MoE Training",
+      "arxiv_id": "2609.35481",
+      "tokens": [
+        "aware",
+        "balancing",
+        "expert",
+        "load",
+        "moe",
+        "parallel",
+        "topoep",
+        "topology",
+        "training"
+      ],
+      "first_seen_round": 330
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.34851v1",
+      "title": "Learning High-Risk High-Precision Motion Control",
+      "arxiv_id": "2609.34851",
+      "tokens": [
+        "control",
+        "high",
+        "high",
+        "motion",
+        "precision",
+        "risk"
+      ],
+      "first_seen_round": 330
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.34117v1",
+      "title": "SlimWise: Decoupling Expert Pruning Across Prefill and Decode for Efficient MoE Serving",
+      "arxiv_id": "2609.34117",
+      "tokens": [
+        "decode",
+        "decoupling",
+        "expert",
+        "moe",
+        "prefill",
+        "pruning",
+        "serving",
+        "slimwise"
+      ],
+      "first_seen_round": 330
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.34077v1",
+      "title": "MaskCoFT: Masked Co-Adaptive Fine-Tuning for Memory-Efficient MoE Inference",
+      "arxiv_id": "2609.34077",
+      "tokens": [
+        "adaptive",
+        "fine",
+        "inference",
+        "maskcoft",
+        "masked",
+        "memory",
+        "moe",
+        "tuning"
+      ],
+      "first_seen_round": 330
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.33114v1",
+      "title": "Can Tabular Foundation Models Amortize Statistical Inference?",
+      "arxiv_id": "2609.33114",
+      "tokens": [
+        "amortize",
+        "foundation",
+        "inference",
+        "statistical",
+        "tabular"
+      ],
+      "first_seen_round": 330
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.35259v1",
+      "title": "On-Policy or Off-Policy Learning? A Systematic Study of Distillation Dynamics",
+      "arxiv_id": "2609.35259",
+      "tokens": [
+        "distillation",
+        "dynamics",
+        "policy",
+        "policy",
+        "systematic"
+      ],
+      "first_seen_round": 330
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.34453v1",
+      "title": "SPACE-LoRA: Allocating Activation-Subspace Protection for Continual Learning",
+      "arxiv_id": "2609.34453",
+      "tokens": [
+        "activation",
+        "allocating",
+        "continual",
+        "lora",
+        "protection",
+        "space",
+        "subspace"
+      ],
+      "first_seen_round": 330
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.33725v1",
+      "title": "Reliable Replay through Spatial Coherence in Online Continual Learning",
+      "arxiv_id": "2609.33725",
+      "tokens": [
+        "coherence",
+        "continual",
+        "online",
+        "reliable",
+        "replay",
+        "spatial"
+      ],
+      "first_seen_round": 330
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.33655v1",
+      "title": "Towards Eliminating Catastrophic Forgetting in the Curriculum Learning of Math Reasoning Tasks",
+      "arxiv_id": "2609.33655",
+      "tokens": [
+        "catastrophic",
+        "curriculum",
+        "eliminating",
+        "forgetting",
+        "math",
+        "reasoning",
+        "tasks"
+      ],
+      "first_seen_round": 330
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.33620v1",
+      "title": "Learning Dynamics of Continual Learning: A Unified View of Data Attribution, Forgetting, and Plasticity Loss",
+      "arxiv_id": "2609.33620",
+      "tokens": [
+        "attribution",
+        "continual",
+        "dynamics",
+        "forgetting",
+        "loss",
+        "plasticity",
+        "unified",
+        "view"
+      ],
+      "first_seen_round": 330
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.32771v1",
+      "title": "Continual Learning via Self-Probe Gradients",
+      "arxiv_id": "2609.32771",
+      "tokens": [
+        "continual",
+        "gradients",
+        "probe",
+        "self"
+      ],
+      "first_seen_round": 330
     }
   ],
-  "total_unique": 2674
+  "total_unique": 2698
 }

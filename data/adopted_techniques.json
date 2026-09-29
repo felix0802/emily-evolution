@@ -2708,6 +2708,21 @@
         ],
         "decided_at": "2026-09-29T07:36:21.789000"
       }
+    },
+    {
+      "id": "auto-mamba",
+      "name": "Mamba",
+      "adopted_at": "2026-09-29T14:24:55.170488",
+      "decision": {
+        "tech_id": "auto-mamba",
+        "tech_name": "Mamba",
+        "action": "adopt",
+        "confidence": 0.35,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-09-29T14:24:55.168518"
+      }
     }
   ],
   "history": [
@@ -3790,6 +3805,12 @@
       "tech_id": "llm-双谱随机展开",
       "tech_name": "双谱随机展开",
       "timestamp": "2026-09-29T07:36:21.791090"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "auto-mamba",
+      "tech_name": "Mamba",
+      "timestamp": "2026-09-29T14:24:55.170493"
     }
   ]
 }

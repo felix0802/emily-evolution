@@ -284,17 +284,16 @@
   },
   "continual-learning": {
     "name": "Continual Learning",
-    "total_new_papers": 73,
-    "total_watering": 55,
+    "total_new_papers": 79,
+    "total_watering": 56,
     "all_keywords_matched": [
-      "lifelong",
-      "ewc",
       "continual learning",
       "catastrophic forgetting",
-      "elastic weight"
+      "elastic weight",
+      "lifelong",
+      "ewc"
     ],
     "avg_relevance_trend": [
-      1.5,
       1.0,
       0.0,
       1.33,
@@ -313,9 +312,10 @@
       0.0,
       0.0,
       1.0,
-      1.25
+      1.25,
+      1.5
     ],
-    "high_relevance_total": 17,
+    "high_relevance_total": 19,
     "best_papers": [
       {
         "title": "Rethinking Quantum Continual Learning with Quantum Fisher Information",
@@ -326,9 +326,14 @@
         "title": "To Retain or to Adapt? Generalizing Continual Learning",
         "score": 3,
         "published": "2026-07-06"
+      },
+      {
+        "title": "SPACE-LoRA: Allocating Activation-Subspace Protection for Continual Learning",
+        "score": 3,
+        "published": "2026-09-28"
       }
     ],
-    "last_updated": "2026-09-16T12:53:42.567633"
+    "last_updated": "2026-09-29T14:24:47.957171"
   },
   "gnn": {
     "name": "Graph Neural Networks",

@@ -1,28 +1,6 @@
 {
   "rounds": [
     {
-      "round": 280,
-      "timestamp": "2026-09-19T21:51:20.225833",
-      "prediction_error": 0.7,
-      "seeds_active": 10,
-      "seeds_dormant": 0,
-      "new_seeds_added": 0,
-      "top_motivated": [
-        [
-          "spiking-nn",
-          0.91
-        ],
-        [
-          "non-transformer",
-          0.91
-        ],
-        [
-          "continual-learning",
-          0.792
-        ]
-      ]
-    },
-    {
       "round": 281,
       "timestamp": "2026-09-19T23:43:42.970590",
       "prediction_error": 0.7,
@@ -1099,6 +1077,28 @@
           0.51
         ]
       ]
+    },
+    {
+      "round": 330,
+      "timestamp": "2026-09-29T14:24:50.871146",
+      "prediction_error": 0.7,
+      "seeds_active": 3,
+      "seeds_dormant": 7,
+      "new_seeds_added": 0,
+      "top_motivated": [
+        [
+          "few-shot",
+          0.91
+        ],
+        [
+          "continual-learning",
+          0.91
+        ],
+        [
+          "non-transformer",
+          0.858
+        ]
+      ]
     }
   ],
   "seed_scores": {
@@ -1242,7 +1242,7 @@
         0.0,
         0.0,
         0.0,
-        0.0,
+        0.871,
         0.871,
         0.871
       ]
@@ -1272,17 +1272,16 @@
         0.0,
         0.0,
         0.0,
-        0.0,
+        1.0,
         1.0
       ]
     },
     "continual-learning": {
       "name": "Continual Learning",
-      "info_gain": 0.0,
+      "info_gain": 1.0,
       "novelty": 1.0,
-      "motivation_score": 0.51,
+      "motivation_score": 0.91,
       "info_gain_history": [
-        0.706,
         0.0,
         0.0,
         0.0,
@@ -1302,7 +1301,8 @@
         0.0,
         0.0,
         0.0,
-        0.0
+        0.0,
+        1.0
       ]
     },
     "moe": {
@@ -1406,6 +1406,6 @@
     "spiking-nn",
     "non-transformer"
   ],
-  "total_motivation_evaluations": 171,
+  "total_motivation_evaluations": 172,
   "current_prediction_error": 0.7
 }
