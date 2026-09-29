@@ -42494,7 +42494,356 @@
         "within"
       ],
       "first_seen_round": 328
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.35703v1",
+      "title": "A Unified Uncertainty Representation for Graph Neural Networks via Doubly-Spectral Stochastic Expansion",
+      "arxiv_id": "2609.35703",
+      "tokens": [
+        "doubly",
+        "expansion",
+        "graph",
+        "neural",
+        "representation",
+        "spectral",
+        "stochastic",
+        "uncertainty",
+        "unified"
+      ],
+      "first_seen_round": 329
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.35274v1",
+      "title": "Multi-Attractor GNNs: Set-Valued Expressivity Beyond Unique Equilibria",
+      "arxiv_id": "2609.35274",
+      "tokens": [
+        "attractor",
+        "equilibria",
+        "expressivity",
+        "gnns",
+        "multi",
+        "set",
+        "unique",
+        "valued"
+      ],
+      "first_seen_round": 329
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.35021v1",
+      "title": "Addressing Spatial Indistinguishability in Spatiotemporal Prediction via Optimal Transport-Guided Masking",
+      "arxiv_id": "2609.35021",
+      "tokens": [
+        "addressing",
+        "guided",
+        "indistinguishability",
+        "masking",
+        "optimal",
+        "prediction",
+        "spatial",
+        "spatiotemporal",
+        "transport"
+      ],
+      "first_seen_round": 329
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.34904v1",
+      "title": "Reference-Tail Trust:Certified Probability Floors for Learned Updates Inside a Deployed Network",
+      "arxiv_id": "2609.34904",
+      "tokens": [
+        "certified",
+        "deployed",
+        "floors",
+        "inside",
+        "learned",
+        "probability",
+        "reference",
+        "tail",
+        "trust",
+        "updates"
+      ],
+      "first_seen_round": 329
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.34729v1",
+      "title": "Edge-Level Automorphism in GNNs: A Quantitative Framework and Effective Designs For Link Prediction",
+      "arxiv_id": "2609.34729",
+      "tokens": [
+        "automorphism",
+        "designs",
+        "edge",
+        "effective",
+        "gnns",
+        "level",
+        "link",
+        "prediction",
+        "quantitative"
+      ],
+      "first_seen_round": 329
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.34711v1",
+      "title": "Learning Propagation Geometry from Message-Passing Feedback",
+      "arxiv_id": "2609.34711",
+      "tokens": [
+        "feedback",
+        "geometry",
+        "message",
+        "passing",
+        "propagation"
+      ],
+      "first_seen_round": 329
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.35429v1",
+      "title": "Multi-Task Learning of Conditional Mean Operators: applications to dynamical systems and uncertainty quantification",
+      "arxiv_id": "2609.35429",
+      "tokens": [
+        "applications",
+        "conditional",
+        "dynamical",
+        "mean",
+        "multi",
+        "operators",
+        "quantification",
+        "task",
+        "uncertainty"
+      ],
+      "first_seen_round": 329
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.35392v1",
+      "title": "The Hidden Ratio in Adam: Stable Structure, Compression, and Sign Dynamics",
+      "arxiv_id": "2609.35392",
+      "tokens": [
+        "adam",
+        "compression",
+        "dynamics",
+        "hidden",
+        "ratio",
+        "sign",
+        "stable",
+        "structure"
+      ],
+      "first_seen_round": 329
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.33490v1",
+      "title": "Domain-Adapted Diffusion Models for Conditional Independence Testing",
+      "arxiv_id": "2609.33490",
+      "tokens": [
+        "adapted",
+        "conditional",
+        "diffusion",
+        "domain",
+        "independence",
+        "testing"
+      ],
+      "first_seen_round": 329
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.32849v1",
+      "title": "Transfer Learning for Edge Classification on Dynamic Text-Attributed Graphs",
+      "arxiv_id": "2609.32849",
+      "tokens": [
+        "attributed",
+        "classification",
+        "dynamic",
+        "edge",
+        "graphs",
+        "text",
+        "transfer"
+      ],
+      "first_seen_round": 329
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.31787v1",
+      "title": "Optimal transport meets speech: a tutorial review",
+      "arxiv_id": "2609.31787",
+      "tokens": [
+        "meets",
+        "optimal",
+        "speech",
+        "transport",
+        "tutorial"
+      ],
+      "first_seen_round": 329
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.30150v1",
+      "title": "Graph-Based Inference and Topology-Aware Multi-Agent Reinforcement Learning for Large-Scale Railway Network Management",
+      "arxiv_id": "2609.30150",
+      "tokens": [
+        "agent",
+        "aware",
+        "graph",
+        "inference",
+        "management",
+        "multi",
+        "railway",
+        "reinforcement",
+        "scale",
+        "topology"
+      ],
+      "first_seen_round": 329
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.35545v1",
+      "title": "Graph World Models for Constrained Epidemic Policy Planning",
+      "arxiv_id": "2609.35545",
+      "tokens": [
+        "constrained",
+        "epidemic",
+        "graph",
+        "planning",
+        "policy",
+        "world"
+      ],
+      "first_seen_round": 329
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.35463v1",
+      "title": "A.D.A.M.O. (Agent for language-Driven Actions with Multimodal Observations): A Visual-Symbolic Framework for Virtual Humans",
+      "arxiv_id": "2609.35463",
+      "tokens": [
+        "actions",
+        "agent",
+        "driven",
+        "humans",
+        "language",
+        "multimodal",
+        "observations",
+        "symbolic",
+        "virtual",
+        "visual"
+      ],
+      "first_seen_round": 329
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.35375v1",
+      "title": "From Pixel to Poses: Object-centric Tool Manipulation Learning from Human Demonstrations",
+      "arxiv_id": "2609.35375",
+      "tokens": [
+        "centric",
+        "demonstrations",
+        "human",
+        "manipulation",
+        "object",
+        "pixel",
+        "poses",
+        "tool"
+      ],
+      "first_seen_round": 329
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.35052v1",
+      "title": "OPIS: An Input-Grounded Benchmark for Multi-Object Memory in Video World Models",
+      "arxiv_id": "2609.35052",
+      "tokens": [
+        "benchmark",
+        "grounded",
+        "input",
+        "memory",
+        "multi",
+        "object",
+        "opis",
+        "video",
+        "world"
+      ],
+      "first_seen_round": 329
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.35047v1",
+      "title": "EMPIRIC: Experiment-Driven Learning of Residual World Models for Robot Planning",
+      "arxiv_id": "2609.35047",
+      "tokens": [
+        "driven",
+        "empiric",
+        "experiment",
+        "planning",
+        "residual",
+        "robot",
+        "world"
+      ],
+      "first_seen_round": 329
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.35032v1",
+      "title": "JRDB-AVR: An Active Visual Reasoning Benchmark for Embodied Agents in Real-World Environments",
+      "arxiv_id": "2609.35032",
+      "tokens": [
+        "active",
+        "agents",
+        "avr",
+        "benchmark",
+        "embodied",
+        "environments",
+        "jrdb",
+        "real",
+        "reasoning",
+        "visual",
+        "world"
+      ],
+      "first_seen_round": 329
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.32766v1",
+      "title": "Structuring Relations Among Learning Paradigms via Protocol--Objective--Resource Reductions",
+      "arxiv_id": "2609.32766",
+      "tokens": [
+        "among",
+        "objective",
+        "paradigms",
+        "protocol",
+        "reductions",
+        "relations",
+        "resource",
+        "structuring"
+      ],
+      "first_seen_round": 329
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.30769v1",
+      "title": "Query-Conditioned Prototype Adaptation for Cross-Domain Few-Shot Learning: Single-Query Inference, Controlled Comparisons, and Failure Modes",
+      "arxiv_id": "2609.30769",
+      "tokens": [
+        "adaptation",
+        "comparisons",
+        "conditioned",
+        "controlled",
+        "cross",
+        "domain",
+        "failure",
+        "inference",
+        "modes",
+        "prototype",
+        "query",
+        "query",
+        "shot",
+        "single"
+      ],
+      "first_seen_round": 329
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.29150v1",
+      "title": "A Particle-Swarm-Assisted Gradient Meta-Learning Algorithm for Joint Transmit Precoding and STAR-RIS Coefficient Optimization",
+      "arxiv_id": "2609.29150",
+      "tokens": [
+        "algorithm",
+        "assisted",
+        "coefficient",
+        "gradient",
+        "joint",
+        "meta",
+        "optimization",
+        "particle",
+        "precoding",
+        "ris",
+        "star",
+        "swarm",
+        "transmit"
+      ],
+      "first_seen_round": 329
     }
   ],
-  "total_unique": 2653
+  "total_unique": 2674
 }

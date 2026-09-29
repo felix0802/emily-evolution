@@ -1,28 +1,6 @@
 {
   "rounds": [
     {
-      "round": 279,
-      "timestamp": "2026-09-19T19:41:34.413297",
-      "prediction_error": 0.7,
-      "seeds_active": 10,
-      "seeds_dormant": 0,
-      "new_seeds_added": 0,
-      "top_motivated": [
-        [
-          "spiking-nn",
-          0.91
-        ],
-        [
-          "non-transformer",
-          0.91
-        ],
-        [
-          "continual-learning",
-          0.792
-        ]
-      ]
-    },
-    {
       "round": 280,
       "timestamp": "2026-09-19T21:51:20.225833",
       "prediction_error": 0.7,
@@ -1099,6 +1077,28 @@
           0.51
         ]
       ]
+    },
+    {
+      "round": 329,
+      "timestamp": "2026-09-29T07:36:16.767382",
+      "prediction_error": 0.7,
+      "seeds_active": 2,
+      "seeds_dormant": 8,
+      "new_seeds_added": 0,
+      "top_motivated": [
+        [
+          "few-shot",
+          0.91
+        ],
+        [
+          "non-transformer",
+          0.858
+        ],
+        [
+          "mamba",
+          0.51
+        ]
+      ]
     }
   ],
   "seed_scores": {
@@ -1243,17 +1243,16 @@
         0.0,
         0.0,
         0.0,
-        0.0,
+        0.871,
         0.871
       ]
     },
     "few-shot": {
       "name": "Few-Shot Learning",
-      "info_gain": 0.0,
+      "info_gain": 1.0,
       "novelty": 1.0,
-      "motivation_score": 0.51,
+      "motivation_score": 0.91,
       "info_gain_history": [
-        0.643,
         0.0,
         0.0,
         0.0,
@@ -1273,7 +1272,8 @@
         0.0,
         0.0,
         0.0,
-        0.0
+        0.0,
+        1.0
       ]
     },
     "continual-learning": {
@@ -1283,7 +1283,7 @@
       "motivation_score": 0.51,
       "info_gain_history": [
         0.706,
-        0.706,
+        0.0,
         0.0,
         0.0,
         0.0,
@@ -1406,6 +1406,6 @@
     "spiking-nn",
     "non-transformer"
   ],
-  "total_motivation_evaluations": 170,
+  "total_motivation_evaluations": 171,
   "current_prediction_error": 0.7
 }

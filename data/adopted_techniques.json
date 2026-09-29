@@ -2693,6 +2693,21 @@
         ],
         "decided_at": "2026-09-29T00:05:40.317154"
       }
+    },
+    {
+      "id": "llm-双谱随机展开",
+      "name": "双谱随机展开",
+      "adopted_at": "2026-09-29T07:36:21.791084",
+      "decision": {
+        "tech_id": "llm-双谱随机展开",
+        "tech_name": "双谱随机展开",
+        "action": "adopt",
+        "confidence": 0.9,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-09-29T07:36:21.789000"
+      }
     }
   ],
   "history": [
@@ -3769,6 +3784,12 @@
       "tech_id": "llm-统计属性对齐后处理",
       "tech_name": "统计属性对齐后处理",
       "timestamp": "2026-09-29T00:05:40.318714"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-双谱随机展开",
+      "tech_name": "双谱随机展开",
+      "timestamp": "2026-09-29T07:36:21.791090"
     }
   ]
 }

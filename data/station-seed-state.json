@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 695,
+  "_rotation_idx": 696,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 60,
@@ -3570,26 +3570,9 @@
   },
   "few-shot": {
     "name": "Few-Shot Learning",
-    "total_papers_found": 33,
-    "watering_count": 71,
+    "total_papers_found": 36,
+    "watering_count": 72,
     "history": [
-      {
-        "timestamp": "2026-07-30T01:13:51.131887",
-        "papers_found": 1,
-        "duplicates": 3,
-        "irrelevant_filtered": 6,
-        "avg_relevance": 1.0,
-        "high_relevance": 0,
-        "papers": [
-          {
-            "title": "MetaKoopman: Bayesian Meta-Learning of Koopman Operators for Modeling Structured Dynamics under Distribution Shifts",
-            "summary": "Modeling and forecasting nonlinear dynamics under distribution shifts is essential for robust decision-making in real-world systems. In this work, we propose MetaKoopman, a Bayesian meta-learning framework for modeling nonlinear dynamics through linear latent representations. MetaKoopman learns a Ma",
-            "published": "2026-07-28",
-            "url": "http://arxiv.org/abs/2607.26345v1",
-            "seed_match_score": 1
-          }
-        ]
-      },
       {
         "timestamp": "2026-07-31T01:26:58.626545",
         "papers_found": 0,
@@ -4121,6 +4104,37 @@
         "avg_relevance": 0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-09-29T07:36:16.753317",
+        "papers_found": 3,
+        "duplicates": 0,
+        "irrelevant_filtered": 7,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "Structuring Relations Among Learning Paradigms via Protocol--Objective--Resource Reductions",
+            "summary": "Modern machine learning spans supervised, transfer, continual, meta-learning, and related regimes that often reuse the same hypothesis classes, architectures, and optimizers but differ in information access, objectives, memory, adaptation, and sample accounting. This makes it difficult to determine ",
+            "published": "2026-09-26",
+            "url": "http://arxiv.org/abs/2609.32766v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Query-Conditioned Prototype Adaptation for Cross-Domain Few-Shot Learning: Single-Query Inference, Controlled Comparisons, and Failure Modes",
+            "summary": "Cross-domain few-shot learning requires adapting a classifier to a new visual domain from very few labelled examples without target-time parameter updates. We isolate one question: under a fixed global representation, what does joint query-support adaptation contribute to prototype construction? The",
+            "published": "2026-09-25",
+            "url": "http://arxiv.org/abs/2609.30769v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "A Particle-Swarm-Assisted Gradient Meta-Learning Algorithm for Joint Transmit Precoding and STAR-RIS Coefficient Optimization",
+            "summary": "This paper investigates the joint optimization of the transmit precoder and the transmission/reflection coefficients of a simultaneously transmitting and reflecting reconfigurable intelligent surface (STAR-RIS) to maximize the weighted sum rate (WSR) in a multi-user downlink. We propose a particle-s",
+            "published": "2026-09-24",
+            "url": "http://arxiv.org/abs/2609.29150v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -4130,7 +4144,7 @@
       "prototypical",
       "in-context"
     ],
-    "last_watered": "2026-09-26T23:58:59.883827"
+    "last_watered": "2026-09-29T07:36:16.753311"
   },
   "continual-learning": {
     "name": "Continual Learning",
