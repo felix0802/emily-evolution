@@ -1,28 +1,6 @@
 {
   "rounds": [
     {
-      "round": 278,
-      "timestamp": "2026-09-19T16:51:45.900658",
-      "prediction_error": 0.7,
-      "seeds_active": 10,
-      "seeds_dormant": 0,
-      "new_seeds_added": 0,
-      "top_motivated": [
-        [
-          "spiking-nn",
-          0.91
-        ],
-        [
-          "non-transformer",
-          0.91
-        ],
-        [
-          "few-shot",
-          0.91
-        ]
-      ]
-    },
-    {
       "round": 279,
       "timestamp": "2026-09-19T19:41:34.413297",
       "prediction_error": 0.7,
@@ -1099,6 +1077,28 @@
           0.51
         ]
       ]
+    },
+    {
+      "round": 328,
+      "timestamp": "2026-09-29T00:05:35.025317",
+      "prediction_error": 0.7,
+      "seeds_active": 1,
+      "seeds_dormant": 9,
+      "new_seeds_added": 0,
+      "top_motivated": [
+        [
+          "non-transformer",
+          0.858
+        ],
+        [
+          "mamba",
+          0.51
+        ],
+        [
+          "liquid-networks",
+          0.51
+        ]
+      ]
     }
   ],
   "seed_scores": {
@@ -1220,11 +1220,10 @@
     },
     "non-transformer": {
       "name": "Non-Transformer Arch",
-      "info_gain": 0.0,
+      "info_gain": 0.871,
       "novelty": 1.0,
-      "motivation_score": 0.51,
+      "motivation_score": 0.858,
       "info_gain_history": [
-        1.0,
         0.0,
         0.0,
         0.0,
@@ -1244,7 +1243,8 @@
         0.0,
         0.0,
         0.0,
-        0.0
+        0.0,
+        0.871
       ]
     },
     "few-shot": {
@@ -1254,7 +1254,7 @@
       "motivation_score": 0.51,
       "info_gain_history": [
         0.643,
-        0.643,
+        0.0,
         0.0,
         0.0,
         0.0,
@@ -1284,7 +1284,7 @@
       "info_gain_history": [
         0.706,
         0.706,
-        0.706,
+        0.0,
         0.0,
         0.0,
         0.0,
@@ -1406,6 +1406,6 @@
     "spiking-nn",
     "non-transformer"
   ],
-  "total_motivation_evaluations": 169,
+  "total_motivation_evaluations": 170,
   "current_prediction_error": 0.7
 }

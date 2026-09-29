@@ -42444,7 +42444,57 @@
         "trade"
       ],
       "first_seen_round": 325
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.27470v1",
+      "title": "DeltaS: Reading the Gated Linear Attention State for KV Cache Eviction in Streaming Video",
+      "arxiv_id": "2609.27470",
+      "tokens": [
+        "attention",
+        "cache",
+        "deltas",
+        "eviction",
+        "gated",
+        "linear",
+        "reading",
+        "state",
+        "streaming",
+        "video"
+      ],
+      "first_seen_round": 328
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.20744v2",
+      "title": "Video DeltaNet: A Video-Native Hybrid Attention for Livestream Video Generation",
+      "arxiv_id": "2609.20744",
+      "tokens": [
+        "attention",
+        "deltanet",
+        "generation",
+        "hybrid",
+        "livestream",
+        "native",
+        "video",
+        "video",
+        "video"
+      ],
+      "first_seen_round": 328
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.17997v1",
+      "title": "The Attention Within: Consensus Dynamics in Selective State Space Models",
+      "arxiv_id": "2609.17997",
+      "tokens": [
+        "attention",
+        "consensus",
+        "dynamics",
+        "selective",
+        "space",
+        "state",
+        "within"
+      ],
+      "first_seen_round": 328
     }
   ],
-  "total_unique": 2650
+  "total_unique": 2653
 }
