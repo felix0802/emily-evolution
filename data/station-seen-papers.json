@@ -43230,7 +43230,244 @@
         "self"
       ],
       "first_seen_round": 330
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.35629v1",
+      "title": "SANTA++: Sampling Attention through Representative Keys",
+      "arxiv_id": "2609.35629",
+      "tokens": [
+        "attention",
+        "keys",
+        "representative",
+        "sampling",
+        "santa"
+      ],
+      "first_seen_round": 331
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.35591v1",
+      "title": "Language Models Act on Hidden Valence",
+      "arxiv_id": "2609.35591",
+      "tokens": [
+        "act",
+        "hidden",
+        "language",
+        "valence"
+      ],
+      "first_seen_round": 331
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.33889v1",
+      "title": "Where Activation Sparsity and KV-Cache Sparsity Cross in LLM Decoding",
+      "arxiv_id": "2609.33889",
+      "tokens": [
+        "activation",
+        "cache",
+        "cross",
+        "decoding",
+        "llm",
+        "sparsity",
+        "sparsity"
+      ],
+      "first_seen_round": 331
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.33759v1",
+      "title": "Positions Are Not Facts: The Mismatch Between KV Caches and Memory",
+      "arxiv_id": "2609.33759",
+      "tokens": [
+        "caches",
+        "facts",
+        "memory",
+        "mismatch",
+        "positions"
+      ],
+      "first_seen_round": 331
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.33465v1",
+      "title": "GSM: Efficient Language Modeling with Shared Global State",
+      "arxiv_id": "2609.33465",
+      "tokens": [
+        "global",
+        "gsm",
+        "language",
+        "modeling",
+        "shared",
+        "state"
+      ],
+      "first_seen_round": 331
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.33334v1",
+      "title": "When to Evict, Not What to Keep: Draft-Guided Eviction for Training-Free KV-Cache Compression",
+      "arxiv_id": "2609.33334",
+      "tokens": [
+        "cache",
+        "compression",
+        "draft",
+        "evict",
+        "eviction",
+        "free",
+        "guided",
+        "keep",
+        "training"
+      ],
+      "first_seen_round": 331
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.34832v1",
+      "title": "BV Loss: Block Verification-Aware Loss for Block Diffusion Speculative Decoding",
+      "arxiv_id": "2609.34832",
+      "tokens": [
+        "aware",
+        "block",
+        "block",
+        "decoding",
+        "diffusion",
+        "loss",
+        "loss",
+        "speculative",
+        "verification"
+      ],
+      "first_seen_round": 331
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.34388v1",
+      "title": "Reciprocal Guidance: Orchestrating Draft and Verify Budgets for Advancing the Diffusion-AR Self-Speculation Frontier",
+      "arxiv_id": "2609.34388",
+      "tokens": [
+        "advancing",
+        "budgets",
+        "diffusion",
+        "draft",
+        "frontier",
+        "guidance",
+        "orchestrating",
+        "reciprocal",
+        "self",
+        "speculation",
+        "verify"
+      ],
+      "first_seen_round": 331
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.33887v1",
+      "title": "Faster Block-Diffusion Serving with Distribution-Free Risk Guarantees",
+      "arxiv_id": "2609.33887",
+      "tokens": [
+        "block",
+        "diffusion",
+        "distribution",
+        "faster",
+        "free",
+        "guarantees",
+        "risk",
+        "serving"
+      ],
+      "first_seen_round": 331
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.33652v1",
+      "title": "Tsubame: Tree Replay for Diffusion-Based Speculative Decoding",
+      "arxiv_id": "2609.33652",
+      "tokens": [
+        "decoding",
+        "diffusion",
+        "replay",
+        "speculative",
+        "tree",
+        "tsubame"
+      ],
+      "first_seen_round": 331
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.33245v1",
+      "title": "Acoustic Progress Propagation for Long-Horizon Speculative Decoding in ASR",
+      "arxiv_id": "2609.33245",
+      "tokens": [
+        "acoustic",
+        "asr",
+        "decoding",
+        "horizon",
+        "long",
+        "progress",
+        "propagation",
+        "speculative"
+      ],
+      "first_seen_round": 331
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.27396v1",
+      "title": "When Parallel Drafter Meets Parallel Speculative Decoding",
+      "arxiv_id": "2609.27396",
+      "tokens": [
+        "decoding",
+        "drafter",
+        "meets",
+        "parallel",
+        "parallel",
+        "speculative"
+      ],
+      "first_seen_round": 331
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.33962v1",
+      "title": "EEG-Fusion: Failure-Informed Source-Free Expert Routing for Robust Motor Imagery EEG Decoding",
+      "arxiv_id": "2609.33962",
+      "tokens": [
+        "decoding",
+        "eeg",
+        "eeg",
+        "expert",
+        "failure",
+        "free",
+        "fusion",
+        "imagery",
+        "informed",
+        "motor",
+        "robust",
+        "routing",
+        "source"
+      ],
+      "first_seen_round": 331
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.33385v1",
+      "title": "OLED-MoE: Accelerating MoE-Based dLLM Inference via Inter-Iteration Locality-Aware Expert Offloading",
+      "arxiv_id": "2609.33385",
+      "tokens": [
+        "accelerating",
+        "aware",
+        "dllm",
+        "expert",
+        "inference",
+        "inter",
+        "iteration",
+        "locality",
+        "moe",
+        "moe",
+        "offloading",
+        "oled"
+      ],
+      "first_seen_round": 331
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.32821v1",
+      "title": "Routing Drift Alone Does Not Diagnose Failure in Merged MoE LLMs",
+      "arxiv_id": "2609.32821",
+      "tokens": [
+        "alone",
+        "diagnose",
+        "drift",
+        "failure",
+        "llms",
+        "merged",
+        "moe",
+        "routing"
+      ],
+      "first_seen_round": 331
     }
   ],
-  "total_unique": 2698
+  "total_unique": 2713
 }

@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 697,
+  "_rotation_idx": 698,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 60,
@@ -4935,33 +4935,9 @@
   },
   "moe": {
     "name": "Mixture of Experts",
-    "total_papers_found": 92,
-    "watering_count": 66,
+    "total_papers_found": 95,
+    "watering_count": 67,
     "history": [
-      {
-        "timestamp": "2026-07-30T08:03:09.873917",
-        "papers_found": 2,
-        "duplicates": 4,
-        "irrelevant_filtered": 4,
-        "avg_relevance": 1.5,
-        "high_relevance": 1,
-        "papers": [
-          {
-            "title": "Mixture-of-experts for handwriting trajectory reconstruction from IMU sensors",
-            "summary": "The use of digital pens for online handwriting trajectory reconstruction is a prevalent method for human-computer interaction. In this study, we focus on a digital pen equipped with sensors where we aim at reconstructing the online handwriting trajectory. This pen enables writing on any surface and ",
-            "published": "2026-07-29",
-            "url": "http://arxiv.org/abs/2607.26708v1",
-            "seed_match_score": 1
-          },
-          {
-            "title": "Incast-Free MoE Rate-Based Scheduling",
-            "summary": "Mixture of Experts (MoE) architectures have become key to large language models; however, their typical round-robin (RR) scheduling introduces significant bottlenecks.   In this paper, we demonstrate that RR causes a previously-undiscovered exponential incast phenomenon with MoE traffic. We propose ",
-            "published": "2026-07-28",
-            "url": "http://arxiv.org/abs/2607.26340v1",
-            "seed_match_score": 2
-          }
-        ]
-      },
       {
         "timestamp": "2026-07-31T08:28:46.281926",
         "papers_found": 2,
@@ -5806,6 +5782,37 @@
         "avg_relevance": 0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-09-29T20:18:22.207834",
+        "papers_found": 3,
+        "duplicates": 4,
+        "irrelevant_filtered": 3,
+        "avg_relevance": 2.0,
+        "high_relevance": 2,
+        "papers": [
+          {
+            "title": "EEG-Fusion: Failure-Informed Source-Free Expert Routing for Robust Motor Imagery EEG Decoding",
+            "summary": "Subject-independent motor-imagery (MI) EEG decoding can exhibit subject-level failures even when average performance appears acceptable: under subject shift, a decoder can become an overconfident near-one-class predictor. This is especially problematic in source-free deployment, where target-user la",
+            "published": "2026-09-27",
+            "url": "http://arxiv.org/abs/2609.33962v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "OLED-MoE: Accelerating MoE-Based dLLM Inference via Inter-Iteration Locality-Aware Expert Offloading",
+            "summary": "Semi-autoregressive diffusion large language models (dLLMs) improve decoding parallelism through iterative block-wise denoising, but scaling them with mixture-of-experts (MoE) layers introduces a large expert parameter footprint that exceeds memory-constrained GPU capacity. Expert offloading is a na",
+            "published": "2026-09-27",
+            "url": "http://arxiv.org/abs/2609.33385v1",
+            "seed_match_score": 2
+          },
+          {
+            "title": "Routing Drift Alone Does Not Diagnose Failure in Merged MoE LLMs",
+            "summary": "Model merging efficiently combines specialized large language models (LLMs) without joint retraining, but can substantially alter expert routing in Mixture-of-Experts (MoE) models. Such \\emph{routing drift} is often interpreted as routing failure, raising a fundamental question that remains unclear:",
+            "published": "2026-09-26",
+            "url": "http://arxiv.org/abs/2609.32821v1",
+            "seed_match_score": 3
+          }
+        ]
       }
     ],
     "keywords": [
@@ -5817,7 +5824,7 @@
       "switch transformer",
       "deepseek"
     ],
-    "last_watered": "2026-09-27T09:36:08.182787"
+    "last_watered": "2026-09-29T20:18:22.207826"
   },
   "kv-cache": {
     "name": "KV Cache Optimization",

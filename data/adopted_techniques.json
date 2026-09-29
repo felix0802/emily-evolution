@@ -2723,6 +2723,21 @@
         ],
         "decided_at": "2026-09-29T14:24:55.168518"
       }
+    },
+    {
+      "id": "llm-santa++",
+      "name": "SANTA++",
+      "adopted_at": "2026-09-29T20:18:26.700093",
+      "decision": {
+        "tech_id": "llm-santa++",
+        "tech_name": "SANTA++",
+        "action": "adopt",
+        "confidence": 0.9,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-09-29T20:18:26.697878"
+      }
     }
   ],
   "history": [
@@ -3811,6 +3826,12 @@
       "tech_id": "auto-mamba",
       "tech_name": "Mamba",
       "timestamp": "2026-09-29T14:24:55.170493"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-santa++",
+      "tech_name": "SANTA++",
+      "timestamp": "2026-09-29T20:18:26.700099"
     }
   ]
 }

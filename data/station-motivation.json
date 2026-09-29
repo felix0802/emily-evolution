@@ -1,28 +1,6 @@
 {
   "rounds": [
     {
-      "round": 281,
-      "timestamp": "2026-09-19T23:43:42.970590",
-      "prediction_error": 0.7,
-      "seeds_active": 10,
-      "seeds_dormant": 0,
-      "new_seeds_added": 0,
-      "top_motivated": [
-        [
-          "spiking-nn",
-          0.91
-        ],
-        [
-          "non-transformer",
-          0.91
-        ],
-        [
-          "continual-learning",
-          0.792
-        ]
-      ]
-    },
-    {
       "round": 282,
       "timestamp": "2026-09-20T01:59:11.811737",
       "prediction_error": 0.7,
@@ -1099,6 +1077,28 @@
           0.858
         ]
       ]
+    },
+    {
+      "round": 331,
+      "timestamp": "2026-09-29T20:18:22.222748",
+      "prediction_error": 0.7,
+      "seeds_active": 4,
+      "seeds_dormant": 6,
+      "new_seeds_added": 0,
+      "top_motivated": [
+        [
+          "few-shot",
+          0.91
+        ],
+        [
+          "continual-learning",
+          0.91
+        ],
+        [
+          "non-transformer",
+          0.858
+        ]
+      ]
     }
   ],
   "seed_scores": {
@@ -1241,7 +1241,7 @@
         0.0,
         0.0,
         0.0,
-        0.0,
+        0.871,
         0.871,
         0.871,
         0.871
@@ -1271,7 +1271,7 @@
         0.0,
         0.0,
         0.0,
-        0.0,
+        1.0,
         1.0,
         1.0
       ]
@@ -1301,15 +1301,15 @@
         0.0,
         0.0,
         0.0,
-        0.0,
+        1.0,
         1.0
       ]
     },
     "moe": {
       "name": "Mixture of Experts",
-      "info_gain": 0.0,
+      "info_gain": 0.375,
       "novelty": 0.857,
-      "motivation_score": 0.467,
+      "motivation_score": 0.617,
       "info_gain_history": [
         0.0,
         0.0,
@@ -1331,7 +1331,7 @@
         0.0,
         0.0,
         0.0,
-        0.0
+        0.375
       ]
     },
     "kv-cache": {
@@ -1406,6 +1406,6 @@
     "spiking-nn",
     "non-transformer"
   ],
-  "total_motivation_evaluations": 172,
+  "total_motivation_evaluations": 173,
   "current_prediction_error": 0.7
 }

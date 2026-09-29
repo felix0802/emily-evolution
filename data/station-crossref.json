@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-29T14:24:55.192322",
+  "timestamp": "2026-09-29T20:18:26.722141",
   "connections": [
     {
       "seed_a": "Mamba (SSM)",
@@ -10,7 +10,7 @@
       ],
       "shared_paper_concepts": [],
       "strength": 4,
-      "discovered_at": "2026-09-29T14:24:55.192288"
+      "discovered_at": "2026-09-29T20:18:26.722103"
     },
     {
       "seed_a": "Non-Transformer Arch",
@@ -21,7 +21,18 @@
         "space"
       ],
       "strength": 2,
-      "discovered_at": "2026-09-29T14:24:55.192308"
+      "discovered_at": "2026-09-29T20:18:26.722122"
+    },
+    {
+      "seed_a": "Few-Shot Learning",
+      "seed_b": "Mixture of Experts",
+      "shared_keywords": [],
+      "shared_paper_concepts": [
+        "failure",
+        "inference"
+      ],
+      "strength": 2,
+      "discovered_at": "2026-09-29T20:18:26.722132"
     },
     {
       "seed_a": "Few-Shot Learning",
@@ -31,7 +42,7 @@
         "learning"
       ],
       "strength": 1,
-      "discovered_at": "2026-09-29T14:24:55.192313"
+      "discovered_at": "2026-09-29T20:18:26.722128"
     }
   ],
   "total_seeds": 10
