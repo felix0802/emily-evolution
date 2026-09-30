@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 701,
+  "_rotation_idx": 702,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 63,
@@ -662,18 +662,9 @@
   },
   "liquid-networks": {
     "name": "Liquid Networks",
-    "total_papers_found": 70,
-    "watering_count": 73,
+    "total_papers_found": 77,
+    "watering_count": 74,
     "history": [
-      {
-        "timestamp": "2026-07-30T17:12:28.354811",
-        "papers_found": 0,
-        "duplicates": 8,
-        "irrelevant_filtered": 2,
-        "avg_relevance": 0.0,
-        "high_relevance": 0,
-        "papers": []
-      },
       {
         "timestamp": "2026-07-31T17:16:06.284402",
         "papers_found": 4,
@@ -1342,6 +1333,37 @@
         "avg_relevance": 0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-09-30T20:22:27.837060",
+        "papers_found": 7,
+        "duplicates": 0,
+        "irrelevant_filtered": 3,
+        "avg_relevance": 1.57,
+        "high_relevance": 4,
+        "papers": [
+          {
+            "title": "Learning Continuous Patient Trajectories from Electronic Health Records",
+            "summary": "Electronic health records provide irregular observations of latent patient states that evolve continuously over time. Recent autoregressive models condition on clinical histories to forecast future events as sequences of discrete observations. Conversely, multi-marginal flow matching provides a cont",
+            "published": "2026-09-28",
+            "url": "http://arxiv.org/abs/2609.36144v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Structured Neural SDEs for Functional Calibration",
+            "summary": "Neural Stochastic Differential Equations (Neural SDEs) provide flexible continuous-time generative models, but generic neural drift and diffusion networks are costly to simulate on long horizons and can give unstable gradients when the training signal is a path functional rather than a pointwise obs",
+            "published": "2026-09-28",
+            "url": "http://arxiv.org/abs/2609.34831v1",
+            "seed_match_score": 2
+          },
+          {
+            "title": "HALO: Enhancing Time Series Generation via Hyperspherical Latents and Masked AutoregRessive Modeling",
+            "summary": "Most existing time series generators rely on a two-stage modeling paradigm: the first stage learns discrete latent representations of time series; the second stage performs autoregressive modeling on these discrete latents through next token prediction. However, this paradigm suffers from two stage-",
+            "published": "2026-09-28",
+            "url": "http://arxiv.org/abs/2609.34511v2",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -1351,7 +1373,7 @@
       "ode",
       "continuous-time"
     ],
-    "last_watered": "2026-09-28T02:13:56.606103"
+    "last_watered": "2026-09-30T20:22:27.837054"
   },
   "htm": {
     "name": "HTM",

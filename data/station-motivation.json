@@ -1,28 +1,6 @@
 {
   "rounds": [
     {
-      "round": 285,
-      "timestamp": "2026-09-20T17:04:43.019079",
-      "prediction_error": 0.7,
-      "seeds_active": 8,
-      "seeds_dormant": 2,
-      "new_seeds_added": 0,
-      "top_motivated": [
-        [
-          "spiking-nn",
-          0.91
-        ],
-        [
-          "non-transformer",
-          0.91
-        ],
-        [
-          "continual-learning",
-          0.792
-        ]
-      ]
-    },
-    {
       "round": 286,
       "timestamp": "2026-09-20T19:53:59.469547",
       "prediction_error": 0.7,
@@ -1099,6 +1077,28 @@
           0.91
         ]
       ]
+    },
+    {
+      "round": 335,
+      "timestamp": "2026-09-30T20:22:27.855184",
+      "prediction_error": 0.7,
+      "seeds_active": 8,
+      "seeds_dormant": 2,
+      "new_seeds_added": 0,
+      "top_motivated": [
+        [
+          "mamba",
+          0.91
+        ],
+        [
+          "liquid-networks",
+          0.91
+        ],
+        [
+          "few-shot",
+          0.91
+        ]
+      ]
     }
   ],
   "seed_scores": {
@@ -1127,15 +1127,15 @@
         0.0,
         0.0,
         0.0,
-        0.0,
+        1.0,
         1.0
       ]
     },
     "liquid-networks": {
       "name": "Liquid Networks",
-      "info_gain": 0.0,
+      "info_gain": 1.0,
       "novelty": 1.0,
-      "motivation_score": 0.51,
+      "motivation_score": 0.91,
       "info_gain_history": [
         0.0,
         0.0,
@@ -1157,7 +1157,7 @@
         0.0,
         0.0,
         0.0,
-        0.0
+        1.0
       ]
     },
     "htm": {
@@ -1237,7 +1237,7 @@
         0.0,
         0.0,
         0.0,
-        0.0,
+        0.871,
         0.871,
         0.871,
         0.871,
@@ -1267,7 +1267,7 @@
         0.0,
         0.0,
         0.0,
-        0.0,
+        1.0,
         1.0,
         1.0,
         1.0,
@@ -1297,7 +1297,7 @@
         0.0,
         0.0,
         0.0,
-        0.0,
+        1.0,
         1.0,
         1.0,
         1.0,
@@ -1327,7 +1327,7 @@
         0.0,
         0.0,
         0.0,
-        0.0,
+        0.375,
         0.375,
         0.375,
         0.375,
@@ -1357,7 +1357,7 @@
         0.0,
         0.0,
         0.0,
-        0.0,
+        0.692,
         0.692,
         0.692,
         0.692
@@ -1387,7 +1387,7 @@
         0.0,
         0.0,
         0.0,
-        0.0,
+        0.766,
         0.766,
         0.766
       ]
@@ -1406,6 +1406,6 @@
     "spiking-nn",
     "non-transformer"
   ],
-  "total_motivation_evaluations": 176,
+  "total_motivation_evaluations": 177,
   "current_prediction_error": 0.7
 }
