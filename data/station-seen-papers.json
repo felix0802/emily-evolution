@@ -44039,7 +44039,169 @@
         "upstream"
       ],
       "first_seen_round": 333
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.38180v1",
+      "title": "Point2Part: Unified 3D Partitioning from Point Prompts",
+      "arxiv_id": "2609.38180",
+      "tokens": [
+        "partitioning",
+        "point",
+        "point2part",
+        "prompts",
+        "unified"
+      ],
+      "first_seen_round": 334
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.38172v1",
+      "title": "Counterfactual Video Generation Enables Scalable Humanoid Loco-Manipulation",
+      "arxiv_id": "2609.38172",
+      "tokens": [
+        "counterfactual",
+        "enables",
+        "generation",
+        "humanoid",
+        "loco",
+        "manipulation",
+        "scalable",
+        "video"
+      ],
+      "first_seen_round": 334
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.38170v1",
+      "title": "Adversarial Training for Pixel Diffusion",
+      "arxiv_id": "2609.38170",
+      "tokens": [
+        "adversarial",
+        "diffusion",
+        "pixel",
+        "training"
+      ],
+      "first_seen_round": 334
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.38163v1",
+      "title": "Rethinking Representations for World-Action Modeling",
+      "arxiv_id": "2609.38163",
+      "tokens": [
+        "action",
+        "modeling",
+        "representations",
+        "rethinking",
+        "world"
+      ],
+      "first_seen_round": 334
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.38156v1",
+      "title": "DMA$^2$: Pixel-space Distribution Matching with Adversarial and Anchor Losses",
+      "arxiv_id": "2609.38156",
+      "tokens": [
+        "adversarial",
+        "anchor",
+        "distribution",
+        "dma",
+        "losses",
+        "matching",
+        "pixel",
+        "space"
+      ],
+      "first_seen_round": 334
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.38133v1",
+      "title": "Multi-Agent Flow Matching with Decoupled Generative Guidance",
+      "arxiv_id": "2609.38133",
+      "tokens": [
+        "agent",
+        "decoupled",
+        "flow",
+        "generative",
+        "guidance",
+        "matching",
+        "multi"
+      ],
+      "first_seen_round": 334
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.38154v1",
+      "title": "LongLive-Plug: Once-for-All Distillation for Video Generation",
+      "arxiv_id": "2609.38154",
+      "tokens": [
+        "distillation",
+        "generation",
+        "longlive",
+        "once",
+        "plug",
+        "video"
+      ],
+      "first_seen_round": 334
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.38153v1",
+      "title": "PowerSim: Differentiable Physics Simulation and Rendering with Power Diagrams",
+      "arxiv_id": "2609.38153",
+      "tokens": [
+        "diagrams",
+        "differentiable",
+        "physics",
+        "power",
+        "powersim",
+        "rendering",
+        "simulation"
+      ],
+      "first_seen_round": 334
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.36453v1",
+      "title": "Channel-Dependent State Space Model for Multivariate Time Series Forecasting",
+      "arxiv_id": "2609.36453",
+      "tokens": [
+        "channel",
+        "dependent",
+        "forecasting",
+        "multivariate",
+        "series",
+        "space",
+        "state",
+        "time"
+      ],
+      "first_seen_round": 334
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.36314v1",
+      "title": "Fractional State Space Transition for Long Sequence Modeling",
+      "arxiv_id": "2609.36314",
+      "tokens": [
+        "fractional",
+        "long",
+        "modeling",
+        "sequence",
+        "space",
+        "state",
+        "transition"
+      ],
+      "first_seen_round": 334
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.35441v1",
+      "title": "Riccati State Space Models: Non-iterative Parallelization for Nonlinear Sequence Modeling",
+      "arxiv_id": "2609.35441",
+      "tokens": [
+        "iterative",
+        "modeling",
+        "non",
+        "nonlinear",
+        "parallelization",
+        "riccati",
+        "sequence",
+        "space",
+        "state"
+      ],
+      "first_seen_round": 334
     }
   ],
-  "total_unique": 2749
+  "total_unique": 2760
 }

@@ -1,27 +1,10 @@
 {
-  "_rotation_idx": 700,
+  "_rotation_idx": 701,
   "mamba": {
     "name": "Mamba (SSM)",
-    "total_papers_found": 60,
-    "watering_count": 73,
+    "total_papers_found": 63,
+    "watering_count": 74,
     "history": [
-      {
-        "timestamp": "2026-07-30T15:45:03.329455",
-        "papers_found": 1,
-        "duplicates": 6,
-        "irrelevant_filtered": 3,
-        "avg_relevance": 2.0,
-        "high_relevance": 1,
-        "papers": [
-          {
-            "title": "Phoneme- vs. Character-Level Targets and Selective State-Space Models for Intracortical Brain-to-Text",
-            "summary": "State-of-the-art intracortical brain-to-text systems pair a neural-sequence phone decoder with an external language model. Two design axes remain underexplored: whether selective state-space models (Mamba) improve on recurrent decoders, and how the output target (phonetic vs.\\ character) interacts w",
-            "published": "2026-07-29",
-            "url": "http://arxiv.org/abs/2607.26751v1",
-            "seed_match_score": 2
-          }
-        ]
-      },
       {
         "timestamp": "2026-07-31T15:51:59.571299",
         "papers_found": 0,
@@ -636,6 +619,37 @@
         "avg_relevance": 0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-09-30T14:20:51.343021",
+        "papers_found": 3,
+        "duplicates": 1,
+        "irrelevant_filtered": 6,
+        "avg_relevance": 1.67,
+        "high_relevance": 2,
+        "papers": [
+          {
+            "title": "Channel-Dependent State Space Model for Multivariate Time Series Forecasting",
+            "summary": "Multivariate time series forecasting (MTSF) is critical across many real-world domains. Existing deep learning approaches fall into two paradigms with distinct limitations: channel-independent (CI) methods unconditionally ignore cross-variable dependencies and model only temporal dynamics, while cha",
+            "published": "2026-09-29",
+            "url": "http://arxiv.org/abs/2609.36453v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Fractional State Space Transition for Long Sequence Modeling",
+            "summary": "State Space Models (SSMs) compress sequence history into a bounded recurrent state, making the resulting memory law a central architectural choice for long-context performance. Most modern SSMs rely on ODE-based dynamics that lead to exponential forgetting, limiting their ability to retain informati",
+            "published": "2026-09-28",
+            "url": "http://arxiv.org/abs/2609.36314v1",
+            "seed_match_score": 2
+          },
+          {
+            "title": "Riccati State Space Models: Non-iterative Parallelization for Nonlinear Sequence Modeling",
+            "summary": "State space models (SSMs) achieve efficient sequence processing because their affine state updates are closed under composition and can therefore be evaluated with an associative parallel scan. Nonlinear recurrent models can provide richer, state-dependent dynamics, but generally lose this compositi",
+            "published": "2026-09-28",
+            "url": "http://arxiv.org/abs/2609.35441v1",
+            "seed_match_score": 2
+          }
+        ]
       }
     ],
     "keywords": [
@@ -644,7 +658,7 @@
       "ssm",
       "selective scan"
     ],
-    "last_watered": "2026-09-27T22:38:20.624569"
+    "last_watered": "2026-09-30T14:20:51.343014"
   },
   "liquid-networks": {
     "name": "Liquid Networks",
