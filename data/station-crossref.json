@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-29T20:18:26.722141",
+  "timestamp": "2026-09-30T00:49:40.733569",
   "connections": [
     {
       "seed_a": "Mamba (SSM)",
@@ -10,7 +10,7 @@
       ],
       "shared_paper_concepts": [],
       "strength": 4,
-      "discovered_at": "2026-09-29T20:18:26.722103"
+      "discovered_at": "2026-09-30T00:49:40.733518"
     },
     {
       "seed_a": "Non-Transformer Arch",
@@ -21,7 +21,7 @@
         "space"
       ],
       "strength": 2,
-      "discovered_at": "2026-09-29T20:18:26.722122"
+      "discovered_at": "2026-09-30T00:49:40.733538"
     },
     {
       "seed_a": "Few-Shot Learning",
@@ -32,7 +32,28 @@
         "inference"
       ],
       "strength": 2,
-      "discovered_at": "2026-09-29T20:18:26.722132"
+      "discovered_at": "2026-09-30T00:49:40.733551"
+    },
+    {
+      "seed_a": "Few-Shot Learning",
+      "seed_b": "KV Cache Optimization",
+      "shared_keywords": [],
+      "shared_paper_concepts": [
+        "cross",
+        "learning"
+      ],
+      "strength": 2,
+      "discovered_at": "2026-09-30T00:49:40.733554"
+    },
+    {
+      "seed_a": "Non-Transformer Arch",
+      "seed_b": "KV Cache Optimization",
+      "shared_keywords": [],
+      "shared_paper_concepts": [
+        "cache"
+      ],
+      "strength": 1,
+      "discovered_at": "2026-09-30T00:49:40.733543"
     },
     {
       "seed_a": "Few-Shot Learning",
@@ -42,7 +63,27 @@
         "learning"
       ],
       "strength": 1,
-      "discovered_at": "2026-09-29T20:18:26.722128"
+      "discovered_at": "2026-09-30T00:49:40.733547"
+    },
+    {
+      "seed_a": "Continual Learning",
+      "seed_b": "KV Cache Optimization",
+      "shared_keywords": [],
+      "shared_paper_concepts": [
+        "learning"
+      ],
+      "strength": 1,
+      "discovered_at": "2026-09-30T00:49:40.733559"
+    },
+    {
+      "seed_a": "Mixture of Experts",
+      "seed_b": "KV Cache Optimization",
+      "shared_keywords": [],
+      "shared_paper_concepts": [
+        "fusion"
+      ],
+      "strength": 1,
+      "discovered_at": "2026-09-30T00:49:40.733563"
     }
   ],
   "total_seeds": 10

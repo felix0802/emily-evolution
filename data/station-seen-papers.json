@@ -43467,7 +43467,212 @@
         "routing"
       ],
       "first_seen_round": 331
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.34253v1",
+      "title": "DreamingGoose: Staged Distillation from Autoregressive Transformers to Bidirectional Recurrent Diffusion Language Models",
+      "arxiv_id": "2609.34253",
+      "tokens": [
+        "autoregressive",
+        "bidirectional",
+        "diffusion",
+        "distillation",
+        "dreaminggoose",
+        "language",
+        "recurrent",
+        "staged",
+        "transformers"
+      ],
+      "first_seen_round": 332
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.35099v1",
+      "title": "E3J: An Efficient and Open-Source Backend for Euclidean Equivariant Operations on GPU and TPU",
+      "arxiv_id": "2609.35099",
+      "tokens": [
+        "backend",
+        "e3j",
+        "equivariant",
+        "euclidean",
+        "gpu",
+        "open",
+        "operations",
+        "source",
+        "tpu"
+      ],
+      "first_seen_round": 332
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.34489v1",
+      "title": "When Less Data Favors Smaller Teachers: Rethinking Teacher Capacity and Data Selection for Knowledge Distillation",
+      "arxiv_id": "2609.34489",
+      "tokens": [
+        "capacity",
+        "distillation",
+        "favors",
+        "knowledge",
+        "less",
+        "rethinking",
+        "selection",
+        "smaller",
+        "teacher",
+        "teachers"
+      ],
+      "first_seen_round": 332
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.33791v1",
+      "title": "Do We Really Need KL Divergence for On-Policy Distillation of Large Language Models?",
+      "arxiv_id": "2609.33791",
+      "tokens": [
+        "distillation",
+        "divergence",
+        "language",
+        "need",
+        "policy",
+        "really"
+      ],
+      "first_seen_round": 332
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.33727v1",
+      "title": "A Statistical Perspective on Knowledge Distillation: Foundations, Classical Methods, and Large Language Model Extensions",
+      "arxiv_id": "2609.33727",
+      "tokens": [
+        "classical",
+        "distillation",
+        "extensions",
+        "foundations",
+        "knowledge",
+        "language",
+        "perspective",
+        "statistical"
+      ],
+      "first_seen_round": 332
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.31141v1",
+      "title": "Unknown-Traffic Detection, Calibration and Shortcut Reliance in Distilled Encrypted-Traffic Classifiers over One Year",
+      "arxiv_id": "2609.31141",
+      "tokens": [
+        "calibration",
+        "classifiers",
+        "detection",
+        "distilled",
+        "encrypted",
+        "reliance",
+        "shortcut",
+        "traffic",
+        "traffic",
+        "unknown",
+        "year"
+      ],
+      "first_seen_round": 332
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.31061v1",
+      "title": "Distributed Learning as a Service: The Developer's Perspective",
+      "arxiv_id": "2609.31061",
+      "tokens": [
+        "developer",
+        "distributed",
+        "perspective",
+        "service"
+      ],
+      "first_seen_round": 332
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.31785v1",
+      "title": "Cross-Modal Knowledge Distillation for Acoustic Pedestrian Detection",
+      "arxiv_id": "2609.31785",
+      "tokens": [
+        "acoustic",
+        "cross",
+        "detection",
+        "distillation",
+        "knowledge",
+        "modal",
+        "pedestrian"
+      ],
+      "first_seen_round": 332
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.35621v1",
+      "title": "Cartridges++: KV Cache Compression without Off-Context Derailment",
+      "arxiv_id": "2609.35621",
+      "tokens": [
+        "cache",
+        "cartridges",
+        "compression",
+        "context",
+        "derailment"
+      ],
+      "first_seen_round": 332
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.35139v1",
+      "title": "CacheRepair: Learning to Repair Cross-Chunk Context in RAG for KV Cache Fusion",
+      "arxiv_id": "2609.35139",
+      "tokens": [
+        "cache",
+        "cacherepair",
+        "chunk",
+        "context",
+        "cross",
+        "fusion",
+        "rag",
+        "repair"
+      ],
+      "first_seen_round": 332
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.35065v1",
+      "title": "TempoKV: Timely Staging of LLM KV Caches for Memory-Semantic Flash",
+      "arxiv_id": "2609.35065",
+      "tokens": [
+        "caches",
+        "flash",
+        "llm",
+        "memory",
+        "semantic",
+        "staging",
+        "tempokv",
+        "timely"
+      ],
+      "first_seen_round": 332
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.34653v1",
+      "title": "OmniTide: Co-Designing Algorithms and Systems for Efficient On-Device Omni-LLM Streaming",
+      "arxiv_id": "2609.34653",
+      "tokens": [
+        "algorithms",
+        "designing",
+        "device",
+        "llm",
+        "omni",
+        "omnitide",
+        "streaming"
+      ],
+      "first_seen_round": 332
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.34555v1",
+      "title": "PulseInfer: I/O-Centric Sparse KV Cache Offloading for Efficient Long-Context LLM Decoding",
+      "arxiv_id": "2609.34555",
+      "tokens": [
+        "cache",
+        "centric",
+        "context",
+        "decoding",
+        "llm",
+        "long",
+        "offloading",
+        "pulseinfer",
+        "sparse"
+      ],
+      "first_seen_round": 332
     }
   ],
-  "total_unique": 2713
+  "total_unique": 2726
 }

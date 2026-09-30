@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 698,
+  "_rotation_idx": 699,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 60,
@@ -5828,26 +5828,9 @@
   },
   "kv-cache": {
     "name": "KV Cache Optimization",
-    "total_papers_found": 84,
-    "watering_count": 67,
+    "total_papers_found": 89,
+    "watering_count": 68,
     "history": [
-      {
-        "timestamp": "2026-07-30T11:44:21.089008",
-        "papers_found": 1,
-        "duplicates": 3,
-        "irrelevant_filtered": 6,
-        "avg_relevance": 1.0,
-        "high_relevance": 0,
-        "papers": [
-          {
-            "title": "Revisiting Lossy Verification in Speculative Decoding: Mechanisms, Trade-offs, and Failure Modes",
-            "summary": "Speculative Decoding (SD) accelerates large language model inference by allowing a lightweight draft model to propose tokens that are subsequently verified in parallel by a larger target model. Recent approaches introduce lossy verification schemes to further improve efficiency by relaxing strict di",
-            "published": "2026-07-29",
-            "url": "http://arxiv.org/abs/2607.26627v1",
-            "seed_match_score": 1
-          }
-        ]
-      },
       {
         "timestamp": "2026-07-31T11:51:00.588786",
         "papers_found": 5,
@@ -6660,6 +6643,37 @@
         "avg_relevance": 0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-09-30T00:49:35.626509",
+        "papers_found": 5,
+        "duplicates": 1,
+        "irrelevant_filtered": 4,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "Cartridges++: KV Cache Compression without Off-Context Derailment",
+            "summary": "Serving long documents to a Large Language Model (LLM) repeatedly is expensive: computations grow with context length, and the memory footprint of the key-value (KV) cache balloons. Compressed KV (CKV) representations aim to mimic the cache of a document and are typically computed once and for all, ",
+            "published": "2026-09-28",
+            "url": "http://arxiv.org/abs/2609.35621v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "CacheRepair: Learning to Repair Cross-Chunk Context in RAG for KV Cache Fusion",
+            "summary": "Multi-document retrieval-augmented generation (RAG) requires a language model to process multiple retrieved text chunks before answering a question. Precomputing each chunk's KV cache independently and concatenating the caches when the chunks are retrieved can accelerate this step. However, the asse",
+            "published": "2026-09-28",
+            "url": "http://arxiv.org/abs/2609.35139v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "TempoKV: Timely Staging of LLM KV Caches for Memory-Semantic Flash",
+            "summary": "Reusable prefix key-value (KV) caches can outgrow GPU memory in large language model (LLM) serving. A memory-semantic flash hierarchy offers SSD-backed capacity with a limited fast tier, but a logical KV hit is not necessarily ready for GPU retrieval. Demand staging exposes SSD latency, whereas imme",
+            "published": "2026-09-28",
+            "url": "http://arxiv.org/abs/2609.35065v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -6671,7 +6685,7 @@
       "flash attention",
       "speculative decoding"
     ],
-    "last_watered": "2026-09-27T14:52:37.865715"
+    "last_watered": "2026-09-30T00:49:35.626502"
   },
   "gnn": {
     "name": "Graph Neural Networks",

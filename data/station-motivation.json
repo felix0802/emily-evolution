@@ -1,28 +1,6 @@
 {
   "rounds": [
     {
-      "round": 282,
-      "timestamp": "2026-09-20T01:59:11.811737",
-      "prediction_error": 0.7,
-      "seeds_active": 9,
-      "seeds_dormant": 1,
-      "new_seeds_added": 0,
-      "top_motivated": [
-        [
-          "spiking-nn",
-          0.91
-        ],
-        [
-          "non-transformer",
-          0.91
-        ],
-        [
-          "continual-learning",
-          0.792
-        ]
-      ]
-    },
-    {
       "round": 283,
       "timestamp": "2026-09-20T07:23:14.941566",
       "prediction_error": 0.7,
@@ -1099,6 +1077,28 @@
           0.858
         ]
       ]
+    },
+    {
+      "round": 332,
+      "timestamp": "2026-09-30T00:49:35.640776",
+      "prediction_error": 0.7,
+      "seeds_active": 5,
+      "seeds_dormant": 5,
+      "new_seeds_added": 0,
+      "top_motivated": [
+        [
+          "few-shot",
+          0.91
+        ],
+        [
+          "continual-learning",
+          0.91
+        ],
+        [
+          "non-transformer",
+          0.858
+        ]
+      ]
     }
   ],
   "seed_scores": {
@@ -1240,7 +1240,7 @@
         0.0,
         0.0,
         0.0,
-        0.0,
+        0.871,
         0.871,
         0.871,
         0.871,
@@ -1270,7 +1270,7 @@
         0.0,
         0.0,
         0.0,
-        0.0,
+        1.0,
         1.0,
         1.0,
         1.0
@@ -1300,7 +1300,7 @@
         0.0,
         0.0,
         0.0,
-        0.0,
+        1.0,
         1.0,
         1.0
       ]
@@ -1330,15 +1330,15 @@
         0.0,
         0.0,
         0.0,
-        0.0,
+        0.375,
         0.375
       ]
     },
     "kv-cache": {
       "name": "KV Cache Optimization",
-      "info_gain": 0.0,
+      "info_gain": 0.692,
       "novelty": 1.0,
-      "motivation_score": 0.51,
+      "motivation_score": 0.787,
       "info_gain_history": [
         0.0,
         0.0,
@@ -1360,7 +1360,7 @@
         0.0,
         0.0,
         0.0,
-        0.0
+        0.692
       ]
     },
     "gnn": {
@@ -1406,6 +1406,6 @@
     "spiking-nn",
     "non-transformer"
   ],
-  "total_motivation_evaluations": 173,
+  "total_motivation_evaluations": 174,
   "current_prediction_error": 0.7
 }
