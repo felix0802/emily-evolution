@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-30T00:49:40.733569",
+  "timestamp": "2026-09-30T07:36:23.612554",
   "connections": [
     {
       "seed_a": "Mamba (SSM)",
@@ -10,7 +10,7 @@
       ],
       "shared_paper_concepts": [],
       "strength": 4,
-      "discovered_at": "2026-09-30T00:49:40.733518"
+      "discovered_at": "2026-09-30T07:36:23.612505"
     },
     {
       "seed_a": "Non-Transformer Arch",
@@ -21,7 +21,7 @@
         "space"
       ],
       "strength": 2,
-      "discovered_at": "2026-09-30T00:49:40.733538"
+      "discovered_at": "2026-09-30T07:36:23.612522"
     },
     {
       "seed_a": "Few-Shot Learning",
@@ -32,7 +32,7 @@
         "inference"
       ],
       "strength": 2,
-      "discovered_at": "2026-09-30T00:49:40.733551"
+      "discovered_at": "2026-09-30T07:36:23.612533"
     },
     {
       "seed_a": "Few-Shot Learning",
@@ -43,7 +43,7 @@
         "learning"
       ],
       "strength": 2,
-      "discovered_at": "2026-09-30T00:49:40.733554"
+      "discovered_at": "2026-09-30T07:36:23.612538"
     },
     {
       "seed_a": "Non-Transformer Arch",
@@ -53,7 +53,7 @@
         "cache"
       ],
       "strength": 1,
-      "discovered_at": "2026-09-30T00:49:40.733543"
+      "discovered_at": "2026-09-30T07:36:23.612526"
     },
     {
       "seed_a": "Few-Shot Learning",
@@ -63,7 +63,7 @@
         "learning"
       ],
       "strength": 1,
-      "discovered_at": "2026-09-30T00:49:40.733547"
+      "discovered_at": "2026-09-30T07:36:23.612530"
     },
     {
       "seed_a": "Continual Learning",
@@ -73,7 +73,7 @@
         "learning"
       ],
       "strength": 1,
-      "discovered_at": "2026-09-30T00:49:40.733559"
+      "discovered_at": "2026-09-30T07:36:23.612542"
     },
     {
       "seed_a": "Mixture of Experts",
@@ -83,7 +83,17 @@
         "fusion"
       ],
       "strength": 1,
-      "discovered_at": "2026-09-30T00:49:40.733563"
+      "discovered_at": "2026-09-30T07:36:23.612545"
+    },
+    {
+      "seed_a": "Mixture of Experts",
+      "seed_b": "Graph Neural Networks",
+      "shared_keywords": [],
+      "shared_paper_concepts": [
+        "based"
+      ],
+      "strength": 1,
+      "discovered_at": "2026-09-30T07:36:23.612548"
     }
   ],
   "total_seeds": 10

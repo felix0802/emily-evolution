@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 699,
+  "_rotation_idx": 700,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 60,
@@ -6689,40 +6689,9 @@
   },
   "gnn": {
     "name": "Graph Neural Networks",
-    "total_papers_found": 131,
-    "watering_count": 68,
+    "total_papers_found": 139,
+    "watering_count": 69,
     "history": [
-      {
-        "timestamp": "2026-07-30T13:21:46.282106",
-        "papers_found": 3,
-        "duplicates": 2,
-        "irrelevant_filtered": 5,
-        "avg_relevance": 3.0,
-        "high_relevance": 3,
-        "papers": [
-          {
-            "title": "Universality and Approximation Rates of Graph Neural Networks with Random Features",
-            "summary": "We investigate message-passing graph neural networks with random node features. Random node features are known to enhance the expressiveness of graph neural networks (GNNs) both theoretically and empirically. Here, we establish a novel universality result focusing on permutation-equivariant neural n",
-            "published": "2026-07-29",
-            "url": "http://arxiv.org/abs/2607.26699v1",
-            "seed_match_score": 3
-          },
-          {
-            "title": "Examining the Efficacy of Graph Neural Network Message-Passing in Regression Contexts",
-            "summary": "Graph Neural Networks (GNN) facilitate effective prediction on graph data such as molecules, media networks and neural network blueprints. GNNs facilitate prediction through message passing techniques which define how information flows from a node to its neighbors. Due to the ubiquity of the graph d",
-            "published": "2026-07-29",
-            "url": "http://arxiv.org/abs/2607.26404v1",
-            "seed_match_score": 3
-          },
-          {
-            "title": "Automorphism-Induced Non-Canonicity in Top-k Explanations of Graph Neural Networks",
-            "summary": "A gradient-based GNN explainer given a molecule with two chemically equivalent nitro groups assigns them attribution scores that are equal to the last bit. It cannot do otherwise: message passing is exactly permutation equivariant, so any automorphism of the input leaves every attribution invariant.",
-            "published": "2026-07-28",
-            "url": "http://arxiv.org/abs/2607.26344v1",
-            "seed_match_score": 3
-          }
-        ]
-      },
       {
         "timestamp": "2026-07-31T13:25:35.959646",
         "papers_found": 5,
@@ -7641,6 +7610,37 @@
         "avg_relevance": 0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-09-30T07:36:19.039606",
+        "papers_found": 8,
+        "duplicates": 0,
+        "irrelevant_filtered": 2,
+        "avg_relevance": 1.62,
+        "high_relevance": 4,
+        "papers": [
+          {
+            "title": "Dagger: Decoupling-based Model Stealing Attack against Graph Neural Networks",
+            "summary": "As Graph Neural Networks (GNNs) are widely deployed as Machine Learning-as-a-Service (MLaaS) APIs, model stealing attacks have emerged as a critical security threat. By querying a victim model's black-box API, an adversary can construct a functionally equivalent surrogate model, compromising proprie",
+            "published": "2026-09-29",
+            "url": "http://arxiv.org/abs/2609.37972v1",
+            "seed_match_score": 2
+          },
+          {
+            "title": "Spatiotemporal Hyperedges for EEG Seizure Detection and Prediction",
+            "summary": "Seizure detection and prediction from EEG are clinically important but challenging because seizures are rare, temporally localized, and propagate as coordinated events across multiple channels. Recent dynamic graph neural networks model this by running a temporal model over a sequence of per-time-st",
+            "published": "2026-09-29",
+            "url": "http://arxiv.org/abs/2609.37730v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Where Privacy Belongs: Placement Diagnosis and Certified Selection for Private Counterfactual Explanations on Graphs",
+            "summary": "Counterfactual explanations for graph neural networks (GNNs) find the minimal intervention that flips a node's prediction--but computing one requires reading sensitive graph structure, and releasing it discloses that structure. Both existing placements fail. Privatizing the graph before explaining c",
+            "published": "2026-09-29",
+            "url": "http://arxiv.org/abs/2609.37667v1",
+            "seed_match_score": 2
+          }
+        ]
       }
     ],
     "keywords": [
@@ -7652,6 +7652,6 @@
       "node embedding",
       "graph transformer"
     ],
-    "last_watered": "2026-09-27T19:22:09.206035"
+    "last_watered": "2026-09-30T07:36:19.039600"
   }
 }
