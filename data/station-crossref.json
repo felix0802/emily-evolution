@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-01T07:55:14.722843",
+  "timestamp": "2026-10-01T14:53:09.745220",
   "connections": [
     {
       "seed_a": "Mamba (SSM)",
@@ -9,12 +9,30 @@
         "state space"
       ],
       "shared_paper_concepts": [
+        "long",
+        "model",
+        "modeling",
         "models",
+        "sequence",
         "space",
         "state"
       ],
-      "strength": 7,
-      "discovered_at": "2026-10-01T07:55:14.722706"
+      "strength": 11,
+      "discovered_at": "2026-10-01T14:53:09.745080"
+    },
+    {
+      "seed_a": "Spiking Neural Networks",
+      "seed_b": "Non-Transformer Arch",
+      "shared_keywords": [],
+      "shared_paper_concepts": [
+        "dynamics",
+        "model",
+        "modeling",
+        "native",
+        "sequence"
+      ],
+      "strength": 5,
+      "discovered_at": "2026-10-01T14:53:09.745135"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -26,7 +44,7 @@
         "time"
       ],
       "strength": 3,
-      "discovered_at": "2026-10-01T07:55:14.722690"
+      "discovered_at": "2026-10-01T14:53:09.745063"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -38,7 +56,7 @@
         "sequence"
       ],
       "strength": 3,
-      "discovered_at": "2026-10-01T07:55:14.722703"
+      "discovered_at": "2026-10-01T14:53:09.745076"
     },
     {
       "seed_a": "Liquid Networks",
@@ -50,7 +68,7 @@
         "time"
       ],
       "strength": 3,
-      "discovered_at": "2026-10-01T07:55:14.722719"
+      "discovered_at": "2026-10-01T14:53:09.745093"
     },
     {
       "seed_a": "HTM",
@@ -62,7 +80,7 @@
         "spiking"
       ],
       "strength": 3,
-      "discovered_at": "2026-10-01T07:55:14.722742"
+      "discovered_at": "2026-10-01T14:53:09.745115"
     },
     {
       "seed_a": "HTM",
@@ -74,7 +92,7 @@
         "neural"
       ],
       "strength": 3,
-      "discovered_at": "2026-10-01T07:55:14.722758"
+      "discovered_at": "2026-10-01T14:53:09.745131"
     },
     {
       "seed_a": "Spiking Neural Networks",
@@ -86,40 +104,31 @@
         "neural"
       ],
       "strength": 3,
-      "discovered_at": "2026-10-01T07:55:14.722772"
+      "discovered_at": "2026-10-01T14:53:09.745146"
     },
     {
-      "seed_a": "Mamba (SSM)",
-      "seed_b": "HTM",
+      "seed_a": "Non-Transformer Arch",
+      "seed_b": "Continual Learning",
       "shared_keywords": [],
       "shared_paper_concepts": [
-        "series",
-        "time"
+        "dynamics",
+        "policy",
+        "space"
       ],
-      "strength": 2,
-      "discovered_at": "2026-10-01T07:55:14.722699"
+      "strength": 3,
+      "discovered_at": "2026-10-01T14:53:09.745150"
     },
     {
-      "seed_a": "Liquid Networks",
-      "seed_b": "Spiking Neural Networks",
+      "seed_a": "Non-Transformer Arch",
+      "seed_b": "KV Cache Optimization",
       "shared_keywords": [],
       "shared_paper_concepts": [
-        "modeling",
-        "neural"
+        "cache",
+        "context",
+        "memory"
       ],
-      "strength": 2,
-      "discovered_at": "2026-10-01T07:55:14.722722"
-    },
-    {
-      "seed_a": "HTM",
-      "seed_b": "Mixture of Experts",
-      "shared_keywords": [],
-      "shared_paper_concepts": [
-        "fusion",
-        "inference"
-      ],
-      "strength": 2,
-      "discovered_at": "2026-10-01T07:55:14.722752"
+      "strength": 3,
+      "discovered_at": "2026-10-01T14:53:09.745154"
     }
   ],
   "total_seeds": 10

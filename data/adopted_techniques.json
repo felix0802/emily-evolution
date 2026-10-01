@@ -2753,6 +2753,21 @@
         ],
         "decided_at": "2026-09-30T14:20:56.467448"
       }
+    },
+    {
+      "id": "llm-计时捷径移除",
+      "name": "计时捷径移除",
+      "adopted_at": "2026-10-01T14:53:09.723267",
+      "decision": {
+        "tech_id": "llm-计时捷径移除",
+        "tech_name": "计时捷径移除",
+        "action": "adopt",
+        "confidence": 0.9,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-10-01T14:53:09.721292"
+      }
     }
   ],
   "history": [
@@ -3853,6 +3868,12 @@
       "tech_id": "llm-点提示驱动的联合-3d-部件分割",
       "tech_name": "点提示驱动的联合 3D 部件分割",
       "timestamp": "2026-09-30T14:20:56.469454"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-计时捷径移除",
+      "tech_name": "计时捷径移除",
+      "timestamp": "2026-10-01T14:53:09.723273"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 704,
+  "_rotation_idx": 705,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 63,
@@ -2932,18 +2932,9 @@
   },
   "non-transformer": {
     "name": "Non-Transformer Arch",
-    "total_papers_found": 42,
-    "watering_count": 73,
+    "total_papers_found": 45,
+    "watering_count": 74,
     "history": [
-      {
-        "timestamp": "2026-07-30T22:54:28.611210",
-        "papers_found": 0,
-        "duplicates": 4,
-        "irrelevant_filtered": 6,
-        "avg_relevance": 0.0,
-        "high_relevance": 0,
-        "papers": []
-      },
       {
         "timestamp": "2026-07-31T22:48:03.603308",
         "papers_found": 0,
@@ -3604,6 +3595,37 @@
             "seed_match_score": 1
           }
         ]
+      },
+      {
+        "timestamp": "2026-10-01T14:53:04.957691",
+        "papers_found": 3,
+        "duplicates": 3,
+        "irrelevant_filtered": 4,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "Linear Recurrent Memory Suffices to Distil a World-Model Policy for Robot Air Hockey",
+            "summary": "Does memory-dependent control need nonlinear recurrent dynamics? We study simulated air-hockey defence under temporary loss of puck tracking. A DreamerV3 teacher outperforms a memoryless policy under tracking loss, while resetting the teacher's recurrent state sharply reduces performance, which demo",
+            "published": "2026-09-30",
+            "url": "http://arxiv.org/abs/2609.39151v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Switching Linear Attention",
+            "summary": "Designing expressive sequence layers with efficient inference remains a central challenge in modern machine learning. Standard softmax attention achieves excellent sequence modeling performance through rich nonlinear token interactions, but it requires a key-value cache that grows linearly with sequ",
+            "published": "2026-09-30",
+            "url": "http://arxiv.org/abs/2609.39034v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Triadic Linear Attention: Three-Dimensional Recurrent States for Long-Context Sequence Modeling",
+            "summary": "Recurrent neural networks (RNNs) compress the historical context into a memory state of fixed size, thus allowing for constant-time inference. The memory state size is a crucial factor in their performance, as exemplified by the strong performance and resurgence of linear attention, which extends th",
+            "published": "2026-09-29",
+            "url": "http://arxiv.org/abs/2609.36529v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -3616,7 +3638,7 @@
       "sub-quadratic",
       "mamba"
     ],
-    "last_watered": "2026-09-29T00:05:35.011111"
+    "last_watered": "2026-10-01T14:53:04.957685"
   },
   "few-shot": {
     "name": "Few-Shot Learning",
