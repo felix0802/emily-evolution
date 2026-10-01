@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 702,
+  "_rotation_idx": 703,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 63,
@@ -1377,40 +1377,9 @@
   },
   "htm": {
     "name": "HTM",
-    "total_papers_found": 110,
-    "watering_count": 73,
+    "total_papers_found": 115,
+    "watering_count": 74,
     "history": [
-      {
-        "timestamp": "2026-07-30T19:06:06.502431",
-        "papers_found": 3,
-        "duplicates": 2,
-        "irrelevant_filtered": 5,
-        "avg_relevance": 1.0,
-        "high_relevance": 0,
-        "papers": [
-          {
-            "title": "Early Failure Prediction from Near-Anomaly Detection: A Proactive Approach",
-            "summary": "Anomaly detection methods often have uncertain behavior with respect to samples near the distribution boundary, limiting their ability to anticipate future anomalies. This work introduces the concept of near-anomalies that, while not yet anomalous, lie close to the boundary and are likely to transit",
-            "published": "2026-07-29",
-            "url": "http://arxiv.org/abs/2607.26704v1",
-            "seed_match_score": 1
-          },
-          {
-            "title": "Self-Adaptive Learning and Model Predictive Control for Tracking Unknown Dynamics with No Regret",
-            "summary": "We propose a self-adaptive online learning for control method for tracking unknown target dynamics. The target dynamics can exhibit switching behavior, particularly, a mixture of structured, random, and/or adversarial motion. Such challenging target tracking scenarios arise in applications of dynami",
-            "published": "2026-07-29",
-            "url": "http://arxiv.org/abs/2607.26370v1",
-            "seed_match_score": 1
-          },
-          {
-            "title": "(EC)2: Event-Centric Explainability for Cybersecurity Through Multi-Agent LLM Investigations",
-            "summary": "Security operations centers rely on anomaly detection systems to flag suspicious events. Feature-level explanations for anomaly detectors offer limited value for operational investigations. To effectively handle alerts, analysts need to know contextual relationships and need actionable understanding",
-            "published": "2026-07-28",
-            "url": "http://arxiv.org/abs/2607.26201v1",
-            "seed_match_score": 1
-          }
-        ]
-      },
       {
         "timestamp": "2026-07-31T19:03:41.455515",
         "papers_found": 2,
@@ -2288,6 +2257,37 @@
         "avg_relevance": 0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-10-01T00:53:14.832218",
+        "papers_found": 5,
+        "duplicates": 0,
+        "irrelevant_filtered": 5,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "No Scale Left Behind: Multi-Scale Autoencoder with Bi-directional Attention for Time Series Anomaly Detection",
+            "summary": "Time series anomaly detection (TSAD) plays a crucial role in healthcare, finance, industrial monitoring, and other sectors. Within and between these settings, anomalies span vastly different temporal scales, from sub-second point spikes to multi-hour drift patterns. However, most existing TSAD metho",
+            "published": "2026-09-29",
+            "url": "http://arxiv.org/abs/2609.38004v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Post-Anomaly Detection Inference for Deep SVDD",
+            "summary": "Deep Support Vector Data Description (Deep SVDD) has become a prominent framework for unsupervised anomaly detection by learning latent representations that compactly characterize normal data around a center. Despite its empirical success, anomaly decisions produced by Deep SVDD are typically made s",
+            "published": "2026-09-29",
+            "url": "http://arxiv.org/abs/2609.37935v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Multi-Depth Temporal Fusion for Feedforward, Locally Trained Spiking Neural Networks",
+            "summary": "We propose a new spiking neural network (SNN) design to process static images and event streams using time-to-first-spike (TTFS) latencies. Our key research question is which architectural choices best accommodate local and online learning in multi-layer convolutional SNNs. This question is addresse",
+            "published": "2026-09-29",
+            "url": "http://arxiv.org/abs/2609.37047v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -2302,7 +2302,7 @@
       "anomaly detection",
       "continuous learning"
     ],
-    "last_watered": "2026-09-28T10:15:18.467543"
+    "last_watered": "2026-10-01T00:53:14.832213"
   },
   "spiking-nn": {
     "name": "Spiking Neural Networks",
