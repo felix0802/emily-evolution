@@ -45484,7 +45484,163 @@
         "triadic"
       ],
       "first_seen_round": 338
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.40127v1",
+      "title": "Learning Functional Subspaces for Neural Network Compression",
+      "arxiv_id": "2609.40127",
+      "tokens": [
+        "compression",
+        "functional",
+        "neural",
+        "subspaces"
+      ],
+      "first_seen_round": 339
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.40118v1",
+      "title": "Persistent Context Graphs for Efficient Memory Compaction in LLM Agents",
+      "arxiv_id": "2609.40118",
+      "tokens": [
+        "agents",
+        "compaction",
+        "context",
+        "graphs",
+        "llm",
+        "memory",
+        "persistent"
+      ],
+      "first_seen_round": 339
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.38261v1",
+      "title": "NinaXander: Feasibility and Limits of Composing Frozen Language Models Across Architecture Families via a Shared Latent Space",
+      "arxiv_id": "2609.38261",
+      "tokens": [
+        "architecture",
+        "composing",
+        "families",
+        "feasibility",
+        "frozen",
+        "language",
+        "latent",
+        "limits",
+        "ninaxander",
+        "shared",
+        "space"
+      ],
+      "first_seen_round": 339
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.36760v2",
+      "title": "QuantMLA: Function-Aligned Dual-Path Quantization for Low-Bit MLA KV Caching",
+      "arxiv_id": "2609.36760",
+      "tokens": [
+        "aligned",
+        "bit",
+        "caching",
+        "dual",
+        "function",
+        "low",
+        "mla",
+        "path",
+        "quantization",
+        "quantmla"
+      ],
+      "first_seen_round": 339
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.36722v1",
+      "title": "ATTUNER: Recomputation-Free KV Cache Reuse via Query-Side Adaptation",
+      "arxiv_id": "2609.36722",
+      "tokens": [
+        "adaptation",
+        "attuner",
+        "cache",
+        "free",
+        "query",
+        "recomputation",
+        "reuse",
+        "side"
+      ],
+      "first_seen_round": 339
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.39972v1",
+      "title": "UBTree: Parallel Tree Drafting via Unigram and Bigram Models for Speculative Decoding",
+      "arxiv_id": "2609.39972",
+      "tokens": [
+        "bigram",
+        "decoding",
+        "drafting",
+        "parallel",
+        "speculative",
+        "tree",
+        "ubtree",
+        "unigram"
+      ],
+      "first_seen_round": 339
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.39549v1",
+      "title": "Speculative Safety Honeypot: Toward Proactive Defense Against Multi-turn Agent Attacks",
+      "arxiv_id": "2609.39549",
+      "tokens": [
+        "against",
+        "agent",
+        "attacks",
+        "defense",
+        "honeypot",
+        "multi",
+        "proactive",
+        "safety",
+        "speculative",
+        "turn"
+      ],
+      "first_seen_round": 339
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.38795v1",
+      "title": "Recovering Off-Policy Supervision for Speculative Decoding",
+      "arxiv_id": "2609.38795",
+      "tokens": [
+        "decoding",
+        "policy",
+        "recovering",
+        "speculative",
+        "supervision"
+      ],
+      "first_seen_round": 339
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.38510v1",
+      "title": "DEdit: Iterative Draft Editing for Speculative Decoding",
+      "arxiv_id": "2609.38510",
+      "tokens": [
+        "decoding",
+        "dedit",
+        "draft",
+        "editing",
+        "iterative",
+        "speculative"
+      ],
+      "first_seen_round": 339
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.36590v1",
+      "title": "SEED: Self-Speculative Decoding via Implicit Encoder-Decoder",
+      "arxiv_id": "2609.36590",
+      "tokens": [
+        "decoder",
+        "decoding",
+        "encoder",
+        "implicit",
+        "seed",
+        "self",
+        "speculative"
+      ],
+      "first_seen_round": 339
     }
   ],
-  "total_unique": 2842
+  "total_unique": 2852
 }
