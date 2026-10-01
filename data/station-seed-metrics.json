@@ -1,16 +1,15 @@
 {
   "spiking-nn": {
     "name": "Spiking Neural Networks",
-    "total_new_papers": 35,
-    "total_watering": 62,
+    "total_new_papers": 42,
+    "total_watering": 63,
     "all_keywords_matched": [
-      "snn",
       "spiking",
+      "spike-timing",
       "neuromorphic",
-      "spike-timing"
+      "snn"
     ],
     "avg_relevance_trend": [
-      0.0,
       0.0,
       0.0,
       2.0,
@@ -29,9 +28,10 @@
       0.0,
       3.0,
       2.0,
-      2.5
+      2.5,
+      2.0
     ],
-    "high_relevance_total": 28,
+    "high_relevance_total": 34,
     "best_papers": [
       {
         "title": "Unified Complex-valued Neural Network: A Magnitude-Phase Computational Model for Event-Driven Neurom",
@@ -77,9 +77,14 @@
         "title": "A Memristive Synapse for Online STDP Learning and Inference in SNNs",
         "score": 3,
         "published": "2026-09-14"
+      },
+      {
+        "title": "Simulating Synchrony Loop Networks in the Open Source RISP Neuroprocessor",
+        "score": 3,
+        "published": "2026-09-29"
       }
     ],
-    "last_updated": "2026-09-15T22:30:29.700316"
+    "last_updated": "2026-10-01T07:55:09.449647"
   },
   "few-shot": {
     "name": "Few-Shot Learning",

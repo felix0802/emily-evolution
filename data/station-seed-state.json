@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 703,
+  "_rotation_idx": 704,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 63,
@@ -2306,26 +2306,9 @@
   },
   "spiking-nn": {
     "name": "Spiking Neural Networks",
-    "total_papers_found": 35,
-    "watering_count": 72,
+    "total_papers_found": 42,
+    "watering_count": 73,
     "history": [
-      {
-        "timestamp": "2026-07-30T20:53:16.105931",
-        "papers_found": 1,
-        "duplicates": 8,
-        "irrelevant_filtered": 1,
-        "avg_relevance": 2.0,
-        "high_relevance": 1,
-        "papers": [
-          {
-            "title": "The Sparsity Ceiling: Where Spiking Networks Can and Cannot Trade Activity for Energy",
-            "summary": "Spiking neural networks (SNNs) are promoted as an energy-efficient substrate because sparse, event-driven activity replaces dense multiply-accumulates with cheap accumulates. We argue the energy dividend of sparsity is not a property of SNNs but of the task. Holding architecture fixed and swapping o",
-            "published": "2026-07-29",
-            "url": "http://arxiv.org/abs/2607.26648v1",
-            "seed_match_score": 2
-          }
-        ]
-      },
       {
         "timestamp": "2026-07-31T20:50:31.900694",
         "papers_found": 0,
@@ -2906,6 +2889,37 @@
         "avg_relevance": 0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-10-01T07:55:09.450416",
+        "papers_found": 7,
+        "duplicates": 3,
+        "irrelevant_filtered": 0,
+        "avg_relevance": 2.0,
+        "high_relevance": 6,
+        "papers": [
+          {
+            "title": "Large Language Model-Guided Evolutionary Discovery of Native Neural Architectures for Spiking Sequence Modeling",
+            "summary": "Spiking neural networks (SNNs) offer low-energy sequence modeling through sparse, event-driven computation. However, interactions among spike encoding, neuronal dynamics, and information propagation complicate architecture design. Existing SNN sequence models often adapt artificial neural network (A",
+            "published": "2026-09-30",
+            "url": "http://arxiv.org/abs/2609.40258v1",
+            "seed_match_score": 2
+          },
+          {
+            "title": "Simulating Synchrony Loop Networks in the Open Source RISP Neuroprocessor",
+            "summary": "Neuromorphic spiking neural networks (SNNs) offer a promising alternative to conventional deep neural networks for tasks with computational resource or data constraints. However, their practical applications have been limited by comparatively weak performance on complex learning tasks. Experimental ",
+            "published": "2026-09-29",
+            "url": "http://arxiv.org/abs/2609.38432v1",
+            "seed_match_score": 3
+          },
+          {
+            "title": "A Spiking Neural Network Model of Elementary Self-Consciousness via Endogenous Default Mode Network Dynamics",
+            "summary": "Understanding the neurobiological mechanisms underlying self-referential cognition and baseline self-consciousness remains a fundamental challenge in computational neuroscience. In this work, we propose a large-scale computational model incorporating a 10,000-neuron spiking neural network (SNN) base",
+            "published": "2026-09-24",
+            "url": "http://arxiv.org/abs/2609.29984v2",
+            "seed_match_score": 2
+          }
+        ]
       }
     ],
     "keywords": [
@@ -2914,7 +2928,7 @@
       "neuromorphic",
       "spike-timing"
     ],
-    "last_watered": "2026-09-28T18:51:17.685633"
+    "last_watered": "2026-10-01T07:55:09.450409"
   },
   "non-transformer": {
     "name": "Non-Transformer Arch",
