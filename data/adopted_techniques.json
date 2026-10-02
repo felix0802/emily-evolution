@@ -2768,6 +2768,36 @@
         ],
         "decided_at": "2026-10-01T14:53:09.721292"
       }
+    },
+    {
+      "id": "llm-权重空间补偿",
+      "name": "权重空间补偿",
+      "adopted_at": "2026-10-02T07:38:47.222246",
+      "decision": {
+        "tech_id": "llm-权重空间补偿",
+        "tech_name": "权重空间补偿",
+        "action": "adopt",
+        "confidence": 0.9,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-10-02T07:38:47.220193"
+      }
+    },
+    {
+      "id": "llm-分阶段蒸馏",
+      "name": "分阶段蒸馏",
+      "adopted_at": "2026-10-02T07:38:47.222268",
+      "decision": {
+        "tech_id": "llm-分阶段蒸馏",
+        "tech_name": "分阶段蒸馏",
+        "action": "adopt",
+        "confidence": 0.85,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-10-02T07:38:47.220382"
+      }
     }
   ],
   "history": [
@@ -3874,6 +3904,18 @@
       "tech_id": "llm-计时捷径移除",
       "tech_name": "计时捷径移除",
       "timestamp": "2026-10-01T14:53:09.723273"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-权重空间补偿",
+      "tech_name": "权重空间补偿",
+      "timestamp": "2026-10-02T07:38:47.222252"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-分阶段蒸馏",
+      "tech_name": "分阶段蒸馏",
+      "timestamp": "2026-10-02T07:38:47.222270"
     }
   ]
 }

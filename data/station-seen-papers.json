@@ -45713,7 +45713,168 @@
         "proof"
       ],
       "first_seen_round": 339
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.39329v1",
+      "title": "PatchKV: Weight-Space Compensation of KV Cache",
+      "arxiv_id": "2609.39329",
+      "tokens": [
+        "cache",
+        "compensation",
+        "patchkv",
+        "space",
+        "weight"
+      ],
+      "first_seen_round": 340
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.38473v1",
+      "title": "Re-ranking and Late Interaction Drive Retrieval Quality: A Controlled Comparison of RAG Strategies for Scientific Question Answering",
+      "arxiv_id": "2609.38473",
+      "tokens": [
+        "answering",
+        "comparison",
+        "controlled",
+        "drive",
+        "interaction",
+        "late",
+        "quality",
+        "question",
+        "rag",
+        "ranking",
+        "retrieval",
+        "scientific",
+        "strategies"
+      ],
+      "first_seen_round": 340
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.01649v1",
+      "title": "CrossGMN: Graph Metanetworks for Cross-Architecture Weight-Space Transformations",
+      "arxiv_id": "2610.01649",
+      "tokens": [
+        "architecture",
+        "cross",
+        "crossgmn",
+        "graph",
+        "metanetworks",
+        "space",
+        "transformations",
+        "weight"
+      ],
+      "first_seen_round": 340
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.01435v1",
+      "title": "Distillation of Tabular Foundation Models into Efficient Predictors",
+      "arxiv_id": "2610.01435",
+      "tokens": [
+        "distillation",
+        "foundation",
+        "predictors",
+        "tabular"
+      ],
+      "first_seen_round": 340
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.00997v1",
+      "title": "Distilling Directional Verification",
+      "arxiv_id": "2610.00997",
+      "tokens": [
+        "directional",
+        "distilling",
+        "verification"
+      ],
+      "first_seen_round": 340
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.00895v1",
+      "title": "Towards Fast and Disentangled Counterfactuals for Visual Foundation Models",
+      "arxiv_id": "2610.00895",
+      "tokens": [
+        "counterfactuals",
+        "disentangled",
+        "fast",
+        "foundation",
+        "visual"
+      ],
+      "first_seen_round": 340
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.39338v1",
+      "title": "Learning Beyond Full Imitation: Task-Preserving Knowledge Distillation",
+      "arxiv_id": "2609.39338",
+      "tokens": [
+        "distillation",
+        "full",
+        "imitation",
+        "knowledge",
+        "preserving",
+        "task"
+      ],
+      "first_seen_round": 340
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.38987v1",
+      "title": "Smaller Models, Better Rejects: Preference Distillation Scaling",
+      "arxiv_id": "2609.38987",
+      "tokens": [
+        "better",
+        "distillation",
+        "preference",
+        "rejects",
+        "scaling",
+        "smaller"
+      ],
+      "first_seen_round": 340
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.01921v1",
+      "title": "Cross-Lingual Alignment for Decoder-Only Models using MoE Routers",
+      "arxiv_id": "2610.01921",
+      "tokens": [
+        "alignment",
+        "cross",
+        "decoder",
+        "lingual",
+        "moe",
+        "routers"
+      ],
+      "first_seen_round": 340
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.01153v1",
+      "title": "Looping Beyond Twice: A Scalable Recipe for Looped Mixture-of-Experts",
+      "arxiv_id": "2610.01153",
+      "tokens": [
+        "experts",
+        "looped",
+        "looping",
+        "mixture",
+        "recipe",
+        "scalable",
+        "twice"
+      ],
+      "first_seen_round": 340
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.00558v1",
+      "title": "Redundancy Meets Synergy: Dependency-aware Expert Selection for MoE via Submodular Optimization",
+      "arxiv_id": "2610.00558",
+      "tokens": [
+        "aware",
+        "dependency",
+        "expert",
+        "meets",
+        "moe",
+        "optimization",
+        "redundancy",
+        "selection",
+        "submodular",
+        "synergy"
+      ],
+      "first_seen_round": 340
     }
   ],
-  "total_unique": 2857
+  "total_unique": 2868
 }

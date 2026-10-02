@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 707,
+  "_rotation_idx": 708,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 63,
@@ -4992,33 +4992,9 @@
   },
   "moe": {
     "name": "Mixture of Experts",
-    "total_papers_found": 95,
-    "watering_count": 67,
+    "total_papers_found": 98,
+    "watering_count": 68,
     "history": [
-      {
-        "timestamp": "2026-07-31T08:28:46.281926",
-        "papers_found": 2,
-        "duplicates": 4,
-        "irrelevant_filtered": 4,
-        "avg_relevance": 2.0,
-        "high_relevance": 2,
-        "papers": [
-          {
-            "title": "Beyond Geometric Complementarity: Coherent Overlap in Sparse Mixture-of-Experts Routing",
-            "summary": "Sparse mixture-of-experts (MoE) language models route each token to multiple experts, suggesting a geometric account of their benefit: co-selected experts should contribute distinct representation directions. Existing evidence often conflates route coherence, candidate quality, and candidate-by-cont",
-            "published": "2026-07-30",
-            "url": "http://arxiv.org/abs/2607.28308v1",
-            "seed_match_score": 2
-          },
-          {
-            "title": "TIER-MoE: Trust-Informed Expert Routing via Conditional Modality Risk for Multimodal Fusion in Biomedical Classification",
-            "summary": "The promise of multimodal fusion lies in combining complementary sources of evidence, yet more evidence does not always yield a better prediction. Recent multimodal models have advanced fusion through richer cross-modal interaction and sample-adaptive fusion. However, the influence assigned to a mod",
-            "published": "2026-07-29",
-            "url": "http://arxiv.org/abs/2607.27289v1",
-            "seed_match_score": 2
-          }
-        ]
-      },
       {
         "timestamp": "2026-08-01T07:58:25.287123",
         "papers_found": 0,
@@ -5870,6 +5846,37 @@
             "seed_match_score": 3
           }
         ]
+      },
+      {
+        "timestamp": "2026-10-02T07:38:42.163008",
+        "papers_found": 3,
+        "duplicates": 5,
+        "irrelevant_filtered": 2,
+        "avg_relevance": 2.0,
+        "high_relevance": 3,
+        "papers": [
+          {
+            "title": "Cross-Lingual Alignment for Decoder-Only Models using MoE Routers",
+            "summary": "Cross-lingual contrastive learning has been a core component of multilingual encoder training, but the ability to explicitly align representations is not possible in decoder-only LLMs because of varying multilingual tokenization. However, a growing amount of research suggests that even in LLMs, high",
+            "published": "2026-10-01",
+            "url": "http://arxiv.org/abs/2610.01921v1",
+            "seed_match_score": 2
+          },
+          {
+            "title": "Looping Beyond Twice: A Scalable Recipe for Looped Mixture-of-Experts",
+            "summary": "Looped Transformers introduce recurrent depth as a new scaling axis for LLMs: by repeatedly applying shared Transformer blocks, they increase effective depth without increasing parameter count. However, the benefits of looping remain unclear for large MoE LLMs under FLOPs-matched comparisons. The ma",
+            "published": "2026-10-01",
+            "url": "http://arxiv.org/abs/2610.01153v1",
+            "seed_match_score": 2
+          },
+          {
+            "title": "Redundancy Meets Synergy: Dependency-aware Expert Selection for MoE via Submodular Optimization",
+            "summary": "While Mixture-of-Experts (MoE) models effectively scale model capacity through sparse activation, their deployment is often bottlenecked by prohibitive memory requirements. Extracting a compact subset of experts presents a promising solution. However, existing expert selection heuristics predominant",
+            "published": "2026-09-30",
+            "url": "http://arxiv.org/abs/2610.00558v1",
+            "seed_match_score": 2
+          }
+        ]
       }
     ],
     "keywords": [
@@ -5881,7 +5888,7 @@
       "switch transformer",
       "deepseek"
     ],
-    "last_watered": "2026-09-29T20:18:22.207826"
+    "last_watered": "2026-10-02T07:38:42.163002"
   },
   "kv-cache": {
     "name": "KV Cache Optimization",

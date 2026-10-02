@@ -564,13 +564,13 @@
       "arxiv_query": "Mamba state space model spiking neural network sequence",
       "potential_breakthrough": "A new class of energy-efficient, linear-complexity sequence models that combine the long-range modeling power of Mamba with the sparse, event-driven nature of spiking neurons, enabling real-time inference on neuromorphic hardware.",
       "status": "unverified",
-      "verification_rounds": 0,
+      "verification_rounds": 1,
       "supporting_papers": [],
       "refuting_papers": [],
       "llm_source": "deepseek"
     }
   ],
-  "last_updated": "2026-10-02T01:14:09.271059",
+  "last_updated": "2026-10-02T07:38:52.778770",
   "total_generated": 25,
   "total_verified": 23
 }
