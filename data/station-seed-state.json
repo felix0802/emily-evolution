@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 706,
+  "_rotation_idx": 707,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 63,
@@ -4221,32 +4221,8 @@
   "continual-learning": {
     "name": "Continual Learning",
     "total_papers_found": 84,
-    "watering_count": 71,
+    "watering_count": 72,
     "history": [
-      {
-        "timestamp": "2026-07-31T05:22:04.260445",
-        "papers_found": 2,
-        "duplicates": 2,
-        "irrelevant_filtered": 6,
-        "avg_relevance": 1.0,
-        "high_relevance": 0,
-        "papers": [
-          {
-            "title": "FedOGL: Combating Catastrophic Forgetting in Federated Open-World Multimodal Graph Learning",
-            "summary": "Federated graph learning enables collaborative training over decentralized graph data without sharing raw graph information. As such risks evolve, clients must learn emerging classes from private multimodal graph streams, retain historical categories, and reject samples outside the known class space",
-            "published": "2026-07-30",
-            "url": "http://arxiv.org/abs/2607.27665v1",
-            "seed_match_score": 1
-          },
-          {
-            "title": "Regularizing modality contribution drift in multimodal continual learning",
-            "summary": "Multimodal continual learning (MMCL) aims to learn emerging knowledge from multimodal data while preserving knowledge. To mitigate forgetting, current MMCL methods usually focus on cross-modal representation alignment or semantic similarity, but they overlook whether the relative contributions of in",
-            "published": "2026-07-29",
-            "url": "http://arxiv.org/abs/2607.27260v1",
-            "seed_match_score": 1
-          }
-        ]
-      },
       {
         "timestamp": "2026-08-01T05:16:53.238007",
         "papers_found": 0,
@@ -4994,6 +4970,15 @@
             "seed_match_score": 1
           }
         ]
+      },
+      {
+        "timestamp": "2026-10-02T01:13:14.755780",
+        "papers_found": 0,
+        "duplicates": 0,
+        "irrelevant_filtered": 0,
+        "avg_relevance": 0,
+        "high_relevance": 0,
+        "papers": []
       }
     ],
     "keywords": [
@@ -5003,7 +4988,7 @@
       "ewc",
       "elastic weight"
     ],
-    "last_watered": "2026-09-29T14:24:47.957879"
+    "last_watered": "2026-10-02T01:13:14.755773"
   },
   "moe": {
     "name": "Mixture of Experts",

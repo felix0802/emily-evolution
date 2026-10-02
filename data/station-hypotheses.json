@@ -534,9 +534,43 @@
       "supporting_papers": [],
       "refuting_papers": [],
       "llm_source": "deepseek"
+    },
+    {
+      "id": "hyp-0024",
+      "timestamp": "2026-10-02T01:13:21.207683",
+      "seed_a": "Spiking Neural Networks",
+      "seed_b": "Non-Transformer Arch",
+      "crossref_strength": 5,
+      "shared_keywords": [],
+      "hypothesis": "By integrating channel-dependent state space dynamics (from Mamba-style SSMs) into spiking neural networks, we can achieve native, event-driven sequence modeling that matches Transformer performance on long multivariate time series while reducing energy consumption by an order of magnitude.",
+      "reasoning": "Both SNNs and non-Transformer architectures (e.g., SSMs, liquid networks) aim to model temporal dynamics efficiently without attention. SSMs provide a mathematically grounded continuous-time state transition, while SNNs offer sparse, event-based computation; their combination yields a hybrid where state transitions are computed only when spikes occur, preserving temporal resolution and energy efficiency.",
+      "arxiv_query": "spiking neural networks state space models sequence modeling",
+      "potential_breakthrough": "A new class of energy-efficient, event-driven sequence models that outperform Transformers on long-horizon tasks by leveraging continuous-time dynamics and sparse spiking computation.",
+      "status": "unverified",
+      "verification_rounds": 1,
+      "supporting_papers": [],
+      "refuting_papers": [],
+      "llm_source": "deepseek"
+    },
+    {
+      "id": "hyp-0025",
+      "timestamp": "2026-10-02T01:13:23.114656",
+      "seed_a": "Mamba (SSM)",
+      "seed_b": "Spiking Neural Networks",
+      "crossref_strength": 3,
+      "shared_keywords": [],
+      "hypothesis": "By integrating Mamba's selective state space dynamics with spiking neural networks' event-driven temporal coding, we can achieve linear-time sequence modeling with sparse, energy-efficient spike-based computation that matches or exceeds Transformer performance on long-range tasks.",
+      "reasoning": "Both Mamba and SNNs model sequences through state transitions: Mamba uses continuous-time state space equations with input-dependent gating, while SNNs use discrete spike events to update membrane potentials. The shared mathematical foundation lies in dynamical systems where the state evolves based on input and previous state, allowing a unified framework where Mamba's selective scan can be implemented with spiking neurons to exploit temporal sparsity and event-driven parallelism.",
+      "arxiv_query": "Mamba state space model spiking neural network sequence",
+      "potential_breakthrough": "A new class of energy-efficient, linear-complexity sequence models that combine the long-range modeling power of Mamba with the sparse, event-driven nature of spiking neurons, enabling real-time inference on neuromorphic hardware.",
+      "status": "unverified",
+      "verification_rounds": 0,
+      "supporting_papers": [],
+      "refuting_papers": [],
+      "llm_source": "deepseek"
     }
   ],
-  "last_updated": "2026-09-17T14:30:55.752121",
-  "total_generated": 23,
+  "last_updated": "2026-10-02T01:14:09.271059",
+  "total_generated": 25,
   "total_verified": 23
 }
