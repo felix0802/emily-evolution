@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 709,
+  "_rotation_idx": 710,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 63,
@@ -6753,40 +6753,9 @@
   },
   "gnn": {
     "name": "Graph Neural Networks",
-    "total_papers_found": 139,
-    "watering_count": 69,
+    "total_papers_found": 145,
+    "watering_count": 70,
     "history": [
-      {
-        "timestamp": "2026-07-31T13:25:35.959646",
-        "papers_found": 5,
-        "duplicates": 0,
-        "irrelevant_filtered": 5,
-        "avg_relevance": 1.6,
-        "high_relevance": 2,
-        "papers": [
-          {
-            "title": "Graph Neural Network Force Fields for Spin Dynamics in Metallic Magnets",
-            "summary": "Metallic magnets exhibit complex spin dynamics governed by electronically generated interactions. Predictive simulations of such dynamics typically require repeated solutions of an underlying electronic problem throughout the time evolution, creating a major computational bottleneck. Here we introdu",
-            "published": "2026-07-30",
-            "url": "http://arxiv.org/abs/2607.28537v1",
-            "seed_match_score": 1
-          },
-          {
-            "title": "Same Graph Cross-Task Transfer in GNNs: Protocols and Predictors",
-            "summary": "Many real-world graphs support multiple predictive tasks over the same underlying structure, creating an opportunity to reuse supervision across node classification (NC) and link prediction (LP). However, existing evaluations often rely on incompatible splits, observed-graph assumptions, and negativ",
-            "published": "2026-07-30",
-            "url": "http://arxiv.org/abs/2607.28525v1",
-            "seed_match_score": 1
-          },
-          {
-            "title": "Graph Neural Multilevel Preconditioners for Iterative Solvers",
-            "summary": "Solving large, sparse linear systems is a core task in scientific computing, and efficient iterative solvers rely critically on effective and robust preconditioning. While classical methods such as algebraic multigrid (AMG) are highly scalable, their robustness can degrade on indefinite or nonsymmet",
-            "published": "2026-07-30",
-            "url": "http://arxiv.org/abs/2607.28456v1",
-            "seed_match_score": 1
-          }
-        ]
-      },
       {
         "timestamp": "2026-08-01T11:12:00.817824",
         "papers_found": 0,
@@ -7705,6 +7674,37 @@
             "seed_match_score": 2
           }
         ]
+      },
+      {
+        "timestamp": "2026-10-02T20:13:07.643720",
+        "papers_found": 6,
+        "duplicates": 0,
+        "irrelevant_filtered": 4,
+        "avg_relevance": 1.67,
+        "high_relevance": 3,
+        "papers": [
+          {
+            "title": "Effective Resistance and Graph Neural Network Reliability in Tissue-Specific Interactomes",
+            "summary": "Protein function annotation needs to know which predictions to distrust, not only what a model predicts. We ask whether tissue-specific interaction structure carries that information. Our candidate signal is effective resistance, used previously to relieve over-squashing by rewiring. Across 24 tissu",
+            "published": "2026-10-01",
+            "url": "http://arxiv.org/abs/2610.02175v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Higher-Order Positional Encodings for Graph Representation Learning",
+            "summary": "Many real-world systems exhibit higher-order interactions among groups of entities that cannot be captured by pairwise relationships alone. Graph Transformers and Graph Neural Networks increasingly rely on positional encodings to enrich graph representations, yet existing positional encodings are co",
+            "published": "2026-10-01",
+            "url": "http://arxiv.org/abs/2610.01903v1",
+            "seed_match_score": 2
+          },
+          {
+            "title": "Let the Heads Talk: Beyond Diagonal Graph Attention",
+            "summary": "Sheaf Neural Networks generalize scalar-weighted message passing by replacing scalar edge weights with linear transport maps between local feature spaces. Yet the role of this matrix-valued transport is entangled with the broader sheaf-diffusion construction. We isolate the transport primitive throu",
+            "published": "2026-10-01",
+            "url": "http://arxiv.org/abs/2610.01494v1",
+            "seed_match_score": 2
+          }
+        ]
       }
     ],
     "keywords": [
@@ -7716,6 +7716,6 @@
       "node embedding",
       "graph transformer"
     ],
-    "last_watered": "2026-09-30T07:36:19.039600"
+    "last_watered": "2026-10-02T20:13:07.643714"
   }
 }
