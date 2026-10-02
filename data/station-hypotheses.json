@@ -547,7 +547,7 @@
       "arxiv_query": "spiking neural networks state space models sequence modeling",
       "potential_breakthrough": "A new class of energy-efficient, event-driven sequence models that outperform Transformers on long-horizon tasks by leveraging continuous-time dynamics and sparse spiking computation.",
       "status": "unverified",
-      "verification_rounds": 1,
+      "verification_rounds": 2,
       "supporting_papers": [],
       "refuting_papers": [],
       "llm_source": "deepseek"
@@ -570,7 +570,7 @@
       "llm_source": "deepseek"
     }
   ],
-  "last_updated": "2026-10-02T07:38:52.778770",
+  "last_updated": "2026-10-02T14:14:17.972956",
   "total_generated": 25,
   "total_verified": 23
 }

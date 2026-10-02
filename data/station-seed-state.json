@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 708,
+  "_rotation_idx": 709,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 63,
@@ -5892,40 +5892,9 @@
   },
   "kv-cache": {
     "name": "KV Cache Optimization",
-    "total_papers_found": 89,
-    "watering_count": 68,
+    "total_papers_found": 92,
+    "watering_count": 69,
     "history": [
-      {
-        "timestamp": "2026-07-31T11:51:00.588786",
-        "papers_found": 5,
-        "duplicates": 1,
-        "irrelevant_filtered": 4,
-        "avg_relevance": 1.4,
-        "high_relevance": 1,
-        "papers": [
-          {
-            "title": "Stage-Replay Divergence Follows the KV Cache: Fixed-Prefix Precision Controls and Bidirectional Cache Transplantation",
-            "summary": "Stage-replay diagnostics reconstruct intermediate token prefixes and treat fresh-prefill continuation as continuation from the decoder state that originally reached the prefix. We audit that assumption at a whole reasoning-stage boundary in a Qwen2.5-derived system. A matched 200-item experiment com",
-            "published": "2026-07-30",
-            "url": "http://arxiv.org/abs/2607.28495v1",
-            "seed_match_score": 1
-          },
-          {
-            "title": "A Sparse Glimpse of the Whole: Train-Free Self-Speculative Decoding",
-            "summary": "Speculative decoding alleviates the memory-bandwidth bottleneck in large language model inference, but its acceleration is jointly constrained by drafting overhead, token acceptance, and speculation length. We present a unified efficiency analysis showing that extending the speculation horizon can r",
-            "published": "2026-07-30",
-            "url": "http://arxiv.org/abs/2607.27735v1",
-            "seed_match_score": 1
-          },
-          {
-            "title": "Recall Before You Rank: Similarity-Guided Top-$K$ Reuse for Efficient Long-Context Attention",
-            "summary": "Top-$K$ sparse attention reduces the cost of Softmax and value aggregation by attending to only a small subset of key--value (KV) entries. However, identifying this subset still requires scoring the current query against the full KV cache and performing global Top-$K$ selection, leaving selector cos",
-            "published": "2026-07-30",
-            "url": "http://arxiv.org/abs/2607.27692v1",
-            "seed_match_score": 1
-          }
-        ]
-      },
       {
         "timestamp": "2026-08-01T09:54:56.410635",
         "papers_found": 0,
@@ -6738,6 +6707,37 @@
             "seed_match_score": 1
           }
         ]
+      },
+      {
+        "timestamp": "2026-10-02T14:14:09.451449",
+        "papers_found": 3,
+        "duplicates": 2,
+        "irrelevant_filtered": 5,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "AgSpec: Pushing the Limits of Retrieval-Based Speculative Decoding in Coding Agent Pipelines",
+            "summary": "Retrieval-based speculative decoding (SD) drafts tokens by copying continuations from existing text, which suits coding agents that repeatedly reproduce code, logs, and earlier attempts. Yet existing methods fall short in agent pipelines: much of the reusable text is missing from their corpora or st",
+            "published": "2026-10-01",
+            "url": "http://arxiv.org/abs/2610.01108v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "CommunityKV: Efficient Long-Context Decoding via Graph Partitioning",
+            "summary": "Scaling Transformers to long contexts is constrained by the quadratic cost of self-attention and the linear growth of key-value cache memory transfer. Sparse attention mitigates this by retrieving only relevant tokens, but current approaches either require large-scale training or, within the trainin",
+            "published": "2026-09-30",
+            "url": "http://arxiv.org/abs/2610.00418v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "EchoPress: Query-Agnostic KV Cache Pruning via Virtual Context Reconstruction",
+            "summary": "KV cache pruning reduces long-context inference memory usage by evicting less important key-value pairs. KVzip estimates importance through context reconstruction: prompting a model to repeat the context chunk by chunk. This achieves strong compression quality at the cost of additional forward passe",
+            "published": "2026-09-30",
+            "url": "http://arxiv.org/abs/2610.00412v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -6749,7 +6749,7 @@
       "flash attention",
       "speculative decoding"
     ],
-    "last_watered": "2026-09-30T00:49:35.626502"
+    "last_watered": "2026-10-02T14:14:09.451442"
   },
   "gnn": {
     "name": "Graph Neural Networks",
