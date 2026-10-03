@@ -1,42 +1,6 @@
 {
   "sessions": [
     {
-      "timestamp": "2026-09-13T06:57:15.231263",
-      "arxiv_papers_count": 0,
-      "arxiv_top_keywords": [],
-      "arxiv_strategies": [
-        "搜索: kv cache LLM",
-        "搜索: graph neural network recent",
-        "搜索: speculative decoding"
-      ],
-      "huggingface_models": 10,
-      "huggingface_tasks": [
-        "sentence-similarity",
-        "unknown",
-        "fill-mask",
-        "text-ranking",
-        "feature-extraction"
-      ],
-      "ml_datasets": [
-        "Iris",
-        "Wine",
-        "Breast Cancer",
-        "Diabetes"
-      ],
-      "ml_total_tests": 22,
-      "github_trending_repos": 8,
-      "paperswithcode_papers": 8,
-      "evolution": {
-        "discovered": 0,
-        "adopted": 0,
-        "decisions": 0
-      },
-      "seed_watering": {
-        "seed_name": "",
-        "papers_found": 0
-      }
-    },
-    {
       "timestamp": "2026-09-13T12:59:13.110316",
       "arxiv_papers_count": 0,
       "arxiv_top_keywords": [],
@@ -4567,10 +4531,57 @@
         "seed_name": "Graph Neural Networks",
         "papers_found": 6
       }
+    },
+    {
+      "timestamp": "2026-10-03T00:47:46.872862",
+      "arxiv_papers_count": 17,
+      "arxiv_top_keywords": [
+        "learning",
+        "policy",
+        "distillation",
+        "evaluation",
+        "erasure",
+        "concept",
+        "diffusion",
+        "ferpo",
+        "entropy",
+        "critic"
+      ],
+      "arxiv_strategies": [
+        "搜索: reinforcement learning",
+        "搜索: large language model",
+        "搜索: diffusion model"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "unknown",
+        "text-ranking",
+        "feature-extraction",
+        "fill-mask"
+      ],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 24,
+        "adopted": 0,
+        "decisions": 0
+      },
+      "seed_watering": {
+        "seed_name": "Mamba (SSM)",
+        "papers_found": 4
+      }
     }
   ],
   "total_sessions": 101,
-  "last_updated": "2026-10-02T20:13:12.430235",
+  "last_updated": "2026-10-03T00:47:46.872909",
   "evolution_summary": {
     "total_adopted": 186,
     "adopted_list": [
@@ -4764,8 +4775,8 @@
     "seeds": {
       "mamba": {
         "name": "Mamba (SSM)",
-        "watering": 74,
-        "papers": 63
+        "watering": 75,
+        "papers": 67
       },
       "liquid-networks": {
         "name": "Liquid Networks",
@@ -4843,15 +4854,15 @@
       },
       "mamba": {
         "name": "Mamba (SSM)",
-        "new_papers": 58,
+        "new_papers": 62,
         "keywords_matched": [
           "mamba",
           "ssm",
           "state space"
         ],
-        "high_relevance_total": 22,
-        "avg_relevance_latest": 1.67,
-        "best_papers_count": 3
+        "high_relevance_total": 24,
+        "avg_relevance_latest": 1.75,
+        "best_papers_count": 4
       },
       "liquid-networks": {
         "name": "Liquid Networks",
@@ -4956,6 +4967,6 @@
         "best_papers_count": 1
       }
     },
-    "last_evolution": "2026-10-02T20:13:12.432420"
+    "last_evolution": "2026-10-03T00:47:46.875708"
   }
 }

@@ -125,15 +125,14 @@
   },
   "mamba": {
     "name": "Mamba (SSM)",
-    "total_new_papers": 58,
-    "total_watering": 58,
+    "total_new_papers": 62,
+    "total_watering": 59,
     "all_keywords_matched": [
       "mamba",
       "ssm",
       "state space"
     ],
     "avg_relevance_trend": [
-      1.5,
       0.0,
       1.0,
       1.0,
@@ -152,9 +151,10 @@
       0.0,
       1.0,
       1.0,
-      1.67
+      1.67,
+      1.75
     ],
-    "high_relevance_total": 22,
+    "high_relevance_total": 24,
     "best_papers": [
       {
         "title": "Adaptive Mamba Neural Operators",
@@ -170,9 +170,14 @@
         "title": "DAMamba-UNet3D: A Parameter-Efficient Mamba State Space U-Net with Dynamic Adaptive Scan for 3D Medi",
         "score": 3,
         "published": "2026-07-21"
+      },
+      {
+        "title": "Beyond Diagonal State Space Models: Exact Non-Abelian Group Tracking, Solvability Barriers, and Geom",
+        "score": 3,
+        "published": "2026-09-29"
       }
     ],
-    "last_updated": "2026-09-30T14:20:51.342332"
+    "last_updated": "2026-10-03T00:47:41.756638"
   },
   "liquid-networks": {
     "name": "Liquid Networks",

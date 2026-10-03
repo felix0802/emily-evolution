@@ -46355,7 +46355,288 @@
         "power"
       ],
       "first_seen_round": 342
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.02189v1",
+      "title": "Generative modeling of intrinsically disordered protein regions by reinforcing sparse autoencoder features",
+      "arxiv_id": "2610.02189",
+      "tokens": [
+        "autoencoder",
+        "disordered",
+        "features",
+        "generative",
+        "intrinsically",
+        "modeling",
+        "protein",
+        "regions",
+        "reinforcing",
+        "sparse"
+      ],
+      "first_seen_round": 343
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.02159v1",
+      "title": "When Do Intrinsic Rewards Lead to Exploration?",
+      "arxiv_id": "2610.02159",
+      "tokens": [
+        "exploration",
+        "intrinsic",
+        "lead",
+        "rewards"
+      ],
+      "first_seen_round": 343
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.02144v1",
+      "title": "Faynt: Scaling and Optimizing Policies for Competitive Melee",
+      "arxiv_id": "2610.02144",
+      "tokens": [
+        "competitive",
+        "faynt",
+        "melee",
+        "optimizing",
+        "policies",
+        "scaling"
+      ],
+      "first_seen_round": 343
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.02039v1",
+      "title": "CARM: Cancellation-Aware Response Masking for LLM Reinforcement Learning",
+      "arxiv_id": "2610.02039",
+      "tokens": [
+        "aware",
+        "cancellation",
+        "carm",
+        "llm",
+        "masking",
+        "reinforcement",
+        "response"
+      ],
+      "first_seen_round": 343
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.02117v1",
+      "title": "Where-OPD: Spatially Guided On-Policy Self-Distillation of MLLMs with Synthetic Scenes",
+      "arxiv_id": "2610.02117",
+      "tokens": [
+        "distillation",
+        "guided",
+        "mllms",
+        "opd",
+        "policy",
+        "scenes",
+        "self",
+        "spatially",
+        "synthetic"
+      ],
+      "first_seen_round": 343
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.02092v1",
+      "title": "Scalable, Transferable Meta-network for Data Selection Requires a Different Loss (and Why the Obvious Choice is Problematic)",
+      "arxiv_id": "2610.02092",
+      "tokens": [
+        "choice",
+        "different",
+        "loss",
+        "meta",
+        "obvious",
+        "problematic",
+        "requires",
+        "scalable",
+        "selection",
+        "transferable",
+        "why"
+      ],
+      "first_seen_round": 343
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.02022v1",
+      "title": "Old Ideas, Novel Problems: The Instability of LLM-Based Novelty Evaluation",
+      "arxiv_id": "2610.02022",
+      "tokens": [
+        "evaluation",
+        "ideas",
+        "instability",
+        "llm",
+        "novelty",
+        "old",
+        "problems"
+      ],
+      "first_seen_round": 343
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.02002v1",
+      "title": "Mem++: Non-Destructive Memory for Long-Term Organizational LLM Agents",
+      "arxiv_id": "2610.02002",
+      "tokens": [
+        "agents",
+        "destructive",
+        "llm",
+        "long",
+        "mem",
+        "memory",
+        "non",
+        "organizational",
+        "term"
+      ],
+      "first_seen_round": 343
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.02188v1",
+      "title": "DMAD: Distribution Matching as Adversarial Distillation for Fast Visual Generation",
+      "arxiv_id": "2610.02188",
+      "tokens": [
+        "adversarial",
+        "distillation",
+        "distribution",
+        "dmad",
+        "fast",
+        "generation",
+        "matching",
+        "visual"
+      ],
+      "first_seen_round": 343
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.02136v1",
+      "title": "MIRTO: a registration-gated, multiverse-tested evaluation protocol for unsupervised anomaly segmentation in brain MRI",
+      "arxiv_id": "2610.02136",
+      "tokens": [
+        "anomaly",
+        "brain",
+        "evaluation",
+        "gated",
+        "mirto",
+        "mri",
+        "multiverse",
+        "protocol",
+        "registration",
+        "segmentation",
+        "tested",
+        "unsupervised"
+      ],
+      "first_seen_round": 343
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.01989v1",
+      "title": "Continual Concept Erasure in Diffusion Models by Suppressing Cross-Edit Interference",
+      "arxiv_id": "2610.01989",
+      "tokens": [
+        "concept",
+        "continual",
+        "cross",
+        "diffusion",
+        "edit",
+        "erasure",
+        "interference",
+        "suppressing"
+      ],
+      "first_seen_round": 343
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.01969v1",
+      "title": "RASteer: Retain-Aware Activation Steering for Concept Erasure in Diffusion Models",
+      "arxiv_id": "2610.01969",
+      "tokens": [
+        "activation",
+        "aware",
+        "concept",
+        "diffusion",
+        "erasure",
+        "rasteer",
+        "retain",
+        "steering"
+      ],
+      "first_seen_round": 343
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.01759v1",
+      "title": "PhysDEM: Physics-Defined Energy-Matching Diffusion for Spatiotemporal Field Generation under Scarce Measurements",
+      "arxiv_id": "2610.01759",
+      "tokens": [
+        "defined",
+        "diffusion",
+        "energy",
+        "field",
+        "generation",
+        "matching",
+        "measurements",
+        "physdem",
+        "physics",
+        "scarce",
+        "spatiotemporal"
+      ],
+      "first_seen_round": 343
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.01172v1",
+      "title": "Learning Rate Transfer for Hybrid Transformer-SSM Architectures",
+      "arxiv_id": "2610.01172",
+      "tokens": [
+        "architectures",
+        "hybrid",
+        "rate",
+        "ssm",
+        "transfer",
+        "transformer"
+      ],
+      "first_seen_round": 343
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.39484v1",
+      "title": "CAMOS: Coupled Oscillatory State-Space Model for Multimodal Clinical Time-Series",
+      "arxiv_id": "2609.39484",
+      "tokens": [
+        "camos",
+        "clinical",
+        "coupled",
+        "multimodal",
+        "oscillatory",
+        "series",
+        "space",
+        "state",
+        "time"
+      ],
+      "first_seen_round": 343
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.39185v1",
+      "title": "Low-Discrepancy Dither for Quantized Recurrent State Caches",
+      "arxiv_id": "2609.39185",
+      "tokens": [
+        "caches",
+        "discrepancy",
+        "dither",
+        "low",
+        "quantized",
+        "recurrent",
+        "state"
+      ],
+      "first_seen_round": 343
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.00329v1",
+      "title": "Beyond Diagonal State Space Models: Exact Non-Abelian Group Tracking, Solvability Barriers, and Geometric Physical Manifolds",
+      "arxiv_id": "2610.00329",
+      "tokens": [
+        "abelian",
+        "barriers",
+        "diagonal",
+        "exact",
+        "geometric",
+        "group",
+        "manifolds",
+        "non",
+        "physical",
+        "solvability",
+        "space",
+        "state",
+        "tracking"
+      ],
+      "first_seen_round": 343
     }
   ],
-  "total_unique": 2899
+  "total_unique": 2916
 }

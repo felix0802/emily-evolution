@@ -546,8 +546,8 @@
       "reasoning": "Both SNNs and non-Transformer architectures (e.g., SSMs, liquid networks) aim to model temporal dynamics efficiently without attention. SSMs provide a mathematically grounded continuous-time state transition, while SNNs offer sparse, event-based computation; their combination yields a hybrid where state transitions are computed only when spikes occur, preserving temporal resolution and energy efficiency.",
       "arxiv_query": "spiking neural networks state space models sequence modeling",
       "potential_breakthrough": "A new class of energy-efficient, event-driven sequence models that outperform Transformers on long-horizon tasks by leveraging continuous-time dynamics and sparse spiking computation.",
-      "status": "unverified",
-      "verification_rounds": 2,
+      "status": "inconclusive",
+      "verification_rounds": 3,
       "supporting_papers": [],
       "refuting_papers": [],
       "llm_source": "deepseek"
@@ -570,7 +570,7 @@
       "llm_source": "deepseek"
     }
   ],
-  "last_updated": "2026-10-02T20:13:15.343482",
+  "last_updated": "2026-10-03T00:47:49.720300",
   "total_generated": 25,
-  "total_verified": 23
+  "total_verified": 24
 }

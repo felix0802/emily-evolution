@@ -1,19 +1,10 @@
 {
-  "_rotation_idx": 710,
+  "_rotation_idx": 711,
   "mamba": {
     "name": "Mamba (SSM)",
-    "total_papers_found": 63,
-    "watering_count": 74,
+    "total_papers_found": 67,
+    "watering_count": 75,
     "history": [
-      {
-        "timestamp": "2026-07-31T15:51:59.571299",
-        "papers_found": 0,
-        "duplicates": 6,
-        "irrelevant_filtered": 4,
-        "avg_relevance": 0.0,
-        "high_relevance": 0,
-        "papers": []
-      },
       {
         "timestamp": "2026-08-01T12:50:08.597591",
         "papers_found": 0,
@@ -650,6 +641,37 @@
             "seed_match_score": 2
           }
         ]
+      },
+      {
+        "timestamp": "2026-10-03T00:47:41.757417",
+        "papers_found": 4,
+        "duplicates": 0,
+        "irrelevant_filtered": 6,
+        "avg_relevance": 1.75,
+        "high_relevance": 2,
+        "papers": [
+          {
+            "title": "Learning Rate Transfer for Hybrid Transformer-SSM Architectures",
+            "summary": "We study learning rate (LR) scaling for hybrid architectures combining Transformer and State-Space Model (SSM) blocks, a class adopted by several recent production language models. In particular, we focus on the gap between the theoretical scaling rules derived for SSMs under zero-order-hold (ZOH) d",
+            "published": "2026-10-01",
+            "url": "http://arxiv.org/abs/2610.01172v1",
+            "seed_match_score": 2
+          },
+          {
+            "title": "CAMOS: Coupled Oscillatory State-Space Model for Multimodal Clinical Time-Series",
+            "summary": "Longitudinal clinical cohorts are multimodal, irregularly sampled and pervasively incomplete: in ADNI, positron emission tomography and cerebrospinal fluid assays are absent from roughly half of all visits. Linear state-space models handle irregular sampling gracefully but treat a missing modality b",
+            "published": "2026-09-30",
+            "url": "http://arxiv.org/abs/2609.39484v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Low-Discrepancy Dither for Quantized Recurrent State Caches",
+            "summary": "Mamba-style and hybrid language models compress their past into a fixed-size recurrent state that is rewritten at every generated token. Storing this state in low precision saves memory bandwidth, but every rounding error is fed back into the next update and can accumulate over long generations. Pro",
+            "published": "2026-09-30",
+            "url": "http://arxiv.org/abs/2609.39185v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -658,7 +680,7 @@
       "ssm",
       "selective scan"
     ],
-    "last_watered": "2026-09-30T14:20:51.343014"
+    "last_watered": "2026-10-03T00:47:41.757410"
   },
   "liquid-networks": {
     "name": "Liquid Networks",
