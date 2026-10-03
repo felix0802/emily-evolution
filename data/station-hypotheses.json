@@ -563,14 +563,14 @@
       "reasoning": "Both Mamba and SNNs model sequences through state transitions: Mamba uses continuous-time state space equations with input-dependent gating, while SNNs use discrete spike events to update membrane potentials. The shared mathematical foundation lies in dynamical systems where the state evolves based on input and previous state, allowing a unified framework where Mamba's selective scan can be implemented with spiking neurons to exploit temporal sparsity and event-driven parallelism.",
       "arxiv_query": "Mamba state space model spiking neural network sequence",
       "potential_breakthrough": "A new class of energy-efficient, linear-complexity sequence models that combine the long-range modeling power of Mamba with the sparse, event-driven nature of spiking neurons, enabling real-time inference on neuromorphic hardware.",
-      "status": "unverified",
-      "verification_rounds": 2,
+      "status": "inconclusive",
+      "verification_rounds": 3,
       "supporting_papers": [],
       "refuting_papers": [],
       "llm_source": "deepseek"
     }
   ],
-  "last_updated": "2026-10-03T00:47:49.720300",
+  "last_updated": "2026-10-03T07:15:37.497057",
   "total_generated": 25,
-  "total_verified": 24
+  "total_verified": 25
 }

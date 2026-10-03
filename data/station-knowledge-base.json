@@ -1,42 +1,6 @@
 {
   "sessions": [
     {
-      "timestamp": "2026-09-13T12:59:13.110316",
-      "arxiv_papers_count": 0,
-      "arxiv_top_keywords": [],
-      "arxiv_strategies": [
-        "搜索: multi-query attention",
-        "搜索: geometric deep learning",
-        "搜索: knowledge distillation"
-      ],
-      "huggingface_models": 10,
-      "huggingface_tasks": [
-        "sentence-similarity",
-        "unknown",
-        "fill-mask",
-        "text-ranking",
-        "feature-extraction"
-      ],
-      "ml_datasets": [
-        "Iris",
-        "Wine",
-        "Breast Cancer",
-        "Diabetes"
-      ],
-      "ml_total_tests": 22,
-      "github_trending_repos": 8,
-      "paperswithcode_papers": 8,
-      "evolution": {
-        "discovered": 0,
-        "adopted": 0,
-        "decisions": 0
-      },
-      "seed_watering": {
-        "seed_name": "",
-        "papers_found": 0
-      }
-    },
-    {
       "timestamp": "2026-09-13T17:09:31.923200",
       "arxiv_papers_count": 0,
       "arxiv_top_keywords": [],
@@ -4578,10 +4542,57 @@
         "seed_name": "Mamba (SSM)",
         "papers_found": 4
       }
+    },
+    {
+      "timestamp": "2026-10-03T07:15:23.008314",
+      "arxiv_papers_count": 11,
+      "arxiv_top_keywords": [
+        "agent",
+        "multi",
+        "real",
+        "communication",
+        "gaussian",
+        "animation",
+        "linear",
+        "distillation",
+        "cybersecurity",
+        "kalibench"
+      ],
+      "arxiv_strategies": [
+        "cs.AI (fallback)",
+        "cs.AI (fallback)",
+        "搜索: multi-agent system"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "unknown",
+        "text-ranking",
+        "feature-extraction",
+        "fill-mask"
+      ],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 17,
+        "adopted": 0,
+        "decisions": 0
+      },
+      "seed_watering": {
+        "seed_name": "",
+        "papers_found": 0
+      }
     }
   ],
   "total_sessions": 101,
-  "last_updated": "2026-10-03T00:47:46.872909",
+  "last_updated": "2026-10-03T07:15:23.008383",
   "evolution_summary": {
     "total_adopted": 186,
     "adopted_list": [
@@ -4780,7 +4791,7 @@
       },
       "liquid-networks": {
         "name": "Liquid Networks",
-        "watering": 74,
+        "watering": 75,
         "papers": 77
       },
       "htm": {
@@ -4967,6 +4978,6 @@
         "best_papers_count": 1
       }
     },
-    "last_evolution": "2026-10-03T00:47:46.875708"
+    "last_evolution": "2026-10-03T07:15:23.011529"
   }
 }
