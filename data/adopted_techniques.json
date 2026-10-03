@@ -2798,6 +2798,36 @@
         ],
         "decided_at": "2026-10-02T07:38:47.220382"
       }
+    },
+    {
+      "id": "llm-有效电阻",
+      "name": "有效电阻",
+      "adopted_at": "2026-10-03T12:48:17.479551",
+      "decision": {
+        "tech_id": "llm-有效电阻",
+        "tech_name": "有效电阻",
+        "action": "adopt",
+        "confidence": 0.9,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-10-03T12:48:17.477549"
+      }
+    },
+    {
+      "id": "llm-高阶位置编码",
+      "name": "高阶位置编码",
+      "adopted_at": "2026-10-03T12:48:17.479573",
+      "decision": {
+        "tech_id": "llm-高阶位置编码",
+        "tech_name": "高阶位置编码",
+        "action": "adopt",
+        "confidence": 0.85,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-10-03T12:48:17.477654"
+      }
     }
   ],
   "history": [
@@ -3916,6 +3946,18 @@
       "tech_id": "llm-分阶段蒸馏",
       "tech_name": "分阶段蒸馏",
       "timestamp": "2026-10-02T07:38:47.222270"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-有效电阻",
+      "tech_name": "有效电阻",
+      "timestamp": "2026-10-03T12:48:17.479556"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-高阶位置编码",
+      "tech_name": "高阶位置编码",
+      "timestamp": "2026-10-03T12:48:17.479575"
     }
   ]
 }

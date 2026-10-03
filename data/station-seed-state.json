@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 712,
+  "_rotation_idx": 713,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 67,
@@ -1377,33 +1377,9 @@
   },
   "htm": {
     "name": "HTM",
-    "total_papers_found": 115,
-    "watering_count": 74,
+    "total_papers_found": 121,
+    "watering_count": 75,
     "history": [
-      {
-        "timestamp": "2026-07-31T19:03:41.455515",
-        "papers_found": 2,
-        "duplicates": 1,
-        "irrelevant_filtered": 7,
-        "avg_relevance": 1.0,
-        "high_relevance": 0,
-        "papers": [
-          {
-            "title": "CORE: In-Context Reconstruction for Unified Tabular Anomaly Detection",
-            "summary": "Tabular anomaly detection (TAD), which focuses on identifying abnormal samples that deviate from the majority in tabular data, has received growing attention. Recently, there has been an emerging trend towards unified TAD, which seeks to detect anomalies across different datasets using a single gene",
-            "published": "2026-07-30",
-            "url": "http://arxiv.org/abs/2607.27615v1",
-            "seed_match_score": 1
-          },
-          {
-            "title": "INCLAIR: Inception-Based Longitudinal Clinical Anomaly Detection with Informed Reasoning",
-            "summary": "Detecting anomalies in longitudinal clinical profiles is clinically important but difficult: abnormal evidence is often sparse, patient histories have unequal length, and expert explanations are costly. We propose INCLAIR, a framework that scores each observation against multiple historical contexts",
-            "published": "2026-07-29",
-            "url": "http://arxiv.org/abs/2607.27487v1",
-            "seed_match_score": 1
-          }
-        ]
-      },
       {
         "timestamp": "2026-08-01T16:44:26.351752",
         "papers_found": 0,
@@ -2288,6 +2264,37 @@
             "seed_match_score": 1
           }
         ]
+      },
+      {
+        "timestamp": "2026-10-03T12:48:09.813239",
+        "papers_found": 6,
+        "duplicates": 1,
+        "irrelevant_filtered": 3,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "Cog-VADU: A Training-Free Cognitive Reasoning Framework for Video Anomaly Detection and Understanding",
+            "summary": "Video Anomaly Detection (VAD) aims to temporally localize abnormal events in videos. Most existing approaches rely on dataset-specific training and curated annotations, limiting generalization in open-set scenarios. Recent zero-shot methods based on Large Vision- Language Models (LVLMs) alleviate th",
+            "published": "2026-10-01",
+            "url": "http://arxiv.org/abs/2610.01754v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Participation-Sensitive Convergence and the Fragment First, Converge Later Pattern in Asynchronous Online Learning: A Topological Analysis Across 22 OULAD Courses",
+            "summary": "Asynchronous online learning offers temporal flexibility at a structural cost: learning communities tend to fragment rather than cohere. $β_0$, the number of disconnected behavioral clusters from Zigzag Persistent Homology, serves as a cohort-level indicator of this structure. Two questions remained",
+            "published": "2026-10-01",
+            "url": "http://arxiv.org/abs/2610.01738v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Anomaly Detection and Localization for the Pantograph-Catenary System",
+            "summary": "Monitoring the Pantograph-Catenary System (PCS) provides insight into the health conditions of the pantograph and the railway infrastructure. Recent industrial solutions trace the pantograph's contact wire height and stagger (PCS height/stagger) using video monitoring through convolutional neural ne",
+            "published": "2026-10-01",
+            "url": "http://arxiv.org/abs/2610.01721v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -2302,7 +2309,7 @@
       "anomaly detection",
       "continuous learning"
     ],
-    "last_watered": "2026-10-01T00:53:14.832213"
+    "last_watered": "2026-10-03T12:48:09.813233"
   },
   "spiking-nn": {
     "name": "Spiking Neural Networks",

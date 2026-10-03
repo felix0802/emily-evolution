@@ -1,42 +1,6 @@
 {
   "sessions": [
     {
-      "timestamp": "2026-09-13T17:09:31.923200",
-      "arxiv_papers_count": 0,
-      "arxiv_top_keywords": [],
-      "arxiv_strategies": [
-        "cs.AI 最新",
-        "cs.LG 最新",
-        "cs.CL 最新"
-      ],
-      "huggingface_models": 10,
-      "huggingface_tasks": [
-        "sentence-similarity",
-        "unknown",
-        "fill-mask",
-        "text-ranking",
-        "feature-extraction"
-      ],
-      "ml_datasets": [
-        "Iris",
-        "Wine",
-        "Breast Cancer",
-        "Diabetes"
-      ],
-      "ml_total_tests": 22,
-      "github_trending_repos": 8,
-      "paperswithcode_papers": 8,
-      "evolution": {
-        "discovered": 0,
-        "adopted": 0,
-        "decisions": 0
-      },
-      "seed_watering": {
-        "seed_name": "",
-        "papers_found": 0
-      }
-    },
-    {
       "timestamp": "2026-09-13T19:58:33.299917",
       "arxiv_papers_count": 5,
       "arxiv_top_keywords": [
@@ -4589,12 +4553,59 @@
         "seed_name": "",
         "papers_found": 0
       }
+    },
+    {
+      "timestamp": "2026-10-03T12:48:20.182743",
+      "arxiv_papers_count": 18,
+      "arxiv_top_keywords": [
+        "world",
+        "learning",
+        "dynamics",
+        "target",
+        "transfer",
+        "task",
+        "tissue",
+        "specific",
+        "effective",
+        "resistance"
+      ],
+      "arxiv_strategies": [
+        "搜索: graph neural network",
+        "搜索: transfer learning",
+        "搜索: world model"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "unknown",
+        "text-ranking",
+        "feature-extraction",
+        "fill-mask"
+      ],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 17,
+        "adopted": 2,
+        "decisions": 2
+      },
+      "seed_watering": {
+        "seed_name": "HTM",
+        "papers_found": 7
+      }
     }
   ],
   "total_sessions": 101,
-  "last_updated": "2026-10-03T07:15:23.008383",
+  "last_updated": "2026-10-03T12:48:20.182757",
   "evolution_summary": {
-    "total_adopted": 186,
+    "total_adopted": 188,
     "adopted_list": [
       "Knowledge Distillation",
       "World Models / Model-Based RL",
@@ -4781,7 +4792,9 @@
       "点提示驱动的联合 3D 部件分割",
       "计时捷径移除",
       "权重空间补偿",
-      "分阶段蒸馏"
+      "分阶段蒸馏",
+      "有效电阻",
+      "高阶位置编码"
     ],
     "seeds": {
       "mamba": {
@@ -4796,8 +4809,8 @@
       },
       "htm": {
         "name": "HTM",
-        "watering": 74,
-        "papers": 115
+        "watering": 75,
+        "papers": 121
       },
       "spiking-nn": {
         "name": "Spiking Neural Networks",
@@ -4889,15 +4902,15 @@
       },
       "htm": {
         "name": "HTM",
-        "new_papers": 110,
+        "new_papers": 116,
         "keywords_matched": [
-          "sequence memory",
-          "sparse distributed",
-          "predictive coding",
-          "hierarchical temporal",
           "anomaly detection",
-          "cortical",
-          "online learning"
+          "hierarchical temporal",
+          "sparse distributed",
+          "sequence memory",
+          "online learning",
+          "predictive coding",
+          "cortical"
         ],
         "high_relevance_total": 3,
         "avg_relevance_latest": 1.0,
@@ -4978,6 +4991,6 @@
         "best_papers_count": 1
       }
     },
-    "last_evolution": "2026-10-03T07:15:23.011529"
+    "last_evolution": "2026-10-03T12:48:20.185666"
   }
 }
