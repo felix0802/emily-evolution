@@ -2828,6 +2828,36 @@
         ],
         "decided_at": "2026-10-03T12:48:17.477654"
       }
+    },
+    {
+      "id": "llm-simpletimebench",
+      "name": "SimpleTimeBench",
+      "adopted_at": "2026-10-03T17:40:27.403432",
+      "decision": {
+        "tech_id": "llm-simpletimebench",
+        "tech_name": "SimpleTimeBench",
+        "action": "adopt",
+        "confidence": 0.9,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-10-03T17:40:27.400815"
+      }
+    },
+    {
+      "id": "llm-结果奖励强化学习用于预测中的证据搜索",
+      "name": "结果奖励强化学习用于预测中的证据搜索",
+      "adopted_at": "2026-10-03T17:40:27.403467",
+      "decision": {
+        "tech_id": "llm-结果奖励强化学习用于预测中的证据搜索",
+        "tech_name": "结果奖励强化学习用于预测中的证据搜索",
+        "action": "adopt",
+        "confidence": 0.85,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-10-03T17:40:27.401049"
+      }
     }
   ],
   "history": [
@@ -3958,6 +3988,18 @@
       "tech_id": "llm-高阶位置编码",
       "tech_name": "高阶位置编码",
       "timestamp": "2026-10-03T12:48:17.479575"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-simpletimebench",
+      "tech_name": "SimpleTimeBench",
+      "timestamp": "2026-10-03T17:40:27.403440"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-结果奖励强化学习用于预测中的证据搜索",
+      "tech_name": "结果奖励强化学习用于预测中的证据搜索",
+      "timestamp": "2026-10-03T17:40:27.403470"
     }
   ]
 }

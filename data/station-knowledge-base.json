@@ -1,53 +1,6 @@
 {
   "sessions": [
     {
-      "timestamp": "2026-09-13T19:58:33.299917",
-      "arxiv_papers_count": 5,
-      "arxiv_top_keywords": [
-        "gpu",
-        "cfr",
-        "game",
-        "faster",
-        "counterfactual",
-        "concept",
-        "shifts",
-        "general",
-        "covariate",
-        "shift"
-      ],
-      "arxiv_strategies": [
-        "cs.AI (fallback)",
-        "cs.AI (fallback)",
-        "cs.AI (fallback)"
-      ],
-      "huggingface_models": 10,
-      "huggingface_tasks": [
-        "sentence-similarity",
-        "unknown",
-        "fill-mask",
-        "text-ranking",
-        "feature-extraction"
-      ],
-      "ml_datasets": [
-        "Iris",
-        "Wine",
-        "Breast Cancer",
-        "Diabetes"
-      ],
-      "ml_total_tests": 22,
-      "github_trending_repos": 8,
-      "paperswithcode_papers": 8,
-      "evolution": {
-        "discovered": 17,
-        "adopted": 0,
-        "decisions": 0
-      },
-      "seed_watering": {
-        "seed_name": "",
-        "papers_found": 0
-      }
-    },
-    {
       "timestamp": "2026-09-13T22:02:47.581787",
       "arxiv_papers_count": 0,
       "arxiv_top_keywords": [],
@@ -4600,12 +4553,59 @@
         "seed_name": "HTM",
         "papers_found": 7
       }
+    },
+    {
+      "timestamp": "2026-10-03T17:40:30.260427",
+      "arxiv_papers_count": 16,
+      "arxiv_top_keywords": [
+        "time",
+        "series",
+        "anomaly",
+        "detection",
+        "looped",
+        "scaling",
+        "moe",
+        "zero",
+        "shot",
+        "tsfms"
+      ],
+      "arxiv_strategies": [
+        "搜索: time series forecasting",
+        "搜索: anomaly detection",
+        "搜索: mixture of experts"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "unknown",
+        "text-ranking",
+        "feature-extraction",
+        "fill-mask"
+      ],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 16,
+        "adopted": 2,
+        "decisions": 2
+      },
+      "seed_watering": {
+        "seed_name": "Spiking Neural Networks",
+        "papers_found": 10
+      }
     }
   ],
   "total_sessions": 101,
-  "last_updated": "2026-10-03T12:48:20.182757",
+  "last_updated": "2026-10-03T17:40:30.260443",
   "evolution_summary": {
-    "total_adopted": 188,
+    "total_adopted": 190,
     "adopted_list": [
       "Knowledge Distillation",
       "World Models / Model-Based RL",
@@ -4794,7 +4794,9 @@
       "权重空间补偿",
       "分阶段蒸馏",
       "有效电阻",
-      "高阶位置编码"
+      "高阶位置编码",
+      "SimpleTimeBench",
+      "结果奖励强化学习用于预测中的证据搜索"
     ],
     "seeds": {
       "mamba": {
@@ -4814,8 +4816,8 @@
       },
       "spiking-nn": {
         "name": "Spiking Neural Networks",
-        "watering": 73,
-        "papers": 42
+        "watering": 74,
+        "papers": 45
       },
       "non-transformer": {
         "name": "Non-Transformer Arch",
@@ -4851,15 +4853,15 @@
     "seed_metrics": {
       "spiking-nn": {
         "name": "Spiking Neural Networks",
-        "new_papers": 42,
+        "new_papers": 45,
         "keywords_matched": [
-          "spiking",
           "spike-timing",
-          "neuromorphic",
-          "snn"
+          "snn",
+          "spiking",
+          "neuromorphic"
         ],
-        "high_relevance_total": 34,
-        "avg_relevance_latest": 2.0,
+        "high_relevance_total": 35,
+        "avg_relevance_latest": 1.33,
         "best_papers_count": 10
       },
       "few-shot": {
@@ -4991,6 +4993,6 @@
         "best_papers_count": 1
       }
     },
-    "last_evolution": "2026-10-03T12:48:20.185666"
+    "last_evolution": "2026-10-03T17:40:30.263331"
   }
 }

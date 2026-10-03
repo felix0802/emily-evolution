@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 713,
+  "_rotation_idx": 714,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 67,
@@ -2313,18 +2313,9 @@
   },
   "spiking-nn": {
     "name": "Spiking Neural Networks",
-    "total_papers_found": 42,
-    "watering_count": 73,
+    "total_papers_found": 45,
+    "watering_count": 74,
     "history": [
-      {
-        "timestamp": "2026-07-31T20:50:31.900694",
-        "papers_found": 0,
-        "duplicates": 9,
-        "irrelevant_filtered": 1,
-        "avg_relevance": 0.0,
-        "high_relevance": 0,
-        "papers": []
-      },
       {
         "timestamp": "2026-08-01T18:49:22.602707",
         "papers_found": 0,
@@ -2927,6 +2918,37 @@
             "seed_match_score": 2
           }
         ]
+      },
+      {
+        "timestamp": "2026-10-03T17:40:22.457893",
+        "papers_found": 3,
+        "duplicates": 7,
+        "irrelevant_filtered": 0,
+        "avg_relevance": 1.33,
+        "high_relevance": 1,
+        "papers": [
+          {
+            "title": "Spiking neural networks for streaming qubit readout",
+            "summary": "Fast and accurate qubit-state assignment is essential for feedback, calibration, and error correction in quantum processors. In superconducting platforms, frequency-multiplexed readout makes this task intrinsically multivariate as measured traces can encode crosstalk, qubit-state relaxation events, ",
+            "published": "2026-10-01",
+            "url": "http://arxiv.org/abs/2610.02129v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Controllable Stochastic Quantization Encoding for Adversarially Robust Spiking Neural Networks",
+            "summary": "Spiking Neural Networks (SNNs) have attracted increasing attention due to their impressive temporal dynamics, energy efficiency, and brain-inspired mechanisms. Although SNNs have demonstrated promising performance in image classification tasks, recent studies have shown that they remain vulnerable t",
+            "published": "2026-10-01",
+            "url": "http://arxiv.org/abs/2610.01558v1",
+            "seed_match_score": 2
+          },
+          {
+            "title": "Neuromorphic Pseudo-Random Number Generators with a Low Power Hardware Implementation",
+            "summary": "Pseudo-random number generation often requires trade-offs among quality, power consumption, and bandwidth to produce unpredictable sequences of numbers. The brain, on the other hand, efficiently generates unpredictable output complex network dynamics occurring in a high-dimensional state. This state",
+            "published": "2026-09-30",
+            "url": "http://arxiv.org/abs/2610.00719v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -2935,7 +2957,7 @@
       "neuromorphic",
       "spike-timing"
     ],
-    "last_watered": "2026-10-01T07:55:09.450409"
+    "last_watered": "2026-10-03T17:40:22.457887"
   },
   "non-transformer": {
     "name": "Non-Transformer Arch",
