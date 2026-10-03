@@ -2858,6 +2858,36 @@
         ],
         "decided_at": "2026-10-03T17:40:27.401049"
       }
+    },
+    {
+      "id": "llm-低秩权重分解",
+      "name": "低秩权重分解",
+      "adopted_at": "2026-10-03T20:17:35.607857",
+      "decision": {
+        "tech_id": "llm-低秩权重分解",
+        "tech_name": "低秩权重分解",
+        "action": "adopt",
+        "confidence": 0.9,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-10-03T20:17:35.606156"
+      }
+    },
+    {
+      "id": "llm-mla双路径量化",
+      "name": "MLA双路径量化",
+      "adopted_at": "2026-10-03T20:17:35.607883",
+      "decision": {
+        "tech_id": "llm-mla双路径量化",
+        "tech_name": "MLA双路径量化",
+        "action": "adopt",
+        "confidence": 0.85,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-10-03T20:17:35.606368"
+      }
     }
   ],
   "history": [
@@ -4000,6 +4030,18 @@
       "tech_id": "llm-结果奖励强化学习用于预测中的证据搜索",
       "tech_name": "结果奖励强化学习用于预测中的证据搜索",
       "timestamp": "2026-10-03T17:40:27.403470"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-低秩权重分解",
+      "tech_name": "低秩权重分解",
+      "timestamp": "2026-10-03T20:17:35.607866"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-mla双路径量化",
+      "tech_name": "MLA双路径量化",
+      "timestamp": "2026-10-03T20:17:35.607884"
     }
   ]
 }

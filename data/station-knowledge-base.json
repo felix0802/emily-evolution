@@ -1,42 +1,6 @@
 {
   "sessions": [
     {
-      "timestamp": "2026-09-13T22:02:47.581787",
-      "arxiv_papers_count": 0,
-      "arxiv_top_keywords": [],
-      "arxiv_strategies": [
-        "搜索: reinforcement learning",
-        "搜索: large language model",
-        "搜索: diffusion model"
-      ],
-      "huggingface_models": 10,
-      "huggingface_tasks": [
-        "sentence-similarity",
-        "unknown",
-        "fill-mask",
-        "text-ranking",
-        "feature-extraction"
-      ],
-      "ml_datasets": [
-        "Iris",
-        "Wine",
-        "Breast Cancer",
-        "Diabetes"
-      ],
-      "ml_total_tests": 22,
-      "github_trending_repos": 8,
-      "paperswithcode_papers": 8,
-      "evolution": {
-        "discovered": 0,
-        "adopted": 0,
-        "decisions": 0
-      },
-      "seed_watering": {
-        "seed_name": "",
-        "papers_found": 0
-      }
-    },
-    {
       "timestamp": "2026-09-13T23:53:03.022977",
       "arxiv_papers_count": 5,
       "arxiv_top_keywords": [
@@ -4600,12 +4564,59 @@
         "seed_name": "Spiking Neural Networks",
         "papers_found": 10
       }
+    },
+    {
+      "timestamp": "2026-10-03T20:17:38.115336",
+      "arxiv_papers_count": 18,
+      "arxiv_top_keywords": [
+        "speculative",
+        "network",
+        "context",
+        "quantization",
+        "language",
+        "decoding",
+        "compression",
+        "weight",
+        "subspace",
+        "criteria"
+      ],
+      "arxiv_strategies": [
+        "搜索: kv cache LLM",
+        "搜索: graph neural network recent",
+        "搜索: speculative decoding"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "unknown",
+        "text-ranking",
+        "feature-extraction",
+        "fill-mask"
+      ],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 16,
+        "adopted": 2,
+        "decisions": 2
+      },
+      "seed_watering": {
+        "seed_name": "Non-Transformer Arch",
+        "papers_found": 6
+      }
     }
   ],
   "total_sessions": 101,
-  "last_updated": "2026-10-03T17:40:30.260443",
+  "last_updated": "2026-10-03T20:17:38.115352",
   "evolution_summary": {
-    "total_adopted": 190,
+    "total_adopted": 192,
     "adopted_list": [
       "Knowledge Distillation",
       "World Models / Model-Based RL",
@@ -4796,7 +4807,9 @@
       "有效电阻",
       "高阶位置编码",
       "SimpleTimeBench",
-      "结果奖励强化学习用于预测中的证据搜索"
+      "结果奖励强化学习用于预测中的证据搜索",
+      "低秩权重分解",
+      "MLA双路径量化"
     ],
     "seeds": {
       "mamba": {
@@ -4821,7 +4834,7 @@
       },
       "non-transformer": {
         "name": "Non-Transformer Arch",
-        "watering": 74,
+        "watering": 75,
         "papers": 45
       },
       "few-shot": {
@@ -4922,16 +4935,16 @@
         "name": "Non-Transformer Arch",
         "new_papers": 45,
         "keywords_matched": [
-          "linear recurrent",
-          "linear attention",
           "mamba",
-          "efficient transformer",
           "rwkv",
+          "linear recurrent",
+          "state space",
           "gated linear",
-          "state space"
+          "efficient transformer",
+          "linear attention"
         ],
         "high_relevance_total": 7,
-        "avg_relevance_latest": 1.0,
+        "avg_relevance_latest": 0.0,
         "best_papers_count": 0
       },
       "continual-learning": {
@@ -4993,6 +5006,6 @@
         "best_papers_count": 1
       }
     },
-    "last_evolution": "2026-10-03T17:40:30.263331"
+    "last_evolution": "2026-10-03T20:17:38.117337"
   }
 }
