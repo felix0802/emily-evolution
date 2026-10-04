@@ -2903,6 +2903,36 @@
         ],
         "decided_at": "2026-10-04T13:31:38.480373"
       }
+    },
+    {
+      "id": "llm-量子神经架构搜索-(qnas)",
+      "name": "量子神经架构搜索 (QNAS)",
+      "adopted_at": "2026-10-04T20:34:06.048397",
+      "decision": {
+        "tech_id": "llm-量子神经架构搜索-(qnas)",
+        "tech_name": "量子神经架构搜索 (QNAS)",
+        "action": "adopt",
+        "confidence": 0.9,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-10-04T20:34:06.046035"
+      }
+    },
+    {
+      "id": "llm-基于能量的神经网络-(energy-based-neural",
+      "name": "基于能量的神经网络 (Energy-based Neural Networks)",
+      "adopted_at": "2026-10-04T20:34:06.048420",
+      "decision": {
+        "tech_id": "llm-基于能量的神经网络-(energy-based-neural",
+        "tech_name": "基于能量的神经网络 (Energy-based Neural Networks)",
+        "action": "adopt",
+        "confidence": 0.85,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-10-04T20:34:06.046350"
+      }
     }
   ],
   "history": [
@@ -4063,6 +4093,18 @@
       "tech_id": "llm-nepa-(next-embedding-predictiv",
       "tech_name": "NEPA (Next-Embedding Predictive Autoregression)",
       "timestamp": "2026-10-04T13:31:38.482479"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-量子神经架构搜索-(qnas)",
+      "tech_name": "量子神经架构搜索 (QNAS)",
+      "timestamp": "2026-10-04T20:34:06.048402"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-基于能量的神经网络-(energy-based-neural",
+      "tech_name": "基于能量的神经网络 (Energy-based Neural Networks)",
+      "timestamp": "2026-10-04T20:34:06.048422"
     }
   ]
 }
