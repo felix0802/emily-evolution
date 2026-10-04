@@ -2888,6 +2888,21 @@
         ],
         "decided_at": "2026-10-03T20:17:35.606368"
       }
+    },
+    {
+      "id": "llm-nepa-(next-embedding-predictiv",
+      "name": "NEPA (Next-Embedding Predictive Autoregression)",
+      "adopted_at": "2026-10-04T13:31:38.482474",
+      "decision": {
+        "tech_id": "llm-nepa-(next-embedding-predictiv",
+        "tech_name": "NEPA (Next-Embedding Predictive Autoregression)",
+        "action": "adopt",
+        "confidence": 0.85,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-10-04T13:31:38.480373"
+      }
     }
   ],
   "history": [
@@ -4042,6 +4057,12 @@
       "tech_id": "llm-mla双路径量化",
       "tech_name": "MLA双路径量化",
       "timestamp": "2026-10-03T20:17:35.607884"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-nepa-(next-embedding-predictiv",
+      "tech_name": "NEPA (Next-Embedding Predictive Autoregression)",
+      "timestamp": "2026-10-04T13:31:38.482479"
     }
   ]
 }

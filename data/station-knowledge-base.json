@@ -1,42 +1,6 @@
 {
   "sessions": [
     {
-      "timestamp": "2026-09-14T07:37:12.021949",
-      "arxiv_papers_count": 0,
-      "arxiv_top_keywords": [],
-      "arxiv_strategies": [
-        "搜索: time series forecasting",
-        "搜索: anomaly detection",
-        "搜索: mixture of experts"
-      ],
-      "huggingface_models": 10,
-      "huggingface_tasks": [
-        "sentence-similarity",
-        "unknown",
-        "fill-mask",
-        "text-ranking",
-        "feature-extraction"
-      ],
-      "ml_datasets": [
-        "Iris",
-        "Wine",
-        "Breast Cancer",
-        "Diabetes"
-      ],
-      "ml_total_tests": 22,
-      "github_trending_repos": 8,
-      "paperswithcode_papers": 8,
-      "evolution": {
-        "discovered": 0,
-        "adopted": 0,
-        "decisions": 0
-      },
-      "seed_watering": {
-        "seed_name": "",
-        "papers_found": 0
-      }
-    },
-    {
       "timestamp": "2026-09-14T14:34:39.285509",
       "arxiv_papers_count": 0,
       "arxiv_top_keywords": [],
@@ -4622,12 +4586,59 @@
         "seed_name": "Continual Learning",
         "papers_found": 5
       }
+    },
+    {
+      "timestamp": "2026-10-04T13:31:38.489973",
+      "arxiv_papers_count": 17,
+      "arxiv_top_keywords": [
+        "generation",
+        "image",
+        "real",
+        "visual",
+        "reasoning",
+        "fine",
+        "escher",
+        "conformal",
+        "print",
+        "moore"
+      ],
+      "arxiv_strategies": [
+        "cs.CV 最新",
+        "cs.AI+cs.LG 混合",
+        "cs.CL+cs.CV 混合"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "unknown",
+        "text-ranking",
+        "feature-extraction",
+        "fill-mask"
+      ],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 20,
+        "adopted": 1,
+        "decisions": 1
+      },
+      "seed_watering": {
+        "seed_name": "Mixture of Experts",
+        "papers_found": 8
+      }
     }
   ],
   "total_sessions": 101,
-  "last_updated": "2026-10-04T07:31:11.405523",
+  "last_updated": "2026-10-04T13:31:38.489988",
   "evolution_summary": {
-    "total_adopted": 192,
+    "total_adopted": 193,
     "adopted_list": [
       "Knowledge Distillation",
       "World Models / Model-Based RL",
@@ -4820,7 +4831,8 @@
       "SimpleTimeBench",
       "结果奖励强化学习用于预测中的证据搜索",
       "低秩权重分解",
-      "MLA双路径量化"
+      "MLA双路径量化",
+      "NEPA (Next-Embedding Predictive Autoregression)"
     ],
     "seeds": {
       "mamba": {
@@ -4860,7 +4872,7 @@
       },
       "moe": {
         "name": "Mixture of Experts",
-        "watering": 68,
+        "watering": 69,
         "papers": 98
       },
       "kv-cache": {
@@ -4994,12 +5006,12 @@
         "keywords_matched": [
           "router",
           "moe",
-          "deepseek",
           "expert routing",
-          "mixture of experts"
+          "mixture of experts",
+          "deepseek"
         ],
         "high_relevance_total": 70,
-        "avg_relevance_latest": 2.0,
+        "avg_relevance_latest": 0.0,
         "best_papers_count": 10
       },
       "kv-cache": {
@@ -5017,6 +5029,6 @@
         "best_papers_count": 1
       }
     },
-    "last_evolution": "2026-10-04T07:31:11.408419"
+    "last_evolution": "2026-10-04T13:31:38.492775"
   }
 }

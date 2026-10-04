@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-04T07:31:11.420591",
+  "timestamp": "2026-10-04T13:31:38.505156",
   "connections": [
     {
       "seed_a": "Mamba (SSM)",
@@ -19,7 +19,7 @@
         "space"
       ],
       "strength": 13,
-      "discovered_at": "2026-10-04T07:31:11.420416"
+      "discovered_at": "2026-10-04T13:31:38.504981"
     },
     {
       "seed_a": "Spiking Neural Networks",
@@ -34,7 +34,7 @@
         "streaming"
       ],
       "strength": 6,
-      "discovered_at": "2026-10-04T07:31:11.420486"
+      "discovered_at": "2026-10-04T13:31:38.505049"
     },
     {
       "seed_a": "HTM",
@@ -48,7 +48,7 @@
         "neural"
       ],
       "strength": 5,
-      "discovered_at": "2026-10-04T07:31:11.420482"
+      "discovered_at": "2026-10-04T13:31:38.505045"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -61,7 +61,7 @@
         "time"
       ],
       "strength": 4,
-      "discovered_at": "2026-10-04T07:31:11.420381"
+      "discovered_at": "2026-10-04T13:31:38.504963"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -74,7 +74,7 @@
         "sequence"
       ],
       "strength": 4,
-      "discovered_at": "2026-10-04T07:31:11.420412"
+      "discovered_at": "2026-10-04T13:31:38.504976"
     },
     {
       "seed_a": "Liquid Networks",
@@ -87,7 +87,7 @@
         "time"
       ],
       "strength": 4,
-      "discovered_at": "2026-10-04T07:31:11.420438"
+      "discovered_at": "2026-10-04T13:31:38.505002"
     },
     {
       "seed_a": "HTM",
@@ -100,7 +100,7 @@
         "with"
       ],
       "strength": 4,
-      "discovered_at": "2026-10-04T07:31:11.420460"
+      "discovered_at": "2026-10-04T13:31:38.505024"
     },
     {
       "seed_a": "Spiking Neural Networks",
@@ -113,7 +113,7 @@
         "neural"
       ],
       "strength": 4,
-      "discovered_at": "2026-10-04T07:31:11.420534"
+      "discovered_at": "2026-10-04T13:31:38.505099"
     },
     {
       "seed_a": "Non-Transformer Arch",
@@ -126,7 +126,7 @@
         "memory"
       ],
       "strength": 4,
-      "discovered_at": "2026-10-04T07:31:11.420546"
+      "discovered_at": "2026-10-04T13:31:38.505111"
     },
     {
       "seed_a": "Few-Shot Learning",
@@ -139,7 +139,7 @@
         "optimization"
       ],
       "strength": 4,
-      "discovered_at": "2026-10-04T07:31:11.420556"
+      "discovered_at": "2026-10-04T13:31:38.505121"
     }
   ],
   "total_seeds": 10
