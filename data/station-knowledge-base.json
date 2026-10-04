@@ -1,42 +1,6 @@
 {
   "sessions": [
     {
-      "timestamp": "2026-09-14T14:34:39.285509",
-      "arxiv_papers_count": 0,
-      "arxiv_top_keywords": [],
-      "arxiv_strategies": [
-        "搜索: kv cache LLM",
-        "搜索: graph neural network recent",
-        "搜索: speculative decoding"
-      ],
-      "huggingface_models": 10,
-      "huggingface_tasks": [
-        "sentence-similarity",
-        "unknown",
-        "fill-mask",
-        "text-ranking",
-        "feature-extraction"
-      ],
-      "ml_datasets": [
-        "Iris",
-        "Wine",
-        "Breast Cancer",
-        "Diabetes"
-      ],
-      "ml_total_tests": 22,
-      "github_trending_repos": 8,
-      "paperswithcode_papers": 8,
-      "evolution": {
-        "discovered": 0,
-        "adopted": 0,
-        "decisions": 0
-      },
-      "seed_watering": {
-        "seed_name": "",
-        "papers_found": 0
-      }
-    },
-    {
       "timestamp": "2026-09-14T22:56:21.995444",
       "arxiv_papers_count": 18,
       "arxiv_top_keywords": [
@@ -4633,10 +4597,57 @@
         "seed_name": "Mixture of Experts",
         "papers_found": 8
       }
+    },
+    {
+      "timestamp": "2026-10-04T17:54:06.290313",
+      "arxiv_papers_count": 17,
+      "arxiv_top_keywords": [
+        "learning",
+        "policy",
+        "distillation",
+        "evaluation",
+        "erasure",
+        "concept",
+        "diffusion",
+        "ferpo",
+        "entropy",
+        "critic"
+      ],
+      "arxiv_strategies": [
+        "搜索: reinforcement learning",
+        "搜索: large language model",
+        "搜索: diffusion model"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "unknown",
+        "text-ranking",
+        "feature-extraction",
+        "fill-mask"
+      ],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 24,
+        "adopted": 0,
+        "decisions": 0
+      },
+      "seed_watering": {
+        "seed_name": "KV Cache Optimization",
+        "papers_found": 5
+      }
     }
   ],
   "total_sessions": 101,
-  "last_updated": "2026-10-04T13:31:38.489988",
+  "last_updated": "2026-10-04T17:54:06.290328",
   "evolution_summary": {
     "total_adopted": 193,
     "adopted_list": [
@@ -4877,7 +4888,7 @@
       },
       "kv-cache": {
         "name": "KV Cache Optimization",
-        "watering": 69,
+        "watering": 70,
         "papers": 92
       },
       "gnn": {
@@ -5019,16 +5030,16 @@
         "new_papers": 92,
         "keywords_matched": [
           "flash attention",
-          "speculative decoding",
           "key-value cache",
+          "kv cache",
           "gqa",
-          "kv cache"
+          "speculative decoding"
         ],
         "high_relevance_total": 3,
-        "avg_relevance_latest": 1.0,
+        "avg_relevance_latest": 0.0,
         "best_papers_count": 1
       }
     },
-    "last_evolution": "2026-10-04T13:31:38.492775"
+    "last_evolution": "2026-10-04T17:54:06.293096"
   }
 }
