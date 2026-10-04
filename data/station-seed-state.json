@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 716,
+  "_rotation_idx": 717,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 67,
@@ -4249,18 +4249,9 @@
   },
   "continual-learning": {
     "name": "Continual Learning",
-    "total_papers_found": 84,
-    "watering_count": 72,
+    "total_papers_found": 89,
+    "watering_count": 73,
     "history": [
-      {
-        "timestamp": "2026-08-01T05:16:53.238007",
-        "papers_found": 0,
-        "duplicates": 4,
-        "irrelevant_filtered": 6,
-        "avg_relevance": 0.0,
-        "high_relevance": 0,
-        "papers": []
-      },
       {
         "timestamp": "2026-08-02T01:25:59.268109",
         "papers_found": 0,
@@ -5008,6 +4999,37 @@
         "avg_relevance": 0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-10-04T07:31:06.983310",
+        "papers_found": 5,
+        "duplicates": 0,
+        "irrelevant_filtered": 5,
+        "avg_relevance": 1.2,
+        "high_relevance": 1,
+        "papers": [
+          {
+            "title": "Local Support Learning",
+            "summary": "We explore catastrophic forgetting in the context of large pre-trained models. By considering forgetting as a geometric problem in the input space of each weight matrix, we uncover a natural retention objective under which updates produced by gradient-based optimizers are suboptimal. Following this ",
+            "published": "2026-10-01",
+            "url": "http://arxiv.org/abs/2610.02126v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Continual Learning for 6-DoF Grasp Synthesis via Experience and Demonstrations",
+            "summary": "Most current grasp synthesis systems are trained offline and remain fixed during deployment. While this works well when deployment conditions resemble the training data, performance can degrade when robots encounter conditions they have not seen before, such as unfamiliar objects. In this work, we p",
+            "published": "2026-10-01",
+            "url": "http://arxiv.org/abs/2610.01301v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "ChainLoRA: Geometry-Preserving Task Vector Merging for Continual Learning in LLMs",
+            "summary": "Continual parameter-efficient fine-tuning for large language models (LLMs) must balance retention of previously acquired knowledge, adaptation to new tasks, and strict parameter budgets. We present \\textbf{ChainLoRA}, a replay-free continual merging framework built on chain-updated task-vector geome",
+            "published": "2026-09-30",
+            "url": "http://arxiv.org/abs/2610.00431v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -5017,7 +5039,7 @@
       "ewc",
       "elastic weight"
     ],
-    "last_watered": "2026-10-02T01:13:14.755773"
+    "last_watered": "2026-10-04T07:31:06.983303"
   },
   "moe": {
     "name": "Mixture of Experts",

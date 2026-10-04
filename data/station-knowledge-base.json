@@ -1,42 +1,6 @@
 {
   "sessions": [
     {
-      "timestamp": "2026-09-14T02:01:07.440108",
-      "arxiv_papers_count": 0,
-      "arxiv_top_keywords": [],
-      "arxiv_strategies": [
-        "搜索: graph neural network",
-        "搜索: transfer learning",
-        "搜索: world model"
-      ],
-      "huggingface_models": 10,
-      "huggingface_tasks": [
-        "sentence-similarity",
-        "unknown",
-        "fill-mask",
-        "text-ranking",
-        "feature-extraction"
-      ],
-      "ml_datasets": [
-        "Iris",
-        "Wine",
-        "Breast Cancer",
-        "Diabetes"
-      ],
-      "ml_total_tests": 22,
-      "github_trending_repos": 8,
-      "paperswithcode_papers": 8,
-      "evolution": {
-        "discovered": 0,
-        "adopted": 0,
-        "decisions": 0
-      },
-      "seed_watering": {
-        "seed_name": "",
-        "papers_found": 0
-      }
-    },
-    {
       "timestamp": "2026-09-14T07:37:12.021949",
       "arxiv_papers_count": 0,
       "arxiv_top_keywords": [],
@@ -4611,10 +4575,57 @@
         "seed_name": "",
         "papers_found": 0
       }
+    },
+    {
+      "timestamp": "2026-10-04T07:31:11.405507",
+      "arxiv_papers_count": 17,
+      "arxiv_top_keywords": [
+        "real",
+        "fine",
+        "generation",
+        "reasoning",
+        "gaussian",
+        "animation",
+        "linear",
+        "distillation",
+        "cybersecurity",
+        "kalibench"
+      ],
+      "arxiv_strategies": [
+        "cs.AI 最新",
+        "cs.LG 最新",
+        "cs.CL 最新"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "unknown",
+        "text-ranking",
+        "feature-extraction",
+        "fill-mask"
+      ],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 20,
+        "adopted": 0,
+        "decisions": 0
+      },
+      "seed_watering": {
+        "seed_name": "Continual Learning",
+        "papers_found": 5
+      }
     }
   ],
   "total_sessions": 101,
-  "last_updated": "2026-10-04T00:15:53.800999",
+  "last_updated": "2026-10-04T07:31:11.405523",
   "evolution_summary": {
     "total_adopted": 192,
     "adopted_list": [
@@ -4844,8 +4855,8 @@
       },
       "continual-learning": {
         "name": "Continual Learning",
-        "watering": 72,
-        "papers": 84
+        "watering": 73,
+        "papers": 89
       },
       "moe": {
         "name": "Mixture of Experts",
@@ -4949,16 +4960,16 @@
       },
       "continual-learning": {
         "name": "Continual Learning",
-        "new_papers": 79,
+        "new_papers": 84,
         "keywords_matched": [
-          "continual learning",
           "catastrophic forgetting",
-          "elastic weight",
           "lifelong",
+          "elastic weight",
+          "continual learning",
           "ewc"
         ],
-        "high_relevance_total": 19,
-        "avg_relevance_latest": 1.5,
+        "high_relevance_total": 20,
+        "avg_relevance_latest": 1.2,
         "best_papers_count": 3
       },
       "gnn": {
@@ -5006,6 +5017,6 @@
         "best_papers_count": 1
       }
     },
-    "last_evolution": "2026-10-04T00:15:53.803495"
+    "last_evolution": "2026-10-04T07:31:11.408419"
   }
 }

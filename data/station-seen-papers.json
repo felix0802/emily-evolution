@@ -47124,7 +47124,74 @@
         "language"
       ],
       "first_seen_round": 347
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.02126v1",
+      "title": "Local Support Learning",
+      "arxiv_id": "2610.02126",
+      "tokens": [
+        "local",
+        "support"
+      ],
+      "first_seen_round": 349
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.01301v1",
+      "title": "Continual Learning for 6-DoF Grasp Synthesis via Experience and Demonstrations",
+      "arxiv_id": "2610.01301",
+      "tokens": [
+        "continual",
+        "demonstrations",
+        "dof",
+        "experience",
+        "grasp",
+        "synthesis"
+      ],
+      "first_seen_round": 349
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.00431v1",
+      "title": "ChainLoRA: Geometry-Preserving Task Vector Merging for Continual Learning in LLMs",
+      "arxiv_id": "2610.00431",
+      "tokens": [
+        "chainlora",
+        "continual",
+        "geometry",
+        "llms",
+        "merging",
+        "preserving",
+        "task",
+        "vector"
+      ],
+      "first_seen_round": 349
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.39550v1",
+      "title": "Hyperbolic Prototype Routing for Rehearsal-Free Class-Incremental Learning",
+      "arxiv_id": "2609.39550",
+      "tokens": [
+        "class",
+        "free",
+        "hyperbolic",
+        "incremental",
+        "prototype",
+        "rehearsal",
+        "routing"
+      ],
+      "first_seen_round": 349
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.39367v1",
+      "title": "A Dynamical Theory of LoRA in Continual Learning",
+      "arxiv_id": "2609.39367",
+      "tokens": [
+        "continual",
+        "dynamical",
+        "lora",
+        "theory"
+      ],
+      "first_seen_round": 349
     }
   ],
-  "total_unique": 2947
+  "total_unique": 2952
 }
