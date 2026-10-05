@@ -1,42 +1,6 @@
 {
   "sessions": [
     {
-      "timestamp": "2026-09-15T14:35:30.229684",
-      "arxiv_papers_count": 0,
-      "arxiv_top_keywords": [],
-      "arxiv_strategies": [
-        "搜索: reinforcement learning",
-        "搜索: large language model",
-        "搜索: diffusion model"
-      ],
-      "huggingface_models": 10,
-      "huggingface_tasks": [
-        "sentence-similarity",
-        "unknown",
-        "fill-mask",
-        "text-ranking",
-        "feature-extraction"
-      ],
-      "ml_datasets": [
-        "Iris",
-        "Wine",
-        "Breast Cancer",
-        "Diabetes"
-      ],
-      "ml_total_tests": 22,
-      "github_trending_repos": 8,
-      "paperswithcode_papers": 8,
-      "evolution": {
-        "discovered": 0,
-        "adopted": 0,
-        "decisions": 0
-      },
-      "seed_watering": {
-        "seed_name": "",
-        "papers_found": 0
-      }
-    },
-    {
       "timestamp": "2026-09-15T19:20:04.539813",
       "arxiv_papers_count": 18,
       "arxiv_top_keywords": [
@@ -4666,12 +4630,59 @@
         "seed_name": "Liquid Networks",
         "papers_found": 6
       }
+    },
+    {
+      "timestamp": "2026-10-05T16:31:01.603133",
+      "arxiv_papers_count": 18,
+      "arxiv_top_keywords": [
+        "cache",
+        "context",
+        "compression",
+        "memory",
+        "their",
+        "network",
+        "llm",
+        "speculative",
+        "cost",
+        "query"
+      ],
+      "arxiv_strategies": [
+        "搜索: kv cache LLM",
+        "搜索: graph neural network recent",
+        "搜索: speculative decoding"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "unknown",
+        "text-ranking",
+        "feature-extraction",
+        "fill-mask"
+      ],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 15,
+        "adopted": 2,
+        "decisions": 2
+      },
+      "seed_watering": {
+        "seed_name": "HTM",
+        "papers_found": 3
+      }
     }
   ],
   "total_sessions": 101,
-  "last_updated": "2026-10-05T07:49:07.817820",
+  "last_updated": "2026-10-05T16:31:01.603150",
   "evolution_summary": {
-    "total_adopted": 196,
+    "total_adopted": 198,
     "adopted_list": [
       "Knowledge Distillation",
       "World Models / Model-Based RL",
@@ -4868,7 +4879,9 @@
       "NEPA (Next-Embedding Predictive Autoregression)",
       "量子神经架构搜索 (QNAS)",
       "基于能量的神经网络 (Energy-based Neural Networks)",
-      "Most-Recent Anchoring"
+      "Most-Recent Anchoring",
+      "自精炼 KV 缓存 (KV²)",
+      "反应式可逆 KV 驻留 (WakeKV)"
     ],
     "seeds": {
       "mamba": {
@@ -4883,7 +4896,7 @@
       },
       "htm": {
         "name": "HTM",
-        "watering": 75,
+        "watering": 76,
         "papers": 121
       },
       "spiking-nn": {
@@ -4982,12 +4995,12 @@
           "hierarchical temporal",
           "sparse distributed",
           "sequence memory",
-          "online learning",
           "predictive coding",
-          "cortical"
+          "cortical",
+          "online learning"
         ],
         "high_relevance_total": 3,
-        "avg_relevance_latest": 1.0,
+        "avg_relevance_latest": 0.0,
         "best_papers_count": 0
       },
       "non-transformer": {
@@ -5065,6 +5078,6 @@
         "best_papers_count": 1
       }
     },
-    "last_evolution": "2026-10-05T07:49:07.821133"
+    "last_evolution": "2026-10-05T16:31:01.606333"
   }
 }

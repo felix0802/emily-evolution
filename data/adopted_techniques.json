@@ -2948,6 +2948,36 @@
         ],
         "decided_at": "2026-10-05T07:49:07.808030"
       }
+    },
+    {
+      "id": "llm-自精炼-kv-缓存-(kv²)",
+      "name": "自精炼 KV 缓存 (KV²)",
+      "adopted_at": "2026-10-05T16:30:59.073638",
+      "decision": {
+        "tech_id": "llm-自精炼-kv-缓存-(kv²)",
+        "tech_name": "自精炼 KV 缓存 (KV²)",
+        "action": "adopt",
+        "confidence": 0.9,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-10-05T16:30:59.071103"
+      }
+    },
+    {
+      "id": "llm-反应式可逆-kv-驻留-(wakekv)",
+      "name": "反应式可逆 KV 驻留 (WakeKV)",
+      "adopted_at": "2026-10-05T16:30:59.073666",
+      "decision": {
+        "tech_id": "llm-反应式可逆-kv-驻留-(wakekv)",
+        "tech_name": "反应式可逆 KV 驻留 (WakeKV)",
+        "action": "adopt",
+        "confidence": 0.85,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-10-05T16:30:59.071381"
+      }
     }
   ],
   "history": [
@@ -4126,6 +4156,18 @@
       "tech_id": "llm-most-recent-anchoring",
       "tech_name": "Most-Recent Anchoring",
       "timestamp": "2026-10-05T07:49:07.809929"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-自精炼-kv-缓存-(kv²)",
+      "tech_name": "自精炼 KV 缓存 (KV²)",
+      "timestamp": "2026-10-05T16:30:59.073644"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-反应式可逆-kv-驻留-(wakekv)",
+      "tech_name": "反应式可逆 KV 驻留 (WakeKV)",
+      "timestamp": "2026-10-05T16:30:59.073668"
     }
   ]
 }

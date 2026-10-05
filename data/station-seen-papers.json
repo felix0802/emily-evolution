@@ -47688,7 +47688,88 @@
         "language"
       ],
       "first_seen_round": 354
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.03198v1",
+      "title": "KV$^2$: A Self-Refining KV Cache",
+      "arxiv_id": "2610.03198",
+      "tokens": [
+        "cache",
+        "refining",
+        "self"
+      ],
+      "first_seen_round": 355
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.03109v1",
+      "title": "Emergent Structure in the Marginal Attention Space of Language Models",
+      "arxiv_id": "2610.03109",
+      "tokens": [
+        "attention",
+        "emergent",
+        "language",
+        "marginal",
+        "space",
+        "structure"
+      ],
+      "first_seen_round": 355
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.03027v1",
+      "title": "Tailoring the Quantization Space for 1-Bit KV Cache Compression",
+      "arxiv_id": "2610.03027",
+      "tokens": [
+        "bit",
+        "cache",
+        "compression",
+        "quantization",
+        "space",
+        "tailoring"
+      ],
+      "first_seen_round": 355
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.02713v1",
+      "title": "WakeKV: Reactive, Reversible KV Residency for Heads That Change Their Minds",
+      "arxiv_id": "2610.02713",
+      "tokens": [
+        "change",
+        "heads",
+        "minds",
+        "reactive",
+        "residency",
+        "reversible",
+        "wakekv"
+      ],
+      "first_seen_round": 355
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.03526v1",
+      "title": "Beyond Trained Models: Compiling GNNs for a Sound Explainer Benchmark",
+      "arxiv_id": "2610.03526",
+      "tokens": [
+        "benchmark",
+        "compiling",
+        "explainer",
+        "gnns",
+        "sound",
+        "trained"
+      ],
+      "first_seen_round": 355
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.02670v1",
+      "title": "LEAP: Learning Efficient Action Proposals For LLM Agents",
+      "arxiv_id": "2610.02670",
+      "tokens": [
+        "action",
+        "agents",
+        "leap",
+        "llm",
+        "proposals"
+      ],
+      "first_seen_round": 355
     }
   ],
-  "total_unique": 2982
+  "total_unique": 2988
 }
