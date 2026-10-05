@@ -1,42 +1,6 @@
 {
   "sessions": [
     {
-      "timestamp": "2026-09-15T02:11:45.461949",
-      "arxiv_papers_count": 0,
-      "arxiv_top_keywords": [],
-      "arxiv_strategies": [
-        "cs.AI 最新",
-        "cs.LG 最新",
-        "cs.CL 最新"
-      ],
-      "huggingface_models": 10,
-      "huggingface_tasks": [
-        "sentence-similarity",
-        "unknown",
-        "fill-mask",
-        "text-ranking",
-        "feature-extraction"
-      ],
-      "ml_datasets": [
-        "Iris",
-        "Wine",
-        "Breast Cancer",
-        "Diabetes"
-      ],
-      "ml_total_tests": 22,
-      "github_trending_repos": 8,
-      "paperswithcode_papers": 8,
-      "evolution": {
-        "discovered": 0,
-        "adopted": 0,
-        "decisions": 0
-      },
-      "seed_watering": {
-        "seed_name": "",
-        "papers_found": 0
-      }
-    },
-    {
       "timestamp": "2026-09-15T09:03:21.532343",
       "arxiv_papers_count": 0,
       "arxiv_top_keywords": [],
@@ -4644,10 +4608,57 @@
         "seed_name": "Graph Neural Networks",
         "papers_found": 6
       }
+    },
+    {
+      "timestamp": "2026-10-05T00:22:36.237967",
+      "arxiv_papers_count": 5,
+      "arxiv_top_keywords": [
+        "real",
+        "gaussian",
+        "animation",
+        "linear",
+        "distillation",
+        "cybersecurity",
+        "kalibench",
+        "fine",
+        "grained",
+        "benchmark"
+      ],
+      "arxiv_strategies": [
+        "cs.AI (fallback)",
+        "cs.AI (fallback)",
+        "cs.AI (fallback)"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "unknown",
+        "text-ranking",
+        "feature-extraction",
+        "fill-mask"
+      ],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 13,
+        "adopted": 0,
+        "decisions": 0
+      },
+      "seed_watering": {
+        "seed_name": "",
+        "papers_found": 0
+      }
     }
   ],
   "total_sessions": 101,
-  "last_updated": "2026-10-04T20:34:09.612944",
+  "last_updated": "2026-10-05T00:22:36.237982",
   "evolution_summary": {
     "total_adopted": 195,
     "adopted_list": [
@@ -4850,7 +4861,7 @@
     "seeds": {
       "mamba": {
         "name": "Mamba (SSM)",
-        "watering": 75,
+        "watering": 76,
         "papers": 67
       },
       "liquid-networks": {
@@ -5042,6 +5053,6 @@
         "best_papers_count": 1
       }
     },
-    "last_evolution": "2026-10-04T20:34:09.615746"
+    "last_evolution": "2026-10-05T00:22:36.241349"
   }
 }
