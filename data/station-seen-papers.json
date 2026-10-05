@@ -47342,7 +47342,353 @@
         "video"
       ],
       "first_seen_round": 352
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.03494v1",
+      "title": "Most-Recent Anchoring with Recurrent Ordering for Time Series Forecasting",
+      "arxiv_id": "2610.03494",
+      "tokens": [
+        "anchoring",
+        "forecasting",
+        "ordering",
+        "recent",
+        "recurrent",
+        "series",
+        "time"
+      ],
+      "first_seen_round": 354
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.03491v1",
+      "title": "Dual-Context Analog Retrieval for Time Series Forecasting",
+      "arxiv_id": "2610.03491",
+      "tokens": [
+        "analog",
+        "context",
+        "dual",
+        "forecasting",
+        "retrieval",
+        "series",
+        "time"
+      ],
+      "first_seen_round": 354
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.03452v1",
+      "title": "Causal Representation Learning with Instantaneous and Lagged Relations via Nonstationarity",
+      "arxiv_id": "2610.03452",
+      "tokens": [
+        "causal",
+        "instantaneous",
+        "lagged",
+        "nonstationarity",
+        "relations",
+        "representation"
+      ],
+      "first_seen_round": 354
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.03147v1",
+      "title": "TSGuard: A Real-Time Framework for Detecting and Imputing Missing Data in Streaming Time Series",
+      "arxiv_id": "2610.03147",
+      "tokens": [
+        "detecting",
+        "imputing",
+        "missing",
+        "real",
+        "series",
+        "streaming",
+        "time",
+        "time",
+        "tsguard"
+      ],
+      "first_seen_round": 354
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.03065v1",
+      "title": "Learning Transferable Policies from Action-free Time Series Through Dynamical Embeddings",
+      "arxiv_id": "2610.03065",
+      "tokens": [
+        "action",
+        "dynamical",
+        "embeddings",
+        "free",
+        "policies",
+        "series",
+        "time",
+        "transferable"
+      ],
+      "first_seen_round": 354
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.02866v1",
+      "title": "DIVINE: Simple Cross-Market Stock Pretraining via Diverse Indicator Reconstruction",
+      "arxiv_id": "2610.02866",
+      "tokens": [
+        "cross",
+        "diverse",
+        "divine",
+        "indicator",
+        "market",
+        "pretraining",
+        "reconstruction",
+        "simple",
+        "stock"
+      ],
+      "first_seen_round": 354
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.03649v1",
+      "title": "On-Board Anomaly Detection for Efficient Marine Environmental Monitoring",
+      "arxiv_id": "2610.03649",
+      "tokens": [
+        "anomaly",
+        "board",
+        "detection",
+        "environmental",
+        "marine",
+        "monitoring"
+      ],
+      "first_seen_round": 354
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.03082v1",
+      "title": "Smart Sensing for Safer Bridges: From Sensor Signals to AI-Driven Anomaly Detection",
+      "arxiv_id": "2610.03082",
+      "tokens": [
+        "anomaly",
+        "bridges",
+        "detection",
+        "driven",
+        "safer",
+        "sensing",
+        "sensor",
+        "signals",
+        "smart"
+      ],
+      "first_seen_round": 354
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.02990v1",
+      "title": "Differentiable Koopman Operator for Contrastive Learning on Dynamic Graphs",
+      "arxiv_id": "2610.02990",
+      "tokens": [
+        "contrastive",
+        "differentiable",
+        "dynamic",
+        "graphs",
+        "koopman",
+        "operator"
+      ],
+      "first_seen_round": 354
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.02763v1",
+      "title": "A Two-Stage Cascade for Near-Real-Time Forest Anomaly Detection from Sentinel-1 SAR Time Series",
+      "arxiv_id": "2610.02763",
+      "tokens": [
+        "anomaly",
+        "cascade",
+        "detection",
+        "forest",
+        "near",
+        "real",
+        "sar",
+        "sentinel",
+        "series",
+        "stage",
+        "time",
+        "time"
+      ],
+      "first_seen_round": 354
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.02345v1",
+      "title": "Mitigating Convergence Collapse in Fixed-Target Anomaly Detectors via Kernel-Anchored Locality Regularization",
+      "arxiv_id": "2610.02345",
+      "tokens": [
+        "anchored",
+        "anomaly",
+        "collapse",
+        "convergence",
+        "detectors",
+        "fixed",
+        "kernel",
+        "locality",
+        "mitigating",
+        "regularization",
+        "target"
+      ],
+      "first_seen_round": 354
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.03369v1",
+      "title": "Mixture-of-Experts for Cryptocurrency Order Execution: Training Stability, Tail Risk, and Failure Modes",
+      "arxiv_id": "2610.03369",
+      "tokens": [
+        "cryptocurrency",
+        "execution",
+        "experts",
+        "failure",
+        "mixture",
+        "modes",
+        "order",
+        "risk",
+        "stability",
+        "tail",
+        "training"
+      ],
+      "first_seen_round": 354
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.03265v1",
+      "title": "SPEAR: A Spectral-Disentangled MoE Neural Operator with Knowledge-Guided Expert Aggregation for Large-Scale PDE Pretraining",
+      "arxiv_id": "2610.03265",
+      "tokens": [
+        "aggregation",
+        "disentangled",
+        "expert",
+        "guided",
+        "knowledge",
+        "moe",
+        "neural",
+        "operator",
+        "pde",
+        "pretraining",
+        "scale",
+        "spear",
+        "spectral"
+      ],
+      "first_seen_round": 354
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.02951v1",
+      "title": "Dynamic Expert Pruning for Multi-Agent Systems",
+      "arxiv_id": "2610.02951",
+      "tokens": [
+        "agent",
+        "dynamic",
+        "expert",
+        "multi",
+        "pruning"
+      ],
+      "first_seen_round": 354
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.02910v1",
+      "title": "Frequency Is Not Sensitivity Identifying Safety-Sensitive Experts in Sparse MoE LLM",
+      "arxiv_id": "2610.02910",
+      "tokens": [
+        "experts",
+        "frequency",
+        "identifying",
+        "llm",
+        "moe",
+        "safety",
+        "sensitive",
+        "sensitivity",
+        "sparse"
+      ],
+      "first_seen_round": 354
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.02701v1",
+      "title": "Conditional Capacity and Routing in Mixture-of-Experts Particle Transformers",
+      "arxiv_id": "2610.02701",
+      "tokens": [
+        "capacity",
+        "conditional",
+        "experts",
+        "mixture",
+        "particle",
+        "routing",
+        "transformers"
+      ],
+      "first_seen_round": 354
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.02657v1",
+      "title": "Context-Tower Conversion Preserves Generation While Freezing Retains Knowledge: Low-Budget AR-to-Diffusion Conversion of MoE LLMs",
+      "arxiv_id": "2610.02657",
+      "tokens": [
+        "budget",
+        "context",
+        "conversion",
+        "conversion",
+        "diffusion",
+        "freezing",
+        "generation",
+        "knowledge",
+        "llms",
+        "low",
+        "moe",
+        "preserves",
+        "retains",
+        "tower",
+        "while"
+      ],
+      "first_seen_round": 354
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.03313v1",
+      "title": "SDECast: Probabilistic Weather Forecasting in Continuous Time with Neural SDEs",
+      "arxiv_id": "2610.03313",
+      "tokens": [
+        "continuous",
+        "forecasting",
+        "neural",
+        "probabilistic",
+        "sdecast",
+        "sdes",
+        "time",
+        "weather"
+      ],
+      "first_seen_round": 354
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.03205v1",
+      "title": "Hamiltonian locality testing and certification do not achieve the Heisenberg limit",
+      "arxiv_id": "2610.03205",
+      "tokens": [
+        "achieve",
+        "certification",
+        "hamiltonian",
+        "heisenberg",
+        "limit",
+        "locality",
+        "testing"
+      ],
+      "first_seen_round": 354
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.01933v1",
+      "title": "Error-Corrected Inference-Time Scaling for Imperfect Diffusion Models",
+      "arxiv_id": "2610.01933",
+      "tokens": [
+        "corrected",
+        "diffusion",
+        "error",
+        "imperfect",
+        "inference",
+        "scaling",
+        "time"
+      ],
+      "first_seen_round": 354
+    },
+    {
+      "url": "http://arxiv.org/abs/2609.38364v1",
+      "title": "Acceleration of Diffusion Language Model through Discrete Average Generator",
+      "arxiv_id": "2609.38364",
+      "tokens": [
+        "acceleration",
+        "average",
+        "diffusion",
+        "discrete",
+        "generator",
+        "language"
+      ],
+      "first_seen_round": 354
     }
   ],
-  "total_unique": 2961
+  "total_unique": 2982
 }

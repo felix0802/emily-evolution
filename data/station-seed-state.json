@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 721,
+  "_rotation_idx": 722,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 67,
@@ -684,18 +684,9 @@
   },
   "liquid-networks": {
     "name": "Liquid Networks",
-    "total_papers_found": 77,
-    "watering_count": 75,
+    "total_papers_found": 81,
+    "watering_count": 76,
     "history": [
-      {
-        "timestamp": "2026-08-01T14:50:50.885625",
-        "papers_found": 0,
-        "duplicates": 9,
-        "irrelevant_filtered": 1,
-        "avg_relevance": 0.0,
-        "high_relevance": 0,
-        "papers": []
-      },
       {
         "timestamp": "2026-08-02T12:52:02.397060",
         "papers_found": 0,
@@ -1364,6 +1355,37 @@
         "avg_relevance": 0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-10-05T07:49:02.090980",
+        "papers_found": 4,
+        "duplicates": 2,
+        "irrelevant_filtered": 4,
+        "avg_relevance": 1.25,
+        "high_relevance": 1,
+        "papers": [
+          {
+            "title": "SDECast: Probabilistic Weather Forecasting in Continuous Time with Neural SDEs",
+            "summary": "Existing machine learning weather forecasting models typically generate forecasts through autoregressive rollouts at a fixed temporal resolution. While highly efficient for long-range prediction, this formulation can suffer from severe error accumulation when used with shorter time steps and does no",
+            "published": "2026-10-02",
+            "url": "http://arxiv.org/abs/2610.03313v1",
+            "seed_match_score": 2
+          },
+          {
+            "title": "Hamiltonian locality testing and certification do not achieve the Heisenberg limit",
+            "summary": "We establish lower bounds for Hamiltonian property testing with access to the time-evolution operator but not its inverse. Each experiment may query the time-evolution operator multiple times, and distances between Hamiltonians are measured in the normalized Frobenius norm.   In this model, we show ",
+            "published": "2026-10-02",
+            "url": "http://arxiv.org/abs/2610.03205v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Error-Corrected Inference-Time Scaling for Imperfect Diffusion Models",
+            "summary": "Inference-time scaling adapts pretrained diffusion models to new sampling tasks without additional training. Existing methods rely primarily on Monte Carlo sampling with more particles, yet are premised on the pretrained model being exact. In practice, data and training limitations make the model im",
+            "published": "2026-10-01",
+            "url": "http://arxiv.org/abs/2610.01933v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -1373,7 +1395,7 @@
       "ode",
       "continuous-time"
     ],
-    "last_watered": "2026-10-03T07:15:17.997323"
+    "last_watered": "2026-10-05T07:49:02.090974"
   },
   "htm": {
     "name": "HTM",
