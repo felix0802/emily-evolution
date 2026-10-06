@@ -48612,7 +48612,333 @@
         "rank"
       ],
       "first_seen_round": 359
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.04862v1",
+      "title": "GitSwarm: Decentralized Compounding Inference",
+      "arxiv_id": "2610.04862",
+      "tokens": [
+        "compounding",
+        "decentralized",
+        "gitswarm",
+        "inference"
+      ],
+      "first_seen_round": 360
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.04787v1",
+      "title": "Active-DiNTS: Active Differentiable Network Topology Search",
+      "arxiv_id": "2610.04787",
+      "tokens": [
+        "active",
+        "active",
+        "differentiable",
+        "dints",
+        "search",
+        "topology"
+      ],
+      "first_seen_round": 360
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.02525v1",
+      "title": "Learning What to Investigate Next: Meta-Reasoning for Long-Horizon Research Agents",
+      "arxiv_id": "2610.02525",
+      "tokens": [
+        "agents",
+        "horizon",
+        "investigate",
+        "long",
+        "meta",
+        "next",
+        "reasoning",
+        "research"
+      ],
+      "first_seen_round": 360
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.06282v1",
+      "title": "dIon: Fragmentation-Based Invariance for Self-Supervised Learning of Tandem Mass Spectra",
+      "arxiv_id": "2610.06282",
+      "tokens": [
+        "dion",
+        "fragmentation",
+        "invariance",
+        "mass",
+        "self",
+        "spectra",
+        "supervised",
+        "tandem"
+      ],
+      "first_seen_round": 360
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.06226v1",
+      "title": "LeAVJEPA: A Minimalist Architecture for Audio-Visual Self-Supervised Learning",
+      "arxiv_id": "2610.06226",
+      "tokens": [
+        "architecture",
+        "audio",
+        "leavjepa",
+        "minimalist",
+        "self",
+        "supervised",
+        "visual"
+      ],
+      "first_seen_round": 360
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.06096v1",
+      "title": "On the Geometry of Multimodal Saturation: Riemannian VICReg",
+      "arxiv_id": "2610.06096",
+      "tokens": [
+        "geometry",
+        "multimodal",
+        "riemannian",
+        "saturation",
+        "vicreg"
+      ],
+      "first_seen_round": 360
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.06020v1",
+      "title": "Patch-based Querying Identifies Structures of Interest in Electron Microscopy",
+      "arxiv_id": "2610.06020",
+      "tokens": [
+        "electron",
+        "identifies",
+        "interest",
+        "microscopy",
+        "patch",
+        "querying",
+        "structures"
+      ],
+      "first_seen_round": 360
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.05497v1",
+      "title": "LEON: Location Embeddings from OSM Neighborhoods via Hexagonal Graph Masked Autoencoders",
+      "arxiv_id": "2610.05497",
+      "tokens": [
+        "autoencoders",
+        "embeddings",
+        "graph",
+        "hexagonal",
+        "leon",
+        "location",
+        "masked",
+        "neighborhoods",
+        "osm"
+      ],
+      "first_seen_round": 360
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.05264v1",
+      "title": "Task-Aware Joint Pruning and Distillation for Efficient Audio Deepfake Detection",
+      "arxiv_id": "2610.05264",
+      "tokens": [
+        "audio",
+        "aware",
+        "deepfake",
+        "detection",
+        "distillation",
+        "joint",
+        "pruning",
+        "task"
+      ],
+      "first_seen_round": 360
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.06673v1",
+      "title": "The Pushback Paradox: A Two-Probe Diagnostic for Language Model Compliance",
+      "arxiv_id": "2610.06673",
+      "tokens": [
+        "compliance",
+        "diagnostic",
+        "language",
+        "paradox",
+        "probe",
+        "pushback"
+      ],
+      "first_seen_round": 360
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.06192v1",
+      "title": "Copies or Sources? Measuring How LLM Aggregators Count Restated Evidence in Multi-Agent Systems",
+      "arxiv_id": "2610.06192",
+      "tokens": [
+        "agent",
+        "aggregators",
+        "copies",
+        "count",
+        "evidence",
+        "llm",
+        "measuring",
+        "multi",
+        "restated",
+        "sources"
+      ],
+      "first_seen_round": 360
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.05793v1",
+      "title": "Topology-Conditioned Backdoors: Language Models That Insert Vulnerabilities When They Infer They Are in a Multi-Agent System",
+      "arxiv_id": "2610.05793",
+      "tokens": [
+        "agent",
+        "backdoors",
+        "conditioned",
+        "infer",
+        "insert",
+        "language",
+        "multi",
+        "topology",
+        "vulnerabilities"
+      ],
+      "first_seen_round": 360
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.05176v1",
+      "title": "AECG: Asymmetric Experience Consolidation and Governance In Multi-Agent Systems",
+      "arxiv_id": "2610.05176",
+      "tokens": [
+        "aecg",
+        "agent",
+        "asymmetric",
+        "consolidation",
+        "experience",
+        "governance",
+        "multi"
+      ],
+      "first_seen_round": 360
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.04672v1",
+      "title": "MASBench: Benchmarking LLM-based Multi-Agent Collaboration under Partial Observability",
+      "arxiv_id": "2610.04672",
+      "tokens": [
+        "agent",
+        "benchmarking",
+        "collaboration",
+        "llm",
+        "masbench",
+        "multi",
+        "observability",
+        "partial"
+      ],
+      "first_seen_round": 360
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.04133v1",
+      "title": "Auditing Pairwise Equivalence Judgments: Self-Critique Effects and Diversity Measurement in Multi-Agent Hypothesis Generation",
+      "arxiv_id": "2610.04133",
+      "tokens": [
+        "agent",
+        "auditing",
+        "critique",
+        "diversity",
+        "effects",
+        "equivalence",
+        "generation",
+        "hypothesis",
+        "judgments",
+        "measurement",
+        "multi",
+        "pairwise",
+        "self"
+      ],
+      "first_seen_round": 360
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.06725v1",
+      "title": "BRANCH-MoE: Balance-Aware Tree Routing for Large Embedding Models",
+      "arxiv_id": "2610.06725",
+      "tokens": [
+        "aware",
+        "balance",
+        "branch",
+        "embedding",
+        "moe",
+        "routing",
+        "tree"
+      ],
+      "first_seen_round": 360
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.06677v1",
+      "title": "How Sparse Probability Maps Shape Mixture-of-Experts Routing",
+      "arxiv_id": "2610.06677",
+      "tokens": [
+        "experts",
+        "maps",
+        "mixture",
+        "probability",
+        "routing",
+        "shape",
+        "sparse"
+      ],
+      "first_seen_round": 360
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.05744v1",
+      "title": "CIPHER-MoE: Balancing Efficiency and Routing Fidelity in Trillion-Scale MoE Training",
+      "arxiv_id": "2610.05744",
+      "tokens": [
+        "balancing",
+        "cipher",
+        "efficiency",
+        "fidelity",
+        "moe",
+        "moe",
+        "routing",
+        "scale",
+        "training",
+        "trillion"
+      ],
+      "first_seen_round": 360
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.05458v1",
+      "title": "Measuring and Reducing Cross-Vendor Mismatch in Language Models",
+      "arxiv_id": "2610.05458",
+      "tokens": [
+        "cross",
+        "language",
+        "measuring",
+        "mismatch",
+        "reducing",
+        "vendor"
+      ],
+      "first_seen_round": 360
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.05111v1",
+      "title": "InstMoE: Adaptive Multimodal Routing with Specialized Experts",
+      "arxiv_id": "2610.05111",
+      "tokens": [
+        "adaptive",
+        "experts",
+        "instmoe",
+        "multimodal",
+        "routing",
+        "specialized"
+      ],
+      "first_seen_round": 360
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.04708v1",
+      "title": "Localized Operator Learning with Adaptive Partition-of-Unity Mixture-of-Expert Networks",
+      "arxiv_id": "2610.04708",
+      "tokens": [
+        "adaptive",
+        "expert",
+        "localized",
+        "mixture",
+        "operator",
+        "partition",
+        "unity"
+      ],
+      "first_seen_round": 360
     }
   ],
-  "total_unique": 3042
+  "total_unique": 3063
 }

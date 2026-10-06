@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 727,
+  "_rotation_idx": 728,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 67,
@@ -5132,18 +5132,9 @@
   },
   "moe": {
     "name": "Mixture of Experts",
-    "total_papers_found": 98,
-    "watering_count": 69,
+    "total_papers_found": 104,
+    "watering_count": 70,
     "history": [
-      {
-        "timestamp": "2026-08-02T05:14:11.263229",
-        "papers_found": 0,
-        "duplicates": 6,
-        "irrelevant_filtered": 4,
-        "avg_relevance": 0.0,
-        "high_relevance": 0,
-        "papers": []
-      },
       {
         "timestamp": "2026-08-03T01:26:25.848436",
         "papers_found": 1,
@@ -6017,6 +6008,37 @@
         "avg_relevance": 0.0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-10-06T21:57:08.052350",
+        "papers_found": 6,
+        "duplicates": 0,
+        "irrelevant_filtered": 4,
+        "avg_relevance": 2.17,
+        "high_relevance": 5,
+        "papers": [
+          {
+            "title": "BRANCH-MoE: Balance-Aware Tree Routing for Large Embedding Models",
+            "summary": "Mixture-of-experts (MoE) layers increase model capacity without a proportional increase in per-example computation. However, conventional flat routers can yield imbalanced expert utilization and treat experts as an unstructured collection, whose indices carry no topological meaning. We introduce {\\b",
+            "published": "2026-10-05",
+            "url": "http://arxiv.org/abs/2610.06725v1",
+            "seed_match_score": 3
+          },
+          {
+            "title": "How Sparse Probability Maps Shape Mixture-of-Experts Routing",
+            "summary": "Mixture-of-experts (MoE) routers typically apply softmax to the router scores and keep the top-K experts, making every token use exactly K experts. Sparsity-inducing probability maps such as sparsemax, alpha-entmax and normmax can adaptively assign exact zeros to selected experts, and therefore appe",
+            "published": "2026-10-05",
+            "url": "http://arxiv.org/abs/2610.06677v1",
+            "seed_match_score": 3
+          },
+          {
+            "title": "CIPHER-MoE: Balancing Efficiency and Routing Fidelity in Trillion-Scale MoE Training",
+            "summary": "Mixture-of-Experts (MoE) has been widely adopted in recent large language model (LLM) architectures. However, scaling up MoE in LLM training introduces system-level challenges on training, where non-uniform token routing can lead to highly imbalanced workloads across experts and devices, further des",
+            "published": "2026-10-05",
+            "url": "http://arxiv.org/abs/2610.05744v1",
+            "seed_match_score": 2
+          }
+        ]
       }
     ],
     "keywords": [
@@ -6028,7 +6050,7 @@
       "switch transformer",
       "deepseek"
     ],
-    "last_watered": "2026-10-04T13:31:33.797235"
+    "last_watered": "2026-10-06T21:57:08.052341"
   },
   "kv-cache": {
     "name": "KV Cache Optimization",
