@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 724,
+  "_rotation_idx": 725,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 67,
@@ -2991,18 +2991,9 @@
   },
   "non-transformer": {
     "name": "Non-Transformer Arch",
-    "total_papers_found": 45,
-    "watering_count": 75,
+    "total_papers_found": 50,
+    "watering_count": 76,
     "history": [
-      {
-        "timestamp": "2026-08-01T20:38:38.078061",
-        "papers_found": 0,
-        "duplicates": 3,
-        "irrelevant_filtered": 7,
-        "avg_relevance": 0.0,
-        "high_relevance": 0,
-        "papers": []
-      },
       {
         "timestamp": "2026-08-02T18:50:23.664475",
         "papers_found": 0,
@@ -3685,6 +3676,37 @@
         "avg_relevance": 0.0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-10-06T03:32:50.854295",
+        "papers_found": 5,
+        "duplicates": 1,
+        "irrelevant_filtered": 4,
+        "avg_relevance": 1.2,
+        "high_relevance": 1,
+        "papers": [
+          {
+            "title": "WaveGSSM: Graph Wave State Space Models for Propagating Spatio-Temporal Patterns",
+            "summary": "Spatio-temporal graph models typically encode each snapshot with a GNN and then connect the resulting representations through a temporal module. This space-then-time design is effective, yet it does not explicitly represent how a pattern moves across the graph. We show empirically that, for a propag",
+            "published": "2026-10-05",
+            "url": "http://arxiv.org/abs/2610.06540v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "MercerFlow: Flow Matching in a Kernel-Induced Latent Space for Probabilistic Forecasting",
+            "summary": "Recent work has shown that probabilistic flow matching for time series forecasting benefits from a data-matched prior. The resulting prior introduces local correlations, which a sequential architecture usually absorbs: a recurrent neural network (RNN), a structured state-space model (S4), or a Trans",
+            "published": "2026-10-05",
+            "url": "http://arxiv.org/abs/2610.06039v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "LogSig-SSM: Time-Series Modelling with Multi-Scale Log-Signature Compression for State-Space Models",
+            "summary": "Time-series data are often sampled irregularly at high frequencies and exhibit long-range dependencies, which makes long-horizon modelling difficult. Continuous-time models such as neural controlled differential equations (NCDEs) and neural rough differential equations (NRDEs) can handle irregular s",
+            "published": "2026-10-04",
+            "url": "http://arxiv.org/abs/2610.05051v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -3697,7 +3719,7 @@
       "sub-quadratic",
       "mamba"
     ],
-    "last_watered": "2026-10-03T20:17:30.935309"
+    "last_watered": "2026-10-06T03:32:50.854291"
   },
   "few-shot": {
     "name": "Few-Shot Learning",
