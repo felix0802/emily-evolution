@@ -2978,6 +2978,36 @@
         ],
         "decided_at": "2026-10-05T16:30:59.071381"
       }
+    },
+    {
+      "id": "llm-固定起始-token-线索",
+      "name": "固定起始 token 线索",
+      "adopted_at": "2026-10-06T17:30:26.831413",
+      "decision": {
+        "tech_id": "llm-固定起始-token-线索",
+        "tech_name": "固定起始 token 线索",
+        "action": "adopt",
+        "confidence": 0.9,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-10-06T17:30:26.829141"
+      }
+    },
+    {
+      "id": "llm-循环模型固定点截断反向传播与终端-kv-共享",
+      "name": "循环模型固定点截断反向传播与终端 KV 共享",
+      "adopted_at": "2026-10-06T17:30:26.831435",
+      "decision": {
+        "tech_id": "llm-循环模型固定点截断反向传播与终端-kv-共享",
+        "tech_name": "循环模型固定点截断反向传播与终端 KV 共享",
+        "action": "adopt",
+        "confidence": 0.85,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-10-06T17:30:26.829387"
+      }
     }
   ],
   "history": [
@@ -4168,6 +4198,18 @@
       "tech_id": "llm-反应式可逆-kv-驻留-(wakekv)",
       "tech_name": "反应式可逆 KV 驻留 (WakeKV)",
       "timestamp": "2026-10-05T16:30:59.073668"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-固定起始-token-线索",
+      "tech_name": "固定起始 token 线索",
+      "timestamp": "2026-10-06T17:30:26.831418"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-循环模型固定点截断反向传播与终端-kv-共享",
+      "tech_name": "循环模型固定点截断反向传播与终端 KV 共享",
+      "timestamp": "2026-10-06T17:30:26.831437"
     }
   ]
 }

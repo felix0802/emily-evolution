@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 726,
+  "_rotation_idx": 727,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 67,
@@ -4316,18 +4316,9 @@
   },
   "continual-learning": {
     "name": "Continual Learning",
-    "total_papers_found": 89,
-    "watering_count": 73,
+    "total_papers_found": 95,
+    "watering_count": 74,
     "history": [
-      {
-        "timestamp": "2026-08-02T01:25:59.268109",
-        "papers_found": 0,
-        "duplicates": 4,
-        "irrelevant_filtered": 6,
-        "avg_relevance": 0.0,
-        "high_relevance": 0,
-        "papers": []
-      },
       {
         "timestamp": "2026-08-02T22:43:06.891487",
         "papers_found": 0,
@@ -5097,6 +5088,37 @@
             "seed_match_score": 1
           }
         ]
+      },
+      {
+        "timestamp": "2026-10-06T17:30:22.127219",
+        "papers_found": 6,
+        "duplicates": 1,
+        "irrelevant_filtered": 3,
+        "avg_relevance": 1.33,
+        "high_relevance": 2,
+        "papers": [
+          {
+            "title": "The Optimization Landscape of Learning Compacted Context Models",
+            "summary": "Many works approach continual learning through the lens of infinite context windows. As an agent puts more observation into context (concretely the KV cache), compacting said context is akin to direct memory manipulation, without affecting the base model's weights. Many works pose KV compaction as a",
+            "published": "2026-10-05",
+            "url": "http://arxiv.org/abs/2610.05885v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "When the Cross-Silo Federation Goes Offline: Continual Learning for Site Onboarding with Limited Unlabeled Data",
+            "summary": "An organization often holds too little labeled data to train a model that generalizes, and the records that would supply the rest sit with organizations that cannot release them. Cross-silo federated learning offers a way through, since participants exchange model parameters rather than records, but",
+            "published": "2026-10-04",
+            "url": "http://arxiv.org/abs/2610.05598v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Task Vector Descent: Learning from Non-IID Batches",
+            "summary": "A central challenge in continual learning is to acquire new knowledge without forgetting what the model has already learned. This challenge appears in language model training when training data comes from various domain-, user-, or task-specific distributions that are encountered unevenly over time.",
+            "published": "2026-10-04",
+            "url": "http://arxiv.org/abs/2610.05402v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -5106,7 +5128,7 @@
       "ewc",
       "elastic weight"
     ],
-    "last_watered": "2026-10-04T07:31:06.983303"
+    "last_watered": "2026-10-06T17:30:22.127214"
   },
   "moe": {
     "name": "Mixture of Experts",

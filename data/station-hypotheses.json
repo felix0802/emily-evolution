@@ -568,9 +568,49 @@
       "supporting_papers": [],
       "refuting_papers": [],
       "llm_source": "deepseek"
+    },
+    {
+      "id": "hyp-0026",
+      "timestamp": "2026-10-06T17:30:31.797773",
+      "seed_a": "HTM",
+      "seed_b": "Non-Transformer Arch",
+      "crossref_strength": 7,
+      "shared_keywords": [],
+      "hypothesis": "Combining HTM's sparse temporal memory with non-Transformer architectures (e.g., SSMs or liquid networks) via a shared attention-like gating mechanism can yield a hybrid model that achieves superior long-range temporal reasoning and online adaptation on streaming time-series data compared to either approach alone.",
+      "reasoning": "HTM provides a biologically inspired sparse distributed representation and sequence memory that excels at temporal pattern detection, while non-Transformer architectures like SSMs and liquid networks offer efficient, continuous-time sequence modeling. Both rely on attention-like mechanisms for selective information routing and multi-scale temporal integration, enabling a natural fusion where HTM's memory cells can modulate the state transitions of SSMs or liquid networks.",
+      "arxiv_query": "hierarchical temporal memory state space model hybrid",
+      "potential_breakthrough": "A unified architecture that combines HTM's sparse temporal memory with non-Transformer sequence models to enable robust, low-power, and adaptive online learning for real-world streaming data.",
+      "status": "unverified",
+      "verification_rounds": 1,
+      "supporting_papers": [
+        {
+          "title": "Cloud Failure Prediction with Hierarchical Temporal Memory: An Empirical Assessment",
+          "url": "http://arxiv.org/abs/2110.03431v2",
+          "reason": "該論文實證評估HTM於串流資料的連續學習與異常偵測，支持HTM具備時序處理與線上適應能力。"
+        }
+      ],
+      "refuting_papers": [],
+      "llm_source": "deepseek"
+    },
+    {
+      "id": "hyp-0027",
+      "timestamp": "2026-10-06T17:30:33.859701",
+      "seed_a": "Mamba (SSM)",
+      "seed_b": "Few-Shot Learning",
+      "crossref_strength": 6,
+      "shared_keywords": [],
+      "hypothesis": "A Mamba-based few-shot time-series forecasting model with a learned selective state-space prior can achieve state-of-the-art accuracy on unseen tasks with only a few support examples, outperforming gradient-based meta-learners and Transformer-based few-shot forecasters.",
+      "reasoning": "Mamba's selective state-space recurrence provides a compact, input-dependent latent state that can serve as a task-adaptive memory, while few-shot learning requires rapid adaptation from limited data. The mathematical commonality lies in treating the SSM's hidden state as a meta-learned prior over temporal dynamics, enabling conditional generation or fast weight updates without full fine-tuning.",
+      "arxiv_query": "Mamba few-shot time series forecasting meta-learning",
+      "potential_breakthrough": "Enables accurate few-shot forecasting for rare or emerging time-series domains by leveraging Mamba's efficient long-range memory and meta-learned state-space priors.",
+      "status": "unverified",
+      "verification_rounds": 0,
+      "supporting_papers": [],
+      "refuting_papers": [],
+      "llm_source": "deepseek"
     }
   ],
-  "last_updated": "2026-10-03T07:15:37.497057",
-  "total_generated": 25,
+  "last_updated": "2026-10-06T17:30:36.248481",
+  "total_generated": 27,
   "total_verified": 25
 }

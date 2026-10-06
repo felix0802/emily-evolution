@@ -1,53 +1,6 @@
 {
   "sessions": [
     {
-      "timestamp": "2026-09-16T07:14:31.633928",
-      "arxiv_papers_count": 18,
-      "arxiv_top_keywords": [
-        "graph",
-        "decoding",
-        "early",
-        "inference",
-        "autoregressive",
-        "neural",
-        "finite",
-        "high",
-        "time",
-        "recurrent"
-      ],
-      "arxiv_strategies": [
-        "搜索: kv cache LLM",
-        "搜索: graph neural network recent",
-        "搜索: speculative decoding"
-      ],
-      "huggingface_models": 10,
-      "huggingface_tasks": [
-        "sentence-similarity",
-        "unknown",
-        "fill-mask",
-        "text-ranking",
-        "feature-extraction"
-      ],
-      "ml_datasets": [
-        "Iris",
-        "Wine",
-        "Breast Cancer",
-        "Diabetes"
-      ],
-      "ml_total_tests": 22,
-      "github_trending_repos": 8,
-      "paperswithcode_papers": 8,
-      "evolution": {
-        "discovered": 21,
-        "adopted": 0,
-        "decisions": 0
-      },
-      "seed_watering": {
-        "seed_name": "Few-Shot Learning",
-        "papers_found": 7
-      }
-    },
-    {
       "timestamp": "2026-09-16T12:53:47.394001",
       "arxiv_papers_count": 18,
       "arxiv_top_keywords": [
@@ -4677,12 +4630,59 @@
         "seed_name": "Few-Shot Learning",
         "papers_found": 5
       }
+    },
+    {
+      "timestamp": "2026-10-06T17:30:29.796372",
+      "arxiv_papers_count": 18,
+      "arxiv_top_keywords": [
+        "diffusion",
+        "training",
+        "agent",
+        "llm",
+        "generation",
+        "multimodal",
+        "video",
+        "image",
+        "base",
+        "cue"
+      ],
+      "arxiv_strategies": [
+        "搜索: reinforcement learning",
+        "搜索: large language model",
+        "搜索: diffusion model"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "unknown",
+        "text-ranking",
+        "feature-extraction",
+        "fill-mask"
+      ],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 17,
+        "adopted": 2,
+        "decisions": 2
+      },
+      "seed_watering": {
+        "seed_name": "Continual Learning",
+        "papers_found": 7
+      }
     }
   ],
   "total_sessions": 101,
-  "last_updated": "2026-10-06T10:51:14.353903",
+  "last_updated": "2026-10-06T17:30:29.796389",
   "evolution_summary": {
-    "total_adopted": 198,
+    "total_adopted": 200,
     "adopted_list": [
       "Knowledge Distillation",
       "World Models / Model-Based RL",
@@ -4881,7 +4881,9 @@
       "基于能量的神经网络 (Energy-based Neural Networks)",
       "Most-Recent Anchoring",
       "自精炼 KV 缓存 (KV²)",
-      "反应式可逆 KV 驻留 (WakeKV)"
+      "反应式可逆 KV 驻留 (WakeKV)",
+      "固定起始 token 线索",
+      "循环模型固定点截断反向传播与终端 KV 共享"
     ],
     "seeds": {
       "mamba": {
@@ -4916,8 +4918,8 @@
       },
       "continual-learning": {
         "name": "Continual Learning",
-        "watering": 73,
-        "papers": 89
+        "watering": 74,
+        "papers": 95
       },
       "moe": {
         "name": "Mixture of Experts",
@@ -5021,16 +5023,16 @@
       },
       "continual-learning": {
         "name": "Continual Learning",
-        "new_papers": 84,
+        "new_papers": 90,
         "keywords_matched": [
           "catastrophic forgetting",
-          "lifelong",
           "elastic weight",
           "continual learning",
-          "ewc"
+          "ewc",
+          "lifelong"
         ],
-        "high_relevance_total": 20,
-        "avg_relevance_latest": 1.2,
+        "high_relevance_total": 22,
+        "avg_relevance_latest": 1.33,
         "best_papers_count": 3
       },
       "gnn": {
@@ -5078,6 +5080,6 @@
         "best_papers_count": 1
       }
     },
-    "last_evolution": "2026-10-06T10:51:14.355491"
+    "last_evolution": "2026-10-06T17:30:29.799307"
   }
 }

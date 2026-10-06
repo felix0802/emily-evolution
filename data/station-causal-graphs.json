@@ -360,7 +360,62 @@
       },
       "analyzed_at": "2026-10-03T00:47:53.161891",
       "llm_source": "deepseek"
+    },
+    {
+      "variables": [
+        {
+          "name": "LTC_integration",
+          "role": "cause",
+          "mechanism": "Integrating liquid time-constant dynamics into non-transformer recurrent architectures enables adaptive timescale separation by allowing each neuron to modulate its time constant based on input, which improves stability and memory retention under non-stationary inputs.",
+          "observable": true
+        },
+        {
+          "name": "Adaptive_timescale_separation",
+          "role": "effect",
+          "mechanism": "Adaptive timescale separation emerges from the integration of liquid time-constant dynamics, leading to improved stability and memory retention under non-stationary inputs.",
+          "observable": true
+        },
+        {
+          "name": "Task_nonstationarity",
+          "role": "confounder",
+          "mechanism": "The degree of non-stationarity in the task simultaneously influences the need for integrating liquid time-constant dynamics (cause) and the observed stability and memory retention (effect), creating a spurious association if not controlled.",
+          "observable": true
+        }
+      ],
+      "edges": [
+        {
+          "from": "LTC_integration",
+          "to": "Adaptive_timescale_separation",
+          "type": "direct_causal",
+          "confidence": 0.7
+        }
+      ],
+      "counterfactual": {
+        "question": "If liquid time-constant dynamics were not integrated into non-transformer recurrent architectures, would adaptive timescale separation still improve stability and memory retention under non-stationary inputs?",
+        "predicted_answer": "Without integrating liquid time-constant dynamics, the architecture would lack the mechanism to adaptively modulate timescales, likely resulting in fixed timescale behavior. Consequently, stability and memory retention under non-stationary inputs would not improve to the same extent, and may degrade compared to the integrated version.",
+        "confidence": 0.7
+      },
+      "confounders_detected": [
+        "Task_nonstationarity"
+      ],
+      "is_correlation_only": false,
+      "causal_strength": 0.7,
+      "alternative_explanations": [
+        "Increased model capacity or additional parameters from LTC integration, rather than adaptive timescale separation, could drive improvements.",
+        "The benefits may stem from regularizing effects of continuous-time dynamics, independent of timescale separation.",
+        "Architectural synergies specific to certain non-transformer recurrent networks (e.g., HTM) might cause the effect, not LTC integration per se."
+      ],
+      "hypothesis_id": "hyp-0014",
+      "hypothesis_text": "Integrating liquid time-constant dynamics into non-transformer recurrent architectures (e.g., HTM or predictive coding networks) will enable adaptive timescale separation that improves stability and m",
+      "seed_a": "Liquid Networks",
+      "seed_b": "Non-Transformer Arch",
+      "evidence_counts": {
+        "supporting": 3,
+        "refuting": 0
+      },
+      "analyzed_at": "2026-10-06T17:30:43.081923",
+      "llm_source": "deepseek"
     }
   ],
-  "total_analyzed": 5
+  "total_analyzed": 6
 }
