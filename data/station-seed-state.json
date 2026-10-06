@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 725,
+  "_rotation_idx": 726,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 67,
@@ -3723,18 +3723,9 @@
   },
   "few-shot": {
     "name": "Few-Shot Learning",
-    "total_papers_found": 36,
-    "watering_count": 74,
+    "total_papers_found": 38,
+    "watering_count": 75,
     "history": [
-      {
-        "timestamp": "2026-08-01T22:42:16.706239",
-        "papers_found": 0,
-        "duplicates": 4,
-        "irrelevant_filtered": 6,
-        "avg_relevance": 0.0,
-        "high_relevance": 0,
-        "papers": []
-      },
       {
         "timestamp": "2026-08-02T20:40:59.880185",
         "papers_found": 0,
@@ -4288,6 +4279,30 @@
         "avg_relevance": 0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-10-06T10:51:09.348275",
+        "papers_found": 2,
+        "duplicates": 3,
+        "irrelevant_filtered": 5,
+        "avg_relevance": 2.0,
+        "high_relevance": 2,
+        "papers": [
+          {
+            "title": "TMAML: Temporal Model-Agnostic Meta-Learning for Cold-Start Time Series Forecasting",
+            "summary": "Cold-start forecasting, the task of forecasting a time series with little to no historical data, is a common challenge. Addressing it requires approaches that learn quickly from few datapoints and leverage information from related series, typically through static covariates, to generalize well to un",
+            "published": "2026-10-03",
+            "url": "http://arxiv.org/abs/2610.04547v1",
+            "seed_match_score": 2
+          },
+          {
+            "title": "A Hybrid Approach to Malware Detection: Integrating Few-Shot Model-Agnostic Meta-Learning with Autoencoders",
+            "summary": "Ransomware has emerged as a major cybersecurity threat, with incidents increasing in frequency and impact across critical sectors. These attacks are typically launched through phishing emails, malicious downloads, or exploitation of software vulnerabilities to gain system access. Once inside, the ma",
+            "published": "2026-10-01",
+            "url": "http://arxiv.org/abs/2610.01949v1",
+            "seed_match_score": 2
+          }
+        ]
       }
     ],
     "keywords": [
@@ -4297,7 +4312,7 @@
       "prototypical",
       "in-context"
     ],
-    "last_watered": "2026-10-04T00:15:49.087694"
+    "last_watered": "2026-10-06T10:51:09.348272"
   },
   "continual-learning": {
     "name": "Continual Learning",

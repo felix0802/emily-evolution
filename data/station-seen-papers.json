@@ -48176,7 +48176,157 @@
         "state"
       ],
       "first_seen_round": 357
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.06850v1",
+      "title": "InterMimicGen: Scaling Humanoid Loco-Manipulation through Self-Evolving Motion Imitation",
+      "arxiv_id": "2610.06850",
+      "tokens": [
+        "evolving",
+        "humanoid",
+        "imitation",
+        "intermimicgen",
+        "loco",
+        "manipulation",
+        "motion",
+        "scaling",
+        "self"
+      ],
+      "first_seen_round": 358
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.06847v1",
+      "title": "S2PD: Serial-to-Parallel Diffusion for Physically and Logically Consistent Video Generation",
+      "arxiv_id": "2610.06847",
+      "tokens": [
+        "consistent",
+        "diffusion",
+        "generation",
+        "logically",
+        "parallel",
+        "physically",
+        "s2pd",
+        "serial",
+        "video"
+      ],
+      "first_seen_round": 358
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.06837v1",
+      "title": "Anatomy-aware Fine-grained Multimodal Fusion for Laryngopharyngeal Cancer T-Staging Prediction Using CT and Radiology Report",
+      "arxiv_id": "2610.06837",
+      "tokens": [
+        "anatomy",
+        "aware",
+        "cancer",
+        "fine",
+        "fusion",
+        "grained",
+        "laryngopharyngeal",
+        "multimodal",
+        "prediction",
+        "radiology",
+        "report",
+        "staging"
+      ],
+      "first_seen_round": 358
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.06825v1",
+      "title": "PlotGround: Grounding Plot Digitization in Real Scientific Figures and Their Source Data",
+      "arxiv_id": "2610.06825",
+      "tokens": [
+        "digitization",
+        "figures",
+        "grounding",
+        "plot",
+        "plotground",
+        "real",
+        "scientific",
+        "source"
+      ],
+      "first_seen_round": 358
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.06814v1",
+      "title": "TAPDreamer: Transferable Adversarial Patches for World Action Models",
+      "arxiv_id": "2610.06814",
+      "tokens": [
+        "action",
+        "adversarial",
+        "patches",
+        "tapdreamer",
+        "transferable",
+        "world"
+      ],
+      "first_seen_round": 358
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.06824v1",
+      "title": "TasteVal: Measuring the Experimental Research Taste of AI Systems Against Human Experts",
+      "arxiv_id": "2610.06824",
+      "tokens": [
+        "against",
+        "experimental",
+        "experts",
+        "human",
+        "measuring",
+        "research",
+        "taste",
+        "tasteval"
+      ],
+      "first_seen_round": 358
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.06817v1",
+      "title": "Paradee: Distilling Kokoro-82M into an 8M-Parameter Single-Voice Text-to-Speech Model",
+      "arxiv_id": "2610.06817",
+      "tokens": [
+        "82m",
+        "distilling",
+        "kokoro",
+        "paradee",
+        "parameter",
+        "single",
+        "speech",
+        "text",
+        "voice"
+      ],
+      "first_seen_round": 358
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.04547v1",
+      "title": "TMAML: Temporal Model-Agnostic Meta-Learning for Cold-Start Time Series Forecasting",
+      "arxiv_id": "2610.04547",
+      "tokens": [
+        "agnostic",
+        "cold",
+        "forecasting",
+        "meta",
+        "series",
+        "start",
+        "temporal",
+        "time",
+        "tmaml"
+      ],
+      "first_seen_round": 358
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.01949v1",
+      "title": "A Hybrid Approach to Malware Detection: Integrating Few-Shot Model-Agnostic Meta-Learning with Autoencoders",
+      "arxiv_id": "2610.01949",
+      "tokens": [
+        "agnostic",
+        "autoencoders",
+        "detection",
+        "hybrid",
+        "integrating",
+        "malware",
+        "meta",
+        "shot"
+      ],
+      "first_seen_round": 358
     }
   ],
-  "total_unique": 3014
+  "total_unique": 3023
 }
