@@ -1,19 +1,10 @@
 {
-  "_rotation_idx": 730,
+  "_rotation_idx": 731,
   "mamba": {
     "name": "Mamba (SSM)",
-    "total_papers_found": 67,
-    "watering_count": 76,
+    "total_papers_found": 70,
+    "watering_count": 77,
     "history": [
-      {
-        "timestamp": "2026-08-02T11:13:16.364905",
-        "papers_found": 0,
-        "duplicates": 6,
-        "irrelevant_filtered": 4,
-        "avg_relevance": 0.0,
-        "high_relevance": 0,
-        "papers": []
-      },
       {
         "timestamp": "2026-08-03T12:47:27.696683",
         "papers_found": 0,
@@ -672,6 +663,37 @@
         "avg_relevance": 0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-10-07T14:49:55.151783",
+        "papers_found": 3,
+        "duplicates": 4,
+        "irrelevant_filtered": 3,
+        "avg_relevance": 1.67,
+        "high_relevance": 2,
+        "papers": [
+          {
+            "title": "Weave Mamba Fusion: Global Cross-Scale Interaction for Lightweight Face Detection",
+            "summary": "Feature pyramid methods, from FPN to BiFPN, have achieved strong performance in face detection by fusing multi-scale features. However, detecting faces under unconstrained conditions, such as small scale, occlusion, and extreme pose, remains difficult, as it requires global cross-scale dependencies ",
+            "published": "2026-10-05",
+            "url": "http://arxiv.org/abs/2610.05865v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "TIRMamba: A Thermal-Prior-Modulated State-Space Network for Sub-Million-Parameter Infrared Image Super-Resolution",
+            "summary": "Infrared image super-resolution is currently led by Mamba-based networks with 26 to 37 million parameters, which are difficult to deploy on the airborne and handheld platforms where thermal imaging is most needed. This paper presents TIRMamba, a network with 896K to 910K parameters for single-channe",
+            "published": "2026-10-04",
+            "url": "http://arxiv.org/abs/2610.05182v1",
+            "seed_match_score": 2
+          },
+          {
+            "title": "Bounded Reachability & Jailbreak Detection via Contraction-Constrained State Space Models",
+            "summary": "Safety heads are lightweight classifiers attached to pretrained language models for flagging harmful inputs before generation. Their empirical detection performance has been studied, but their formal robustness properties remain largely unexplored. We ask when a State Space Model (SSM)-based safety ",
+            "published": "2026-10-02",
+            "url": "http://arxiv.org/abs/2610.02853v1",
+            "seed_match_score": 2
+          }
+        ]
       }
     ],
     "keywords": [
@@ -680,7 +702,7 @@
       "ssm",
       "selective scan"
     ],
-    "last_watered": "2026-10-05T00:22:32.116965"
+    "last_watered": "2026-10-07T14:49:55.151777"
   },
   "liquid-networks": {
     "name": "Liquid Networks",

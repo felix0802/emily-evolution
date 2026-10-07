@@ -49451,7 +49451,182 @@
         "saddle"
       ],
       "first_seen_round": 362
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.07940v1",
+      "title": "Hybrid Latent Attention for Looped Language Models",
+      "arxiv_id": "2610.07940",
+      "tokens": [
+        "attention",
+        "hybrid",
+        "language",
+        "latent",
+        "looped"
+      ],
+      "first_seen_round": 363
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.07863v1",
+      "title": "ReFold: Training-Free Reversible Inter-Turn Context Folding for Long-Horizon Agents",
+      "arxiv_id": "2610.07863",
+      "tokens": [
+        "agents",
+        "context",
+        "folding",
+        "free",
+        "horizon",
+        "inter",
+        "long",
+        "refold",
+        "reversible",
+        "training",
+        "turn"
+      ],
+      "first_seen_round": 363
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.06479v1",
+      "title": "Behavior-Preserving KV Cache Compression",
+      "arxiv_id": "2610.06479",
+      "tokens": [
+        "behavior",
+        "cache",
+        "compression",
+        "preserving"
+      ],
+      "first_seen_round": 363
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.07503v1",
+      "title": "Two-Sample Testing for Random Graphs without Vertex Correspondence",
+      "arxiv_id": "2610.07503",
+      "tokens": [
+        "correspondence",
+        "graphs",
+        "random",
+        "sample",
+        "testing",
+        "vertex"
+      ],
+      "first_seen_round": 363
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.06630v1",
+      "title": "Inverse Cross-spectral Neural Networks for Multivariate Time Series",
+      "arxiv_id": "2610.06630",
+      "tokens": [
+        "cross",
+        "inverse",
+        "multivariate",
+        "neural",
+        "series",
+        "spectral",
+        "time"
+      ],
+      "first_seen_round": 363
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.06011v1",
+      "title": "D-Loop: Looped Diffusion Drafting for Speculative Decoding",
+      "arxiv_id": "2610.06011",
+      "tokens": [
+        "decoding",
+        "diffusion",
+        "drafting",
+        "loop",
+        "looped",
+        "speculative"
+      ],
+      "first_seen_round": 363
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.05978v1",
+      "title": "Byte Language Models: Scaling, Emergent Abstractions, and Information Allocation",
+      "arxiv_id": "2610.05978",
+      "tokens": [
+        "abstractions",
+        "allocation",
+        "byte",
+        "emergent",
+        "information",
+        "language",
+        "scaling"
+      ],
+      "first_seen_round": 363
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.04875v2",
+      "title": "SpecFold: Folding Multi-Branch Redundancy for Faster Speculative Decoding in Diffusion Language Models",
+      "arxiv_id": "2610.04875",
+      "tokens": [
+        "branch",
+        "decoding",
+        "diffusion",
+        "faster",
+        "folding",
+        "language",
+        "multi",
+        "redundancy",
+        "specfold",
+        "speculative"
+      ],
+      "first_seen_round": 363
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.05865v1",
+      "title": "Weave Mamba Fusion: Global Cross-Scale Interaction for Lightweight Face Detection",
+      "arxiv_id": "2610.05865",
+      "tokens": [
+        "cross",
+        "detection",
+        "face",
+        "fusion",
+        "global",
+        "interaction",
+        "lightweight",
+        "mamba",
+        "scale",
+        "weave"
+      ],
+      "first_seen_round": 363
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.05182v1",
+      "title": "TIRMamba: A Thermal-Prior-Modulated State-Space Network for Sub-Million-Parameter Infrared Image Super-Resolution",
+      "arxiv_id": "2610.05182",
+      "tokens": [
+        "image",
+        "infrared",
+        "million",
+        "modulated",
+        "parameter",
+        "prior",
+        "resolution",
+        "space",
+        "state",
+        "sub",
+        "super",
+        "thermal",
+        "tirmamba"
+      ],
+      "first_seen_round": 363
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.02853v1",
+      "title": "Bounded Reachability & Jailbreak Detection via Contraction-Constrained State Space Models",
+      "arxiv_id": "2610.02853",
+      "tokens": [
+        "bounded",
+        "constrained",
+        "contraction",
+        "detection",
+        "jailbreak",
+        "reachability",
+        "space",
+        "state"
+      ],
+      "first_seen_round": 363
     }
   ],
-  "total_unique": 3095
+  "total_unique": 3106
 }

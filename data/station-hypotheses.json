@@ -580,8 +580,8 @@
       "reasoning": "HTM provides a biologically inspired sparse distributed representation and sequence memory that excels at temporal pattern detection, while non-Transformer architectures like SSMs and liquid networks offer efficient, continuous-time sequence modeling. Both rely on attention-like mechanisms for selective information routing and multi-scale temporal integration, enabling a natural fusion where HTM's memory cells can modulate the state transitions of SSMs or liquid networks.",
       "arxiv_query": "hierarchical temporal memory state space model hybrid",
       "potential_breakthrough": "A unified architecture that combines HTM's sparse temporal memory with non-Transformer sequence models to enable robust, low-power, and adaptive online learning for real-world streaming data.",
-      "status": "unverified",
-      "verification_rounds": 2,
+      "status": "supported",
+      "verification_rounds": 3,
       "supporting_papers": [
         {
           "title": "Cloud Failure Prediction with Hierarchical Temporal Memory: An Empirical Assessment",
@@ -592,10 +592,24 @@
           "title": "Cloud Failure Prediction with Hierarchical Temporal Memory: An Empirical Assessment",
           "url": "http://arxiv.org/abs/2110.03431v2",
           "reason": "該論文實證評估 HTM 能持續處理串流資料並偵測異常，支持假設中 HTM 具備串流時序處理能力的論點。"
+        },
+        {
+          "title": "Cloud Failure Prediction with Hierarchical Temporal Memory: An Empirical Assessment",
+          "url": "http://arxiv.org/abs/2110.03431v2",
+          "reason": "該論文實證評估 HTM 在串流資料上的連續學習與異常偵測能力，支持 HTM 作為混合模型時序記憶元件的可行性。"
         }
       ],
       "refuting_papers": [],
-      "llm_source": "deepseek"
+      "llm_source": "deepseek",
+      "experiment_result": {
+        "algorithms": [
+          "LogisticRegression",
+          "SVM"
+        ],
+        "winner": "SVM",
+        "accuracy_diff": -0.0067,
+        "executed_at": "2026-10-07T14:50:03.243793"
+      }
     },
     {
       "id": "hyp-0027",
@@ -615,7 +629,7 @@
       "llm_source": "deepseek"
     }
   ],
-  "last_updated": "2026-10-07T07:49:11.186512",
+  "last_updated": "2026-10-07T14:50:03.244022",
   "total_generated": 27,
-  "total_verified": 25
+  "total_verified": 26
 }

@@ -175,8 +175,60 @@
         "accuracy_difference": -0.0067,
         "winner": "RandomForest"
       }
+    },
+    {
+      "id": "exp-hyp-0026",
+      "hypothesis_id": "hyp-0026",
+      "hypothesis_text": "Combining HTM's sparse temporal memory with non-Transformer architectures (e.g., SSMs or liquid networks) via a shared attention-like gating mechanism",
+      "dataset": "Iris",
+      "algorithms": [
+        "LogisticRegression",
+        "SVM"
+      ],
+      "metric": "accuracy",
+      "cross_val": 5,
+      "designed_at": "2026-10-07T14:50:03.208447",
+      "status": "completed",
+      "outcome": {
+        "status": "completed",
+        "executed_at": "2026-10-07T14:50:03.243793",
+        "dataset": "Iris",
+        "n_samples": 150,
+        "n_features": 4,
+        "n_classes": 3,
+        "algorithms_compared": [
+          "LogisticRegression",
+          "SVM"
+        ],
+        "results": {
+          "LogisticRegression": {
+            "mean": 0.96,
+            "std": 0.0389,
+            "scores": [
+              0.9667,
+              1.0,
+              0.9333,
+              0.9,
+              1.0
+            ]
+          },
+          "SVM": {
+            "mean": 0.9667,
+            "std": 0.0211,
+            "scores": [
+              0.9667,
+              0.9667,
+              0.9667,
+              0.9333,
+              1.0
+            ]
+          }
+        },
+        "accuracy_difference": -0.0067,
+        "winner": "SVM"
+      }
     }
   ],
-  "total_experiments": 6,
-  "last_updated": "2026-09-05T23:26:09.941917"
+  "total_experiments": 7,
+  "last_updated": "2026-10-07T14:50:03.245074"
 }
