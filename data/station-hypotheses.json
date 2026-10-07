@@ -627,9 +627,26 @@
       "supporting_papers": [],
       "refuting_papers": [],
       "llm_source": "deepseek"
+    },
+    {
+      "id": "hyp-0028",
+      "timestamp": "2026-10-07T20:52:24.659925",
+      "seed_a": "HTM",
+      "seed_b": "Spiking Neural Networks",
+      "crossref_strength": 6,
+      "shared_keywords": [],
+      "hypothesis": "A spiking neural network augmented with hierarchical temporal memory (HTM) columns can achieve online, unsupervised learning of temporal sequences with significantly lower energy consumption and higher noise robustness than conventional SNNs, by using HTM's sparse distributed representations and temporal pooling to modulate spike-timing-dependent plasticity.",
+      "reasoning": "Both HTM and SNNs operate on event-driven, sparse, and temporal principles: HTM's minicolumns and cortical learning algorithms process sequences via sparse distributed representations and predictive states, while SNNs use spikes and STDP for temporal credit assignment. The mathematical common ground lies in sparse coding, temporal inference, and local plasticity rules, enabling a hybrid architecture where HTM's hierarchy provides structural priors for SNN's spike-based dynamics.",
+      "arxiv_query": "hierarchical temporal memory spiking neural networks online learning",
+      "potential_breakthrough": "Enable ultra-low-power, online sequence learning in neuromorphic hardware with human-like temporal inference and robustness to noise.",
+      "status": "unverified",
+      "verification_rounds": 1,
+      "supporting_papers": [],
+      "refuting_papers": [],
+      "llm_source": "deepseek"
     }
   ],
-  "last_updated": "2026-10-07T14:50:03.244022",
-  "total_generated": 27,
+  "last_updated": "2026-10-07T20:52:26.955299",
+  "total_generated": 28,
   "total_verified": 26
 }

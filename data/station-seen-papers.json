@@ -49626,7 +49626,136 @@
         "state"
       ],
       "first_seen_round": 363
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.07706v1",
+      "title": "WASD: Wasserstein-based Knowledge Distillation for Large Language Models",
+      "arxiv_id": "2610.07706",
+      "tokens": [
+        "distillation",
+        "knowledge",
+        "language",
+        "wasd",
+        "wasserstein"
+      ],
+      "first_seen_round": 364
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.07247v1",
+      "title": "Learning What to Distill: Bilevel Top-K Token Selection for Self-Distillation in Large Language Models",
+      "arxiv_id": "2610.07247",
+      "tokens": [
+        "bilevel",
+        "distill",
+        "distillation",
+        "language",
+        "selection",
+        "self",
+        "token",
+        "top"
+      ],
+      "first_seen_round": 364
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.08457v1",
+      "title": "Climbing the Design Ladder: Sequential Knowledge Distillation for Early-Stage Circuit Timing Prediction",
+      "arxiv_id": "2610.08457",
+      "tokens": [
+        "circuit",
+        "climbing",
+        "design",
+        "distillation",
+        "early",
+        "knowledge",
+        "ladder",
+        "prediction",
+        "sequential",
+        "stage",
+        "timing"
+      ],
+      "first_seen_round": 364
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.06420v1",
+      "title": "Efficient Secure Federated Learning via Information-Theoretically Secure Key Distribution: A Medical Imaging Case Study",
+      "arxiv_id": "2610.06420",
+      "tokens": [
+        "case",
+        "distribution",
+        "federated",
+        "imaging",
+        "information",
+        "key",
+        "medical",
+        "secure",
+        "secure",
+        "theoretically"
+      ],
+      "first_seen_round": 364
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.07032v1",
+      "title": "Investigating Model Compression for Neural Machine Translation in the Biomedical Domain",
+      "arxiv_id": "2610.07032",
+      "tokens": [
+        "biomedical",
+        "compression",
+        "domain",
+        "investigating",
+        "machine",
+        "neural",
+        "translation"
+      ],
+      "first_seen_round": 364
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.06942v1",
+      "title": "Learning to Remember: Distilling Memory Retention for Compact Recurrent Neural Networks",
+      "arxiv_id": "2610.06942",
+      "tokens": [
+        "compact",
+        "distilling",
+        "memory",
+        "neural",
+        "recurrent",
+        "remember",
+        "retention"
+      ],
+      "first_seen_round": 364
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.07383v1",
+      "title": "HyperNSDE: Personalized Neural SDEs for Joint Static-Longitudinal Clinical Data Generation",
+      "arxiv_id": "2610.07383",
+      "tokens": [
+        "clinical",
+        "generation",
+        "hypernsde",
+        "joint",
+        "longitudinal",
+        "neural",
+        "personalized",
+        "sdes",
+        "static"
+      ],
+      "first_seen_round": 364
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.05845v1",
+      "title": "CACFG: Curvature-Aware Classifier-Free Guidance and Optimal Control",
+      "arxiv_id": "2610.05845",
+      "tokens": [
+        "aware",
+        "cacfg",
+        "classifier",
+        "control",
+        "curvature",
+        "free",
+        "guidance",
+        "optimal"
+      ],
+      "first_seen_round": 364
     }
   ],
-  "total_unique": 3106
+  "total_unique": 3114
 }

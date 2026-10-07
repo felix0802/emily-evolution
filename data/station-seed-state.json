@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 731,
+  "_rotation_idx": 732,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 70,
@@ -706,18 +706,9 @@
   },
   "liquid-networks": {
     "name": "Liquid Networks",
-    "total_papers_found": 81,
-    "watering_count": 76,
+    "total_papers_found": 83,
+    "watering_count": 77,
     "history": [
-      {
-        "timestamp": "2026-08-02T12:52:02.397060",
-        "papers_found": 0,
-        "duplicates": 9,
-        "irrelevant_filtered": 1,
-        "avg_relevance": 0.0,
-        "high_relevance": 0,
-        "papers": []
-      },
       {
         "timestamp": "2026-08-03T16:13:02.731391",
         "papers_found": 0,
@@ -1408,6 +1399,30 @@
             "seed_match_score": 1
           }
         ]
+      },
+      {
+        "timestamp": "2026-10-07T20:52:18.320856",
+        "papers_found": 2,
+        "duplicates": 5,
+        "irrelevant_filtered": 3,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "HyperNSDE: Personalized Neural SDEs for Joint Static-Longitudinal Clinical Data Generation",
+            "summary": "Synthetic patient data generation is a promising solution to the dual challenge of data scarcity and privacy constraints in healthcare machine learning. Realistic synthesis of patient-level clinical data requires jointly modeling heterogeneous static covariates, irregularly sampled longitudinal traj",
+            "published": "2026-10-05",
+            "url": "http://arxiv.org/abs/2610.07383v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "CACFG: Curvature-Aware Classifier-Free Guidance and Optimal Control",
+            "summary": "Diffusion models generate samples by learning to reverse a fixed corruption process, and classifier-free guidance (CFG) is the standard mechanism for conditioning this process on a desired class or prompt. CFG can be applied at varying guidance strengths, and while higher strengths improve image qua",
+            "published": "2026-10-05",
+            "url": "http://arxiv.org/abs/2610.05845v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -1417,7 +1432,7 @@
       "ode",
       "continuous-time"
     ],
-    "last_watered": "2026-10-05T07:49:02.090974"
+    "last_watered": "2026-10-07T20:52:18.320850"
   },
   "htm": {
     "name": "HTM",
