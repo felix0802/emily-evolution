@@ -581,12 +581,17 @@
       "arxiv_query": "hierarchical temporal memory state space model hybrid",
       "potential_breakthrough": "A unified architecture that combines HTM's sparse temporal memory with non-Transformer sequence models to enable robust, low-power, and adaptive online learning for real-world streaming data.",
       "status": "unverified",
-      "verification_rounds": 1,
+      "verification_rounds": 2,
       "supporting_papers": [
         {
           "title": "Cloud Failure Prediction with Hierarchical Temporal Memory: An Empirical Assessment",
           "url": "http://arxiv.org/abs/2110.03431v2",
           "reason": "該論文實證評估HTM於串流資料的連續學習與異常偵測，支持HTM具備時序處理與線上適應能力。"
+        },
+        {
+          "title": "Cloud Failure Prediction with Hierarchical Temporal Memory: An Empirical Assessment",
+          "url": "http://arxiv.org/abs/2110.03431v2",
+          "reason": "該論文實證評估 HTM 能持續處理串流資料並偵測異常，支持假設中 HTM 具備串流時序處理能力的論點。"
         }
       ],
       "refuting_papers": [],
@@ -610,7 +615,7 @@
       "llm_source": "deepseek"
     }
   ],
-  "last_updated": "2026-10-06T21:57:16.906621",
+  "last_updated": "2026-10-07T01:14:15.803018",
   "total_generated": 27,
   "total_verified": 25
 }

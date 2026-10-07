@@ -1,53 +1,6 @@
 {
   "sessions": [
     {
-      "timestamp": "2026-09-16T17:47:35.344452",
-      "arxiv_papers_count": 19,
-      "arxiv_top_keywords": [
-        "language",
-        "social",
-        "self",
-        "llm",
-        "agentic",
-        "societies",
-        "agents",
-        "need",
-        "recursive",
-        "scientific"
-      ],
-      "arxiv_strategies": [
-        "cs.AI 最新",
-        "cs.LG 最新",
-        "cs.CL 最新"
-      ],
-      "huggingface_models": 10,
-      "huggingface_tasks": [
-        "sentence-similarity",
-        "unknown",
-        "fill-mask",
-        "text-ranking",
-        "feature-extraction"
-      ],
-      "ml_datasets": [
-        "Iris",
-        "Wine",
-        "Breast Cancer",
-        "Diabetes"
-      ],
-      "ml_total_tests": 22,
-      "github_trending_repos": 8,
-      "paperswithcode_papers": 8,
-      "evolution": {
-        "discovered": 21,
-        "adopted": 1,
-        "decisions": 1
-      },
-      "seed_watering": {
-        "seed_name": "",
-        "papers_found": 0
-      }
-    },
-    {
       "timestamp": "2026-09-16T20:32:38.898454",
       "arxiv_papers_count": 5,
       "arxiv_top_keywords": [
@@ -4677,10 +4630,57 @@
         "seed_name": "Mixture of Experts",
         "papers_found": 6
       }
+    },
+    {
+      "timestamp": "2026-10-07T01:13:58.669462",
+      "arxiv_papers_count": 11,
+      "arxiv_top_keywords": [
+        "world",
+        "latent",
+        "action",
+        "flowchart",
+        "ratio",
+        "editable",
+        "relayout",
+        "pipeline",
+        "base",
+        "cue"
+      ],
+      "arxiv_strategies": [
+        "cs.AI (fallback)",
+        "cs.AI (fallback)",
+        "搜索: world model"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "unknown",
+        "text-ranking",
+        "feature-extraction",
+        "fill-mask"
+      ],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 22,
+        "adopted": 0,
+        "decisions": 0
+      },
+      "seed_watering": {
+        "seed_name": "KV Cache Optimization",
+        "papers_found": 5
+      }
     }
   ],
   "total_sessions": 101,
-  "last_updated": "2026-10-06T21:57:14.776543",
+  "last_updated": "2026-10-07T01:13:58.669477",
   "evolution_summary": {
     "total_adopted": 200,
     "adopted_list": [
@@ -4928,8 +4928,8 @@
       },
       "kv-cache": {
         "name": "KV Cache Optimization",
-        "watering": 70,
-        "papers": 92
+        "watering": 71,
+        "papers": 97
       },
       "gnn": {
         "name": "Graph Neural Networks",
@@ -5067,19 +5067,19 @@
       },
       "kv-cache": {
         "name": "KV Cache Optimization",
-        "new_papers": 92,
+        "new_papers": 97,
         "keywords_matched": [
+          "gqa",
+          "kv cache",
           "flash attention",
           "key-value cache",
-          "kv cache",
-          "gqa",
           "speculative decoding"
         ],
         "high_relevance_total": 3,
-        "avg_relevance_latest": 0.0,
+        "avg_relevance_latest": 1.0,
         "best_papers_count": 1
       }
     },
-    "last_evolution": "2026-10-06T21:57:14.779466"
+    "last_evolution": "2026-10-07T01:13:58.672390"
   }
 }

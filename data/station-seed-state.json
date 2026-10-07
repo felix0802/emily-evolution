@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 728,
+  "_rotation_idx": 729,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 67,
@@ -6054,18 +6054,9 @@
   },
   "kv-cache": {
     "name": "KV Cache Optimization",
-    "total_papers_found": 92,
-    "watering_count": 70,
+    "total_papers_found": 97,
+    "watering_count": 71,
     "history": [
-      {
-        "timestamp": "2026-08-02T08:00:19.398650",
-        "papers_found": 0,
-        "duplicates": 6,
-        "irrelevant_filtered": 4,
-        "avg_relevance": 0.0,
-        "high_relevance": 0,
-        "papers": []
-      },
       {
         "timestamp": "2026-08-03T05:26:46.021669",
         "papers_found": 1,
@@ -6900,6 +6891,37 @@
         "avg_relevance": 0.0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-10-07T01:13:53.753677",
+        "papers_found": 5,
+        "duplicates": 0,
+        "irrelevant_filtered": 5,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "Nucleus Speculative Decoding: Plausibility-Aware Verification Beyond Exact Distribution",
+            "summary": "Speculative decoding accelerates autoregressive generation by using a lightweight draft model to propose multiple tokens that are verified by a target model in parallel. However, the standard acceptance rule focuses on exact distribution correction and rejects tokens that remain highly plausible und",
+            "published": "2026-10-06",
+            "url": "http://arxiv.org/abs/2610.07822v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Persistent Memory in Multi-Agent LLM Inference: What It Costs, What It Buys, and When You Can Tell",
+            "summary": "Decomposing long-context inference across cooperating agents bounds the active KV cache per call rather than total evidence, which matters when KV-cache memory binds. Many such systems add a persistent tier storing and recalling reasoning traces, usually validated by an ablation reporting an accurac",
+            "published": "2026-10-06",
+            "url": "http://arxiv.org/abs/2610.07782v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "APEX: Speculate smarter, not deeper",
+            "summary": "Speculative decoding reduces large language model inference latency by drafting multiple tokens before target-model verification, but its effectiveness depends on both the proposal mechanism and draft depth. Fixed configurations cannot respond to changes in predictability, repetition, and acceptance",
+            "published": "2026-10-06",
+            "url": "http://arxiv.org/abs/2610.07780v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -6911,7 +6933,7 @@
       "flash attention",
       "speculative decoding"
     ],
-    "last_watered": "2026-10-04T17:54:01.410471"
+    "last_watered": "2026-10-07T01:13:53.753671"
   },
   "gnn": {
     "name": "Graph Neural Networks",

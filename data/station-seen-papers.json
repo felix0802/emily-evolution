@@ -48938,7 +48938,156 @@
         "unity"
       ],
       "first_seen_round": 360
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.08033v1",
+      "title": "Learning in Dreams, Winning in Reality: A Continuous Dyna Loop for a Ten-Hero MOBA",
+      "arxiv_id": "2610.08033",
+      "tokens": [
+        "continuous",
+        "dreams",
+        "dyna",
+        "hero",
+        "loop",
+        "moba",
+        "reality",
+        "ten",
+        "winning"
+      ],
+      "first_seen_round": 361
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.07599v1",
+      "title": "Modeling Latent Disturbances for Robust Decision-Making in World Models",
+      "arxiv_id": "2610.07599",
+      "tokens": [
+        "decision",
+        "disturbances",
+        "latent",
+        "making",
+        "modeling",
+        "robust",
+        "world"
+      ],
+      "first_seen_round": 361
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.06598v1",
+      "title": "SimForcing: Distilling Simulation Motion Priors into Real-Domain Robot World Models",
+      "arxiv_id": "2610.06598",
+      "tokens": [
+        "distilling",
+        "domain",
+        "motion",
+        "priors",
+        "real",
+        "robot",
+        "simforcing",
+        "simulation",
+        "world"
+      ],
+      "first_seen_round": 361
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.06582v1",
+      "title": "Mind the Execution Gap: Action-Semantic Mismatch in World-Model Control",
+      "arxiv_id": "2610.06582",
+      "tokens": [
+        "action",
+        "control",
+        "execution",
+        "gap",
+        "mind",
+        "mismatch",
+        "semantic",
+        "world"
+      ],
+      "first_seen_round": 361
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.05996v1",
+      "title": "EpicWorldModel: Exploration-driven Planning with Latent World Models",
+      "arxiv_id": "2610.05996",
+      "tokens": [
+        "driven",
+        "epicworldmodel",
+        "exploration",
+        "latent",
+        "planning",
+        "world"
+      ],
+      "first_seen_round": 361
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.07822v1",
+      "title": "Nucleus Speculative Decoding: Plausibility-Aware Verification Beyond Exact Distribution",
+      "arxiv_id": "2610.07822",
+      "tokens": [
+        "aware",
+        "decoding",
+        "distribution",
+        "exact",
+        "nucleus",
+        "plausibility",
+        "speculative",
+        "verification"
+      ],
+      "first_seen_round": 361
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.07782v1",
+      "title": "Persistent Memory in Multi-Agent LLM Inference: What It Costs, What It Buys, and When You Can Tell",
+      "arxiv_id": "2610.07782",
+      "tokens": [
+        "agent",
+        "buys",
+        "costs",
+        "inference",
+        "llm",
+        "memory",
+        "multi",
+        "persistent",
+        "tell"
+      ],
+      "first_seen_round": 361
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.07780v1",
+      "title": "APEX: Speculate smarter, not deeper",
+      "arxiv_id": "2610.07780",
+      "tokens": [
+        "apex",
+        "deeper",
+        "smarter",
+        "speculate"
+      ],
+      "first_seen_round": 361
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.07659v1",
+      "title": "DLoop: Looped Speculative Decoding",
+      "arxiv_id": "2610.07659",
+      "tokens": [
+        "decoding",
+        "dloop",
+        "looped",
+        "speculative"
+      ],
+      "first_seen_round": 361
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.07643v1",
+      "title": "Monte Carlo Estimation for KV Cache Eviction",
+      "arxiv_id": "2610.07643",
+      "tokens": [
+        "cache",
+        "carlo",
+        "estimation",
+        "eviction",
+        "monte"
+      ],
+      "first_seen_round": 361
     }
   ],
-  "total_unique": 3063
+  "total_unique": 3073
 }
