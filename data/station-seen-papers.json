@@ -50149,7 +50149,320 @@
         "time"
       ],
       "first_seen_round": 365
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.10539v1",
+      "title": "Tetris3D: 3D Scene Generation With Objects That Fit Together",
+      "arxiv_id": "2610.10539",
+      "tokens": [
+        "fit",
+        "generation",
+        "objects",
+        "scene",
+        "tetris3d",
+        "together"
+      ],
+      "first_seen_round": 366
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.10538v1",
+      "title": "Never Look Back: Understanding Persistence in 3D Object Memory from Egocentric Videos",
+      "arxiv_id": "2610.10538",
+      "tokens": [
+        "back",
+        "egocentric",
+        "look",
+        "memory",
+        "never",
+        "object",
+        "persistence",
+        "understanding",
+        "videos"
+      ],
+      "first_seen_round": 366
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.10528v1",
+      "title": "Long-WAM: Scaling the Context of World-Action Models",
+      "arxiv_id": "2610.10528",
+      "tokens": [
+        "action",
+        "context",
+        "long",
+        "scaling",
+        "wam",
+        "world"
+      ],
+      "first_seen_round": 366
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.10524v1",
+      "title": "GRACE: Generation-aware latent compression for efficient video generation",
+      "arxiv_id": "2610.10524",
+      "tokens": [
+        "aware",
+        "compression",
+        "generation",
+        "generation",
+        "grace",
+        "latent",
+        "video"
+      ],
+      "first_seen_round": 366
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.10512v1",
+      "title": "Video-Conditioned Generative Joint 2D-3D Hand Motion Recovery",
+      "arxiv_id": "2610.10512",
+      "tokens": [
+        "conditioned",
+        "generative",
+        "hand",
+        "joint",
+        "motion",
+        "recovery",
+        "video"
+      ],
+      "first_seen_round": 366
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.10497v1",
+      "title": "QuadTok: Quadtree Visual Tokenizer for Autoregressive Image Generation",
+      "arxiv_id": "2610.10497",
+      "tokens": [
+        "autoregressive",
+        "generation",
+        "image",
+        "quadtok",
+        "quadtree",
+        "tokenizer",
+        "visual"
+      ],
+      "first_seen_round": 366
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.10491v1",
+      "title": "Insights from Autoresearch for Solar Panel Segmentation",
+      "arxiv_id": "2610.10491",
+      "tokens": [
+        "autoresearch",
+        "insights",
+        "panel",
+        "segmentation",
+        "solar"
+      ],
+      "first_seen_round": 366
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.10479v1",
+      "title": "Agentic RSR: Real-to-Sim-to-Real through Scene Reconstruction and Execution-Grounded Robot Policies",
+      "arxiv_id": "2610.10479",
+      "tokens": [
+        "agentic",
+        "execution",
+        "grounded",
+        "policies",
+        "real",
+        "real",
+        "reconstruction",
+        "robot",
+        "rsr",
+        "scene",
+        "sim"
+      ],
+      "first_seen_round": 366
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.10536v1",
+      "title": "Decoupling Exploration from Optimization in RLVR",
+      "arxiv_id": "2610.10536",
+      "tokens": [
+        "decoupling",
+        "exploration",
+        "optimization",
+        "rlvr"
+      ],
+      "first_seen_round": 366
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.10527v1",
+      "title": "Decentralized SGD under Heavy-Tailed Noise: Optimal Convergence Rates and the Role of Gradient Clipping",
+      "arxiv_id": "2610.10527",
+      "tokens": [
+        "clipping",
+        "convergence",
+        "decentralized",
+        "gradient",
+        "heavy",
+        "noise",
+        "optimal",
+        "rates",
+        "role",
+        "sgd",
+        "tailed"
+      ],
+      "first_seen_round": 366
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.10526v1",
+      "title": "Rephrase Before You Act: Characterizing and Mitigating Language Sensitivity in Vision-Language-Action Models",
+      "arxiv_id": "2610.10526",
+      "tokens": [
+        "act",
+        "action",
+        "characterizing",
+        "language",
+        "language",
+        "mitigating",
+        "rephrase",
+        "sensitivity",
+        "vision"
+      ],
+      "first_seen_round": 366
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.10520v1",
+      "title": "Distilling Graph Geometry: Knowledge Gap from GNNs to MLPs",
+      "arxiv_id": "2610.10520",
+      "tokens": [
+        "distilling",
+        "gap",
+        "geometry",
+        "gnns",
+        "graph",
+        "knowledge",
+        "mlps"
+      ],
+      "first_seen_round": 366
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.10519v1",
+      "title": "Why Forget-Only Unlearning Needs Memorization",
+      "arxiv_id": "2610.10519",
+      "tokens": [
+        "forget",
+        "memorization",
+        "needs",
+        "unlearning",
+        "why"
+      ],
+      "first_seen_round": 366
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.10515v1",
+      "title": "RoboJEPA: Scaling Robotic Latent World Models",
+      "arxiv_id": "2610.10515",
+      "tokens": [
+        "latent",
+        "robojepa",
+        "robotic",
+        "scaling",
+        "world"
+      ],
+      "first_seen_round": 366
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.10513v1",
+      "title": "SciExam for ENSO: Can AI Agents Build Climate Models?",
+      "arxiv_id": "2610.10513",
+      "tokens": [
+        "agents",
+        "build",
+        "climate",
+        "enso",
+        "sciexam"
+      ],
+      "first_seen_round": 366
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.10507v1",
+      "title": "RECAST: Learning to Compute the Right Context through Adaptive Evidence Routing",
+      "arxiv_id": "2610.10507",
+      "tokens": [
+        "adaptive",
+        "compute",
+        "context",
+        "evidence",
+        "recast",
+        "right",
+        "routing"
+      ],
+      "first_seen_round": 366
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.10506v1",
+      "title": "Validity Without Ground Truth: What Stated-Preference Economics Offers the Evaluation of Language Models",
+      "arxiv_id": "2610.10506",
+      "tokens": [
+        "economics",
+        "evaluation",
+        "ground",
+        "language",
+        "offers",
+        "preference",
+        "stated",
+        "truth",
+        "validity"
+      ],
+      "first_seen_round": 366
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.10499v1",
+      "title": "Oracle-Efficient and Parameter-Free Agnostic Smoothed Online Learning",
+      "arxiv_id": "2610.10499",
+      "tokens": [
+        "agnostic",
+        "free",
+        "online",
+        "oracle",
+        "parameter",
+        "smoothed"
+      ],
+      "first_seen_round": 366
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.10533v1",
+      "title": "EngramEdit: Decoupled Knowledge Updates in LLMs through Conditional Memory",
+      "arxiv_id": "2610.10533",
+      "tokens": [
+        "conditional",
+        "decoupled",
+        "engramedit",
+        "knowledge",
+        "llms",
+        "memory",
+        "updates"
+      ],
+      "first_seen_round": 366
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.10508v1",
+      "title": "Your Prompt Should Do More: Effects of Retrieval Instructions in Embedding Models",
+      "arxiv_id": "2610.10508",
+      "tokens": [
+        "effects",
+        "embedding",
+        "instructions",
+        "prompt",
+        "retrieval"
+      ],
+      "first_seen_round": 366
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.07808v1",
+      "title": "Common-Mode Errors Limit Low-Timestep Deep Spiking Q-Networks",
+      "arxiv_id": "2610.07808",
+      "tokens": [
+        "common",
+        "errors",
+        "limit",
+        "low",
+        "mode",
+        "spiking",
+        "timestep"
+      ],
+      "first_seen_round": 366
     }
   ],
-  "total_unique": 3140
+  "total_unique": 3161
 }

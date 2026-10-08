@@ -3038,6 +3038,36 @@
         ],
         "decided_at": "2026-10-08T01:24:11.263590"
       }
+    },
+    {
+      "id": "llm-tetris3d",
+      "name": "Tetris3D",
+      "adopted_at": "2026-10-08T08:06:02.663899",
+      "decision": {
+        "tech_id": "llm-tetris3d",
+        "tech_name": "Tetris3D",
+        "action": "adopt",
+        "confidence": 0.9,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-10-08T08:06:02.661595"
+      }
+    },
+    {
+      "id": "llm-long-wam",
+      "name": "Long-WAM",
+      "adopted_at": "2026-10-08T08:06:02.663923",
+      "decision": {
+        "tech_id": "llm-long-wam",
+        "tech_name": "Long-WAM",
+        "action": "adopt",
+        "confidence": 0.85,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-10-08T08:06:02.661838"
+      }
     }
   ],
   "history": [
@@ -4252,6 +4282,18 @@
       "tech_id": "auto-flow matching",
       "tech_name": "Flow Matching",
       "timestamp": "2026-10-08T01:24:11.265067"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-tetris3d",
+      "tech_name": "Tetris3D",
+      "timestamp": "2026-10-08T08:06:02.663905"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-long-wam",
+      "tech_name": "Long-WAM",
+      "timestamp": "2026-10-08T08:06:02.663924"
     }
   ]
 }

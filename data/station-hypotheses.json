@@ -622,8 +622,8 @@
       "reasoning": "Mamba's selective state-space recurrence provides a compact, input-dependent latent state that can serve as a task-adaptive memory, while few-shot learning requires rapid adaptation from limited data. The mathematical commonality lies in treating the SSM's hidden state as a meta-learned prior over temporal dynamics, enabling conditional generation or fast weight updates without full fine-tuning.",
       "arxiv_query": "Mamba few-shot time series forecasting meta-learning",
       "potential_breakthrough": "Enables accurate few-shot forecasting for rare or emerging time-series domains by leveraging Mamba's efficient long-range memory and meta-learned state-space priors.",
-      "status": "unverified",
-      "verification_rounds": 2,
+      "status": "inconclusive",
+      "verification_rounds": 3,
       "supporting_papers": [],
       "refuting_papers": [],
       "llm_source": "deepseek"
@@ -646,7 +646,7 @@
       "llm_source": "deepseek"
     }
   ],
-  "last_updated": "2026-10-08T01:24:17.417421",
+  "last_updated": "2026-10-08T08:06:07.441187",
   "total_generated": 28,
-  "total_verified": 26
+  "total_verified": 27
 }

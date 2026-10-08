@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 733,
+  "_rotation_idx": 734,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 70,
@@ -2394,18 +2394,9 @@
   },
   "spiking-nn": {
     "name": "Spiking Neural Networks",
-    "total_papers_found": 46,
-    "watering_count": 75,
+    "total_papers_found": 47,
+    "watering_count": 76,
     "history": [
-      {
-        "timestamp": "2026-08-02T16:43:17.404135",
-        "papers_found": 0,
-        "duplicates": 9,
-        "irrelevant_filtered": 1,
-        "avg_relevance": 0.0,
-        "high_relevance": 0,
-        "papers": []
-      },
       {
         "timestamp": "2026-08-03T20:52:01.363104",
         "papers_found": 0,
@@ -3038,6 +3029,23 @@
             "seed_match_score": 2
           }
         ]
+      },
+      {
+        "timestamp": "2026-10-08T08:05:58.072152",
+        "papers_found": 1,
+        "duplicates": 9,
+        "irrelevant_filtered": 0,
+        "avg_relevance": 2.0,
+        "high_relevance": 1,
+        "papers": [
+          {
+            "title": "Common-Mode Errors Limit Low-Timestep Deep Spiking Q-Networks",
+            "summary": "Spiking neural networks (SNNs) offer sparse and event-driven computation, making them attractive for energy-constrained reinforcement learning (RL) on edge devices. In value-based RL, deep spiking Q-networks (DSQNs) combine such efficiency with action-value estimation for decision making. However, e",
+            "published": "2026-10-06",
+            "url": "http://arxiv.org/abs/2610.07808v1",
+            "seed_match_score": 2
+          }
+        ]
       }
     ],
     "keywords": [
@@ -3046,7 +3054,7 @@
       "neuromorphic",
       "spike-timing"
     ],
-    "last_watered": "2026-10-05T23:25:04.025272"
+    "last_watered": "2026-10-08T08:05:58.072145"
   },
   "non-transformer": {
     "name": "Non-Transformer Arch",
