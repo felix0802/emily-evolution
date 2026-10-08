@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-07T20:52:22.589814",
+  "timestamp": "2026-10-08T01:24:14.564834",
   "connections": [
     {
       "seed_a": "Mamba (SSM)",
@@ -19,38 +19,7 @@
         "time"
       ],
       "strength": 12,
-      "discovered_at": "2026-10-07T20:52:22.589650"
-    },
-    {
-      "seed_a": "HTM",
-      "seed_b": "Non-Transformer Arch",
-      "shared_keywords": [],
-      "shared_paper_concepts": [
-        "attention",
-        "multi",
-        "scale",
-        "series",
-        "temporal",
-        "time",
-        "with"
-      ],
-      "strength": 7,
-      "discovered_at": "2026-10-07T20:52:22.589738"
-    },
-    {
-      "seed_a": "Mamba (SSM)",
-      "seed_b": "HTM",
-      "shared_keywords": [],
-      "shared_paper_concepts": [
-        "detection",
-        "fusion",
-        "learning",
-        "scale",
-        "series",
-        "time"
-      ],
-      "strength": 6,
-      "discovered_at": "2026-10-07T20:52:22.589642"
+      "discovered_at": "2026-10-08T01:24:14.564657"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -65,37 +34,7 @@
         "time"
       ],
       "strength": 6,
-      "discovered_at": "2026-10-07T20:52:22.589653"
-    },
-    {
-      "seed_a": "HTM",
-      "seed_b": "Spiking Neural Networks",
-      "shared_keywords": [],
-      "shared_paper_concepts": [
-        "across",
-        "learning",
-        "networks",
-        "neural",
-        "spiking",
-        "with"
-      ],
-      "strength": 6,
-      "discovered_at": "2026-10-07T20:52:22.589734"
-    },
-    {
-      "seed_a": "HTM",
-      "seed_b": "Few-Shot Learning",
-      "shared_keywords": [],
-      "shared_paper_concepts": [
-        "detection",
-        "learning",
-        "series",
-        "temporal",
-        "time",
-        "with"
-      ],
-      "strength": 6,
-      "discovered_at": "2026-10-07T20:52:22.589741"
+      "discovered_at": "2026-10-08T01:24:14.564660"
     },
     {
       "seed_a": "Non-Transformer Arch",
@@ -110,21 +49,21 @@
         "with"
       ],
       "strength": 6,
-      "discovered_at": "2026-10-07T20:52:22.589771"
+      "discovered_at": "2026-10-08T01:24:14.564766"
     },
     {
       "seed_a": "Liquid Networks",
       "seed_b": "HTM",
       "shared_keywords": [],
       "shared_paper_concepts": [
+        "data",
         "free",
-        "inference",
-        "neural",
-        "time",
+        "limit",
+        "optimal",
         "with"
       ],
       "strength": 5,
-      "discovered_at": "2026-10-07T20:52:22.589677"
+      "discovered_at": "2026-10-08T01:24:14.564673"
     },
     {
       "seed_a": "Liquid Networks",
@@ -138,7 +77,21 @@
         "with"
       ],
       "strength": 5,
-      "discovered_at": "2026-10-07T20:52:22.589683"
+      "discovered_at": "2026-10-08T01:24:14.564679"
+    },
+    {
+      "seed_a": "HTM",
+      "seed_b": "Spiking Neural Networks",
+      "shared_keywords": [],
+      "shared_paper_concepts": [
+        "across",
+        "learning",
+        "self",
+        "source",
+        "with"
+      ],
+      "strength": 5,
+      "discovered_at": "2026-10-08T01:24:14.564730"
     },
     {
       "seed_a": "Non-Transformer Arch",
@@ -152,7 +105,46 @@
         "multi"
       ],
       "strength": 5,
-      "discovered_at": "2026-10-07T20:52:22.589779"
+      "discovered_at": "2026-10-08T01:24:14.564775"
+    },
+    {
+      "seed_a": "Mamba (SSM)",
+      "seed_b": "Spiking Neural Networks",
+      "shared_keywords": [],
+      "shared_paper_concepts": [
+        "architectures",
+        "learning",
+        "model",
+        "network"
+      ],
+      "strength": 4,
+      "discovered_at": "2026-10-08T01:24:14.564652"
+    },
+    {
+      "seed_a": "HTM",
+      "seed_b": "Few-Shot Learning",
+      "shared_keywords": [],
+      "shared_paper_concepts": [
+        "detection",
+        "learning",
+        "malware",
+        "with"
+      ],
+      "strength": 4,
+      "discovered_at": "2026-10-08T01:24:14.564736"
+    },
+    {
+      "seed_a": "HTM",
+      "seed_b": "Graph Neural Networks",
+      "shared_keywords": [],
+      "shared_paper_concepts": [
+        "learning",
+        "order",
+        "self",
+        "supervised"
+      ],
+      "strength": 4,
+      "discovered_at": "2026-10-08T01:24:14.564748"
     }
   ],
   "total_seeds": 10

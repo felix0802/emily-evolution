@@ -3008,6 +3008,36 @@
         ],
         "decided_at": "2026-10-06T17:30:26.829387"
       }
+    },
+    {
+      "id": "llm-flow-matching",
+      "name": "Flow Matching",
+      "adopted_at": "2026-10-08T01:24:11.265046",
+      "decision": {
+        "tech_id": "llm-flow-matching",
+        "tech_name": "Flow Matching",
+        "action": "adopt",
+        "confidence": 0.9,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-10-08T01:24:11.263294"
+      }
+    },
+    {
+      "id": "auto-flow matching",
+      "name": "Flow Matching",
+      "adopted_at": "2026-10-08T01:24:11.265065",
+      "decision": {
+        "tech_id": "auto-flow matching",
+        "tech_name": "Flow Matching",
+        "action": "adopt",
+        "confidence": 0.35,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-10-08T01:24:11.263590"
+      }
     }
   ],
   "history": [
@@ -4210,6 +4240,18 @@
       "tech_id": "llm-循环模型固定点截断反向传播与终端-kv-共享",
       "tech_name": "循环模型固定点截断反向传播与终端 KV 共享",
       "timestamp": "2026-10-06T17:30:26.831437"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-flow-matching",
+      "tech_name": "Flow Matching",
+      "timestamp": "2026-10-08T01:24:11.265051"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "auto-flow matching",
+      "tech_name": "Flow Matching",
+      "timestamp": "2026-10-08T01:24:11.265067"
     }
   ]
 }

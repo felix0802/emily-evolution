@@ -1,53 +1,6 @@
 {
   "sessions": [
     {
-      "timestamp": "2026-09-17T08:58:27.137154",
-      "arxiv_papers_count": 5,
-      "arxiv_top_keywords": [
-        "their",
-        "objective",
-        "search",
-        "what",
-        "tokenisation",
-        "preference",
-        "alignment",
-        "zeroth",
-        "order",
-        "likelihood"
-      ],
-      "arxiv_strategies": [
-        "cs.AI (fallback)",
-        "cs.AI (fallback)",
-        "cs.AI (fallback)"
-      ],
-      "huggingface_models": 10,
-      "huggingface_tasks": [
-        "sentence-similarity",
-        "unknown",
-        "fill-mask",
-        "text-ranking",
-        "feature-extraction"
-      ],
-      "ml_datasets": [
-        "Iris",
-        "Wine",
-        "Breast Cancer",
-        "Diabetes"
-      ],
-      "ml_total_tests": 22,
-      "github_trending_repos": 8,
-      "paperswithcode_papers": 8,
-      "evolution": {
-        "discovered": 13,
-        "adopted": 0,
-        "decisions": 0
-      },
-      "seed_watering": {
-        "seed_name": "",
-        "papers_found": 0
-      }
-    },
-    {
       "timestamp": "2026-09-17T14:30:54.467237",
       "arxiv_papers_count": 5,
       "arxiv_top_keywords": [
@@ -4677,12 +4630,59 @@
         "seed_name": "Liquid Networks",
         "papers_found": 7
       }
+    },
+    {
+      "timestamp": "2026-10-08T01:24:14.552886",
+      "arxiv_papers_count": 21,
+      "arxiv_top_keywords": [
+        "flow",
+        "llms",
+        "world",
+        "learning",
+        "evaluation",
+        "hand",
+        "object",
+        "interaction",
+        "hof",
+        "ideaanchor"
+      ],
+      "arxiv_strategies": [
+        "cs.AI 最新",
+        "cs.LG 最新",
+        "cs.CL 最新"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "unknown",
+        "text-ranking",
+        "feature-extraction",
+        "fill-mask"
+      ],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 17,
+        "adopted": 2,
+        "decisions": 2
+      },
+      "seed_watering": {
+        "seed_name": "HTM",
+        "papers_found": 5
+      }
     }
   ],
   "total_sessions": 101,
-  "last_updated": "2026-10-07T20:52:22.577276",
+  "last_updated": "2026-10-08T01:24:14.552900",
   "evolution_summary": {
-    "total_adopted": 200,
+    "total_adopted": 202,
     "adopted_list": [
       "Knowledge Distillation",
       "World Models / Model-Based RL",
@@ -4883,7 +4883,9 @@
       "自精炼 KV 缓存 (KV²)",
       "反应式可逆 KV 驻留 (WakeKV)",
       "固定起始 token 线索",
-      "循环模型固定点截断反向传播与终端 KV 共享"
+      "循环模型固定点截断反向传播与终端 KV 共享",
+      "Flow Matching",
+      "Flow Matching"
     ],
     "seeds": {
       "mamba": {
@@ -4898,8 +4900,8 @@
       },
       "htm": {
         "name": "HTM",
-        "watering": 76,
-        "papers": 121
+        "watering": 77,
+        "papers": 126
       },
       "spiking-nn": {
         "name": "Spiking Neural Networks",
@@ -4991,18 +4993,18 @@
       },
       "htm": {
         "name": "HTM",
-        "new_papers": 116,
+        "new_papers": 121,
         "keywords_matched": [
-          "anomaly detection",
-          "hierarchical temporal",
-          "sparse distributed",
           "sequence memory",
+          "sparse distributed",
+          "anomaly detection",
+          "online learning",
           "predictive coding",
-          "cortical",
-          "online learning"
+          "hierarchical temporal",
+          "cortical"
         ],
         "high_relevance_total": 3,
-        "avg_relevance_latest": 0.0,
+        "avg_relevance_latest": 1.0,
         "best_papers_count": 0
       },
       "non-transformer": {
@@ -5080,6 +5082,6 @@
         "best_papers_count": 1
       }
     },
-    "last_evolution": "2026-10-07T20:52:22.579688"
+    "last_evolution": "2026-10-08T01:24:14.555258"
   }
 }

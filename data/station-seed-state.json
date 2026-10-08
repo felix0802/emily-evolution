@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 732,
+  "_rotation_idx": 733,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 70,
@@ -1436,18 +1436,9 @@
   },
   "htm": {
     "name": "HTM",
-    "total_papers_found": 121,
-    "watering_count": 76,
+    "total_papers_found": 126,
+    "watering_count": 77,
     "history": [
-      {
-        "timestamp": "2026-08-02T14:53:06.551352",
-        "papers_found": 0,
-        "duplicates": 3,
-        "irrelevant_filtered": 7,
-        "avg_relevance": 0.0,
-        "high_relevance": 0,
-        "papers": []
-      },
       {
         "timestamp": "2026-08-03T19:14:56.282071",
         "papers_found": 1,
@@ -2354,6 +2345,37 @@
         "avg_relevance": 0.0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-10-08T01:24:06.213011",
+        "papers_found": 5,
+        "duplicates": 0,
+        "irrelevant_filtered": 5,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "Pareto-optimal quantum kernel selection for unsupervised anomaly detection on real malware beaconing data",
+            "summary": "Quantum kernel methods are leading candidates for a practical quantum advantage in machine learning, but assessing that potential requires two quantities usually reported separately: how well a kernel performs on the task, and how far its geometry departs from the classical kernels available for the",
+            "published": "2026-10-07",
+            "url": "http://arxiv.org/abs/2610.09717v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Optimal Regret for Online Market Making with Limit Order Book",
+            "summary": "We study online learning in market making, where, at each round, a market maker posts bid and ask prices before observing the market price and the private valuation of an incoming trader. In this setting, Maran et al. 2026 introduce a feedback model motivated by limit order books, in which the trade",
+            "published": "2026-10-07",
+            "url": "http://arxiv.org/abs/2610.09691v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "A Multi-Source Ultrasound Benchmark Revealing the Limits of Contemporary Self-Supervised Anomaly Detection Methods",
+            "summary": "Self-supervised anomaly detection is a promising paradigm for medical ultrasound, as normal images are often easier to obtain than exhaustive annotations of all possible pathologies. However, most existing evaluations are limited to a single anatomy or task, making it unclear whether models learn a ",
+            "published": "2026-10-07",
+            "url": "http://arxiv.org/abs/2610.09677v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -2368,7 +2390,7 @@
       "anomaly detection",
       "continuous learning"
     ],
-    "last_watered": "2026-10-05T16:30:54.469139"
+    "last_watered": "2026-10-08T01:24:06.213005"
   },
   "spiking-nn": {
     "name": "Spiking Neural Networks",
