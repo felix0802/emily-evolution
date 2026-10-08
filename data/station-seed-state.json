@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 734,
+  "_rotation_idx": 735,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 70,
@@ -3058,18 +3058,9 @@
   },
   "non-transformer": {
     "name": "Non-Transformer Arch",
-    "total_papers_found": 50,
-    "watering_count": 76,
+    "total_papers_found": 51,
+    "watering_count": 77,
     "history": [
-      {
-        "timestamp": "2026-08-02T18:50:23.664475",
-        "papers_found": 0,
-        "duplicates": 3,
-        "irrelevant_filtered": 7,
-        "avg_relevance": 0.0,
-        "high_relevance": 0,
-        "papers": []
-      },
       {
         "timestamp": "2026-08-03T22:48:33.749036",
         "papers_found": 0,
@@ -3774,6 +3765,23 @@
             "seed_match_score": 1
           }
         ]
+      },
+      {
+        "timestamp": "2026-10-08T17:05:20.375620",
+        "papers_found": 1,
+        "duplicates": 1,
+        "irrelevant_filtered": 3,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "Executing Causal Structure Learning with Linear-Attention Transformers",
+            "summary": "Transformers can execute algorithms on data given in their input. We ask whether they can do the same for causal discovery. We study a standard continuous method that repeatedly updates a candidate causal graph while enforcing acyclicity. We explicitly construct a fixed-weight transformer whose forw",
+            "published": "2026-10-07",
+            "url": "http://arxiv.org/abs/2610.10395v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -3786,7 +3794,7 @@
       "sub-quadratic",
       "mamba"
     ],
-    "last_watered": "2026-10-06T03:32:50.854291"
+    "last_watered": "2026-10-08T17:05:20.375614"
   },
   "few-shot": {
     "name": "Few-Shot Learning",

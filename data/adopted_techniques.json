@@ -3068,6 +3068,36 @@
         ],
         "decided_at": "2026-10-08T08:06:02.661838"
       }
+    },
+    {
+      "id": "llm-3d物体记忆",
+      "name": "3D物体记忆",
+      "adopted_at": "2026-10-08T17:05:24.190333",
+      "decision": {
+        "tech_id": "llm-3d物体记忆",
+        "tech_name": "3D物体记忆",
+        "action": "adopt",
+        "confidence": 0.9,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-10-08T17:05:24.187955"
+      }
+    },
+    {
+      "id": "llm-rlvr中的探索与优化解耦",
+      "name": "RLVR中的探索与优化解耦",
+      "adopted_at": "2026-10-08T17:05:24.190356",
+      "decision": {
+        "tech_id": "llm-rlvr中的探索与优化解耦",
+        "tech_name": "RLVR中的探索与优化解耦",
+        "action": "adopt",
+        "confidence": 0.85,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-10-08T17:05:24.188188"
+      }
     }
   ],
   "history": [
@@ -4294,6 +4324,18 @@
       "tech_id": "llm-long-wam",
       "tech_name": "Long-WAM",
       "timestamp": "2026-10-08T08:06:02.663924"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-3d物体记忆",
+      "tech_name": "3D物体记忆",
+      "timestamp": "2026-10-08T17:05:24.190338"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-rlvr中的探索与优化解耦",
+      "tech_name": "RLVR中的探索与优化解耦",
+      "timestamp": "2026-10-08T17:05:24.190358"
     }
   ]
 }

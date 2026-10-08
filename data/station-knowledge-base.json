@@ -1,53 +1,6 @@
 {
   "sessions": [
     {
-      "timestamp": "2026-09-17T19:22:07.764674",
-      "arxiv_papers_count": 5,
-      "arxiv_top_keywords": [
-        "their",
-        "objective",
-        "search",
-        "what",
-        "tokenisation",
-        "preference",
-        "alignment",
-        "zeroth",
-        "order",
-        "likelihood"
-      ],
-      "arxiv_strategies": [
-        "cs.AI (fallback)",
-        "cs.AI (fallback)",
-        "cs.AI (fallback)"
-      ],
-      "huggingface_models": 10,
-      "huggingface_tasks": [
-        "sentence-similarity",
-        "unknown",
-        "fill-mask",
-        "text-ranking",
-        "feature-extraction"
-      ],
-      "ml_datasets": [
-        "Iris",
-        "Wine",
-        "Breast Cancer",
-        "Diabetes"
-      ],
-      "ml_total_tests": 22,
-      "github_trending_repos": 8,
-      "paperswithcode_papers": 8,
-      "evolution": {
-        "discovered": 17,
-        "adopted": 2,
-        "decisions": 2
-      },
-      "seed_watering": {
-        "seed_name": "",
-        "papers_found": 0
-      }
-    },
-    {
       "timestamp": "2026-09-17T22:30:31.786843",
       "arxiv_papers_count": 5,
       "arxiv_top_keywords": [
@@ -4677,12 +4630,59 @@
         "seed_name": "Spiking Neural Networks",
         "papers_found": 10
       }
+    },
+    {
+      "timestamp": "2026-10-08T17:05:27.618889",
+      "arxiv_papers_count": 5,
+      "arxiv_top_keywords": [
+        "world",
+        "object",
+        "memory",
+        "egocentric",
+        "videos",
+        "objects",
+        "rlvr",
+        "exploration",
+        "optimization",
+        "verifiable"
+      ],
+      "arxiv_strategies": [
+        "cs.AI (fallback)",
+        "cs.AI (fallback)",
+        "cs.AI (fallback)"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "unknown",
+        "text-ranking",
+        "feature-extraction",
+        "fill-mask"
+      ],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 13,
+        "adopted": 2,
+        "decisions": 2
+      },
+      "seed_watering": {
+        "seed_name": "Non-Transformer Arch",
+        "papers_found": 2
+      }
     }
   ],
   "total_sessions": 101,
-  "last_updated": "2026-10-08T08:06:05.418961",
+  "last_updated": "2026-10-08T17:05:27.618905",
   "evolution_summary": {
-    "total_adopted": 204,
+    "total_adopted": 206,
     "adopted_list": [
       "Knowledge Distillation",
       "World Models / Model-Based RL",
@@ -4887,7 +4887,9 @@
       "Flow Matching",
       "Flow Matching",
       "Tetris3D",
-      "Long-WAM"
+      "Long-WAM",
+      "3D物体记忆",
+      "RLVR中的探索与优化解耦"
     ],
     "seeds": {
       "mamba": {
@@ -4912,8 +4914,8 @@
       },
       "non-transformer": {
         "name": "Non-Transformer Arch",
-        "watering": 76,
-        "papers": 50
+        "watering": 77,
+        "papers": 51
       },
       "few-shot": {
         "name": "Few-Shot Learning",
@@ -5011,18 +5013,18 @@
       },
       "non-transformer": {
         "name": "Non-Transformer Arch",
-        "new_papers": 50,
+        "new_papers": 51,
         "keywords_matched": [
           "linear attention",
-          "efficient transformer",
-          "linear recurrent",
-          "gated linear",
-          "state space",
           "rwkv",
-          "mamba"
+          "mamba",
+          "state space",
+          "linear recurrent",
+          "efficient transformer",
+          "gated linear"
         ],
         "high_relevance_total": 8,
-        "avg_relevance_latest": 1.2,
+        "avg_relevance_latest": 1.0,
         "best_papers_count": 0
       },
       "continual-learning": {
@@ -5084,6 +5086,6 @@
         "best_papers_count": 1
       }
     },
-    "last_evolution": "2026-10-08T08:06:05.422036"
+    "last_evolution": "2026-10-08T17:05:27.622197"
   }
 }

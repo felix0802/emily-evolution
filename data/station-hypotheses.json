@@ -639,14 +639,14 @@
       "reasoning": "Both HTM and SNNs operate on event-driven, sparse, and temporal principles: HTM's minicolumns and cortical learning algorithms process sequences via sparse distributed representations and predictive states, while SNNs use spikes and STDP for temporal credit assignment. The mathematical common ground lies in sparse coding, temporal inference, and local plasticity rules, enabling a hybrid architecture where HTM's hierarchy provides structural priors for SNN's spike-based dynamics.",
       "arxiv_query": "hierarchical temporal memory spiking neural networks online learning",
       "potential_breakthrough": "Enable ultra-low-power, online sequence learning in neuromorphic hardware with human-like temporal inference and robustness to noise.",
-      "status": "unverified",
-      "verification_rounds": 2,
+      "status": "inconclusive",
+      "verification_rounds": 3,
       "supporting_papers": [],
       "refuting_papers": [],
       "llm_source": "deepseek"
     }
   ],
-  "last_updated": "2026-10-08T08:06:07.441187",
+  "last_updated": "2026-10-08T17:05:59.291929",
   "total_generated": 28,
-  "total_verified": 27
+  "total_verified": 28
 }
