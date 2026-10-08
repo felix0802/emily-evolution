@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-08T17:05:27.634731",
+  "timestamp": "2026-10-08T22:34:17.414013",
   "connections": [
     {
       "seed_a": "Mamba (SSM)",
@@ -18,7 +18,7 @@
         "time"
       ],
       "strength": 11,
-      "discovered_at": "2026-10-08T17:05:27.634558"
+      "discovered_at": "2026-10-08T22:34:17.413830"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -33,7 +33,7 @@
         "time"
       ],
       "strength": 6,
-      "discovered_at": "2026-10-08T17:05:27.634562"
+      "discovered_at": "2026-10-08T22:34:17.413834"
     },
     {
       "seed_a": "Non-Transformer Arch",
@@ -48,7 +48,7 @@
         "with"
       ],
       "strength": 6,
-      "discovered_at": "2026-10-08T17:05:27.634682"
+      "discovered_at": "2026-10-08T22:34:17.413958"
     },
     {
       "seed_a": "Liquid Networks",
@@ -62,7 +62,7 @@
         "with"
       ],
       "strength": 5,
-      "discovered_at": "2026-10-08T17:05:27.634579"
+      "discovered_at": "2026-10-08T22:34:17.413851"
     },
     {
       "seed_a": "Liquid Networks",
@@ -76,7 +76,21 @@
         "with"
       ],
       "strength": 5,
-      "discovered_at": "2026-10-08T17:05:27.634587"
+      "discovered_at": "2026-10-08T22:34:17.413858"
+    },
+    {
+      "seed_a": "Liquid Networks",
+      "seed_b": "Few-Shot Learning",
+      "shared_keywords": [],
+      "shared_paper_concepts": [
+        "forecasting",
+        "generation",
+        "neural",
+        "time",
+        "with"
+      ],
+      "strength": 5,
+      "discovered_at": "2026-10-08T22:34:17.413862"
     },
     {
       "seed_a": "HTM",
@@ -89,7 +103,7 @@
         "with"
       ],
       "strength": 4,
-      "discovered_at": "2026-10-08T17:05:27.634643"
+      "discovered_at": "2026-10-08T22:34:17.413918"
     },
     {
       "seed_a": "HTM",
@@ -102,7 +116,7 @@
         "with"
       ],
       "strength": 4,
-      "discovered_at": "2026-10-08T17:05:27.634646"
+      "discovered_at": "2026-10-08T22:34:17.413922"
     },
     {
       "seed_a": "HTM",
@@ -115,7 +129,7 @@
         "with"
       ],
       "strength": 4,
-      "discovered_at": "2026-10-08T17:05:27.634650"
+      "discovered_at": "2026-10-08T22:34:17.413925"
     },
     {
       "seed_a": "HTM",
@@ -128,20 +142,7 @@
         "supervised"
       ],
       "strength": 4,
-      "discovered_at": "2026-10-08T17:05:27.634664"
-    },
-    {
-      "seed_a": "Non-Transformer Arch",
-      "seed_b": "Graph Neural Networks",
-      "shared_keywords": [],
-      "shared_paper_concepts": [
-        "attention",
-        "graph",
-        "learning",
-        "models"
-      ],
-      "strength": 4,
-      "discovered_at": "2026-10-08T17:05:27.634695"
+      "discovered_at": "2026-10-08T22:34:17.413939"
     }
   ],
   "total_seeds": 10

@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 735,
+  "_rotation_idx": 736,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 70,
@@ -3798,18 +3798,9 @@
   },
   "few-shot": {
     "name": "Few-Shot Learning",
-    "total_papers_found": 38,
-    "watering_count": 75,
+    "total_papers_found": 43,
+    "watering_count": 76,
     "history": [
-      {
-        "timestamp": "2026-08-02T20:40:59.880185",
-        "papers_found": 0,
-        "duplicates": 4,
-        "irrelevant_filtered": 6,
-        "avg_relevance": 0.0,
-        "high_relevance": 0,
-        "papers": []
-      },
       {
         "timestamp": "2026-08-04T01:16:25.095307",
         "papers_found": 2,
@@ -4378,6 +4369,37 @@
             "seed_match_score": 2
           }
         ]
+      },
+      {
+        "timestamp": "2026-10-08T22:34:11.531586",
+        "papers_found": 5,
+        "duplicates": 1,
+        "irrelevant_filtered": 4,
+        "avg_relevance": 1.4,
+        "high_relevance": 2,
+        "papers": [
+          {
+            "title": "From Prompts to Trees: Effective LLM-Guided Tree Generation for Few-Shot Tabular Classification",
+            "summary": "While Large Language Models (LLMs) possess rich world knowledge and impressive generalization capabilities, their direct application to tabular data classification is hindered by high inference costs and limited interpretability. In contrast, decision trees are fast and transparent but often underpe",
+            "published": "2026-10-07",
+            "url": "http://arxiv.org/abs/2610.10227v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Few-Shot Learning for Personalised Automated Pain Assessment",
+            "summary": "Pain perception varies substantially across individuals, making it difficult for population-based classifiers to generalise across all subjects in a dataset. One way to account for subject variability is to train personalised classifiers. In this work, we evaluate Few-Shot Learning, a sub-area of Me",
+            "published": "2026-10-07",
+            "url": "http://arxiv.org/abs/2610.09692v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "MetaLearnNCA: Few-Shot Offline Meta-Learning via Interacting Neural Cellular Automata",
+            "summary": "Few-shot meta-learning traditionally formulates task adaptation either as analytical gradient descent through unrolled computational graphs or as metric-based distance comparisons over flattened 1D fea- ture vectors, which either incur costly test-time backpropagation or discard native 2D spatial ge",
+            "published": "2026-10-06",
+            "url": "http://arxiv.org/abs/2610.08479v1",
+            "seed_match_score": 2
+          }
+        ]
       }
     ],
     "keywords": [
@@ -4387,7 +4409,7 @@
       "prototypical",
       "in-context"
     ],
-    "last_watered": "2026-10-06T10:51:09.348272"
+    "last_watered": "2026-10-08T22:34:11.531580"
   },
   "continual-learning": {
     "name": "Continual Learning",
