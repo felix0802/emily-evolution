@@ -1,53 +1,6 @@
 {
   "sessions": [
     {
-      "timestamp": "2026-09-18T01:50:43.010065",
-      "arxiv_papers_count": 23,
-      "arxiv_top_keywords": [
-        "scale",
-        "data",
-        "reasoning",
-        "human",
-        "routing",
-        "agent",
-        "language",
-        "reconstruction",
-        "training",
-        "learning"
-      ],
-      "arxiv_strategies": [
-        "cs.AI 最新",
-        "cs.LG 最新",
-        "cs.CL 最新"
-      ],
-      "huggingface_models": 10,
-      "huggingface_tasks": [
-        "sentence-similarity",
-        "unknown",
-        "fill-mask",
-        "text-ranking",
-        "feature-extraction"
-      ],
-      "ml_datasets": [
-        "Iris",
-        "Wine",
-        "Breast Cancer",
-        "Diabetes"
-      ],
-      "ml_total_tests": 22,
-      "github_trending_repos": 8,
-      "paperswithcode_papers": 8,
-      "evolution": {
-        "discovered": 26,
-        "adopted": 2,
-        "decisions": 2
-      },
-      "seed_watering": {
-        "seed_name": "",
-        "papers_found": 0
-      }
-    },
-    {
       "timestamp": "2026-09-18T06:47:58.481343",
       "arxiv_papers_count": 5,
       "arxiv_top_keywords": [
@@ -4677,12 +4630,59 @@
         "seed_name": "Few-Shot Learning",
         "papers_found": 6
       }
+    },
+    {
+      "timestamp": "2026-10-09T03:21:16.962402",
+      "arxiv_papers_count": 18,
+      "arxiv_top_keywords": [
+        "world",
+        "graph",
+        "data",
+        "transfer",
+        "multi",
+        "nodes",
+        "learning",
+        "agent",
+        "algorithm",
+        "weisfeiler"
+      ],
+      "arxiv_strategies": [
+        "搜索: graph neural network",
+        "搜索: transfer learning",
+        "搜索: world model"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "unknown",
+        "text-ranking",
+        "feature-extraction",
+        "fill-mask"
+      ],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 22,
+        "adopted": 2,
+        "decisions": 2
+      },
+      "seed_watering": {
+        "seed_name": "Continual Learning",
+        "papers_found": 5
+      }
     }
   ],
   "total_sessions": 101,
-  "last_updated": "2026-10-08T22:34:17.398147",
+  "last_updated": "2026-10-09T03:21:16.962428",
   "evolution_summary": {
-    "total_adopted": 206,
+    "total_adopted": 208,
     "adopted_list": [
       "Knowledge Distillation",
       "World Models / Model-Based RL",
@@ -4889,7 +4889,9 @@
       "Tetris3D",
       "Long-WAM",
       "3D物体记忆",
-      "RLVR中的探索与优化解耦"
+      "RLVR中的探索与优化解耦",
+      "Weisfeiler-Leman 图特征",
+      "等变流匹配"
     ],
     "seeds": {
       "mamba": {
@@ -4924,8 +4926,8 @@
       },
       "continual-learning": {
         "name": "Continual Learning",
-        "watering": 74,
-        "papers": 95
+        "watering": 75,
+        "papers": 100
       },
       "moe": {
         "name": "Mixture of Experts",
@@ -5029,16 +5031,16 @@
       },
       "continual-learning": {
         "name": "Continual Learning",
-        "new_papers": 90,
+        "new_papers": 95,
         "keywords_matched": [
-          "catastrophic forgetting",
-          "elastic weight",
           "continual learning",
           "ewc",
-          "lifelong"
+          "lifelong",
+          "elastic weight",
+          "catastrophic forgetting"
         ],
-        "high_relevance_total": 22,
-        "avg_relevance_latest": 1.33,
+        "high_relevance_total": 24,
+        "avg_relevance_latest": 1.4,
         "best_papers_count": 3
       },
       "gnn": {
@@ -5086,6 +5088,6 @@
         "best_papers_count": 1
       }
     },
-    "last_evolution": "2026-10-08T22:34:17.401114"
+    "last_evolution": "2026-10-09T03:21:16.964948"
   }
 }

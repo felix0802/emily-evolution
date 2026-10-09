@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 736,
+  "_rotation_idx": 737,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 70,
@@ -4413,18 +4413,9 @@
   },
   "continual-learning": {
     "name": "Continual Learning",
-    "total_papers_found": 95,
-    "watering_count": 74,
+    "total_papers_found": 100,
+    "watering_count": 75,
     "history": [
-      {
-        "timestamp": "2026-08-02T22:43:06.891487",
-        "papers_found": 0,
-        "duplicates": 4,
-        "irrelevant_filtered": 6,
-        "avg_relevance": 0.0,
-        "high_relevance": 0,
-        "papers": []
-      },
       {
         "timestamp": "2026-08-04T04:52:18.187402",
         "papers_found": 5,
@@ -5216,6 +5207,37 @@
             "seed_match_score": 1
           }
         ]
+      },
+      {
+        "timestamp": "2026-10-09T03:21:09.772275",
+        "papers_found": 5,
+        "duplicates": 0,
+        "irrelevant_filtered": 5,
+        "avg_relevance": 1.4,
+        "high_relevance": 2,
+        "papers": [
+          {
+            "title": "From a Prompt to Repertoires: Evolving Functional REpertoires Enable LLM Continual Learning",
+            "summary": "Continual learning remains challenging for large language models, which must enable models to acquire new skills and knowledge without degrading existing capabilities. Existing approaches typically address this challenge by carefully designing how model parameters are updated. In contrast, prompt op",
+            "published": "2026-10-08",
+            "url": "http://arxiv.org/abs/2610.11373v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Stability-Plasticity Balance via Singular-Vector Selection in LLM Continual Learning",
+            "summary": "Domain-specific continual adaptation of LLMs risks catastrophic forgetting, creating a fundamental tension between acquiring new capabilities and preserving those learned during pretraining. PEFT mitigates this problem by restricting the number of trainable parameters, but existing methods lack a pr",
+            "published": "2026-10-08",
+            "url": "http://arxiv.org/abs/2610.11076v1",
+            "seed_match_score": 2
+          },
+          {
+            "title": "Continual Learning without Continual Training",
+            "summary": "Continual learning requires models to adapt to new domains and new classes while retaining prior knowledge. Many existing methods rely on continued optimization, using regularization, replay, or parameter expansion to prevent new updates from overwriting previously learned knowledge. Instead, we pro",
+            "published": "2026-10-07",
+            "url": "http://arxiv.org/abs/2610.10379v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -5225,7 +5247,7 @@
       "ewc",
       "elastic weight"
     ],
-    "last_watered": "2026-10-06T17:30:22.127214"
+    "last_watered": "2026-10-09T03:21:09.772271"
   },
   "moe": {
     "name": "Mixture of Experts",

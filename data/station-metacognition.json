@@ -753,6 +753,38 @@
           "recommendation": "立即对 hyp-0028 设计消融实验验证 HTM 组件是否带来增量收益，同时检查 19 个状态不明假设是否被系统性忽略。"
         }
       }
+    },
+    {
+      "id": "meta-0027",
+      "timestamp": "2026-10-09T03:21:26.651394",
+      "trigger": "hypothesis_generated",
+      "evolution_round": 370,
+      "llm_source": "deepseek",
+      "summary": {
+        "q1": {
+          "identified_premises": [
+            "非 Transformer 的狀態空間或液態時間骨幹架構，能在時序任務上達到或超越現有表現",
+            "稀疏/條件計算（MoE、SNN、HTM 等）是提升效率與泛化的有效路徑",
+            "新假設 hyp-0029 所屬方向（Mamba 少樣本時序預測）與現有理論體系（連續時間狀態空間統一體）相容且值得投入"
+          ],
+          "validity_assessment": "前兩項前提在當前假設分布（支持7/推翻0）下尚未被否證，但『推翻0』本身即為警訊——缺乏否證可能代表驗證強度不足而非前提穩固；第三項相容性僅為理論層面推論，尚無實驗支撐。",
+          "risk_flag": "yellow"
+        },
+        "q2": {
+          "alternative_explanation": "時序預測的效能提升可能主要來自訓練資料規模或特徵工程，而非骨幹架構本身的歸納偏誤優勢；Mamba 的表現可能只是參數效率的副產品。",
+          "confounding_factors": [
+            "基準比較未控制參數量與訓練預算，架構優勢可能被混淆",
+            "種子狀態顯示 HTM 與 GNN 被大量『浇灌』，可能存在注意力資源分配偏誤，導致某些方向被過度探索",
+            "29 個假設中僅 1 個未驗證、0 個被推翻，暗示驗證機制可能偏向確認而非否證"
+          ],
+          "considered_sufficiently": false
+        },
+        "q3": {
+          "logical_gaps": "從『理論相容』直接跳到『值得生成新假設』，缺少對該方向邊際資訊增益的評估；且未說明為何在 29 個假設僅 1 個未驗證的情況下仍持續擴張假設空間而非收斂驗證。",
+          "self_consistency": "medium",
+          "recommendation": "下一步應優先設計能『推翻』現有假設的對照實驗（尤其針對 Mamba 骨幹的參數效率混淆），並警惕假設生成速度遠超驗證速度所帶來的虛假進展感。"
+        }
+      }
     }
   ],
   "qa_sessions": [],
@@ -858,16 +890,6 @@
       "detail": "可能未充分考虑替代解释"
     },
     {
-      "type": "premise_uncertainty",
-      "severity": "warning",
-      "detail": "前提存在不确定性"
-    },
-    {
-      "type": "confirmation_bias_risk",
-      "severity": "warning",
-      "detail": "可能未充分考虑替代解释"
-    },
-    {
       "type": "premise_collapse",
       "severity": "critical",
       "detail": "关键前提可能已被推翻"
@@ -1001,6 +1023,16 @@
       "type": "premise_collapse",
       "severity": "critical",
       "detail": "关键前提可能已被推翻"
+    },
+    {
+      "type": "confirmation_bias_risk",
+      "severity": "warning",
+      "detail": "可能未充分考虑替代解释"
+    },
+    {
+      "type": "premise_uncertainty",
+      "severity": "warning",
+      "detail": "前提存在不确定性"
     },
     {
       "type": "confirmation_bias_risk",
@@ -1028,6 +1060,6 @@
       "reflections_total": 20
     }
   ],
-  "total_reflections": 26,
-  "last_updated": "2026-10-07T20:52:29.674239"
+  "total_reflections": 27,
+  "last_updated": "2026-10-09T03:21:26.651644"
 }

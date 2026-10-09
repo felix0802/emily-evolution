@@ -644,9 +644,26 @@
       "supporting_papers": [],
       "refuting_papers": [],
       "llm_source": "deepseek"
+    },
+    {
+      "id": "hyp-0029",
+      "timestamp": "2026-10-09T03:21:18.887344",
+      "seed_a": "Non-Transformer Arch",
+      "seed_b": "Few-Shot Learning",
+      "crossref_strength": 6,
+      "shared_keywords": [],
+      "hypothesis": "A non-Transformer architecture with a state-space or liquid-time backbone can achieve few-shot time-series forecasting by meta-learning a shared dynamical system prior, enabling rapid adaptation to new series with only a few examples.",
+      "reasoning": "Non-Transformer architectures like SSMs and liquid networks naturally model continuous-time dynamics and long-range dependencies, which are core to time-series forecasting. Few-shot learning requires a strong inductive bias and rapid adaptation; a shared dynamical system prior learned across tasks provides exactly that, allowing gradient-based or metric-based meta-learning to fine-tune the dynamics with minimal data.",
+      "arxiv_query": "few-shot time series forecasting state space model meta-learning",
+      "potential_breakthrough": "A unified non-Transformer meta-learning framework that enables accurate few-shot forecasting across diverse domains by leveraging continuous-time dynamical system priors.",
+      "status": "unverified",
+      "verification_rounds": 1,
+      "supporting_papers": [],
+      "refuting_papers": [],
+      "llm_source": "deepseek"
     }
   ],
-  "last_updated": "2026-10-08T17:05:59.291929",
-  "total_generated": 28,
+  "last_updated": "2026-10-09T03:21:22.895568",
+  "total_generated": 29,
   "total_verified": 28
 }

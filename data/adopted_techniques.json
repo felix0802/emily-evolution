@@ -3098,6 +3098,36 @@
         ],
         "decided_at": "2026-10-08T17:05:24.188188"
       }
+    },
+    {
+      "id": "llm-weisfeiler-leman-图特征",
+      "name": "Weisfeiler-Leman 图特征",
+      "adopted_at": "2026-10-09T03:21:14.375985",
+      "decision": {
+        "tech_id": "llm-weisfeiler-leman-图特征",
+        "tech_name": "Weisfeiler-Leman 图特征",
+        "action": "adopt",
+        "confidence": 0.9,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-10-09T03:21:14.374190"
+      }
+    },
+    {
+      "id": "llm-等变流匹配",
+      "name": "等变流匹配",
+      "adopted_at": "2026-10-09T03:21:14.376003",
+      "decision": {
+        "tech_id": "llm-等变流匹配",
+        "tech_name": "等变流匹配",
+        "action": "adopt",
+        "confidence": 0.85,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-10-09T03:21:14.374390"
+      }
     }
   ],
   "history": [
@@ -4336,6 +4366,18 @@
       "tech_id": "llm-rlvr中的探索与优化解耦",
       "tech_name": "RLVR中的探索与优化解耦",
       "timestamp": "2026-10-08T17:05:24.190358"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-weisfeiler-leman-图特征",
+      "tech_name": "Weisfeiler-Leman 图特征",
+      "timestamp": "2026-10-09T03:21:14.375989"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-等变流匹配",
+      "tech_name": "等变流匹配",
+      "timestamp": "2026-10-09T03:21:14.376005"
     }
   ]
 }
