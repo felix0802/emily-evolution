@@ -51143,7 +51143,146 @@
         "unverbalized"
       ],
       "first_seen_round": 370
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.12133v1",
+      "title": "Rehearse Everything, Remember Nothing: Attic-KV Rehearses What Will Be Read",
+      "arxiv_id": "2610.12133",
+      "tokens": [
+        "attic",
+        "everything",
+        "nothing",
+        "read",
+        "rehearse",
+        "rehearses",
+        "remember"
+      ],
+      "first_seen_round": 371
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.11245v1",
+      "title": "Read What Matters: Query-Adaptive Quantization for KV Caches",
+      "arxiv_id": "2610.11245",
+      "tokens": [
+        "adaptive",
+        "caches",
+        "matters",
+        "quantization",
+        "query",
+        "read"
+      ],
+      "first_seen_round": 371
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.11214v1",
+      "title": "Bridging KV-Cache Quantization and Linear Attention: From Theory to Pretrained Weight Migration",
+      "arxiv_id": "2610.11214",
+      "tokens": [
+        "attention",
+        "bridging",
+        "cache",
+        "linear",
+        "migration",
+        "pretrained",
+        "quantization",
+        "theory",
+        "weight"
+      ],
+      "first_seen_round": 371
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.09476v1",
+      "title": "CHASE: Channel-Aligned Structure Exploitation for Geometry-Aware Model Engineering",
+      "arxiv_id": "2610.09476",
+      "tokens": [
+        "aligned",
+        "aware",
+        "channel",
+        "chase",
+        "engineering",
+        "exploitation",
+        "geometry",
+        "structure"
+      ],
+      "first_seen_round": 371
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.09202v1",
+      "title": "Few Bits, One Law: Toward W2A4KV2",
+      "arxiv_id": "2610.09202",
+      "tokens": [
+        "bits",
+        "law",
+        "w2a4kv2"
+      ],
+      "first_seen_round": 371
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.10411v1",
+      "title": "Training Parallel Speculative Draft Models by Directly Minimizing Expected Decoding Rounds",
+      "arxiv_id": "2610.10411",
+      "tokens": [
+        "decoding",
+        "directly",
+        "draft",
+        "expected",
+        "minimizing",
+        "parallel",
+        "rounds",
+        "speculative",
+        "training"
+      ],
+      "first_seen_round": 371
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.11358v1",
+      "title": "RaReCache: Bridging the Gap in Cross-Model KV Cache Reuse via Rank disagreement-based Selective Recomputation",
+      "arxiv_id": "2610.11358",
+      "tokens": [
+        "bridging",
+        "cache",
+        "cross",
+        "disagreement",
+        "gap",
+        "rank",
+        "rarecache",
+        "recomputation",
+        "reuse",
+        "selective"
+      ],
+      "first_seen_round": 371
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.10381v1",
+      "title": "ResidualQuant: KV Cache Quantization for Looped Transformers with 2-Bit Residuals",
+      "arxiv_id": "2610.10381",
+      "tokens": [
+        "bit",
+        "cache",
+        "looped",
+        "quantization",
+        "residualquant",
+        "residuals",
+        "transformers"
+      ],
+      "first_seen_round": 371
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.09827v1",
+      "title": "Dual-QK: Sharp Queries and Flat Keys for Prunable 2-bit KV Caches",
+      "arxiv_id": "2610.09827",
+      "tokens": [
+        "bit",
+        "caches",
+        "dual",
+        "flat",
+        "keys",
+        "prunable",
+        "queries",
+        "sharp"
+      ],
+      "first_seen_round": 371
     }
   ],
-  "total_unique": 3205
+  "total_unique": 3214
 }

@@ -1,53 +1,6 @@
 {
   "sessions": [
     {
-      "timestamp": "2026-09-18T12:25:22.906705",
-      "arxiv_papers_count": 5,
-      "arxiv_top_keywords": [
-        "robot",
-        "obstacle",
-        "coding",
-        "agents",
-        "manipulation",
-        "memory",
-        "lightweight",
-        "robotic",
-        "information",
-        "vlm"
-      ],
-      "arxiv_strategies": [
-        "cs.AI (fallback)",
-        "cs.AI (fallback)",
-        "cs.AI (fallback)"
-      ],
-      "huggingface_models": 10,
-      "huggingface_tasks": [
-        "sentence-similarity",
-        "unknown",
-        "fill-mask",
-        "text-ranking",
-        "feature-extraction"
-      ],
-      "ml_datasets": [
-        "Iris",
-        "Wine",
-        "Breast Cancer",
-        "Diabetes"
-      ],
-      "ml_total_tests": 22,
-      "github_trending_repos": 8,
-      "paperswithcode_papers": 8,
-      "evolution": {
-        "discovered": 15,
-        "adopted": 0,
-        "decisions": 0
-      },
-      "seed_watering": {
-        "seed_name": "",
-        "papers_found": 0
-      }
-    },
-    {
       "timestamp": "2026-09-18T17:20:12.965047",
       "arxiv_papers_count": 5,
       "arxiv_top_keywords": [
@@ -4677,12 +4630,59 @@
         "seed_name": "",
         "papers_found": 0
       }
+    },
+    {
+      "timestamp": "2026-10-09T17:37:52.145890",
+      "arxiv_papers_count": 18,
+      "arxiv_top_keywords": [
+        "decoding",
+        "draft",
+        "graph",
+        "tokens",
+        "drafting",
+        "entries",
+        "bits",
+        "attention",
+        "cache",
+        "quantization"
+      ],
+      "arxiv_strategies": [
+        "搜索: kv cache LLM",
+        "搜索: graph neural network recent",
+        "搜索: speculative decoding"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "unknown",
+        "text-ranking",
+        "feature-extraction",
+        "fill-mask"
+      ],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 22,
+        "adopted": 2,
+        "decisions": 2
+      },
+      "seed_watering": {
+        "seed_name": "KV Cache Optimization",
+        "papers_found": 6
+      }
     }
   ],
   "total_sessions": 101,
-  "last_updated": "2026-10-09T11:00:33.781283",
+  "last_updated": "2026-10-09T17:37:52.145903",
   "evolution_summary": {
-    "total_adopted": 209,
+    "total_adopted": 211,
     "adopted_list": [
       "Knowledge Distillation",
       "World Models / Model-Based RL",
@@ -4892,7 +4892,9 @@
       "RLVR中的探索与优化解耦",
       "Weisfeiler-Leman 图特征",
       "等变流匹配",
-      "项目反应理论 (Item Response Theory)"
+      "项目反应理论 (Item Response Theory)",
+      "Attic-KV",
+      "ReadKV"
     ],
     "seeds": {
       "mamba": {
@@ -4937,8 +4939,8 @@
       },
       "kv-cache": {
         "name": "KV Cache Optimization",
-        "watering": 71,
-        "papers": 97
+        "watering": 72,
+        "papers": 100
       },
       "gnn": {
         "name": "Graph Neural Networks",
@@ -5076,19 +5078,19 @@
       },
       "kv-cache": {
         "name": "KV Cache Optimization",
-        "new_papers": 97,
+        "new_papers": 100,
         "keywords_matched": [
-          "gqa",
-          "kv cache",
           "flash attention",
+          "gqa",
+          "speculative decoding",
           "key-value cache",
-          "speculative decoding"
+          "kv cache"
         ],
         "high_relevance_total": 3,
         "avg_relevance_latest": 1.0,
         "best_papers_count": 1
       }
     },
-    "last_evolution": "2026-10-09T11:00:33.784583"
+    "last_evolution": "2026-10-09T17:37:52.147767"
   }
 }

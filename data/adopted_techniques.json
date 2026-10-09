@@ -3143,6 +3143,36 @@
         ],
         "decided_at": "2026-10-09T11:00:33.769645"
       }
+    },
+    {
+      "id": "llm-attic-kv",
+      "name": "Attic-KV",
+      "adopted_at": "2026-10-09T17:37:49.517170",
+      "decision": {
+        "tech_id": "llm-attic-kv",
+        "tech_name": "Attic-KV",
+        "action": "adopt",
+        "confidence": 0.9,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-10-09T17:37:49.515651"
+      }
+    },
+    {
+      "id": "llm-readkv",
+      "name": "ReadKV",
+      "adopted_at": "2026-10-09T17:37:49.517184",
+      "decision": {
+        "tech_id": "llm-readkv",
+        "tech_name": "ReadKV",
+        "action": "adopt",
+        "confidence": 0.9,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-10-09T17:37:49.515839"
+      }
     }
   ],
   "history": [
@@ -4399,6 +4429,18 @@
       "tech_id": "llm-项目反应理论-(item-response-theory)",
       "tech_name": "项目反应理论 (Item Response Theory)",
       "timestamp": "2026-10-09T11:00:33.771767"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-attic-kv",
+      "tech_name": "Attic-KV",
+      "timestamp": "2026-10-09T17:37:49.517172"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-readkv",
+      "tech_name": "ReadKV",
+      "timestamp": "2026-10-09T17:37:49.517185"
     }
   ]
 }

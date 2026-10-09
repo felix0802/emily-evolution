@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 738,
+  "_rotation_idx": 739,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 70,
@@ -6165,26 +6165,9 @@
   },
   "kv-cache": {
     "name": "KV Cache Optimization",
-    "total_papers_found": 97,
-    "watering_count": 71,
+    "total_papers_found": 100,
+    "watering_count": 72,
     "history": [
-      {
-        "timestamp": "2026-08-03T05:26:46.021669",
-        "papers_found": 1,
-        "duplicates": 5,
-        "irrelevant_filtered": 4,
-        "avg_relevance": 1.0,
-        "high_relevance": 0,
-        "papers": [
-          {
-            "title": "Mixture-of-Translators: Translating KV Caches Across Heterogeneous Large Language Models",
-            "summary": "Heterogeneous Large Language Model (LLM) systems increasingly rely on shared contexts, retrieved evidence, and multi-agent dialogue histories, yet their internal key-value (KV) caches remain model-specific and cannot be reused across architectures. Consequently, each model must repeatedly prefill or",
-            "published": "2026-07-31",
-            "url": "http://arxiv.org/abs/2607.28979v1",
-            "seed_match_score": 1
-          }
-        ]
-      },
       {
         "timestamp": "2026-08-04T11:53:11.106108",
         "papers_found": 7,
@@ -7033,6 +7016,37 @@
             "seed_match_score": 1
           }
         ]
+      },
+      {
+        "timestamp": "2026-10-09T17:37:44.954886",
+        "papers_found": 3,
+        "duplicates": 3,
+        "irrelevant_filtered": 4,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "RaReCache: Bridging the Gap in Cross-Model KV Cache Reuse via Rank disagreement-based Selective Recomputation",
+            "summary": "Cross-model KV-cache reuse remains a key challenge in modern LLM serving. Coding agents and multi-model systems increasingly route a shared context across models: a user may switch models mid-session, or a cascade may escalate a difficult query. Because KV caches contain model-specific representatio",
+            "published": "2026-10-08",
+            "url": "http://arxiv.org/abs/2610.11358v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "ResidualQuant: KV Cache Quantization for Looped Transformers with 2-Bit Residuals",
+            "summary": "Looped Transformers improve parameter efficiency by repeatedly applying shared Transformer blocks over multiple recurrent loops, increasing computational depth without increasing the parameter count. However, KV cache memory still scales with the number of loops, becoming a key memory bottleneck tha",
+            "published": "2026-10-07",
+            "url": "http://arxiv.org/abs/2610.10381v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Dual-QK: Sharp Queries and Flat Keys for Prunable 2-bit KV Caches",
+            "summary": "Long inputs and extended generation increase the storage and access costs of the key-value (KV) cache. Low-bit quantization reduces storage and memory traffic, while query-channel pruning can further reduce key-cache reads. Rotation-based quantization redistributes the energy of key outliers across ",
+            "published": "2026-10-07",
+            "url": "http://arxiv.org/abs/2610.09827v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -7044,7 +7058,7 @@
       "flash attention",
       "speculative decoding"
     ],
-    "last_watered": "2026-10-07T01:13:53.753671"
+    "last_watered": "2026-10-09T17:37:44.954880"
   },
   "gnn": {
     "name": "Graph Neural Networks",
