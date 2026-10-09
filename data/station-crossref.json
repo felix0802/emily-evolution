@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-09T03:21:16.975004",
+  "timestamp": "2026-10-09T11:00:33.797293",
   "connections": [
     {
       "seed_a": "Mamba (SSM)",
@@ -18,7 +18,7 @@
         "time"
       ],
       "strength": 11,
-      "discovered_at": "2026-10-09T03:21:16.974845"
+      "discovered_at": "2026-10-09T11:00:33.797112"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -33,7 +33,7 @@
         "time"
       ],
       "strength": 6,
-      "discovered_at": "2026-10-09T03:21:16.974849"
+      "discovered_at": "2026-10-09T11:00:33.797117"
     },
     {
       "seed_a": "Non-Transformer Arch",
@@ -48,22 +48,7 @@
         "with"
       ],
       "strength": 6,
-      "discovered_at": "2026-10-09T03:21:16.974957"
-    },
-    {
-      "seed_a": "Continual Learning",
-      "seed_b": "Mixture of Experts",
-      "shared_keywords": [],
-      "shared_paper_concepts": [
-        "balance",
-        "cross",
-        "models",
-        "optimization",
-        "selection",
-        "training"
-      ],
-      "strength": 6,
-      "discovered_at": "2026-10-09T03:21:16.974982"
+      "discovered_at": "2026-10-09T11:00:33.797239"
     },
     {
       "seed_a": "Liquid Networks",
@@ -77,7 +62,7 @@
         "with"
       ],
       "strength": 5,
-      "discovered_at": "2026-10-09T03:21:16.974864"
+      "discovered_at": "2026-10-09T11:00:33.797134"
     },
     {
       "seed_a": "Liquid Networks",
@@ -91,7 +76,7 @@
         "with"
       ],
       "strength": 5,
-      "discovered_at": "2026-10-09T03:21:16.974870"
+      "discovered_at": "2026-10-09T11:00:33.797141"
     },
     {
       "seed_a": "Liquid Networks",
@@ -105,7 +90,7 @@
         "with"
       ],
       "strength": 5,
-      "discovered_at": "2026-10-09T03:21:16.974873"
+      "discovered_at": "2026-10-09T11:00:33.797145"
     },
     {
       "seed_a": "HTM",
@@ -119,7 +104,7 @@
         "with"
       ],
       "strength": 5,
-      "discovered_at": "2026-10-09T03:21:16.974932"
+      "discovered_at": "2026-10-09T11:00:33.797211"
     },
     {
       "seed_a": "HTM",
@@ -132,7 +117,7 @@
         "with"
       ],
       "strength": 4,
-      "discovered_at": "2026-10-09T03:21:16.974922"
+      "discovered_at": "2026-10-09T11:00:33.797200"
     },
     {
       "seed_a": "HTM",
@@ -145,7 +130,20 @@
         "with"
       ],
       "strength": 4,
-      "discovered_at": "2026-10-09T03:21:16.974925"
+      "discovered_at": "2026-10-09T11:00:33.797204"
+    },
+    {
+      "seed_a": "HTM",
+      "seed_b": "Few-Shot Learning",
+      "shared_keywords": [],
+      "shared_paper_concepts": [
+        "detection",
+        "learning",
+        "malware",
+        "with"
+      ],
+      "strength": 4,
+      "discovered_at": "2026-10-09T11:00:33.797207"
     }
   ],
   "total_seeds": 10

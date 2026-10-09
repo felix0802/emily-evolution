@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 737,
+  "_rotation_idx": 738,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 70,
@@ -5252,25 +5252,8 @@
   "moe": {
     "name": "Mixture of Experts",
     "total_papers_found": 104,
-    "watering_count": 70,
+    "watering_count": 71,
     "history": [
-      {
-        "timestamp": "2026-08-03T01:26:25.848436",
-        "papers_found": 1,
-        "duplicates": 6,
-        "irrelevant_filtered": 3,
-        "avg_relevance": 1.0,
-        "high_relevance": 0,
-        "papers": [
-          {
-            "title": "MoPET: Parameter-Efficient Mixture-of-Experts for Unified Medical Image Classification",
-            "summary": "Adapting deep learning models to profound clinical heterogeneity typically relies on parameter-efficient fine-tuning (PEFT) to avoid the severe overfitting associated with full end-to-end network updates. Although PEFT successfully navigates limited data scenarios, it inherently forces the training ",
-            "published": "2026-07-31",
-            "url": "http://arxiv.org/abs/2607.29462v1",
-            "seed_match_score": 1
-          }
-        ]
-      },
       {
         "timestamp": "2026-08-04T08:13:41.926495",
         "papers_found": 5,
@@ -6158,6 +6141,15 @@
             "seed_match_score": 2
           }
         ]
+      },
+      {
+        "timestamp": "2026-10-09T11:00:28.788955",
+        "papers_found": 0,
+        "duplicates": 0,
+        "irrelevant_filtered": 0,
+        "avg_relevance": 0,
+        "high_relevance": 0,
+        "papers": []
       }
     ],
     "keywords": [
@@ -6169,7 +6161,7 @@
       "switch transformer",
       "deepseek"
     ],
-    "last_watered": "2026-10-06T21:57:08.052341"
+    "last_watered": "2026-10-09T11:00:28.788946"
   },
   "kv-cache": {
     "name": "KV Cache Optimization",

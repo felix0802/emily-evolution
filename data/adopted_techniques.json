@@ -3128,6 +3128,21 @@
         ],
         "decided_at": "2026-10-09T03:21:14.374390"
       }
+    },
+    {
+      "id": "llm-项目反应理论-(item-response-theory)",
+      "name": "项目反应理论 (Item Response Theory)",
+      "adopted_at": "2026-10-09T11:00:33.771762",
+      "decision": {
+        "tech_id": "llm-项目反应理论-(item-response-theory)",
+        "tech_name": "项目反应理论 (Item Response Theory)",
+        "action": "adopt",
+        "confidence": 0.9,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-10-09T11:00:33.769645"
+      }
     }
   ],
   "history": [
@@ -4378,6 +4393,12 @@
       "tech_id": "llm-等变流匹配",
       "tech_name": "等变流匹配",
       "timestamp": "2026-10-09T03:21:14.376005"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-项目反应理论-(item-response-theory)",
+      "tech_name": "项目反应理论 (Item Response Theory)",
+      "timestamp": "2026-10-09T11:00:33.771767"
     }
   ]
 }

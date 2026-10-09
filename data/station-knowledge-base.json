@@ -1,53 +1,6 @@
 {
   "sessions": [
     {
-      "timestamp": "2026-09-18T06:47:58.481343",
-      "arxiv_papers_count": 5,
-      "arxiv_top_keywords": [
-        "robot",
-        "obstacle",
-        "coding",
-        "agents",
-        "manipulation",
-        "memory",
-        "lightweight",
-        "robotic",
-        "information",
-        "vlm"
-      ],
-      "arxiv_strategies": [
-        "cs.AI (fallback)",
-        "cs.AI (fallback)",
-        "cs.AI (fallback)"
-      ],
-      "huggingface_models": 10,
-      "huggingface_tasks": [
-        "sentence-similarity",
-        "unknown",
-        "fill-mask",
-        "text-ranking",
-        "feature-extraction"
-      ],
-      "ml_datasets": [
-        "Iris",
-        "Wine",
-        "Breast Cancer",
-        "Diabetes"
-      ],
-      "ml_total_tests": 22,
-      "github_trending_repos": 8,
-      "paperswithcode_papers": 8,
-      "evolution": {
-        "discovered": 14,
-        "adopted": 1,
-        "decisions": 1
-      },
-      "seed_watering": {
-        "seed_name": "",
-        "papers_found": 0
-      }
-    },
-    {
       "timestamp": "2026-09-18T12:25:22.906705",
       "arxiv_papers_count": 5,
       "arxiv_top_keywords": [
@@ -4677,12 +4630,59 @@
         "seed_name": "Continual Learning",
         "papers_found": 5
       }
+    },
+    {
+      "timestamp": "2026-10-09T11:00:33.781268",
+      "arxiv_papers_count": 5,
+      "arxiv_top_keywords": [
+        "agents",
+        "time",
+        "human",
+        "horizons",
+        "metr",
+        "horizon",
+        "google",
+        "openai",
+        "anthropic",
+        "real"
+      ],
+      "arxiv_strategies": [
+        "cs.AI (fallback)",
+        "cs.AI (fallback)",
+        "cs.AI (fallback)"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "unknown",
+        "text-ranking",
+        "feature-extraction",
+        "fill-mask"
+      ],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 12,
+        "adopted": 1,
+        "decisions": 1
+      },
+      "seed_watering": {
+        "seed_name": "",
+        "papers_found": 0
+      }
     }
   ],
   "total_sessions": 101,
-  "last_updated": "2026-10-09T03:21:16.962428",
+  "last_updated": "2026-10-09T11:00:33.781283",
   "evolution_summary": {
-    "total_adopted": 208,
+    "total_adopted": 209,
     "adopted_list": [
       "Knowledge Distillation",
       "World Models / Model-Based RL",
@@ -4891,7 +4891,8 @@
       "3D物体记忆",
       "RLVR中的探索与优化解耦",
       "Weisfeiler-Leman 图特征",
-      "等变流匹配"
+      "等变流匹配",
+      "项目反应理论 (Item Response Theory)"
     ],
     "seeds": {
       "mamba": {
@@ -4931,7 +4932,7 @@
       },
       "moe": {
         "name": "Mixture of Experts",
-        "watering": 70,
+        "watering": 71,
         "papers": 104
       },
       "kv-cache": {
@@ -5088,6 +5089,6 @@
         "best_papers_count": 1
       }
     },
-    "last_evolution": "2026-10-09T03:21:16.964948"
+    "last_evolution": "2026-10-09T11:00:33.784583"
   }
 }
