@@ -3173,6 +3173,36 @@
         ],
         "decided_at": "2026-10-09T17:37:49.515839"
       }
+    },
+    {
+      "id": "llm-patchkv",
+      "name": "PatchKV",
+      "adopted_at": "2026-10-09T21:56:17.564793",
+      "decision": {
+        "tech_id": "llm-patchkv",
+        "tech_name": "PatchKV",
+        "action": "adopt",
+        "confidence": 0.9,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-10-09T21:56:17.562846"
+      }
+    },
+    {
+      "id": "llm-dreaminggoose",
+      "name": "DreamingGoose",
+      "adopted_at": "2026-10-09T21:56:17.564811",
+      "decision": {
+        "tech_id": "llm-dreaminggoose",
+        "tech_name": "DreamingGoose",
+        "action": "adopt",
+        "confidence": 0.85,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-10-09T21:56:17.563032"
+      }
     }
   ],
   "history": [
@@ -4441,6 +4471,18 @@
       "tech_id": "llm-readkv",
       "tech_name": "ReadKV",
       "timestamp": "2026-10-09T17:37:49.517185"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-patchkv",
+      "tech_name": "PatchKV",
+      "timestamp": "2026-10-09T21:56:17.564797"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-dreaminggoose",
+      "tech_name": "DreamingGoose",
+      "timestamp": "2026-10-09T21:56:17.564813"
     }
   ]
 }

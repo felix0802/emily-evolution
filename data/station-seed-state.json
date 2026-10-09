@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 739,
+  "_rotation_idx": 740,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 70,
@@ -7062,40 +7062,9 @@
   },
   "gnn": {
     "name": "Graph Neural Networks",
-    "total_papers_found": 149,
-    "watering_count": 72,
+    "total_papers_found": 151,
+    "watering_count": 73,
     "history": [
-      {
-        "timestamp": "2026-08-03T08:57:28.426538",
-        "papers_found": 3,
-        "duplicates": 3,
-        "irrelevant_filtered": 4,
-        "avg_relevance": 1.33,
-        "high_relevance": 1,
-        "papers": [
-          {
-            "title": "Ordered-to-disordered transfer learning with graph neural networks for formation-energy and HOMO-LUMO gap prediction in high-entropy perovskite oxides",
-            "summary": "High-entropy perovskite oxides (HEPOs) represent a chemically complex class of materials with promising functional properties, yet their vast compositional space and, chemical/structural disorder pose significant challenge for accurate property prediction. Graph neural networks (GNNs) enable rapid e",
-            "published": "2026-07-31",
-            "url": "http://arxiv.org/abs/2607.29510v1",
-            "seed_match_score": 2
-          },
-          {
-            "title": "Assessing the Generalization of Graph Neural Networks for Fault Location Across Increasing Distributed Energy Resource Penetration Levels",
-            "summary": "Accurate fault location is critical for distribution network reliability. However, increasing distributed energy resource (DER) penetration complicates fault location due to intermittent generation and bidirectional power flows that reshape fault signatures. Spatio-Temporal Graph Neural Networks (ST",
-            "published": "2026-07-31",
-            "url": "http://arxiv.org/abs/2607.29293v1",
-            "seed_match_score": 1
-          },
-          {
-            "title": "Learning Optimal Dynamic Matching via Graph Neural Networks",
-            "summary": "Dynamic matching markets require decisions about whom to match and when: matching now yields value but removes participants who may create better future opportunities. We develop a value-based reinforcement-learning framework for this problem on finite, evolving weighted graphs. We study an infinite",
-            "published": "2026-07-31",
-            "url": "http://arxiv.org/abs/2607.28925v1",
-            "seed_match_score": 1
-          }
-        ]
-      },
       {
         "timestamp": "2026-08-04T13:40:29.174020",
         "papers_found": 5,
@@ -8036,6 +8005,30 @@
             "seed_match_score": 1
           }
         ]
+      },
+      {
+        "timestamp": "2026-10-09T21:56:12.474734",
+        "papers_found": 2,
+        "duplicates": 5,
+        "irrelevant_filtered": 3,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "MSGAT: Multi-Head Spiking Graph Attention with Similarity-Space Fusion for Image-Text Retrieval",
+            "summary": "Spiking neural networks (SNNs) offer an energy-efficient computing paradigm through sparse event-driven computation, showing great potential for efficient multimodal learning. However, applying SNNs to high-level multimodal tasks, such as image-text retrieval (ITR), remains challenging, since sparse",
+            "published": "2026-10-08",
+            "url": "http://arxiv.org/abs/2610.11526v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "NEMORA: Neural Equivariant Multipole Operators for Long-Range Atomistic Learning",
+            "summary": "Equivariant graph neural networks have emerged as foundational architectures for machine-learned interatomic potentials, approaching quantum-chemical accuracy at a fraction of the computational cost. These models describe local atomic environments accurately, but finite spatial cutoffs truncate long",
+            "published": "2026-10-07",
+            "url": "http://arxiv.org/abs/2610.10776v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -8047,6 +8040,6 @@
       "node embedding",
       "graph transformer"
     ],
-    "last_watered": "2026-10-07T07:49:03.278831"
+    "last_watered": "2026-10-09T21:56:12.474729"
   }
 }

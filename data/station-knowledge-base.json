@@ -1,53 +1,6 @@
 {
   "sessions": [
     {
-      "timestamp": "2026-09-18T17:20:12.965047",
-      "arxiv_papers_count": 5,
-      "arxiv_top_keywords": [
-        "robot",
-        "obstacle",
-        "coding",
-        "agents",
-        "manipulation",
-        "memory",
-        "lightweight",
-        "robotic",
-        "information",
-        "vlm"
-      ],
-      "arxiv_strategies": [
-        "cs.AI (fallback)",
-        "cs.AI (fallback)",
-        "cs.AI (fallback)"
-      ],
-      "huggingface_models": 10,
-      "huggingface_tasks": [
-        "sentence-similarity",
-        "unknown",
-        "fill-mask",
-        "text-ranking",
-        "feature-extraction"
-      ],
-      "ml_datasets": [
-        "Iris",
-        "Wine",
-        "Breast Cancer",
-        "Diabetes"
-      ],
-      "ml_total_tests": 22,
-      "github_trending_repos": 8,
-      "paperswithcode_papers": 8,
-      "evolution": {
-        "discovered": 14,
-        "adopted": 0,
-        "decisions": 0
-      },
-      "seed_watering": {
-        "seed_name": "",
-        "papers_found": 0
-      }
-    },
-    {
       "timestamp": "2026-09-18T20:04:43.283465",
       "arxiv_papers_count": 5,
       "arxiv_top_keywords": [
@@ -4677,12 +4630,59 @@
         "seed_name": "KV Cache Optimization",
         "papers_found": 6
       }
+    },
+    {
+      "timestamp": "2026-10-09T21:56:20.861102",
+      "arxiv_papers_count": 18,
+      "arxiv_top_keywords": [
+        "language",
+        "learning",
+        "distillation",
+        "large",
+        "compression",
+        "memory",
+        "design",
+        "knowledge",
+        "cache",
+        "context"
+      ],
+      "arxiv_strategies": [
+        "搜索: multi-query attention",
+        "搜索: geometric deep learning",
+        "搜索: knowledge distillation"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "unknown",
+        "text-ranking",
+        "feature-extraction",
+        "fill-mask"
+      ],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 23,
+        "adopted": 2,
+        "decisions": 2
+      },
+      "seed_watering": {
+        "seed_name": "Graph Neural Networks",
+        "papers_found": 7
+      }
     }
   ],
   "total_sessions": 101,
-  "last_updated": "2026-10-09T17:37:52.145903",
+  "last_updated": "2026-10-09T21:56:20.861117",
   "evolution_summary": {
-    "total_adopted": 211,
+    "total_adopted": 213,
     "adopted_list": [
       "Knowledge Distillation",
       "World Models / Model-Based RL",
@@ -4894,7 +4894,9 @@
       "等变流匹配",
       "项目反应理论 (Item Response Theory)",
       "Attic-KV",
-      "ReadKV"
+      "ReadKV",
+      "PatchKV",
+      "DreamingGoose"
     ],
     "seeds": {
       "mamba": {
@@ -4944,8 +4946,8 @@
       },
       "gnn": {
         "name": "Graph Neural Networks",
-        "watering": 72,
-        "papers": 149
+        "watering": 73,
+        "papers": 151
       }
     },
     "seed_metrics": {
@@ -5048,18 +5050,18 @@
       },
       "gnn": {
         "name": "Graph Neural Networks",
-        "new_papers": 149,
+        "new_papers": 151,
         "keywords_matched": [
-          "graph attention",
           "graph neural",
-          "gnn",
-          "geometric",
           "graph transformer",
-          "message passing",
-          "node embedding"
+          "node embedding",
+          "gnn",
+          "graph attention",
+          "geometric",
+          "message passing"
         ],
         "high_relevance_total": 72,
-        "avg_relevance_latest": 1.5,
+        "avg_relevance_latest": 1.0,
         "best_papers_count": 10
       },
       "moe": {
@@ -5091,6 +5093,6 @@
         "best_papers_count": 1
       }
     },
-    "last_evolution": "2026-10-09T17:37:52.147767"
+    "last_evolution": "2026-10-09T21:56:20.863699"
   }
 }

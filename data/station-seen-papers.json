@@ -51282,7 +51282,68 @@
         "sharp"
       ],
       "first_seen_round": 371
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.11115v1",
+      "title": "Dynamics as Code: On Model Compression via Dynamic System",
+      "arxiv_id": "2610.11115",
+      "tokens": [
+        "code",
+        "compression",
+        "dynamic",
+        "dynamics"
+      ],
+      "first_seen_round": 372
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.10854v1",
+      "title": "KDFP: A first-principles approach to knowledge distillation in large language models",
+      "arxiv_id": "2610.10854",
+      "tokens": [
+        "distillation",
+        "kdfp",
+        "knowledge",
+        "language",
+        "principles"
+      ],
+      "first_seen_round": 372
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.11526v1",
+      "title": "MSGAT: Multi-Head Spiking Graph Attention with Similarity-Space Fusion for Image-Text Retrieval",
+      "arxiv_id": "2610.11526",
+      "tokens": [
+        "attention",
+        "fusion",
+        "graph",
+        "head",
+        "image",
+        "msgat",
+        "multi",
+        "retrieval",
+        "similarity",
+        "space",
+        "spiking",
+        "text"
+      ],
+      "first_seen_round": 372
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.10776v1",
+      "title": "NEMORA: Neural Equivariant Multipole Operators for Long-Range Atomistic Learning",
+      "arxiv_id": "2610.10776",
+      "tokens": [
+        "atomistic",
+        "equivariant",
+        "long",
+        "multipole",
+        "nemora",
+        "neural",
+        "operators",
+        "range"
+      ],
+      "first_seen_round": 372
     }
   ],
-  "total_unique": 3214
+  "total_unique": 3218
 }
