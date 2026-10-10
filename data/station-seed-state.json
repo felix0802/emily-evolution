@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 742,
+  "_rotation_idx": 743,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 73,
@@ -1480,26 +1480,9 @@
   },
   "htm": {
     "name": "HTM",
-    "total_papers_found": 126,
-    "watering_count": 77,
+    "total_papers_found": 130,
+    "watering_count": 78,
     "history": [
-      {
-        "timestamp": "2026-08-03T19:14:56.282071",
-        "papers_found": 1,
-        "duplicates": 3,
-        "irrelevant_filtered": 6,
-        "avg_relevance": 1.0,
-        "high_relevance": 0,
-        "papers": [
-          {
-            "title": "Exploring Block Anomaly Detection In HDFS Log Data Analysis",
-            "summary": "In recent years, with the development of big data technology, increasingly more companies use HDFS for data processing and storage. As a result, the maintenance of distributed file systems has become an extremely important part of data management. As the function of server systems is becoming increa",
-            "published": "2026-07-31",
-            "url": "http://arxiv.org/abs/2607.29383v1",
-            "seed_match_score": 1
-          }
-        ]
-      },
       {
         "timestamp": "2026-08-04T21:00:11.217205",
         "papers_found": 4,
@@ -2420,6 +2403,37 @@
             "seed_match_score": 1
           }
         ]
+      },
+      {
+        "timestamp": "2026-10-10T14:02:16.110581",
+        "papers_found": 4,
+        "duplicates": 0,
+        "irrelevant_filtered": 6,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "AdaptLSTM: Efficient Adaptive Online Learning for Cloud Workload Forecasting under Distribution Drift",
+            "summary": "Accurate workload forecasting is critical for elastic resource provisioning in web-scale cloud services, where distribution shifts driven by viral content, product launches, and user behavior degrade offline-trained models rapidly. Naive online learning recovers accuracy but incurs prohibitive per-s",
+            "published": "2026-10-08",
+            "url": "http://arxiv.org/abs/2610.12265v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "RIFT: Relative Isolation From Trees For Anomaly Detection",
+            "summary": "Isolation Forest (IF) is a widely used baseline for unsupervised anomaly detection. Recent studies provide a closed-form expression for the infinite-forest limit for one-dimensional data. Inspired by the geometric interpretation of this formula, we introduce RIFT (Relative Isolation From Trees), a d",
+            "published": "2026-10-08",
+            "url": "http://arxiv.org/abs/2610.12244v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Is Real-World Training Data Necessary for Generalist Graph Anomaly Detection?",
+            "summary": "Generalist graph anomaly detection (GAD) aims to build a foundation model that detects anomalies on arbitrary unseen graphs without retraining or fine-tuning. Sufficient data are essential for foundation model training, yet generalist GAD still faces a data shortage, as real-world anomalous graphs a",
+            "published": "2026-10-08",
+            "url": "http://arxiv.org/abs/2610.12167v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -2434,7 +2448,7 @@
       "anomaly detection",
       "continuous learning"
     ],
-    "last_watered": "2026-10-08T01:24:06.213005"
+    "last_watered": "2026-10-10T14:02:16.110575"
   },
   "spiking-nn": {
     "name": "Spiking Neural Networks",

@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-10T07:49:40.748975",
+  "timestamp": "2026-10-10T14:02:27.117104",
   "connections": [
     {
       "seed_a": "Mamba (SSM)",
@@ -18,7 +18,7 @@
         "with"
       ],
       "strength": 11,
-      "discovered_at": "2026-10-10T07:49:40.748787"
+      "discovered_at": "2026-10-10T14:02:27.116914"
     },
     {
       "seed_a": "Liquid Networks",
@@ -34,7 +34,39 @@
         "with"
       ],
       "strength": 7,
-      "discovered_at": "2026-10-10T07:49:40.748857"
+      "discovered_at": "2026-10-10T14:02:27.116984"
+    },
+    {
+      "seed_a": "HTM",
+      "seed_b": "Few-Shot Learning",
+      "shared_keywords": [],
+      "shared_paper_concepts": [
+        "detection",
+        "forecasting",
+        "from",
+        "learning",
+        "malware",
+        "trees",
+        "with"
+      ],
+      "strength": 7,
+      "discovered_at": "2026-10-10T14:02:27.117014"
+    },
+    {
+      "seed_a": "HTM",
+      "seed_b": "Graph Neural Networks",
+      "shared_keywords": [],
+      "shared_paper_concepts": [
+        "distribution",
+        "graph",
+        "learning",
+        "multi",
+        "self",
+        "supervised",
+        "with"
+      ],
+      "strength": 7,
+      "discovered_at": "2026-10-10T14:02:27.117028"
     },
     {
       "seed_a": "Non-Transformer Arch",
@@ -50,7 +82,7 @@
         "with"
       ],
       "strength": 7,
-      "discovered_at": "2026-10-10T07:49:40.748934"
+      "discovered_at": "2026-10-10T14:02:27.117063"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -65,7 +97,7 @@
         "with"
       ],
       "strength": 6,
-      "discovered_at": "2026-10-10T07:49:40.748806"
+      "discovered_at": "2026-10-10T14:02:27.116933"
     },
     {
       "seed_a": "Liquid Networks",
@@ -73,14 +105,14 @@
       "shared_keywords": [],
       "shared_paper_concepts": [
         "data",
-        "free",
+        "forecasting",
         "learning",
         "limit",
         "optimal",
         "with"
       ],
       "strength": 6,
-      "discovered_at": "2026-10-10T07:49:40.748811"
+      "discovered_at": "2026-10-10T14:02:27.116938"
     },
     {
       "seed_a": "Liquid Networks",
@@ -95,36 +127,22 @@
         "with"
       ],
       "strength": 6,
-      "discovered_at": "2026-10-10T07:49:40.748861"
+      "discovered_at": "2026-10-10T14:02:27.116988"
     },
     {
-      "seed_a": "Non-Transformer Arch",
-      "seed_b": "Few-Shot Learning",
+      "seed_a": "HTM",
+      "seed_b": "Non-Transformer Arch",
       "shared_keywords": [],
       "shared_paper_concepts": [
         "forecasting",
+        "graph",
+        "kernel",
         "learning",
-        "series",
-        "temporal",
-        "time",
+        "multi",
         "with"
       ],
       "strength": 6,
-      "discovered_at": "2026-10-10T07:49:40.748921"
-    },
-    {
-      "seed_a": "Liquid Networks",
-      "seed_b": "Spiking Neural Networks",
-      "shared_keywords": [],
-      "shared_paper_concepts": [
-        "learning",
-        "limit",
-        "neural",
-        "stochastic",
-        "with"
-      ],
-      "strength": 5,
-      "discovered_at": "2026-10-10T07:49:40.748853"
+      "discovered_at": "2026-10-10T14:02:27.117010"
     },
     {
       "seed_a": "HTM",
@@ -132,27 +150,14 @@
       "shared_keywords": [],
       "shared_paper_concepts": [
         "data",
+        "from",
         "learning",
         "selection",
         "training",
         "with"
       ],
-      "strength": 5,
-      "discovered_at": "2026-10-10T07:49:40.748890"
-    },
-    {
-      "seed_a": "HTM",
-      "seed_b": "Graph Neural Networks",
-      "shared_keywords": [],
-      "shared_paper_concepts": [
-        "learning",
-        "multi",
-        "self",
-        "supervised",
-        "with"
-      ],
-      "strength": 5,
-      "discovered_at": "2026-10-10T07:49:40.748900"
+      "strength": 6,
+      "discovered_at": "2026-10-10T14:02:27.117018"
     }
   ],
   "total_seeds": 10

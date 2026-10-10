@@ -51885,7 +51885,278 @@
         "state"
       ],
       "first_seen_round": 374
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.12432v1",
+      "title": "FAITH: Feasibility-Aware Safety-Filtered RL for High-Dimensional Systems",
+      "arxiv_id": "2610.12432",
+      "tokens": [
+        "aware",
+        "dimensional",
+        "faith",
+        "feasibility",
+        "filtered",
+        "high",
+        "safety"
+      ],
+      "first_seen_round": 375
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.12420v1",
+      "title": "A Unified Bellman Operator for Safety-Critical Reinforcement Learning",
+      "arxiv_id": "2610.12420",
+      "tokens": [
+        "bellman",
+        "critical",
+        "operator",
+        "reinforcement",
+        "safety",
+        "unified"
+      ],
+      "first_seen_round": 375
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.12115v1",
+      "title": "Credal Machine Learning for Risk-Averse Decision Making",
+      "arxiv_id": "2610.12115",
+      "tokens": [
+        "averse",
+        "credal",
+        "decision",
+        "machine",
+        "making",
+        "risk"
+      ],
+      "first_seen_round": 375
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.12095v1",
+      "title": "DVLA-RL++: Dual-Level Vision-Language Alignment with Reinforcement Learning Gating for Few-Shot Learning",
+      "arxiv_id": "2610.12095",
+      "tokens": [
+        "alignment",
+        "dual",
+        "dvla",
+        "gating",
+        "language",
+        "level",
+        "reinforcement",
+        "shot",
+        "vision"
+      ],
+      "first_seen_round": 375
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.11971v1",
+      "title": "CAPABLE: Capability-Aware Policy Adaptation via Behavioral Latent Encoding",
+      "arxiv_id": "2610.11971",
+      "tokens": [
+        "adaptation",
+        "aware",
+        "behavioral",
+        "capability",
+        "capable",
+        "encoding",
+        "latent",
+        "policy"
+      ],
+      "first_seen_round": 375
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.12361v1",
+      "title": "Cited but Not Consulted: A Counterfactual Audit of Legal Chain-of-Thought Faithfulness",
+      "arxiv_id": "2610.12361",
+      "tokens": [
+        "audit",
+        "chain",
+        "cited",
+        "consulted",
+        "counterfactual",
+        "faithfulness",
+        "legal",
+        "thought"
+      ],
+      "first_seen_round": 375
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.12345v1",
+      "title": "Overcoming Prior Barriers: Supervised Fine-Tuning under Long-Tail Distribution",
+      "arxiv_id": "2610.12345",
+      "tokens": [
+        "barriers",
+        "distribution",
+        "fine",
+        "long",
+        "overcoming",
+        "prior",
+        "supervised",
+        "tail",
+        "tuning"
+      ],
+      "first_seen_round": 375
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.12338v1",
+      "title": "VFold: Symmetry-Aware Cross-Layer Value Cache Compression",
+      "arxiv_id": "2610.12338",
+      "tokens": [
+        "aware",
+        "cache",
+        "compression",
+        "cross",
+        "layer",
+        "symmetry",
+        "value",
+        "vfold"
+      ],
+      "first_seen_round": 375
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.12189v1",
+      "title": "Just Weather Scoring: Efficient End-to-end Nowcasting with Distributional Diffusion",
+      "arxiv_id": "2610.12189",
+      "tokens": [
+        "diffusion",
+        "distributional",
+        "end",
+        "end",
+        "nowcasting",
+        "scoring",
+        "weather"
+      ],
+      "first_seen_round": 375
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.11746v1",
+      "title": "Streaming-Aware Diffusion for Real-Time Video Super-Resolution via Cross-Step Attention",
+      "arxiv_id": "2610.11746",
+      "tokens": [
+        "attention",
+        "aware",
+        "cross",
+        "diffusion",
+        "real",
+        "resolution",
+        "step",
+        "streaming",
+        "super",
+        "time",
+        "video"
+      ],
+      "first_seen_round": 375
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.11496v1",
+      "title": "Stop My Dancing! Understanding, Detecting and Attributing Motion-Aware Deepfake Videos",
+      "arxiv_id": "2610.11496",
+      "tokens": [
+        "attributing",
+        "aware",
+        "dancing",
+        "deepfake",
+        "detecting",
+        "motion",
+        "stop",
+        "understanding",
+        "videos"
+      ],
+      "first_seen_round": 375
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.11479v1",
+      "title": "Conditional Residual Prediction: Improving Autoregressive Video Diffusion without a Bidirectional Teacher",
+      "arxiv_id": "2610.11479",
+      "tokens": [
+        "autoregressive",
+        "bidirectional",
+        "conditional",
+        "diffusion",
+        "improving",
+        "prediction",
+        "residual",
+        "teacher",
+        "video"
+      ],
+      "first_seen_round": 375
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.11362v1",
+      "title": "Bernoulli Flow Models: Self-Consistent Generative Modeling for Binary Data",
+      "arxiv_id": "2610.11362",
+      "tokens": [
+        "bernoulli",
+        "binary",
+        "consistent",
+        "flow",
+        "generative",
+        "modeling",
+        "self"
+      ],
+      "first_seen_round": 375
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.12265v1",
+      "title": "AdaptLSTM: Efficient Adaptive Online Learning for Cloud Workload Forecasting under Distribution Drift",
+      "arxiv_id": "2610.12265",
+      "tokens": [
+        "adaptive",
+        "adaptlstm",
+        "cloud",
+        "distribution",
+        "drift",
+        "forecasting",
+        "online",
+        "workload"
+      ],
+      "first_seen_round": 375
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.12244v1",
+      "title": "RIFT: Relative Isolation From Trees For Anomaly Detection",
+      "arxiv_id": "2610.12244",
+      "tokens": [
+        "anomaly",
+        "detection",
+        "isolation",
+        "relative",
+        "rift",
+        "trees"
+      ],
+      "first_seen_round": 375
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.12167v1",
+      "title": "Is Real-World Training Data Necessary for Generalist Graph Anomaly Detection?",
+      "arxiv_id": "2610.12167",
+      "tokens": [
+        "anomaly",
+        "detection",
+        "generalist",
+        "graph",
+        "necessary",
+        "real",
+        "training",
+        "world"
+      ],
+      "first_seen_round": 375
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.11735v1",
+      "title": "Onboard Marine Anomaly Detection on $Φ$sat-2: From Simulation-Based Development to In-Orbit Demonstration",
+      "arxiv_id": "2610.11735",
+      "tokens": [
+        "anomaly",
+        "demonstration",
+        "detection",
+        "development",
+        "marine",
+        "onboard",
+        "orbit",
+        "sat",
+        "simulation"
+      ],
+      "first_seen_round": 375
     }
   ],
-  "total_unique": 3251
+  "total_unique": 3268
 }

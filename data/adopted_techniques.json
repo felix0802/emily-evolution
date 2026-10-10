@@ -3248,6 +3248,36 @@
         ],
         "decided_at": "2026-10-10T07:49:37.879102"
       }
+    },
+    {
+      "id": "llm-sim-to-real-强化学习",
+      "name": "Sim-to-real 强化学习",
+      "adopted_at": "2026-10-10T14:02:24.579003",
+      "decision": {
+        "tech_id": "llm-sim-to-real-强化学习",
+        "tech_name": "Sim-to-real 强化学习",
+        "action": "adopt",
+        "confidence": 0.9,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-10-10T14:02:24.576477"
+      }
+    },
+    {
+      "id": "llm-安全过滤器",
+      "name": "安全过滤器",
+      "adopted_at": "2026-10-10T14:02:24.579030",
+      "decision": {
+        "tech_id": "llm-安全过滤器",
+        "tech_name": "安全过滤器",
+        "action": "adopt",
+        "confidence": 0.85,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-10-10T14:02:24.576714"
+      }
     }
   ],
   "history": [
@@ -4546,6 +4576,18 @@
       "tech_id": "llm-奖励验证自蒸馏",
       "tech_name": "奖励验证自蒸馏",
       "timestamp": "2026-10-10T07:49:37.881038"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-sim-to-real-强化学习",
+      "tech_name": "Sim-to-real 强化学习",
+      "timestamp": "2026-10-10T14:02:24.579008"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-安全过滤器",
+      "tech_name": "安全过滤器",
+      "timestamp": "2026-10-10T14:02:24.579031"
     }
   ]
 }
