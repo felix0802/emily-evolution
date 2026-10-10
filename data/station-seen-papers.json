@@ -52156,7 +52156,57 @@
         "simulation"
       ],
       "first_seen_round": 375
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.11560v1",
+      "title": "Hankel Subspace Self-Supervised Learning for Parallel MRI Reconstruction",
+      "arxiv_id": "2610.11560",
+      "tokens": [
+        "hankel",
+        "mri",
+        "parallel",
+        "reconstruction",
+        "self",
+        "subspace",
+        "supervised"
+      ],
+      "first_seen_round": 376
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.11600v1",
+      "title": "Error-Propagation Modeling for Failure Attribution in LLM-Based Multi-Agent Systems",
+      "arxiv_id": "2610.11600",
+      "tokens": [
+        "agent",
+        "attribution",
+        "error",
+        "failure",
+        "llm",
+        "modeling",
+        "multi",
+        "propagation"
+      ],
+      "first_seen_round": 376
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.10628v1",
+      "title": "Agent4RE: A Self-Refining Multi-agent Framework for End-to-End Software Requirements Engineering and Benchmarking",
+      "arxiv_id": "2610.10628",
+      "tokens": [
+        "agent",
+        "agent4re",
+        "benchmarking",
+        "end",
+        "end",
+        "engineering",
+        "multi",
+        "refining",
+        "requirements",
+        "self",
+        "software"
+      ],
+      "first_seen_round": 376
     }
   ],
-  "total_unique": 3268
+  "total_unique": 3271
 }
