@@ -3218,6 +3218,36 @@
         ],
         "decided_at": "2026-10-10T01:23:55.636013"
       }
+    },
+    {
+      "id": "llm-单次人类演示学习",
+      "name": "单次人类演示学习",
+      "adopted_at": "2026-10-10T07:49:37.881012",
+      "decision": {
+        "tech_id": "llm-单次人类演示学习",
+        "tech_name": "单次人类演示学习",
+        "action": "adopt",
+        "confidence": 0.9,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-10-10T07:49:37.878890"
+      }
+    },
+    {
+      "id": "llm-奖励验证自蒸馏",
+      "name": "奖励验证自蒸馏",
+      "adopted_at": "2026-10-10T07:49:37.881036",
+      "decision": {
+        "tech_id": "llm-奖励验证自蒸馏",
+        "tech_name": "奖励验证自蒸馏",
+        "action": "adopt",
+        "confidence": 0.85,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-10-10T07:49:37.879102"
+      }
     }
   ],
   "history": [
@@ -4504,6 +4534,18 @@
       "tech_id": "llm-白盒欺骗检测探针",
       "tech_name": "白盒欺骗检测探针",
       "timestamp": "2026-10-10T01:23:55.637278"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-单次人类演示学习",
+      "tech_name": "单次人类演示学习",
+      "timestamp": "2026-10-10T07:49:37.881017"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-奖励验证自蒸馏",
+      "tech_name": "奖励验证自蒸馏",
+      "timestamp": "2026-10-10T07:49:37.881038"
     }
   ]
 }
