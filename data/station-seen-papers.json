@@ -51343,7 +51343,335 @@
         "range"
       ],
       "first_seen_round": 372
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.12436v1",
+      "title": "Ecology of AI Agents: Collaboration Creates a Population Threshold for Takeoff",
+      "arxiv_id": "2610.12436",
+      "tokens": [
+        "agents",
+        "collaboration",
+        "creates",
+        "ecology",
+        "population",
+        "takeoff",
+        "threshold"
+      ],
+      "first_seen_round": 373
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.12424v1",
+      "title": "RoboRSI: Stable, efficient, and reusable robot self-evolution in complex real-world environments",
+      "arxiv_id": "2610.12424",
+      "tokens": [
+        "complex",
+        "environments",
+        "evolution",
+        "real",
+        "reusable",
+        "roborsi",
+        "robot",
+        "self",
+        "stable",
+        "world"
+      ],
+      "first_seen_round": 373
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.12416v1",
+      "title": "MAMHOI: Factorizing Scene-Aware Human-Object Interaction through Affordances",
+      "arxiv_id": "2610.12416",
+      "tokens": [
+        "affordances",
+        "aware",
+        "factorizing",
+        "human",
+        "interaction",
+        "mamhoi",
+        "object",
+        "scene"
+      ],
+      "first_seen_round": 373
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.12467v1",
+      "title": "CSF: Contextual Safety Filtering for Motion Generators",
+      "arxiv_id": "2610.12467",
+      "tokens": [
+        "contextual",
+        "csf",
+        "filtering",
+        "generators",
+        "motion",
+        "safety"
+      ],
+      "first_seen_round": 373
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.12465v1",
+      "title": "A Balanced Data Diet: Addressing the Exploration Bottleneck in Mega-Scale RL for Robot Control",
+      "arxiv_id": "2610.12465",
+      "tokens": [
+        "addressing",
+        "balanced",
+        "bottleneck",
+        "control",
+        "diet",
+        "exploration",
+        "mega",
+        "robot",
+        "scale"
+      ],
+      "first_seen_round": 373
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.12448v1",
+      "title": "One Block, Multiple Depths: Recurrent Vision Transformers with Depth-Programmed Experts",
+      "arxiv_id": "2610.12448",
+      "tokens": [
+        "block",
+        "depth",
+        "depths",
+        "experts",
+        "multiple",
+        "programmed",
+        "recurrent",
+        "transformers",
+        "vision"
+      ],
+      "first_seen_round": 373
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.12444v1",
+      "title": "Rounding in Preconditioner Space: Redesigning 4-bit AdamW Optimizer-State Quantization",
+      "arxiv_id": "2610.12444",
+      "tokens": [
+        "adamw",
+        "bit",
+        "optimizer",
+        "preconditioner",
+        "quantization",
+        "redesigning",
+        "rounding",
+        "space",
+        "state"
+      ],
+      "first_seen_round": 373
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.12437v1",
+      "title": "Density Ratio Estimation with Stein Displacement Fields",
+      "arxiv_id": "2610.12437",
+      "tokens": [
+        "density",
+        "displacement",
+        "estimation",
+        "fields",
+        "ratio",
+        "stein"
+      ],
+      "first_seen_round": 373
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.12435v1",
+      "title": "VioLA: Learning Generalist Humanoid Control Policies from Human Data",
+      "arxiv_id": "2610.12435",
+      "tokens": [
+        "control",
+        "generalist",
+        "human",
+        "humanoid",
+        "policies",
+        "viola"
+      ],
+      "first_seen_round": 373
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.12427v1",
+      "title": "FastBench: Can Streaming VLMs Perceive High-Dynamic Real-World Streams?",
+      "arxiv_id": "2610.12427",
+      "tokens": [
+        "dynamic",
+        "fastbench",
+        "high",
+        "perceive",
+        "real",
+        "streaming",
+        "streams",
+        "vlms",
+        "world"
+      ],
+      "first_seen_round": 373
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.12417v1",
+      "title": "WOVEN: Weaving Visual World Modeling into Multimodal LLMs",
+      "arxiv_id": "2610.12417",
+      "tokens": [
+        "llms",
+        "modeling",
+        "multimodal",
+        "visual",
+        "weaving",
+        "world",
+        "woven"
+      ],
+      "first_seen_round": 373
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.12410v1",
+      "title": "Predicting Alignment Generalization with Value Representations",
+      "arxiv_id": "2610.12410",
+      "tokens": [
+        "alignment",
+        "generalization",
+        "predicting",
+        "representations",
+        "value"
+      ],
+      "first_seen_round": 373
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.12403v1",
+      "title": "ViSkill: Reinforcing VLM Agents with Evolving Visual-Native Skills",
+      "arxiv_id": "2610.12403",
+      "tokens": [
+        "agents",
+        "evolving",
+        "native",
+        "reinforcing",
+        "skills",
+        "viskill",
+        "visual",
+        "vlm"
+      ],
+      "first_seen_round": 373
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.12402v1",
+      "title": "SpaceCast-Bench: Evaluating Predictive Spatial Reasoning in Vision-Language Models",
+      "arxiv_id": "2610.12402",
+      "tokens": [
+        "bench",
+        "evaluating",
+        "language",
+        "predictive",
+        "reasoning",
+        "spacecast",
+        "spatial",
+        "vision"
+      ],
+      "first_seen_round": 373
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.12390v1",
+      "title": "Long Text to Predictive Features: LLM-Guided Blockwise Feature Engineering via Executable Program Search",
+      "arxiv_id": "2610.12390",
+      "tokens": [
+        "blockwise",
+        "engineering",
+        "executable",
+        "feature",
+        "features",
+        "guided",
+        "llm",
+        "long",
+        "predictive",
+        "program",
+        "search",
+        "text"
+      ],
+      "first_seen_round": 373
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.12376v1",
+      "title": "Latent Core Tokenizer: Compress, but Meaningfully",
+      "arxiv_id": "2610.12376",
+      "tokens": [
+        "compress",
+        "core",
+        "latent",
+        "meaningfully",
+        "tokenizer"
+      ],
+      "first_seen_round": 373
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.12375v1",
+      "title": "OnTrack: Real-Time Monitoring and Intervention in LLM Agent Trajectories via Streaming Structure-Aware Optimal Transport",
+      "arxiv_id": "2610.12375",
+      "tokens": [
+        "agent",
+        "aware",
+        "intervention",
+        "llm",
+        "monitoring",
+        "ontrack",
+        "optimal",
+        "real",
+        "streaming",
+        "structure",
+        "time",
+        "trajectories",
+        "transport"
+      ],
+      "first_seen_round": 373
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.10323v1",
+      "title": "HAN-Mamba: Hierarchical Selective State Space Networks for Multi-Scale Financial Volatility Forecasting",
+      "arxiv_id": "2610.10323",
+      "tokens": [
+        "financial",
+        "forecasting",
+        "han",
+        "hierarchical",
+        "mamba",
+        "multi",
+        "scale",
+        "selective",
+        "space",
+        "state",
+        "volatility"
+      ],
+      "first_seen_round": 373
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.09456v1",
+      "title": "GeoPrior-Mamba: Structured Process Priors with Mamba for Fine-Resolution XCO2 Reconstruction",
+      "arxiv_id": "2610.09456",
+      "tokens": [
+        "fine",
+        "geoprior",
+        "mamba",
+        "mamba",
+        "priors",
+        "process",
+        "reconstruction",
+        "resolution",
+        "structured",
+        "xco2"
+      ],
+      "first_seen_round": 373
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.09092v2",
+      "title": "MaRK: Markov-adapted Recurrent Kernels for Dynamic Operator Conditioning in State Space Models",
+      "arxiv_id": "2610.09092",
+      "tokens": [
+        "adapted",
+        "conditioning",
+        "dynamic",
+        "kernels",
+        "mark",
+        "markov",
+        "operator",
+        "recurrent",
+        "space",
+        "state"
+      ],
+      "first_seen_round": 373
     }
   ],
-  "total_unique": 3218
+  "total_unique": 3238
 }

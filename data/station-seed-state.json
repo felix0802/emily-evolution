@@ -1,19 +1,10 @@
 {
-  "_rotation_idx": 740,
+  "_rotation_idx": 741,
   "mamba": {
     "name": "Mamba (SSM)",
-    "total_papers_found": 70,
-    "watering_count": 77,
+    "total_papers_found": 73,
+    "watering_count": 78,
     "history": [
-      {
-        "timestamp": "2026-08-03T12:47:27.696683",
-        "papers_found": 0,
-        "duplicates": 5,
-        "irrelevant_filtered": 5,
-        "avg_relevance": 0.0,
-        "high_relevance": 0,
-        "papers": []
-      },
       {
         "timestamp": "2026-08-04T16:04:48.030147",
         "papers_found": 0,
@@ -694,6 +685,37 @@
             "seed_match_score": 2
           }
         ]
+      },
+      {
+        "timestamp": "2026-10-10T01:23:50.964776",
+        "papers_found": 3,
+        "duplicates": 4,
+        "irrelevant_filtered": 3,
+        "avg_relevance": 1.67,
+        "high_relevance": 2,
+        "papers": [
+          {
+            "title": "HAN-Mamba: Hierarchical Selective State Space Networks for Multi-Scale Financial Volatility Forecasting",
+            "summary": "Short-horizon realized volatility forecasting requires the integration of market information that evolves at incompatible temporal resolutions, from second-level order book dynamics to weekly regime drift. Our conference work introduced HAN-T, a hierarchical architecture in which scale-specific Tran",
+            "published": "2026-10-07",
+            "url": "http://arxiv.org/abs/2610.10323v1",
+            "seed_match_score": 2
+          },
+          {
+            "title": "GeoPrior-Mamba: Structured Process Priors with Mamba for Fine-Resolution XCO2 Reconstruction",
+            "summary": "Reconstructing fine-resolution column-averaged dry-air CO2 (XCO2) fields from sparse satellite observations requires models to infer spatial structure that is only weakly constrained by direct measurements. Existing learning-based methods typically treat environmental covariates as ordinary numerica",
+            "published": "2026-10-07",
+            "url": "http://arxiv.org/abs/2610.09456v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "MaRK: Markov-adapted Recurrent Kernels for Dynamic Operator Conditioning in State Space Models",
+            "summary": "State Space Models (SSMs) offer an efficient alternative to Transformers for sequence modeling, yet conditioning pre-trained SSMs for iterative generation typically operates outside the recurrent operator, through input injection or activation modulation. While such mechanisms expose the model to co",
+            "published": "2026-10-06",
+            "url": "http://arxiv.org/abs/2610.09092v2",
+            "seed_match_score": 2
+          }
+        ]
       }
     ],
     "keywords": [
@@ -702,7 +724,7 @@
       "ssm",
       "selective scan"
     ],
-    "last_watered": "2026-10-07T14:49:55.151777"
+    "last_watered": "2026-10-10T01:23:50.964772"
   },
   "liquid-networks": {
     "name": "Liquid Networks",

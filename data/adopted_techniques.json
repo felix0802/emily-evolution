@@ -3203,6 +3203,21 @@
         ],
         "decided_at": "2026-10-09T21:56:17.563032"
       }
+    },
+    {
+      "id": "llm-白盒欺骗检测探针",
+      "name": "白盒欺骗检测探针",
+      "adopted_at": "2026-10-10T01:23:55.637275",
+      "decision": {
+        "tech_id": "llm-白盒欺骗检测探针",
+        "tech_name": "白盒欺骗检测探针",
+        "action": "adopt",
+        "confidence": 0.95,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-10-10T01:23:55.636013"
+      }
     }
   ],
   "history": [
@@ -4483,6 +4498,12 @@
       "tech_id": "llm-dreaminggoose",
       "tech_name": "DreamingGoose",
       "timestamp": "2026-10-09T21:56:17.564813"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-白盒欺骗检测探针",
+      "tech_name": "白盒欺骗检测探针",
+      "timestamp": "2026-10-10T01:23:55.637278"
     }
   ]
 }
