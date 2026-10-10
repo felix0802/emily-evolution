@@ -1,39 +1,5 @@
 [
   {
-    "evolution": 328,
-    "timestamp": "2026-09-28T18:51:22.043638",
-    "checks": {
-      "keyword_staleness": {
-        "score": 0.4,
-        "unique_recent_sets": 3,
-        "status": "warning"
-      },
-      "adoption_rate": {
-        "total_adopted": 178,
-        "discovered_this_round": 10,
-        "status": "healthy",
-        "message": "已采用 178 / 10 个技术"
-      },
-      "seed_growth": {
-        "growing_seeds": 10,
-        "total_seeds": 10,
-        "never_watered": [],
-        "status": "healthy"
-      },
-      "ml_progress": {
-        "improvements_recorded": 50,
-        "status": "healthy"
-      },
-      "paper_inflow": {
-        "this_round": 5,
-        "recent_avg": 5.9,
-        "status": "healthy"
-      }
-    },
-    "overall": "healthy",
-    "summary": "🟢 所有指标正常，进化稳定推进"
-  },
-  {
     "evolution": 329,
     "timestamp": "2026-09-29T00:05:40.332048",
     "checks": {
@@ -1693,6 +1659,40 @@
       "paper_inflow": {
         "this_round": 18,
         "recent_avg": 16.2,
+        "status": "healthy"
+      }
+    },
+    "overall": "healthy",
+    "summary": "🟢 所有指标正常，进化稳定推进"
+  },
+  {
+    "evolution": 378,
+    "timestamp": "2026-10-10T23:01:22.752780",
+    "checks": {
+      "keyword_staleness": {
+        "score": 0.0,
+        "unique_recent_sets": 5,
+        "status": "healthy"
+      },
+      "adoption_rate": {
+        "total_adopted": 219,
+        "discovered_this_round": 22,
+        "status": "healthy",
+        "message": "已采用 219 / 22 个技术"
+      },
+      "seed_growth": {
+        "growing_seeds": 10,
+        "total_seeds": 10,
+        "never_watered": [],
+        "status": "healthy"
+      },
+      "ml_progress": {
+        "improvements_recorded": 50,
+        "status": "healthy"
+      },
+      "paper_inflow": {
+        "this_round": 18,
+        "recent_avg": 17.5,
         "status": "healthy"
       }
     },

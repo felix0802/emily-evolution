@@ -52206,7 +52206,49 @@
         "software"
       ],
       "first_seen_round": 376
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.11251v1",
+      "title": "V-CoLA: Vision Token Compression with Linear Attention",
+      "arxiv_id": "2610.11251",
+      "tokens": [
+        "attention",
+        "cola",
+        "compression",
+        "linear",
+        "token",
+        "vision"
+      ],
+      "first_seen_round": 377
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.11063v1",
+      "title": "Emergent Inverse-Depth Scaling From Nonlinearity In Attention",
+      "arxiv_id": "2610.11063",
+      "tokens": [
+        "attention",
+        "depth",
+        "emergent",
+        "inverse",
+        "nonlinearity",
+        "scaling"
+      ],
+      "first_seen_round": 377
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.10761v1",
+      "title": "What can linear attention learn from nonlinear teachers in-context?",
+      "arxiv_id": "2610.10761",
+      "tokens": [
+        "attention",
+        "context",
+        "learn",
+        "linear",
+        "nonlinear",
+        "teachers"
+      ],
+      "first_seen_round": 377
     }
   ],
-  "total_unique": 3271
+  "total_unique": 3274
 }

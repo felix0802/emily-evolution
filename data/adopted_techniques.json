@@ -3278,6 +3278,21 @@
         ],
         "decided_at": "2026-10-10T14:02:24.576714"
       }
+    },
+    {
+      "id": "llm-weisfeiler-leman-图核",
+      "name": "Weisfeiler-Leman 图核",
+      "adopted_at": "2026-10-10T23:01:22.737627",
+      "decision": {
+        "tech_id": "llm-weisfeiler-leman-图核",
+        "tech_name": "Weisfeiler-Leman 图核",
+        "action": "adopt",
+        "confidence": 0.9,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-10-10T23:01:22.735255"
+      }
     }
   ],
   "history": [
@@ -4588,6 +4603,12 @@
       "tech_id": "llm-安全过滤器",
       "tech_name": "安全过滤器",
       "timestamp": "2026-10-10T14:02:24.579031"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-weisfeiler-leman-图核",
+      "tech_name": "Weisfeiler-Leman 图核",
+      "timestamp": "2026-10-10T23:01:22.737632"
     }
   ]
 }

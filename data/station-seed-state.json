@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 744,
+  "_rotation_idx": 745,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 73,
@@ -3116,18 +3116,9 @@
   },
   "non-transformer": {
     "name": "Non-Transformer Arch",
-    "total_papers_found": 51,
-    "watering_count": 77,
+    "total_papers_found": 54,
+    "watering_count": 78,
     "history": [
-      {
-        "timestamp": "2026-08-03T22:48:33.749036",
-        "papers_found": 0,
-        "duplicates": 3,
-        "irrelevant_filtered": 7,
-        "avg_relevance": 0.0,
-        "high_relevance": 0,
-        "papers": []
-      },
       {
         "timestamp": "2026-08-05T01:19:42.039921",
         "papers_found": 2,
@@ -3840,6 +3831,37 @@
             "seed_match_score": 1
           }
         ]
+      },
+      {
+        "timestamp": "2026-10-10T23:01:17.838119",
+        "papers_found": 3,
+        "duplicates": 3,
+        "irrelevant_filtered": 4,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "V-CoLA: Vision Token Compression with Linear Attention",
+            "summary": "Vision-language models (VLMs) have demonstrated impressive capabilities but suffer from substantial computational overhead, as vision tokens dominate the input sequence. This motivates vision token compression as a key direction to alleviate the burden. However, with the emergence of hybrid architec",
+            "published": "2026-10-08",
+            "url": "http://arxiv.org/abs/2610.11251v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Emergent Inverse-Depth Scaling From Nonlinearity In Attention",
+            "summary": "Scaling laws describe power-law improvements in model performance with dataset size and parameter count, yet their underlying mechanisms are not fully understood. To explain the parameter count scaling, existing theory posits power-law scaling with model depth. In linear-attention models, this scali",
+            "published": "2026-10-08",
+            "url": "http://arxiv.org/abs/2610.11063v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "What can linear attention learn from nonlinear teachers in-context?",
+            "summary": "Linear attention is a tractable model for understanding the mechanisms governing in-context learning in transformers. For linear regression tasks, recent asymptotic analyses have characterised its learning and generalisation behaviour. We extend this theory to nonlinear single-index targets, $y=f(x^",
+            "published": "2026-10-07",
+            "url": "http://arxiv.org/abs/2610.10761v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -3852,7 +3874,7 @@
       "sub-quadratic",
       "mamba"
     ],
-    "last_watered": "2026-10-08T17:05:20.375614"
+    "last_watered": "2026-10-10T23:01:17.838111"
   },
   "few-shot": {
     "name": "Few-Shot Learning",
