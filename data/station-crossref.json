@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-10T23:01:22.761845",
+  "timestamp": "2026-10-11T02:31:04.174274",
   "connections": [
     {
       "seed_a": "Mamba (SSM)",
@@ -18,7 +18,24 @@
         "with"
       ],
       "strength": 11,
-      "discovered_at": "2026-10-10T23:01:22.761647"
+      "discovered_at": "2026-10-11T02:31:04.174145"
+    },
+    {
+      "seed_a": "HTM",
+      "seed_b": "Few-Shot Learning",
+      "shared_keywords": [],
+      "shared_paper_concepts": [
+        "data",
+        "detection",
+        "forecasting",
+        "from",
+        "learning",
+        "malware",
+        "training",
+        "trees"
+      ],
+      "strength": 9,
+      "discovered_at": "2026-10-11T02:31:04.174216"
     },
     {
       "seed_a": "Liquid Networks",
@@ -35,7 +52,23 @@
         "with"
       ],
       "strength": 8,
-      "discovered_at": "2026-10-10T23:01:22.761724"
+      "discovered_at": "2026-10-11T02:31:04.174197"
+    },
+    {
+      "seed_a": "Liquid Networks",
+      "seed_b": "Few-Shot Learning",
+      "shared_keywords": [],
+      "shared_paper_concepts": [
+        "data",
+        "forecasting",
+        "generation",
+        "learning",
+        "neural",
+        "time",
+        "with"
+      ],
+      "strength": 7,
+      "discovered_at": "2026-10-11T02:31:04.174200"
     },
     {
       "seed_a": "HTM",
@@ -51,23 +84,7 @@
         "with"
       ],
       "strength": 7,
-      "discovered_at": "2026-10-10T23:01:22.761750"
-    },
-    {
-      "seed_a": "HTM",
-      "seed_b": "Few-Shot Learning",
-      "shared_keywords": [],
-      "shared_paper_concepts": [
-        "detection",
-        "forecasting",
-        "from",
-        "learning",
-        "malware",
-        "trees",
-        "with"
-      ],
-      "strength": 7,
-      "discovered_at": "2026-10-10T23:01:22.761754"
+      "discovered_at": "2026-10-11T02:31:04.174213"
     },
     {
       "seed_a": "HTM",
@@ -83,7 +100,7 @@
         "with"
       ],
       "strength": 7,
-      "discovered_at": "2026-10-10T23:01:22.761769"
+      "discovered_at": "2026-10-11T02:31:04.174226"
     },
     {
       "seed_a": "Non-Transformer Arch",
@@ -99,7 +116,7 @@
         "with"
       ],
       "strength": 7,
-      "discovered_at": "2026-10-10T23:01:22.761787"
+      "discovered_at": "2026-10-11T02:31:04.174237"
     },
     {
       "seed_a": "Non-Transformer Arch",
@@ -115,7 +132,7 @@
         "with"
       ],
       "strength": 7,
-      "discovered_at": "2026-10-10T23:01:22.761802"
+      "discovered_at": "2026-10-11T02:31:04.174246"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -130,7 +147,7 @@
         "with"
       ],
       "strength": 6,
-      "discovered_at": "2026-10-10T23:01:22.761666"
+      "discovered_at": "2026-10-11T02:31:04.174157"
     },
     {
       "seed_a": "Liquid Networks",
@@ -145,22 +162,7 @@
         "with"
       ],
       "strength": 6,
-      "discovered_at": "2026-10-10T23:01:22.761716"
-    },
-    {
-      "seed_a": "Liquid Networks",
-      "seed_b": "Few-Shot Learning",
-      "shared_keywords": [],
-      "shared_paper_concepts": [
-        "forecasting",
-        "generation",
-        "learning",
-        "neural",
-        "time",
-        "with"
-      ],
-      "strength": 6,
-      "discovered_at": "2026-10-10T23:01:22.761728"
+      "discovered_at": "2026-10-11T02:31:04.174192"
     }
   ],
   "total_seeds": 10

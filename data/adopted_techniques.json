@@ -3293,6 +3293,36 @@
         ],
         "decided_at": "2026-10-10T23:01:22.735255"
       }
+    },
+    {
+      "id": "llm-条件参数生成",
+      "name": "条件参数生成",
+      "adopted_at": "2026-10-11T02:31:01.994151",
+      "decision": {
+        "tech_id": "llm-条件参数生成",
+        "tech_name": "条件参数生成",
+        "action": "adopt",
+        "confidence": 0.9,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-10-11T02:31:01.992657"
+      }
+    },
+    {
+      "id": "llm-测试时自适应（tta）",
+      "name": "测试时自适应（TTA）",
+      "adopted_at": "2026-10-11T02:31:01.994164",
+      "decision": {
+        "tech_id": "llm-测试时自适应（tta）",
+        "tech_name": "测试时自适应（TTA）",
+        "action": "adopt",
+        "confidence": 0.85,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-10-11T02:31:01.992863"
+      }
     }
   ],
   "history": [
@@ -4609,6 +4639,18 @@
       "tech_id": "llm-weisfeiler-leman-图核",
       "tech_name": "Weisfeiler-Leman 图核",
       "timestamp": "2026-10-10T23:01:22.737632"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-条件参数生成",
+      "tech_name": "条件参数生成",
+      "timestamp": "2026-10-11T02:31:01.994153"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-测试时自适应（tta）",
+      "tech_name": "测试时自适应（TTA）",
+      "timestamp": "2026-10-11T02:31:01.994165"
     }
   ]
 }

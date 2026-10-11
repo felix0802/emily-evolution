@@ -52248,7 +52248,244 @@
         "teachers"
       ],
       "first_seen_round": 377
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.12240v1",
+      "title": "AdaCast: Conditional Parameter Generation for Adaptive Time Series Forecasting",
+      "arxiv_id": "2610.12240",
+      "tokens": [
+        "adacast",
+        "adaptive",
+        "conditional",
+        "forecasting",
+        "generation",
+        "parameter",
+        "series",
+        "time"
+      ],
+      "first_seen_round": 378
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.12232v1",
+      "title": "Training on the Future: A Delay-Aware Audit of Test-Time Adaptation for Time-Series Forecasting",
+      "arxiv_id": "2610.12232",
+      "tokens": [
+        "adaptation",
+        "audit",
+        "aware",
+        "delay",
+        "forecasting",
+        "future",
+        "series",
+        "test",
+        "time",
+        "time",
+        "training"
+      ],
+      "first_seen_round": 378
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.12148v1",
+      "title": "Large-Scale Benchmarking of Quantum Neural Network Configurations for Financial Time Series Forecasting",
+      "arxiv_id": "2610.12148",
+      "tokens": [
+        "benchmarking",
+        "configurations",
+        "financial",
+        "forecasting",
+        "neural",
+        "quantum",
+        "scale",
+        "series",
+        "time"
+      ],
+      "first_seen_round": 378
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.12096v1",
+      "title": "SCORE: Spectral Correlation Estimation for Multivariate Gaussians",
+      "arxiv_id": "2610.12096",
+      "tokens": [
+        "correlation",
+        "estimation",
+        "gaussians",
+        "multivariate",
+        "score",
+        "spectral"
+      ],
+      "first_seen_round": 378
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.11924v1",
+      "title": "Revisiting Identity and Spectra Dispersion in Media-Bridged Time Series Forecasting: Linking Multivariate Signals and Narrative Flows",
+      "arxiv_id": "2610.11924",
+      "tokens": [
+        "bridged",
+        "dispersion",
+        "flows",
+        "forecasting",
+        "identity",
+        "linking",
+        "media",
+        "multivariate",
+        "narrative",
+        "revisiting",
+        "series",
+        "signals",
+        "spectra",
+        "time"
+      ],
+      "first_seen_round": 378
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.11734v1",
+      "title": "Timer-M1: A Multivariate Time Series Foundation Model via Learning Primitives",
+      "arxiv_id": "2610.11734",
+      "tokens": [
+        "foundation",
+        "multivariate",
+        "primitives",
+        "series",
+        "time",
+        "timer"
+      ],
+      "first_seen_round": 378
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.09993v1",
+      "title": "Efficient Patch-Based Anomaly Detection Fused with Diffusion Driven Generative Modeling for Semiconductor Wafer Bin Map Open Set Anomaly Detection",
+      "arxiv_id": "2610.09993",
+      "tokens": [
+        "anomaly",
+        "anomaly",
+        "bin",
+        "detection",
+        "detection",
+        "diffusion",
+        "driven",
+        "fused",
+        "generative",
+        "map",
+        "modeling",
+        "open",
+        "patch",
+        "semiconductor",
+        "set",
+        "wafer"
+      ],
+      "first_seen_round": 378
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.11908v1",
+      "title": "Cost-Aware Mixture-of-Experts Coordination for Model Markets",
+      "arxiv_id": "2610.11908",
+      "tokens": [
+        "aware",
+        "coordination",
+        "cost",
+        "experts",
+        "markets",
+        "mixture"
+      ],
+      "first_seen_round": 378
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.11775v1",
+      "title": "RouterInterp: Understanding Superposed Specialisation in Mixture of Experts Routing",
+      "arxiv_id": "2610.11775",
+      "tokens": [
+        "experts",
+        "mixture",
+        "routerinterp",
+        "routing",
+        "specialisation",
+        "superposed",
+        "understanding"
+      ],
+      "first_seen_round": 378
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.11575v1",
+      "title": "Smoothing the Top-k Exposure Boundary for Sparse Mixture-of-Experts",
+      "arxiv_id": "2610.11575",
+      "tokens": [
+        "boundary",
+        "experts",
+        "exposure",
+        "mixture",
+        "smoothing",
+        "sparse",
+        "top"
+      ],
+      "first_seen_round": 378
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.11317v1",
+      "title": "DivMoE: Fine-Grained MoE Upcycling via Cross-Domain Expert Composition",
+      "arxiv_id": "2610.11317",
+      "tokens": [
+        "composition",
+        "cross",
+        "divmoe",
+        "domain",
+        "expert",
+        "fine",
+        "grained",
+        "moe",
+        "upcycling"
+      ],
+      "first_seen_round": 378
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.11226v1",
+      "title": "When Lower Reconstruction Loss Hurts: Distributionally Robust Refinement for Low-Bit LLM Quantization",
+      "arxiv_id": "2610.11226",
+      "tokens": [
+        "bit",
+        "distributionally",
+        "hurts",
+        "llm",
+        "loss",
+        "low",
+        "lower",
+        "quantization",
+        "reconstruction",
+        "refinement",
+        "robust"
+      ],
+      "first_seen_round": 378
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.10616v1",
+      "title": "When Routing Reveals Membership: Privacy Leakage from MoE Router Telemetry",
+      "arxiv_id": "2610.10616",
+      "tokens": [
+        "leakage",
+        "membership",
+        "moe",
+        "privacy",
+        "reveals",
+        "router",
+        "routing",
+        "telemetry"
+      ],
+      "first_seen_round": 378
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.10832v1",
+      "title": "MotherTree: Meta-learning on synthetic data improves decision tree training",
+      "arxiv_id": "2610.10832",
+      "tokens": [
+        "decision",
+        "improves",
+        "meta",
+        "mothertree",
+        "synthetic",
+        "training",
+        "tree"
+      ],
+      "first_seen_round": 378
     }
   ],
-  "total_unique": 3274
+  "total_unique": 3288
 }

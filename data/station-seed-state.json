@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 745,
+  "_rotation_idx": 746,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 73,
@@ -3878,33 +3878,9 @@
   },
   "few-shot": {
     "name": "Few-Shot Learning",
-    "total_papers_found": 43,
-    "watering_count": 76,
+    "total_papers_found": 44,
+    "watering_count": 77,
     "history": [
-      {
-        "timestamp": "2026-08-04T01:16:25.095307",
-        "papers_found": 2,
-        "duplicates": 3,
-        "irrelevant_filtered": 5,
-        "avg_relevance": 1.5,
-        "high_relevance": 1,
-        "papers": [
-          {
-            "title": "Versatile On-device Adaptation at the Edge by Unifying Few-shot, Zero-shot, Continual, and In-context Learning",
-            "summary": "With the ever-increasing pervasiveness of smart edge devices, the demand is growing for applications that can be tailored to users (e.g., custom keyword spotting) or patients (e.g., adaptive health monitoring). Yet, most edge devices rely on fixed inference algorithms and thus cannot learn on-device",
-            "published": "2026-07-31",
-            "url": "http://arxiv.org/abs/2607.29353v1",
-            "seed_match_score": 2
-          },
-          {
-            "title": "Hypergradient-based Bilevel Reinforcement Learning with Improved Sample Complexity",
-            "summary": "Bilevel reinforcement learning (RL) is an important framework within the literature of RL that can be used to formalize various categories of problems, such as meta-learning, hierarchical task decomposition, and reinforcement learning from human feedback (RL-HF). Most of the bilevel RL algorithms ar",
-            "published": "2026-07-30",
-            "url": "http://arxiv.org/abs/2607.28849v1",
-            "seed_match_score": 1
-          }
-        ]
-      },
       {
         "timestamp": "2026-08-05T04:52:18.333479",
         "papers_found": 0,
@@ -4480,6 +4456,23 @@
             "seed_match_score": 2
           }
         ]
+      },
+      {
+        "timestamp": "2026-10-11T02:30:57.382026",
+        "papers_found": 1,
+        "duplicates": 6,
+        "irrelevant_filtered": 3,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "MotherTree: Meta-learning on synthetic data improves decision tree training",
+            "summary": "Conventional decision tree algorithms produce effective, transparent models that can be audited, communicated, and deployed independently of the training data, but require learning every new task from scratch. In contrast, tabular foundation models demonstrate that meta-learning from a synthetic pri",
+            "published": "2026-10-07",
+            "url": "http://arxiv.org/abs/2610.10832v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -4489,7 +4482,7 @@
       "prototypical",
       "in-context"
     ],
-    "last_watered": "2026-10-08T22:34:11.531580"
+    "last_watered": "2026-10-11T02:30:57.382022"
   },
   "continual-learning": {
     "name": "Continual Learning",

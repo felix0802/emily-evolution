@@ -1,53 +1,6 @@
 {
   "sessions": [
     {
-      "timestamp": "2026-09-19T16:51:49.939075",
-      "arxiv_papers_count": 5,
-      "arxiv_top_keywords": [
-        "robot",
-        "obstacle",
-        "coding",
-        "agents",
-        "manipulation",
-        "memory",
-        "lightweight",
-        "robotic",
-        "information",
-        "vlm"
-      ],
-      "arxiv_strategies": [
-        "cs.AI (fallback)",
-        "cs.AI (fallback)",
-        "cs.AI (fallback)"
-      ],
-      "huggingface_models": 10,
-      "huggingface_tasks": [
-        "sentence-similarity",
-        "unknown",
-        "fill-mask",
-        "text-ranking",
-        "feature-extraction"
-      ],
-      "ml_datasets": [
-        "Iris",
-        "Wine",
-        "Breast Cancer",
-        "Diabetes"
-      ],
-      "ml_total_tests": 22,
-      "github_trending_repos": 8,
-      "paperswithcode_papers": 8,
-      "evolution": {
-        "discovered": 14,
-        "adopted": 0,
-        "decisions": 0
-      },
-      "seed_watering": {
-        "seed_name": "",
-        "papers_found": 0
-      }
-    },
-    {
       "timestamp": "2026-09-19T19:41:38.847760",
       "arxiv_papers_count": 5,
       "arxiv_top_keywords": [
@@ -4677,12 +4630,59 @@
         "seed_name": "Non-Transformer Arch",
         "papers_found": 6
       }
+    },
+    {
+      "timestamp": "2026-10-11T02:31:04.164480",
+      "arxiv_papers_count": 18,
+      "arxiv_top_keywords": [
+        "time",
+        "series",
+        "anomaly",
+        "detection",
+        "experts",
+        "mixture",
+        "quantum",
+        "data",
+        "moe",
+        "parameter"
+      ],
+      "arxiv_strategies": [
+        "搜索: time series forecasting",
+        "搜索: anomaly detection",
+        "搜索: mixture of experts"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "unknown",
+        "text-ranking",
+        "feature-extraction",
+        "fill-mask"
+      ],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 14,
+        "adopted": 2,
+        "decisions": 2
+      },
+      "seed_watering": {
+        "seed_name": "Few-Shot Learning",
+        "papers_found": 7
+      }
     }
   ],
   "total_sessions": 101,
-  "last_updated": "2026-10-10T23:01:22.745774",
+  "last_updated": "2026-10-11T02:31:04.164492",
   "evolution_summary": {
-    "total_adopted": 219,
+    "total_adopted": 221,
     "adopted_list": [
       "Knowledge Distillation",
       "World Models / Model-Based RL",
@@ -4902,7 +4902,9 @@
       "奖励验证自蒸馏",
       "Sim-to-real 强化学习",
       "安全过滤器",
-      "Weisfeiler-Leman 图核"
+      "Weisfeiler-Leman 图核",
+      "条件参数生成",
+      "测试时自适应（TTA）"
     ],
     "seeds": {
       "mamba": {
@@ -4932,8 +4934,8 @@
       },
       "few-shot": {
         "name": "Few-Shot Learning",
-        "watering": 76,
-        "papers": 43
+        "watering": 77,
+        "papers": 44
       },
       "continual-learning": {
         "name": "Continual Learning",
@@ -4972,16 +4974,16 @@
       },
       "few-shot": {
         "name": "Few-Shot Learning",
-        "new_papers": 38,
+        "new_papers": 39,
         "keywords_matched": [
-          "meta-learning",
-          "few-shot",
           "prototypical",
-          "in-context",
-          "maml"
+          "few-shot",
+          "meta-learning",
+          "maml",
+          "in-context"
         ],
         "high_relevance_total": 9,
-        "avg_relevance_latest": 1.4,
+        "avg_relevance_latest": 1.0,
         "best_papers_count": 0
       },
       "mamba": {
@@ -5099,6 +5101,6 @@
         "best_papers_count": 1
       }
     },
-    "last_evolution": "2026-10-10T23:01:22.748889"
+    "last_evolution": "2026-10-11T02:31:04.166272"
   }
 }
