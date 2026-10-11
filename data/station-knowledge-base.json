@@ -1,53 +1,6 @@
 {
   "sessions": [
     {
-      "timestamp": "2026-09-19T23:43:47.004917",
-      "arxiv_papers_count": 5,
-      "arxiv_top_keywords": [
-        "robot",
-        "obstacle",
-        "coding",
-        "agents",
-        "manipulation",
-        "memory",
-        "lightweight",
-        "robotic",
-        "information",
-        "vlm"
-      ],
-      "arxiv_strategies": [
-        "cs.AI (fallback)",
-        "cs.AI (fallback)",
-        "cs.AI (fallback)"
-      ],
-      "huggingface_models": 10,
-      "huggingface_tasks": [
-        "sentence-similarity",
-        "unknown",
-        "fill-mask",
-        "text-ranking",
-        "feature-extraction"
-      ],
-      "ml_datasets": [
-        "Iris",
-        "Wine",
-        "Breast Cancer",
-        "Diabetes"
-      ],
-      "ml_total_tests": 22,
-      "github_trending_repos": 8,
-      "paperswithcode_papers": 8,
-      "evolution": {
-        "discovered": 14,
-        "adopted": 0,
-        "decisions": 0
-      },
-      "seed_watering": {
-        "seed_name": "",
-        "papers_found": 0
-      }
-    },
-    {
       "timestamp": "2026-09-20T01:59:16.384168",
       "arxiv_papers_count": 5,
       "arxiv_top_keywords": [
@@ -4677,12 +4630,59 @@
         "seed_name": "Mixture of Experts",
         "papers_found": 8
       }
+    },
+    {
+      "timestamp": "2026-10-11T21:09:04.284274",
+      "arxiv_papers_count": 22,
+      "arxiv_top_keywords": [
+        "agents",
+        "human",
+        "high",
+        "monitoring",
+        "self",
+        "reasoning",
+        "visual",
+        "llm",
+        "time",
+        "horizons"
+      ],
+      "arxiv_strategies": [
+        "cs.AI 最新",
+        "cs.LG 最新",
+        "cs.CL 最新"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "unknown",
+        "text-ranking",
+        "feature-extraction",
+        "fill-mask"
+      ],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 16,
+        "adopted": 2,
+        "decisions": 2
+      },
+      "seed_watering": {
+        "seed_name": "KV Cache Optimization",
+        "papers_found": 6
+      }
     }
   ],
   "total_sessions": 101,
-  "last_updated": "2026-10-11T16:53:23.216235",
+  "last_updated": "2026-10-11T21:09:04.284290",
   "evolution_summary": {
-    "total_adopted": 221,
+    "total_adopted": 223,
     "adopted_list": [
       "Knowledge Distillation",
       "World Models / Model-Based RL",
@@ -4904,7 +4904,9 @@
       "安全过滤器",
       "Weisfeiler-Leman 图核",
       "条件参数生成",
-      "测试时自适应（TTA）"
+      "测试时自适应（TTA）",
+      "样条与项目反应理论",
+      "白色盒欺骗检测探针"
     ],
     "seeds": {
       "mamba": {
@@ -4949,7 +4951,7 @@
       },
       "kv-cache": {
         "name": "KV Cache Optimization",
-        "watering": 72,
+        "watering": 73,
         "papers": 100
       },
       "gnn": {
@@ -5090,17 +5092,17 @@
         "name": "KV Cache Optimization",
         "new_papers": 100,
         "keywords_matched": [
+          "kv cache",
           "flash attention",
-          "gqa",
           "speculative decoding",
           "key-value cache",
-          "kv cache"
+          "gqa"
         ],
         "high_relevance_total": 3,
-        "avg_relevance_latest": 1.0,
+        "avg_relevance_latest": 0.0,
         "best_papers_count": 1
       }
     },
-    "last_evolution": "2026-10-11T16:53:23.219538"
+    "last_evolution": "2026-10-11T21:09:04.287428"
   }
 }

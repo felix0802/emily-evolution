@@ -3323,6 +3323,36 @@
         ],
         "decided_at": "2026-10-11T02:31:01.992863"
       }
+    },
+    {
+      "id": "llm-样条与项目反应理论",
+      "name": "样条与项目反应理论",
+      "adopted_at": "2026-10-11T21:09:01.855103",
+      "decision": {
+        "tech_id": "llm-样条与项目反应理论",
+        "tech_name": "样条与项目反应理论",
+        "action": "adopt",
+        "confidence": 0.9,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-10-11T21:09:01.852888"
+      }
+    },
+    {
+      "id": "llm-白色盒欺骗检测探针",
+      "name": "白色盒欺骗检测探针",
+      "adopted_at": "2026-10-11T21:09:01.855127",
+      "decision": {
+        "tech_id": "llm-白色盒欺骗检测探针",
+        "tech_name": "白色盒欺骗检测探针",
+        "action": "adopt",
+        "confidence": 0.85,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-10-11T21:09:01.853103"
+      }
     }
   ],
   "history": [
@@ -4651,6 +4681,18 @@
       "tech_id": "llm-测试时自适应（tta）",
       "tech_name": "测试时自适应（TTA）",
       "timestamp": "2026-10-11T02:31:01.994165"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-样条与项目反应理论",
+      "tech_name": "样条与项目反应理论",
+      "timestamp": "2026-10-11T21:09:01.855109"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-白色盒欺骗检测探针",
+      "tech_name": "白色盒欺骗检测探针",
+      "timestamp": "2026-10-11T21:09:01.855129"
     }
   ]
 }
