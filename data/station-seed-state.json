@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 747,
+  "_rotation_idx": 748,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 73,
@@ -5302,40 +5302,9 @@
   },
   "moe": {
     "name": "Mixture of Experts",
-    "total_papers_found": 104,
-    "watering_count": 71,
+    "total_papers_found": 107,
+    "watering_count": 72,
     "history": [
-      {
-        "timestamp": "2026-08-04T08:13:41.926495",
-        "papers_found": 5,
-        "duplicates": 0,
-        "irrelevant_filtered": 5,
-        "avg_relevance": 1.8,
-        "high_relevance": 4,
-        "papers": [
-          {
-            "title": "STEAM:ASpatio-TEmporal Alignment Mixture-of-Experts Model with Hierarchical Pre-training for EEG Decoding",
-            "summary": "Brain-computer interfaces (BCIs) have been widely used in motor rehabilitation, disease diagnosis, and other neural engineering scenarios. However, conventional neural signal decoding algorithms often suffer from limited generalizability and high adaptation costs, motivating recent interest in BCI f",
-            "published": "2026-08-03",
-            "url": "http://arxiv.org/abs/2608.02070v1",
-            "seed_match_score": 1
-          },
-          {
-            "title": "REFLEX: Rethinking MoE Inference as Refinement-Aware Compute Allocation in Diffusion Language Models",
-            "summary": "Mixture-of-experts (MoE) models increase parameter capacity by activating only a small subset of experts for each token. This conditional-computation paradigm has enabled autoregressive language models to scale model capacity without a proportional increase in per-token computation. In diffusion lan",
-            "published": "2026-08-03",
-            "url": "http://arxiv.org/abs/2608.01784v1",
-            "seed_match_score": 2
-          },
-          {
-            "title": "Tevatron Meets Megatron: Expert-Parallel LLM Reranker Training on an Academic Budget",
-            "summary": "Modern reranking recipes---billion-scale cross-encoders, mixture-of-experts (MoE) backbones, and distillation against strong teachers---have outpaced the training infrastructure available to most academic groups. Existing Tevatron reranker training relies on the Hugging Face Trainer with DeepSpeed o",
-            "published": "2026-08-02",
-            "url": "http://arxiv.org/abs/2608.00916v1",
-            "seed_match_score": 2
-          }
-        ]
-      },
       {
         "timestamp": "2026-08-05T11:49:26.881983",
         "papers_found": 2,
@@ -6201,6 +6170,37 @@
         "avg_relevance": 0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-10-11T16:53:17.692935",
+        "papers_found": 3,
+        "duplicates": 5,
+        "irrelevant_filtered": 2,
+        "avg_relevance": 2.0,
+        "high_relevance": 3,
+        "papers": [
+          {
+            "title": "Democratizing MoE inference on commodity GPUs with CoMoE",
+            "summary": "Deploying Mixture-of-Experts (MoE) models relies heavily on Expert Parallelism, which generates intense inter-GPU communication. Consequently, state-of-the-art inference systems require high-bandwidth, P2P interconnects (e.g., NVLink) in datacenter GPUs to handle massive token routing, making deploy",
+            "published": "2026-10-07",
+            "url": "http://arxiv.org/abs/2610.09424v1",
+            "seed_match_score": 2
+          },
+          {
+            "title": "Expert Coupling in MoE Pretraining: Reducing All-to-All Overhead with Correlated Placement and Token Shuffling",
+            "summary": "Mixture-of-Experts (MoE) layers replace the feed-forward block of a Transformer with E expert networks, and each token is routed to k of these experts. Under expert parallelism (EP) the experts are distributed across GPUs, and every MoE layer runs all-to-all collectives in the forward and backward p",
+            "published": "2026-10-07",
+            "url": "http://arxiv.org/abs/2610.09372v1",
+            "seed_match_score": 2
+          },
+          {
+            "title": "Shared Low-rank Basis Factorization for Data-free Mixture-of-Experts Compression",
+            "summary": "Mixture-of-Experts (MoE) large language models decouple capacity from compute through sparse routing, but their large parameter count creates storage and serving challenges. We analyze three MoE compression families: expert pruning, expert merging, and weight reconstruction, and derive structural er",
+            "published": "2026-10-07",
+            "url": "http://arxiv.org/abs/2610.09342v1",
+            "seed_match_score": 2
+          }
+        ]
       }
     ],
     "keywords": [
@@ -6212,7 +6212,7 @@
       "switch transformer",
       "deepseek"
     ],
-    "last_watered": "2026-10-09T11:00:28.788946"
+    "last_watered": "2026-10-11T16:53:17.692929"
   },
   "kv-cache": {
     "name": "KV Cache Optimization",
