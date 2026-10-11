@@ -661,9 +661,43 @@
       "supporting_papers": [],
       "refuting_papers": [],
       "llm_source": "deepseek"
+    },
+    {
+      "id": "hyp-0030",
+      "timestamp": "2026-10-11T10:23:10.113562",
+      "seed_a": "HTM",
+      "seed_b": "Few-Shot Learning",
+      "crossref_strength": 9,
+      "shared_keywords": [],
+      "hypothesis": "Combining Hierarchical Temporal Memory (HTM) with few-shot learning enables rapid adaptation to novel malware variants by leveraging HTM's sparse distributed representations and temporal sequence prediction to learn from few labeled samples, achieving high detection accuracy with minimal training data.",
+      "reasoning": "HTM's hierarchical and temporal processing provides robust, noise-tolerant representations that can generalize from limited examples, while few-shot learning's meta-learning frameworks can optimize HTM's plasticity mechanisms for rapid adaptation. Both share a focus on learning from sparse, sequential data and can be unified through a meta-learning objective that adjusts HTM's synaptic connections based on few gradient steps.",
+      "arxiv_query": "hierarchical temporal memory few-shot learning malware detection",
+      "potential_breakthrough": "A few-shot malware detection system that continuously adapts to new threats with minimal labeled data, significantly reducing detection latency and improving zero-day attack resilience.",
+      "status": "unverified",
+      "verification_rounds": 1,
+      "supporting_papers": [],
+      "refuting_papers": [],
+      "llm_source": "deepseek"
+    },
+    {
+      "id": "hyp-0031",
+      "timestamp": "2026-10-11T10:23:12.280162",
+      "seed_a": "Liquid Networks",
+      "seed_b": "Few-Shot Learning",
+      "crossref_strength": 7,
+      "shared_keywords": [],
+      "hypothesis": "Liquid Networks 的連續時間動態系統可以作為 Few-Shot Learning 的元學習器，通過在任務分佈上學習一個連續時間的適應軌跡，實現對新任務的快速泛化，並在少樣本時間序列預測任務上超越現有方法。",
+      "reasoning": "Liquid Networks 使用神經 ODE 或閉式連續時間動態來建模隨時間演化的系統，其核心是學習一個連續的狀態轉移函數；Few-Shot Learning 則需要從少量樣本中快速適應新任務，本質上是在任務空間中進行快速優化。兩者共享「學習如何隨時間/任務演化」的數學結構：Liquid Networks 的連續時間動態可以視為在任務參數空間中的梯度流，而 Few-Shot Learning 的元學習過程可以建模為一個連續時間的適應軌跡。因此，可以將 Liquid Networks 的連續時間建模能力與 Few-Shot Learning 的快速適應需求結合，設計一個連續時間元學習框架。",
+      "arxiv_query": "liquid networks few-shot learning continuous-time meta-learning",
+      "potential_breakthrough": "實現首個連續時間元學習框架，在少樣本時間序列預測和動態系統適應任務上達到 state-of-the-art，並提供理論上的收斂保證。",
+      "status": "unverified",
+      "verification_rounds": 0,
+      "supporting_papers": [],
+      "refuting_papers": [],
+      "llm_source": "deepseek"
     }
   ],
-  "last_updated": "2026-10-09T17:37:55.757153",
-  "total_generated": 29,
+  "last_updated": "2026-10-11T10:23:14.683186",
+  "total_generated": 31,
   "total_verified": 29
 }
