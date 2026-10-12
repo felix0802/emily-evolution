@@ -690,14 +690,14 @@
       "reasoning": "Liquid Networks 使用神經 ODE 或閉式連續時間動態來建模隨時間演化的系統，其核心是學習一個連續的狀態轉移函數；Few-Shot Learning 則需要從少量樣本中快速適應新任務，本質上是在任務空間中進行快速優化。兩者共享「學習如何隨時間/任務演化」的數學結構：Liquid Networks 的連續時間動態可以視為在任務參數空間中的梯度流，而 Few-Shot Learning 的元學習過程可以建模為一個連續時間的適應軌跡。因此，可以將 Liquid Networks 的連續時間建模能力與 Few-Shot Learning 的快速適應需求結合，設計一個連續時間元學習框架。",
       "arxiv_query": "liquid networks few-shot learning continuous-time meta-learning",
       "potential_breakthrough": "實現首個連續時間元學習框架，在少樣本時間序列預測和動態系統適應任務上達到 state-of-the-art，並提供理論上的收斂保證。",
-      "status": "unverified",
-      "verification_rounds": 2,
+      "status": "inconclusive",
+      "verification_rounds": 3,
       "supporting_papers": [],
       "refuting_papers": [],
       "llm_source": "deepseek"
     }
   ],
-  "last_updated": "2026-10-12T08:17:03.770717",
+  "last_updated": "2026-10-12T19:28:26.323238",
   "total_generated": 31,
-  "total_verified": 30
+  "total_verified": 31
 }

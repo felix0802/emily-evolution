@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 751,
+  "_rotation_idx": 752,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 73,
@@ -728,33 +728,9 @@
   },
   "liquid-networks": {
     "name": "Liquid Networks",
-    "total_papers_found": 86,
-    "watering_count": 78,
+    "total_papers_found": 91,
+    "watering_count": 79,
     "history": [
-      {
-        "timestamp": "2026-08-04T19:15:47.438358",
-        "papers_found": 2,
-        "duplicates": 6,
-        "irrelevant_filtered": 2,
-        "avg_relevance": 1.5,
-        "high_relevance": 1,
-        "papers": [
-          {
-            "title": "One-Sided Quantile Coupling for Flow Matching",
-            "summary": "Flow Matching trains continuous-time generative models by regressing the velocity field of a probability path between a simple source distribution and a target data distribution. The coupling that pairs source and target samples strongly affects optimization and sample quality, but structured coupli",
-            "published": "2026-08-02",
-            "url": "http://arxiv.org/abs/2608.00978v1",
-            "seed_match_score": 2
-          },
-          {
-            "title": "CoSynFlow: Conformal Symplectic Neural Flows for Cross-System Prediction of Dissipative Hamiltonian Dynamics",
-            "summary": "Learning solution operators for differential equations is a central problem in scientific machine learning. However, many neural operator methods optimize prediction accuracy without explicitly enforcing the geometric structure of the dynamics. Structure-preserving models such as SympNets and Symple",
-            "published": "2026-08-01",
-            "url": "http://arxiv.org/abs/2608.00571v1",
-            "seed_match_score": 1
-          }
-        ]
-      },
       {
         "timestamp": "2026-08-05T19:10:58.841915",
         "papers_found": 3,
@@ -1467,6 +1443,37 @@
             "seed_match_score": 1
           }
         ]
+      },
+      {
+        "timestamp": "2026-10-12T19:28:19.298524",
+        "papers_found": 5,
+        "duplicates": 4,
+        "irrelevant_filtered": 1,
+        "avg_relevance": 1.6,
+        "high_relevance": 3,
+        "papers": [
+          {
+            "title": "Asymptotic Analysis of Discrete-Time Self-Attention Dynamics in Transformers",
+            "summary": "In machine learning, a self-attention dynamics describes the attention mechanism of transformers, and is obtained treating the layer index of a transformer as time index. Even though naturally discrete-time, this dynamical system is most often studied in continuous-time. Scope of this paper is to pr",
+            "published": "2026-10-09",
+            "url": "http://arxiv.org/abs/2610.13518v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "ReSFlow: Rectifying Categorical Flows on Statistical Manifolds for One-Step Generation",
+            "summary": "Generative modeling for discrete data has been significantly advanced by learning continuous vector fields on the statistical manifolds to transport simple priors to target discrete distributions. However, because these continuous-time flows are not constrained to follow geodesics on the statistical",
+            "published": "2026-10-09",
+            "url": "http://arxiv.org/abs/2610.13225v1",
+            "seed_match_score": 2
+          },
+          {
+            "title": "Scan-Parallel Variational Inference for event-driven Latent Jump Models",
+            "summary": "Continuous-time latent state-space models are widely used for irregularly observed time series, typically representing uncertainty through a random initial state followed by smooth ordinary differential equation (ODE) dynamics, or Brownian perturbations accumulated by a stochastic differential equat",
+            "published": "2026-10-09",
+            "url": "http://arxiv.org/abs/2610.12986v1",
+            "seed_match_score": 2
+          }
+        ]
       }
     ],
     "keywords": [
@@ -1476,7 +1483,7 @@
       "ode",
       "continuous-time"
     ],
-    "last_watered": "2026-10-10T07:49:33.371250"
+    "last_watered": "2026-10-12T19:28:19.298518"
   },
   "htm": {
     "name": "HTM",
