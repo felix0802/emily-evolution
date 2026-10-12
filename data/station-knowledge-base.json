@@ -1,53 +1,6 @@
 {
   "sessions": [
     {
-      "timestamp": "2026-09-20T01:59:16.384168",
-      "arxiv_papers_count": 5,
-      "arxiv_top_keywords": [
-        "robot",
-        "obstacle",
-        "coding",
-        "agents",
-        "manipulation",
-        "memory",
-        "lightweight",
-        "robotic",
-        "information",
-        "vlm"
-      ],
-      "arxiv_strategies": [
-        "cs.AI (fallback)",
-        "cs.AI (fallback)",
-        "cs.AI (fallback)"
-      ],
-      "huggingface_models": 10,
-      "huggingface_tasks": [
-        "sentence-similarity",
-        "unknown",
-        "fill-mask",
-        "text-ranking",
-        "feature-extraction"
-      ],
-      "ml_datasets": [
-        "Iris",
-        "Wine",
-        "Breast Cancer",
-        "Diabetes"
-      ],
-      "ml_total_tests": 22,
-      "github_trending_repos": 8,
-      "paperswithcode_papers": 8,
-      "evolution": {
-        "discovered": 14,
-        "adopted": 0,
-        "decisions": 0
-      },
-      "seed_watering": {
-        "seed_name": "",
-        "papers_found": 0
-      }
-    },
-    {
       "timestamp": "2026-09-20T07:23:20.135027",
       "arxiv_papers_count": 5,
       "arxiv_top_keywords": [
@@ -4677,10 +4630,57 @@
         "seed_name": "KV Cache Optimization",
         "papers_found": 6
       }
+    },
+    {
+      "timestamp": "2026-10-12T00:47:56.795435",
+      "arxiv_papers_count": 22,
+      "arxiv_top_keywords": [
+        "world",
+        "agents",
+        "manipulation",
+        "self",
+        "action",
+        "video",
+        "generative",
+        "human",
+        "learning",
+        "generalization"
+      ],
+      "arxiv_strategies": [
+        "cs.CV 最新",
+        "cs.AI+cs.LG 混合",
+        "cs.CL+cs.CV 混合"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "unknown",
+        "text-ranking",
+        "feature-extraction",
+        "fill-mask"
+      ],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 18,
+        "adopted": 0,
+        "decisions": 0
+      },
+      "seed_watering": {
+        "seed_name": "Graph Neural Networks",
+        "papers_found": 7
+      }
     }
   ],
   "total_sessions": 101,
-  "last_updated": "2026-10-11T21:09:04.284290",
+  "last_updated": "2026-10-12T00:47:56.795450",
   "evolution_summary": {
     "total_adopted": 223,
     "adopted_list": [
@@ -4956,7 +4956,7 @@
       },
       "gnn": {
         "name": "Graph Neural Networks",
-        "watering": 73,
+        "watering": 74,
         "papers": 151
       }
     },
@@ -5062,16 +5062,16 @@
         "name": "Graph Neural Networks",
         "new_papers": 151,
         "keywords_matched": [
-          "graph neural",
           "graph transformer",
-          "node embedding",
-          "gnn",
           "graph attention",
+          "message passing",
+          "node embedding",
+          "graph neural",
           "geometric",
-          "message passing"
+          "gnn"
         ],
         "high_relevance_total": 72,
-        "avg_relevance_latest": 1.0,
+        "avg_relevance_latest": 0.0,
         "best_papers_count": 10
       },
       "moe": {
@@ -5103,6 +5103,6 @@
         "best_papers_count": 1
       }
     },
-    "last_evolution": "2026-10-11T21:09:04.287428"
+    "last_evolution": "2026-10-12T00:47:56.798551"
   }
 }
