@@ -415,7 +415,112 @@
       },
       "analyzed_at": "2026-10-06T17:30:43.081923",
       "llm_source": "deepseek"
+    },
+    {
+      "variables": [
+        {
+          "name": "HybridArchitecture",
+          "role": "cause",
+          "mechanism": "Combining HTM sparse temporal memory with non-Transformer architectures via shared attention-like gating enables richer temporal representations and online adaptation.",
+          "observable": true
+        },
+        {
+          "name": "SuperiorLongRangeReasoning",
+          "role": "effect",
+          "mechanism": "The hybrid architecture yields better long-range temporal reasoning and online adaptation on streaming time-series data.",
+          "observable": true
+        },
+        {
+          "name": "TaskComplexity",
+          "role": "confounder",
+          "mechanism": "Task complexity influences both the choice to build a hybrid architecture and the observed performance on long-range temporal reasoning.",
+          "observable": true
+        },
+        {
+          "name": "DatasetCharacteristics",
+          "role": "confounder",
+          "mechanism": "Dataset characteristics such as sequence length and noise level affect both the adoption of hybrid models and the measured reasoning performance.",
+          "observable": true
+        },
+        {
+          "name": "ImplementationQuality",
+          "role": "confounder",
+          "mechanism": "Implementation quality of the gating mechanism and training pipeline affects both the hybrid model's design and its final performance.",
+          "observable": false
+        }
+      ],
+      "edges": [
+        {
+          "from": "HybridArchitecture",
+          "to": "SuperiorLongRangeReasoning",
+          "type": "direct_causal",
+          "confidence": 0.35
+        },
+        {
+          "from": "TaskComplexity",
+          "to": "HybridArchitecture",
+          "type": "direct_causal",
+          "confidence": 0.6
+        },
+        {
+          "from": "TaskComplexity",
+          "to": "SuperiorLongRangeReasoning",
+          "type": "direct_causal",
+          "confidence": 0.7
+        },
+        {
+          "from": "DatasetCharacteristics",
+          "to": "HybridArchitecture",
+          "type": "direct_causal",
+          "confidence": 0.5
+        },
+        {
+          "from": "DatasetCharacteristics",
+          "to": "SuperiorLongRangeReasoning",
+          "type": "direct_causal",
+          "confidence": 0.65
+        },
+        {
+          "from": "ImplementationQuality",
+          "to": "HybridArchitecture",
+          "type": "direct_causal",
+          "confidence": 0.55
+        },
+        {
+          "from": "ImplementationQuality",
+          "to": "SuperiorLongRangeReasoning",
+          "type": "direct_causal",
+          "confidence": 0.6
+        }
+      ],
+      "counterfactual": {
+        "question": "If the hybrid architecture combining HTM sparse temporal memory with non-Transformer models via shared attention-like gating were not used, would the model still achieve superior long-range temporal reasoning and online adaptation on streaming time-series data?",
+        "predicted_answer": "Without the hybrid architecture, the model would likely not achieve the same level of superior long-range temporal reasoning and online adaptation, assuming all other factors are held constant. However, the effect size may be small because the observed performance could be largely driven by confounders such as task complexity and dataset characteristics. The causal effect of the hybrid architecture alone is uncertain and may be weak.",
+        "confidence": 0.3
+      },
+      "confounders_detected": [
+        "TaskComplexity",
+        "DatasetCharacteristics",
+        "ImplementationQuality"
+      ],
+      "is_correlation_only": false,
+      "causal_strength": 0.35,
+      "alternative_explanations": [
+        "The observed performance improvement is due to the specific dataset characteristics rather than the hybrid architecture itself.",
+        "The improvement is caused by better hyperparameter tuning or implementation quality, not by the combination of HTM and non-Transformer architectures.",
+        "The attention-like gating mechanism alone, without HTM or non-Transformer components, could produce similar gains."
+      ],
+      "hypothesis_id": "hyp-0026",
+      "hypothesis_text": "Combining HTM's sparse temporal memory with non-Transformer architectures (e.g., SSMs or liquid networks) via a shared attention-like gating mechanism can yield a hybrid model that achieves superior l",
+      "seed_a": "HTM",
+      "seed_b": "Non-Transformer Arch",
+      "evidence_counts": {
+        "supporting": 3,
+        "refuting": 0
+      },
+      "analyzed_at": "2026-10-12T08:17:07.851345",
+      "llm_source": "deepseek"
     }
   ],
-  "total_analyzed": 6
+  "total_analyzed": 7
 }

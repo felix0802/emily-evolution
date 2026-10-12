@@ -3353,6 +3353,36 @@
         ],
         "decided_at": "2026-10-11T21:09:01.853103"
       }
+    },
+    {
+      "id": "llm-wikipedia-game",
+      "name": "Wikipedia Game",
+      "adopted_at": "2026-10-12T08:16:18.695717",
+      "decision": {
+        "tech_id": "llm-wikipedia-game",
+        "tech_name": "Wikipedia Game",
+        "action": "adopt",
+        "confidence": 0.9,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-10-12T08:16:18.693559"
+      }
+    },
+    {
+      "id": "llm-rated-工具检索",
+      "name": "RATED 工具检索",
+      "adopted_at": "2026-10-12T08:16:18.695740",
+      "decision": {
+        "tech_id": "llm-rated-工具检索",
+        "tech_name": "RATED 工具检索",
+        "action": "adopt",
+        "confidence": 0.85,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-10-12T08:16:18.693793"
+      }
     }
   ],
   "history": [
@@ -4693,6 +4723,18 @@
       "tech_id": "llm-白色盒欺骗检测探针",
       "tech_name": "白色盒欺骗检测探针",
       "timestamp": "2026-10-11T21:09:01.855129"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-wikipedia-game",
+      "tech_name": "Wikipedia Game",
+      "timestamp": "2026-10-12T08:16:18.695722"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-rated-工具检索",
+      "tech_name": "RATED 工具检索",
+      "timestamp": "2026-10-12T08:16:18.695742"
     }
   ]
 }

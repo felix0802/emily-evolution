@@ -673,8 +673,8 @@
       "reasoning": "HTM's hierarchical and temporal processing provides robust, noise-tolerant representations that can generalize from limited examples, while few-shot learning's meta-learning frameworks can optimize HTM's plasticity mechanisms for rapid adaptation. Both share a focus on learning from sparse, sequential data and can be unified through a meta-learning objective that adjusts HTM's synaptic connections based on few gradient steps.",
       "arxiv_query": "hierarchical temporal memory few-shot learning malware detection",
       "potential_breakthrough": "A few-shot malware detection system that continuously adapts to new threats with minimal labeled data, significantly reducing detection latency and improving zero-day attack resilience.",
-      "status": "unverified",
-      "verification_rounds": 2,
+      "status": "inconclusive",
+      "verification_rounds": 3,
       "supporting_papers": [],
       "refuting_papers": [],
       "llm_source": "deepseek"
@@ -697,7 +697,7 @@
       "llm_source": "deepseek"
     }
   ],
-  "last_updated": "2026-10-12T00:47:59.905914",
+  "last_updated": "2026-10-12T08:17:03.770717",
   "total_generated": 31,
-  "total_verified": 29
+  "total_verified": 30
 }
