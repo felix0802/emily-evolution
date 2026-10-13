@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 754,
+  "_rotation_idx": 755,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 73,
@@ -3123,33 +3123,9 @@
   },
   "non-transformer": {
     "name": "Non-Transformer Arch",
-    "total_papers_found": 54,
-    "watering_count": 78,
+    "total_papers_found": 58,
+    "watering_count": 79,
     "history": [
-      {
-        "timestamp": "2026-08-05T01:19:42.039921",
-        "papers_found": 2,
-        "duplicates": 4,
-        "irrelevant_filtered": 4,
-        "avg_relevance": 1.5,
-        "high_relevance": 1,
-        "papers": [
-          {
-            "title": "DART: Decoded Attention over Recurrent States for Efficient Long-Context Sequence Modeling",
-            "summary": "Modern language models are built primarily from Transformers, recurrent models, and their hybrid architectures. Transformers rely on token-level attention memories, while recurrent models such as state space models (SSMs) and linear attention maintain compact recurrent states. These architectures ar",
-            "published": "2026-08-03",
-            "url": "http://arxiv.org/abs/2608.02032v1",
-            "seed_match_score": 2
-          },
-          {
-            "title": "Stuck on \"A\": Diagnosing and Repairing Interface Injury in Attention-to-KDA Linearization of a 0.6B Language Model",
-            "summary": "We convert 21 of 28 full-attention layers of Qwen3-0.6B-Base into KDA (Kimi Delta Attention) linear-attention layers on a single consumer-grade GPU budget, and ask a simple question: what exactly does the conversion break? After surgery, hidden-state alignment and end-to-end KL distillation drive th",
-            "published": "2026-08-03",
-            "url": "http://arxiv.org/abs/2608.02689v1",
-            "seed_match_score": 1
-          }
-        ]
-      },
       {
         "timestamp": "2026-08-06T01:17:09.292147",
         "papers_found": 0,
@@ -3869,6 +3845,37 @@
             "seed_match_score": 1
           }
         ]
+      },
+      {
+        "timestamp": "2026-10-13T17:12:04.931615",
+        "papers_found": 4,
+        "duplicates": 4,
+        "irrelevant_filtered": 2,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "ReplaySSM: Cache SSM Inputs, Not State",
+            "summary": "State-space models (SSMs) maintain a fixed-size recurrent state, but reading and writing it at every decoding step can bottleneck hybrid models. This eager state management causes large state I/O with low arithmetic intensity, leaves speculative decoding no cheap rollback, and feeds state quantizati",
+            "published": "2026-10-09",
+            "url": "http://arxiv.org/abs/2610.13778v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Orthros: Phase-Aware Heterogeneous Attention for Efficient Transformers",
+            "summary": "Efficient attention mechanisms, such as linear and sliding window attention, aim to reduce the computational complexity of Transformers from quadratic to linear. However, their degraded in-context recall often necessitates interleaving full attention layers, leaving the quadratic bottleneck unresolv",
+            "published": "2026-10-09",
+            "url": "http://arxiv.org/abs/2610.13735v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Not All Dimensions Are Equal: Outlier-Aware Attention Linearization with Grouped Quadratic Kernels",
+            "summary": "Linearizing softmax attention offers a route to efficient Transformer inference, but preserving pretrained attention remains challenging. We identify an important source of approximation error overlooked by standard linearization methods: a small number of outlier dimensions contribute disproportion",
+            "published": "2026-10-09",
+            "url": "http://arxiv.org/abs/2610.13674v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -3881,7 +3888,7 @@
       "sub-quadratic",
       "mamba"
     ],
-    "last_watered": "2026-10-10T23:01:17.838111"
+    "last_watered": "2026-10-13T17:12:04.931609"
   },
   "few-shot": {
     "name": "Few-Shot Learning",

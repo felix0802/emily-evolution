@@ -53196,7 +53196,157 @@
         "spiking"
       ],
       "first_seen_round": 386
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.13202v1",
+      "title": "S$^3$R: Fast and Faithful RL Rollouts via Self-Sparse Speculative Decoding",
+      "arxiv_id": "2610.13202",
+      "tokens": [
+        "decoding",
+        "faithful",
+        "fast",
+        "rollouts",
+        "self",
+        "sparse",
+        "speculative"
+      ],
+      "first_seen_round": 387
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.13060v1",
+      "title": "KV-Repurpose: A Testbed for Evaluating Non-Prefix KV-Cache Reuse",
+      "arxiv_id": "2610.13060",
+      "tokens": [
+        "cache",
+        "evaluating",
+        "non",
+        "prefix",
+        "repurpose",
+        "reuse",
+        "testbed"
+      ],
+      "first_seen_round": 387
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.12582v1",
+      "title": "One Model to Loop Them All: Elastic Latent Recurrence for Language Models",
+      "arxiv_id": "2610.12582",
+      "tokens": [
+        "elastic",
+        "language",
+        "latent",
+        "loop",
+        "recurrence"
+      ],
+      "first_seen_round": 387
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.13708v1",
+      "title": "Adaptive DHiSparse: Speculative Decoding over a Load-Adaptive KV Hierarchy",
+      "arxiv_id": "2610.13708",
+      "tokens": [
+        "adaptive",
+        "adaptive",
+        "decoding",
+        "dhisparse",
+        "hierarchy",
+        "load",
+        "speculative"
+      ],
+      "first_seen_round": 387
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.12939v1",
+      "title": "Surfing the Activation Wave: Analyzing the Information and Geometry of LLM Hidden States for Speculative Decoding",
+      "arxiv_id": "2610.12939",
+      "tokens": [
+        "activation",
+        "analyzing",
+        "decoding",
+        "geometry",
+        "hidden",
+        "information",
+        "llm",
+        "speculative",
+        "states",
+        "surfing",
+        "wave"
+      ],
+      "first_seen_round": 387
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.12570v1",
+      "title": "Contextual Correction of Parallel Draftsfor Speculative Decoding",
+      "arxiv_id": "2610.12570",
+      "tokens": [
+        "contextual",
+        "correction",
+        "decoding",
+        "draftsfor",
+        "parallel",
+        "speculative"
+      ],
+      "first_seen_round": 387
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.13778v1",
+      "title": "ReplaySSM: Cache SSM Inputs, Not State",
+      "arxiv_id": "2610.13778",
+      "tokens": [
+        "cache",
+        "inputs",
+        "replayssm",
+        "ssm",
+        "state"
+      ],
+      "first_seen_round": 387
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.13735v1",
+      "title": "Orthros: Phase-Aware Heterogeneous Attention for Efficient Transformers",
+      "arxiv_id": "2610.13735",
+      "tokens": [
+        "attention",
+        "aware",
+        "heterogeneous",
+        "orthros",
+        "phase",
+        "transformers"
+      ],
+      "first_seen_round": 387
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.13674v1",
+      "title": "Not All Dimensions Are Equal: Outlier-Aware Attention Linearization with Grouped Quadratic Kernels",
+      "arxiv_id": "2610.13674",
+      "tokens": [
+        "attention",
+        "aware",
+        "dimensions",
+        "equal",
+        "grouped",
+        "kernels",
+        "linearization",
+        "outlier",
+        "quadratic"
+      ],
+      "first_seen_round": 387
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.12883v1",
+      "title": "HART: Hybrid Attention-RWKV Time series Foundation Model",
+      "arxiv_id": "2610.12883",
+      "tokens": [
+        "attention",
+        "foundation",
+        "hart",
+        "hybrid",
+        "rwkv",
+        "series",
+        "time"
+      ],
+      "first_seen_round": 387
     }
   ],
-  "total_unique": 3333
+  "total_unique": 3343
 }
