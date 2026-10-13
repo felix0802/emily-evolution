@@ -53346,7 +53346,55 @@
         "time"
       ],
       "first_seen_round": 387
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.12657v1",
+      "title": "Kronecker Product Attention: Memory-Efficient KV Compression via Structured Factorization",
+      "arxiv_id": "2610.12657",
+      "tokens": [
+        "attention",
+        "compression",
+        "factorization",
+        "kronecker",
+        "memory",
+        "product",
+        "structured"
+      ],
+      "first_seen_round": 388
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.12837v1",
+      "title": "COFFEQA: Counterfactual-Guided Few-Shot Distillation for LLM Question Answering",
+      "arxiv_id": "2610.12837",
+      "tokens": [
+        "answering",
+        "coffeqa",
+        "counterfactual",
+        "distillation",
+        "guided",
+        "llm",
+        "question",
+        "shot"
+      ],
+      "first_seen_round": 388
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.13411v1",
+      "title": "In-Context Learning for System Identification: Probabilistic Formulation, Long-Sequence Handling, and Benchmark Validation",
+      "arxiv_id": "2610.13411",
+      "tokens": [
+        "benchmark",
+        "context",
+        "formulation",
+        "handling",
+        "identification",
+        "long",
+        "probabilistic",
+        "sequence",
+        "validation"
+      ],
+      "first_seen_round": 388
     }
   ],
-  "total_unique": 3343
+  "total_unique": 3346
 }

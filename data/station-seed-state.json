@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 755,
+  "_rotation_idx": 756,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 73,
@@ -3892,18 +3892,9 @@
   },
   "few-shot": {
     "name": "Few-Shot Learning",
-    "total_papers_found": 44,
-    "watering_count": 77,
+    "total_papers_found": 45,
+    "watering_count": 78,
     "history": [
-      {
-        "timestamp": "2026-08-05T04:52:18.333479",
-        "papers_found": 0,
-        "duplicates": 5,
-        "irrelevant_filtered": 5,
-        "avg_relevance": 0.0,
-        "high_relevance": 0,
-        "papers": []
-      },
       {
         "timestamp": "2026-08-06T04:52:33.195397",
         "papers_found": 1,
@@ -4487,6 +4478,23 @@
             "seed_match_score": 1
           }
         ]
+      },
+      {
+        "timestamp": "2026-10-13T22:01:40.012754",
+        "papers_found": 1,
+        "duplicates": 6,
+        "irrelevant_filtered": 3,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "In-Context Learning for System Identification: Probabilistic Formulation, Long-Sequence Handling, and Benchmark Validation",
+            "summary": "Traditional system identification typically involves two steps: initially, training data is processed to estimate a model of the system of interest; then, the model is used to predict outputs for new input queries. In contrast, recent in-context learning approaches learn a meta model that maps direc",
+            "published": "2026-10-09",
+            "url": "http://arxiv.org/abs/2610.13411v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -4496,7 +4504,7 @@
       "prototypical",
       "in-context"
     ],
-    "last_watered": "2026-10-11T02:30:57.382022"
+    "last_watered": "2026-10-13T22:01:40.012748"
   },
   "continual-learning": {
     "name": "Continual Learning",

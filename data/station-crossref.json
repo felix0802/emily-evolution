@@ -1,23 +1,6 @@
 {
-  "timestamp": "2026-10-13T17:12:11.133213",
+  "timestamp": "2026-10-13T22:01:49.652033",
   "connections": [
-    {
-      "seed_a": "HTM",
-      "seed_b": "Few-Shot Learning",
-      "shared_keywords": [],
-      "shared_paper_concepts": [
-        "data",
-        "detection",
-        "forecasting",
-        "from",
-        "learning",
-        "malware",
-        "offline",
-        "series"
-      ],
-      "strength": 12,
-      "discovered_at": "2026-10-13T17:12:11.133121"
-    },
     {
       "seed_a": "HTM",
       "seed_b": "Graph Neural Networks",
@@ -33,7 +16,7 @@
         "with"
       ],
       "strength": 8,
-      "discovered_at": "2026-10-13T17:12:11.133136"
+      "discovered_at": "2026-10-13T22:01:49.651973"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -48,7 +31,23 @@
         "with"
       ],
       "strength": 7,
-      "discovered_at": "2026-10-13T17:12:11.133019"
+      "discovered_at": "2026-10-13T22:01:49.651876"
+    },
+    {
+      "seed_a": "HTM",
+      "seed_b": "Few-Shot Learning",
+      "shared_keywords": [],
+      "shared_paper_concepts": [
+        "benchmark",
+        "data",
+        "from",
+        "learning",
+        "offline",
+        "training",
+        "trees"
+      ],
+      "strength": 7,
+      "discovered_at": "2026-10-13T22:01:49.651961"
     },
     {
       "seed_a": "HTM",
@@ -64,7 +63,7 @@
         "with"
       ],
       "strength": 7,
-      "discovered_at": "2026-10-13T17:12:11.133125"
+      "discovered_at": "2026-10-13T22:01:49.651964"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -79,7 +78,7 @@
         "with"
       ],
       "strength": 6,
-      "discovered_at": "2026-10-13T17:12:11.133037"
+      "discovered_at": "2026-10-13T22:01:49.651891"
     },
     {
       "seed_a": "Liquid Networks",
@@ -94,22 +93,22 @@
         "time"
       ],
       "strength": 6,
-      "discovered_at": "2026-10-13T17:12:11.133043"
+      "discovered_at": "2026-10-13T22:01:49.651896"
     },
     {
       "seed_a": "Few-Shot Learning",
       "seed_b": "Continual Learning",
       "shared_keywords": [],
       "shared_paper_concepts": [
+        "context",
         "data",
         "from",
         "learning",
         "offline",
-        "training",
-        "with"
+        "training"
       ],
       "strength": 6,
-      "discovered_at": "2026-10-13T17:12:11.133173"
+      "discovered_at": "2026-10-13T22:01:49.652003"
     },
     {
       "seed_a": "Liquid Networks",
@@ -123,21 +122,7 @@
         "transformers"
       ],
       "strength": 5,
-      "discovered_at": "2026-10-13T17:12:11.133089"
-    },
-    {
-      "seed_a": "Liquid Networks",
-      "seed_b": "Few-Shot Learning",
-      "shared_keywords": [],
-      "shared_paper_concepts": [
-        "data",
-        "generation",
-        "learning",
-        "neural",
-        "time"
-      ],
-      "strength": 5,
-      "discovered_at": "2026-10-13T17:12:11.133094"
+      "discovered_at": "2026-10-13T22:01:49.651902"
     },
     {
       "seed_a": "Liquid Networks",
@@ -151,7 +136,21 @@
         "models"
       ],
       "strength": 5,
-      "discovered_at": "2026-10-13T17:12:11.133101"
+      "discovered_at": "2026-10-13T22:01:49.651945"
+    },
+    {
+      "seed_a": "Liquid Networks",
+      "seed_b": "Graph Neural Networks",
+      "shared_keywords": [],
+      "shared_paper_concepts": [
+        "attention",
+        "learning",
+        "models",
+        "neural",
+        "self"
+      ],
+      "strength": 5,
+      "discovered_at": "2026-10-13T22:01:49.651951"
     }
   ],
   "total_seeds": 10
