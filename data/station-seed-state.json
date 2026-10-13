@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 753,
+  "_rotation_idx": 754,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 73,
@@ -2459,33 +2459,9 @@
   },
   "spiking-nn": {
     "name": "Spiking Neural Networks",
-    "total_papers_found": 47,
-    "watering_count": 77,
+    "total_papers_found": 49,
+    "watering_count": 78,
     "history": [
-      {
-        "timestamp": "2026-08-04T22:50:51.184566",
-        "papers_found": 2,
-        "duplicates": 7,
-        "irrelevant_filtered": 1,
-        "avg_relevance": 2.0,
-        "high_relevance": 2,
-        "papers": [
-          {
-            "title": "Spike-HTR: Spiking Neural Transformer for Handwritten Text Recognition",
-            "summary": "Handwritten Text Recognition (HTR) is computationally imbalanced in two ways: most image pixels are background, and many width-axis sequence positions are blank-dominated. This creates a mismatch for Spiking Neural Networks (SNNs): handwriting is observed as a static image, whereas spiking computati",
-            "published": "2026-08-03",
-            "url": "http://arxiv.org/abs/2608.01646v1",
-            "seed_match_score": 2
-          },
-          {
-            "title": "SMM Transformer: Leveraging Spiking Neural Networks for Multimodal Tasks",
-            "summary": "Spiking Neural Networks (SNNs) enable event-driven computation with sparse activations, but building multimodal Transformers on SNNs is hindered by unstable training in deep spiking stacks and the mismatch between dense softmax attention and spike-based communication. We propose SMM Transformer, an ",
-            "published": "2026-08-03",
-            "url": "http://arxiv.org/abs/2608.01622v1",
-            "seed_match_score": 2
-          }
-        ]
-      },
       {
         "timestamp": "2026-08-05T22:46:25.591648",
         "papers_found": 1,
@@ -3111,6 +3087,30 @@
         "avg_relevance": 0.0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-10-13T08:37:14.324236",
+        "papers_found": 2,
+        "duplicates": 7,
+        "irrelevant_filtered": 1,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "DyssomniaNN: Multi-Scale Spiking Neural Modeling of Human Sleep Disorders and Perceived Restedness",
+            "summary": "Clinical sleep medicine repeatedly documents profound divergences between objective sleep duration and subjective daytime impairment, notably exemplified by sleep state misperception in paradoxical insomnia and boundary instability in narcolepsy type 1. Here, we present DyssomniaNN: a multi-scale bi",
+            "published": "2026-10-09",
+            "url": "http://arxiv.org/abs/2610.13918v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Energy-Efficient Spiking Neural Networks for Sensing-Aided Beam Prediction",
+            "summary": "Sensing-aided beam prediction can reduce the beam-training overhead of millimeter-wave (mmWave) systems by leveraging environmental information from complementary modalities such as vision and position. However, the resulting sensing and inference pipeline can be energy-intensive, motivating the use",
+            "published": "2026-10-06",
+            "url": "http://arxiv.org/abs/2610.12507v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -3119,7 +3119,7 @@
       "neuromorphic",
       "spike-timing"
     ],
-    "last_watered": "2026-10-10T19:36:20.803334"
+    "last_watered": "2026-10-13T08:37:14.324230"
   },
   "non-transformer": {
     "name": "Non-Transformer Arch",

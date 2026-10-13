@@ -3398,6 +3398,36 @@
         ],
         "decided_at": "2026-10-13T01:42:03.027367"
       }
+    },
+    {
+      "id": "llm-结构化块跳过（structured-block-skippi",
+      "name": "结构化块跳过（Structured Block Skipping）",
+      "adopted_at": "2026-10-13T08:37:20.403025",
+      "decision": {
+        "tech_id": "llm-结构化块跳过（structured-block-skippi",
+        "tech_name": "结构化块跳过（Structured Block Skipping）",
+        "action": "adopt",
+        "confidence": 0.9,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-10-13T08:37:20.400372"
+      }
+    },
+    {
+      "id": "llm-ppg基础模型统一基准（ppg-bench）",
+      "name": "PPG基础模型统一基准（PPG-Bench）",
+      "adopted_at": "2026-10-13T08:37:20.403050",
+      "decision": {
+        "tech_id": "llm-ppg基础模型统一基准（ppg-bench）",
+        "tech_name": "PPG基础模型统一基准（PPG-Bench）",
+        "action": "adopt",
+        "confidence": 0.9,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-10-13T08:37:20.400611"
+      }
     }
   ],
   "history": [
@@ -4756,6 +4786,18 @@
       "tech_id": "llm-counterfactual-inference",
       "tech_name": "Counterfactual Inference",
       "timestamp": "2026-10-13T01:42:03.029483"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-结构化块跳过（structured-block-skippi",
+      "tech_name": "结构化块跳过（Structured Block Skipping）",
+      "timestamp": "2026-10-13T08:37:20.403031"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-ppg基础模型统一基准（ppg-bench）",
+      "tech_name": "PPG基础模型统一基准（PPG-Bench）",
+      "timestamp": "2026-10-13T08:37:20.403051"
     }
   ]
 }
