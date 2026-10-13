@@ -52850,7 +52850,165 @@
         "market"
       ],
       "first_seen_round": 384
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.13724v1",
+      "title": "Amortized Counterfactual Prediction with Graph Neural Networks",
+      "arxiv_id": "2610.13724",
+      "tokens": [
+        "amortized",
+        "counterfactual",
+        "graph",
+        "neural",
+        "prediction"
+      ],
+      "first_seen_round": 385
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.13823v1",
+      "title": "Same Query, Different Answer: Run-to-Run Variance in Semantic Query Processing",
+      "arxiv_id": "2610.13823",
+      "tokens": [
+        "answer",
+        "different",
+        "processing",
+        "query",
+        "query",
+        "run",
+        "run",
+        "semantic",
+        "variance"
+      ],
+      "first_seen_round": 385
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.13504v1",
+      "title": "Beyond Temporal Proximity: Explanatory World Models for Credit Assignment in Reinforcement Learning",
+      "arxiv_id": "2610.13504",
+      "tokens": [
+        "assignment",
+        "credit",
+        "explanatory",
+        "proximity",
+        "reinforcement",
+        "temporal",
+        "world"
+      ],
+      "first_seen_round": 385
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.13194v1",
+      "title": "JANUS: Enhancing Long-Horizon Autonomous Research with Co-Evolving World Models",
+      "arxiv_id": "2610.13194",
+      "tokens": [
+        "autonomous",
+        "enhancing",
+        "evolving",
+        "horizon",
+        "janus",
+        "long",
+        "research",
+        "world"
+      ],
+      "first_seen_round": 385
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.13172v1",
+      "title": "RoleWorld: Knowledge Transfer in World Modeling with Functional Role Abstractions",
+      "arxiv_id": "2610.13172",
+      "tokens": [
+        "abstractions",
+        "functional",
+        "knowledge",
+        "modeling",
+        "role",
+        "roleworld",
+        "transfer",
+        "world"
+      ],
+      "first_seen_round": 385
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.12881v1",
+      "title": "Mind the Spatial Gap: A Benchmark for Geospatial Reasoning and Constrained Spatial Editing",
+      "arxiv_id": "2610.12881",
+      "tokens": [
+        "benchmark",
+        "constrained",
+        "editing",
+        "gap",
+        "geospatial",
+        "mind",
+        "reasoning",
+        "spatial",
+        "spatial"
+      ],
+      "first_seen_round": 385
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.12818v1",
+      "title": "LeWAM: End-to-End World and Action Modeling with JEPAs",
+      "arxiv_id": "2610.12818",
+      "tokens": [
+        "action",
+        "end",
+        "end",
+        "jepas",
+        "lewam",
+        "modeling",
+        "world"
+      ],
+      "first_seen_round": 385
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.13437v1",
+      "title": "Local Diagnostics of Learned Event Representations for Anomaly Detection at the HL-LHC",
+      "arxiv_id": "2610.13437",
+      "tokens": [
+        "anomaly",
+        "detection",
+        "diagnostics",
+        "event",
+        "learned",
+        "lhc",
+        "local",
+        "representations"
+      ],
+      "first_seen_round": 385
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.12990v1",
+      "title": "Gaussian-Width Bounds for Offline-to-Online Linear Bandits",
+      "arxiv_id": "2610.12990",
+      "tokens": [
+        "bandits",
+        "bounds",
+        "gaussian",
+        "linear",
+        "offline",
+        "online",
+        "width"
+      ],
+      "first_seen_round": 385
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.12754v1",
+      "title": "NV-Tesseract-AD: Curriculum-Enhanced Conditional Diffusion for Multivariate Time-Series Anomaly Detection",
+      "arxiv_id": "2610.12754",
+      "tokens": [
+        "anomaly",
+        "conditional",
+        "curriculum",
+        "detection",
+        "diffusion",
+        "enhanced",
+        "multivariate",
+        "series",
+        "tesseract",
+        "time"
+      ],
+      "first_seen_round": 385
     }
   ],
-  "total_unique": 3311
+  "total_unique": 3321
 }

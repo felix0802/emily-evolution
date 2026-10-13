@@ -1,6 +1,23 @@
 {
-  "timestamp": "2026-10-12T19:28:24.144673",
+  "timestamp": "2026-10-13T01:42:03.053382",
   "connections": [
+    {
+      "seed_a": "HTM",
+      "seed_b": "Few-Shot Learning",
+      "shared_keywords": [],
+      "shared_paper_concepts": [
+        "data",
+        "detection",
+        "forecasting",
+        "from",
+        "learning",
+        "malware",
+        "offline",
+        "series"
+      ],
+      "strength": 12,
+      "discovered_at": "2026-10-13T01:42:03.053291"
+    },
     {
       "seed_a": "Mamba (SSM)",
       "seed_b": "Non-Transformer Arch",
@@ -18,24 +35,41 @@
         "with"
       ],
       "strength": 11,
-      "discovered_at": "2026-10-12T19:28:24.144479"
+      "discovered_at": "2026-10-13T01:42:03.053186"
     },
     {
       "seed_a": "HTM",
-      "seed_b": "Few-Shot Learning",
+      "seed_b": "Non-Transformer Arch",
       "shared_keywords": [],
       "shared_paper_concepts": [
-        "data",
-        "detection",
         "forecasting",
         "from",
+        "graph",
+        "kernel",
         "learning",
-        "malware",
-        "training",
-        "trees"
+        "linear",
+        "multi",
+        "series"
       ],
-      "strength": 9,
-      "discovered_at": "2026-10-12T19:28:24.144582"
+      "strength": 10,
+      "discovered_at": "2026-10-13T01:42:03.053286"
+    },
+    {
+      "seed_a": "HTM",
+      "seed_b": "Graph Neural Networks",
+      "shared_keywords": [],
+      "shared_paper_concepts": [
+        "distribution",
+        "graph",
+        "learning",
+        "multi",
+        "representations",
+        "self",
+        "supervised",
+        "with"
+      ],
+      "strength": 8,
+      "discovered_at": "2026-10-13T01:42:03.053306"
     },
     {
       "seed_a": "Liquid Networks",
@@ -51,39 +85,23 @@
         "transformers"
       ],
       "strength": 7,
-      "discovered_at": "2026-10-12T19:28:24.144510"
+      "discovered_at": "2026-10-13T01:42:03.053219"
     },
     {
       "seed_a": "HTM",
-      "seed_b": "Non-Transformer Arch",
+      "seed_b": "Continual Learning",
       "shared_keywords": [],
       "shared_paper_concepts": [
-        "forecasting",
+        "data",
         "from",
-        "graph",
-        "kernel",
         "learning",
-        "multi",
+        "offline",
+        "selection",
+        "training",
         "with"
       ],
       "strength": 7,
-      "discovered_at": "2026-10-12T19:28:24.144578"
-    },
-    {
-      "seed_a": "HTM",
-      "seed_b": "Graph Neural Networks",
-      "shared_keywords": [],
-      "shared_paper_concepts": [
-        "distribution",
-        "graph",
-        "learning",
-        "multi",
-        "self",
-        "supervised",
-        "with"
-      ],
-      "strength": 7,
-      "discovered_at": "2026-10-12T19:28:24.144597"
+      "discovered_at": "2026-10-13T01:42:03.053294"
     },
     {
       "seed_a": "Non-Transformer Arch",
@@ -99,7 +117,7 @@
         "with"
       ],
       "strength": 7,
-      "discovered_at": "2026-10-12T19:28:24.144613"
+      "discovered_at": "2026-10-13T01:42:03.053323"
     },
     {
       "seed_a": "Non-Transformer Arch",
@@ -115,7 +133,7 @@
         "with"
       ],
       "strength": 7,
-      "discovered_at": "2026-10-12T19:28:24.144629"
+      "discovered_at": "2026-10-13T01:42:03.053338"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -130,37 +148,22 @@
         "with"
       ],
       "strength": 6,
-      "discovered_at": "2026-10-12T19:28:24.144498"
+      "discovered_at": "2026-10-13T01:42:03.053206"
     },
     {
-      "seed_a": "HTM",
-      "seed_b": "Continual Learning",
+      "seed_a": "Liquid Networks",
+      "seed_b": "HTM",
       "shared_keywords": [],
       "shared_paper_concepts": [
         "data",
-        "from",
+        "event",
         "learning",
-        "selection",
-        "training",
-        "with"
+        "optimal",
+        "self",
+        "time"
       ],
       "strength": 6,
-      "discovered_at": "2026-10-12T19:28:24.144586"
-    },
-    {
-      "seed_a": "Few-Shot Learning",
-      "seed_b": "Continual Learning",
-      "shared_keywords": [],
-      "shared_paper_concepts": [
-        "data",
-        "from",
-        "learning",
-        "offline",
-        "training",
-        "with"
-      ],
-      "strength": 6,
-      "discovered_at": "2026-10-12T19:28:24.144633"
+      "discovered_at": "2026-10-13T01:42:03.053211"
     }
   ],
   "total_seeds": 10

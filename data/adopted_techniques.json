@@ -3383,6 +3383,21 @@
         ],
         "decided_at": "2026-10-12T08:16:18.693793"
       }
+    },
+    {
+      "id": "llm-counterfactual-inference",
+      "name": "Counterfactual Inference",
+      "adopted_at": "2026-10-13T01:42:03.029478",
+      "decision": {
+        "tech_id": "llm-counterfactual-inference",
+        "tech_name": "Counterfactual Inference",
+        "action": "adopt",
+        "confidence": 0.9,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-10-13T01:42:03.027367"
+      }
     }
   ],
   "history": [
@@ -4735,6 +4750,12 @@
       "tech_id": "llm-rated-工具检索",
       "tech_name": "RATED 工具检索",
       "timestamp": "2026-10-12T08:16:18.695742"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-counterfactual-inference",
+      "tech_name": "Counterfactual Inference",
+      "timestamp": "2026-10-13T01:42:03.029483"
     }
   ]
 }

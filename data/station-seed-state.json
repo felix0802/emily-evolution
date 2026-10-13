@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 752,
+  "_rotation_idx": 753,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 73,
@@ -1487,40 +1487,9 @@
   },
   "htm": {
     "name": "HTM",
-    "total_papers_found": 130,
-    "watering_count": 78,
+    "total_papers_found": 133,
+    "watering_count": 79,
     "history": [
-      {
-        "timestamp": "2026-08-04T21:00:11.217205",
-        "papers_found": 4,
-        "duplicates": 0,
-        "irrelevant_filtered": 6,
-        "avg_relevance": 1.5,
-        "high_relevance": 2,
-        "papers": [
-          {
-            "title": "CARE: A Cascaded Framework for Efficient and Reliable Time Series Anomaly Detection",
-            "summary": "While deep learning models have achieved state-of-the-art performance in time series anomaly detection, their complex architectures incur substantial inference overhead. Existing methods typically apply a uniform inference strategy across all data points, which is inefficient given that anomalies ar",
-            "published": "2026-08-03",
-            "url": "http://arxiv.org/abs/2608.01885v1",
-            "seed_match_score": 1
-          },
-          {
-            "title": "ReFP-AD: Rectified Flow Preconditioning for Energy-Based Anomaly Detection",
-            "summary": "Unified anomaly detection requires modeling highly heterogeneous normal data without access to anomalous samples. While foundation models like DINOv2 provide rich token representations, leveraging these spaces for explicit density estimation remains challenging. Energy-Based Models (EBMs) offer a pr",
-            "published": "2026-08-03",
-            "url": "http://arxiv.org/abs/2608.01793v1",
-            "seed_match_score": 1
-          },
-          {
-            "title": "Recursive Gaussian Processes and the Bayesian Brain",
-            "summary": "Predictive coding offers a powerful framework for cortical computation, yet scalable implementations that respect both Bayesian exactness and neurobiological constraints remain scarce. We bridge this gap by formally connecting predictive coding to Recursive Gaussian Processes (RGPs). RGPs employ a s",
-            "published": "2026-08-01",
-            "url": "http://arxiv.org/abs/2608.00503v1",
-            "seed_match_score": 2
-          }
-        ]
-      },
       {
         "timestamp": "2026-08-05T20:54:12.161861",
         "papers_found": 3,
@@ -2441,6 +2410,37 @@
             "seed_match_score": 1
           }
         ]
+      },
+      {
+        "timestamp": "2026-10-13T01:41:57.774346",
+        "papers_found": 3,
+        "duplicates": 0,
+        "irrelevant_filtered": 7,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "Local Diagnostics of Learned Event Representations for Anomaly Detection at the HL-LHC",
+            "summary": "Anomaly detection, the identification of collision events that deviate from Standard Model expectations, is one of the most promising model-agnostic strategies for new-physics searches at the Large Hadron Collider. Searching for rare events in learned low-dimensional representations removes the need",
+            "published": "2026-10-09",
+            "url": "http://arxiv.org/abs/2610.13437v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Gaussian-Width Bounds for Offline-to-Online Linear Bandits",
+            "summary": "We study how offline data can help online learning in stochastic linear bandits. We focus on partially covered offline data, where only $k$ of the $d$ feature directions are poorly covered. Existing analyses of algorithms based on phased elimination and optimism give regret bounds of order $\\widetil",
+            "published": "2026-10-09",
+            "url": "http://arxiv.org/abs/2610.12990v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "NV-Tesseract-AD: Curriculum-Enhanced Conditional Diffusion for Multivariate Time-Series Anomaly Detection",
+            "summary": "We propose NV-Tesseract-AD, a curriculum learning-enhanced conditional diffusion framework for multivariate time-series anomaly detection. Our central hypothesis is that reconstruction difficulty can be explicitly structured along two complementary axes, masking severity and diffusion noise level, a",
+            "published": "2026-10-08",
+            "url": "http://arxiv.org/abs/2610.12754v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -2455,7 +2455,7 @@
       "anomaly detection",
       "continuous learning"
     ],
-    "last_watered": "2026-10-10T14:02:16.110575"
+    "last_watered": "2026-10-13T01:41:57.774340"
   },
   "spiking-nn": {
     "name": "Spiking Neural Networks",
