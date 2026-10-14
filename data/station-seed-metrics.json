@@ -125,15 +125,15 @@
   },
   "mamba": {
     "name": "Mamba (SSM)",
-    "total_new_papers": 68,
-    "total_watering": 61,
+    "total_new_papers": 75,
+    "total_watering": 62,
     "all_keywords_matched": [
-      "ssm",
+      "selective scan",
+      "mamba",
       "state space",
-      "mamba"
+      "ssm"
     ],
     "avg_relevance_trend": [
-      1.0,
       0.0,
       0.0,
       0.0,
@@ -152,9 +152,10 @@
       1.67,
       1.75,
       1.67,
-      1.67
+      1.67,
+      1.57
     ],
-    "high_relevance_total": 28,
+    "high_relevance_total": 31,
     "best_papers": [
       {
         "title": "Adaptive Mamba Neural Operators",
@@ -175,9 +176,14 @@
         "title": "Beyond Diagonal State Space Models: Exact Non-Abelian Group Tracking, Solvability Barriers, and Geom",
         "score": 3,
         "published": "2026-09-29"
+      },
+      {
+        "title": "Hardware-Friendly Token-Group Activation Quantization for Low-Bit Mamba Super-Resolution",
+        "score": 3,
+        "published": "2026-10-12"
       }
     ],
-    "last_updated": "2026-10-10T01:23:50.964362"
+    "last_updated": "2026-10-14T22:46:29.586452"
   },
   "liquid-networks": {
     "name": "Liquid Networks",

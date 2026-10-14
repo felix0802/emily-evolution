@@ -1,41 +1,10 @@
 {
-  "_rotation_idx": 760,
+  "_rotation_idx": 761,
   "mamba": {
     "name": "Mamba (SSM)",
-    "total_papers_found": 73,
-    "watering_count": 79,
+    "total_papers_found": 80,
+    "watering_count": 80,
     "history": [
-      {
-        "timestamp": "2026-08-05T17:16:06.470623",
-        "papers_found": 3,
-        "duplicates": 4,
-        "irrelevant_filtered": 3,
-        "avg_relevance": 1.0,
-        "high_relevance": 0,
-        "papers": [
-          {
-            "title": "State Propagation Also Satisfies: A Complex-Valued State-Space Model for Deterministic State Tracking",
-            "summary": "Transformer-based architectures have dominated sequence modeling, largely due to the expressive power of attention mechanisms. However, for a class of deterministic state tracking tasks---such as parity checking, modular counting, and parenthesis matching---attention may be overkill. In this paper, ",
-            "published": "2026-08-04",
-            "url": "http://arxiv.org/abs/2608.03425v1",
-            "seed_match_score": 1
-          },
-          {
-            "title": "Mamba with Hierarchical Memory: Solving Representation Bottleneck in Long Sequence Modeling",
-            "summary": "Recurrent linear attention models (RLAs) such as Mamba offer efficient linear-time sequence modeling as an alternative to Transformers, yet their fixed-capacity recurrent states limit long-sequence modeling. Drawing inspiration from hierarchical human memory, we propose Hierarchical Memory Mamba (HM",
-            "published": "2026-08-03",
-            "url": "http://arxiv.org/abs/2608.02347v1",
-            "seed_match_score": 1
-          },
-          {
-            "title": "Training nGPT",
-            "summary": "The normalized Transformer (nGPT) realizes hyperspherical representation learning by constraining model parameter vectors and activation vectors to the unit hypersphere. In this paper, we describe a practical training recipe for nGPT and evaluate it on modern hybrid Mamba-2--Transformer Mixture-of-E",
-            "published": "2026-08-02",
-            "url": "http://arxiv.org/abs/2608.01284v1",
-            "seed_match_score": 1
-          }
-        ]
-      },
       {
         "timestamp": "2026-08-06T23:46:30.840562",
         "papers_found": 0,
@@ -716,6 +685,37 @@
         "avg_relevance": 0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-10-14T22:46:29.587116",
+        "papers_found": 7,
+        "duplicates": 0,
+        "irrelevant_filtered": 3,
+        "avg_relevance": 1.57,
+        "high_relevance": 3,
+        "papers": [
+          {
+            "title": "FETALFusion: Resolution-Aware State-Space Modeling for Multi-Domain Fetal Head Segmentation",
+            "summary": "Head circumference (HC) measured from 2D ultrasound is a routine marker of fetal growth, and automating it needs segmentations whose boundaries hold up on individual scans, not only on average. We present FETALFusion, a dual-path CNN-Mamba encoder-decoder for fetal head segmentation across acquisiti",
+            "published": "2026-10-13",
+            "url": "http://arxiv.org/abs/2610.17951v1",
+            "seed_match_score": 2
+          },
+          {
+            "title": "SSM-Attack: Learning Where to Perturb for Black-Box Face Privacy",
+            "summary": "Face recognition systems are deployed widely enough that a photograph shared online can be matched without its subject's consent. Generator-based protection methods rely on heavy pretrained backbones, multi-stage inference or visible semantic edits. We introduce SSM-Attack, a black-box face privacy ",
+            "published": "2026-10-12",
+            "url": "http://arxiv.org/abs/2610.17323v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "SuPER-Mamba: Surprisal Prioritization for Extended-Context Routing in Mamba",
+            "summary": "State space models provide efficient linear-complexity processing for long sequences, but their performance frequently degrades as context length grows. We propose SuPER-Mamba, a training-free framework that uses Surprisal as a model-intrinsic signal for long-range state routing in pretrained Mamba ",
+            "published": "2026-10-12",
+            "url": "http://arxiv.org/abs/2610.16636v1",
+            "seed_match_score": 2
+          }
+        ]
       }
     ],
     "keywords": [
@@ -724,7 +724,7 @@
       "ssm",
       "selective scan"
     ],
-    "last_watered": "2026-10-12T08:16:13.048972"
+    "last_watered": "2026-10-14T22:46:29.587110"
   },
   "liquid-networks": {
     "name": "Liquid Networks",

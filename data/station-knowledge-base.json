@@ -1,53 +1,6 @@
 {
   "sessions": [
     {
-      "timestamp": "2026-09-22T00:20:26.112410",
-      "arxiv_papers_count": 21,
-      "arxiv_top_keywords": [
-        "memory",
-        "agentic",
-        "environments",
-        "tasks",
-        "language",
-        "agents",
-        "retrieval",
-        "design",
-        "procedures",
-        "procedural"
-      ],
-      "arxiv_strategies": [
-        "cs.AI 最新",
-        "cs.LG 最新",
-        "cs.CL 最新"
-      ],
-      "huggingface_models": 10,
-      "huggingface_tasks": [
-        "sentence-similarity",
-        "unknown",
-        "fill-mask",
-        "text-ranking",
-        "feature-extraction"
-      ],
-      "ml_datasets": [
-        "Iris",
-        "Wine",
-        "Breast Cancer",
-        "Diabetes"
-      ],
-      "ml_total_tests": 22,
-      "github_trending_repos": 8,
-      "paperswithcode_papers": 8,
-      "evolution": {
-        "discovered": 15,
-        "adopted": 1,
-        "decisions": 1
-      },
-      "seed_watering": {
-        "seed_name": "",
-        "papers_found": 0
-      }
-    },
-    {
       "timestamp": "2026-09-22T06:57:39.619460",
       "arxiv_papers_count": 5,
       "arxiv_top_keywords": [
@@ -4677,10 +4630,57 @@
         "seed_name": "Graph Neural Networks",
         "papers_found": 7
       }
+    },
+    {
+      "timestamp": "2026-10-14T22:46:35.270069",
+      "arxiv_papers_count": 18,
+      "arxiv_top_keywords": [
+        "graph",
+        "world",
+        "latent",
+        "features",
+        "dynamic",
+        "transfer",
+        "unified",
+        "gauge",
+        "geometry",
+        "equivariant"
+      ],
+      "arxiv_strategies": [
+        "搜索: graph neural network",
+        "搜索: transfer learning",
+        "搜索: world model"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "unknown",
+        "text-generation",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 14,
+        "adopted": 0,
+        "decisions": 0
+      },
+      "seed_watering": {
+        "seed_name": "Mamba (SSM)",
+        "papers_found": 7
+      }
     }
   ],
   "total_sessions": 101,
-  "last_updated": "2026-10-14T19:47:57.692921",
+  "last_updated": "2026-10-14T22:46:35.270082",
   "evolution_summary": {
     "total_adopted": 235,
     "adopted_list": [
@@ -4923,8 +4923,8 @@
     "seeds": {
       "mamba": {
         "name": "Mamba (SSM)",
-        "watering": 79,
-        "papers": 73
+        "watering": 80,
+        "papers": 80
       },
       "liquid-networks": {
         "name": "Liquid Networks",
@@ -5002,15 +5002,16 @@
       },
       "mamba": {
         "name": "Mamba (SSM)",
-        "new_papers": 68,
+        "new_papers": 75,
         "keywords_matched": [
-          "ssm",
+          "selective scan",
+          "mamba",
           "state space",
-          "mamba"
+          "ssm"
         ],
-        "high_relevance_total": 28,
-        "avg_relevance_latest": 1.67,
-        "best_papers_count": 4
+        "high_relevance_total": 31,
+        "avg_relevance_latest": 1.57,
+        "best_papers_count": 5
       },
       "liquid-networks": {
         "name": "Liquid Networks",
@@ -5115,6 +5116,6 @@
         "best_papers_count": 1
       }
     },
-    "last_evolution": "2026-10-14T19:47:57.696416"
+    "last_evolution": "2026-10-14T22:46:35.272697"
   }
 }
