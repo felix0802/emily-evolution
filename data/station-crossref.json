@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-14T14:45:15.655535",
+  "timestamp": "2026-10-14T19:47:57.709631",
   "connections": [
     {
       "seed_a": "HTM",
@@ -16,24 +16,24 @@
         "selection"
       ],
       "strength": 9,
-      "discovered_at": "2026-10-14T14:45:15.655457"
+      "discovered_at": "2026-10-14T19:47:57.709558"
     },
     {
-      "seed_a": "HTM",
+      "seed_a": "Mamba (SSM)",
       "seed_b": "Graph Neural Networks",
       "shared_keywords": [],
       "shared_paper_concepts": [
-        "distribution",
-        "graph",
-        "learning",
+        "forecasting",
+        "fusion",
+        "image",
         "multi",
-        "representations",
-        "self",
-        "supervised",
+        "network",
+        "networks",
+        "space",
         "with"
       ],
       "strength": 8,
-      "discovered_at": "2026-10-14T14:45:15.655469"
+      "discovered_at": "2026-10-14T19:47:57.709468"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -48,7 +48,7 @@
         "with"
       ],
       "strength": 7,
-      "discovered_at": "2026-10-14T14:45:15.655348"
+      "discovered_at": "2026-10-14T19:47:57.709451"
     },
     {
       "seed_a": "HTM",
@@ -64,22 +64,7 @@
         "trees"
       ],
       "strength": 7,
-      "discovered_at": "2026-10-14T14:45:15.655453"
-    },
-    {
-      "seed_a": "Mamba (SSM)",
-      "seed_b": "Graph Neural Networks",
-      "shared_keywords": [],
-      "shared_paper_concepts": [
-        "fusion",
-        "image",
-        "models",
-        "multi",
-        "space",
-        "with"
-      ],
-      "strength": 6,
-      "discovered_at": "2026-10-14T14:45:15.655366"
+      "discovered_at": "2026-10-14T19:47:57.709554"
     },
     {
       "seed_a": "Liquid Networks",
@@ -94,7 +79,22 @@
         "time"
       ],
       "strength": 6,
-      "discovered_at": "2026-10-14T14:45:15.655372"
+      "discovered_at": "2026-10-14T19:47:57.709473"
+    },
+    {
+      "seed_a": "HTM",
+      "seed_b": "Graph Neural Networks",
+      "shared_keywords": [],
+      "shared_paper_concepts": [
+        "diffusion",
+        "forecasting",
+        "graph",
+        "learning",
+        "multi",
+        "with"
+      ],
+      "strength": 6,
+      "discovered_at": "2026-10-14T19:47:57.709569"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -108,7 +108,7 @@
         "with"
       ],
       "strength": 5,
-      "discovered_at": "2026-10-14T14:45:15.655362"
+      "discovered_at": "2026-10-14T19:47:57.709464"
     },
     {
       "seed_a": "Liquid Networks",
@@ -122,7 +122,7 @@
         "transformers"
       ],
       "strength": 5,
-      "discovered_at": "2026-10-14T14:45:15.655421"
+      "discovered_at": "2026-10-14T19:47:57.709522"
     },
     {
       "seed_a": "Liquid Networks",
@@ -136,7 +136,7 @@
         "parallel"
       ],
       "strength": 5,
-      "discovered_at": "2026-10-14T14:45:15.655432"
+      "discovered_at": "2026-10-14T19:47:57.709534"
     },
     {
       "seed_a": "Liquid Networks",
@@ -150,7 +150,7 @@
         "transformers"
       ],
       "strength": 5,
-      "discovered_at": "2026-10-14T14:45:15.655437"
+      "discovered_at": "2026-10-14T19:47:57.709538"
     }
   ],
   "total_seeds": 10

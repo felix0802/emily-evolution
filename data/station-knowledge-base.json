@@ -1,53 +1,6 @@
 {
   "sessions": [
     {
-      "timestamp": "2026-09-21T20:09:52.887848",
-      "arxiv_papers_count": 5,
-      "arxiv_top_keywords": [
-        "agentic",
-        "design",
-        "memory",
-        "procedures",
-        "procedural",
-        "codemidas",
-        "environments",
-        "tasks",
-        "source",
-        "value"
-      ],
-      "arxiv_strategies": [
-        "cs.AI (fallback)",
-        "cs.AI (fallback)",
-        "cs.AI (fallback)"
-      ],
-      "huggingface_models": 10,
-      "huggingface_tasks": [
-        "sentence-similarity",
-        "unknown",
-        "fill-mask",
-        "text-ranking",
-        "feature-extraction"
-      ],
-      "ml_datasets": [
-        "Iris",
-        "Wine",
-        "Breast Cancer",
-        "Diabetes"
-      ],
-      "ml_total_tests": 22,
-      "github_trending_repos": 8,
-      "paperswithcode_papers": 8,
-      "evolution": {
-        "discovered": 12,
-        "adopted": 0,
-        "decisions": 0
-      },
-      "seed_watering": {
-        "seed_name": "",
-        "papers_found": 0
-      }
-    },
-    {
       "timestamp": "2026-09-22T00:20:26.112410",
       "arxiv_papers_count": 21,
       "arxiv_top_keywords": [
@@ -4677,12 +4630,59 @@
         "seed_name": "KV Cache Optimization",
         "papers_found": 8
       }
+    },
+    {
+      "timestamp": "2026-10-14T19:47:57.692898",
+      "arxiv_papers_count": 18,
+      "arxiv_top_keywords": [
+        "agent",
+        "neural",
+        "supervised",
+        "speech",
+        "visual",
+        "self",
+        "learning",
+        "information",
+        "agents",
+        "multi"
+      ],
+      "arxiv_strategies": [
+        "搜索: neural architecture",
+        "搜索: self-supervised learning",
+        "搜索: multi-agent system"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "unknown",
+        "text-generation",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 22,
+        "adopted": 1,
+        "decisions": 1
+      },
+      "seed_watering": {
+        "seed_name": "Graph Neural Networks",
+        "papers_found": 7
+      }
     }
   ],
   "total_sessions": 101,
-  "last_updated": "2026-10-14T14:45:15.638833",
+  "last_updated": "2026-10-14T19:47:57.692921",
   "evolution_summary": {
-    "total_adopted": 234,
+    "total_adopted": 235,
     "adopted_list": [
       "Knowledge Distillation",
       "World Models / Model-Based RL",
@@ -4917,7 +4917,8 @@
       "TurnCost / Cache-Aware Loop Engineering",
       "Action Chunking",
       "Closed-Loop Policy Improvement from Deployment Rollouts",
-      "平方根学习率缩放"
+      "平方根学习率缩放",
+      "SE(2) 等变网络"
     ],
     "seeds": {
       "mamba": {
@@ -4967,8 +4968,8 @@
       },
       "gnn": {
         "name": "Graph Neural Networks",
-        "watering": 74,
-        "papers": 151
+        "watering": 75,
+        "papers": 158
       }
     },
     "seed_metrics": {
@@ -5071,18 +5072,18 @@
       },
       "gnn": {
         "name": "Graph Neural Networks",
-        "new_papers": 151,
+        "new_papers": 158,
         "keywords_matched": [
           "graph transformer",
+          "node embedding",
           "graph attention",
           "message passing",
-          "node embedding",
-          "graph neural",
           "geometric",
-          "gnn"
+          "gnn",
+          "graph neural"
         ],
-        "high_relevance_total": 72,
-        "avg_relevance_latest": 0.0,
+        "high_relevance_total": 76,
+        "avg_relevance_latest": 1.57,
         "best_papers_count": 10
       },
       "moe": {
@@ -5114,6 +5115,6 @@
         "best_papers_count": 1
       }
     },
-    "last_evolution": "2026-10-14T14:45:15.642287"
+    "last_evolution": "2026-10-14T19:47:57.696416"
   }
 }

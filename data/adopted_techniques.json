@@ -3518,6 +3518,21 @@
         ],
         "decided_at": "2026-10-14T14:45:15.628323"
       }
+    },
+    {
+      "id": "llm-se(2)-等变网络",
+      "name": "SE(2) 等变网络",
+      "adopted_at": "2026-10-14T19:47:57.682706",
+      "decision": {
+        "tech_id": "llm-se(2)-等变网络",
+        "tech_name": "SE(2) 等变网络",
+        "action": "adopt",
+        "confidence": 0.9,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-10-14T19:47:57.679811"
+      }
     }
   ],
   "history": [
@@ -4924,6 +4939,12 @@
       "tech_id": "llm-平方根学习率缩放",
       "tech_name": "平方根学习率缩放",
       "timestamp": "2026-10-14T14:45:15.630568"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-se(2)-等变网络",
+      "tech_name": "SE(2) 等变网络",
+      "timestamp": "2026-10-14T19:47:57.682715"
     }
   ]
 }
