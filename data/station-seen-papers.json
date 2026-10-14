@@ -54223,7 +54223,327 @@
         "spectrum"
       ],
       "first_seen_round": 390
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.18807v1",
+      "title": "SkillScaffold: Scaffolding Agentic Reinforcement Learning with Policy-Adaptive Skill Credit Assignment and Selective Injection",
+      "arxiv_id": "2610.18807",
+      "tokens": [
+        "adaptive",
+        "agentic",
+        "assignment",
+        "credit",
+        "injection",
+        "policy",
+        "reinforcement",
+        "scaffolding",
+        "selective",
+        "skill",
+        "skillscaffold"
+      ],
+      "first_seen_round": 391
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.18738v1",
+      "title": "Enabling Token-wise Importance Sampling in Off-Policy RLVR with Proximal KL Regularization",
+      "arxiv_id": "2610.18738",
+      "tokens": [
+        "enabling",
+        "importance",
+        "policy",
+        "proximal",
+        "regularization",
+        "rlvr",
+        "sampling",
+        "token",
+        "wise"
+      ],
+      "first_seen_round": 391
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.18730v1",
+      "title": "Learning When to Transfer: Reinforcement Learning for Carbon-Footprint Modeling in New Manufacturing Domains",
+      "arxiv_id": "2610.18730",
+      "tokens": [
+        "carbon",
+        "domains",
+        "footprint",
+        "manufacturing",
+        "modeling",
+        "reinforcement",
+        "transfer"
+      ],
+      "first_seen_round": 391
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.18683v1",
+      "title": "ProAS: A Progress-Aware Advantage Shaping Framework for Multi-Turn Agentic Reinforcement Learning",
+      "arxiv_id": "2610.18683",
+      "tokens": [
+        "advantage",
+        "agentic",
+        "aware",
+        "multi",
+        "proas",
+        "progress",
+        "reinforcement",
+        "shaping",
+        "turn"
+      ],
+      "first_seen_round": 391
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.18829v1",
+      "title": "OmniCompass: A Holistic Benchmark for Omni-Modal Video Grounding and Understanding",
+      "arxiv_id": "2610.18829",
+      "tokens": [
+        "benchmark",
+        "grounding",
+        "holistic",
+        "modal",
+        "omni",
+        "omnicompass",
+        "understanding",
+        "video"
+      ],
+      "first_seen_round": 391
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.18820v1",
+      "title": "Read the Room Before Your Model Generates",
+      "arxiv_id": "2610.18820",
+      "tokens": [
+        "generates",
+        "read",
+        "room"
+      ],
+      "first_seen_round": 391
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.18818v1",
+      "title": "Back-Translation Still Matters: Leveraging Monolingual Data for Low-Resource Machine Translation with LLMs",
+      "arxiv_id": "2610.18818",
+      "tokens": [
+        "back",
+        "leveraging",
+        "llms",
+        "low",
+        "machine",
+        "matters",
+        "monolingual",
+        "resource",
+        "still",
+        "translation",
+        "translation"
+      ],
+      "first_seen_round": 391
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.18780v1",
+      "title": "BLADE: Auditing Information Use for Failure Attribution in LLM Multi-Agent Systems",
+      "arxiv_id": "2610.18780",
+      "tokens": [
+        "agent",
+        "attribution",
+        "auditing",
+        "blade",
+        "failure",
+        "information",
+        "llm",
+        "multi",
+        "use"
+      ],
+      "first_seen_round": 391
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.18779v1",
+      "title": "GAD: Geometry Attention Distillation for Consistent Video Generation",
+      "arxiv_id": "2610.18779",
+      "tokens": [
+        "attention",
+        "consistent",
+        "distillation",
+        "gad",
+        "generation",
+        "geometry",
+        "video"
+      ],
+      "first_seen_round": 391
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.18763v1",
+      "title": "LayerCanvas: Infographic Generation in AI Learning Assistants via Hybrid Layer-Set Diffusion",
+      "arxiv_id": "2610.18763",
+      "tokens": [
+        "assistants",
+        "diffusion",
+        "generation",
+        "hybrid",
+        "infographic",
+        "layer",
+        "layercanvas",
+        "set"
+      ],
+      "first_seen_round": 391
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.18607v1",
+      "title": "Recasting DiT for Extreme Image Compression with Hierarchical Visual Priors",
+      "arxiv_id": "2610.18607",
+      "tokens": [
+        "compression",
+        "dit",
+        "extreme",
+        "hierarchical",
+        "image",
+        "priors",
+        "recasting",
+        "visual"
+      ],
+      "first_seen_round": 391
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.18289v1",
+      "title": "LongForcing: Scaling Temporal Manifold Matching for Long-Horizon World Rollout",
+      "arxiv_id": "2610.18289",
+      "tokens": [
+        "horizon",
+        "long",
+        "longforcing",
+        "manifold",
+        "matching",
+        "rollout",
+        "scaling",
+        "temporal",
+        "world"
+      ],
+      "first_seen_round": 391
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.18735v1",
+      "title": "SP$^2$ec: Adaptive Self-Speculative Decoding for Vision-Language Models",
+      "arxiv_id": "2610.18735",
+      "tokens": [
+        "adaptive",
+        "decoding",
+        "language",
+        "self",
+        "speculative",
+        "vision"
+      ],
+      "first_seen_round": 391
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.18642v1",
+      "title": "MultiAlloc: Budget-Aware Precision Allocation for KV Cache Quantization",
+      "arxiv_id": "2610.18642",
+      "tokens": [
+        "allocation",
+        "aware",
+        "budget",
+        "cache",
+        "multialloc",
+        "precision",
+        "quantization"
+      ],
+      "first_seen_round": 391
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.18140v1",
+      "title": "SparPR: Runtime KV-Cache Recovery for Resource-Constrained LLM Inference on Consumer Hardware",
+      "arxiv_id": "2610.18140",
+      "tokens": [
+        "cache",
+        "constrained",
+        "consumer",
+        "hardware",
+        "inference",
+        "llm",
+        "recovery",
+        "resource",
+        "runtime",
+        "sparpr"
+      ],
+      "first_seen_round": 391
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.18026v1",
+      "title": "ChampionKV: Head-Wise Adaptive Budget Allocation for KV Cache Compression",
+      "arxiv_id": "2610.18026",
+      "tokens": [
+        "adaptive",
+        "allocation",
+        "budget",
+        "cache",
+        "championkv",
+        "compression",
+        "head",
+        "wise"
+      ],
+      "first_seen_round": 391
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.18014v1",
+      "title": "LatentRemedy: Efficient Remedy For Non-Prefix KV Cache Reuse in Multi-Agent Systems",
+      "arxiv_id": "2610.18014",
+      "tokens": [
+        "agent",
+        "cache",
+        "latentremedy",
+        "multi",
+        "non",
+        "prefix",
+        "remedy",
+        "reuse"
+      ],
+      "first_seen_round": 391
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.17970v1",
+      "title": "AlignPred: Error-Controlled KV Cache Compression via Alignment and Predictive Coding",
+      "arxiv_id": "2610.17970",
+      "tokens": [
+        "alignment",
+        "alignpred",
+        "cache",
+        "coding",
+        "compression",
+        "controlled",
+        "error",
+        "predictive"
+      ],
+      "first_seen_round": 391
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.17966v1",
+      "title": "BELT : BEhavior-Aligned Low-Rank KV Cache Compression with Learned Top-k Rank Allocation",
+      "arxiv_id": "2610.17966",
+      "tokens": [
+        "aligned",
+        "allocation",
+        "behavior",
+        "belt",
+        "cache",
+        "compression",
+        "learned",
+        "low",
+        "rank",
+        "rank",
+        "top"
+      ],
+      "first_seen_round": 391
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.17959v1",
+      "title": "Virtual Head Attention",
+      "arxiv_id": "2610.17959",
+      "tokens": [
+        "attention",
+        "head",
+        "virtual"
+      ],
+      "first_seen_round": 391
     }
   ],
-  "total_unique": 3399
+  "total_unique": 3419
 }

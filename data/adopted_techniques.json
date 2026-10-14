@@ -3503,6 +3503,21 @@
         ],
         "decided_at": "2026-10-14T09:05:56.990435"
       }
+    },
+    {
+      "id": "llm-平方根学习率缩放",
+      "name": "平方根学习率缩放",
+      "adopted_at": "2026-10-14T14:45:15.630563",
+      "decision": {
+        "tech_id": "llm-平方根学习率缩放",
+        "tech_name": "平方根学习率缩放",
+        "action": "adopt",
+        "confidence": 0.9,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-10-14T14:45:15.628323"
+      }
     }
   ],
   "history": [
@@ -4903,6 +4918,12 @@
       "tech_id": "llm-closed-loop-policy-improvement",
       "tech_name": "Closed-Loop Policy Improvement from Deployment Rollouts",
       "timestamp": "2026-10-14T09:05:56.992705"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-平方根学习率缩放",
+      "tech_name": "平方根学习率缩放",
+      "timestamp": "2026-10-14T14:45:15.630568"
     }
   ]
 }

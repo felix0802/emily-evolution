@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 758,
+  "_rotation_idx": 759,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 73,
@@ -6259,40 +6259,9 @@
   },
   "kv-cache": {
     "name": "KV Cache Optimization",
-    "total_papers_found": 100,
-    "watering_count": 73,
+    "total_papers_found": 108,
+    "watering_count": 74,
     "history": [
-      {
-        "timestamp": "2026-08-05T13:30:18.987568",
-        "papers_found": 5,
-        "duplicates": 3,
-        "irrelevant_filtered": 2,
-        "avg_relevance": 1.0,
-        "high_relevance": 0,
-        "papers": [
-          {
-            "title": "Cross-Model KV Cache Transfer in LLM Families: A Closed-Form Linear Mapping for Prefill Reuse",
-            "summary": "Production deployments often swap between different-sized models in a family for cost-quality cascading, mid-conversation switching, and routing, and each swap forces the receiver to repay the prefill from scratch. We propose cross-model KV cache transfer, where the receiver reuses the source's KV c",
-            "published": "2026-08-04",
-            "url": "http://arxiv.org/abs/2608.03893v1",
-            "seed_match_score": 1
-          },
-          {
-            "title": "Approximate Speculative Decoding",
-            "summary": "Speculative decoding accelerates autoregressive generation by verifying a draft block with a target model in parallel. Under standard greedy verification, decoding stops at the first draft token that differs from the target argmax, discarding the remaining target-scored suffix. Although accepting su",
-            "published": "2026-08-04",
-            "url": "http://arxiv.org/abs/2608.03447v1",
-            "seed_match_score": 1
-          },
-          {
-            "title": "SAKI: Score-Aware Low-Rank Key Indexing for Long-Context KV Retrieval",
-            "summary": "Existing low rank KV cache methods preserve either model weights or key variance, neither of which directly reflects the attention scores used during inference. We derive the expected attention score distortion caused by rank r key compression and show that it yields a covariance weighted low rank o",
-            "published": "2026-08-04",
-            "url": "http://arxiv.org/abs/2608.03228v1",
-            "seed_match_score": 1
-          }
-        ]
-      },
       {
         "timestamp": "2026-08-06T13:28:56.212506",
         "papers_found": 3,
@@ -7119,6 +7088,37 @@
         "avg_relevance": 0.0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-10-14T14:45:10.340208",
+        "papers_found": 8,
+        "duplicates": 0,
+        "irrelevant_filtered": 2,
+        "avg_relevance": 1.12,
+        "high_relevance": 1,
+        "papers": [
+          {
+            "title": "SP$^2$ec: Adaptive Self-Speculative Decoding for Vision-Language Models",
+            "summary": "Speculative Decoding (SD) has demonstrated its efficacy in accelerating large language model inference, but for Vision-Language Models (VLMs), the diverse input modalities make it difficult for a small trained drafter to achieve consistently high throughput. Self-speculative decoding reuses parts of",
+            "published": "2026-10-13",
+            "url": "http://arxiv.org/abs/2610.18735v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "MultiAlloc: Budget-Aware Precision Allocation for KV Cache Quantization",
+            "summary": "The Key-Value (KV) cache constitutes a dominant source of memory consumption during large language model (LLM) inference, particularly in long-context and complex reasoning scenarios. Existing KV cache quantization methods have explored different compression granularities, including layer-wise preci",
+            "published": "2026-10-13",
+            "url": "http://arxiv.org/abs/2610.18642v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "SparPR: Runtime KV-Cache Recovery for Resource-Constrained LLM Inference on Consumer Hardware",
+            "summary": "Running large language models (LLMs) on consumer hardware is bottlenecked by the key-value (KV) cache, which grows with every decoded token and quickly exhausts the memory and bandwidth of a single consumer GPU. We present SparPR (Sparse Partial Recomputation), a runtime KV-cache recovery mechanism ",
+            "published": "2026-10-13",
+            "url": "http://arxiv.org/abs/2610.18140v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -7130,7 +7130,7 @@
       "flash attention",
       "speculative decoding"
     ],
-    "last_watered": "2026-10-11T21:08:57.564777"
+    "last_watered": "2026-10-14T14:45:10.340200"
   },
   "gnn": {
     "name": "Graph Neural Networks",
