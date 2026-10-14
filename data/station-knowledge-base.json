@@ -1,53 +1,6 @@
 {
   "sessions": [
     {
-      "timestamp": "2026-09-21T07:38:24.094065",
-      "arxiv_papers_count": 5,
-      "arxiv_top_keywords": [
-        "agentic",
-        "design",
-        "memory",
-        "procedures",
-        "procedural",
-        "codemidas",
-        "environments",
-        "tasks",
-        "source",
-        "value"
-      ],
-      "arxiv_strategies": [
-        "cs.AI (fallback)",
-        "cs.AI (fallback)",
-        "cs.AI (fallback)"
-      ],
-      "huggingface_models": 10,
-      "huggingface_tasks": [
-        "sentence-similarity",
-        "unknown",
-        "fill-mask",
-        "text-ranking",
-        "feature-extraction"
-      ],
-      "ml_datasets": [
-        "Iris",
-        "Wine",
-        "Breast Cancer",
-        "Diabetes"
-      ],
-      "ml_total_tests": 22,
-      "github_trending_repos": 8,
-      "paperswithcode_papers": 8,
-      "evolution": {
-        "discovered": 12,
-        "adopted": 0,
-        "decisions": 0
-      },
-      "seed_watering": {
-        "seed_name": "",
-        "papers_found": 0
-      }
-    },
-    {
       "timestamp": "2026-09-21T14:38:07.339220",
       "arxiv_papers_count": 5,
       "arxiv_top_keywords": [
@@ -4677,12 +4630,59 @@
         "seed_name": "Continual Learning",
         "papers_found": 7
       }
+    },
+    {
+      "timestamp": "2026-10-14T09:05:59.826146",
+      "arxiv_papers_count": 19,
+      "arxiv_top_keywords": [
+        "reasoning",
+        "multi",
+        "action",
+        "llm",
+        "motion",
+        "text",
+        "image",
+        "pretraining",
+        "visual",
+        "target"
+      ],
+      "arxiv_strategies": [
+        "cs.CV 最新",
+        "cs.AI+cs.LG 混合",
+        "cs.CL+cs.CV 混合"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "unknown",
+        "text-generation",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 23,
+        "adopted": 2,
+        "decisions": 2
+      },
+      "seed_watering": {
+        "seed_name": "Mixture of Experts",
+        "papers_found": 5
+      }
     }
   ],
   "total_sessions": 101,
-  "last_updated": "2026-10-14T02:24:19.519039",
+  "last_updated": "2026-10-14T09:05:59.826163",
   "evolution_summary": {
-    "total_adopted": 231,
+    "total_adopted": 233,
     "adopted_list": [
       "Knowledge Distillation",
       "World Models / Model-Based RL",
@@ -4914,7 +4914,9 @@
       "PPG基础模型统一基准（PPG-Bench）",
       "分阶段蒸馏至双向循环扩散语言模型",
       "固定状态循环的匹配状态分解",
-      "TurnCost / Cache-Aware Loop Engineering"
+      "TurnCost / Cache-Aware Loop Engineering",
+      "Action Chunking",
+      "Closed-Loop Policy Improvement from Deployment Rollouts"
     ],
     "seeds": {
       "mamba": {
@@ -4954,8 +4956,8 @@
       },
       "moe": {
         "name": "Mixture of Experts",
-        "watering": 72,
-        "papers": 107
+        "watering": 73,
+        "papers": 112
       },
       "kv-cache": {
         "name": "KV Cache Optimization",
@@ -5084,16 +5086,16 @@
       },
       "moe": {
         "name": "Mixture of Experts",
-        "new_papers": 107,
+        "new_papers": 112,
         "keywords_matched": [
-          "deepseek",
-          "expert routing",
           "moe",
+          "deepseek",
+          "mixture of experts",
           "router",
-          "mixture of experts"
+          "expert routing"
         ],
-        "high_relevance_total": 78,
-        "avg_relevance_latest": 2.0,
+        "high_relevance_total": 81,
+        "avg_relevance_latest": 1.6,
         "best_papers_count": 10
       },
       "kv-cache": {
@@ -5111,6 +5113,6 @@
         "best_papers_count": 1
       }
     },
-    "last_evolution": "2026-10-14T02:24:19.522242"
+    "last_evolution": "2026-10-14T09:05:59.829392"
   }
 }

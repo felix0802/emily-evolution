@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 757,
+  "_rotation_idx": 758,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 73,
@@ -5338,33 +5338,9 @@
   },
   "moe": {
     "name": "Mixture of Experts",
-    "total_papers_found": 107,
-    "watering_count": 72,
+    "total_papers_found": 112,
+    "watering_count": 73,
     "history": [
-      {
-        "timestamp": "2026-08-05T11:49:26.881983",
-        "papers_found": 2,
-        "duplicates": 3,
-        "irrelevant_filtered": 5,
-        "avg_relevance": 2.0,
-        "high_relevance": 2,
-        "papers": [
-          {
-            "title": "MoEGen: Mixture-of-Experts for Instance-Adaptive LoRA Generation",
-            "summary": "Parameter-efficient fine-tuning (PEFT) enables efficient adaptation of large language models, but existing MoE-based PEFT methods typically improve capacity by storing multiple full LoRA experts, causing adapter storage to grow linearly with the number of experts and restricting adaptation to a fixe",
-            "published": "2026-08-04",
-            "url": "http://arxiv.org/abs/2608.03275v1",
-            "seed_match_score": 2
-          },
-          {
-            "title": "AcceptMoE: Commitment-Weighted Self-Sizing Verifier Expert Sets for Efficient MoE Speculative Decoding",
-            "summary": "Speculative decoding verifies a tree of draft tokens in one target-model forward pass. For a mixture-of-experts (MoE) target, however, parallel verification can activate the union of the experts selected by all tree nodes, even though only a small subset of those nodes reaches the accepted output. T",
-            "published": "2026-08-04",
-            "url": "http://arxiv.org/abs/2608.02989v1",
-            "seed_match_score": 2
-          }
-        ]
-      },
       {
         "timestamp": "2026-08-06T11:55:02.494855",
         "papers_found": 4,
@@ -6237,6 +6213,37 @@
             "seed_match_score": 2
           }
         ]
+      },
+      {
+        "timestamp": "2026-10-14T09:05:48.285957",
+        "papers_found": 5,
+        "duplicates": 0,
+        "irrelevant_filtered": 5,
+        "avg_relevance": 1.6,
+        "high_relevance": 3,
+        "papers": [
+          {
+            "title": "UniW(A)M: A Unified Mixture-of-Experts Framework for World and World-Action Models",
+            "summary": "World models (WMs) and world-action models (WAMs) focus on future world prediction and executable action generation, respectively. Although these models learn shared physical dynamics and interaction semantics from embodied trajectories, they are typically trained in isolation, which restricts knowl",
+            "published": "2026-10-13",
+            "url": "http://arxiv.org/abs/2610.18697v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "FastEEP: Fast Intra-Instance Elastic Scaling for Expert-Parallel MoE Serving",
+            "summary": "Large-scale expert parallelism (EP) has become the standard deployment configuration for Mixture-of-Experts (MoE) models in production. Meanwhile, the highly dynamic nature of LLM workloads requires providers to continuously adjust serving capacity to match fluctuating demand. Scaling MoE serving ca",
+            "published": "2026-10-13",
+            "url": "http://arxiv.org/abs/2610.18451v1",
+            "seed_match_score": 2
+          },
+          {
+            "title": "Fish Audio Drama 3 Technical Report",
+            "summary": "We introduce Fish Audio Drama 3, an open-source speech generation model that turns text into directed performances, built on a 35B-parameter mixture-of-experts backbone that activates 3B parameters per token. It clones voices from multiple references, follows natural-language direction, revises a ta",
+            "published": "2026-10-13",
+            "url": "http://arxiv.org/abs/2610.18010v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -6248,7 +6255,7 @@
       "switch transformer",
       "deepseek"
     ],
-    "last_watered": "2026-10-11T16:53:17.692929"
+    "last_watered": "2026-10-14T09:05:48.285950"
   },
   "kv-cache": {
     "name": "KV Cache Optimization",

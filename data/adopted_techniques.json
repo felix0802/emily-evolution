@@ -3473,6 +3473,36 @@
         ],
         "decided_at": "2026-10-14T02:24:19.508017"
       }
+    },
+    {
+      "id": "llm-action-chunking",
+      "name": "Action Chunking",
+      "adopted_at": "2026-10-14T09:05:56.992679",
+      "decision": {
+        "tech_id": "llm-action-chunking",
+        "tech_name": "Action Chunking",
+        "action": "adopt",
+        "confidence": 0.9,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-10-14T09:05:56.990228"
+      }
+    },
+    {
+      "id": "llm-closed-loop-policy-improvement",
+      "name": "Closed-Loop Policy Improvement from Deployment Rollouts",
+      "adopted_at": "2026-10-14T09:05:56.992703",
+      "decision": {
+        "tech_id": "llm-closed-loop-policy-improvement",
+        "tech_name": "Closed-Loop Policy Improvement from Deployment Rollouts",
+        "action": "adopt",
+        "confidence": 0.85,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-10-14T09:05:56.990435"
+      }
     }
   ],
   "history": [
@@ -4861,6 +4891,18 @@
       "tech_id": "llm-turncost-/-cache-aware-loop-en",
       "tech_name": "TurnCost / Cache-Aware Loop Engineering",
       "timestamp": "2026-10-14T02:24:19.510317"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-action-chunking",
+      "tech_name": "Action Chunking",
+      "timestamp": "2026-10-14T09:05:56.992685"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-closed-loop-policy-improvement",
+      "tech_name": "Closed-Loop Policy Improvement from Deployment Rollouts",
+      "timestamp": "2026-10-14T09:05:56.992705"
     }
   ]
 }

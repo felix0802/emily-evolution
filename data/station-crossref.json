@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-14T02:24:19.535684",
+  "timestamp": "2026-10-14T09:05:59.842499",
   "connections": [
     {
       "seed_a": "HTM",
@@ -16,7 +16,7 @@
         "selection"
       ],
       "strength": 9,
-      "discovered_at": "2026-10-14T02:24:19.535600"
+      "discovered_at": "2026-10-14T09:05:59.842417"
     },
     {
       "seed_a": "HTM",
@@ -33,7 +33,7 @@
         "with"
       ],
       "strength": 8,
-      "discovered_at": "2026-10-14T02:24:19.535611"
+      "discovered_at": "2026-10-14T09:05:59.842429"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -48,7 +48,7 @@
         "with"
       ],
       "strength": 7,
-      "discovered_at": "2026-10-14T02:24:19.535500"
+      "discovered_at": "2026-10-14T09:05:59.842314"
     },
     {
       "seed_a": "HTM",
@@ -64,7 +64,7 @@
         "trees"
       ],
       "strength": 7,
-      "discovered_at": "2026-10-14T02:24:19.535596"
+      "discovered_at": "2026-10-14T09:05:59.842413"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -79,7 +79,7 @@
         "with"
       ],
       "strength": 6,
-      "discovered_at": "2026-10-14T02:24:19.535517"
+      "discovered_at": "2026-10-14T09:05:59.842331"
     },
     {
       "seed_a": "Liquid Networks",
@@ -94,7 +94,7 @@
         "time"
       ],
       "strength": 6,
-      "discovered_at": "2026-10-14T02:24:19.535522"
+      "discovered_at": "2026-10-14T09:05:59.842337"
     },
     {
       "seed_a": "Liquid Networks",
@@ -108,21 +108,21 @@
         "transformers"
       ],
       "strength": 5,
-      "discovered_at": "2026-10-14T02:24:19.535565"
+      "discovered_at": "2026-10-14T09:05:59.842382"
     },
     {
       "seed_a": "Liquid Networks",
       "seed_b": "Mixture of Experts",
       "shared_keywords": [],
       "shared_paper_concepts": [
-        "aware",
         "data",
         "free",
         "inference",
-        "models"
+        "models",
+        "parallel"
       ],
       "strength": 5,
-      "discovered_at": "2026-10-14T02:24:19.535577"
+      "discovered_at": "2026-10-14T09:05:59.842394"
     },
     {
       "seed_a": "Liquid Networks",
@@ -136,7 +136,7 @@
         "self"
       ],
       "strength": 5,
-      "discovered_at": "2026-10-14T02:24:19.535584"
+      "discovered_at": "2026-10-14T09:05:59.842401"
     },
     {
       "seed_a": "HTM",
@@ -150,7 +150,7 @@
         "with"
       ],
       "strength": 5,
-      "discovered_at": "2026-10-14T02:24:19.535592"
+      "discovered_at": "2026-10-14T09:05:59.842409"
     }
   ],
   "total_seeds": 10
