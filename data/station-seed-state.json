@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 756,
+  "_rotation_idx": 757,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 73,
@@ -4508,26 +4508,9 @@
   },
   "continual-learning": {
     "name": "Continual Learning",
-    "total_papers_found": 100,
-    "watering_count": 76,
+    "total_papers_found": 107,
+    "watering_count": 77,
     "history": [
-      {
-        "timestamp": "2026-08-05T08:12:18.388015",
-        "papers_found": 1,
-        "duplicates": 4,
-        "irrelevant_filtered": 5,
-        "avg_relevance": 1.0,
-        "high_relevance": 0,
-        "papers": [
-          {
-            "title": "Field Aware Agent Skill Retrieval",
-            "summary": "As lifelong learning agents accumulate lifelong growing skill banks, retrieving the correct skill becomes an increasingly important bottleneck. Most current skill retrieval methods treat each skill as one flat document by concatenating fields such as the name, description, and body. However, skills ",
-            "published": "2026-08-03",
-            "url": "http://arxiv.org/abs/2608.02880v1",
-            "seed_match_score": 1
-          }
-        ]
-      },
       {
         "timestamp": "2026-08-06T08:11:25.037152",
         "papers_found": 3,
@@ -5311,6 +5294,37 @@
         "avg_relevance": 0.0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-10-14T02:24:13.545227",
+        "papers_found": 7,
+        "duplicates": 0,
+        "irrelevant_filtered": 3,
+        "avg_relevance": 1.57,
+        "high_relevance": 3,
+        "papers": [
+          {
+            "title": "InCLAD: A Continual Learning Benchmark for Industrial Visual Anomaly Detection",
+            "summary": "Industrial anomaly detection benchmarks have advanced rapidly, yet they remain largely static and therefore underrepresent deployment settings in which inspection systems must be extended from one industrial component to another over time. In our setting, continual industrial anomaly detection is fr",
+            "published": "2026-10-10",
+            "url": "http://arxiv.org/abs/2610.15032v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Representation Drift in Continual Learning: LoRA versus N-gram Memory",
+            "summary": "A language model that keeps learning online must not slowly erode its own base capabilities. We ask which part of a modern LLM should absorb continual updates, by measuring how each choice changes the model's internal representations. On a 48-layer mixture-of-experts model with a native pretrained N",
+            "published": "2026-10-10",
+            "url": "http://arxiv.org/abs/2610.14921v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Formalizing Forgetting: Theory of Forgetting for Online Continual Learning",
+            "summary": "Online continual learning (OCL) requires a learner to acquire a sequence of tasks in a single pass over the data, and catastrophic forgetting of earlier tasks remains its central challenge. Despite the many methods proposed to mitigate forgetting, the theoretical understanding of forgetting in OCL i",
+            "published": "2026-10-10",
+            "url": "http://arxiv.org/abs/2610.14787v1",
+            "seed_match_score": 2
+          }
+        ]
       }
     ],
     "keywords": [
@@ -5320,7 +5334,7 @@
       "ewc",
       "elastic weight"
     ],
-    "last_watered": "2026-10-11T10:23:04.026074"
+    "last_watered": "2026-10-14T02:24:13.545219"
   },
   "moe": {
     "name": "Mixture of Experts",

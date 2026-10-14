@@ -1,53 +1,6 @@
 {
   "sessions": [
     {
-      "timestamp": "2026-09-21T01:59:43.571652",
-      "arxiv_papers_count": 5,
-      "arxiv_top_keywords": [
-        "autoreclab",
-        "experiment",
-        "recsys",
-        "code",
-        "research",
-        "personality",
-        "llms",
-        "social",
-        "agents",
-        "fine"
-      ],
-      "arxiv_strategies": [
-        "cs.AI (fallback)",
-        "cs.AI (fallback)",
-        "cs.AI (fallback)"
-      ],
-      "huggingface_models": 10,
-      "huggingface_tasks": [
-        "sentence-similarity",
-        "unknown",
-        "fill-mask",
-        "text-ranking",
-        "feature-extraction"
-      ],
-      "ml_datasets": [
-        "Iris",
-        "Wine",
-        "Breast Cancer",
-        "Diabetes"
-      ],
-      "ml_total_tests": 22,
-      "github_trending_repos": 8,
-      "paperswithcode_papers": 8,
-      "evolution": {
-        "discovered": 13,
-        "adopted": 2,
-        "decisions": 2
-      },
-      "seed_watering": {
-        "seed_name": "",
-        "papers_found": 0
-      }
-    },
-    {
       "timestamp": "2026-09-21T07:38:24.094065",
       "arxiv_papers_count": 5,
       "arxiv_top_keywords": [
@@ -4677,12 +4630,59 @@
         "seed_name": "Few-Shot Learning",
         "papers_found": 7
       }
+    },
+    {
+      "timestamp": "2026-10-14T02:24:19.519021",
+      "arxiv_papers_count": 22,
+      "arxiv_top_keywords": [
+        "reasoning",
+        "post",
+        "training",
+        "classification",
+        "foundation",
+        "structural",
+        "chain",
+        "thought",
+        "graphs",
+        "observations"
+      ],
+      "arxiv_strategies": [
+        "cs.AI 最新",
+        "cs.LG 最新",
+        "cs.CL 最新"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "unknown",
+        "text-ranking",
+        "feature-extraction",
+        "fill-mask"
+      ],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 22,
+        "adopted": 1,
+        "decisions": 1
+      },
+      "seed_watering": {
+        "seed_name": "Continual Learning",
+        "papers_found": 7
+      }
     }
   ],
   "total_sessions": 101,
-  "last_updated": "2026-10-13T22:01:49.639169",
+  "last_updated": "2026-10-14T02:24:19.519039",
   "evolution_summary": {
-    "total_adopted": 230,
+    "total_adopted": 231,
     "adopted_list": [
       "Knowledge Distillation",
       "World Models / Model-Based RL",
@@ -4913,7 +4913,8 @@
       "结构化块跳过（Structured Block Skipping）",
       "PPG基础模型统一基准（PPG-Bench）",
       "分阶段蒸馏至双向循环扩散语言模型",
-      "固定状态循环的匹配状态分解"
+      "固定状态循环的匹配状态分解",
+      "TurnCost / Cache-Aware Loop Engineering"
     ],
     "seeds": {
       "mamba": {
@@ -4948,8 +4949,8 @@
       },
       "continual-learning": {
         "name": "Continual Learning",
-        "watering": 76,
-        "papers": 100
+        "watering": 77,
+        "papers": 107
       },
       "moe": {
         "name": "Mixture of Experts",
@@ -5053,17 +5054,17 @@
       },
       "continual-learning": {
         "name": "Continual Learning",
-        "new_papers": 95,
+        "new_papers": 102,
         "keywords_matched": [
-          "elastic weight",
-          "catastrophic forgetting",
+          "continual learning",
           "ewc",
           "lifelong",
-          "continual learning"
+          "elastic weight",
+          "catastrophic forgetting"
         ],
-        "high_relevance_total": 24,
-        "avg_relevance_latest": 0.0,
-        "best_papers_count": 3
+        "high_relevance_total": 27,
+        "avg_relevance_latest": 1.57,
+        "best_papers_count": 4
       },
       "gnn": {
         "name": "Graph Neural Networks",
@@ -5110,6 +5111,6 @@
         "best_papers_count": 1
       }
     },
-    "last_evolution": "2026-10-13T22:01:49.641810"
+    "last_evolution": "2026-10-14T02:24:19.522242"
   }
 }

@@ -3458,6 +3458,21 @@
         ],
         "decided_at": "2026-10-13T22:01:46.528844"
       }
+    },
+    {
+      "id": "llm-turncost-/-cache-aware-loop-en",
+      "name": "TurnCost / Cache-Aware Loop Engineering",
+      "adopted_at": "2026-10-14T02:24:19.510311",
+      "decision": {
+        "tech_id": "llm-turncost-/-cache-aware-loop-en",
+        "tech_name": "TurnCost / Cache-Aware Loop Engineering",
+        "action": "adopt",
+        "confidence": 0.85,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-10-14T02:24:19.508017"
+      }
     }
   ],
   "history": [
@@ -4840,6 +4855,12 @@
       "tech_id": "llm-固定状态循环的匹配状态分解",
       "tech_name": "固定状态循环的匹配状态分解",
       "timestamp": "2026-10-13T22:01:46.530531"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-turncost-/-cache-aware-loop-en",
+      "tech_name": "TurnCost / Cache-Aware Loop Engineering",
+      "timestamp": "2026-10-14T02:24:19.510317"
     }
   ]
 }
