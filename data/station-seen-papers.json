@@ -55581,7 +55581,153 @@
         "price"
       ],
       "first_seen_round": 395
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.16440v1",
+      "title": "ARMED: Adaptive Retrieval-Augmented Medication Recommendation",
+      "arxiv_id": "2610.16440",
+      "tokens": [
+        "adaptive",
+        "armed",
+        "augmented",
+        "medication",
+        "recommendation",
+        "retrieval"
+      ],
+      "first_seen_round": 396
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.19578v1",
+      "title": "Bridging the Topological Divide: Dual-Branch Graph Distillation with Semantic Priors for Robust Cold-Start Recommendation",
+      "arxiv_id": "2610.19578",
+      "tokens": [
+        "branch",
+        "bridging",
+        "cold",
+        "distillation",
+        "divide",
+        "dual",
+        "graph",
+        "priors",
+        "recommendation",
+        "robust",
+        "semantic",
+        "start",
+        "topological"
+      ],
+      "first_seen_round": 396
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.19145v1",
+      "title": "Demystifying On-Policy Distillation: Where Does the Teacher's Advantage Live?",
+      "arxiv_id": "2610.19145",
+      "tokens": [
+        "advantage",
+        "demystifying",
+        "distillation",
+        "live",
+        "policy",
+        "teacher"
+      ],
+      "first_seen_round": 396
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.17644v1",
+      "title": "DisaggKD: Efficient Knowledge Distillation through Teacher-Student Disaggregation and a Fused Loss",
+      "arxiv_id": "2610.17644",
+      "tokens": [
+        "disaggkd",
+        "disaggregation",
+        "distillation",
+        "fused",
+        "knowledge",
+        "loss",
+        "student",
+        "teacher"
+      ],
+      "first_seen_round": 396
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.15997v1",
+      "title": "Representational Difference Distillation",
+      "arxiv_id": "2610.15997",
+      "tokens": [
+        "difference",
+        "distillation",
+        "representational"
+      ],
+      "first_seen_round": 396
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.15398v1",
+      "title": "GA-SVD: Generation-aware Singular Value Decomposition for LLM Compression",
+      "arxiv_id": "2610.15398",
+      "tokens": [
+        "aware",
+        "compression",
+        "decomposition",
+        "generation",
+        "llm",
+        "singular",
+        "svd",
+        "value"
+      ],
+      "first_seen_round": 396
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.14579v1",
+      "title": "Fine-Tuning Strategy, Not Just Data: A Statistically Rigorous Audit of Gender and Stereotypical Bias in Embedding Models for HR Recommendation Systems",
+      "arxiv_id": "2610.14579",
+      "tokens": [
+        "audit",
+        "bias",
+        "embedding",
+        "fine",
+        "gender",
+        "recommendation",
+        "rigorous",
+        "statistically",
+        "stereotypical",
+        "strategy",
+        "tuning"
+      ],
+      "first_seen_round": 396
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.20503v1",
+      "title": "ReaDy: Recurrent States as Dynamic Context for Speculative Drafting in Hybrid Linear Attention Large Language Models",
+      "arxiv_id": "2610.20503",
+      "tokens": [
+        "attention",
+        "context",
+        "drafting",
+        "dynamic",
+        "hybrid",
+        "language",
+        "linear",
+        "ready",
+        "recurrent",
+        "speculative",
+        "states"
+      ],
+      "first_seen_round": 396
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.17061v1",
+      "title": "In-context classification: Calibration and noise in linear attention with softmax readout",
+      "arxiv_id": "2610.17061",
+      "tokens": [
+        "attention",
+        "calibration",
+        "classification",
+        "context",
+        "linear",
+        "noise",
+        "readout",
+        "softmax"
+      ],
+      "first_seen_round": 396
     }
   ],
-  "total_unique": 3484
+  "total_unique": 3493
 }

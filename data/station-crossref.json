@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-15T14:30:52.288731",
+  "timestamp": "2026-10-15T19:31:27.153110",
   "connections": [
     {
       "seed_a": "Mamba (SSM)",
@@ -11,13 +11,32 @@
       "shared_paper_concepts": [
         "aware",
         "context",
+        "dynamic",
         "kernels",
-        "learning",
+        "models",
+        "recurrent",
         "state",
         "with"
       ],
-      "strength": 10,
-      "discovered_at": "2026-10-15T14:30:52.288541"
+      "strength": 12,
+      "discovered_at": "2026-10-15T19:31:27.152995"
+    },
+    {
+      "seed_a": "Non-Transformer Arch",
+      "seed_b": "KV Cache Optimization",
+      "shared_keywords": [],
+      "shared_paper_concepts": [
+        "aware",
+        "cache",
+        "language",
+        "models",
+        "speculative",
+        "transformers",
+        "vision",
+        "with"
+      ],
+      "strength": 8,
+      "discovered_at": "2026-10-15T19:31:27.153086"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -33,7 +52,7 @@
         "with"
       ],
       "strength": 7,
-      "discovered_at": "2026-10-15T14:30:52.288561"
+      "discovered_at": "2026-10-15T19:31:27.153006"
     },
     {
       "seed_a": "Liquid Networks",
@@ -49,7 +68,7 @@
         "physics"
       ],
       "strength": 7,
-      "discovered_at": "2026-10-15T14:30:52.288637"
+      "discovered_at": "2026-10-15T19:31:27.153055"
     },
     {
       "seed_a": "HTM",
@@ -65,7 +84,7 @@
         "training"
       ],
       "strength": 7,
-      "discovered_at": "2026-10-15T14:30:52.288652"
+      "discovered_at": "2026-10-15T19:31:27.153064"
     },
     {
       "seed_a": "HTM",
@@ -80,7 +99,7 @@
         "trees"
       ],
       "strength": 6,
-      "discovered_at": "2026-10-15T14:30:52.288648"
+      "discovered_at": "2026-10-15T19:31:27.153061"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -94,7 +113,7 @@
         "state"
       ],
       "strength": 5,
-      "discovered_at": "2026-10-15T14:30:52.288520"
+      "discovered_at": "2026-10-15T19:31:27.152983"
     },
     {
       "seed_a": "Liquid Networks",
@@ -108,7 +127,7 @@
         "training"
       ],
       "strength": 5,
-      "discovered_at": "2026-10-15T14:30:52.288566"
+      "discovered_at": "2026-10-15T19:31:27.153009"
     },
     {
       "seed_a": "Liquid Networks",
@@ -117,12 +136,12 @@
       "shared_paper_concepts": [
         "attention",
         "aware",
-        "learning",
+        "models",
         "state",
         "transformers"
       ],
       "strength": 5,
-      "discovered_at": "2026-10-15T14:30:52.288617"
+      "discovered_at": "2026-10-15T19:31:27.153043"
     },
     {
       "seed_a": "Liquid Networks",
@@ -136,21 +155,7 @@
         "parallel"
       ],
       "strength": 5,
-      "discovered_at": "2026-10-15T14:30:52.288629"
-    },
-    {
-      "seed_a": "Liquid Networks",
-      "seed_b": "KV Cache Optimization",
-      "shared_keywords": [],
-      "shared_paper_concepts": [
-        "aware",
-        "inference",
-        "models",
-        "self",
-        "transformers"
-      ],
-      "strength": 5,
-      "discovered_at": "2026-10-15T14:30:52.288633"
+      "discovered_at": "2026-10-15T19:31:27.153050"
     }
   ],
   "total_seeds": 10

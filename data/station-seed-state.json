@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 764,
+  "_rotation_idx": 765,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 80,
@@ -3101,18 +3101,9 @@
   },
   "non-transformer": {
     "name": "Non-Transformer Arch",
-    "total_papers_found": 58,
-    "watering_count": 79,
+    "total_papers_found": 60,
+    "watering_count": 80,
     "history": [
-      {
-        "timestamp": "2026-08-06T01:17:09.292147",
-        "papers_found": 0,
-        "duplicates": 6,
-        "irrelevant_filtered": 4,
-        "avg_relevance": 0.0,
-        "high_relevance": 0,
-        "papers": []
-      },
       {
         "timestamp": "2026-08-07T08:44:09.721073",
         "papers_found": 1,
@@ -3854,6 +3845,30 @@
             "seed_match_score": 1
           }
         ]
+      },
+      {
+        "timestamp": "2026-10-15T19:31:20.474429",
+        "papers_found": 2,
+        "duplicates": 2,
+        "irrelevant_filtered": 6,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "ReaDy: Recurrent States as Dynamic Context for Speculative Drafting in Hybrid Linear Attention Large Language Models",
+            "summary": "Speculative decoding accelerates autoregressive generation by drafting multiple tokens per step, yet feature-based drafters rely on target hidden features whose contextual emphasis may not align with the needs of subsequent draft positions. Hybrid linear attention (HLA) models maintain compact recur",
+            "published": "2026-10-14",
+            "url": "http://arxiv.org/abs/2610.20503v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "In-context classification: Calibration and noise in linear attention with softmax readout",
+            "summary": "We study in-context binary classification in a simple attention model trained to minimise a logistic loss. Each prompt has a latent logistic teacher, and the learner must infer its direction from Bernoulli-labeled context examples. We derive an asymptotic prediction for the test logit in a high-dime",
+            "published": "2026-10-12",
+            "url": "http://arxiv.org/abs/2610.17061v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -3866,7 +3881,7 @@
       "sub-quadratic",
       "mamba"
     ],
-    "last_watered": "2026-10-13T17:12:04.931609"
+    "last_watered": "2026-10-15T19:31:20.474425"
   },
   "few-shot": {
     "name": "Few-Shot Learning",
