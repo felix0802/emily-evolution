@@ -3533,6 +3533,36 @@
         ],
         "decided_at": "2026-10-14T19:47:57.679811"
       }
+    },
+    {
+      "id": "llm-条件流模型",
+      "name": "条件流模型",
+      "adopted_at": "2026-10-15T08:38:58.301260",
+      "decision": {
+        "tech_id": "llm-条件流模型",
+        "tech_name": "条件流模型",
+        "action": "adopt",
+        "confidence": 0.9,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-10-15T08:38:58.299731"
+      }
+    },
+    {
+      "id": "llm-基于相似性搜索的模型选择",
+      "name": "基于相似性搜索的模型选择",
+      "adopted_at": "2026-10-15T08:38:58.301273",
+      "decision": {
+        "tech_id": "llm-基于相似性搜索的模型选择",
+        "tech_name": "基于相似性搜索的模型选择",
+        "action": "adopt",
+        "confidence": 0.85,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-10-15T08:38:58.299927"
+      }
     }
   ],
   "history": [
@@ -4945,6 +4975,18 @@
       "tech_id": "llm-se(2)-等变网络",
       "tech_name": "SE(2) 等变网络",
       "timestamp": "2026-10-14T19:47:57.682715"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-条件流模型",
+      "tech_name": "条件流模型",
+      "timestamp": "2026-10-15T08:38:58.301262"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-基于相似性搜索的模型选择",
+      "tech_name": "基于相似性搜索的模型选择",
+      "timestamp": "2026-10-15T08:38:58.301274"
     }
   ]
 }

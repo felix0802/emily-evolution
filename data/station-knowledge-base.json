@@ -1,53 +1,6 @@
 {
   "sessions": [
     {
-      "timestamp": "2026-09-22T06:57:39.619460",
-      "arxiv_papers_count": 5,
-      "arxiv_top_keywords": [
-        "world",
-        "harness",
-        "agent",
-        "gamehorizon",
-        "suite",
-        "data",
-        "evaluation",
-        "gameplay",
-        "video",
-        "memory"
-      ],
-      "arxiv_strategies": [
-        "cs.AI (fallback)",
-        "cs.AI (fallback)",
-        "cs.AI (fallback)"
-      ],
-      "huggingface_models": 10,
-      "huggingface_tasks": [
-        "sentence-similarity",
-        "unknown",
-        "fill-mask",
-        "text-ranking",
-        "feature-extraction"
-      ],
-      "ml_datasets": [
-        "Iris",
-        "Wine",
-        "Breast Cancer",
-        "Diabetes"
-      ],
-      "ml_total_tests": 22,
-      "github_trending_repos": 8,
-      "paperswithcode_papers": 8,
-      "evolution": {
-        "discovered": 11,
-        "adopted": 1,
-        "decisions": 1
-      },
-      "seed_watering": {
-        "seed_name": "",
-        "papers_found": 0
-      }
-    },
-    {
       "timestamp": "2026-09-22T12:53:50.017370",
       "arxiv_papers_count": 5,
       "arxiv_top_keywords": [
@@ -4677,12 +4630,59 @@
         "seed_name": "Mamba (SSM)",
         "papers_found": 7
       }
+    },
+    {
+      "timestamp": "2026-10-15T08:39:01.171046",
+      "arxiv_papers_count": 17,
+      "arxiv_top_keywords": [
+        "detection",
+        "time",
+        "experts",
+        "anomaly",
+        "shot",
+        "data",
+        "tabular",
+        "language",
+        "scientific",
+        "interactions"
+      ],
+      "arxiv_strategies": [
+        "搜索: time series forecasting",
+        "搜索: anomaly detection",
+        "搜索: mixture of experts"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "unknown",
+        "text-generation",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 18,
+        "adopted": 2,
+        "decisions": 2
+      },
+      "seed_watering": {
+        "seed_name": "HTM",
+        "papers_found": 3
+      }
     }
   ],
   "total_sessions": 101,
-  "last_updated": "2026-10-14T22:46:35.270082",
+  "last_updated": "2026-10-15T08:39:01.171059",
   "evolution_summary": {
-    "total_adopted": 235,
+    "total_adopted": 237,
     "adopted_list": [
       "Knowledge Distillation",
       "World Models / Model-Based RL",
@@ -4918,7 +4918,9 @@
       "Action Chunking",
       "Closed-Loop Policy Improvement from Deployment Rollouts",
       "平方根学习率缩放",
-      "SE(2) 等变网络"
+      "SE(2) 等变网络",
+      "条件流模型",
+      "基于相似性搜索的模型选择"
     ],
     "seeds": {
       "mamba": {
@@ -4928,13 +4930,13 @@
       },
       "liquid-networks": {
         "name": "Liquid Networks",
-        "watering": 79,
-        "papers": 91
+        "watering": 80,
+        "papers": 97
       },
       "htm": {
         "name": "HTM",
-        "watering": 79,
-        "papers": 133
+        "watering": 80,
+        "papers": 134
       },
       "spiking-nn": {
         "name": "Spiking Neural Networks",
@@ -5015,27 +5017,27 @@
       },
       "liquid-networks": {
         "name": "Liquid Networks",
-        "new_papers": 86,
+        "new_papers": 92,
         "keywords_matched": [
-          "ode",
           "liquid neural",
-          "continuous-time"
+          "continuous-time",
+          "ode"
         ],
-        "high_relevance_total": 26,
-        "avg_relevance_latest": 1.6,
+        "high_relevance_total": 28,
+        "avg_relevance_latest": 1.33,
         "best_papers_count": 0
       },
       "htm": {
         "name": "HTM",
-        "new_papers": 128,
+        "new_papers": 129,
         "keywords_matched": [
-          "anomaly detection",
-          "sparse distributed",
-          "sequence memory",
-          "hierarchical temporal",
           "predictive coding",
+          "hierarchical temporal",
+          "cortical",
+          "sequence memory",
+          "sparse distributed",
           "online learning",
-          "cortical"
+          "anomaly detection"
         ],
         "high_relevance_total": 3,
         "avg_relevance_latest": 1.0,
@@ -5116,6 +5118,6 @@
         "best_papers_count": 1
       }
     },
-    "last_evolution": "2026-10-14T22:46:35.272697"
+    "last_evolution": "2026-10-15T08:39:01.172906"
   }
 }
