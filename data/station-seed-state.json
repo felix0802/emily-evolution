@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 765,
+  "_rotation_idx": 766,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 80,
@@ -3885,26 +3885,9 @@
   },
   "few-shot": {
     "name": "Few-Shot Learning",
-    "total_papers_found": 45,
-    "watering_count": 78,
+    "total_papers_found": 46,
+    "watering_count": 79,
     "history": [
-      {
-        "timestamp": "2026-08-06T04:52:33.195397",
-        "papers_found": 1,
-        "duplicates": 4,
-        "irrelevant_filtered": 5,
-        "avg_relevance": 1.0,
-        "high_relevance": 0,
-        "papers": [
-          {
-            "title": "BnBERT-iPET: Sparse Few-Shot Language Modeling for Bengali via Lottery Ticket Pruning",
-            "summary": "Deep neural networks have shown impressive success in NLP tasks owing to their complex structure and huge number of edges. Achieving state-of-the-art performance in natural language processing with a large pre-trained model such as BERT is expensive and time-consuming, carries a large carbon footpri",
-            "published": "2026-08-05",
-            "url": "http://arxiv.org/abs/2608.05104v1",
-            "seed_match_score": 1
-          }
-        ]
-      },
       {
         "timestamp": "2026-08-07T10:40:15.340975",
         "papers_found": 0,
@@ -4488,6 +4471,23 @@
             "seed_match_score": 1
           }
         ]
+      },
+      {
+        "timestamp": "2026-10-15T22:44:15.391810",
+        "papers_found": 1,
+        "duplicates": 6,
+        "irrelevant_filtered": 3,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "Cross-Market Meta-Learning for Electricity Price Forecasting",
+            "summary": "Day-ahead (DA) electricity price forecasting is usually posed per market, with a separate model fitted to each grid's own history. This caps accuracy: statistical and tree-based baselines saturate, while higher-capacity sequence models need more training data than a single market's few years of hour",
+            "published": "2026-10-12",
+            "url": "http://arxiv.org/abs/2610.17387v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -4497,7 +4497,7 @@
       "prototypical",
       "in-context"
     ],
-    "last_watered": "2026-10-13T22:01:40.012748"
+    "last_watered": "2026-10-15T22:44:15.391804"
   },
   "continual-learning": {
     "name": "Continual Learning",

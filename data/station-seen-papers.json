@@ -55727,7 +55727,166 @@
         "softmax"
       ],
       "first_seen_round": 396
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.20586v1",
+      "title": "Continuum Attention",
+      "arxiv_id": "2610.20586",
+      "tokens": [
+        "attention",
+        "continuum"
+      ],
+      "first_seen_round": 397
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.20584v1",
+      "title": "Player-1: Learning to Play from Synthetic Experience",
+      "arxiv_id": "2610.20584",
+      "tokens": [
+        "experience",
+        "play",
+        "player",
+        "synthetic"
+      ],
+      "first_seen_round": 397
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.20576v1",
+      "title": "One Task, Many Interfaces: Simple Cross-Interface Consistency Training Improves LLM Agent Robustness",
+      "arxiv_id": "2610.20576",
+      "tokens": [
+        "agent",
+        "consistency",
+        "cross",
+        "improves",
+        "interface",
+        "interfaces",
+        "llm",
+        "many",
+        "robustness",
+        "simple",
+        "task",
+        "training"
+      ],
+      "first_seen_round": 397
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.20582v1",
+      "title": "Latent Compaction with Test-Time Training",
+      "arxiv_id": "2610.20582",
+      "tokens": [
+        "compaction",
+        "latent",
+        "test",
+        "time",
+        "training"
+      ],
+      "first_seen_round": 397
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.20570v1",
+      "title": "Manacá-1B-Instruct-2: Reproducible Safety Alignment for a Native Brazilian-Portuguese LLM. Negative DPO Results, a Controlled Composition Scan, and a Silent Failure Mode of the LLM Judge",
+      "arxiv_id": "2610.20570",
+      "tokens": [
+        "alignment",
+        "brazilian",
+        "composition",
+        "controlled",
+        "dpo",
+        "failure",
+        "instruct",
+        "judge",
+        "llm",
+        "llm",
+        "manac",
+        "mode",
+        "native",
+        "negative",
+        "portuguese",
+        "reproducible",
+        "results",
+        "safety",
+        "scan",
+        "silent"
+      ],
+      "first_seen_round": 397
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.20563v1",
+      "title": "Scaling Discovery Requires Forgetting",
+      "arxiv_id": "2610.20563",
+      "tokens": [
+        "discovery",
+        "forgetting",
+        "requires",
+        "scaling"
+      ],
+      "first_seen_round": 397
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.20548v1",
+      "title": "PerSo: Investigating Facets of LLMs' Social Intelligence in Real-World Persuasion Scenarios",
+      "arxiv_id": "2610.20548",
+      "tokens": [
+        "facets",
+        "intelligence",
+        "investigating",
+        "llms",
+        "perso",
+        "persuasion",
+        "real",
+        "scenarios",
+        "social",
+        "world"
+      ],
+      "first_seen_round": 397
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.20538v1",
+      "title": "PrismaCoder: Pushing the Boundaries of Open Multimodal Code Intelligence through Decomposed Rubric Synthesis",
+      "arxiv_id": "2610.20538",
+      "tokens": [
+        "boundaries",
+        "code",
+        "decomposed",
+        "intelligence",
+        "multimodal",
+        "open",
+        "prismacoder",
+        "pushing",
+        "rubric",
+        "synthesis"
+      ],
+      "first_seen_round": 397
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.20516v1",
+      "title": "VASPO: Self-Distillation with Privileged Value Estimation",
+      "arxiv_id": "2610.20516",
+      "tokens": [
+        "distillation",
+        "estimation",
+        "privileged",
+        "self",
+        "value",
+        "vaspo"
+      ],
+      "first_seen_round": 397
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.17387v1",
+      "title": "Cross-Market Meta-Learning for Electricity Price Forecasting",
+      "arxiv_id": "2610.17387",
+      "tokens": [
+        "cross",
+        "electricity",
+        "forecasting",
+        "market",
+        "meta",
+        "price"
+      ],
+      "first_seen_round": 397
     }
   ],
-  "total_unique": 3493
+  "total_unique": 3503
 }
