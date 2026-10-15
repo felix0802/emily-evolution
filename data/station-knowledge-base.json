@@ -1,53 +1,6 @@
 {
   "sessions": [
     {
-      "timestamp": "2026-09-22T12:53:50.017370",
-      "arxiv_papers_count": 5,
-      "arxiv_top_keywords": [
-        "world",
-        "harness",
-        "agent",
-        "gamehorizon",
-        "suite",
-        "data",
-        "evaluation",
-        "gameplay",
-        "video",
-        "memory"
-      ],
-      "arxiv_strategies": [
-        "cs.AI (fallback)",
-        "cs.AI (fallback)",
-        "cs.AI (fallback)"
-      ],
-      "huggingface_models": 10,
-      "huggingface_tasks": [
-        "sentence-similarity",
-        "unknown",
-        "fill-mask",
-        "text-ranking",
-        "feature-extraction"
-      ],
-      "ml_datasets": [
-        "Iris",
-        "Wine",
-        "Breast Cancer",
-        "Diabetes"
-      ],
-      "ml_total_tests": 22,
-      "github_trending_repos": 8,
-      "paperswithcode_papers": 8,
-      "evolution": {
-        "discovered": 12,
-        "adopted": 1,
-        "decisions": 1
-      },
-      "seed_watering": {
-        "seed_name": "",
-        "papers_found": 0
-      }
-    },
-    {
       "timestamp": "2026-09-22T17:48:03.992815",
       "arxiv_papers_count": 5,
       "arxiv_top_keywords": [
@@ -4677,10 +4630,57 @@
         "seed_name": "HTM",
         "papers_found": 3
       }
+    },
+    {
+      "timestamp": "2026-10-15T14:30:52.271378",
+      "arxiv_papers_count": 5,
+      "arxiv_top_keywords": [
+        "humanoid",
+        "weights",
+        "control",
+        "networks",
+        "modeling",
+        "residual",
+        "policy",
+        "moma",
+        "hierarchical",
+        "real"
+      ],
+      "arxiv_strategies": [
+        "cs.AI (fallback)",
+        "cs.AI (fallback)",
+        "cs.AI (fallback)"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "unknown",
+        "text-generation",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 13,
+        "adopted": 0,
+        "decisions": 0
+      },
+      "seed_watering": {
+        "seed_name": "",
+        "papers_found": 0
+      }
     }
   ],
   "total_sessions": 101,
-  "last_updated": "2026-10-15T08:39:01.171059",
+  "last_updated": "2026-10-15T14:30:52.271396",
   "evolution_summary": {
     "total_adopted": 237,
     "adopted_list": [
@@ -4940,7 +4940,7 @@
       },
       "spiking-nn": {
         "name": "Spiking Neural Networks",
-        "watering": 78,
+        "watering": 79,
         "papers": 49
       },
       "non-transformer": {
@@ -5118,6 +5118,6 @@
         "best_papers_count": 1
       }
     },
-    "last_evolution": "2026-10-15T08:39:01.172906"
+    "last_evolution": "2026-10-15T14:30:52.275390"
   }
 }
