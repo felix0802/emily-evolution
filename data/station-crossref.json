@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-15T22:44:20.881447",
+  "timestamp": "2026-10-16T01:55:26.058361",
   "connections": [
     {
       "seed_a": "Mamba (SSM)",
@@ -19,7 +19,7 @@
         "with"
       ],
       "strength": 12,
-      "discovered_at": "2026-10-15T22:44:20.881235"
+      "discovered_at": "2026-10-16T01:55:26.058209"
     },
     {
       "seed_a": "Non-Transformer Arch",
@@ -36,7 +36,7 @@
         "with"
       ],
       "strength": 8,
-      "discovered_at": "2026-10-15T22:44:20.881409"
+      "discovered_at": "2026-10-16T01:55:26.058327"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -52,7 +52,7 @@
         "with"
       ],
       "strength": 7,
-      "discovered_at": "2026-10-15T22:44:20.881253"
+      "discovered_at": "2026-10-16T01:55:26.058227"
     },
     {
       "seed_a": "Liquid Networks",
@@ -68,23 +68,22 @@
         "physics"
       ],
       "strength": 7,
-      "discovered_at": "2026-10-15T22:44:20.881359"
+      "discovered_at": "2026-10-16T01:55:26.058287"
     },
     {
-      "seed_a": "HTM",
+      "seed_a": "Liquid Networks",
       "seed_b": "Continual Learning",
       "shared_keywords": [],
       "shared_paper_concepts": [
-        "anomaly",
-        "detection",
-        "drift",
-        "from",
+        "attention",
+        "distillation",
         "learning",
-        "online",
-        "training"
+        "policy",
+        "reinforcement",
+        "representation"
       ],
-      "strength": 7,
-      "discovered_at": "2026-10-15T22:44:20.881375"
+      "strength": 6,
+      "discovered_at": "2026-10-16T01:55:26.058278"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -98,7 +97,7 @@
         "state"
       ],
       "strength": 5,
-      "discovered_at": "2026-10-15T22:44:20.881217"
+      "discovered_at": "2026-10-16T01:55:26.058194"
     },
     {
       "seed_a": "Liquid Networks",
@@ -112,7 +111,7 @@
         "training"
       ],
       "strength": 5,
-      "discovered_at": "2026-10-15T22:44:20.881258"
+      "discovered_at": "2026-10-16T01:55:26.058231"
     },
     {
       "seed_a": "Liquid Networks",
@@ -126,7 +125,7 @@
         "transformers"
       ],
       "strength": 5,
-      "discovered_at": "2026-10-15T22:44:20.881303"
+      "discovered_at": "2026-10-16T01:55:26.058272"
     },
     {
       "seed_a": "Liquid Networks",
@@ -140,7 +139,7 @@
         "parallel"
       ],
       "strength": 5,
-      "discovered_at": "2026-10-15T22:44:20.881314"
+      "discovered_at": "2026-10-16T01:55:26.058281"
     },
     {
       "seed_a": "Liquid Networks",
@@ -154,7 +153,7 @@
         "transformers"
       ],
       "strength": 5,
-      "discovered_at": "2026-10-15T22:44:20.881352"
+      "discovered_at": "2026-10-16T01:55:26.058284"
     }
   ],
   "total_seeds": 10

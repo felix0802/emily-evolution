@@ -1,53 +1,6 @@
 {
   "sessions": [
     {
-      "timestamp": "2026-09-22T23:53:56.877948",
-      "arxiv_papers_count": 5,
-      "arxiv_top_keywords": [
-        "world",
-        "harness",
-        "agent",
-        "gamehorizon",
-        "suite",
-        "data",
-        "evaluation",
-        "gameplay",
-        "video",
-        "memory"
-      ],
-      "arxiv_strategies": [
-        "cs.AI (fallback)",
-        "cs.AI (fallback)",
-        "cs.AI (fallback)"
-      ],
-      "huggingface_models": 10,
-      "huggingface_tasks": [
-        "sentence-similarity",
-        "unknown",
-        "fill-mask",
-        "text-ranking",
-        "feature-extraction"
-      ],
-      "ml_datasets": [
-        "Iris",
-        "Wine",
-        "Breast Cancer",
-        "Diabetes"
-      ],
-      "ml_total_tests": 22,
-      "github_trending_repos": 8,
-      "paperswithcode_papers": 8,
-      "evolution": {
-        "discovered": 12,
-        "adopted": 0,
-        "decisions": 0
-      },
-      "seed_watering": {
-        "seed_name": "",
-        "papers_found": 0
-      }
-    },
-    {
       "timestamp": "2026-09-23T02:05:14.344447",
       "arxiv_papers_count": 5,
       "arxiv_top_keywords": [
@@ -4677,12 +4630,59 @@
         "seed_name": "Few-Shot Learning",
         "papers_found": 7
       }
+    },
+    {
+      "timestamp": "2026-10-16T01:55:26.008340",
+      "arxiv_papers_count": 25,
+      "arxiv_top_keywords": [
+        "memory",
+        "audio",
+        "language",
+        "safety",
+        "free",
+        "adaptive",
+        "learning",
+        "decoding",
+        "llm",
+        "agents"
+      ],
+      "arxiv_strategies": [
+        "cs.CV 最新",
+        "cs.AI+cs.LG 混合",
+        "cs.CL+cs.CV 混合"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "unknown",
+        "text-generation",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 22,
+        "adopted": 2,
+        "decisions": 2
+      },
+      "seed_watering": {
+        "seed_name": "Continual Learning",
+        "papers_found": 8
+      }
     }
   ],
   "total_sessions": 101,
-  "last_updated": "2026-10-15T22:44:20.864537",
+  "last_updated": "2026-10-16T01:55:26.008356",
   "evolution_summary": {
-    "total_adopted": 237,
+    "total_adopted": 239,
     "adopted_list": [
       "Knowledge Distillation",
       "World Models / Model-Based RL",
@@ -4920,7 +4920,9 @@
       "平方根学习率缩放",
       "SE(2) 等变网络",
       "条件流模型",
-      "基于相似性搜索的模型选择"
+      "基于相似性搜索的模型选择",
+      "Spatially aware audio-visual LLMs",
+      "Audio"
     ],
     "seeds": {
       "mamba": {
@@ -4955,8 +4957,8 @@
       },
       "continual-learning": {
         "name": "Continual Learning",
-        "watering": 77,
-        "papers": 107
+        "watering": 78,
+        "papers": 115
       },
       "moe": {
         "name": "Mixture of Experts",
@@ -5061,16 +5063,16 @@
       },
       "continual-learning": {
         "name": "Continual Learning",
-        "new_papers": 102,
+        "new_papers": 110,
         "keywords_matched": [
-          "continual learning",
           "ewc",
-          "lifelong",
+          "catastrophic forgetting",
+          "continual learning",
           "elastic weight",
-          "catastrophic forgetting"
+          "lifelong"
         ],
-        "high_relevance_total": 27,
-        "avg_relevance_latest": 1.57,
+        "high_relevance_total": 30,
+        "avg_relevance_latest": 1.38,
         "best_papers_count": 4
       },
       "gnn": {
@@ -5118,6 +5120,6 @@
         "best_papers_count": 1
       }
     },
-    "last_evolution": "2026-10-15T22:44:20.867685"
+    "last_evolution": "2026-10-16T01:55:26.010943"
   }
 }

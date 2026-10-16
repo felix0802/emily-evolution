@@ -55886,7 +55886,532 @@
         "price"
       ],
       "first_seen_round": 397
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.21588v1",
+      "title": "Hear, Localize, and Reason: Spatially Aware Scene Understanding for Audio-Visual LLMs",
+      "arxiv_id": "2610.21588",
+      "tokens": [
+        "audio",
+        "aware",
+        "hear",
+        "llms",
+        "localize",
+        "reason",
+        "scene",
+        "spatially",
+        "understanding",
+        "visual"
+      ],
+      "first_seen_round": 398
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.21573v1",
+      "title": "MYOPIA: Understanding the Limits of Tree-Based Reasoning in Vision-Language Models",
+      "arxiv_id": "2610.21573",
+      "tokens": [
+        "language",
+        "limits",
+        "myopia",
+        "reasoning",
+        "tree",
+        "understanding",
+        "vision"
+      ],
+      "first_seen_round": 398
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.21569v1",
+      "title": "Decoupled Safety Control: A Safety-Control Algorithm for Training-Free Safety Guidance",
+      "arxiv_id": "2610.21569",
+      "tokens": [
+        "algorithm",
+        "control",
+        "control",
+        "decoupled",
+        "free",
+        "guidance",
+        "safety",
+        "safety",
+        "safety",
+        "training"
+      ],
+      "first_seen_round": 398
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.21550v1",
+      "title": "Rethinking Classifier-Free Guidance for TI2I Flow Matching",
+      "arxiv_id": "2610.21550",
+      "tokens": [
+        "classifier",
+        "flow",
+        "free",
+        "guidance",
+        "matching",
+        "rethinking",
+        "ti2i"
+      ],
+      "first_seen_round": 398
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.21505v1",
+      "title": "FilterFusion: Prior-Guided Adaptive Filter Fusion for Efficient Video Denoising",
+      "arxiv_id": "2610.21505",
+      "tokens": [
+        "adaptive",
+        "denoising",
+        "filter",
+        "filterfusion",
+        "fusion",
+        "guided",
+        "prior",
+        "video"
+      ],
+      "first_seen_round": 398
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.21498v1",
+      "title": "GRASE: Geometry-native Real-to-sim Agentic Scene Modeling from Video",
+      "arxiv_id": "2610.21498",
+      "tokens": [
+        "agentic",
+        "geometry",
+        "grase",
+        "modeling",
+        "native",
+        "real",
+        "scene",
+        "sim",
+        "video"
+      ],
+      "first_seen_round": 398
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.21482v1",
+      "title": "AI-Driven Disaster Response and Displacement Monitoring",
+      "arxiv_id": "2610.21482",
+      "tokens": [
+        "disaster",
+        "displacement",
+        "driven",
+        "monitoring",
+        "response"
+      ],
+      "first_seen_round": 398
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.21470v1",
+      "title": "Cross-Prompt Inference Mitigates Rare-Class Suppression in Imbalanced VLM Finetuning",
+      "arxiv_id": "2610.21470",
+      "tokens": [
+        "class",
+        "cross",
+        "finetuning",
+        "imbalanced",
+        "inference",
+        "mitigates",
+        "prompt",
+        "rare",
+        "suppression",
+        "vlm"
+      ],
+      "first_seen_round": 398
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.21614v1",
+      "title": "Qwen-Audio-Jev: A Unified Interface for Audio Decisions",
+      "arxiv_id": "2610.21614",
+      "tokens": [
+        "audio",
+        "audio",
+        "decisions",
+        "interface",
+        "jev",
+        "qwen",
+        "unified"
+      ],
+      "first_seen_round": 398
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.21612v1",
+      "title": "Learning Intrinsic Dynamics in Latent World Models",
+      "arxiv_id": "2610.21612",
+      "tokens": [
+        "dynamics",
+        "intrinsic",
+        "latent",
+        "world"
+      ],
+      "first_seen_round": 398
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.21607v1",
+      "title": "Market Incentives for AI Safety Investment",
+      "arxiv_id": "2610.21607",
+      "tokens": [
+        "incentives",
+        "investment",
+        "market",
+        "safety"
+      ],
+      "first_seen_round": 398
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.21604v1",
+      "title": "Evaluating Inquiry Learning in LLM-Based Agents: Hypothesizing, Reasoning, and Exploration",
+      "arxiv_id": "2610.21604",
+      "tokens": [
+        "agents",
+        "evaluating",
+        "exploration",
+        "hypothesizing",
+        "inquiry",
+        "llm",
+        "reasoning"
+      ],
+      "first_seen_round": 398
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.21601v1",
+      "title": "Waypoint-OPD: Transferring RL-Induced Policy Shifts via Gated On-Policy Distillation",
+      "arxiv_id": "2610.21601",
+      "tokens": [
+        "distillation",
+        "gated",
+        "induced",
+        "opd",
+        "policy",
+        "policy",
+        "shifts",
+        "transferring",
+        "waypoint"
+      ],
+      "first_seen_round": 398
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.21597v1",
+      "title": "Decoding What iOS Location Services Send to Apple: An LLM Is an Unreliable Analyst but a Useful Toolmaker",
+      "arxiv_id": "2610.21597",
+      "tokens": [
+        "analyst",
+        "apple",
+        "decoding",
+        "ios",
+        "llm",
+        "location",
+        "send",
+        "services",
+        "toolmaker",
+        "unreliable",
+        "useful"
+      ],
+      "first_seen_round": 398
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.21594v1",
+      "title": "LoopAhead: Speculating Ahead for Faster Decoding in Looped Language Models",
+      "arxiv_id": "2610.21594",
+      "tokens": [
+        "ahead",
+        "decoding",
+        "faster",
+        "language",
+        "loopahead",
+        "looped",
+        "speculating"
+      ],
+      "first_seen_round": 398
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.21591v1",
+      "title": "LOADBench: A Large Open Analog Dataset and Benchmark for Machine Learning in IC Design",
+      "arxiv_id": "2610.21591",
+      "tokens": [
+        "analog",
+        "benchmark",
+        "dataset",
+        "design",
+        "loadbench",
+        "machine",
+        "open"
+      ],
+      "first_seen_round": 398
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.21586v1",
+      "title": "AVALON: Zero-Shot Indoor Navigation with Human-Seeded Topological Memory",
+      "arxiv_id": "2610.21586",
+      "tokens": [
+        "avalon",
+        "human",
+        "indoor",
+        "memory",
+        "navigation",
+        "seeded",
+        "shot",
+        "topological",
+        "zero"
+      ],
+      "first_seen_round": 398
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.21582v1",
+      "title": "Transfer Learning in Bandits from Unknown Adaptive Policies: Problem-Dependent Lower and Upper Bounds",
+      "arxiv_id": "2610.21582",
+      "tokens": [
+        "adaptive",
+        "bandits",
+        "bounds",
+        "dependent",
+        "lower",
+        "policies",
+        "problem",
+        "transfer",
+        "unknown",
+        "upper"
+      ],
+      "first_seen_round": 398
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.21581v1",
+      "title": "ClaimScope: Label-Blind Witness Verification for Mathematical Claim Auditing",
+      "arxiv_id": "2610.21581",
+      "tokens": [
+        "auditing",
+        "blind",
+        "claim",
+        "claimscope",
+        "label",
+        "mathematical",
+        "verification",
+        "witness"
+      ],
+      "first_seen_round": 398
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.21579v1",
+      "title": "Learning to Search for Executable Patternmaking from Certified Programs",
+      "arxiv_id": "2610.21579",
+      "tokens": [
+        "certified",
+        "executable",
+        "patternmaking",
+        "programs",
+        "search"
+      ],
+      "first_seen_round": 398
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.21571v1",
+      "title": "Rethinking the Role of Tool Graph Memory in Multi-Turn Tool Use",
+      "arxiv_id": "2610.21571",
+      "tokens": [
+        "graph",
+        "memory",
+        "multi",
+        "rethinking",
+        "role",
+        "tool",
+        "tool",
+        "turn",
+        "use"
+      ],
+      "first_seen_round": 398
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.21561v1",
+      "title": "DialFork: Going Beyond Factuality to Evaluate Procedural Hallucination in Conversational Agents",
+      "arxiv_id": "2610.21561",
+      "tokens": [
+        "agents",
+        "conversational",
+        "dialfork",
+        "evaluate",
+        "factuality",
+        "going",
+        "hallucination",
+        "procedural"
+      ],
+      "first_seen_round": 398
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.21553v1",
+      "title": "Writability and the Pathway: A Controlled Study of Knowledge Injection into Addressed Memory",
+      "arxiv_id": "2610.21553",
+      "tokens": [
+        "addressed",
+        "controlled",
+        "injection",
+        "knowledge",
+        "memory",
+        "pathway",
+        "writability"
+      ],
+      "first_seen_round": 398
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.21518v1",
+      "title": "SCRIBE: Scalable Contextual Representations of Interpretable Brain-Grounded Semantics",
+      "arxiv_id": "2610.21518",
+      "tokens": [
+        "brain",
+        "contextual",
+        "grounded",
+        "interpretable",
+        "representations",
+        "scalable",
+        "scribe",
+        "semantics"
+      ],
+      "first_seen_round": 398
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.21508v1",
+      "title": "Decomposing Brain-LLM Alignment with Interpretable Semantic Representations",
+      "arxiv_id": "2610.21508",
+      "tokens": [
+        "alignment",
+        "brain",
+        "decomposing",
+        "interpretable",
+        "llm",
+        "representations",
+        "semantic"
+      ],
+      "first_seen_round": 398
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.21336v1",
+      "title": "Ranking and Partitioning of Attention Heads for Sparse and Continual Reinforcement Learning Fine-tuning",
+      "arxiv_id": "2610.21336",
+      "tokens": [
+        "attention",
+        "continual",
+        "fine",
+        "heads",
+        "partitioning",
+        "ranking",
+        "reinforcement",
+        "sparse",
+        "tuning"
+      ],
+      "first_seen_round": 398
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.21234v1",
+      "title": "Compatibility Matters: A Framework for Token-Level Teacher Selection in On-Policy Distillation",
+      "arxiv_id": "2610.21234",
+      "tokens": [
+        "compatibility",
+        "distillation",
+        "level",
+        "matters",
+        "policy",
+        "selection",
+        "teacher",
+        "token"
+      ],
+      "first_seen_round": 398
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.20426v1",
+      "title": "Continual Learning for Reliable In-Sequence Molecular Communication",
+      "arxiv_id": "2610.20426",
+      "tokens": [
+        "communication",
+        "continual",
+        "molecular",
+        "reliable",
+        "sequence"
+      ],
+      "first_seen_round": 398
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.20238v1",
+      "title": "MAEM: Mitigating Recency Bias via a Replay-Free, Capacity-Controlled Dynamic Mixture of Experts for Class-Incremental Graph Learning",
+      "arxiv_id": "2610.20238",
+      "tokens": [
+        "bias",
+        "capacity",
+        "class",
+        "controlled",
+        "dynamic",
+        "experts",
+        "free",
+        "graph",
+        "incremental",
+        "maem",
+        "mitigating",
+        "mixture",
+        "recency",
+        "replay"
+      ],
+      "first_seen_round": 398
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.19968v1",
+      "title": "Safe-FCL: Continual Risk Awareness and Fine-Grained Safety Aggregation for Federated Continual Learning of LLMs",
+      "arxiv_id": "2610.19968",
+      "tokens": [
+        "aggregation",
+        "awareness",
+        "continual",
+        "continual",
+        "fcl",
+        "federated",
+        "fine",
+        "grained",
+        "llms",
+        "risk",
+        "safe",
+        "safety"
+      ],
+      "first_seen_round": 398
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.19876v1",
+      "title": "SPARS: A Stability-Plasticity-Aware Region Selection Framework for Continual Learning",
+      "arxiv_id": "2610.19876",
+      "tokens": [
+        "aware",
+        "continual",
+        "plasticity",
+        "region",
+        "selection",
+        "spars",
+        "stability"
+      ],
+      "first_seen_round": 398
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.18404v1",
+      "title": "Overcoming Catastrophic Forgetting: Continual Learning for Radar Waveform Classification",
+      "arxiv_id": "2610.18404",
+      "tokens": [
+        "catastrophic",
+        "classification",
+        "continual",
+        "forgetting",
+        "overcoming",
+        "radar",
+        "waveform"
+      ],
+      "first_seen_round": 398
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.17998v1",
+      "title": "Saliency-Guided Replay for Continual Learning in Deep Spiking Neural Networks",
+      "arxiv_id": "2610.17998",
+      "tokens": [
+        "continual",
+        "guided",
+        "neural",
+        "replay",
+        "saliency",
+        "spiking"
+      ],
+      "first_seen_round": 398
     }
   ],
-  "total_unique": 3503
+  "total_unique": 3536
 }

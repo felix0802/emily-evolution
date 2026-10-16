@@ -3563,6 +3563,36 @@
         ],
         "decided_at": "2026-10-15T08:38:58.299927"
       }
+    },
+    {
+      "id": "llm-spatially-aware-audio-visual-l",
+      "name": "Spatially aware audio-visual LLMs",
+      "adopted_at": "2026-10-16T01:55:23.214519",
+      "decision": {
+        "tech_id": "llm-spatially-aware-audio-visual-l",
+        "tech_name": "Spatially aware audio-visual LLMs",
+        "action": "adopt",
+        "confidence": 0.9,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-10-16T01:55:23.212337"
+      }
+    },
+    {
+      "id": "auto-audio",
+      "name": "Audio",
+      "adopted_at": "2026-10-16T01:55:23.214540",
+      "decision": {
+        "tech_id": "auto-audio",
+        "tech_name": "Audio",
+        "action": "adopt",
+        "confidence": 0.35,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-10-16T01:55:23.212763"
+      }
     }
   ],
   "history": [
@@ -4987,6 +5017,18 @@
       "tech_id": "llm-基于相似性搜索的模型选择",
       "tech_name": "基于相似性搜索的模型选择",
       "timestamp": "2026-10-15T08:38:58.301274"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-spatially-aware-audio-visual-l",
+      "tech_name": "Spatially aware audio-visual LLMs",
+      "timestamp": "2026-10-16T01:55:23.214523"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "auto-audio",
+      "tech_name": "Audio",
+      "timestamp": "2026-10-16T01:55:23.214541"
     }
   ]
 }

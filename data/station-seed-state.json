@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 766,
+  "_rotation_idx": 767,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 80,
@@ -4501,40 +4501,9 @@
   },
   "continual-learning": {
     "name": "Continual Learning",
-    "total_papers_found": 107,
-    "watering_count": 77,
+    "total_papers_found": 115,
+    "watering_count": 78,
     "history": [
-      {
-        "timestamp": "2026-08-06T08:11:25.037152",
-        "papers_found": 3,
-        "duplicates": 3,
-        "irrelevant_filtered": 4,
-        "avg_relevance": 1.0,
-        "high_relevance": 0,
-        "papers": [
-          {
-            "title": "Continual-Learning Physics-Informed Neural Networks for Parameterized Partial Differential Equations",
-            "summary": "Physics-informed neural networks (PINNs) incorporate governing equations into neural-network training and can approximate PDE solutions without requiring large observational datasets. Parameterized PINNs (ParamPINNs) further take physical parameters as inputs, allowing a single model to represent a ",
-            "published": "2026-08-05",
-            "url": "http://arxiv.org/abs/2608.04778v1",
-            "seed_match_score": 1
-          },
-          {
-            "title": "NeuMoSync: End-to-End Neuromodulatory Control for Plasticity and Adaptability in Continual Learning",
-            "summary": "Continual learning (CL) requires models to learn tasks sequentially, yet deep neural networks often suffer from plasticity loss and poor knowledge transfer, which can impede their long-term adaptability. Drawing high-level inspiration from global neuromodulatory mechanisms in the brain, we introduce",
-            "published": "2026-08-05",
-            "url": "http://arxiv.org/abs/2608.04358v1",
-            "seed_match_score": 1
-          },
-          {
-            "title": "ATLAS: Adaptive Topological Learning with Abstract Successors for Continual Learning",
-            "summary": "Contemporary model-free reinforcement learning algorithms can achieve very high performance, but have low sample efficiency and are not robust to changes in the environment. Model-based algorithms have much higher sample efficiency, but still fail when the environment shifts. This paper introduces A",
-            "published": "2026-08-05",
-            "url": "http://arxiv.org/abs/2608.04334v1",
-            "seed_match_score": 1
-          }
-        ]
-      },
       {
         "timestamp": "2026-08-07T12:35:15.666925",
         "papers_found": 1,
@@ -5318,6 +5287,37 @@
             "seed_match_score": 2
           }
         ]
+      },
+      {
+        "timestamp": "2026-10-16T01:55:17.835690",
+        "papers_found": 8,
+        "duplicates": 0,
+        "irrelevant_filtered": 2,
+        "avg_relevance": 1.38,
+        "high_relevance": 3,
+        "papers": [
+          {
+            "title": "Ranking and Partitioning of Attention Heads for Sparse and Continual Reinforcement Learning Fine-tuning",
+            "summary": "We study sparse and continual reinforcement learning fine-tuning of language models through attention-head ranking and partitioning. For sparse learning, we rank attention heads by gradient norm to identify a small subset of heads that can be trained effectively. For continual learning, we partition",
+            "published": "2026-10-15",
+            "url": "http://arxiv.org/abs/2610.21336v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Compatibility Matters: A Framework for Token-Level Teacher Selection in On-Policy Distillation",
+            "summary": "On-policy distillation (OPD) has recently been introduced as a promising paradigm for continual learning, where a student policy can be supervised at the token-level. Typically, OPD is performed using a single teacher per prompt rollout (or even per training run). However, this ignores a whole other",
+            "published": "2026-10-15",
+            "url": "http://arxiv.org/abs/2610.21234v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Continual Learning for Reliable In-Sequence Molecular Communication",
+            "summary": "This paper considers reliable in-sequence molecular communication, where bio-nanomachines exchange molecule-encoded information in a specified order, and investigates a new simulation-based method to incrementally evaluate communication protocols by gradually increasing the complexity of experimenta",
+            "published": "2026-10-14",
+            "url": "http://arxiv.org/abs/2610.20426v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -5327,7 +5327,7 @@
       "ewc",
       "elastic weight"
     ],
-    "last_watered": "2026-10-14T02:24:13.545219"
+    "last_watered": "2026-10-16T01:55:17.835684"
   },
   "moe": {
     "name": "Mixture of Experts",
