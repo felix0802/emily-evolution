@@ -1,53 +1,6 @@
 {
   "sessions": [
     {
-      "timestamp": "2026-09-23T19:17:14.571906",
-      "arxiv_papers_count": 5,
-      "arxiv_top_keywords": [
-        "context",
-        "agents",
-        "memory",
-        "multi",
-        "party",
-        "dialogue",
-        "long",
-        "cliffcompaction",
-        "cost",
-        "efficient"
-      ],
-      "arxiv_strategies": [
-        "cs.AI (fallback)",
-        "cs.AI (fallback)",
-        "cs.AI (fallback)"
-      ],
-      "huggingface_models": 10,
-      "huggingface_tasks": [
-        "sentence-similarity",
-        "unknown",
-        "fill-mask",
-        "text-ranking",
-        "feature-extraction"
-      ],
-      "ml_datasets": [
-        "Iris",
-        "Wine",
-        "Breast Cancer",
-        "Diabetes"
-      ],
-      "ml_total_tests": 22,
-      "github_trending_repos": 8,
-      "paperswithcode_papers": 8,
-      "evolution": {
-        "discovered": 14,
-        "adopted": 0,
-        "decisions": 0
-      },
-      "seed_watering": {
-        "seed_name": "",
-        "papers_found": 0
-      }
-    },
-    {
       "timestamp": "2026-09-23T22:31:23.427307",
       "arxiv_papers_count": 5,
       "arxiv_top_keywords": [
@@ -4677,12 +4630,59 @@
         "seed_name": "",
         "papers_found": 0
       }
+    },
+    {
+      "timestamp": "2026-10-16T20:13:39.200915",
+      "arxiv_papers_count": 6,
+      "arxiv_top_keywords": [
+        "experts",
+        "routing",
+        "exploration",
+        "modern",
+        "mixture",
+        "engineering",
+        "systems",
+        "machine",
+        "learning",
+        "autonomously"
+      ],
+      "arxiv_strategies": [
+        "搜索: time series forecasting",
+        "搜索: anomaly detection",
+        "搜索: mixture of experts"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "unknown",
+        "text-generation",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 25,
+        "adopted": 1,
+        "decisions": 1
+      },
+      "seed_watering": {
+        "seed_name": "",
+        "papers_found": 0
+      }
     }
   ],
   "total_sessions": 101,
-  "last_updated": "2026-10-16T17:46:39.229812",
+  "last_updated": "2026-10-16T20:13:39.200927",
   "evolution_summary": {
-    "total_adopted": 246,
+    "total_adopted": 247,
     "adopted_list": [
       "Knowledge Distillation",
       "World Models / Model-Based RL",
@@ -4929,12 +4929,13 @@
       "组合结构生成",
       "LIBERO-PeRM 基准",
       "T2-z 测试时环境潜变量优化",
-      "CoDA 数据引擎与策略协同演化"
+      "CoDA 数据引擎与策略协同演化",
+      "细粒度专家分割 + 共享专家"
     ],
     "seeds": {
       "mamba": {
         "name": "Mamba (SSM)",
-        "watering": 80,
+        "watering": 81,
         "papers": 80
       },
       "liquid-networks": {
@@ -5127,6 +5128,6 @@
         "best_papers_count": 1
       }
     },
-    "last_evolution": "2026-10-16T17:46:39.233599"
+    "last_evolution": "2026-10-16T20:13:39.203187"
   }
 }

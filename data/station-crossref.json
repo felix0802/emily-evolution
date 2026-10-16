@@ -1,26 +1,6 @@
 {
-  "timestamp": "2026-10-16T17:46:39.247252",
+  "timestamp": "2026-10-16T20:13:39.211941",
   "connections": [
-    {
-      "seed_a": "Mamba (SSM)",
-      "seed_b": "Non-Transformer Arch",
-      "shared_keywords": [
-        "mamba",
-        "state space"
-      ],
-      "shared_paper_concepts": [
-        "aware",
-        "context",
-        "dynamic",
-        "kernels",
-        "models",
-        "recurrent",
-        "state",
-        "with"
-      ],
-      "strength": 12,
-      "discovered_at": "2026-10-16T17:46:39.247044"
-    },
     {
       "seed_a": "Non-Transformer Arch",
       "seed_b": "KV Cache Optimization",
@@ -36,7 +16,7 @@
         "models"
       ],
       "strength": 11,
-      "discovered_at": "2026-10-16T17:46:39.247213"
+      "discovered_at": "2026-10-16T20:13:39.211914"
     },
     {
       "seed_a": "Liquid Networks",
@@ -53,7 +33,22 @@
         "reinforcement"
       ],
       "strength": 8,
-      "discovered_at": "2026-10-16T17:46:39.247152"
+      "discovered_at": "2026-10-16T20:13:39.211873"
+    },
+    {
+      "seed_a": "Mamba (SSM)",
+      "seed_b": "Non-Transformer Arch",
+      "shared_keywords": [
+        "mamba",
+        "state space"
+      ],
+      "shared_paper_concepts": [
+        "aware",
+        "context",
+        "state"
+      ],
+      "strength": 7,
+      "discovered_at": "2026-10-16T20:13:39.211808"
     },
     {
       "seed_a": "Liquid Networks",
@@ -68,7 +63,7 @@
         "representation"
       ],
       "strength": 6,
-      "discovered_at": "2026-10-16T17:46:39.247143"
+      "discovered_at": "2026-10-16T20:13:39.211866"
     },
     {
       "seed_a": "Continual Learning",
@@ -83,21 +78,7 @@
         "token"
       ],
       "strength": 6,
-      "discovered_at": "2026-10-16T17:46:39.247233"
-    },
-    {
-      "seed_a": "Mamba (SSM)",
-      "seed_b": "Liquid Networks",
-      "shared_keywords": [],
-      "shared_paper_concepts": [
-        "aware",
-        "learning",
-        "models",
-        "networks",
-        "state"
-      ],
-      "strength": 5,
-      "discovered_at": "2026-10-16T17:46:39.247025"
+      "discovered_at": "2026-10-16T20:13:39.211928"
     },
     {
       "seed_a": "Liquid Networks",
@@ -111,7 +92,7 @@
         "training"
       ],
       "strength": 5,
-      "discovered_at": "2026-10-16T17:46:39.247068"
+      "discovered_at": "2026-10-16T20:13:39.211822"
     },
     {
       "seed_a": "Liquid Networks",
@@ -125,7 +106,7 @@
         "transformers"
       ],
       "strength": 5,
-      "discovered_at": "2026-10-16T17:46:39.247134"
+      "discovered_at": "2026-10-16T20:13:39.211827"
     },
     {
       "seed_a": "Liquid Networks",
@@ -139,7 +120,7 @@
         "self"
       ],
       "strength": 5,
-      "discovered_at": "2026-10-16T17:46:39.247156"
+      "discovered_at": "2026-10-16T20:13:39.211876"
     },
     {
       "seed_a": "Liquid Networks",
@@ -153,7 +134,21 @@
         "physics"
       ],
       "strength": 5,
-      "discovered_at": "2026-10-16T17:46:39.247160"
+      "discovered_at": "2026-10-16T20:13:39.211879"
+    },
+    {
+      "seed_a": "HTM",
+      "seed_b": "Continual Learning",
+      "shared_keywords": [],
+      "shared_paper_concepts": [
+        "anomaly",
+        "detection",
+        "drift",
+        "learning",
+        "online"
+      ],
+      "strength": 5,
+      "discovered_at": "2026-10-16T20:13:39.211889"
     }
   ],
   "total_seeds": 10
