@@ -708,13 +708,13 @@
       "arxiv_query": "state space models adaptive KV cache compression long context",
       "potential_breakthrough": "實現無需完整 KV 快取的長上下文推理，在邊緣裝置上達到與 Transformer 相當的語言理解能力。",
       "status": "unverified",
-      "verification_rounds": 1,
+      "verification_rounds": 2,
       "supporting_papers": [],
       "refuting_papers": [],
       "llm_source": "deepseek"
     }
   ],
-  "last_updated": "2026-10-16T06:31:16.968950",
+  "last_updated": "2026-10-16T12:47:24.044057",
   "total_generated": 32,
   "total_verified": 31
 }

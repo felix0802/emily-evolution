@@ -56746,7 +56746,255 @@
         "tensors"
       ],
       "first_seen_round": 399
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.20922v1",
+      "title": "Defining and Generating Compositional Structure",
+      "arxiv_id": "2610.20922",
+      "tokens": [
+        "compositional",
+        "defining",
+        "generating",
+        "structure"
+      ],
+      "first_seen_round": 400
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.22060v1",
+      "title": "FeaTok: Feature-Loss Tokenization for Image Generation",
+      "arxiv_id": "2610.22060",
+      "tokens": [
+        "featok",
+        "feature",
+        "generation",
+        "image",
+        "loss",
+        "tokenization"
+      ],
+      "first_seen_round": 400
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.21802v1",
+      "title": "Teaching DINOv3 About Partial 3D Geometry: A Self-Supervised Geometry-Aware Approach",
+      "arxiv_id": "2610.21802",
+      "tokens": [
+        "aware",
+        "dinov3",
+        "geometry",
+        "geometry",
+        "partial",
+        "self",
+        "supervised",
+        "teaching"
+      ],
+      "first_seen_round": 400
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.21356v1",
+      "title": "L2GSSL: Label-Efficient Local-to-Global Self-Supervised Learning for Volumetric Healthcare Data",
+      "arxiv_id": "2610.21356",
+      "tokens": [
+        "global",
+        "healthcare",
+        "l2gssl",
+        "label",
+        "local",
+        "self",
+        "supervised",
+        "volumetric"
+      ],
+      "first_seen_round": 400
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.21087v1",
+      "title": "SIEVE: Overcoming Topological Obstruction in Equivariant Self-Supervised Learning",
+      "arxiv_id": "2610.21087",
+      "tokens": [
+        "equivariant",
+        "obstruction",
+        "overcoming",
+        "self",
+        "sieve",
+        "supervised",
+        "topological"
+      ],
+      "first_seen_round": 400
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.20158v1",
+      "title": "Dataset-Level Regularization for Joint-Embedding Self-Supervised Learning",
+      "arxiv_id": "2610.20158",
+      "tokens": [
+        "dataset",
+        "embedding",
+        "joint",
+        "level",
+        "regularization",
+        "self",
+        "supervised"
+      ],
+      "first_seen_round": 400
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.22322v1",
+      "title": "Learning Self-Orchestration in Decentralized Agent Swarms",
+      "arxiv_id": "2610.22322",
+      "tokens": [
+        "agent",
+        "decentralized",
+        "orchestration",
+        "self",
+        "swarms"
+      ],
+      "first_seen_round": 400
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.22194v1",
+      "title": "AutoSFT: An Agentic System for Automated Data Research in Supervised Fine-Tuning",
+      "arxiv_id": "2610.22194",
+      "tokens": [
+        "agentic",
+        "automated",
+        "autosft",
+        "fine",
+        "research",
+        "supervised",
+        "tuning"
+      ],
+      "first_seen_round": 400
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.21538v1",
+      "title": "Agent Status Protocol (ASP): A Lightweight Specification for State Reporting in Multi-Agent Systems",
+      "arxiv_id": "2610.21538",
+      "tokens": [
+        "agent",
+        "agent",
+        "asp",
+        "lightweight",
+        "multi",
+        "protocol",
+        "reporting",
+        "specification",
+        "state",
+        "status"
+      ],
+      "first_seen_round": 400
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.21390v1",
+      "title": "PriorityFEC: Deadline-Aware Streaming FEC for KV-Cache Handoff in Edge Multi-Agent Systems",
+      "arxiv_id": "2610.21390",
+      "tokens": [
+        "agent",
+        "aware",
+        "cache",
+        "deadline",
+        "edge",
+        "fec",
+        "handoff",
+        "multi",
+        "priorityfec",
+        "streaming"
+      ],
+      "first_seen_round": 400
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.21243v1",
+      "title": "A Responsibility-Centered Coordination Mechanism for Decentralized Multi-Agent Systems",
+      "arxiv_id": "2610.21243",
+      "tokens": [
+        "agent",
+        "centered",
+        "coordination",
+        "decentralized",
+        "mechanism",
+        "multi",
+        "responsibility"
+      ],
+      "first_seen_round": 400
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.22016v1",
+      "title": "Close Enough is Nowhere Near: Fidelity-Consumability Decoupling in KV Caches",
+      "arxiv_id": "2610.22016",
+      "tokens": [
+        "caches",
+        "close",
+        "consumability",
+        "decoupling",
+        "enough",
+        "fidelity",
+        "near",
+        "nowhere"
+      ],
+      "first_seen_round": 400
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.21500v1",
+      "title": "When the KV Cache Is Slower Than the GPU: Scaling Remote KV Tiers for Context-Parallel Prefill",
+      "arxiv_id": "2610.21500",
+      "tokens": [
+        "cache",
+        "context",
+        "gpu",
+        "parallel",
+        "prefill",
+        "remote",
+        "scaling",
+        "slower",
+        "tiers"
+      ],
+      "first_seen_round": 400
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.21436v1",
+      "title": "HyCo: Hybrid Drafting for Cost-Efficient Mobile-Cloud Speculative Decoding",
+      "arxiv_id": "2610.21436",
+      "tokens": [
+        "cloud",
+        "cost",
+        "decoding",
+        "drafting",
+        "hybrid",
+        "hyco",
+        "mobile",
+        "speculative"
+      ],
+      "first_seen_round": 400
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.21126v1",
+      "title": "Compression Does Not End at Selection: Post-Selection Positional Geometry for Sparse KV Caches",
+      "arxiv_id": "2610.21126",
+      "tokens": [
+        "caches",
+        "compression",
+        "end",
+        "geometry",
+        "positional",
+        "post",
+        "selection",
+        "selection",
+        "sparse"
+      ],
+      "first_seen_round": 400
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.20865v1",
+      "title": "Long-Context Drafting Does Not Require Long-Context Drafters",
+      "arxiv_id": "2610.20865",
+      "tokens": [
+        "context",
+        "context",
+        "drafters",
+        "drafting",
+        "long",
+        "long",
+        "require"
+      ],
+      "first_seen_round": 400
     }
   ],
-  "total_unique": 3558
+  "total_unique": 3574
 }

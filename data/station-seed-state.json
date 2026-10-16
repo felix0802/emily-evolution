@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 768,
+  "_rotation_idx": 769,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 80,
@@ -6252,40 +6252,9 @@
   },
   "kv-cache": {
     "name": "KV Cache Optimization",
-    "total_papers_found": 108,
-    "watering_count": 74,
+    "total_papers_found": 113,
+    "watering_count": 75,
     "history": [
-      {
-        "timestamp": "2026-08-06T13:28:56.212506",
-        "papers_found": 3,
-        "duplicates": 5,
-        "irrelevant_filtered": 2,
-        "avg_relevance": 1.0,
-        "high_relevance": 0,
-        "papers": [
-          {
-            "title": "SpecRoll: Fast-Slow Verifier-Feedback Adaptation for Speculative Reinforcement Learning Rollouts",
-            "summary": "Reinforcement learning (RL) post-training improves the reasoning capabilities of large language models, but autoregressive rollout generation remains a major efficiency bottleneck. Speculative decoding can accelerate generation, yet applying it during RL is difficult because the target policy contin",
-            "published": "2026-08-05",
-            "url": "http://arxiv.org/abs/2608.04962v1",
-            "seed_match_score": 1
-          },
-          {
-            "title": "When Does Latent Communication Pay? A Causal Audit of Relayed KV Caches in Multi-Agent LLMs",
-            "summary": "Multi-agent LLM systems relay key--value caches instead of text and credit their gains to exchanged ``latent thoughts''. That credit is a claim about \\emph{which} example's cache is relayed, not merely that one is. We audit it causally in released systems. The cache is replaced with deranged (mismat",
-            "published": "2026-08-05",
-            "url": "http://arxiv.org/abs/2608.04893v1",
-            "seed_match_score": 1
-          },
-          {
-            "title": "Spend Bits Where Queries Look: KV Cache Vector Quantization with Attention-Preserving Transforms",
-            "summary": "Long-context LLM decoding reads the key-value (KV) cache at every step. Loading it takes longer than computing attention over it, so throughput is bandwidth-bound. Hence, reducing the cache size can raise both decoding speed and serving capacity. The challenge is to reduce cache size while preservin",
-            "published": "2026-08-04",
-            "url": "http://arxiv.org/abs/2608.04074v1",
-            "seed_match_score": 1
-          }
-        ]
-      },
       {
         "timestamp": "2026-08-07T16:38:56.962311",
         "papers_found": 1,
@@ -7112,6 +7081,37 @@
             "seed_match_score": 1
           }
         ]
+      },
+      {
+        "timestamp": "2026-10-16T12:47:13.864989",
+        "papers_found": 5,
+        "duplicates": 1,
+        "irrelevant_filtered": 4,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "Close Enough is Nowhere Near: Fidelity-Consumability Decoupling in KV Caches",
+            "summary": "Multi-agent LLM systems communicate in text, which is lossy and wasteful: the sender throws away the reading it already did. A growing literature instead transmits the KV cache, the natural carrier of that reading. We study the most appealing form of the idea: both models stay frozen and the sender'",
+            "published": "2026-10-15",
+            "url": "http://arxiv.org/abs/2610.22016v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "When the KV Cache Is Slower Than the GPU: Scaling Remote KV Tiers for Context-Parallel Prefill",
+            "summary": "Reusing the attention KV cache across requests is a standard way to cut prefill cost in long-context LLM serving, and production systems increasingly back the per-engine cache with a remote tier shared by every engine. We study such a tier in a disaggregated deployment of GLM-5.3, an FP8 mixture-of-",
+            "published": "2026-10-15",
+            "url": "http://arxiv.org/abs/2610.21500v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "HyCo: Hybrid Drafting for Cost-Efficient Mobile-Cloud Speculative Decoding",
+            "summary": "Device-cloud speculative decoding reduces server computation, but growing a deep draft tree with a small language model (SLM) requires repeated passes on a mobile neural processing unit (NPU). We present HyCo, which assigns depth to the server model's native multi-token prediction (MTP) head, execut",
+            "published": "2026-10-15",
+            "url": "http://arxiv.org/abs/2610.21436v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -7123,7 +7123,7 @@
       "flash attention",
       "speculative decoding"
     ],
-    "last_watered": "2026-10-14T14:45:10.340200"
+    "last_watered": "2026-10-16T12:47:13.864984"
   },
   "gnn": {
     "name": "Graph Neural Networks",

@@ -3638,6 +3638,21 @@
         ],
         "decided_at": "2026-10-16T06:31:07.966241"
       }
+    },
+    {
+      "id": "llm-组合结构生成",
+      "name": "组合结构生成",
+      "adopted_at": "2026-10-16T12:47:20.583555",
+      "decision": {
+        "tech_id": "llm-组合结构生成",
+        "tech_name": "组合结构生成",
+        "action": "adopt",
+        "confidence": 0.9,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-10-16T12:47:20.581680"
+      }
     }
   ],
   "history": [
@@ -5092,6 +5107,12 @@
       "tech_id": "llm-图书馆员智能体",
       "tech_name": "图书馆员智能体",
       "timestamp": "2026-10-16T06:31:07.967806"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-组合结构生成",
+      "tech_name": "组合结构生成",
+      "timestamp": "2026-10-16T12:47:20.583559"
     }
   ]
 }
