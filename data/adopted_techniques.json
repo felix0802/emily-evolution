@@ -3653,6 +3653,51 @@
         ],
         "decided_at": "2026-10-16T12:47:20.581680"
       }
+    },
+    {
+      "id": "llm-libero-perm-基准",
+      "name": "LIBERO-PeRM 基准",
+      "adopted_at": "2026-10-16T17:46:34.592965",
+      "decision": {
+        "tech_id": "llm-libero-perm-基准",
+        "tech_name": "LIBERO-PeRM 基准",
+        "action": "adopt",
+        "confidence": 0.9,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-10-16T17:46:34.590477"
+      }
+    },
+    {
+      "id": "llm-t2-z-测试时环境潜变量优化",
+      "name": "T2-z 测试时环境潜变量优化",
+      "adopted_at": "2026-10-16T17:46:34.592990",
+      "decision": {
+        "tech_id": "llm-t2-z-测试时环境潜变量优化",
+        "tech_name": "T2-z 测试时环境潜变量优化",
+        "action": "adopt",
+        "confidence": 0.85,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-10-16T17:46:34.590699"
+      }
+    },
+    {
+      "id": "llm-coda-数据引擎与策略协同演化",
+      "name": "CoDA 数据引擎与策略协同演化",
+      "adopted_at": "2026-10-16T17:46:34.593006",
+      "decision": {
+        "tech_id": "llm-coda-数据引擎与策略协同演化",
+        "tech_name": "CoDA 数据引擎与策略协同演化",
+        "action": "adopt",
+        "confidence": 0.85,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-10-16T17:46:34.590797"
+      }
     }
   ],
   "history": [
@@ -5113,6 +5158,24 @@
       "tech_id": "llm-组合结构生成",
       "tech_name": "组合结构生成",
       "timestamp": "2026-10-16T12:47:20.583559"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-libero-perm-基准",
+      "tech_name": "LIBERO-PeRM 基准",
+      "timestamp": "2026-10-16T17:46:34.592971"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-t2-z-测试时环境潜变量优化",
+      "tech_name": "T2-z 测试时环境潜变量优化",
+      "timestamp": "2026-10-16T17:46:34.592992"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-coda-数据引擎与策略协同演化",
+      "tech_name": "CoDA 数据引擎与策略协同演化",
+      "timestamp": "2026-10-16T17:46:34.593007"
     }
   ]
 }

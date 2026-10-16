@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 769,
+  "_rotation_idx": 770,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 80,
@@ -7128,39 +7128,8 @@
   "gnn": {
     "name": "Graph Neural Networks",
     "total_papers_found": 158,
-    "watering_count": 75,
+    "watering_count": 76,
     "history": [
-      {
-        "timestamp": "2026-08-06T16:08:33.868416",
-        "papers_found": 5,
-        "duplicates": 1,
-        "irrelevant_filtered": 4,
-        "avg_relevance": 1.6,
-        "high_relevance": 2,
-        "papers": [
-          {
-            "title": "MarsCast: Transfer Learning of AI Weather Foundation Models to Planetary Atmospheres",
-            "summary": "We investigate the transferability of Earth weather foundation models to planetary atmospheres by adapting the GraphCast graph neural weather forecasting model to Mars. While GraphCast achieves state-of-the-art performance for terrestrial forecasting, its applicability to non-Earth environments rema",
-            "published": "2026-08-05",
-            "url": "http://arxiv.org/abs/2608.05054v1",
-            "seed_match_score": 1
-          },
-          {
-            "title": "Tropical Algebraic Geometry for Neuronal Representations: An Arakelov-Green Measure Based Descriptor for Graph Learning",
-            "summary": "The quantitative analysis of 3D neuronal morphologies requires capturing both graph topology and spatial geometry. Current message-passing Graph Neural Networks (GNNs) are bounded by the 1-Weisfeiler-Lehman (1-WL) test, limiting their ability to capture cycles induced by spatial proximities. To addr",
-            "published": "2026-08-05",
-            "url": "http://arxiv.org/abs/2608.04460v1",
-            "seed_match_score": 3
-          },
-          {
-            "title": "Geometry-Informed Parameter-Efficient Fine-Tuning of Pre-trained Molecular GNNs for Blood-Brain Barrier Permeability Prediction",
-            "summary": "Blood-brain barrier permeability (BBBP) prediction is a critical screening task in central nervous system drug discovery, where candidate molecules must be assessed for whether they can cross, or should be prevented from crossing, the blood-brain barrier. However, this task remains challenging becau",
-            "published": "2026-08-04",
-            "url": "http://arxiv.org/abs/2608.04257v1",
-            "seed_match_score": 1
-          }
-        ]
-      },
       {
         "timestamp": "2026-08-07T18:36:17.948664",
         "papers_found": 0,
@@ -8072,6 +8041,15 @@
             "seed_match_score": 1
           }
         ]
+      },
+      {
+        "timestamp": "2026-10-16T17:46:28.286511",
+        "papers_found": 0,
+        "duplicates": 0,
+        "irrelevant_filtered": 0,
+        "avg_relevance": 0,
+        "high_relevance": 0,
+        "papers": []
       }
     ],
     "keywords": [
@@ -8083,6 +8061,6 @@
       "node embedding",
       "graph transformer"
     ],
-    "last_watered": "2026-10-14T19:47:52.622240"
+    "last_watered": "2026-10-16T17:46:28.286505"
   }
 }

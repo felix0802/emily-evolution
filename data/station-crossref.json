@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-16T12:47:20.602386",
+  "timestamp": "2026-10-16T17:46:39.247252",
   "connections": [
     {
       "seed_a": "Mamba (SSM)",
@@ -19,7 +19,7 @@
         "with"
       ],
       "strength": 12,
-      "discovered_at": "2026-10-16T12:47:20.602236"
+      "discovered_at": "2026-10-16T17:46:39.247044"
     },
     {
       "seed_a": "Non-Transformer Arch",
@@ -36,7 +36,7 @@
         "models"
       ],
       "strength": 11,
-      "discovered_at": "2026-10-16T12:47:20.602352"
+      "discovered_at": "2026-10-16T17:46:39.247213"
     },
     {
       "seed_a": "Liquid Networks",
@@ -53,39 +53,7 @@
         "reinforcement"
       ],
       "strength": 8,
-      "discovered_at": "2026-10-16T12:47:20.602305"
-    },
-    {
-      "seed_a": "Mamba (SSM)",
-      "seed_b": "Graph Neural Networks",
-      "shared_keywords": [],
-      "shared_paper_concepts": [
-        "forecasting",
-        "head",
-        "learning",
-        "multi",
-        "networks",
-        "space",
-        "with"
-      ],
-      "strength": 7,
-      "discovered_at": "2026-10-16T12:47:20.602252"
-    },
-    {
-      "seed_a": "Liquid Networks",
-      "seed_b": "Graph Neural Networks",
-      "shared_keywords": [],
-      "shared_paper_concepts": [
-        "attention",
-        "graph",
-        "learning",
-        "network",
-        "networks",
-        "neural",
-        "physics"
-      ],
-      "strength": 7,
-      "discovered_at": "2026-10-16T12:47:20.602311"
+      "discovered_at": "2026-10-16T17:46:39.247152"
     },
     {
       "seed_a": "Liquid Networks",
@@ -100,7 +68,7 @@
         "representation"
       ],
       "strength": 6,
-      "discovered_at": "2026-10-16T12:47:20.602301"
+      "discovered_at": "2026-10-16T17:46:39.247143"
     },
     {
       "seed_a": "Continual Learning",
@@ -115,7 +83,7 @@
         "token"
       ],
       "strength": 6,
-      "discovered_at": "2026-10-16T12:47:20.602368"
+      "discovered_at": "2026-10-16T17:46:39.247233"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -129,7 +97,7 @@
         "state"
       ],
       "strength": 5,
-      "discovered_at": "2026-10-16T12:47:20.602221"
+      "discovered_at": "2026-10-16T17:46:39.247025"
     },
     {
       "seed_a": "Liquid Networks",
@@ -143,7 +111,7 @@
         "training"
       ],
       "strength": 5,
-      "discovered_at": "2026-10-16T12:47:20.602256"
+      "discovered_at": "2026-10-16T17:46:39.247068"
     },
     {
       "seed_a": "Liquid Networks",
@@ -157,7 +125,35 @@
         "transformers"
       ],
       "strength": 5,
-      "discovered_at": "2026-10-16T12:47:20.602295"
+      "discovered_at": "2026-10-16T17:46:39.247134"
+    },
+    {
+      "seed_a": "Liquid Networks",
+      "seed_b": "KV Cache Optimization",
+      "shared_keywords": [],
+      "shared_paper_concepts": [
+        "aware",
+        "inference",
+        "models",
+        "parallel",
+        "self"
+      ],
+      "strength": 5,
+      "discovered_at": "2026-10-16T17:46:39.247156"
+    },
+    {
+      "seed_a": "Liquid Networks",
+      "seed_b": "Graph Neural Networks",
+      "shared_keywords": [],
+      "shared_paper_concepts": [
+        "graph",
+        "network",
+        "networks",
+        "neural",
+        "physics"
+      ],
+      "strength": 5,
+      "discovered_at": "2026-10-16T17:46:39.247160"
     }
   ],
   "total_seeds": 10

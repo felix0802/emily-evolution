@@ -1,53 +1,6 @@
 {
   "sessions": [
     {
-      "timestamp": "2026-09-23T14:29:52.649420",
-      "arxiv_papers_count": 14,
-      "arxiv_top_keywords": [
-        "context",
-        "agents",
-        "free",
-        "decision",
-        "memory",
-        "multi",
-        "party",
-        "dialogue",
-        "long",
-        "cliffcompaction"
-      ],
-      "arxiv_strategies": [
-        "cs.AI 最新",
-        "cs.LG 最新",
-        "cs.AI (fallback)"
-      ],
-      "huggingface_models": 10,
-      "huggingface_tasks": [
-        "sentence-similarity",
-        "unknown",
-        "fill-mask",
-        "text-ranking",
-        "feature-extraction"
-      ],
-      "ml_datasets": [
-        "Iris",
-        "Wine",
-        "Breast Cancer",
-        "Diabetes"
-      ],
-      "ml_total_tests": 22,
-      "github_trending_repos": 8,
-      "paperswithcode_papers": 8,
-      "evolution": {
-        "discovered": 16,
-        "adopted": 0,
-        "decisions": 0
-      },
-      "seed_watering": {
-        "seed_name": "",
-        "papers_found": 0
-      }
-    },
-    {
       "timestamp": "2026-09-23T19:17:14.571906",
       "arxiv_papers_count": 5,
       "arxiv_top_keywords": [
@@ -4677,12 +4630,59 @@
         "seed_name": "KV Cache Optimization",
         "papers_found": 6
       }
+    },
+    {
+      "timestamp": "2026-10-16T17:46:39.229795",
+      "arxiv_papers_count": 5,
+      "arxiv_top_keywords": [
+        "perm",
+        "libero",
+        "robotic",
+        "manipulation",
+        "personalized",
+        "quantum",
+        "large",
+        "language",
+        "discovering",
+        "state"
+      ],
+      "arxiv_strategies": [
+        "cs.AI (fallback)",
+        "cs.AI (fallback)",
+        "cs.AI (fallback)"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "unknown",
+        "text-generation",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 14,
+        "adopted": 3,
+        "decisions": 3
+      },
+      "seed_watering": {
+        "seed_name": "",
+        "papers_found": 0
+      }
     }
   ],
   "total_sessions": 101,
-  "last_updated": "2026-10-16T12:47:20.589890",
+  "last_updated": "2026-10-16T17:46:39.229812",
   "evolution_summary": {
-    "total_adopted": 243,
+    "total_adopted": 246,
     "adopted_list": [
       "Knowledge Distillation",
       "World Models / Model-Based RL",
@@ -4926,7 +4926,10 @@
       "鲁棒强化学习",
       "隐藏上下文建模",
       "图书馆员智能体",
-      "组合结构生成"
+      "组合结构生成",
+      "LIBERO-PeRM 基准",
+      "T2-z 测试时环境潜变量优化",
+      "CoDA 数据引擎与策略协同演化"
     ],
     "seeds": {
       "mamba": {
@@ -4976,7 +4979,7 @@
       },
       "gnn": {
         "name": "Graph Neural Networks",
-        "watering": 75,
+        "watering": 76,
         "papers": 158
       }
     },
@@ -5124,6 +5127,6 @@
         "best_papers_count": 1
       }
     },
-    "last_evolution": "2026-10-16T12:47:20.592406"
+    "last_evolution": "2026-10-16T17:46:39.233599"
   }
 }
