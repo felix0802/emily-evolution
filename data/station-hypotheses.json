@@ -695,9 +695,26 @@
       "supporting_papers": [],
       "refuting_papers": [],
       "llm_source": "deepseek"
+    },
+    {
+      "id": "hyp-0032",
+      "timestamp": "2026-10-16T06:31:13.737727",
+      "seed_a": "Non-Transformer Arch",
+      "seed_b": "KV Cache Optimization",
+      "crossref_strength": 8,
+      "shared_keywords": [],
+      "hypothesis": "在非 Transformer 架構（如 Mamba 或 Liquid Networks）中，利用其狀態空間的動態特性來實現自適應 KV 快取壓縮，能顯著降低長上下文推理的記憶體佔用，同時保持與全快取 Transformer 相當的語言建模品質。",
+      "reasoning": "非 Transformer 架構（如 SSM）以連續狀態傳遞資訊，天然具備壓縮歷史的能力；而 KV 快取優化旨在減少 Transformer 中重複計算的鍵值對。兩者共通點在於對序列歷史的選擇性保留與動態更新，可將 SSM 的狀態演化視為一種隱式的 KV 快取機制，並借鑒其遺忘與更新規則來設計更高效的快取策略。",
+      "arxiv_query": "state space models adaptive KV cache compression long context",
+      "potential_breakthrough": "實現無需完整 KV 快取的長上下文推理，在邊緣裝置上達到與 Transformer 相當的語言理解能力。",
+      "status": "unverified",
+      "verification_rounds": 1,
+      "supporting_papers": [],
+      "refuting_papers": [],
+      "llm_source": "deepseek"
     }
   ],
-  "last_updated": "2026-10-12T19:28:26.323238",
-  "total_generated": 31,
+  "last_updated": "2026-10-16T06:31:16.968950",
+  "total_generated": 32,
   "total_verified": 31
 }

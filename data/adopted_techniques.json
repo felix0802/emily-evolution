@@ -3593,6 +3593,51 @@
         ],
         "decided_at": "2026-10-16T01:55:23.212763"
       }
+    },
+    {
+      "id": "llm-鲁棒强化学习",
+      "name": "鲁棒强化学习",
+      "adopted_at": "2026-10-16T06:31:07.967780",
+      "decision": {
+        "tech_id": "llm-鲁棒强化学习",
+        "tech_name": "鲁棒强化学习",
+        "action": "adopt",
+        "confidence": 0.9,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-10-16T06:31:07.965954"
+      }
+    },
+    {
+      "id": "llm-隐藏上下文建模",
+      "name": "隐藏上下文建模",
+      "adopted_at": "2026-10-16T06:31:07.967795",
+      "decision": {
+        "tech_id": "llm-隐藏上下文建模",
+        "tech_name": "隐藏上下文建模",
+        "action": "adopt",
+        "confidence": 0.85,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-10-16T06:31:07.966149"
+      }
+    },
+    {
+      "id": "llm-图书馆员智能体",
+      "name": "图书馆员智能体",
+      "adopted_at": "2026-10-16T06:31:07.967805",
+      "decision": {
+        "tech_id": "llm-图书馆员智能体",
+        "tech_name": "图书馆员智能体",
+        "action": "adopt",
+        "confidence": 0.7,
+        "reason": [
+          "预置技术(0.7)"
+        ],
+        "decided_at": "2026-10-16T06:31:07.966241"
+      }
     }
   ],
   "history": [
@@ -5029,6 +5074,24 @@
       "tech_id": "auto-audio",
       "tech_name": "Audio",
       "timestamp": "2026-10-16T01:55:23.214541"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-鲁棒强化学习",
+      "tech_name": "鲁棒强化学习",
+      "timestamp": "2026-10-16T06:31:07.967782"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-隐藏上下文建模",
+      "tech_name": "隐藏上下文建模",
+      "timestamp": "2026-10-16T06:31:07.967796"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-图书馆员智能体",
+      "tech_name": "图书馆员智能体",
+      "timestamp": "2026-10-16T06:31:07.967806"
     }
   ]
 }

@@ -95,10 +95,60 @@
       "synthesized_at": "2026-09-23T02:05:18.795815",
       "synthesis_round": 300,
       "llm_source": "deepseek"
+    },
+    {
+      "id": "th-007",
+      "title": "動態稀疏條件計算統一理論",
+      "statement": "Mamba 的選擇性狀態空間、MoE 的稀疏路由與 Liquid Networks 的連續時間動態共享「輸入依賴的動態稀疏激活」這一核心機制。將三者統一，可構建一個在時間與參數維度上均實現條件計算的框架，在保持線性計算複雜度的同時，實現非平穩環境下的即時適應與節能推理。",
+      "supporting_hypotheses": [
+        "hyp-0003",
+        "hyp-0007",
+        "hyp-0005",
+        "hyp-0010"
+      ],
+      "refuting_hypotheses": [],
+      "confidence": 0.85,
+      "key_insight": "AI 模型正從靜態密集計算轉向輸入依賴的動態稀疏計算，這是效率與適應性統一的根本路徑。",
+      "practical_implication": "設計新一代序列模型時，應將動態稀疏性作為核心架構原則，而非事後優化。",
+      "synthesized_at": "2026-10-16T06:31:27.384175",
+      "synthesis_round": 400,
+      "llm_source": "deepseek"
+    },
+    {
+      "id": "th-008",
+      "title": "持續學習與隱私感知的架構融合",
+      "statement": "持續學習、少樣本學習與隱私保護在架構層面可通過共享的注意力機制與正則化技術統一。具體而言，結合彈性架構（如 Mamba 的狀態選擇性）與邊界感知 Transformer，能在少量樣本下持續學習新任務而不遺忘舊知識，同時透過差分隱私等技術保護數據隱私。",
+      "supporting_hypotheses": [
+        "hyp-0003",
+        "hyp-0006"
+      ],
+      "refuting_hypotheses": [],
+      "confidence": 0.75,
+      "key_insight": "持續學習、少樣本學習與隱私保護並非獨立問題，而是可透過統一架構同時解決的協同約束。",
+      "practical_implication": "在邊緣設備等隱私敏感場景中，應採用整合持續學習與隱私保護的統一架構。",
+      "synthesized_at": "2026-10-16T06:31:27.384192",
+      "synthesis_round": 400,
+      "llm_source": "deepseek"
+    },
+    {
+      "id": "th-009",
+      "title": "連續時間動態與結構化關係的融合",
+      "statement": "Liquid Networks 的連續時間動態與 Graph Neural Networks 的關係結構建模可深度融合，形成自適應時序圖處理框架。此框架能處理非平穩環境中的動態圖數據，並可進一步與 HTM 的稀疏編碼結合，實現即時異常檢測與預測。",
+      "supporting_hypotheses": [
+        "hyp-0009",
+        "hyp-0004"
+      ],
+      "refuting_hypotheses": [],
+      "confidence": 0.7,
+      "key_insight": "連續時間動態與離散結構關係的結合，是處理現實世界非平穩時序圖數據的關鍵。",
+      "practical_implication": "在動態圖神經網路中引入連續時間常微分方程，可提升對非平穩環境的適應性。",
+      "synthesized_at": "2026-10-16T06:31:27.384194",
+      "synthesis_round": 400,
+      "llm_source": "deepseek"
     }
   ],
-  "total_synthesized": 6,
-  "last_synthesis_round": 300,
-  "last_updated": "2026-09-23T02:05:18.795819",
-  "emerging_paradigm": "當前 AI 研究正從靜態、單一任務的模型轉向動態、持續適應的統一架構，核心趨勢是整合連續時間狀態空間、稀疏條件計算與隱私保護機制，以實現非平穩環境下的高效、穩健且安全的學習。"
+  "total_synthesized": 9,
+  "last_synthesis_round": 400,
+  "last_updated": "2026-10-16T06:31:27.384198",
+  "emerging_paradigm": "當前 AI 研究正從靜態、密集、單一任務的模型，轉向動態、稀疏、持續學習的統一架構。核心趨勢是將輸入依賴的條件計算、連續時間動態與隱私保護等約束，透過共享的數學結構（如狀態空間模型、稀疏路由、正則化）整合為一體，以實現高效、自適應且可信的智能系統。"
 }

@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 767,
+  "_rotation_idx": 768,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 80,
@@ -5331,40 +5331,9 @@
   },
   "moe": {
     "name": "Mixture of Experts",
-    "total_papers_found": 112,
-    "watering_count": 73,
+    "total_papers_found": 117,
+    "watering_count": 74,
     "history": [
-      {
-        "timestamp": "2026-08-06T11:55:02.494855",
-        "papers_found": 4,
-        "duplicates": 1,
-        "irrelevant_filtered": 5,
-        "avg_relevance": 2.5,
-        "high_relevance": 4,
-        "papers": [
-          {
-            "title": "Beyond Global Routing Aggregation: Phase-Aware Expert Merging for MoE Vision-Language Models",
-            "summary": "Mixture-of-experts vision-language models (MoE-VLMs) increase model capacity with sparse expert activation, yet deployment requires storing the full expert pool. Training-free expert merging reduces this burden, and many routing-based methods aggregate routing statistics across all tokens to determi",
-            "published": "2026-08-05",
-            "url": "http://arxiv.org/abs/2608.04454v1",
-            "seed_match_score": 2
-          },
-          {
-            "title": "MESH: Memory-Efficient Sinkhorn Optimization for Mixture-of-Experts Training",
-            "summary": "Memory-efficient matrix optimizers such as Sinkhorn gradient descent remove most AdamW optimizer state for dense Transformer matrices, but direct application to Mixture-of-Experts (MoE) training is unreliable. We study this failure in a controlled 110M-parameter nanowhale DeepSeek-style MoE pretrain",
-            "published": "2026-08-05",
-            "url": "http://arxiv.org/abs/2608.04407v1",
-            "seed_match_score": 3
-          },
-          {
-            "title": "Elbow-Based MoE Routing: A Training-Free Inference Time Plugin for Expert Selection",
-            "summary": "Mixture-of-Experts (MoE) models enable model scaling while maintaining low inference-time compute by activating only a subset of experts per token. However, conventional routing relies on a fixed top-k selection, forcing the model to spend the same compute regardless of how many experts are relevant",
-            "published": "2026-08-05",
-            "url": "http://arxiv.org/abs/2608.04401v1",
-            "seed_match_score": 2
-          }
-        ]
-      },
       {
         "timestamp": "2026-08-07T14:43:43.808092",
         "papers_found": 1,
@@ -6237,6 +6206,37 @@
             "seed_match_score": 1
           }
         ]
+      },
+      {
+        "timestamp": "2026-10-16T06:31:02.229792",
+        "papers_found": 5,
+        "duplicates": 2,
+        "irrelevant_filtered": 3,
+        "avg_relevance": 2.2,
+        "high_relevance": 4,
+        "papers": [
+          {
+            "title": "Rethinking Routing Exploration in Modern Mixture-of-Experts",
+            "summary": "Mixture-of-experts (MoE) models have become an important approach for scaling model parameters. Modern MoE architectures increasingly combine two design choices: fine-grained expert segmentation and shared experts. The former increases expressiveness by enabling more expert combinations at a fixed a",
+            "published": "2026-10-15",
+            "url": "http://arxiv.org/abs/2610.22353v1",
+            "seed_match_score": 2
+          },
+          {
+            "title": "Explaining the Roles of Experts in Mixture-of-Experts LLMs for Personalization",
+            "summary": "Personalization of Large Language Models (LLMs) is increasingly important for user-centric applications, yet prior methods mainly adapt dense LLMs, whose polysemantic neurons, each encoding multiple unrelated concepts, hinder localizing the components behind personalization, and thus understanding a",
+            "published": "2026-10-15",
+            "url": "http://arxiv.org/abs/2610.22127v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Router Drift Control: Mitigating Off-Policy Degradation in Mixture-of-Experts Reinforcement Learning",
+            "summary": "Reinforcement learning (RL) can become off-policy due to training-inference mismatch, mini-batch updates, and asynchronous training.The resulting mismatch is especially harmful in Mixture-of-Experts (MoE) models, where rollout--training discrepancies can change routing decisions and lead to router d",
+            "published": "2026-10-15",
+            "url": "http://arxiv.org/abs/2610.21682v1",
+            "seed_match_score": 3
+          }
+        ]
       }
     ],
     "keywords": [
@@ -6248,7 +6248,7 @@
       "switch transformer",
       "deepseek"
     ],
-    "last_watered": "2026-10-14T09:05:48.285950"
+    "last_watered": "2026-10-16T06:31:02.229787"
   },
   "kv-cache": {
     "name": "KV Cache Optimization",
