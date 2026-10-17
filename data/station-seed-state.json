@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 772,
+  "_rotation_idx": 773,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 80,
@@ -1495,32 +1495,8 @@
   "htm": {
     "name": "HTM",
     "total_papers_found": 134,
-    "watering_count": 80,
+    "watering_count": 81,
     "history": [
-      {
-        "timestamp": "2026-08-07T04:24:19.089712",
-        "papers_found": 2,
-        "duplicates": 0,
-        "irrelevant_filtered": 8,
-        "avg_relevance": 1.0,
-        "high_relevance": 0,
-        "papers": [
-          {
-            "title": "Grounded Well-Condition Anomaly Detection on the Volve Field: Constructed Labels, a Baseline, and a Dual-Head Model",
-            "summary": "Most public benchmarks for machine-condition monitoring come from test rigs, where faults are induced on purpose and every event is known. Real production fields rarely offer that. They give you sensor histories with no fault log attached, which is exactly the situation where an anomaly-detection me",
-            "published": "2026-08-06",
-            "url": "http://arxiv.org/abs/2608.05685v1",
-            "seed_match_score": 1
-          },
-          {
-            "title": "VQ-VAD: Vector-quantized Motion Representation Learning for Human-centric Video Anomaly Detection",
-            "summary": "Video Anomaly Detection (VAD) is inherently challenging due to the scarcity of anomalies and the large visual variability in surveillance footage, including changes in lighting, viewpoint, and human appearance. To mitigate visual noise and address privacy concerns, recent work has shifted to pose-ba",
-            "published": "2026-08-05",
-            "url": "http://arxiv.org/abs/2608.05069v1",
-            "seed_match_score": 1
-          }
-        ]
-      },
       {
         "timestamp": "2026-08-08T00:41:48.979360",
         "papers_found": 0,
@@ -2434,6 +2410,15 @@
             "seed_match_score": 1
           }
         ]
+      },
+      {
+        "timestamp": "2026-10-17T03:24:42.860113",
+        "papers_found": 0,
+        "duplicates": 0,
+        "irrelevant_filtered": 0,
+        "avg_relevance": 0,
+        "high_relevance": 0,
+        "papers": []
       }
     ],
     "keywords": [
@@ -2448,7 +2433,7 @@
       "anomaly detection",
       "continuous learning"
     ],
-    "last_watered": "2026-10-15T08:38:53.447497"
+    "last_watered": "2026-10-17T03:24:42.860106"
   },
   "spiking-nn": {
     "name": "Spiking Neural Networks",

@@ -1,53 +1,6 @@
 {
   "sessions": [
     {
-      "timestamp": "2026-09-24T01:53:17.215464",
-      "arxiv_papers_count": 5,
-      "arxiv_top_keywords": [
-        "attribute",
-        "specific",
-        "summarization",
-        "interrogative",
-        "dialogues",
-        "local",
-        "governance",
-        "agent",
-        "compliance",
-        "locally"
-      ],
-      "arxiv_strategies": [
-        "cs.AI (fallback)",
-        "cs.AI (fallback)",
-        "cs.AI (fallback)"
-      ],
-      "huggingface_models": 10,
-      "huggingface_tasks": [
-        "sentence-similarity",
-        "unknown",
-        "fill-mask",
-        "text-ranking",
-        "feature-extraction"
-      ],
-      "ml_datasets": [
-        "Iris",
-        "Wine",
-        "Breast Cancer",
-        "Diabetes"
-      ],
-      "ml_total_tests": 22,
-      "github_trending_repos": 8,
-      "paperswithcode_papers": 8,
-      "evolution": {
-        "discovered": 16,
-        "adopted": 0,
-        "decisions": 0
-      },
-      "seed_watering": {
-        "seed_name": "",
-        "papers_found": 0
-      }
-    },
-    {
       "timestamp": "2026-09-24T06:52:04.816041",
       "arxiv_papers_count": 5,
       "arxiv_top_keywords": [
@@ -4677,12 +4630,59 @@
         "seed_name": "Liquid Networks",
         "papers_found": 4
       }
+    },
+    {
+      "timestamp": "2026-10-17T03:24:50.323747",
+      "arxiv_papers_count": 5,
+      "arxiv_top_keywords": [
+        "perm",
+        "libero",
+        "robotic",
+        "manipulation",
+        "personalized",
+        "quantum",
+        "large",
+        "language",
+        "discovering",
+        "state"
+      ],
+      "arxiv_strategies": [
+        "搜索: multi-query attention",
+        "搜索: geometric deep learning",
+        "cs.AI (fallback)"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "unknown",
+        "text-generation",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 14,
+        "adopted": 2,
+        "decisions": 2
+      },
+      "seed_watering": {
+        "seed_name": "",
+        "papers_found": 0
+      }
     }
   ],
   "total_sessions": 101,
-  "last_updated": "2026-10-17T00:04:26.783154",
+  "last_updated": "2026-10-17T03:24:50.323772",
   "evolution_summary": {
-    "total_adopted": 249,
+    "total_adopted": 251,
     "adopted_list": [
       "Knowledge Distillation",
       "World Models / Model-Based RL",
@@ -4932,7 +4932,9 @@
       "CoDA 数据引擎与策略协同演化",
       "细粒度专家分割 + 共享专家",
       "个性化机器人操作基准（LIBERO-PeRM）",
-      "测试时环境潜在优化（T2-z）"
+      "测试时环境潜在优化（T2-z）",
+      "LIBERO-PeRM",
+      "CoDA 数据引擎与策略协同进化"
     ],
     "seeds": {
       "mamba": {
@@ -4947,7 +4949,7 @@
       },
       "htm": {
         "name": "HTM",
-        "watering": 80,
+        "watering": 81,
         "papers": 134
       },
       "spiking-nn": {
@@ -5132,6 +5134,6 @@
         "best_papers_count": 1
       }
     },
-    "last_evolution": "2026-10-17T00:04:26.786401"
+    "last_evolution": "2026-10-17T03:24:50.326816"
   }
 }

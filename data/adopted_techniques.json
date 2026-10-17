@@ -3743,6 +3743,36 @@
         ],
         "decided_at": "2026-10-17T00:04:23.097654"
       }
+    },
+    {
+      "id": "llm-libero-perm",
+      "name": "LIBERO-PeRM",
+      "adopted_at": "2026-10-17T03:24:47.428342",
+      "decision": {
+        "tech_id": "llm-libero-perm",
+        "tech_name": "LIBERO-PeRM",
+        "action": "adopt",
+        "confidence": 0.9,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-10-17T03:24:47.426474"
+      }
+    },
+    {
+      "id": "llm-coda-数据引擎与策略协同进化",
+      "name": "CoDA 数据引擎与策略协同进化",
+      "adopted_at": "2026-10-17T03:24:47.428362",
+      "decision": {
+        "tech_id": "llm-coda-数据引擎与策略协同进化",
+        "tech_name": "CoDA 数据引擎与策略协同进化",
+        "action": "adopt",
+        "confidence": 0.85,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-10-17T03:24:47.426697"
+      }
     }
   ],
   "history": [
@@ -5239,6 +5269,18 @@
       "tech_id": "llm-测试时环境潜在优化（t2-z）",
       "tech_name": "测试时环境潜在优化（T2-z）",
       "timestamp": "2026-10-17T00:04:23.099951"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-libero-perm",
+      "tech_name": "LIBERO-PeRM",
+      "timestamp": "2026-10-17T03:24:47.428346"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-coda-数据引擎与策略协同进化",
+      "tech_name": "CoDA 数据引擎与策略协同进化",
+      "timestamp": "2026-10-17T03:24:47.428363"
     }
   ]
 }
