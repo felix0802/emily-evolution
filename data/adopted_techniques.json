@@ -3833,6 +3833,36 @@
         ],
         "decided_at": "2026-10-17T16:43:26.615048"
       }
+    },
+    {
+      "id": "llm-生成式轨迹预测",
+      "name": "生成式轨迹预测",
+      "adopted_at": "2026-10-17T23:34:36.501216",
+      "decision": {
+        "tech_id": "llm-生成式轨迹预测",
+        "tech_name": "生成式轨迹预测",
+        "action": "adopt",
+        "confidence": 0.9,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-10-17T23:34:36.498975"
+      }
+    },
+    {
+      "id": "llm-多层级时空预测",
+      "name": "多层级时空预测",
+      "adopted_at": "2026-10-17T23:34:36.501241",
+      "decision": {
+        "tech_id": "llm-多层级时空预测",
+        "tech_name": "多层级时空预测",
+        "action": "adopt",
+        "confidence": 0.85,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-10-17T23:34:36.499201"
+      }
     }
   ],
   "history": [
@@ -5365,6 +5395,18 @@
       "tech_id": "llm-子空间微调",
       "tech_name": "子空间微调",
       "timestamp": "2026-10-17T16:43:26.617495"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-生成式轨迹预测",
+      "tech_name": "生成式轨迹预测",
+      "timestamp": "2026-10-17T23:34:36.501223"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-多层级时空预测",
+      "tech_name": "多层级时空预测",
+      "timestamp": "2026-10-17T23:34:36.501243"
     }
   ]
 }
