@@ -3713,6 +3713,36 @@
         ],
         "decided_at": "2026-10-16T20:13:39.193158"
       }
+    },
+    {
+      "id": "llm-个性化机器人操作基准（libero-perm）",
+      "name": "个性化机器人操作基准（LIBERO-PeRM）",
+      "adopted_at": "2026-10-17T00:04:23.099923",
+      "decision": {
+        "tech_id": "llm-个性化机器人操作基准（libero-perm）",
+        "tech_name": "个性化机器人操作基准（LIBERO-PeRM）",
+        "action": "adopt",
+        "confidence": 0.9,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-10-17T00:04:23.097419"
+      }
+    },
+    {
+      "id": "llm-测试时环境潜在优化（t2-z）",
+      "name": "测试时环境潜在优化（T2-z）",
+      "adopted_at": "2026-10-17T00:04:23.099949",
+      "decision": {
+        "tech_id": "llm-测试时环境潜在优化（t2-z）",
+        "tech_name": "测试时环境潜在优化（T2-z）",
+        "action": "adopt",
+        "confidence": 0.85,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-10-17T00:04:23.097654"
+      }
     }
   ],
   "history": [
@@ -5197,6 +5227,18 @@
       "tech_id": "llm-细粒度专家分割-+-共享专家",
       "tech_name": "细粒度专家分割 + 共享专家",
       "timestamp": "2026-10-16T20:13:39.195023"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-个性化机器人操作基准（libero-perm）",
+      "tech_name": "个性化机器人操作基准（LIBERO-PeRM）",
+      "timestamp": "2026-10-17T00:04:23.099928"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-测试时环境潜在优化（t2-z）",
+      "tech_name": "测试时环境潜在优化（T2-z）",
+      "timestamp": "2026-10-17T00:04:23.099951"
     }
   ]
 }

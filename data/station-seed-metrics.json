@@ -187,15 +187,16 @@
   },
   "liquid-networks": {
     "name": "Liquid Networks",
-    "total_new_papers": 92,
-    "total_watering": 68,
+    "total_new_papers": 96,
+    "total_watering": 69,
     "all_keywords_matched": [
+      "ode",
       "liquid neural",
       "continuous-time",
-      "ode"
+      "ltc",
+      "liquid time"
     ],
     "avg_relevance_trend": [
-      0.0,
       0.0,
       1.5,
       2.0,
@@ -214,11 +215,23 @@
       1.0,
       1.0,
       1.6,
-      1.33
+      1.33,
+      2.5
     ],
-    "high_relevance_total": 28,
-    "best_papers": [],
-    "last_updated": "2026-10-15T02:05:01.781786"
+    "high_relevance_total": 31,
+    "best_papers": [
+      {
+        "title": "LTC-SE: Expanding the Potential of Liquid Time-Constant Neural Networks for Scalable AI and Embedded",
+        "score": 4,
+        "published": "2023-04-18"
+      },
+      {
+        "title": "Liquid Resistance Liquid Capacitance Networks",
+        "score": 3,
+        "published": "2024-01-30"
+      }
+    ],
+    "last_updated": "2026-10-17T00:04:17.661154"
   },
   "htm": {
     "name": "HTM",

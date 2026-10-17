@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-16T20:13:39.211941",
+  "timestamp": "2026-10-17T00:04:26.799382",
   "connections": [
     {
       "seed_a": "Non-Transformer Arch",
@@ -16,24 +16,7 @@
         "models"
       ],
       "strength": 11,
-      "discovered_at": "2026-10-16T20:13:39.211914"
-    },
-    {
-      "seed_a": "Liquid Networks",
-      "seed_b": "Mixture of Experts",
-      "shared_keywords": [],
-      "shared_paper_concepts": [
-        "fast",
-        "free",
-        "inference",
-        "learning",
-        "models",
-        "parallel",
-        "policy",
-        "reinforcement"
-      ],
-      "strength": 8,
-      "discovered_at": "2026-10-16T20:13:39.211873"
+      "discovered_at": "2026-10-17T00:04:26.799344"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -48,22 +31,22 @@
         "state"
       ],
       "strength": 7,
-      "discovered_at": "2026-10-16T20:13:39.211808"
+      "discovered_at": "2026-10-17T00:04:26.799212"
     },
     {
       "seed_a": "Liquid Networks",
-      "seed_b": "Continual Learning",
+      "seed_b": "Mixture of Experts",
       "shared_keywords": [],
       "shared_paper_concepts": [
-        "attention",
-        "distillation",
+        "fast",
+        "free",
+        "inference",
         "learning",
-        "policy",
-        "reinforcement",
-        "representation"
+        "models",
+        "parallel"
       ],
       "strength": 6,
-      "discovered_at": "2026-10-16T20:13:39.211866"
+      "discovered_at": "2026-10-17T00:04:26.799285"
     },
     {
       "seed_a": "Continual Learning",
@@ -78,7 +61,7 @@
         "token"
       ],
       "strength": 6,
-      "discovered_at": "2026-10-16T20:13:39.211928"
+      "discovered_at": "2026-10-17T00:04:26.799364"
     },
     {
       "seed_a": "Liquid Networks",
@@ -92,35 +75,7 @@
         "training"
       ],
       "strength": 5,
-      "discovered_at": "2026-10-16T20:13:39.211822"
-    },
-    {
-      "seed_a": "Liquid Networks",
-      "seed_b": "Non-Transformer Arch",
-      "shared_keywords": [],
-      "shared_paper_concepts": [
-        "attention",
-        "aware",
-        "models",
-        "state",
-        "transformers"
-      ],
-      "strength": 5,
-      "discovered_at": "2026-10-16T20:13:39.211827"
-    },
-    {
-      "seed_a": "Liquid Networks",
-      "seed_b": "KV Cache Optimization",
-      "shared_keywords": [],
-      "shared_paper_concepts": [
-        "aware",
-        "inference",
-        "models",
-        "parallel",
-        "self"
-      ],
-      "strength": 5,
-      "discovered_at": "2026-10-16T20:13:39.211876"
+      "discovered_at": "2026-10-17T00:04:26.799231"
     },
     {
       "seed_a": "Liquid Networks",
@@ -134,7 +89,7 @@
         "physics"
       ],
       "strength": 5,
-      "discovered_at": "2026-10-16T20:13:39.211879"
+      "discovered_at": "2026-10-17T00:04:26.799293"
     },
     {
       "seed_a": "HTM",
@@ -148,7 +103,47 @@
         "online"
       ],
       "strength": 5,
-      "discovered_at": "2026-10-16T20:13:39.211889"
+      "discovered_at": "2026-10-17T00:04:26.799307"
+    },
+    {
+      "seed_a": "Non-Transformer Arch",
+      "seed_b": "Mixture of Experts",
+      "shared_keywords": [],
+      "shared_paper_concepts": [
+        "compression",
+        "models",
+        "scaling",
+        "token",
+        "with"
+      ],
+      "strength": 5,
+      "discovered_at": "2026-10-17T00:04:26.799340"
+    },
+    {
+      "seed_a": "Liquid Networks",
+      "seed_b": "Non-Transformer Arch",
+      "shared_keywords": [],
+      "shared_paper_concepts": [
+        "attention",
+        "models",
+        "state",
+        "transformers"
+      ],
+      "strength": 4,
+      "discovered_at": "2026-10-17T00:04:26.799238"
+    },
+    {
+      "seed_a": "Liquid Networks",
+      "seed_b": "KV Cache Optimization",
+      "shared_keywords": [],
+      "shared_paper_concepts": [
+        "inference",
+        "models",
+        "parallel",
+        "self"
+      ],
+      "strength": 4,
+      "discovered_at": "2026-10-17T00:04:26.799289"
     }
   ],
   "total_seeds": 10
