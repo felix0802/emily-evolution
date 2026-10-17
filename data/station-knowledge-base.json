@@ -1,53 +1,6 @@
 {
   "sessions": [
     {
-      "timestamp": "2026-09-24T06:52:04.816041",
-      "arxiv_papers_count": 5,
-      "arxiv_top_keywords": [
-        "language",
-        "human",
-        "tutoring",
-        "studentbench",
-        "learning",
-        "gains",
-        "group",
-        "robot",
-        "joining",
-        "join"
-      ],
-      "arxiv_strategies": [
-        "cs.AI (fallback)",
-        "cs.AI (fallback)",
-        "cs.AI (fallback)"
-      ],
-      "huggingface_models": 10,
-      "huggingface_tasks": [
-        "sentence-similarity",
-        "unknown",
-        "fill-mask",
-        "text-ranking",
-        "feature-extraction"
-      ],
-      "ml_datasets": [
-        "Iris",
-        "Wine",
-        "Breast Cancer",
-        "Diabetes"
-      ],
-      "ml_total_tests": 22,
-      "github_trending_repos": 8,
-      "paperswithcode_papers": 8,
-      "evolution": {
-        "discovered": 12,
-        "adopted": 0,
-        "decisions": 0
-      },
-      "seed_watering": {
-        "seed_name": "",
-        "papers_found": 0
-      }
-    },
-    {
       "timestamp": "2026-09-24T12:57:52.474579",
       "arxiv_papers_count": 0,
       "arxiv_top_keywords": [],
@@ -4677,12 +4630,59 @@
         "seed_name": "",
         "papers_found": 0
       }
+    },
+    {
+      "timestamp": "2026-10-17T08:06:00.565442",
+      "arxiv_papers_count": 17,
+      "arxiv_top_keywords": [
+        "learning",
+        "language",
+        "world",
+        "perm",
+        "libero",
+        "robotic",
+        "manipulation",
+        "personalized",
+        "quantum",
+        "large"
+      ],
+      "arxiv_strategies": [
+        "cs.AI 最新",
+        "cs.LG 最新",
+        "cs.CL 最新"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "unknown",
+        "text-generation",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 17,
+        "adopted": 1,
+        "decisions": 1
+      },
+      "seed_watering": {
+        "seed_name": "Spiking Neural Networks",
+        "papers_found": 9
+      }
     }
   ],
   "total_sessions": 101,
-  "last_updated": "2026-10-17T03:24:50.323772",
+  "last_updated": "2026-10-17T08:06:00.565459",
   "evolution_summary": {
-    "total_adopted": 251,
+    "total_adopted": 252,
     "adopted_list": [
       "Knowledge Distillation",
       "World Models / Model-Based RL",
@@ -4934,7 +4934,8 @@
       "个性化机器人操作基准（LIBERO-PeRM）",
       "测试时环境潜在优化（T2-z）",
       "LIBERO-PeRM",
-      "CoDA 数据引擎与策略协同进化"
+      "CoDA 数据引擎与策略协同进化",
+      "测试时环境潜变量优化（T2-z）"
     ],
     "seeds": {
       "mamba": {
@@ -4954,8 +4955,8 @@
       },
       "spiking-nn": {
         "name": "Spiking Neural Networks",
-        "watering": 79,
-        "papers": 49
+        "watering": 80,
+        "papers": 53
       },
       "non-transformer": {
         "name": "Non-Transformer Arch",
@@ -4991,15 +4992,15 @@
     "seed_metrics": {
       "spiking-nn": {
         "name": "Spiking Neural Networks",
-        "new_papers": 49,
+        "new_papers": 53,
         "keywords_matched": [
-          "snn",
-          "spike-timing",
+          "neuromorphic",
           "spiking",
-          "neuromorphic"
+          "snn",
+          "spike-timing"
         ],
-        "high_relevance_total": 37,
-        "avg_relevance_latest": 1.0,
+        "high_relevance_total": 38,
+        "avg_relevance_latest": 1.25,
         "best_papers_count": 10
       },
       "few-shot": {
@@ -5134,6 +5135,6 @@
         "best_papers_count": 1
       }
     },
-    "last_evolution": "2026-10-17T03:24:50.326816"
+    "last_evolution": "2026-10-17T08:06:00.569047"
   }
 }

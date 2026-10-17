@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 773,
+  "_rotation_idx": 774,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 80,
@@ -2437,18 +2437,9 @@
   },
   "spiking-nn": {
     "name": "Spiking Neural Networks",
-    "total_papers_found": 49,
-    "watering_count": 79,
+    "total_papers_found": 53,
+    "watering_count": 80,
     "history": [
-      {
-        "timestamp": "2026-08-07T06:56:59.585476",
-        "papers_found": 0,
-        "duplicates": 9,
-        "irrelevant_filtered": 1,
-        "avg_relevance": 0.0,
-        "high_relevance": 0,
-        "papers": []
-      },
       {
         "timestamp": "2026-08-08T03:15:00.835069",
         "papers_found": 0,
@@ -3081,6 +3072,37 @@
         "avg_relevance": 0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-10-17T08:05:52.852362",
+        "papers_found": 4,
+        "duplicates": 5,
+        "irrelevant_filtered": 1,
+        "avg_relevance": 1.25,
+        "high_relevance": 1,
+        "papers": [
+          {
+            "title": "Beyond the Hamming Cliff: Compact Spatial Encodings Preserving Semantic Distance in Spiking Neural Networks",
+            "summary": "By pre-processing input signals with Gray, Thermometer, Johnson and hybrid encodings before passing them to spiking neural networks running on SpiNNaker hardware, Davies et al.(2025) address the semantic-spatial disparity that causes the ``Hamming cliff'' in standard binary representations. Continuo",
+            "published": "2026-10-15",
+            "url": "http://arxiv.org/abs/2610.22083v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Design and Analysis of Temporal Representations in Neural Networks",
+            "summary": "The ability to represent temporal information is often hypothesized to underlie the efficiency and learning capabilities of biological neural networks. This motivates the development of spiking neural networks. However, it remains unclear how temporal information is actually represented in neural ne",
+            "published": "2026-10-14",
+            "url": "http://arxiv.org/abs/2610.19730v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "FidLIF: Parallel Training of High-Fidelity Spiking Neurons with Exact BPTT",
+            "summary": "Although spiking neural networks (SNNs) show promise in energy-efficient computing through event-driven computation and stateful temporal processing, their recurrent membrane dynamics render their training inherently sequential and inefficient for long sequences. Existing methods achieve full-sequen",
+            "published": "2026-10-12",
+            "url": "http://arxiv.org/abs/2610.16924v1",
+            "seed_match_score": 2
+          }
+        ]
       }
     ],
     "keywords": [
@@ -3089,7 +3111,7 @@
       "neuromorphic",
       "spike-timing"
     ],
-    "last_watered": "2026-10-15T14:30:46.689298"
+    "last_watered": "2026-10-17T08:05:52.852355"
   },
   "non-transformer": {
     "name": "Non-Transformer Arch",

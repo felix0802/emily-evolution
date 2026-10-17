@@ -3773,6 +3773,21 @@
         ],
         "decided_at": "2026-10-17T03:24:47.426697"
       }
+    },
+    {
+      "id": "llm-测试时环境潜变量优化（t2-z）",
+      "name": "测试时环境潜变量优化（T2-z）",
+      "adopted_at": "2026-10-17T08:06:00.556659",
+      "decision": {
+        "tech_id": "llm-测试时环境潜变量优化（t2-z）",
+        "tech_name": "测试时环境潜变量优化（T2-z）",
+        "action": "adopt",
+        "confidence": 0.85,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-10-17T08:06:00.554226"
+      }
     }
   ],
   "history": [
@@ -5281,6 +5296,12 @@
       "tech_id": "llm-coda-数据引擎与策略协同进化",
       "tech_name": "CoDA 数据引擎与策略协同进化",
       "timestamp": "2026-10-17T03:24:47.428363"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-测试时环境潜变量优化（t2-z）",
+      "tech_name": "测试时环境潜变量优化（T2-z）",
+      "timestamp": "2026-10-17T08:06:00.556665"
     }
   ]
 }
