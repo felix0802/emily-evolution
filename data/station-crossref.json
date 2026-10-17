@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-17T13:19:40.774047",
+  "timestamp": "2026-10-17T16:43:26.642834",
   "connections": [
     {
       "seed_a": "Non-Transformer Arch",
@@ -16,7 +16,7 @@
         "models"
       ],
       "strength": 9,
-      "discovered_at": "2026-10-17T13:19:40.774010"
+      "discovered_at": "2026-10-17T16:43:26.642797"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -31,7 +31,7 @@
         "state"
       ],
       "strength": 7,
-      "discovered_at": "2026-10-17T13:19:40.773876"
+      "discovered_at": "2026-10-17T16:43:26.642651"
     },
     {
       "seed_a": "Liquid Networks",
@@ -46,7 +46,7 @@
         "training"
       ],
       "strength": 6,
-      "discovered_at": "2026-10-17T13:19:40.773898"
+      "discovered_at": "2026-10-17T16:43:26.642673"
     },
     {
       "seed_a": "Liquid Networks",
@@ -61,7 +61,7 @@
         "parallel"
       ],
       "strength": 6,
-      "discovered_at": "2026-10-17T13:19:40.773952"
+      "discovered_at": "2026-10-17T16:43:26.642723"
     },
     {
       "seed_a": "Continual Learning",
@@ -76,7 +76,7 @@
         "token"
       ],
       "strength": 6,
-      "discovered_at": "2026-10-17T13:19:40.774029"
+      "discovered_at": "2026-10-17T16:43:26.642816"
     },
     {
       "seed_a": "Liquid Networks",
@@ -90,7 +90,7 @@
         "physics"
       ],
       "strength": 5,
-      "discovered_at": "2026-10-17T13:19:40.773959"
+      "discovered_at": "2026-10-17T16:43:26.642731"
     },
     {
       "seed_a": "Liquid Networks",
@@ -103,7 +103,7 @@
         "transformers"
       ],
       "strength": 4,
-      "discovered_at": "2026-10-17T13:19:40.773902"
+      "discovered_at": "2026-10-17T16:43:26.642677"
     },
     {
       "seed_a": "Liquid Networks",
@@ -116,7 +116,7 @@
         "self"
       ],
       "strength": 4,
-      "discovered_at": "2026-10-17T13:19:40.773956"
+      "discovered_at": "2026-10-17T16:43:26.642727"
     },
     {
       "seed_a": "HTM",
@@ -129,7 +129,7 @@
         "online"
       ],
       "strength": 4,
-      "discovered_at": "2026-10-17T13:19:40.773972"
+      "discovered_at": "2026-10-17T16:43:26.642743"
     },
     {
       "seed_a": "Mixture of Experts",
@@ -142,7 +142,7 @@
         "scaling"
       ],
       "strength": 4,
-      "discovered_at": "2026-10-17T13:19:40.774035"
+      "discovered_at": "2026-10-17T16:43:26.642822"
     }
   ],
   "total_seeds": 10

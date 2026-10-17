@@ -3818,6 +3818,21 @@
         ],
         "decided_at": "2026-10-17T13:19:37.488813"
       }
+    },
+    {
+      "id": "llm-子空间微调",
+      "name": "子空间微调",
+      "adopted_at": "2026-10-17T16:43:26.617490",
+      "decision": {
+        "tech_id": "llm-子空间微调",
+        "tech_name": "子空间微调",
+        "action": "adopt",
+        "confidence": 0.9,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-10-17T16:43:26.615048"
+      }
     }
   ],
   "history": [
@@ -5344,6 +5359,12 @@
       "tech_id": "llm-自适应步长缓存（softcache）",
       "tech_name": "自适应步长缓存（SoftCache）",
       "timestamp": "2026-10-17T13:19:37.491101"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-子空间微调",
+      "tech_name": "子空间微调",
+      "timestamp": "2026-10-17T16:43:26.617495"
     }
   ]
 }

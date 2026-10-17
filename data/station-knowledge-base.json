@@ -1,53 +1,6 @@
 {
   "sessions": [
     {
-      "timestamp": "2026-09-24T18:01:42.147814",
-      "arxiv_papers_count": 5,
-      "arxiv_top_keywords": [
-        "language",
-        "human",
-        "tutoring",
-        "studentbench",
-        "learning",
-        "gains",
-        "group",
-        "robot",
-        "joining",
-        "join"
-      ],
-      "arxiv_strategies": [
-        "cs.AI (fallback)",
-        "cs.AI (fallback)",
-        "cs.AI (fallback)"
-      ],
-      "huggingface_models": 10,
-      "huggingface_tasks": [
-        "sentence-similarity",
-        "unknown",
-        "fill-mask",
-        "text-ranking",
-        "feature-extraction"
-      ],
-      "ml_datasets": [
-        "Iris",
-        "Wine",
-        "Breast Cancer",
-        "Diabetes"
-      ],
-      "ml_total_tests": 22,
-      "github_trending_repos": 8,
-      "paperswithcode_papers": 8,
-      "evolution": {
-        "discovered": 12,
-        "adopted": 0,
-        "decisions": 0
-      },
-      "seed_watering": {
-        "seed_name": "",
-        "papers_found": 0
-      }
-    },
-    {
       "timestamp": "2026-09-24T22:47:08.272344",
       "arxiv_papers_count": 5,
       "arxiv_top_keywords": [
@@ -4688,12 +4641,59 @@
         "seed_name": "Non-Transformer Arch",
         "papers_found": 4
       }
+    },
+    {
+      "timestamp": "2026-10-17T16:43:26.626508",
+      "arxiv_papers_count": 18,
+      "arxiv_top_keywords": [
+        "learning",
+        "training",
+        "systems",
+        "agent",
+        "llm",
+        "agents",
+        "llms",
+        "diffusion",
+        "generation",
+        "visual"
+      ],
+      "arxiv_strategies": [
+        "搜索: reinforcement learning",
+        "搜索: large language model",
+        "搜索: diffusion model"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "unknown",
+        "text-generation",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 21,
+        "adopted": 1,
+        "decisions": 1
+      },
+      "seed_watering": {
+        "seed_name": "Few-Shot Learning",
+        "papers_found": 7
+      }
     }
   ],
   "total_sessions": 101,
-  "last_updated": "2026-10-17T13:19:40.756192",
+  "last_updated": "2026-10-17T16:43:26.626522",
   "evolution_summary": {
-    "total_adopted": 254,
+    "total_adopted": 255,
     "adopted_list": [
       "Knowledge Distillation",
       "World Models / Model-Based RL",
@@ -4948,7 +4948,8 @@
       "CoDA 数据引擎与策略协同进化",
       "测试时环境潜变量优化（T2-z）",
       "前馈4D感知（Gen4P）",
-      "自适应步长缓存（SoftCache）"
+      "自适应步长缓存（SoftCache）",
+      "子空间微调"
     ],
     "seeds": {
       "mamba": {
@@ -4978,7 +4979,7 @@
       },
       "few-shot": {
         "name": "Few-Shot Learning",
-        "watering": 79,
+        "watering": 80,
         "papers": 46
       },
       "continual-learning": {
@@ -5020,14 +5021,14 @@
         "name": "Few-Shot Learning",
         "new_papers": 41,
         "keywords_matched": [
-          "in-context",
           "maml",
           "few-shot",
+          "in-context",
           "meta-learning",
           "prototypical"
         ],
         "high_relevance_total": 9,
-        "avg_relevance_latest": 1.0,
+        "avg_relevance_latest": 0.0,
         "best_papers_count": 0
       },
       "mamba": {
@@ -5148,6 +5149,6 @@
         "best_papers_count": 1
       }
     },
-    "last_evolution": "2026-10-17T13:19:40.759448"
+    "last_evolution": "2026-10-17T16:43:26.629780"
   }
 }
