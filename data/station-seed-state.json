@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 776,
+  "_rotation_idx": 777,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 80,
@@ -4507,26 +4507,9 @@
   },
   "continual-learning": {
     "name": "Continual Learning",
-    "total_papers_found": 115,
-    "watering_count": 78,
+    "total_papers_found": 116,
+    "watering_count": 79,
     "history": [
-      {
-        "timestamp": "2026-08-07T12:35:15.666925",
-        "papers_found": 1,
-        "duplicates": 5,
-        "irrelevant_filtered": 4,
-        "avg_relevance": 1.0,
-        "high_relevance": 0,
-        "papers": [
-          {
-            "title": "Continual Learning in Transition",
-            "summary": "Classical continual learning (CL) has primarily focused on enabling models to update and retain knowledge through parameter-centric mechanisms, e.g., training strategies, architectural designs, and weight adaptation. However, emerging paradigms are reshaping the scope of CL beyond this traditional m",
-            "published": "2026-08-06",
-            "url": "http://arxiv.org/abs/2608.06216v1",
-            "seed_match_score": 1
-          }
-        ]
-      },
       {
         "timestamp": "2026-08-08T08:25:04.815510",
         "papers_found": 0,
@@ -5324,6 +5307,23 @@
             "seed_match_score": 1
           }
         ]
+      },
+      {
+        "timestamp": "2026-10-17T19:46:07.533775",
+        "papers_found": 1,
+        "duplicates": 5,
+        "irrelevant_filtered": 4,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "Reliable Knowledge Acquisition for Continual Learning Agents",
+            "summary": "As agents powered by foundation models move into open-ended environments, continual learning from experience becomes essential. For agents built on models with fixed parameters, this learning requires reusing prior task experience in context to improve performance and efficiency on future tasks. Exi",
+            "published": "2026-10-15",
+            "url": "http://arxiv.org/abs/2610.21739v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -5333,7 +5333,7 @@
       "ewc",
       "elastic weight"
     ],
-    "last_watered": "2026-10-16T01:55:17.835684"
+    "last_watered": "2026-10-17T19:46:07.533772"
   },
   "moe": {
     "name": "Mixture of Experts",
