@@ -57272,7 +57272,128 @@
         "spiking"
       ],
       "first_seen_round": 405
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.22371v1",
+      "title": "Gen4P: Video Generators are 4D Perceivers",
+      "arxiv_id": "2610.22371",
+      "tokens": [
+        "gen4p",
+        "generators",
+        "perceivers",
+        "video"
+      ],
+      "first_seen_round": 406
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.22369v1",
+      "title": "SoftCache: Adaptive Step Size Caching for Diffusion Transformers",
+      "arxiv_id": "2610.22369",
+      "tokens": [
+        "adaptive",
+        "caching",
+        "diffusion",
+        "size",
+        "softcache",
+        "step",
+        "transformers"
+      ],
+      "first_seen_round": 406
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.22363v1",
+      "title": "Perceive, Predict, and Plan: a Unified World Action Model for Egocentric Dexterous Manipulation",
+      "arxiv_id": "2610.22363",
+      "tokens": [
+        "action",
+        "dexterous",
+        "egocentric",
+        "manipulation",
+        "perceive",
+        "plan",
+        "predict",
+        "unified",
+        "world"
+      ],
+      "first_seen_round": 406
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.22360v1",
+      "title": "Grounding Generative Verification in 3D Content",
+      "arxiv_id": "2610.22360",
+      "tokens": [
+        "content",
+        "generative",
+        "grounding",
+        "verification"
+      ],
+      "first_seen_round": 406
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.22356v1",
+      "title": "DK-VLM: Geometry as Position for Spatial Reasoning in Vision-Language Models",
+      "arxiv_id": "2610.22356",
+      "tokens": [
+        "geometry",
+        "language",
+        "position",
+        "reasoning",
+        "spatial",
+        "vision",
+        "vlm"
+      ],
+      "first_seen_round": 406
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.22352v1",
+      "title": "SUPRA-TEX: 3D Generation with Super-Aligned Texture",
+      "arxiv_id": "2610.22352",
+      "tokens": [
+        "aligned",
+        "generation",
+        "super",
+        "supra",
+        "tex",
+        "texture"
+      ],
+      "first_seen_round": 406
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.22341v1",
+      "title": "3DCodeVerse: Exploring 3D Worlds as Code",
+      "arxiv_id": "2610.22341",
+      "tokens": [
+        "3dcodeverse",
+        "code",
+        "exploring",
+        "worlds"
+      ],
+      "first_seen_round": 406
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.22340v1",
+      "title": "Dexterity from Supervised Play",
+      "arxiv_id": "2610.22340",
+      "tokens": [
+        "dexterity",
+        "play",
+        "supervised"
+      ],
+      "first_seen_round": 406
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.22347v1",
+      "title": "Speculative Forcing for Efficient Autoregressive Video Generation",
+      "arxiv_id": "2610.22347",
+      "tokens": [
+        "autoregressive",
+        "forcing",
+        "generation",
+        "speculative",
+        "video"
+      ],
+      "first_seen_round": 406
     }
   ],
-  "total_unique": 3593
+  "total_unique": 3602
 }

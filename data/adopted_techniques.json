@@ -3788,6 +3788,36 @@
         ],
         "decided_at": "2026-10-17T08:06:00.554226"
       }
+    },
+    {
+      "id": "llm-前馈4d感知（gen4p）",
+      "name": "前馈4D感知（Gen4P）",
+      "adopted_at": "2026-10-17T13:19:37.491074",
+      "decision": {
+        "tech_id": "llm-前馈4d感知（gen4p）",
+        "tech_name": "前馈4D感知（Gen4P）",
+        "action": "adopt",
+        "confidence": 0.9,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-10-17T13:19:37.488622"
+      }
+    },
+    {
+      "id": "llm-自适应步长缓存（softcache）",
+      "name": "自适应步长缓存（SoftCache）",
+      "adopted_at": "2026-10-17T13:19:37.491099",
+      "decision": {
+        "tech_id": "llm-自适应步长缓存（softcache）",
+        "tech_name": "自适应步长缓存（SoftCache）",
+        "action": "adopt",
+        "confidence": 0.85,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-10-17T13:19:37.488813"
+      }
     }
   ],
   "history": [
@@ -5302,6 +5332,18 @@
       "tech_id": "llm-测试时环境潜变量优化（t2-z）",
       "tech_name": "测试时环境潜变量优化（T2-z）",
       "timestamp": "2026-10-17T08:06:00.556665"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-前馈4d感知（gen4p）",
+      "tech_name": "前馈4D感知（Gen4P）",
+      "timestamp": "2026-10-17T13:19:37.491079"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-自适应步长缓存（softcache）",
+      "tech_name": "自适应步长缓存（SoftCache）",
+      "timestamp": "2026-10-17T13:19:37.491101"
     }
   ]
 }
