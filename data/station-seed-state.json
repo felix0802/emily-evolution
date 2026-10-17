@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 777,
+  "_rotation_idx": 778,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 80,
@@ -5338,25 +5338,8 @@
   "moe": {
     "name": "Mixture of Experts",
     "total_papers_found": 117,
-    "watering_count": 74,
+    "watering_count": 75,
     "history": [
-      {
-        "timestamp": "2026-08-07T14:43:43.808092",
-        "papers_found": 1,
-        "duplicates": 4,
-        "irrelevant_filtered": 5,
-        "avg_relevance": 2.0,
-        "high_relevance": 1,
-        "papers": [
-          {
-            "title": "EdgeXpert: An Edge Device for Memory-Efficient LLM Inference with Mixture-of-Experts and Speculative Decoding",
-            "summary": "On-device deployment of Large Language Models (LLMs) has become essential for personalized edge applications. A primary bottleneck is external memory access (EMA) in feed-forward network (FFN) layers. Speculative decoding and mixture-of-experts (MoE) are promising solutions. Speculative decoding red",
-            "published": "2026-08-05",
-            "url": "http://arxiv.org/abs/2608.05303v1",
-            "seed_match_score": 2
-          }
-        ]
-      },
       {
         "timestamp": "2026-08-08T10:18:58.471613",
         "papers_found": 0,
@@ -6243,6 +6226,15 @@
             "seed_match_score": 3
           }
         ]
+      },
+      {
+        "timestamp": "2026-10-17T21:49:01.501969",
+        "papers_found": 0,
+        "duplicates": 7,
+        "irrelevant_filtered": 3,
+        "avg_relevance": 0.0,
+        "high_relevance": 0,
+        "papers": []
       }
     ],
     "keywords": [
@@ -6254,7 +6246,7 @@
       "switch transformer",
       "deepseek"
     ],
-    "last_watered": "2026-10-16T06:31:02.229787"
+    "last_watered": "2026-10-17T21:49:01.501962"
   },
   "kv-cache": {
     "name": "KV Cache Optimization",
