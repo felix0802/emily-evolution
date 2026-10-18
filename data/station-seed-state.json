@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 781,
+  "_rotation_idx": 782,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 81,
@@ -736,18 +736,9 @@
   },
   "liquid-networks": {
     "name": "Liquid Networks",
-    "total_papers_found": 101,
-    "watering_count": 81,
+    "total_papers_found": 102,
+    "watering_count": 82,
     "history": [
-      {
-        "timestamp": "2026-08-07T22:23:14.239882",
-        "papers_found": 0,
-        "duplicates": 9,
-        "irrelevant_filtered": 1,
-        "avg_relevance": 0.0,
-        "high_relevance": 0,
-        "papers": []
-      },
       {
         "timestamp": "2026-08-08T18:19:22.741321",
         "papers_found": 0,
@@ -1489,6 +1480,23 @@
             "seed_match_score": 1
           }
         ]
+      },
+      {
+        "timestamp": "2026-10-18T12:13:41.862768",
+        "papers_found": 1,
+        "duplicates": 8,
+        "irrelevant_filtered": 1,
+        "avg_relevance": 2.0,
+        "high_relevance": 1,
+        "papers": [
+          {
+            "title": "Diffusion Language Models as Open Quantum Systems",
+            "summary": "Diffusion language models generate text by reversing a classical diffusion process over token sequences. We show that their continuous-time forward and reverse dynamics can be embedded in the framework of open quantum systems, which describes quantum systems interacting with their environment. This ",
+            "published": "2026-10-15",
+            "url": "http://arxiv.org/abs/2610.21672v1",
+            "seed_match_score": 2
+          }
+        ]
       }
     ],
     "keywords": [
@@ -1498,7 +1506,7 @@
       "ode",
       "continuous-time"
     ],
-    "last_watered": "2026-10-17T00:04:17.661865"
+    "last_watered": "2026-10-18T12:13:41.862761"
   },
   "htm": {
     "name": "HTM",

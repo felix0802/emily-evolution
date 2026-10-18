@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-18T06:43:24.755047",
+  "timestamp": "2026-10-18T12:13:45.650112",
   "connections": [
     {
       "seed_a": "Non-Transformer Arch",
@@ -16,7 +16,7 @@
         "models"
       ],
       "strength": 9,
-      "discovered_at": "2026-10-18T06:43:24.755007"
+      "discovered_at": "2026-10-18T12:13:45.650072"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -32,15 +32,15 @@
         "with"
       ],
       "strength": 8,
-      "discovered_at": "2026-10-18T06:43:24.754792"
+      "discovered_at": "2026-10-18T12:13:45.649941"
     },
     {
       "seed_a": "Liquid Networks",
       "seed_b": "Graph Neural Networks",
       "shared_keywords": [],
       "shared_paper_concepts": [
+        "diffusion",
         "graph",
-        "inference",
         "network",
         "networks",
         "neural",
@@ -48,36 +48,7 @@
         "time"
       ],
       "strength": 7,
-      "discovered_at": "2026-10-18T06:43:24.754957"
-    },
-    {
-      "seed_a": "Liquid Networks",
-      "seed_b": "Spiking Neural Networks",
-      "shared_keywords": [],
-      "shared_paper_concepts": [
-        "analysis",
-        "networks",
-        "neural",
-        "parallel",
-        "temporal",
-        "training"
-      ],
-      "strength": 6,
-      "discovered_at": "2026-10-18T06:43:24.754816"
-    },
-    {
-      "seed_a": "Mamba (SSM)",
-      "seed_b": "Liquid Networks",
-      "shared_keywords": [],
-      "shared_paper_concepts": [
-        "inference",
-        "learning",
-        "space",
-        "state",
-        "training"
-      ],
-      "strength": 5,
-      "discovered_at": "2026-10-18T06:43:24.754775"
+      "discovered_at": "2026-10-18T12:13:45.650023"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -91,7 +62,7 @@
         "with"
       ],
       "strength": 5,
-      "discovered_at": "2026-10-18T06:43:24.754788"
+      "discovered_at": "2026-10-18T12:13:45.649937"
     },
     {
       "seed_a": "Continual Learning",
@@ -105,46 +76,71 @@
         "reinforcement"
       ],
       "strength": 5,
-      "discovered_at": "2026-10-18T06:43:24.755026"
+      "discovered_at": "2026-10-18T12:13:45.650091"
     },
     {
-      "seed_a": "Liquid Networks",
-      "seed_b": "Non-Transformer Arch",
+      "seed_a": "Mamba (SSM)",
+      "seed_b": "Liquid Networks",
       "shared_keywords": [],
       "shared_paper_concepts": [
-        "attention",
-        "models",
-        "state",
-        "transformers"
-      ],
-      "strength": 4,
-      "discovered_at": "2026-10-18T06:43:24.754938"
-    },
-    {
-      "seed_a": "Liquid Networks",
-      "seed_b": "Mixture of Experts",
-      "shared_keywords": [],
-      "shared_paper_concepts": [
-        "fast",
         "learning",
-        "models",
-        "parallel"
+        "space",
+        "state",
+        "training"
       ],
       "strength": 4,
-      "discovered_at": "2026-10-18T06:43:24.754949"
+      "discovered_at": "2026-10-18T12:13:45.649924"
     },
     {
       "seed_a": "Liquid Networks",
+      "seed_b": "Spiking Neural Networks",
+      "shared_keywords": [],
+      "shared_paper_concepts": [
+        "networks",
+        "neural",
+        "temporal",
+        "training"
+      ],
+      "strength": 4,
+      "discovered_at": "2026-10-18T12:13:45.650002"
+    },
+    {
+      "seed_a": "HTM",
+      "seed_b": "Continual Learning",
+      "shared_keywords": [],
+      "shared_paper_concepts": [
+        "anomaly",
+        "detection",
+        "learning",
+        "online"
+      ],
+      "strength": 4,
+      "discovered_at": "2026-10-18T12:13:45.650036"
+    },
+    {
+      "seed_a": "Spiking Neural Networks",
+      "seed_b": "Graph Neural Networks",
+      "shared_keywords": [],
+      "shared_paper_concepts": [
+        "efficient",
+        "networks",
+        "neural",
+        "with"
+      ],
+      "strength": 4,
+      "discovered_at": "2026-10-18T12:13:45.650059"
+    },
+    {
+      "seed_a": "Mamba (SSM)",
       "seed_b": "KV Cache Optimization",
       "shared_keywords": [],
       "shared_paper_concepts": [
-        "inference",
-        "models",
-        "parallel",
-        "self"
+        "aware",
+        "context",
+        "inference"
       ],
-      "strength": 4,
-      "discovered_at": "2026-10-18T06:43:24.754953"
+      "strength": 3,
+      "discovered_at": "2026-10-18T12:13:45.649953"
     }
   ],
   "total_seeds": 10
