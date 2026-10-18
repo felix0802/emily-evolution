@@ -3953,6 +3953,21 @@
         ],
         "decided_at": "2026-10-18T19:46:55.407080"
       }
+    },
+    {
+      "id": "llm-se(2)-等变网络最优性",
+      "name": "SE(2)-等变网络最优性",
+      "adopted_at": "2026-10-18T21:59:21.917563",
+      "decision": {
+        "tech_id": "llm-se(2)-等变网络最优性",
+        "tech_name": "SE(2)-等变网络最优性",
+        "action": "adopt",
+        "confidence": 0.8,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-10-18T21:59:21.915592"
+      }
     }
   ],
   "history": [
@@ -5533,6 +5548,12 @@
       "tech_id": "llm-子空间调优",
       "tech_name": "子空间调优",
       "timestamp": "2026-10-18T19:46:55.409417"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-se(2)-等变网络最优性",
+      "tech_name": "SE(2)-等变网络最优性",
+      "timestamp": "2026-10-18T21:59:21.917570"
     }
   ]
 }
