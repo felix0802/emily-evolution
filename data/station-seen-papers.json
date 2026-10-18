@@ -57741,7 +57741,40 @@
         "time"
       ],
       "first_seen_round": 411
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.21208v1",
+      "title": "Clean Data Can Still Carry Backdoors: Support-Persistent Backdoors for Model Reuse",
+      "arxiv_id": "2610.21208",
+      "tokens": [
+        "backdoors",
+        "backdoors",
+        "carry",
+        "clean",
+        "persistent",
+        "reuse",
+        "still",
+        "support"
+      ],
+      "first_seen_round": 412
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.20682v1",
+      "title": "TurboMamba: Faster Inference, Faster Training, and Better Prediction with Lexical Memory",
+      "arxiv_id": "2610.20682",
+      "tokens": [
+        "better",
+        "faster",
+        "faster",
+        "inference",
+        "lexical",
+        "memory",
+        "prediction",
+        "training",
+        "turbomamba"
+      ],
+      "first_seen_round": 412
     }
   ],
-  "total_unique": 3624
+  "total_unique": 3626
 }

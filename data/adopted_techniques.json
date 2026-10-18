@@ -3878,6 +3878,51 @@
         ],
         "decided_at": "2026-10-18T01:48:18.433826"
       }
+    },
+    {
+      "id": "llm-kronecker-积注意力（结构化-kv-压缩）",
+      "name": "Kronecker 积注意力（结构化 KV 压缩）",
+      "adopted_at": "2026-10-18T06:43:21.746065",
+      "decision": {
+        "tech_id": "llm-kronecker-积注意力（结构化-kv-压缩）",
+        "tech_name": "Kronecker 积注意力（结构化 KV 压缩）",
+        "action": "adopt",
+        "confidence": 0.85,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-10-18T06:43:21.743052"
+      }
+    },
+    {
+      "id": "llm-权重空间-kv-cache-补偿（patchkv）",
+      "name": "权重空间 KV cache 补偿（PatchKV）",
+      "adopted_at": "2026-10-18T06:43:21.746094",
+      "decision": {
+        "tech_id": "llm-权重空间-kv-cache-补偿（patchkv）",
+        "tech_name": "权重空间 KV cache 补偿（PatchKV）",
+        "action": "adopt",
+        "confidence": 0.8,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-10-18T06:43:21.743272"
+      }
+    },
+    {
+      "id": "auto-kv cache",
+      "name": "Kv Cache",
+      "adopted_at": "2026-10-18T06:43:21.746115",
+      "decision": {
+        "tech_id": "auto-kv cache",
+        "tech_name": "Kv Cache",
+        "action": "adopt",
+        "confidence": 0.35,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-10-18T06:43:21.743502"
+      }
     }
   ],
   "history": [
@@ -5428,6 +5473,24 @@
       "tech_id": "llm-rotary-position-embedding-(rop",
       "tech_name": "Rotary Position Embedding (RoPE) 下的位置几何修正",
       "timestamp": "2026-10-18T01:48:18.436142"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-kronecker-积注意力（结构化-kv-压缩）",
+      "tech_name": "Kronecker 积注意力（结构化 KV 压缩）",
+      "timestamp": "2026-10-18T06:43:21.746072"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-权重空间-kv-cache-补偿（patchkv）",
+      "tech_name": "权重空间 KV cache 补偿（PatchKV）",
+      "timestamp": "2026-10-18T06:43:21.746096"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "auto-kv cache",
+      "tech_name": "Kv Cache",
+      "timestamp": "2026-10-18T06:43:21.746117"
     }
   ]
 }

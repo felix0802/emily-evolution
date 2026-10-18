@@ -1,19 +1,10 @@
 {
-  "_rotation_idx": 780,
+  "_rotation_idx": 781,
   "mamba": {
     "name": "Mamba (SSM)",
-    "total_papers_found": 80,
-    "watering_count": 81,
+    "total_papers_found": 81,
+    "watering_count": 82,
     "history": [
-      {
-        "timestamp": "2026-08-07T20:26:27.085141",
-        "papers_found": 0,
-        "duplicates": 7,
-        "irrelevant_filtered": 3,
-        "avg_relevance": 0.0,
-        "high_relevance": 0,
-        "papers": []
-      },
       {
         "timestamp": "2026-08-08T16:17:30.414464",
         "papers_found": 0,
@@ -716,6 +707,23 @@
         "avg_relevance": 0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-10-18T06:43:15.945257",
+        "papers_found": 1,
+        "duplicates": 6,
+        "irrelevant_filtered": 3,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "TurboMamba: Faster Inference, Faster Training, and Better Prediction with Lexical Memory",
+            "summary": "We introduce TurboMamba, a language-model architecture for faster inference, faster training, and better token prediction. A global Mamba-3 model runs once per completed token block. A small Transformer uses this global context and earlier tokens within the block to predict the next token. Three lig",
+            "published": "2026-10-14",
+            "url": "http://arxiv.org/abs/2610.20682v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -724,7 +732,7 @@
       "ssm",
       "selective scan"
     ],
-    "last_watered": "2026-10-16T20:13:34.225650"
+    "last_watered": "2026-10-18T06:43:15.945250"
   },
   "liquid-networks": {
     "name": "Liquid Networks",
