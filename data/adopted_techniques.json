@@ -3938,6 +3938,21 @@
         ],
         "decided_at": "2026-10-18T16:59:20.725936"
       }
+    },
+    {
+      "id": "llm-子空间调优",
+      "name": "子空间调优",
+      "adopted_at": "2026-10-18T19:46:55.409412",
+      "decision": {
+        "tech_id": "llm-子空间调优",
+        "tech_name": "子空间调优",
+        "action": "adopt",
+        "confidence": 0.85,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-10-18T19:46:55.407080"
+      }
     }
   ],
   "history": [
@@ -5512,6 +5527,12 @@
       "tech_id": "llm-adaptive-step-size-caching",
       "tech_name": "Adaptive step size caching",
       "timestamp": "2026-10-18T16:59:20.727841"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-子空间调优",
+      "tech_name": "子空间调优",
+      "timestamp": "2026-10-18T19:46:55.409417"
     }
   ]
 }
