@@ -3923,6 +3923,21 @@
         ],
         "decided_at": "2026-10-18T06:43:21.743502"
       }
+    },
+    {
+      "id": "llm-adaptive-step-size-caching",
+      "name": "Adaptive step size caching",
+      "adopted_at": "2026-10-18T16:59:20.727837",
+      "decision": {
+        "tech_id": "llm-adaptive-step-size-caching",
+        "tech_name": "Adaptive step size caching",
+        "action": "adopt",
+        "confidence": 0.8,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-10-18T16:59:20.725936"
+      }
     }
   ],
   "history": [
@@ -5491,6 +5506,12 @@
       "tech_id": "auto-kv cache",
       "tech_name": "Kv Cache",
       "timestamp": "2026-10-18T06:43:21.746117"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-adaptive-step-size-caching",
+      "tech_name": "Adaptive step size caching",
+      "timestamp": "2026-10-18T16:59:20.727841"
     }
   ]
 }

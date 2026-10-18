@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 782,
+  "_rotation_idx": 783,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 81,
@@ -1510,18 +1510,9 @@
   },
   "htm": {
     "name": "HTM",
-    "total_papers_found": 134,
-    "watering_count": 81,
+    "total_papers_found": 136,
+    "watering_count": 82,
     "history": [
-      {
-        "timestamp": "2026-08-08T00:41:48.979360",
-        "papers_found": 0,
-        "duplicates": 2,
-        "irrelevant_filtered": 8,
-        "avg_relevance": 0.0,
-        "high_relevance": 0,
-        "papers": []
-      },
       {
         "timestamp": "2026-08-08T20:14:59.819915",
         "papers_found": 0,
@@ -2435,6 +2426,30 @@
         "avg_relevance": 0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-10-18T16:59:16.128677",
+        "papers_found": 2,
+        "duplicates": 0,
+        "irrelevant_filtered": 8,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "The Tilted Sampling Problem: Optimism, Posterior Sampling, and Logarithmic Regret",
+            "summary": "Many modern learning systems are used not to select a single best action, but to sample diverse high-quality outputs. Examples include entropy-regularized reinforcement learning, RLHF, and reward-guided generative modeling. Motivated by these settings, we study tilted sampling: an online learning pr",
+            "published": "2026-10-15",
+            "url": "http://arxiv.org/abs/2610.21908v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Regret Lower Bound for Online Learning of Quantum States with Logarithmic Loss, with Applications to Quantum State Tomography and Confidence Sequences for Matrix Means",
+            "summary": "We study the problem of online learning of quantum states with logarithmic loss, which is a quantum generalization of online portfolio selection and has applications to quantum state tomography, the task of estimating an unknown quantum state from measurement outcomes. We first establish a regret lo",
+            "published": "2026-10-15",
+            "url": "http://arxiv.org/abs/2610.21273v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -2449,7 +2464,7 @@
       "anomaly detection",
       "continuous learning"
     ],
-    "last_watered": "2026-10-17T03:24:42.860106"
+    "last_watered": "2026-10-18T16:59:16.128672"
   },
   "spiking-nn": {
     "name": "Spiking Neural Networks",
