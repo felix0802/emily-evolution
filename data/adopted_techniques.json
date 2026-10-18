@@ -3863,6 +3863,21 @@
         ],
         "decided_at": "2026-10-17T23:34:36.499201"
       }
+    },
+    {
+      "id": "llm-rotary-position-embedding-(rop",
+      "name": "Rotary Position Embedding (RoPE) 下的位置几何修正",
+      "adopted_at": "2026-10-18T01:48:18.436137",
+      "decision": {
+        "tech_id": "llm-rotary-position-embedding-(rop",
+        "tech_name": "Rotary Position Embedding (RoPE) 下的位置几何修正",
+        "action": "adopt",
+        "confidence": 0.85,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-10-18T01:48:18.433826"
+      }
     }
   ],
   "history": [
@@ -5407,6 +5422,12 @@
       "tech_id": "llm-多层级时空预测",
       "tech_name": "多层级时空预测",
       "timestamp": "2026-10-17T23:34:36.501243"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-rotary-position-embedding-(rop",
+      "tech_name": "Rotary Position Embedding (RoPE) 下的位置几何修正",
+      "timestamp": "2026-10-18T01:48:18.436142"
     }
   ]
 }

@@ -57609,7 +57609,139 @@
         "ran"
       ],
       "first_seen_round": 410
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.21165v1",
+      "title": "From Long Context to Selective Memory:A Survey of Memory-Centric Compression for Large Language Models",
+      "arxiv_id": "2610.21165",
+      "tokens": [
+        "centric",
+        "compression",
+        "context",
+        "language",
+        "long",
+        "memory",
+        "memory",
+        "selective"
+      ],
+      "first_seen_round": 411
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.20392v1",
+      "title": "FOLD: Position-Free Far Memory with Local Order for Long-Context Speculative Decoding",
+      "arxiv_id": "2610.20392",
+      "tokens": [
+        "context",
+        "decoding",
+        "far",
+        "fold",
+        "free",
+        "local",
+        "long",
+        "memory",
+        "order",
+        "position",
+        "speculative"
+      ],
+      "first_seen_round": 411
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.20107v1",
+      "title": "Why Generate a Click? Plug-in Decision Heads for Web Agents",
+      "arxiv_id": "2610.20107",
+      "tokens": [
+        "agents",
+        "click",
+        "decision",
+        "generate",
+        "heads",
+        "plug",
+        "web",
+        "why"
+      ],
+      "first_seen_round": 411
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.19801v1",
+      "title": "Delta Tokenizer: Reference-Identical Tokenization of Session Deltas and Segment-Parallelism for Long Prompts on Multicore CPUs",
+      "arxiv_id": "2610.19801",
+      "tokens": [
+        "cpus",
+        "delta",
+        "deltas",
+        "identical",
+        "long",
+        "multicore",
+        "parallelism",
+        "prompts",
+        "reference",
+        "segment",
+        "session",
+        "tokenization",
+        "tokenizer"
+      ],
+      "first_seen_round": 411
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.20175v1",
+      "title": "TreeSpark: Learning to Draft the Trees You Verify for Speculative Decoding",
+      "arxiv_id": "2610.20175",
+      "tokens": [
+        "decoding",
+        "draft",
+        "speculative",
+        "trees",
+        "treespark",
+        "verify"
+      ],
+      "first_seen_round": 411
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.19792v2",
+      "title": "JetSpec++: Foresight Parallel Drafting with Self Refinements",
+      "arxiv_id": "2610.19792",
+      "tokens": [
+        "drafting",
+        "foresight",
+        "jetspec",
+        "parallel",
+        "refinements",
+        "self"
+      ],
+      "first_seen_round": 411
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.22214v1",
+      "title": "GNN-Guided Local Refinement for Efficient Layout Decomposition with DSA-MP",
+      "arxiv_id": "2610.22214",
+      "tokens": [
+        "decomposition",
+        "dsa",
+        "gnn",
+        "guided",
+        "layout",
+        "local",
+        "refinement"
+      ],
+      "first_seen_round": 411
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.21833v1",
+      "title": "Physics-Aware Distillation of a Grid Foundation Model for Real-Time Edge Inference",
+      "arxiv_id": "2610.21833",
+      "tokens": [
+        "aware",
+        "distillation",
+        "edge",
+        "foundation",
+        "grid",
+        "inference",
+        "physics",
+        "real",
+        "time"
+      ],
+      "first_seen_round": 411
     }
   ],
-  "total_unique": 3616
+  "total_unique": 3624
 }

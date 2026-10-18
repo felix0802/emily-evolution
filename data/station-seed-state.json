@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 779,
+  "_rotation_idx": 780,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 80,
@@ -7117,18 +7117,9 @@
   },
   "gnn": {
     "name": "Graph Neural Networks",
-    "total_papers_found": 158,
-    "watering_count": 76,
+    "total_papers_found": 160,
+    "watering_count": 77,
     "history": [
-      {
-        "timestamp": "2026-08-07T18:36:17.948664",
-        "papers_found": 0,
-        "duplicates": 5,
-        "irrelevant_filtered": 5,
-        "avg_relevance": 0.0,
-        "high_relevance": 0,
-        "papers": []
-      },
       {
         "timestamp": "2026-08-08T14:21:20.336096",
         "papers_found": 0,
@@ -8040,6 +8031,30 @@
         "avg_relevance": 0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-10-18T01:48:12.850015",
+        "papers_found": 2,
+        "duplicates": 4,
+        "irrelevant_filtered": 4,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "GNN-Guided Local Refinement for Efficient Layout Decomposition with DSA-MP",
+            "summary": "Multiple patterning lithography (MPL) has been widely used to improve lithography resolution in advanced nodes, but it faces cost limits as feature sizes shrink. Directed self-assembly (DSA) offers a cost-effective complement, extending the resolution of optical lithography to sub-10 nm and beyond. ",
+            "published": "2026-10-15",
+            "url": "http://arxiv.org/abs/2610.22214v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Physics-Aware Distillation of a Grid Foundation Model for Real-Time Edge Inference",
+            "summary": "Grid foundation models (GridFMs) are graph transformers pretrained on a masked power-flow objective, and evaluate power flow orders of magnitude faster than an iterative solver. Their size, however, targets data-centre inference, whereas low-inertia operation increasingly asks for inference at the e",
+            "published": "2026-10-15",
+            "url": "http://arxiv.org/abs/2610.21833v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -8051,6 +8066,6 @@
       "node embedding",
       "graph transformer"
     ],
-    "last_watered": "2026-10-16T17:46:28.286505"
+    "last_watered": "2026-10-18T01:48:12.850009"
   }
 }
