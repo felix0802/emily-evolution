@@ -58090,7 +58090,76 @@
         "tokens"
       ],
       "first_seen_round": 419
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.23455v1",
+      "title": "HydraLLM: Adaptive Width Slicing for Elastic Text and Vision-Language Models",
+      "arxiv_id": "2610.23455",
+      "tokens": [
+        "adaptive",
+        "elastic",
+        "hydrallm",
+        "language",
+        "slicing",
+        "text",
+        "vision",
+        "width"
+      ],
+      "first_seen_round": 420
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.23338v1",
+      "title": "SETAREH Transform: A Sorting-Assisted Haar-Wavelet Sparsification Method for Approximate Inner-Product Computation",
+      "arxiv_id": "2610.23338",
+      "tokens": [
+        "approximate",
+        "assisted",
+        "computation",
+        "haar",
+        "inner",
+        "product",
+        "setareh",
+        "sorting",
+        "sparsification",
+        "transform",
+        "wavelet"
+      ],
+      "first_seen_round": 420
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.22811v1",
+      "title": "Replay Pruning and Few-Bit Integer Inference for Hardware-Efficient Speed-Sign Recognition",
+      "arxiv_id": "2610.22811",
+      "tokens": [
+        "bit",
+        "hardware",
+        "inference",
+        "integer",
+        "pruning",
+        "recognition",
+        "replay",
+        "sign",
+        "speed"
+      ],
+      "first_seen_round": 420
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.22543v1",
+      "title": "On the SPOT: Enhancing Speculative Decoding for Diffusion Language Models via Commit-Order Prediction",
+      "arxiv_id": "2610.22543",
+      "tokens": [
+        "commit",
+        "decoding",
+        "diffusion",
+        "enhancing",
+        "language",
+        "order",
+        "prediction",
+        "speculative",
+        "spot"
+      ],
+      "first_seen_round": 420
     }
   ],
-  "total_unique": 3645
+  "total_unique": 3649
 }

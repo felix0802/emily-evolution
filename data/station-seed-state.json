@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 788,
+  "_rotation_idx": 789,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 81,
@@ -6311,18 +6311,9 @@
   },
   "kv-cache": {
     "name": "KV Cache Optimization",
-    "total_papers_found": 113,
-    "watering_count": 76,
+    "total_papers_found": 114,
+    "watering_count": 77,
     "history": [
-      {
-        "timestamp": "2026-08-08T12:21:03.032149",
-        "papers_found": 0,
-        "duplicates": 6,
-        "irrelevant_filtered": 4,
-        "avg_relevance": 0.0,
-        "high_relevance": 0,
-        "papers": []
-      },
       {
         "timestamp": "2026-08-09T08:27:35.746805",
         "papers_found": 0,
@@ -7163,6 +7154,23 @@
         "avg_relevance": 0.0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-10-19T16:40:37.427991",
+        "papers_found": 1,
+        "duplicates": 5,
+        "irrelevant_filtered": 4,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "On the SPOT: Enhancing Speculative Decoding for Diffusion Language Models via Commit-Order Prediction",
+            "summary": "Diffusion language models (DLMs) promise parallel text generation, but in practice face an unresolved speed-quality trade-off. Exact decoding fills in only one masked position per model pass, while faster multi-token decoding schemes are lossy. Speculative decoding is the standard lossless accelerat",
+            "published": "2026-10-15",
+            "url": "http://arxiv.org/abs/2610.22543v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -7174,7 +7182,7 @@
       "flash attention",
       "speculative decoding"
     ],
-    "last_watered": "2026-10-17T23:34:31.713515"
+    "last_watered": "2026-10-19T16:40:37.427987"
   },
   "gnn": {
     "name": "Graph Neural Networks",
