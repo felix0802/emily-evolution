@@ -3968,6 +3968,36 @@
         ],
         "decided_at": "2026-10-18T21:59:21.915592"
       }
+    },
+    {
+      "id": "llm-接口漂移鲁棒函数调用",
+      "name": "接口漂移鲁棒函数调用",
+      "adopted_at": "2026-10-19T02:07:30.180896",
+      "decision": {
+        "tech_id": "llm-接口漂移鲁棒函数调用",
+        "tech_name": "接口漂移鲁棒函数调用",
+        "action": "adopt",
+        "confidence": 0.85,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-10-19T02:07:30.179244"
+      }
+    },
+    {
+      "id": "llm-查询条件化记忆编译",
+      "name": "查询条件化记忆编译",
+      "adopted_at": "2026-10-19T02:07:30.180911",
+      "decision": {
+        "tech_id": "llm-查询条件化记忆编译",
+        "tech_name": "查询条件化记忆编译",
+        "action": "adopt",
+        "confidence": 0.85,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-10-19T02:07:30.179442"
+      }
     }
   ],
   "history": [
@@ -5554,6 +5584,18 @@
       "tech_id": "llm-se(2)-等变网络最优性",
       "tech_name": "SE(2)-等变网络最优性",
       "timestamp": "2026-10-18T21:59:21.917570"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-接口漂移鲁棒函数调用",
+      "tech_name": "接口漂移鲁棒函数调用",
+      "timestamp": "2026-10-19T02:07:30.180899"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-查询条件化记忆编译",
+      "tech_name": "查询条件化记忆编译",
+      "timestamp": "2026-10-19T02:07:30.180912"
     }
   ]
 }

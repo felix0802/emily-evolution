@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 786,
+  "_rotation_idx": 787,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 81,
@@ -4538,18 +4538,9 @@
   },
   "continual-learning": {
     "name": "Continual Learning",
-    "total_papers_found": 116,
-    "watering_count": 79,
+    "total_papers_found": 117,
+    "watering_count": 80,
     "history": [
-      {
-        "timestamp": "2026-08-08T08:25:04.815510",
-        "papers_found": 0,
-        "duplicates": 6,
-        "irrelevant_filtered": 4,
-        "avg_relevance": 0.0,
-        "high_relevance": 0,
-        "papers": []
-      },
       {
         "timestamp": "2026-08-09T04:53:40.503009",
         "papers_found": 0,
@@ -5355,6 +5346,23 @@
             "seed_match_score": 1
           }
         ]
+      },
+      {
+        "timestamp": "2026-10-19T02:07:25.786042",
+        "papers_found": 1,
+        "duplicates": 1,
+        "irrelevant_filtered": 3,
+        "avg_relevance": 2.0,
+        "high_relevance": 1,
+        "papers": [
+          {
+            "title": "Sparse Autoencoders Can Induce Local Geometry for Mitigating Catastrophic Forgetting",
+            "summary": "Catastrophic forgetting remains a challenge in supervised continual learning, as adapting to new tasks causes representation drift and loss of previously learned information. This raises the question of which representational changes should be constrained while preserving plasticity. We therefore in",
+            "published": "2026-10-15",
+            "url": "http://arxiv.org/abs/2610.22439v1",
+            "seed_match_score": 2
+          }
+        ]
       }
     ],
     "keywords": [
@@ -5364,7 +5372,7 @@
       "ewc",
       "elastic weight"
     ],
-    "last_watered": "2026-10-17T19:46:07.533772"
+    "last_watered": "2026-10-19T02:07:25.786038"
   },
   "moe": {
     "name": "Mixture of Experts",

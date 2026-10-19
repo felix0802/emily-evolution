@@ -57826,7 +57826,109 @@
         "tomography"
       ],
       "first_seen_round": 414
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.23344v1",
+      "title": "Language Models Learn to Improve Language Models",
+      "arxiv_id": "2610.23344",
+      "tokens": [
+        "improve",
+        "language",
+        "language",
+        "learn"
+      ],
+      "first_seen_round": 418
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.23342v1",
+      "title": "Robust Function Calling for LLM Agents Under Interface Drift",
+      "arxiv_id": "2610.23342",
+      "tokens": [
+        "agents",
+        "calling",
+        "drift",
+        "function",
+        "interface",
+        "llm",
+        "robust"
+      ],
+      "first_seen_round": 418
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.23317v1",
+      "title": "AgentOnto: Ontology-Guided LLM Agents for Enterprise Data Analytics",
+      "arxiv_id": "2610.23317",
+      "tokens": [
+        "agentonto",
+        "agents",
+        "analytics",
+        "enterprise",
+        "guided",
+        "llm",
+        "ontology"
+      ],
+      "first_seen_round": 418
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.23313v1",
+      "title": "From Memory Hits to Answerable Evidence: Query-Conditioned Memory Compilation for Long-Term Agent Memory",
+      "arxiv_id": "2610.23313",
+      "tokens": [
+        "agent",
+        "answerable",
+        "compilation",
+        "conditioned",
+        "evidence",
+        "hits",
+        "long",
+        "memory",
+        "memory",
+        "memory",
+        "query",
+        "term"
+      ],
+      "first_seen_round": 418
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.23311v1",
+      "title": "Self-Reflective Chain-of-Thought (SRCoT): Evidence-Based Text Generation via a Closed-Loop Retrieve--Reflect--Revise Pipeline on Edge LLMs",
+      "arxiv_id": "2610.23311",
+      "tokens": [
+        "chain",
+        "closed",
+        "edge",
+        "evidence",
+        "generation",
+        "llms",
+        "loop",
+        "pipeline",
+        "reflect",
+        "reflective",
+        "retrieve",
+        "revise",
+        "self",
+        "srcot",
+        "text",
+        "thought"
+      ],
+      "first_seen_round": 418
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.22439v1",
+      "title": "Sparse Autoencoders Can Induce Local Geometry for Mitigating Catastrophic Forgetting",
+      "arxiv_id": "2610.22439",
+      "tokens": [
+        "autoencoders",
+        "catastrophic",
+        "forgetting",
+        "geometry",
+        "induce",
+        "local",
+        "mitigating",
+        "sparse"
+      ],
+      "first_seen_round": 418
     }
   ],
-  "total_unique": 3629
+  "total_unique": 3635
 }

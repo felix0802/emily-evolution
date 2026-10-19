@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-18T23:55:14.296920",
+  "timestamp": "2026-10-19T02:07:33.335052",
   "connections": [
     {
       "seed_a": "Liquid Networks",
@@ -15,7 +15,7 @@
         "time"
       ],
       "strength": 7,
-      "discovered_at": "2026-10-18T23:55:14.296843"
+      "discovered_at": "2026-10-19T02:07:33.335004"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -29,7 +29,7 @@
         "with"
       ],
       "strength": 6,
-      "discovered_at": "2026-10-18T23:55:14.296759"
+      "discovered_at": "2026-10-19T02:07:33.334950"
     },
     {
       "seed_a": "Non-Transformer Arch",
@@ -44,21 +44,21 @@
         "speculative"
       ],
       "strength": 6,
-      "discovered_at": "2026-10-18T23:55:14.296884"
+      "discovered_at": "2026-10-19T02:07:33.335029"
     },
     {
       "seed_a": "Continual Learning",
       "seed_b": "Mixture of Experts",
       "shared_keywords": [],
       "shared_paper_concepts": [
-        "drift",
         "framework",
         "learning",
+        "mitigating",
         "policy",
         "reinforcement"
       ],
       "strength": 5,
-      "discovered_at": "2026-10-18T23:55:14.296899"
+      "discovered_at": "2026-10-19T02:07:33.335038"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -71,7 +71,7 @@
         "training"
       ],
       "strength": 4,
-      "discovered_at": "2026-10-18T23:55:14.296740"
+      "discovered_at": "2026-10-19T02:07:33.334940"
     },
     {
       "seed_a": "Liquid Networks",
@@ -84,7 +84,7 @@
         "training"
       ],
       "strength": 4,
-      "discovered_at": "2026-10-18T23:55:14.296822"
+      "discovered_at": "2026-10-19T02:07:33.334991"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -96,7 +96,7 @@
         "with"
       ],
       "strength": 3,
-      "discovered_at": "2026-10-18T23:55:14.296750"
+      "discovered_at": "2026-10-19T02:07:33.334945"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -108,7 +108,7 @@
         "inference"
       ],
       "strength": 3,
-      "discovered_at": "2026-10-18T23:55:14.296772"
+      "discovered_at": "2026-10-19T02:07:33.334958"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -120,7 +120,7 @@
         "with"
       ],
       "strength": 3,
-      "discovered_at": "2026-10-18T23:55:14.296775"
+      "discovered_at": "2026-10-19T02:07:33.334960"
     },
     {
       "seed_a": "Liquid Networks",
@@ -132,7 +132,7 @@
         "state"
       ],
       "strength": 3,
-      "discovered_at": "2026-10-18T23:55:14.296778"
+      "discovered_at": "2026-10-19T02:07:33.334989"
     }
   ],
   "total_seeds": 10
