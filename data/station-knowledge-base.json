@@ -1,53 +1,6 @@
 {
   "sessions": [
     {
-      "timestamp": "2026-09-26T23:59:04.875163",
-      "arxiv_papers_count": 5,
-      "arxiv_top_keywords": [
-        "action",
-        "world",
-        "agents",
-        "traces",
-        "llm",
-        "their",
-        "code",
-        "discriminative",
-        "counterfactual",
-        "predictive"
-      ],
-      "arxiv_strategies": [
-        "cs.AI (fallback)",
-        "cs.AI (fallback)",
-        "cs.AI (fallback)"
-      ],
-      "huggingface_models": 10,
-      "huggingface_tasks": [
-        "sentence-similarity",
-        "unknown",
-        "fill-mask",
-        "text-ranking",
-        "feature-extraction"
-      ],
-      "ml_datasets": [
-        "Iris",
-        "Wine",
-        "Breast Cancer",
-        "Diabetes"
-      ],
-      "ml_total_tests": 22,
-      "github_trending_repos": 8,
-      "paperswithcode_papers": 8,
-      "evolution": {
-        "discovered": 14,
-        "adopted": 0,
-        "decisions": 0
-      },
-      "seed_watering": {
-        "seed_name": "",
-        "papers_found": 0
-      }
-    },
-    {
       "timestamp": "2026-09-27T03:29:34.368248",
       "arxiv_papers_count": 0,
       "arxiv_top_keywords": [],
@@ -4688,12 +4641,59 @@
         "seed_name": "Continual Learning",
         "papers_found": 2
       }
+    },
+    {
+      "timestamp": "2026-10-19T09:22:49.064019",
+      "arxiv_papers_count": 17,
+      "arxiv_top_keywords": [
+        "speculative",
+        "context",
+        "graph",
+        "decoding",
+        "sparse",
+        "attention",
+        "target",
+        "long",
+        "compression",
+        "agentic"
+      ],
+      "arxiv_strategies": [
+        "搜索: kv cache LLM",
+        "搜索: graph neural network recent",
+        "搜索: speculative decoding"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "unknown",
+        "text-generation",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 21,
+        "adopted": 2,
+        "decisions": 2
+      },
+      "seed_watering": {
+        "seed_name": "Mixture of Experts",
+        "papers_found": 7
+      }
     }
   ],
   "total_sessions": 101,
-  "last_updated": "2026-10-19T02:07:33.325719",
+  "last_updated": "2026-10-19T09:22:49.064037",
   "evolution_summary": {
-    "total_adopted": 266,
+    "total_adopted": 268,
     "adopted_list": [
       "Knowledge Distillation",
       "World Models / Model-Based RL",
@@ -4960,7 +4960,9 @@
       "子空间调优",
       "SE(2)-等变网络最优性",
       "接口漂移鲁棒函数调用",
-      "查询条件化记忆编译"
+      "查询条件化记忆编译",
+      "Speculative Decoding",
+      "Speculative Decoding"
     ],
     "seeds": {
       "mamba": {
@@ -5000,8 +5002,8 @@
       },
       "moe": {
         "name": "Mixture of Experts",
-        "watering": 75,
-        "papers": 117
+        "watering": 76,
+        "papers": 120
       },
       "kv-cache": {
         "name": "KV Cache Optimization",
@@ -5133,16 +5135,16 @@
       },
       "moe": {
         "name": "Mixture of Experts",
-        "new_papers": 117,
+        "new_papers": 120,
         "keywords_matched": [
+          "router",
           "deepseek",
           "moe",
-          "mixture of experts",
-          "router",
-          "expert routing"
+          "expert routing",
+          "mixture of experts"
         ],
-        "high_relevance_total": 85,
-        "avg_relevance_latest": 0.0,
+        "high_relevance_total": 88,
+        "avg_relevance_latest": 2.33,
         "best_papers_count": 10
       },
       "kv-cache": {
@@ -5160,6 +5162,6 @@
         "best_papers_count": 1
       }
     },
-    "last_evolution": "2026-10-19T02:07:33.327667"
+    "last_evolution": "2026-10-19T09:22:49.067492"
   }
 }

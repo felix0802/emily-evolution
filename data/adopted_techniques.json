@@ -3998,6 +3998,36 @@
         ],
         "decided_at": "2026-10-19T02:07:30.179442"
       }
+    },
+    {
+      "id": "llm-speculative-decoding",
+      "name": "Speculative Decoding",
+      "adopted_at": "2026-10-19T09:22:46.329118",
+      "decision": {
+        "tech_id": "llm-speculative-decoding",
+        "tech_name": "Speculative Decoding",
+        "action": "adopt",
+        "confidence": 0.95,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-10-19T09:22:46.326299"
+      }
+    },
+    {
+      "id": "auto-speculative decoding",
+      "name": "Speculative Decoding",
+      "adopted_at": "2026-10-19T09:22:46.329145",
+      "decision": {
+        "tech_id": "auto-speculative decoding",
+        "tech_name": "Speculative Decoding",
+        "action": "adopt",
+        "confidence": 0.35,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-10-19T09:22:46.326703"
+      }
     }
   ],
   "history": [
@@ -5596,6 +5626,18 @@
       "tech_id": "llm-查询条件化记忆编译",
       "tech_name": "查询条件化记忆编译",
       "timestamp": "2026-10-19T02:07:30.180912"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-speculative-decoding",
+      "tech_name": "Speculative Decoding",
+      "timestamp": "2026-10-19T09:22:46.329124"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "auto-speculative decoding",
+      "tech_name": "Speculative Decoding",
+      "timestamp": "2026-10-19T09:22:46.329146"
     }
   ]
 }

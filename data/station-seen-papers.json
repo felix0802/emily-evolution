@@ -57928,7 +57928,169 @@
         "sparse"
       ],
       "first_seen_round": 418
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.23787v1",
+      "title": "DLite: History-free Speculative Decoding for Agentic AI",
+      "arxiv_id": "2610.23787",
+      "tokens": [
+        "agentic",
+        "decoding",
+        "dlite",
+        "free",
+        "history",
+        "speculative"
+      ],
+      "first_seen_round": 419
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.22985v1",
+      "title": "Prism Attention: Proposal-Refined Index Sharing Mechanism for Efficient LLMs Inference",
+      "arxiv_id": "2610.22985",
+      "tokens": [
+        "attention",
+        "index",
+        "inference",
+        "llms",
+        "mechanism",
+        "prism",
+        "proposal",
+        "refined",
+        "sharing"
+      ],
+      "first_seen_round": 419
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.22640v1",
+      "title": "SAFETYEDIT: Sparse Internal Targets with Prompt-Wide Control for LLM Jailbreak Backdoors",
+      "arxiv_id": "2610.22640",
+      "tokens": [
+        "backdoors",
+        "control",
+        "internal",
+        "jailbreak",
+        "llm",
+        "prompt",
+        "safetyedit",
+        "sparse",
+        "targets",
+        "wide"
+      ],
+      "first_seen_round": 419
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.22595v1",
+      "title": "Diagnosing GNN Failure Modes with Layer-Wise Probe Entropy",
+      "arxiv_id": "2610.22595",
+      "tokens": [
+        "diagnosing",
+        "entropy",
+        "failure",
+        "gnn",
+        "layer",
+        "modes",
+        "probe",
+        "wise"
+      ],
+      "first_seen_round": 419
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.22432v1",
+      "title": "An Adaptive-Horizon Graph Neural Operator for coupled surrogate morphodynamic modelling",
+      "arxiv_id": "2610.22432",
+      "tokens": [
+        "adaptive",
+        "coupled",
+        "graph",
+        "horizon",
+        "modelling",
+        "morphodynamic",
+        "neural",
+        "operator",
+        "surrogate"
+      ],
+      "first_seen_round": 419
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.23818v1",
+      "title": "Acceptance Is Not Speed: Length Inflation in Training-Free Lossy Speculative Decoding",
+      "arxiv_id": "2610.23818",
+      "tokens": [
+        "acceptance",
+        "decoding",
+        "free",
+        "inflation",
+        "length",
+        "lossy",
+        "speculative",
+        "speed",
+        "training"
+      ],
+      "first_seen_round": 419
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.23613v1",
+      "title": "Trajectory-Triggered Sparse Collaborative Decoding",
+      "arxiv_id": "2610.23613",
+      "tokens": [
+        "collaborative",
+        "decoding",
+        "sparse",
+        "trajectory",
+        "triggered"
+      ],
+      "first_seen_round": 419
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.23443v1",
+      "title": "ScoutRoute: Efficient Mixture-of-Experts Routing Using Internal Language Model Signals",
+      "arxiv_id": "2610.23443",
+      "tokens": [
+        "experts",
+        "internal",
+        "language",
+        "mixture",
+        "routing",
+        "scoutroute",
+        "signals"
+      ],
+      "first_seen_round": 419
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.23185v1",
+      "title": "A Stronger Teacher Within: Strengthening MoE Models via On-Policy Bidirectional Distillation",
+      "arxiv_id": "2610.23185",
+      "tokens": [
+        "bidirectional",
+        "distillation",
+        "moe",
+        "policy",
+        "strengthening",
+        "stronger",
+        "teacher",
+        "within"
+      ],
+      "first_seen_round": 419
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.22454v1",
+      "title": "Where Prefill Expert Reduction Hurts MoE Models: A Few Prompt Tokens Carry Most of the Short-Answer F1 Loss",
+      "arxiv_id": "2610.22454",
+      "tokens": [
+        "answer",
+        "carry",
+        "expert",
+        "hurts",
+        "loss",
+        "moe",
+        "prefill",
+        "prompt",
+        "reduction",
+        "short",
+        "tokens"
+      ],
+      "first_seen_round": 419
     }
   ],
-  "total_unique": 3635
+  "total_unique": 3645
 }

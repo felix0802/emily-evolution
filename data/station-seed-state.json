@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 787,
+  "_rotation_idx": 788,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 81,
@@ -5376,18 +5376,9 @@
   },
   "moe": {
     "name": "Mixture of Experts",
-    "total_papers_found": 117,
-    "watering_count": 75,
+    "total_papers_found": 120,
+    "watering_count": 76,
     "history": [
-      {
-        "timestamp": "2026-08-08T10:18:58.471613",
-        "papers_found": 0,
-        "duplicates": 5,
-        "irrelevant_filtered": 5,
-        "avg_relevance": 0.0,
-        "high_relevance": 0,
-        "papers": []
-      },
       {
         "timestamp": "2026-08-09T06:34:31.362924",
         "papers_found": 0,
@@ -6274,6 +6265,37 @@
         "avg_relevance": 0.0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-10-19T09:22:40.911996",
+        "papers_found": 3,
+        "duplicates": 4,
+        "irrelevant_filtered": 3,
+        "avg_relevance": 2.33,
+        "high_relevance": 3,
+        "papers": [
+          {
+            "title": "ScoutRoute: Efficient Mixture-of-Experts Routing Using Internal Language Model Signals",
+            "summary": "Efficient expert routing is a fundamental challenge in Mixture-of-Experts (MoE) systems, particularly for heterogeneous collections of independently trained Large Language Mod els (LLMs). Existing routing approaches typically rely on jointly trained gating networks, prompt-based predictors, or compu",
+            "published": "2026-10-16",
+            "url": "http://arxiv.org/abs/2610.23443v1",
+            "seed_match_score": 3
+          },
+          {
+            "title": "A Stronger Teacher Within: Strengthening MoE Models via On-Policy Bidirectional Distillation",
+            "summary": "Reinforcement Learning with Verifiable Rewards (RLVR) has substantially improved Mixture-of-Experts (MoE) LLMs, but its outcome-level rewards provide only sparse supervision. On-Policy Distillation offers dense token-level feedback, yet requires a stronger compatible teacher, while on-policy self-di",
+            "published": "2026-10-16",
+            "url": "http://arxiv.org/abs/2610.23185v1",
+            "seed_match_score": 2
+          },
+          {
+            "title": "Where Prefill Expert Reduction Hurts MoE Models: A Few Prompt Tokens Carry Most of the Short-Answer F1 Loss",
+            "summary": "Running prompt tokens through fewer routed experts during prefill is a simple way to make mixture-of-experts (MoE) serving cheaper, yet it is unclear what this damages. We locate the damage with token-, layer- and attention-path interventions on short-answer question answering in four MoE families. ",
+            "published": "2026-10-15",
+            "url": "http://arxiv.org/abs/2610.22454v1",
+            "seed_match_score": 2
+          }
+        ]
       }
     ],
     "keywords": [
@@ -6285,7 +6307,7 @@
       "switch transformer",
       "deepseek"
     ],
-    "last_watered": "2026-10-17T21:49:01.501962"
+    "last_watered": "2026-10-19T09:22:40.911989"
   },
   "kv-cache": {
     "name": "KV Cache Optimization",
