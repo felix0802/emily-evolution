@@ -1,53 +1,6 @@
 {
   "sessions": [
     {
-      "timestamp": "2026-09-28T02:14:00.751636",
-      "arxiv_papers_count": 19,
-      "arxiv_top_keywords": [
-        "distribution",
-        "agents",
-        "their",
-        "context",
-        "reasoning",
-        "learning",
-        "confidence",
-        "efficiency",
-        "stop",
-        "attribute"
-      ],
-      "arxiv_strategies": [
-        "cs.AI 最新",
-        "cs.LG 最新",
-        "cs.AI (fallback)"
-      ],
-      "huggingface_models": 10,
-      "huggingface_tasks": [
-        "sentence-similarity",
-        "unknown",
-        "fill-mask",
-        "text-ranking",
-        "feature-extraction"
-      ],
-      "ml_datasets": [
-        "Iris",
-        "Wine",
-        "Breast Cancer",
-        "Diabetes"
-      ],
-      "ml_total_tests": 22,
-      "github_trending_repos": 8,
-      "paperswithcode_papers": 8,
-      "evolution": {
-        "discovered": 17,
-        "adopted": 0,
-        "decisions": 0
-      },
-      "seed_watering": {
-        "seed_name": "",
-        "papers_found": 0
-      }
-    },
-    {
       "timestamp": "2026-09-28T10:15:26.576343",
       "arxiv_papers_count": 5,
       "arxiv_top_keywords": [
@@ -4699,12 +4652,59 @@
         "seed_name": "HTM",
         "papers_found": 4
       }
+    },
+    {
+      "timestamp": "2026-10-20T18:10:10.184317",
+      "arxiv_papers_count": 18,
+      "arxiv_top_keywords": [
+        "world",
+        "neural",
+        "learning",
+        "graph",
+        "physics",
+        "transfer",
+        "latent",
+        "agent",
+        "contingency",
+        "analysis"
+      ],
+      "arxiv_strategies": [
+        "搜索: graph neural network",
+        "搜索: transfer learning",
+        "搜索: world model"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "unknown",
+        "text-generation",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 15,
+        "adopted": 1,
+        "decisions": 1
+      },
+      "seed_watering": {
+        "seed_name": "Spiking Neural Networks",
+        "papers_found": 10
+      }
     }
   ],
   "total_sessions": 101,
-  "last_updated": "2026-10-20T13:06:55.619721",
+  "last_updated": "2026-10-20T18:10:10.184335",
   "evolution_summary": {
-    "total_adopted": 272,
+    "total_adopted": 273,
     "adopted_list": [
       "Knowledge Distillation",
       "World Models / Model-Based RL",
@@ -4977,7 +4977,8 @@
       "平面基元持久记忆",
       "不确定性感知协同预测",
       "因果约束离线强化学习",
-      "KV 缓存 token 驱逐（SnapKV、H2O、AdaKV、L2Norm）"
+      "KV 缓存 token 驱逐（SnapKV、H2O、AdaKV、L2Norm）",
+      "Redundancy-Aware Input Filtering"
     ],
     "seeds": {
       "mamba": {
@@ -4997,8 +4998,8 @@
       },
       "spiking-nn": {
         "name": "Spiking Neural Networks",
-        "watering": 81,
-        "papers": 53
+        "watering": 82,
+        "papers": 57
       },
       "non-transformer": {
         "name": "Non-Transformer Arch",
@@ -5034,15 +5035,15 @@
     "seed_metrics": {
       "spiking-nn": {
         "name": "Spiking Neural Networks",
-        "new_papers": 53,
+        "new_papers": 57,
         "keywords_matched": [
-          "spiking",
           "snn",
-          "spike-timing",
-          "neuromorphic"
+          "neuromorphic",
+          "spiking",
+          "spike-timing"
         ],
-        "high_relevance_total": 38,
-        "avg_relevance_latest": 0.0,
+        "high_relevance_total": 40,
+        "avg_relevance_latest": 1.75,
         "best_papers_count": 10
       },
       "few-shot": {
@@ -5177,6 +5178,6 @@
         "best_papers_count": 1
       }
     },
-    "last_evolution": "2026-10-20T13:06:55.622611"
+    "last_evolution": "2026-10-20T18:10:10.188033"
   }
 }

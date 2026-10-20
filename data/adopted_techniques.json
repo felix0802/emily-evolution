@@ -4088,6 +4088,21 @@
         ],
         "decided_at": "2026-10-20T13:06:55.610707"
       }
+    },
+    {
+      "id": "llm-redundancy-aware-input-filteri",
+      "name": "Redundancy-Aware Input Filtering",
+      "adopted_at": "2026-10-20T18:10:10.175192",
+      "decision": {
+        "tech_id": "llm-redundancy-aware-input-filteri",
+        "tech_name": "Redundancy-Aware Input Filtering",
+        "action": "adopt",
+        "confidence": 0.65,
+        "reason": [
+          "预置技术(0.7)"
+        ],
+        "decided_at": "2026-10-20T18:10:10.172896"
+      }
     }
   ],
   "history": [
@@ -5722,6 +5737,12 @@
       "tech_id": "llm-kv-缓存-token-驱逐（snapkv、h2o、adak",
       "tech_name": "KV 缓存 token 驱逐（SnapKV、H2O、AdaKV、L2Norm）",
       "timestamp": "2026-10-20T13:06:55.612382"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-redundancy-aware-input-filteri",
+      "tech_name": "Redundancy-Aware Input Filtering",
+      "timestamp": "2026-10-20T18:10:10.175197"
     }
   ]
 }

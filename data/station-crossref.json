@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-20T13:06:55.630411",
+  "timestamp": "2026-10-20T18:10:10.201331",
   "connections": [
     {
       "seed_a": "Liquid Networks",
@@ -14,7 +14,7 @@
         "with"
       ],
       "strength": 6,
-      "discovered_at": "2026-10-20T13:06:55.630350"
+      "discovered_at": "2026-10-20T18:10:10.201189"
     },
     {
       "seed_a": "Non-Transformer Arch",
@@ -29,7 +29,7 @@
         "speculative"
       ],
       "strength": 6,
-      "discovered_at": "2026-10-20T13:06:55.630389"
+      "discovered_at": "2026-10-20T18:10:10.201290"
     },
     {
       "seed_a": "Continual Learning",
@@ -44,7 +44,7 @@
         "teacher"
       ],
       "strength": 6,
-      "discovered_at": "2026-10-20T13:06:55.630397"
+      "discovered_at": "2026-10-20T18:10:10.201307"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -57,7 +57,7 @@
         "with"
       ],
       "strength": 5,
-      "discovered_at": "2026-10-20T13:06:55.630315"
+      "discovered_at": "2026-10-20T18:10:10.201135"
     },
     {
       "seed_a": "Liquid Networks",
@@ -71,7 +71,20 @@
         "models"
       ],
       "strength": 5,
-      "discovered_at": "2026-10-20T13:06:55.630360"
+      "discovered_at": "2026-10-20T18:10:10.201208"
+    },
+    {
+      "seed_a": "Liquid Networks",
+      "seed_b": "Spiking Neural Networks",
+      "shared_keywords": [],
+      "shared_paper_concepts": [
+        "control",
+        "networks",
+        "neural",
+        "with"
+      ],
+      "strength": 4,
+      "discovered_at": "2026-10-20T18:10:10.201193"
     },
     {
       "seed_a": "Mixture of Experts",
@@ -84,19 +97,7 @@
         "prefill"
       ],
       "strength": 4,
-      "discovered_at": "2026-10-20T13:06:55.630402"
-    },
-    {
-      "seed_a": "Liquid Networks",
-      "seed_b": "Spiking Neural Networks",
-      "shared_keywords": [],
-      "shared_paper_concepts": [
-        "networks",
-        "neural",
-        "with"
-      ],
-      "strength": 3,
-      "discovered_at": "2026-10-20T13:06:55.630352"
+      "discovered_at": "2026-10-20T18:10:10.201315"
     },
     {
       "seed_a": "Liquid Networks",
@@ -108,7 +109,7 @@
         "with"
       ],
       "strength": 3,
-      "discovered_at": "2026-10-20T13:06:55.630354"
+      "discovered_at": "2026-10-20T18:10:10.201197"
     },
     {
       "seed_a": "Liquid Networks",
@@ -120,7 +121,7 @@
         "models"
       ],
       "strength": 3,
-      "discovered_at": "2026-10-20T13:06:55.630362"
+      "discovered_at": "2026-10-20T18:10:10.201211"
     },
     {
       "seed_a": "HTM",
@@ -132,7 +133,7 @@
         "with"
       ],
       "strength": 3,
-      "discovered_at": "2026-10-20T13:06:55.630366"
+      "discovered_at": "2026-10-20T18:10:10.201218"
     }
   ],
   "total_seeds": 10
