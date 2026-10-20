@@ -4028,6 +4028,21 @@
         ],
         "decided_at": "2026-10-19T09:22:46.326703"
       }
+    },
+    {
+      "id": "llm-平面基元持久记忆",
+      "name": "平面基元持久记忆",
+      "adopted_at": "2026-10-20T00:46:40.986867",
+      "decision": {
+        "tech_id": "llm-平面基元持久记忆",
+        "tech_name": "平面基元持久记忆",
+        "action": "adopt",
+        "confidence": 0.8,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-10-20T00:46:40.984605"
+      }
     }
   ],
   "history": [
@@ -5638,6 +5653,12 @@
       "tech_id": "auto-speculative decoding",
       "tech_name": "Speculative Decoding",
       "timestamp": "2026-10-19T09:22:46.329146"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-平面基元持久记忆",
+      "tech_name": "平面基元持久记忆",
+      "timestamp": "2026-10-20T00:46:40.986873"
     }
   ]
 }
