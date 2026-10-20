@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 792,
+  "_rotation_idx": 793,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 81,
@@ -1532,18 +1532,9 @@
   },
   "htm": {
     "name": "HTM",
-    "total_papers_found": 136,
-    "watering_count": 82,
+    "total_papers_found": 140,
+    "watering_count": 83,
     "history": [
-      {
-        "timestamp": "2026-08-08T20:14:59.819915",
-        "papers_found": 0,
-        "duplicates": 2,
-        "irrelevant_filtered": 8,
-        "avg_relevance": 0.0,
-        "high_relevance": 0,
-        "papers": []
-      },
       {
         "timestamp": "2026-08-09T16:19:21.662190",
         "papers_found": 0,
@@ -2472,6 +2463,37 @@
             "seed_match_score": 1
           }
         ]
+      },
+      {
+        "timestamp": "2026-10-20T13:06:50.445342",
+        "papers_found": 4,
+        "duplicates": 0,
+        "irrelevant_filtered": 6,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "A Simple and Unified Method for Gradient-Variation Regret",
+            "summary": "Gradient-variation online learning has attracted increasing attention for its connections to game theory and optimization. It has been studied in both non-stationary online learning, which aims to minimize dynamic regret against time-varying comparator sequences, and universal online learning, which",
+            "published": "2026-10-19",
+            "url": "http://arxiv.org/abs/2610.26473v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Neural Video Coding under Limited Delay: Theoretical Optimality and System Design",
+            "summary": "Traditional neural video compression (NVC) methods predominantly follow strictly causal predictive-coding paradigm, treating zero-frame delay as a fixed constraint rather than delay as an explicit design parameter. From an information-theoretic perspective, allowing limited frame delay enables a cod",
+            "published": "2026-10-19",
+            "url": "http://arxiv.org/abs/2610.25729v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "KPI-Aware Multimodal Anomaly Detection for 5G and Open RAN Telemetry",
+            "summary": "Reliable anomaly detection is a deployment bottleneck for 5G/Open RAN observability and emerging self-optimizing 6G systems, where hundreds of heterogeneous KPIs, severe class imbalance, and strict alert budgets make purely numerical scores brittle. We present KAC, a deployment-oriented KPI-aware mu",
+            "published": "2026-10-18",
+            "url": "http://arxiv.org/abs/2610.25510v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -2486,7 +2508,7 @@
       "anomaly detection",
       "continuous learning"
     ],
-    "last_watered": "2026-10-18T16:59:16.128672"
+    "last_watered": "2026-10-20T13:06:50.445339"
   },
   "spiking-nn": {
     "name": "Spiking Neural Networks",
