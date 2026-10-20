@@ -4043,6 +4043,36 @@
         ],
         "decided_at": "2026-10-20T00:46:40.984605"
       }
+    },
+    {
+      "id": "llm-不确定性感知协同预测",
+      "name": "不确定性感知协同预测",
+      "adopted_at": "2026-10-20T06:47:21.055109",
+      "decision": {
+        "tech_id": "llm-不确定性感知协同预测",
+        "tech_name": "不确定性感知协同预测",
+        "action": "adopt",
+        "confidence": 0.9,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-10-20T06:47:21.052679"
+      }
+    },
+    {
+      "id": "llm-因果约束离线强化学习",
+      "name": "因果约束离线强化学习",
+      "adopted_at": "2026-10-20T06:47:21.055136",
+      "decision": {
+        "tech_id": "llm-因果约束离线强化学习",
+        "tech_name": "因果约束离线强化学习",
+        "action": "adopt",
+        "confidence": 0.85,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-10-20T06:47:21.052889"
+      }
     }
   ],
   "history": [
@@ -5659,6 +5689,18 @@
       "tech_id": "llm-平面基元持久记忆",
       "tech_name": "平面基元持久记忆",
       "timestamp": "2026-10-20T00:46:40.986873"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-不确定性感知协同预测",
+      "tech_name": "不确定性感知协同预测",
+      "timestamp": "2026-10-20T06:47:21.055115"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-因果约束离线强化学习",
+      "tech_name": "因果约束离线强化学习",
+      "timestamp": "2026-10-20T06:47:21.055137"
     }
   ]
 }

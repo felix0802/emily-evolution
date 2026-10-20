@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 791,
+  "_rotation_idx": 792,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 81,
@@ -736,18 +736,9 @@
   },
   "liquid-networks": {
     "name": "Liquid Networks",
-    "total_papers_found": 102,
-    "watering_count": 82,
+    "total_papers_found": 108,
+    "watering_count": 83,
     "history": [
-      {
-        "timestamp": "2026-08-08T18:19:22.741321",
-        "papers_found": 0,
-        "duplicates": 9,
-        "irrelevant_filtered": 1,
-        "avg_relevance": 0.0,
-        "high_relevance": 0,
-        "papers": []
-      },
       {
         "timestamp": "2026-08-09T14:22:41.721056",
         "papers_found": 0,
@@ -1497,6 +1488,37 @@
             "seed_match_score": 2
           }
         ]
+      },
+      {
+        "timestamp": "2026-10-20T06:47:16.449343",
+        "papers_found": 6,
+        "duplicates": 1,
+        "irrelevant_filtered": 3,
+        "avg_relevance": 1.83,
+        "high_relevance": 5,
+        "papers": [
+          {
+            "title": "Trajectory Replay: Continuous-Time Mixture Transport for Lifelong Generative Models",
+            "summary": "Adapting pre-trained continuous-time generative models to sequentially incoming data without forgetting earlier tasks is a central challenge in lifelong learning. A leading strategy, generative replay, uses a generative model trained on historical tasks to augment its own continual update with synth",
+            "published": "2026-10-19",
+            "url": "http://arxiv.org/abs/2610.26749v1",
+            "seed_match_score": 2
+          },
+          {
+            "title": "Deep Pontryagin Learning for Continuous-Time Stochastic Control with Jumps",
+            "summary": "We develop a deep Pontryagin learning framework for high-dimensional continuous-time stochastic control problems that naturally accommodates jump-diffusions. In contrast to direct policy optimization, which repeatedly differentiates the objective through the entire time-discretized dynamics, our met",
+            "published": "2026-10-19",
+            "url": "http://arxiv.org/abs/2610.26718v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "CTLite: Lightweight Irregular Multivariate Time Series Forecasting with Reusable Continuous-Time Summaries",
+            "summary": "Irregular multivariate time series forecasting (IMTSF) requires capturing temporal dynamics and cross-variable dependencies from sparse, asynchronous observations. Existing methods often rely on learned temporal encoders, coupling historical representation construction with model optimisation and re",
+            "published": "2026-10-19",
+            "url": "http://arxiv.org/abs/2610.26379v1",
+            "seed_match_score": 2
+          }
+        ]
       }
     ],
     "keywords": [
@@ -1506,7 +1528,7 @@
       "ode",
       "continuous-time"
     ],
-    "last_watered": "2026-10-18T12:13:41.862761"
+    "last_watered": "2026-10-20T06:47:16.449336"
   },
   "htm": {
     "name": "HTM",

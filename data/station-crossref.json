@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-20T00:46:41.012110",
+  "timestamp": "2026-10-20T06:47:23.945244",
   "connections": [
     {
       "seed_a": "Non-Transformer Arch",
@@ -14,7 +14,7 @@
         "speculative"
       ],
       "strength": 6,
-      "discovered_at": "2026-10-20T00:46:41.012075"
+      "discovered_at": "2026-10-20T06:47:23.945210"
     },
     {
       "seed_a": "Continual Learning",
@@ -29,7 +29,7 @@
         "teacher"
       ],
       "strength": 6,
-      "discovered_at": "2026-10-20T00:46:41.012089"
+      "discovered_at": "2026-10-20T06:47:23.945222"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -42,20 +42,34 @@
         "with"
       ],
       "strength": 5,
-      "discovered_at": "2026-10-20T00:46:41.011963"
+      "discovered_at": "2026-10-20T06:47:23.945081"
     },
     {
       "seed_a": "Liquid Networks",
-      "seed_b": "Spiking Neural Networks",
+      "seed_b": "Mixture of Experts",
       "shared_keywords": [],
       "shared_paper_concepts": [
-        "networks",
-        "neural",
-        "temporal",
-        "training"
+        "control",
+        "language",
+        "learning",
+        "mixture",
+        "models"
+      ],
+      "strength": 5,
+      "discovered_at": "2026-10-20T06:47:23.945164"
+    },
+    {
+      "seed_a": "Liquid Networks",
+      "seed_b": "HTM",
+      "shared_keywords": [],
+      "shared_paper_concepts": [
+        "learning",
+        "quantum",
+        "state",
+        "with"
       ],
       "strength": 4,
-      "discovered_at": "2026-10-20T00:46:41.011979"
+      "discovered_at": "2026-10-20T06:47:23.945093"
     },
     {
       "seed_a": "Mixture of Experts",
@@ -68,31 +82,31 @@
         "prefill"
       ],
       "strength": 4,
-      "discovered_at": "2026-10-20T00:46:41.012097"
+      "discovered_at": "2026-10-20T06:47:23.945230"
     },
     {
       "seed_a": "Liquid Networks",
-      "seed_b": "HTM",
+      "seed_b": "Spiking Neural Networks",
       "shared_keywords": [],
       "shared_paper_concepts": [
-        "learning",
-        "quantum",
-        "state"
+        "networks",
+        "neural",
+        "with"
       ],
       "strength": 3,
-      "discovered_at": "2026-10-20T00:46:41.011975"
+      "discovered_at": "2026-10-20T06:47:23.945130"
     },
     {
       "seed_a": "Liquid Networks",
-      "seed_b": "Mixture of Experts",
+      "seed_b": "Non-Transformer Arch",
       "shared_keywords": [],
       "shared_paper_concepts": [
         "language",
-        "learning",
-        "models"
+        "models",
+        "with"
       ],
       "strength": 3,
-      "discovered_at": "2026-10-20T00:46:41.012029"
+      "discovered_at": "2026-10-20T06:47:23.945134"
     },
     {
       "seed_a": "Liquid Networks",
@@ -104,7 +118,7 @@
         "models"
       ],
       "strength": 3,
-      "discovered_at": "2026-10-20T00:46:41.012032"
+      "discovered_at": "2026-10-20T06:47:23.945167"
     },
     {
       "seed_a": "HTM",
@@ -116,19 +130,7 @@
         "with"
       ],
       "strength": 3,
-      "discovered_at": "2026-10-20T00:46:41.012042"
-    },
-    {
-      "seed_a": "Mixture of Experts",
-      "seed_b": "Graph Neural Networks",
-      "shared_keywords": [],
-      "shared_paper_concepts": [
-        "distillation",
-        "efficient",
-        "model"
-      ],
-      "strength": 3,
-      "discovered_at": "2026-10-20T00:46:41.012100"
+      "discovered_at": "2026-10-20T06:47:23.945176"
     }
   ],
   "total_seeds": 10
