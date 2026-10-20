@@ -4103,6 +4103,36 @@
         ],
         "decided_at": "2026-10-20T18:10:10.172896"
       }
+    },
+    {
+      "id": "llm-intervention-aware-forecasting",
+      "name": "Intervention-aware forecasting / scenario analysis",
+      "adopted_at": "2026-10-20T22:45:32.944299",
+      "decision": {
+        "tech_id": "llm-intervention-aware-forecasting",
+        "tech_name": "Intervention-aware forecasting / scenario analysis",
+        "action": "adopt",
+        "confidence": 0.9,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-10-20T22:45:32.942231"
+      }
+    },
+    {
+      "id": "llm-reusable-continuous-time-summa",
+      "name": "Reusable continuous-time summaries",
+      "adopted_at": "2026-10-20T22:45:32.944319",
+      "decision": {
+        "tech_id": "llm-reusable-continuous-time-summa",
+        "tech_name": "Reusable continuous-time summaries",
+        "action": "adopt",
+        "confidence": 0.85,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-10-20T22:45:32.942445"
+      }
     }
   ],
   "history": [
@@ -5743,6 +5773,18 @@
       "tech_id": "llm-redundancy-aware-input-filteri",
       "tech_name": "Redundancy-Aware Input Filtering",
       "timestamp": "2026-10-20T18:10:10.175197"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-intervention-aware-forecasting",
+      "tech_name": "Intervention-aware forecasting / scenario analysis",
+      "timestamp": "2026-10-20T22:45:32.944302"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-reusable-continuous-time-summa",
+      "tech_name": "Reusable continuous-time summaries",
+      "timestamp": "2026-10-20T22:45:32.944320"
     }
   ]
 }

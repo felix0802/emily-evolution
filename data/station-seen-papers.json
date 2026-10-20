@@ -59511,7 +59511,247 @@
         "variant"
       ],
       "first_seen_round": 425
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.26582v1",
+      "title": "WhatIf-Bench: Benchmarking Intervention-Aware Time Series Forecasting",
+      "arxiv_id": "2610.26582",
+      "tokens": [
+        "aware",
+        "bench",
+        "benchmarking",
+        "forecasting",
+        "intervention",
+        "series",
+        "time",
+        "whatif"
+      ],
+      "first_seen_round": 426
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.26114v1",
+      "title": "From Retrieval to Recognition:Knowledge-Enhanced Post-training of Time Series Foundation Models for Classification",
+      "arxiv_id": "2610.26114",
+      "tokens": [
+        "classification",
+        "enhanced",
+        "foundation",
+        "knowledge",
+        "post",
+        "recognition",
+        "retrieval",
+        "series",
+        "time",
+        "training"
+      ],
+      "first_seen_round": 426
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.25584v1",
+      "title": "CVTA: Cross-Variable Temporal Attention for Multivariate Irregular Time Series Prediction",
+      "arxiv_id": "2610.25584",
+      "tokens": [
+        "attention",
+        "cross",
+        "cvta",
+        "irregular",
+        "multivariate",
+        "prediction",
+        "series",
+        "temporal",
+        "time",
+        "variable"
+      ],
+      "first_seen_round": 426
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.25523v1",
+      "title": "FracTS: Hierarchical and Autoregressive Time Series Generation",
+      "arxiv_id": "2610.25523",
+      "tokens": [
+        "autoregressive",
+        "fracts",
+        "generation",
+        "hierarchical",
+        "series",
+        "time"
+      ],
+      "first_seen_round": 426
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.23765v1",
+      "title": "Universal Semantic Enhancement for Weakly Supervised Anomaly Detection",
+      "arxiv_id": "2610.23765",
+      "tokens": [
+        "anomaly",
+        "detection",
+        "enhancement",
+        "semantic",
+        "supervised",
+        "universal",
+        "weakly"
+      ],
+      "first_seen_round": 426
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.23692v1",
+      "title": "Expressivity of IQP Feature-Map Quantum Kernels via Reproducing Kernel Hilbert Spaces",
+      "arxiv_id": "2610.23692",
+      "tokens": [
+        "expressivity",
+        "feature",
+        "hilbert",
+        "iqp",
+        "kernel",
+        "kernels",
+        "map",
+        "quantum",
+        "reproducing",
+        "spaces"
+      ],
+      "first_seen_round": 426
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.24045v1",
+      "title": "What Remains Without Test Labels? Re-evaluating a Graph-Level Anomaly Detection Benchmark",
+      "arxiv_id": "2610.24045",
+      "tokens": [
+        "anomaly",
+        "benchmark",
+        "detection",
+        "evaluating",
+        "graph",
+        "labels",
+        "level",
+        "remains",
+        "test"
+      ],
+      "first_seen_round": 426
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.22705v1",
+      "title": "Data Provenance Aggregation and Structural Descriptors for Query-Template Identification",
+      "arxiv_id": "2610.22705",
+      "tokens": [
+        "aggregation",
+        "descriptors",
+        "identification",
+        "provenance",
+        "query",
+        "structural",
+        "template"
+      ],
+      "first_seen_round": 426
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.26370v1",
+      "title": "An Empirical Study of Parameter-Efficient Fine-Tuning for Mixture-of-Experts LLMs",
+      "arxiv_id": "2610.26370",
+      "tokens": [
+        "empirical",
+        "experts",
+        "fine",
+        "llms",
+        "mixture",
+        "parameter",
+        "tuning"
+      ],
+      "first_seen_round": 426
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.25999v1",
+      "title": "TempoMoE: Identifying and Steering Fast-Slow Thinking Experts for Efficient Multimodal Reasoning",
+      "arxiv_id": "2610.25999",
+      "tokens": [
+        "experts",
+        "fast",
+        "identifying",
+        "multimodal",
+        "reasoning",
+        "slow",
+        "steering",
+        "tempomoe",
+        "thinking"
+      ],
+      "first_seen_round": 426
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.25933v1",
+      "title": "The KV-Surgeon: Compensation-Aware Offline KV-Cache Compaction",
+      "arxiv_id": "2610.25933",
+      "tokens": [
+        "aware",
+        "cache",
+        "compaction",
+        "compensation",
+        "offline",
+        "surgeon"
+      ],
+      "first_seen_round": 426
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.23036v1",
+      "title": "Towards Looped Models Done Right, Part I: Topology, Input Injection, Recurrent-State Design",
+      "arxiv_id": "2610.23036",
+      "tokens": [
+        "design",
+        "done",
+        "injection",
+        "input",
+        "looped",
+        "part",
+        "recurrent",
+        "right",
+        "state",
+        "topology"
+      ],
+      "first_seen_round": 426
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.24014v1",
+      "title": "TWIN-MoE: Two-stage Intra-Expert Imputation Network for Incomplete Multimodal Learning",
+      "arxiv_id": "2610.24014",
+      "tokens": [
+        "expert",
+        "imputation",
+        "incomplete",
+        "intra",
+        "moe",
+        "multimodal",
+        "stage",
+        "twin"
+      ],
+      "first_seen_round": 426
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.26834v1",
+      "title": "Kronecker Delta Rule for Long Context Linear Attention",
+      "arxiv_id": "2610.26834",
+      "tokens": [
+        "attention",
+        "context",
+        "delta",
+        "kronecker",
+        "linear",
+        "long",
+        "rule"
+      ],
+      "first_seen_round": 426
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.25621v1",
+      "title": "Weighted State Souping for Efficient Long-Context Retrieval",
+      "arxiv_id": "2610.25621",
+      "tokens": [
+        "context",
+        "long",
+        "retrieval",
+        "souping",
+        "state",
+        "weighted"
+      ],
+      "first_seen_round": 426
     }
   ],
-  "total_unique": 3734
+  "total_unique": 3749
 }

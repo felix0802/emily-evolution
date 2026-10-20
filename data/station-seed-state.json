@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 794,
+  "_rotation_idx": 795,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 81,
@@ -3212,18 +3212,9 @@
   },
   "non-transformer": {
     "name": "Non-Transformer Arch",
-    "total_papers_found": 60,
-    "watering_count": 82,
+    "total_papers_found": 62,
+    "watering_count": 83,
     "history": [
-      {
-        "timestamp": "2026-08-09T00:44:28.613296",
-        "papers_found": 0,
-        "duplicates": 6,
-        "irrelevant_filtered": 4,
-        "avg_relevance": 0.0,
-        "high_relevance": 0,
-        "papers": []
-      },
       {
         "timestamp": "2026-08-09T20:17:30.173960",
         "papers_found": 0,
@@ -3972,6 +3963,30 @@
         "avg_relevance": 0.0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-10-20T22:45:28.536225",
+        "papers_found": 2,
+        "duplicates": 1,
+        "irrelevant_filtered": 7,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "Kronecker Delta Rule for Long Context Linear Attention",
+            "summary": "We propose KronLSTM, a linear attention architecture based on the Kronecker Delta Rule, a novel update rule for associative matrix memories. KronLSTM extends the xLSTM family with a memory-revision mechanism that corrects targeted associations while modifying the memory only along a single direction",
+            "published": "2026-10-19",
+            "url": "http://arxiv.org/abs/2610.26834v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Weighted State Souping for Efficient Long-Context Retrieval",
+            "summary": "State space models (SSMs) combine fast inference and fixed state size with competitive language-modeling performance. Recently, state souping has been proposed as a procedure whereby an SSM independently encodes chunks of tokens like documents, tool definitions, or memory records. The resulting stat",
+            "published": "2026-10-19",
+            "url": "http://arxiv.org/abs/2610.25621v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -3984,7 +3999,7 @@
       "sub-quadratic",
       "mamba"
     ],
-    "last_watered": "2026-10-18T21:59:17.696175"
+    "last_watered": "2026-10-20T22:45:28.536220"
   },
   "few-shot": {
     "name": "Few-Shot Learning",
