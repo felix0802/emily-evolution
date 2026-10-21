@@ -1,53 +1,6 @@
 {
   "sessions": [
     {
-      "timestamp": "2026-09-29T07:36:21.797970",
-      "arxiv_papers_count": 18,
-      "arxiv_top_keywords": [
-        "learning",
-        "graph",
-        "world",
-        "gnns",
-        "prediction",
-        "conditional",
-        "visual",
-        "stochastic",
-        "representation",
-        "neural"
-      ],
-      "arxiv_strategies": [
-        "搜索: graph neural network",
-        "搜索: transfer learning",
-        "搜索: world model"
-      ],
-      "huggingface_models": 10,
-      "huggingface_tasks": [
-        "sentence-similarity",
-        "unknown",
-        "text-ranking",
-        "feature-extraction",
-        "fill-mask"
-      ],
-      "ml_datasets": [
-        "Iris",
-        "Wine",
-        "Breast Cancer",
-        "Diabetes"
-      ],
-      "ml_total_tests": 22,
-      "github_trending_repos": 8,
-      "paperswithcode_papers": 8,
-      "evolution": {
-        "discovered": 15,
-        "adopted": 1,
-        "decisions": 1
-      },
-      "seed_watering": {
-        "seed_name": "Few-Shot Learning",
-        "papers_found": 3
-      }
-    },
-    {
       "timestamp": "2026-09-29T14:24:55.177598",
       "arxiv_papers_count": 18,
       "arxiv_top_keywords": [
@@ -4699,12 +4652,59 @@
         "seed_name": "Continual Learning",
         "papers_found": 7
       }
+    },
+    {
+      "timestamp": "2026-10-21T14:44:18.478314",
+      "arxiv_papers_count": 21,
+      "arxiv_top_keywords": [
+        "multi",
+        "scene",
+        "agentic",
+        "language",
+        "tasks",
+        "token",
+        "prediction",
+        "planning",
+        "neural",
+        "time"
+      ],
+      "arxiv_strategies": [
+        "cs.AI 最新",
+        "cs.LG 最新",
+        "cs.CL 最新"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "unknown",
+        "text-generation",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 13,
+        "adopted": 2,
+        "decisions": 2
+      },
+      "seed_watering": {
+        "seed_name": "Mixture of Experts",
+        "papers_found": 6
+      }
     }
   ],
   "total_sessions": 101,
-  "last_updated": "2026-10-21T08:56:41.026349",
+  "last_updated": "2026-10-21T14:44:18.478335",
   "evolution_summary": {
-    "total_adopted": 276,
+    "total_adopted": 278,
     "adopted_list": [
       "Knowledge Distillation",
       "World Models / Model-Based RL",
@@ -4981,7 +4981,9 @@
       "Redundancy-Aware Input Filtering",
       "Intervention-aware forecasting / scenario analysis",
       "Reusable continuous-time summaries",
-      "KV cache 工程与管理"
+      "KV cache 工程与管理",
+      "视频到3D运动重定向",
+      "统一世界-动作-语言模型"
     ],
     "seeds": {
       "mamba": {
@@ -5021,8 +5023,8 @@
       },
       "moe": {
         "name": "Mixture of Experts",
-        "watering": 76,
-        "papers": 120
+        "watering": 77,
+        "papers": 124
       },
       "kv-cache": {
         "name": "KV Cache Optimization",
@@ -5154,16 +5156,16 @@
       },
       "moe": {
         "name": "Mixture of Experts",
-        "new_papers": 120,
+        "new_papers": 124,
         "keywords_matched": [
           "router",
-          "deepseek",
-          "moe",
           "expert routing",
-          "mixture of experts"
+          "deepseek",
+          "mixture of experts",
+          "moe"
         ],
-        "high_relevance_total": 88,
-        "avg_relevance_latest": 2.33,
+        "high_relevance_total": 91,
+        "avg_relevance_latest": 2.0,
         "best_papers_count": 10
       },
       "kv-cache": {
@@ -5181,6 +5183,6 @@
         "best_papers_count": 1
       }
     },
-    "last_evolution": "2026-10-21T08:56:41.028966"
+    "last_evolution": "2026-10-21T14:44:18.482119"
   }
 }

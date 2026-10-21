@@ -111,14 +111,8 @@
       "timestamp": "2026-07-07T08:54:37.763781"
     }
   },
-  "evolution_count": 428,
+  "evolution_count": 429,
   "history": [
-    {
-      "evolution": 380,
-      "timestamp": "2026-10-11T16:53:17.165996",
-      "total_tests": 22,
-      "improvements": []
-    },
     {
       "evolution": 381,
       "timestamp": "2026-10-11T21:08:56.974922",
@@ -410,6 +404,12 @@
     {
       "evolution": 428,
       "timestamp": "2026-10-21T08:56:35.618348",
+      "total_tests": 22,
+      "improvements": []
+    },
+    {
+      "evolution": 429,
+      "timestamp": "2026-10-21T14:44:09.903779",
       "total_tests": 22,
       "improvements": []
     }

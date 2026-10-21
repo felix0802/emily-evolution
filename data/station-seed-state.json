@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 797,
+  "_rotation_idx": 798,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 81,
@@ -5501,18 +5501,9 @@
   },
   "moe": {
     "name": "Mixture of Experts",
-    "total_papers_found": 120,
-    "watering_count": 76,
+    "total_papers_found": 124,
+    "watering_count": 77,
     "history": [
-      {
-        "timestamp": "2026-08-09T06:34:31.362924",
-        "papers_found": 0,
-        "duplicates": 5,
-        "irrelevant_filtered": 5,
-        "avg_relevance": 0.0,
-        "high_relevance": 0,
-        "papers": []
-      },
       {
         "timestamp": "2026-08-10T03:41:43.460720",
         "papers_found": 1,
@@ -6421,6 +6412,37 @@
             "seed_match_score": 2
           }
         ]
+      },
+      {
+        "timestamp": "2026-10-21T14:44:10.383771",
+        "papers_found": 4,
+        "duplicates": 2,
+        "irrelevant_filtered": 4,
+        "avg_relevance": 2.0,
+        "high_relevance": 3,
+        "papers": [
+          {
+            "title": "Don't Skip the Baseline: A Controlled Comparison of Dynamic Expert Skipping in MoEs",
+            "summary": "A growing body of work proposes dynamic expert-skipping methods for Mixture-of-Experts (MoE) models that adjust the number of experts activated per token during inference, aiming to preserve model quality while further reducing the number of active parameters. These methods have added calibrated imp",
+            "published": "2026-10-20",
+            "url": "http://arxiv.org/abs/2610.28369v1",
+            "seed_match_score": 2
+          },
+          {
+            "title": "The Router Already Knows",
+            "summary": "Mixture-of-experts (MoE) models already make a sparse choice for every token: which experts should process it. We ask whether a sparse dictionary should reuse that choice. NR-SAE gives each routed expert a small dictionary and opens only those the frozen router selects. At block 15 of Gemma 4 26B-A4",
+            "published": "2026-10-20",
+            "url": "http://arxiv.org/abs/2610.27421v1",
+            "seed_match_score": 3
+          },
+          {
+            "title": "Reconstruction-Optimized Expert Pruning for Mixture-of-Experts Language Models",
+            "summary": "Mixture-of-Experts (MoE) models reduce computation through sparse expert activation, but deployment still requires storing a large number of expert parameters. We study post-training expert pruning using task-domain calibration data as a subset-selection problem: given a pretrained MoE layer, select",
+            "published": "2026-10-19",
+            "url": "http://arxiv.org/abs/2610.27123v1",
+            "seed_match_score": 2
+          }
+        ]
       }
     ],
     "keywords": [
@@ -6432,7 +6454,7 @@
       "switch transformer",
       "deepseek"
     ],
-    "last_watered": "2026-10-19T09:22:40.911989"
+    "last_watered": "2026-10-21T14:44:10.383766"
   },
   "kv-cache": {
     "name": "KV Cache Optimization",

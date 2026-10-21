@@ -4148,6 +4148,36 @@
         ],
         "decided_at": "2026-10-21T02:15:04.786059"
       }
+    },
+    {
+      "id": "llm-视频到3d运动重定向",
+      "name": "视频到3D运动重定向",
+      "adopted_at": "2026-10-21T14:44:15.573207",
+      "decision": {
+        "tech_id": "llm-视频到3d运动重定向",
+        "tech_name": "视频到3D运动重定向",
+        "action": "adopt",
+        "confidence": 0.85,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-10-21T14:44:15.570659"
+      }
+    },
+    {
+      "id": "llm-统一世界-动作-语言模型",
+      "name": "统一世界-动作-语言模型",
+      "adopted_at": "2026-10-21T14:44:15.573234",
+      "decision": {
+        "tech_id": "llm-统一世界-动作-语言模型",
+        "tech_name": "统一世界-动作-语言模型",
+        "action": "adopt",
+        "confidence": 0.8,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-10-21T14:44:15.570890"
+      }
     }
   ],
   "history": [
@@ -5806,6 +5836,18 @@
       "tech_id": "llm-kv-cache-工程与管理",
       "tech_name": "KV cache 工程与管理",
       "timestamp": "2026-10-21T02:15:04.788148"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-视频到3d运动重定向",
+      "tech_name": "视频到3D运动重定向",
+      "timestamp": "2026-10-21T14:44:15.573213"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-统一世界-动作-语言模型",
+      "tech_name": "统一世界-动作-语言模型",
+      "timestamp": "2026-10-21T14:44:15.573236"
     }
   ]
 }
