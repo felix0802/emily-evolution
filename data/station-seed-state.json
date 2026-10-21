@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 796,
+  "_rotation_idx": 797,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 81,
@@ -4641,18 +4641,9 @@
   },
   "continual-learning": {
     "name": "Continual Learning",
-    "total_papers_found": 117,
-    "watering_count": 80,
+    "total_papers_found": 123,
+    "watering_count": 81,
     "history": [
-      {
-        "timestamp": "2026-08-09T04:53:40.503009",
-        "papers_found": 0,
-        "duplicates": 6,
-        "irrelevant_filtered": 4,
-        "avg_relevance": 0.0,
-        "high_relevance": 0,
-        "papers": []
-      },
       {
         "timestamp": "2026-08-10T00:45:53.224333",
         "papers_found": 0,
@@ -5466,6 +5457,37 @@
             "seed_match_score": 2
           }
         ]
+      },
+      {
+        "timestamp": "2026-10-21T08:56:36.993498",
+        "papers_found": 6,
+        "duplicates": 1,
+        "irrelevant_filtered": 3,
+        "avg_relevance": 1.33,
+        "high_relevance": 2,
+        "papers": [
+          {
+            "title": "From Generic to Dedicated: A Novel Optimizer for Online Continual Learning",
+            "summary": "Online Continual Learning (OCL) requires models to learn from non-stationary data streams under a strict single-pass constraint, making them highly susceptible to catastrophic forgetting. While existing studies have explored various strategies from data, architecture, and optimization perspectives, ",
+            "published": "2026-10-20",
+            "url": "http://arxiv.org/abs/2610.27835v1",
+            "seed_match_score": 2
+          },
+          {
+            "title": "Training-Free Continual Learning for Multimodal Forecasting via Prompt Evolution",
+            "summary": "Adapting a forecasting system to a changing world classically means retraining. We ask whether the task of continually learning regimes for time series forecasting can be represented by a piece of text: a guidance block, evolved by outcome-driven reflection and used in a frozen LLM forecaster's prom",
+            "published": "2026-10-20",
+            "url": "http://arxiv.org/abs/2610.27468v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "WeAct: Dynamic Weight Switching as Agent Actions",
+            "summary": "Long-horizon agents must learn heterogeneous capabilities from interleaved trajectories. Updating shared parameters to learn new capabilities can degrade previously acquired ones, resulting in catastrophic forgetting. As a trajectory unfolds, different stages may require different capabilities, yet ",
+            "published": "2026-10-19",
+            "url": "http://arxiv.org/abs/2610.26847v2",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -5475,7 +5497,7 @@
       "ewc",
       "elastic weight"
     ],
-    "last_watered": "2026-10-19T02:07:25.786038"
+    "last_watered": "2026-10-21T08:56:36.993492"
   },
   "moe": {
     "name": "Mixture of Experts",

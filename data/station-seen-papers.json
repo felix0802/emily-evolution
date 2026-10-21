@@ -60052,7 +60052,134 @@
         "meta"
       ],
       "first_seen_round": 427
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.27952v1",
+      "title": "Unsupervised Head Network Personalization for Split Computing via Federated Learning",
+      "arxiv_id": "2610.27952",
+      "tokens": [
+        "computing",
+        "federated",
+        "head",
+        "personalization",
+        "split",
+        "unsupervised"
+      ],
+      "first_seen_round": 428
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.27555v1",
+      "title": "Can Native Safety Travel? Reusing Safety Pretraining Across Models via On-Policy Distillation",
+      "arxiv_id": "2610.27555",
+      "tokens": [
+        "distillation",
+        "native",
+        "policy",
+        "pretraining",
+        "reusing",
+        "safety",
+        "safety",
+        "travel"
+      ],
+      "first_seen_round": 428
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.24013v1",
+      "title": "SPADE-KD: Peer-to-Peer Collaborative Learning under Heterogeneous Settings",
+      "arxiv_id": "2610.24013",
+      "tokens": [
+        "collaborative",
+        "heterogeneous",
+        "peer",
+        "peer",
+        "settings",
+        "spade"
+      ],
+      "first_seen_round": 428
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.27835v1",
+      "title": "From Generic to Dedicated: A Novel Optimizer for Online Continual Learning",
+      "arxiv_id": "2610.27835",
+      "tokens": [
+        "continual",
+        "dedicated",
+        "generic",
+        "online",
+        "optimizer"
+      ],
+      "first_seen_round": 428
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.27468v1",
+      "title": "Training-Free Continual Learning for Multimodal Forecasting via Prompt Evolution",
+      "arxiv_id": "2610.27468",
+      "tokens": [
+        "continual",
+        "evolution",
+        "forecasting",
+        "free",
+        "multimodal",
+        "prompt",
+        "training"
+      ],
+      "first_seen_round": 428
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.26847v2",
+      "title": "WeAct: Dynamic Weight Switching as Agent Actions",
+      "arxiv_id": "2610.26847",
+      "tokens": [
+        "actions",
+        "agent",
+        "dynamic",
+        "switching",
+        "weact",
+        "weight"
+      ],
+      "first_seen_round": 428
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.25901v1",
+      "title": "Out-of-Distribution Detection in Continual Learning",
+      "arxiv_id": "2610.25901",
+      "tokens": [
+        "continual",
+        "detection",
+        "distribution"
+      ],
+      "first_seen_round": 428
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.25858v1",
+      "title": "Are Self-Evolving Agents Continual Learners?",
+      "arxiv_id": "2610.25858",
+      "tokens": [
+        "agents",
+        "continual",
+        "evolving",
+        "learners",
+        "self"
+      ],
+      "first_seen_round": 428
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.25751v1",
+      "title": "NADS: Navigator-Guided Data Selection for Mitigating Catastrophic Forgetting in Fine-Tuning",
+      "arxiv_id": "2610.25751",
+      "tokens": [
+        "catastrophic",
+        "fine",
+        "forgetting",
+        "guided",
+        "mitigating",
+        "nads",
+        "navigator",
+        "selection",
+        "tuning"
+      ],
+      "first_seen_round": 428
     }
   ],
-  "total_unique": 3770
+  "total_unique": 3779
 }
