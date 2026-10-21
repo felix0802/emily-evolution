@@ -372,18 +372,17 @@
   "gnn": {
     "name": "Graph Neural Networks",
     "total_new_papers": 160,
-    "total_watering": 64,
+    "total_watering": 65,
     "all_keywords_matched": [
       "graph transformer",
       "geometric",
-      "message passing",
-      "node embedding",
       "graph attention",
+      "message passing",
+      "graph neural",
       "gnn",
-      "graph neural"
+      "node embedding"
     ],
     "avg_relevance_trend": [
-      1.5,
       1.33,
       2.0,
       2.0,
@@ -402,6 +401,7 @@
       0.0,
       1.57,
       1.0,
+      0.0,
       0.0
     ],
     "high_relevance_total": 76,
@@ -457,7 +457,7 @@
         "published": "2026-08-21"
       }
     ],
-    "last_updated": "2026-10-19T21:47:43.558616"
+    "last_updated": "2026-10-21T22:51:26.522183"
   },
   "moe": {
     "name": "Mixture of Experts",

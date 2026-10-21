@@ -4193,6 +4193,36 @@
         ],
         "decided_at": "2026-10-21T19:44:04.106221"
       }
+    },
+    {
+      "id": "llm-混合灵巧模仿",
+      "name": "混合灵巧模仿",
+      "adopted_at": "2026-10-21T22:51:31.657299",
+      "decision": {
+        "tech_id": "llm-混合灵巧模仿",
+        "tech_name": "混合灵巧模仿",
+        "action": "adopt",
+        "confidence": 0.9,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-10-21T22:51:31.654972"
+      }
+    },
+    {
+      "id": "llm-连续时间策略梯度",
+      "name": "连续时间策略梯度",
+      "adopted_at": "2026-10-21T22:51:31.657324",
+      "decision": {
+        "tech_id": "llm-连续时间策略梯度",
+        "tech_name": "连续时间策略梯度",
+        "action": "adopt",
+        "confidence": 0.85,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-10-21T22:51:31.655156"
+      }
     }
   ],
   "history": [
@@ -5869,6 +5899,18 @@
       "tech_id": "llm-视频-3d统一世界模型",
       "tech_name": "视频-3D统一世界模型",
       "timestamp": "2026-10-21T19:44:04.108696"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-混合灵巧模仿",
+      "tech_name": "混合灵巧模仿",
+      "timestamp": "2026-10-21T22:51:31.657305"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-连续时间策略梯度",
+      "tech_name": "连续时间策略梯度",
+      "timestamp": "2026-10-21T22:51:31.657325"
     }
   ]
 }

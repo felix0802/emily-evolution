@@ -60647,7 +60647,207 @@
         "video"
       ],
       "first_seen_round": 430
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.28580v1",
+      "title": "Continuous-Time Policy Gradient from Discrete Data: Convergence Analysis and Model-Free Algorithms",
+      "arxiv_id": "2610.28580",
+      "tokens": [
+        "algorithms",
+        "continuous",
+        "convergence",
+        "discrete",
+        "free",
+        "gradient",
+        "policy",
+        "time"
+      ],
+      "first_seen_round": 431
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.28360v1",
+      "title": "Confessions of a Masked MDP",
+      "arxiv_id": "2610.28360",
+      "tokens": [
+        "confessions",
+        "masked",
+        "mdp"
+      ],
+      "first_seen_round": 431
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.28197v1",
+      "title": "Reframing Object-Centric Reinforcement Learning: From Absolute to Relative Representations",
+      "arxiv_id": "2610.28197",
+      "tokens": [
+        "absolute",
+        "centric",
+        "object",
+        "reframing",
+        "reinforcement",
+        "relative",
+        "representations"
+      ],
+      "first_seen_round": 431
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.28027v1",
+      "title": "From RL Papers to Framework Code: Inclusion and Review in Seven Open-Source Training Frameworks",
+      "arxiv_id": "2610.28027",
+      "tokens": [
+        "code",
+        "frameworks",
+        "inclusion",
+        "open",
+        "papers",
+        "seven",
+        "source",
+        "training"
+      ],
+      "first_seen_round": 431
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.28010v1",
+      "title": "RANGER: Retrieval Agent for Navigating Graphs with Semantic Evaluation Rewards",
+      "arxiv_id": "2610.28010",
+      "tokens": [
+        "agent",
+        "evaluation",
+        "graphs",
+        "navigating",
+        "ranger",
+        "retrieval",
+        "rewards",
+        "semantic"
+      ],
+      "first_seen_round": 431
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.28434v1",
+      "title": "Every Model Leaves a Trace: Multi-Resolution LLM Fingerprinting",
+      "arxiv_id": "2610.28434",
+      "tokens": [
+        "fingerprinting",
+        "leaves",
+        "llm",
+        "multi",
+        "resolution",
+        "trace"
+      ],
+      "first_seen_round": 431
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.28397v1",
+      "title": "MAS-Guard: Unified Guardrails from Individual Agents to Multi-Agent LLM Systems",
+      "arxiv_id": "2610.28397",
+      "tokens": [
+        "agent",
+        "agents",
+        "guard",
+        "guardrails",
+        "individual",
+        "llm",
+        "mas",
+        "multi",
+        "unified"
+      ],
+      "first_seen_round": 431
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.28381v1",
+      "title": "CAPSafe: A Benchmark for Contextual Action and Plan Safety Reasoning in Embodied Agents",
+      "arxiv_id": "2610.28381",
+      "tokens": [
+        "action",
+        "agents",
+        "benchmark",
+        "capsafe",
+        "contextual",
+        "embodied",
+        "plan",
+        "reasoning",
+        "safety"
+      ],
+      "first_seen_round": 431
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.28567v1",
+      "title": "Continual Concept Personalization in Diffusion Models via Residual-Space Adaptation",
+      "arxiv_id": "2610.28567",
+      "tokens": [
+        "adaptation",
+        "concept",
+        "continual",
+        "diffusion",
+        "personalization",
+        "residual",
+        "space"
+      ],
+      "first_seen_round": 431
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.27946v1",
+      "title": "Decoupling Action from Egocentric Observation for World Simulation",
+      "arxiv_id": "2610.27946",
+      "tokens": [
+        "action",
+        "decoupling",
+        "egocentric",
+        "observation",
+        "simulation",
+        "world"
+      ],
+      "first_seen_round": 431
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.27759v1",
+      "title": "PixelSR: Pixel-Space Orthogonal Flow Decoupling for Real-World Image Super-Resolution",
+      "arxiv_id": "2610.27759",
+      "tokens": [
+        "decoupling",
+        "flow",
+        "image",
+        "orthogonal",
+        "pixel",
+        "pixelsr",
+        "real",
+        "resolution",
+        "space",
+        "super",
+        "world"
+      ],
+      "first_seen_round": 431
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.27719v1",
+      "title": "Push-Pull Attentional Anchoring for Diffusion Concept Erasure",
+      "arxiv_id": "2610.27719",
+      "tokens": [
+        "anchoring",
+        "attentional",
+        "concept",
+        "diffusion",
+        "erasure",
+        "pull",
+        "push"
+      ],
+      "first_seen_round": 431
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.27564v1",
+      "title": "CityPaint: A Free Lunch from 2D Diffusion for City-Scale 3D Texturing",
+      "arxiv_id": "2610.27564",
+      "tokens": [
+        "city",
+        "citypaint",
+        "diffusion",
+        "free",
+        "lunch",
+        "scale",
+        "texturing"
+      ],
+      "first_seen_round": 431
     }
   ],
-  "total_unique": 3810
+  "total_unique": 3823
 }
