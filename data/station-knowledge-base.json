@@ -1,53 +1,6 @@
 {
   "sessions": [
     {
-      "timestamp": "2026-09-28T18:51:22.036878",
-      "arxiv_papers_count": 5,
-      "arxiv_top_keywords": [
-        "reasoning",
-        "learning",
-        "confidence",
-        "efficiency",
-        "stop",
-        "attribute",
-        "distribution",
-        "black",
-        "box",
-        "generative"
-      ],
-      "arxiv_strategies": [
-        "cs.AI (fallback)",
-        "cs.AI (fallback)",
-        "cs.AI (fallback)"
-      ],
-      "huggingface_models": 10,
-      "huggingface_tasks": [
-        "sentence-similarity",
-        "unknown",
-        "fill-mask",
-        "text-ranking",
-        "feature-extraction"
-      ],
-      "ml_datasets": [
-        "Iris",
-        "Wine",
-        "Breast Cancer",
-        "Diabetes"
-      ],
-      "ml_total_tests": 22,
-      "github_trending_repos": 8,
-      "paperswithcode_papers": 8,
-      "evolution": {
-        "discovered": 10,
-        "adopted": 0,
-        "decisions": 0
-      },
-      "seed_watering": {
-        "seed_name": "",
-        "papers_found": 0
-      }
-    },
-    {
       "timestamp": "2026-09-29T00:05:40.325540",
       "arxiv_papers_count": 5,
       "arxiv_top_keywords": [
@@ -4699,12 +4652,59 @@
         "seed_name": "Non-Transformer Arch",
         "papers_found": 3
       }
+    },
+    {
+      "timestamp": "2026-10-21T02:15:04.796883",
+      "arxiv_papers_count": 18,
+      "arxiv_top_keywords": [
+        "diffusion",
+        "block",
+        "graph",
+        "decoding",
+        "cache",
+        "context",
+        "memory",
+        "verifier",
+        "speculative",
+        "trajectories"
+      ],
+      "arxiv_strategies": [
+        "搜索: kv cache LLM",
+        "搜索: graph neural network recent",
+        "搜索: speculative decoding"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "unknown",
+        "text-generation",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 21,
+        "adopted": 1,
+        "decisions": 1
+      },
+      "seed_watering": {
+        "seed_name": "Few-Shot Learning",
+        "papers_found": 7
+      }
     }
   ],
   "total_sessions": 101,
-  "last_updated": "2026-10-20T22:45:37.013670",
+  "last_updated": "2026-10-21T02:15:04.796898",
   "evolution_summary": {
-    "total_adopted": 275,
+    "total_adopted": 276,
     "adopted_list": [
       "Knowledge Distillation",
       "World Models / Model-Based RL",
@@ -4980,7 +4980,8 @@
       "KV 缓存 token 驱逐（SnapKV、H2O、AdaKV、L2Norm）",
       "Redundancy-Aware Input Filtering",
       "Intervention-aware forecasting / scenario analysis",
-      "Reusable continuous-time summaries"
+      "Reusable continuous-time summaries",
+      "KV cache 工程与管理"
     ],
     "seeds": {
       "mamba": {
@@ -5010,8 +5011,8 @@
       },
       "few-shot": {
         "name": "Few-Shot Learning",
-        "watering": 81,
-        "papers": 46
+        "watering": 82,
+        "papers": 50
       },
       "continual-learning": {
         "name": "Continual Learning",
@@ -5050,16 +5051,16 @@
       },
       "few-shot": {
         "name": "Few-Shot Learning",
-        "new_papers": 41,
+        "new_papers": 45,
         "keywords_matched": [
-          "in-context",
-          "maml",
           "few-shot",
+          "in-context",
           "prototypical",
-          "meta-learning"
+          "meta-learning",
+          "maml"
         ],
         "high_relevance_total": 9,
-        "avg_relevance_latest": 0.0,
+        "avg_relevance_latest": 1.0,
         "best_papers_count": 0
       },
       "mamba": {
@@ -5180,6 +5181,6 @@
         "best_papers_count": 1
       }
     },
-    "last_evolution": "2026-10-20T22:45:37.016459"
+    "last_evolution": "2026-10-21T02:15:04.799613"
   }
 }

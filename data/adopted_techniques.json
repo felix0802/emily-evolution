@@ -4133,6 +4133,21 @@
         ],
         "decided_at": "2026-10-20T22:45:32.942445"
       }
+    },
+    {
+      "id": "llm-kv-cache-工程与管理",
+      "name": "KV cache 工程与管理",
+      "adopted_at": "2026-10-21T02:15:04.788144",
+      "decision": {
+        "tech_id": "llm-kv-cache-工程与管理",
+        "tech_name": "KV cache 工程与管理",
+        "action": "adopt",
+        "confidence": 0.9,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-10-21T02:15:04.786059"
+      }
     }
   ],
   "history": [
@@ -5785,6 +5800,12 @@
       "tech_id": "llm-reusable-continuous-time-summa",
       "tech_name": "Reusable continuous-time summaries",
       "timestamp": "2026-10-20T22:45:32.944320"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-kv-cache-工程与管理",
+      "tech_name": "KV cache 工程与管理",
+      "timestamp": "2026-10-21T02:15:04.788148"
     }
   ]
 }

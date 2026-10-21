@@ -59751,7 +59751,308 @@
         "weighted"
       ],
       "first_seen_round": 426
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.28577v1",
+      "title": "Cache Engineering for Agents",
+      "arxiv_id": "2610.28577",
+      "tokens": [
+        "agents",
+        "cache",
+        "engineering"
+      ],
+      "first_seen_round": 427
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.28489v1",
+      "title": "Asymmetric Looped Transformers: Fixed Global Representations for an Iterative Decoder",
+      "arxiv_id": "2610.28489",
+      "tokens": [
+        "asymmetric",
+        "decoder",
+        "fixed",
+        "global",
+        "iterative",
+        "looped",
+        "representations",
+        "transformers"
+      ],
+      "first_seen_round": 427
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.27583v1",
+      "title": "TeCoP: Accelerating Diffusion Large Language Model Decoding via Tentative Context Pipelining",
+      "arxiv_id": "2610.27583",
+      "tokens": [
+        "accelerating",
+        "context",
+        "decoding",
+        "diffusion",
+        "language",
+        "pipelining",
+        "tecop",
+        "tentative"
+      ],
+      "first_seen_round": 427
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.26825v2",
+      "title": "MemT-1.0: Towards Memory-Native Evolution",
+      "arxiv_id": "2610.26825",
+      "tokens": [
+        "evolution",
+        "memory",
+        "memt",
+        "native"
+      ],
+      "first_seen_round": 427
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.25456v1",
+      "title": "System X: An LLM Decision Model That Replies from Its Own KV Cache",
+      "arxiv_id": "2610.25456",
+      "tokens": [
+        "cache",
+        "decision",
+        "llm",
+        "replies"
+      ],
+      "first_seen_round": 427
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.24991v1",
+      "title": "Certified Sparse Attention via Perturbed Retrieval",
+      "arxiv_id": "2610.24991",
+      "tokens": [
+        "attention",
+        "certified",
+        "perturbed",
+        "retrieval",
+        "sparse"
+      ],
+      "first_seen_round": 427
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.28318v1",
+      "title": "Stabilizing Filters for Graph Signal Generation",
+      "arxiv_id": "2610.28318",
+      "tokens": [
+        "filters",
+        "generation",
+        "graph",
+        "signal",
+        "stabilizing"
+      ],
+      "first_seen_round": 427
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.27614v1",
+      "title": "Learning Inter-Graph Interactions Between Heterogeneous Substructures of Chemical Systems",
+      "arxiv_id": "2610.27614",
+      "tokens": [
+        "chemical",
+        "graph",
+        "heterogeneous",
+        "inter",
+        "interactions",
+        "substructures"
+      ],
+      "first_seen_round": 427
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.27558v1",
+      "title": "AnchorRM: Parallel Intra-Batch State Reconstruction with Anchor-Based Residual Memory for Temporal Graph Neural Networks",
+      "arxiv_id": "2610.27558",
+      "tokens": [
+        "anchor",
+        "anchorrm",
+        "batch",
+        "graph",
+        "intra",
+        "memory",
+        "neural",
+        "parallel",
+        "reconstruction",
+        "residual",
+        "state",
+        "temporal"
+      ],
+      "first_seen_round": 427
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.27107v1",
+      "title": "RGH-GNN : Risk-Gated Heterogeneous Graph Neural Network for Financial Fraud Detection",
+      "arxiv_id": "2610.27107",
+      "tokens": [
+        "detection",
+        "financial",
+        "fraud",
+        "gated",
+        "gnn",
+        "graph",
+        "heterogeneous",
+        "neural",
+        "rgh",
+        "risk"
+      ],
+      "first_seen_round": 427
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.27051v1",
+      "title": "Graph Neural Networks for Astrophysics and Cosmology",
+      "arxiv_id": "2610.27051",
+      "tokens": [
+        "astrophysics",
+        "cosmology",
+        "graph",
+        "neural"
+      ],
+      "first_seen_round": 427
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.28559v1",
+      "title": "Large Flow Language Models",
+      "arxiv_id": "2610.28559",
+      "tokens": [
+        "flow",
+        "language"
+      ],
+      "first_seen_round": 427
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.27815v1",
+      "title": "ProVe: Proposer-Verifier Decoding",
+      "arxiv_id": "2610.27815",
+      "tokens": [
+        "decoding",
+        "proposer",
+        "prove",
+        "verifier"
+      ],
+      "first_seen_round": 427
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.27379v1",
+      "title": "DStill: Trajectory Consistency Distillation for Accelerated One-Step Drafting in Block Diffusion Speculative Decoding",
+      "arxiv_id": "2610.27379",
+      "tokens": [
+        "accelerated",
+        "block",
+        "consistency",
+        "decoding",
+        "diffusion",
+        "distillation",
+        "drafting",
+        "dstill",
+        "speculative",
+        "step",
+        "trajectory"
+      ],
+      "first_seen_round": 427
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.26531v1",
+      "title": "ReAnchor: Reusing Rejected Verifier States for Diffusion Drafting",
+      "arxiv_id": "2610.26531",
+      "tokens": [
+        "diffusion",
+        "drafting",
+        "reanchor",
+        "rejected",
+        "reusing",
+        "states",
+        "verifier"
+      ],
+      "first_seen_round": 427
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.24993v2",
+      "title": "When Does Better Acceptance Pay? A Controlled Study of Speculative Decoding",
+      "arxiv_id": "2610.24993",
+      "tokens": [
+        "acceptance",
+        "better",
+        "controlled",
+        "decoding",
+        "pay",
+        "speculative"
+      ],
+      "first_seen_round": 427
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.24722v1",
+      "title": "PV-Decoding: Progressive Verification Decoding with Decode Gating for Diffusion Language Models",
+      "arxiv_id": "2610.24722",
+      "tokens": [
+        "decode",
+        "decoding",
+        "decoding",
+        "diffusion",
+        "gating",
+        "language",
+        "progressive",
+        "verification"
+      ],
+      "first_seen_round": 427
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.27180v1",
+      "title": "Meta-iLaD: Identifiable Latent Dynamics via Meta-Learning of Dynamics Environments",
+      "arxiv_id": "2610.27180",
+      "tokens": [
+        "dynamics",
+        "dynamics",
+        "environments",
+        "identifiable",
+        "ilad",
+        "latent",
+        "meta",
+        "meta"
+      ],
+      "first_seen_round": 427
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.26839v1",
+      "title": "Newton-Based Methods for Bilevel Optimization Beyond Lower-Level Strong Convexity",
+      "arxiv_id": "2610.26839",
+      "tokens": [
+        "bilevel",
+        "convexity",
+        "level",
+        "lower",
+        "newton",
+        "optimization",
+        "strong"
+      ],
+      "first_seen_round": 427
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.27029v1",
+      "title": "EGiME: Entropy-Guided Model Evaluation in Few-Shot Learning",
+      "arxiv_id": "2610.27029",
+      "tokens": [
+        "egime",
+        "entropy",
+        "evaluation",
+        "guided",
+        "shot"
+      ],
+      "first_seen_round": 427
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.25749v1",
+      "title": "Cognitively Decoupled Meta-Induction for Out-of-Distribution Generalization",
+      "arxiv_id": "2610.25749",
+      "tokens": [
+        "cognitively",
+        "decoupled",
+        "distribution",
+        "generalization",
+        "induction",
+        "meta"
+      ],
+      "first_seen_round": 427
     }
   ],
-  "total_unique": 3749
+  "total_unique": 3770
 }
