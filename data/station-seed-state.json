@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 798,
+  "_rotation_idx": 799,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 81,
@@ -6458,18 +6458,9 @@
   },
   "kv-cache": {
     "name": "KV Cache Optimization",
-    "total_papers_found": 114,
-    "watering_count": 77,
+    "total_papers_found": 116,
+    "watering_count": 78,
     "history": [
-      {
-        "timestamp": "2026-08-09T08:27:35.746805",
-        "papers_found": 0,
-        "duplicates": 6,
-        "irrelevant_filtered": 4,
-        "avg_relevance": 0.0,
-        "high_relevance": 0,
-        "papers": []
-      },
       {
         "timestamp": "2026-08-10T05:14:03.711021",
         "papers_found": 2,
@@ -7318,6 +7309,30 @@
             "seed_match_score": 1
           }
         ]
+      },
+      {
+        "timestamp": "2026-10-21T19:44:00.113262",
+        "papers_found": 2,
+        "duplicates": 3,
+        "irrelevant_filtered": 5,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "Beyond the Point Mass: Acceptance-Derived Weights and Distributional Losses for Speculative Decoding",
+            "summary": "In speculative decoding, a lightweight draft model proposes tokens that the target model verifies in parallel, speeding up generation without changing the target distribution. D-PACE (Wu et al., 2026) trains such drafters with a loss that weights each position by its contribution to the expected acc",
+            "published": "2026-10-20",
+            "url": "http://arxiv.org/abs/2610.28355v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Offline Makes Online Better: Calibrated Cache Compression for Video Generation",
+            "summary": "Token merging is an effective approach to reducing KV-cache memory consumption in autoregressive video generation by clustering temporally redundant tokens and retaining only a small set of representatives. Existing methods, however, typically apply a uniform merging ratio across all attention layer",
+            "published": "2026-10-20",
+            "url": "http://arxiv.org/abs/2610.28192v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -7329,7 +7344,7 @@
       "flash attention",
       "speculative decoding"
     ],
-    "last_watered": "2026-10-19T16:40:37.427987"
+    "last_watered": "2026-10-21T19:44:00.113255"
   },
   "gnn": {
     "name": "Graph Neural Networks",
