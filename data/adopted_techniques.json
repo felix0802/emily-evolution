@@ -4223,6 +4223,21 @@
         ],
         "decided_at": "2026-10-21T22:51:31.655156"
       }
+    },
+    {
+      "id": "llm-多目标搜索（multi-objective-search）",
+      "name": "多目标搜索（Multi-Objective Search）",
+      "adopted_at": "2026-10-22T02:09:36.028430",
+      "decision": {
+        "tech_id": "llm-多目标搜索（multi-objective-search）",
+        "tech_name": "多目标搜索（Multi-Objective Search）",
+        "action": "adopt",
+        "confidence": 0.8,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-10-22T02:09:36.025854"
+      }
     }
   ],
   "history": [
@@ -5911,6 +5926,12 @@
       "tech_id": "llm-连续时间策略梯度",
       "tech_name": "连续时间策略梯度",
       "timestamp": "2026-10-21T22:51:31.657325"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-多目标搜索（multi-objective-search）",
+      "tech_name": "多目标搜索（Multi-Objective Search）",
+      "timestamp": "2026-10-22T02:09:36.028435"
     }
   ]
 }

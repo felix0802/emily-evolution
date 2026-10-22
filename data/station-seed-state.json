@@ -1,19 +1,10 @@
 {
-  "_rotation_idx": 800,
+  "_rotation_idx": 801,
   "mamba": {
     "name": "Mamba (SSM)",
-    "total_papers_found": 81,
-    "watering_count": 83,
+    "total_papers_found": 85,
+    "watering_count": 84,
     "history": [
-      {
-        "timestamp": "2026-08-09T12:22:49.756773",
-        "papers_found": 0,
-        "duplicates": 7,
-        "irrelevant_filtered": 3,
-        "avg_relevance": 0.0,
-        "high_relevance": 0,
-        "papers": []
-      },
       {
         "timestamp": "2026-08-10T09:04:19.859960",
         "papers_found": 0,
@@ -724,6 +715,37 @@
         "avg_relevance": 0.0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-10-22T02:09:31.212757",
+        "papers_found": 4,
+        "duplicates": 3,
+        "irrelevant_filtered": 3,
+        "avg_relevance": 1.5,
+        "high_relevance": 2,
+        "papers": [
+          {
+            "title": "SSMCGM-Stream: A Streaming State-Space Model for Personalized Diabetes Management",
+            "summary": "Continuous glucose monitoring supports diabetes management but requires forecasting models that are accurate, interpretable, and efficient enough for real-time deployment. We present SSMCGM-Stream, a streaming state-space model that maintains a personalized hidden state updated with each incoming gl",
+            "published": "2026-10-20",
+            "url": "http://arxiv.org/abs/2610.28976v1",
+            "seed_match_score": 2
+          },
+          {
+            "title": "Understanding the Inner Workings of a State-Space Foundation Model for Limit Order Books",
+            "summary": "Autoregressive foundation models offer state-of-the-art capabilities to simulate the market by generating the message flow of limit order books (LOBs). Yet, without understanding their inner workings, research directions are hard to narrow and practical use in real-world trading environments remains",
+            "published": "2026-10-20",
+            "url": "http://arxiv.org/abs/2610.28753v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "GraphCast-Mamba: Learning Non-Markovian Corrections for Weather Forecasting",
+            "summary": "Unresolved atmospheric processes can introduce history dependence beyond the short input windows used by many weather forecasting models. We introduce GraphCast--Mamba, which augments a frozen, pretrained $1^\\circ$ GraphCast backbone with a trainable Mamba correction branch combining graph message p",
+            "published": "2026-10-20",
+            "url": "http://arxiv.org/abs/2610.28512v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -732,7 +754,7 @@
       "ssm",
       "selective scan"
     ],
-    "last_watered": "2026-10-20T00:46:37.115216"
+    "last_watered": "2026-10-22T02:09:31.212750"
   },
   "liquid-networks": {
     "name": "Liquid Networks",

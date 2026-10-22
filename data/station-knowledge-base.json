@@ -1,53 +1,6 @@
 {
   "sessions": [
     {
-      "timestamp": "2026-09-30T00:49:40.718063",
-      "arxiv_papers_count": 18,
-      "arxiv_top_keywords": [
-        "distillation",
-        "learning",
-        "language",
-        "attention",
-        "memory",
-        "autoregressive",
-        "transformers",
-        "bidirectional",
-        "diffusion",
-        "state"
-      ],
-      "arxiv_strategies": [
-        "搜索: multi-query attention",
-        "搜索: geometric deep learning",
-        "搜索: knowledge distillation"
-      ],
-      "huggingface_models": 10,
-      "huggingface_tasks": [
-        "sentence-similarity",
-        "unknown",
-        "fill-mask",
-        "text-ranking",
-        "feature-extraction"
-      ],
-      "ml_datasets": [
-        "Iris",
-        "Wine",
-        "Breast Cancer",
-        "Diabetes"
-      ],
-      "ml_total_tests": 22,
-      "github_trending_repos": 8,
-      "paperswithcode_papers": 8,
-      "evolution": {
-        "discovered": 23,
-        "adopted": 0,
-        "decisions": 0
-      },
-      "seed_watering": {
-        "seed_name": "KV Cache Optimization",
-        "papers_found": 6
-      }
-    },
-    {
       "timestamp": "2026-09-30T07:36:23.600627",
       "arxiv_papers_count": 15,
       "arxiv_top_keywords": [
@@ -4699,12 +4652,59 @@
         "seed_name": "Graph Neural Networks",
         "papers_found": 3
       }
+    },
+    {
+      "timestamp": "2026-10-22T02:09:36.037693",
+      "arxiv_papers_count": 18,
+      "arxiv_top_keywords": [
+        "multi",
+        "neural",
+        "agent",
+        "learning",
+        "semantic",
+        "information",
+        "complex",
+        "histories",
+        "predictive",
+        "graph"
+      ],
+      "arxiv_strategies": [
+        "搜索: neural architecture",
+        "搜索: self-supervised learning",
+        "搜索: multi-agent system"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "unknown",
+        "text-generation",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 21,
+        "adopted": 1,
+        "decisions": 1
+      },
+      "seed_watering": {
+        "seed_name": "Mamba (SSM)",
+        "papers_found": 7
+      }
     }
   ],
   "total_sessions": 101,
-  "last_updated": "2026-10-21T22:51:34.907151",
+  "last_updated": "2026-10-22T02:09:36.037708",
   "evolution_summary": {
-    "total_adopted": 281,
+    "total_adopted": 282,
     "adopted_list": [
       "Knowledge Distillation",
       "World Models / Model-Based RL",
@@ -4986,13 +4986,14 @@
       "统一世界-动作-语言模型",
       "视频-3D统一世界模型",
       "混合灵巧模仿",
-      "连续时间策略梯度"
+      "连续时间策略梯度",
+      "多目标搜索（Multi-Objective Search）"
     ],
     "seeds": {
       "mamba": {
         "name": "Mamba (SSM)",
-        "watering": 83,
-        "papers": 81
+        "watering": 84,
+        "papers": 85
       },
       "liquid-networks": {
         "name": "Liquid Networks",
@@ -5070,15 +5071,15 @@
       },
       "mamba": {
         "name": "Mamba (SSM)",
-        "new_papers": 76,
+        "new_papers": 80,
         "keywords_matched": [
-          "state space",
-          "selective scan",
           "ssm",
-          "mamba"
+          "state space",
+          "mamba",
+          "selective scan"
         ],
-        "high_relevance_total": 31,
-        "avg_relevance_latest": 0.0,
+        "high_relevance_total": 33,
+        "avg_relevance_latest": 1.5,
         "best_papers_count": 5
       },
       "liquid-networks": {
@@ -5186,6 +5187,6 @@
         "best_papers_count": 1
       }
     },
-    "last_evolution": "2026-10-21T22:51:34.910329"
+    "last_evolution": "2026-10-22T02:09:36.041130"
   }
 }

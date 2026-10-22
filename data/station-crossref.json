@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-21T22:51:34.922711",
+  "timestamp": "2026-10-22T02:09:36.054494",
   "connections": [
     {
       "seed_a": "Liquid Networks",
@@ -14,7 +14,21 @@
         "with"
       ],
       "strength": 6,
-      "discovered_at": "2026-10-21T22:51:34.922616"
+      "discovered_at": "2026-10-22T02:09:36.054392"
+    },
+    {
+      "seed_a": "Mamba (SSM)",
+      "seed_b": "Liquid Networks",
+      "shared_keywords": [],
+      "shared_paper_concepts": [
+        "forecasting",
+        "learning",
+        "space",
+        "state",
+        "with"
+      ],
+      "strength": 5,
+      "discovered_at": "2026-10-22T02:09:36.054355"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -23,9 +37,24 @@
         "mamba",
         "state space"
       ],
-      "shared_paper_concepts": [],
+      "shared_paper_concepts": [
+        "state"
+      ],
+      "strength": 5,
+      "discovered_at": "2026-10-22T02:09:36.054371"
+    },
+    {
+      "seed_a": "Mamba (SSM)",
+      "seed_b": "Graph Neural Networks",
+      "shared_keywords": [],
+      "shared_paper_concepts": [
+        "foundation",
+        "inference",
+        "model",
+        "with"
+      ],
       "strength": 4,
-      "discovered_at": "2026-10-21T22:51:34.922603"
+      "discovered_at": "2026-10-22T02:09:36.054388"
     },
     {
       "seed_a": "Liquid Networks",
@@ -38,7 +67,43 @@
         "with"
       ],
       "strength": 4,
-      "discovered_at": "2026-10-21T22:51:34.922620"
+      "discovered_at": "2026-10-22T02:09:36.054396"
+    },
+    {
+      "seed_a": "Mamba (SSM)",
+      "seed_b": "HTM",
+      "shared_keywords": [],
+      "shared_paper_concepts": [
+        "learning",
+        "state",
+        "with"
+      ],
+      "strength": 3,
+      "discovered_at": "2026-10-22T02:09:36.054363"
+    },
+    {
+      "seed_a": "Mamba (SSM)",
+      "seed_b": "Continual Learning",
+      "shared_keywords": [],
+      "shared_paper_concepts": [
+        "forecasting",
+        "learning",
+        "training"
+      ],
+      "strength": 3,
+      "discovered_at": "2026-10-22T02:09:36.054378"
+    },
+    {
+      "seed_a": "Mamba (SSM)",
+      "seed_b": "KV Cache Optimization",
+      "shared_keywords": [],
+      "shared_paper_concepts": [
+        "better",
+        "order",
+        "prediction"
+      ],
+      "strength": 3,
+      "discovered_at": "2026-10-22T02:09:36.054384"
     },
     {
       "seed_a": "Liquid Networks",
@@ -50,7 +115,7 @@
         "models"
       ],
       "strength": 3,
-      "discovered_at": "2026-10-21T22:51:34.922632"
+      "discovered_at": "2026-10-22T02:09:36.054408"
     },
     {
       "seed_a": "Liquid Networks",
@@ -62,65 +127,7 @@
         "models"
       ],
       "strength": 3,
-      "discovered_at": "2026-10-21T22:51:34.922635"
-    },
-    {
-      "seed_a": "HTM",
-      "seed_b": "Spiking Neural Networks",
-      "shared_keywords": [],
-      "shared_paper_concepts": [
-        "design",
-        "neural",
-        "with"
-      ],
-      "strength": 3,
-      "discovered_at": "2026-10-21T22:51:34.922641"
-    },
-    {
-      "seed_a": "HTM",
-      "seed_b": "Continual Learning",
-      "shared_keywords": [],
-      "shared_paper_concepts": [
-        "learning",
-        "multimodal",
-        "online"
-      ],
-      "strength": 3,
-      "discovered_at": "2026-10-21T22:51:34.922649"
-    },
-    {
-      "seed_a": "Mixture of Experts",
-      "seed_b": "Graph Neural Networks",
-      "shared_keywords": [],
-      "shared_paper_concepts": [
-        "distillation",
-        "efficient",
-        "model"
-      ],
-      "strength": 3,
-      "discovered_at": "2026-10-21T22:51:34.922703"
-    },
-    {
-      "seed_a": "Mamba (SSM)",
-      "seed_b": "Spiking Neural Networks",
-      "shared_keywords": [],
-      "shared_paper_concepts": [
-        "training",
-        "with"
-      ],
-      "strength": 2,
-      "discovered_at": "2026-10-21T22:51:34.922600"
-    },
-    {
-      "seed_a": "Mamba (SSM)",
-      "seed_b": "KV Cache Optimization",
-      "shared_keywords": [],
-      "shared_paper_concepts": [
-        "better",
-        "prediction"
-      ],
-      "strength": 2,
-      "discovered_at": "2026-10-21T22:51:34.922610"
+      "discovered_at": "2026-10-22T02:09:36.054412"
     }
   ],
   "total_seeds": 10
