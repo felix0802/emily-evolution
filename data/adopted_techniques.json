@@ -4268,6 +4268,36 @@
         ],
         "decided_at": "2026-10-22T08:58:44.549577"
       }
+    },
+    {
+      "id": "llm-元学习（meta-learning）",
+      "name": "元学习（Meta-Learning）",
+      "adopted_at": "2026-10-22T14:44:04.787747",
+      "decision": {
+        "tech_id": "llm-元学习（meta-learning）",
+        "tech_name": "元学习（Meta-Learning）",
+        "action": "adopt",
+        "confidence": 0.9,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-10-22T14:44:04.786062"
+      }
+    },
+    {
+      "id": "llm-时间序列基础模型（tsfm）",
+      "name": "时间序列基础模型（TSFM）",
+      "adopted_at": "2026-10-22T14:44:04.787762",
+      "decision": {
+        "tech_id": "llm-时间序列基础模型（tsfm）",
+        "tech_name": "时间序列基础模型（TSFM）",
+        "action": "adopt",
+        "confidence": 0.85,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-10-22T14:44:04.786209"
+      }
     }
   ],
   "history": [
@@ -5974,6 +6004,18 @@
       "tech_id": "llm-时间序列基础模型",
       "tech_name": "时间序列基础模型",
       "timestamp": "2026-10-22T08:58:44.551370"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-元学习（meta-learning）",
+      "tech_name": "元学习（Meta-Learning）",
+      "timestamp": "2026-10-22T14:44:04.787750"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-时间序列基础模型（tsfm）",
+      "tech_name": "时间序列基础模型（TSFM）",
+      "timestamp": "2026-10-22T14:44:04.787763"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 802,
+  "_rotation_idx": 803,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 85,
@@ -1562,18 +1562,9 @@
   },
   "htm": {
     "name": "HTM",
-    "total_papers_found": 140,
-    "watering_count": 83,
+    "total_papers_found": 141,
+    "watering_count": 84,
     "history": [
-      {
-        "timestamp": "2026-08-09T16:19:21.662190",
-        "papers_found": 0,
-        "duplicates": 2,
-        "irrelevant_filtered": 8,
-        "avg_relevance": 0.0,
-        "high_relevance": 0,
-        "papers": []
-      },
       {
         "timestamp": "2026-08-10T12:39:21.074503",
         "papers_found": 1,
@@ -2524,6 +2515,23 @@
             "seed_match_score": 1
           }
         ]
+      },
+      {
+        "timestamp": "2026-10-22T14:43:59.540504",
+        "papers_found": 1,
+        "duplicates": 1,
+        "irrelevant_filtered": 8,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "Agentic Ensemble with Vision-Language Models for Visual Anomaly Detection",
+            "summary": "Visual anomaly detection aims to detect abnormal objects, while anomaly samples are often scarce during model training. Assembling multiple pretrained detectors can help by leveraging their transferable image scores and anomaly maps. However, most existing ensemble methods apply fixed fusion rules o",
+            "published": "2026-10-20",
+            "url": "http://arxiv.org/abs/2610.28560v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -2538,7 +2546,7 @@
       "anomaly detection",
       "continuous learning"
     ],
-    "last_watered": "2026-10-20T13:06:50.445339"
+    "last_watered": "2026-10-22T14:43:59.540500"
   },
   "spiking-nn": {
     "name": "Spiking Neural Networks",
