@@ -4298,6 +4298,36 @@
         ],
         "decided_at": "2026-10-22T14:44:04.786209"
       }
+    },
+    {
+      "id": "llm-kv缓存工程",
+      "name": "KV缓存工程",
+      "adopted_at": "2026-10-22T19:35:44.042660",
+      "decision": {
+        "tech_id": "llm-kv缓存工程",
+        "tech_name": "KV缓存工程",
+        "action": "adopt",
+        "confidence": 0.9,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-10-22T19:35:44.038705"
+      }
+    },
+    {
+      "id": "llm-试探性上下文流水线",
+      "name": "试探性上下文流水线",
+      "adopted_at": "2026-10-22T19:35:44.042698",
+      "decision": {
+        "tech_id": "llm-试探性上下文流水线",
+        "tech_name": "试探性上下文流水线",
+        "action": "adopt",
+        "confidence": 0.85,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-10-22T19:35:44.038998"
+      }
     }
   ],
   "history": [
@@ -6016,6 +6046,18 @@
       "tech_id": "llm-时间序列基础模型（tsfm）",
       "tech_name": "时间序列基础模型（TSFM）",
       "timestamp": "2026-10-22T14:44:04.787763"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-kv缓存工程",
+      "tech_name": "KV缓存工程",
+      "timestamp": "2026-10-22T19:35:44.042667"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-试探性上下文流水线",
+      "tech_name": "试探性上下文流水线",
+      "timestamp": "2026-10-22T19:35:44.042701"
     }
   ]
 }

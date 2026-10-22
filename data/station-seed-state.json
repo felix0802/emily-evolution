@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 803,
+  "_rotation_idx": 804,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 85,
@@ -2550,18 +2550,9 @@
   },
   "spiking-nn": {
     "name": "Spiking Neural Networks",
-    "total_papers_found": 57,
-    "watering_count": 82,
+    "total_papers_found": 58,
+    "watering_count": 83,
     "history": [
-      {
-        "timestamp": "2026-08-09T18:21:16.471065",
-        "papers_found": 0,
-        "duplicates": 9,
-        "irrelevant_filtered": 1,
-        "avg_relevance": 0.0,
-        "high_relevance": 0,
-        "papers": []
-      },
       {
         "timestamp": "2026-08-10T14:48:36.414550",
         "papers_found": 0,
@@ -3238,6 +3229,23 @@
             "seed_match_score": 1
           }
         ]
+      },
+      {
+        "timestamp": "2026-10-22T19:35:35.949458",
+        "papers_found": 1,
+        "duplicates": 9,
+        "irrelevant_filtered": 0,
+        "avg_relevance": 2.0,
+        "high_relevance": 1,
+        "papers": [
+          {
+            "title": "Bio-Inspired Auditory Processing: Coupling Parallel Resonate-and-Fire Dynamics with Ternary Recurrent Networks for Speech Recognition",
+            "summary": "Spiking Neural Networks (SNNs) promise energy-efficient inference through sparse, event-driven computation, yet remain constrained on continuous, context-dependent tasks such as automatic speech recognition (ASR). A key bottleneck is the Leaky Integrate-and-Fire (LIF) neuron, whose membrane decay er",
+            "published": "2026-10-21",
+            "url": "http://arxiv.org/abs/2610.29720v1",
+            "seed_match_score": 2
+          }
+        ]
       }
     ],
     "keywords": [
@@ -3246,7 +3254,7 @@
       "neuromorphic",
       "spike-timing"
     ],
-    "last_watered": "2026-10-20T18:10:05.380064"
+    "last_watered": "2026-10-22T19:35:35.949445"
   },
   "non-transformer": {
     "name": "Non-Transformer Arch",
