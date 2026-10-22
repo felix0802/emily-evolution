@@ -4238,6 +4238,36 @@
         ],
         "decided_at": "2026-10-22T02:09:36.025854"
       }
+    },
+    {
+      "id": "llm-petri网上的结构感知消息传递",
+      "name": "Petri网上的结构感知消息传递",
+      "adopted_at": "2026-10-22T08:58:44.551347",
+      "decision": {
+        "tech_id": "llm-petri网上的结构感知消息传递",
+        "tech_name": "Petri网上的结构感知消息传递",
+        "action": "adopt",
+        "confidence": 0.9,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-10-22T08:58:44.549379"
+      }
+    },
+    {
+      "id": "llm-时间序列基础模型",
+      "name": "时间序列基础模型",
+      "adopted_at": "2026-10-22T08:58:44.551368",
+      "decision": {
+        "tech_id": "llm-时间序列基础模型",
+        "tech_name": "时间序列基础模型",
+        "action": "adopt",
+        "confidence": 0.85,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-10-22T08:58:44.549577"
+      }
     }
   ],
   "history": [
@@ -5932,6 +5962,18 @@
       "tech_id": "llm-多目标搜索（multi-objective-search）",
       "tech_name": "多目标搜索（Multi-Objective Search）",
       "timestamp": "2026-10-22T02:09:36.028435"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-petri网上的结构感知消息传递",
+      "tech_name": "Petri网上的结构感知消息传递",
+      "timestamp": "2026-10-22T08:58:44.551351"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-时间序列基础模型",
+      "tech_name": "时间序列基础模型",
+      "timestamp": "2026-10-22T08:58:44.551370"
     }
   ]
 }

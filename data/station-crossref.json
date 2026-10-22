@@ -1,35 +1,6 @@
 {
-  "timestamp": "2026-10-22T02:09:36.054494",
+  "timestamp": "2026-10-22T08:58:47.954026",
   "connections": [
-    {
-      "seed_a": "Liquid Networks",
-      "seed_b": "HTM",
-      "shared_keywords": [],
-      "shared_paper_concepts": [
-        "learning",
-        "neural",
-        "open",
-        "quantum",
-        "state",
-        "with"
-      ],
-      "strength": 6,
-      "discovered_at": "2026-10-22T02:09:36.054392"
-    },
-    {
-      "seed_a": "Mamba (SSM)",
-      "seed_b": "Liquid Networks",
-      "shared_keywords": [],
-      "shared_paper_concepts": [
-        "forecasting",
-        "learning",
-        "space",
-        "state",
-        "with"
-      ],
-      "strength": 5,
-      "discovered_at": "2026-10-22T02:09:36.054355"
-    },
     {
       "seed_a": "Mamba (SSM)",
       "seed_b": "Non-Transformer Arch",
@@ -41,7 +12,34 @@
         "state"
       ],
       "strength": 5,
-      "discovered_at": "2026-10-22T02:09:36.054371"
+      "discovered_at": "2026-10-22T08:58:47.953929"
+    },
+    {
+      "seed_a": "Liquid Networks",
+      "seed_b": "Mixture of Experts",
+      "shared_keywords": [],
+      "shared_paper_concepts": [
+        "language",
+        "mixture",
+        "model",
+        "models",
+        "policy"
+      ],
+      "strength": 5,
+      "discovered_at": "2026-10-22T08:58:47.953957"
+    },
+    {
+      "seed_a": "Mamba (SSM)",
+      "seed_b": "Liquid Networks",
+      "shared_keywords": [],
+      "shared_paper_concepts": [
+        "forecasting",
+        "learning",
+        "model",
+        "with"
+      ],
+      "strength": 4,
+      "discovered_at": "2026-10-22T08:58:47.953915"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -54,20 +52,33 @@
         "with"
       ],
       "strength": 4,
-      "discovered_at": "2026-10-22T02:09:36.054388"
+      "discovered_at": "2026-10-22T08:58:47.953942"
     },
     {
       "seed_a": "Liquid Networks",
-      "seed_b": "Spiking Neural Networks",
+      "seed_b": "HTM",
       "shared_keywords": [],
       "shared_paper_concepts": [
-        "control",
-        "networks",
-        "neural",
+        "learning",
+        "open",
+        "quantum",
         "with"
       ],
       "strength": 4,
-      "discovered_at": "2026-10-22T02:09:36.054396"
+      "discovered_at": "2026-10-22T08:58:47.953946"
+    },
+    {
+      "seed_a": "Liquid Networks",
+      "seed_b": "Continual Learning",
+      "shared_keywords": [],
+      "shared_paper_concepts": [
+        "forecasting",
+        "free",
+        "from",
+        "learning"
+      ],
+      "strength": 4,
+      "discovered_at": "2026-10-22T08:58:47.953954"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -79,7 +90,7 @@
         "with"
       ],
       "strength": 3,
-      "discovered_at": "2026-10-22T02:09:36.054363"
+      "discovered_at": "2026-10-22T08:58:47.953923"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -91,7 +102,7 @@
         "training"
       ],
       "strength": 3,
-      "discovered_at": "2026-10-22T02:09:36.054378"
+      "discovered_at": "2026-10-22T08:58:47.953934"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -103,19 +114,7 @@
         "prediction"
       ],
       "strength": 3,
-      "discovered_at": "2026-10-22T02:09:36.054384"
-    },
-    {
-      "seed_a": "Liquid Networks",
-      "seed_b": "Mixture of Experts",
-      "shared_keywords": [],
-      "shared_paper_concepts": [
-        "language",
-        "mixture",
-        "models"
-      ],
-      "strength": 3,
-      "discovered_at": "2026-10-22T02:09:36.054408"
+      "discovered_at": "2026-10-22T08:58:47.953939"
     },
     {
       "seed_a": "Liquid Networks",
@@ -127,7 +126,7 @@
         "models"
       ],
       "strength": 3,
-      "discovered_at": "2026-10-22T02:09:36.054412"
+      "discovered_at": "2026-10-22T08:58:47.953960"
     }
   ],
   "total_seeds": 10
