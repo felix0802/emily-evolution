@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-23T19:36:12.395306",
+  "timestamp": "2026-10-23T22:42:34.016315",
   "connections": [
     {
       "seed_a": "Liquid Networks",
@@ -14,7 +14,7 @@
         "with"
       ],
       "strength": 6,
-      "discovered_at": "2026-10-23T19:36:12.395232"
+      "discovered_at": "2026-10-23T22:42:34.016210"
     },
     {
       "seed_a": "Liquid Networks",
@@ -29,7 +29,7 @@
         "systems"
       ],
       "strength": 6,
-      "discovered_at": "2026-10-23T19:36:12.395242"
+      "discovered_at": "2026-10-23T22:42:34.016225"
     },
     {
       "seed_a": "HTM",
@@ -44,7 +44,7 @@
         "with"
       ],
       "strength": 6,
-      "discovered_at": "2026-10-23T19:36:12.395260"
+      "discovered_at": "2026-10-23T22:42:34.016254"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -57,7 +57,7 @@
         "state"
       ],
       "strength": 5,
-      "discovered_at": "2026-10-23T19:36:12.395217"
+      "discovered_at": "2026-10-23T22:42:34.016188"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -71,7 +71,7 @@
         "with"
       ],
       "strength": 5,
-      "discovered_at": "2026-10-23T19:36:12.395226"
+      "discovered_at": "2026-10-23T22:42:34.016202"
     },
     {
       "seed_a": "HTM",
@@ -85,7 +85,7 @@
         "models"
       ],
       "strength": 5,
-      "discovered_at": "2026-10-23T19:36:12.395257"
+      "discovered_at": "2026-10-23T22:42:34.016250"
     },
     {
       "seed_a": "Mixture of Experts",
@@ -99,21 +99,7 @@
         "models"
       ],
       "strength": 5,
-      "discovered_at": "2026-10-23T19:36:12.395296"
-    },
-    {
-      "seed_a": "Mixture of Experts",
-      "seed_b": "Graph Neural Networks",
-      "shared_keywords": [],
-      "shared_paper_concepts": [
-        "aware",
-        "distillation",
-        "efficient",
-        "foundation",
-        "model"
-      ],
-      "strength": 5,
-      "discovered_at": "2026-10-23T19:36:12.395298"
+      "discovered_at": "2026-10-23T22:42:34.016306"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -126,20 +112,33 @@
         "with"
       ],
       "strength": 4,
-      "discovered_at": "2026-10-23T19:36:12.395206"
+      "discovered_at": "2026-10-23T22:42:34.016169"
     },
     {
-      "seed_a": "Mamba (SSM)",
-      "seed_b": "Graph Neural Networks",
+      "seed_a": "Liquid Networks",
+      "seed_b": "Continual Learning",
       "shared_keywords": [],
       "shared_paper_concepts": [
-        "foundation",
-        "inference",
-        "model",
+        "forecasting",
+        "free",
+        "from",
+        "learning"
+      ],
+      "strength": 4,
+      "discovered_at": "2026-10-23T22:42:34.016222"
+    },
+    {
+      "seed_a": "Liquid Networks",
+      "seed_b": "KV Cache Optimization",
+      "shared_keywords": [],
+      "shared_paper_concepts": [
+        "diffusion",
+        "language",
+        "models",
         "with"
       ],
       "strength": 4,
-      "discovered_at": "2026-10-23T19:36:12.395228"
+      "discovered_at": "2026-10-23T22:42:34.016229"
     }
   ],
   "total_seeds": 10

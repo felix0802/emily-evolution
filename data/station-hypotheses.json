@@ -725,7 +725,7 @@
       "arxiv_query": "Hierarchical Temporal Memory Mixture of Experts gating",
       "potential_breakthrough": "A self-organizing, temporally-aware MoE architecture that dynamically allocates experts based on prediction errors, enabling efficient lifelong learning and anomaly detection in streaming data.",
       "status": "unverified",
-      "verification_rounds": 1,
+      "verification_rounds": 2,
       "supporting_papers": [],
       "refuting_papers": [],
       "llm_source": "deepseek"
@@ -754,7 +754,7 @@
       "llm_source": "deepseek"
     }
   ],
-  "last_updated": "2026-10-23T19:36:15.370113",
+  "last_updated": "2026-10-23T22:42:36.696431",
   "total_generated": 34,
   "total_verified": 32
 }

@@ -1,28 +1,6 @@
 {
   "rounds": [
     {
-      "round": 392,
-      "timestamp": "2026-10-14T19:47:52.637109",
-      "prediction_error": 0.7,
-      "seeds_active": 10,
-      "seeds_dormant": 0,
-      "new_seeds_added": 0,
-      "top_motivated": [
-        [
-          "mamba",
-          0.91
-        ],
-        [
-          "liquid-networks",
-          0.91
-        ],
-        [
-          "htm",
-          0.91
-        ]
-      ]
-    },
-    {
       "round": 393,
       "timestamp": "2026-10-14T22:46:29.600325",
       "prediction_error": 0.7,
@@ -1099,6 +1077,28 @@
           0.91
         ]
       ]
+    },
+    {
+      "round": 441,
+      "timestamp": "2026-10-23T22:42:28.314695",
+      "prediction_error": 0.7,
+      "seeds_active": 10,
+      "seeds_dormant": 0,
+      "new_seeds_added": 0,
+      "top_motivated": [
+        [
+          "mamba",
+          0.91
+        ],
+        [
+          "liquid-networks",
+          0.91
+        ],
+        [
+          "spiking-nn",
+          0.91
+        ]
+      ]
     }
   ],
   "seed_scores": {
@@ -1179,7 +1179,7 @@
         1.0,
         1.0,
         1.0,
-        1.0,
+        0.847,
         0.847,
         0.847,
         0.847,
@@ -1365,11 +1365,10 @@
     },
     "gnn": {
       "name": "Graph Neural Networks",
-      "info_gain": 0.871,
+      "info_gain": 0.281,
       "novelty": 1.0,
-      "motivation_score": 0.858,
+      "motivation_score": 0.623,
       "info_gain_history": [
-        1.0,
         0.871,
         0.871,
         0.871,
@@ -1389,7 +1388,8 @@
         0.871,
         0.871,
         0.871,
-        0.871
+        0.871,
+        0.281
       ]
     }
   },
@@ -1406,6 +1406,6 @@
     "spiking-nn",
     "non-transformer"
   ],
-  "total_motivation_evaluations": 284,
+  "total_motivation_evaluations": 285,
   "current_prediction_error": 0.7
 }
