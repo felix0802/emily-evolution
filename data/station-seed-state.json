@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 808,
+  "_rotation_idx": 809,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 85,
@@ -6562,33 +6562,9 @@
   },
   "kv-cache": {
     "name": "KV Cache Optimization",
-    "total_papers_found": 116,
-    "watering_count": 78,
+    "total_papers_found": 121,
+    "watering_count": 79,
     "history": [
-      {
-        "timestamp": "2026-08-10T05:14:03.711021",
-        "papers_found": 2,
-        "duplicates": 2,
-        "irrelevant_filtered": 6,
-        "avg_relevance": 1.0,
-        "high_relevance": 0,
-        "papers": [
-          {
-            "title": "Every Cache Entry Earns Its Place: Global Allocation of Resolution and Coverage for KV Cache Compression",
-            "summary": "As large language models (LLMs) process increasingly long contexts, KV cache storage and repeated access have become a major bottleneck. Existing KV cache compression methods rely on predefined, fixed compression rules and are typically developed around either token eviction or merging. As a result,",
-            "published": "2026-08-07",
-            "url": "http://arxiv.org/abs/2608.07001v1",
-            "seed_match_score": 1
-          },
-          {
-            "title": "Autonomy-of-Heads: Data-Free Sparse Attention from Frozen Query-Key Geometry",
-            "summary": "Long-context LLM inference is bottlenecked by quadratic attention computation and growing KV-cache costs. Existing sparse attention and KV-compression methods typically decide which tokens or heads to preserve from runtime attention scores, observation windows, calibration prompts, or learned gates,",
-            "published": "2026-08-07",
-            "url": "http://arxiv.org/abs/2608.06849v1",
-            "seed_match_score": 1
-          }
-        ]
-      },
       {
         "timestamp": "2026-08-11T00:45:25.587696",
         "papers_found": 0,
@@ -7437,6 +7413,37 @@
             "seed_match_score": 1
           }
         ]
+      },
+      {
+        "timestamp": "2026-10-23T19:36:02.228242",
+        "papers_found": 5,
+        "duplicates": 3,
+        "irrelevant_filtered": 2,
+        "avg_relevance": 1.2,
+        "high_relevance": 1,
+        "papers": [
+          {
+            "title": "Drift Says When, Budget Says How Much: Rate-Controlled KV Re-selection for Long-Form Multimodal Generation",
+            "summary": "KV cache compression for multimodal LLMs usually selects the visual tokens to keep once, at prefill, and reuses that selection for the whole generation. We show that this one-shot selection is severely limited on long-form generation: on detailed image description, even an oracle that selects with t",
+            "published": "2026-10-22",
+            "url": "http://arxiv.org/abs/2610.31433v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "RIFT: KV Cache Compression for Draft Models with Complementary Compressibility Training",
+            "summary": "Speculative decoding is a popular decode acceleration method. As such, it is particularly relevant to long-output generation, which requires an increasingly large KV cache. KV cache compression offers a way to constrain costs in long-context drafting. However, compression methods that focus on prefi",
+            "published": "2026-10-22",
+            "url": "http://arxiv.org/abs/2610.31098v1",
+            "seed_match_score": 2
+          },
+          {
+            "title": "OpenAttention: One Percent Is Enough with Tail Proxies",
+            "summary": "Sparse attention reads only a small subset of the key-value cache, and how to treat the unread tail remains a key challenge. Discarding the tail biases the output, and sampling it as previous approaches do fails at reads of 5% and below, where the tail likely holds heavy hitters the selector missed.",
+            "published": "2026-10-22",
+            "url": "http://arxiv.org/abs/2610.30951v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -7448,7 +7455,7 @@
       "flash attention",
       "speculative decoding"
     ],
-    "last_watered": "2026-10-21T19:44:00.113255"
+    "last_watered": "2026-10-23T19:36:02.228236"
   },
   "gnn": {
     "name": "Graph Neural Networks",

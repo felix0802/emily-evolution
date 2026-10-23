@@ -549,17 +549,16 @@
   },
   "kv-cache": {
     "name": "KV Cache Optimization",
-    "total_new_papers": 116,
-    "total_watering": 68,
+    "total_new_papers": 121,
+    "total_watering": 69,
     "all_keywords_matched": [
-      "flash attention",
-      "key-value cache",
-      "kv cache",
+      "gqa",
       "speculative decoding",
-      "gqa"
+      "flash attention",
+      "kv cache",
+      "key-value cache"
     ],
     "avg_relevance_trend": [
-      1.0,
       1.0,
       1.0,
       0.0,
@@ -578,9 +577,10 @@
       1.0,
       0.0,
       1.0,
-      1.0
+      1.0,
+      1.2
     ],
-    "high_relevance_total": 4,
+    "high_relevance_total": 5,
     "best_papers": [
       {
         "title": "Beyond KV Reconstruction: Functional Reconstruction for MLA Draft Models in Speculative Decoding",
@@ -588,6 +588,6 @@
         "published": "2026-07-29"
       }
     ],
-    "last_updated": "2026-10-21T19:44:00.112426"
+    "last_updated": "2026-10-23T19:36:02.227546"
   }
 }

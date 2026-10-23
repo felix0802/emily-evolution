@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-23T14:30:37.137040",
+  "timestamp": "2026-10-23T19:36:12.395306",
   "connections": [
     {
       "seed_a": "Liquid Networks",
@@ -14,7 +14,7 @@
         "with"
       ],
       "strength": 6,
-      "discovered_at": "2026-10-23T14:30:37.136954"
+      "discovered_at": "2026-10-23T19:36:12.395232"
     },
     {
       "seed_a": "Liquid Networks",
@@ -29,7 +29,22 @@
         "systems"
       ],
       "strength": 6,
-      "discovered_at": "2026-10-23T14:30:37.136966"
+      "discovered_at": "2026-10-23T19:36:12.395242"
+    },
+    {
+      "seed_a": "HTM",
+      "seed_b": "KV Cache Optimization",
+      "shared_keywords": [],
+      "shared_paper_concepts": [
+        "language",
+        "models",
+        "multimodal",
+        "online",
+        "video",
+        "with"
+      ],
+      "strength": 6,
+      "discovered_at": "2026-10-23T19:36:12.395260"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -42,7 +57,21 @@
         "state"
       ],
       "strength": 5,
-      "discovered_at": "2026-10-23T14:30:37.136936"
+      "discovered_at": "2026-10-23T19:36:12.395217"
+    },
+    {
+      "seed_a": "Mamba (SSM)",
+      "seed_b": "KV Cache Optimization",
+      "shared_keywords": [],
+      "shared_paper_concepts": [
+        "better",
+        "order",
+        "prediction",
+        "training",
+        "with"
+      ],
+      "strength": 5,
+      "discovered_at": "2026-10-23T19:36:12.395226"
     },
     {
       "seed_a": "HTM",
@@ -56,7 +85,21 @@
         "models"
       ],
       "strength": 5,
-      "discovered_at": "2026-10-23T14:30:37.136986"
+      "discovered_at": "2026-10-23T19:36:12.395257"
+    },
+    {
+      "seed_a": "Mixture of Experts",
+      "seed_b": "KV Cache Optimization",
+      "shared_keywords": [],
+      "shared_paper_concepts": [
+        "cache",
+        "compression",
+        "controlled",
+        "language",
+        "models"
+      ],
+      "strength": 5,
+      "discovered_at": "2026-10-23T19:36:12.395296"
     },
     {
       "seed_a": "Mixture of Experts",
@@ -70,7 +113,7 @@
         "model"
       ],
       "strength": 5,
-      "discovered_at": "2026-10-23T14:30:37.137033"
+      "discovered_at": "2026-10-23T19:36:12.395298"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -83,7 +126,7 @@
         "with"
       ],
       "strength": 4,
-      "discovered_at": "2026-10-23T14:30:37.136921"
+      "discovered_at": "2026-10-23T19:36:12.395206"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -96,46 +139,7 @@
         "with"
       ],
       "strength": 4,
-      "discovered_at": "2026-10-23T14:30:37.136950"
-    },
-    {
-      "seed_a": "Liquid Networks",
-      "seed_b": "Continual Learning",
-      "shared_keywords": [],
-      "shared_paper_concepts": [
-        "forecasting",
-        "free",
-        "from",
-        "learning"
-      ],
-      "strength": 4,
-      "discovered_at": "2026-10-23T14:30:37.136963"
-    },
-    {
-      "seed_a": "HTM",
-      "seed_b": "KV Cache Optimization",
-      "shared_keywords": [],
-      "shared_paper_concepts": [
-        "language",
-        "models",
-        "online",
-        "video"
-      ],
-      "strength": 4,
-      "discovered_at": "2026-10-23T14:30:37.136989"
-    },
-    {
-      "seed_a": "Continual Learning",
-      "seed_b": "Mixture of Experts",
-      "shared_keywords": [],
-      "shared_paper_concepts": [
-        "distillation",
-        "dynamic",
-        "prompt",
-        "sparse"
-      ],
-      "strength": 4,
-      "discovered_at": "2026-10-23T14:30:37.137023"
+      "discovered_at": "2026-10-23T19:36:12.395228"
     }
   ],
   "total_seeds": 10

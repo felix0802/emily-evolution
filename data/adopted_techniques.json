@@ -4358,6 +4358,36 @@
         ],
         "decided_at": "2026-10-23T14:30:36.904896"
       }
+    },
+    {
+      "id": "llm-physics-guided-neural-inverse-",
+      "name": "Physics-guided neural inverse design",
+      "adopted_at": "2026-10-23T19:36:07.728958",
+      "decision": {
+        "tech_id": "llm-physics-guided-neural-inverse-",
+        "tech_name": "Physics-guided neural inverse design",
+        "action": "adopt",
+        "confidence": 0.9,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-10-23T19:36:07.727251"
+      }
+    },
+    {
+      "id": "llm-multi-objective-kv-cache-alloc",
+      "name": "Multi-objective KV cache allocation",
+      "adopted_at": "2026-10-23T19:36:07.728973",
+      "decision": {
+        "tech_id": "llm-multi-objective-kv-cache-alloc",
+        "tech_name": "Multi-objective KV cache allocation",
+        "action": "adopt",
+        "confidence": 0.9,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-10-23T19:36:07.727469"
+      }
     }
   ],
   "history": [
@@ -6100,6 +6130,18 @@
       "tech_id": "llm-memory-enhanced-test-time-adap",
       "tech_name": "Memory-Enhanced Test-Time Adaptation",
       "timestamp": "2026-10-23T14:30:36.906884"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-physics-guided-neural-inverse-",
+      "tech_name": "Physics-guided neural inverse design",
+      "timestamp": "2026-10-23T19:36:07.728960"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-multi-objective-kv-cache-alloc",
+      "tech_name": "Multi-objective KV cache allocation",
+      "timestamp": "2026-10-23T19:36:07.728974"
     }
   ]
 }
