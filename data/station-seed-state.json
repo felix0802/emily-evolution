@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 806,
+  "_rotation_idx": 807,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 85,
@@ -4709,18 +4709,9 @@
   },
   "continual-learning": {
     "name": "Continual Learning",
-    "total_papers_found": 123,
-    "watering_count": 81,
+    "total_papers_found": 126,
+    "watering_count": 82,
     "history": [
-      {
-        "timestamp": "2026-08-10T00:45:53.224333",
-        "papers_found": 0,
-        "duplicates": 6,
-        "irrelevant_filtered": 4,
-        "avg_relevance": 0.0,
-        "high_relevance": 0,
-        "papers": []
-      },
       {
         "timestamp": "2026-08-10T20:29:08.502118",
         "papers_found": 0,
@@ -5556,6 +5547,37 @@
             "seed_match_score": 1
           }
         ]
+      },
+      {
+        "timestamp": "2026-10-23T08:54:11.046213",
+        "papers_found": 3,
+        "duplicates": 4,
+        "irrelevant_filtered": 3,
+        "avg_relevance": 1.67,
+        "high_relevance": 2,
+        "papers": [
+          {
+            "title": "Fine-Grained Analysis of Catastrophic Forgetting in Continual Learning via Algorithmic Stability",
+            "summary": "Understanding catastrophic forgetting, in which learning new tasks degrades performance on previously learned tasks, remains a fundamental challenge in continual learning (CL). Existing theoretical analyses often rely on specific model or task structures and offer limited insight into how iterative ",
+            "published": "2026-10-22",
+            "url": "http://arxiv.org/abs/2610.31551v1",
+            "seed_match_score": 2
+          },
+          {
+            "title": "HERD: Harness-Evolving Recursive Distillation for Continual Learning",
+            "summary": "Continual learning requires a model to keep acquiring new skills and knowledge without compromising its existing capabilities. Parametric methods suffer from catastrophic forgetting and loss of plasticity. Non-parametric methods, such as prompts, skills, and harnesses, leverage in-context learning b",
+            "published": "2026-10-22",
+            "url": "http://arxiv.org/abs/2610.31401v1",
+            "seed_match_score": 2
+          },
+          {
+            "title": "Combating Catastrophic Forgetting in Continual Domain Adaptation via Knowledge Recasting",
+            "summary": "Adapting language models to new domains during post-training risks degrading previously acquired capabilities, a phenomenon commonly known as catastrophic forgetting. Existing mitigation methods largely treat forgetting as a consequence of excessive model drift. They therefore constrain updates by p",
+            "published": "2026-10-20",
+            "url": "http://arxiv.org/abs/2610.28892v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -5565,7 +5587,7 @@
       "ewc",
       "elastic weight"
     ],
-    "last_watered": "2026-10-21T08:56:36.993492"
+    "last_watered": "2026-10-23T08:54:11.046209"
   },
   "moe": {
     "name": "Mixture of Experts",

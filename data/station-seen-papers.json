@@ -62018,7 +62018,225 @@
         "uniform"
       ],
       "first_seen_round": 437
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.31671v1",
+      "title": "A Unified Framework for Image-to-3D Part Generation via Variable Granularity",
+      "arxiv_id": "2610.31671",
+      "tokens": [
+        "generation",
+        "granularity",
+        "image",
+        "part",
+        "unified",
+        "variable"
+      ],
+      "first_seen_round": 438
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.31668v1",
+      "title": "Reading, Writing, Sharing, and Interacting with the World through Video",
+      "arxiv_id": "2610.31668",
+      "tokens": [
+        "interacting",
+        "reading",
+        "sharing",
+        "video",
+        "world",
+        "writing"
+      ],
+      "first_seen_round": 438
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.31651v1",
+      "title": "BrickWright: Agentic Creation of Physically Feasible Brick Builds",
+      "arxiv_id": "2610.31651",
+      "tokens": [
+        "agentic",
+        "brick",
+        "brickwright",
+        "builds",
+        "creation",
+        "feasible",
+        "physically"
+      ],
+      "first_seen_round": 438
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.31649v1",
+      "title": "Gate3DGen: A Pre-processing Model that Selectively Purifies Real-World Images for 3D Generation",
+      "arxiv_id": "2610.31649",
+      "tokens": [
+        "gate3dgen",
+        "generation",
+        "images",
+        "pre",
+        "processing",
+        "purifies",
+        "real",
+        "selectively",
+        "world"
+      ],
+      "first_seen_round": 438
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.31645v1",
+      "title": "OmniRay: Camera-Agnostic Monocular 3D Reconstruction with Composite Ray Fields",
+      "arxiv_id": "2610.31645",
+      "tokens": [
+        "agnostic",
+        "camera",
+        "composite",
+        "fields",
+        "monocular",
+        "omniray",
+        "ray",
+        "reconstruction"
+      ],
+      "first_seen_round": 438
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.31644v1",
+      "title": "GigaBench: Benchmarking Learnable Representations for Gigapixel Image Compression and Super-Resolution",
+      "arxiv_id": "2610.31644",
+      "tokens": [
+        "benchmarking",
+        "compression",
+        "gigabench",
+        "gigapixel",
+        "image",
+        "learnable",
+        "representations",
+        "resolution",
+        "super"
+      ],
+      "first_seen_round": 438
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.31667v1",
+      "title": "Direct Pass@$k$ Optimization for Thought Pruning: Balancing Quality and Diversity in Test-Time Reasoning",
+      "arxiv_id": "2610.31667",
+      "tokens": [
+        "balancing",
+        "direct",
+        "diversity",
+        "optimization",
+        "pass",
+        "pruning",
+        "quality",
+        "reasoning",
+        "test",
+        "thought",
+        "time"
+      ],
+      "first_seen_round": 438
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.31646v1",
+      "title": "Low-Bit N-Gram Embeddings for Language Models",
+      "arxiv_id": "2610.31646",
+      "tokens": [
+        "bit",
+        "embeddings",
+        "gram",
+        "language",
+        "low"
+      ],
+      "first_seen_round": 438
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.31639v1",
+      "title": "Causal Chain of Thought: Mitigating Attention Leakage via Context Isolation",
+      "arxiv_id": "2610.31639",
+      "tokens": [
+        "attention",
+        "causal",
+        "chain",
+        "context",
+        "isolation",
+        "leakage",
+        "mitigating",
+        "thought"
+      ],
+      "first_seen_round": 438
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.31633v1",
+      "title": "BeNice! Closing Looping's Inference-Memory Gap via KV-Sharing",
+      "arxiv_id": "2610.31633",
+      "tokens": [
+        "benice",
+        "closing",
+        "gap",
+        "inference",
+        "looping",
+        "memory",
+        "sharing"
+      ],
+      "first_seen_round": 438
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.31641v1",
+      "title": "UniVOE: A Removal-Driven Framework for Interaction-Aware Universal Video Object Editing",
+      "arxiv_id": "2610.31641",
+      "tokens": [
+        "aware",
+        "driven",
+        "editing",
+        "interaction",
+        "object",
+        "removal",
+        "universal",
+        "univoe",
+        "video"
+      ],
+      "first_seen_round": 438
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.31551v1",
+      "title": "Fine-Grained Analysis of Catastrophic Forgetting in Continual Learning via Algorithmic Stability",
+      "arxiv_id": "2610.31551",
+      "tokens": [
+        "algorithmic",
+        "catastrophic",
+        "continual",
+        "fine",
+        "forgetting",
+        "grained",
+        "stability"
+      ],
+      "first_seen_round": 438
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.31401v1",
+      "title": "HERD: Harness-Evolving Recursive Distillation for Continual Learning",
+      "arxiv_id": "2610.31401",
+      "tokens": [
+        "continual",
+        "distillation",
+        "evolving",
+        "harness",
+        "herd",
+        "recursive"
+      ],
+      "first_seen_round": 438
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.28892v1",
+      "title": "Combating Catastrophic Forgetting in Continual Domain Adaptation via Knowledge Recasting",
+      "arxiv_id": "2610.28892",
+      "tokens": [
+        "adaptation",
+        "catastrophic",
+        "combating",
+        "continual",
+        "domain",
+        "forgetting",
+        "knowledge",
+        "recasting"
+      ],
+      "first_seen_round": 438
     }
   ],
-  "total_unique": 3896
+  "total_unique": 3910
 }
