@@ -712,9 +712,43 @@
       "supporting_papers": [],
       "refuting_papers": [],
       "llm_source": "deepseek"
+    },
+    {
+      "id": "hyp-0033",
+      "timestamp": "2026-10-23T14:30:39.747523",
+      "seed_a": "HTM",
+      "seed_b": "Mixture of Experts",
+      "crossref_strength": 5,
+      "shared_keywords": [],
+      "hypothesis": "Combining Hierarchical Temporal Memory (HTM) with Mixture of Experts (MoE) yields a sparse, context-aware routing mechanism where HTM's temporal prediction error dynamically gates expert selection, improving sample efficiency and robustness in continual learning.",
+      "reasoning": "HTM provides a biologically plausible sequence memory with sparse distributed representations and prediction error signals, while MoE offers conditional computation via expert specialization. The shared concepts of 'agentic, aware, language, loss, models' suggest both aim at adaptive, context-sensitive systems; mathematically, HTM's error-driven learning can serve as a gating function for MoE's softmax router, creating a feedback loop between temporal prediction and expert activation.",
+      "arxiv_query": "Hierarchical Temporal Memory Mixture of Experts gating",
+      "potential_breakthrough": "A self-organizing, temporally-aware MoE architecture that dynamically allocates experts based on prediction errors, enabling efficient lifelong learning and anomaly detection in streaming data.",
+      "status": "unverified",
+      "verification_rounds": 1,
+      "supporting_papers": [],
+      "refuting_papers": [],
+      "llm_source": "deepseek"
+    },
+    {
+      "id": "hyp-0034",
+      "timestamp": "2026-10-23T14:30:42.061307",
+      "seed_a": "Mixture of Experts",
+      "seed_b": "Graph Neural Networks",
+      "crossref_strength": 5,
+      "shared_keywords": [],
+      "hypothesis": "A graph-aware mixture-of-experts model with sparse expert routing conditioned on local graph topology can achieve better accuracy-efficiency trade-offs on large-scale graph learning tasks than dense GNNs or topology-agnostic MoE.",
+      "reasoning": "MoE provides conditional computation and scalability via sparse expert activation, while GNNs provide relational inductive bias through message passing over graph structure. The shared concepts of awareness, distillation, efficiency, foundation models, and model design suggest that routing can be made graph-aware and experts can be distilled into compact foundation-style graph models, yielding a mathematically grounded combination of sparse gating and graph convolution.",
+      "arxiv_query": "mixture of experts graph neural networks sparse routing",
+      "potential_breakthrough": "Scalable graph foundation models that dynamically activate specialized experts per subgraph, enabling efficient training and inference on massive heterogeneous graphs.",
+      "status": "unverified",
+      "verification_rounds": 0,
+      "supporting_papers": [],
+      "refuting_papers": [],
+      "llm_source": "deepseek"
     }
   ],
-  "last_updated": "2026-10-16T17:46:55.709100",
-  "total_generated": 32,
+  "last_updated": "2026-10-23T14:30:44.929565",
+  "total_generated": 34,
   "total_verified": 32
 }

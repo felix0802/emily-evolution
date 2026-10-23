@@ -4343,6 +4343,21 @@
         ],
         "decided_at": "2026-10-23T02:16:51.017118"
       }
+    },
+    {
+      "id": "llm-memory-enhanced-test-time-adap",
+      "name": "Memory-Enhanced Test-Time Adaptation",
+      "adopted_at": "2026-10-23T14:30:36.906880",
+      "decision": {
+        "tech_id": "llm-memory-enhanced-test-time-adap",
+        "tech_name": "Memory-Enhanced Test-Time Adaptation",
+        "action": "adopt",
+        "confidence": 0.9,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-10-23T14:30:36.904896"
+      }
     }
   ],
   "history": [
@@ -6079,6 +6094,12 @@
       "tech_id": "llm-item-level-adaptive-recursion",
       "tech_name": "Item-level adaptive recursion",
       "timestamp": "2026-10-23T02:16:51.019759"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-memory-enhanced-test-time-adap",
+      "tech_name": "Memory-Enhanced Test-Time Adaptation",
+      "timestamp": "2026-10-23T14:30:36.906884"
     }
   ]
 }

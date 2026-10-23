@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 807,
+  "_rotation_idx": 808,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 85,
@@ -5591,26 +5591,9 @@
   },
   "moe": {
     "name": "Mixture of Experts",
-    "total_papers_found": 124,
-    "watering_count": 77,
+    "total_papers_found": 127,
+    "watering_count": 78,
     "history": [
-      {
-        "timestamp": "2026-08-10T03:41:43.460720",
-        "papers_found": 1,
-        "duplicates": 3,
-        "irrelevant_filtered": 6,
-        "avg_relevance": 1.0,
-        "high_relevance": 0,
-        "papers": [
-          {
-            "title": "Policy-Masked Private Experts: Auditable and Reversible Capability Access Control in Sparse MoE Models",
-            "summary": "Most language-model access controls regulate behavior while leaving the same computation available to every request. We study a different systems question: can trusted authorization determine which newly trained parameters are reachable by the forward pass? Policy-Masked Private Experts freezes a pr",
-            "published": "2026-08-07",
-            "url": "http://arxiv.org/abs/2608.06690v1",
-            "seed_match_score": 1
-          }
-        ]
-      },
       {
         "timestamp": "2026-08-10T22:23:54.080833",
         "papers_found": 0,
@@ -6533,6 +6516,37 @@
             "seed_match_score": 2
           }
         ]
+      },
+      {
+        "timestamp": "2026-10-23T14:30:30.986238",
+        "papers_found": 3,
+        "duplicates": 4,
+        "irrelevant_filtered": 3,
+        "avg_relevance": 1.67,
+        "high_relevance": 2,
+        "papers": [
+          {
+            "title": "IQuest-Q1: Advancing Foundation Capabilities for Agentic CLI Systems",
+            "summary": "We present IQuest-Q1, a sparse Mixture-of-Experts (MoE) agentic foundation model with 320B total parameters (15B activated). IQuest-Q1 is developed through a three-stage process: (1) stable and efficient pre-training, combining Stable SplitNorm, Muon, and muP with a two-stage curriculum whose second",
+            "published": "2026-10-22",
+            "url": "http://arxiv.org/abs/2610.30949v1",
+            "seed_match_score": 2
+          },
+          {
+            "title": "MoEZip: Routing-Aware KV Cache Compression for Sparse Mixture-of-Experts LLMs",
+            "summary": "Mixture-of-Experts (MoE) language models scale model capacity efficiently by activating a small subset of parameters per token. However, in long-context inference, memory remains a major bottleneck because the KV cache grows linearly with sequence length. Existing KV cache compression methods reduce",
+            "published": "2026-10-21",
+            "url": "http://arxiv.org/abs/2610.30206v1",
+            "seed_match_score": 2
+          },
+          {
+            "title": "A Strong MoE Is All You Need for Process Supervision",
+            "summary": "Process reward models (PRMs) provide fine-grained supervision for multi-step reasoning, yet obtaining reliable process labels remains a central bottleneck. Existing approaches typically rely on human annotation, rollout-based estimation, or auxiliary verification. In this work, we explore a differen",
+            "published": "2026-10-21",
+            "url": "http://arxiv.org/abs/2610.29498v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -6544,7 +6558,7 @@
       "switch transformer",
       "deepseek"
     ],
-    "last_watered": "2026-10-21T14:44:10.383766"
+    "last_watered": "2026-10-23T14:30:30.986233"
   },
   "kv-cache": {
     "name": "KV Cache Optimization",
