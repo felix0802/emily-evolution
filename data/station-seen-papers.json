@@ -61698,7 +61698,327 @@
         "transformer"
       ],
       "first_seen_round": 436
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.30128v1",
+      "title": "Think Harder Where It Matters: Item-Level Adaptive Recursion for Sequential Recommendation",
+      "arxiv_id": "2610.30128",
+      "tokens": [
+        "adaptive",
+        "harder",
+        "item",
+        "level",
+        "matters",
+        "recommendation",
+        "recursion",
+        "sequential",
+        "think"
+      ],
+      "first_seen_round": 437
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.30116v1",
+      "title": "Environment Duels: A Microcosm of LLM Co-Evolution",
+      "arxiv_id": "2610.30116",
+      "tokens": [
+        "duels",
+        "environment",
+        "evolution",
+        "llm",
+        "microcosm"
+      ],
+      "first_seen_round": 437
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.30114v1",
+      "title": "The End of Consensus Research?",
+      "arxiv_id": "2610.30114",
+      "tokens": [
+        "consensus",
+        "end",
+        "research"
+      ],
+      "first_seen_round": 437
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.30113v1",
+      "title": "Quant-Arena: Benchmarking LLM Agents for Quantitative Trading Research",
+      "arxiv_id": "2610.30113",
+      "tokens": [
+        "agents",
+        "arena",
+        "benchmarking",
+        "llm",
+        "quant",
+        "quantitative",
+        "research",
+        "trading"
+      ],
+      "first_seen_round": 437
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.30108v1",
+      "title": "Multimodal Embodied Agents: A Unified Capability-centric Perspective from Computer-Use to Robot-Use",
+      "arxiv_id": "2610.30108",
+      "tokens": [
+        "agents",
+        "capability",
+        "centric",
+        "computer",
+        "embodied",
+        "multimodal",
+        "perspective",
+        "robot",
+        "unified",
+        "use",
+        "use"
+      ],
+      "first_seen_round": 437
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.30105v1",
+      "title": "Asymmetric On-Policy Distillation Learns In-Context Exploration",
+      "arxiv_id": "2610.30105",
+      "tokens": [
+        "asymmetric",
+        "context",
+        "distillation",
+        "exploration",
+        "learns",
+        "policy"
+      ],
+      "first_seen_round": 437
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.30104v1",
+      "title": "BatchBench: Benchmarking AI Robustness to Batch Effects and Domain Shift in Biomedical Images - A JUMP Cell Painting Leaderboard",
+      "arxiv_id": "2610.30104",
+      "tokens": [
+        "batch",
+        "batchbench",
+        "benchmarking",
+        "biomedical",
+        "cell",
+        "domain",
+        "effects",
+        "images",
+        "jump",
+        "leaderboard",
+        "painting",
+        "robustness",
+        "shift"
+      ],
+      "first_seen_round": 437
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.31670v1",
+      "title": "Sensorimotor Alignment: A Platonic Proxy for Embodied Policy Success",
+      "arxiv_id": "2610.31670",
+      "tokens": [
+        "alignment",
+        "embodied",
+        "platonic",
+        "policy",
+        "proxy",
+        "sensorimotor",
+        "success"
+      ],
+      "first_seen_round": 437
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.31663v1",
+      "title": "Phase Transition from Random Features to Fully Trainable Networks",
+      "arxiv_id": "2610.31663",
+      "tokens": [
+        "features",
+        "fully",
+        "phase",
+        "random",
+        "trainable",
+        "transition"
+      ],
+      "first_seen_round": 437
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.31662v1",
+      "title": "Reliable AI-Assisted Decisions via Selective Auditing",
+      "arxiv_id": "2610.31662",
+      "tokens": [
+        "assisted",
+        "auditing",
+        "decisions",
+        "reliable",
+        "selective"
+      ],
+      "first_seen_round": 437
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.31659v1",
+      "title": "SpectralCanary: Embarrassingly Simple Low-Frequency Traces for T2I Dataset-Use Auditing",
+      "arxiv_id": "2610.31659",
+      "tokens": [
+        "auditing",
+        "dataset",
+        "embarrassingly",
+        "frequency",
+        "low",
+        "simple",
+        "spectralcanary",
+        "t2i",
+        "traces",
+        "use"
+      ],
+      "first_seen_round": 437
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.31657v1",
+      "title": "Cost-Aware Abstention for LLM-Based IT Ticket Classification",
+      "arxiv_id": "2610.31657",
+      "tokens": [
+        "abstention",
+        "aware",
+        "classification",
+        "cost",
+        "llm",
+        "ticket"
+      ],
+      "first_seen_round": 437
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.31656v1",
+      "title": "METTA: Memory-Enhanced Test-Time Adaptation for Meta-Reinforcement Learning",
+      "arxiv_id": "2610.31656",
+      "tokens": [
+        "adaptation",
+        "enhanced",
+        "memory",
+        "meta",
+        "metta",
+        "reinforcement",
+        "test",
+        "time"
+      ],
+      "first_seen_round": 437
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.31650v1",
+      "title": "EpiSEM-Bench: Evaluating Safety and Evidence Recovery in LLM Agents under Missing Evidence",
+      "arxiv_id": "2610.31650",
+      "tokens": [
+        "agents",
+        "bench",
+        "episem",
+        "evaluating",
+        "evidence",
+        "evidence",
+        "llm",
+        "missing",
+        "recovery",
+        "safety"
+      ],
+      "first_seen_round": 437
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.31642v1",
+      "title": "A Fix for Softmax and Cross-Entropy",
+      "arxiv_id": "2610.31642",
+      "tokens": [
+        "cross",
+        "entropy",
+        "fix",
+        "softmax"
+      ],
+      "first_seen_round": 437
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.30132v1",
+      "title": "LongZero: Enhancing Long-Context Reasoning in LLMs from Zero Data",
+      "arxiv_id": "2610.30132",
+      "tokens": [
+        "context",
+        "enhancing",
+        "llms",
+        "long",
+        "longzero",
+        "reasoning",
+        "zero"
+      ],
+      "first_seen_round": 437
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.30103v1",
+      "title": "Did the Problem Actually Get Harder? Testing LLMs on Paired P and NP-Complete Problems Hardened by Adversarial Multi-Agent Rewriting",
+      "arxiv_id": "2610.30103",
+      "tokens": [
+        "actually",
+        "adversarial",
+        "agent",
+        "complete",
+        "get",
+        "hardened",
+        "harder",
+        "llms",
+        "multi",
+        "paired",
+        "problem",
+        "problems",
+        "rewriting",
+        "testing"
+      ],
+      "first_seen_round": 437
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.30090v1",
+      "title": "VX-One: Typed, Calibrated Decision Heads for Real-Time Perimeter Triage - An empirical study of unknown-attack honesty, cascade gray zones, and calibration under drift",
+      "arxiv_id": "2610.30090",
+      "tokens": [
+        "attack",
+        "calibrated",
+        "calibration",
+        "cascade",
+        "decision",
+        "drift",
+        "empirical",
+        "gray",
+        "heads",
+        "honesty",
+        "perimeter",
+        "real",
+        "time",
+        "triage",
+        "typed",
+        "unknown",
+        "zones"
+      ],
+      "first_seen_round": 437
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.30067v1",
+      "title": "GoiBERT: Compact Vietnamese Language Models via Two-Stage Knowledge Distillation",
+      "arxiv_id": "2610.30067",
+      "tokens": [
+        "compact",
+        "distillation",
+        "goibert",
+        "knowledge",
+        "language",
+        "stage",
+        "vietnamese"
+      ],
+      "first_seen_round": 437
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.30066v1",
+      "title": "Looped Uniform Diffusion Language Models",
+      "arxiv_id": "2610.30066",
+      "tokens": [
+        "diffusion",
+        "language",
+        "looped",
+        "uniform"
+      ],
+      "first_seen_round": 437
     }
   ],
-  "total_unique": 3876
+  "total_unique": 3896
 }

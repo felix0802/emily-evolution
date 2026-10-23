@@ -4328,6 +4328,21 @@
         ],
         "decided_at": "2026-10-22T19:35:44.038998"
       }
+    },
+    {
+      "id": "llm-item-level-adaptive-recursion",
+      "name": "Item-level adaptive recursion",
+      "adopted_at": "2026-10-23T02:16:51.019754",
+      "decision": {
+        "tech_id": "llm-item-level-adaptive-recursion",
+        "tech_name": "Item-level adaptive recursion",
+        "action": "adopt",
+        "confidence": 0.9,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-10-23T02:16:51.017118"
+      }
     }
   ],
   "history": [
@@ -6058,6 +6073,12 @@
       "tech_id": "llm-试探性上下文流水线",
       "tech_name": "试探性上下文流水线",
       "timestamp": "2026-10-22T19:35:44.042701"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-item-level-adaptive-recursion",
+      "tech_name": "Item-level adaptive recursion",
+      "timestamp": "2026-10-23T02:16:51.019759"
     }
   ]
 }
