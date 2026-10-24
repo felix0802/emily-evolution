@@ -520,7 +520,112 @@
       },
       "analyzed_at": "2026-10-12T08:17:07.851345",
       "llm_source": "deepseek"
+    },
+    {
+      "variables": [
+        {
+          "name": "TopoRouting",
+          "role": "cause",
+          "mechanism": "Sparse expert routing conditioned on local graph topology assigns different experts to nodes based on their neighborhood structure, enabling conditional computation that preserves relational inductive bias.",
+          "observable": true
+        },
+        {
+          "name": "AccEffTradeoff",
+          "role": "effect",
+          "mechanism": "Topology-aware sparse routing reduces computation per node while maintaining or improving accuracy by specializing experts to local graph patterns, yielding a better accuracy-efficiency trade-off.",
+          "observable": true
+        },
+        {
+          "name": "GraphScale",
+          "role": "confounder",
+          "mechanism": "Larger graph scale increases both the benefit of sparse topology-aware routing (due to heterogeneity and computational pressure) and the measured accuracy-efficiency trade-off, creating a spurious association if not controlled.",
+          "observable": true
+        },
+        {
+          "name": "TaskHeterogeneity",
+          "role": "confounder",
+          "mechanism": "Tasks with more diverse local graph structures make topology-aware routing more advantageous and also affect the achievable accuracy-efficiency trade-off independently of routing.",
+          "observable": false
+        },
+        {
+          "name": "ExpertCapacity",
+          "role": "confounder",
+          "mechanism": "The total number of experts and their capacity simultaneously influences routing sparsity (cause) and the accuracy-efficiency trade-off (effect) by bounding model expressiveness and compute.",
+          "observable": true
+        }
+      ],
+      "edges": [
+        {
+          "from": "TopoRouting",
+          "to": "AccEffTradeoff",
+          "type": "direct_causal",
+          "confidence": 0.6
+        },
+        {
+          "from": "GraphScale",
+          "to": "TopoRouting",
+          "type": "confounding",
+          "confidence": 0.7
+        },
+        {
+          "from": "GraphScale",
+          "to": "AccEffTradeoff",
+          "type": "confounding",
+          "confidence": 0.7
+        },
+        {
+          "from": "TaskHeterogeneity",
+          "to": "TopoRouting",
+          "type": "confounding",
+          "confidence": 0.5
+        },
+        {
+          "from": "TaskHeterogeneity",
+          "to": "AccEffTradeoff",
+          "type": "confounding",
+          "confidence": 0.5
+        },
+        {
+          "from": "ExpertCapacity",
+          "to": "TopoRouting",
+          "type": "confounding",
+          "confidence": 0.6
+        },
+        {
+          "from": "ExpertCapacity",
+          "to": "AccEffTradeoff",
+          "type": "confounding",
+          "confidence": 0.6
+        }
+      ],
+      "counterfactual": {
+        "question": "If the sparse expert routing were made topology-agnostic (i.e., not conditioned on local graph topology) while keeping all else equal, would the accuracy-efficiency trade-off on large-scale graph learning tasks still be better than dense GNNs?",
+        "predicted_answer": "No, removing topology conditioning would likely degrade the trade-off because routing would no longer exploit local structural heterogeneity, reducing expert specialization and potentially increasing computation for equivalent accuracy. The advantage over dense GNNs would shrink or disappear, especially on large heterogeneous graphs.",
+        "confidence": 0.55
+      },
+      "confounders_detected": [
+        "GraphScale",
+        "TaskHeterogeneity",
+        "ExpertCapacity"
+      ],
+      "is_correlation_only": false,
+      "causal_strength": 0.55,
+      "alternative_explanations": [
+        "The observed trade-off improvement may be driven primarily by increased model capacity (more experts) rather than topology-aware routing itself.",
+        "Graph distribution shifts or dataset-specific properties could create apparent benefits of topology-aware routing that do not generalize.",
+        "Dense GNN baselines may be under-tuned, making the MoE approach appear more efficient than it truly is."
+      ],
+      "hypothesis_id": "hyp-0034",
+      "hypothesis_text": "A graph-aware mixture-of-experts model with sparse expert routing conditioned on local graph topology can achieve better accuracy-efficiency trade-offs on large-scale graph learning tasks than dense G",
+      "seed_a": "Mixture of Experts",
+      "seed_b": "Graph Neural Networks",
+      "evidence_counts": {
+        "supporting": 3,
+        "refuting": 0
+      },
+      "analyzed_at": "2026-10-24T22:03:38.567120",
+      "llm_source": "deepseek"
     }
   ],
-  "total_analyzed": 7
+  "total_analyzed": 8
 }

@@ -783,14 +783,14 @@
       "reasoning": "HTM's hierarchical temporal memory encodes sequences via sparse distributed representations and predictive coding, which can model the importance of past tokens. KV cache optimization often uses static or heuristic eviction; HTM's online prediction can dynamically score token relevance, aligning with the shared concepts of language and multimodal sequence modeling.",
       "arxiv_query": "HTM KV cache eviction sparse temporal memory language models",
       "potential_breakthrough": "A self-adaptive KV cache that uses HTM's predictive memory to retain only contextually critical tokens, enabling efficient long-context multimodal LLMs.",
-      "status": "unverified",
-      "verification_rounds": 2,
+      "status": "inconclusive",
+      "verification_rounds": 3,
       "supporting_papers": [],
       "refuting_papers": [],
       "llm_source": "deepseek"
     }
   ],
-  "last_updated": "2026-10-24T19:54:43.500923",
+  "last_updated": "2026-10-24T22:03:33.925760",
   "total_generated": 35,
-  "total_verified": 34
+  "total_verified": 35
 }
