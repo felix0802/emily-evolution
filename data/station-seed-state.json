@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 812,
+  "_rotation_idx": 813,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 86,
@@ -1586,25 +1586,8 @@
   "htm": {
     "name": "HTM",
     "total_papers_found": 141,
-    "watering_count": 84,
+    "watering_count": 85,
     "history": [
-      {
-        "timestamp": "2026-08-10T12:39:21.074503",
-        "papers_found": 1,
-        "duplicates": 2,
-        "irrelevant_filtered": 7,
-        "avg_relevance": 1.0,
-        "high_relevance": 0,
-        "papers": [
-          {
-            "title": "Modular TTT: Rethinking Test-Time Training as Composable Modules",
-            "summary": "Test-time training (TTT) views sequence modeling as an online learning problem in which fast weights are updated by an internal learning rule. Despite the growing number of TTT variants, existing approaches typically hard-code each variant separately, which makes it difficult to design new TTT metho",
-            "published": "2026-08-07",
-            "url": "http://arxiv.org/abs/2608.07110v1",
-            "seed_match_score": 1
-          }
-        ]
-      },
       {
         "timestamp": "2026-08-11T08:41:43.355753",
         "papers_found": 4,
@@ -2555,6 +2538,15 @@
             "seed_match_score": 1
           }
         ]
+      },
+      {
+        "timestamp": "2026-10-24T13:41:28.243990",
+        "papers_found": 0,
+        "duplicates": 5,
+        "irrelevant_filtered": 5,
+        "avg_relevance": 0.0,
+        "high_relevance": 0,
+        "papers": []
       }
     ],
     "keywords": [
@@ -2569,7 +2561,7 @@
       "anomaly detection",
       "continuous learning"
     ],
-    "last_watered": "2026-10-22T14:43:59.540500"
+    "last_watered": "2026-10-24T13:41:28.243983"
   },
   "spiking-nn": {
     "name": "Spiking Neural Networks",

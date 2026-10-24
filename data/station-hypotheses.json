@@ -757,9 +757,26 @@
       ],
       "refuting_papers": [],
       "llm_source": "deepseek"
+    },
+    {
+      "id": "hyp-0035",
+      "timestamp": "2026-10-24T13:41:36.186395",
+      "seed_a": "HTM",
+      "seed_b": "KV Cache Optimization",
+      "crossref_strength": 5,
+      "shared_keywords": [],
+      "hypothesis": "Integrating HTM's sparse temporal memory with KV cache compression can yield a dynamic, context-aware cache eviction policy that preserves long-range dependencies while reducing memory footprint.",
+      "reasoning": "HTM's hierarchical temporal memory encodes sequences via sparse distributed representations and predictive coding, which can model the importance of past tokens. KV cache optimization often uses static or heuristic eviction; HTM's online prediction can dynamically score token relevance, aligning with the shared concepts of language and multimodal sequence modeling.",
+      "arxiv_query": "HTM KV cache eviction sparse temporal memory language models",
+      "potential_breakthrough": "A self-adaptive KV cache that uses HTM's predictive memory to retain only contextually critical tokens, enabling efficient long-context multimodal LLMs.",
+      "status": "unverified",
+      "verification_rounds": 1,
+      "supporting_papers": [],
+      "refuting_papers": [],
+      "llm_source": "deepseek"
     }
   ],
-  "last_updated": "2026-10-24T08:27:51.916666",
-  "total_generated": 34,
+  "last_updated": "2026-10-24T13:41:39.138546",
+  "total_generated": 35,
   "total_verified": 33
 }

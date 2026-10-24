@@ -4448,6 +4448,21 @@
         ],
         "decided_at": "2026-10-24T08:27:46.421476"
       }
+    },
+    {
+      "id": "llm-自适应检索增强生成",
+      "name": "自适应检索增强生成",
+      "adopted_at": "2026-10-24T13:41:33.991661",
+      "decision": {
+        "tech_id": "llm-自适应检索增强生成",
+        "tech_name": "自适应检索增强生成",
+        "action": "adopt",
+        "confidence": 0.9,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-10-24T13:41:33.989073"
+      }
     }
   ],
   "history": [
@@ -6226,6 +6241,12 @@
       "tech_id": "llm-推测解码",
       "tech_name": "推测解码",
       "timestamp": "2026-10-24T08:27:46.423643"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-自适应检索增强生成",
+      "tech_name": "自适应检索增强生成",
+      "timestamp": "2026-10-24T13:41:33.991666"
     }
   ]
 }
