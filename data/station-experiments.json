@@ -227,8 +227,60 @@
         "accuracy_difference": -0.0067,
         "winner": "SVM"
       }
+    },
+    {
+      "id": "exp-hyp-0034",
+      "hypothesis_id": "hyp-0034",
+      "hypothesis_text": "A graph-aware mixture-of-experts model with sparse expert routing conditioned on local graph topology can achieve better accuracy-efficiency trade-off",
+      "dataset": "Iris",
+      "algorithms": [
+        "LogisticRegression",
+        "RandomForest"
+      ],
+      "metric": "accuracy",
+      "cross_val": 5,
+      "designed_at": "2026-10-24T19:54:43.166648",
+      "status": "completed",
+      "outcome": {
+        "status": "completed",
+        "executed_at": "2026-10-24T19:54:43.500713",
+        "dataset": "Iris",
+        "n_samples": 150,
+        "n_features": 4,
+        "n_classes": 3,
+        "algorithms_compared": [
+          "LogisticRegression",
+          "RandomForest"
+        ],
+        "results": {
+          "LogisticRegression": {
+            "mean": 0.96,
+            "std": 0.0389,
+            "scores": [
+              0.9667,
+              1.0,
+              0.9333,
+              0.9,
+              1.0
+            ]
+          },
+          "RandomForest": {
+            "mean": 0.9667,
+            "std": 0.0211,
+            "scores": [
+              0.9667,
+              0.9667,
+              0.9333,
+              0.9667,
+              1.0
+            ]
+          }
+        },
+        "accuracy_difference": -0.0067,
+        "winner": "RandomForest"
+      }
     }
   ],
-  "total_experiments": 7,
-  "last_updated": "2026-10-07T14:50:03.245074"
+  "total_experiments": 8,
+  "last_updated": "2026-10-24T19:54:43.501918"
 }

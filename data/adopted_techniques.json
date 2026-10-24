@@ -4493,6 +4493,36 @@
         ],
         "decided_at": "2026-10-24T17:03:45.473295"
       }
+    },
+    {
+      "id": "llm-柏拉图表示假说-(prh)",
+      "name": "柏拉图表示假说 (PRH)",
+      "adopted_at": "2026-10-24T19:54:37.603794",
+      "decision": {
+        "tech_id": "llm-柏拉图表示假说-(prh)",
+        "tech_name": "柏拉图表示假说 (PRH)",
+        "action": "adopt",
+        "confidence": 0.9,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-10-24T19:54:37.601814"
+      }
+    },
+    {
+      "id": "llm-低频痕迹审计",
+      "name": "低频痕迹审计",
+      "adopted_at": "2026-10-24T19:54:37.603811",
+      "decision": {
+        "tech_id": "llm-低频痕迹审计",
+        "tech_name": "低频痕迹审计",
+        "action": "adopt",
+        "confidence": 0.85,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-10-24T19:54:37.602021"
+      }
     }
   ],
   "history": [
@@ -6289,6 +6319,18 @@
       "tech_id": "llm-cost-aware-abstention",
       "tech_name": "Cost-Aware Abstention",
       "timestamp": "2026-10-24T17:03:45.475757"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-柏拉图表示假说-(prh)",
+      "tech_name": "柏拉图表示假说 (PRH)",
+      "timestamp": "2026-10-24T19:54:37.603797"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-低频痕迹审计",
+      "tech_name": "低频痕迹审计",
+      "timestamp": "2026-10-24T19:54:37.603812"
     }
   ]
 }

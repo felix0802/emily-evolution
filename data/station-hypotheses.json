@@ -741,8 +741,8 @@
       "reasoning": "MoE provides conditional computation and scalability via sparse expert activation, while GNNs provide relational inductive bias through message passing over graph structure. The shared concepts of awareness, distillation, efficiency, foundation models, and model design suggest that routing can be made graph-aware and experts can be distilled into compact foundation-style graph models, yielding a mathematically grounded combination of sparse gating and graph convolution.",
       "arxiv_query": "mixture of experts graph neural networks sparse routing",
       "potential_breakthrough": "Scalable graph foundation models that dynamically activate specialized experts per subgraph, enabling efficient training and inference on massive heterogeneous graphs.",
-      "status": "unverified",
-      "verification_rounds": 2,
+      "status": "supported",
+      "verification_rounds": 3,
       "supporting_papers": [
         {
           "title": "GraphMETRO: Mitigating Complex Graph Distribution Shifts via Mixture of Aligned Experts",
@@ -753,10 +753,24 @@
           "title": "GraphMETRO: Mitigating Complex Graph Distribution Shifts via Mixture of Aligned Experts",
           "url": "http://arxiv.org/abs/2312.04693v3",
           "reason": "GraphMETRO 提出基於圖對齊專家的混合架構以應對圖分佈偏移，支持將 MoE 與圖結構結合的可行性。"
+        },
+        {
+          "title": "GraphMETRO: Mitigating Complex Graph Distribution Shifts via Mixture of Aligned Experts",
+          "url": "http://arxiv.org/abs/2312.04693v3",
+          "reason": "該論文提出圖上的對齊專家混合架構以應對分佈偏移，支持在圖學習中使用 MoE 的可行性，但未直接驗證拓撲條件路由的效率權衡。"
         }
       ],
       "refuting_papers": [],
-      "llm_source": "deepseek"
+      "llm_source": "deepseek",
+      "experiment_result": {
+        "algorithms": [
+          "LogisticRegression",
+          "RandomForest"
+        ],
+        "winner": "RandomForest",
+        "accuracy_diff": -0.0067,
+        "executed_at": "2026-10-24T19:54:43.500713"
+      }
     },
     {
       "id": "hyp-0035",
@@ -776,7 +790,7 @@
       "llm_source": "deepseek"
     }
   ],
-  "last_updated": "2026-10-24T17:03:53.620340",
+  "last_updated": "2026-10-24T19:54:43.500923",
   "total_generated": 35,
-  "total_verified": 33
+  "total_verified": 34
 }
