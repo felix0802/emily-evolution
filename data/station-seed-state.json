@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 811,
+  "_rotation_idx": 812,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 86,
@@ -766,18 +766,9 @@
   },
   "liquid-networks": {
     "name": "Liquid Networks",
-    "total_papers_found": 109,
-    "watering_count": 84,
+    "total_papers_found": 111,
+    "watering_count": 85,
     "history": [
-      {
-        "timestamp": "2026-08-10T10:54:54.454389",
-        "papers_found": 0,
-        "duplicates": 9,
-        "irrelevant_filtered": 1,
-        "avg_relevance": 0.0,
-        "high_relevance": 0,
-        "papers": []
-      },
       {
         "timestamp": "2026-08-11T06:43:02.097372",
         "papers_found": 0,
@@ -1557,6 +1548,30 @@
             "seed_match_score": 2
           }
         ]
+      },
+      {
+        "timestamp": "2026-10-24T08:27:41.677837",
+        "papers_found": 2,
+        "duplicates": 7,
+        "irrelevant_filtered": 1,
+        "avg_relevance": 1.5,
+        "high_relevance": 1,
+        "papers": [
+          {
+            "title": "Identifiability from Stationary Covariance in Linear SDEs with Reciprocal Interactions and Latent Variables",
+            "summary": "Continuous-time stochastic differential equations (SDEs) provide a natural framework for modeling interacting dynamical systems. A central causal question is whether causal effects among observed variables can be identified from observational data drawn from the stationary distribution, given the un",
+            "published": "2026-10-22",
+            "url": "http://arxiv.org/abs/2610.31310v1",
+            "seed_match_score": 2
+          },
+          {
+            "title": "Solvable models of learning to pursue a moving target",
+            "summary": "Agents tasked with intercepting a moving target must learn how to reach it, ideally as efficiently as possible. As observers of animal pursuit behavior have noticed, different strategies are possible: on one extreme, the agent reactively moves toward the target's current location; on the other, the ",
+            "published": "2026-10-22",
+            "url": "http://arxiv.org/abs/2610.30721v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -1566,7 +1581,7 @@
       "ode",
       "continuous-time"
     ],
-    "last_watered": "2026-10-22T08:58:39.783157"
+    "last_watered": "2026-10-24T08:27:41.677830"
   },
   "htm": {
     "name": "HTM",

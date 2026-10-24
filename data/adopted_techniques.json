@@ -4418,6 +4418,36 @@
         ],
         "decided_at": "2026-10-24T02:13:22.930203"
       }
+    },
+    {
+      "id": "llm-kv-缓存压缩",
+      "name": "KV 缓存压缩",
+      "adopted_at": "2026-10-24T08:27:46.423620",
+      "decision": {
+        "tech_id": "llm-kv-缓存压缩",
+        "tech_name": "KV 缓存压缩",
+        "action": "adopt",
+        "confidence": 0.95,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-10-24T08:27:46.421268"
+      }
+    },
+    {
+      "id": "llm-推测解码",
+      "name": "推测解码",
+      "adopted_at": "2026-10-24T08:27:46.423642",
+      "decision": {
+        "tech_id": "llm-推测解码",
+        "tech_name": "推测解码",
+        "action": "adopt",
+        "confidence": 0.9,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-10-24T08:27:46.421476"
+      }
     }
   ],
   "history": [
@@ -6184,6 +6214,18 @@
       "tech_id": "llm-不确定性感知的搜索复用-(quanas)",
       "tech_name": "不确定性感知的搜索复用 (QuaNAS)",
       "timestamp": "2026-10-24T02:13:22.931708"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-kv-缓存压缩",
+      "tech_name": "KV 缓存压缩",
+      "timestamp": "2026-10-24T08:27:46.423625"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-推测解码",
+      "tech_name": "推测解码",
+      "timestamp": "2026-10-24T08:27:46.423643"
     }
   ]
 }

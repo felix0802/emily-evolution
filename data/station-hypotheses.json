@@ -724,8 +724,8 @@
       "reasoning": "HTM provides a biologically plausible sequence memory with sparse distributed representations and prediction error signals, while MoE offers conditional computation via expert specialization. The shared concepts of 'agentic, aware, language, loss, models' suggest both aim at adaptive, context-sensitive systems; mathematically, HTM's error-driven learning can serve as a gating function for MoE's softmax router, creating a feedback loop between temporal prediction and expert activation.",
       "arxiv_query": "Hierarchical Temporal Memory Mixture of Experts gating",
       "potential_breakthrough": "A self-organizing, temporally-aware MoE architecture that dynamically allocates experts based on prediction errors, enabling efficient lifelong learning and anomaly detection in streaming data.",
-      "status": "unverified",
-      "verification_rounds": 2,
+      "status": "inconclusive",
+      "verification_rounds": 3,
       "supporting_papers": [],
       "refuting_papers": [],
       "llm_source": "deepseek"
@@ -759,7 +759,7 @@
       "llm_source": "deepseek"
     }
   ],
-  "last_updated": "2026-10-24T02:13:28.527433",
+  "last_updated": "2026-10-24T08:27:51.916666",
   "total_generated": 34,
-  "total_verified": 32
+  "total_verified": 33
 }
