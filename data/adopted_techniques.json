@@ -4463,6 +4463,36 @@
         ],
         "decided_at": "2026-10-24T13:41:33.989073"
       }
+    },
+    {
+      "id": "llm-direct-pass@k-optimization",
+      "name": "Direct Pass@k Optimization",
+      "adopted_at": "2026-10-24T17:03:45.475730",
+      "decision": {
+        "tech_id": "llm-direct-pass@k-optimization",
+        "tech_name": "Direct Pass@k Optimization",
+        "action": "adopt",
+        "confidence": 0.9,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-10-24T17:03:45.473102"
+      }
+    },
+    {
+      "id": "llm-cost-aware-abstention",
+      "name": "Cost-Aware Abstention",
+      "adopted_at": "2026-10-24T17:03:45.475756",
+      "decision": {
+        "tech_id": "llm-cost-aware-abstention",
+        "tech_name": "Cost-Aware Abstention",
+        "action": "adopt",
+        "confidence": 0.85,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-10-24T17:03:45.473295"
+      }
     }
   ],
   "history": [
@@ -6247,6 +6277,18 @@
       "tech_id": "llm-自适应检索增强生成",
       "tech_name": "自适应检索增强生成",
       "timestamp": "2026-10-24T13:41:33.991666"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-direct-pass@k-optimization",
+      "tech_name": "Direct Pass@k Optimization",
+      "timestamp": "2026-10-24T17:03:45.475736"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-cost-aware-abstention",
+      "tech_name": "Cost-Aware Abstention",
+      "timestamp": "2026-10-24T17:03:45.475757"
     }
   ]
 }

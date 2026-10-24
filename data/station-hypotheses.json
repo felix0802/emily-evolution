@@ -770,13 +770,13 @@
       "arxiv_query": "HTM KV cache eviction sparse temporal memory language models",
       "potential_breakthrough": "A self-adaptive KV cache that uses HTM's predictive memory to retain only contextually critical tokens, enabling efficient long-context multimodal LLMs.",
       "status": "unverified",
-      "verification_rounds": 1,
+      "verification_rounds": 2,
       "supporting_papers": [],
       "refuting_papers": [],
       "llm_source": "deepseek"
     }
   ],
-  "last_updated": "2026-10-24T13:41:39.138546",
+  "last_updated": "2026-10-24T17:03:53.620340",
   "total_generated": 35,
   "total_verified": 33
 }
