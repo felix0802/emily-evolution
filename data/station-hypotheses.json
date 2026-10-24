@@ -742,19 +742,24 @@
       "arxiv_query": "mixture of experts graph neural networks sparse routing",
       "potential_breakthrough": "Scalable graph foundation models that dynamically activate specialized experts per subgraph, enabling efficient training and inference on massive heterogeneous graphs.",
       "status": "unverified",
-      "verification_rounds": 1,
+      "verification_rounds": 2,
       "supporting_papers": [
         {
           "title": "GraphMETRO: Mitigating Complex Graph Distribution Shifts via Mixture of Aligned Experts",
           "url": "http://arxiv.org/abs/2312.04693v3",
           "reason": "該論文提出圖對齊的 MoE 架構以應對圖分佈偏移，支持圖感知專家混合在圖學習任務上的可行性。"
+        },
+        {
+          "title": "GraphMETRO: Mitigating Complex Graph Distribution Shifts via Mixture of Aligned Experts",
+          "url": "http://arxiv.org/abs/2312.04693v3",
+          "reason": "GraphMETRO 提出基於圖對齊專家的混合架構以應對圖分佈偏移，支持將 MoE 與圖結構結合的可行性。"
         }
       ],
       "refuting_papers": [],
       "llm_source": "deepseek"
     }
   ],
-  "last_updated": "2026-10-23T22:42:36.696431",
+  "last_updated": "2026-10-24T02:13:28.527433",
   "total_generated": 34,
   "total_verified": 32
 }

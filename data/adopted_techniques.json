@@ -4388,6 +4388,36 @@
         ],
         "decided_at": "2026-10-23T19:36:07.727469"
       }
+    },
+    {
+      "id": "llm-领域集成相似性成本-(disc)",
+      "name": "领域集成相似性成本 (DISC)",
+      "adopted_at": "2026-10-24T02:13:22.931692",
+      "decision": {
+        "tech_id": "llm-领域集成相似性成本-(disc)",
+        "tech_name": "领域集成相似性成本 (DISC)",
+        "action": "adopt",
+        "confidence": 0.9,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-10-24T02:13:22.929991"
+      }
+    },
+    {
+      "id": "llm-不确定性感知的搜索复用-(quanas)",
+      "name": "不确定性感知的搜索复用 (QuaNAS)",
+      "adopted_at": "2026-10-24T02:13:22.931707",
+      "decision": {
+        "tech_id": "llm-不确定性感知的搜索复用-(quanas)",
+        "tech_name": "不确定性感知的搜索复用 (QuaNAS)",
+        "action": "adopt",
+        "confidence": 0.85,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-10-24T02:13:22.930203"
+      }
     }
   ],
   "history": [
@@ -6142,6 +6172,18 @@
       "tech_id": "llm-multi-objective-kv-cache-alloc",
       "tech_name": "Multi-objective KV cache allocation",
       "timestamp": "2026-10-23T19:36:07.728974"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-领域集成相似性成本-(disc)",
+      "tech_name": "领域集成相似性成本 (DISC)",
+      "timestamp": "2026-10-24T02:13:22.931694"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-不确定性感知的搜索复用-(quanas)",
+      "tech_name": "不确定性感知的搜索复用 (QuaNAS)",
+      "timestamp": "2026-10-24T02:13:22.931708"
     }
   ]
 }
