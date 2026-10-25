@@ -4553,6 +4553,36 @@
         ],
         "decided_at": "2026-10-25T01:59:51.728849"
       }
+    },
+    {
+      "id": "llm-domain-integrated-similarity-c",
+      "name": "Domain-Integrated Similarity Cost (DISC)",
+      "adopted_at": "2026-10-25T12:49:24.342997",
+      "decision": {
+        "tech_id": "llm-domain-integrated-similarity-c",
+        "tech_name": "Domain-Integrated Similarity Cost (DISC)",
+        "action": "adopt",
+        "confidence": 0.85,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-10-25T12:49:24.341279"
+      }
+    },
+    {
+      "id": "llm-random-initialization-baseline",
+      "name": "Random Initialization Baseline for TSFMs",
+      "adopted_at": "2026-10-25T12:49:24.343013",
+      "decision": {
+        "tech_id": "llm-random-initialization-baseline",
+        "tech_name": "Random Initialization Baseline for TSFMs",
+        "action": "adopt",
+        "confidence": 0.85,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-10-25T12:49:24.341467"
+      }
     }
   ],
   "history": [
@@ -6373,6 +6403,18 @@
       "tech_id": "llm-多目标搜索用于kv缓存分配",
       "tech_name": "多目标搜索用于KV缓存分配",
       "timestamp": "2026-10-25T01:59:51.730879"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-domain-integrated-similarity-c",
+      "tech_name": "Domain-Integrated Similarity Cost (DISC)",
+      "timestamp": "2026-10-25T12:49:24.343000"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-random-initialization-baseline",
+      "tech_name": "Random Initialization Baseline for TSFMs",
+      "timestamp": "2026-10-25T12:49:24.343014"
     }
   ]
 }

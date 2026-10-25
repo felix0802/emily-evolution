@@ -1,53 +1,6 @@
 {
   "sessions": [
     {
-      "timestamp": "2026-10-04T13:31:38.489973",
-      "arxiv_papers_count": 17,
-      "arxiv_top_keywords": [
-        "generation",
-        "image",
-        "real",
-        "visual",
-        "reasoning",
-        "fine",
-        "escher",
-        "conformal",
-        "print",
-        "moore"
-      ],
-      "arxiv_strategies": [
-        "cs.CV 最新",
-        "cs.AI+cs.LG 混合",
-        "cs.CL+cs.CV 混合"
-      ],
-      "huggingface_models": 10,
-      "huggingface_tasks": [
-        "sentence-similarity",
-        "unknown",
-        "text-ranking",
-        "feature-extraction",
-        "fill-mask"
-      ],
-      "ml_datasets": [
-        "Iris",
-        "Wine",
-        "Breast Cancer",
-        "Diabetes"
-      ],
-      "ml_total_tests": 22,
-      "github_trending_repos": 8,
-      "paperswithcode_papers": 8,
-      "evolution": {
-        "discovered": 20,
-        "adopted": 1,
-        "decisions": 1
-      },
-      "seed_watering": {
-        "seed_name": "Mixture of Experts",
-        "papers_found": 8
-      }
-    },
-    {
       "timestamp": "2026-10-04T17:54:06.290313",
       "arxiv_papers_count": 17,
       "arxiv_top_keywords": [
@@ -4699,12 +4652,59 @@
         "seed_name": "Mixture of Experts",
         "papers_found": 7
       }
+    },
+    {
+      "timestamp": "2026-10-25T12:49:27.861846",
+      "arxiv_papers_count": 17,
+      "arxiv_top_keywords": [
+        "time",
+        "series",
+        "anomaly",
+        "detection",
+        "experts",
+        "training",
+        "routing",
+        "expert",
+        "dataset",
+        "similarity"
+      ],
+      "arxiv_strategies": [
+        "搜索: time series forecasting",
+        "搜索: anomaly detection",
+        "搜索: mixture of experts"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "unknown",
+        "text-generation",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 18,
+        "adopted": 2,
+        "decisions": 2
+      },
+      "seed_watering": {
+        "seed_name": "KV Cache Optimization",
+        "papers_found": 8
+      }
     }
   ],
   "total_sessions": 101,
-  "last_updated": "2026-10-25T07:18:10.668829",
+  "last_updated": "2026-10-25T12:49:27.861857",
   "evolution_summary": {
-    "total_adopted": 303,
+    "total_adopted": 305,
     "adopted_list": [
       "Knowledge Distillation",
       "World Models / Model-Based RL",
@@ -5008,7 +5008,9 @@
       "柏拉图表示假说 (PRH)",
       "低频痕迹审计",
       "物理引导的神经逆向设计",
-      "多目标搜索用于KV缓存分配"
+      "多目标搜索用于KV缓存分配",
+      "Domain-Integrated Similarity Cost (DISC)",
+      "Random Initialization Baseline for TSFMs"
     ],
     "seeds": {
       "mamba": {
@@ -5053,7 +5055,7 @@
       },
       "kv-cache": {
         "name": "KV Cache Optimization",
-        "watering": 79,
+        "watering": 80,
         "papers": 121
       },
       "gnn": {
@@ -5197,17 +5199,17 @@
         "name": "KV Cache Optimization",
         "new_papers": 121,
         "keywords_matched": [
-          "gqa",
-          "speculative decoding",
           "flash attention",
+          "key-value cache",
+          "speculative decoding",
           "kv cache",
-          "key-value cache"
+          "gqa"
         ],
         "high_relevance_total": 5,
-        "avg_relevance_latest": 1.2,
+        "avg_relevance_latest": 0.0,
         "best_papers_count": 1
       }
     },
-    "last_evolution": "2026-10-25T07:18:10.672597"
+    "last_evolution": "2026-10-25T12:49:27.863831"
   }
 }
