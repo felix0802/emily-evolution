@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-25T01:59:56.326366",
+  "timestamp": "2026-10-25T07:18:10.686854",
   "connections": [
     {
       "seed_a": "Mamba (SSM)",
@@ -14,7 +14,7 @@
         "state"
       ],
       "strength": 7,
-      "discovered_at": "2026-10-25T01:59:56.326270"
+      "discovered_at": "2026-10-25T07:18:10.686737"
     },
     {
       "seed_a": "HTM",
@@ -28,7 +28,7 @@
         "with"
       ],
       "strength": 5,
-      "discovered_at": "2026-10-25T01:59:56.326319"
+      "discovered_at": "2026-10-25T07:18:10.686797"
     },
     {
       "seed_a": "Mixture of Experts",
@@ -42,7 +42,7 @@
         "models"
       ],
       "strength": 5,
-      "discovered_at": "2026-10-25T01:59:56.326359"
+      "discovered_at": "2026-10-25T07:18:10.686845"
     },
     {
       "seed_a": "Liquid Networks",
@@ -55,20 +55,7 @@
         "learning"
       ],
       "strength": 4,
-      "discovered_at": "2026-10-25T01:59:56.326298"
-    },
-    {
-      "seed_a": "Liquid Networks",
-      "seed_b": "Mixture of Experts",
-      "shared_keywords": [],
-      "shared_paper_concepts": [
-        "mixture",
-        "model",
-        "models",
-        "policy"
-      ],
-      "strength": 4,
-      "discovered_at": "2026-10-25T01:59:56.326301"
+      "discovered_at": "2026-10-25T07:18:10.686772"
     },
     {
       "seed_a": "HTM",
@@ -81,7 +68,7 @@
         "models"
       ],
       "strength": 4,
-      "discovered_at": "2026-10-25T01:59:56.326316"
+      "discovered_at": "2026-10-25T07:18:10.686794"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -93,7 +80,7 @@
         "model"
       ],
       "strength": 3,
-      "discovered_at": "2026-10-25T01:59:56.326261"
+      "discovered_at": "2026-10-25T07:18:10.686723"
     },
     {
       "seed_a": "Liquid Networks",
@@ -105,19 +92,7 @@
         "model"
       ],
       "strength": 3,
-      "discovered_at": "2026-10-25T01:59:56.326295"
-    },
-    {
-      "seed_a": "Continual Learning",
-      "seed_b": "Mixture of Experts",
-      "shared_keywords": [],
-      "shared_paper_concepts": [
-        "distillation",
-        "dynamic",
-        "prompt"
-      ],
-      "strength": 3,
-      "discovered_at": "2026-10-25T01:59:56.326351"
+      "discovered_at": "2026-10-25T07:18:10.686768"
     },
     {
       "seed_a": "Continual Learning",
@@ -129,7 +104,29 @@
         "training"
       ],
       "strength": 3,
-      "discovered_at": "2026-10-25T01:59:56.326353"
+      "discovered_at": "2026-10-25T07:18:10.686838"
+    },
+    {
+      "seed_a": "Mamba (SSM)",
+      "seed_b": "Few-Shot Learning",
+      "shared_keywords": [],
+      "shared_paper_concepts": [
+        "learning",
+        "model"
+      ],
+      "strength": 2,
+      "discovered_at": "2026-10-25T07:18:10.686741"
+    },
+    {
+      "seed_a": "Mamba (SSM)",
+      "seed_b": "Continual Learning",
+      "shared_keywords": [],
+      "shared_paper_concepts": [
+        "forecasting",
+        "learning"
+      ],
+      "strength": 2,
+      "discovered_at": "2026-10-25T07:18:10.686745"
     }
   ],
   "total_seeds": 10
