@@ -1,28 +1,6 @@
 {
   "rounds": [
     {
-      "round": 401,
-      "timestamp": "2026-10-16T17:46:28.304351",
-      "prediction_error": 0.7,
-      "seeds_active": 10,
-      "seeds_dormant": 0,
-      "new_seeds_added": 0,
-      "top_motivated": [
-        [
-          "mamba",
-          0.91
-        ],
-        [
-          "liquid-networks",
-          0.91
-        ],
-        [
-          "htm",
-          0.91
-        ]
-      ]
-    },
-    {
       "round": 402,
       "timestamp": "2026-10-16T20:13:34.238600",
       "prediction_error": 0.7,
@@ -1099,6 +1077,28 @@
           0.91
         ]
       ]
+    },
+    {
+      "round": 451,
+      "timestamp": "2026-10-25T17:18:13.346912",
+      "prediction_error": 0.7,
+      "seeds_active": 10,
+      "seeds_dormant": 0,
+      "new_seeds_added": 0,
+      "top_motivated": [
+        [
+          "mamba",
+          0.91
+        ],
+        [
+          "liquid-networks",
+          0.91
+        ],
+        [
+          "spiking-nn",
+          0.91
+        ]
+      ]
     }
   ],
   "seed_scores": {
@@ -1169,7 +1169,6 @@
         1.0,
         1.0,
         1.0,
-        1.0,
         0.847,
         0.847,
         0.847,
@@ -1180,6 +1179,7 @@
         0.847,
         0.847,
         0.847,
+        0.741,
         0.741,
         0.741,
         0.741,
@@ -1239,7 +1239,7 @@
         1.0,
         1.0,
         1.0,
-        1.0,
+        0.957,
         0.957,
         0.957,
         0.957,
@@ -1365,9 +1365,9 @@
     },
     "gnn": {
       "name": "Graph Neural Networks",
-      "info_gain": 0.281,
+      "info_gain": 0.293,
       "novelty": 1.0,
-      "motivation_score": 0.623,
+      "motivation_score": 0.627,
       "info_gain_history": [
         0.871,
         0.871,
@@ -1379,7 +1379,6 @@
         0.871,
         0.871,
         0.871,
-        0.871,
         0.281,
         0.281,
         0.281,
@@ -1389,7 +1388,8 @@
         0.281,
         0.281,
         0.281,
-        0.281
+        0.281,
+        0.293
       ]
     }
   },
@@ -1406,6 +1406,6 @@
     "spiking-nn",
     "non-transformer"
   ],
-  "total_motivation_evaluations": 294,
+  "total_motivation_evaluations": 295,
   "current_prediction_error": 0.7
 }

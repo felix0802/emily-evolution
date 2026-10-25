@@ -4583,6 +4583,36 @@
         ],
         "decided_at": "2026-10-25T12:49:24.341467"
       }
+    },
+    {
+      "id": "llm-投机解码",
+      "name": "投机解码",
+      "adopted_at": "2026-10-25T17:18:19.536878",
+      "decision": {
+        "tech_id": "llm-投机解码",
+        "tech_name": "投机解码",
+        "action": "adopt",
+        "confidence": 0.9,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-10-25T17:18:19.533841"
+      }
+    },
+    {
+      "id": "llm-记忆原生基础模型",
+      "name": "记忆原生基础模型",
+      "adopted_at": "2026-10-25T17:18:19.536906",
+      "decision": {
+        "tech_id": "llm-记忆原生基础模型",
+        "tech_name": "记忆原生基础模型",
+        "action": "adopt",
+        "confidence": 0.7,
+        "reason": [
+          "预置技术(0.7)"
+        ],
+        "decided_at": "2026-10-25T17:18:19.533981"
+      }
     }
   ],
   "history": [
@@ -6415,6 +6445,18 @@
       "tech_id": "llm-random-initialization-baseline",
       "tech_name": "Random Initialization Baseline for TSFMs",
       "timestamp": "2026-10-25T12:49:24.343014"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-投机解码",
+      "tech_name": "投机解码",
+      "timestamp": "2026-10-25T17:18:19.536883"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-记忆原生基础模型",
+      "tech_name": "记忆原生基础模型",
+      "timestamp": "2026-10-25T17:18:19.536907"
     }
   ]
 }
