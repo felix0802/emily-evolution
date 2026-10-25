@@ -1,53 +1,6 @@
 {
   "sessions": [
     {
-      "timestamp": "2026-10-04T00:15:53.800985",
-      "arxiv_papers_count": 5,
-      "arxiv_top_keywords": [
-        "real",
-        "gaussian",
-        "animation",
-        "linear",
-        "distillation",
-        "cybersecurity",
-        "kalibench",
-        "fine",
-        "grained",
-        "benchmark"
-      ],
-      "arxiv_strategies": [
-        "cs.AI (fallback)",
-        "cs.AI (fallback)",
-        "cs.AI (fallback)"
-      ],
-      "huggingface_models": 10,
-      "huggingface_tasks": [
-        "sentence-similarity",
-        "unknown",
-        "text-ranking",
-        "feature-extraction",
-        "fill-mask"
-      ],
-      "ml_datasets": [
-        "Iris",
-        "Wine",
-        "Breast Cancer",
-        "Diabetes"
-      ],
-      "ml_total_tests": 22,
-      "github_trending_repos": 8,
-      "paperswithcode_papers": 8,
-      "evolution": {
-        "discovered": 13,
-        "adopted": 0,
-        "decisions": 0
-      },
-      "seed_watering": {
-        "seed_name": "",
-        "papers_found": 0
-      }
-    },
-    {
       "timestamp": "2026-10-04T07:31:11.405507",
       "arxiv_papers_count": 17,
       "arxiv_top_keywords": [
@@ -4699,12 +4652,59 @@
         "seed_name": "Few-Shot Learning",
         "papers_found": 6
       }
+    },
+    {
+      "timestamp": "2026-10-25T01:59:56.312650",
+      "arxiv_papers_count": 18,
+      "arxiv_top_keywords": [
+        "multi",
+        "neural",
+        "agent",
+        "learning",
+        "task",
+        "ssl",
+        "systems",
+        "llm",
+        "physics",
+        "design"
+      ],
+      "arxiv_strategies": [
+        "搜索: neural architecture",
+        "搜索: self-supervised learning",
+        "搜索: multi-agent system"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "unknown",
+        "text-generation",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 14,
+        "adopted": 2,
+        "decisions": 2
+      },
+      "seed_watering": {
+        "seed_name": "Continual Learning",
+        "papers_found": 7
+      }
     }
   ],
   "total_sessions": 101,
-  "last_updated": "2026-10-24T22:03:31.097989",
+  "last_updated": "2026-10-25T01:59:56.312664",
   "evolution_summary": {
-    "total_adopted": 301,
+    "total_adopted": 303,
     "adopted_list": [
       "Knowledge Distillation",
       "World Models / Model-Based RL",
@@ -5006,7 +5006,9 @@
       "Direct Pass@k Optimization",
       "Cost-Aware Abstention",
       "柏拉图表示假说 (PRH)",
-      "低频痕迹审计"
+      "低频痕迹审计",
+      "物理引导的神经逆向设计",
+      "多目标搜索用于KV缓存分配"
     ],
     "seeds": {
       "mamba": {
@@ -5041,7 +5043,7 @@
       },
       "continual-learning": {
         "name": "Continual Learning",
-        "watering": 82,
+        "watering": 83,
         "papers": 126
       },
       "moe": {
@@ -5151,14 +5153,14 @@
         "name": "Continual Learning",
         "new_papers": 121,
         "keywords_matched": [
-          "lifelong",
           "ewc",
-          "elastic weight",
+          "catastrophic forgetting",
           "continual learning",
-          "catastrophic forgetting"
+          "elastic weight",
+          "lifelong"
         ],
         "high_relevance_total": 35,
-        "avg_relevance_latest": 1.67,
+        "avg_relevance_latest": 0.0,
         "best_papers_count": 4
       },
       "gnn": {
@@ -5206,6 +5208,6 @@
         "best_papers_count": 1
       }
     },
-    "last_evolution": "2026-10-24T22:03:31.101601"
+    "last_evolution": "2026-10-25T01:59:56.315509"
   }
 }

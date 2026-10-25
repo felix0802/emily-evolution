@@ -4523,6 +4523,36 @@
         ],
         "decided_at": "2026-10-24T19:54:37.602021"
       }
+    },
+    {
+      "id": "llm-物理引导的神经逆向设计",
+      "name": "物理引导的神经逆向设计",
+      "adopted_at": "2026-10-25T01:59:51.730856",
+      "decision": {
+        "tech_id": "llm-物理引导的神经逆向设计",
+        "tech_name": "物理引导的神经逆向设计",
+        "action": "adopt",
+        "confidence": 0.9,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-10-25T01:59:51.728649"
+      }
+    },
+    {
+      "id": "llm-多目标搜索用于kv缓存分配",
+      "name": "多目标搜索用于KV缓存分配",
+      "adopted_at": "2026-10-25T01:59:51.730878",
+      "decision": {
+        "tech_id": "llm-多目标搜索用于kv缓存分配",
+        "tech_name": "多目标搜索用于KV缓存分配",
+        "action": "adopt",
+        "confidence": 0.85,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-10-25T01:59:51.728849"
+      }
     }
   ],
   "history": [
@@ -6331,6 +6361,18 @@
       "tech_id": "llm-低频痕迹审计",
       "tech_name": "低频痕迹审计",
       "timestamp": "2026-10-24T19:54:37.603812"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-物理引导的神经逆向设计",
+      "tech_name": "物理引导的神经逆向设计",
+      "timestamp": "2026-10-25T01:59:51.730860"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-多目标搜索用于kv缓存分配",
+      "tech_name": "多目标搜索用于KV缓存分配",
+      "timestamp": "2026-10-25T01:59:51.730879"
     }
   ]
 }
