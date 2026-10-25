@@ -1,34 +1,10 @@
 {
-  "_rotation_idx": 820,
+  "_rotation_idx": 821,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 86,
-    "watering_count": 85,
+    "watering_count": 86,
     "history": [
-      {
-        "timestamp": "2026-08-11T04:56:44.144841",
-        "papers_found": 2,
-        "duplicates": 7,
-        "irrelevant_filtered": 1,
-        "avg_relevance": 1.5,
-        "high_relevance": 1,
-        "papers": [
-          {
-            "title": "MixFormer: Linear Transformer with Mixture of Memory Experts",
-            "summary": "State Space Models (SSMs), as a mainstream research direction of linear Transformers, aim to achieve higher efficiency than standard Transformers in long-context modeling. However, existing SSMs suffer from limited input adaptivity and constrained memory capacity, leading to information loss when mo",
-            "published": "2026-08-10",
-            "url": "http://arxiv.org/abs/2608.09468v1",
-            "seed_match_score": 2
-          },
-          {
-            "title": "Causal State-Space Model for Causal Inference: Estimating Longitudinal Individual Treatment Effects",
-            "summary": "Estimating counterfactual outcomes over time from longitudinal observational data is central to clinical decision support. Existing methods rely on domain confusion -- adversarial training that renders representations invariant to treatment assignment -- yet this invariance creates a mutual informat",
-            "published": "2026-08-08",
-            "url": "http://arxiv.org/abs/2608.08288v1",
-            "seed_match_score": 1
-          }
-        ]
-      },
       {
         "timestamp": "2026-08-12T00:53:23.802849",
         "papers_found": 0,
@@ -754,6 +730,15 @@
             "seed_match_score": 2
           }
         ]
+      },
+      {
+        "timestamp": "2026-10-25T20:05:00.881432",
+        "papers_found": 0,
+        "duplicates": 6,
+        "irrelevant_filtered": 4,
+        "avg_relevance": 0.0,
+        "high_relevance": 0,
+        "papers": []
       }
     ],
     "keywords": [
@@ -762,7 +747,7 @@
       "ssm",
       "selective scan"
     ],
-    "last_watered": "2026-10-24T02:13:17.192239"
+    "last_watered": "2026-10-25T20:05:00.881425"
   },
   "liquid-networks": {
     "name": "Liquid Networks",

@@ -4613,6 +4613,21 @@
         ],
         "decided_at": "2026-10-25T17:18:19.533981"
       }
+    },
+    {
+      "id": "llm-re-ranking-与-late-interaction",
+      "name": "Re-ranking 与 Late Interaction",
+      "adopted_at": "2026-10-25T20:05:06.523658",
+      "decision": {
+        "tech_id": "llm-re-ranking-与-late-interaction",
+        "tech_name": "Re-ranking 与 Late Interaction",
+        "action": "adopt",
+        "confidence": 0.8,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-10-25T20:05:06.521003"
+      }
     }
   ],
   "history": [
@@ -6457,6 +6472,12 @@
       "tech_id": "llm-记忆原生基础模型",
       "tech_name": "记忆原生基础模型",
       "timestamp": "2026-10-25T17:18:19.536907"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-re-ranking-与-late-interaction",
+      "tech_name": "Re-ranking 与 Late Interaction",
+      "timestamp": "2026-10-25T20:05:06.523664"
     }
   ]
 }
