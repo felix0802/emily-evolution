@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 823,
+  "_rotation_idx": 824,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 86,
@@ -2550,18 +2550,9 @@
   },
   "spiking-nn": {
     "name": "Spiking Neural Networks",
-    "total_papers_found": 58,
-    "watering_count": 84,
+    "total_papers_found": 60,
+    "watering_count": 85,
     "history": [
-      {
-        "timestamp": "2026-08-11T10:42:26.706120",
-        "papers_found": 0,
-        "duplicates": 0,
-        "irrelevant_filtered": 0,
-        "avg_relevance": 0,
-        "high_relevance": 0,
-        "papers": []
-      },
       {
         "timestamp": "2026-08-12T07:03:36.326300",
         "papers_found": 1,
@@ -3246,6 +3237,30 @@
         "avg_relevance": 0.0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-10-26T09:26:19.418962",
+        "papers_found": 2,
+        "duplicates": 8,
+        "irrelevant_filtered": 0,
+        "avg_relevance": 2.0,
+        "high_relevance": 2,
+        "papers": [
+          {
+            "title": "PAFS: Perturbation-Aware Firing Scaffolds for Robust Event-Based SNNs",
+            "summary": "Event-based spiking neural networks (SNNs) encode information through temporal firing dynamics, but the same stateful computation makes their predictions sensitive to event loss, timestamp jitter, and speed variation. These perturbations alter evidence accumulation, yet late-layer firing trajectorie",
+            "published": "2026-10-23",
+            "url": "http://arxiv.org/abs/2610.32409v1",
+            "seed_match_score": 2
+          },
+          {
+            "title": "A Resource-Efficient and Precision-Scalable FPGA Accelerator for Spiking Neural Networks Using Minifloat Arithmetic",
+            "summary": "Spiking neural networks (SNNs) are well suited to event-driven edge intelligence, but the arithmetic complexity, memory footprint, and power consumption associated with conventional floating-point implementations can limit their deployment on resource-constrained hardware. This paper presents a prec",
+            "published": "2026-10-23",
+            "url": "http://arxiv.org/abs/2610.32052v1",
+            "seed_match_score": 2
+          }
+        ]
       }
     ],
     "keywords": [
@@ -3254,7 +3269,7 @@
       "neuromorphic",
       "spike-timing"
     ],
-    "last_watered": "2026-10-24T17:03:40.281119"
+    "last_watered": "2026-10-26T09:26:19.418954"
   },
   "non-transformer": {
     "name": "Non-Transformer Arch",

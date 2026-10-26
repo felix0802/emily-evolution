@@ -63710,7 +63710,273 @@
         "zero"
       ],
       "first_seen_round": 454
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.32910v1",
+      "title": "Recommender regret for improving regularised RL estimation with bandits and MCTS",
+      "arxiv_id": "2610.32910",
+      "tokens": [
+        "bandits",
+        "estimation",
+        "improving",
+        "mcts",
+        "recommender",
+        "regret",
+        "regularised"
+      ],
+      "first_seen_round": 455
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.32887v1",
+      "title": "Reinforcement Learning with Multi-Step Transition Predictions: A Bellman Theory",
+      "arxiv_id": "2610.32887",
+      "tokens": [
+        "bellman",
+        "multi",
+        "predictions",
+        "reinforcement",
+        "step",
+        "theory",
+        "transition"
+      ],
+      "first_seen_round": 455
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.32855v1",
+      "title": "Regularised RL improves sim-to-real transfer",
+      "arxiv_id": "2610.32855",
+      "tokens": [
+        "improves",
+        "real",
+        "regularised",
+        "sim",
+        "transfer"
+      ],
+      "first_seen_round": 455
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.32657v1",
+      "title": "DT-JEPA: Learning to Predict Future Representations for Decision-Making",
+      "arxiv_id": "2610.32657",
+      "tokens": [
+        "decision",
+        "future",
+        "jepa",
+        "making",
+        "predict",
+        "representations"
+      ],
+      "first_seen_round": 455
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.32770v1",
+      "title": "On-Policy Self-Training: Data-Free Self-Improvement in Large Language Models",
+      "arxiv_id": "2610.32770",
+      "tokens": [
+        "free",
+        "improvement",
+        "language",
+        "policy",
+        "self",
+        "self",
+        "training"
+      ],
+      "first_seen_round": 455
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.32726v1",
+      "title": "The Butterfly Defects: Tracing Cooperation in LLM Agent Networks",
+      "arxiv_id": "2610.32726",
+      "tokens": [
+        "agent",
+        "butterfly",
+        "cooperation",
+        "defects",
+        "llm",
+        "tracing"
+      ],
+      "first_seen_round": 455
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.32575v1",
+      "title": "PHYRD: A Living Benchmark for Reproducing and Extending Theoretical Physics Research",
+      "arxiv_id": "2610.32575",
+      "tokens": [
+        "benchmark",
+        "extending",
+        "living",
+        "phyrd",
+        "physics",
+        "reproducing",
+        "research",
+        "theoretical"
+      ],
+      "first_seen_round": 455
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.32492v1",
+      "title": "Accordion: Elastic-Depth Inference via Fixed-Prefix Layer Looping",
+      "arxiv_id": "2610.32492",
+      "tokens": [
+        "accordion",
+        "depth",
+        "elastic",
+        "fixed",
+        "inference",
+        "layer",
+        "looping",
+        "prefix"
+      ],
+      "first_seen_round": 455
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.32474v1",
+      "title": "Beyond Post-Hoc Rewards: Privileged Reasoning Exploration for Multimodal Embeddings",
+      "arxiv_id": "2610.32474",
+      "tokens": [
+        "embeddings",
+        "exploration",
+        "hoc",
+        "multimodal",
+        "post",
+        "privileged",
+        "reasoning",
+        "rewards"
+      ],
+      "first_seen_round": 455
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.32441v1",
+      "title": "SCI-AGENT-EXAM: Benchmarking Agents on Scientific Research Tasks",
+      "arxiv_id": "2610.32441",
+      "tokens": [
+        "agent",
+        "agents",
+        "benchmarking",
+        "exam",
+        "research",
+        "sci",
+        "scientific",
+        "tasks"
+      ],
+      "first_seen_round": 455
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.32800v1",
+      "title": "CompMVR: Compression-Aware Multi-View Restoration Using Diffusion Models for Geometrically Consistent 3D Reconstruction",
+      "arxiv_id": "2610.32800",
+      "tokens": [
+        "aware",
+        "compmvr",
+        "compression",
+        "consistent",
+        "diffusion",
+        "geometrically",
+        "multi",
+        "reconstruction",
+        "restoration",
+        "view"
+      ],
+      "first_seen_round": 455
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.32768v1",
+      "title": "SCDM-HTD: Spectral-Wise Conditional Diffusion Model for Hyperspectral Target Detection",
+      "arxiv_id": "2610.32768",
+      "tokens": [
+        "conditional",
+        "detection",
+        "diffusion",
+        "htd",
+        "hyperspectral",
+        "scdm",
+        "spectral",
+        "target",
+        "wise"
+      ],
+      "first_seen_round": 455
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.32407v1",
+      "title": "TIE: Training-free CLIP Embedding Guidance for Compositional Text-to-Image Alignment",
+      "arxiv_id": "2610.32407",
+      "tokens": [
+        "alignment",
+        "clip",
+        "compositional",
+        "embedding",
+        "free",
+        "guidance",
+        "image",
+        "text",
+        "tie",
+        "training"
+      ],
+      "first_seen_round": 455
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.32390v1",
+      "title": "PASTA: Prompt-Aware Annealed Diffusion Sampling",
+      "arxiv_id": "2610.32390",
+      "tokens": [
+        "annealed",
+        "aware",
+        "diffusion",
+        "pasta",
+        "prompt",
+        "sampling"
+      ],
+      "first_seen_round": 455
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.32059v1",
+      "title": "Concept Acupuncturist: An Efficient and Precise Concept Erasure Method for Diffusion Models via Sparse Autoencoders",
+      "arxiv_id": "2610.32059",
+      "tokens": [
+        "acupuncturist",
+        "autoencoders",
+        "concept",
+        "concept",
+        "diffusion",
+        "erasure",
+        "precise",
+        "sparse"
+      ],
+      "first_seen_round": 455
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.32409v1",
+      "title": "PAFS: Perturbation-Aware Firing Scaffolds for Robust Event-Based SNNs",
+      "arxiv_id": "2610.32409",
+      "tokens": [
+        "aware",
+        "event",
+        "firing",
+        "pafs",
+        "perturbation",
+        "robust",
+        "scaffolds",
+        "snns"
+      ],
+      "first_seen_round": 455
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.32052v1",
+      "title": "A Resource-Efficient and Precision-Scalable FPGA Accelerator for Spiking Neural Networks Using Minifloat Arithmetic",
+      "arxiv_id": "2610.32052",
+      "tokens": [
+        "accelerator",
+        "arithmetic",
+        "fpga",
+        "minifloat",
+        "neural",
+        "precision",
+        "resource",
+        "scalable",
+        "spiking"
+      ],
+      "first_seen_round": 455
     }
   ],
-  "total_unique": 4001
+  "total_unique": 4018
 }

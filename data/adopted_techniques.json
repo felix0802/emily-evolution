@@ -4658,6 +4658,21 @@
         ],
         "decided_at": "2026-10-26T02:01:44.178354"
       }
+    },
+    {
+      "id": "llm-robustrllib",
+      "name": "RobustRLlib",
+      "adopted_at": "2026-10-26T09:26:25.339056",
+      "decision": {
+        "tech_id": "llm-robustrllib",
+        "tech_name": "RobustRLlib",
+        "action": "adopt",
+        "confidence": 0.9,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-10-26T09:26:25.335927"
+      }
     }
   ],
   "history": [
@@ -6520,6 +6535,12 @@
       "tech_id": "llm-统一动作条件世界模型",
       "tech_name": "统一动作条件世界模型",
       "timestamp": "2026-10-26T02:01:44.180525"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-robustrllib",
+      "tech_name": "RobustRLlib",
+      "timestamp": "2026-10-26T09:26:25.339061"
     }
   ]
 }
