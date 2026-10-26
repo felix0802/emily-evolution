@@ -1,28 +1,6 @@
 {
   "rounds": [
     {
-      "round": 407,
-      "timestamp": "2026-10-17T16:43:22.270097",
-      "prediction_error": 0.7,
-      "seeds_active": 10,
-      "seeds_dormant": 0,
-      "new_seeds_added": 0,
-      "top_motivated": [
-        [
-          "mamba",
-          0.91
-        ],
-        [
-          "liquid-networks",
-          0.91
-        ],
-        [
-          "htm",
-          0.91
-        ]
-      ]
-    },
-    {
       "round": 408,
       "timestamp": "2026-10-17T19:46:07.542510",
       "prediction_error": 0.7,
@@ -1099,6 +1077,28 @@
           0.91
         ]
       ]
+    },
+    {
+      "round": 457,
+      "timestamp": "2026-10-26T21:59:38.221084",
+      "prediction_error": 0.7,
+      "seeds_active": 10,
+      "seeds_dormant": 0,
+      "new_seeds_added": 0,
+      "top_motivated": [
+        [
+          "mamba",
+          0.91
+        ],
+        [
+          "liquid-networks",
+          0.91
+        ],
+        [
+          "htm",
+          0.91
+        ]
+      ]
     }
   ],
   "seed_scores": {
@@ -1173,7 +1173,6 @@
         0.847,
         0.847,
         0.847,
-        0.847,
         0.741,
         0.741,
         0.741,
@@ -1184,6 +1183,7 @@
         0.741,
         0.741,
         0.741,
+        1.0,
         1.0,
         1.0,
         1.0
@@ -1233,7 +1233,6 @@
         1.0,
         1.0,
         1.0,
-        1.0,
         0.957,
         0.957,
         0.957,
@@ -1244,6 +1243,7 @@
         0.957,
         0.957,
         0.957,
+        0.978,
         0.978
       ]
     },
@@ -1373,7 +1373,6 @@
         0.871,
         0.871,
         0.871,
-        0.871,
         0.281,
         0.281,
         0.281,
@@ -1384,6 +1383,7 @@
         0.281,
         0.281,
         0.281,
+        0.293,
         0.293,
         0.293,
         0.293,
@@ -1406,6 +1406,6 @@
     "spiking-nn",
     "non-transformer"
   ],
-  "total_motivation_evaluations": 300,
+  "total_motivation_evaluations": 301,
   "current_prediction_error": 0.7
 }

@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 825,
+  "_rotation_idx": 826,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 86,
@@ -4063,18 +4063,9 @@
   },
   "few-shot": {
     "name": "Few-Shot Learning",
-    "total_papers_found": 51,
-    "watering_count": 84,
+    "total_papers_found": 52,
+    "watering_count": 85,
     "history": [
-      {
-        "timestamp": "2026-08-11T14:47:53.594408",
-        "papers_found": 0,
-        "duplicates": 5,
-        "irrelevant_filtered": 5,
-        "avg_relevance": 0.0,
-        "high_relevance": 0,
-        "papers": []
-      },
       {
         "timestamp": "2026-08-12T10:49:00.269755",
         "papers_found": 0,
@@ -4696,6 +4687,23 @@
             "seed_match_score": 1
           }
         ]
+      },
+      {
+        "timestamp": "2026-10-26T21:59:38.205145",
+        "papers_found": 1,
+        "duplicates": 6,
+        "irrelevant_filtered": 3,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "On the Identifiability of Hybrid Deep Generative Models: Meta-Learning as a Solution",
+            "summary": "The interest in leveraging physics-based inductive bias in deep learning has resulted in recent development of hybrid deep generative models (hybrid-DGMs) that integrate known physics-based mathematical expressions in neural generative models. To identify these hybrid-DGMs requires inferring paramet",
+            "published": "2026-10-23",
+            "url": "http://arxiv.org/abs/2610.32748v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -4705,7 +4713,7 @@
       "prototypical",
       "in-context"
     ],
-    "last_watered": "2026-10-24T22:03:25.439099"
+    "last_watered": "2026-10-26T21:59:38.205139"
   },
   "continual-learning": {
     "name": "Continual Learning",

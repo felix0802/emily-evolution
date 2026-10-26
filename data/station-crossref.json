@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-26T16:20:54.518450",
+  "timestamp": "2026-10-26T21:59:43.293269",
   "connections": [
     {
       "seed_a": "HTM",
@@ -13,7 +13,7 @@
         "with"
       ],
       "strength": 5,
-      "discovered_at": "2026-10-26T16:20:54.518404"
+      "discovered_at": "2026-10-26T21:59:43.293205"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -24,7 +24,7 @@
       ],
       "shared_paper_concepts": [],
       "strength": 4,
-      "discovered_at": "2026-10-26T16:20:54.518373"
+      "discovered_at": "2026-10-26T21:59:43.293161"
     },
     {
       "seed_a": "Liquid Networks",
@@ -37,7 +37,7 @@
         "with"
       ],
       "strength": 4,
-      "discovered_at": "2026-10-26T16:20:54.518387"
+      "discovered_at": "2026-10-26T21:59:43.293181"
     },
     {
       "seed_a": "HTM",
@@ -50,7 +50,7 @@
         "models"
       ],
       "strength": 4,
-      "discovered_at": "2026-10-26T16:20:54.518411"
+      "discovered_at": "2026-10-26T21:59:43.293215"
     },
     {
       "seed_a": "Mixture of Experts",
@@ -63,19 +63,19 @@
         "models"
       ],
       "strength": 4,
-      "discovered_at": "2026-10-26T16:20:54.518444"
+      "discovered_at": "2026-10-26T21:59:43.293261"
     },
     {
       "seed_a": "Liquid Networks",
       "seed_b": "Few-Shot Learning",
       "shared_keywords": [],
       "shared_paper_concepts": [
-        "latent",
+        "identifiability",
         "learning",
-        "model"
+        "models"
       ],
       "strength": 3,
-      "discovered_at": "2026-10-26T16:20:54.518393"
+      "discovered_at": "2026-10-26T21:59:43.293190"
     },
     {
       "seed_a": "Liquid Networks",
@@ -87,7 +87,7 @@
         "learning"
       ],
       "strength": 3,
-      "discovered_at": "2026-10-26T16:20:54.518395"
+      "discovered_at": "2026-10-26T21:59:43.293193"
     },
     {
       "seed_a": "HTM",
@@ -99,7 +99,7 @@
         "with"
       ],
       "strength": 3,
-      "discovered_at": "2026-10-26T16:20:54.518413"
+      "discovered_at": "2026-10-26T21:59:43.293219"
     },
     {
       "seed_a": "Spiking Neural Networks",
@@ -111,7 +111,7 @@
         "scalable"
       ],
       "strength": 3,
-      "discovered_at": "2026-10-26T16:20:54.518417"
+      "discovered_at": "2026-10-26T21:59:43.293225"
     },
     {
       "seed_a": "Continual Learning",
@@ -123,7 +123,7 @@
         "training"
       ],
       "strength": 3,
-      "discovered_at": "2026-10-26T16:20:54.518440"
+      "discovered_at": "2026-10-26T21:59:43.293254"
     }
   ],
   "total_seeds": 10
