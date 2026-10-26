@@ -4628,6 +4628,36 @@
         ],
         "decided_at": "2026-10-25T20:05:06.521003"
       }
+    },
+    {
+      "id": "llm-语言引导的室内场景生成",
+      "name": "语言引导的室内场景生成",
+      "adopted_at": "2026-10-26T02:01:44.180494",
+      "decision": {
+        "tech_id": "llm-语言引导的室内场景生成",
+        "tech_name": "语言引导的室内场景生成",
+        "action": "adopt",
+        "confidence": 0.85,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-10-26T02:01:44.178151"
+      }
+    },
+    {
+      "id": "llm-统一动作条件世界模型",
+      "name": "统一动作条件世界模型",
+      "adopted_at": "2026-10-26T02:01:44.180524",
+      "decision": {
+        "tech_id": "llm-统一动作条件世界模型",
+        "tech_name": "统一动作条件世界模型",
+        "action": "adopt",
+        "confidence": 0.8,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-10-26T02:01:44.178354"
+      }
     }
   ],
   "history": [
@@ -6478,6 +6508,18 @@
       "tech_id": "llm-re-ranking-与-late-interaction",
       "tech_name": "Re-ranking 与 Late Interaction",
       "timestamp": "2026-10-25T20:05:06.523664"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-语言引导的室内场景生成",
+      "tech_name": "语言引导的室内场景生成",
+      "timestamp": "2026-10-26T02:01:44.180504"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-统一动作条件世界模型",
+      "tech_name": "统一动作条件世界模型",
+      "timestamp": "2026-10-26T02:01:44.180525"
     }
   ]
 }

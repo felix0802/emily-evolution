@@ -1,53 +1,6 @@
 {
   "sessions": [
     {
-      "timestamp": "2026-10-05T07:49:07.817799",
-      "arxiv_papers_count": 18,
-      "arxiv_top_keywords": [
-        "moe",
-        "time",
-        "experts",
-        "forecasting",
-        "learning",
-        "detection",
-        "expert",
-        "recent",
-        "anchoring",
-        "recurrent"
-      ],
-      "arxiv_strategies": [
-        "搜索: time series forecasting",
-        "搜索: anomaly detection",
-        "搜索: mixture of experts"
-      ],
-      "huggingface_models": 10,
-      "huggingface_tasks": [
-        "sentence-similarity",
-        "unknown",
-        "text-ranking",
-        "feature-extraction",
-        "fill-mask"
-      ],
-      "ml_datasets": [
-        "Iris",
-        "Wine",
-        "Breast Cancer",
-        "Diabetes"
-      ],
-      "ml_total_tests": 22,
-      "github_trending_repos": 8,
-      "paperswithcode_papers": 8,
-      "evolution": {
-        "discovered": 15,
-        "adopted": 1,
-        "decisions": 1
-      },
-      "seed_watering": {
-        "seed_name": "Liquid Networks",
-        "papers_found": 6
-      }
-    },
-    {
       "timestamp": "2026-10-05T16:31:01.603133",
       "arxiv_papers_count": 18,
       "arxiv_top_keywords": [
@@ -4699,12 +4652,59 @@
         "seed_name": "Liquid Networks",
         "papers_found": 9
       }
+    },
+    {
+      "timestamp": "2026-10-26T02:01:48.412611",
+      "arxiv_papers_count": 19,
+      "arxiv_top_keywords": [
+        "language",
+        "unified",
+        "semantic",
+        "recovery",
+        "learning",
+        "generative",
+        "scenebloom",
+        "agentic",
+        "indoor",
+        "realistic"
+      ],
+      "arxiv_strategies": [
+        "cs.CV 最新",
+        "cs.AI+cs.LG 混合",
+        "cs.CL+cs.CV 混合"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "unknown",
+        "text-generation",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 25,
+        "adopted": 2,
+        "decisions": 2
+      },
+      "seed_watering": {
+        "seed_name": "HTM",
+        "papers_found": 6
+      }
     }
   ],
   "total_sessions": 101,
-  "last_updated": "2026-10-25T23:39:37.637914",
+  "last_updated": "2026-10-26T02:01:48.412630",
   "evolution_summary": {
-    "total_adopted": 308,
+    "total_adopted": 310,
     "adopted_list": [
       "Knowledge Distillation",
       "World Models / Model-Based RL",
@@ -5013,7 +5013,9 @@
       "Random Initialization Baseline for TSFMs",
       "投机解码",
       "记忆原生基础模型",
-      "Re-ranking 与 Late Interaction"
+      "Re-ranking 与 Late Interaction",
+      "语言引导的室内场景生成",
+      "统一动作条件世界模型"
     ],
     "seeds": {
       "mamba": {
@@ -5028,8 +5030,8 @@
       },
       "htm": {
         "name": "HTM",
-        "watering": 85,
-        "papers": 141
+        "watering": 86,
+        "papers": 146
       },
       "spiking-nn": {
         "name": "Spiking Neural Networks",
@@ -5124,18 +5126,18 @@
       },
       "htm": {
         "name": "HTM",
-        "new_papers": 136,
+        "new_papers": 141,
         "keywords_matched": [
-          "hierarchical temporal",
           "predictive coding",
-          "sparse distributed",
+          "sequence memory",
           "cortical",
           "anomaly detection",
           "online learning",
-          "sequence memory"
+          "sparse distributed",
+          "hierarchical temporal"
         ],
         "high_relevance_total": 3,
-        "avg_relevance_latest": 0.0,
+        "avg_relevance_latest": 1.0,
         "best_papers_count": 0
       },
       "non-transformer": {
@@ -5213,6 +5215,6 @@
         "best_papers_count": 1
       }
     },
-    "last_evolution": "2026-10-25T23:39:37.640833"
+    "last_evolution": "2026-10-26T02:01:48.415224"
   }
 }

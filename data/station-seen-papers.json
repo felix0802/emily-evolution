@@ -63325,7 +63325,392 @@
         "universal"
       ],
       "first_seen_round": 447
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.32978v1",
+      "title": "SceneBloom: Agentic Indoor Environment Generation with Realistic and Diverse Layouts for Embodied Learning",
+      "arxiv_id": "2610.32978",
+      "tokens": [
+        "agentic",
+        "diverse",
+        "embodied",
+        "environment",
+        "generation",
+        "indoor",
+        "layouts",
+        "realistic",
+        "scenebloom"
+      ],
+      "first_seen_round": 454
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.32977v1",
+      "title": "UniAction: Unified Action Conditioning for World Models",
+      "arxiv_id": "2610.32977",
+      "tokens": [
+        "action",
+        "conditioning",
+        "uniaction",
+        "unified",
+        "world"
+      ],
+      "first_seen_round": 454
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.32976v1",
+      "title": "FlexGlue: Sparse-to-Dense Feature Matching and Visual Disambiguation",
+      "arxiv_id": "2610.32976",
+      "tokens": [
+        "dense",
+        "disambiguation",
+        "feature",
+        "flexglue",
+        "matching",
+        "sparse",
+        "visual"
+      ],
+      "first_seen_round": 454
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.32967v1",
+      "title": "MiD-VLM: Detecting and Grounding Global Semantic Misinformation in Image-Caption Pairs",
+      "arxiv_id": "2610.32967",
+      "tokens": [
+        "caption",
+        "detecting",
+        "global",
+        "grounding",
+        "image",
+        "mid",
+        "misinformation",
+        "pairs",
+        "semantic",
+        "vlm"
+      ],
+      "first_seen_round": 454
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.32966v1",
+      "title": "ViT-H: Generative Video-To-Humanoid Control with Motion Tracking Feedback",
+      "arxiv_id": "2610.32966",
+      "tokens": [
+        "control",
+        "feedback",
+        "generative",
+        "humanoid",
+        "motion",
+        "tracking",
+        "video",
+        "vit"
+      ],
+      "first_seen_round": 454
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.32964v1",
+      "title": "Flownomaly: Single-Step Conditional-Mean Recovery for Few-Shot Anomaly Detection",
+      "arxiv_id": "2610.32964",
+      "tokens": [
+        "anomaly",
+        "conditional",
+        "detection",
+        "flownomaly",
+        "mean",
+        "recovery",
+        "shot",
+        "single",
+        "step"
+      ],
+      "first_seen_round": 454
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.32948v1",
+      "title": "Beyond Discrete Tokens: Preserving Numerical Continuity in Medical Vision-Language Models",
+      "arxiv_id": "2610.32948",
+      "tokens": [
+        "continuity",
+        "discrete",
+        "language",
+        "medical",
+        "numerical",
+        "preserving",
+        "tokens",
+        "vision"
+      ],
+      "first_seen_round": 454
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.32932v1",
+      "title": "STROKE: Simple Sparse Structural Occlusions for Black-Box Adversarial Attacks",
+      "arxiv_id": "2610.32932",
+      "tokens": [
+        "adversarial",
+        "attacks",
+        "black",
+        "box",
+        "occlusions",
+        "simple",
+        "sparse",
+        "stroke",
+        "structural"
+      ],
+      "first_seen_round": 454
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.32971v1",
+      "title": "RobustRLlib: A Unified Library and Benchmark for Robust Reinforcement Learning Algorithms",
+      "arxiv_id": "2610.32971",
+      "tokens": [
+        "algorithms",
+        "benchmark",
+        "library",
+        "reinforcement",
+        "robust",
+        "robustrllib",
+        "unified"
+      ],
+      "first_seen_round": 454
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.32969v1",
+      "title": "DexPort: A Hand-Held Skill Interface for Dexterous Hand Data Collection",
+      "arxiv_id": "2610.32969",
+      "tokens": [
+        "collection",
+        "dexport",
+        "dexterous",
+        "hand",
+        "hand",
+        "held",
+        "interface",
+        "skill"
+      ],
+      "first_seen_round": 454
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.32955v1",
+      "title": "Measure Before You Train: Typed Decision Models vs. a Classical Baseline vs. a Generative LLM for Routing a Personal Multilingual Inbox",
+      "arxiv_id": "2610.32955",
+      "tokens": [
+        "baseline",
+        "classical",
+        "decision",
+        "generative",
+        "inbox",
+        "llm",
+        "measure",
+        "multilingual",
+        "personal",
+        "routing",
+        "train",
+        "typed"
+      ],
+      "first_seen_round": 454
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.32951v1",
+      "title": "Where Rounding Happens Matters: Rounding-Location Alignment Stabilizes LLM Reinforcement Learning",
+      "arxiv_id": "2610.32951",
+      "tokens": [
+        "alignment",
+        "happens",
+        "llm",
+        "location",
+        "matters",
+        "reinforcement",
+        "rounding",
+        "rounding",
+        "stabilizes"
+      ],
+      "first_seen_round": 454
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.32945v1",
+      "title": "Monetizing Intelligence: Advertising and Subscription Design on LLM Platforms",
+      "arxiv_id": "2610.32945",
+      "tokens": [
+        "advertising",
+        "design",
+        "intelligence",
+        "llm",
+        "monetizing",
+        "platforms",
+        "subscription"
+      ],
+      "first_seen_round": 454
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.32943v1",
+      "title": "Knowledge Distillation across Item and Code Spaces for Parallel Generative Recommendation",
+      "arxiv_id": "2610.32943",
+      "tokens": [
+        "code",
+        "distillation",
+        "generative",
+        "item",
+        "knowledge",
+        "parallel",
+        "recommendation",
+        "spaces"
+      ],
+      "first_seen_round": 454
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.32941v1",
+      "title": "If at First You Don't Succeed, Backtrack: Lightweight Recovery for Frozen VLAs",
+      "arxiv_id": "2610.32941",
+      "tokens": [
+        "backtrack",
+        "don",
+        "frozen",
+        "lightweight",
+        "recovery",
+        "succeed",
+        "vlas"
+      ],
+      "first_seen_round": 454
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.32940v1",
+      "title": "Learning Positive Linear Combinations of ReLUs in Fully Polynomial Time",
+      "arxiv_id": "2610.32940",
+      "tokens": [
+        "combinations",
+        "fully",
+        "linear",
+        "polynomial",
+        "positive",
+        "relus",
+        "time"
+      ],
+      "first_seen_round": 454
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.32933v1",
+      "title": "Yalda-Embedding: Open Development of a Competitive Persian Retrieval Model",
+      "arxiv_id": "2610.32933",
+      "tokens": [
+        "competitive",
+        "development",
+        "embedding",
+        "open",
+        "persian",
+        "retrieval",
+        "yalda"
+      ],
+      "first_seen_round": 454
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.32982v1",
+      "title": "The Language of Instruction: Genre and Generative AI",
+      "arxiv_id": "2610.32982",
+      "tokens": [
+        "generative",
+        "genre",
+        "instruction",
+        "language"
+      ],
+      "first_seen_round": 454
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.32921v1",
+      "title": "Adaptive Frequency Threshold Byte Pair Encoding for Mixed Natural Language and Structured Symbolic Corpora",
+      "arxiv_id": "2610.32921",
+      "tokens": [
+        "adaptive",
+        "byte",
+        "corpora",
+        "encoding",
+        "frequency",
+        "language",
+        "mixed",
+        "natural",
+        "pair",
+        "structured",
+        "symbolic",
+        "threshold"
+      ],
+      "first_seen_round": 454
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.32765v1",
+      "title": "Clean-label Poisoning Attack and Defense Game for Federated Learning in Vehicular Networks",
+      "arxiv_id": "2610.32765",
+      "tokens": [
+        "attack",
+        "clean",
+        "defense",
+        "federated",
+        "game",
+        "label",
+        "poisoning",
+        "vehicular"
+      ],
+      "first_seen_round": 454
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.32742v1",
+      "title": "Adaptive World-Models for Anomaly Recognition (AWARE): A Framework for Robot Dynamics Prediction and Introspection",
+      "arxiv_id": "2610.32742",
+      "tokens": [
+        "adaptive",
+        "anomaly",
+        "aware",
+        "dynamics",
+        "introspection",
+        "prediction",
+        "recognition",
+        "robot",
+        "world"
+      ],
+      "first_seen_round": 454
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.32740v1",
+      "title": "Strongly Adaptive Online Learning with Time-Varying Movement Costs",
+      "arxiv_id": "2610.32740",
+      "tokens": [
+        "adaptive",
+        "costs",
+        "movement",
+        "online",
+        "strongly",
+        "time",
+        "varying"
+      ],
+      "first_seen_round": 454
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.32582v1",
+      "title": "Batched NN 4D-Var: a performant hybrid model framework for the Integrated Forecasting System",
+      "arxiv_id": "2610.32582",
+      "tokens": [
+        "batched",
+        "forecasting",
+        "hybrid",
+        "integrated",
+        "performant",
+        "var"
+      ],
+      "first_seen_round": 454
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.32486v1",
+      "title": "Efficient Zero-Shot Video Anomaly Detection via Signal-Aware Adaptive Fusion (SAAF)",
+      "arxiv_id": "2610.32486",
+      "tokens": [
+        "adaptive",
+        "anomaly",
+        "aware",
+        "detection",
+        "fusion",
+        "saaf",
+        "shot",
+        "signal",
+        "video",
+        "zero"
+      ],
+      "first_seen_round": 454
     }
   ],
-  "total_unique": 3977
+  "total_unique": 4001
 }
