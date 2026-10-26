@@ -4673,6 +4673,36 @@
         ],
         "decided_at": "2026-10-26T09:26:25.335927"
       }
+    },
+    {
+      "id": "llm-零成本代理",
+      "name": "零成本代理",
+      "adopted_at": "2026-10-26T16:20:50.886314",
+      "decision": {
+        "tech_id": "llm-零成本代理",
+        "tech_name": "零成本代理",
+        "action": "adopt",
+        "confidence": 0.9,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-10-26T16:20:50.883585"
+      }
+    },
+    {
+      "id": "llm-跨任务迁移学习",
+      "name": "跨任务迁移学习",
+      "adopted_at": "2026-10-26T16:20:50.886349",
+      "decision": {
+        "tech_id": "llm-跨任务迁移学习",
+        "tech_name": "跨任务迁移学习",
+        "action": "adopt",
+        "confidence": 0.85,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-10-26T16:20:50.883799"
+      }
     }
   ],
   "history": [
@@ -6541,6 +6571,18 @@
       "tech_id": "llm-robustrllib",
       "tech_name": "RobustRLlib",
       "timestamp": "2026-10-26T09:26:25.339061"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-零成本代理",
+      "tech_name": "零成本代理",
+      "timestamp": "2026-10-26T16:20:50.886324"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-跨任务迁移学习",
+      "tech_name": "跨任务迁移学习",
+      "timestamp": "2026-10-26T16:20:50.886351"
     }
   ]
 }

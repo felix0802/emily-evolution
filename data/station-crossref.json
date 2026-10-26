@@ -1,21 +1,6 @@
 {
-  "timestamp": "2026-10-26T09:26:25.366106",
+  "timestamp": "2026-10-26T16:20:54.518450",
   "connections": [
-    {
-      "seed_a": "Mamba (SSM)",
-      "seed_b": "Non-Transformer Arch",
-      "shared_keywords": [
-        "mamba",
-        "state space"
-      ],
-      "shared_paper_concepts": [
-        "context",
-        "long",
-        "state"
-      ],
-      "strength": 7,
-      "discovered_at": "2026-10-26T09:26:25.365987"
-    },
     {
       "seed_a": "HTM",
       "seed_b": "Spiking Neural Networks",
@@ -28,7 +13,18 @@
         "with"
       ],
       "strength": 5,
-      "discovered_at": "2026-10-26T09:26:25.366033"
+      "discovered_at": "2026-10-26T16:20:54.518404"
+    },
+    {
+      "seed_a": "Mamba (SSM)",
+      "seed_b": "Non-Transformer Arch",
+      "shared_keywords": [
+        "mamba",
+        "state space"
+      ],
+      "shared_paper_concepts": [],
+      "strength": 4,
+      "discovered_at": "2026-10-26T16:20:54.518373"
     },
     {
       "seed_a": "Liquid Networks",
@@ -41,7 +37,7 @@
         "with"
       ],
       "strength": 4,
-      "discovered_at": "2026-10-26T09:26:25.366008"
+      "discovered_at": "2026-10-26T16:20:54.518387"
     },
     {
       "seed_a": "HTM",
@@ -54,7 +50,7 @@
         "models"
       ],
       "strength": 4,
-      "discovered_at": "2026-10-26T09:26:25.366045"
+      "discovered_at": "2026-10-26T16:20:54.518411"
     },
     {
       "seed_a": "Mixture of Experts",
@@ -67,7 +63,7 @@
         "models"
       ],
       "strength": 4,
-      "discovered_at": "2026-10-26T09:26:25.366097"
+      "discovered_at": "2026-10-26T16:20:54.518444"
     },
     {
       "seed_a": "Liquid Networks",
@@ -79,7 +75,7 @@
         "model"
       ],
       "strength": 3,
-      "discovered_at": "2026-10-26T09:26:25.366018"
+      "discovered_at": "2026-10-26T16:20:54.518393"
     },
     {
       "seed_a": "Liquid Networks",
@@ -91,7 +87,7 @@
         "learning"
       ],
       "strength": 3,
-      "discovered_at": "2026-10-26T09:26:25.366021"
+      "discovered_at": "2026-10-26T16:20:54.518395"
     },
     {
       "seed_a": "HTM",
@@ -103,7 +99,7 @@
         "with"
       ],
       "strength": 3,
-      "discovered_at": "2026-10-26T09:26:25.366048"
+      "discovered_at": "2026-10-26T16:20:54.518413"
     },
     {
       "seed_a": "Spiking Neural Networks",
@@ -115,7 +111,7 @@
         "scalable"
       ],
       "strength": 3,
-      "discovered_at": "2026-10-26T09:26:25.366054"
+      "discovered_at": "2026-10-26T16:20:54.518417"
     },
     {
       "seed_a": "Continual Learning",
@@ -127,7 +123,7 @@
         "training"
       ],
       "strength": 3,
-      "discovered_at": "2026-10-26T09:26:25.366091"
+      "discovered_at": "2026-10-26T16:20:54.518440"
     }
   ],
   "total_seeds": 10
