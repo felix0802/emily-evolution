@@ -1,53 +1,6 @@
 {
   "sessions": [
     {
-      "timestamp": "2026-10-07T01:13:58.669462",
-      "arxiv_papers_count": 11,
-      "arxiv_top_keywords": [
-        "world",
-        "latent",
-        "action",
-        "flowchart",
-        "ratio",
-        "editable",
-        "relayout",
-        "pipeline",
-        "base",
-        "cue"
-      ],
-      "arxiv_strategies": [
-        "cs.AI (fallback)",
-        "cs.AI (fallback)",
-        "搜索: world model"
-      ],
-      "huggingface_models": 10,
-      "huggingface_tasks": [
-        "sentence-similarity",
-        "unknown",
-        "text-ranking",
-        "feature-extraction",
-        "fill-mask"
-      ],
-      "ml_datasets": [
-        "Iris",
-        "Wine",
-        "Breast Cancer",
-        "Diabetes"
-      ],
-      "ml_total_tests": 22,
-      "github_trending_repos": 8,
-      "paperswithcode_papers": 8,
-      "evolution": {
-        "discovered": 22,
-        "adopted": 0,
-        "decisions": 0
-      },
-      "seed_watering": {
-        "seed_name": "KV Cache Optimization",
-        "papers_found": 5
-      }
-    },
-    {
       "timestamp": "2026-10-07T07:49:08.547917",
       "arxiv_papers_count": 18,
       "arxiv_top_keywords": [
@@ -4699,12 +4652,59 @@
         "seed_name": "KV Cache Optimization",
         "papers_found": 6
       }
+    },
+    {
+      "timestamp": "2026-10-27T19:02:06.518994",
+      "arxiv_papers_count": 20,
+      "arxiv_top_keywords": [
+        "language",
+        "learning",
+        "clinical",
+        "agent",
+        "real",
+        "agents",
+        "research",
+        "auto",
+        "jev",
+        "retrieval"
+      ],
+      "arxiv_strategies": [
+        "cs.AI 最新",
+        "cs.LG 最新",
+        "cs.CL 最新"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "unknown",
+        "text-generation",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 21,
+        "adopted": 1,
+        "decisions": 1
+      },
+      "seed_watering": {
+        "seed_name": "Graph Neural Networks",
+        "papers_found": 7
+      }
     }
   ],
   "total_sessions": 101,
-  "last_updated": "2026-10-27T13:41:52.473517",
+  "last_updated": "2026-10-27T19:02:06.519005",
   "evolution_summary": {
-    "total_adopted": 313,
+    "total_adopted": 314,
     "adopted_list": [
       "Knowledge Distillation",
       "World Models / Model-Based RL",
@@ -5018,7 +5018,8 @@
       "统一动作条件世界模型",
       "RobustRLlib",
       "零成本代理",
-      "跨任务迁移学习"
+      "跨任务迁移学习",
+      "I-HITL"
     ],
     "seeds": {
       "mamba": {
@@ -5068,8 +5069,8 @@
       },
       "gnn": {
         "name": "Graph Neural Networks",
-        "watering": 81,
-        "papers": 161
+        "watering": 82,
+        "papers": 162
       }
     },
     "seed_metrics": {
@@ -5175,18 +5176,18 @@
       },
       "gnn": {
         "name": "Graph Neural Networks",
-        "new_papers": 161,
+        "new_papers": 162,
         "keywords_matched": [
           "graph transformer",
+          "gnn",
+          "graph neural",
           "geometric",
           "message passing",
-          "graph neural",
-          "gnn",
           "node embedding",
           "graph attention"
         ],
-        "high_relevance_total": 76,
-        "avg_relevance_latest": 0.0,
+        "high_relevance_total": 77,
+        "avg_relevance_latest": 2.0,
         "best_papers_count": 10
       },
       "moe": {
@@ -5218,6 +5219,6 @@
         "best_papers_count": 1
       }
     },
-    "last_evolution": "2026-10-27T13:41:52.476943"
+    "last_evolution": "2026-10-27T19:02:06.520958"
   }
 }

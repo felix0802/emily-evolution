@@ -4703,6 +4703,21 @@
         ],
         "decided_at": "2026-10-26T16:20:50.883799"
       }
+    },
+    {
+      "id": "llm-i-hitl",
+      "name": "I-HITL",
+      "adopted_at": "2026-10-27T19:02:06.513470",
+      "decision": {
+        "tech_id": "llm-i-hitl",
+        "tech_name": "I-HITL",
+        "action": "adopt",
+        "confidence": 0.9,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-10-27T19:02:06.511939"
+      }
     }
   ],
   "history": [
@@ -6583,6 +6598,12 @@
       "tech_id": "llm-跨任务迁移学习",
       "tech_name": "跨任务迁移学习",
       "timestamp": "2026-10-26T16:20:50.886351"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-i-hitl",
+      "tech_name": "I-HITL",
+      "timestamp": "2026-10-27T19:02:06.513472"
     }
   ]
 }

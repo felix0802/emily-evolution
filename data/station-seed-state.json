@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 829,
+  "_rotation_idx": 830,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 86,
@@ -7504,18 +7504,9 @@
   },
   "gnn": {
     "name": "Graph Neural Networks",
-    "total_papers_found": 161,
-    "watering_count": 81,
+    "total_papers_found": 162,
+    "watering_count": 82,
     "history": [
-      {
-        "timestamp": "2026-08-11T22:29:15.224545",
-        "papers_found": 0,
-        "duplicates": 4,
-        "irrelevant_filtered": 6,
-        "avg_relevance": 0.0,
-        "high_relevance": 0,
-        "papers": []
-      },
       {
         "timestamp": "2026-08-12T18:43:53.694233",
         "papers_found": 5,
@@ -8406,6 +8397,23 @@
         "avg_relevance": 0.0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-10-27T19:02:00.971043",
+        "papers_found": 1,
+        "duplicates": 6,
+        "irrelevant_filtered": 3,
+        "avg_relevance": 2.0,
+        "high_relevance": 1,
+        "papers": [
+          {
+            "title": "A Diagnostic Protocol for GNNs in Electricity Load Forecasting: Separating Parameter Sharing from Neighborhood Access",
+            "summary": "A graph neural network (GNN) forecasting a collection of load series combines two mechanisms, sharing parameters across series and reading neighboring series, and a gain over a non-graph model may come from either; telling them apart decides whether a graph is worth maintaining. We propose a model d",
+            "published": "2026-10-26",
+            "url": "http://arxiv.org/abs/2610.35074v1",
+            "seed_match_score": 2
+          }
+        ]
       }
     ],
     "keywords": [
@@ -8417,6 +8425,6 @@
       "node embedding",
       "graph transformer"
     ],
-    "last_watered": "2026-10-25T17:18:13.331185"
+    "last_watered": "2026-10-27T19:02:00.971040"
   }
 }
