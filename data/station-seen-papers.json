@@ -64446,7 +64446,202 @@
         "online"
       ],
       "first_seen_round": 458
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.34991v1",
+      "title": "Diagnosing and Mitigating Long-Session Degradation in Full-Duplex Speech Models",
+      "arxiv_id": "2610.34991",
+      "tokens": [
+        "degradation",
+        "diagnosing",
+        "duplex",
+        "full",
+        "long",
+        "mitigating",
+        "session",
+        "speech"
+      ],
+      "first_seen_round": 459
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.32109v1",
+      "title": "Context or Knowledge: How LLMs Attribute Their Own Answers",
+      "arxiv_id": "2610.32109",
+      "tokens": [
+        "answers",
+        "attribute",
+        "context",
+        "knowledge",
+        "llms"
+      ],
+      "first_seen_round": 459
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.35164v1",
+      "title": "Accelerating SO(2)-Equivariant Materials Models through Low-Precision Emulation",
+      "arxiv_id": "2610.35164",
+      "tokens": [
+        "accelerating",
+        "emulation",
+        "equivariant",
+        "low",
+        "materials",
+        "precision"
+      ],
+      "first_seen_round": 459
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.34950v1",
+      "title": "MINT: Mitigating Structural Inconsistency via Attentive Message Passing for Financial Anomaly Detection",
+      "arxiv_id": "2610.34950",
+      "tokens": [
+        "anomaly",
+        "attentive",
+        "detection",
+        "financial",
+        "inconsistency",
+        "message",
+        "mint",
+        "mitigating",
+        "passing",
+        "structural"
+      ],
+      "first_seen_round": 459
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.34611v1",
+      "title": "How Much Graph Is Too Much? Graph Construction and Exposure in Spatio-Temporal Forecasting",
+      "arxiv_id": "2610.34611",
+      "tokens": [
+        "construction",
+        "exposure",
+        "forecasting",
+        "graph",
+        "graph",
+        "much",
+        "much",
+        "spatio",
+        "temporal"
+      ],
+      "first_seen_round": 459
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.33930v1",
+      "title": "EnerGNN: Learning Optimization-Compatible Energy Functions for Exact Constrained Combinatorial Inference",
+      "arxiv_id": "2610.33930",
+      "tokens": [
+        "combinatorial",
+        "compatible",
+        "constrained",
+        "energnn",
+        "energy",
+        "exact",
+        "functions",
+        "inference",
+        "optimization"
+      ],
+      "first_seen_round": 459
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.33769v1",
+      "title": "CFL-aware edge design for graph neural solvers of hyperbolic transport",
+      "arxiv_id": "2610.33769",
+      "tokens": [
+        "aware",
+        "cfl",
+        "design",
+        "edge",
+        "graph",
+        "hyperbolic",
+        "neural",
+        "solvers",
+        "transport"
+      ],
+      "first_seen_round": 459
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.33623v1",
+      "title": "Graph-dependent pooling: adaptive granularity in hierarchical graph neural networks",
+      "arxiv_id": "2610.33623",
+      "tokens": [
+        "adaptive",
+        "dependent",
+        "granularity",
+        "graph",
+        "graph",
+        "hierarchical",
+        "neural",
+        "pooling"
+      ],
+      "first_seen_round": 459
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.34103v1",
+      "title": "T2D: Target-to-Draft Model Pruning & Adaptation for Efficient Speculative Decoding",
+      "arxiv_id": "2610.34103",
+      "tokens": [
+        "adaptation",
+        "decoding",
+        "draft",
+        "pruning",
+        "speculative",
+        "t2d",
+        "target"
+      ],
+      "first_seen_round": 459
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.31840v1",
+      "title": "SPECMEM: Accelerating Agentic Tool Calling via Live Memory Management",
+      "arxiv_id": "2610.31840",
+      "tokens": [
+        "accelerating",
+        "agentic",
+        "calling",
+        "live",
+        "management",
+        "memory",
+        "specmem",
+        "tool"
+      ],
+      "first_seen_round": 459
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.34440v1",
+      "title": "Speculative Decoding for Mixture-of-Experts Models: Expert Bytes, Kernel Bandwidth and the Best Draft Length",
+      "arxiv_id": "2610.34440",
+      "tokens": [
+        "bandwidth",
+        "best",
+        "bytes",
+        "decoding",
+        "draft",
+        "expert",
+        "experts",
+        "kernel",
+        "length",
+        "mixture",
+        "speculative"
+      ],
+      "first_seen_round": 459
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.32637v1",
+      "title": "Residual Expert Routing for Text-Only Domain Adaptation of Factorized Transducer ASR",
+      "arxiv_id": "2610.32637",
+      "tokens": [
+        "adaptation",
+        "asr",
+        "domain",
+        "expert",
+        "factorized",
+        "residual",
+        "routing",
+        "text",
+        "transducer"
+      ],
+      "first_seen_round": 459
     }
   ],
-  "total_unique": 4047
+  "total_unique": 4059
 }

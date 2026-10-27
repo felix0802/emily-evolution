@@ -1,28 +1,6 @@
 {
   "rounds": [
     {
-      "round": 409,
-      "timestamp": "2026-10-17T21:49:01.514634",
-      "prediction_error": 0.7,
-      "seeds_active": 10,
-      "seeds_dormant": 0,
-      "new_seeds_added": 0,
-      "top_motivated": [
-        [
-          "mamba",
-          0.91
-        ],
-        [
-          "liquid-networks",
-          0.91
-        ],
-        [
-          "htm",
-          0.91
-        ]
-      ]
-    },
-    {
       "round": 410,
       "timestamp": "2026-10-17T23:34:31.728054",
       "prediction_error": 0.7,
@@ -1099,6 +1077,28 @@
           0.91
         ]
       ]
+    },
+    {
+      "round": 459,
+      "timestamp": "2026-10-27T06:56:19.124014",
+      "prediction_error": 0.7,
+      "seeds_active": 10,
+      "seeds_dormant": 0,
+      "new_seeds_added": 0,
+      "top_motivated": [
+        [
+          "mamba",
+          0.91
+        ],
+        [
+          "liquid-networks",
+          0.91
+        ],
+        [
+          "htm",
+          0.91
+        ]
+      ]
     }
   ],
   "seed_scores": {
@@ -1171,7 +1171,6 @@
         0.847,
         0.847,
         0.847,
-        0.847,
         0.741,
         0.741,
         0.741,
@@ -1182,6 +1181,7 @@
         0.741,
         0.741,
         0.741,
+        1.0,
         1.0,
         1.0,
         1.0,
@@ -1231,7 +1231,6 @@
         1.0,
         1.0,
         1.0,
-        1.0,
         0.957,
         0.957,
         0.957,
@@ -1242,6 +1241,7 @@
         0.957,
         0.957,
         0.957,
+        0.978,
         0.978,
         0.978,
         0.978
@@ -1371,7 +1371,6 @@
       "info_gain_history": [
         0.871,
         0.871,
-        0.871,
         0.281,
         0.281,
         0.281,
@@ -1382,6 +1381,7 @@
         0.281,
         0.281,
         0.281,
+        0.293,
         0.293,
         0.293,
         0.293,
@@ -1406,6 +1406,6 @@
     "spiking-nn",
     "non-transformer"
   ],
-  "total_motivation_evaluations": 302,
+  "total_motivation_evaluations": 303,
   "current_prediction_error": 0.7
 }
