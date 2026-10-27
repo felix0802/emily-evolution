@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-26T21:59:43.293269",
+  "timestamp": "2026-10-27T01:09:06.676184",
   "connections": [
     {
       "seed_a": "HTM",
@@ -13,7 +13,7 @@
         "with"
       ],
       "strength": 5,
-      "discovered_at": "2026-10-26T21:59:43.293205"
+      "discovered_at": "2026-10-27T01:09:06.676129"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -24,7 +24,7 @@
       ],
       "shared_paper_concepts": [],
       "strength": 4,
-      "discovered_at": "2026-10-26T21:59:43.293161"
+      "discovered_at": "2026-10-27T01:09:06.676094"
     },
     {
       "seed_a": "Liquid Networks",
@@ -37,7 +37,7 @@
         "with"
       ],
       "strength": 4,
-      "discovered_at": "2026-10-26T21:59:43.293181"
+      "discovered_at": "2026-10-27T01:09:06.676109"
     },
     {
       "seed_a": "HTM",
@@ -50,7 +50,7 @@
         "models"
       ],
       "strength": 4,
-      "discovered_at": "2026-10-26T21:59:43.293215"
+      "discovered_at": "2026-10-27T01:09:06.676138"
     },
     {
       "seed_a": "Mixture of Experts",
@@ -63,7 +63,7 @@
         "models"
       ],
       "strength": 4,
-      "discovered_at": "2026-10-26T21:59:43.293261"
+      "discovered_at": "2026-10-27T01:09:06.676175"
     },
     {
       "seed_a": "Liquid Networks",
@@ -75,19 +75,19 @@
         "models"
       ],
       "strength": 3,
-      "discovered_at": "2026-10-26T21:59:43.293190"
+      "discovered_at": "2026-10-27T01:09:06.676117"
     },
     {
-      "seed_a": "Liquid Networks",
+      "seed_a": "HTM",
       "seed_b": "Continual Learning",
       "shared_keywords": [],
       "shared_paper_concepts": [
-        "free",
-        "from",
-        "learning"
+        "aware",
+        "learning",
+        "recognition"
       ],
       "strength": 3,
-      "discovered_at": "2026-10-26T21:59:43.293193"
+      "discovered_at": "2026-10-27T01:09:06.676135"
     },
     {
       "seed_a": "HTM",
@@ -99,7 +99,7 @@
         "with"
       ],
       "strength": 3,
-      "discovered_at": "2026-10-26T21:59:43.293219"
+      "discovered_at": "2026-10-27T01:09:06.676140"
     },
     {
       "seed_a": "Spiking Neural Networks",
@@ -111,19 +111,18 @@
         "scalable"
       ],
       "strength": 3,
-      "discovered_at": "2026-10-26T21:59:43.293225"
+      "discovered_at": "2026-10-27T01:09:06.676145"
     },
     {
-      "seed_a": "Continual Learning",
-      "seed_b": "KV Cache Optimization",
+      "seed_a": "Mamba (SSM)",
+      "seed_b": "Liquid Networks",
       "shared_keywords": [],
       "shared_paper_concepts": [
-        "multimodal",
-        "online",
-        "training"
+        "learning",
+        "model"
       ],
-      "strength": 3,
-      "discovered_at": "2026-10-26T21:59:43.293254"
+      "strength": 2,
+      "discovered_at": "2026-10-27T01:09:06.676082"
     }
   ],
   "total_seeds": 10
