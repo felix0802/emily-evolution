@@ -1,28 +1,6 @@
 {
   "rounds": [
     {
-      "round": 412,
-      "timestamp": "2026-10-18T06:43:15.960853",
-      "prediction_error": 0.7,
-      "seeds_active": 10,
-      "seeds_dormant": 0,
-      "new_seeds_added": 0,
-      "top_motivated": [
-        [
-          "mamba",
-          0.91
-        ],
-        [
-          "liquid-networks",
-          0.91
-        ],
-        [
-          "htm",
-          0.91
-        ]
-      ]
-    },
-    {
       "round": 413,
       "timestamp": "2026-10-18T12:13:41.877626",
       "prediction_error": 0.7,
@@ -1099,6 +1077,28 @@
           0.91
         ]
       ]
+    },
+    {
+      "round": 462,
+      "timestamp": "2026-10-27T23:18:10.079681",
+      "prediction_error": 0.7,
+      "seeds_active": 10,
+      "seeds_dormant": 0,
+      "new_seeds_added": 0,
+      "top_motivated": [
+        [
+          "mamba",
+          0.91
+        ],
+        [
+          "liquid-networks",
+          0.91
+        ],
+        [
+          "htm",
+          0.91
+        ]
+      ]
     }
   ],
   "seed_scores": {
@@ -1168,7 +1168,6 @@
       "info_gain_history": [
         0.847,
         0.847,
-        0.847,
         0.741,
         0.741,
         0.741,
@@ -1179,6 +1178,7 @@
         0.741,
         0.741,
         0.741,
+        1.0,
         1.0,
         1.0,
         1.0,
@@ -1228,7 +1228,6 @@
         1.0,
         1.0,
         1.0,
-        1.0,
         0.957,
         0.957,
         0.957,
@@ -1239,6 +1238,7 @@
         0.957,
         0.957,
         0.957,
+        0.978,
         0.978,
         0.978,
         0.978,
@@ -1378,7 +1378,6 @@
         0.281,
         0.281,
         0.281,
-        0.281,
         0.293,
         0.293,
         0.293,
@@ -1389,6 +1388,7 @@
         0.293,
         0.293,
         0.293,
+        0.191,
         0.191
       ]
     }
@@ -1406,6 +1406,6 @@
     "spiking-nn",
     "non-transformer"
   ],
-  "total_motivation_evaluations": 305,
+  "total_motivation_evaluations": 306,
   "current_prediction_error": 0.7
 }

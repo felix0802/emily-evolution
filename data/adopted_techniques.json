@@ -4718,6 +4718,36 @@
         ],
         "decided_at": "2026-10-27T19:02:06.511939"
       }
+    },
+    {
+      "id": "llm-代码驱动视频生成",
+      "name": "代码驱动视频生成",
+      "adopted_at": "2026-10-27T23:18:15.185209",
+      "decision": {
+        "tech_id": "llm-代码驱动视频生成",
+        "tech_name": "代码驱动视频生成",
+        "action": "adopt",
+        "confidence": 0.9,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-10-27T23:18:15.182470"
+      }
+    },
+    {
+      "id": "llm-一步动作生成",
+      "name": "一步动作生成",
+      "adopted_at": "2026-10-27T23:18:15.185237",
+      "decision": {
+        "tech_id": "llm-一步动作生成",
+        "tech_name": "一步动作生成",
+        "action": "adopt",
+        "confidence": 0.85,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-10-27T23:18:15.182693"
+      }
     }
   ],
   "history": [
@@ -6604,6 +6634,18 @@
       "tech_id": "llm-i-hitl",
       "tech_name": "I-HITL",
       "timestamp": "2026-10-27T19:02:06.513472"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-代码驱动视频生成",
+      "tech_name": "代码驱动视频生成",
+      "timestamp": "2026-10-27T23:18:15.185213"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-一步动作生成",
+      "tech_name": "一步动作生成",
+      "timestamp": "2026-10-27T23:18:15.185239"
     }
   ]
 }

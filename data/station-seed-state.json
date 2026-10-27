@@ -1,19 +1,10 @@
 {
-  "_rotation_idx": 830,
+  "_rotation_idx": 831,
   "mamba": {
     "name": "Mamba (SSM)",
-    "total_papers_found": 86,
-    "watering_count": 86,
+    "total_papers_found": 90,
+    "watering_count": 87,
     "history": [
-      {
-        "timestamp": "2026-08-12T00:53:23.802849",
-        "papers_found": 0,
-        "duplicates": 9,
-        "irrelevant_filtered": 1,
-        "avg_relevance": 0.0,
-        "high_relevance": 0,
-        "papers": []
-      },
       {
         "timestamp": "2026-08-12T20:29:57.685676",
         "papers_found": 1,
@@ -739,6 +730,37 @@
         "avg_relevance": 0.0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-10-27T23:18:10.063243",
+        "papers_found": 4,
+        "duplicates": 3,
+        "irrelevant_filtered": 3,
+        "avg_relevance": 1.25,
+        "high_relevance": 1,
+        "papers": [
+          {
+            "title": "CORMA: Constraint-Routed Decision Mamba for Generalizable Multi-Constraint Offline Safe Reinforcement Learning",
+            "summary": "Offline safe reinforcement learning (RL) learns safety-aware policies from static datasets while satisfying safety constraints during deployment. Motivated by the strong trajectorymodeling capabilities of Transformers, recent Decision Transformer (DT)-based methods formulate offline safe RL as condi",
+            "published": "2026-10-25",
+            "url": "http://arxiv.org/abs/2610.34208v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Real-Time Human Trajectory Prediction from RGB-D for Mobile Robots Using Bi-Mamba",
+            "summary": "Predicting the short-term future trajectory of a person from RGB-D cameras is a key capability for mobile robots navigating in dynamic and human populated environment. The key challenge to deploying learned predictors on real robots is the train-deploy pipeline gap. Training data are often prepared ",
+            "published": "2026-10-24",
+            "url": "http://arxiv.org/abs/2610.33916v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "A Gaussian Process State Space Formulation for Materials Constitutive Modeling: Application to Quasi-brittle Materials",
+            "summary": "Constitutive models for history-dependent, path-dependent materials typically encode this dependence in prescribed functional forms through internal variables such as damage or plastic strain that are phenomenological, model-dependent, and not directly observable. These rigid forms lack flexibility ",
+            "published": "2026-10-23",
+            "url": "http://arxiv.org/abs/2610.33175v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -747,7 +769,7 @@
       "ssm",
       "selective scan"
     ],
-    "last_watered": "2026-10-25T20:05:00.881425"
+    "last_watered": "2026-10-27T23:18:10.063237"
   },
   "liquid-networks": {
     "name": "Liquid Networks",
