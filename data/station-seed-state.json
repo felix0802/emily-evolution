@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 828,
+  "_rotation_idx": 829,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 86,
@@ -6585,18 +6585,9 @@
   },
   "kv-cache": {
     "name": "KV Cache Optimization",
-    "total_papers_found": 121,
-    "watering_count": 80,
+    "total_papers_found": 125,
+    "watering_count": 81,
     "history": [
-      {
-        "timestamp": "2026-08-11T20:34:10.619153",
-        "papers_found": 0,
-        "duplicates": 0,
-        "irrelevant_filtered": 0,
-        "avg_relevance": 0,
-        "high_relevance": 0,
-        "papers": []
-      },
       {
         "timestamp": "2026-08-12T16:43:59.930851",
         "papers_found": 3,
@@ -7467,6 +7458,37 @@
         "avg_relevance": 0.0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-10-27T13:41:46.116108",
+        "papers_found": 4,
+        "duplicates": 2,
+        "irrelevant_filtered": 4,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "InterQ-RL: Interaction-Aware Correction of Execution Mismatch in Quantized Agentic RL",
+            "summary": "Multi-turn agent reinforcement learning (RL) relies on long closed-loop rollouts, making generation and KV-cache costs a major bottleneck. Quantized rollout reduces these costs, but its low-precision executor also serves as the behavior policy and can induce execution mismatch with the learner. Exis",
+            "published": "2026-10-26",
+            "url": "http://arxiv.org/abs/2610.35303v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "BellowsKV: One Latent for Many Layers, Expanded on Demand",
+            "summary": "Large language models (LLMs) now serve as the backbone of agents that reason over many turns, call tools, and pursue long-horizon tasks. To avoid recomputation, a model stores the attention keys and values of all past tokens in a key-value (KV) cache. Each layer maintains its own cache, so KV-cache ",
+            "published": "2026-10-26",
+            "url": "http://arxiv.org/abs/2610.35023v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Attention under Bounded Key-Query Similarity: Space Complexity and Transformer Anisotropy",
+            "summary": "A growing body of work on KV-cache compression aims to reduce the memory requirements of autoregressive generation. These methods compress the stored context while approximately preserving attention computation, enabling generation with reduced memory consumption. Almost tight theoretical results on",
+            "published": "2026-10-26",
+            "url": "http://arxiv.org/abs/2610.35020v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -7478,7 +7500,7 @@
       "flash attention",
       "speculative decoding"
     ],
-    "last_watered": "2026-10-25T12:49:14.955356"
+    "last_watered": "2026-10-27T13:41:46.116103"
   },
   "gnn": {
     "name": "Graph Neural Networks",

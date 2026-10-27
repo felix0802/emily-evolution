@@ -1,53 +1,6 @@
 {
   "sessions": [
     {
-      "timestamp": "2026-10-06T21:57:14.776527",
-      "arxiv_papers_count": 18,
-      "arxiv_top_keywords": [
-        "multi",
-        "self",
-        "agent",
-        "topology",
-        "inference",
-        "computation",
-        "compounding",
-        "work",
-        "gitswarm",
-        "active"
-      ],
-      "arxiv_strategies": [
-        "搜索: neural architecture",
-        "搜索: self-supervised learning",
-        "搜索: multi-agent system"
-      ],
-      "huggingface_models": 10,
-      "huggingface_tasks": [
-        "sentence-similarity",
-        "unknown",
-        "text-ranking",
-        "feature-extraction",
-        "fill-mask"
-      ],
-      "ml_datasets": [
-        "Iris",
-        "Wine",
-        "Breast Cancer",
-        "Diabetes"
-      ],
-      "ml_total_tests": 22,
-      "github_trending_repos": 8,
-      "paperswithcode_papers": 8,
-      "evolution": {
-        "discovered": 28,
-        "adopted": 0,
-        "decisions": 0
-      },
-      "seed_watering": {
-        "seed_name": "Mixture of Experts",
-        "papers_found": 6
-      }
-    },
-    {
       "timestamp": "2026-10-07T01:13:58.669462",
       "arxiv_papers_count": 11,
       "arxiv_top_keywords": [
@@ -4699,10 +4652,57 @@
         "seed_name": "Mixture of Experts",
         "papers_found": 5
       }
+    },
+    {
+      "timestamp": "2026-10-27T13:41:52.473499",
+      "arxiv_papers_count": 18,
+      "arxiv_top_keywords": [
+        "compression",
+        "retrieval",
+        "recommendation",
+        "learning",
+        "target",
+        "armed",
+        "clinical",
+        "adaptive",
+        "attention",
+        "product"
+      ],
+      "arxiv_strategies": [
+        "搜索: multi-query attention",
+        "搜索: geometric deep learning",
+        "搜索: knowledge distillation"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "unknown",
+        "text-generation",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 24,
+        "adopted": 0,
+        "decisions": 0
+      },
+      "seed_watering": {
+        "seed_name": "KV Cache Optimization",
+        "papers_found": 6
+      }
     }
   ],
   "total_sessions": 101,
-  "last_updated": "2026-10-27T06:56:24.375493",
+  "last_updated": "2026-10-27T13:41:52.473517",
   "evolution_summary": {
     "total_adopted": 313,
     "adopted_list": [
@@ -5063,8 +5063,8 @@
       },
       "kv-cache": {
         "name": "KV Cache Optimization",
-        "watering": 80,
-        "papers": 121
+        "watering": 81,
+        "papers": 125
       },
       "gnn": {
         "name": "Graph Neural Networks",
@@ -5205,19 +5205,19 @@
       },
       "kv-cache": {
         "name": "KV Cache Optimization",
-        "new_papers": 121,
+        "new_papers": 125,
         "keywords_matched": [
           "flash attention",
-          "key-value cache",
-          "speculative decoding",
           "kv cache",
-          "gqa"
+          "gqa",
+          "speculative decoding",
+          "key-value cache"
         ],
         "high_relevance_total": 5,
-        "avg_relevance_latest": 0.0,
+        "avg_relevance_latest": 1.0,
         "best_papers_count": 1
       }
     },
-    "last_evolution": "2026-10-27T06:56:24.379329"
+    "last_evolution": "2026-10-27T13:41:52.476943"
   }
 }

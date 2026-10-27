@@ -64641,7 +64641,115 @@
         "transducer"
       ],
       "first_seen_round": 459
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.35175v1",
+      "title": "DAC-Loop: Distillation-Aware Compression for Remote Sensing CNN",
+      "arxiv_id": "2610.35175",
+      "tokens": [
+        "aware",
+        "cnn",
+        "compression",
+        "dac",
+        "distillation",
+        "loop",
+        "remote",
+        "sensing"
+      ],
+      "first_seen_round": 460
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.34199v1",
+      "title": "SRA: Selective Residual Adaptation for LLM Reasoning Enhancement",
+      "arxiv_id": "2610.34199",
+      "tokens": [
+        "adaptation",
+        "enhancement",
+        "llm",
+        "reasoning",
+        "residual",
+        "selective",
+        "sra"
+      ],
+      "first_seen_round": 460
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.33740v1",
+      "title": "A Distribution-Matching Perspective on LLM Training Algorithms",
+      "arxiv_id": "2610.33740",
+      "tokens": [
+        "algorithms",
+        "distribution",
+        "llm",
+        "matching",
+        "perspective",
+        "training"
+      ],
+      "first_seen_round": 460
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.35303v1",
+      "title": "InterQ-RL: Interaction-Aware Correction of Execution Mismatch in Quantized Agentic RL",
+      "arxiv_id": "2610.35303",
+      "tokens": [
+        "agentic",
+        "aware",
+        "correction",
+        "execution",
+        "interaction",
+        "interq",
+        "mismatch",
+        "quantized"
+      ],
+      "first_seen_round": 460
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.35023v1",
+      "title": "BellowsKV: One Latent for Many Layers, Expanded on Demand",
+      "arxiv_id": "2610.35023",
+      "tokens": [
+        "bellowskv",
+        "demand",
+        "expanded",
+        "latent",
+        "layers",
+        "many"
+      ],
+      "first_seen_round": 460
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.35020v1",
+      "title": "Attention under Bounded Key-Query Similarity: Space Complexity and Transformer Anisotropy",
+      "arxiv_id": "2610.35020",
+      "tokens": [
+        "anisotropy",
+        "attention",
+        "bounded",
+        "complexity",
+        "key",
+        "query",
+        "similarity",
+        "space",
+        "transformer"
+      ],
+      "first_seen_round": 460
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.33379v1",
+      "title": "One Call Ahead: Packed Self-Speculative Decoding with Diffusion Drafting",
+      "arxiv_id": "2610.33379",
+      "tokens": [
+        "ahead",
+        "call",
+        "decoding",
+        "diffusion",
+        "drafting",
+        "packed",
+        "self",
+        "speculative"
+      ],
+      "first_seen_round": 460
     }
   ],
-  "total_unique": 4059
+  "total_unique": 4066
 }
