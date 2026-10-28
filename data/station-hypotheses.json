@@ -801,13 +801,13 @@
       "arxiv_query": "liquid neural networks KV cache eviction long context inference",
       "potential_breakthrough": "實現首個由連續時間動態系統驅動的自適應 KV Cache 管理框架，在長上下文推理中同時提升記憶體效率與生成品質。",
       "status": "unverified",
-      "verification_rounds": 1,
+      "verification_rounds": 2,
       "supporting_papers": [],
       "refuting_papers": [],
       "llm_source": "deepseek"
     }
   ],
-  "last_updated": "2026-10-28T10:05:47.950395",
+  "last_updated": "2026-10-28T17:30:53.895986",
   "total_generated": 36,
   "total_verified": 35
 }

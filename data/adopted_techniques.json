@@ -4793,6 +4793,36 @@
         ],
         "decided_at": "2026-10-28T10:05:42.510883"
       }
+    },
+    {
+      "id": "llm-spectral-braids",
+      "name": "Spectral Braids",
+      "adopted_at": "2026-10-28T17:30:46.403706",
+      "decision": {
+        "tech_id": "llm-spectral-braids",
+        "tech_name": "Spectral Braids",
+        "action": "adopt",
+        "confidence": 0.9,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-10-28T17:30:46.401974"
+      }
+    },
+    {
+      "id": "llm-gtformer",
+      "name": "GTFormer",
+      "adopted_at": "2026-10-28T17:30:46.403721",
+      "decision": {
+        "tech_id": "llm-gtformer",
+        "tech_name": "GTFormer",
+        "action": "adopt",
+        "confidence": 0.85,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-10-28T17:30:46.402146"
+      }
     }
   ],
   "history": [
@@ -6709,6 +6739,18 @@
       "tech_id": "llm-anchor-based-comparative-frame",
       "tech_name": "Anchor-based comparative framework",
       "timestamp": "2026-10-28T10:05:42.512751"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-spectral-braids",
+      "tech_name": "Spectral Braids",
+      "timestamp": "2026-10-28T17:30:46.403709"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-gtformer",
+      "tech_name": "GTFormer",
+      "timestamp": "2026-10-28T17:30:46.403722"
     }
   ]
 }

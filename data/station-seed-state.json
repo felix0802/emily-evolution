@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 833,
+  "_rotation_idx": 834,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 90,
@@ -2594,26 +2594,9 @@
   },
   "spiking-nn": {
     "name": "Spiking Neural Networks",
-    "total_papers_found": 60,
-    "watering_count": 85,
+    "total_papers_found": 62,
+    "watering_count": 86,
     "history": [
-      {
-        "timestamp": "2026-08-12T07:03:36.326300",
-        "papers_found": 1,
-        "duplicates": 8,
-        "irrelevant_filtered": 1,
-        "avg_relevance": 2.0,
-        "high_relevance": 1,
-        "papers": [
-          {
-            "title": "SuperNeuroMAT: An Efficient Matrix-based Simulator for Spiking Neural Networks",
-            "summary": "Spiking neural networks (SNNs) offer a promising pathway to energy-efficient AI and brain-inspired computing. However, their widespread adoption is hindered by a lack of fast, accessible, and versatile simulation frameworks. In this paper, we introduce SuperNeuroMAT, an open-source, scalable, and hi",
-            "published": "2026-08-09",
-            "url": "http://arxiv.org/abs/2608.08479v1",
-            "seed_match_score": 2
-          }
-        ]
-      },
       {
         "timestamp": "2026-08-13T03:57:10.408602",
         "papers_found": 0,
@@ -3305,6 +3288,30 @@
             "seed_match_score": 2
           }
         ]
+      },
+      {
+        "timestamp": "2026-10-28T17:30:38.550500",
+        "papers_found": 2,
+        "duplicates": 8,
+        "irrelevant_filtered": 0,
+        "avg_relevance": 2.5,
+        "high_relevance": 2,
+        "papers": [
+          {
+            "title": "Characterizing Privacy Leakage in Spiking Neural Networks: A Systematic Analysis of Temporal Dynamics, Stochasticity, Neuronal Dynamics and Learning Mechanisms",
+            "summary": "Spiking neural networks (SNNs) encode information not only in whether neurons fire but also in when they fire, and this temporal dimension shapes what a trained network reveals about its training data. Biologically inspired firing patterns can reduce membership leakage in SNNs without changing the n",
+            "published": "2026-10-26",
+            "url": "http://arxiv.org/abs/2610.36243v1",
+            "seed_match_score": 2
+          },
+          {
+            "title": "Evaluating Spiking MoveNet Deployability for Near-Future Onboard Spiking Satellite Pose Estimation",
+            "summary": "SNNs are attracting interest due to their potential for energy efficiency and event-driven processing. However, neuromorphic hardware is not yet mature enough to enable embedded deployment of complex spiking network architectures. In this work, we investigate a spiking version of the MoveNet archite",
+            "published": "2026-10-19",
+            "url": "http://arxiv.org/abs/2610.33061v1",
+            "seed_match_score": 3
+          }
+        ]
       }
     ],
     "keywords": [
@@ -3313,7 +3320,7 @@
       "neuromorphic",
       "spike-timing"
     ],
-    "last_watered": "2026-10-26T09:26:19.418954"
+    "last_watered": "2026-10-28T17:30:38.550497"
   },
   "non-transformer": {
     "name": "Non-Transformer Arch",
