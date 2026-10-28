@@ -1,28 +1,6 @@
 {
   "rounds": [
     {
-      "round": 414,
-      "timestamp": "2026-10-18T16:59:16.140554",
-      "prediction_error": 0.7,
-      "seeds_active": 10,
-      "seeds_dormant": 0,
-      "new_seeds_added": 0,
-      "top_motivated": [
-        [
-          "mamba",
-          0.91
-        ],
-        [
-          "liquid-networks",
-          0.91
-        ],
-        [
-          "htm",
-          0.91
-        ]
-      ]
-    },
-    {
       "round": 415,
       "timestamp": "2026-10-18T19:46:51.265306",
       "prediction_error": 0.7,
@@ -1099,6 +1077,28 @@
           0.91
         ]
       ]
+    },
+    {
+      "round": 464,
+      "timestamp": "2026-10-28T10:05:37.169964",
+      "prediction_error": 0.7,
+      "seeds_active": 10,
+      "seeds_dormant": 0,
+      "new_seeds_added": 0,
+      "top_motivated": [
+        [
+          "mamba",
+          0.91
+        ],
+        [
+          "liquid-networks",
+          0.91
+        ],
+        [
+          "htm",
+          0.91
+        ]
+      ]
     }
   ],
   "seed_scores": {
@@ -1166,7 +1166,6 @@
       "novelty": 1.0,
       "motivation_score": 0.91,
       "info_gain_history": [
-        0.847,
         0.741,
         0.741,
         0.741,
@@ -1177,6 +1176,7 @@
         0.741,
         0.741,
         0.741,
+        1.0,
         1.0,
         1.0,
         1.0,
@@ -1226,7 +1226,6 @@
       "info_gain_history": [
         1.0,
         1.0,
-        1.0,
         0.957,
         0.957,
         0.957,
@@ -1237,6 +1236,7 @@
         0.957,
         0.957,
         0.957,
+        0.978,
         0.978,
         0.978,
         0.978,
@@ -1376,7 +1376,6 @@
         0.281,
         0.281,
         0.281,
-        0.281,
         0.293,
         0.293,
         0.293,
@@ -1387,6 +1386,7 @@
         0.293,
         0.293,
         0.293,
+        0.191,
         0.191,
         0.191,
         0.191
@@ -1406,6 +1406,6 @@
     "spiking-nn",
     "non-transformer"
   ],
-  "total_motivation_evaluations": 307,
+  "total_motivation_evaluations": 308,
   "current_prediction_error": 0.7
 }

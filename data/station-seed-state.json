@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 832,
+  "_rotation_idx": 833,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 90,
@@ -1614,40 +1614,9 @@
   },
   "htm": {
     "name": "HTM",
-    "total_papers_found": 146,
-    "watering_count": 86,
+    "total_papers_found": 150,
+    "watering_count": 87,
     "history": [
-      {
-        "timestamp": "2026-08-12T05:21:37.389597",
-        "papers_found": 4,
-        "duplicates": 1,
-        "irrelevant_filtered": 5,
-        "avg_relevance": 1.0,
-        "high_relevance": 0,
-        "papers": [
-          {
-            "title": "ProTAGAD: A Foundation Model for TAG Anomaly Detection with Decoupled Topological and Textual Prototypes",
-            "summary": "Text-Attributed Graphs (TAGs), endowed with abundant textual content along with topological structures, have emerged as a versatile backbone for real-world anomaly detection spanning large language model security, social network moderation, and cyber threat identification. Unlike conventional Graph ",
-            "published": "2026-08-11",
-            "url": "http://arxiv.org/abs/2608.10699v1",
-            "seed_match_score": 1
-          },
-          {
-            "title": "BREAD: Baseline-Referenced Explanations for Anomaly Diagnosis",
-            "summary": "Artificial Intelligence (AI)-based prospective anomaly detection methods are increasingly deployed in high-dimensional and nonlinear settings. Among these approaches, AI-based statistical process monitoring (SPM) is widely used, providing a structured framework for prospective monitoring. Once an an",
-            "published": "2026-08-11",
-            "url": "http://arxiv.org/abs/2608.10587v1",
-            "seed_match_score": 1
-          },
-          {
-            "title": "CRHT: A Continuous Regression Hybrid Transformer for Vessel Trajectory Prediction with Online Cluster Sampling",
-            "summary": "Accurate vessel trajectory prediction is critical for maritime safety and anomaly detection, yet existing models often struggle with geographic bias and navigational realism. We propose the Continuous Regression Hybrid Transformer (CRHT), a deep learning framework designed to forecast vessel motion ",
-            "published": "2026-08-10",
-            "url": "http://arxiv.org/abs/2608.10256v1",
-            "seed_match_score": 1
-          }
-        ]
-      },
       {
         "timestamp": "2026-08-13T00:54:33.952937",
         "papers_found": 0,
@@ -2576,6 +2545,37 @@
             "seed_match_score": 1
           }
         ]
+      },
+      {
+        "timestamp": "2026-10-28T10:05:37.160131",
+        "papers_found": 4,
+        "duplicates": 0,
+        "irrelevant_filtered": 6,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "ReForest: Interpretability Meets Reasoning in Isolation Forest",
+            "summary": "Statistical anomaly detection methods like Isolation Forest are efficient but suffer from a critical semantic gap. They identify numerical rarities but fail to understand the contextual meaning of data, often missing subtle, context-dependent anomalies. Conversely, Large Language Models possess stro",
+            "published": "2026-10-27",
+            "url": "http://arxiv.org/abs/2610.37316v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Atom as an Agent: Emergent Order by Collective Predictive Coding",
+            "summary": "What is the intrinsic reason of emergence of macroscopic order parameter out of microscopic systems? In this article, we apply to physics the collective predictive coding (CPC), the theory of language/symbol emergence. As our language emerges out of our human communications, physical macroscopic ord",
+            "published": "2026-10-27",
+            "url": "http://arxiv.org/abs/2610.36673v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Persistence, Exposure, and Credit Routing in Linear Temporal Predictive Coding",
+            "summary": "Temporal Predictive Coding (tPC) networks offer a layer-local alternative to backpropagation. For linear tPC, we show, by applying tools from cellular sheaf theory, that temporal credit assignment is a tug-of-war between spatial displacement and temporal errors, whose ratios are modulated by persist",
+            "published": "2026-10-26",
+            "url": "http://arxiv.org/abs/2610.36412v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -2590,7 +2590,7 @@
       "anomaly detection",
       "continuous learning"
     ],
-    "last_watered": "2026-10-26T02:01:38.411304"
+    "last_watered": "2026-10-28T10:05:37.160127"
   },
   "spiking-nn": {
     "name": "Spiking Neural Networks",

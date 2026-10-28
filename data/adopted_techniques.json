@@ -4778,6 +4778,21 @@
         ],
         "decided_at": "2026-10-28T02:47:37.704059"
       }
+    },
+    {
+      "id": "llm-anchor-based-comparative-frame",
+      "name": "Anchor-based comparative framework",
+      "adopted_at": "2026-10-28T10:05:42.512749",
+      "decision": {
+        "tech_id": "llm-anchor-based-comparative-frame",
+        "tech_name": "Anchor-based comparative framework",
+        "action": "adopt",
+        "confidence": 0.9,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-10-28T10:05:42.510883"
+      }
     }
   ],
   "history": [
@@ -6688,6 +6703,12 @@
       "tech_id": "llm-跨任务耦合分析",
       "tech_name": "跨任务耦合分析",
       "timestamp": "2026-10-28T02:47:37.706163"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-anchor-based-comparative-frame",
+      "tech_name": "Anchor-based comparative framework",
+      "timestamp": "2026-10-28T10:05:42.512751"
     }
   ]
 }
