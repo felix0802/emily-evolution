@@ -1,53 +1,6 @@
 {
   "sessions": [
     {
-      "timestamp": "2026-10-08T08:06:05.418943",
-      "arxiv_papers_count": 20,
-      "arxiv_top_keywords": [
-        "objects",
-        "scene",
-        "generation",
-        "memory",
-        "action",
-        "world",
-        "video",
-        "latent",
-        "language",
-        "retrieval"
-      ],
-      "arxiv_strategies": [
-        "cs.CV 最新",
-        "cs.AI+cs.LG 混合",
-        "cs.CL+cs.CV 混合"
-      ],
-      "huggingface_models": 10,
-      "huggingface_tasks": [
-        "sentence-similarity",
-        "unknown",
-        "text-ranking",
-        "feature-extraction",
-        "fill-mask"
-      ],
-      "ml_datasets": [
-        "Iris",
-        "Wine",
-        "Breast Cancer",
-        "Diabetes"
-      ],
-      "ml_total_tests": 22,
-      "github_trending_repos": 8,
-      "paperswithcode_papers": 8,
-      "evolution": {
-        "discovered": 19,
-        "adopted": 2,
-        "decisions": 2
-      },
-      "seed_watering": {
-        "seed_name": "Spiking Neural Networks",
-        "papers_found": 10
-      }
-    },
-    {
       "timestamp": "2026-10-08T17:05:27.618889",
       "arxiv_papers_count": 5,
       "arxiv_top_keywords": [
@@ -4699,12 +4652,59 @@
         "seed_name": "Spiking Neural Networks",
         "papers_found": 10
       }
+    },
+    {
+      "timestamp": "2026-10-28T21:57:56.617780",
+      "arxiv_papers_count": 15,
+      "arxiv_top_keywords": [
+        "time",
+        "series",
+        "multivariate",
+        "learning",
+        "memory",
+        "anomaly",
+        "agent",
+        "moe",
+        "maintenance",
+        "pneuma"
+      ],
+      "arxiv_strategies": [
+        "搜索: time series forecasting",
+        "搜索: anomaly detection",
+        "搜索: mixture of experts"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "unknown",
+        "text-generation",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 17,
+        "adopted": 1,
+        "decisions": 1
+      },
+      "seed_watering": {
+        "seed_name": "Non-Transformer Arch",
+        "papers_found": 7
+      }
     }
   ],
   "total_sessions": 101,
-  "last_updated": "2026-10-28T17:30:50.998012",
+  "last_updated": "2026-10-28T21:57:56.617794",
   "evolution_summary": {
-    "total_adopted": 321,
+    "total_adopted": 322,
     "adopted_list": [
       "Knowledge Distillation",
       "World Models / Model-Based RL",
@@ -5026,7 +5026,8 @@
       "跨任务耦合分析",
       "Anchor-based comparative framework",
       "Spectral Braids",
-      "GTFormer"
+      "GTFormer",
+      "渐进式解码（Progressive Decoding）"
     ],
     "seeds": {
       "mamba": {
@@ -5051,8 +5052,8 @@
       },
       "non-transformer": {
         "name": "Non-Transformer Arch",
-        "watering": 86,
-        "papers": 65
+        "watering": 87,
+        "papers": 67
       },
       "few-shot": {
         "name": "Few-Shot Learning",
@@ -5153,18 +5154,18 @@
       },
       "non-transformer": {
         "name": "Non-Transformer Arch",
-        "new_papers": 65,
+        "new_papers": 67,
         "keywords_matched": [
+          "rwkv",
+          "linear recurrent",
           "efficient transformer",
           "state space",
-          "rwkv",
-          "linear attention",
-          "mamba",
           "gated linear",
-          "linear recurrent"
+          "linear attention",
+          "mamba"
         ],
         "high_relevance_total": 8,
-        "avg_relevance_latest": 0.0,
+        "avg_relevance_latest": 1.0,
         "best_papers_count": 0
       },
       "continual-learning": {
@@ -5226,6 +5227,6 @@
         "best_papers_count": 1
       }
     },
-    "last_evolution": "2026-10-28T17:30:51.000050"
+    "last_evolution": "2026-10-28T21:57:56.619782"
   }
 }

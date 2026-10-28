@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 834,
+  "_rotation_idx": 835,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 90,
@@ -3324,18 +3324,9 @@
   },
   "non-transformer": {
     "name": "Non-Transformer Arch",
-    "total_papers_found": 65,
-    "watering_count": 86,
+    "total_papers_found": 67,
+    "watering_count": 87,
     "history": [
-      {
-        "timestamp": "2026-08-12T09:00:12.085723",
-        "papers_found": 0,
-        "duplicates": 0,
-        "irrelevant_filtered": 0,
-        "avg_relevance": 0,
-        "high_relevance": 0,
-        "papers": []
-      },
       {
         "timestamp": "2026-08-13T05:28:36.010729",
         "papers_found": 2,
@@ -4098,6 +4089,30 @@
         "avg_relevance": 0.0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-10-28T21:57:51.483128",
+        "papers_found": 2,
+        "duplicates": 5,
+        "irrelevant_filtered": 3,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "A theory of noisy linear recurrent neural network learning dynamics",
+            "summary": "Biological neural networks are noisy: their dynamics involve difficult-to-predict fluctuations which are likely due not just to chaos, but also to a variety of low-level biophysical processes. Despite the omnipresence of intrinsic noise, its theoretical consequences are incompletely understood, espe",
+            "published": "2026-10-26",
+            "url": "http://arxiv.org/abs/2610.35785v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Five Architectures, One Shared Space Cross-Model Representational Alignment Without Weight Merging",
+            "summary": "Combining language models is usually done by averaging weights, which works only when the models share a common starting point. We ask whether five frozen, independently trained models with different internal designs (four transformers from four organizations and one state-space model) can be relate",
+            "published": "2026-10-24",
+            "url": "http://arxiv.org/abs/2610.33495v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -4110,7 +4125,7 @@
       "sub-quadratic",
       "mamba"
     ],
-    "last_watered": "2026-10-26T16:20:46.349100"
+    "last_watered": "2026-10-28T21:57:51.483125"
   },
   "few-shot": {
     "name": "Few-Shot Learning",

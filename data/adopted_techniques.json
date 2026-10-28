@@ -4823,6 +4823,21 @@
         ],
         "decided_at": "2026-10-28T17:30:46.402146"
       }
+    },
+    {
+      "id": "llm-渐进式解码（progressive-decoding）",
+      "name": "渐进式解码（Progressive Decoding）",
+      "adopted_at": "2026-10-28T21:57:56.611545",
+      "decision": {
+        "tech_id": "llm-渐进式解码（progressive-decoding）",
+        "tech_name": "渐进式解码（Progressive Decoding）",
+        "action": "adopt",
+        "confidence": 0.8,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-10-28T21:57:56.609815"
+      }
     }
   ],
   "history": [
@@ -6751,6 +6766,12 @@
       "tech_id": "llm-gtformer",
       "tech_name": "GTFormer",
       "timestamp": "2026-10-28T17:30:46.403722"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-渐进式解码（progressive-decoding）",
+      "tech_name": "渐进式解码（Progressive Decoding）",
+      "timestamp": "2026-10-28T21:57:56.611547"
     }
   ]
 }

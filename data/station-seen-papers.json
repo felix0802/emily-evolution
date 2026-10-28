@@ -66230,7 +66230,283 @@
         "spiking"
       ],
       "first_seen_round": 465
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.37563v1",
+      "title": "Pneuma: A Large-Scale Real-World Time Series Benchmark for Commercial Aircraft Predictive Maintenance",
+      "arxiv_id": "2610.37563",
+      "tokens": [
+        "aircraft",
+        "benchmark",
+        "commercial",
+        "maintenance",
+        "pneuma",
+        "predictive",
+        "real",
+        "scale",
+        "series",
+        "time",
+        "world"
+      ],
+      "first_seen_round": 466
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.36703v1",
+      "title": "RankFormer: Rethinking Time Series Transformers through Representation Capacity Analysis and Progressive Decoding",
+      "arxiv_id": "2610.36703",
+      "tokens": [
+        "capacity",
+        "decoding",
+        "progressive",
+        "rankformer",
+        "representation",
+        "rethinking",
+        "series",
+        "time",
+        "transformers"
+      ],
+      "first_seen_round": 466
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.36572v1",
+      "title": "Learning from Points and Patches: A Pre-trained Hybrid Attention Transformer for Time Series Analysis",
+      "arxiv_id": "2610.36572",
+      "tokens": [
+        "attention",
+        "hybrid",
+        "patches",
+        "points",
+        "pre",
+        "series",
+        "time",
+        "trained",
+        "transformer"
+      ],
+      "first_seen_round": 466
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.35727v1",
+      "title": "TRACE: Memory-Efficient Time Series Class-Incremental Learning via Temporal-Spectral Reconstruction",
+      "arxiv_id": "2610.35727",
+      "tokens": [
+        "class",
+        "incremental",
+        "memory",
+        "reconstruction",
+        "series",
+        "spectral",
+        "temporal",
+        "time",
+        "trace"
+      ],
+      "first_seen_round": 466
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.35568v1",
+      "title": "ExCal: Optimization-Free Multivariate Time Series Anomaly Detection via Excess Calibration",
+      "arxiv_id": "2610.35568",
+      "tokens": [
+        "anomaly",
+        "calibration",
+        "detection",
+        "excal",
+        "excess",
+        "free",
+        "multivariate",
+        "optimization",
+        "series",
+        "time"
+      ],
+      "first_seen_round": 466
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.35484v1",
+      "title": "Evaluating Bayesian deep learning for robust biomedical time-series classification under distribution shift: A sleep scoring case study",
+      "arxiv_id": "2610.35484",
+      "tokens": [
+        "bayesian",
+        "biomedical",
+        "case",
+        "classification",
+        "distribution",
+        "evaluating",
+        "robust",
+        "scoring",
+        "series",
+        "shift",
+        "sleep",
+        "time"
+      ],
+      "first_seen_round": 466
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.35190v1",
+      "title": "LEAP: a Latent Embedding Anomaly Patch-Transformer for time-series anomaly detection",
+      "arxiv_id": "2610.35190",
+      "tokens": [
+        "anomaly",
+        "anomaly",
+        "detection",
+        "embedding",
+        "latent",
+        "leap",
+        "patch",
+        "series",
+        "time",
+        "transformer"
+      ],
+      "first_seen_round": 466
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.34121v1",
+      "title": "BE-CTDE: Blockchain-Enabled Multi-Agent Reinforcement Learning with Anomaly Detection and Token Economics",
+      "arxiv_id": "2610.34121",
+      "tokens": [
+        "agent",
+        "anomaly",
+        "blockchain",
+        "ctde",
+        "detection",
+        "economics",
+        "enabled",
+        "multi",
+        "reinforcement",
+        "token"
+      ],
+      "first_seen_round": 466
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.37442v1",
+      "title": "CRISP: Co-designing Pruning and Scheduling for Efficient MoE Inference on Edge Servers",
+      "arxiv_id": "2610.37442",
+      "tokens": [
+        "crisp",
+        "designing",
+        "edge",
+        "inference",
+        "moe",
+        "pruning",
+        "scheduling",
+        "servers"
+      ],
+      "first_seen_round": 466
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.37386v1",
+      "title": "Channel Selection for Mixture-of-Experts Decoding Needs No Calibration Data",
+      "arxiv_id": "2610.37386",
+      "tokens": [
+        "calibration",
+        "channel",
+        "decoding",
+        "experts",
+        "mixture",
+        "needs",
+        "selection"
+      ],
+      "first_seen_round": 466
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.37375v1",
+      "title": "Agent-Conditioned Routing: Diverse Reasoning Paths Within One Frozen Model",
+      "arxiv_id": "2610.37375",
+      "tokens": [
+        "agent",
+        "conditioned",
+        "diverse",
+        "frozen",
+        "paths",
+        "reasoning",
+        "routing",
+        "within"
+      ],
+      "first_seen_round": 466
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.37062v1",
+      "title": "EnergyCal: Taming Loss Spikes in Muon-Family Optimizers for Sparse MoE Training",
+      "arxiv_id": "2610.37062",
+      "tokens": [
+        "energycal",
+        "family",
+        "loss",
+        "moe",
+        "muon",
+        "optimizers",
+        "sparse",
+        "spikes",
+        "taming",
+        "training"
+      ],
+      "first_seen_round": 466
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.36393v1",
+      "title": "SpecLST: Spectral-Enhanced Long-Short Term Spatio-Temporal Multimodal Modeling for Traffic Forecasting",
+      "arxiv_id": "2610.36393",
+      "tokens": [
+        "enhanced",
+        "forecasting",
+        "long",
+        "modeling",
+        "multimodal",
+        "short",
+        "spatio",
+        "speclst",
+        "spectral",
+        "temporal",
+        "term",
+        "traffic"
+      ],
+      "first_seen_round": 466
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.36009v1",
+      "title": "DuplexTune: Coupled-State Replay for Memory-Efficient Mixture-of-Experts Adaptation",
+      "arxiv_id": "2610.36009",
+      "tokens": [
+        "adaptation",
+        "coupled",
+        "duplextune",
+        "experts",
+        "memory",
+        "mixture",
+        "replay",
+        "state"
+      ],
+      "first_seen_round": 466
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.35785v1",
+      "title": "A theory of noisy linear recurrent neural network learning dynamics",
+      "arxiv_id": "2610.35785",
+      "tokens": [
+        "dynamics",
+        "linear",
+        "neural",
+        "noisy",
+        "recurrent",
+        "theory"
+      ],
+      "first_seen_round": 466
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.33495v1",
+      "title": "Five Architectures, One Shared Space Cross-Model Representational Alignment Without Weight Merging",
+      "arxiv_id": "2610.33495",
+      "tokens": [
+        "alignment",
+        "architectures",
+        "cross",
+        "five",
+        "merging",
+        "representational",
+        "shared",
+        "space",
+        "weight"
+      ],
+      "first_seen_round": 466
     }
   ],
-  "total_unique": 4159
+  "total_unique": 4175
 }

@@ -800,14 +800,14 @@
       "reasoning": "Liquid Networks 的核心是連續時間狀態演化，其神經元具有可學習的時間常數，能根據輸入動態調整記憶衰減速率；這與 KV Cache 中 token 的注意力權重隨時間衰減的現象在數學上同構。兩者都涉及「隨時間變化的記憶保留率」，因此可將 Liquid 單元作為輕量級預測器，在推理時即時估計每個 KV 條目的保留價值，實現內容感知的 cache 管理。",
       "arxiv_query": "liquid neural networks KV cache eviction long context inference",
       "potential_breakthrough": "實現首個由連續時間動態系統驅動的自適應 KV Cache 管理框架，在長上下文推理中同時提升記憶體效率與生成品質。",
-      "status": "unverified",
-      "verification_rounds": 2,
+      "status": "inconclusive",
+      "verification_rounds": 3,
       "supporting_papers": [],
       "refuting_papers": [],
       "llm_source": "deepseek"
     }
   ],
-  "last_updated": "2026-10-28T17:30:53.895986",
+  "last_updated": "2026-10-28T21:57:59.045139",
   "total_generated": 36,
-  "total_verified": 35
+  "total_verified": 36
 }
