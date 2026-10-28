@@ -1,53 +1,6 @@
 {
   "sessions": [
     {
-      "timestamp": "2026-10-07T14:50:00.676758",
-      "arxiv_papers_count": 18,
-      "arxiv_top_keywords": [
-        "decoding",
-        "graph",
-        "cache",
-        "speculative",
-        "draft",
-        "tokens",
-        "drafting",
-        "training",
-        "long",
-        "learning"
-      ],
-      "arxiv_strategies": [
-        "搜索: kv cache LLM",
-        "搜索: graph neural network recent",
-        "搜索: speculative decoding"
-      ],
-      "huggingface_models": 10,
-      "huggingface_tasks": [
-        "sentence-similarity",
-        "unknown",
-        "text-ranking",
-        "feature-extraction",
-        "fill-mask"
-      ],
-      "ml_datasets": [
-        "Iris",
-        "Wine",
-        "Breast Cancer",
-        "Diabetes"
-      ],
-      "ml_total_tests": 22,
-      "github_trending_repos": 8,
-      "paperswithcode_papers": 8,
-      "evolution": {
-        "discovered": 23,
-        "adopted": 0,
-        "decisions": 0
-      },
-      "seed_watering": {
-        "seed_name": "Mamba (SSM)",
-        "papers_found": 7
-      }
-    },
-    {
       "timestamp": "2026-10-07T20:52:22.577262",
       "arxiv_papers_count": 18,
       "arxiv_top_keywords": [
@@ -4699,12 +4652,59 @@
         "seed_name": "Mamba (SSM)",
         "papers_found": 7
       }
+    },
+    {
+      "timestamp": "2026-10-28T02:47:40.984535",
+      "arxiv_papers_count": 18,
+      "arxiv_top_keywords": [
+        "multi",
+        "long",
+        "learning",
+        "diffusion",
+        "envsched",
+        "environment",
+        "scheduling",
+        "rollout",
+        "aware",
+        "problems"
+      ],
+      "arxiv_strategies": [
+        "搜索: reinforcement learning",
+        "搜索: large language model",
+        "搜索: diffusion model"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "unknown",
+        "text-generation",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 17,
+        "adopted": 2,
+        "decisions": 2
+      },
+      "seed_watering": {
+        "seed_name": "Liquid Networks",
+        "papers_found": 7
+      }
     }
   ],
   "total_sessions": 101,
-  "last_updated": "2026-10-27T23:18:19.529722",
+  "last_updated": "2026-10-28T02:47:40.984550",
   "evolution_summary": {
-    "total_adopted": 316,
+    "total_adopted": 318,
     "adopted_list": [
       "Knowledge Distillation",
       "World Models / Model-Based RL",
@@ -5021,7 +5021,9 @@
       "跨任务迁移学习",
       "I-HITL",
       "代码驱动视频生成",
-      "一步动作生成"
+      "一步动作生成",
+      "环境感知调度",
+      "跨任务耦合分析"
     ],
     "seeds": {
       "mamba": {
@@ -5031,8 +5033,8 @@
       },
       "liquid-networks": {
         "name": "Liquid Networks",
-        "watering": 86,
-        "papers": 111
+        "watering": 87,
+        "papers": 116
       },
       "htm": {
         "name": "HTM",
@@ -5118,16 +5120,16 @@
       },
       "liquid-networks": {
         "name": "Liquid Networks",
-        "new_papers": 106,
+        "new_papers": 111,
         "keywords_matched": [
           "liquid neural",
           "liquid time",
-          "ltc",
           "continuous-time",
-          "ode"
+          "ode",
+          "ltc"
         ],
-        "high_relevance_total": 39,
-        "avg_relevance_latest": 0.0,
+        "high_relevance_total": 40,
+        "avg_relevance_latest": 1.2,
         "best_papers_count": 2
       },
       "htm": {
@@ -5221,6 +5223,6 @@
         "best_papers_count": 1
       }
     },
-    "last_evolution": "2026-10-27T23:18:19.533356"
+    "last_evolution": "2026-10-28T02:47:40.987486"
   }
 }

@@ -1,28 +1,6 @@
 {
   "rounds": [
     {
-      "round": 413,
-      "timestamp": "2026-10-18T12:13:41.877626",
-      "prediction_error": 0.7,
-      "seeds_active": 10,
-      "seeds_dormant": 0,
-      "new_seeds_added": 0,
-      "top_motivated": [
-        [
-          "mamba",
-          0.91
-        ],
-        [
-          "liquid-networks",
-          0.91
-        ],
-        [
-          "htm",
-          0.91
-        ]
-      ]
-    },
-    {
       "round": 414,
       "timestamp": "2026-10-18T16:59:16.140554",
       "prediction_error": 0.7,
@@ -1099,6 +1077,28 @@
           0.91
         ]
       ]
+    },
+    {
+      "round": 463,
+      "timestamp": "2026-10-28T02:47:32.621964",
+      "prediction_error": 0.7,
+      "seeds_active": 10,
+      "seeds_dormant": 0,
+      "new_seeds_added": 0,
+      "top_motivated": [
+        [
+          "mamba",
+          0.91
+        ],
+        [
+          "liquid-networks",
+          0.91
+        ],
+        [
+          "htm",
+          0.91
+        ]
+      ]
     }
   ],
   "seed_scores": {
@@ -1167,7 +1167,6 @@
       "motivation_score": 0.91,
       "info_gain_history": [
         0.847,
-        0.847,
         0.741,
         0.741,
         0.741,
@@ -1178,6 +1177,7 @@
         0.741,
         0.741,
         0.741,
+        1.0,
         1.0,
         1.0,
         1.0,
@@ -1227,7 +1227,6 @@
         1.0,
         1.0,
         1.0,
-        1.0,
         0.957,
         0.957,
         0.957,
@@ -1238,6 +1237,7 @@
         0.957,
         0.957,
         0.957,
+        0.978,
         0.978,
         0.978,
         0.978,
@@ -1377,7 +1377,6 @@
         0.281,
         0.281,
         0.281,
-        0.281,
         0.293,
         0.293,
         0.293,
@@ -1388,6 +1387,7 @@
         0.293,
         0.293,
         0.293,
+        0.191,
         0.191,
         0.191
       ]
@@ -1406,6 +1406,6 @@
     "spiking-nn",
     "non-transformer"
   ],
-  "total_motivation_evaluations": 306,
+  "total_motivation_evaluations": 307,
   "current_prediction_error": 0.7
 }

@@ -4748,6 +4748,36 @@
         ],
         "decided_at": "2026-10-27T23:18:15.182693"
       }
+    },
+    {
+      "id": "llm-环境感知调度",
+      "name": "环境感知调度",
+      "adopted_at": "2026-10-28T02:47:37.706138",
+      "decision": {
+        "tech_id": "llm-环境感知调度",
+        "tech_name": "环境感知调度",
+        "action": "adopt",
+        "confidence": 0.9,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-10-28T02:47:37.703846"
+      }
+    },
+    {
+      "id": "llm-跨任务耦合分析",
+      "name": "跨任务耦合分析",
+      "adopted_at": "2026-10-28T02:47:37.706162",
+      "decision": {
+        "tech_id": "llm-跨任务耦合分析",
+        "tech_name": "跨任务耦合分析",
+        "action": "adopt",
+        "confidence": 0.85,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-10-28T02:47:37.704059"
+      }
     }
   ],
   "history": [
@@ -6646,6 +6676,18 @@
       "tech_id": "llm-一步动作生成",
       "tech_name": "一步动作生成",
       "timestamp": "2026-10-27T23:18:15.185239"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-环境感知调度",
+      "tech_name": "环境感知调度",
+      "timestamp": "2026-10-28T02:47:37.706143"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-跨任务耦合分析",
+      "tech_name": "跨任务耦合分析",
+      "timestamp": "2026-10-28T02:47:37.706163"
     }
   ]
 }
