@@ -4853,6 +4853,21 @@
         ],
         "decided_at": "2026-10-29T01:29:13.102550"
       }
+    },
+    {
+      "id": "llm-hexels-(六边形表面元素)",
+      "name": "Hexels (六边形表面元素)",
+      "adopted_at": "2026-10-29T14:43:05.811727",
+      "decision": {
+        "tech_id": "llm-hexels-(六边形表面元素)",
+        "tech_name": "Hexels (六边形表面元素)",
+        "action": "adopt",
+        "confidence": 0.9,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-10-29T14:43:05.809875"
+      }
     }
   ],
   "history": [
@@ -6793,6 +6808,12 @@
       "tech_id": "llm-注意力偏置折叠",
       "tech_name": "注意力偏置折叠",
       "timestamp": "2026-10-29T01:29:13.105734"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-hexels-(六边形表面元素)",
+      "tech_name": "Hexels (六边形表面元素)",
+      "timestamp": "2026-10-29T14:43:05.811730"
     }
   ]
 }

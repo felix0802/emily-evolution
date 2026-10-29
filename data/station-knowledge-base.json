@@ -1,53 +1,6 @@
 {
   "sessions": [
     {
-      "timestamp": "2026-10-09T03:21:16.962402",
-      "arxiv_papers_count": 18,
-      "arxiv_top_keywords": [
-        "world",
-        "graph",
-        "data",
-        "transfer",
-        "multi",
-        "nodes",
-        "learning",
-        "agent",
-        "algorithm",
-        "weisfeiler"
-      ],
-      "arxiv_strategies": [
-        "搜索: graph neural network",
-        "搜索: transfer learning",
-        "搜索: world model"
-      ],
-      "huggingface_models": 10,
-      "huggingface_tasks": [
-        "sentence-similarity",
-        "unknown",
-        "text-ranking",
-        "feature-extraction",
-        "fill-mask"
-      ],
-      "ml_datasets": [
-        "Iris",
-        "Wine",
-        "Breast Cancer",
-        "Diabetes"
-      ],
-      "ml_total_tests": 22,
-      "github_trending_repos": 8,
-      "paperswithcode_papers": 8,
-      "evolution": {
-        "discovered": 22,
-        "adopted": 2,
-        "decisions": 2
-      },
-      "seed_watering": {
-        "seed_name": "Continual Learning",
-        "papers_found": 5
-      }
-    },
-    {
       "timestamp": "2026-10-09T11:00:33.781268",
       "arxiv_papers_count": 5,
       "arxiv_top_keywords": [
@@ -4699,12 +4652,59 @@
         "seed_name": "Continual Learning",
         "papers_found": 7
       }
+    },
+    {
+      "timestamp": "2026-10-29T14:43:05.817589",
+      "arxiv_papers_count": 17,
+      "arxiv_top_keywords": [
+        "learning",
+        "efficient",
+        "time",
+        "attention",
+        "hexagonal",
+        "their",
+        "primitives",
+        "scene",
+        "action",
+        "thinkworld"
+      ],
+      "arxiv_strategies": [
+        "cs.AI 最新",
+        "cs.LG 最新",
+        "cs.CL 最新"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "unknown",
+        "text-generation",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 16,
+        "adopted": 1,
+        "decisions": 1
+      },
+      "seed_watering": {
+        "seed_name": "Mixture of Experts",
+        "papers_found": 7
+      }
     }
   ],
   "total_sessions": 101,
-  "last_updated": "2026-10-29T07:44:08.910215",
+  "last_updated": "2026-10-29T14:43:05.817599",
   "evolution_summary": {
-    "total_adopted": 323,
+    "total_adopted": 324,
     "adopted_list": [
       "Knowledge Distillation",
       "World Models / Model-Based RL",
@@ -5028,7 +5028,8 @@
       "Spectral Braids",
       "GTFormer",
       "渐进式解码（Progressive Decoding）",
-      "注意力偏置折叠"
+      "注意力偏置折叠",
+      "Hexels (六边形表面元素)"
     ],
     "seeds": {
       "mamba": {
@@ -5068,7 +5069,7 @@
       },
       "moe": {
         "name": "Mixture of Experts",
-        "watering": 80,
+        "watering": 81,
         "papers": 129
       },
       "kv-cache": {
@@ -5203,14 +5204,14 @@
         "name": "Mixture of Experts",
         "new_papers": 129,
         "keywords_matched": [
+          "moe",
+          "mixture of experts",
           "deepseek",
           "router",
-          "expert routing",
-          "moe",
-          "mixture of experts"
+          "expert routing"
         ],
         "high_relevance_total": 94,
-        "avg_relevance_latest": 1.5,
+        "avg_relevance_latest": 0.0,
         "best_papers_count": 10
       },
       "kv-cache": {
@@ -5228,6 +5229,6 @@
         "best_papers_count": 1
       }
     },
-    "last_evolution": "2026-10-29T07:44:08.913238"
+    "last_evolution": "2026-10-29T14:43:05.819678"
   }
 }
