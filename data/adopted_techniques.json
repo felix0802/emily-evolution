@@ -4838,6 +4838,21 @@
         ],
         "decided_at": "2026-10-28T21:57:56.609815"
       }
+    },
+    {
+      "id": "llm-注意力偏置折叠",
+      "name": "注意力偏置折叠",
+      "adopted_at": "2026-10-29T01:29:13.105728",
+      "decision": {
+        "tech_id": "llm-注意力偏置折叠",
+        "tech_name": "注意力偏置折叠",
+        "action": "adopt",
+        "confidence": 0.9,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-10-29T01:29:13.102550"
+      }
     }
   ],
   "history": [
@@ -6772,6 +6787,12 @@
       "tech_id": "llm-渐进式解码（progressive-decoding）",
       "tech_name": "渐进式解码（Progressive Decoding）",
       "timestamp": "2026-10-28T21:57:56.611547"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-注意力偏置折叠",
+      "tech_name": "注意力偏置折叠",
+      "timestamp": "2026-10-29T01:29:13.105734"
     }
   ]
 }

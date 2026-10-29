@@ -66506,7 +66506,25 @@
         "weight"
       ],
       "first_seen_round": 466
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.36520v1",
+      "title": "Folding Attention Biases into Keys Makes Compacted KV Caches Run on Standard Kernels",
+      "arxiv_id": "2610.36520",
+      "tokens": [
+        "attention",
+        "biases",
+        "caches",
+        "compacted",
+        "folding",
+        "kernels",
+        "keys",
+        "makes",
+        "run",
+        "standard"
+      ],
+      "first_seen_round": 467
     }
   ],
-  "total_unique": 4175
+  "total_unique": 4176
 }
