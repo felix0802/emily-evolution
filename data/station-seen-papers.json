@@ -66826,7 +66826,87 @@
         "semanticfa"
       ],
       "first_seen_round": 469
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.37662v1",
+      "title": "Can Discrete Tokens Serve as Semantically Lossless Representations of Visual Signals?",
+      "arxiv_id": "2610.37662",
+      "tokens": [
+        "discrete",
+        "lossless",
+        "representations",
+        "semantically",
+        "serve",
+        "signals",
+        "tokens",
+        "visual"
+      ],
+      "first_seen_round": 470
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.37633v1",
+      "title": "Repurposing Video Diffusion Transformers for Cross-View Temporal Object Correspondence",
+      "arxiv_id": "2610.37633",
+      "tokens": [
+        "correspondence",
+        "cross",
+        "diffusion",
+        "object",
+        "repurposing",
+        "temporal",
+        "transformers",
+        "video",
+        "view"
+      ],
+      "first_seen_round": 470
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.37613v1",
+      "title": "VideoLVR: Latent Visual Reasoning over Grounded Video Evidence",
+      "arxiv_id": "2610.37613",
+      "tokens": [
+        "evidence",
+        "grounded",
+        "latent",
+        "reasoning",
+        "video",
+        "videolvr",
+        "visual"
+      ],
+      "first_seen_round": 470
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.37599v1",
+      "title": "MoI-Bench: A Benchmark for Image Generation and Editing on Mobile Devices",
+      "arxiv_id": "2610.37599",
+      "tokens": [
+        "bench",
+        "benchmark",
+        "devices",
+        "editing",
+        "generation",
+        "image",
+        "mobile",
+        "moi"
+      ],
+      "first_seen_round": 470
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.36950v1",
+      "title": "DCKV: Learned Transform Coding of the Prompt KV Cache in Hybrid Language Models",
+      "arxiv_id": "2610.36950",
+      "tokens": [
+        "cache",
+        "coding",
+        "dckv",
+        "hybrid",
+        "language",
+        "learned",
+        "prompt",
+        "transform"
+      ],
+      "first_seen_round": 470
     }
   ],
-  "total_unique": 4195
+  "total_unique": 4200
 }

@@ -1,53 +1,6 @@
 {
   "sessions": [
     {
-      "timestamp": "2026-10-09T11:00:33.781268",
-      "arxiv_papers_count": 5,
-      "arxiv_top_keywords": [
-        "agents",
-        "time",
-        "human",
-        "horizons",
-        "metr",
-        "horizon",
-        "google",
-        "openai",
-        "anthropic",
-        "real"
-      ],
-      "arxiv_strategies": [
-        "cs.AI (fallback)",
-        "cs.AI (fallback)",
-        "cs.AI (fallback)"
-      ],
-      "huggingface_models": 10,
-      "huggingface_tasks": [
-        "sentence-similarity",
-        "unknown",
-        "text-ranking",
-        "feature-extraction",
-        "fill-mask"
-      ],
-      "ml_datasets": [
-        "Iris",
-        "Wine",
-        "Breast Cancer",
-        "Diabetes"
-      ],
-      "ml_total_tests": 22,
-      "github_trending_repos": 8,
-      "paperswithcode_papers": 8,
-      "evolution": {
-        "discovered": 12,
-        "adopted": 1,
-        "decisions": 1
-      },
-      "seed_watering": {
-        "seed_name": "",
-        "papers_found": 0
-      }
-    },
-    {
       "timestamp": "2026-10-09T17:37:52.145890",
       "arxiv_papers_count": 18,
       "arxiv_top_keywords": [
@@ -4699,12 +4652,59 @@
         "seed_name": "Mixture of Experts",
         "papers_found": 7
       }
+    },
+    {
+      "timestamp": "2026-10-29T20:43:12.411089",
+      "arxiv_papers_count": 21,
+      "arxiv_top_keywords": [
+        "learning",
+        "efficient",
+        "visual",
+        "object",
+        "video",
+        "generation",
+        "knowledge",
+        "time",
+        "attention",
+        "hexagonal"
+      ],
+      "arxiv_strategies": [
+        "cs.CV 最新",
+        "cs.AI+cs.LG 混合",
+        "cs.CL+cs.CV 混合"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "unknown",
+        "text-generation",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 20,
+        "adopted": 2,
+        "decisions": 2
+      },
+      "seed_watering": {
+        "seed_name": "KV Cache Optimization",
+        "papers_found": 7
+      }
     }
   ],
   "total_sessions": 101,
-  "last_updated": "2026-10-29T14:43:05.817599",
+  "last_updated": "2026-10-29T20:43:12.411105",
   "evolution_summary": {
-    "total_adopted": 324,
+    "total_adopted": 326,
     "adopted_list": [
       "Knowledge Distillation",
       "World Models / Model-Based RL",
@@ -5029,7 +5029,9 @@
       "GTFormer",
       "渐进式解码（Progressive Decoding）",
       "注意力偏置折叠",
-      "Hexels (六边形表面元素)"
+      "Hexels (六边形表面元素)",
+      "离散视觉令牌",
+      "自回归预训练+扩散后训练"
     ],
     "seeds": {
       "mamba": {
@@ -5074,8 +5076,8 @@
       },
       "kv-cache": {
         "name": "KV Cache Optimization",
-        "watering": 81,
-        "papers": 125
+        "watering": 82,
+        "papers": 126
       },
       "gnn": {
         "name": "Graph Neural Networks",
@@ -5216,19 +5218,19 @@
       },
       "kv-cache": {
         "name": "KV Cache Optimization",
-        "new_papers": 125,
+        "new_papers": 126,
         "keywords_matched": [
-          "flash attention",
           "kv cache",
-          "gqa",
+          "flash attention",
           "speculative decoding",
-          "key-value cache"
+          "key-value cache",
+          "gqa"
         ],
         "high_relevance_total": 5,
         "avg_relevance_latest": 1.0,
         "best_papers_count": 1
       }
     },
-    "last_evolution": "2026-10-29T14:43:05.819678"
+    "last_evolution": "2026-10-29T20:43:12.414898"
   }
 }

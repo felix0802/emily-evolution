@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-29T14:43:05.827333",
+  "timestamp": "2026-10-29T20:43:12.428987",
   "connections": [
     {
       "seed_a": "Mamba (SSM)",
@@ -13,7 +13,7 @@
         "space"
       ],
       "strength": 6,
-      "discovered_at": "2026-10-29T14:43:05.827258"
+      "discovered_at": "2026-10-29T20:43:12.428866"
     },
     {
       "seed_a": "Liquid Networks",
@@ -28,21 +28,7 @@
         "with"
       ],
       "strength": 6,
-      "discovered_at": "2026-10-29T14:43:05.827269"
-    },
-    {
-      "seed_a": "Liquid Networks",
-      "seed_b": "KV Cache Optimization",
-      "shared_keywords": [],
-      "shared_paper_concepts": [
-        "latent",
-        "models",
-        "rate",
-        "training",
-        "with"
-      ],
-      "strength": 5,
-      "discovered_at": "2026-10-29T14:43:05.827281"
+      "discovered_at": "2026-10-29T20:43:12.428884"
     },
     {
       "seed_a": "HTM",
@@ -56,7 +42,7 @@
         "temporal"
       ],
       "strength": 5,
-      "discovered_at": "2026-10-29T14:43:05.827285"
+      "discovered_at": "2026-10-29T20:43:12.428910"
     },
     {
       "seed_a": "HTM",
@@ -70,7 +56,7 @@
         "routing"
       ],
       "strength": 5,
-      "discovered_at": "2026-10-29T14:43:05.827291"
+      "discovered_at": "2026-10-29T20:43:12.428919"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -83,7 +69,7 @@
         "time"
       ],
       "strength": 4,
-      "discovered_at": "2026-10-29T14:43:05.827247"
+      "discovered_at": "2026-10-29T20:43:12.428849"
     },
     {
       "seed_a": "Liquid Networks",
@@ -96,7 +82,7 @@
         "universal"
       ],
       "strength": 4,
-      "discovered_at": "2026-10-29T14:43:05.827275"
+      "discovered_at": "2026-10-29T20:43:12.428894"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -108,7 +94,7 @@
         "time"
       ],
       "strength": 3,
-      "discovered_at": "2026-10-29T14:43:05.827252"
+      "discovered_at": "2026-10-29T20:43:12.428858"
     },
     {
       "seed_a": "HTM",
@@ -120,7 +106,7 @@
         "linear"
       ],
       "strength": 3,
-      "discovered_at": "2026-10-29T14:43:05.827287"
+      "discovered_at": "2026-10-29T20:43:12.428913"
     },
     {
       "seed_a": "HTM",
@@ -128,11 +114,23 @@
       "shared_keywords": [],
       "shared_paper_concepts": [
         "aware",
-        "models",
-        "with"
+        "coding",
+        "models"
       ],
       "strength": 3,
-      "discovered_at": "2026-10-29T14:43:05.827295"
+      "discovered_at": "2026-10-29T20:43:12.428926"
+    },
+    {
+      "seed_a": "Spiking Neural Networks",
+      "seed_b": "Non-Transformer Arch",
+      "shared_keywords": [],
+      "shared_paper_concepts": [
+        "dynamics",
+        "learning",
+        "neural"
+      ],
+      "strength": 3,
+      "discovered_at": "2026-10-29T20:43:12.428932"
     }
   ],
   "total_seeds": 10

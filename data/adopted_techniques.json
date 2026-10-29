@@ -4868,6 +4868,36 @@
         ],
         "decided_at": "2026-10-29T14:43:05.809875"
       }
+    },
+    {
+      "id": "llm-离散视觉令牌",
+      "name": "离散视觉令牌",
+      "adopted_at": "2026-10-29T20:43:09.345530",
+      "decision": {
+        "tech_id": "llm-离散视觉令牌",
+        "tech_name": "离散视觉令牌",
+        "action": "adopt",
+        "confidence": 0.85,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-10-29T20:43:09.342698"
+      }
+    },
+    {
+      "id": "llm-自回归预训练+扩散后训练",
+      "name": "自回归预训练+扩散后训练",
+      "adopted_at": "2026-10-29T20:43:09.345558",
+      "decision": {
+        "tech_id": "llm-自回归预训练+扩散后训练",
+        "tech_name": "自回归预训练+扩散后训练",
+        "action": "adopt",
+        "confidence": 0.85,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-10-29T20:43:09.342944"
+      }
     }
   ],
   "history": [
@@ -6814,6 +6844,18 @@
       "tech_id": "llm-hexels-(六边形表面元素)",
       "tech_name": "Hexels (六边形表面元素)",
       "timestamp": "2026-10-29T14:43:05.811730"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-离散视觉令牌",
+      "tech_name": "离散视觉令牌",
+      "timestamp": "2026-10-29T20:43:09.345535"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-自回归预训练+扩散后训练",
+      "tech_name": "自回归预训练+扩散后训练",
+      "timestamp": "2026-10-29T20:43:09.345560"
     }
   ]
 }
