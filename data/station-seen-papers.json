@@ -66524,7 +66524,107 @@
         "standard"
       ],
       "first_seen_round": 467
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.35961v1",
+      "title": "Knowledge distillation across teacher architectures for compact diabetic retinopathy grading",
+      "arxiv_id": "2610.35961",
+      "tokens": [
+        "architectures",
+        "compact",
+        "diabetic",
+        "distillation",
+        "grading",
+        "knowledge",
+        "retinopathy",
+        "teacher"
+      ],
+      "first_seen_round": 468
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.37145v1",
+      "title": "Beyond Parameter Protection: Fisher-Shaped EWC for Replay-Free Continual Learning",
+      "arxiv_id": "2610.37145",
+      "tokens": [
+        "continual",
+        "ewc",
+        "fisher",
+        "free",
+        "parameter",
+        "protection",
+        "replay",
+        "shaped"
+      ],
+      "first_seen_round": 468
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.37139v1",
+      "title": "Generative Replay for Equilibrium Propagation: Toward Edge-Friendly Continual Learning in Hopfield Networks",
+      "arxiv_id": "2610.37139",
+      "tokens": [
+        "continual",
+        "edge",
+        "equilibrium",
+        "friendly",
+        "generative",
+        "hopfield",
+        "propagation",
+        "replay"
+      ],
+      "first_seen_round": 468
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.36994v1",
+      "title": "CaLLM: Continual Adaptation of LLMs via Non-Parametric Adapter Routing",
+      "arxiv_id": "2610.36994",
+      "tokens": [
+        "adaptation",
+        "adapter",
+        "callm",
+        "continual",
+        "llms",
+        "non",
+        "parametric",
+        "routing"
+      ],
+      "first_seen_round": 468
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.35313v2",
+      "title": "CoPE-CGL: Community-aware Prototype Extraction for Replay-Free Continual Graph Learning",
+      "arxiv_id": "2610.35313",
+      "tokens": [
+        "aware",
+        "cgl",
+        "community",
+        "continual",
+        "cope",
+        "extraction",
+        "free",
+        "graph",
+        "prototype",
+        "replay"
+      ],
+      "first_seen_round": 468
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.34182v1",
+      "title": "Entropic Control for Homeostatic Optimization: Pre-empting Catastrophic Forgetting via Dynamic Feedback",
+      "arxiv_id": "2610.34182",
+      "tokens": [
+        "catastrophic",
+        "control",
+        "dynamic",
+        "empting",
+        "entropic",
+        "feedback",
+        "forgetting",
+        "homeostatic",
+        "optimization",
+        "pre"
+      ],
+      "first_seen_round": 468
     }
   ],
-  "total_unique": 4176
+  "total_unique": 4182
 }

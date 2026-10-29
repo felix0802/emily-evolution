@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 836,
+  "_rotation_idx": 837,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 90,
@@ -4783,40 +4783,9 @@
   },
   "continual-learning": {
     "name": "Continual Learning",
-    "total_papers_found": 132,
-    "watering_count": 84,
+    "total_papers_found": 137,
+    "watering_count": 85,
     "history": [
-      {
-        "timestamp": "2026-08-12T12:39:03.458165",
-        "papers_found": 5,
-        "duplicates": 2,
-        "irrelevant_filtered": 3,
-        "avg_relevance": 1.2,
-        "high_relevance": 1,
-        "papers": [
-          {
-            "title": "Quantum Incremental Learning with Mixed State Prototypes",
-            "summary": "Incremental learning models are required to learn new classes sequentially without catastrophic forgetting, while operating under parameter and memory constraints. In the Noisy Intermediate-Scale Quantum (NISQ) era, although quantum neural networks offer advantages in feature mapping, hardware limit",
-            "published": "2026-08-11",
-            "url": "http://arxiv.org/abs/2608.10464v1",
-            "seed_match_score": 1
-          },
-          {
-            "title": "Macaron-V1: Towards Open Continual Learning with Self-Improvement and Mixture-of-LoRA",
-            "summary": "Macaron-V1 is an open agent-model family for experiential intelligence: learning from experience in real environments and continuing to learn after deployment. It is organized around two system goals. Adaptation is pursued through recursive improvement of versioned model-harness pairs, where experie",
-            "published": "2026-08-10",
-            "url": "http://arxiv.org/abs/2608.09819v1",
-            "seed_match_score": 1
-          },
-          {
-            "title": "Hyperbolic Multimodal Continual Learning",
-            "summary": "Hyperbolic geometry has recently emerged as a powerful representation space for multimodal learning, as it naturally captures hierarchical semantic structure across modalities. Despite this progress, how such representations behave under continual learning poses fundamentally different challenges th",
-            "published": "2026-08-10",
-            "url": "http://arxiv.org/abs/2608.09572v1",
-            "seed_match_score": 1
-          }
-        ]
-      },
       {
         "timestamp": "2026-08-13T08:59:58.720939",
         "papers_found": 1,
@@ -5674,6 +5643,37 @@
             "seed_match_score": 2
           }
         ]
+      },
+      {
+        "timestamp": "2026-10-29T07:44:02.384040",
+        "papers_found": 5,
+        "duplicates": 2,
+        "irrelevant_filtered": 3,
+        "avg_relevance": 1.6,
+        "high_relevance": 2,
+        "papers": [
+          {
+            "title": "Beyond Parameter Protection: Fisher-Shaped EWC for Replay-Free Continual Learning",
+            "summary": "In replay-free continual learning, Elastic Weight Consolidation (EWC) uses Fisher information matrix (FIM) to protect acquired knowledge by penalizing changes to historically important parameters. However, a local importance estimate at the retained solution does not in general characterize sensitiv",
+            "published": "2026-10-27",
+            "url": "http://arxiv.org/abs/2610.37145v1",
+            "seed_match_score": 3
+          },
+          {
+            "title": "Generative Replay for Equilibrium Propagation: Toward Edge-Friendly Continual Learning in Hopfield Networks",
+            "summary": "Equilibrium Propagation (EqProp) offers a biologically grounded and hardware-aligned alternative to backpropagation for training Hopfield Networks. However, its behavior in continual learning settings remains largely unexplored. This work confronts catastrophic forgetting in EqProp-trained Hopfield ",
+            "published": "2026-10-27",
+            "url": "http://arxiv.org/abs/2610.37139v1",
+            "seed_match_score": 2
+          },
+          {
+            "title": "CaLLM: Continual Adaptation of LLMs via Non-Parametric Adapter Routing",
+            "summary": "Continual adaptation of large language models (LLMs) to evolving task distributions while mitigating catastrophic forgetting remains an open problem. Existing strategies often struggle to scale or lack a robust mechanism for zero-shot task-to-expert assignment. We introduce CaLLM, a framework that r",
+            "published": "2026-10-27",
+            "url": "http://arxiv.org/abs/2610.36994v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -5683,7 +5683,7 @@
       "ewc",
       "elastic weight"
     ],
-    "last_watered": "2026-10-27T01:09:00.438368"
+    "last_watered": "2026-10-29T07:44:02.384035"
   },
   "moe": {
     "name": "Mixture of Experts",
