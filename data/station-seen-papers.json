@@ -66906,7 +66906,287 @@
         "transform"
       ],
       "first_seen_round": 470
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.40284v1",
+      "title": "LoRe-MIM: Lost-or-Replaced Masked Image Modeling for Self-Supervised Representation Learning in Whole-Body PET/CT",
+      "arxiv_id": "2610.40284",
+      "tokens": [
+        "body",
+        "image",
+        "lore",
+        "lost",
+        "masked",
+        "mim",
+        "modeling",
+        "pet",
+        "replaced",
+        "representation",
+        "self",
+        "supervised",
+        "whole"
+      ],
+      "first_seen_round": 472
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.40280v1",
+      "title": "Latent Prediction Yields Cross-Subject Alignable Representations in Sensory-Evoked fMRI",
+      "arxiv_id": "2610.40280",
+      "tokens": [
+        "alignable",
+        "cross",
+        "evoked",
+        "fmri",
+        "latent",
+        "prediction",
+        "representations",
+        "sensory",
+        "subject",
+        "yields"
+      ],
+      "first_seen_round": 472
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.39648v1",
+      "title": "Annotation-Free Representation Learning for Polyp Retrieval in Colonoscopy Videos",
+      "arxiv_id": "2610.39648",
+      "tokens": [
+        "annotation",
+        "colonoscopy",
+        "free",
+        "polyp",
+        "representation",
+        "retrieval",
+        "videos"
+      ],
+      "first_seen_round": 472
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.39316v1",
+      "title": "TaxoMFM: A Taxonomy-Aware Foundation Model for the Human Gut Microbiome",
+      "arxiv_id": "2610.39316",
+      "tokens": [
+        "aware",
+        "foundation",
+        "gut",
+        "human",
+        "microbiome",
+        "taxomfm",
+        "taxonomy"
+      ],
+      "first_seen_round": 472
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.38291v1",
+      "title": "Compositional Diffusion Planning with Chunk Selection and Reachability Measure",
+      "arxiv_id": "2610.38291",
+      "tokens": [
+        "chunk",
+        "compositional",
+        "diffusion",
+        "measure",
+        "planning",
+        "reachability",
+        "selection"
+      ],
+      "first_seen_round": 472
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.37806v1",
+      "title": "TACOS: Terrain-Aware COntact Supervision for Visual Footstep Planning",
+      "arxiv_id": "2610.37806",
+      "tokens": [
+        "aware",
+        "contact",
+        "footstep",
+        "planning",
+        "supervision",
+        "tacos",
+        "terrain",
+        "visual"
+      ],
+      "first_seen_round": 472
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.40186v1",
+      "title": "Locating and Closing Information Gaps in Multi-Agent Systems",
+      "arxiv_id": "2610.40186",
+      "tokens": [
+        "agent",
+        "closing",
+        "gaps",
+        "information",
+        "locating",
+        "multi"
+      ],
+      "first_seen_round": 472
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.39927v1",
+      "title": "Learning Calibrated Confidence for Multi-Agent Collaboration",
+      "arxiv_id": "2610.39927",
+      "tokens": [
+        "agent",
+        "calibrated",
+        "collaboration",
+        "confidence",
+        "multi"
+      ],
+      "first_seen_round": 472
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.39813v1",
+      "title": "EvoTeam: Multi-Agent Collaboration via Evolving Teams",
+      "arxiv_id": "2610.39813",
+      "tokens": [
+        "agent",
+        "collaboration",
+        "evolving",
+        "evoteam",
+        "multi",
+        "teams"
+      ],
+      "first_seen_round": 472
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.39681v1",
+      "title": "Can AI Agents Interface Clinicians and Complex Models?",
+      "arxiv_id": "2610.39681",
+      "tokens": [
+        "agents",
+        "clinicians",
+        "complex",
+        "interface"
+      ],
+      "first_seen_round": 472
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.39532v1",
+      "title": "Judging Before Propagation: Task-Graph Contextual Integrity for Multi-Agent Privacy",
+      "arxiv_id": "2610.39532",
+      "tokens": [
+        "agent",
+        "contextual",
+        "graph",
+        "integrity",
+        "judging",
+        "multi",
+        "privacy",
+        "propagation",
+        "task"
+      ],
+      "first_seen_round": 472
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.39193v1",
+      "title": "Goal-Aware Dynamic Multi-Agent Collaboration for Long-Horizon Tasks",
+      "arxiv_id": "2610.39193",
+      "tokens": [
+        "agent",
+        "aware",
+        "collaboration",
+        "dynamic",
+        "goal",
+        "horizon",
+        "long",
+        "multi",
+        "tasks"
+      ],
+      "first_seen_round": 472
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.38578v1",
+      "title": "Dual DeltaNet: Value-Side Memory Reorganization for Linear Attention",
+      "arxiv_id": "2610.38578",
+      "tokens": [
+        "attention",
+        "deltanet",
+        "dual",
+        "linear",
+        "memory",
+        "reorganization",
+        "side",
+        "value"
+      ],
+      "first_seen_round": 472
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.38255v1",
+      "title": "ParaTTT: Parallelizing Test-Time Training Layers with Deep Memories",
+      "arxiv_id": "2610.38255",
+      "tokens": [
+        "layers",
+        "memories",
+        "parallelizing",
+        "parattt",
+        "test",
+        "time",
+        "training"
+      ],
+      "first_seen_round": 472
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.38095v1",
+      "title": "Nemotron 3.5 Super and Lightning: Open, Efficient Mixture-of-Experts Hybrid Mamba-Transformer Models for Agentic AI",
+      "arxiv_id": "2610.38095",
+      "tokens": [
+        "agentic",
+        "experts",
+        "hybrid",
+        "lightning",
+        "mamba",
+        "mixture",
+        "nemotron",
+        "open",
+        "super",
+        "transformer"
+      ],
+      "first_seen_round": 472
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.37510v1",
+      "title": "A note on data-efficient finetuning of vision foundation models",
+      "arxiv_id": "2610.37510",
+      "tokens": [
+        "finetuning",
+        "foundation",
+        "note",
+        "vision"
+      ],
+      "first_seen_round": 472
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.36633v2",
+      "title": "Deep Bayesian Filtering for Nonlinear Structural System Identification: A Tutorial on Structural and Physical Inductive Biases",
+      "arxiv_id": "2610.36633",
+      "tokens": [
+        "bayesian",
+        "biases",
+        "filtering",
+        "identification",
+        "inductive",
+        "nonlinear",
+        "physical",
+        "structural",
+        "structural",
+        "tutorial"
+      ],
+      "first_seen_round": 472
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.36617v1",
+      "title": "Balanced State Subspaces for Mamba-2 State Compression",
+      "arxiv_id": "2610.36617",
+      "tokens": [
+        "balanced",
+        "compression",
+        "mamba",
+        "state",
+        "state",
+        "subspaces"
+      ],
+      "first_seen_round": 472
     }
   ],
-  "total_unique": 4200
+  "total_unique": 4218
 }

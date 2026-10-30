@@ -4898,6 +4898,36 @@
         ],
         "decided_at": "2026-10-29T20:43:09.342944"
       }
+    },
+    {
+      "id": "llm-基于锚点的比较框架",
+      "name": "基于锚点的比较框架",
+      "adopted_at": "2026-10-30T07:49:56.164336",
+      "decision": {
+        "tech_id": "llm-基于锚点的比较框架",
+        "tech_name": "基于锚点的比较框架",
+        "action": "adopt",
+        "confidence": 0.9,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-10-30T07:49:56.161576"
+      }
+    },
+    {
+      "id": "llm-重整化群（rg）理论",
+      "name": "重整化群（RG）理论",
+      "adopted_at": "2026-10-30T07:49:56.164366",
+      "decision": {
+        "tech_id": "llm-重整化群（rg）理论",
+        "tech_name": "重整化群（RG）理论",
+        "action": "adopt",
+        "confidence": 0.85,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-10-30T07:49:56.161780"
+      }
     }
   ],
   "history": [
@@ -6856,6 +6886,18 @@
       "tech_id": "llm-自回归预训练+扩散后训练",
       "tech_name": "自回归预训练+扩散后训练",
       "timestamp": "2026-10-29T20:43:09.345560"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-基于锚点的比较框架",
+      "tech_name": "基于锚点的比较框架",
+      "timestamp": "2026-10-30T07:49:56.164342"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-重整化群（rg）理论",
+      "tech_name": "重整化群（RG）理论",
+      "timestamp": "2026-10-30T07:49:56.164368"
     }
   ]
 }

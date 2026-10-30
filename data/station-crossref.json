@@ -1,6 +1,23 @@
 {
-  "timestamp": "2026-10-30T01:28:49.475366",
+  "timestamp": "2026-10-30T07:49:58.831324",
   "connections": [
+    {
+      "seed_a": "Mamba (SSM)",
+      "seed_b": "Liquid Networks",
+      "shared_keywords": [],
+      "shared_paper_concepts": [
+        "from",
+        "learning",
+        "linear",
+        "models",
+        "reinforcement",
+        "time",
+        "training",
+        "with"
+      ],
+      "strength": 8,
+      "discovered_at": "2026-10-30T07:49:58.831189"
+    },
     {
       "seed_a": "Mamba (SSM)",
       "seed_b": "Non-Transformer Arch",
@@ -10,10 +27,42 @@
       ],
       "shared_paper_concepts": [
         "learning",
+        "linear",
         "space"
       ],
+      "strength": 7,
+      "discovered_at": "2026-10-30T07:49:58.831207"
+    },
+    {
+      "seed_a": "Mamba (SSM)",
+      "seed_b": "KV Cache Optimization",
+      "shared_keywords": [],
+      "shared_paper_concepts": [
+        "agentic",
+        "attention",
+        "hybrid",
+        "layers",
+        "models",
+        "space",
+        "transformer"
+      ],
+      "strength": 7,
+      "discovered_at": "2026-10-30T07:49:58.831221"
+    },
+    {
+      "seed_a": "Mamba (SSM)",
+      "seed_b": "HTM",
+      "shared_keywords": [],
+      "shared_paper_concepts": [
+        "learning",
+        "linear",
+        "models",
+        "prediction",
+        "time",
+        "with"
+      ],
       "strength": 6,
-      "discovered_at": "2026-10-30T01:28:49.475225"
+      "discovered_at": "2026-10-30T07:49:58.831199"
     },
     {
       "seed_a": "Liquid Networks",
@@ -28,7 +77,7 @@
         "with"
       ],
       "strength": 6,
-      "discovered_at": "2026-10-30T01:28:49.475269"
+      "discovered_at": "2026-10-30T07:49:58.831228"
     },
     {
       "seed_a": "HTM",
@@ -42,7 +91,7 @@
         "temporal"
       ],
       "strength": 5,
-      "discovered_at": "2026-10-30T01:28:49.475295"
+      "discovered_at": "2026-10-30T07:49:58.831253"
     },
     {
       "seed_a": "HTM",
@@ -56,20 +105,20 @@
         "routing"
       ],
       "strength": 5,
-      "discovered_at": "2026-10-30T01:28:49.475305"
+      "discovered_at": "2026-10-30T07:49:58.831263"
     },
     {
       "seed_a": "Mamba (SSM)",
-      "seed_b": "Liquid Networks",
+      "seed_b": "Few-Shot Learning",
       "shared_keywords": [],
       "shared_paper_concepts": [
-        "from",
+        "deep",
+        "hybrid",
         "learning",
-        "reinforcement",
-        "time"
+        "models"
       ],
       "strength": 4,
-      "discovered_at": "2026-10-30T01:28:49.475204"
+      "discovered_at": "2026-10-30T07:49:58.831210"
     },
     {
       "seed_a": "Liquid Networks",
@@ -82,55 +131,19 @@
         "universal"
       ],
       "strength": 4,
-      "discovered_at": "2026-10-30T01:28:49.475279"
+      "discovered_at": "2026-10-30T07:49:58.831238"
     },
     {
       "seed_a": "Mamba (SSM)",
-      "seed_b": "HTM",
+      "seed_b": "Spiking Neural Networks",
       "shared_keywords": [],
       "shared_paper_concepts": [
+        "efficient",
         "learning",
-        "prediction",
-        "time"
+        "using"
       ],
       "strength": 3,
-      "discovered_at": "2026-10-30T01:28:49.475216"
-    },
-    {
-      "seed_a": "HTM",
-      "seed_b": "Non-Transformer Arch",
-      "shared_keywords": [],
-      "shared_paper_concepts": [
-        "dynamics",
-        "learning",
-        "linear"
-      ],
-      "strength": 3,
-      "discovered_at": "2026-10-30T01:28:49.475298"
-    },
-    {
-      "seed_a": "HTM",
-      "seed_b": "KV Cache Optimization",
-      "shared_keywords": [],
-      "shared_paper_concepts": [
-        "aware",
-        "coding",
-        "models"
-      ],
-      "strength": 3,
-      "discovered_at": "2026-10-30T01:28:49.475311"
-    },
-    {
-      "seed_a": "Spiking Neural Networks",
-      "seed_b": "Non-Transformer Arch",
-      "shared_keywords": [],
-      "shared_paper_concepts": [
-        "dynamics",
-        "learning",
-        "neural"
-      ],
-      "strength": 3,
-      "discovered_at": "2026-10-30T01:28:49.475315"
+      "discovered_at": "2026-10-30T07:49:58.831203"
     }
   ],
   "total_seeds": 10

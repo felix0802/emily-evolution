@@ -1,27 +1,10 @@
 {
-  "_rotation_idx": 840,
+  "_rotation_idx": 841,
   "mamba": {
     "name": "Mamba (SSM)",
-    "total_papers_found": 90,
-    "watering_count": 87,
+    "total_papers_found": 96,
+    "watering_count": 88,
     "history": [
-      {
-        "timestamp": "2026-08-12T20:29:57.685676",
-        "papers_found": 1,
-        "duplicates": 8,
-        "irrelevant_filtered": 1,
-        "avg_relevance": 2.0,
-        "high_relevance": 1,
-        "papers": [
-          {
-            "title": "ChronoSSM: Training for Temporally Aware Representations in Autoregressive State Space Models",
-            "summary": "Modern sequence models, from Transformers to State Space Models, have enabled powerful generative modeling across diverse domains, yet they are typically trained to predict what happens while treating when it happens as a secondary concern. In data-mining settings where events are associated with ex",
-            "published": "2026-08-10",
-            "url": "http://arxiv.org/abs/2608.10120v1",
-            "seed_match_score": 2
-          }
-        ]
-      },
       {
         "timestamp": "2026-08-13T16:42:21.626852",
         "papers_found": 0,
@@ -761,6 +744,37 @@
             "seed_match_score": 1
           }
         ]
+      },
+      {
+        "timestamp": "2026-10-30T07:49:49.638411",
+        "papers_found": 6,
+        "duplicates": 1,
+        "irrelevant_filtered": 3,
+        "avg_relevance": 1.17,
+        "high_relevance": 1,
+        "papers": [
+          {
+            "title": "Dual DeltaNet: Value-Side Memory Reorganization for Linear Attention",
+            "summary": "Linear attention and state space models (SSMs) offer efficient alternatives to softmax attention by maintaining a fixed-size recurrent state, but this design requires careful management to preserve useful historical associations and limit interference. The delta rule helps reduce interference throug",
+            "published": "2026-10-28",
+            "url": "http://arxiv.org/abs/2610.38578v1",
+            "seed_match_score": 2
+          },
+          {
+            "title": "ParaTTT: Parallelizing Test-Time Training Layers with Deep Memories",
+            "summary": "Test-time training (TTT) layers replace the linear fast-weight memory of modern recurrent architectures with a small neural network trained online by gradient descent. This nonlinear memory is more expressive than the linear memories of Gated DeltaNet and Mamba-2, but is difficult to parallelize: ex",
+            "published": "2026-10-28",
+            "url": "http://arxiv.org/abs/2610.38255v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Nemotron 3.5 Super and Lightning: Open, Efficient Mixture-of-Experts Hybrid Mamba-Transformer Models for Agentic AI",
+            "summary": "We introduce Nemotron 3.5 Super and Nemotron 3.5 Lightning, open and efficient Mixture-of-Experts Hybrid Mamba-Transformer models designed for reasoning, long-context understanding, and agentic workloads. Super is a 120B-parameter, 12B-active multimodal model, while Lightning is a smaller 30B-parame",
+            "published": "2026-10-28",
+            "url": "http://arxiv.org/abs/2610.38095v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -769,7 +783,7 @@
       "ssm",
       "selective scan"
     ],
-    "last_watered": "2026-10-27T23:18:10.063237"
+    "last_watered": "2026-10-30T07:49:49.638398"
   },
   "liquid-networks": {
     "name": "Liquid Networks",
