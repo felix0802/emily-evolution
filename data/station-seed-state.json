@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 841,
+  "_rotation_idx": 842,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 96,
@@ -787,18 +787,9 @@
   },
   "liquid-networks": {
     "name": "Liquid Networks",
-    "total_papers_found": 116,
-    "watering_count": 87,
+    "total_papers_found": 118,
+    "watering_count": 88,
     "history": [
-      {
-        "timestamp": "2026-08-12T22:27:46.272235",
-        "papers_found": 0,
-        "duplicates": 9,
-        "irrelevant_filtered": 1,
-        "avg_relevance": 0.0,
-        "high_relevance": 0,
-        "papers": []
-      },
       {
         "timestamp": "2026-08-13T18:44:25.288628",
         "papers_found": 1,
@@ -1615,6 +1606,30 @@
             "seed_match_score": 2
           }
         ]
+      },
+      {
+        "timestamp": "2026-10-30T14:39:10.259694",
+        "papers_found": 2,
+        "duplicates": 6,
+        "irrelevant_filtered": 2,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "Data-driven Random-feature Approximation of Koopman Generators of Nonlinear Continuous-time Systems",
+            "summary": "Learning continuous-time dynamical systems from data is an active area of research. The Koopman formalism is often used here, because it is a flexible approach that is informative about the system's fundamental properties. The formalism represents dynamical systems through linear operators acting on",
+            "published": "2026-10-29",
+            "url": "http://arxiv.org/abs/2610.39897v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "TGTV: An Interpretable Framework for UAV Fault Detection and Traceability via Spatiotemporal Graph Learning and Large Language Models",
+            "summary": "Fixed-wing unmanned aerial vehicles experience operating-condition transitions, asynchronous sensor sampling, and control-system compensation that can obscure fault signatures. Existing temporal detection methods have limited capacity to represent coupled faults across subsystems, track their evolut",
+            "published": "2026-10-28",
+            "url": "http://arxiv.org/abs/2610.38106v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -1624,7 +1639,7 @@
       "ode",
       "continuous-time"
     ],
-    "last_watered": "2026-10-28T02:47:32.608903"
+    "last_watered": "2026-10-30T14:39:10.259687"
   },
   "htm": {
     "name": "HTM",

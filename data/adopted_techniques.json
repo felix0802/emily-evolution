@@ -4928,6 +4928,21 @@
         ],
         "decided_at": "2026-10-30T07:49:56.161780"
       }
+    },
+    {
+      "id": "llm-inductive-biases",
+      "name": "Inductive Biases",
+      "adopted_at": "2026-10-30T14:39:17.045259",
+      "decision": {
+        "tech_id": "llm-inductive-biases",
+        "tech_name": "Inductive Biases",
+        "action": "adopt",
+        "confidence": 0.9,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-10-30T14:39:17.042467"
+      }
     }
   ],
   "history": [
@@ -6898,6 +6913,12 @@
       "tech_id": "llm-重整化群（rg）理论",
       "tech_name": "重整化群（RG）理论",
       "timestamp": "2026-10-30T07:49:56.164368"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-inductive-biases",
+      "tech_name": "Inductive Biases",
+      "timestamp": "2026-10-30T14:39:17.045265"
     }
   ]
 }

@@ -1,12 +1,11 @@
 {
-  "timestamp": "2026-10-30T07:49:58.831324",
+  "timestamp": "2026-10-30T14:39:17.072583",
   "connections": [
     {
       "seed_a": "Mamba (SSM)",
       "seed_b": "Liquid Networks",
       "shared_keywords": [],
       "shared_paper_concepts": [
-        "from",
         "learning",
         "linear",
         "models",
@@ -15,8 +14,8 @@
         "training",
         "with"
       ],
-      "strength": 8,
-      "discovered_at": "2026-10-30T07:49:58.831189"
+      "strength": 7,
+      "discovered_at": "2026-10-30T14:39:17.072429"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -31,7 +30,7 @@
         "space"
       ],
       "strength": 7,
-      "discovered_at": "2026-10-30T07:49:58.831207"
+      "discovered_at": "2026-10-30T14:39:17.072447"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -47,7 +46,23 @@
         "transformer"
       ],
       "strength": 7,
-      "discovered_at": "2026-10-30T07:49:58.831221"
+      "discovered_at": "2026-10-30T14:39:17.072461"
+    },
+    {
+      "seed_a": "Liquid Networks",
+      "seed_b": "HTM",
+      "shared_keywords": [],
+      "shared_paper_concepts": [
+        "adaptive",
+        "framework",
+        "learning",
+        "linear",
+        "models",
+        "time",
+        "with"
+      ],
+      "strength": 7,
+      "discovered_at": "2026-10-30T14:39:17.072468"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -62,22 +77,7 @@
         "with"
       ],
       "strength": 6,
-      "discovered_at": "2026-10-30T07:49:58.831199"
-    },
-    {
-      "seed_a": "Liquid Networks",
-      "seed_b": "HTM",
-      "shared_keywords": [],
-      "shared_paper_concepts": [
-        "adaptive",
-        "learning",
-        "linear",
-        "models",
-        "time",
-        "with"
-      ],
-      "strength": 6,
-      "discovered_at": "2026-10-30T07:49:58.831228"
+      "discovered_at": "2026-10-30T14:39:17.072439"
     },
     {
       "seed_a": "HTM",
@@ -91,7 +91,7 @@
         "temporal"
       ],
       "strength": 5,
-      "discovered_at": "2026-10-30T07:49:58.831253"
+      "discovered_at": "2026-10-30T14:39:17.072513"
     },
     {
       "seed_a": "HTM",
@@ -105,7 +105,7 @@
         "routing"
       ],
       "strength": 5,
-      "discovered_at": "2026-10-30T07:49:58.831263"
+      "discovered_at": "2026-10-30T14:39:17.072523"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -118,20 +118,7 @@
         "models"
       ],
       "strength": 4,
-      "discovered_at": "2026-10-30T07:49:58.831210"
-    },
-    {
-      "seed_a": "Liquid Networks",
-      "seed_b": "Few-Shot Learning",
-      "shared_keywords": [],
-      "shared_paper_concepts": [
-        "identifiability",
-        "learning",
-        "models",
-        "universal"
-      ],
-      "strength": 4,
-      "discovered_at": "2026-10-30T07:49:58.831238"
+      "discovered_at": "2026-10-30T14:39:17.072450"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -143,7 +130,19 @@
         "using"
       ],
       "strength": 3,
-      "discovered_at": "2026-10-30T07:49:58.831203"
+      "discovered_at": "2026-10-30T14:39:17.072443"
+    },
+    {
+      "seed_a": "Mamba (SSM)",
+      "seed_b": "Mixture of Experts",
+      "shared_keywords": [],
+      "shared_paper_concepts": [
+        "experts",
+        "mixture",
+        "models"
+      ],
+      "strength": 3,
+      "discovered_at": "2026-10-30T14:39:17.072457"
     }
   ],
   "total_seeds": 10
