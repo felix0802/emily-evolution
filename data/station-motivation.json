@@ -1,28 +1,6 @@
 {
   "rounds": [
     {
-      "round": 421,
-      "timestamp": "2026-10-19T21:47:43.574793",
-      "prediction_error": 0.7,
-      "seeds_active": 10,
-      "seeds_dormant": 0,
-      "new_seeds_added": 0,
-      "top_motivated": [
-        [
-          "mamba",
-          0.91
-        ],
-        [
-          "liquid-networks",
-          0.91
-        ],
-        [
-          "htm",
-          0.91
-        ]
-      ]
-    },
-    {
       "round": 422,
       "timestamp": "2026-10-20T00:46:37.130435",
       "prediction_error": 0.7,
@@ -1099,6 +1077,28 @@
           0.91
         ]
       ]
+    },
+    {
+      "round": 471,
+      "timestamp": "2026-10-30T01:28:43.283638",
+      "prediction_error": 0.7,
+      "seeds_active": 10,
+      "seeds_dormant": 0,
+      "new_seeds_added": 0,
+      "top_motivated": [
+        [
+          "mamba",
+          0.91
+        ],
+        [
+          "liquid-networks",
+          0.91
+        ],
+        [
+          "htm",
+          0.91
+        ]
+      ]
     }
   ],
   "seed_scores": {
@@ -1169,7 +1169,7 @@
         0.741,
         0.741,
         0.741,
-        0.741,
+        1.0,
         1.0,
         1.0,
         1.0,
@@ -1229,7 +1229,6 @@
         0.957,
         0.957,
         0.957,
-        0.957,
         0.978,
         0.978,
         0.978,
@@ -1240,6 +1239,7 @@
         0.978,
         0.978,
         0.978,
+        1.0,
         1.0,
         1.0,
         1.0,
@@ -1365,11 +1365,10 @@
     },
     "gnn": {
       "name": "Graph Neural Networks",
-      "info_gain": 0.191,
+      "info_gain": 0.202,
       "novelty": 1.0,
-      "motivation_score": 0.587,
+      "motivation_score": 0.591,
       "info_gain_history": [
-        0.281,
         0.293,
         0.293,
         0.293,
@@ -1389,7 +1388,8 @@
         0.191,
         0.191,
         0.191,
-        0.191
+        0.191,
+        0.202
       ]
     }
   },
@@ -1406,6 +1406,6 @@
     "spiking-nn",
     "non-transformer"
   ],
-  "total_motivation_evaluations": 314,
+  "total_motivation_evaluations": 315,
   "current_prediction_error": 0.7
 }
