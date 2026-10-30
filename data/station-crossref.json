@@ -1,6 +1,23 @@
 {
-  "timestamp": "2026-10-30T14:39:17.072583",
+  "timestamp": "2026-10-30T20:14:49.659824",
   "connections": [
+    {
+      "seed_a": "Liquid Networks",
+      "seed_b": "HTM",
+      "shared_keywords": [],
+      "shared_paper_concepts": [
+        "adaptive",
+        "framework",
+        "learning",
+        "linear",
+        "models",
+        "rate",
+        "time",
+        "with"
+      ],
+      "strength": 8,
+      "discovered_at": "2026-10-30T20:14:49.659763"
+    },
     {
       "seed_a": "Mamba (SSM)",
       "seed_b": "Liquid Networks",
@@ -15,7 +32,7 @@
         "with"
       ],
       "strength": 7,
-      "discovered_at": "2026-10-30T14:39:17.072429"
+      "discovered_at": "2026-10-30T20:14:49.659736"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -30,7 +47,7 @@
         "space"
       ],
       "strength": 7,
-      "discovered_at": "2026-10-30T14:39:17.072447"
+      "discovered_at": "2026-10-30T20:14:49.659749"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -46,23 +63,7 @@
         "transformer"
       ],
       "strength": 7,
-      "discovered_at": "2026-10-30T14:39:17.072461"
-    },
-    {
-      "seed_a": "Liquid Networks",
-      "seed_b": "HTM",
-      "shared_keywords": [],
-      "shared_paper_concepts": [
-        "adaptive",
-        "framework",
-        "learning",
-        "linear",
-        "models",
-        "time",
-        "with"
-      ],
-      "strength": 7,
-      "discovered_at": "2026-10-30T14:39:17.072468"
+      "discovered_at": "2026-10-30T20:14:49.659758"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -77,7 +78,22 @@
         "with"
       ],
       "strength": 6,
-      "discovered_at": "2026-10-30T14:39:17.072439"
+      "discovered_at": "2026-10-30T20:14:49.659743"
+    },
+    {
+      "seed_a": "HTM",
+      "seed_b": "Continual Learning",
+      "shared_keywords": [],
+      "shared_paper_concepts": [
+        "aware",
+        "free",
+        "learning",
+        "networks",
+        "recognition",
+        "routing"
+      ],
+      "strength": 6,
+      "discovered_at": "2026-10-30T20:14:49.659784"
     },
     {
       "seed_a": "HTM",
@@ -91,21 +107,7 @@
         "temporal"
       ],
       "strength": 5,
-      "discovered_at": "2026-10-30T14:39:17.072513"
-    },
-    {
-      "seed_a": "HTM",
-      "seed_b": "Continual Learning",
-      "shared_keywords": [],
-      "shared_paper_concepts": [
-        "aware",
-        "learning",
-        "networks",
-        "recognition",
-        "routing"
-      ],
-      "strength": 5,
-      "discovered_at": "2026-10-30T14:39:17.072523"
+      "discovered_at": "2026-10-30T20:14:49.659778"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -118,7 +120,7 @@
         "models"
       ],
       "strength": 4,
-      "discovered_at": "2026-10-30T14:39:17.072450"
+      "discovered_at": "2026-10-30T20:14:49.659751"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -130,7 +132,7 @@
         "using"
       ],
       "strength": 3,
-      "discovered_at": "2026-10-30T14:39:17.072443"
+      "discovered_at": "2026-10-30T20:14:49.659747"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -142,7 +144,7 @@
         "models"
       ],
       "strength": 3,
-      "discovered_at": "2026-10-30T14:39:17.072457"
+      "discovered_at": "2026-10-30T20:14:49.659756"
     }
   ],
   "total_seeds": 10

@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 842,
+  "_rotation_idx": 843,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 96,
@@ -1643,18 +1643,9 @@
   },
   "htm": {
     "name": "HTM",
-    "total_papers_found": 150,
-    "watering_count": 87,
+    "total_papers_found": 152,
+    "watering_count": 88,
     "history": [
-      {
-        "timestamp": "2026-08-13T00:54:33.952937",
-        "papers_found": 0,
-        "duplicates": 5,
-        "irrelevant_filtered": 5,
-        "avg_relevance": 0.0,
-        "high_relevance": 0,
-        "papers": []
-      },
       {
         "timestamp": "2026-08-13T20:27:54.612124",
         "papers_found": 3,
@@ -2605,6 +2596,30 @@
             "seed_match_score": 1
           }
         ]
+      },
+      {
+        "timestamp": "2026-10-30T20:14:41.316413",
+        "papers_found": 2,
+        "duplicates": 0,
+        "irrelevant_filtered": 8,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "Conic-Lifting for Learning-rate-free Convex Optimization",
+            "summary": "A central topic in online and stochastic optimization is to design algorithms that do not require tuning of hyperparameters. Successful strategies in online learning include AdaGrad-style learning rates, Conic Blackwell algorithms, and parameter-free algorithms. However, these classes require differ",
+            "published": "2026-10-29",
+            "url": "http://arxiv.org/abs/2610.39531v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Strongly Adaptive Online Learning Achieves Uniform Discounted Regret",
+            "summary": "Discounted regret measures the performance of an online learner by assigning exponentially decaying weights to past losses, reflecting the greater importance of recent losses in non-stationary online learning. While previous work obtains uniform discounted regret bounds over a continuous range of di",
+            "published": "2026-10-29",
+            "url": "http://arxiv.org/abs/2610.39292v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -2619,7 +2634,7 @@
       "anomaly detection",
       "continuous learning"
     ],
-    "last_watered": "2026-10-28T10:05:37.160127"
+    "last_watered": "2026-10-30T20:14:41.316409"
   },
   "spiking-nn": {
     "name": "Spiking Neural Networks",

@@ -67409,7 +67409,229 @@
         "uav"
       ],
       "first_seen_round": 473
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.40330v1",
+      "title": "Multistep and Multivariate Time Series Explainability with GradientSHAP: A Wind Power Case Study",
+      "arxiv_id": "2610.40330",
+      "tokens": [
+        "case",
+        "explainability",
+        "gradientshap",
+        "multistep",
+        "multivariate",
+        "power",
+        "series",
+        "time",
+        "wind"
+      ],
+      "first_seen_round": 474
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.40188v1",
+      "title": "Understanding axial attention in TSFMs through single location regression",
+      "arxiv_id": "2610.40188",
+      "tokens": [
+        "attention",
+        "axial",
+        "location",
+        "regression",
+        "single",
+        "tsfms",
+        "understanding"
+      ],
+      "first_seen_round": 474
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.39958v1",
+      "title": "Observability-Aligned Evidential Masked Pretraining for Reliable VRU Motion Prediction",
+      "arxiv_id": "2610.39958",
+      "tokens": [
+        "aligned",
+        "evidential",
+        "masked",
+        "motion",
+        "observability",
+        "prediction",
+        "pretraining",
+        "reliable",
+        "vru"
+      ],
+      "first_seen_round": 474
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.39665v1",
+      "title": "A New AFIB Detection Method with Deep Neural Networks",
+      "arxiv_id": "2610.39665",
+      "tokens": [
+        "afib",
+        "detection",
+        "neural"
+      ],
+      "first_seen_round": 474
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.39246v1",
+      "title": "IMRouter: Imbalance-aware Temporal Pattern Routing for LLM-based Time Series Forecasting",
+      "arxiv_id": "2610.39246",
+      "tokens": [
+        "aware",
+        "forecasting",
+        "imbalance",
+        "imrouter",
+        "llm",
+        "pattern",
+        "routing",
+        "series",
+        "temporal",
+        "time"
+      ],
+      "first_seen_round": 474
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.39043v1",
+      "title": "Modular Bayesian Foundation Models: Bayesian time series encoders for OOD detection, routing and forecasting",
+      "arxiv_id": "2610.39043",
+      "tokens": [
+        "bayesian",
+        "bayesian",
+        "detection",
+        "encoders",
+        "forecasting",
+        "foundation",
+        "modular",
+        "ood",
+        "routing",
+        "series",
+        "time"
+      ],
+      "first_seen_round": 474
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.38915v1",
+      "title": "Lev-3B: A Data Recipe for Compact Probabilistic Log Decision Models",
+      "arxiv_id": "2610.38915",
+      "tokens": [
+        "compact",
+        "decision",
+        "lev",
+        "log",
+        "probabilistic",
+        "recipe"
+      ],
+      "first_seen_round": 474
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.40362v1",
+      "title": "Your LR Schedule May Not Be Principled: Effective Learning Rate Scheduling in Weight-Normalized Training",
+      "arxiv_id": "2610.40362",
+      "tokens": [
+        "effective",
+        "normalized",
+        "principled",
+        "rate",
+        "schedule",
+        "scheduling",
+        "training",
+        "weight"
+      ],
+      "first_seen_round": 474
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.39876v1",
+      "title": "Turing LLM Post-Training: Calibrated Distillation and Efficient Dynamic-MoE Execution",
+      "arxiv_id": "2610.39876",
+      "tokens": [
+        "calibrated",
+        "distillation",
+        "dynamic",
+        "execution",
+        "llm",
+        "moe",
+        "post",
+        "training",
+        "turing"
+      ],
+      "first_seen_round": 474
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.39442v1",
+      "title": "Softmax Routing Dynamics in Mixture-of-Experts Models: Collapse and Recovery",
+      "arxiv_id": "2610.39442",
+      "tokens": [
+        "collapse",
+        "dynamics",
+        "experts",
+        "mixture",
+        "recovery",
+        "routing",
+        "softmax"
+      ],
+      "first_seen_round": 474
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.38981v1",
+      "title": "Why Speculative Decoding Works Better Than Predicted on Sparse MoE Models",
+      "arxiv_id": "2610.38981",
+      "tokens": [
+        "better",
+        "decoding",
+        "moe",
+        "predicted",
+        "sparse",
+        "speculative",
+        "why",
+        "works"
+      ],
+      "first_seen_round": 474
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.38218v1",
+      "title": "HotPOT: Operator Transformer with Heterogeneous Physics Experts for Large-Scale PDE Pre-training",
+      "arxiv_id": "2610.38218",
+      "tokens": [
+        "experts",
+        "heterogeneous",
+        "hotpot",
+        "operator",
+        "pde",
+        "physics",
+        "pre",
+        "scale",
+        "training",
+        "transformer"
+      ],
+      "first_seen_round": 474
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.39531v1",
+      "title": "Conic-Lifting for Learning-rate-free Convex Optimization",
+      "arxiv_id": "2610.39531",
+      "tokens": [
+        "conic",
+        "convex",
+        "free",
+        "lifting",
+        "optimization",
+        "rate"
+      ],
+      "first_seen_round": 474
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.39292v1",
+      "title": "Strongly Adaptive Online Learning Achieves Uniform Discounted Regret",
+      "arxiv_id": "2610.39292",
+      "tokens": [
+        "achieves",
+        "adaptive",
+        "discounted",
+        "online",
+        "regret",
+        "strongly",
+        "uniform"
+      ],
+      "first_seen_round": 474
     }
   ],
-  "total_unique": 4232
+  "total_unique": 4246
 }

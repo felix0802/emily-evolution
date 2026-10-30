@@ -4943,6 +4943,36 @@
         ],
         "decided_at": "2026-10-30T14:39:17.042467"
       }
+    },
+    {
+      "id": "llm-gradientshap",
+      "name": "GradientSHAP",
+      "adopted_at": "2026-10-30T20:14:45.501536",
+      "decision": {
+        "tech_id": "llm-gradientshap",
+        "tech_name": "GradientSHAP",
+        "action": "adopt",
+        "confidence": 0.9,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-10-30T20:14:45.499684"
+      }
+    },
+    {
+      "id": "llm-轴向注意力",
+      "name": "轴向注意力",
+      "adopted_at": "2026-10-30T20:14:45.501552",
+      "decision": {
+        "tech_id": "llm-轴向注意力",
+        "tech_name": "轴向注意力",
+        "action": "adopt",
+        "confidence": 0.85,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-10-30T20:14:45.499898"
+      }
     }
   ],
   "history": [
@@ -6919,6 +6949,18 @@
       "tech_id": "llm-inductive-biases",
       "tech_name": "Inductive Biases",
       "timestamp": "2026-10-30T14:39:17.045265"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-gradientshap",
+      "tech_name": "GradientSHAP",
+      "timestamp": "2026-10-30T20:14:45.501538"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-轴向注意力",
+      "tech_name": "轴向注意力",
+      "timestamp": "2026-10-30T20:14:45.501553"
     }
   ]
 }
