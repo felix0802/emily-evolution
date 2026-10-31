@@ -5033,6 +5033,36 @@
         ],
         "decided_at": "2026-10-31T18:06:08.578252"
       }
+    },
+    {
+      "id": "llm-统一-rl-目标（最大似然推导）",
+      "name": "统一 RL 目标（最大似然推导）",
+      "adopted_at": "2026-10-31T22:54:19.093382",
+      "decision": {
+        "tech_id": "llm-统一-rl-目标（最大似然推导）",
+        "tech_name": "统一 RL 目标（最大似然推导）",
+        "action": "adopt",
+        "confidence": 0.9,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-10-31T22:54:19.090795"
+      }
+    },
+    {
+      "id": "llm-保形预测（conformal-prediction）",
+      "name": "保形预测（Conformal Prediction）",
+      "adopted_at": "2026-10-31T22:54:19.093405",
+      "decision": {
+        "tech_id": "llm-保形预测（conformal-prediction）",
+        "tech_name": "保形预测（Conformal Prediction）",
+        "action": "adopt",
+        "confidence": 0.8,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-10-31T22:54:19.091020"
+      }
     }
   ],
   "history": [
@@ -7045,6 +7075,18 @@
       "tech_id": "llm-角色耦合令牌化（role-coupled-tokenizat",
       "tech_name": "角色耦合令牌化（Role-Coupled Tokenization）",
       "timestamp": "2026-10-31T18:06:08.581326"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-统一-rl-目标（最大似然推导）",
+      "tech_name": "统一 RL 目标（最大似然推导）",
+      "timestamp": "2026-10-31T22:54:19.093386"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-保形预测（conformal-prediction）",
+      "tech_name": "保形预测（Conformal Prediction）",
+      "timestamp": "2026-10-31T22:54:19.093407"
     }
   ]
 }

@@ -1,28 +1,6 @@
 {
   "rounds": [
     {
-      "round": 429,
-      "timestamp": "2026-10-21T14:44:10.400312",
-      "prediction_error": 0.7,
-      "seeds_active": 10,
-      "seeds_dormant": 0,
-      "new_seeds_added": 0,
-      "top_motivated": [
-        [
-          "mamba",
-          0.91
-        ],
-        [
-          "liquid-networks",
-          0.91
-        ],
-        [
-          "htm",
-          0.91
-        ]
-      ]
-    },
-    {
       "round": 430,
       "timestamp": "2026-10-21T19:44:00.129953",
       "prediction_error": 0.7,
@@ -1099,6 +1077,28 @@
           0.91
         ]
       ]
+    },
+    {
+      "round": 479,
+      "timestamp": "2026-10-31T22:54:13.651057",
+      "prediction_error": 0.7,
+      "seeds_active": 10,
+      "seeds_dormant": 0,
+      "new_seeds_added": 0,
+      "top_motivated": [
+        [
+          "mamba",
+          0.91
+        ],
+        [
+          "liquid-networks",
+          0.91
+        ],
+        [
+          "htm",
+          0.91
+        ]
+      ]
     }
   ],
   "seed_scores": {
@@ -1231,7 +1231,7 @@
         0.978,
         0.978,
         0.978,
-        0.978,
+        1.0,
         1.0,
         1.0,
         1.0,
@@ -1271,7 +1271,7 @@
         1.0,
         1.0,
         1.0,
-        1.0,
+        0.667,
         0.667,
         0.667
       ]
@@ -1307,9 +1307,9 @@
     },
     "moe": {
       "name": "Mixture of Experts",
-      "info_gain": 1.0,
+      "info_gain": 0.74,
       "novelty": 0.714,
-      "motivation_score": 0.824,
+      "motivation_score": 0.72,
       "info_gain_history": [
         1.0,
         1.0,
@@ -1331,7 +1331,7 @@
         1.0,
         1.0,
         1.0,
-        1.0
+        0.74
       ]
     },
     "kv-cache": {
@@ -1371,7 +1371,6 @@
       "info_gain_history": [
         0.293,
         0.293,
-        0.293,
         0.191,
         0.191,
         0.191,
@@ -1382,6 +1381,7 @@
         0.191,
         0.191,
         0.191,
+        0.202,
         0.202,
         0.202,
         0.202,
@@ -1406,6 +1406,6 @@
     "spiking-nn",
     "non-transformer"
   ],
-  "total_motivation_evaluations": 322,
+  "total_motivation_evaluations": 323,
   "current_prediction_error": 0.7
 }

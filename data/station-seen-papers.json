@@ -68223,7 +68223,259 @@
         "unified"
       ],
       "first_seen_round": 478
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.40564v1",
+      "title": "Training Foundation Models with a Single Algorithm",
+      "arxiv_id": "2610.40564",
+      "tokens": [
+        "algorithm",
+        "foundation",
+        "single",
+        "training"
+      ],
+      "first_seen_round": 479
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.40449v1",
+      "title": "Reinforcement learning for control of partial differential equations",
+      "arxiv_id": "2610.40449",
+      "tokens": [
+        "control",
+        "differential",
+        "equations",
+        "partial",
+        "reinforcement"
+      ],
+      "first_seen_round": 479
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.40421v1",
+      "title": "Uncertainty-aware Feedback Loop Diagnosis: integrating reinforcement learning and conformal prediction for reliable wafer defect classification",
+      "arxiv_id": "2610.40421",
+      "tokens": [
+        "aware",
+        "classification",
+        "conformal",
+        "defect",
+        "diagnosis",
+        "feedback",
+        "integrating",
+        "loop",
+        "prediction",
+        "reinforcement",
+        "reliable",
+        "uncertainty",
+        "wafer"
+      ],
+      "first_seen_round": 479
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.40407v1",
+      "title": "SCARL: Sequence Confidence-Aligned Reinforcement Learning",
+      "arxiv_id": "2610.40407",
+      "tokens": [
+        "aligned",
+        "confidence",
+        "reinforcement",
+        "scarl",
+        "sequence"
+      ],
+      "first_seen_round": 479
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.40264v1",
+      "title": "From MS/MS evidence to adaptive spectroscopic characterization: Reinforcement learning guided by candidate molecular structures",
+      "arxiv_id": "2610.40264",
+      "tokens": [
+        "adaptive",
+        "candidate",
+        "characterization",
+        "evidence",
+        "guided",
+        "molecular",
+        "reinforcement",
+        "spectroscopic",
+        "structures"
+      ],
+      "first_seen_round": 479
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.40257v1",
+      "title": "Learned Terminal Costs for Short-Horizon Model Predictive Control of Autonomous Trucks in Interactive Highway Traffic",
+      "arxiv_id": "2610.40257",
+      "tokens": [
+        "autonomous",
+        "control",
+        "costs",
+        "highway",
+        "horizon",
+        "interactive",
+        "learned",
+        "predictive",
+        "short",
+        "terminal",
+        "traffic",
+        "trucks"
+      ],
+      "first_seen_round": 479
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.40574v1",
+      "title": "Every Token Needs Its Own Teacher: Multi-teacher Adaptive On-policy Self-distillation",
+      "arxiv_id": "2610.40574",
+      "tokens": [
+        "adaptive",
+        "distillation",
+        "multi",
+        "needs",
+        "policy",
+        "self",
+        "teacher",
+        "teacher",
+        "token"
+      ],
+      "first_seen_round": 479
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.40563v1",
+      "title": "Comparing Human Role-Players and LLM-Simulated Clients in Online Counselling Training: An Analysis of Counselling Patterns",
+      "arxiv_id": "2610.40563",
+      "tokens": [
+        "clients",
+        "comparing",
+        "counselling",
+        "counselling",
+        "human",
+        "llm",
+        "online",
+        "patterns",
+        "players",
+        "role",
+        "simulated",
+        "training"
+      ],
+      "first_seen_round": 479
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.40541v1",
+      "title": "On the Fundamental Limits of Prefill-Based Decoding Length Prediction",
+      "arxiv_id": "2610.40541",
+      "tokens": [
+        "decoding",
+        "fundamental",
+        "length",
+        "limits",
+        "prediction",
+        "prefill"
+      ],
+      "first_seen_round": 479
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.40516v1",
+      "title": "How I Aligned Your Model: Scaling Up Multilingual Safety Training with Templates",
+      "arxiv_id": "2610.40516",
+      "tokens": [
+        "aligned",
+        "multilingual",
+        "safety",
+        "scaling",
+        "templates",
+        "training"
+      ],
+      "first_seen_round": 479
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.40495v1",
+      "title": "LucidLyra: Feed-Forward Generative 3D Scene Reconstruction and Joint Understanding via Multi-Task Distillation",
+      "arxiv_id": "2610.40495",
+      "tokens": [
+        "distillation",
+        "feed",
+        "forward",
+        "generative",
+        "joint",
+        "lucidlyra",
+        "multi",
+        "reconstruction",
+        "scene",
+        "task",
+        "understanding"
+      ],
+      "first_seen_round": 479
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.40478v1",
+      "title": "Accurate MRI-free PET Quantification and Reliability Assessment via CT-to-MRI Synthesis and Conformal Prediction",
+      "arxiv_id": "2610.40478",
+      "tokens": [
+        "accurate",
+        "assessment",
+        "conformal",
+        "free",
+        "mri",
+        "mri",
+        "pet",
+        "prediction",
+        "quantification",
+        "reliability",
+        "synthesis"
+      ],
+      "first_seen_round": 479
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.40119v1",
+      "title": "SynthFaces: Balanced Large Scale Human Dataset",
+      "arxiv_id": "2610.40119",
+      "tokens": [
+        "balanced",
+        "dataset",
+        "human",
+        "scale",
+        "synthfaces"
+      ],
+      "first_seen_round": 479
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.40061v1",
+      "title": "Localizing Concepts in Visual Autoregressive Models",
+      "arxiv_id": "2610.40061",
+      "tokens": [
+        "autoregressive",
+        "concepts",
+        "localizing",
+        "visual"
+      ],
+      "first_seen_round": 479
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.39889v1",
+      "title": "sDMD: Sinkhorn Distribution Matching Distillation",
+      "arxiv_id": "2610.39889",
+      "tokens": [
+        "distillation",
+        "distribution",
+        "matching",
+        "sdmd",
+        "sinkhorn"
+      ],
+      "first_seen_round": 479
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.37914v1",
+      "title": "Muon Makes the First Mixture-of-Experts Layer Harder to Balance",
+      "arxiv_id": "2610.37914",
+      "tokens": [
+        "balance",
+        "experts",
+        "harder",
+        "layer",
+        "makes",
+        "mixture",
+        "muon"
+      ],
+      "first_seen_round": 479
     }
   ],
-  "total_unique": 4285
+  "total_unique": 4301
 }

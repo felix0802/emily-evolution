@@ -1,53 +1,6 @@
 {
   "sessions": [
     {
-      "timestamp": "2026-10-11T10:23:08.327764",
-      "arxiv_papers_count": 18,
-      "arxiv_top_keywords": [
-        "decoding",
-        "draft",
-        "graph",
-        "tokens",
-        "drafting",
-        "entries",
-        "bits",
-        "attention",
-        "cache",
-        "quantization"
-      ],
-      "arxiv_strategies": [
-        "搜索: kv cache LLM",
-        "搜索: graph neural network recent",
-        "搜索: speculative decoding"
-      ],
-      "huggingface_models": 10,
-      "huggingface_tasks": [
-        "sentence-similarity",
-        "unknown",
-        "text-ranking",
-        "feature-extraction",
-        "fill-mask"
-      ],
-      "ml_datasets": [
-        "Iris",
-        "Wine",
-        "Breast Cancer",
-        "Diabetes"
-      ],
-      "ml_total_tests": 22,
-      "github_trending_repos": 8,
-      "paperswithcode_papers": 8,
-      "evolution": {
-        "discovered": 22,
-        "adopted": 0,
-        "decisions": 0
-      },
-      "seed_watering": {
-        "seed_name": "Continual Learning",
-        "papers_found": 5
-      }
-    },
-    {
       "timestamp": "2026-10-11T16:53:23.216220",
       "arxiv_papers_count": 18,
       "arxiv_top_keywords": [
@@ -4699,12 +4652,59 @@
         "seed_name": "Continual Learning",
         "papers_found": 8
       }
+    },
+    {
+      "timestamp": "2026-10-31T22:54:22.457451",
+      "arxiv_papers_count": 18,
+      "arxiv_top_keywords": [
+        "learning",
+        "training",
+        "reinforcement",
+        "policy",
+        "safety",
+        "free",
+        "teacher",
+        "human",
+        "generative",
+        "foundation"
+      ],
+      "arxiv_strategies": [
+        "搜索: reinforcement learning",
+        "搜索: large language model",
+        "搜索: diffusion model"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "unknown",
+        "text-generation",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 21,
+        "adopted": 2,
+        "decisions": 2
+      },
+      "seed_watering": {
+        "seed_name": "Mixture of Experts",
+        "papers_found": 6
+      }
     }
   ],
   "total_sessions": 101,
-  "last_updated": "2026-10-31T18:06:08.591930",
+  "last_updated": "2026-10-31T22:54:22.457467",
   "evolution_summary": {
-    "total_adopted": 335,
+    "total_adopted": 337,
     "adopted_list": [
       "Knowledge Distillation",
       "World Models / Model-Based RL",
@@ -5040,7 +5040,9 @@
       "Neural Thickets 权重扰动分析",
       "角色耦合 Tokenization",
       "Tokenization",
-      "角色耦合令牌化（Role-Coupled Tokenization）"
+      "角色耦合令牌化（Role-Coupled Tokenization）",
+      "统一 RL 目标（最大似然推导）",
+      "保形预测（Conformal Prediction）"
     ],
     "seeds": {
       "mamba": {
@@ -5080,8 +5082,8 @@
       },
       "moe": {
         "name": "Mixture of Experts",
-        "watering": 81,
-        "papers": 129
+        "watering": 82,
+        "papers": 130
       },
       "kv-cache": {
         "name": "KV Cache Optimization",
@@ -5213,16 +5215,16 @@
       },
       "moe": {
         "name": "Mixture of Experts",
-        "new_papers": 129,
+        "new_papers": 130,
         "keywords_matched": [
           "moe",
           "mixture of experts",
+          "expert routing",
           "deepseek",
-          "router",
-          "expert routing"
+          "router"
         ],
-        "high_relevance_total": 94,
-        "avg_relevance_latest": 0.0,
+        "high_relevance_total": 95,
+        "avg_relevance_latest": 3.0,
         "best_papers_count": 10
       },
       "kv-cache": {
@@ -5240,6 +5242,6 @@
         "best_papers_count": 1
       }
     },
-    "last_evolution": "2026-10-31T18:06:08.595659"
+    "last_evolution": "2026-10-31T22:54:22.460358"
   }
 }
