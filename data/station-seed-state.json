@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 844,
+  "_rotation_idx": 845,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 96,
@@ -3390,33 +3390,9 @@
   },
   "non-transformer": {
     "name": "Non-Transformer Arch",
-    "total_papers_found": 67,
-    "watering_count": 87,
+    "total_papers_found": 68,
+    "watering_count": 88,
     "history": [
-      {
-        "timestamp": "2026-08-13T05:28:36.010729",
-        "papers_found": 2,
-        "duplicates": 6,
-        "irrelevant_filtered": 2,
-        "avg_relevance": 1.0,
-        "high_relevance": 0,
-        "papers": [
-          {
-            "title": "Massive Activations in Hybrid Linear Attention Large Language Models: Pre-Attention Spikes and Inter-Spike Plateaus",
-            "summary": "We present the first systematic study of Massive activations (MAs) in layer-interleaved HLA LLMs and uncover two architecture-aligned morphologies: MAs consistently spike immediately before full attention layers, forming pre-attention spikes (PAS), and can persist through intervening linear attentio",
-            "published": "2026-08-12",
-            "url": "http://arxiv.org/abs/2608.12149v1",
-            "seed_match_score": 1
-          },
-          {
-            "title": "RT-SEMamba: Real-Time Speech Enhancement Mamba via Progressive Knowledge Distillation",
-            "summary": "We present RT-SEMamba, a fully causal speech enhancement (SE) model built upon causal time-frequency Mamba blocks. Unlike Transformer-based architectures that rely on a growing key-value cache, Mamba propagates a fixed-size recurrent state per layer, enabling memory- and bandwidth-efficient long-for",
-            "published": "2026-08-12",
-            "url": "http://arxiv.org/abs/2608.12099v1",
-            "seed_match_score": 1
-          }
-        ]
-      },
       {
         "timestamp": "2026-08-14T00:54:15.955737",
         "papers_found": 0,
@@ -4179,6 +4155,23 @@
             "seed_match_score": 1
           }
         ]
+      },
+      {
+        "timestamp": "2026-10-31T07:38:24.662213",
+        "papers_found": 1,
+        "duplicates": 7,
+        "irrelevant_filtered": 2,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "Low-Bit GDN Recurrent-State Quantization: Global Gradient-aware Allocation and Pure-Write Sliding Windows",
+            "summary": "Linear attention stores historical information in a recurrent state of fixed size, providing a compact memory representation for long-context inference. Reducing state precision further lowers per-request storage requirements, but quantized writeback errors enter subsequent recurrences, degrade pred",
+            "published": "2026-10-29",
+            "url": "http://arxiv.org/abs/2610.39931v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -4191,7 +4184,7 @@
       "sub-quadratic",
       "mamba"
     ],
-    "last_watered": "2026-10-28T21:57:51.483125"
+    "last_watered": "2026-10-31T07:38:24.662207"
   },
   "few-shot": {
     "name": "Few-Shot Learning",

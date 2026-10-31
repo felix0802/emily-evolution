@@ -67732,7 +67732,93 @@
         "spiking"
       ],
       "first_seen_round": 475
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.40432v1",
+      "title": "Soil Moisture Estimation in Precision Agriculture: A Knowledge Distillation Approach",
+      "arxiv_id": "2610.40432",
+      "tokens": [
+        "agriculture",
+        "distillation",
+        "estimation",
+        "knowledge",
+        "moisture",
+        "precision",
+        "soil"
+      ],
+      "first_seen_round": 476
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.39513v1",
+      "title": "Distilling Large-Scale Machine Learning Interatomic Potentials to Predict Long-Timescale Electrolyte Transport Properties",
+      "arxiv_id": "2610.39513",
+      "tokens": [
+        "distilling",
+        "electrolyte",
+        "interatomic",
+        "long",
+        "machine",
+        "potentials",
+        "predict",
+        "properties",
+        "scale",
+        "timescale",
+        "transport"
+      ],
+      "first_seen_round": 476
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.37937v1",
+      "title": "You Don't Need Aligned Representations: Knowledge Distillation via Random Prototype Spaces",
+      "arxiv_id": "2610.37937",
+      "tokens": [
+        "aligned",
+        "distillation",
+        "don",
+        "knowledge",
+        "need",
+        "prototype",
+        "random",
+        "representations",
+        "spaces"
+      ],
+      "first_seen_round": 476
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.37833v1",
+      "title": "Depth through Recurrence: Towards Ultra-Efficient On-Device ASR",
+      "arxiv_id": "2610.37833",
+      "tokens": [
+        "asr",
+        "depth",
+        "device",
+        "recurrence",
+        "ultra"
+      ],
+      "first_seen_round": 476
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.39931v1",
+      "title": "Low-Bit GDN Recurrent-State Quantization: Global Gradient-aware Allocation and Pure-Write Sliding Windows",
+      "arxiv_id": "2610.39931",
+      "tokens": [
+        "allocation",
+        "aware",
+        "bit",
+        "gdn",
+        "global",
+        "gradient",
+        "low",
+        "pure",
+        "quantization",
+        "recurrent",
+        "sliding",
+        "state",
+        "windows",
+        "write"
+      ],
+      "first_seen_round": 476
     }
   ],
-  "total_unique": 4253
+  "total_unique": 4258
 }
