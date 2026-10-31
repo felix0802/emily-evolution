@@ -4973,6 +4973,51 @@
         ],
         "decided_at": "2026-10-30T20:14:45.499898"
       }
+    },
+    {
+      "id": "llm-neural-thickets-权重扰动分析",
+      "name": "Neural Thickets 权重扰动分析",
+      "adopted_at": "2026-10-31T13:57:44.862673",
+      "decision": {
+        "tech_id": "llm-neural-thickets-权重扰动分析",
+        "tech_name": "Neural Thickets 权重扰动分析",
+        "action": "adopt",
+        "confidence": 0.9,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-10-31T13:57:44.859779"
+      }
+    },
+    {
+      "id": "llm-角色耦合-tokenization",
+      "name": "角色耦合 Tokenization",
+      "adopted_at": "2026-10-31T13:57:44.862702",
+      "decision": {
+        "tech_id": "llm-角色耦合-tokenization",
+        "tech_name": "角色耦合 Tokenization",
+        "action": "adopt",
+        "confidence": 0.85,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-10-31T13:57:44.859999"
+      }
+    },
+    {
+      "id": "auto-tokenization",
+      "name": "Tokenization",
+      "adopted_at": "2026-10-31T13:57:44.862724",
+      "decision": {
+        "tech_id": "auto-tokenization",
+        "tech_name": "Tokenization",
+        "action": "adopt",
+        "confidence": 0.35,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-10-31T13:57:44.860175"
+      }
     }
   ],
   "history": [
@@ -6961,6 +7006,24 @@
       "tech_id": "llm-轴向注意力",
       "tech_name": "轴向注意力",
       "timestamp": "2026-10-30T20:14:45.501553"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-neural-thickets-权重扰动分析",
+      "tech_name": "Neural Thickets 权重扰动分析",
+      "timestamp": "2026-10-31T13:57:44.862678"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-角色耦合-tokenization",
+      "tech_name": "角色耦合 Tokenization",
+      "timestamp": "2026-10-31T13:57:44.862704"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "auto-tokenization",
+      "tech_name": "Tokenization",
+      "timestamp": "2026-10-31T13:57:44.862727"
     }
   ]
 }

@@ -1,53 +1,6 @@
 {
   "sessions": [
     {
-      "timestamp": "2026-10-10T23:01:22.745759",
-      "arxiv_papers_count": 18,
-      "arxiv_top_keywords": [
-        "world",
-        "graph",
-        "data",
-        "transfer",
-        "multi",
-        "nodes",
-        "learning",
-        "agent",
-        "algorithm",
-        "weisfeiler"
-      ],
-      "arxiv_strategies": [
-        "搜索: graph neural network",
-        "搜索: transfer learning",
-        "搜索: world model"
-      ],
-      "huggingface_models": 10,
-      "huggingface_tasks": [
-        "sentence-similarity",
-        "unknown",
-        "text-ranking",
-        "feature-extraction",
-        "fill-mask"
-      ],
-      "ml_datasets": [
-        "Iris",
-        "Wine",
-        "Breast Cancer",
-        "Diabetes"
-      ],
-      "ml_total_tests": 22,
-      "github_trending_repos": 8,
-      "paperswithcode_papers": 8,
-      "evolution": {
-        "discovered": 22,
-        "adopted": 1,
-        "decisions": 1
-      },
-      "seed_watering": {
-        "seed_name": "Non-Transformer Arch",
-        "papers_found": 6
-      }
-    },
-    {
       "timestamp": "2026-10-11T02:31:04.164480",
       "arxiv_papers_count": 18,
       "arxiv_top_keywords": [
@@ -4699,12 +4652,59 @@
         "seed_name": "Non-Transformer Arch",
         "papers_found": 8
       }
+    },
+    {
+      "timestamp": "2026-10-31T13:57:48.155927",
+      "arxiv_papers_count": 20,
+      "arxiv_top_keywords": [
+        "data",
+        "space",
+        "world",
+        "agents",
+        "weight",
+        "perturbations",
+        "neural",
+        "thickets",
+        "random",
+        "detail"
+      ],
+      "arxiv_strategies": [
+        "cs.AI 最新",
+        "cs.LG 最新",
+        "cs.CL 最新"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "unknown",
+        "text-generation",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 18,
+        "adopted": 3,
+        "decisions": 3
+      },
+      "seed_watering": {
+        "seed_name": "Few-Shot Learning",
+        "papers_found": 8
+      }
     }
   ],
   "total_sessions": 101,
-  "last_updated": "2026-10-31T07:38:30.810641",
+  "last_updated": "2026-10-31T13:57:48.155943",
   "evolution_summary": {
-    "total_adopted": 331,
+    "total_adopted": 334,
     "adopted_list": [
       "Knowledge Distillation",
       "World Models / Model-Based RL",
@@ -5036,7 +5036,10 @@
       "重整化群（RG）理论",
       "Inductive Biases",
       "GradientSHAP",
-      "轴向注意力"
+      "轴向注意力",
+      "Neural Thickets 权重扰动分析",
+      "角色耦合 Tokenization",
+      "Tokenization"
     ],
     "seeds": {
       "mamba": {
@@ -5066,7 +5069,7 @@
       },
       "few-shot": {
         "name": "Few-Shot Learning",
-        "watering": 86,
+        "watering": 87,
         "papers": 52
       },
       "continual-learning": {
@@ -5108,11 +5111,11 @@
         "name": "Few-Shot Learning",
         "new_papers": 47,
         "keywords_matched": [
+          "meta-learning",
+          "few-shot",
           "prototypical",
           "in-context",
-          "maml",
-          "meta-learning",
-          "few-shot"
+          "maml"
         ],
         "high_relevance_total": 9,
         "avg_relevance_latest": 0.0,
@@ -5236,6 +5239,6 @@
         "best_papers_count": 1
       }
     },
-    "last_evolution": "2026-10-31T07:38:30.814537"
+    "last_evolution": "2026-10-31T13:57:48.159710"
   }
 }
