@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-31T13:57:48.173341",
+  "timestamp": "2026-10-31T18:06:08.609872",
   "connections": [
     {
       "seed_a": "Mamba (SSM)",
@@ -15,7 +15,7 @@
         "state"
       ],
       "strength": 8,
-      "discovered_at": "2026-10-31T13:57:48.173218"
+      "discovered_at": "2026-10-31T18:06:08.609746"
     },
     {
       "seed_a": "Liquid Networks",
@@ -32,7 +32,7 @@
         "with"
       ],
       "strength": 8,
-      "discovered_at": "2026-10-31T13:57:48.173241"
+      "discovered_at": "2026-10-31T18:06:08.609770"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -48,7 +48,7 @@
         "with"
       ],
       "strength": 7,
-      "discovered_at": "2026-10-31T13:57:48.173199"
+      "discovered_at": "2026-10-31T18:06:08.609727"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -64,7 +64,23 @@
         "transformer"
       ],
       "strength": 7,
-      "discovered_at": "2026-10-31T13:57:48.173233"
+      "discovered_at": "2026-10-31T18:06:08.609762"
+    },
+    {
+      "seed_a": "HTM",
+      "seed_b": "Continual Learning",
+      "shared_keywords": [],
+      "shared_paper_concepts": [
+        "aware",
+        "free",
+        "learning",
+        "networks",
+        "recognition",
+        "routing",
+        "with"
+      ],
+      "strength": 7,
+      "discovered_at": "2026-10-31T18:06:08.609806"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -79,7 +95,22 @@
         "with"
       ],
       "strength": 6,
-      "discovered_at": "2026-10-31T13:57:48.173209"
+      "discovered_at": "2026-10-31T18:06:08.609737"
+    },
+    {
+      "seed_a": "Mamba (SSM)",
+      "seed_b": "Continual Learning",
+      "shared_keywords": [],
+      "shared_paper_concepts": [
+        "from",
+        "learning",
+        "reinforcement",
+        "routed",
+        "using",
+        "with"
+      ],
+      "strength": 6,
+      "discovered_at": "2026-10-31T18:06:08.609754"
     },
     {
       "seed_a": "HTM",
@@ -94,22 +125,7 @@
         "with"
       ],
       "strength": 6,
-      "discovered_at": "2026-10-31T13:57:48.173266"
-    },
-    {
-      "seed_a": "HTM",
-      "seed_b": "Continual Learning",
-      "shared_keywords": [],
-      "shared_paper_concepts": [
-        "aware",
-        "free",
-        "learning",
-        "networks",
-        "recognition",
-        "routing"
-      ],
-      "strength": 6,
-      "discovered_at": "2026-10-31T13:57:48.173276"
+      "discovered_at": "2026-10-31T18:06:08.609794"
     },
     {
       "seed_a": "Spiking Neural Networks",
@@ -124,34 +140,22 @@
         "neural"
       ],
       "strength": 6,
-      "discovered_at": "2026-10-31T13:57:48.173287"
+      "discovered_at": "2026-10-31T18:06:08.609817"
     },
     {
-      "seed_a": "Mamba (SSM)",
-      "seed_b": "Spiking Neural Networks",
+      "seed_a": "Spiking Neural Networks",
+      "seed_b": "Continual Learning",
       "shared_keywords": [],
       "shared_paper_concepts": [
-        "efficient",
+        "aware",
         "from",
         "learning",
+        "networks",
         "using",
         "with"
       ],
-      "strength": 5,
-      "discovered_at": "2026-10-31T13:57:48.173214"
-    },
-    {
-      "seed_a": "Mamba (SSM)",
-      "seed_b": "Few-Shot Learning",
-      "shared_keywords": [],
-      "shared_paper_concepts": [
-        "deep",
-        "hybrid",
-        "learning",
-        "models"
-      ],
-      "strength": 4,
-      "discovered_at": "2026-10-31T13:57:48.173222"
+      "strength": 6,
+      "discovered_at": "2026-10-31T18:06:08.609824"
     }
   ],
   "total_seeds": 10

@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 846,
+  "_rotation_idx": 847,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 96,
@@ -4842,26 +4842,9 @@
   },
   "continual-learning": {
     "name": "Continual Learning",
-    "total_papers_found": 137,
-    "watering_count": 85,
+    "total_papers_found": 141,
+    "watering_count": 86,
     "history": [
-      {
-        "timestamp": "2026-08-13T08:59:58.720939",
-        "papers_found": 1,
-        "duplicates": 6,
-        "irrelevant_filtered": 3,
-        "avg_relevance": 2.0,
-        "high_relevance": 1,
-        "papers": [
-          {
-            "title": "Drift and Dependence: Layer-wise Information-Theoretic Bounds for Replay-Based Continual Learning",
-            "summary": "Continual learning must absorb new tasks without erasing old ones, and replay---mixing a small buffer of past examples into current training---is among the most effective remedies for catastrophic forgetting. Yet its generalization behavior is shaped by two coupled effects that existing analyses fol",
-            "published": "2026-08-12",
-            "url": "http://arxiv.org/abs/2608.11690v1",
-            "seed_match_score": 2
-          }
-        ]
-      },
       {
         "timestamp": "2026-08-14T05:22:51.730940",
         "papers_found": 1,
@@ -5733,6 +5716,37 @@
             "seed_match_score": 1
           }
         ]
+      },
+      {
+        "timestamp": "2026-10-31T18:06:03.932723",
+        "papers_found": 4,
+        "duplicates": 4,
+        "irrelevant_filtered": 2,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "Surprise Alone Learns Lies: Evidence-Gated Continual Learning for LLMs from Streaming Claims",
+            "summary": "Continual learning methods for large language models increasingly decide what to learn by surprise, keeping the inputs the model finds least predictable. This rule is unsafe when the stream contains lies. A planted falsehood about something the model knows has low probability under the model's belie",
+            "published": "2026-10-29",
+            "url": "http://arxiv.org/abs/2610.39840v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Routed Continual Learning",
+            "summary": "Agents deployed at scale repeatedly encounter related problems, and it is natural to let them learn from each other's experience rather than starting over each time. Unfortunately, there is no single way to retain that experience that works well across settings, and no way to know in advance which f",
+            "published": "2026-10-28",
+            "url": "http://arxiv.org/abs/2610.38796v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Episodic looking - using reinforcement learning to bias perception enhances few-shot and continual learning with protection from forgetting",
+            "summary": "There is a fundamental contradiction between the desire for models that can generalize, and models that can continuously adapt to recent input with changing statistics. These conditions, captured in few-shot and continual learning settings, can bias or disrupt learned representations. This harms gen",
+            "published": "2026-10-28",
+            "url": "http://arxiv.org/abs/2610.38577v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -5742,7 +5756,7 @@
       "ewc",
       "elastic weight"
     ],
-    "last_watered": "2026-10-29T07:44:02.384035"
+    "last_watered": "2026-10-31T18:06:03.932716"
   },
   "moe": {
     "name": "Mixture of Experts",

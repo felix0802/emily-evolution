@@ -5018,6 +5018,21 @@
         ],
         "decided_at": "2026-10-31T13:57:44.860175"
       }
+    },
+    {
+      "id": "llm-角色耦合令牌化（role-coupled-tokenizat",
+      "name": "角色耦合令牌化（Role-Coupled Tokenization）",
+      "adopted_at": "2026-10-31T18:06:08.581320",
+      "decision": {
+        "tech_id": "llm-角色耦合令牌化（role-coupled-tokenizat",
+        "tech_name": "角色耦合令牌化（Role-Coupled Tokenization）",
+        "action": "adopt",
+        "confidence": 0.85,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-10-31T18:06:08.578252"
+      }
     }
   ],
   "history": [
@@ -7024,6 +7039,12 @@
       "tech_id": "auto-tokenization",
       "tech_name": "Tokenization",
       "timestamp": "2026-10-31T13:57:44.862727"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-角色耦合令牌化（role-coupled-tokenizat",
+      "tech_name": "角色耦合令牌化（Role-Coupled Tokenization）",
+      "timestamp": "2026-10-31T18:06:08.581326"
     }
   ]
 }
