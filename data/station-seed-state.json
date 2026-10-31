@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 843,
+  "_rotation_idx": 844,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 96,
@@ -2638,18 +2638,9 @@
   },
   "spiking-nn": {
     "name": "Spiking Neural Networks",
-    "total_papers_found": 62,
-    "watering_count": 86,
+    "total_papers_found": 65,
+    "watering_count": 87,
     "history": [
-      {
-        "timestamp": "2026-08-13T03:57:10.408602",
-        "papers_found": 0,
-        "duplicates": 9,
-        "irrelevant_filtered": 1,
-        "avg_relevance": 0.0,
-        "high_relevance": 0,
-        "papers": []
-      },
       {
         "timestamp": "2026-08-13T22:29:04.292423",
         "papers_found": 0,
@@ -3356,6 +3347,37 @@
             "seed_match_score": 3
           }
         ]
+      },
+      {
+        "timestamp": "2026-10-31T01:09:45.915055",
+        "papers_found": 3,
+        "duplicates": 7,
+        "irrelevant_filtered": 0,
+        "avg_relevance": 1.67,
+        "high_relevance": 2,
+        "papers": [
+          {
+            "title": "AI at a Turning Point: From ChatGPT through Neural Networks to Neuromorphic AI",
+            "summary": "The tension between the established technologies of connectionist AI and their neuromorphic challengers is attracting growing attention, above all because of the enormous energy demand of the former and the low power consumption of the latter. Developing and running large AI models consumes gigawatt",
+            "published": "2026-10-29",
+            "url": "http://arxiv.org/abs/2610.39796v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Hardware-Aware Model Inversion in Memristive Spiking Neural Networks",
+            "summary": "Hardware-accelerated spiking neural networks (SNNs) implemented on memristive crossbar arrays offer significant gains in energy efficiency, while device variability and analog noise are sometimes assumed to hinder information extraction. However, whether these hardware effects improve, preserve, or ",
+            "published": "2026-10-29",
+            "url": "http://arxiv.org/abs/2610.39688v1",
+            "seed_match_score": 2
+          },
+          {
+            "title": "GC-LIF: Spiking Group-Equivariant Neural Network With Group-Coupled Membrane Dynamics",
+            "summary": "Spiking neural networks (SNNs) promise event-driven, low-power inference, but on vision tasks they still acquire rotation invariance only through data augmentation. Group-equivariant CNNs build such symmetries into the architecture, yet a faithful spiking analogue is missing: a leaky integrate-and-f",
+            "published": "2026-10-29",
+            "url": "http://arxiv.org/abs/2610.39601v1",
+            "seed_match_score": 2
+          }
+        ]
       }
     ],
     "keywords": [
@@ -3364,7 +3386,7 @@
       "neuromorphic",
       "spike-timing"
     ],
-    "last_watered": "2026-10-28T17:30:38.550497"
+    "last_watered": "2026-10-31T01:09:45.915048"
   },
   "non-transformer": {
     "name": "Non-Transformer Arch",

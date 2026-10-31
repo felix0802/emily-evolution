@@ -818,13 +818,13 @@
       "arxiv_query": "Mamba KV cache compression hybrid attention state space memory",
       "potential_breakthrough": "Enables transformer models to handle arbitrarily long contexts with constant memory and compute, unlocking real-time agentic applications that require persistent memory.",
       "status": "unverified",
-      "verification_rounds": 1,
+      "verification_rounds": 2,
       "supporting_papers": [],
       "refuting_papers": [],
       "llm_source": "deepseek"
     }
   ],
-  "last_updated": "2026-10-30T20:14:54.794439",
+  "last_updated": "2026-10-31T01:09:54.610825",
   "total_generated": 37,
   "total_verified": 36
 }

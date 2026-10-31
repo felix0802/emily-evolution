@@ -67631,7 +67631,108 @@
         "uniform"
       ],
       "first_seen_round": 474
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.39853v1",
+      "title": "KV Cache Quantization for Diffusion Language Models",
+      "arxiv_id": "2610.39853",
+      "tokens": [
+        "cache",
+        "diffusion",
+        "language",
+        "quantization"
+      ],
+      "first_seen_round": 475
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.37921v1",
+      "title": "FAD-KV: Adaptive Dictionary KV Caching for Efficient Reasoning Decoding",
+      "arxiv_id": "2610.37921",
+      "tokens": [
+        "adaptive",
+        "caching",
+        "decoding",
+        "dictionary",
+        "fad",
+        "reasoning"
+      ],
+      "first_seen_round": 475
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.40613v1",
+      "title": "TextSeal2: Distortion-Free LLM Watermarking with Copula Mixing and Memoryless Races",
+      "arxiv_id": "2610.40613",
+      "tokens": [
+        "copula",
+        "distortion",
+        "free",
+        "llm",
+        "memoryless",
+        "mixing",
+        "races",
+        "textseal2",
+        "watermarking"
+      ],
+      "first_seen_round": 475
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.37778v1",
+      "title": "Multi-Draft On-Policy Distillation for Diffusion Drafters",
+      "arxiv_id": "2610.37778",
+      "tokens": [
+        "diffusion",
+        "distillation",
+        "draft",
+        "drafters",
+        "multi",
+        "policy"
+      ],
+      "first_seen_round": 475
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.39796v1",
+      "title": "AI at a Turning Point: From ChatGPT through Neural Networks to Neuromorphic AI",
+      "arxiv_id": "2610.39796",
+      "tokens": [
+        "chatgpt",
+        "neural",
+        "neuromorphic",
+        "point",
+        "turning"
+      ],
+      "first_seen_round": 475
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.39688v1",
+      "title": "Hardware-Aware Model Inversion in Memristive Spiking Neural Networks",
+      "arxiv_id": "2610.39688",
+      "tokens": [
+        "aware",
+        "hardware",
+        "inversion",
+        "memristive",
+        "neural",
+        "spiking"
+      ],
+      "first_seen_round": 475
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.39601v1",
+      "title": "GC-LIF: Spiking Group-Equivariant Neural Network With Group-Coupled Membrane Dynamics",
+      "arxiv_id": "2610.39601",
+      "tokens": [
+        "coupled",
+        "dynamics",
+        "equivariant",
+        "group",
+        "group",
+        "lif",
+        "membrane",
+        "neural",
+        "spiking"
+      ],
+      "first_seen_round": 475
     }
   ],
-  "total_unique": 4246
+  "total_unique": 4253
 }

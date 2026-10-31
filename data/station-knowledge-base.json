@@ -1,53 +1,6 @@
 {
   "sessions": [
     {
-      "timestamp": "2026-10-10T14:02:27.100748",
-      "arxiv_papers_count": 18,
-      "arxiv_top_keywords": [
-        "aware",
-        "video",
-        "diffusion",
-        "learning",
-        "safety",
-        "reinforcement",
-        "manipulation",
-        "engineering",
-        "problems",
-        "balanced"
-      ],
-      "arxiv_strategies": [
-        "搜索: reinforcement learning",
-        "搜索: large language model",
-        "搜索: diffusion model"
-      ],
-      "huggingface_models": 10,
-      "huggingface_tasks": [
-        "sentence-similarity",
-        "unknown",
-        "text-ranking",
-        "feature-extraction",
-        "fill-mask"
-      ],
-      "ml_datasets": [
-        "Iris",
-        "Wine",
-        "Breast Cancer",
-        "Diabetes"
-      ],
-      "ml_total_tests": 22,
-      "github_trending_repos": 8,
-      "paperswithcode_papers": 8,
-      "evolution": {
-        "discovered": 20,
-        "adopted": 2,
-        "decisions": 2
-      },
-      "seed_watering": {
-        "seed_name": "HTM",
-        "papers_found": 4
-      }
-    },
-    {
       "timestamp": "2026-10-10T19:36:25.922950",
       "arxiv_papers_count": 18,
       "arxiv_top_keywords": [
@@ -4699,10 +4652,57 @@
         "seed_name": "HTM",
         "papers_found": 2
       }
+    },
+    {
+      "timestamp": "2026-10-31T01:09:51.680092",
+      "arxiv_papers_count": 17,
+      "arxiv_top_keywords": [
+        "graph",
+        "cache",
+        "neural",
+        "networks",
+        "efficient",
+        "decoding",
+        "keys",
+        "attention",
+        "draft",
+        "free"
+      ],
+      "arxiv_strategies": [
+        "搜索: kv cache LLM",
+        "搜索: graph neural network recent",
+        "搜索: speculative decoding"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "unknown",
+        "text-generation",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 17,
+        "adopted": 0,
+        "decisions": 0
+      },
+      "seed_watering": {
+        "seed_name": "Spiking Neural Networks",
+        "papers_found": 10
+      }
     }
   ],
   "total_sessions": 101,
-  "last_updated": "2026-10-30T20:14:49.649695",
+  "last_updated": "2026-10-31T01:09:51.680107",
   "evolution_summary": {
     "total_adopted": 331,
     "adopted_list": [
@@ -5056,8 +5056,8 @@
       },
       "spiking-nn": {
         "name": "Spiking Neural Networks",
-        "watering": 86,
-        "papers": 62
+        "watering": 87,
+        "papers": 65
       },
       "non-transformer": {
         "name": "Non-Transformer Arch",
@@ -5093,15 +5093,15 @@
     "seed_metrics": {
       "spiking-nn": {
         "name": "Spiking Neural Networks",
-        "new_papers": 62,
+        "new_papers": 65,
         "keywords_matched": [
+          "spiking",
           "snn",
           "neuromorphic",
-          "spiking",
           "spike-timing"
         ],
-        "high_relevance_total": 45,
-        "avg_relevance_latest": 2.5,
+        "high_relevance_total": 47,
+        "avg_relevance_latest": 1.67,
         "best_papers_count": 10
       },
       "few-shot": {
@@ -5236,6 +5236,6 @@
         "best_papers_count": 1
       }
     },
-    "last_evolution": "2026-10-30T20:14:49.652017"
+    "last_evolution": "2026-10-31T01:09:51.683861"
   }
 }
