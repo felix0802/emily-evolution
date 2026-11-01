@@ -376,19 +376,18 @@
   },
   "gnn": {
     "name": "Graph Neural Networks",
-    "total_new_papers": 162,
-    "total_watering": 68,
+    "total_new_papers": 163,
+    "total_watering": 69,
     "all_keywords_matched": [
-      "graph transformer",
-      "gnn",
-      "graph neural",
-      "geometric",
       "message passing",
+      "graph transformer",
+      "graph neural",
+      "graph attention",
+      "gnn",
       "node embedding",
-      "graph attention"
+      "geometric"
     ],
     "avg_relevance_trend": [
-      1.57,
       1.0,
       2.0,
       0.0,
@@ -407,9 +406,10 @@
       0.0,
       1.0,
       0.0,
+      2.0,
       2.0
     ],
-    "high_relevance_total": 77,
+    "high_relevance_total": 78,
     "best_papers": [
       {
         "title": "Local-Global Geometric Insights for Graph Neural Networks via Entropic Curvature",
@@ -462,7 +462,7 @@
         "published": "2026-08-21"
       }
     ],
-    "last_updated": "2026-10-27T19:02:00.970634"
+    "last_updated": "2026-11-01T10:51:27.573297"
   },
   "moe": {
     "name": "Mixture of Experts",

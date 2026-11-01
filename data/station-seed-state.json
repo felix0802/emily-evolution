@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 849,
+  "_rotation_idx": 850,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 96,
@@ -7615,40 +7615,9 @@
   },
   "gnn": {
     "name": "Graph Neural Networks",
-    "total_papers_found": 162,
-    "watering_count": 83,
+    "total_papers_found": 163,
+    "watering_count": 84,
     "history": [
-      {
-        "timestamp": "2026-08-13T14:49:01.273618",
-        "papers_found": 4,
-        "duplicates": 2,
-        "irrelevant_filtered": 4,
-        "avg_relevance": 1.5,
-        "high_relevance": 2,
-        "papers": [
-          {
-            "title": "HSTGFormer: Hyper Spatial-Temporal Graph Transformer for 3D Human Pose Estimation",
-            "summary": "Transformer-based methods have achieved strong performance in monocular 3D human pose estimation, but most existing approaches organise spatial and temporal reasoning as separate stages, which may weaken unified spatial-temporal interdependencies inherent in human motion and compress frame-level str",
-            "published": "2026-08-12",
-            "url": "http://arxiv.org/abs/2608.12187v1",
-            "seed_match_score": 1
-          },
-          {
-            "title": "Faithful, Sufficient and Understandable: Rethinking Graph Counterfactual Explanations via Discrete Diffusion Inversion",
-            "summary": "Graph Neural Networks (GNNs) achieve strong predictive performance on graph-structured data across domains such as chemistry, biology, and network analysis, yet they provide no intrinsic explanation of their predictions. This limits their adoption in high-stakes and safety-critical settings. Counter",
-            "published": "2026-08-12",
-            "url": "http://arxiv.org/abs/2608.12083v1",
-            "seed_match_score": 2
-          },
-          {
-            "title": "Defending against Model Extraction for GNNs with Model Reprogramming",
-            "summary": "Graph Neural Networks (GNNs) serve as the backbone for high-stakes applications in Machine-Learning-as-a-Service (MLaaS). Still, their black-box deployment exposes them to Model Extraction (ME) attacks, in which adversaries steal intellectual property by querying APIs. Existing defenses suffer from ",
-            "published": "2026-08-11",
-            "url": "http://arxiv.org/abs/2608.11495v1",
-            "seed_match_score": 2
-          }
-        ]
-      },
       {
         "timestamp": "2026-08-14T10:45:35.270392",
         "papers_found": 2,
@@ -8503,6 +8472,23 @@
         "avg_relevance": 0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-11-01T10:51:27.573808",
+        "papers_found": 1,
+        "duplicates": 5,
+        "irrelevant_filtered": 4,
+        "avg_relevance": 2.0,
+        "high_relevance": 1,
+        "papers": [
+          {
+            "title": "Bridging Semantics and Structure: A Theoretically Grounded Framework for Link Prediction on TAGs",
+            "summary": "Link prediction on text-attributed graphs (TAGs) is a fundamental problem with applications in knowledge discovery, recommendation and beyond. Recent progress has highlighted the promise of combining Graph Neural Networks (GNNs) with Language Models (LMs) in order to leverage the complementary struc",
+            "published": "2026-10-29",
+            "url": "http://arxiv.org/abs/2610.40192v1",
+            "seed_match_score": 2
+          }
+        ]
       }
     ],
     "keywords": [
@@ -8514,6 +8500,6 @@
       "node embedding",
       "graph transformer"
     ],
-    "last_watered": "2026-10-30T01:28:43.264510"
+    "last_watered": "2026-11-01T10:51:27.573804"
   }
 }
