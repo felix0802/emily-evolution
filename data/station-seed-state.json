@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 851,
+  "_rotation_idx": 852,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 96,
@@ -788,25 +788,8 @@
   "liquid-networks": {
     "name": "Liquid Networks",
     "total_papers_found": 118,
-    "watering_count": 88,
+    "watering_count": 89,
     "history": [
-      {
-        "timestamp": "2026-08-13T18:44:25.288628",
-        "papers_found": 1,
-        "duplicates": 8,
-        "irrelevant_filtered": 1,
-        "avg_relevance": 1.0,
-        "high_relevance": 0,
-        "papers": [
-          {
-            "title": "Certifying What Helps Customer-Return Timing: A Screen-and-Confirm Test for Conditioning Signals, and Why Decay Is Nearly Enough",
-            "summary": "Practitioners enrich customer-return models with ever more signals (lifetime value, category, recency/frequency, calendar, geography), and the temporal-point-process (TPP) literature follows suit with covariate- and external-covariate-conditioned intensities. But does any of it improve the timing, a",
-            "published": "2026-08-12",
-            "url": "http://arxiv.org/abs/2608.11555v1",
-            "seed_match_score": 1
-          }
-        ]
-      },
       {
         "timestamp": "2026-08-14T14:43:29.000586",
         "papers_found": 2,
@@ -1630,6 +1613,15 @@
             "seed_match_score": 1
           }
         ]
+      },
+      {
+        "timestamp": "2026-11-01T21:26:07.286909",
+        "papers_found": 0,
+        "duplicates": 8,
+        "irrelevant_filtered": 2,
+        "avg_relevance": 0.0,
+        "high_relevance": 0,
+        "papers": []
       }
     ],
     "keywords": [
@@ -1639,7 +1631,7 @@
       "ode",
       "continuous-time"
     ],
-    "last_watered": "2026-10-30T14:39:10.259687"
+    "last_watered": "2026-11-01T21:26:07.286901"
   },
   "htm": {
     "name": "HTM",
