@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 848,
+  "_rotation_idx": 849,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 96,
@@ -6695,18 +6695,9 @@
   },
   "kv-cache": {
     "name": "KV Cache Optimization",
-    "total_papers_found": 126,
-    "watering_count": 82,
+    "total_papers_found": 128,
+    "watering_count": 83,
     "history": [
-      {
-        "timestamp": "2026-08-13T12:40:05.777430",
-        "papers_found": 0,
-        "duplicates": 4,
-        "irrelevant_filtered": 6,
-        "avg_relevance": 0.0,
-        "high_relevance": 0,
-        "papers": []
-      },
       {
         "timestamp": "2026-08-14T08:55:21.436919",
         "papers_found": 1,
@@ -7585,6 +7576,30 @@
             "seed_match_score": 1
           }
         ]
+      },
+      {
+        "timestamp": "2026-11-01T02:51:59.277773",
+        "papers_found": 2,
+        "duplicates": 5,
+        "irrelevant_filtered": 3,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "Only Accepted Tokens Count: An Energy Accounting of Speculative Decoding Under Latency Targets",
+            "summary": "Large language model serving is limited by facility power. Energy per token determines how many tokens a datacenter can serve, while a latency target bounds how quickly each user receives them. During decode, every weight is read from memory for every generated token. Batching amortizes this read ac",
+            "published": "2026-10-29",
+            "url": "http://arxiv.org/abs/2610.40287v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Multi-Token Prediction Done Right",
+            "summary": "Multi-Token Prediction (MTP) is now a common ingredient in language-model pre-training, as it improves downstream performance and enables faster inference through speculative decoding. We identify a flaw in standard MTP training, in which a residual component of the MTP gradient interferes with both",
+            "published": "2026-10-28",
+            "url": "http://arxiv.org/abs/2610.38331v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -7596,7 +7611,7 @@
       "flash attention",
       "speculative decoding"
     ],
-    "last_watered": "2026-10-29T20:43:04.224629"
+    "last_watered": "2026-11-01T02:51:59.277769"
   },
   "gnn": {
     "name": "Graph Neural Networks",

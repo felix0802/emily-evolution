@@ -1,6 +1,23 @@
 {
-  "timestamp": "2026-10-31T22:54:22.471675",
+  "timestamp": "2026-11-01T02:52:12.914627",
   "connections": [
+    {
+      "seed_a": "Mamba (SSM)",
+      "seed_b": "KV Cache Optimization",
+      "shared_keywords": [],
+      "shared_paper_concepts": [
+        "agentic",
+        "attention",
+        "hybrid",
+        "layers",
+        "models",
+        "multi",
+        "prediction",
+        "space"
+      ],
+      "strength": 9,
+      "discovered_at": "2026-11-01T02:52:12.914553"
+    },
     {
       "seed_a": "Mamba (SSM)",
       "seed_b": "Non-Transformer Arch",
@@ -15,7 +32,7 @@
         "state"
       ],
       "strength": 8,
-      "discovered_at": "2026-10-31T22:54:22.471575"
+      "discovered_at": "2026-11-01T02:52:12.914543"
     },
     {
       "seed_a": "Liquid Networks",
@@ -32,7 +49,7 @@
         "with"
       ],
       "strength": 8,
-      "discovered_at": "2026-10-31T22:54:22.471594"
+      "discovered_at": "2026-11-01T02:52:12.914558"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -48,23 +65,7 @@
         "with"
       ],
       "strength": 7,
-      "discovered_at": "2026-10-31T22:54:22.471559"
-    },
-    {
-      "seed_a": "Mamba (SSM)",
-      "seed_b": "KV Cache Optimization",
-      "shared_keywords": [],
-      "shared_paper_concepts": [
-        "agentic",
-        "attention",
-        "hybrid",
-        "layers",
-        "models",
-        "space",
-        "transformer"
-      ],
-      "strength": 7,
-      "discovered_at": "2026-10-31T22:54:22.471588"
+      "discovered_at": "2026-11-01T02:52:12.914529"
     },
     {
       "seed_a": "HTM",
@@ -80,7 +81,7 @@
         "with"
       ],
       "strength": 7,
-      "discovered_at": "2026-10-31T22:54:22.471622"
+      "discovered_at": "2026-11-01T02:52:12.914582"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -95,7 +96,7 @@
         "with"
       ],
       "strength": 6,
-      "discovered_at": "2026-10-31T22:54:22.471568"
+      "discovered_at": "2026-11-01T02:52:12.914536"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -110,7 +111,7 @@
         "with"
       ],
       "strength": 6,
-      "discovered_at": "2026-10-31T22:54:22.471582"
+      "discovered_at": "2026-11-01T02:52:12.914548"
     },
     {
       "seed_a": "HTM",
@@ -125,7 +126,7 @@
         "with"
       ],
       "strength": 6,
-      "discovered_at": "2026-10-31T22:54:22.471614"
+      "discovered_at": "2026-11-01T02:52:12.914575"
     },
     {
       "seed_a": "Spiking Neural Networks",
@@ -140,7 +141,7 @@
         "neural"
       ],
       "strength": 6,
-      "discovered_at": "2026-10-31T22:54:22.471631"
+      "discovered_at": "2026-11-01T02:52:12.914590"
     },
     {
       "seed_a": "Spiking Neural Networks",
@@ -155,7 +156,7 @@
         "with"
       ],
       "strength": 6,
-      "discovered_at": "2026-10-31T22:54:22.471636"
+      "discovered_at": "2026-11-01T02:52:12.914595"
     }
   ],
   "total_seeds": 10

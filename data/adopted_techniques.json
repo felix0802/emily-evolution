@@ -5063,6 +5063,36 @@
         ],
         "decided_at": "2026-10-31T22:54:19.091020"
       }
+    },
+    {
+      "id": "llm-锚点比较框架",
+      "name": "锚点比较框架",
+      "adopted_at": "2026-11-01T02:52:08.918383",
+      "decision": {
+        "tech_id": "llm-锚点比较框架",
+        "tech_name": "锚点比较框架",
+        "action": "adopt",
+        "confidence": 0.85,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-11-01T02:52:08.916582"
+      }
+    },
+    {
+      "id": "llm-重整化群分析",
+      "name": "重整化群分析",
+      "adopted_at": "2026-11-01T02:52:08.918417",
+      "decision": {
+        "tech_id": "llm-重整化群分析",
+        "tech_name": "重整化群分析",
+        "action": "adopt",
+        "confidence": 0.8,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-11-01T02:52:08.916779"
+      }
     }
   ],
   "history": [
@@ -7087,6 +7117,18 @@
       "tech_id": "llm-保形预测（conformal-prediction）",
       "tech_name": "保形预测（Conformal Prediction）",
       "timestamp": "2026-10-31T22:54:19.093407"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-锚点比较框架",
+      "tech_name": "锚点比较框架",
+      "timestamp": "2026-11-01T02:52:08.918400"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-重整化群分析",
+      "tech_name": "重整化群分析",
+      "timestamp": "2026-11-01T02:52:08.918418"
     }
   ]
 }
