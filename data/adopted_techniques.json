@@ -5108,6 +5108,21 @@
         ],
         "decided_at": "2026-11-01T10:51:32.863753"
       }
+    },
+    {
+      "id": "llm-gaze-guided-masking",
+      "name": "Gaze-guided masking",
+      "adopted_at": "2026-11-02T19:52:02.730729",
+      "decision": {
+        "tech_id": "llm-gaze-guided-masking",
+        "tech_name": "Gaze-guided masking",
+        "action": "adopt",
+        "confidence": 0.9,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-11-02T19:52:02.727768"
+      }
     }
   ],
   "history": [
@@ -7150,6 +7165,12 @@
       "tech_id": "llm-谱编织（spectral-braids）",
       "tech_name": "谱编织（Spectral Braids）",
       "timestamp": "2026-11-01T10:51:32.866003"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-gaze-guided-masking",
+      "tech_name": "Gaze-guided masking",
+      "timestamp": "2026-11-02T19:52:02.730735"
     }
   ]
 }

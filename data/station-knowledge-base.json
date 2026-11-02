@@ -1,53 +1,6 @@
 {
   "sessions": [
     {
-      "timestamp": "2026-10-13T08:37:25.854266",
-      "arxiv_papers_count": 18,
-      "arxiv_top_keywords": [
-        "time",
-        "anomaly",
-        "detection",
-        "experts",
-        "computation",
-        "diffusion",
-        "data",
-        "expert",
-        "mixture",
-        "covariate"
-      ],
-      "arxiv_strategies": [
-        "搜索: time series forecasting",
-        "搜索: anomaly detection",
-        "搜索: mixture of experts"
-      ],
-      "huggingface_models": 10,
-      "huggingface_tasks": [
-        "sentence-similarity",
-        "unknown",
-        "text-ranking",
-        "feature-extraction",
-        "fill-mask"
-      ],
-      "ml_datasets": [
-        "Iris",
-        "Wine",
-        "Breast Cancer",
-        "Diabetes"
-      ],
-      "ml_total_tests": 22,
-      "github_trending_repos": 8,
-      "paperswithcode_papers": 8,
-      "evolution": {
-        "discovered": 16,
-        "adopted": 2,
-        "decisions": 2
-      },
-      "seed_watering": {
-        "seed_name": "Spiking Neural Networks",
-        "papers_found": 9
-      }
-    },
-    {
       "timestamp": "2026-10-13T17:12:11.117124",
       "arxiv_papers_count": 17,
       "arxiv_top_keywords": [
@@ -4699,12 +4652,59 @@
         "seed_name": "Spiking Neural Networks",
         "papers_found": 10
       }
+    },
+    {
+      "timestamp": "2026-11-02T19:52:02.741668",
+      "arxiv_papers_count": 20,
+      "arxiv_top_keywords": [
+        "generation",
+        "policy",
+        "trajectories",
+        "attention",
+        "context",
+        "hierarchical",
+        "dynamics",
+        "privacy",
+        "decision",
+        "reader"
+      ],
+      "arxiv_strategies": [
+        "cs.CV 最新",
+        "cs.AI+cs.LG 混合",
+        "cs.CL+cs.CV 混合"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "unknown",
+        "text-generation",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 15,
+        "adopted": 1,
+        "decisions": 1
+      },
+      "seed_watering": {
+        "seed_name": "Non-Transformer Arch",
+        "papers_found": 8
+      }
     }
   ],
   "total_sessions": 101,
-  "last_updated": "2026-11-02T08:31:07.136997",
+  "last_updated": "2026-11-02T19:52:02.741684",
   "evolution_summary": {
-    "total_adopted": 340,
+    "total_adopted": 341,
     "adopted_list": [
       "Knowledge Distillation",
       "World Models / Model-Based RL",
@@ -5045,7 +5045,8 @@
       "保形预测（Conformal Prediction）",
       "锚点比较框架",
       "重整化群分析",
-      "谱编织（Spectral Braids）"
+      "谱编织（Spectral Braids）",
+      "Gaze-guided masking"
     ],
     "seeds": {
       "mamba": {
@@ -5070,8 +5071,8 @@
       },
       "non-transformer": {
         "name": "Non-Transformer Arch",
-        "watering": 88,
-        "papers": 68
+        "watering": 89,
+        "papers": 71
       },
       "few-shot": {
         "name": "Few-Shot Learning",
@@ -5172,18 +5173,18 @@
       },
       "non-transformer": {
         "name": "Non-Transformer Arch",
-        "new_papers": 68,
+        "new_papers": 71,
         "keywords_matched": [
-          "state space",
+          "linear attention",
           "gated linear",
-          "rwkv",
-          "efficient transformer",
           "linear recurrent",
+          "state space",
+          "efficient transformer",
           "mamba",
-          "linear attention"
+          "rwkv"
         ],
-        "high_relevance_total": 8,
-        "avg_relevance_latest": 1.0,
+        "high_relevance_total": 9,
+        "avg_relevance_latest": 1.33,
         "best_papers_count": 0
       },
       "continual-learning": {
@@ -5245,6 +5246,6 @@
         "best_papers_count": 1
       }
     },
-    "last_evolution": "2026-11-02T08:31:07.140802"
+    "last_evolution": "2026-11-02T19:52:02.745326"
   }
 }

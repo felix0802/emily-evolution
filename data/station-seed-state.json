@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 854,
+  "_rotation_idx": 855,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 96,
@@ -3368,18 +3368,9 @@
   },
   "non-transformer": {
     "name": "Non-Transformer Arch",
-    "total_papers_found": 68,
-    "watering_count": 88,
+    "total_papers_found": 71,
+    "watering_count": 89,
     "history": [
-      {
-        "timestamp": "2026-08-14T00:54:15.955737",
-        "papers_found": 0,
-        "duplicates": 8,
-        "irrelevant_filtered": 2,
-        "avg_relevance": 0.0,
-        "high_relevance": 0,
-        "papers": []
-      },
       {
         "timestamp": "2026-08-14T20:19:41.640681",
         "papers_found": 1,
@@ -4150,6 +4141,37 @@
             "seed_match_score": 1
           }
         ]
+      },
+      {
+        "timestamp": "2026-11-02T19:51:55.005970",
+        "papers_found": 3,
+        "duplicates": 5,
+        "irrelevant_filtered": 2,
+        "avg_relevance": 1.33,
+        "high_relevance": 1,
+        "papers": [
+          {
+            "title": "DAMI: Dual-Axis Memory Initialization for Enhanced Long-Context Retrieval in Gated Linear Attention",
+            "summary": "Linear attention scales linearly with sequence length, but its finite-state memory can limit long-context retrieval. In gated linear recurrences, memory retention depends on state decay, which is shaped jointly by gate parameters A_log and dt_bias and by input activations. In controlled Gated DeltaN",
+            "published": "2026-10-30",
+            "url": "http://arxiv.org/abs/2610.41994v1",
+            "seed_match_score": 2
+          },
+          {
+            "title": "SparseGDN: Chunk Sparse in Linear Attention",
+            "summary": "Gated Delta Networks (GDNs) offer linear-time sequence modeling, yet long-context prefill remains costly due to dense intra-chunk computation, recurrent-state updates, and intermediate state storage. We introduce SparseGDN, a hardware-aware framework that combines structured intra-chunk approximatio",
+            "published": "2026-10-30",
+            "url": "http://arxiv.org/abs/2610.41420v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "TensorSSM: Memorizing Spatial Position in Dynamic State Space for Tensor Core Generation",
+            "summary": "High-dimensional tensors are ubiquitous in real-world applications but lead to massive storage overhead. Functional tensor decomposition addresses this by employing neural networks to map element coordinates to tensor cores, significantly reducing the parameters for data compression. However, existi",
+            "published": "2026-10-29",
+            "url": "http://arxiv.org/abs/2610.40871v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -4162,7 +4184,7 @@
       "sub-quadratic",
       "mamba"
     ],
-    "last_watered": "2026-10-31T07:38:24.662207"
+    "last_watered": "2026-11-02T19:51:55.005948"
   },
   "few-shot": {
     "name": "Few-Shot Learning",

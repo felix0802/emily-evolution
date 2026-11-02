@@ -68839,7 +68839,131 @@
         "signal"
       ],
       "first_seen_round": 485
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.42152v1",
+      "title": "GazeRIB: Systematic Evaluation of Multi-Reader Gaze-Guided Chest X-ray Learning",
+      "arxiv_id": "2610.42152",
+      "tokens": [
+        "chest",
+        "evaluation",
+        "gaze",
+        "gazerib",
+        "guided",
+        "multi",
+        "ray",
+        "reader",
+        "systematic"
+      ],
+      "first_seen_round": 486
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.42145v1",
+      "title": "SemEllipsoid: Semantic-aware Shape Abstraction with Ellipsoid",
+      "arxiv_id": "2610.42145",
+      "tokens": [
+        "abstraction",
+        "aware",
+        "ellipsoid",
+        "semantic",
+        "semellipsoid",
+        "shape"
+      ],
+      "first_seen_round": 486
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.42136v1",
+      "title": "ReLift: Dense 3D Tracking as Lifted Trajectory Repair",
+      "arxiv_id": "2610.42136",
+      "tokens": [
+        "dense",
+        "lifted",
+        "relift",
+        "repair",
+        "tracking",
+        "trajectory"
+      ],
+      "first_seen_round": 486
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.42092v1",
+      "title": "Rethinking Asymmetry in Self-Supervised 3D Geometry Learning",
+      "arxiv_id": "2610.42092",
+      "tokens": [
+        "asymmetry",
+        "geometry",
+        "rethinking",
+        "self",
+        "supervised"
+      ],
+      "first_seen_round": 486
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.42082v1",
+      "title": "Think in 360°: Benchmarking and Bootstrapping Panoramic Video Reasoning",
+      "arxiv_id": "2610.42082",
+      "tokens": [
+        "360",
+        "benchmarking",
+        "bootstrapping",
+        "panoramic",
+        "reasoning",
+        "think",
+        "video"
+      ],
+      "first_seen_round": 486
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.41994v1",
+      "title": "DAMI: Dual-Axis Memory Initialization for Enhanced Long-Context Retrieval in Gated Linear Attention",
+      "arxiv_id": "2610.41994",
+      "tokens": [
+        "attention",
+        "axis",
+        "context",
+        "dami",
+        "dual",
+        "enhanced",
+        "gated",
+        "initialization",
+        "linear",
+        "long",
+        "memory",
+        "retrieval"
+      ],
+      "first_seen_round": 486
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.41420v1",
+      "title": "SparseGDN: Chunk Sparse in Linear Attention",
+      "arxiv_id": "2610.41420",
+      "tokens": [
+        "attention",
+        "chunk",
+        "linear",
+        "sparse",
+        "sparsegdn"
+      ],
+      "first_seen_round": 486
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.40871v1",
+      "title": "TensorSSM: Memorizing Spatial Position in Dynamic State Space for Tensor Core Generation",
+      "arxiv_id": "2610.40871",
+      "tokens": [
+        "core",
+        "dynamic",
+        "generation",
+        "memorizing",
+        "position",
+        "space",
+        "spatial",
+        "state",
+        "tensor",
+        "tensorssm"
+      ],
+      "first_seen_round": 486
     }
   ],
-  "total_unique": 4325
+  "total_unique": 4333
 }
