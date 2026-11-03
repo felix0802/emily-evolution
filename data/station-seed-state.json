@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 858,
+  "_rotation_idx": 859,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 96,
@@ -6708,26 +6708,9 @@
   },
   "kv-cache": {
     "name": "KV Cache Optimization",
-    "total_papers_found": 128,
-    "watering_count": 83,
+    "total_papers_found": 134,
+    "watering_count": 84,
     "history": [
-      {
-        "timestamp": "2026-08-14T08:55:21.436919",
-        "papers_found": 1,
-        "duplicates": 2,
-        "irrelevant_filtered": 7,
-        "avg_relevance": 1.0,
-        "high_relevance": 0,
-        "papers": [
-          {
-            "title": "Decoupled Contrastive Decoding via Expert-Aligned Drafting",
-            "summary": "Contrastive Decoding (CD) improves generation quality, but its amateur-model pass makes decoding expensive. Accelerating CD with speculative decoding raises a proposal-alignment question: should the contrastive signal shape the drafter, or should it remain only in verification? We study this questio",
-            "published": "2026-08-13",
-            "url": "http://arxiv.org/abs/2608.12913v1",
-            "seed_match_score": 1
-          }
-        ]
-      },
       {
         "timestamp": "2026-08-15T04:17:51.206233",
         "papers_found": 0,
@@ -7613,6 +7596,37 @@
             "seed_match_score": 1
           }
         ]
+      },
+      {
+        "timestamp": "2026-11-03T22:38:34.760262",
+        "papers_found": 6,
+        "duplicates": 0,
+        "irrelevant_filtered": 4,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "The SIMPLE Law for Energy Cost of LLM Inference",
+            "summary": "Generative AI is billed per token, yet tokens are not equally expensive. Each token enters the KV-cache and raises the cost of those that follow, so energy grows non-linearly along a sequence whose tokens look identical. No analytical model states what a token costs, and the most accurate SOTA model",
+            "published": "2026-11-02",
+            "url": "http://arxiv.org/abs/2611.03330v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "SpecPilot: Autonomous Algorithm Discovery and Systems Optimization for Speculative Decoding",
+            "summary": "Speculative decoding accelerates memory-bound LLM decoding with a lightweight drafter, and parallel drafters extend this speedup by drafting a whole block in one forward pass. However, it remains unclear whether their released systems (stock) attain the full speedup that parallel drafting permits. W",
+            "published": "2026-11-02",
+            "url": "http://arxiv.org/abs/2611.02501v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "FactorSpec: Serving Exact Relational Constraints as Speculative Drafts",
+            "summary": "Speculative decoding speeds up LLM serving by drafting tokens that the target model verifies in one pass, and its gain grows with the drafts the target accepts. Structured outputs should be an ideal case, because much of a record follows from relations among its fields: an itinerary's days follow fr",
+            "published": "2026-11-01",
+            "url": "http://arxiv.org/abs/2611.02297v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -7624,7 +7638,7 @@
       "flash attention",
       "speculative decoding"
     ],
-    "last_watered": "2026-11-01T02:51:59.277769"
+    "last_watered": "2026-11-03T22:38:34.760259"
   },
   "gnn": {
     "name": "Graph Neural Networks",

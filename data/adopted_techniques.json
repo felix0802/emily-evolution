@@ -5168,6 +5168,36 @@
         ],
         "decided_at": "2026-11-03T17:24:53.786745"
       }
+    },
+    {
+      "id": "llm-概率时间序列基础模型（tsfm）",
+      "name": "概率时间序列基础模型（TSFM）",
+      "adopted_at": "2026-11-03T22:38:39.335996",
+      "decision": {
+        "tech_id": "llm-概率时间序列基础模型（tsfm）",
+        "tech_name": "概率时间序列基础模型（TSFM）",
+        "action": "adopt",
+        "confidence": 0.9,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-11-03T22:38:39.333923"
+      }
+    },
+    {
+      "id": "llm-零样本时间序列基础模型",
+      "name": "零样本时间序列基础模型",
+      "adopted_at": "2026-11-03T22:38:39.336020",
+      "decision": {
+        "tech_id": "llm-零样本时间序列基础模型",
+        "tech_name": "零样本时间序列基础模型",
+        "action": "adopt",
+        "confidence": 0.85,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-11-03T22:38:39.334081"
+      }
     }
   ],
   "history": [
@@ -7234,6 +7264,18 @@
       "tech_id": "llm-认证鲁棒性（certified-robustness）",
       "tech_name": "认证鲁棒性（Certified Robustness）",
       "timestamp": "2026-11-03T17:24:53.792365"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-概率时间序列基础模型（tsfm）",
+      "tech_name": "概率时间序列基础模型（TSFM）",
+      "timestamp": "2026-11-03T22:38:39.336002"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-零样本时间序列基础模型",
+      "tech_name": "零样本时间序列基础模型",
+      "timestamp": "2026-11-03T22:38:39.336021"
     }
   ]
 }
