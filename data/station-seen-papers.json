@@ -68963,7 +68963,200 @@
         "tensorssm"
       ],
       "first_seen_round": 486
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.42104v1",
+      "title": "Hyperbolic Inverse Reinforcement Learning",
+      "arxiv_id": "2610.42104",
+      "tokens": [
+        "hyperbolic",
+        "inverse",
+        "reinforcement"
+      ],
+      "first_seen_round": 487
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.42100v1",
+      "title": "Towards Understanding the Impact of Plasticity Loss on Reinforcement Learning in Stochastic Environments",
+      "arxiv_id": "2610.42100",
+      "tokens": [
+        "environments",
+        "impact",
+        "loss",
+        "plasticity",
+        "reinforcement",
+        "stochastic",
+        "understanding"
+      ],
+      "first_seen_round": 487
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.42068v1",
+      "title": "RAMA: Retrieval-Augmented Multi-Agent Routing with Episodic Memory for LEO Satellite Networks",
+      "arxiv_id": "2610.42068",
+      "tokens": [
+        "agent",
+        "augmented",
+        "episodic",
+        "leo",
+        "memory",
+        "multi",
+        "rama",
+        "retrieval",
+        "routing",
+        "satellite"
+      ],
+      "first_seen_round": 487
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.42028v1",
+      "title": "CausalXRL: Explainable Reinforcement Learning through Causal Graph Reasoning",
+      "arxiv_id": "2610.42028",
+      "tokens": [
+        "causal",
+        "causalxrl",
+        "explainable",
+        "graph",
+        "reasoning",
+        "reinforcement"
+      ],
+      "first_seen_round": 487
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.41962v1",
+      "title": "When Is a Game a Markov Decision Process? Correspondences Between Game Theory and Reinforcement Learning",
+      "arxiv_id": "2610.41962",
+      "tokens": [
+        "correspondences",
+        "decision",
+        "game",
+        "game",
+        "markov",
+        "process",
+        "reinforcement",
+        "theory"
+      ],
+      "first_seen_round": 487
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.41951v1",
+      "title": "Aligning MLLMs with the Latent Structure of Human Cognition via Behavior-Derived Semantic Dimensions",
+      "arxiv_id": "2610.41951",
+      "tokens": [
+        "aligning",
+        "behavior",
+        "cognition",
+        "derived",
+        "dimensions",
+        "human",
+        "latent",
+        "mllms",
+        "semantic",
+        "structure"
+      ],
+      "first_seen_round": 487
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.41885v1",
+      "title": "How Much Can Tool Calls Reveal About You? Privacy Leakage from Tool-Call Traces",
+      "arxiv_id": "2610.41885",
+      "tokens": [
+        "call",
+        "calls",
+        "leakage",
+        "much",
+        "privacy",
+        "reveal",
+        "tool",
+        "tool",
+        "traces"
+      ],
+      "first_seen_round": 487
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.41769v1",
+      "title": "Stepwise-Querying: Distilling Reasoning without Access to Teacher Chain-of-Thought",
+      "arxiv_id": "2610.41769",
+      "tokens": [
+        "access",
+        "chain",
+        "distilling",
+        "querying",
+        "reasoning",
+        "stepwise",
+        "teacher",
+        "thought"
+      ],
+      "first_seen_round": 487
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.41743v1",
+      "title": "Task Vectors Can Be Linearly Decomposed into Interpretable and Controllable Components",
+      "arxiv_id": "2610.41743",
+      "tokens": [
+        "components",
+        "controllable",
+        "decomposed",
+        "interpretable",
+        "linearly",
+        "task",
+        "vectors"
+      ],
+      "first_seen_round": 487
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.41520v1",
+      "title": "TACO: Trajectory-Aware Curvature Observation for Memorization Localization and Mitigation in Diffusion Models",
+      "arxiv_id": "2610.41520",
+      "tokens": [
+        "aware",
+        "curvature",
+        "diffusion",
+        "localization",
+        "memorization",
+        "mitigation",
+        "observation",
+        "taco",
+        "trajectory"
+      ],
+      "first_seen_round": 487
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.41190v1",
+      "title": "FlowMoDE: Coarse-to-fine Flow Matching for Detail-aware Sim-to-Real Monocular Depth Estimation",
+      "arxiv_id": "2610.41190",
+      "tokens": [
+        "aware",
+        "coarse",
+        "depth",
+        "detail",
+        "estimation",
+        "fine",
+        "flow",
+        "flowmode",
+        "matching",
+        "monocular",
+        "real",
+        "sim"
+      ],
+      "first_seen_round": 487
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.41127v1",
+      "title": "MotorSense: A Video-EMG Dataset of Motoric Representations for Action Understanding",
+      "arxiv_id": "2610.41127",
+      "tokens": [
+        "action",
+        "dataset",
+        "emg",
+        "motoric",
+        "motorsense",
+        "representations",
+        "understanding",
+        "video"
+      ],
+      "first_seen_round": 487
     }
   ],
-  "total_unique": 4333
+  "total_unique": 4345
 }

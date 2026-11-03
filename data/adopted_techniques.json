@@ -5123,6 +5123,36 @@
         ],
         "decided_at": "2026-11-02T19:52:02.727768"
       }
+    },
+    {
+      "id": "llm-连续空间潜在推理",
+      "name": "连续空间潜在推理",
+      "adopted_at": "2026-11-03T01:54:26.445900",
+      "decision": {
+        "tech_id": "llm-连续空间潜在推理",
+        "tech_name": "连续空间潜在推理",
+        "action": "adopt",
+        "confidence": 0.9,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-11-03T01:54:26.442978"
+      }
+    },
+    {
+      "id": "llm-检索增强多智能体路由",
+      "name": "检索增强多智能体路由",
+      "adopted_at": "2026-11-03T01:54:26.445930",
+      "decision": {
+        "tech_id": "llm-检索增强多智能体路由",
+        "tech_name": "检索增强多智能体路由",
+        "action": "adopt",
+        "confidence": 0.75,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-11-03T01:54:26.443244"
+      }
     }
   ],
   "history": [
@@ -7171,6 +7201,18 @@
       "tech_id": "llm-gaze-guided-masking",
       "tech_name": "Gaze-guided masking",
       "timestamp": "2026-11-02T19:52:02.730735"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-连续空间潜在推理",
+      "tech_name": "连续空间潜在推理",
+      "timestamp": "2026-11-03T01:54:26.445906"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-检索增强多智能体路由",
+      "tech_name": "检索增强多智能体路由",
+      "timestamp": "2026-11-03T01:54:26.445932"
     }
   ]
 }
