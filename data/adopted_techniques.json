@@ -5153,6 +5153,21 @@
         ],
         "decided_at": "2026-11-03T01:54:26.443244"
       }
+    },
+    {
+      "id": "llm-认证鲁棒性（certified-robustness）",
+      "name": "认证鲁棒性（Certified Robustness）",
+      "adopted_at": "2026-11-03T17:24:53.792353",
+      "decision": {
+        "tech_id": "llm-认证鲁棒性（certified-robustness）",
+        "tech_name": "认证鲁棒性（Certified Robustness）",
+        "action": "adopt",
+        "confidence": 0.9,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-11-03T17:24:53.786745"
+      }
     }
   ],
   "history": [
@@ -7213,6 +7228,12 @@
       "tech_id": "llm-检索增强多智能体路由",
       "tech_name": "检索增强多智能体路由",
       "timestamp": "2026-11-03T01:54:26.445932"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-认证鲁棒性（certified-robustness）",
+      "tech_name": "认证鲁棒性（Certified Robustness）",
+      "timestamp": "2026-11-03T17:24:53.792365"
     }
   ]
 }

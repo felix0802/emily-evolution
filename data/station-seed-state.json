@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 857,
+  "_rotation_idx": 858,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 96,
@@ -5759,26 +5759,9 @@
   },
   "moe": {
     "name": "Mixture of Experts",
-    "total_papers_found": 130,
-    "watering_count": 82,
+    "total_papers_found": 135,
+    "watering_count": 83,
     "history": [
-      {
-        "timestamp": "2026-08-14T07:03:55.167143",
-        "papers_found": 1,
-        "duplicates": 5,
-        "irrelevant_filtered": 4,
-        "avg_relevance": 2.0,
-        "high_relevance": 1,
-        "papers": [
-          {
-            "title": "RoutePack: Expert Placement and Attention-Aware Data Packing for MoE Reinforcement Learning",
-            "summary": "Training Mixture-of-Experts (MoE) models for reinforcement learning (RL) couples two load-balancing problems: sequence composition determines dense attention work in each data-parallel microbatch, while token routing determines sparse expert work on expert-parallel ranks. Optimizing either alone can",
-            "published": "2026-08-12",
-            "url": "http://arxiv.org/abs/2608.12146v1",
-            "seed_match_score": 2
-          }
-        ]
-      },
       {
         "timestamp": "2026-08-15T02:42:13.398358",
         "papers_found": 0,
@@ -6679,6 +6662,37 @@
             "seed_match_score": 3
           }
         ]
+      },
+      {
+        "timestamp": "2026-11-03T17:24:48.144946",
+        "papers_found": 5,
+        "duplicates": 0,
+        "irrelevant_filtered": 5,
+        "avg_relevance": 1.4,
+        "high_relevance": 2,
+        "papers": [
+          {
+            "title": "Sonar-MoE: In-Backward Expert Updates for Memory-Efficient Mixture-of-Experts Training",
+            "summary": "Most parameters of a Mixture-of-Experts (MoE) model belong to its experts, and standard training keeps every expert gradient in GPU memory until the optimizer step. This memory grows with the number and size of the experts, so it rises as MoE models scale. We introduce Sonar-MoE, which updates each ",
+            "published": "2026-11-02",
+            "url": "http://arxiv.org/abs/2611.03577v1",
+            "seed_match_score": 2
+          },
+          {
+            "title": "NormMoX: A Normative Mixture of Experts for Explainable Autism Classification from Structural and Functional MRI",
+            "summary": "While structural and functional magnetic resonance imaging (sMRI, fMRI) offer profound potential for researching autism spectrum disorder (ASD) and understanding individual neurodivergence, current classifiers lack the explanatory power needed for scientific study, clinical use and personal-level in",
+            "published": "2026-11-02",
+            "url": "http://arxiv.org/abs/2611.03349v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "VioTech: Frame-Level Violin Playing Technique Detection with Multi-Scale Mixture-of-Experts",
+            "summary": "Playing technique is crucial for expressive violin performance, yet few violin technique detection models exist. Current systems mainly rely on note-level pipelines that first estimate note boundaries and then classify techniques. This is especially problematic for bowed string instruments such as t",
+            "published": "2026-11-02",
+            "url": "http://arxiv.org/abs/2611.02680v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -6690,7 +6704,7 @@
       "switch transformer",
       "deepseek"
     ],
-    "last_watered": "2026-10-31T22:54:13.638199"
+    "last_watered": "2026-11-03T17:24:48.144940"
   },
   "kv-cache": {
     "name": "KV Cache Optimization",

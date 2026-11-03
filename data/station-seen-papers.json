@@ -69450,7 +69450,326 @@
         "tasks"
       ],
       "first_seen_round": 488
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.03350v1",
+      "title": "Certifying Graph Neural Networks Against Label and Structure Poisoning",
+      "arxiv_id": "2611.03350",
+      "tokens": [
+        "against",
+        "certifying",
+        "graph",
+        "label",
+        "neural",
+        "poisoning",
+        "structure"
+      ],
+      "first_seen_round": 489
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.03054v1",
+      "title": "Resilient Cell-Free MIMO ISAC Under Uncertainties: An Impairment-Aware Graph Neural Network Framework",
+      "arxiv_id": "2611.03054",
+      "tokens": [
+        "aware",
+        "cell",
+        "free",
+        "graph",
+        "impairment",
+        "isac",
+        "mimo",
+        "neural",
+        "resilient",
+        "uncertainties"
+      ],
+      "first_seen_round": 489
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.02900v1",
+      "title": "Control Foundation Models across Changing Block Diagrams: Generalizing Time-Series Prediction to Dynamic Graphs",
+      "arxiv_id": "2611.02900",
+      "tokens": [
+        "block",
+        "changing",
+        "control",
+        "diagrams",
+        "dynamic",
+        "foundation",
+        "generalizing",
+        "graphs",
+        "prediction",
+        "series",
+        "time"
+      ],
+      "first_seen_round": 489
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.02277v1",
+      "title": "Atom-Wise Allocation of Message-Passing Scale for Molecular Property Prediction",
+      "arxiv_id": "2611.02277",
+      "tokens": [
+        "allocation",
+        "atom",
+        "message",
+        "molecular",
+        "passing",
+        "prediction",
+        "property",
+        "scale",
+        "wise"
+      ],
+      "first_seen_round": 489
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.01473v1",
+      "title": "A Surrogate Model for Variation-Aware Clock-Mesh Analysis and Design-Space Exploration using Graph Neural Networks",
+      "arxiv_id": "2611.01473",
+      "tokens": [
+        "aware",
+        "clock",
+        "design",
+        "exploration",
+        "graph",
+        "mesh",
+        "neural",
+        "space",
+        "surrogate",
+        "variation"
+      ],
+      "first_seen_round": 489
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.01069v1",
+      "title": "On Sparse Graph Limits for Neural Combinatorial Optimization",
+      "arxiv_id": "2611.01069",
+      "tokens": [
+        "combinatorial",
+        "graph",
+        "limits",
+        "neural",
+        "optimization",
+        "sparse"
+      ],
+      "first_seen_round": 489
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.02114v1",
+      "title": "CNN-Based Retinal OCT Classification: Research Gap Analysis and a From-Scratch Baseline, ED126-A",
+      "arxiv_id": "2611.02114",
+      "tokens": [
+        "baseline",
+        "classification",
+        "cnn",
+        "ed126",
+        "gap",
+        "oct",
+        "research",
+        "retinal",
+        "scratch"
+      ],
+      "first_seen_round": 489
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.41807v1",
+      "title": "Exploring Bad Minima in Transfer Learning",
+      "arxiv_id": "2610.41807",
+      "tokens": [
+        "bad",
+        "exploring",
+        "minima",
+        "transfer"
+      ],
+      "first_seen_round": 489
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.41518v1",
+      "title": "Enhancing Sentiment Classification on Small Datasets through Data Augmentation and Transfer Learning",
+      "arxiv_id": "2610.41518",
+      "tokens": [
+        "augmentation",
+        "classification",
+        "datasets",
+        "enhancing",
+        "sentiment",
+        "transfer"
+      ],
+      "first_seen_round": 489
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.02815v1",
+      "title": "Predictive Safety Guardrails Do Not Always Make LLM Agents Safer",
+      "arxiv_id": "2611.02815",
+      "tokens": [
+        "agents",
+        "always",
+        "guardrails",
+        "llm",
+        "make",
+        "predictive",
+        "safer",
+        "safety"
+      ],
+      "first_seen_round": 489
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.02807v1",
+      "title": "Creating Hybrid Interactive Narrative Systems with LLM: From Formal Description to Evaluation",
+      "arxiv_id": "2611.02807",
+      "tokens": [
+        "creating",
+        "description",
+        "evaluation",
+        "formal",
+        "hybrid",
+        "interactive",
+        "llm",
+        "narrative"
+      ],
+      "first_seen_round": 489
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.02690v1",
+      "title": "Human-Oriented World Model",
+      "arxiv_id": "2611.02690",
+      "tokens": [
+        "human",
+        "oriented",
+        "world"
+      ],
+      "first_seen_round": 489
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.02341v1",
+      "title": "AgiWorld: An Agentic Video World Model for Building Persistent Worlds",
+      "arxiv_id": "2611.02341",
+      "tokens": [
+        "agentic",
+        "agiworld",
+        "building",
+        "persistent",
+        "video",
+        "world",
+        "worlds"
+      ],
+      "first_seen_round": 489
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.01986v1",
+      "title": "RubricWorld: World Model-Guided Rubric Optimization for LLM Graders",
+      "arxiv_id": "2611.01986",
+      "tokens": [
+        "graders",
+        "guided",
+        "llm",
+        "optimization",
+        "rubric",
+        "rubricworld",
+        "world"
+      ],
+      "first_seen_round": 489
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.01844v1",
+      "title": "OpenNWM: A Generalist Navigation World Model with Latent Action Pretraining",
+      "arxiv_id": "2611.01844",
+      "tokens": [
+        "action",
+        "generalist",
+        "latent",
+        "navigation",
+        "opennwm",
+        "pretraining",
+        "world"
+      ],
+      "first_seen_round": 489
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.03577v1",
+      "title": "Sonar-MoE: In-Backward Expert Updates for Memory-Efficient Mixture-of-Experts Training",
+      "arxiv_id": "2611.03577",
+      "tokens": [
+        "backward",
+        "expert",
+        "experts",
+        "memory",
+        "mixture",
+        "moe",
+        "sonar",
+        "training",
+        "updates"
+      ],
+      "first_seen_round": 489
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.03349v1",
+      "title": "NormMoX: A Normative Mixture of Experts for Explainable Autism Classification from Structural and Functional MRI",
+      "arxiv_id": "2611.03349",
+      "tokens": [
+        "autism",
+        "classification",
+        "experts",
+        "explainable",
+        "functional",
+        "mixture",
+        "mri",
+        "normative",
+        "normmox",
+        "structural"
+      ],
+      "first_seen_round": 489
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.02680v1",
+      "title": "VioTech: Frame-Level Violin Playing Technique Detection with Multi-Scale Mixture-of-Experts",
+      "arxiv_id": "2611.02680",
+      "tokens": [
+        "detection",
+        "experts",
+        "frame",
+        "level",
+        "mixture",
+        "multi",
+        "playing",
+        "scale",
+        "technique",
+        "violin",
+        "viotech"
+      ],
+      "first_seen_round": 489
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.01704v1",
+      "title": "MatMoE: Matryoshka Mixture-of-Experts with Dynamic Mixed-Precision Quantization for Efficient Inference",
+      "arxiv_id": "2611.01704",
+      "tokens": [
+        "dynamic",
+        "experts",
+        "inference",
+        "matmoe",
+        "matryoshka",
+        "mixed",
+        "mixture",
+        "precision",
+        "quantization"
+      ],
+      "first_seen_round": 489
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.01602v1",
+      "title": "When Does Sparse Routing Help? The Geometry of Expert Separation in Mixture of Experts",
+      "arxiv_id": "2611.01602",
+      "tokens": [
+        "expert",
+        "experts",
+        "geometry",
+        "help",
+        "mixture",
+        "routing",
+        "separation",
+        "sparse"
+      ],
+      "first_seen_round": 489
     }
   ],
-  "total_unique": 4363
+  "total_unique": 4383
 }
