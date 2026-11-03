@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 856,
+  "_rotation_idx": 857,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 96,
@@ -4827,26 +4827,9 @@
   },
   "continual-learning": {
     "name": "Continual Learning",
-    "total_papers_found": 141,
-    "watering_count": 86,
+    "total_papers_found": 147,
+    "watering_count": 87,
     "history": [
-      {
-        "timestamp": "2026-08-14T05:22:51.730940",
-        "papers_found": 1,
-        "duplicates": 7,
-        "irrelevant_filtered": 2,
-        "avg_relevance": 1.0,
-        "high_relevance": 0,
-        "papers": [
-          {
-            "title": "Sustaining Plasticity via Learnable Wavelet Activations in Continual Learning",
-            "summary": "Plasticity loss has emerged as a critical challenge in continual learning that significantly hinders the acquisition of sequential tasks. While optimizing activation designs offers a potential solution, current fixed-form functions suffer from an inherent spectral bias towards low-frequency variatio",
-            "published": "2026-08-13",
-            "url": "http://arxiv.org/abs/2608.12874v1",
-            "seed_match_score": 1
-          }
-        ]
-      },
       {
         "timestamp": "2026-08-15T00:30:49.068145",
         "papers_found": 0,
@@ -5732,6 +5715,37 @@
             "seed_match_score": 1
           }
         ]
+      },
+      {
+        "timestamp": "2026-11-03T08:44:09.828348",
+        "papers_found": 6,
+        "duplicates": 0,
+        "irrelevant_filtered": 4,
+        "avg_relevance": 1.5,
+        "high_relevance": 3,
+        "papers": [
+          {
+            "title": "BISECT: Bilevel Spectral Decomposition for Low-Rank Continual Learning",
+            "summary": "Exemplar-free continual learning on pre-trained Vision Transformers increasingly relies on Low-Rank Adaptation (LoRA), yet prevailing methods govern the low-rank update space through strict subspace isolation. By projecting each incoming task into the approximate null space of historical token activ",
+            "published": "2026-11-02",
+            "url": "http://arxiv.org/abs/2611.03574v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "RASP: Read-All, Sparse-Plasticity Continual Learning in a Stationary-Size LoRA",
+            "summary": "Parameter-efficient continual learning on pre-trained Vision Transformers largely relies on a costly premise: preventing catastrophic forgetting requires either spawning a dedicated LoRA branch per session---causing adapter parameters to scale linearly with task horizon---or applying sparse Mixture-",
+            "published": "2026-11-02",
+            "url": "http://arxiv.org/abs/2611.03513v1",
+            "seed_match_score": 2
+          },
+          {
+            "title": "Replay for LLM Continual Learning with Multi-Teacher On-Policy Distillation",
+            "summary": "Multi-teacher on-policy distillation (MOPD) distills domain experts into one student but needs every expert at once. When domains arrive one at a time and earlier experts are gone, the previous-stage student can teach replayed prompts of earlier domains inside every stage. Some pipelines instead sto",
+            "published": "2026-11-02",
+            "url": "http://arxiv.org/abs/2611.02746v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -5741,7 +5755,7 @@
       "ewc",
       "elastic weight"
     ],
-    "last_watered": "2026-10-31T18:06:03.932716"
+    "last_watered": "2026-11-03T08:44:09.828341"
   },
   "moe": {
     "name": "Mixture of Experts",
