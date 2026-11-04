@@ -70073,7 +70073,204 @@
         "recompute"
       ],
       "first_seen_round": 490
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.04137v1",
+      "title": "LoopKV: Loop-Aware KV Cache Compression for Serving Looped Transformers",
+      "arxiv_id": "2611.04137",
+      "tokens": [
+        "aware",
+        "cache",
+        "compression",
+        "loop",
+        "looped",
+        "loopkv",
+        "serving",
+        "transformers"
+      ],
+      "first_seen_round": 491
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.03998v1",
+      "title": "Dory1.0-4B: A Looped Normalized-GPT",
+      "arxiv_id": "2611.03998",
+      "tokens": [
+        "dory1",
+        "gpt",
+        "looped",
+        "normalized"
+      ],
+      "first_seen_round": 491
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.03992v1",
+      "title": "FlagRot: Selective Rotation for Low-Bit KV Caches",
+      "arxiv_id": "2611.03992",
+      "tokens": [
+        "bit",
+        "caches",
+        "flagrot",
+        "low",
+        "rotation",
+        "selective"
+      ],
+      "first_seen_round": 491
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.03142v1",
+      "title": "DepthGraft: Structural Regularization through Hierarchical Cross-Layer KV Reconstruction",
+      "arxiv_id": "2611.03142",
+      "tokens": [
+        "cross",
+        "depthgraft",
+        "hierarchical",
+        "layer",
+        "reconstruction",
+        "regularization",
+        "structural"
+      ],
+      "first_seen_round": 491
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.02011v1",
+      "title": "MedPsy: State-of-the-Art Small Medical Language Models for Efficient Edge Deployment",
+      "arxiv_id": "2611.02011",
+      "tokens": [
+        "art",
+        "deployment",
+        "edge",
+        "language",
+        "medical",
+        "medpsy",
+        "state"
+      ],
+      "first_seen_round": 491
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.04751v1",
+      "title": "What Does It Mean to Remove an Edge? Intervention-Aware Fidelity for Graph Neural Network Explanations",
+      "arxiv_id": "2611.04751",
+      "tokens": [
+        "aware",
+        "edge",
+        "explanations",
+        "fidelity",
+        "graph",
+        "intervention",
+        "mean",
+        "neural",
+        "remove"
+      ],
+      "first_seen_round": 491
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.04670v1",
+      "title": "Sheaf-MPNN: A Library for Sheaf Neural Networks as Message Passing",
+      "arxiv_id": "2611.04670",
+      "tokens": [
+        "library",
+        "message",
+        "mpnn",
+        "neural",
+        "passing",
+        "sheaf",
+        "sheaf"
+      ],
+      "first_seen_round": 491
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.04660v1",
+      "title": "Leakage-free evaluation of residual graph convolutional networks for network intrusion detection",
+      "arxiv_id": "2611.04660",
+      "tokens": [
+        "convolutional",
+        "detection",
+        "evaluation",
+        "free",
+        "graph",
+        "intrusion",
+        "leakage",
+        "residual"
+      ],
+      "first_seen_round": 491
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.04217v1",
+      "title": "LENS: Reliability-Aware Stock Prediction via LLM-Extracted Priors and News-Driven Semantic Graphs",
+      "arxiv_id": "2611.04217",
+      "tokens": [
+        "aware",
+        "driven",
+        "extracted",
+        "graphs",
+        "lens",
+        "llm",
+        "news",
+        "prediction",
+        "priors",
+        "reliability",
+        "semantic",
+        "stock"
+      ],
+      "first_seen_round": 491
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.04146v1",
+      "title": "RGDM: Robust Graph Diffusion Model",
+      "arxiv_id": "2611.04146",
+      "tokens": [
+        "diffusion",
+        "graph",
+        "rgdm",
+        "robust"
+      ],
+      "first_seen_round": 491
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.01284v1",
+      "title": "Character-Name Concentration in LLM Fiction: Measuring Displacement and Mitigating Repetition",
+      "arxiv_id": "2611.01284",
+      "tokens": [
+        "character",
+        "concentration",
+        "displacement",
+        "fiction",
+        "llm",
+        "measuring",
+        "mitigating",
+        "name",
+        "repetition"
+      ],
+      "first_seen_round": 491
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.00588v1",
+      "title": "TVP: TV is Almost All You Need for Speculative Decoding",
+      "arxiv_id": "2611.00588",
+      "tokens": [
+        "almost",
+        "decoding",
+        "need",
+        "speculative",
+        "tvp"
+      ],
+      "first_seen_round": 491
+    },
+    {
+      "url": "http://arxiv.org/abs/2610.41177v1",
+      "title": "TraceSpec: Understanding and Improving Speculative Decoding for LLM Agents",
+      "arxiv_id": "2610.41177",
+      "tokens": [
+        "agents",
+        "decoding",
+        "improving",
+        "llm",
+        "speculative",
+        "tracespec",
+        "understanding"
+      ],
+      "first_seen_round": 491
     }
   ],
-  "total_unique": 4402
+  "total_unique": 4415
 }
