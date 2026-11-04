@@ -1,19 +1,10 @@
 {
-  "_rotation_idx": 860,
+  "_rotation_idx": 861,
   "mamba": {
     "name": "Mamba (SSM)",
-    "total_papers_found": 96,
-    "watering_count": 89,
+    "total_papers_found": 101,
+    "watering_count": 90,
     "history": [
-      {
-        "timestamp": "2026-08-14T12:35:46.787042",
-        "papers_found": 0,
-        "duplicates": 8,
-        "irrelevant_filtered": 2,
-        "avg_relevance": 0.0,
-        "high_relevance": 0,
-        "papers": []
-      },
       {
         "timestamp": "2026-08-15T08:13:16.181049",
         "papers_found": 0,
@@ -775,6 +766,37 @@
         "avg_relevance": 0.0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-11-04T11:40:23.720279",
+        "papers_found": 5,
+        "duplicates": 1,
+        "irrelevant_filtered": 4,
+        "avg_relevance": 1.4,
+        "high_relevance": 2,
+        "papers": [
+          {
+            "title": "Diagonal Equivalence in State Space Models: Characterization, Retrieval Rank, and Selective Extensions",
+            "summary": "We classify real and complex state-space models (SSMs) with linear transitions, distinguishing fixed-basis diagonal equivalence from input-output equivalence and tracking coefficient-conditioning windows under coordinate changes. We characterize diagonal equivalence through commuting transition fami",
+            "published": "2026-11-02",
+            "url": "http://arxiv.org/abs/2611.03101v1",
+            "seed_match_score": 2
+          },
+          {
+            "title": "Beyond Unit-Circle Eigenvalues: Invariant Bases for Stable State Space Dynamics",
+            "summary": "Diagonal state space models process long sequences at linear cost, yet the same transition is applied at every step of a rollout, so an unconstrained recurrence holds no quantity fixed and the state decays or grows without bound. Current designs constrain one quantity, and preserving one does not gu",
+            "published": "2026-11-01",
+            "url": "http://arxiv.org/abs/2611.02174v2",
+            "seed_match_score": 1
+          },
+          {
+            "title": "ResMamba: A Dual-Path Convolution-Mamba Model for Music Genre Classification",
+            "summary": "Music genre classification remains a fundamental yet challenging task in music information retrieval, requiring models that capture local time--frequency patterns and long-range temporal dependencies. To address this, we propose ResMamba, a hybrid architecture that augments a ResNet-style four-stage",
+            "published": "2026-10-31",
+            "url": "http://arxiv.org/abs/2611.00746v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -783,7 +805,7 @@
       "ssm",
       "selective scan"
     ],
-    "last_watered": "2026-11-01T17:19:00.106058"
+    "last_watered": "2026-11-04T11:40:23.720276"
   },
   "liquid-networks": {
     "name": "Liquid Networks",

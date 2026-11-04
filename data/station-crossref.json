@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-04T03:36:43.289560",
+  "timestamp": "2026-11-04T11:40:29.544650",
   "connections": [
     {
       "seed_a": "Mamba (SSM)",
@@ -11,63 +11,46 @@
       "shared_paper_concepts": [
         "attention",
         "dual",
-        "learning",
+        "dynamics",
         "linear",
         "memory",
-        "space",
-        "state"
+        "model",
+        "retrieval",
+        "space"
       ],
-      "strength": 11,
-      "discovered_at": "2026-11-04T03:36:43.289484"
+      "strength": 13,
+      "discovered_at": "2026-11-04T11:40:29.544576"
     },
     {
       "seed_a": "Mamba (SSM)",
       "seed_b": "Mixture of Experts",
       "shared_keywords": [],
       "shared_paper_concepts": [
+        "classification",
         "efficient",
         "experts",
-        "from",
         "memory",
         "mixture",
-        "multi",
         "training",
         "with"
       ],
-      "strength": 8,
-      "discovered_at": "2026-11-04T03:36:43.289492"
+      "strength": 7,
+      "discovered_at": "2026-11-04T11:40:29.544582"
     },
     {
       "seed_a": "Mamba (SSM)",
       "seed_b": "Liquid Networks",
       "shared_keywords": [],
       "shared_paper_concepts": [
-        "learning",
         "linear",
         "models",
-        "reinforcement",
+        "stable",
         "time",
         "training",
         "with"
       ],
-      "strength": 7,
-      "discovered_at": "2026-11-04T03:36:43.289468"
-    },
-    {
-      "seed_a": "Mamba (SSM)",
-      "seed_b": "Continual Learning",
-      "shared_keywords": [],
-      "shared_paper_concepts": [
-        "from",
-        "learning",
-        "multi",
-        "reinforcement",
-        "routed",
-        "using",
-        "with"
-      ],
-      "strength": 7,
-      "discovered_at": "2026-11-04T03:36:43.289488"
+      "strength": 6,
+      "discovered_at": "2026-11-04T11:40:29.544560"
     },
     {
       "seed_a": "Spiking Neural Networks",
@@ -82,7 +65,7 @@
         "neural"
       ],
       "strength": 6,
-      "discovered_at": "2026-11-04T03:36:43.289529"
+      "discovered_at": "2026-11-04T11:40:29.544618"
     },
     {
       "seed_a": "Spiking Neural Networks",
@@ -96,20 +79,7 @@
         "with"
       ],
       "strength": 5,
-      "discovered_at": "2026-11-04T03:36:43.289532"
-    },
-    {
-      "seed_a": "Mamba (SSM)",
-      "seed_b": "KV Cache Optimization",
-      "shared_keywords": [],
-      "shared_paper_concepts": [
-        "hybrid",
-        "models",
-        "multi",
-        "prediction"
-      ],
-      "strength": 4,
-      "discovered_at": "2026-11-04T03:36:43.289495"
+      "discovered_at": "2026-11-04T11:40:29.544621"
     },
     {
       "seed_a": "Liquid Networks",
@@ -122,7 +92,7 @@
         "rate"
       ],
       "strength": 4,
-      "discovered_at": "2026-11-04T03:36:43.289500"
+      "discovered_at": "2026-11-04T11:40:29.544588"
     },
     {
       "seed_a": "Liquid Networks",
@@ -135,19 +105,43 @@
         "with"
       ],
       "strength": 4,
-      "discovered_at": "2026-11-04T03:36:43.289508"
+      "discovered_at": "2026-11-04T11:40:29.544597"
     },
     {
       "seed_a": "Mamba (SSM)",
       "seed_b": "Spiking Neural Networks",
       "shared_keywords": [],
       "shared_paper_concepts": [
-        "from",
-        "learning",
+        "dynamics",
+        "model",
         "with"
       ],
       "strength": 3,
-      "discovered_at": "2026-11-04T03:36:43.289481"
+      "discovered_at": "2026-11-04T11:40:29.544572"
+    },
+    {
+      "seed_a": "Mamba (SSM)",
+      "seed_b": "Continual Learning",
+      "shared_keywords": [],
+      "shared_paper_concepts": [
+        "beyond",
+        "rank",
+        "with"
+      ],
+      "strength": 3,
+      "discovered_at": "2026-11-04T11:40:29.544579"
+    },
+    {
+      "seed_a": "Liquid Networks",
+      "seed_b": "Mixture of Experts",
+      "shared_keywords": [],
+      "shared_paper_concepts": [
+        "detection",
+        "training",
+        "with"
+      ],
+      "strength": 3,
+      "discovered_at": "2026-11-04T11:40:29.544599"
     }
   ],
   "total_seeds": 10
