@@ -5213,6 +5213,36 @@
         ],
         "decided_at": "2026-11-04T11:40:29.523217"
       }
+    },
+    {
+      "id": "llm-视频扩散模型用于潜在动作学习",
+      "name": "视频扩散模型用于潜在动作学习",
+      "adopted_at": "2026-11-04T18:57:39.024161",
+      "decision": {
+        "tech_id": "llm-视频扩散模型用于潜在动作学习",
+        "tech_name": "视频扩散模型用于潜在动作学习",
+        "action": "adopt",
+        "confidence": 0.9,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-11-04T18:57:39.020541"
+      }
+    },
+    {
+      "id": "llm-直接纳什优化（dno）",
+      "name": "直接纳什优化（DNO）",
+      "adopted_at": "2026-11-04T18:57:39.024197",
+      "decision": {
+        "tech_id": "llm-直接纳什优化（dno）",
+        "tech_name": "直接纳什优化（DNO）",
+        "action": "adopt",
+        "confidence": 0.85,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-11-04T18:57:39.020764"
+      }
     }
   ],
   "history": [
@@ -7297,6 +7327,18 @@
       "tech_id": "llm-重排序与后期交互检索",
       "tech_name": "重排序与后期交互检索",
       "timestamp": "2026-11-04T11:40:29.525170"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-视频扩散模型用于潜在动作学习",
+      "tech_name": "视频扩散模型用于潜在动作学习",
+      "timestamp": "2026-11-04T18:57:39.024169"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-直接纳什优化（dno）",
+      "tech_name": "直接纳什优化（DNO）",
+      "timestamp": "2026-11-04T18:57:39.024200"
     }
   ]
 }

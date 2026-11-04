@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 861,
+  "_rotation_idx": 862,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 101,
@@ -809,33 +809,9 @@
   },
   "liquid-networks": {
     "name": "Liquid Networks",
-    "total_papers_found": 118,
-    "watering_count": 89,
+    "total_papers_found": 126,
+    "watering_count": 90,
     "history": [
-      {
-        "timestamp": "2026-08-14T14:43:29.000586",
-        "papers_found": 2,
-        "duplicates": 7,
-        "irrelevant_filtered": 1,
-        "avg_relevance": 1.0,
-        "high_relevance": 0,
-        "papers": [
-          {
-            "title": "Virtual Temperature Sensors in Power Transformers Using Neural Ordinary Differential Equations",
-            "summary": "Accurate modeling and forecasting of power transformer thermal behavior are critical for reliability, asset lifetime, and optimized power system operation. Numerical approaches such as finite element methods (FEM) and computational fluid dynamics (CFD) offer high fidelity but are computationally exp",
-            "published": "2026-08-13",
-            "url": "http://arxiv.org/abs/2608.13260v1",
-            "seed_match_score": 1
-          },
-          {
-            "title": "Incremental Evaluation and Training in Relational Deep Learning",
-            "summary": "Relational Deep Learning (RDL) models multi-tabular databases as temporal heterogeneous graphs to enable end-to-end representation learning. However, prevailing RDL evaluation practices rely on static, single-episode dataset snapshots, overlooking the continuous, time-evolving nature of real-world d",
-            "published": "2026-08-13",
-            "url": "http://arxiv.org/abs/2608.13023v1",
-            "seed_match_score": 1
-          }
-        ]
-      },
       {
         "timestamp": "2026-08-15T10:10:11.607457",
         "papers_found": 0,
@@ -1644,6 +1620,37 @@
         "avg_relevance": 0.0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-11-04T18:57:33.846400",
+        "papers_found": 8,
+        "duplicates": 0,
+        "irrelevant_filtered": 2,
+        "avg_relevance": 1.38,
+        "high_relevance": 3,
+        "papers": [
+          {
+            "title": "Finite Spectral Depth Controls Gaussian Entrance Rank and Avoidance of the First Gradient-Flow Saddle",
+            "summary": "Matrix factorization provides a simple model for studying the training dynamics of neural networks. Recent studies of gradient flow under small initialization have analyzed how trajectories escape from a neighborhood of the origin and approach their first nonzero stationary point. In this paper, we ",
+            "published": "2026-11-03",
+            "url": "http://arxiv.org/abs/2611.05022v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "On Stochastic Continuous-Time Linear System Identification for Adaptive Stabilization",
+            "summary": "Learning to stabilize an unknown continuous-time stochastic linear system is a central problem in control theory and reinforcement learning. This paper numerically studies data-driven identification of such systems with possibly unstable dynamics for the purpose of stabilization. We present a method",
+            "published": "2026-11-02",
+            "url": "http://arxiv.org/abs/2611.02340v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Generative Modeling with Continuous Flows: Sample Complexity of Flow Matching",
+            "summary": "Flow matching has emerged as a promising alternative to diffusion-based generative modeling, offering a continuous-time ordinary differential equation formulation with fast sampling and a simple regression-based training objective. Despite its empirical success, some theoretical analyses idealize th",
+            "published": "2026-11-01",
+            "url": "http://arxiv.org/abs/2611.01559v1",
+            "seed_match_score": 2
+          }
+        ]
       }
     ],
     "keywords": [
@@ -1653,7 +1660,7 @@
       "ode",
       "continuous-time"
     ],
-    "last_watered": "2026-11-01T21:26:07.286901"
+    "last_watered": "2026-11-04T18:57:33.846395"
   },
   "htm": {
     "name": "HTM",
