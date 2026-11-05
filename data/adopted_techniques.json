@@ -5273,6 +5273,36 @@
         ],
         "decided_at": "2026-11-05T00:34:57.968952"
       }
+    },
+    {
+      "id": "llm-通用机器人策略强化学习",
+      "name": "通用机器人策略强化学习",
+      "adopted_at": "2026-11-05T08:39:45.374939",
+      "decision": {
+        "tech_id": "llm-通用机器人策略强化学习",
+        "tech_name": "通用机器人策略强化学习",
+        "action": "adopt",
+        "confidence": 0.9,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-11-05T08:39:45.370926"
+      }
+    },
+    {
+      "id": "llm-pass@(k,t)-评估",
+      "name": "Pass@(K,T) 评估",
+      "adopted_at": "2026-11-05T08:39:45.374980",
+      "decision": {
+        "tech_id": "llm-pass@(k,t)-评估",
+        "tech_name": "Pass@(K,T) 评估",
+        "action": "adopt",
+        "confidence": 0.85,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-11-05T08:39:45.371206"
+      }
     }
   ],
   "history": [
@@ -7381,6 +7411,18 @@
       "tech_id": "llm-3d-gaussian-splatting-压缩",
       "tech_name": "3D Gaussian Splatting 压缩",
       "timestamp": "2026-11-05T00:34:57.971831"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-通用机器人策略强化学习",
+      "tech_name": "通用机器人策略强化学习",
+      "timestamp": "2026-11-05T08:39:45.374947"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-pass@(k,t)-评估",
+      "tech_name": "Pass@(K,T) 评估",
+      "timestamp": "2026-11-05T08:39:45.374983"
     }
   ]
 }

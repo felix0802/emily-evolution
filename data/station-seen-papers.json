@@ -70891,7 +70891,329 @@
         "weakly"
       ],
       "first_seen_round": 494
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.06905v1",
+      "title": "Reinforcement Learning Enables Scaling Generalist Robot Policy Improvement",
+      "arxiv_id": "2611.06905",
+      "tokens": [
+        "enables",
+        "generalist",
+        "improvement",
+        "policy",
+        "reinforcement",
+        "robot",
+        "scaling"
+      ],
+      "first_seen_round": 495
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.06704v1",
+      "title": "Where It Breaks: Diagnosing Perception, Memory, and Decision Failures of a Vision-Language Agent in Pac-Man",
+      "arxiv_id": "2611.06704",
+      "tokens": [
+        "agent",
+        "breaks",
+        "decision",
+        "diagnosing",
+        "failures",
+        "language",
+        "man",
+        "memory",
+        "pac",
+        "perception",
+        "vision"
+      ],
+      "first_seen_round": 495
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.06554v1",
+      "title": "RAGAM-AI: A Hybrid Reinforcement Learning based Agentic approach powered by Generative AI for Edge Resource Management",
+      "arxiv_id": "2611.06554",
+      "tokens": [
+        "agentic",
+        "edge",
+        "generative",
+        "hybrid",
+        "management",
+        "powered",
+        "ragam",
+        "reinforcement",
+        "resource"
+      ],
+      "first_seen_round": 495
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.06483v1",
+      "title": "What Does Multi-Turn Reinforcement Learning Really Improve in LLM Agents?",
+      "arxiv_id": "2611.06483",
+      "tokens": [
+        "agents",
+        "improve",
+        "llm",
+        "multi",
+        "really",
+        "reinforcement",
+        "turn"
+      ],
+      "first_seen_round": 495
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.06395v1",
+      "title": "GIST: Gibbs-Targeted Hierarchical Data Selection for Offline RLVR",
+      "arxiv_id": "2611.06395",
+      "tokens": [
+        "gibbs",
+        "gist",
+        "hierarchical",
+        "offline",
+        "rlvr",
+        "selection",
+        "targeted"
+      ],
+      "first_seen_round": 495
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.06324v1",
+      "title": "Mass Producing Training Data with Surprising Side Effects",
+      "arxiv_id": "2611.06324",
+      "tokens": [
+        "effects",
+        "mass",
+        "producing",
+        "side",
+        "surprising",
+        "training"
+      ],
+      "first_seen_round": 495
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.06914v1",
+      "title": "A Framework for Context Enrichment and Selective Robustness in LLM Social Agents",
+      "arxiv_id": "2611.06914",
+      "tokens": [
+        "agents",
+        "context",
+        "enrichment",
+        "llm",
+        "robustness",
+        "selective",
+        "social"
+      ],
+      "first_seen_round": 495
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.06848v1",
+      "title": "Persona Perspectives: Adopting Viewpoints Reorganizes Representations in LLMs",
+      "arxiv_id": "2611.06848",
+      "tokens": [
+        "adopting",
+        "llms",
+        "persona",
+        "perspectives",
+        "reorganizes",
+        "representations",
+        "viewpoints"
+      ],
+      "first_seen_round": 495
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.06839v1",
+      "title": "Before You Continue: Evaluating Time-Sensitive Safety Awareness in Conversational Assistants",
+      "arxiv_id": "2611.06839",
+      "tokens": [
+        "assistants",
+        "awareness",
+        "continue",
+        "conversational",
+        "evaluating",
+        "safety",
+        "sensitive",
+        "time"
+      ],
+      "first_seen_round": 495
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.06812v1",
+      "title": "SAUCE: Summary Analysis Using Conversation Entailment",
+      "arxiv_id": "2611.06812",
+      "tokens": [
+        "conversation",
+        "entailment",
+        "sauce",
+        "summary"
+      ],
+      "first_seen_round": 495
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.06808v1",
+      "title": "LLMs Don't Know What They Know: Benchmarking Temporal Self-Knowledge for Financial Backtesting",
+      "arxiv_id": "2611.06808",
+      "tokens": [
+        "backtesting",
+        "benchmarking",
+        "don",
+        "financial",
+        "know",
+        "know",
+        "knowledge",
+        "llms",
+        "self",
+        "temporal"
+      ],
+      "first_seen_round": 495
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.06806v1",
+      "title": "Measuring Risk, Not Harm: Detecting Psychological Harm Risk Factors in LLM Conversations",
+      "arxiv_id": "2611.06806",
+      "tokens": [
+        "conversations",
+        "detecting",
+        "factors",
+        "harm",
+        "harm",
+        "llm",
+        "measuring",
+        "psychological",
+        "risk",
+        "risk"
+      ],
+      "first_seen_round": 495
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.06796v1",
+      "title": "VA-TDM: A Unified View for Improving Few-Step Diffusion Models by Velocity Adversarial Distillation",
+      "arxiv_id": "2611.06796",
+      "tokens": [
+        "adversarial",
+        "diffusion",
+        "distillation",
+        "improving",
+        "step",
+        "tdm",
+        "unified",
+        "velocity",
+        "view"
+      ],
+      "first_seen_round": 495
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.06652v1",
+      "title": "Dynamical State-Space Diffusion for Spatiotemporal Prediction",
+      "arxiv_id": "2611.06652",
+      "tokens": [
+        "diffusion",
+        "dynamical",
+        "prediction",
+        "space",
+        "spatiotemporal",
+        "state"
+      ],
+      "first_seen_round": 495
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.06556v1",
+      "title": "LungMend: A Healthy-Only Latent Diffusion Shape Prior for Lung Mask Correction in Severe Tuberculosis CT",
+      "arxiv_id": "2611.06556",
+      "tokens": [
+        "correction",
+        "diffusion",
+        "healthy",
+        "latent",
+        "lung",
+        "lungmend",
+        "mask",
+        "prior",
+        "severe",
+        "shape",
+        "tuberculosis"
+      ],
+      "first_seen_round": 495
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.06540v1",
+      "title": "Spatially and Compositionally Controlled Multimodal Glioblastoma MRI Synthesis with Latent Diffusion",
+      "arxiv_id": "2611.06540",
+      "tokens": [
+        "compositionally",
+        "controlled",
+        "diffusion",
+        "glioblastoma",
+        "latent",
+        "mri",
+        "multimodal",
+        "spatially",
+        "synthesis"
+      ],
+      "first_seen_round": 495
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.05974v1",
+      "title": "PathoS2VD: From 2D Histopathology to Pseudo Z-Stack Representations",
+      "arxiv_id": "2611.05974",
+      "tokens": [
+        "histopathology",
+        "pathos2vd",
+        "pseudo",
+        "representations",
+        "stack"
+      ],
+      "first_seen_round": 495
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.05755v1",
+      "title": "Decompose the Distillation: Interpretable Single-Pass Guidance for Diffusion Models",
+      "arxiv_id": "2611.05755",
+      "tokens": [
+        "decompose",
+        "diffusion",
+        "distillation",
+        "guidance",
+        "interpretable",
+        "pass",
+        "single"
+      ],
+      "first_seen_round": 495
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.00119v1",
+      "title": "State-Dependent Memristor Dynamics for Device-Informed Spike-Timing-Dependent Plasticity in Spiking Neural Networks",
+      "arxiv_id": "2611.00119",
+      "tokens": [
+        "dependent",
+        "dependent",
+        "device",
+        "dynamics",
+        "informed",
+        "memristor",
+        "neural",
+        "plasticity",
+        "spike",
+        "spiking",
+        "state",
+        "timing"
+      ],
+      "first_seen_round": 495
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.00112v1",
+      "title": "SpikeAD: Toward Multiplication-Free Spike-Controlled Neuromorphic Architecture for Energy-Efficient Small Object Detection",
+      "arxiv_id": "2611.00112",
+      "tokens": [
+        "architecture",
+        "controlled",
+        "detection",
+        "energy",
+        "free",
+        "multiplication",
+        "neuromorphic",
+        "object",
+        "spike",
+        "spikead"
+      ],
+      "first_seen_round": 495
     }
   ],
-  "total_unique": 4455
+  "total_unique": 4475
 }

@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-05T00:35:02.090817",
+  "timestamp": "2026-11-05T08:39:49.737610",
   "connections": [
     {
       "seed_a": "Mamba (SSM)",
@@ -19,7 +19,7 @@
         "space"
       ],
       "strength": 13,
-      "discovered_at": "2026-11-05T00:35:02.090715"
+      "discovered_at": "2026-11-05T08:39:49.737505"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -35,7 +35,7 @@
         "with"
       ],
       "strength": 7,
-      "discovered_at": "2026-11-05T00:35:02.090724"
+      "discovered_at": "2026-11-05T08:39:49.737514"
     },
     {
       "seed_a": "Liquid Networks",
@@ -51,7 +51,23 @@
         "with"
       ],
       "strength": 7,
-      "discovered_at": "2026-11-05T00:35:02.090733"
+      "discovered_at": "2026-11-05T08:39:49.737523"
+    },
+    {
+      "seed_a": "Spiking Neural Networks",
+      "seed_b": "Continual Learning",
+      "shared_keywords": [],
+      "shared_paper_concepts": [
+        "enhances",
+        "free",
+        "from",
+        "networks",
+        "plasticity",
+        "toward",
+        "with"
+      ],
+      "strength": 7,
+      "discovered_at": "2026-11-05T08:39:49.737571"
     },
     {
       "seed_a": "Spiking Neural Networks",
@@ -60,13 +76,13 @@
       "shared_paper_concepts": [
         "aware",
         "dynamics",
-        "learning",
         "model",
         "network",
-        "neural"
+        "neural",
+        "state"
       ],
       "strength": 6,
-      "discovered_at": "2026-11-05T00:35:02.090777"
+      "discovered_at": "2026-11-05T08:39:49.737567"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -80,7 +96,21 @@
         "with"
       ],
       "strength": 5,
-      "discovered_at": "2026-11-05T00:35:02.090695"
+      "discovered_at": "2026-11-05T08:39:49.737484"
+    },
+    {
+      "seed_a": "Mamba (SSM)",
+      "seed_b": "Spiking Neural Networks",
+      "shared_keywords": [],
+      "shared_paper_concepts": [
+        "dynamics",
+        "efficient",
+        "model",
+        "state",
+        "with"
+      ],
+      "strength": 5,
+      "discovered_at": "2026-11-05T08:39:49.737500"
     },
     {
       "seed_a": "Liquid Networks",
@@ -94,21 +124,20 @@
         "with"
       ],
       "strength": 5,
-      "discovered_at": "2026-11-05T00:35:02.090745"
+      "discovered_at": "2026-11-05T08:39:49.737535"
     },
     {
       "seed_a": "Spiking Neural Networks",
-      "seed_b": "Continual Learning",
+      "seed_b": "Mixture of Experts",
       "shared_keywords": [],
       "shared_paper_concepts": [
-        "enhances",
+        "detection",
+        "efficient",
         "from",
-        "learning",
-        "networks",
         "with"
       ],
-      "strength": 5,
-      "discovered_at": "2026-11-05T00:35:02.090781"
+      "strength": 4,
+      "discovered_at": "2026-11-05T08:39:49.737574"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -120,31 +149,7 @@
         "with"
       ],
       "strength": 3,
-      "discovered_at": "2026-11-05T00:35:02.090704"
-    },
-    {
-      "seed_a": "Mamba (SSM)",
-      "seed_b": "Spiking Neural Networks",
-      "shared_keywords": [],
-      "shared_paper_concepts": [
-        "dynamics",
-        "model",
-        "with"
-      ],
-      "strength": 3,
-      "discovered_at": "2026-11-05T00:35:02.090709"
-    },
-    {
-      "seed_a": "Mamba (SSM)",
-      "seed_b": "Continual Learning",
-      "shared_keywords": [],
-      "shared_paper_concepts": [
-        "beyond",
-        "rank",
-        "with"
-      ],
-      "strength": 3,
-      "discovered_at": "2026-11-05T00:35:02.090720"
+      "discovered_at": "2026-11-05T08:39:49.737494"
     }
   ],
   "total_seeds": 10

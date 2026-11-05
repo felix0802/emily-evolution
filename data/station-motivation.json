@@ -1,28 +1,6 @@
 {
   "rounds": [
     {
-      "round": 445,
-      "timestamp": "2026-10-24T17:03:40.296131",
-      "prediction_error": 0.7,
-      "seeds_active": 10,
-      "seeds_dormant": 0,
-      "new_seeds_added": 0,
-      "top_motivated": [
-        [
-          "mamba",
-          0.91
-        ],
-        [
-          "liquid-networks",
-          0.91
-        ],
-        [
-          "spiking-nn",
-          0.91
-        ]
-      ]
-    },
-    {
       "round": 446,
       "timestamp": "2026-10-24T19:54:33.753892",
       "prediction_error": 0.7,
@@ -1099,6 +1077,28 @@
           0.91
         ]
       ]
+    },
+    {
+      "round": 495,
+      "timestamp": "2026-11-05T08:39:39.900272",
+      "prediction_error": 0.7,
+      "seeds_active": 10,
+      "seeds_dormant": 0,
+      "new_seeds_added": 0,
+      "top_motivated": [
+        [
+          "mamba",
+          0.91
+        ],
+        [
+          "liquid-networks",
+          0.91
+        ],
+        [
+          "htm",
+          0.91
+        ]
+      ]
     }
   ],
   "seed_scores": {
@@ -1255,7 +1255,6 @@
       "info_gain_history": [
         1.0,
         1.0,
-        1.0,
         0.667,
         0.667,
         0.667,
@@ -1266,6 +1265,7 @@
         0.667,
         0.667,
         0.667,
+        0.72,
         0.72,
         0.72,
         0.72,
@@ -1315,7 +1315,6 @@
         1.0,
         1.0,
         1.0,
-        1.0,
         0.74,
         0.74,
         0.74,
@@ -1326,6 +1325,7 @@
         0.74,
         0.74,
         0.74,
+        0.96,
         0.96,
         0.96,
         0.96,
@@ -1375,7 +1375,6 @@
         0.202,
         0.202,
         0.202,
-        0.202,
         0.318,
         0.318,
         0.318,
@@ -1386,6 +1385,7 @@
         0.318,
         0.318,
         0.318,
+        0.214,
         0.214,
         0.214,
         0.214,
@@ -1406,6 +1406,6 @@
     "spiking-nn",
     "non-transformer"
   ],
-  "total_motivation_evaluations": 338,
+  "total_motivation_evaluations": 339,
   "current_prediction_error": 0.7
 }
