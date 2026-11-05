@@ -71213,7 +71213,285 @@
         "spikead"
       ],
       "first_seen_round": 495
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.06725v1",
+      "title": "Drowning in Noise: On Signal Saliency in Self-Supervised Learning for Ocean Acoustics",
+      "arxiv_id": "2611.06725",
+      "tokens": [
+        "acoustics",
+        "drowning",
+        "noise",
+        "ocean",
+        "saliency",
+        "self",
+        "signal",
+        "supervised"
+      ],
+      "first_seen_round": 496
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.06105v1",
+      "title": "XuanJian-DINOSAR: A SAR Foundation Model Based on Global and Local Semantic Consistency",
+      "arxiv_id": "2611.06105",
+      "tokens": [
+        "consistency",
+        "dinosar",
+        "foundation",
+        "global",
+        "local",
+        "sar",
+        "semantic",
+        "xuanjian"
+      ],
+      "first_seen_round": 496
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.06015v1",
+      "title": "ChanSFormer: A Channel Agnostic Vision Transformer for Multi-Channel Cell Painting Images",
+      "arxiv_id": "2611.06015",
+      "tokens": [
+        "agnostic",
+        "cell",
+        "channel",
+        "channel",
+        "chansformer",
+        "images",
+        "multi",
+        "painting",
+        "transformer",
+        "vision"
+      ],
+      "first_seen_round": 496
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.05735v1",
+      "title": "Self-Supervised Learning of Universal Latent Spaces for Operator Learning",
+      "arxiv_id": "2611.05735",
+      "tokens": [
+        "latent",
+        "operator",
+        "self",
+        "spaces",
+        "supervised",
+        "universal"
+      ],
+      "first_seen_round": 496
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.05734v1",
+      "title": "Mitigating Spurious Invariance in Contrastive Learning: A Probabilistic Self-Supervised Learning Framework for Medical Image Analysis",
+      "arxiv_id": "2611.05734",
+      "tokens": [
+        "contrastive",
+        "image",
+        "invariance",
+        "medical",
+        "mitigating",
+        "probabilistic",
+        "self",
+        "spurious",
+        "supervised"
+      ],
+      "first_seen_round": 496
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.05711v1",
+      "title": "Self-Supervised Pretraining for Label-Efficient Facial Expression Recognition using Smart Glasses",
+      "arxiv_id": "2611.05711",
+      "tokens": [
+        "expression",
+        "facial",
+        "glasses",
+        "label",
+        "pretraining",
+        "recognition",
+        "self",
+        "smart",
+        "supervised"
+      ],
+      "first_seen_round": 496
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.06389v1",
+      "title": "MA-Mesh: Resilient Multi-Agent Collaboration via Role-based Self-Healing",
+      "arxiv_id": "2611.06389",
+      "tokens": [
+        "agent",
+        "collaboration",
+        "healing",
+        "mesh",
+        "multi",
+        "resilient",
+        "role",
+        "self"
+      ],
+      "first_seen_round": 496
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.05263v1",
+      "title": "JHiMA-WebRL: A Joint Hierarchical Multi-Agent Reinforcement Learning Framework for Long-Horizon Web Tasks",
+      "arxiv_id": "2611.05263",
+      "tokens": [
+        "agent",
+        "hierarchical",
+        "horizon",
+        "jhima",
+        "joint",
+        "long",
+        "multi",
+        "reinforcement",
+        "tasks",
+        "web",
+        "webrl"
+      ],
+      "first_seen_round": 496
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.04977v1",
+      "title": "GeoFaham: Domain-Specialized Multi-Agent Geospatial Analytics for Disaster Response",
+      "arxiv_id": "2611.04977",
+      "tokens": [
+        "agent",
+        "analytics",
+        "disaster",
+        "domain",
+        "geofaham",
+        "geospatial",
+        "multi",
+        "response",
+        "specialized"
+      ],
+      "first_seen_round": 496
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.04556v1",
+      "title": "Inter-Agent Influence: Evaluating Persuasion, Deception, and Coercion in Multi-Agent Systems",
+      "arxiv_id": "2611.04556",
+      "tokens": [
+        "agent",
+        "agent",
+        "coercion",
+        "deception",
+        "evaluating",
+        "influence",
+        "inter",
+        "multi",
+        "persuasion"
+      ],
+      "first_seen_round": 496
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.04321v1",
+      "title": "ATC: Agent Trajectory Control for Role-Contract Enforcement in Black-Box Multi-Agent Systems",
+      "arxiv_id": "2611.04321",
+      "tokens": [
+        "agent",
+        "agent",
+        "atc",
+        "black",
+        "box",
+        "contract",
+        "control",
+        "enforcement",
+        "multi",
+        "role",
+        "trajectory"
+      ],
+      "first_seen_round": 496
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.04315v1",
+      "title": "Drift No More: Spectral Locking for Long-Horizon Open-Weight Multi-Agent AI",
+      "arxiv_id": "2611.04315",
+      "tokens": [
+        "agent",
+        "drift",
+        "horizon",
+        "locking",
+        "long",
+        "multi",
+        "open",
+        "spectral",
+        "weight"
+      ],
+      "first_seen_round": 496
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.06828v1",
+      "title": "Systolic Linear Attention: Co-Designing Tile-Grouped Gated Delta Attention for TPUs",
+      "arxiv_id": "2611.06828",
+      "tokens": [
+        "attention",
+        "attention",
+        "delta",
+        "designing",
+        "gated",
+        "grouped",
+        "linear",
+        "systolic",
+        "tile",
+        "tpus"
+      ],
+      "first_seen_round": 496
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.06133v1",
+      "title": "Accelerating Long-Context Decoding in Large-Scale Hybrid LLMs Without Retraining",
+      "arxiv_id": "2611.06133",
+      "tokens": [
+        "accelerating",
+        "context",
+        "decoding",
+        "hybrid",
+        "llms",
+        "long",
+        "retraining",
+        "scale"
+      ],
+      "first_seen_round": 496
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.06084v1",
+      "title": "Shallow Encoding Emits Deep Memories",
+      "arxiv_id": "2611.06084",
+      "tokens": [
+        "emits",
+        "encoding",
+        "memories",
+        "shallow"
+      ],
+      "first_seen_round": 496
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.01940v2",
+      "title": "ReWY: Faster Backpropagation for Delta-Rule Attention - From 7 to 3 Matrix Multiplications",
+      "arxiv_id": "2611.01940",
+      "tokens": [
+        "attention",
+        "backpropagation",
+        "delta",
+        "faster",
+        "matrix",
+        "multiplications",
+        "rewy",
+        "rule"
+      ],
+      "first_seen_round": 496
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.01426v1",
+      "title": "FlyWheel: Attention Kernels Built for the TPU",
+      "arxiv_id": "2611.01426",
+      "tokens": [
+        "attention",
+        "built",
+        "flywheel",
+        "kernels",
+        "tpu"
+      ],
+      "first_seen_round": 496
     }
   ],
-  "total_unique": 4475
+  "total_unique": 4492
 }
