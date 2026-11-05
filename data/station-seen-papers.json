@@ -71491,7 +71491,233 @@
         "tpu"
       ],
       "first_seen_round": 496
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.06801v1",
+      "title": "Message-passing graph persistence",
+      "arxiv_id": "2611.06801",
+      "tokens": [
+        "graph",
+        "message",
+        "passing",
+        "persistence"
+      ],
+      "first_seen_round": 497
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.06265v1",
+      "title": "Learning Pseudo-Riemannian Manifolds for Heterophilic Graphs via Graph Signature",
+      "arxiv_id": "2611.06265",
+      "tokens": [
+        "graph",
+        "graphs",
+        "heterophilic",
+        "manifolds",
+        "pseudo",
+        "riemannian",
+        "signature"
+      ],
+      "first_seen_round": 497
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.05876v1",
+      "title": "MIGONet: a multiple-input graph neural operator with solver-free discrete manufactured-solution training",
+      "arxiv_id": "2611.05876",
+      "tokens": [
+        "discrete",
+        "free",
+        "graph",
+        "input",
+        "manufactured",
+        "migonet",
+        "multiple",
+        "neural",
+        "operator",
+        "solution",
+        "solver",
+        "training"
+      ],
+      "first_seen_round": 497
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.05449v1",
+      "title": "SO(3)-Equivariant Learning on CAD Boundary Representations",
+      "arxiv_id": "2611.05449",
+      "tokens": [
+        "boundary",
+        "cad",
+        "equivariant",
+        "representations"
+      ],
+      "first_seen_round": 497
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.06724v1",
+      "title": "Dexterous Robotic Hands in the Foundation-Model Era: A Full-Stack Survey of Hardware, Data, Cross-Embodiment Transfer, Learning, and Evaluation",
+      "arxiv_id": "2611.06724",
+      "tokens": [
+        "cross",
+        "dexterous",
+        "embodiment",
+        "era",
+        "evaluation",
+        "foundation",
+        "full",
+        "hands",
+        "hardware",
+        "robotic",
+        "stack",
+        "transfer"
+      ],
+      "first_seen_round": 497
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.06452v1",
+      "title": "Within-Family EfficientNet Scaling under Fixed-Resolution Transfer Learning for Spectral-Domain Optical Coherence Tomography Retinal Disease Classification",
+      "arxiv_id": "2611.06452",
+      "tokens": [
+        "classification",
+        "coherence",
+        "disease",
+        "domain",
+        "efficientnet",
+        "family",
+        "fixed",
+        "optical",
+        "resolution",
+        "retinal",
+        "scaling",
+        "spectral",
+        "tomography",
+        "transfer",
+        "within"
+      ],
+      "first_seen_round": 497
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.05035v1",
+      "title": "Federated Transfer Learning for Medical Image Classification under Mixed Skew",
+      "arxiv_id": "2611.05035",
+      "tokens": [
+        "classification",
+        "federated",
+        "image",
+        "medical",
+        "mixed",
+        "skew",
+        "transfer"
+      ],
+      "first_seen_round": 497
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.06061v1",
+      "title": "TouchéWorld tech report : Towards Online Unified Camera--Hand Exploration in Generative Worlds",
+      "arxiv_id": "2611.06061",
+      "tokens": [
+        "camera",
+        "exploration",
+        "generative",
+        "hand",
+        "online",
+        "report",
+        "tech",
+        "touch",
+        "unified",
+        "world",
+        "worlds"
+      ],
+      "first_seen_round": 497
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.05907v1",
+      "title": "Does Your Trial Simulator Know What the Drug Does? An Intervention-Blind Test of Interventional Validity on 7,207 Registered Trials",
+      "arxiv_id": "2611.05907",
+      "tokens": [
+        "207",
+        "blind",
+        "drug",
+        "intervention",
+        "interventional",
+        "know",
+        "registered",
+        "simulator",
+        "test",
+        "trial",
+        "trials",
+        "validity"
+      ],
+      "first_seen_round": 497
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.05890v1",
+      "title": "CellCanon: An Agentic Cellular World Model for Prediction, Explanation, and Observation-Driven Updating",
+      "arxiv_id": "2611.05890",
+      "tokens": [
+        "agentic",
+        "cellcanon",
+        "cellular",
+        "driven",
+        "explanation",
+        "observation",
+        "prediction",
+        "updating",
+        "world"
+      ],
+      "first_seen_round": 497
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.05577v1",
+      "title": "Readable Is Not Steerable: Pre-Registered Tests of Physical Structure in Learned Fluid Representations",
+      "arxiv_id": "2611.05577",
+      "tokens": [
+        "fluid",
+        "learned",
+        "physical",
+        "pre",
+        "readable",
+        "registered",
+        "representations",
+        "steerable",
+        "structure",
+        "tests"
+      ],
+      "first_seen_round": 497
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.05448v1",
+      "title": "Jev with Foresight: Safe Language-Guided Autonomous Driving via a Language World Model",
+      "arxiv_id": "2611.05448",
+      "tokens": [
+        "autonomous",
+        "driving",
+        "foresight",
+        "guided",
+        "jev",
+        "language",
+        "language",
+        "safe",
+        "world"
+      ],
+      "first_seen_round": 497
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.05443v1",
+      "title": "SurgTransfer: Multi-Step Latent Action Modeling for Action Transfer in Surgical World Model",
+      "arxiv_id": "2611.05443",
+      "tokens": [
+        "action",
+        "action",
+        "latent",
+        "modeling",
+        "multi",
+        "step",
+        "surgical",
+        "surgtransfer",
+        "transfer",
+        "world"
+      ],
+      "first_seen_round": 497
     }
   ],
-  "total_unique": 4492
+  "total_unique": 4505
 }

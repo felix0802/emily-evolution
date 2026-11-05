@@ -5303,6 +5303,66 @@
         ],
         "decided_at": "2026-11-05T08:39:45.371206"
       }
+    },
+    {
+      "id": "llm-持久同调（persistent-homology）",
+      "name": "持久同调（Persistent Homology）",
+      "adopted_at": "2026-11-05T22:58:32.969173",
+      "decision": {
+        "tech_id": "llm-持久同调（persistent-homology）",
+        "tech_name": "持久同调（Persistent Homology）",
+        "action": "adopt",
+        "confidence": 0.9,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-11-05T22:58:32.966325"
+      }
+    },
+    {
+      "id": "llm-so(3)等变网络（so(3)-equivariant-ne",
+      "name": "SO(3)等变网络（SO(3)-Equivariant Networks）",
+      "adopted_at": "2026-11-05T22:58:32.969202",
+      "decision": {
+        "tech_id": "llm-so(3)等变网络（so(3)-equivariant-ne",
+        "tech_name": "SO(3)等变网络（SO(3)-Equivariant Networks）",
+        "action": "adopt",
+        "confidence": 0.9,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-11-05T22:58:32.966532"
+      }
+    },
+    {
+      "id": "llm-干预感知保真度（intervention-aware-fid",
+      "name": "干预感知保真度（Intervention-Aware Fidelity）",
+      "adopted_at": "2026-11-05T22:58:32.969221",
+      "decision": {
+        "tech_id": "llm-干预感知保真度（intervention-aware-fid",
+        "tech_name": "干预感知保真度（Intervention-Aware Fidelity）",
+        "action": "adopt",
+        "confidence": 0.8,
+        "reason": [
+          "预置技术(0.8)"
+        ],
+        "decided_at": "2026-11-05T22:58:32.966618"
+      }
+    },
+    {
+      "id": "auto-equivariant",
+      "name": "Equivariant",
+      "adopted_at": "2026-11-05T22:58:32.969238",
+      "decision": {
+        "tech_id": "auto-equivariant",
+        "tech_name": "Equivariant",
+        "action": "adopt",
+        "confidence": 0.35,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-11-05T22:58:32.966796"
+      }
     }
   ],
   "history": [
@@ -7423,6 +7483,30 @@
       "tech_id": "llm-pass@(k,t)-评估",
       "tech_name": "Pass@(K,T) 评估",
       "timestamp": "2026-11-05T08:39:45.374983"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-持久同调（persistent-homology）",
+      "tech_name": "持久同调（Persistent Homology）",
+      "timestamp": "2026-11-05T22:58:32.969180"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-so(3)等变网络（so(3)-equivariant-ne",
+      "tech_name": "SO(3)等变网络（SO(3)-Equivariant Networks）",
+      "timestamp": "2026-11-05T22:58:32.969204"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-干预感知保真度（intervention-aware-fid",
+      "tech_name": "干预感知保真度（Intervention-Aware Fidelity）",
+      "timestamp": "2026-11-05T22:58:32.969222"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "auto-equivariant",
+      "tech_name": "Equivariant",
+      "timestamp": "2026-11-05T22:58:32.969240"
     }
   ]
 }
