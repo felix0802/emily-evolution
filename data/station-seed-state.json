@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 862,
+  "_rotation_idx": 863,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 101,
@@ -1664,26 +1664,9 @@
   },
   "htm": {
     "name": "HTM",
-    "total_papers_found": 152,
-    "watering_count": 89,
+    "total_papers_found": 154,
+    "watering_count": 90,
     "history": [
-      {
-        "timestamp": "2026-08-14T16:37:49.415938",
-        "papers_found": 1,
-        "duplicates": 4,
-        "irrelevant_filtered": 5,
-        "avg_relevance": 1.0,
-        "high_relevance": 0,
-        "papers": [
-          {
-            "title": "Dual Spatial-Temporal Attribution: Architecture-Aligned Post-Hoc Explainability for Recurrent Graph Anomaly Detection",
-            "summary": "Deep learning detectors for anomalies in dynamic graphs have reached strong accuracy, yet they remain opaque: when an edge is flagged, the analyst receives a score but no reason. This opacity is untenable in the cooperative, regulated information systems where such detectors are deployed, where auto",
-            "published": "2026-08-12",
-            "url": "http://arxiv.org/abs/2608.12441v1",
-            "seed_match_score": 1
-          }
-        ]
-      },
       {
         "timestamp": "2026-08-15T12:13:12.420411",
         "papers_found": 0,
@@ -2619,6 +2602,30 @@
         "avg_relevance": 0.0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-11-05T00:34:53.063418",
+        "papers_found": 2,
+        "duplicates": 0,
+        "irrelevant_filtered": 8,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "Anomaly Detection on Resource-Constrained Devices with Reservoir Computing",
+            "summary": "Anomaly detection at the edge requires the deployment of models that achieve competitive performance, while minimizing computational cost and memory footprint. In this article, we investigate the suitability of the Mahalanobis Distance of Reservoir States (MDRS), an unsupervised time-series anomaly ",
+            "published": "2026-11-03",
+            "url": "http://arxiv.org/abs/2611.04835v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Nearly Linear-Time Follow-the-Perturbed-Leader for Weakly Observable Graph Bandits",
+            "summary": "We study online learning with directed weakly observable feedback graphs and propose a Follow-the-Perturbed-Leader (FTPL) policy that achieves best-of-both-worlds guarantee with nearly linear expected time complexity. To preserve the simple structure of FTPL, we develop a novel graph-based loss esti",
+            "published": "2026-11-03",
+            "url": "http://arxiv.org/abs/2611.04307v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -2633,7 +2640,7 @@
       "anomaly detection",
       "continuous learning"
     ],
-    "last_watered": "2026-11-02T01:06:21.246646"
+    "last_watered": "2026-11-05T00:34:53.063412"
   },
   "spiking-nn": {
     "name": "Spiking Neural Networks",

@@ -5243,6 +5243,36 @@
         ],
         "decided_at": "2026-11-04T18:57:39.020764"
       }
+    },
+    {
+      "id": "llm-视频扩散模型",
+      "name": "视频扩散模型",
+      "adopted_at": "2026-11-05T00:34:57.971799",
+      "decision": {
+        "tech_id": "llm-视频扩散模型",
+        "tech_name": "视频扩散模型",
+        "action": "adopt",
+        "confidence": 0.9,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-11-05T00:34:57.968729"
+      }
+    },
+    {
+      "id": "llm-3d-gaussian-splatting-压缩",
+      "name": "3D Gaussian Splatting 压缩",
+      "adopted_at": "2026-11-05T00:34:57.971829",
+      "decision": {
+        "tech_id": "llm-3d-gaussian-splatting-压缩",
+        "tech_name": "3D Gaussian Splatting 压缩",
+        "action": "adopt",
+        "confidence": 0.85,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-11-05T00:34:57.968952"
+      }
     }
   ],
   "history": [
@@ -7339,6 +7369,18 @@
       "tech_id": "llm-直接纳什优化（dno）",
       "tech_name": "直接纳什优化（DNO）",
       "timestamp": "2026-11-04T18:57:39.024200"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-视频扩散模型",
+      "tech_name": "视频扩散模型",
+      "timestamp": "2026-11-05T00:34:57.971805"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-3d-gaussian-splatting-压缩",
+      "tech_name": "3D Gaussian Splatting 压缩",
+      "timestamp": "2026-11-05T00:34:57.971831"
     }
   ]
 }
