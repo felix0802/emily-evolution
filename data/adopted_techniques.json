@@ -5363,6 +5363,36 @@
         ],
         "decided_at": "2026-11-05T22:58:32.966796"
       }
+    },
+    {
+      "id": "llm-门控对齐基准-(gate-aligned-benchmark",
+      "name": "门控对齐基准 (Gate-aligned benchmark)",
+      "adopted_at": "2026-11-06T03:54:21.340752",
+      "decision": {
+        "tech_id": "llm-门控对齐基准-(gate-aligned-benchmark",
+        "tech_name": "门控对齐基准 (Gate-aligned benchmark)",
+        "action": "adopt",
+        "confidence": 0.9,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-11-06T03:54:21.338774"
+      }
+    },
+    {
+      "id": "llm-大语言模型零样本时间序列异常检测",
+      "name": "大语言模型零样本时间序列异常检测",
+      "adopted_at": "2026-11-06T03:54:21.340769",
+      "decision": {
+        "tech_id": "llm-大语言模型零样本时间序列异常检测",
+        "tech_name": "大语言模型零样本时间序列异常检测",
+        "action": "adopt",
+        "confidence": 0.85,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-11-06T03:54:21.339020"
+      }
     }
   ],
   "history": [
@@ -7507,6 +7537,18 @@
       "tech_id": "auto-equivariant",
       "tech_name": "Equivariant",
       "timestamp": "2026-11-05T22:58:32.969240"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-门控对齐基准-(gate-aligned-benchmark",
+      "tech_name": "门控对齐基准 (Gate-aligned benchmark)",
+      "timestamp": "2026-11-06T03:54:21.340755"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-大语言模型零样本时间序列异常检测",
+      "tech_name": "大语言模型零样本时间序列异常检测",
+      "timestamp": "2026-11-06T03:54:21.340770"
     }
   ]
 }

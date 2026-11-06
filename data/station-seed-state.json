@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 866,
+  "_rotation_idx": 867,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 101,
@@ -4892,18 +4892,9 @@
   },
   "continual-learning": {
     "name": "Continual Learning",
-    "total_papers_found": 147,
-    "watering_count": 87,
+    "total_papers_found": 153,
+    "watering_count": 88,
     "history": [
-      {
-        "timestamp": "2026-08-15T00:30:49.068145",
-        "papers_found": 0,
-        "duplicates": 8,
-        "irrelevant_filtered": 2,
-        "avg_relevance": 0.0,
-        "high_relevance": 0,
-        "papers": []
-      },
       {
         "timestamp": "2026-08-15T20:09:17.413655",
         "papers_found": 0,
@@ -5811,6 +5802,37 @@
             "seed_match_score": 1
           }
         ]
+      },
+      {
+        "timestamp": "2026-11-06T03:54:15.434456",
+        "papers_found": 6,
+        "duplicates": 3,
+        "irrelevant_filtered": 1,
+        "avg_relevance": 1.17,
+        "high_relevance": 1,
+        "papers": [
+          {
+            "title": "Continual Classification Beyond the Kernel Regime: Harnessing the Sparsity Bias of L2 Regularization in Diagonal Linear Networks",
+            "summary": "We study logistic regression for continual learning with linear predictors in a high-dimensional statistical setting. Existing theoretical work has largely focused on continual linear regression with variants of L2 regularization, motivated by their analytical simplicity and connection to the kernel",
+            "published": "2026-11-04",
+            "url": "http://arxiv.org/abs/2611.06759v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "PRISM-AMC: Replay-Free Continual Learning for Automatic Modulation Classification",
+            "summary": "Automatic modulation classification (AMC) is a key component of cognitive wireless systems, enabling spectrum awareness and adaptive communication. Most deep learning approaches to AMC assume a fixed set of modulation classes and access to previously observed training data. In practice, modulation c",
+            "published": "2026-11-04",
+            "url": "http://arxiv.org/abs/2611.06066v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "DRAP: Dynamics-Risk Adaptive Plasticity for Continual Learning in Physical AI",
+            "summary": "Continual learning in physical AI differs from conventional continual learning because small per-step policy errors can accumulate over a trajectory. Each deviation may move the agent outside the training distribution, increase subsequent prediction errors, and ultimately cause closed-loop task fail",
+            "published": "2026-11-03",
+            "url": "http://arxiv.org/abs/2611.05029v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -5820,7 +5842,7 @@
       "ewc",
       "elastic weight"
     ],
-    "last_watered": "2026-11-03T08:44:09.828341"
+    "last_watered": "2026-11-06T03:54:15.434453"
   },
   "moe": {
     "name": "Mixture of Experts",
