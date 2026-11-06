@@ -145,10 +145,44 @@
       "synthesized_at": "2026-10-16T06:31:27.384194",
       "synthesis_round": 400,
       "llm_source": "deepseek"
+    },
+    {
+      "id": "th-010",
+      "title": "連續時間自適應動力學統一理論",
+      "statement": "在非 Transformer 架構中，整合連續時間動力學（如 Liquid Networks 的可變時間常數）與結構化記憶（如 GNN 的圖訊息傳遞或 HTM 的稀疏時序記憶）能產生自適應時序處理能力。此類混合架構在非平穩環境中展現出動態調整神經動力學的潛力，其核心在於將離散計算步驟與連續微分方程耦合，實現即時適應與節能推理。",
+      "supporting_hypotheses": [
+        "hyp-0009",
+        "hyp-0014"
+      ],
+      "refuting_hypotheses": [],
+      "confidence": 0.75,
+      "key_insight": "AI 架構正從靜態權重轉向具備內在時間常數可塑性的動態系統，使模型能像生物神經系統一樣在連續時間中適應。",
+      "practical_implication": "設計邊緣裝置上的線上學習系統時，應優先考慮液態時間常數與圖/稀疏記憶的混合架構，以實現低功耗即時適應。",
+      "synthesized_at": "2026-11-06T11:40:15.142080",
+      "synthesis_round": 500,
+      "llm_source": "deepseek"
+    },
+    {
+      "id": "th-011",
+      "title": "選擇性狀態空間與稀疏記憶的融合範式",
+      "statement": "Mamba 的選擇性狀態空間機制與生物啟發的稀疏分散式表示（如 HTM）或圖結構訊息傳遞具有互補性：前者提供輸入依賴的長程依賴建模與線性時間效率，後者提供稀疏、事件驅動的記憶與關係歸納偏置。兩者融合可形成兼具效率與生物合理性的時序處理框架，但現有證據尚不足以確認其協同效應的普遍性。",
+      "supporting_hypotheses": [
+        "hyp-0008",
+        "hyp-0011",
+        "hyp-0012",
+        "hyp-0013"
+      ],
+      "refuting_hypotheses": [],
+      "confidence": 0.55,
+      "key_insight": "效率導向的狀態空間模型與生物啟發的稀疏記憶正在收斂，預示一種兼顧長序列效率與事件驅動稀疏性的新計算單元。",
+      "practical_implication": "在需要處理超長序列且資源受限的場景（如串流感測器數據），可探索 Mamba 與稀疏圖記憶的混合架構，但需先驗證其穩定性。",
+      "synthesized_at": "2026-11-06T11:40:15.142096",
+      "synthesis_round": 500,
+      "llm_source": "deepseek"
     }
   ],
-  "total_synthesized": 9,
-  "last_synthesis_round": 400,
-  "last_updated": "2026-10-16T06:31:27.384198",
-  "emerging_paradigm": "當前 AI 研究正從靜態、密集、單一任務的模型，轉向動態、稀疏、持續學習的統一架構。核心趨勢是將輸入依賴的條件計算、連續時間動態與隱私保護等約束，透過共享的數學結構（如狀態空間模型、稀疏路由、正則化）整合為一體，以實現高效、自適應且可信的智能系統。"
+  "total_synthesized": 11,
+  "last_synthesis_round": 500,
+  "last_updated": "2026-11-06T11:40:15.142101",
+  "emerging_paradigm": "當前 AI 研究正從靜態前饋計算轉向具備連續時間動力學、選擇性狀態更新與稀疏事件驅動記憶的混合架構範式，強調在非平穩環境中的線上適應性與能源效率。"
 }

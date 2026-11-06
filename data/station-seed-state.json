@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 867,
+  "_rotation_idx": 868,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 101,
@@ -5846,18 +5846,9 @@
   },
   "moe": {
     "name": "Mixture of Experts",
-    "total_papers_found": 135,
-    "watering_count": 83,
+    "total_papers_found": 139,
+    "watering_count": 84,
     "history": [
-      {
-        "timestamp": "2026-08-15T02:42:13.398358",
-        "papers_found": 0,
-        "duplicates": 6,
-        "irrelevant_filtered": 4,
-        "avg_relevance": 0.0,
-        "high_relevance": 0,
-        "papers": []
-      },
       {
         "timestamp": "2026-08-15T22:08:27.455563",
         "papers_found": 0,
@@ -6780,6 +6771,37 @@
             "seed_match_score": 1
           }
         ]
+      },
+      {
+        "timestamp": "2026-11-06T11:40:04.361857",
+        "papers_found": 4,
+        "duplicates": 3,
+        "irrelevant_filtered": 3,
+        "avg_relevance": 1.75,
+        "high_relevance": 3,
+        "papers": [
+          {
+            "title": "SAE Interprets MoE: Sparse AutoEncoders Reveal That MoE Experts Exhibit Human-Interpretable Fine-Grained Specialization",
+            "summary": "Mixture-of-Experts (MoE) models route each token to a few of many experts, yet what an individual expert is responsible for remains unsettled. Existing analyses count how often an expert is selected on domain-labeled corpora, an instrument that fixes the taxonomy in advance, stays coarse, and record",
+            "published": "2026-11-05",
+            "url": "http://arxiv.org/abs/2611.08089v1",
+            "seed_match_score": 2
+          },
+          {
+            "title": "SafeStart: Mitigating the Overlooked Safety Cost of Active Expert Reduction in MoE LLM Serving",
+            "summary": "Mixture-of-Experts (MoE) language models send each token through a few of many expert subnetworks. Serving methods make these models faster by running even fewer experts per token, and they are validated on accuracy benchmarks. We show that these methods can weaken the model's refusal of harmful req",
+            "published": "2026-11-04",
+            "url": "http://arxiv.org/abs/2611.06147v1",
+            "seed_match_score": 2
+          },
+          {
+            "title": "Modality-Aware Expert Pruning for MoE-Based Multimodal Large Language Models",
+            "summary": "Mixture-of-Experts (MoE) enables multimodal large language models (MLLMs) to scale capacity efficiently, but expert parameters dominate memory even though only a few experts are activated per token: they account for over 90% of model size in modern MoE-MLLMs (e.g., 54 GB out of about 58 GB in BF16 f",
+            "published": "2026-11-04",
+            "url": "http://arxiv.org/abs/2611.05927v1",
+            "seed_match_score": 2
+          }
+        ]
       }
     ],
     "keywords": [
@@ -6791,7 +6813,7 @@
       "switch transformer",
       "deepseek"
     ],
-    "last_watered": "2026-11-03T17:24:48.144940"
+    "last_watered": "2026-11-06T11:40:04.361851"
   },
   "kv-cache": {
     "name": "KV Cache Optimization",

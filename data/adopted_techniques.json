@@ -5393,6 +5393,21 @@
         ],
         "decided_at": "2026-11-06T03:54:21.339020"
       }
+    },
+    {
+      "id": "llm-learnable-kv-cache-gate",
+      "name": "Learnable KV Cache Gate",
+      "adopted_at": "2026-11-06T11:40:10.127203",
+      "decision": {
+        "tech_id": "llm-learnable-kv-cache-gate",
+        "tech_name": "Learnable KV Cache Gate",
+        "action": "adopt",
+        "confidence": 0.9,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-11-06T11:40:10.124121"
+      }
     }
   ],
   "history": [
@@ -7549,6 +7564,12 @@
       "tech_id": "llm-大语言模型零样本时间序列异常检测",
       "tech_name": "大语言模型零样本时间序列异常检测",
       "timestamp": "2026-11-06T03:54:21.340770"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-learnable-kv-cache-gate",
+      "tech_name": "Learnable KV Cache Gate",
+      "timestamp": "2026-11-06T11:40:10.127210"
     }
   ]
 }

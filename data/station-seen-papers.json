@@ -72061,7 +72061,233 @@
         "task"
       ],
       "first_seen_round": 498
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.07605v1",
+      "title": "The Gating Mechanism of KV Cache Eviction",
+      "arxiv_id": "2611.07605",
+      "tokens": [
+        "cache",
+        "eviction",
+        "gating",
+        "mechanism"
+      ],
+      "first_seen_round": 499
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.07263v1",
+      "title": "HyFlash: A Prefix-Memory Prior for On-Device Speculative Decoding",
+      "arxiv_id": "2611.07263",
+      "tokens": [
+        "decoding",
+        "device",
+        "hyflash",
+        "memory",
+        "prefix",
+        "prior",
+        "speculative"
+      ],
+      "first_seen_round": 499
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.07232v1",
+      "title": "Recursive Sparse Attention: Million-Token Length Extrapolation at Logarithmic Cost",
+      "arxiv_id": "2611.07232",
+      "tokens": [
+        "attention",
+        "cost",
+        "extrapolation",
+        "length",
+        "logarithmic",
+        "million",
+        "recursive",
+        "sparse",
+        "token"
+      ],
+      "first_seen_round": 499
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.07025v1",
+      "title": "LowRAM: Low-Rank Keys and Amortised Values for Composable KV Cache Compression at Test-Time",
+      "arxiv_id": "2611.07025",
+      "tokens": [
+        "amortised",
+        "cache",
+        "composable",
+        "compression",
+        "keys",
+        "low",
+        "lowram",
+        "rank",
+        "test",
+        "time",
+        "values"
+      ],
+      "first_seen_round": 499
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.06501v1",
+      "title": "CRESiST: Self-Enhancing Explorative Policy Learning for Simultaneous Speech Translation",
+      "arxiv_id": "2611.06501",
+      "tokens": [
+        "cresist",
+        "enhancing",
+        "explorative",
+        "policy",
+        "self",
+        "simultaneous",
+        "speech",
+        "translation"
+      ],
+      "first_seen_round": 499
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.06397v1",
+      "title": "Where Should a KV-Cache Repair Budget Go? Distractor Structure and Contextual Compatibility in Non-Prefix Reuse",
+      "arxiv_id": "2611.06397",
+      "tokens": [
+        "budget",
+        "cache",
+        "compatibility",
+        "contextual",
+        "distractor",
+        "non",
+        "prefix",
+        "repair",
+        "reuse",
+        "structure"
+      ],
+      "first_seen_round": 499
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.08379v1",
+      "title": "Module-Aware Optimization for Graph Neural Networks",
+      "arxiv_id": "2611.08379",
+      "tokens": [
+        "aware",
+        "graph",
+        "module",
+        "neural",
+        "optimization"
+      ],
+      "first_seen_round": 499
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.07410v1",
+      "title": "Spectral symmetry fingerprints in equivariant representations",
+      "arxiv_id": "2611.07410",
+      "tokens": [
+        "equivariant",
+        "fingerprints",
+        "representations",
+        "spectral",
+        "symmetry"
+      ],
+      "first_seen_round": 499
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.07277v1",
+      "title": "Graph Neural Networks for Resource Allocation in Integrated Sensing and Communication",
+      "arxiv_id": "2611.07277",
+      "tokens": [
+        "allocation",
+        "communication",
+        "graph",
+        "integrated",
+        "neural",
+        "resource",
+        "sensing"
+      ],
+      "first_seen_round": 499
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.07959v1",
+      "title": "CoRD: Coupled Rollouts Fill the Blind Spot of On-Policy Distillation",
+      "arxiv_id": "2611.07959",
+      "tokens": [
+        "blind",
+        "cord",
+        "coupled",
+        "distillation",
+        "fill",
+        "policy",
+        "rollouts",
+        "spot"
+      ],
+      "first_seen_round": 499
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.08089v1",
+      "title": "SAE Interprets MoE: Sparse AutoEncoders Reveal That MoE Experts Exhibit Human-Interpretable Fine-Grained Specialization",
+      "arxiv_id": "2611.08089",
+      "tokens": [
+        "autoencoders",
+        "exhibit",
+        "experts",
+        "fine",
+        "grained",
+        "human",
+        "interpretable",
+        "interprets",
+        "moe",
+        "moe",
+        "reveal",
+        "sae",
+        "sparse",
+        "specialization"
+      ],
+      "first_seen_round": 499
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.06147v1",
+      "title": "SafeStart: Mitigating the Overlooked Safety Cost of Active Expert Reduction in MoE LLM Serving",
+      "arxiv_id": "2611.06147",
+      "tokens": [
+        "active",
+        "cost",
+        "expert",
+        "llm",
+        "mitigating",
+        "moe",
+        "overlooked",
+        "reduction",
+        "safestart",
+        "safety",
+        "serving"
+      ],
+      "first_seen_round": 499
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.05927v1",
+      "title": "Modality-Aware Expert Pruning for MoE-Based Multimodal Large Language Models",
+      "arxiv_id": "2611.05927",
+      "tokens": [
+        "aware",
+        "expert",
+        "language",
+        "modality",
+        "moe",
+        "multimodal",
+        "pruning"
+      ],
+      "first_seen_round": 499
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.05919v1",
+      "title": "Routes of Reasoning: Reading and Reshaping Test-Time Compute in MoE Models",
+      "arxiv_id": "2611.05919",
+      "tokens": [
+        "compute",
+        "moe",
+        "reading",
+        "reasoning",
+        "reshaping",
+        "routes",
+        "test",
+        "time"
+      ],
+      "first_seen_round": 499
     }
   ],
-  "total_unique": 4526
+  "total_unique": 4540
 }

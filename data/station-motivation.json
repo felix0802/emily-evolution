@@ -1,28 +1,6 @@
 {
   "rounds": [
     {
-      "round": 449,
-      "timestamp": "2026-10-25T07:18:05.778319",
-      "prediction_error": 0.7,
-      "seeds_active": 10,
-      "seeds_dormant": 0,
-      "new_seeds_added": 0,
-      "top_motivated": [
-        [
-          "mamba",
-          0.91
-        ],
-        [
-          "liquid-networks",
-          0.91
-        ],
-        [
-          "spiking-nn",
-          0.91
-        ]
-      ]
-    },
-    {
       "round": 450,
       "timestamp": "2026-10-25T12:49:17.981830",
       "prediction_error": 0.7,
@@ -1099,6 +1077,28 @@
           0.91
         ]
       ]
+    },
+    {
+      "round": 499,
+      "timestamp": "2026-11-06T11:40:04.376682",
+      "prediction_error": 0.7,
+      "seeds_active": 10,
+      "seeds_dormant": 0,
+      "new_seeds_added": 0,
+      "top_motivated": [
+        [
+          "mamba",
+          0.91
+        ],
+        [
+          "liquid-networks",
+          0.91
+        ],
+        [
+          "htm",
+          0.91
+        ]
+      ]
     }
   ],
   "seed_scores": {
@@ -1261,7 +1261,6 @@
         0.667,
         0.667,
         0.667,
-        0.667,
         0.72,
         0.72,
         0.72,
@@ -1272,6 +1271,7 @@
         0.72,
         0.72,
         0.72,
+        0.346,
         0.346,
         0.346
       ]
@@ -1307,11 +1307,10 @@
     },
     "moe": {
       "name": "Mixture of Experts",
-      "info_gain": 0.96,
+      "info_gain": 1.0,
       "novelty": 0.714,
-      "motivation_score": 0.808,
+      "motivation_score": 0.824,
       "info_gain_history": [
-        1.0,
         0.74,
         0.74,
         0.74,
@@ -1331,7 +1330,8 @@
         0.96,
         0.96,
         0.96,
-        0.96
+        0.96,
+        1.0
       ]
     },
     "kv-cache": {
@@ -1371,7 +1371,6 @@
       "info_gain_history": [
         0.202,
         0.202,
-        0.202,
         0.318,
         0.318,
         0.318,
@@ -1382,6 +1381,7 @@
         0.318,
         0.318,
         0.318,
+        0.214,
         0.214,
         0.214,
         0.214,
@@ -1406,6 +1406,6 @@
     "spiking-nn",
     "non-transformer"
   ],
-  "total_motivation_evaluations": 342,
+  "total_motivation_evaluations": 343,
   "current_prediction_error": 0.7
 }
