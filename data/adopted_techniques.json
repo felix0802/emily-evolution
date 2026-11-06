@@ -5408,6 +5408,36 @@
         ],
         "decided_at": "2026-11-06T11:40:10.124121"
       }
+    },
+    {
+      "id": "llm-低秩分解",
+      "name": "低秩分解",
+      "adopted_at": "2026-11-06T18:36:42.050970",
+      "decision": {
+        "tech_id": "llm-低秩分解",
+        "tech_name": "低秩分解",
+        "action": "adopt",
+        "confidence": 0.9,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-11-06T18:36:42.049121"
+      }
+    },
+    {
+      "id": "llm-kronecker-积结构化注意力",
+      "name": "Kronecker 积结构化注意力",
+      "adopted_at": "2026-11-06T18:36:42.050986",
+      "decision": {
+        "tech_id": "llm-kronecker-积结构化注意力",
+        "tech_name": "Kronecker 积结构化注意力",
+        "action": "adopt",
+        "confidence": 0.85,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-11-06T18:36:42.049331"
+      }
     }
   ],
   "history": [
@@ -7570,6 +7600,18 @@
       "tech_id": "llm-learnable-kv-cache-gate",
       "tech_name": "Learnable KV Cache Gate",
       "timestamp": "2026-11-06T11:40:10.127210"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-低秩分解",
+      "tech_name": "低秩分解",
+      "timestamp": "2026-11-06T18:36:42.050973"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-kronecker-积结构化注意力",
+      "tech_name": "Kronecker 积结构化注意力",
+      "timestamp": "2026-11-06T18:36:42.050987"
     }
   ]
 }

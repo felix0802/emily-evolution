@@ -72287,7 +72287,25 @@
         "time"
       ],
       "first_seen_round": 499
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.07593v1",
+      "title": "TACT-KV: Tri-Axis Cosine Transform for Compressing Volumetric KV Caches in Medical VLMs",
+      "arxiv_id": "2611.07593",
+      "tokens": [
+        "axis",
+        "caches",
+        "compressing",
+        "cosine",
+        "medical",
+        "tact",
+        "transform",
+        "tri",
+        "vlms",
+        "volumetric"
+      ],
+      "first_seen_round": 500
     }
   ],
-  "total_unique": 4540
+  "total_unique": 4541
 }

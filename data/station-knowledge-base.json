@@ -1,53 +1,6 @@
 {
   "sessions": [
     {
-      "timestamp": "2026-10-16T12:47:20.589861",
-      "arxiv_papers_count": 18,
-      "arxiv_top_keywords": [
-        "self",
-        "agent",
-        "neural",
-        "supervised",
-        "level",
-        "learning",
-        "decentralized",
-        "agents",
-        "compositional",
-        "structure"
-      ],
-      "arxiv_strategies": [
-        "搜索: neural architecture",
-        "搜索: self-supervised learning",
-        "搜索: multi-agent system"
-      ],
-      "huggingface_models": 10,
-      "huggingface_tasks": [
-        "sentence-similarity",
-        "unknown",
-        "text-generation",
-        "text-ranking",
-        "feature-extraction"
-      ],
-      "ml_datasets": [
-        "Iris",
-        "Wine",
-        "Breast Cancer",
-        "Diabetes"
-      ],
-      "ml_total_tests": 22,
-      "github_trending_repos": 8,
-      "paperswithcode_papers": 8,
-      "evolution": {
-        "discovered": 23,
-        "adopted": 1,
-        "decisions": 1
-      },
-      "seed_watering": {
-        "seed_name": "KV Cache Optimization",
-        "papers_found": 6
-      }
-    },
-    {
       "timestamp": "2026-10-16T17:46:39.229795",
       "arxiv_papers_count": 5,
       "arxiv_top_keywords": [
@@ -4699,12 +4652,59 @@
         "seed_name": "Mixture of Experts",
         "papers_found": 7
       }
+    },
+    {
+      "timestamp": "2026-11-06T18:36:45.192919",
+      "arxiv_papers_count": 18,
+      "arxiv_top_keywords": [
+        "distillation",
+        "cache",
+        "retrieval",
+        "language",
+        "equivariant",
+        "learning",
+        "machine",
+        "teacher",
+        "large",
+        "keys"
+      ],
+      "arxiv_strategies": [
+        "搜索: multi-query attention",
+        "搜索: geometric deep learning",
+        "搜索: knowledge distillation"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "automatic-speech-recognition",
+        "text-generation",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 24,
+        "adopted": 2,
+        "decisions": 2
+      },
+      "seed_watering": {
+        "seed_name": "KV Cache Optimization",
+        "papers_found": 3
+      }
     }
   ],
   "total_sessions": 101,
-  "last_updated": "2026-11-06T11:40:10.138144",
+  "last_updated": "2026-11-06T18:36:45.192931",
   "evolution_summary": {
-    "total_adopted": 360,
+    "total_adopted": 362,
     "adopted_list": [
       "Knowledge Distillation",
       "World Models / Model-Based RL",
@@ -5065,7 +5065,9 @@
       "Equivariant",
       "门控对齐基准 (Gate-aligned benchmark)",
       "大语言模型零样本时间序列异常检测",
-      "Learnable KV Cache Gate"
+      "Learnable KV Cache Gate",
+      "低秩分解",
+      "Kronecker 积结构化注意力"
     ],
     "seeds": {
       "mamba": {
@@ -5110,8 +5112,8 @@
       },
       "kv-cache": {
         "name": "KV Cache Optimization",
-        "watering": 84,
-        "papers": 134
+        "watering": 85,
+        "papers": 135
       },
       "gnn": {
         "name": "Graph Neural Networks",
@@ -5252,19 +5254,19 @@
       },
       "kv-cache": {
         "name": "KV Cache Optimization",
-        "new_papers": 134,
+        "new_papers": 135,
         "keywords_matched": [
-          "key-value cache",
           "speculative decoding",
+          "flash attention",
           "gqa",
-          "kv cache",
-          "flash attention"
+          "key-value cache",
+          "kv cache"
         ],
         "high_relevance_total": 5,
         "avg_relevance_latest": 1.0,
         "best_papers_count": 1
       }
     },
-    "last_evolution": "2026-11-06T11:40:10.141895"
+    "last_evolution": "2026-11-06T18:36:45.194915"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 868,
+  "_rotation_idx": 869,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 101,
@@ -6817,18 +6817,9 @@
   },
   "kv-cache": {
     "name": "KV Cache Optimization",
-    "total_papers_found": 134,
-    "watering_count": 84,
+    "total_papers_found": 135,
+    "watering_count": 85,
     "history": [
-      {
-        "timestamp": "2026-08-15T04:17:51.206233",
-        "papers_found": 0,
-        "duplicates": 3,
-        "irrelevant_filtered": 7,
-        "avg_relevance": 0.0,
-        "high_relevance": 0,
-        "papers": []
-      },
       {
         "timestamp": "2026-08-16T00:32:27.982602",
         "papers_found": 0,
@@ -7736,6 +7727,23 @@
             "seed_match_score": 1
           }
         ]
+      },
+      {
+        "timestamp": "2026-11-06T18:36:36.717781",
+        "papers_found": 1,
+        "duplicates": 2,
+        "irrelevant_filtered": 7,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "TACT-KV: Tri-Axis Cosine Transform for Compressing Volumetric KV Caches in Medical VLMs",
+            "summary": "Vision-language models (VLMs) applied to 3D medical scans face a structural memory wall. A single CT or MRI volume produces tens of thousands of vision tokens, and the resulting key-value (KV) cache scales linearly with both batch and context. Existing KV compression methods operate on the cache's f",
+            "published": "2026-11-05",
+            "url": "http://arxiv.org/abs/2611.07593v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -7747,7 +7755,7 @@
       "flash attention",
       "speculative decoding"
     ],
-    "last_watered": "2026-11-03T22:38:34.760259"
+    "last_watered": "2026-11-06T18:36:36.717777"
   },
   "gnn": {
     "name": "Graph Neural Networks",
