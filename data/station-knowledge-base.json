@@ -1,53 +1,6 @@
 {
   "sessions": [
     {
-      "timestamp": "2026-10-16T17:46:39.229795",
-      "arxiv_papers_count": 5,
-      "arxiv_top_keywords": [
-        "perm",
-        "libero",
-        "robotic",
-        "manipulation",
-        "personalized",
-        "quantum",
-        "large",
-        "language",
-        "discovering",
-        "state"
-      ],
-      "arxiv_strategies": [
-        "cs.AI (fallback)",
-        "cs.AI (fallback)",
-        "cs.AI (fallback)"
-      ],
-      "huggingface_models": 10,
-      "huggingface_tasks": [
-        "sentence-similarity",
-        "unknown",
-        "text-generation",
-        "text-ranking",
-        "feature-extraction"
-      ],
-      "ml_datasets": [
-        "Iris",
-        "Wine",
-        "Breast Cancer",
-        "Diabetes"
-      ],
-      "ml_total_tests": 22,
-      "github_trending_repos": 8,
-      "paperswithcode_papers": 8,
-      "evolution": {
-        "discovered": 14,
-        "adopted": 3,
-        "decisions": 3
-      },
-      "seed_watering": {
-        "seed_name": "",
-        "papers_found": 0
-      }
-    },
-    {
       "timestamp": "2026-10-16T20:13:39.200915",
       "arxiv_papers_count": 6,
       "arxiv_top_keywords": [
@@ -4699,12 +4652,59 @@
         "seed_name": "KV Cache Optimization",
         "papers_found": 3
       }
+    },
+    {
+      "timestamp": "2026-11-06T23:51:54.192370",
+      "arxiv_papers_count": 16,
+      "arxiv_top_keywords": [
+        "language",
+        "step",
+        "training",
+        "swarmevolve",
+        "latent",
+        "swarms",
+        "evolutionary",
+        "llm",
+        "world",
+        "scientists"
+      ],
+      "arxiv_strategies": [
+        "cs.AI 最新",
+        "cs.LG 最新",
+        "cs.CL 最新"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "automatic-speech-recognition",
+        "text-generation",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 16,
+        "adopted": 2,
+        "decisions": 2
+      },
+      "seed_watering": {
+        "seed_name": "Graph Neural Networks",
+        "papers_found": 5
+      }
     }
   ],
   "total_sessions": 101,
-  "last_updated": "2026-11-06T18:36:45.192931",
+  "last_updated": "2026-11-06T23:51:54.192382",
   "evolution_summary": {
-    "total_adopted": 362,
+    "total_adopted": 364,
     "adopted_list": [
       "Knowledge Distillation",
       "World Models / Model-Based RL",
@@ -5067,7 +5067,9 @@
       "大语言模型零样本时间序列异常检测",
       "Learnable KV Cache Gate",
       "低秩分解",
-      "Kronecker 积结构化注意力"
+      "Kronecker 积结构化注意力",
+      "潜在智能体群体进化",
+      "可运行研究世界构建"
     ],
     "seeds": {
       "mamba": {
@@ -5117,8 +5119,8 @@
       },
       "gnn": {
         "name": "Graph Neural Networks",
-        "watering": 85,
-        "papers": 163
+        "watering": 86,
+        "papers": 164
       }
     },
     "seed_metrics": {
@@ -5224,18 +5226,18 @@
       },
       "gnn": {
         "name": "Graph Neural Networks",
-        "new_papers": 163,
+        "new_papers": 164,
         "keywords_matched": [
-          "message passing",
-          "graph attention",
           "node embedding",
-          "graph neural",
-          "graph transformer",
           "gnn",
-          "geometric"
+          "geometric",
+          "message passing",
+          "graph neural",
+          "graph attention",
+          "graph transformer"
         ],
         "high_relevance_total": 78,
-        "avg_relevance_latest": 0.0,
+        "avg_relevance_latest": 1.0,
         "best_papers_count": 10
       },
       "moe": {
@@ -5267,6 +5269,6 @@
         "best_papers_count": 1
       }
     },
-    "last_evolution": "2026-11-06T18:36:45.194915"
+    "last_evolution": "2026-11-06T23:51:54.194569"
   }
 }

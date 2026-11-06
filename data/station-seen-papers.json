@@ -72305,7 +72305,271 @@
         "volumetric"
       ],
       "first_seen_round": 500
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.08483v1",
+      "title": "SwarmEvolve: Latent Agent Swarms for Evolutionary Discovery and Optimization",
+      "arxiv_id": "2611.08483",
+      "tokens": [
+        "agent",
+        "discovery",
+        "evolutionary",
+        "latent",
+        "optimization",
+        "swarmevolve",
+        "swarms"
+      ],
+      "first_seen_round": 501
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.08478v1",
+      "title": "Scientist World: Grow a Research World for AI-Scientists",
+      "arxiv_id": "2611.08478",
+      "tokens": [
+        "grow",
+        "research",
+        "scientist",
+        "scientists",
+        "world",
+        "world"
+      ],
+      "first_seen_round": 501
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.08472v1",
+      "title": "XStack: A Benchmark for ML Repo Migration",
+      "arxiv_id": "2611.08472",
+      "tokens": [
+        "benchmark",
+        "migration",
+        "repo",
+        "xstack"
+      ],
+      "first_seen_round": 501
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.08469v1",
+      "title": "Same Behavior, Different Mechanism: What Finite Experiments Can Certify About Integrated Information",
+      "arxiv_id": "2611.08469",
+      "tokens": [
+        "behavior",
+        "certify",
+        "different",
+        "experiments",
+        "finite",
+        "information",
+        "integrated",
+        "mechanism"
+      ],
+      "first_seen_round": 501
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.08465v1",
+      "title": "Towards interpreting any residual stream direction by scaling activation inversion",
+      "arxiv_id": "2611.08465",
+      "tokens": [
+        "activation",
+        "any",
+        "direction",
+        "interpreting",
+        "inversion",
+        "residual",
+        "scaling",
+        "stream"
+      ],
+      "first_seen_round": 501
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.08452v1",
+      "title": "ReproBridge: Building Reproducibility into ML Research Artifacts",
+      "arxiv_id": "2611.08452",
+      "tokens": [
+        "artifacts",
+        "building",
+        "reprobridge",
+        "reproducibility",
+        "research"
+      ],
+      "first_seen_round": 501
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.08439v1",
+      "title": "Label-Wording Augmentation in a Typed-Decision Encoder: Gains on Unfamiliar Words, Not on Abbreviations or Codes",
+      "arxiv_id": "2611.08439",
+      "tokens": [
+        "abbreviations",
+        "augmentation",
+        "codes",
+        "decision",
+        "encoder",
+        "gains",
+        "label",
+        "typed",
+        "unfamiliar",
+        "wording",
+        "words"
+      ],
+      "first_seen_round": 501
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.08438v1",
+      "title": "Understanding AI from the Inside: The State of Mechanistic Interpretability for AI Safety",
+      "arxiv_id": "2611.08438",
+      "tokens": [
+        "inside",
+        "interpretability",
+        "mechanistic",
+        "safety",
+        "state",
+        "understanding"
+      ],
+      "first_seen_round": 501
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.08487v1",
+      "title": "User Embeddings are Superpositions of Interpretable Behavioral Modes",
+      "arxiv_id": "2611.08487",
+      "tokens": [
+        "behavioral",
+        "embeddings",
+        "interpretable",
+        "modes",
+        "superpositions",
+        "user"
+      ],
+      "first_seen_round": 501
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.08457v1",
+      "title": "Adversarial Training with Large Step Sizes: Implicit Bias, Optimization, and Sharpness",
+      "arxiv_id": "2611.08457",
+      "tokens": [
+        "adversarial",
+        "bias",
+        "implicit",
+        "optimization",
+        "sharpness",
+        "sizes",
+        "step",
+        "training"
+      ],
+      "first_seen_round": 501
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.08453v1",
+      "title": "Unpacking the Compute Efficiency of Strong-to-Weak OPD against GRPO",
+      "arxiv_id": "2611.08453",
+      "tokens": [
+        "against",
+        "compute",
+        "efficiency",
+        "grpo",
+        "opd",
+        "strong",
+        "unpacking",
+        "weak"
+      ],
+      "first_seen_round": 501
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.08445v1",
+      "title": "A Hidden Markov Preference Model for Online Prediction of Adversary Actions",
+      "arxiv_id": "2611.08445",
+      "tokens": [
+        "actions",
+        "adversary",
+        "hidden",
+        "markov",
+        "online",
+        "prediction",
+        "preference"
+      ],
+      "first_seen_round": 501
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.08433v1",
+      "title": "MedGraph: Maintaining Patient State with Graph Memory for Long-Term Medical Dialogue",
+      "arxiv_id": "2611.08433",
+      "tokens": [
+        "dialogue",
+        "graph",
+        "long",
+        "maintaining",
+        "medgraph",
+        "medical",
+        "memory",
+        "patient",
+        "state",
+        "term"
+      ],
+      "first_seen_round": 501
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.08403v1",
+      "title": "StepBack: Step-Level Error-Localized Resampling for Efficient Test-Time Reasoning",
+      "arxiv_id": "2611.08403",
+      "tokens": [
+        "error",
+        "level",
+        "localized",
+        "reasoning",
+        "resampling",
+        "step",
+        "stepback",
+        "test",
+        "time"
+      ],
+      "first_seen_round": 501
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.08362v1",
+      "title": "SpecCTMC: Exact Speculative Simulation of Diffusion Language Model Continuous-Time Markov Chains",
+      "arxiv_id": "2611.08362",
+      "tokens": [
+        "chains",
+        "continuous",
+        "diffusion",
+        "exact",
+        "language",
+        "markov",
+        "simulation",
+        "specctmc",
+        "speculative",
+        "time"
+      ],
+      "first_seen_round": 501
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.08334v1",
+      "title": "Cultural Adaptation within Repeated Social Interactions",
+      "arxiv_id": "2611.08334",
+      "tokens": [
+        "adaptation",
+        "cultural",
+        "interactions",
+        "repeated",
+        "social",
+        "within"
+      ],
+      "first_seen_round": 501
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.08088v1",
+      "title": "Value or Attention: Investigating Layer-wise Relevance Propagation for Graph Attention Networks",
+      "arxiv_id": "2611.08088",
+      "tokens": [
+        "attention",
+        "attention",
+        "graph",
+        "investigating",
+        "layer",
+        "propagation",
+        "relevance",
+        "value",
+        "wise"
+      ],
+      "first_seen_round": 501
     }
   ],
-  "total_unique": 4541
+  "total_unique": 4558
 }

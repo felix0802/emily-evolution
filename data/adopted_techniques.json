@@ -5438,6 +5438,36 @@
         ],
         "decided_at": "2026-11-06T18:36:42.049331"
       }
+    },
+    {
+      "id": "llm-潜在智能体群体进化",
+      "name": "潜在智能体群体进化",
+      "adopted_at": "2026-11-06T23:51:50.222661",
+      "decision": {
+        "tech_id": "llm-潜在智能体群体进化",
+        "tech_name": "潜在智能体群体进化",
+        "action": "adopt",
+        "confidence": 0.9,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-11-06T23:51:50.220730"
+      }
+    },
+    {
+      "id": "llm-可运行研究世界构建",
+      "name": "可运行研究世界构建",
+      "adopted_at": "2026-11-06T23:51:50.222677",
+      "decision": {
+        "tech_id": "llm-可运行研究世界构建",
+        "tech_name": "可运行研究世界构建",
+        "action": "adopt",
+        "confidence": 0.85,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-11-06T23:51:50.220940"
+      }
     }
   ],
   "history": [
@@ -7612,6 +7642,18 @@
       "tech_id": "llm-kronecker-积结构化注意力",
       "tech_name": "Kronecker 积结构化注意力",
       "timestamp": "2026-11-06T18:36:42.050987"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-潜在智能体群体进化",
+      "tech_name": "潜在智能体群体进化",
+      "timestamp": "2026-11-06T23:51:50.222663"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-可运行研究世界构建",
+      "tech_name": "可运行研究世界构建",
+      "timestamp": "2026-11-06T23:51:50.222678"
     }
   ]
 }

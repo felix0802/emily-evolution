@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 869,
+  "_rotation_idx": 870,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 101,
@@ -7759,18 +7759,9 @@
   },
   "gnn": {
     "name": "Graph Neural Networks",
-    "total_papers_found": 163,
-    "watering_count": 85,
+    "total_papers_found": 164,
+    "watering_count": 86,
     "history": [
-      {
-        "timestamp": "2026-08-15T06:16:52.394308",
-        "papers_found": 0,
-        "duplicates": 5,
-        "irrelevant_filtered": 5,
-        "avg_relevance": 0.0,
-        "high_relevance": 0,
-        "papers": []
-      },
       {
         "timestamp": "2026-08-16T02:50:00.449059",
         "papers_found": 0,
@@ -8618,6 +8609,23 @@
         "avg_relevance": 0.0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-11-06T23:51:44.516100",
+        "papers_found": 1,
+        "duplicates": 4,
+        "irrelevant_filtered": 5,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "Value or Attention: Investigating Layer-wise Relevance Propagation for Graph Attention Networks",
+            "summary": "Graph Attention Networks (GATs) are increasingly used in domains where scientists need to read a model's reasoning, from medicine to materials science, yet the routing they learn remains opaque to most explainers. Layer-wise Relevance Propagation (LRP) follows the model's computation, but in an atte",
+            "published": "2026-11-05",
+            "url": "http://arxiv.org/abs/2611.08088v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -8629,6 +8637,6 @@
       "node embedding",
       "graph transformer"
     ],
-    "last_watered": "2026-11-04T03:36:38.034181"
+    "last_watered": "2026-11-06T23:51:44.516094"
   }
 }
