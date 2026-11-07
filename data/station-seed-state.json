@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 872,
+  "_rotation_idx": 873,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 104,
@@ -1708,18 +1708,9 @@
   },
   "htm": {
     "name": "HTM",
-    "total_papers_found": 154,
-    "watering_count": 90,
+    "total_papers_found": 160,
+    "watering_count": 91,
     "history": [
-      {
-        "timestamp": "2026-08-15T12:13:12.420411",
-        "papers_found": 0,
-        "duplicates": 5,
-        "irrelevant_filtered": 5,
-        "avg_relevance": 0.0,
-        "high_relevance": 0,
-        "papers": []
-      },
       {
         "timestamp": "2026-08-16T08:14:13.647411",
         "papers_found": 0,
@@ -2670,6 +2661,37 @@
             "seed_match_score": 1
           }
         ]
+      },
+      {
+        "timestamp": "2026-11-07T17:04:06.054261",
+        "papers_found": 6,
+        "duplicates": 2,
+        "irrelevant_filtered": 2,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "Dynamic Optimistic Constrained OCO with Memory via Delay Equivalence",
+            "summary": "Online Convex Optimization with memory and time-varying constraints (COCO-M) is a recently-introduced framework that captures the dynamics of stateful online learning and non-stochastic control with budget constraints. Despite its expressive power, COCO-M remains largely understudied. In this work, ",
+            "published": "2026-11-05",
+            "url": "http://arxiv.org/abs/2611.08302v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "DART: Domain-Agnostic Residual Transfer for Generalist Anomaly Detection",
+            "summary": "Generalist Anomaly Detection (GAD) aims to detect anomalies in unseen domains using only a few reference samples. Recent normal-abnormal guided methods improve this setting by exploiting abnormal references, but their residuals often mix transferable anomaly cues with domain-specific appearance fact",
+            "published": "2026-11-05",
+            "url": "http://arxiv.org/abs/2611.08271v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "How Far Can Untrained Neural Networks Go in Anomaly Detection? From Tables to Pixels",
+            "summary": "Anomaly detection (AD) is often framed as a representation-learning problem, where strong performance is expected to require learned features or AD-specific optimization. However, this view can overlook the intrinsic separability of anomalies from normal references, even in the absence of learned re",
+            "published": "2026-11-05",
+            "url": "http://arxiv.org/abs/2611.08136v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -2684,7 +2706,7 @@
       "anomaly detection",
       "continuous learning"
     ],
-    "last_watered": "2026-11-05T00:34:53.063412"
+    "last_watered": "2026-11-07T17:04:06.054255"
   },
   "spiking-nn": {
     "name": "Spiking Neural Networks",

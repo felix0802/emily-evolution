@@ -73107,7 +73107,219 @@
         "time"
       ],
       "first_seen_round": 503
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.08021v1",
+      "title": "GTAFL: Addressing Test-Agnostic Long-Tailed Federated Learning in Medical Image",
+      "arxiv_id": "2611.08021",
+      "tokens": [
+        "addressing",
+        "agnostic",
+        "federated",
+        "gtafl",
+        "image",
+        "long",
+        "medical",
+        "tailed",
+        "test"
+      ],
+      "first_seen_round": 504
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.07809v1",
+      "title": "Self-Supervised Learning of Local Predictive Directions as a Neural Computation",
+      "arxiv_id": "2611.07809",
+      "tokens": [
+        "computation",
+        "directions",
+        "local",
+        "neural",
+        "predictive",
+        "self",
+        "supervised"
+      ],
+      "first_seen_round": 504
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.07718v1",
+      "title": "Multimodal Information Interactions Bottleneck for Multimodal Self-Supervised Learning",
+      "arxiv_id": "2611.07718",
+      "tokens": [
+        "bottleneck",
+        "information",
+        "interactions",
+        "multimodal",
+        "multimodal",
+        "self",
+        "supervised"
+      ],
+      "first_seen_round": 504
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.07437v1",
+      "title": "IMUDINO: Self-distilled Foundation Model for Inertial Sensing",
+      "arxiv_id": "2611.07437",
+      "tokens": [
+        "distilled",
+        "foundation",
+        "imudino",
+        "inertial",
+        "self",
+        "sensing"
+      ],
+      "first_seen_round": 504
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.07176v1",
+      "title": "VINO: Revisiting 3D Representation Learning with Volume Transformers",
+      "arxiv_id": "2611.07176",
+      "tokens": [
+        "representation",
+        "revisiting",
+        "transformers",
+        "vino",
+        "volume"
+      ],
+      "first_seen_round": 504
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.07757v1",
+      "title": "RIVER: Evidence-guided multi-agent retrieval for enzyme--reaction discovery",
+      "arxiv_id": "2611.07757",
+      "tokens": [
+        "agent",
+        "discovery",
+        "enzyme",
+        "evidence",
+        "guided",
+        "multi",
+        "reaction",
+        "retrieval",
+        "river"
+      ],
+      "first_seen_round": 504
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.07589v1",
+      "title": "Learning and Steering in Incomplete-Information Games",
+      "arxiv_id": "2611.07589",
+      "tokens": [
+        "games",
+        "incomplete",
+        "information",
+        "steering"
+      ],
+      "first_seen_round": 504
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.07140v1",
+      "title": "More Agents, More Reliable? System-Level Reliability of Multi-Agent LLMs under Operational-Profile Uncertainty",
+      "arxiv_id": "2611.07140",
+      "tokens": [
+        "agent",
+        "agents",
+        "level",
+        "llms",
+        "multi",
+        "operational",
+        "profile",
+        "reliability",
+        "reliable",
+        "uncertainty"
+      ],
+      "first_seen_round": 504
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.08302v1",
+      "title": "Dynamic Optimistic Constrained OCO with Memory via Delay Equivalence",
+      "arxiv_id": "2611.08302",
+      "tokens": [
+        "constrained",
+        "delay",
+        "dynamic",
+        "equivalence",
+        "memory",
+        "oco",
+        "optimistic"
+      ],
+      "first_seen_round": 504
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.08271v1",
+      "title": "DART: Domain-Agnostic Residual Transfer for Generalist Anomaly Detection",
+      "arxiv_id": "2611.08271",
+      "tokens": [
+        "agnostic",
+        "anomaly",
+        "dart",
+        "detection",
+        "domain",
+        "generalist",
+        "residual",
+        "transfer"
+      ],
+      "first_seen_round": 504
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.08136v1",
+      "title": "How Far Can Untrained Neural Networks Go in Anomaly Detection? From Tables to Pixels",
+      "arxiv_id": "2611.08136",
+      "tokens": [
+        "anomaly",
+        "detection",
+        "far",
+        "neural",
+        "pixels",
+        "tables",
+        "untrained"
+      ],
+      "first_seen_round": 504
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.08094v1",
+      "title": "PersonaAgent: Retrieval-Augmented Transaction Anomaly Scoring with Refreshable Multi-Entity Persona Memory",
+      "arxiv_id": "2611.08094",
+      "tokens": [
+        "anomaly",
+        "augmented",
+        "entity",
+        "memory",
+        "multi",
+        "persona",
+        "personaagent",
+        "refreshable",
+        "retrieval",
+        "scoring",
+        "transaction"
+      ],
+      "first_seen_round": 504
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.07706v1",
+      "title": "Towards Generalist Graph-Level Anomaly Detection",
+      "arxiv_id": "2611.07706",
+      "tokens": [
+        "anomaly",
+        "detection",
+        "generalist",
+        "graph",
+        "level"
+      ],
+      "first_seen_round": 504
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.07629v1",
+      "title": "Online Learning with Ordered Experts (via Two-point Feedback)",
+      "arxiv_id": "2611.07629",
+      "tokens": [
+        "experts",
+        "feedback",
+        "online",
+        "ordered",
+        "point"
+      ],
+      "first_seen_round": 504
     }
   ],
-  "total_unique": 4592
+  "total_unique": 4606
 }
