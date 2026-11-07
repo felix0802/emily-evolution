@@ -1,19 +1,10 @@
 {
-  "_rotation_idx": 870,
+  "_rotation_idx": 871,
   "mamba": {
     "name": "Mamba (SSM)",
-    "total_papers_found": 101,
-    "watering_count": 90,
+    "total_papers_found": 104,
+    "watering_count": 91,
     "history": [
-      {
-        "timestamp": "2026-08-15T08:13:16.181049",
-        "papers_found": 0,
-        "duplicates": 8,
-        "irrelevant_filtered": 2,
-        "avg_relevance": 0.0,
-        "high_relevance": 0,
-        "papers": []
-      },
       {
         "timestamp": "2026-08-16T04:23:30.314810",
         "papers_found": 0,
@@ -797,6 +788,37 @@
             "seed_match_score": 1
           }
         ]
+      },
+      {
+        "timestamp": "2026-11-07T03:28:54.674612",
+        "papers_found": 3,
+        "duplicates": 3,
+        "irrelevant_filtered": 4,
+        "avg_relevance": 1.67,
+        "high_relevance": 2,
+        "papers": [
+          {
+            "title": "First-Token Attraction in Mamba Dynamics",
+            "summary": "We study token dynamics in deep Mamba models, with a particular focus on the attracting role of the first token. Unlike attention mechanisms, where token interactions are governed by positive scalar coefficients, Mamba dynamics involve full matrix-valued interaction coefficients with no positivity o",
+            "published": "2026-11-05",
+            "url": "http://arxiv.org/abs/2611.08303v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Identifying Neural Dynamics Using Nonlinear Interventional State Space Models",
+            "summary": "State-space models (SSMs) recover low-dimensional latent dynamics from high-dimensional observations, but latents are generally not identifiable from observational data alone. Interventional state-space models (iSSMs) use perturbations to break observational symmetries and identify parameters up to ",
+            "published": "2026-11-05",
+            "url": "http://arxiv.org/abs/2611.08113v1",
+            "seed_match_score": 2
+          },
+          {
+            "title": "MambaTG: Candidate-Aware State Space Modeling for Future Link Prediction on Temporal Graphs",
+            "summary": "Future link prediction on temporal graphs involves both repeated interactions between previously connected node pairs and first-time interactions between pairs with no prior interaction. While repeated-edge prediction can exploit direct pairwise evidence, unseen-edge prediction must generalize beyon",
+            "published": "2026-11-05",
+            "url": "http://arxiv.org/abs/2611.07569v1",
+            "seed_match_score": 2
+          }
+        ]
       }
     ],
     "keywords": [
@@ -805,7 +827,7 @@
       "ssm",
       "selective scan"
     ],
-    "last_watered": "2026-11-04T11:40:23.720276"
+    "last_watered": "2026-11-07T03:28:54.674606"
   },
   "liquid-networks": {
     "name": "Liquid Networks",
