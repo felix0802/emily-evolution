@@ -72737,7 +72737,377 @@
         "temporal"
       ],
       "first_seen_round": 502
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.08414v1",
+      "title": "Spectral and Subspace Dynamics of LoRA in Supervised Fine-Tuning and Reinforcement Learning",
+      "arxiv_id": "2611.08414",
+      "tokens": [
+        "dynamics",
+        "fine",
+        "lora",
+        "reinforcement",
+        "spectral",
+        "subspace",
+        "supervised",
+        "tuning"
+      ],
+      "first_seen_round": 503
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.08364v1",
+      "title": "SHORE: Stability-Hybrid On-Policy Reinforcement Learning for Online Bin Packing",
+      "arxiv_id": "2611.08364",
+      "tokens": [
+        "bin",
+        "hybrid",
+        "online",
+        "packing",
+        "policy",
+        "reinforcement",
+        "shore",
+        "stability"
+      ],
+      "first_seen_round": 503
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.08335v1",
+      "title": "Discovering Learning Rules that Shape Others",
+      "arxiv_id": "2611.08335",
+      "tokens": [
+        "discovering",
+        "others",
+        "rules",
+        "shape"
+      ],
+      "first_seen_round": 503
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.08308v1",
+      "title": "RM-VLM: From Natural-Language Task Descriptions to Vision-Grounded Reward Machines",
+      "arxiv_id": "2611.08308",
+      "tokens": [
+        "descriptions",
+        "grounded",
+        "language",
+        "machines",
+        "natural",
+        "reward",
+        "task",
+        "vision",
+        "vlm"
+      ],
+      "first_seen_round": 503
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.08273v1",
+      "title": "Accelerating Safe Reinforcement Learning with Massive Parallelism",
+      "arxiv_id": "2611.08273",
+      "tokens": [
+        "accelerating",
+        "massive",
+        "parallelism",
+        "reinforcement",
+        "safe"
+      ],
+      "first_seen_round": 503
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.08315v1",
+      "title": "Benchmarking Large Language Models on Heterogeneous Cognitive and Biomedical Knowledge Graphs: The Role of Graph Grounding in Multi-Hop Reasoning and Hallucination Mitigation",
+      "arxiv_id": "2611.08315",
+      "tokens": [
+        "benchmarking",
+        "biomedical",
+        "cognitive",
+        "graph",
+        "graphs",
+        "grounding",
+        "hallucination",
+        "heterogeneous",
+        "hop",
+        "knowledge",
+        "language",
+        "mitigation",
+        "multi",
+        "reasoning",
+        "role"
+      ],
+      "first_seen_round": 503
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.08231v1",
+      "title": "From Twisted Facts to Rogue Agents: Can LLMs Reliably Detect Multi-Dimensional Hallucinations?",
+      "arxiv_id": "2611.08231",
+      "tokens": [
+        "agents",
+        "detect",
+        "dimensional",
+        "facts",
+        "hallucinations",
+        "llms",
+        "multi",
+        "reliably",
+        "rogue",
+        "twisted"
+      ],
+      "first_seen_round": 503
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.08219v1",
+      "title": "Agent-R$^2$: Scaling Agents for Realistic Productivity Work via Real-Source Data Synthesis",
+      "arxiv_id": "2611.08219",
+      "tokens": [
+        "agent",
+        "agents",
+        "productivity",
+        "real",
+        "realistic",
+        "scaling",
+        "source",
+        "synthesis",
+        "work"
+      ],
+      "first_seen_round": 503
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.08216v1",
+      "title": "ProQuant: Progressive Quantization-aware Training for Edge MLLMs",
+      "arxiv_id": "2611.08216",
+      "tokens": [
+        "aware",
+        "edge",
+        "mllms",
+        "progressive",
+        "proquant",
+        "quantization",
+        "training"
+      ],
+      "first_seen_round": 503
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.08085v1",
+      "title": "Linguistic boundaries emerge from pressure-constrained processing dynamics",
+      "arxiv_id": "2611.08085",
+      "tokens": [
+        "boundaries",
+        "constrained",
+        "dynamics",
+        "emerge",
+        "linguistic",
+        "pressure",
+        "processing"
+      ],
+      "first_seen_round": 503
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.08006v1",
+      "title": "Automatic keyphrase extraction and annotation: modern theoretical approaches and practical solutions for text and speech",
+      "arxiv_id": "2611.08006",
+      "tokens": [
+        "annotation",
+        "automatic",
+        "extraction",
+        "keyphrase",
+        "modern",
+        "practical",
+        "solutions",
+        "speech",
+        "text",
+        "theoretical"
+      ],
+      "first_seen_round": 503
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.08240v1",
+      "title": "FewStepRL: Fine-tuning Few-step Diffusion Models with Reinforcement Learning",
+      "arxiv_id": "2611.08240",
+      "tokens": [
+        "diffusion",
+        "fewsteprl",
+        "fine",
+        "reinforcement",
+        "step",
+        "tuning"
+      ],
+      "first_seen_round": 503
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.07941v1",
+      "title": "IDPrior: Decoupling Identity Generation from Facial Image Synthesis",
+      "arxiv_id": "2611.07941",
+      "tokens": [
+        "decoupling",
+        "facial",
+        "generation",
+        "identity",
+        "idprior",
+        "image",
+        "synthesis"
+      ],
+      "first_seen_round": 503
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.07929v1",
+      "title": "Flux as a Codec: Zero-Shot Lossy Compression with Flux",
+      "arxiv_id": "2611.07929",
+      "tokens": [
+        "codec",
+        "compression",
+        "flux",
+        "flux",
+        "lossy",
+        "shot",
+        "zero"
+      ],
+      "first_seen_round": 503
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.07922v1",
+      "title": "StitchEdit: Stitching Depth Priors into Image Editors via Per-Layer Gradient Probing",
+      "arxiv_id": "2611.07922",
+      "tokens": [
+        "depth",
+        "editors",
+        "gradient",
+        "image",
+        "layer",
+        "per",
+        "priors",
+        "probing",
+        "stitchedit",
+        "stitching"
+      ],
+      "first_seen_round": 503
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.07814v1",
+      "title": "CMDiff: Left Atrial Scar Segmentation from 3D LGE MRI Using Conditional Mask Diffusion Model: A Feasibility Study",
+      "arxiv_id": "2611.07814",
+      "tokens": [
+        "atrial",
+        "cmdiff",
+        "conditional",
+        "diffusion",
+        "feasibility",
+        "left",
+        "lge",
+        "mask",
+        "mri",
+        "scar",
+        "segmentation"
+      ],
+      "first_seen_round": 503
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.07810v1",
+      "title": "Self-Supervised Diffusion Models for Handwritten Signature Verification via Ruin Reconstruction",
+      "arxiv_id": "2611.07810",
+      "tokens": [
+        "diffusion",
+        "handwritten",
+        "reconstruction",
+        "ruin",
+        "self",
+        "signature",
+        "supervised",
+        "verification"
+      ],
+      "first_seen_round": 503
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.08358v1",
+      "title": "Unifying Central Flow, Rod Flow, and the Edge Coupling",
+      "arxiv_id": "2611.08358",
+      "tokens": [
+        "central",
+        "coupling",
+        "edge",
+        "flow",
+        "flow",
+        "rod",
+        "unifying"
+      ],
+      "first_seen_round": 503
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.07674v1",
+      "title": "Instrumental Variables in Continuous-Time Stochastic Processes",
+      "arxiv_id": "2611.07674",
+      "tokens": [
+        "continuous",
+        "instrumental",
+        "processes",
+        "stochastic",
+        "time",
+        "variables"
+      ],
+      "first_seen_round": 503
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.07643v1",
+      "title": "Projection-Free Gradient Tracking Neurodynamic for Distributed Nonnegative Sparse Optimization",
+      "arxiv_id": "2611.07643",
+      "tokens": [
+        "distributed",
+        "free",
+        "gradient",
+        "neurodynamic",
+        "nonnegative",
+        "optimization",
+        "projection",
+        "sparse",
+        "tracking"
+      ],
+      "first_seen_round": 503
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.07065v1",
+      "title": "Stochastic Dynamics of Generative AI: From Autoregressive Models to Interacting LLM Networks and Neural SDEs",
+      "arxiv_id": "2611.07065",
+      "tokens": [
+        "autoregressive",
+        "dynamics",
+        "generative",
+        "interacting",
+        "llm",
+        "neural",
+        "sdes",
+        "stochastic"
+      ],
+      "first_seen_round": 503
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.06738v1",
+      "title": "Coupled Scene Graph Anticipation: When With-Constraint Recall Hides Structural Inconsistency",
+      "arxiv_id": "2611.06738",
+      "tokens": [
+        "anticipation",
+        "constraint",
+        "coupled",
+        "graph",
+        "hides",
+        "inconsistency",
+        "recall",
+        "scene",
+        "structural"
+      ],
+      "first_seen_round": 503
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.06225v1",
+      "title": "Explainable Anomaly Detection in 5G Networks through Continuous Time Graphs",
+      "arxiv_id": "2611.06225",
+      "tokens": [
+        "anomaly",
+        "continuous",
+        "detection",
+        "explainable",
+        "graphs",
+        "time"
+      ],
+      "first_seen_round": 503
     }
   ],
-  "total_unique": 4569
+  "total_unique": 4592
 }

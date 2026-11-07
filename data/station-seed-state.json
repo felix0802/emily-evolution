@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 871,
+  "_rotation_idx": 872,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 104,
@@ -831,18 +831,9 @@
   },
   "liquid-networks": {
     "name": "Liquid Networks",
-    "total_papers_found": 126,
-    "watering_count": 90,
+    "total_papers_found": 132,
+    "watering_count": 91,
     "history": [
-      {
-        "timestamp": "2026-08-15T10:10:11.607457",
-        "papers_found": 0,
-        "duplicates": 9,
-        "irrelevant_filtered": 1,
-        "avg_relevance": 0.0,
-        "high_relevance": 0,
-        "papers": []
-      },
       {
         "timestamp": "2026-08-16T06:18:35.110102",
         "papers_found": 0,
@@ -1673,6 +1664,37 @@
             "seed_match_score": 2
           }
         ]
+      },
+      {
+        "timestamp": "2026-11-07T10:45:08.394002",
+        "papers_found": 6,
+        "duplicates": 4,
+        "irrelevant_filtered": 0,
+        "avg_relevance": 1.33,
+        "high_relevance": 2,
+        "papers": [
+          {
+            "title": "Unifying Central Flow, Rod Flow, and the Edge Coupling",
+            "summary": "At the edge of stability, the iterates of gradient descent oscillate along the sharp directions of the Hessian. This poses a significant challenge for continuous-time models as the usual continuous-time approximation -- the gradient flow -- admits no oscillations. Several continuous-time models have",
+            "published": "2026-11-05",
+            "url": "http://arxiv.org/abs/2611.08358v1",
+            "seed_match_score": 2
+          },
+          {
+            "title": "Instrumental Variables in Continuous-Time Stochastic Processes",
+            "summary": "Causal questions often arise in systems that evolve in continuous time. While instrumental variable (IV) methods provide a principled approach to identify causal effects in static or discrete-time settings, even in the presence of unobserved confounding, they do not yet extend to continuous-time dyn",
+            "published": "2026-11-05",
+            "url": "http://arxiv.org/abs/2611.07674v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Projection-Free Gradient Tracking Neurodynamic for Distributed Nonnegative Sparse Optimization",
+            "summary": "This paper proposes a continuous-time, projection-free neurodynamic system based on gradient tracking for distributed nonnegative sparse optimization. Unlike traditional methods, our approach avoids projecting states onto the feasible set. Instead, it employs gradient tracking to estimate average gr",
+            "published": "2026-11-05",
+            "url": "http://arxiv.org/abs/2611.07643v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -1682,7 +1704,7 @@
       "ode",
       "continuous-time"
     ],
-    "last_watered": "2026-11-04T18:57:33.846395"
+    "last_watered": "2026-11-07T10:45:08.393998"
   },
   "htm": {
     "name": "HTM",
