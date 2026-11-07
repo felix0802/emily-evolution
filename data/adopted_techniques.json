@@ -5468,6 +5468,21 @@
         ],
         "decided_at": "2026-11-06T23:51:50.220940"
       }
+    },
+    {
+      "id": "llm-muon-优化器",
+      "name": "Muon 优化器",
+      "adopted_at": "2026-11-07T21:09:52.628222",
+      "decision": {
+        "tech_id": "llm-muon-优化器",
+        "tech_name": "Muon 优化器",
+        "action": "adopt",
+        "confidence": 0.9,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-11-07T21:09:52.625354"
+      }
     }
   ],
   "history": [
@@ -7654,6 +7669,12 @@
       "tech_id": "llm-可运行研究世界构建",
       "tech_name": "可运行研究世界构建",
       "timestamp": "2026-11-06T23:51:50.222678"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-muon-优化器",
+      "tech_name": "Muon 优化器",
+      "timestamp": "2026-11-07T21:09:52.628227"
     }
   ]
 }

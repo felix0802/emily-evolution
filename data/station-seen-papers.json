@@ -73319,7 +73319,71 @@
         "point"
       ],
       "first_seen_round": 504
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.08392v1",
+      "title": "Learning a patient world model for health system simulation in intensive care",
+      "arxiv_id": "2611.08392",
+      "tokens": [
+        "care",
+        "health",
+        "intensive",
+        "patient",
+        "simulation",
+        "world"
+      ],
+      "first_seen_round": 505
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.07912v1",
+      "title": "GuidedWAM: Training-Free Energy Guidance for World Action Models in Autonomous Driving",
+      "arxiv_id": "2611.07912",
+      "tokens": [
+        "action",
+        "autonomous",
+        "driving",
+        "energy",
+        "free",
+        "guidance",
+        "guidedwam",
+        "training",
+        "world"
+      ],
+      "first_seen_round": 505
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.07730v1",
+      "title": "Seeing Beyond the Next Step: World-Model-Guided Human-Like Navigation in Multi-Agent Scenes",
+      "arxiv_id": "2611.07730",
+      "tokens": [
+        "agent",
+        "guided",
+        "human",
+        "like",
+        "multi",
+        "navigation",
+        "next",
+        "scenes",
+        "seeing",
+        "step",
+        "world"
+      ],
+      "first_seen_round": 505
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.07245v1",
+      "title": "MAC-v2: Long-horizon model-based value expansion from pixels",
+      "arxiv_id": "2611.07245",
+      "tokens": [
+        "expansion",
+        "horizon",
+        "long",
+        "mac",
+        "pixels",
+        "value"
+      ],
+      "first_seen_round": 505
     }
   ],
-  "total_unique": 4606
+  "total_unique": 4610
 }
