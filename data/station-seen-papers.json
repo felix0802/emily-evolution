@@ -73383,7 +73383,88 @@
         "value"
       ],
       "first_seen_round": 505
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.08252v1",
+      "title": "Series-wise Cross-validation for Global Time Series Forecasting",
+      "arxiv_id": "2611.08252",
+      "tokens": [
+        "cross",
+        "forecasting",
+        "global",
+        "series",
+        "series",
+        "time",
+        "validation",
+        "wise"
+      ],
+      "first_seen_round": 506
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.08160v1",
+      "title": "Patch Attention Wisely: Understanding Patch Length in Attention-Based Forecasting",
+      "arxiv_id": "2611.08160",
+      "tokens": [
+        "attention",
+        "attention",
+        "forecasting",
+        "length",
+        "patch",
+        "patch",
+        "understanding",
+        "wisely"
+      ],
+      "first_seen_round": 506
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.08376v1",
+      "title": "Muir: Linear Attention with Sensitivity-Allocated Gating and Matched-Filter Readout",
+      "arxiv_id": "2611.08376",
+      "tokens": [
+        "allocated",
+        "attention",
+        "filter",
+        "gating",
+        "linear",
+        "matched",
+        "muir",
+        "readout",
+        "sensitivity"
+      ],
+      "first_seen_round": 506
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.08133v1",
+      "title": "Beyond K/V Caches: Cross-Model State Handoff in Hybrid Linear-Attention LLMs",
+      "arxiv_id": "2611.08133",
+      "tokens": [
+        "attention",
+        "caches",
+        "cross",
+        "handoff",
+        "hybrid",
+        "linear",
+        "llms",
+        "state"
+      ],
+      "first_seen_round": 506
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.07552v1",
+      "title": "SPARE: Fast Linear Attention Decoding with Compact Recurrent States",
+      "arxiv_id": "2611.07552",
+      "tokens": [
+        "attention",
+        "compact",
+        "decoding",
+        "fast",
+        "linear",
+        "recurrent",
+        "spare",
+        "states"
+      ],
+      "first_seen_round": 506
     }
   ],
-  "total_unique": 4610
+  "total_unique": 4615
 }

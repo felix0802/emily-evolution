@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 874,
+  "_rotation_idx": 875,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 104,
@@ -3485,18 +3485,9 @@
   },
   "non-transformer": {
     "name": "Non-Transformer Arch",
-    "total_papers_found": 76,
-    "watering_count": 90,
+    "total_papers_found": 79,
+    "watering_count": 91,
     "history": [
-      {
-        "timestamp": "2026-08-15T16:09:37.500000",
-        "papers_found": 0,
-        "duplicates": 8,
-        "irrelevant_filtered": 2,
-        "avg_relevance": 0.0,
-        "high_relevance": 0,
-        "papers": []
-      },
       {
         "timestamp": "2026-08-16T12:14:02.690794",
         "papers_found": 0,
@@ -4303,6 +4294,37 @@
             "seed_match_score": 2
           }
         ]
+      },
+      {
+        "timestamp": "2026-11-08T00:57:21.130815",
+        "papers_found": 3,
+        "duplicates": 5,
+        "irrelevant_filtered": 2,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "Muir: Linear Attention with Sensitivity-Allocated Gating and Matched-Filter Readout",
+            "summary": "Linear attention compresses context into a fixed-size key-value state for linear-time training and constant-memory inference. Gated delta-rule models decay this state and erase its prediction for an incoming key before writing a new value; Gated DeltaNet-2 (GDN-2) generalizes this with channel-wise ",
+            "published": "2026-11-05",
+            "url": "http://arxiv.org/abs/2611.08376v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Beyond K/V Caches: Cross-Model State Handoff in Hybrid Linear-Attention LLMs",
+            "summary": "Production deployments often use different models to balance cost and quality through cascading, routing, and switching models during long conversations. Context accumulates across turns. Each switch requires the target to repeat prefill over this context. Existing methods transfer full-attention (F",
+            "published": "2026-11-05",
+            "url": "http://arxiv.org/abs/2611.08133v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "SPARE: Fast Linear Attention Decoding with Compact Recurrent States",
+            "summary": "Linear attention reduces the quadratic sequence-length complexity of softmax attention by maintaining fixed-size recurrent states. However, these states scale quadratically with the representation dimension and require repeated data transfers during decoding, creating a substantial GPU memory bottle",
+            "published": "2026-11-05",
+            "url": "http://arxiv.org/abs/2611.07552v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -4315,7 +4337,7 @@
       "sub-quadratic",
       "mamba"
     ],
-    "last_watered": "2026-11-05T17:43:46.103355"
+    "last_watered": "2026-11-08T00:57:21.130806"
   },
   "few-shot": {
     "name": "Few-Shot Learning",

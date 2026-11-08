@@ -5483,6 +5483,21 @@
         ],
         "decided_at": "2026-11-07T21:09:52.625354"
       }
+    },
+    {
+      "id": "llm-series-wise-cross-validation",
+      "name": "Series-wise cross-validation",
+      "adopted_at": "2026-11-08T00:57:27.308277",
+      "decision": {
+        "tech_id": "llm-series-wise-cross-validation",
+        "tech_name": "Series-wise cross-validation",
+        "action": "adopt",
+        "confidence": 0.9,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-11-08T00:57:27.305218"
+      }
     }
   ],
   "history": [
@@ -7675,6 +7690,12 @@
       "tech_id": "llm-muon-优化器",
       "tech_name": "Muon 优化器",
       "timestamp": "2026-11-07T21:09:52.628227"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-series-wise-cross-validation",
+      "tech_name": "Series-wise cross-validation",
+      "timestamp": "2026-11-08T00:57:27.308283"
     }
   ]
 }
