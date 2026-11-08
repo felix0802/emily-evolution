@@ -5528,6 +5528,36 @@
         ],
         "decided_at": "2026-11-08T08:11:58.570443"
       }
+    },
+    {
+      "id": "llm-llm引导的进化搜索",
+      "name": "LLM引导的进化搜索",
+      "adopted_at": "2026-11-08T21:25:31.405414",
+      "decision": {
+        "tech_id": "llm-llm引导的进化搜索",
+        "tech_name": "LLM引导的进化搜索",
+        "action": "adopt",
+        "confidence": 0.9,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-11-08T21:25:31.403505"
+      }
+    },
+    {
+      "id": "llm-激活反转与最大激活示例元模型（maems）",
+      "name": "激活反转与最大激活示例元模型（MAEMs）",
+      "adopted_at": "2026-11-08T21:25:31.405431",
+      "decision": {
+        "tech_id": "llm-激活反转与最大激活示例元模型（maems）",
+        "tech_name": "激活反转与最大激活示例元模型（MAEMs）",
+        "action": "adopt",
+        "confidence": 0.85,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-11-08T21:25:31.403724"
+      }
     }
   ],
   "history": [
@@ -7738,6 +7768,18 @@
       "tech_id": "llm-前缀记忆先验用于设备端推测解码",
       "tech_name": "前缀记忆先验用于设备端推测解码",
       "timestamp": "2026-11-08T08:11:58.572927"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-llm引导的进化搜索",
+      "tech_name": "LLM引导的进化搜索",
+      "timestamp": "2026-11-08T21:25:31.405417"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-激活反转与最大激活示例元模型（maems）",
+      "tech_name": "激活反转与最大激活示例元模型（MAEMs）",
+      "timestamp": "2026-11-08T21:25:31.405432"
     }
   ]
 }
