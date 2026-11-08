@@ -1,28 +1,6 @@
 {
   "rounds": [
     {
-      "round": 457,
-      "timestamp": "2026-10-26T21:59:38.221084",
-      "prediction_error": 0.7,
-      "seeds_active": 10,
-      "seeds_dormant": 0,
-      "new_seeds_added": 0,
-      "top_motivated": [
-        [
-          "mamba",
-          0.91
-        ],
-        [
-          "liquid-networks",
-          0.91
-        ],
-        [
-          "htm",
-          0.91
-        ]
-      ]
-    },
-    {
       "round": 458,
       "timestamp": "2026-10-27T01:09:00.451782",
       "prediction_error": 0.7,
@@ -1099,6 +1077,28 @@
           0.91
         ]
       ]
+    },
+    {
+      "round": 507,
+      "timestamp": "2026-11-08T08:11:51.387461",
+      "prediction_error": 0.7,
+      "seeds_active": 10,
+      "seeds_dormant": 0,
+      "new_seeds_added": 0,
+      "top_motivated": [
+        [
+          "mamba",
+          0.91
+        ],
+        [
+          "liquid-networks",
+          0.91
+        ],
+        [
+          "htm",
+          0.91
+        ]
+      ]
     }
   ],
   "seed_scores": {
@@ -1249,11 +1249,10 @@
     },
     "few-shot": {
       "name": "Few-Shot Learning",
-      "info_gain": 0.346,
+      "info_gain": 0.333,
       "novelty": 1.0,
-      "motivation_score": 0.648,
+      "motivation_score": 0.643,
       "info_gain_history": [
-        0.667,
         0.72,
         0.72,
         0.72,
@@ -1273,7 +1272,8 @@
         0.346,
         0.346,
         0.346,
-        0.346
+        0.346,
+        0.333
       ]
     },
     "continual-learning": {
@@ -1313,7 +1313,6 @@
       "info_gain_history": [
         0.74,
         0.74,
-        0.74,
         0.96,
         0.96,
         0.96,
@@ -1324,6 +1323,7 @@
         0.96,
         0.96,
         0.96,
+        1.0,
         1.0,
         1.0,
         1.0,
@@ -1373,7 +1373,6 @@
         0.318,
         0.318,
         0.318,
-        0.318,
         0.214,
         0.214,
         0.214,
@@ -1384,6 +1383,7 @@
         0.214,
         0.214,
         0.214,
+        0.321,
         0.321,
         0.321,
         0.321,
@@ -1406,6 +1406,6 @@
     "spiking-nn",
     "non-transformer"
   ],
-  "total_motivation_evaluations": 350,
+  "total_motivation_evaluations": 351,
   "current_prediction_error": 0.7
 }

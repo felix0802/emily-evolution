@@ -5498,6 +5498,36 @@
         ],
         "decided_at": "2026-11-08T00:57:27.305218"
       }
+    },
+    {
+      "id": "llm-可学习门控-kv-cache-淘汰",
+      "name": "可学习门控 KV cache 淘汰",
+      "adopted_at": "2026-11-08T08:11:58.572901",
+      "decision": {
+        "tech_id": "llm-可学习门控-kv-cache-淘汰",
+        "tech_name": "可学习门控 KV cache 淘汰",
+        "action": "adopt",
+        "confidence": 0.9,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-11-08T08:11:58.570209"
+      }
+    },
+    {
+      "id": "llm-前缀记忆先验用于设备端推测解码",
+      "name": "前缀记忆先验用于设备端推测解码",
+      "adopted_at": "2026-11-08T08:11:58.572926",
+      "decision": {
+        "tech_id": "llm-前缀记忆先验用于设备端推测解码",
+        "tech_name": "前缀记忆先验用于设备端推测解码",
+        "action": "adopt",
+        "confidence": 0.85,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-11-08T08:11:58.570443"
+      }
     }
   ],
   "history": [
@@ -7696,6 +7726,18 @@
       "tech_id": "llm-series-wise-cross-validation",
       "tech_name": "Series-wise cross-validation",
       "timestamp": "2026-11-08T00:57:27.308283"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-可学习门控-kv-cache-淘汰",
+      "tech_name": "可学习门控 KV cache 淘汰",
+      "timestamp": "2026-11-08T08:11:58.572906"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-前缀记忆先验用于设备端推测解码",
+      "tech_name": "前缀记忆先验用于设备端推测解码",
+      "timestamp": "2026-11-08T08:11:58.572927"
     }
   ]
 }

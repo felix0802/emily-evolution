@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 875,
+  "_rotation_idx": 876,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 104,
@@ -4341,18 +4341,9 @@
   },
   "few-shot": {
     "name": "Few-Shot Learning",
-    "total_papers_found": 52,
-    "watering_count": 89,
+    "total_papers_found": 53,
+    "watering_count": 90,
     "history": [
-      {
-        "timestamp": "2026-08-15T18:11:00.287311",
-        "papers_found": 0,
-        "duplicates": 6,
-        "irrelevant_filtered": 4,
-        "avg_relevance": 0.0,
-        "high_relevance": 0,
-        "papers": []
-      },
       {
         "timestamp": "2026-08-16T14:11:26.126846",
         "papers_found": 0,
@@ -4967,6 +4958,23 @@
         "avg_relevance": 0.0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-11-08T08:11:51.374692",
+        "papers_found": 1,
+        "duplicates": 2,
+        "irrelevant_filtered": 7,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "Simple Meta-Learning for HPO and CASH Using Performance Representations",
+            "summary": "Bayesian optimization for Hyperparameter Optimization (HPO) and Combined Algorithm Selection and Hyperparameter Optimization (CASH) often relies on explicit hyperparameter encodings as surrogate inputs. In high-dimensional search spaces, however, such representations can make it difficult for standa",
+            "published": "2026-11-05",
+            "url": "http://arxiv.org/abs/2611.07659v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -4976,7 +4984,7 @@
       "prototypical",
       "in-context"
     ],
-    "last_watered": "2026-11-05T22:58:26.369830"
+    "last_watered": "2026-11-08T08:11:51.374687"
   },
   "continual-learning": {
     "name": "Continual Learning",
