@@ -1,19 +1,10 @@
 {
-  "_rotation_idx": 880,
+  "_rotation_idx": 881,
   "mamba": {
     "name": "Mamba (SSM)",
-    "total_papers_found": 104,
-    "watering_count": 91,
+    "total_papers_found": 105,
+    "watering_count": 92,
     "history": [
-      {
-        "timestamp": "2026-08-16T04:23:30.314810",
-        "papers_found": 0,
-        "duplicates": 8,
-        "irrelevant_filtered": 2,
-        "avg_relevance": 0.0,
-        "high_relevance": 0,
-        "papers": []
-      },
       {
         "timestamp": "2026-08-17T00:32:21.995787",
         "papers_found": 0,
@@ -819,6 +810,23 @@
             "seed_match_score": 2
           }
         ]
+      },
+      {
+        "timestamp": "2026-11-09T20:14:24.899505",
+        "papers_found": 1,
+        "duplicates": 4,
+        "irrelevant_filtered": 5,
+        "avg_relevance": 2.0,
+        "high_relevance": 1,
+        "papers": [
+          {
+            "title": "MIRA: Mitigating Pole Geometry Bias in Recurrent Language Models",
+            "summary": "We show that the Transformer's recurrent successors --- such as selective state-space models (SSMs), Receptance Weighted Key Value (RWKV), and Retentive Network (RetNet) --- can be characterized as infinite-impulse-response (IIR) systems. The zero--pole geometries of these IIR systems characterize t",
+            "published": "2026-11-06",
+            "url": "http://arxiv.org/abs/2611.09412v1",
+            "seed_match_score": 2
+          }
+        ]
       }
     ],
     "keywords": [
@@ -827,7 +835,7 @@
       "ssm",
       "selective scan"
     ],
-    "last_watered": "2026-11-07T03:28:54.674606"
+    "last_watered": "2026-11-09T20:14:24.899499"
   },
   "liquid-networks": {
     "name": "Liquid Networks",

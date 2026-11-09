@@ -73858,7 +73858,101 @@
         "traffic"
       ],
       "first_seen_round": 511
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.09880v1",
+      "title": "ZeoBench: A Benchmark for Self-Supervised Learning on 3D Zeolite Representations",
+      "arxiv_id": "2611.09880",
+      "tokens": [
+        "benchmark",
+        "representations",
+        "self",
+        "supervised",
+        "zeobench",
+        "zeolite"
+      ],
+      "first_seen_round": 512
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.09342v1",
+      "title": "Syn2DRE: Synergistic Dual Teacher-Student Framework for Document-level Relation Extraction",
+      "arxiv_id": "2611.09342",
+      "tokens": [
+        "document",
+        "dual",
+        "extraction",
+        "level",
+        "relation",
+        "student",
+        "syn2dre",
+        "synergistic",
+        "teacher"
+      ],
+      "first_seen_round": 512
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.08758v1",
+      "title": "Conflict-Aware Meta-Learning for Generalizable Speech Deepfake Detection",
+      "arxiv_id": "2611.08758",
+      "tokens": [
+        "aware",
+        "conflict",
+        "deepfake",
+        "detection",
+        "generalizable",
+        "meta",
+        "speech"
+      ],
+      "first_seen_round": 512
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.09298v1",
+      "title": "Towards an Autonomous AI Steward for Large-Scale Physics Experiments: Integrating Causal Diagnostics, RAG, and Conformal Prediction",
+      "arxiv_id": "2611.09298",
+      "tokens": [
+        "autonomous",
+        "causal",
+        "conformal",
+        "diagnostics",
+        "experiments",
+        "integrating",
+        "physics",
+        "prediction",
+        "rag",
+        "scale",
+        "steward"
+      ],
+      "first_seen_round": 512
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.08615v1",
+      "title": "s$^3$: Simple Scaling of Swarms via Cooperative Multi-agent RL",
+      "arxiv_id": "2611.08615",
+      "tokens": [
+        "agent",
+        "cooperative",
+        "multi",
+        "scaling",
+        "simple",
+        "swarms"
+      ],
+      "first_seen_round": 512
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.09412v1",
+      "title": "MIRA: Mitigating Pole Geometry Bias in Recurrent Language Models",
+      "arxiv_id": "2611.09412",
+      "tokens": [
+        "bias",
+        "geometry",
+        "language",
+        "mira",
+        "mitigating",
+        "pole",
+        "recurrent"
+      ],
+      "first_seen_round": 512
     }
   ],
-  "total_unique": 4638
+  "total_unique": 4644
 }
