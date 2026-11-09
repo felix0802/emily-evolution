@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 879,
+  "_rotation_idx": 880,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 104,
@@ -7855,18 +7855,9 @@
   },
   "gnn": {
     "name": "Graph Neural Networks",
-    "total_papers_found": 164,
-    "watering_count": 86,
+    "total_papers_found": 168,
+    "watering_count": 87,
     "history": [
-      {
-        "timestamp": "2026-08-16T02:50:00.449059",
-        "papers_found": 0,
-        "duplicates": 5,
-        "irrelevant_filtered": 5,
-        "avg_relevance": 0.0,
-        "high_relevance": 0,
-        "papers": []
-      },
       {
         "timestamp": "2026-08-16T22:08:19.692231",
         "papers_found": 0,
@@ -8722,6 +8713,37 @@
             "seed_match_score": 1
           }
         ]
+      },
+      {
+        "timestamp": "2026-11-09T08:47:07.530934",
+        "papers_found": 4,
+        "duplicates": 2,
+        "irrelevant_filtered": 4,
+        "avg_relevance": 1.5,
+        "high_relevance": 2,
+        "papers": [
+          {
+            "title": "Scaling Graph Similarity Learning with Graph Neural Networks",
+            "summary": "Graph similarity computation is an important task in graph mining with many real-world applications, such as chemical compound analysis, program dependence comparison, and social network analysis. The problem is computationally challenging: Graph Edit Distance (GED) and Maximum Common Subgraph (MCS)",
+            "published": "2026-11-06",
+            "url": "http://arxiv.org/abs/2611.09805v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Interpretable Context-Aware Multi-Label Retinal Classification with Dual-Hub Heterogeneous Graph Neural Network",
+            "summary": "Multi-label retinal screening requires capturing co-occurring pathologies and clinical context, yet standard multimodal fusion remains opaque. We propose a dual-hub heterogeneous graph neural network (GNN) that couples spatial fundus features and structured clinical covariates through cross-modal me",
+            "published": "2026-11-06",
+            "url": "http://arxiv.org/abs/2611.09309v1",
+            "seed_match_score": 2
+          },
+          {
+            "title": "StreamTab: Training-Free Temporal Link Prediction with Tabular Foundation Models",
+            "summary": "Temporal link prediction uses past interactions to predict whether two nodes will interact in the future. Temporal graph neural networks achieve strong results on this task, but they are trained separately for each graph. How a model should use interaction history also depends on the candidates it i",
+            "published": "2026-11-06",
+            "url": "http://arxiv.org/abs/2611.09052v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -8733,6 +8755,6 @@
       "node embedding",
       "graph transformer"
     ],
-    "last_watered": "2026-11-06T23:51:44.516094"
+    "last_watered": "2026-11-09T08:47:07.530930"
   }
 }
