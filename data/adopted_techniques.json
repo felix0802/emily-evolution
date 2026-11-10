@@ -5603,6 +5603,21 @@
         ],
         "decided_at": "2026-11-10T11:54:51.586579"
       }
+    },
+    {
+      "id": "llm-kv-cache-translation",
+      "name": "KV cache translation",
+      "adopted_at": "2026-11-10T18:58:39.942928",
+      "decision": {
+        "tech_id": "llm-kv-cache-translation",
+        "tech_name": "KV cache translation",
+        "action": "adopt",
+        "confidence": 0.95,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-11-10T18:58:39.938911"
+      }
     }
   ],
   "history": [
@@ -7843,6 +7858,12 @@
       "tech_id": "llm-预注册评估-(preregistered-evaluatio",
       "tech_name": "预注册评估 (Preregistered Evaluation)",
       "timestamp": "2026-11-10T11:54:51.589053"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-kv-cache-translation",
+      "tech_name": "KV cache translation",
+      "timestamp": "2026-11-10T18:58:39.942935"
     }
   ]
 }

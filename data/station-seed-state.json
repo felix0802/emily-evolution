@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 883,
+  "_rotation_idx": 884,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 105,
@@ -2748,18 +2748,9 @@
   },
   "spiking-nn": {
     "name": "Spiking Neural Networks",
-    "total_papers_found": 68,
-    "watering_count": 90,
+    "total_papers_found": 72,
+    "watering_count": 91,
     "history": [
-      {
-        "timestamp": "2026-08-16T10:11:08.805354",
-        "papers_found": 0,
-        "duplicates": 9,
-        "irrelevant_filtered": 1,
-        "avg_relevance": 0.0,
-        "high_relevance": 0,
-        "papers": []
-      },
       {
         "timestamp": "2026-08-17T06:27:33.043342",
         "papers_found": 2,
@@ -3511,6 +3502,37 @@
         "avg_relevance": 0.0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-11-10T18:58:34.589544",
+        "papers_found": 4,
+        "duplicates": 6,
+        "irrelevant_filtered": 0,
+        "avg_relevance": 1.75,
+        "high_relevance": 3,
+        "papers": [
+          {
+            "title": "Understanding Spike Encoding across IoT Sensing Modalities: An Empirical Study",
+            "summary": "Spiking neural networks (SNNs) offer a path to energy-efficient sensing on Internet of Things (IoT) devices. The input encoder shapes that opportunity by changing the cues available for recognition and the work required to process them. We study these choices across wireless, inertial, surface elect",
+            "published": "2026-11-08",
+            "url": "http://arxiv.org/abs/2611.11317v1",
+            "seed_match_score": 2
+          },
+          {
+            "title": "Neural Activity Synchronization-Based Fast Local Learnable Spiking Neural Network Architecture",
+            "summary": "Implementing intelligent learning systems on low- power edge devices is challenging due to the high compu- tational complexity, training latency, and energy demands of traditional Artificial Neural Networks (ANNs). Spiking Neural Networks (SNNs), biologically plausible and spike-driven, come as an a",
+            "published": "2026-11-08",
+            "url": "http://arxiv.org/abs/2611.11053v1",
+            "seed_match_score": 2
+          },
+          {
+            "title": "Bridging Spiking and Continuous Dynamics in Spiking Neural Networks: A Muscle-Inspired Model",
+            "summary": "Transforming the spike trains produced by spiking neural networks (SNNs) into continuous signals through biologically inspired mechanisms remains an open challenge in generative and regression tasks. In biological systems, a similar transformation occurs when muscles integrate neural spikes to produ",
+            "published": "2026-11-06",
+            "url": "http://arxiv.org/abs/2611.09295v1",
+            "seed_match_score": 2
+          }
+        ]
       }
     ],
     "keywords": [
@@ -3519,7 +3541,7 @@
       "neuromorphic",
       "spike-timing"
     ],
-    "last_watered": "2026-11-07T21:09:46.259667"
+    "last_watered": "2026-11-10T18:58:34.589538"
   },
   "non-transformer": {
     "name": "Non-Transformer Arch",

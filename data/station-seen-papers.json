@@ -74512,7 +74512,271 @@
         "tropical"
       ],
       "first_seen_round": 514
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.12062v1",
+      "title": "Translating KV Caches Between Hybrid-Attention Language Models: MLA Latents, Linear-Attention States and Sparse-Attention Indexers",
+      "arxiv_id": "2611.12062",
+      "tokens": [
+        "attention",
+        "attention",
+        "attention",
+        "caches",
+        "hybrid",
+        "indexers",
+        "language",
+        "latents",
+        "linear",
+        "mla",
+        "sparse",
+        "states",
+        "translating"
+      ],
+      "first_seen_round": 515
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.11995v1",
+      "title": "Infrathon: Benchmarking Language Agents for Real-World, Long-Horizon AI Infra Optimization",
+      "arxiv_id": "2611.11995",
+      "tokens": [
+        "agents",
+        "benchmarking",
+        "horizon",
+        "infra",
+        "infrathon",
+        "language",
+        "long",
+        "optimization",
+        "real",
+        "world"
+      ],
+      "first_seen_round": 515
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.11761v1",
+      "title": "BridgeKV: Large-Model Prefill and Small-Model Decoding for LLM Inference via KV Cache Translation",
+      "arxiv_id": "2611.11761",
+      "tokens": [
+        "bridgekv",
+        "cache",
+        "decoding",
+        "inference",
+        "llm",
+        "prefill",
+        "translation"
+      ],
+      "first_seen_round": 515
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.10634v1",
+      "title": "Coverage-Verified Sparse Attention: Closed-Loop Quality Control for Long-Context LLM Decoding",
+      "arxiv_id": "2611.10634",
+      "tokens": [
+        "attention",
+        "closed",
+        "context",
+        "control",
+        "coverage",
+        "decoding",
+        "llm",
+        "long",
+        "loop",
+        "quality",
+        "sparse",
+        "verified"
+      ],
+      "first_seen_round": 515
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.10240v1",
+      "title": "PACE: Keeping the Right Tokens in the KV Cache Is Not Enough for Long-Horizon LLM Agents",
+      "arxiv_id": "2611.10240",
+      "tokens": [
+        "agents",
+        "cache",
+        "enough",
+        "horizon",
+        "keeping",
+        "llm",
+        "long",
+        "pace",
+        "right",
+        "tokens"
+      ],
+      "first_seen_round": 515
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.09825v1",
+      "title": "BitDecoding-FP4: Native FP4 KV Cache Decoding via Algorithm-System Co-Design",
+      "arxiv_id": "2611.09825",
+      "tokens": [
+        "algorithm",
+        "bitdecoding",
+        "cache",
+        "decoding",
+        "design",
+        "fp4",
+        "fp4",
+        "native"
+      ],
+      "first_seen_round": 515
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.12446v1",
+      "title": "Pricing Symbolic Rules by What GNNs Leave Unlearned",
+      "arxiv_id": "2611.12446",
+      "tokens": [
+        "gnns",
+        "leave",
+        "pricing",
+        "rules",
+        "symbolic",
+        "unlearned"
+      ],
+      "first_seen_round": 515
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.11839v1",
+      "title": "MOOD: Benchmarking Post-Hoc OOD Detection for Materials Property Prediction",
+      "arxiv_id": "2611.11839",
+      "tokens": [
+        "benchmarking",
+        "detection",
+        "hoc",
+        "materials",
+        "mood",
+        "ood",
+        "post",
+        "prediction",
+        "property"
+      ],
+      "first_seen_round": 515
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.11486v1",
+      "title": "MicroSim: Contrastive Graph Neural Networks for Binary Code Similarity Detection",
+      "arxiv_id": "2611.11486",
+      "tokens": [
+        "binary",
+        "code",
+        "contrastive",
+        "detection",
+        "graph",
+        "microsim",
+        "neural",
+        "similarity"
+      ],
+      "first_seen_round": 515
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.11226v1",
+      "title": "MCSA: Multi-Cutoff Spectral Aggregation in SO(3) Equivariant GNNs for Interatomic Potentials",
+      "arxiv_id": "2611.11226",
+      "tokens": [
+        "aggregation",
+        "cutoff",
+        "equivariant",
+        "gnns",
+        "interatomic",
+        "mcsa",
+        "multi",
+        "potentials",
+        "spectral"
+      ],
+      "first_seen_round": 515
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.12464v1",
+      "title": "Phrase-Level Speculative Decoding on a Frozen Target",
+      "arxiv_id": "2611.12464",
+      "tokens": [
+        "decoding",
+        "frozen",
+        "level",
+        "phrase",
+        "speculative",
+        "target"
+      ],
+      "first_seen_round": 515
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.08669v1",
+      "title": "ChainFlow: Few-Step Latent Flow Matching for Speculative Decoding",
+      "arxiv_id": "2611.08669",
+      "tokens": [
+        "chainflow",
+        "decoding",
+        "flow",
+        "latent",
+        "matching",
+        "speculative",
+        "step"
+      ],
+      "first_seen_round": 515
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.11317v1",
+      "title": "Understanding Spike Encoding across IoT Sensing Modalities: An Empirical Study",
+      "arxiv_id": "2611.11317",
+      "tokens": [
+        "empirical",
+        "encoding",
+        "iot",
+        "modalities",
+        "sensing",
+        "spike",
+        "understanding"
+      ],
+      "first_seen_round": 515
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.11053v1",
+      "title": "Neural Activity Synchronization-Based Fast Local Learnable Spiking Neural Network Architecture",
+      "arxiv_id": "2611.11053",
+      "tokens": [
+        "activity",
+        "architecture",
+        "fast",
+        "learnable",
+        "local",
+        "neural",
+        "neural",
+        "spiking",
+        "synchronization"
+      ],
+      "first_seen_round": 515
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.09295v1",
+      "title": "Bridging Spiking and Continuous Dynamics in Spiking Neural Networks: A Muscle-Inspired Model",
+      "arxiv_id": "2611.09295",
+      "tokens": [
+        "bridging",
+        "continuous",
+        "dynamics",
+        "inspired",
+        "muscle",
+        "neural",
+        "spiking",
+        "spiking"
+      ],
+      "first_seen_round": 515
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.09141v1",
+      "title": "Circuit Theory-Informed AI for Condition Monitoring in Power Electronics",
+      "arxiv_id": "2611.09141",
+      "tokens": [
+        "circuit",
+        "condition",
+        "electronics",
+        "informed",
+        "monitoring",
+        "power",
+        "theory"
+      ],
+      "first_seen_round": 515
     }
   ],
-  "total_unique": 4677
+  "total_unique": 4693
 }
