@@ -74176,7 +74176,343 @@
         "temporal"
       ],
       "first_seen_round": 513
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.12285v1",
+      "title": "Learning Evidence-Grounded Reasoning for Context-Aware Time Series Forecasting",
+      "arxiv_id": "2611.12285",
+      "tokens": [
+        "aware",
+        "context",
+        "evidence",
+        "forecasting",
+        "grounded",
+        "reasoning",
+        "series",
+        "time"
+      ],
+      "first_seen_round": 514
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.12141v1",
+      "title": "Do Time-Series Foundation Models Forecast Index-Futures Returns? A Preregistered Evaluation of Models, Metrics, and Input Representations",
+      "arxiv_id": "2611.12141",
+      "tokens": [
+        "evaluation",
+        "forecast",
+        "foundation",
+        "futures",
+        "index",
+        "input",
+        "metrics",
+        "preregistered",
+        "representations",
+        "returns",
+        "series",
+        "time"
+      ],
+      "first_seen_round": 514
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.11704v1",
+      "title": "Scalable Counterfactual Explanations for Time Series via Policy Learning",
+      "arxiv_id": "2611.11704",
+      "tokens": [
+        "counterfactual",
+        "explanations",
+        "policy",
+        "scalable",
+        "series",
+        "time"
+      ],
+      "first_seen_round": 514
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.11613v1",
+      "title": "Daily Emergency Call Volume Forecasting using Univariate and Multivariate TimeGPT",
+      "arxiv_id": "2611.11613",
+      "tokens": [
+        "call",
+        "daily",
+        "emergency",
+        "forecasting",
+        "multivariate",
+        "timegpt",
+        "univariate",
+        "volume"
+      ],
+      "first_seen_round": 514
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.11170v1",
+      "title": "ClusLoad: Cluster-Guided Model Sharing for Scalable Distribution Transformer Load Forecasting",
+      "arxiv_id": "2611.11170",
+      "tokens": [
+        "clusload",
+        "cluster",
+        "distribution",
+        "forecasting",
+        "guided",
+        "load",
+        "scalable",
+        "sharing",
+        "transformer"
+      ],
+      "first_seen_round": 514
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.10861v1",
+      "title": "SWXAI: A Unified Multimodal Explainability Library for Space Weather Forecasting and Heliophysics",
+      "arxiv_id": "2611.10861",
+      "tokens": [
+        "explainability",
+        "forecasting",
+        "heliophysics",
+        "library",
+        "multimodal",
+        "space",
+        "swxai",
+        "unified",
+        "weather"
+      ],
+      "first_seen_round": 514
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.12871v1",
+      "title": "Vendi Anomaly Scores for Efficient and Accurate Anomaly Detection",
+      "arxiv_id": "2611.12871",
+      "tokens": [
+        "accurate",
+        "anomaly",
+        "anomaly",
+        "detection",
+        "scores",
+        "vendi"
+      ],
+      "first_seen_round": 514
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.11009v1",
+      "title": "PIA: Agentic Physics-Informed Runtime Anomaly Detection",
+      "arxiv_id": "2611.11009",
+      "tokens": [
+        "agentic",
+        "anomaly",
+        "detection",
+        "informed",
+        "physics",
+        "pia",
+        "runtime"
+      ],
+      "first_seen_round": 514
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.10856v1",
+      "title": "Self-contained Data Cleaning for Unsupervised Anomaly Detection",
+      "arxiv_id": "2611.10856",
+      "tokens": [
+        "anomaly",
+        "cleaning",
+        "contained",
+        "detection",
+        "self",
+        "unsupervised"
+      ],
+      "first_seen_round": 514
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.10733v1",
+      "title": "Spectrogram-Based CNN Autoencoder for One-Class Anomaly Detection in Machining Vibration Signals",
+      "arxiv_id": "2611.10733",
+      "tokens": [
+        "anomaly",
+        "autoencoder",
+        "class",
+        "cnn",
+        "detection",
+        "machining",
+        "signals",
+        "spectrogram",
+        "vibration"
+      ],
+      "first_seen_round": 514
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.10718v1",
+      "title": "FedSGN: Federated Sparse Grassmann Newton Learning for IoT Anomaly Detection",
+      "arxiv_id": "2611.10718",
+      "tokens": [
+        "anomaly",
+        "detection",
+        "federated",
+        "fedsgn",
+        "grassmann",
+        "iot",
+        "newton",
+        "sparse"
+      ],
+      "first_seen_round": 514
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.12240v1",
+      "title": "Prune, Don't Merge: Expert Compression of Mixture-of-Experts LLMs on Multilingual Production Tasks",
+      "arxiv_id": "2611.12240",
+      "tokens": [
+        "compression",
+        "don",
+        "expert",
+        "experts",
+        "llms",
+        "merge",
+        "mixture",
+        "multilingual",
+        "production",
+        "prune",
+        "tasks"
+      ],
+      "first_seen_round": 514
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.11856v1",
+      "title": "DeltaForge: A Post-hoc Mixture-of-Experts VLA for Multi-Domain Autonomous Driving",
+      "arxiv_id": "2611.11856",
+      "tokens": [
+        "autonomous",
+        "deltaforge",
+        "domain",
+        "driving",
+        "experts",
+        "hoc",
+        "mixture",
+        "multi",
+        "post",
+        "vla"
+      ],
+      "first_seen_round": 514
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.11717v1",
+      "title": "Autonomous Continual Learning and Knowledge Transfer via Cortex-Inspired Neural Assemblies",
+      "arxiv_id": "2611.11717",
+      "tokens": [
+        "assemblies",
+        "autonomous",
+        "continual",
+        "cortex",
+        "inspired",
+        "knowledge",
+        "neural",
+        "transfer"
+      ],
+      "first_seen_round": 514
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.11696v1",
+      "title": "Direct GPU Energy Measurements of Batch-Level Sharing in Mixture-of-Experts and Recurrent Models",
+      "arxiv_id": "2611.11696",
+      "tokens": [
+        "batch",
+        "direct",
+        "energy",
+        "experts",
+        "gpu",
+        "level",
+        "measurements",
+        "mixture",
+        "recurrent",
+        "sharing"
+      ],
+      "first_seen_round": 514
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.11533v1",
+      "title": "Ostinato: Fast CPU-GPU MoE Inference for Local Agents via Resident Experts in Every Forward Pass",
+      "arxiv_id": "2611.11533",
+      "tokens": [
+        "agents",
+        "cpu",
+        "experts",
+        "fast",
+        "forward",
+        "gpu",
+        "inference",
+        "local",
+        "moe",
+        "ostinato",
+        "pass",
+        "resident"
+      ],
+      "first_seen_round": 514
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.11364v1",
+      "title": "OOM: Offload-Optimized Full-Parameter MoE Training via Memory-Execution Co-Design",
+      "arxiv_id": "2611.11364",
+      "tokens": [
+        "design",
+        "execution",
+        "full",
+        "memory",
+        "moe",
+        "offload",
+        "oom",
+        "optimized",
+        "parameter",
+        "training"
+      ],
+      "first_seen_round": 514
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.12775v1",
+      "title": "LogCDM: Interpretable Log Anomaly Detection via Behavioral Graph Drift and Adaptive Signal Fusion",
+      "arxiv_id": "2611.12775",
+      "tokens": [
+        "adaptive",
+        "anomaly",
+        "behavioral",
+        "detection",
+        "drift",
+        "fusion",
+        "graph",
+        "interpretable",
+        "log",
+        "logcdm",
+        "signal"
+      ],
+      "first_seen_round": 514
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.12530v1",
+      "title": "K-prop: Deep Online Learning by Backpropagating Temporal Kernels",
+      "arxiv_id": "2611.12530",
+      "tokens": [
+        "backpropagating",
+        "kernels",
+        "online",
+        "prop",
+        "temporal"
+      ],
+      "first_seen_round": 514
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.11877v1",
+      "title": "Tropical Gaussian Anticoncentration: Optimal Instance-Dependent Bounds for Online Learning in Extensive-Form Games",
+      "arxiv_id": "2611.11877",
+      "tokens": [
+        "anticoncentration",
+        "bounds",
+        "dependent",
+        "extensive",
+        "form",
+        "games",
+        "gaussian",
+        "instance",
+        "online",
+        "optimal",
+        "tropical"
+      ],
+      "first_seen_round": 514
     }
   ],
-  "total_unique": 4657
+  "total_unique": 4677
 }

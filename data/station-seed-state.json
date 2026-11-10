@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 882,
+  "_rotation_idx": 883,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 105,
@@ -1724,18 +1724,9 @@
   },
   "htm": {
     "name": "HTM",
-    "total_papers_found": 160,
-    "watering_count": 91,
+    "total_papers_found": 163,
+    "watering_count": 92,
     "history": [
-      {
-        "timestamp": "2026-08-16T08:14:13.647411",
-        "papers_found": 0,
-        "duplicates": 5,
-        "irrelevant_filtered": 5,
-        "avg_relevance": 0.0,
-        "high_relevance": 0,
-        "papers": []
-      },
       {
         "timestamp": "2026-08-17T04:29:29.805661",
         "papers_found": 3,
@@ -2708,6 +2699,37 @@
             "seed_match_score": 1
           }
         ]
+      },
+      {
+        "timestamp": "2026-11-10T11:54:46.132456",
+        "papers_found": 3,
+        "duplicates": 1,
+        "irrelevant_filtered": 6,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "LogCDM: Interpretable Log Anomaly Detection via Behavioral Graph Drift and Adaptive Signal Fusion",
+            "summary": "Log-based anomaly detection is increasingly dominated by large pretrained models, from BERT-scale encoders to 8B-parameter language models, which require GPUs at inference time and are difficult to deploy on the monitoring nodes where logs are produced. We present LogCDM, a compact detector that sco",
+            "published": "2026-11-09",
+            "url": "http://arxiv.org/abs/2611.12775v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "K-prop: Deep Online Learning by Backpropagating Temporal Kernels",
+            "summary": "Self-recurrence represents an important component for temporal processing in neural networks, both artificial and biological, where it appears naturally in the form of leaky integration. However, due to the complex temporal dependencies of the gradient, an efficient and effective method of online tr",
+            "published": "2026-11-09",
+            "url": "http://arxiv.org/abs/2611.12530v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Tropical Gaussian Anticoncentration: Optimal Instance-Dependent Bounds for Online Learning in Extensive-Form Games",
+            "summary": "We study the minimax regret of full-information online decision making in extensive-form games. For prediction with expert advice, the optimal regret is $Θ(\\sqrt{T\\log K})$, where $K$ is the number of experts, or equivalently, the number of normal-form actions. For treeplex strategy spaces, existing",
+            "published": "2026-11-09",
+            "url": "http://arxiv.org/abs/2611.11877v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -2722,7 +2744,7 @@
       "anomaly detection",
       "continuous learning"
     ],
-    "last_watered": "2026-11-07T17:04:06.054255"
+    "last_watered": "2026-11-10T11:54:46.132432"
   },
   "spiking-nn": {
     "name": "Spiking Neural Networks",
