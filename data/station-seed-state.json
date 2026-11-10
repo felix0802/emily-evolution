@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 881,
+  "_rotation_idx": 882,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 105,
@@ -839,18 +839,9 @@
   },
   "liquid-networks": {
     "name": "Liquid Networks",
-    "total_papers_found": 132,
-    "watering_count": 91,
+    "total_papers_found": 133,
+    "watering_count": 92,
     "history": [
-      {
-        "timestamp": "2026-08-16T06:18:35.110102",
-        "papers_found": 0,
-        "duplicates": 9,
-        "irrelevant_filtered": 1,
-        "avg_relevance": 0.0,
-        "high_relevance": 0,
-        "papers": []
-      },
       {
         "timestamp": "2026-08-17T02:50:36.376253",
         "papers_found": 0,
@@ -1703,6 +1694,23 @@
             "seed_match_score": 1
           }
         ]
+      },
+      {
+        "timestamp": "2026-11-10T03:52:25.302639",
+        "papers_found": 1,
+        "duplicates": 7,
+        "irrelevant_filtered": 2,
+        "avg_relevance": 2.0,
+        "high_relevance": 1,
+        "papers": [
+          {
+            "title": "Flexible Intensities Matter: A Comprehensive Re-evaluation of Hawkes Processes and Neural Temporal Point Processes",
+            "summary": "Temporal point processes (TPPs) are the canonical model class for event sequences in continuous time, with applications ranging from seismology to electronic health records. Recent benchmarks report that neural TPPs substantially outperform their classical counterparts, such as Hawkes processes. How",
+            "published": "2026-11-04",
+            "url": "http://arxiv.org/abs/2611.06348v2",
+            "seed_match_score": 2
+          }
+        ]
       }
     ],
     "keywords": [
@@ -1712,7 +1720,7 @@
       "ode",
       "continuous-time"
     ],
-    "last_watered": "2026-11-07T10:45:08.393998"
+    "last_watered": "2026-11-10T03:52:25.302631"
   },
   "htm": {
     "name": "HTM",

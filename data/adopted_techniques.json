@@ -5558,6 +5558,36 @@
         ],
         "decided_at": "2026-11-08T21:25:31.403724"
       }
+    },
+    {
+      "id": "llm-等变消息传递图神经网络",
+      "name": "等变消息传递图神经网络",
+      "adopted_at": "2026-11-10T03:52:31.333218",
+      "decision": {
+        "tech_id": "llm-等变消息传递图神经网络",
+        "tech_name": "等变消息传递图神经网络",
+        "action": "adopt",
+        "confidence": 0.9,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-11-10T03:52:31.329164"
+      }
+    },
+    {
+      "id": "llm-物理信息图神经算子",
+      "name": "物理信息图神经算子",
+      "adopted_at": "2026-11-10T03:52:31.333254",
+      "decision": {
+        "tech_id": "llm-物理信息图神经算子",
+        "tech_name": "物理信息图神经算子",
+        "action": "adopt",
+        "confidence": 0.85,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-11-10T03:52:31.329427"
+      }
     }
   ],
   "history": [
@@ -7780,6 +7810,18 @@
       "tech_id": "llm-激活反转与最大激活示例元模型（maems）",
       "tech_name": "激活反转与最大激活示例元模型（MAEMs）",
       "timestamp": "2026-11-08T21:25:31.405432"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-等变消息传递图神经网络",
+      "tech_name": "等变消息传递图神经网络",
+      "timestamp": "2026-11-10T03:52:31.333223"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-物理信息图神经算子",
+      "tech_name": "物理信息图神经算子",
+      "timestamp": "2026-11-10T03:52:31.333256"
     }
   ]
 }
