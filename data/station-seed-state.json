@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 885,
+  "_rotation_idx": 886,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 105,
@@ -4423,18 +4423,9 @@
   },
   "few-shot": {
     "name": "Few-Shot Learning",
-    "total_papers_found": 53,
-    "watering_count": 90,
+    "total_papers_found": 54,
+    "watering_count": 91,
     "history": [
-      {
-        "timestamp": "2026-08-16T14:11:26.126846",
-        "papers_found": 0,
-        "duplicates": 6,
-        "irrelevant_filtered": 4,
-        "avg_relevance": 0.0,
-        "high_relevance": 0,
-        "papers": []
-      },
       {
         "timestamp": "2026-08-17T10:19:24.526331",
         "papers_found": 0,
@@ -5057,6 +5048,23 @@
             "seed_match_score": 1
           }
         ]
+      },
+      {
+        "timestamp": "2026-11-11T08:32:03.357512",
+        "papers_found": 1,
+        "duplicates": 1,
+        "irrelevant_filtered": 8,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "DnNP: Denoising Input Uncertainty in Neural Processes",
+            "summary": "Neural Processes (NPs) are flexible meta-learning models capable of uncertainty quantification across diverse applications. However, the standard NP framework assumes access to noise-free inputs. This is unrealistic in many practical settings, where sensor noise or measurement errors are unavoidable",
+            "published": "2026-11-10",
+            "url": "http://arxiv.org/abs/2611.14424v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -5066,7 +5074,7 @@
       "prototypical",
       "in-context"
     ],
-    "last_watered": "2026-11-08T08:11:51.374687"
+    "last_watered": "2026-11-11T08:32:03.357505"
   },
   "continual-learning": {
     "name": "Continual Learning",

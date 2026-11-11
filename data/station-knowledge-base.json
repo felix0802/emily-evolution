@@ -1,53 +1,6 @@
 {
   "sessions": [
     {
-      "timestamp": "2026-10-18T23:55:14.280990",
-      "arxiv_papers_count": 18,
-      "arxiv_top_keywords": [
-        "learning",
-        "graph",
-        "dynamics",
-        "transfer",
-        "supervised",
-        "latent",
-        "world",
-        "imagination",
-        "time",
-        "graphbeat"
-      ],
-      "arxiv_strategies": [
-        "搜索: graph neural network",
-        "搜索: transfer learning",
-        "搜索: world model"
-      ],
-      "huggingface_models": 10,
-      "huggingface_tasks": [
-        "sentence-similarity",
-        "unknown",
-        "text-generation",
-        "text-ranking",
-        "feature-extraction"
-      ],
-      "ml_datasets": [
-        "Iris",
-        "Wine",
-        "Breast Cancer",
-        "Diabetes"
-      ],
-      "ml_total_tests": 22,
-      "github_trending_repos": 8,
-      "paperswithcode_papers": 8,
-      "evolution": {
-        "discovered": 14,
-        "adopted": 0,
-        "decisions": 0
-      },
-      "seed_watering": {
-        "seed_name": "Few-Shot Learning",
-        "papers_found": 7
-      }
-    },
-    {
       "timestamp": "2026-10-19T02:07:33.325706",
       "arxiv_papers_count": 5,
       "arxiv_top_keywords": [
@@ -4699,10 +4652,57 @@
         "seed_name": "Non-Transformer Arch",
         "papers_found": 8
       }
+    },
+    {
+      "timestamp": "2026-11-11T08:32:09.175425",
+      "arxiv_papers_count": 19,
+      "arxiv_top_keywords": [
+        "foundation",
+        "medical",
+        "evaluation",
+        "agents",
+        "llm",
+        "search",
+        "tasks",
+        "learning",
+        "text",
+        "image"
+      ],
+      "arxiv_strategies": [
+        "cs.AI 最新",
+        "cs.LG 最新",
+        "cs.CL 最新"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "automatic-speech-recognition",
+        "text-generation",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 14,
+        "adopted": 0,
+        "decisions": 0
+      },
+      "seed_watering": {
+        "seed_name": "Few-Shot Learning",
+        "papers_found": 2
+      }
     }
   ],
   "total_sessions": 101,
-  "last_updated": "2026-11-11T00:17:25.137691",
+  "last_updated": "2026-11-11T08:32:09.175440",
   "evolution_summary": {
     "total_adopted": 375,
     "adopted_list": [
@@ -5110,8 +5110,8 @@
       },
       "few-shot": {
         "name": "Few-Shot Learning",
-        "watering": 90,
-        "papers": 53
+        "watering": 91,
+        "papers": 54
       },
       "continual-learning": {
         "name": "Continual Learning",
@@ -5150,13 +5150,13 @@
       },
       "few-shot": {
         "name": "Few-Shot Learning",
-        "new_papers": 48,
+        "new_papers": 49,
         "keywords_matched": [
-          "in-context",
-          "maml",
-          "prototypical",
           "few-shot",
-          "meta-learning"
+          "in-context",
+          "meta-learning",
+          "prototypical",
+          "maml"
         ],
         "high_relevance_total": 9,
         "avg_relevance_latest": 1.0,
@@ -5280,6 +5280,6 @@
         "best_papers_count": 1
       }
     },
-    "last_evolution": "2026-11-11T00:17:25.140852"
+    "last_evolution": "2026-11-11T08:32:09.179296"
   }
 }
