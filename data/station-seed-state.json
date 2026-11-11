@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 884,
+  "_rotation_idx": 885,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 105,
@@ -3545,18 +3545,9 @@
   },
   "non-transformer": {
     "name": "Non-Transformer Arch",
-    "total_papers_found": 79,
-    "watering_count": 91,
+    "total_papers_found": 82,
+    "watering_count": 92,
     "history": [
-      {
-        "timestamp": "2026-08-16T12:14:02.690794",
-        "papers_found": 0,
-        "duplicates": 8,
-        "irrelevant_filtered": 2,
-        "avg_relevance": 0.0,
-        "high_relevance": 0,
-        "papers": []
-      },
       {
         "timestamp": "2026-08-17T08:28:56.166737",
         "papers_found": 1,
@@ -4385,6 +4376,37 @@
             "seed_match_score": 1
           }
         ]
+      },
+      {
+        "timestamp": "2026-11-11T00:17:19.138225",
+        "papers_found": 3,
+        "duplicates": 5,
+        "irrelevant_filtered": 2,
+        "avg_relevance": 1.33,
+        "high_relevance": 1,
+        "papers": [
+          {
+            "title": "MambaPD: Bidirectional Selective State Space Model for Parkinson's Disease Detection from Resting-State EEG",
+            "summary": "Typical diagnosis of Parkinson's disease (PD) occurs only after significant dopaminergic loss, while resting-state EEG abnormalities like alpha slowing and reduced coherence occur earlier. While many published EEG-based PD detectors claim accuracy greater than 95%, many use epoch-level splits which ",
+            "published": "2026-11-09",
+            "url": "http://arxiv.org/abs/2611.12026v1",
+            "seed_match_score": 2
+          },
+          {
+            "title": "Where Should a Gate Look? Input vs. State Gating in Diagonal State Space Models",
+            "summary": "Modern state-space models owe much of their computational efficiency to their linear, often diagonal, dynamics. Classical recurrent neural networks instead allow nonlinear state-to-state interactions, which can be beneficial when memory updates need to depend on the past context. In this paper, we a",
+            "published": "2026-11-08",
+            "url": "http://arxiv.org/abs/2611.11336v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Implicit Bias in State Space Models and Linear Autoregressive Training",
+            "summary": "Linear State Space Models (SSMs) and linear autoregressive sequence models reuse the same parameters across a sample-dependent number of steps. As a result, different examples impose constraints through different predictors, even though all predictors share the same weights. We study this phenomenon",
+            "published": "2026-11-06",
+            "url": "http://arxiv.org/abs/2611.10237v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -4397,7 +4419,7 @@
       "sub-quadratic",
       "mamba"
     ],
-    "last_watered": "2026-11-08T00:57:21.130806"
+    "last_watered": "2026-11-11T00:17:19.138220"
   },
   "few-shot": {
     "name": "Few-Shot Learning",

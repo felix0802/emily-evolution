@@ -5618,6 +5618,21 @@
         ],
         "decided_at": "2026-11-10T18:58:39.938911"
       }
+    },
+    {
+      "id": "llm-检索重排序与后期交互（re-ranking-and-late",
+      "name": "检索重排序与后期交互（Re-ranking and Late Interaction）",
+      "adopted_at": "2026-11-11T00:17:25.128738",
+      "decision": {
+        "tech_id": "llm-检索重排序与后期交互（re-ranking-and-late",
+        "tech_name": "检索重排序与后期交互（Re-ranking and Late Interaction）",
+        "action": "adopt",
+        "confidence": 0.75,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-11-11T00:17:25.126139"
+      }
     }
   ],
   "history": [
@@ -7864,6 +7879,12 @@
       "tech_id": "llm-kv-cache-translation",
       "tech_name": "KV cache translation",
       "timestamp": "2026-11-10T18:58:39.942935"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-检索重排序与后期交互（re-ranking-and-late",
+      "tech_name": "检索重排序与后期交互（Re-ranking and Late Interaction）",
+      "timestamp": "2026-11-11T00:17:25.128745"
     }
   ]
 }

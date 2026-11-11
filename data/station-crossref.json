@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-10T18:58:39.990873",
+  "timestamp": "2026-11-11T00:17:25.151881",
   "connections": [
     {
       "seed_a": "Mamba (SSM)",
@@ -10,15 +10,16 @@
       ],
       "shared_paper_concepts": [
         "beyond",
-        "dual",
+        "bias",
+        "diagonal",
         "model",
+        "models",
         "recurrent",
-        "retrieval",
-        "space",
-        "state"
+        "selective",
+        "space"
       ],
-      "strength": 11,
-      "discovered_at": "2026-11-10T18:58:39.990741"
+      "strength": 13,
+      "discovered_at": "2026-11-11T00:17:25.151766"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -35,7 +36,7 @@
         "temporal"
       ],
       "strength": 8,
-      "discovered_at": "2026-11-10T18:58:39.990757"
+      "discovered_at": "2026-11-11T00:17:25.151781"
     },
     {
       "seed_a": "Liquid Networks",
@@ -51,7 +52,7 @@
         "with"
       ],
       "strength": 7,
-      "discovered_at": "2026-11-10T18:58:39.990762"
+      "discovered_at": "2026-11-11T00:17:25.151785"
     },
     {
       "seed_a": "Liquid Networks",
@@ -67,7 +68,7 @@
         "with"
       ],
       "strength": 7,
-      "discovered_at": "2026-11-10T18:58:39.990774"
+      "discovered_at": "2026-11-11T00:17:25.151796"
     },
     {
       "seed_a": "HTM",
@@ -83,7 +84,23 @@
         "with"
       ],
       "strength": 7,
-      "discovered_at": "2026-11-10T18:58:39.990808"
+      "discovered_at": "2026-11-11T00:17:25.151825"
+    },
+    {
+      "seed_a": "Non-Transformer Arch",
+      "seed_b": "Mixture of Experts",
+      "shared_keywords": [],
+      "shared_paper_concepts": [
+        "detection",
+        "from",
+        "large",
+        "models",
+        "scale",
+        "training",
+        "with"
+      ],
+      "strength": 7,
+      "discovered_at": "2026-11-11T00:17:25.151848"
     },
     {
       "seed_a": "Mixture of Experts",
@@ -99,7 +116,7 @@
         "with"
       ],
       "strength": 7,
-      "discovered_at": "2026-11-10T18:58:39.990864"
+      "discovered_at": "2026-11-11T00:17:25.151873"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -114,7 +131,7 @@
         "rank"
       ],
       "strength": 6,
-      "discovered_at": "2026-11-10T18:58:39.990748"
+      "discovered_at": "2026-11-11T00:17:25.151773"
     },
     {
       "seed_a": "Continual Learning",
@@ -129,7 +146,7 @@
         "with"
       ],
       "strength": 6,
-      "discovered_at": "2026-11-10T18:58:39.990857"
+      "discovered_at": "2026-11-11T00:17:25.151868"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -143,21 +160,7 @@
         "temporal"
       ],
       "strength": 5,
-      "discovered_at": "2026-11-10T18:58:39.990722"
-    },
-    {
-      "seed_a": "Mamba (SSM)",
-      "seed_b": "Mixture of Experts",
-      "shared_keywords": [],
-      "shared_paper_concepts": [
-        "aware",
-        "classification",
-        "language",
-        "mitigating",
-        "models"
-      ],
-      "strength": 5,
-      "discovered_at": "2026-11-10T18:58:39.990752"
+      "discovered_at": "2026-11-11T00:17:25.151747"
     }
   ],
   "total_seeds": 10

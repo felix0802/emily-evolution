@@ -74776,7 +74776,105 @@
         "theory"
       ],
       "first_seen_round": 515
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.09024v1",
+      "title": "Knowledge Distillation from Neural Networks to Differentiable Logic Networks",
+      "arxiv_id": "2611.09024",
+      "tokens": [
+        "differentiable",
+        "distillation",
+        "knowledge",
+        "logic",
+        "neural"
+      ],
+      "first_seen_round": 516
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.08767v1",
+      "title": "MEDALLION: Manifold Embedding Distillation and Attributions for Low-dimensional Latent InterpretatiON",
+      "arxiv_id": "2611.08767",
+      "tokens": [
+        "attributions",
+        "dimensional",
+        "distillation",
+        "embedding",
+        "interpretation",
+        "latent",
+        "low",
+        "manifold",
+        "medallion"
+      ],
+      "first_seen_round": 516
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.10033v1",
+      "title": "Ultra-Lightweight 3D Medical Image Segmentation via Knowledge Distillation in Label-Scarce Domains",
+      "arxiv_id": "2611.10033",
+      "tokens": [
+        "distillation",
+        "domains",
+        "image",
+        "knowledge",
+        "label",
+        "lightweight",
+        "medical",
+        "scarce",
+        "segmentation",
+        "ultra"
+      ],
+      "first_seen_round": 516
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.12026v1",
+      "title": "MambaPD: Bidirectional Selective State Space Model for Parkinson's Disease Detection from Resting-State EEG",
+      "arxiv_id": "2611.12026",
+      "tokens": [
+        "bidirectional",
+        "detection",
+        "disease",
+        "eeg",
+        "mambapd",
+        "parkinson",
+        "resting",
+        "selective",
+        "space",
+        "state",
+        "state"
+      ],
+      "first_seen_round": 516
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.11336v1",
+      "title": "Where Should a Gate Look? Input vs. State Gating in Diagonal State Space Models",
+      "arxiv_id": "2611.11336",
+      "tokens": [
+        "diagonal",
+        "gate",
+        "gating",
+        "input",
+        "look",
+        "space",
+        "state",
+        "state"
+      ],
+      "first_seen_round": 516
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.10237v1",
+      "title": "Implicit Bias in State Space Models and Linear Autoregressive Training",
+      "arxiv_id": "2611.10237",
+      "tokens": [
+        "autoregressive",
+        "bias",
+        "implicit",
+        "linear",
+        "space",
+        "state",
+        "training"
+      ],
+      "first_seen_round": 516
     }
   ],
-  "total_unique": 4693
+  "total_unique": 4699
 }
