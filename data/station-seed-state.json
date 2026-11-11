@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 886,
+  "_rotation_idx": 887,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 105,
@@ -5078,18 +5078,9 @@
   },
   "continual-learning": {
     "name": "Continual Learning",
-    "total_papers_found": 153,
-    "watering_count": 89,
+    "total_papers_found": 159,
+    "watering_count": 90,
     "history": [
-      {
-        "timestamp": "2026-08-16T16:09:57.803173",
-        "papers_found": 0,
-        "duplicates": 8,
-        "irrelevant_filtered": 2,
-        "avg_relevance": 0.0,
-        "high_relevance": 0,
-        "papers": []
-      },
       {
         "timestamp": "2026-08-17T12:17:41.672396",
         "papers_found": 1,
@@ -6019,6 +6010,37 @@
         "avg_relevance": 0.0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-11-11T17:31:24.429728",
+        "papers_found": 6,
+        "duplicates": 2,
+        "irrelevant_filtered": 2,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "A Margin Perspective on LoRA: Robustness to Catastrophic Forgetting and Adapter Merging (MaLoRA)",
+            "summary": "Low-rank adaptation (LoRA) is the de facto method for parameter-efficient fine-tuning of large neural networks, achieving strong task adaptation with minimal trainable parameters and low optimization cost. Beyond this efficiency, practitioners have observed two striking properties: \\textit{robustnes",
+            "published": "2026-11-10",
+            "url": "http://arxiv.org/abs/2611.14397v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Personalized Affective Perception via Continual Learning in Human-Agent Negotiation",
+            "summary": "Self-interested intelligent agents that negotiate with humans should interpret nonverbal expressions and adapt their behavior accordingly. However, generic facial-affect models degrade across individuals and contexts, creating a generalization gap. We introduce an affect-adaptive negotiation strateg",
+            "published": "2026-11-10",
+            "url": "http://arxiv.org/abs/2611.14247v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Unipolar Neuron Networks Trained by Recirculation for Reward-Based Continual Learning",
+            "summary": "Unipolar neurons are the predominant type of nerve cell in the octopus and in most other invertebrates. A single neurite (a fiber extending from the cell body) branches into a tree that carries both input and output synapses. The branches send graded local outputs to nearby cells, and one site on th",
+            "published": "2026-11-10",
+            "url": "http://arxiv.org/abs/2611.14153v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -6028,7 +6050,7 @@
       "ewc",
       "elastic weight"
     ],
-    "last_watered": "2026-11-08T16:25:37.174279"
+    "last_watered": "2026-11-11T17:31:24.429723"
   },
   "moe": {
     "name": "Mixture of Experts",

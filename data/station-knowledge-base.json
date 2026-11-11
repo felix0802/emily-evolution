@@ -1,53 +1,6 @@
 {
   "sessions": [
     {
-      "timestamp": "2026-10-19T02:07:33.325706",
-      "arxiv_papers_count": 5,
-      "arxiv_top_keywords": [
-        "language",
-        "feedback",
-        "ability",
-        "training",
-        "run",
-        "tool",
-        "interface",
-        "function",
-        "calling",
-        "agents"
-      ],
-      "arxiv_strategies": [
-        "cs.AI (fallback)",
-        "cs.AI (fallback)",
-        "cs.AI (fallback)"
-      ],
-      "huggingface_models": 10,
-      "huggingface_tasks": [
-        "sentence-similarity",
-        "unknown",
-        "text-generation",
-        "text-ranking",
-        "feature-extraction"
-      ],
-      "ml_datasets": [
-        "Iris",
-        "Wine",
-        "Breast Cancer",
-        "Diabetes"
-      ],
-      "ml_total_tests": 22,
-      "github_trending_repos": 8,
-      "paperswithcode_papers": 8,
-      "evolution": {
-        "discovered": 14,
-        "adopted": 2,
-        "decisions": 2
-      },
-      "seed_watering": {
-        "seed_name": "Continual Learning",
-        "papers_found": 2
-      }
-    },
-    {
       "timestamp": "2026-10-19T09:22:49.064019",
       "arxiv_papers_count": 17,
       "arxiv_top_keywords": [
@@ -4699,12 +4652,59 @@
         "seed_name": "Few-Shot Learning",
         "papers_found": 2
       }
+    },
+    {
+      "timestamp": "2026-11-11T17:31:33.987244",
+      "arxiv_papers_count": 20,
+      "arxiv_top_keywords": [
+        "foundation",
+        "image",
+        "task",
+        "medical",
+        "connectome",
+        "tasks",
+        "learning",
+        "evaluation",
+        "agents",
+        "llm"
+      ],
+      "arxiv_strategies": [
+        "cs.CV 最新",
+        "cs.AI+cs.LG 混合",
+        "cs.CL+cs.CV 混合"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "automatic-speech-recognition",
+        "text-generation",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 22,
+        "adopted": 3,
+        "decisions": 3
+      },
+      "seed_watering": {
+        "seed_name": "Continual Learning",
+        "papers_found": 8
+      }
     }
   ],
   "total_sessions": 101,
-  "last_updated": "2026-11-11T08:32:09.175440",
+  "last_updated": "2026-11-11T17:31:33.987258",
   "evolution_summary": {
-    "total_adopted": 375,
+    "total_adopted": 378,
     "adopted_list": [
       "Knowledge Distillation",
       "World Models / Model-Based RL",
@@ -5080,7 +5080,10 @@
       "物理信息图神经算子",
       "预注册评估 (Preregistered Evaluation)",
       "KV cache translation",
-      "检索重排序与后期交互（Re-ranking and Late Interaction）"
+      "检索重排序与后期交互（Re-ranking and Late Interaction）",
+      "Mechanistic Interpretability",
+      "Interpretability",
+      "Mechanistic"
     ],
     "seeds": {
       "mamba": {
@@ -5115,8 +5118,8 @@
       },
       "continual-learning": {
         "name": "Continual Learning",
-        "watering": 89,
-        "papers": 153
+        "watering": 90,
+        "papers": 159
       },
       "moe": {
         "name": "Mixture of Experts",
@@ -5223,16 +5226,16 @@
       },
       "continual-learning": {
         "name": "Continual Learning",
-        "new_papers": 148,
+        "new_papers": 154,
         "keywords_matched": [
-          "continual learning",
+          "lifelong",
           "ewc",
-          "catastrophic forgetting",
+          "continual learning",
           "elastic weight",
-          "lifelong"
+          "catastrophic forgetting"
         ],
         "high_relevance_total": 43,
-        "avg_relevance_latest": 0.0,
+        "avg_relevance_latest": 1.0,
         "best_papers_count": 5
       },
       "gnn": {
@@ -5280,6 +5283,6 @@
         "best_papers_count": 1
       }
     },
-    "last_evolution": "2026-11-11T08:32:09.179296"
+    "last_evolution": "2026-11-11T17:31:33.990343"
   }
 }

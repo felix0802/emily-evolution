@@ -5633,6 +5633,51 @@
         ],
         "decided_at": "2026-11-11T00:17:25.126139"
       }
+    },
+    {
+      "id": "llm-mechanistic-interpretability",
+      "name": "Mechanistic Interpretability",
+      "adopted_at": "2026-11-11T17:31:29.628186",
+      "decision": {
+        "tech_id": "llm-mechanistic-interpretability",
+        "tech_name": "Mechanistic Interpretability",
+        "action": "adopt",
+        "confidence": 0.85,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-11-11T17:31:29.625500"
+      }
+    },
+    {
+      "id": "auto-interpretability",
+      "name": "Interpretability",
+      "adopted_at": "2026-11-11T17:31:29.628219",
+      "decision": {
+        "tech_id": "auto-interpretability",
+        "tech_name": "Interpretability",
+        "action": "adopt",
+        "confidence": 0.35,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-11-11T17:31:29.625629"
+      }
+    },
+    {
+      "id": "auto-mechanistic",
+      "name": "Mechanistic",
+      "adopted_at": "2026-11-11T17:31:29.628245",
+      "decision": {
+        "tech_id": "auto-mechanistic",
+        "tech_name": "Mechanistic",
+        "action": "adopt",
+        "confidence": 0.35,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-11-11T17:31:29.625732"
+      }
     }
   ],
   "history": [
@@ -7885,6 +7930,24 @@
       "tech_id": "llm-检索重排序与后期交互（re-ranking-and-late",
       "tech_name": "检索重排序与后期交互（Re-ranking and Late Interaction）",
       "timestamp": "2026-11-11T00:17:25.128745"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-mechanistic-interpretability",
+      "tech_name": "Mechanistic Interpretability",
+      "timestamp": "2026-11-11T17:31:29.628191"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "auto-interpretability",
+      "tech_name": "Interpretability",
+      "timestamp": "2026-11-11T17:31:29.628222"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "auto-mechanistic",
+      "tech_name": "Mechanistic",
+      "timestamp": "2026-11-11T17:31:29.628247"
     }
   ]
 }
