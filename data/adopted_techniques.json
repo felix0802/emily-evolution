@@ -5678,6 +5678,51 @@
         ],
         "decided_at": "2026-11-11T17:31:29.625732"
       }
+    },
+    {
+      "id": "llm-rlvr（可验证奖励强化学习）",
+      "name": "RLVR（可验证奖励强化学习）",
+      "adopted_at": "2026-11-11T23:46:33.334151",
+      "decision": {
+        "tech_id": "llm-rlvr（可验证奖励强化学习）",
+        "tech_name": "RLVR（可验证奖励强化学习）",
+        "action": "adopt",
+        "confidence": 0.9,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-11-11T23:46:33.330289"
+      }
+    },
+    {
+      "id": "llm-训练时脚手架（training-time-scaffolds",
+      "name": "训练时脚手架（Training-time Scaffolds）",
+      "adopted_at": "2026-11-11T23:46:33.334184",
+      "decision": {
+        "tech_id": "llm-训练时脚手架（training-time-scaffolds",
+        "tech_name": "训练时脚手架（Training-time Scaffolds）",
+        "action": "adopt",
+        "confidence": 0.85,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-11-11T23:46:33.330548"
+      }
+    },
+    {
+      "id": "llm-脉冲神经网络强化学习（snn-rl）",
+      "name": "脉冲神经网络强化学习（SNN RL）",
+      "adopted_at": "2026-11-11T23:46:33.334206",
+      "decision": {
+        "tech_id": "llm-脉冲神经网络强化学习（snn-rl）",
+        "tech_name": "脉冲神经网络强化学习（SNN RL）",
+        "action": "adopt",
+        "confidence": 0.65,
+        "reason": [
+          "预置技术(0.7)"
+        ],
+        "decided_at": "2026-11-11T23:46:33.330687"
+      }
     }
   ],
   "history": [
@@ -7948,6 +7993,24 @@
       "tech_id": "auto-mechanistic",
       "tech_name": "Mechanistic",
       "timestamp": "2026-11-11T17:31:29.628247"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-rlvr（可验证奖励强化学习）",
+      "tech_name": "RLVR（可验证奖励强化学习）",
+      "timestamp": "2026-11-11T23:46:33.334158"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-训练时脚手架（training-time-scaffolds",
+      "tech_name": "训练时脚手架（Training-time Scaffolds）",
+      "timestamp": "2026-11-11T23:46:33.334186"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-脉冲神经网络强化学习（snn-rl）",
+      "tech_name": "脉冲神经网络强化学习（SNN RL）",
+      "timestamp": "2026-11-11T23:46:33.334208"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 887,
+  "_rotation_idx": 888,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 105,
@@ -6054,18 +6054,9 @@
   },
   "moe": {
     "name": "Mixture of Experts",
-    "total_papers_found": 139,
-    "watering_count": 85,
+    "total_papers_found": 141,
+    "watering_count": 86,
     "history": [
-      {
-        "timestamp": "2026-08-16T18:10:59.533296",
-        "papers_found": 0,
-        "duplicates": 6,
-        "irrelevant_filtered": 4,
-        "avg_relevance": 0.0,
-        "high_relevance": 0,
-        "papers": []
-      },
       {
         "timestamp": "2026-08-17T14:15:54.858565",
         "papers_found": 3,
@@ -7010,6 +7001,30 @@
         "avg_relevance": 0.0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-11-11T23:46:27.573097",
+        "papers_found": 2,
+        "duplicates": 3,
+        "irrelevant_filtered": 5,
+        "avg_relevance": 2.0,
+        "high_relevance": 2,
+        "papers": [
+          {
+            "title": "Understanding Mixture-of-Experts Language Models Beyond Expert Boundaries",
+            "summary": "In Mixture-of-Experts (MoE) models, the nature of expert specialization remains controversial. Reports of domain-associated expert preferences contrast with analyses attributing routing primarily to token identity or syntactic patterns. To clarify these differing accounts, we look beyond expert-leve",
+            "published": "2026-11-10",
+            "url": "http://arxiv.org/abs/2611.13975v1",
+            "seed_match_score": 2
+          },
+          {
+            "title": "One-Sided Expert-Parallel All-to-All for Mixture-of-Experts Inference over NVLink",
+            "summary": "Expert parallelism (EP) shards the experts of a Mixture-of-Experts (MoE) layer across GPUs, so every MoE layer requires two all-to-all communications, namely dispatch and combine. Compared with training, inference processes relatively few tokens per GPU at a time, and at small batch sizes fixed cost",
+            "published": "2026-11-09",
+            "url": "http://arxiv.org/abs/2611.13188v1",
+            "seed_match_score": 2
+          }
+        ]
       }
     ],
     "keywords": [
@@ -7021,7 +7036,7 @@
       "switch transformer",
       "deepseek"
     ],
-    "last_watered": "2026-11-08T21:25:25.910446"
+    "last_watered": "2026-11-11T23:46:27.573085"
   },
   "kv-cache": {
     "name": "KV Cache Optimization",

@@ -75377,7 +75377,314 @@
         "provenance"
       ],
       "first_seen_round": 518
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.14383v1",
+      "title": "An Energy-Based Perspective on Machine Learning",
+      "arxiv_id": "2611.14383",
+      "tokens": [
+        "energy",
+        "machine",
+        "perspective"
+      ],
+      "first_seen_round": 519
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.14374v1",
+      "title": "Uncertainty-Aware Hybrid Offline Reinforcement Learning with Online Action Selection Enabled by Sparse Gaussian-Process Critics",
+      "arxiv_id": "2611.14374",
+      "tokens": [
+        "action",
+        "aware",
+        "critics",
+        "enabled",
+        "gaussian",
+        "hybrid",
+        "offline",
+        "online",
+        "process",
+        "reinforcement",
+        "selection",
+        "sparse",
+        "uncertainty"
+      ],
+      "first_seen_round": 519
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.14262v1",
+      "title": "Recurrent Modular Structure in Spiking Neural Network Reinforcement Learning",
+      "arxiv_id": "2611.14262",
+      "tokens": [
+        "modular",
+        "neural",
+        "recurrent",
+        "reinforcement",
+        "spiking",
+        "structure"
+      ],
+      "first_seen_round": 519
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.14099v1",
+      "title": "Opportunity-Cost Option-Critic: Adaptive Switching Costs for Robust Hierarchical Reinforcement Learning",
+      "arxiv_id": "2611.14099",
+      "tokens": [
+        "adaptive",
+        "cost",
+        "costs",
+        "critic",
+        "hierarchical",
+        "opportunity",
+        "option",
+        "reinforcement",
+        "robust",
+        "switching"
+      ],
+      "first_seen_round": 519
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.14015v1",
+      "title": "Margin-Guided Token Credit for Reinforcement Learning with Verifiable Rewards",
+      "arxiv_id": "2611.14015",
+      "tokens": [
+        "credit",
+        "guided",
+        "margin",
+        "reinforcement",
+        "rewards",
+        "token",
+        "verifiable"
+      ],
+      "first_seen_round": 519
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.14333v1",
+      "title": "AI Isn't Getting Dumber, We're Getting Pickier: Rising Standards in Human Evaluation of Large Language Models",
+      "arxiv_id": "2611.14333",
+      "tokens": [
+        "dumber",
+        "evaluation",
+        "getting",
+        "getting",
+        "human",
+        "isn",
+        "language",
+        "pickier",
+        "rising",
+        "standards"
+      ],
+      "first_seen_round": 519
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.14209v1",
+      "title": "Breakdown of Autoregressive Multi-Step Reasoning Under Concentrated vs. Diffuse Attention Head Dropout",
+      "arxiv_id": "2611.14209",
+      "tokens": [
+        "attention",
+        "autoregressive",
+        "breakdown",
+        "concentrated",
+        "diffuse",
+        "dropout",
+        "head",
+        "multi",
+        "reasoning",
+        "step"
+      ],
+      "first_seen_round": 519
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.14079v1",
+      "title": "From Bias to Positionality: A critical grammar for Large Language Models",
+      "arxiv_id": "2611.14079",
+      "tokens": [
+        "bias",
+        "critical",
+        "grammar",
+        "language",
+        "positionality"
+      ],
+      "first_seen_round": 519
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.14036v1",
+      "title": "MISO-BR: An Open Corpus for Misogyny Detection in Brazilian Portuguese",
+      "arxiv_id": "2611.14036",
+      "tokens": [
+        "brazilian",
+        "corpus",
+        "detection",
+        "miso",
+        "misogyny",
+        "open",
+        "portuguese"
+      ],
+      "first_seen_round": 519
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.13894v1",
+      "title": "Beyond Fluent Responses: Finding User Dissatisfaction in Human-AI Interactions",
+      "arxiv_id": "2611.13894",
+      "tokens": [
+        "dissatisfaction",
+        "finding",
+        "fluent",
+        "human",
+        "interactions",
+        "responses",
+        "user"
+      ],
+      "first_seen_round": 519
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.13855v1",
+      "title": "Beyond Passive Imitation: On-Policy Mid-Training Distillation for Language Models",
+      "arxiv_id": "2611.13855",
+      "tokens": [
+        "distillation",
+        "imitation",
+        "language",
+        "mid",
+        "passive",
+        "policy",
+        "training"
+      ],
+      "first_seen_round": 519
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.14365v1",
+      "title": "From Video Frames to Robot Meta-Frames: A Unified Latent Interface for World Action Models",
+      "arxiv_id": "2611.14365",
+      "tokens": [
+        "action",
+        "frames",
+        "frames",
+        "interface",
+        "latent",
+        "meta",
+        "robot",
+        "unified",
+        "video",
+        "world"
+      ],
+      "first_seen_round": 519
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.14254v1",
+      "title": "Location Matters: Sparse Latent-Variance Attacks for Face Privacy against Diffusion Personalization",
+      "arxiv_id": "2611.14254",
+      "tokens": [
+        "against",
+        "attacks",
+        "diffusion",
+        "face",
+        "latent",
+        "location",
+        "matters",
+        "personalization",
+        "privacy",
+        "sparse",
+        "variance"
+      ],
+      "first_seen_round": 519
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.13955v1",
+      "title": "RB-LDC: Redundancy-Balanced Latent Coding for Noise-Robust Diffusion Latents",
+      "arxiv_id": "2611.13955",
+      "tokens": [
+        "balanced",
+        "coding",
+        "diffusion",
+        "latent",
+        "latents",
+        "ldc",
+        "noise",
+        "redundancy",
+        "robust"
+      ],
+      "first_seen_round": 519
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.13654v1",
+      "title": "EgoHMP: Achieving Precise Human Motion Prediction in 3D Scenes via Egocentric Cues",
+      "arxiv_id": "2611.13654",
+      "tokens": [
+        "achieving",
+        "cues",
+        "egocentric",
+        "egohmp",
+        "human",
+        "motion",
+        "precise",
+        "prediction",
+        "scenes"
+      ],
+      "first_seen_round": 519
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.13620v1",
+      "title": "When to Start Denoising? Adaptive Denoising Entry for Generative Video Compression",
+      "arxiv_id": "2611.13620",
+      "tokens": [
+        "adaptive",
+        "compression",
+        "denoising",
+        "denoising",
+        "entry",
+        "generative",
+        "start",
+        "video"
+      ],
+      "first_seen_round": 519
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.13504v1",
+      "title": "Dark Matters: VAE-Aware HDR Encoding for SDR-to-HDR Video Reconstruction",
+      "arxiv_id": "2611.13504",
+      "tokens": [
+        "aware",
+        "dark",
+        "encoding",
+        "hdr",
+        "hdr",
+        "matters",
+        "reconstruction",
+        "sdr",
+        "vae",
+        "video"
+      ],
+      "first_seen_round": 519
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.13975v1",
+      "title": "Understanding Mixture-of-Experts Language Models Beyond Expert Boundaries",
+      "arxiv_id": "2611.13975",
+      "tokens": [
+        "boundaries",
+        "expert",
+        "experts",
+        "language",
+        "mixture",
+        "understanding"
+      ],
+      "first_seen_round": 519
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.13188v1",
+      "title": "One-Sided Expert-Parallel All-to-All for Mixture-of-Experts Inference over NVLink",
+      "arxiv_id": "2611.13188",
+      "tokens": [
+        "expert",
+        "experts",
+        "inference",
+        "mixture",
+        "nvlink",
+        "parallel",
+        "sided"
+      ],
+      "first_seen_round": 519
     }
   ],
-  "total_unique": 4731
+  "total_unique": 4750
 }

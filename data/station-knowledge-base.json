@@ -1,53 +1,6 @@
 {
   "sessions": [
     {
-      "timestamp": "2026-10-19T09:22:49.064019",
-      "arxiv_papers_count": 17,
-      "arxiv_top_keywords": [
-        "speculative",
-        "context",
-        "graph",
-        "decoding",
-        "sparse",
-        "attention",
-        "target",
-        "long",
-        "compression",
-        "agentic"
-      ],
-      "arxiv_strategies": [
-        "搜索: kv cache LLM",
-        "搜索: graph neural network recent",
-        "搜索: speculative decoding"
-      ],
-      "huggingface_models": 10,
-      "huggingface_tasks": [
-        "sentence-similarity",
-        "unknown",
-        "text-generation",
-        "text-ranking",
-        "feature-extraction"
-      ],
-      "ml_datasets": [
-        "Iris",
-        "Wine",
-        "Breast Cancer",
-        "Diabetes"
-      ],
-      "ml_total_tests": 22,
-      "github_trending_repos": 8,
-      "paperswithcode_papers": 8,
-      "evolution": {
-        "discovered": 21,
-        "adopted": 2,
-        "decisions": 2
-      },
-      "seed_watering": {
-        "seed_name": "Mixture of Experts",
-        "papers_found": 7
-      }
-    },
-    {
       "timestamp": "2026-10-19T16:40:45.441602",
       "arxiv_papers_count": 18,
       "arxiv_top_keywords": [
@@ -4699,12 +4652,59 @@
         "seed_name": "Continual Learning",
         "papers_found": 8
       }
+    },
+    {
+      "timestamp": "2026-11-11T23:46:37.055672",
+      "arxiv_papers_count": 18,
+      "arxiv_top_keywords": [
+        "learning",
+        "reinforcement",
+        "language",
+        "training",
+        "token",
+        "human",
+        "corpus",
+        "latent",
+        "video",
+        "diffusion"
+      ],
+      "arxiv_strategies": [
+        "搜索: reinforcement learning",
+        "搜索: large language model",
+        "搜索: diffusion model"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "automatic-speech-recognition",
+        "text-generation",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 21,
+        "adopted": 3,
+        "decisions": 3
+      },
+      "seed_watering": {
+        "seed_name": "Mixture of Experts",
+        "papers_found": 5
+      }
     }
   ],
   "total_sessions": 101,
-  "last_updated": "2026-11-11T17:31:33.987258",
+  "last_updated": "2026-11-11T23:46:37.055689",
   "evolution_summary": {
-    "total_adopted": 378,
+    "total_adopted": 381,
     "adopted_list": [
       "Knowledge Distillation",
       "World Models / Model-Based RL",
@@ -5083,7 +5083,10 @@
       "检索重排序与后期交互（Re-ranking and Late Interaction）",
       "Mechanistic Interpretability",
       "Interpretability",
-      "Mechanistic"
+      "Mechanistic",
+      "RLVR（可验证奖励强化学习）",
+      "训练时脚手架（Training-time Scaffolds）",
+      "脉冲神经网络强化学习（SNN RL）"
     ],
     "seeds": {
       "mamba": {
@@ -5123,8 +5126,8 @@
       },
       "moe": {
         "name": "Mixture of Experts",
-        "watering": 85,
-        "papers": 139
+        "watering": 86,
+        "papers": 141
       },
       "kv-cache": {
         "name": "KV Cache Optimization",
@@ -5256,16 +5259,16 @@
       },
       "moe": {
         "name": "Mixture of Experts",
-        "new_papers": 139,
+        "new_papers": 141,
         "keywords_matched": [
-          "router",
-          "expert routing",
-          "moe",
           "deepseek",
-          "mixture of experts"
+          "mixture of experts",
+          "moe",
+          "router",
+          "expert routing"
         ],
-        "high_relevance_total": 100,
-        "avg_relevance_latest": 0.0,
+        "high_relevance_total": 102,
+        "avg_relevance_latest": 2.0,
         "best_papers_count": 10
       },
       "kv-cache": {
@@ -5283,6 +5286,6 @@
         "best_papers_count": 1
       }
     },
-    "last_evolution": "2026-11-11T17:31:33.990343"
+    "last_evolution": "2026-11-11T23:46:37.059858"
   }
 }
