@@ -5753,6 +5753,21 @@
         ],
         "decided_at": "2026-11-12T04:37:24.745446"
       }
+    },
+    {
+      "id": "llm-互信息-(mutual-information)",
+      "name": "互信息 (Mutual Information)",
+      "adopted_at": "2026-11-12T14:06:37.815412",
+      "decision": {
+        "tech_id": "llm-互信息-(mutual-information)",
+        "tech_name": "互信息 (Mutual Information)",
+        "action": "adopt",
+        "confidence": 0.85,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-11-12T14:06:37.812335"
+      }
     }
   ],
   "history": [
@@ -8053,6 +8068,12 @@
       "tech_id": "llm-锚点比较基准框架",
       "tech_name": "锚点比较基准框架",
       "timestamp": "2026-11-12T04:37:24.748737"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-互信息-(mutual-information)",
+      "tech_name": "互信息 (Mutual Information)",
+      "timestamp": "2026-11-12T14:06:37.815418"
     }
   ]
 }

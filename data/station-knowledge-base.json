@@ -1,53 +1,6 @@
 {
   "sessions": [
     {
-      "timestamp": "2026-10-19T21:47:48.434735",
-      "arxiv_papers_count": 20,
-      "arxiv_top_keywords": [
-        "scientific",
-        "language",
-        "quantum",
-        "learning",
-        "prediction",
-        "diffusion",
-        "boldsymbol",
-        "space",
-        "pixel",
-        "behavioral"
-      ],
-      "arxiv_strategies": [
-        "cs.AI 最新",
-        "cs.LG 最新",
-        "cs.CL 最新"
-      ],
-      "huggingface_models": 10,
-      "huggingface_tasks": [
-        "sentence-similarity",
-        "unknown",
-        "text-generation",
-        "text-ranking",
-        "feature-extraction"
-      ],
-      "ml_datasets": [
-        "Iris",
-        "Wine",
-        "Breast Cancer",
-        "Diabetes"
-      ],
-      "ml_total_tests": 22,
-      "github_trending_repos": 8,
-      "paperswithcode_papers": 8,
-      "evolution": {
-        "discovered": 21,
-        "adopted": 0,
-        "decisions": 0
-      },
-      "seed_watering": {
-        "seed_name": "Graph Neural Networks",
-        "papers_found": 6
-      }
-    },
-    {
       "timestamp": "2026-10-20T00:46:40.995624",
       "arxiv_papers_count": 23,
       "arxiv_top_keywords": [
@@ -4699,12 +4652,59 @@
         "seed_name": "KV Cache Optimization",
         "papers_found": 6
       }
+    },
+    {
+      "timestamp": "2026-11-12T14:06:37.826684",
+      "arxiv_papers_count": 18,
+      "arxiv_top_keywords": [
+        "graph",
+        "world",
+        "gnns",
+        "equivariant",
+        "control",
+        "learning",
+        "hierarchical",
+        "pooling",
+        "substructures",
+        "rule"
+      ],
+      "arxiv_strategies": [
+        "搜索: graph neural network",
+        "搜索: transfer learning",
+        "搜索: world model"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "automatic-speech-recognition",
+        "text-generation",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 15,
+        "adopted": 1,
+        "decisions": 1
+      },
+      "seed_watering": {
+        "seed_name": "Graph Neural Networks",
+        "papers_found": 5
+      }
     }
   ],
   "total_sessions": 101,
-  "last_updated": "2026-11-12T04:37:27.979179",
+  "last_updated": "2026-11-12T14:06:37.826698",
   "evolution_summary": {
-    "total_adopted": 383,
+    "total_adopted": 384,
     "adopted_list": [
       "Knowledge Distillation",
       "World Models / Model-Based RL",
@@ -5088,7 +5088,8 @@
       "训练时脚手架（Training-time Scaffolds）",
       "脉冲神经网络强化学习（SNN RL）",
       "隐私感知深度学习",
-      "锚点比较基准框架"
+      "锚点比较基准框架",
+      "互信息 (Mutual Information)"
     ],
     "seeds": {
       "mamba": {
@@ -5138,8 +5139,8 @@
       },
       "gnn": {
         "name": "Graph Neural Networks",
-        "watering": 87,
-        "papers": 168
+        "watering": 88,
+        "papers": 171
       }
     },
     "seed_metrics": {
@@ -5245,18 +5246,18 @@
       },
       "gnn": {
         "name": "Graph Neural Networks",
-        "new_papers": 168,
+        "new_papers": 171,
         "keywords_matched": [
-          "graph transformer",
-          "node embedding",
-          "geometric",
+          "message passing",
           "graph neural",
-          "graph attention",
+          "geometric",
+          "graph transformer",
           "gnn",
-          "message passing"
+          "graph attention",
+          "node embedding"
         ],
-        "high_relevance_total": 80,
-        "avg_relevance_latest": 1.5,
+        "high_relevance_total": 81,
+        "avg_relevance_latest": 1.33,
         "best_papers_count": 10
       },
       "moe": {
@@ -5288,6 +5289,6 @@
         "best_papers_count": 1
       }
     },
-    "last_evolution": "2026-11-12T04:37:27.983187"
+    "last_evolution": "2026-11-12T14:06:37.830759"
   }
 }

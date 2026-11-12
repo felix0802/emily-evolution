@@ -75959,7 +75959,190 @@
         "token"
       ],
       "first_seen_round": 520
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.14126v1",
+      "title": "Hierarchical Graph Representation Learning with Pooling-Induced Substructures",
+      "arxiv_id": "2611.14126",
+      "tokens": [
+        "graph",
+        "hierarchical",
+        "induced",
+        "pooling",
+        "representation",
+        "substructures"
+      ],
+      "first_seen_round": 521
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.13893v1",
+      "title": "Conformal Risk Control for QoT-Aware Lightpath Feasibility Under Technology-Driven Domain Shift",
+      "arxiv_id": "2611.13893",
+      "tokens": [
+        "aware",
+        "conformal",
+        "control",
+        "domain",
+        "driven",
+        "feasibility",
+        "lightpath",
+        "qot",
+        "risk",
+        "shift",
+        "technology"
+      ],
+      "first_seen_round": 521
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.11520v1",
+      "title": "Hydra: Towards Transferable Multi-Task Learning on Temporal Graphs",
+      "arxiv_id": "2611.11520",
+      "tokens": [
+        "graphs",
+        "hydra",
+        "multi",
+        "task",
+        "temporal",
+        "transferable"
+      ],
+      "first_seen_round": 521
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.11382v1",
+      "title": "The comparison of density estimation for transfer learning in Banach, Hilbert, Euclidean spaces",
+      "arxiv_id": "2611.11382",
+      "tokens": [
+        "banach",
+        "comparison",
+        "density",
+        "estimation",
+        "euclidean",
+        "hilbert",
+        "spaces",
+        "transfer"
+      ],
+      "first_seen_round": 521
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.14419v1",
+      "title": "Evaluating LLM-Generated World Models for Neuro-Symbolic Reasoning",
+      "arxiv_id": "2611.14419",
+      "tokens": [
+        "evaluating",
+        "generated",
+        "llm",
+        "neuro",
+        "reasoning",
+        "symbolic",
+        "world"
+      ],
+      "first_seen_round": 521
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.13348v1",
+      "title": "ProTEUS: A mutation-resolved world model for closed-loop protein evolution",
+      "arxiv_id": "2611.13348",
+      "tokens": [
+        "closed",
+        "evolution",
+        "loop",
+        "mutation",
+        "protein",
+        "proteus",
+        "resolved",
+        "world"
+      ],
+      "first_seen_round": 521
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.13113v1",
+      "title": "Building World Models from Intrinsic Motivation",
+      "arxiv_id": "2611.13113",
+      "tokens": [
+        "building",
+        "intrinsic",
+        "motivation",
+        "world"
+      ],
+      "first_seen_round": 521
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.12732v1",
+      "title": "$Σ$-LeWM: Learning World Models via S-Information for Robot Control",
+      "arxiv_id": "2611.12732",
+      "tokens": [
+        "control",
+        "information",
+        "lewm",
+        "robot",
+        "world"
+      ],
+      "first_seen_round": 521
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.12678v1",
+      "title": "Library of Hands: Fix the Hands, Not the World Model",
+      "arxiv_id": "2611.12678",
+      "tokens": [
+        "fix",
+        "hands",
+        "hands",
+        "library",
+        "world"
+      ],
+      "first_seen_round": 521
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.13192v1",
+      "title": "Multimodal Road Closure Mapping via Cross-Modal Graph Attention",
+      "arxiv_id": "2611.13192",
+      "tokens": [
+        "attention",
+        "closure",
+        "cross",
+        "graph",
+        "mapping",
+        "modal",
+        "multimodal",
+        "road"
+      ],
+      "first_seen_round": 521
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.12379v1",
+      "title": "Reconstructing hourly traffic on every street of a capital from a sparse counting network: a graph neural network applied to Paris",
+      "arxiv_id": "2611.12379",
+      "tokens": [
+        "applied",
+        "capital",
+        "counting",
+        "graph",
+        "hourly",
+        "neural",
+        "paris",
+        "reconstructing",
+        "sparse",
+        "street",
+        "traffic"
+      ],
+      "first_seen_round": 521
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.12186v1",
+      "title": "NearFormer: Linear-Size Sparse Attention via Randomized Near Neighbors",
+      "arxiv_id": "2611.12186",
+      "tokens": [
+        "attention",
+        "linear",
+        "near",
+        "nearformer",
+        "neighbors",
+        "randomized",
+        "size",
+        "sparse"
+      ],
+      "first_seen_round": 521
     }
   ],
-  "total_unique": 4767
+  "total_unique": 4779
 }

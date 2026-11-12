@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-12T04:37:27.997033",
+  "timestamp": "2026-11-12T14:06:37.844349",
   "connections": [
     {
       "seed_a": "Mamba (SSM)",
@@ -19,7 +19,24 @@
         "space"
       ],
       "strength": 13,
-      "discovered_at": "2026-11-12T04:37:27.996899"
+      "discovered_at": "2026-11-12T14:06:37.844210"
+    },
+    {
+      "seed_a": "HTM",
+      "seed_b": "Graph Neural Networks",
+      "shared_keywords": [],
+      "shared_paper_concepts": [
+        "from",
+        "graph",
+        "interpretable",
+        "learning",
+        "linear",
+        "networks",
+        "neural",
+        "temporal"
+      ],
+      "strength": 9,
+      "discovered_at": "2026-11-12T14:06:37.844282"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -36,7 +53,24 @@
         "temporal"
       ],
       "strength": 8,
-      "discovered_at": "2026-11-12T04:37:27.996917"
+      "discovered_at": "2026-11-12T14:06:37.844229"
+    },
+    {
+      "seed_a": "Non-Transformer Arch",
+      "seed_b": "Graph Neural Networks",
+      "shared_keywords": [],
+      "shared_paper_concepts": [
+        "attention",
+        "context",
+        "cross",
+        "from",
+        "linear",
+        "models",
+        "training",
+        "with"
+      ],
+      "strength": 8,
+      "discovered_at": "2026-11-12T14:06:37.844318"
     },
     {
       "seed_a": "Liquid Networks",
@@ -52,23 +86,22 @@
         "with"
       ],
       "strength": 7,
-      "discovered_at": "2026-11-12T04:37:27.996922"
+      "discovered_at": "2026-11-12T14:06:37.844234"
     },
     {
-      "seed_a": "HTM",
+      "seed_a": "Liquid Networks",
       "seed_b": "Graph Neural Networks",
       "shared_keywords": [],
       "shared_paper_concepts": [
-        "graph",
-        "interpretable",
-        "learning",
-        "networks",
+        "free",
+        "linear",
         "neural",
+        "sparse",
         "temporal",
         "with"
       ],
-      "strength": 7,
-      "discovered_at": "2026-11-12T04:37:27.996968"
+      "strength": 6,
+      "discovered_at": "2026-11-12T14:06:37.844259"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -82,7 +115,7 @@
         "temporal"
       ],
       "strength": 5,
-      "discovered_at": "2026-11-12T04:37:27.996879"
+      "discovered_at": "2026-11-12T14:06:37.844191"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -96,7 +129,7 @@
         "dynamics"
       ],
       "strength": 5,
-      "discovered_at": "2026-11-12T04:37:27.996906"
+      "discovered_at": "2026-11-12T14:06:37.844218"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -110,7 +143,7 @@
         "models"
       ],
       "strength": 5,
-      "discovered_at": "2026-11-12T04:37:27.996910"
+      "discovered_at": "2026-11-12T14:06:37.844222"
     },
     {
       "seed_a": "HTM",
@@ -124,35 +157,7 @@
         "with"
       ],
       "strength": 5,
-      "discovered_at": "2026-11-12T04:37:27.996953"
-    },
-    {
-      "seed_a": "Spiking Neural Networks",
-      "seed_b": "Non-Transformer Arch",
-      "shared_keywords": [],
-      "shared_paper_concepts": [
-        "detection",
-        "encoding",
-        "fast",
-        "model",
-        "state"
-      ],
-      "strength": 5,
-      "discovered_at": "2026-11-12T04:37:27.996972"
-    },
-    {
-      "seed_a": "Spiking Neural Networks",
-      "seed_b": "Continual Learning",
-      "shared_keywords": [],
-      "shared_paper_concepts": [
-        "based",
-        "dynamics",
-        "free",
-        "networks",
-        "plasticity"
-      ],
-      "strength": 5,
-      "discovered_at": "2026-11-12T04:37:27.996979"
+      "discovered_at": "2026-11-12T14:06:37.844267"
     }
   ],
   "total_seeds": 10

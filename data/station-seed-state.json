@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 889,
+  "_rotation_idx": 890,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 105,
@@ -8004,18 +8004,9 @@
   },
   "gnn": {
     "name": "Graph Neural Networks",
-    "total_papers_found": 168,
-    "watering_count": 87,
+    "total_papers_found": 171,
+    "watering_count": 88,
     "history": [
-      {
-        "timestamp": "2026-08-16T22:08:19.692231",
-        "papers_found": 0,
-        "duplicates": 5,
-        "irrelevant_filtered": 5,
-        "avg_relevance": 0.0,
-        "high_relevance": 0,
-        "papers": []
-      },
       {
         "timestamp": "2026-08-17T18:19:48.034179",
         "papers_found": 3,
@@ -8893,6 +8884,37 @@
             "seed_match_score": 1
           }
         ]
+      },
+      {
+        "timestamp": "2026-11-12T14:06:32.160445",
+        "papers_found": 3,
+        "duplicates": 2,
+        "irrelevant_filtered": 5,
+        "avg_relevance": 1.33,
+        "high_relevance": 1,
+        "papers": [
+          {
+            "title": "Multimodal Road Closure Mapping via Cross-Modal Graph Attention",
+            "summary": "Accurate and timely identification of road closures is critical for large-scale navigation and logistics systems, yet remains challenging due to the need to jointly reason over visual evidence, spatial context, and road network topology. Existing approaches either rely on manual map updates or focus",
+            "published": "2026-11-09",
+            "url": "http://arxiv.org/abs/2611.13192v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Reconstructing hourly traffic on every street of a capital from a sparse counting network: a graph neural network applied to Paris",
+            "summary": "Micro-scale air quality models require hourly traffic data on every road segment, whereas permanent counters cover only a small part of the network. A graph neural network (GNN) was developed to reconstruct hourly traffic flows on the 32,163 road segments of Paris intra-muros from the 1,573 segments",
+            "published": "2026-11-09",
+            "url": "http://arxiv.org/abs/2611.12379v1",
+            "seed_match_score": 2
+          },
+          {
+            "title": "NearFormer: Linear-Size Sparse Attention via Randomized Near Neighbors",
+            "summary": "Graph transformers can capture long-range interactions, but their quadratic attention cost limits their use on large graphs. We introduce \\emph{NearFormer}, a graph transformer whose global attention is restricted to a randomized near-neighbor (NN) graph. NearFormer uses an efficient randomized cons",
+            "published": "2026-11-09",
+            "url": "http://arxiv.org/abs/2611.12186v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -8904,6 +8926,6 @@
       "node embedding",
       "graph transformer"
     ],
-    "last_watered": "2026-11-09T08:47:07.530930"
+    "last_watered": "2026-11-12T14:06:32.160439"
   }
 }
