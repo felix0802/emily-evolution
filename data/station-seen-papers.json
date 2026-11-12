@@ -76142,7 +76142,190 @@
         "sparse"
       ],
       "first_seen_round": 521
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.14425v1",
+      "title": "Quantifying the Sampling Frequency Invariance of Time-Series Foundation Models for Sensor Data Applications",
+      "arxiv_id": "2611.14425",
+      "tokens": [
+        "applications",
+        "foundation",
+        "frequency",
+        "invariance",
+        "quantifying",
+        "sampling",
+        "sensor",
+        "series",
+        "time"
+      ],
+      "first_seen_round": 522
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.14357v1",
+      "title": "The Unused Input: The Initial State as a Conditioning Interface for Recurrent TSFMs",
+      "arxiv_id": "2611.14357",
+      "tokens": [
+        "conditioning",
+        "initial",
+        "input",
+        "interface",
+        "recurrent",
+        "state",
+        "tsfms",
+        "unused"
+      ],
+      "first_seen_round": 522
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.13794v1",
+      "title": "AnchorMTS: Multi-View Signal Representation and Forecast-Anchored Fusion for Long-Term Time-Series Forecasting",
+      "arxiv_id": "2611.13794",
+      "tokens": [
+        "anchored",
+        "anchormts",
+        "forecast",
+        "forecasting",
+        "fusion",
+        "long",
+        "multi",
+        "representation",
+        "series",
+        "signal",
+        "term",
+        "time",
+        "view"
+      ],
+      "first_seen_round": 522
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.13295v1",
+      "title": "Time Series Change Point Detection with Gaussian Processes",
+      "arxiv_id": "2611.13295",
+      "tokens": [
+        "change",
+        "detection",
+        "gaussian",
+        "point",
+        "processes",
+        "series",
+        "time"
+      ],
+      "first_seen_round": 522
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.13820v1",
+      "title": "CASCADE: Constraint-Aware SCAffolded DEcomposition for Logical Anomaly Detection",
+      "arxiv_id": "2611.13820",
+      "tokens": [
+        "anomaly",
+        "aware",
+        "cascade",
+        "constraint",
+        "decomposition",
+        "detection",
+        "logical",
+        "scaffolded"
+      ],
+      "first_seen_round": 522
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.14083v1",
+      "title": "Sable: A Small-Field Sumcheck Argument for Bit-Exact Inference of Large Language Models",
+      "arxiv_id": "2611.14083",
+      "tokens": [
+        "argument",
+        "bit",
+        "exact",
+        "field",
+        "inference",
+        "language",
+        "sable",
+        "sumcheck"
+      ],
+      "first_seen_round": 522
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.13730v1",
+      "title": "Deterministic, Reproducible Inference in Exact Integer Arithmetic, and Verifiable Distributed Inference as Its Consequence",
+      "arxiv_id": "2611.13730",
+      "tokens": [
+        "arithmetic",
+        "consequence",
+        "deterministic",
+        "distributed",
+        "exact",
+        "inference",
+        "inference",
+        "integer",
+        "reproducible",
+        "verifiable"
+      ],
+      "first_seen_round": 522
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.13523v1",
+      "title": "Parallel Broyden Methods for Efficiently Evaluating Nonlinear State Space Models",
+      "arxiv_id": "2611.13523",
+      "tokens": [
+        "broyden",
+        "efficiently",
+        "evaluating",
+        "nonlinear",
+        "parallel",
+        "space",
+        "state"
+      ],
+      "first_seen_round": 522
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.13514v1",
+      "title": "Seeing the Small: Deformable Duality Mamba for Retinal Lesion Segmentation",
+      "arxiv_id": "2611.13514",
+      "tokens": [
+        "deformable",
+        "duality",
+        "lesion",
+        "mamba",
+        "retinal",
+        "seeing",
+        "segmentation"
+      ],
+      "first_seen_round": 522
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.12127v1",
+      "title": "Lost in Rounding: bf16 Recurrent State Makes Hybrid Reasoning Models Think Longer",
+      "arxiv_id": "2611.12127",
+      "tokens": [
+        "bf16",
+        "hybrid",
+        "longer",
+        "lost",
+        "makes",
+        "reasoning",
+        "recurrent",
+        "rounding",
+        "state",
+        "think"
+      ],
+      "first_seen_round": 522
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.10360v1",
+      "title": "MambaLoc: Lightweight Indoor Localization Using Cross-Modal Knowledge Distillation",
+      "arxiv_id": "2611.10360",
+      "tokens": [
+        "cross",
+        "distillation",
+        "indoor",
+        "knowledge",
+        "lightweight",
+        "localization",
+        "mambaloc",
+        "modal"
+      ],
+      "first_seen_round": 522
     }
   ],
-  "total_unique": 4779
+  "total_unique": 4790
 }

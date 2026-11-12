@@ -1,19 +1,10 @@
 {
-  "_rotation_idx": 890,
+  "_rotation_idx": 891,
   "mamba": {
     "name": "Mamba (SSM)",
-    "total_papers_found": 105,
-    "watering_count": 92,
+    "total_papers_found": 109,
+    "watering_count": 93,
     "history": [
-      {
-        "timestamp": "2026-08-17T00:32:21.995787",
-        "papers_found": 0,
-        "duplicates": 0,
-        "irrelevant_filtered": 0,
-        "avg_relevance": 0,
-        "high_relevance": 0,
-        "papers": []
-      },
       {
         "timestamp": "2026-08-17T20:12:46.971794",
         "papers_found": 0,
@@ -827,6 +818,37 @@
             "seed_match_score": 2
           }
         ]
+      },
+      {
+        "timestamp": "2026-11-12T21:57:09.065594",
+        "papers_found": 4,
+        "duplicates": 2,
+        "irrelevant_filtered": 4,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "Parallel Broyden Methods for Efficiently Evaluating Nonlinear State Space Models",
+            "summary": "Nonlinear state space models are typically evaluated sequentially, limiting their ability to exploit modern parallel hardware. Recent work has shown that state space models can be evaluated in parallel by reformulating evaluation as a root-finding problem, which can be solved with a parallel form of",
+            "published": "2026-11-10",
+            "url": "http://arxiv.org/abs/2611.13523v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Seeing the Small: Deformable Duality Mamba for Retinal Lesion Segmentation",
+            "summary": "Diabetic retinopathy (DR) lesions vary widely in shape, and microaneurysms (MAs) span only a few pixels. We hypothesize that modeling the spatial organization of lesion regions, with global context and shape-adaptive scanning, improves the segmentation of such small and irregular lesions. To test th",
+            "published": "2026-11-10",
+            "url": "http://arxiv.org/abs/2611.13514v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Lost in Rounding: bf16 Recurrent State Makes Hybrid Reasoning Models Think Longer",
+            "summary": "Hybrid reasoning models interleave attention with recurrent mixers such as Mamba-2 and Gated DeltaNet, whose state is cached between decoding steps. Prior work showed that storing this state in FP16 or INT8 with round-to-nearest (RTN) makes Mamba-2 and GDN hybrids more verbose, and that stochastic r",
+            "published": "2026-11-09",
+            "url": "http://arxiv.org/abs/2611.12127v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -835,7 +857,7 @@
       "ssm",
       "selective scan"
     ],
-    "last_watered": "2026-11-09T20:14:24.899499"
+    "last_watered": "2026-11-12T21:57:09.065588"
   },
   "liquid-networks": {
     "name": "Liquid Networks",

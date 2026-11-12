@@ -5768,6 +5768,36 @@
         ],
         "decided_at": "2026-11-12T14:06:37.812335"
       }
+    },
+    {
+      "id": "llm-多任务多领域预训练",
+      "name": "多任务多领域预训练",
+      "adopted_at": "2026-11-12T21:57:13.563174",
+      "decision": {
+        "tech_id": "llm-多任务多领域预训练",
+        "tech_name": "多任务多领域预训练",
+        "action": "adopt",
+        "confidence": 0.9,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-11-12T21:57:13.560816"
+      }
+    },
+    {
+      "id": "llm-采样频率不变性量化",
+      "name": "采样频率不变性量化",
+      "adopted_at": "2026-11-12T21:57:13.563198",
+      "decision": {
+        "tech_id": "llm-采样频率不变性量化",
+        "tech_name": "采样频率不变性量化",
+        "action": "adopt",
+        "confidence": 0.85,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-11-12T21:57:13.561034"
+      }
     }
   ],
   "history": [
@@ -8074,6 +8104,18 @@
       "tech_id": "llm-互信息-(mutual-information)",
       "tech_name": "互信息 (Mutual Information)",
       "timestamp": "2026-11-12T14:06:37.815418"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-多任务多领域预训练",
+      "tech_name": "多任务多领域预训练",
+      "timestamp": "2026-11-12T21:57:13.563180"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-采样频率不变性量化",
+      "tech_name": "采样频率不变性量化",
+      "timestamp": "2026-11-12T21:57:13.563199"
     }
   ]
 }
