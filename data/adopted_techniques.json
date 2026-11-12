@@ -5723,6 +5723,36 @@
         ],
         "decided_at": "2026-11-11T23:46:33.330687"
       }
+    },
+    {
+      "id": "llm-隐私感知深度学习",
+      "name": "隐私感知深度学习",
+      "adopted_at": "2026-11-12T04:37:24.748701",
+      "decision": {
+        "tech_id": "llm-隐私感知深度学习",
+        "tech_name": "隐私感知深度学习",
+        "action": "adopt",
+        "confidence": 0.85,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-11-12T04:37:24.745172"
+      }
+    },
+    {
+      "id": "llm-锚点比较基准框架",
+      "name": "锚点比较基准框架",
+      "adopted_at": "2026-11-12T04:37:24.748735",
+      "decision": {
+        "tech_id": "llm-锚点比较基准框架",
+        "tech_name": "锚点比较基准框架",
+        "action": "adopt",
+        "confidence": 0.8,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-11-12T04:37:24.745446"
+      }
     }
   ],
   "history": [
@@ -8011,6 +8041,18 @@
       "tech_id": "llm-脉冲神经网络强化学习（snn-rl）",
       "tech_name": "脉冲神经网络强化学习（SNN RL）",
       "timestamp": "2026-11-11T23:46:33.334208"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-隐私感知深度学习",
+      "tech_name": "隐私感知深度学习",
+      "timestamp": "2026-11-12T04:37:24.748706"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-锚点比较基准框架",
+      "tech_name": "锚点比较基准框架",
+      "timestamp": "2026-11-12T04:37:24.748737"
     }
   ]
 }

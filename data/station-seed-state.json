@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 888,
+  "_rotation_idx": 889,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 105,
@@ -7040,18 +7040,9 @@
   },
   "kv-cache": {
     "name": "KV Cache Optimization",
-    "total_papers_found": 135,
-    "watering_count": 86,
+    "total_papers_found": 139,
+    "watering_count": 87,
     "history": [
-      {
-        "timestamp": "2026-08-16T20:08:14.905676",
-        "papers_found": 0,
-        "duplicates": 3,
-        "irrelevant_filtered": 7,
-        "avg_relevance": 0.0,
-        "high_relevance": 0,
-        "papers": []
-      },
       {
         "timestamp": "2026-08-17T16:12:38.624193",
         "papers_found": 1,
@@ -7967,6 +7958,37 @@
         "avg_relevance": 0.0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-11-12T04:37:19.394335",
+        "papers_found": 4,
+        "duplicates": 2,
+        "irrelevant_filtered": 4,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "REAL Loss: Optimizing Real Expected Acceptance Length for Speculative Decoding",
+            "summary": "Speculative decoding accelerates LLM inference by having a draft model propose multiple tokens for the target model to verify in one pass. The speedup is governed by the expected acceptance length (EAL), yet standard training objectives such as cross-entropy, KL divergence, and total variation focus",
+            "published": "2026-11-10",
+            "url": "http://arxiv.org/abs/2611.14399v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "ForeSpark: Joint Draft and Verification Budget Scheduling for Parallel Speculative Decoding",
+            "summary": "Parallel drafters accelerate LLM decoding by proposing a whole block of draft tokens in a single forward pass, making them attractive for LLM serving. Recent systems optimize goodput (i.e., accepted tokens per second) because rejected drafts steal compute from other requests. However, these systems ",
+            "published": "2026-11-10",
+            "url": "http://arxiv.org/abs/2611.13442v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Looping Deeper Without Growing the KV Cache: Recurrent Depth for Causal Encoder-Decoders",
+            "summary": "Looped language models deepen computation without adding parameters, yet caching full-context key-value (KV) states across layers and rounds severely bounds serving batch size. We design a looped causal encoder-decoder (CED) that achieves recurrent depth with zero round-wise KV growth, addressing wh",
+            "published": "2026-11-09",
+            "url": "http://arxiv.org/abs/2611.13378v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -7978,7 +8000,7 @@
       "flash attention",
       "speculative decoding"
     ],
-    "last_watered": "2026-11-09T01:17:51.685704"
+    "last_watered": "2026-11-12T04:37:19.394328"
   },
   "gnn": {
     "name": "Graph Neural Networks",

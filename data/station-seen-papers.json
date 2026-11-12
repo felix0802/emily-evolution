@@ -75684,7 +75684,282 @@
         "sided"
       ],
       "first_seen_round": 519
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.10097v1",
+      "title": "A Privacy-Aware Deep Learning Benchmark for Facial Emotion Recognition",
+      "arxiv_id": "2611.10097",
+      "tokens": [
+        "aware",
+        "benchmark",
+        "emotion",
+        "facial",
+        "privacy",
+        "recognition"
+      ],
+      "first_seen_round": 520
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.14124v1",
+      "title": "CroCoMAE: Cross-modal self-supervised collaborative representation learning for SAR-optical remote sensing data",
+      "arxiv_id": "2611.14124",
+      "tokens": [
+        "collaborative",
+        "crocomae",
+        "cross",
+        "modal",
+        "optical",
+        "remote",
+        "representation",
+        "sar",
+        "self",
+        "sensing",
+        "supervised"
+      ],
+      "first_seen_round": 520
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.14035v1",
+      "title": "ScaleBrain: A Scale-Consistent Framework for EEG Foundation Models",
+      "arxiv_id": "2611.14035",
+      "tokens": [
+        "consistent",
+        "eeg",
+        "foundation",
+        "scale",
+        "scalebrain"
+      ],
+      "first_seen_round": 520
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.13572v1",
+      "title": "Market-Conditioned JEPA: Learning from Unpredictable Market Shocks",
+      "arxiv_id": "2611.13572",
+      "tokens": [
+        "conditioned",
+        "jepa",
+        "market",
+        "market",
+        "shocks",
+        "unpredictable"
+      ],
+      "first_seen_round": 520
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.12334v1",
+      "title": "Rethinking Radar 3D Perception: Representation Learning from Raw Spectra",
+      "arxiv_id": "2611.12334",
+      "tokens": [
+        "perception",
+        "radar",
+        "raw",
+        "representation",
+        "rethinking",
+        "spectra"
+      ],
+      "first_seen_round": 520
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.12248v1",
+      "title": "A method to automatically discover symbolic local learning rules",
+      "arxiv_id": "2611.12248",
+      "tokens": [
+        "automatically",
+        "discover",
+        "local",
+        "rules",
+        "symbolic"
+      ],
+      "first_seen_round": 520
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.11890v1",
+      "title": "Training Vision Transformers to Focus: Emergence of Spatial Attention Head Specialization",
+      "arxiv_id": "2611.11890",
+      "tokens": [
+        "attention",
+        "emergence",
+        "focus",
+        "head",
+        "spatial",
+        "specialization",
+        "training",
+        "transformers",
+        "vision"
+      ],
+      "first_seen_round": 520
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.13696v1",
+      "title": "On Private Knowledge Retrieval and Private Inference for secure multi-agent systems",
+      "arxiv_id": "2611.13696",
+      "tokens": [
+        "agent",
+        "inference",
+        "knowledge",
+        "multi",
+        "private",
+        "private",
+        "retrieval",
+        "secure"
+      ],
+      "first_seen_round": 520
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.13254v1",
+      "title": "Dependable Long-Horizon LLM Agents: A Trajectory-Centered Empirical Study of Where Errors Enter and Which Controls Reach Them",
+      "arxiv_id": "2611.13254",
+      "tokens": [
+        "agents",
+        "centered",
+        "controls",
+        "dependable",
+        "empirical",
+        "enter",
+        "errors",
+        "horizon",
+        "llm",
+        "long",
+        "reach",
+        "trajectory"
+      ],
+      "first_seen_round": 520
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.13196v1",
+      "title": "From Process Models to Composable Agentic Workflows: Combining BPMN, Agents and Enterprise Knowledge",
+      "arxiv_id": "2611.13196",
+      "tokens": [
+        "agentic",
+        "agents",
+        "bpmn",
+        "combining",
+        "composable",
+        "enterprise",
+        "knowledge",
+        "process",
+        "workflows"
+      ],
+      "first_seen_round": 520
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.12552v1",
+      "title": "SciMARS: Multi-Agent Recursive Self-Improvement for Closed-Loop Scientific Discovery",
+      "arxiv_id": "2611.12552",
+      "tokens": [
+        "agent",
+        "closed",
+        "discovery",
+        "improvement",
+        "loop",
+        "multi",
+        "recursive",
+        "scientific",
+        "scimars",
+        "self"
+      ],
+      "first_seen_round": 520
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.12014v1",
+      "title": "Benchmarking language models and agents for scientific reasoning in evolving materials laboratories",
+      "arxiv_id": "2611.12014",
+      "tokens": [
+        "agents",
+        "benchmarking",
+        "evolving",
+        "laboratories",
+        "language",
+        "materials",
+        "reasoning",
+        "scientific"
+      ],
+      "first_seen_round": 520
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.11319v1",
+      "title": "Verify Before You Fetch: Reliable KV Cache Compression for LLM Inference",
+      "arxiv_id": "2611.11319",
+      "tokens": [
+        "cache",
+        "compression",
+        "fetch",
+        "inference",
+        "llm",
+        "reliable",
+        "verify"
+      ],
+      "first_seen_round": 520
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.14399v1",
+      "title": "REAL Loss: Optimizing Real Expected Acceptance Length for Speculative Decoding",
+      "arxiv_id": "2611.14399",
+      "tokens": [
+        "acceptance",
+        "decoding",
+        "expected",
+        "length",
+        "loss",
+        "optimizing",
+        "real",
+        "real",
+        "speculative"
+      ],
+      "first_seen_round": 520
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.13442v1",
+      "title": "ForeSpark: Joint Draft and Verification Budget Scheduling for Parallel Speculative Decoding",
+      "arxiv_id": "2611.13442",
+      "tokens": [
+        "budget",
+        "decoding",
+        "draft",
+        "forespark",
+        "joint",
+        "parallel",
+        "scheduling",
+        "speculative",
+        "verification"
+      ],
+      "first_seen_round": 520
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.13378v1",
+      "title": "Looping Deeper Without Growing the KV Cache: Recurrent Depth for Causal Encoder-Decoders",
+      "arxiv_id": "2611.13378",
+      "tokens": [
+        "cache",
+        "causal",
+        "decoders",
+        "deeper",
+        "depth",
+        "encoder",
+        "growing",
+        "looping",
+        "recurrent"
+      ],
+      "first_seen_round": 520
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.13293v1",
+      "title": "Decode Token Parallelism: Memory-Efficient Distributed Attention Parallelism for Scalable LLM Decoding",
+      "arxiv_id": "2611.13293",
+      "tokens": [
+        "attention",
+        "decode",
+        "decoding",
+        "distributed",
+        "llm",
+        "memory",
+        "parallelism",
+        "parallelism",
+        "scalable",
+        "token"
+      ],
+      "first_seen_round": 520
     }
   ],
-  "total_unique": 4750
+  "total_unique": 4767
 }
