@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 893,
+  "_rotation_idx": 894,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 109,
@@ -2785,33 +2785,9 @@
   },
   "spiking-nn": {
     "name": "Spiking Neural Networks",
-    "total_papers_found": 72,
-    "watering_count": 91,
+    "total_papers_found": 73,
+    "watering_count": 92,
     "history": [
-      {
-        "timestamp": "2026-08-17T06:27:33.043342",
-        "papers_found": 2,
-        "duplicates": 8,
-        "irrelevant_filtered": 0,
-        "avg_relevance": 2.5,
-        "high_relevance": 2,
-        "papers": [
-          {
-            "title": "Reducing ANN-SNN Conversion Error via Residual Membrane Potential Alignment",
-            "summary": "Spiking Neural Networks (SNNs) serve as core architectures for neuromorphic computing thanks to event-driven operation and ultra-low power consumption. Direct SNN training is hindered by non-differentiable spikes that induce vanishing gradients and unstable optimization. ANN-SNN conversion circumven",
-            "published": "2026-08-14",
-            "url": "http://arxiv.org/abs/2608.13952v1",
-            "seed_match_score": 3
-          },
-          {
-            "title": "SAGE: Surrogate-gradient Adaptation via Attention-Guided Entropy for Spiking Transformers",
-            "summary": "Spiking neural networks (SNNs) offer an energy-efficient alternative to conventional deep neural networks by exploiting sparse event-driven computation, but their training remains challenging because the non-differentiable spike function requires surrogate gradients whose fixed shape may be suboptim",
-            "published": "2026-08-13",
-            "url": "http://arxiv.org/abs/2608.13702v1",
-            "seed_match_score": 2
-          }
-        ]
-      },
       {
         "timestamp": "2026-08-18T02:45:20.185288",
         "papers_found": 0,
@@ -3570,6 +3546,23 @@
             "seed_match_score": 2
           }
         ]
+      },
+      {
+        "timestamp": "2026-11-13T18:51:42.415372",
+        "papers_found": 1,
+        "duplicates": 9,
+        "irrelevant_filtered": 0,
+        "avg_relevance": 2.0,
+        "high_relevance": 1,
+        "papers": [
+          {
+            "title": "Evolved Spiking Neural Networks for EEG Seizure Detection: Calcium Dynamics and Delay Mechanics",
+            "summary": "Neuroevolution can discover compact network designs that are hard to specify by hand. The EONS framework evolves the topology, weights, thresholds and delays of neuromorphic spiking networks without gradients. We tested whether giving integrate-and-fire (IF) neurons an activity-dependent calcium cur",
+            "published": "2026-11-02",
+            "url": "http://arxiv.org/abs/2611.03841v1",
+            "seed_match_score": 2
+          }
+        ]
       }
     ],
     "keywords": [
@@ -3578,7 +3571,7 @@
       "neuromorphic",
       "spike-timing"
     ],
-    "last_watered": "2026-11-10T18:58:34.589538"
+    "last_watered": "2026-11-13T18:51:42.415367"
   },
   "non-transformer": {
     "name": "Non-Transformer Arch",

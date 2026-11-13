@@ -76477,7 +76477,244 @@
         "platform"
       ],
       "first_seen_round": 524
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.17323v1",
+      "title": "AgentSSL: Can MLE Agents Leverage Unlabeled Data?",
+      "arxiv_id": "2611.17323",
+      "tokens": [
+        "agents",
+        "agentssl",
+        "leverage",
+        "mle",
+        "unlabeled"
+      ],
+      "first_seen_round": 525
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.17316v1",
+      "title": "CoReMem: Cost-Internalizing Memory for Successive Coding Tasks with Prospective Valuation",
+      "arxiv_id": "2611.17316",
+      "tokens": [
+        "coding",
+        "coremem",
+        "cost",
+        "internalizing",
+        "memory",
+        "prospective",
+        "successive",
+        "tasks",
+        "valuation"
+      ],
+      "first_seen_round": 525
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.17313v1",
+      "title": "Sketching Language Models for Context Attribution",
+      "arxiv_id": "2611.17313",
+      "tokens": [
+        "attribution",
+        "context",
+        "language",
+        "sketching"
+      ],
+      "first_seen_round": 525
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.17309v1",
+      "title": "Classical Energies Learn to Reason 1,000x Faster than Looped Models",
+      "arxiv_id": "2611.17309",
+      "tokens": [
+        "000x",
+        "classical",
+        "energies",
+        "faster",
+        "learn",
+        "looped",
+        "reason"
+      ],
+      "first_seen_round": 525
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.17298v1",
+      "title": "Consistent Video-to-Video Translation via Explicit Correspondences",
+      "arxiv_id": "2611.17298",
+      "tokens": [
+        "consistent",
+        "correspondences",
+        "explicit",
+        "translation",
+        "video",
+        "video"
+      ],
+      "first_seen_round": 525
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.17297v1",
+      "title": "Goal Encoding in LLMs",
+      "arxiv_id": "2611.17297",
+      "tokens": [
+        "encoding",
+        "goal",
+        "llms"
+      ],
+      "first_seen_round": 525
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.17294v1",
+      "title": "Metal Sandbox: Isolated Execution and Command Scheduling for GPU Coding Agents on Apple Silicon",
+      "arxiv_id": "2611.17294",
+      "tokens": [
+        "agents",
+        "apple",
+        "coding",
+        "command",
+        "execution",
+        "gpu",
+        "isolated",
+        "metal",
+        "sandbox",
+        "scheduling",
+        "silicon"
+      ],
+      "first_seen_round": 525
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.17280v1",
+      "title": "Synthesis Smuggling: Maliciously Hiding Inferred Personal Attributes in LLM Outputs",
+      "arxiv_id": "2611.17280",
+      "tokens": [
+        "attributes",
+        "hiding",
+        "inferred",
+        "llm",
+        "maliciously",
+        "outputs",
+        "personal",
+        "smuggling",
+        "synthesis"
+      ],
+      "first_seen_round": 525
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.17334v1",
+      "title": "Unbundling Multimodal Vision Encoding",
+      "arxiv_id": "2611.17334",
+      "tokens": [
+        "encoding",
+        "multimodal",
+        "unbundling",
+        "vision"
+      ],
+      "first_seen_round": 525
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.17332v1",
+      "title": "ArchSpace: Recording, Reviewing, and Referencing LLM Architecture Research",
+      "arxiv_id": "2611.17332",
+      "tokens": [
+        "architecture",
+        "archspace",
+        "llm",
+        "recording",
+        "referencing",
+        "research",
+        "reviewing"
+      ],
+      "first_seen_round": 525
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.17329v1",
+      "title": "Internalizing Investment Mandates: A Neurosymbolic RL Approach to Portfolio Allocation",
+      "arxiv_id": "2611.17329",
+      "tokens": [
+        "allocation",
+        "internalizing",
+        "investment",
+        "mandates",
+        "neurosymbolic",
+        "portfolio"
+      ],
+      "first_seen_round": 525
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.17314v1",
+      "title": "Linking Rapid Learning to Compositional Structure in Neural Networks: Evidence from Additive Analogies in Meta-Learned Parameter Spaces",
+      "arxiv_id": "2611.17314",
+      "tokens": [
+        "additive",
+        "analogies",
+        "compositional",
+        "evidence",
+        "learned",
+        "linking",
+        "meta",
+        "neural",
+        "parameter",
+        "rapid",
+        "spaces",
+        "structure"
+      ],
+      "first_seen_round": 525
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.17308v1",
+      "title": "Quantifying structural stability of transparent models for general insurance pricing",
+      "arxiv_id": "2611.17308",
+      "tokens": [
+        "general",
+        "insurance",
+        "pricing",
+        "quantifying",
+        "stability",
+        "structural",
+        "transparent"
+      ],
+      "first_seen_round": 525
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.17320v1",
+      "title": "Learning When Diffusion Language Models Should Regenerate",
+      "arxiv_id": "2611.17320",
+      "tokens": [
+        "diffusion",
+        "language",
+        "regenerate"
+      ],
+      "first_seen_round": 525
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.17287v1",
+      "title": "Negative-Only Policy Optimization for One-Sided Verifiable Rewards",
+      "arxiv_id": "2611.17287",
+      "tokens": [
+        "negative",
+        "optimization",
+        "policy",
+        "rewards",
+        "sided",
+        "verifiable"
+      ],
+      "first_seen_round": 525
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.03841v1",
+      "title": "Evolved Spiking Neural Networks for EEG Seizure Detection: Calcium Dynamics and Delay Mechanics",
+      "arxiv_id": "2611.03841",
+      "tokens": [
+        "calcium",
+        "delay",
+        "detection",
+        "dynamics",
+        "eeg",
+        "evolved",
+        "mechanics",
+        "neural",
+        "seizure",
+        "spiking"
+      ],
+      "first_seen_round": 525
     }
   ],
-  "total_unique": 4800
+  "total_unique": 4816
 }
