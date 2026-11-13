@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 891,
+  "_rotation_idx": 892,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 109,
@@ -861,18 +861,9 @@
   },
   "liquid-networks": {
     "name": "Liquid Networks",
-    "total_papers_found": 133,
-    "watering_count": 92,
+    "total_papers_found": 135,
+    "watering_count": 93,
     "history": [
-      {
-        "timestamp": "2026-08-17T02:50:36.376253",
-        "papers_found": 0,
-        "duplicates": 9,
-        "irrelevant_filtered": 1,
-        "avg_relevance": 0.0,
-        "high_relevance": 0,
-        "papers": []
-      },
       {
         "timestamp": "2026-08-17T22:12:15.823399",
         "papers_found": 0,
@@ -1733,6 +1724,30 @@
             "seed_match_score": 2
           }
         ]
+      },
+      {
+        "timestamp": "2026-11-13T02:17:43.698333",
+        "papers_found": 2,
+        "duplicates": 4,
+        "irrelevant_filtered": 4,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "Continuous-Time Set-Transformers for Asynchronous WiFi-IMU Indoor Localization",
+            "summary": "Indoor localization commonly combines WiFi received signal strength indicator (RSSI) fingerprints with inertial measurements. However, these sensor streams are sampled asynchronously at different rates; therefore, observations rarely align in time and may be missing or stale. Most existing methods r",
+            "published": "2026-11-09",
+            "url": "http://arxiv.org/abs/2611.13057v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "The balance between feature learning and collapse in dynamical systems-based generative models",
+            "summary": "Over the past decade, a growing body of work has established that implicit biases in learning dynamics fundamentally shape the solutions found by neural networks, governing their learned features and generalisation performance. However, despite these strides in deep learning theory, far less is know",
+            "published": "2026-11-09",
+            "url": "http://arxiv.org/abs/2611.12156v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -1742,7 +1757,7 @@
       "ode",
       "continuous-time"
     ],
-    "last_watered": "2026-11-10T03:52:25.302631"
+    "last_watered": "2026-11-13T02:17:43.698329"
   },
   "htm": {
     "name": "HTM",

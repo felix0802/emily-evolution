@@ -5798,6 +5798,21 @@
         ],
         "decided_at": "2026-11-12T21:57:13.561034"
       }
+    },
+    {
+      "id": "llm-decode-token-parallelism",
+      "name": "Decode Token Parallelism",
+      "adopted_at": "2026-11-13T02:17:50.068107",
+      "decision": {
+        "tech_id": "llm-decode-token-parallelism",
+        "tech_name": "Decode Token Parallelism",
+        "action": "adopt",
+        "confidence": 0.9,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-11-13T02:17:50.065986"
+      }
     }
   ],
   "history": [
@@ -8116,6 +8131,12 @@
       "tech_id": "llm-采样频率不变性量化",
       "tech_name": "采样频率不变性量化",
       "timestamp": "2026-11-12T21:57:13.563199"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-decode-token-parallelism",
+      "tech_name": "Decode Token Parallelism",
+      "timestamp": "2026-11-13T02:17:50.068110"
     }
   ]
 }

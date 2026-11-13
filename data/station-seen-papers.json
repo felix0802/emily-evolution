@@ -76325,7 +76325,37 @@
         "modal"
       ],
       "first_seen_round": 522
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.13057v1",
+      "title": "Continuous-Time Set-Transformers for Asynchronous WiFi-IMU Indoor Localization",
+      "arxiv_id": "2611.13057",
+      "tokens": [
+        "asynchronous",
+        "continuous",
+        "imu",
+        "indoor",
+        "localization",
+        "set",
+        "time",
+        "transformers",
+        "wifi"
+      ],
+      "first_seen_round": 523
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.12156v1",
+      "title": "The balance between feature learning and collapse in dynamical systems-based generative models",
+      "arxiv_id": "2611.12156",
+      "tokens": [
+        "balance",
+        "collapse",
+        "dynamical",
+        "feature",
+        "generative"
+      ],
+      "first_seen_round": 523
     }
   ],
-  "total_unique": 4790
+  "total_unique": 4792
 }
