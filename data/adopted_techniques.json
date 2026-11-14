@@ -5933,6 +5933,21 @@
         ],
         "decided_at": "2026-11-14T16:12:06.482918"
       }
+    },
+    {
+      "id": "llm-动态传感器关系图",
+      "name": "动态传感器关系图",
+      "adopted_at": "2026-11-14T21:45:15.837337",
+      "decision": {
+        "tech_id": "llm-动态传感器关系图",
+        "tech_name": "动态传感器关系图",
+        "action": "adopt",
+        "confidence": 0.8,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-11-14T21:45:15.834663"
+      }
     }
   ],
   "history": [
@@ -8305,6 +8320,12 @@
       "tech_id": "auto-geometric",
       "tech_name": "Geometric",
       "timestamp": "2026-11-14T16:12:06.485780"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-动态传感器关系图",
+      "tech_name": "动态传感器关系图",
+      "timestamp": "2026-11-14T21:45:15.837342"
     }
   ]
 }

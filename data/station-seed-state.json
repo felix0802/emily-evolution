@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 897,
+  "_rotation_idx": 898,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 109,
@@ -6112,40 +6112,9 @@
   },
   "moe": {
     "name": "Mixture of Experts",
-    "total_papers_found": 141,
-    "watering_count": 86,
+    "total_papers_found": 145,
+    "watering_count": 87,
     "history": [
-      {
-        "timestamp": "2026-08-17T14:15:54.858565",
-        "papers_found": 3,
-        "duplicates": 4,
-        "irrelevant_filtered": 3,
-        "avg_relevance": 2.0,
-        "high_relevance": 3,
-        "papers": [
-          {
-            "title": "DeaMoE: Efficient MoE Structure for Fast Small-Batch Decoding",
-            "summary": "Mixture-of-Experts (MoE) models have been widely adopted in real-time interactive applications such as coding assistants, real-time audio-video interaction systems. To meet the extremely low response latency requirements of these scenarios, practitioners commonly employ small-batch decoding, under w",
-            "published": "2026-08-14",
-            "url": "http://arxiv.org/abs/2608.14385v1",
-            "seed_match_score": 2
-          },
-          {
-            "title": "FreeBalance: Pre-Routing Online Moe Load Balancing via Residual Workload Prediction",
-            "summary": "Load imbalance poses a major bottleneck to the efficiency of expert parallelism in distributed inference of Mixture-of-Experts (MoE) models. The most heavily loaded rank stalls global execution due to skewed routing distributions, directly increasing latency. While offline expert placement can allev",
-            "published": "2026-08-14",
-            "url": "http://arxiv.org/abs/2608.14205v1",
-            "seed_match_score": 2
-          },
-          {
-            "title": "MedMix: Specialization-Consistent Federated Sparse MoEs under Modality Heterogeneity",
-            "summary": "Federated multimodal medical AI faces modality heterogeneity at both the client and sample levels: clients may systematically lack access to specific modality types, while individual records within the same client may contain different partial modality subsets. Sparse Mixture-of-Experts (MoE) archit",
-            "published": "2026-08-14",
-            "url": "http://arxiv.org/abs/2608.13911v1",
-            "seed_match_score": 2
-          }
-        ]
-      },
       {
         "timestamp": "2026-08-18T10:15:40.783663",
         "papers_found": 6,
@@ -7083,6 +7052,37 @@
             "seed_match_score": 2
           }
         ]
+      },
+      {
+        "timestamp": "2026-11-14T21:45:11.143968",
+        "papers_found": 4,
+        "duplicates": 1,
+        "irrelevant_filtered": 5,
+        "avg_relevance": 1.75,
+        "high_relevance": 2,
+        "papers": [
+          {
+            "title": "Indic-Task Gains and Regressions after Reinforcement Learning",
+            "summary": "We run reinforcement learning (RL) with GRPO across four environments, starting from a supervised fine-tuned 30B-A3B mixture-of-experts model covering English and eight Indic languages. We compare the model before and after RL across 34 benchmarks in one evaluation campaign. MATH improves by 36.07 p",
+            "published": "2026-11-12",
+            "url": "http://arxiv.org/abs/2611.16228v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "GC-MoE on SM120: Overlapping Expert-Parallel Token Dispatch with Warp-Level FP8xFP4 Block-Scaled MMA on Consumer Blackwell",
+            "summary": "Expert-parallel Mixture-of-Experts decoding is latency bound: each layer serializes a token exchange, a grouped GEMM over routed experts, and a combine, while only a few tokens per rank are in flight. Prior GC-MoE fused these phases into one persistent, Green-Context-partitioned CUDA Graph on Hopper",
+            "published": "2026-11-12",
+            "url": "http://arxiv.org/abs/2611.16219v1",
+            "seed_match_score": 2
+          },
+          {
+            "title": "Fewer Expert Transfers Without Changing Routing: Expert Eviction for MoE Offloading",
+            "summary": "A mixture-of-experts (MoE) language model uses only a few experts per token, so a server can keep most expert weights in CPU memory and copy an expert to the GPU when the router requests it. Recent methods train the router to keep the same experts for several tokens, and treat fewer routing switches",
+            "published": "2026-11-11",
+            "url": "http://arxiv.org/abs/2611.15842v1",
+            "seed_match_score": 3
+          }
+        ]
       }
     ],
     "keywords": [
@@ -7094,7 +7094,7 @@
       "switch transformer",
       "deepseek"
     ],
-    "last_watered": "2026-11-11T23:46:27.573085"
+    "last_watered": "2026-11-14T21:45:11.143962"
   },
   "kv-cache": {
     "name": "KV Cache Optimization",
