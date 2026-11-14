@@ -76714,7 +76714,193 @@
         "spiking"
       ],
       "first_seen_round": 525
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.17336v1",
+      "title": "Back to Pixels: Lifting Latent Video Diffusion into Pixel Space",
+      "arxiv_id": "2611.17336",
+      "tokens": [
+        "back",
+        "diffusion",
+        "latent",
+        "lifting",
+        "pixel",
+        "pixels",
+        "space",
+        "video"
+      ],
+      "first_seen_round": 526
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.17331v1",
+      "title": "TTB: Test-time Baking for Efficient Rendering of Decoder-only View Synthesis Models",
+      "arxiv_id": "2611.17331",
+      "tokens": [
+        "baking",
+        "decoder",
+        "rendering",
+        "synthesis",
+        "test",
+        "time",
+        "ttb",
+        "view"
+      ],
+      "first_seen_round": 526
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.17330v1",
+      "title": "ProtoVis-Nav: Prototypical Visual Imagination for Visual-Spatial Aligned UAV Navigation",
+      "arxiv_id": "2611.17330",
+      "tokens": [
+        "aligned",
+        "imagination",
+        "nav",
+        "navigation",
+        "prototypical",
+        "protovis",
+        "spatial",
+        "uav",
+        "visual",
+        "visual"
+      ],
+      "first_seen_round": 526
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.17324v1",
+      "title": "K2V: Generative Keyframing For Physically Plausible Video Generation",
+      "arxiv_id": "2611.17324",
+      "tokens": [
+        "generation",
+        "generative",
+        "k2v",
+        "keyframing",
+        "physically",
+        "plausible",
+        "video"
+      ],
+      "first_seen_round": 526
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.17321v1",
+      "title": "BrickFlow: Connectivity-Guided Brick Reconstruction",
+      "arxiv_id": "2611.17321",
+      "tokens": [
+        "brick",
+        "brickflow",
+        "connectivity",
+        "guided",
+        "reconstruction"
+      ],
+      "first_seen_round": 526
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.17318v1",
+      "title": "Spatial Foundry: A Multimodal Dataset for Spatial Intelligence",
+      "arxiv_id": "2611.17318",
+      "tokens": [
+        "dataset",
+        "foundry",
+        "intelligence",
+        "multimodal",
+        "spatial",
+        "spatial"
+      ],
+      "first_seen_round": 526
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.17302v1",
+      "title": "FLEX-LBP: Learning Local Binary Patterns with Exact Binary Inference for Texture Classification",
+      "arxiv_id": "2611.17302",
+      "tokens": [
+        "binary",
+        "binary",
+        "classification",
+        "exact",
+        "flex",
+        "inference",
+        "lbp",
+        "local",
+        "patterns",
+        "texture"
+      ],
+      "first_seen_round": 526
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.17303v1",
+      "title": "Towards a Theory of Learnability via Debate",
+      "arxiv_id": "2611.17303",
+      "tokens": [
+        "debate",
+        "learnability",
+        "theory"
+      ],
+      "first_seen_round": 526
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.17162v1",
+      "title": "Symmetry in Time: A Representation Theory of Linear Recurrent Memory",
+      "arxiv_id": "2611.17162",
+      "tokens": [
+        "linear",
+        "memory",
+        "recurrent",
+        "representation",
+        "symmetry",
+        "theory",
+        "time"
+      ],
+      "first_seen_round": 526
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.16934v1",
+      "title": "Time Flies When You Parallelise: Pareto-efficient Time Series Foundation Models with Linear Recurrences",
+      "arxiv_id": "2611.16934",
+      "tokens": [
+        "flies",
+        "foundation",
+        "linear",
+        "parallelise",
+        "pareto",
+        "recurrences",
+        "series",
+        "time",
+        "time"
+      ],
+      "first_seen_round": 526
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.16322v1",
+      "title": "Climate Temporal Temperature Prediction via an Adaptive Stacked Bidirectional Residual Mamba Network",
+      "arxiv_id": "2611.16322",
+      "tokens": [
+        "adaptive",
+        "bidirectional",
+        "climate",
+        "mamba",
+        "prediction",
+        "residual",
+        "stacked",
+        "temperature",
+        "temporal"
+      ],
+      "first_seen_round": 526
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.14246v1",
+      "title": "SinkState: On-the-Fly SVD of Recurrent States for Efficient Hybrid LLM Serving",
+      "arxiv_id": "2611.14246",
+      "tokens": [
+        "fly",
+        "hybrid",
+        "llm",
+        "recurrent",
+        "serving",
+        "sinkstate",
+        "states",
+        "svd"
+      ],
+      "first_seen_round": 526
     }
   ],
-  "total_unique": 4816
+  "total_unique": 4828
 }

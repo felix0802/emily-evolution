@@ -1,6 +1,26 @@
 {
-  "timestamp": "2026-11-13T18:51:50.483569",
+  "timestamp": "2026-11-14T00:31:56.769530",
   "connections": [
+    {
+      "seed_a": "Mamba (SSM)",
+      "seed_b": "Non-Transformer Arch",
+      "shared_keywords": [
+        "mamba",
+        "state space"
+      ],
+      "shared_paper_concepts": [
+        "bias",
+        "hybrid",
+        "mamba",
+        "models",
+        "prediction",
+        "recurrent",
+        "space",
+        "state"
+      ],
+      "strength": 13,
+      "discovered_at": "2026-11-14T00:31:56.769393"
+    },
     {
       "seed_a": "HTM",
       "seed_b": "Graph Neural Networks",
@@ -16,25 +36,7 @@
         "neural"
       ],
       "strength": 11,
-      "discovered_at": "2026-11-13T18:51:50.483515"
-    },
-    {
-      "seed_a": "Mamba (SSM)",
-      "seed_b": "Non-Transformer Arch",
-      "shared_keywords": [
-        "mamba",
-        "state space"
-      ],
-      "shared_paper_concepts": [
-        "bias",
-        "hybrid",
-        "models",
-        "recurrent",
-        "space",
-        "state"
-      ],
-      "strength": 10,
-      "discovered_at": "2026-11-13T18:51:50.483459"
+      "discovered_at": "2026-11-14T00:31:56.769463"
     },
     {
       "seed_a": "Non-Transformer Arch",
@@ -42,16 +44,16 @@
       "shared_keywords": [],
       "shared_paper_concepts": [
         "attention",
-        "context",
         "cross",
+        "foundation",
         "from",
         "linear",
         "models",
-        "training",
-        "with"
+        "network",
+        "prediction"
       ],
-      "strength": 8,
-      "discovered_at": "2026-11-13T18:51:50.483544"
+      "strength": 11,
+      "discovered_at": "2026-11-14T00:31:56.769498"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -67,7 +69,23 @@
         "temporal"
       ],
       "strength": 7,
-      "discovered_at": "2026-11-13T18:51:50.483473"
+      "discovered_at": "2026-11-14T00:31:56.769411"
+    },
+    {
+      "seed_a": "HTM",
+      "seed_b": "Non-Transformer Arch",
+      "shared_keywords": [],
+      "shared_paper_concepts": [
+        "adaptive",
+        "detection",
+        "from",
+        "memory",
+        "residual",
+        "temporal",
+        "with"
+      ],
+      "strength": 7,
+      "discovered_at": "2026-11-14T00:31:56.769447"
     },
     {
       "seed_a": "Liquid Networks",
@@ -82,7 +100,7 @@
         "temporal"
       ],
       "strength": 6,
-      "discovered_at": "2026-11-13T18:51:50.483478"
+      "discovered_at": "2026-11-14T00:31:56.769416"
     },
     {
       "seed_a": "Liquid Networks",
@@ -97,7 +115,7 @@
         "temporal"
       ],
       "strength": 6,
-      "discovered_at": "2026-11-13T18:51:50.483495"
+      "discovered_at": "2026-11-14T00:31:56.769438"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -111,7 +129,21 @@
         "parallel"
       ],
       "strength": 5,
-      "discovered_at": "2026-11-13T18:51:50.483468"
+      "discovered_at": "2026-11-14T00:31:56.769404"
+    },
+    {
+      "seed_a": "Non-Transformer Arch",
+      "seed_b": "Continual Learning",
+      "shared_keywords": [],
+      "shared_paper_concepts": [
+        "adaptive",
+        "beyond",
+        "bias",
+        "diagonal",
+        "linear"
+      ],
+      "strength": 5,
+      "discovered_at": "2026-11-14T00:31:56.769486"
     },
     {
       "seed_a": "Continual Learning",
@@ -125,34 +157,7 @@
         "networks"
       ],
       "strength": 5,
-      "discovered_at": "2026-11-13T18:51:50.483556"
-    },
-    {
-      "seed_a": "Mixture of Experts",
-      "seed_b": "Graph Neural Networks",
-      "shared_keywords": [],
-      "shared_paper_concepts": [
-        "aware",
-        "interpretable",
-        "models",
-        "multimodal",
-        "sparse"
-      ],
-      "strength": 5,
-      "discovered_at": "2026-11-13T18:51:50.483561"
-    },
-    {
-      "seed_a": "HTM",
-      "seed_b": "Spiking Neural Networks",
-      "shared_keywords": [],
-      "shared_paper_concepts": [
-        "delay",
-        "detection",
-        "networks",
-        "neural"
-      ],
-      "strength": 4,
-      "discovered_at": "2026-11-13T18:51:50.483498"
+      "discovered_at": "2026-11-14T00:31:56.769514"
     }
   ],
   "total_seeds": 10

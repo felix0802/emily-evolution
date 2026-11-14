@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 894,
+  "_rotation_idx": 895,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 109,
@@ -3575,26 +3575,9 @@
   },
   "non-transformer": {
     "name": "Non-Transformer Arch",
-    "total_papers_found": 82,
-    "watering_count": 92,
+    "total_papers_found": 86,
+    "watering_count": 93,
     "history": [
-      {
-        "timestamp": "2026-08-17T08:28:56.166737",
-        "papers_found": 1,
-        "duplicates": 7,
-        "irrelevant_filtered": 2,
-        "avg_relevance": 1.0,
-        "high_relevance": 0,
-        "papers": [
-          {
-            "title": "The Query Knows What to Forget: A Second Erase Direction for Linear Attention",
-            "summary": "Linear attention keeps a state of fixed size. At long context, many stored items share this state, and interference between them degrades retrieval. Gated DeltaNet-2 (GDN-2), like every delta-rule model before it, derives its erase vector from the key of the current token. However, the interference ",
-            "published": "2026-08-13",
-            "url": "http://arxiv.org/abs/2608.13668v1",
-            "seed_match_score": 1
-          }
-        ]
-      },
       {
         "timestamp": "2026-08-18T04:22:55.368623",
         "papers_found": 1,
@@ -4437,6 +4420,37 @@
             "seed_match_score": 1
           }
         ]
+      },
+      {
+        "timestamp": "2026-11-14T00:31:48.853685",
+        "papers_found": 4,
+        "duplicates": 5,
+        "irrelevant_filtered": 1,
+        "avg_relevance": 1.25,
+        "high_relevance": 1,
+        "papers": [
+          {
+            "title": "Symmetry in Time: A Representation Theory of Linear Recurrent Memory",
+            "summary": "State space models (SSMs) are an emerging alternative to Transformers. SSMs offer linear-time inference and parallel training, but most implementations make the parallel scan efficient by making the recurrence diagonal: each channel of the hidden state is multiplied by an input-dependent real or com",
+            "published": "2026-11-12",
+            "url": "http://arxiv.org/abs/2611.17162v1",
+            "seed_match_score": 2
+          },
+          {
+            "title": "Time Flies When You Parallelise: Pareto-efficient Time Series Foundation Models with Linear Recurrences",
+            "summary": "Time series foundation models have demonstrated strong zero-shot forecasting performance, but computational efficiency remains a central architectural challenge. Temporal self-attention incurs quadratic cost in the number of temporal tokens, while nonlinear recurrent state transitions restrict paral",
+            "published": "2026-11-12",
+            "url": "http://arxiv.org/abs/2611.16934v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Climate Temporal Temperature Prediction via an Adaptive Stacked Bidirectional Residual Mamba Network",
+            "summary": "Accurate temperatures forecasting relies on traditional meteorological parameters that are essential for monitoring weather informatics and guiding forecasting efforts. This study presents Deep DualMamba, a novel deep learning framework for temporal temperature prediction, built upon an enhanced var",
+            "published": "2026-11-12",
+            "url": "http://arxiv.org/abs/2611.16322v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -4449,7 +4463,7 @@
       "sub-quadratic",
       "mamba"
     ],
-    "last_watered": "2026-11-11T00:17:19.138220"
+    "last_watered": "2026-11-14T00:31:48.853678"
   },
   "few-shot": {
     "name": "Few-Shot Learning",

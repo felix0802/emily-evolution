@@ -1,53 +1,6 @@
 {
   "sessions": [
     {
-      "timestamp": "2026-10-20T22:45:37.013655",
-      "arxiv_papers_count": 17,
-      "arxiv_top_keywords": [
-        "time",
-        "series",
-        "anomaly",
-        "moe",
-        "forecasting",
-        "temporal",
-        "detection",
-        "experts",
-        "whatif",
-        "bench"
-      ],
-      "arxiv_strategies": [
-        "搜索: time series forecasting",
-        "搜索: anomaly detection",
-        "搜索: mixture of experts"
-      ],
-      "huggingface_models": 10,
-      "huggingface_tasks": [
-        "sentence-similarity",
-        "unknown",
-        "text-generation",
-        "text-ranking",
-        "feature-extraction"
-      ],
-      "ml_datasets": [
-        "Iris",
-        "Wine",
-        "Breast Cancer",
-        "Diabetes"
-      ],
-      "ml_total_tests": 22,
-      "github_trending_repos": 8,
-      "paperswithcode_papers": 8,
-      "evolution": {
-        "discovered": 17,
-        "adopted": 2,
-        "decisions": 2
-      },
-      "seed_watering": {
-        "seed_name": "Non-Transformer Arch",
-        "papers_found": 3
-      }
-    },
-    {
       "timestamp": "2026-10-21T02:15:04.796883",
       "arxiv_papers_count": 18,
       "arxiv_top_keywords": [
@@ -4699,12 +4652,59 @@
         "seed_name": "Spiking Neural Networks",
         "papers_found": 10
       }
+    },
+    {
+      "timestamp": "2026-11-14T00:31:56.751713",
+      "arxiv_papers_count": 19,
+      "arxiv_top_keywords": [
+        "video",
+        "diffusion",
+        "language",
+        "visual",
+        "reasoning",
+        "learn",
+        "space",
+        "latent",
+        "pixel",
+        "vision"
+      ],
+      "arxiv_strategies": [
+        "cs.CV 最新",
+        "cs.AI+cs.LG 混合",
+        "cs.CL+cs.CV 混合"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "automatic-speech-recognition",
+        "text-generation",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 21,
+        "adopted": 3,
+        "decisions": 3
+      },
+      "seed_watering": {
+        "seed_name": "Non-Transformer Arch",
+        "papers_found": 9
+      }
     }
   ],
   "total_sessions": 101,
-  "last_updated": "2026-11-13T18:51:50.469662",
+  "last_updated": "2026-11-14T00:31:56.751728",
   "evolution_summary": {
-    "total_adopted": 387,
+    "total_adopted": 390,
     "adopted_list": [
       "Knowledge Distillation",
       "World Models / Model-Based RL",
@@ -5092,7 +5092,10 @@
       "互信息 (Mutual Information)",
       "多任务多领域预训练",
       "采样频率不变性量化",
-      "Decode Token Parallelism"
+      "Decode Token Parallelism",
+      "KV-cache",
+      "Prototypical Visual Imagination",
+      "Generative Keyframing"
     ],
     "seeds": {
       "mamba": {
@@ -5117,8 +5120,8 @@
       },
       "non-transformer": {
         "name": "Non-Transformer Arch",
-        "watering": 92,
-        "papers": 82
+        "watering": 93,
+        "papers": 86
       },
       "few-shot": {
         "name": "Few-Shot Learning",
@@ -5219,18 +5222,18 @@
       },
       "non-transformer": {
         "name": "Non-Transformer Arch",
-        "new_papers": 82,
+        "new_papers": 86,
         "keywords_matched": [
-          "linear attention",
           "state space",
+          "linear attention",
           "mamba",
-          "efficient transformer",
+          "linear recurrent",
           "gated linear",
           "rwkv",
-          "linear recurrent"
+          "efficient transformer"
         ],
-        "high_relevance_total": 11,
-        "avg_relevance_latest": 1.33,
+        "high_relevance_total": 12,
+        "avg_relevance_latest": 1.25,
         "best_papers_count": 0
       },
       "continual-learning": {
@@ -5292,6 +5295,6 @@
         "best_papers_count": 1
       }
     },
-    "last_evolution": "2026-11-13T18:51:50.472733"
+    "last_evolution": "2026-11-14T00:31:56.755680"
   }
 }

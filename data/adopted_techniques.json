@@ -5813,6 +5813,51 @@
         ],
         "decided_at": "2026-11-13T02:17:50.065986"
       }
+    },
+    {
+      "id": "llm-kv-cache",
+      "name": "KV-cache",
+      "adopted_at": "2026-11-14T00:31:53.821790",
+      "decision": {
+        "tech_id": "llm-kv-cache",
+        "tech_name": "KV-cache",
+        "action": "adopt",
+        "confidence": 0.8,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-11-14T00:31:53.818647"
+      }
+    },
+    {
+      "id": "llm-prototypical-visual-imaginatio",
+      "name": "Prototypical Visual Imagination",
+      "adopted_at": "2026-11-14T00:31:53.821821",
+      "decision": {
+        "tech_id": "llm-prototypical-visual-imaginatio",
+        "tech_name": "Prototypical Visual Imagination",
+        "action": "adopt",
+        "confidence": 0.7,
+        "reason": [
+          "预置技术(0.7)"
+        ],
+        "decided_at": "2026-11-14T00:31:53.818918"
+      }
+    },
+    {
+      "id": "llm-generative-keyframing",
+      "name": "Generative Keyframing",
+      "adopted_at": "2026-11-14T00:31:53.821843",
+      "decision": {
+        "tech_id": "llm-generative-keyframing",
+        "tech_name": "Generative Keyframing",
+        "action": "adopt",
+        "confidence": 0.7,
+        "reason": [
+          "预置技术(0.7)"
+        ],
+        "decided_at": "2026-11-14T00:31:53.819016"
+      }
     }
   ],
   "history": [
@@ -8137,6 +8182,24 @@
       "tech_id": "llm-decode-token-parallelism",
       "tech_name": "Decode Token Parallelism",
       "timestamp": "2026-11-13T02:17:50.068110"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-kv-cache",
+      "tech_name": "KV-cache",
+      "timestamp": "2026-11-14T00:31:53.821795"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-prototypical-visual-imaginatio",
+      "tech_name": "Prototypical Visual Imagination",
+      "timestamp": "2026-11-14T00:31:53.821823"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-generative-keyframing",
+      "tech_name": "Generative Keyframing",
+      "timestamp": "2026-11-14T00:31:53.821845"
     }
   ]
 }
