@@ -5858,6 +5858,36 @@
         ],
         "decided_at": "2026-11-14T00:31:53.819016"
       }
+    },
+    {
+      "id": "llm-neurosymbolic-rl",
+      "name": "Neurosymbolic RL",
+      "adopted_at": "2026-11-14T08:13:38.745228",
+      "decision": {
+        "tech_id": "llm-neurosymbolic-rl",
+        "tech_name": "Neurosymbolic RL",
+        "action": "adopt",
+        "confidence": 0.9,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-11-14T08:13:38.742034"
+      }
+    },
+    {
+      "id": "llm-negative-only-policy-optimizat",
+      "name": "Negative-Only Policy Optimization",
+      "adopted_at": "2026-11-14T08:13:38.745260",
+      "decision": {
+        "tech_id": "llm-negative-only-policy-optimizat",
+        "tech_name": "Negative-Only Policy Optimization",
+        "action": "adopt",
+        "confidence": 0.85,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-11-14T08:13:38.742254"
+      }
     }
   ],
   "history": [
@@ -8200,6 +8230,18 @@
       "tech_id": "llm-generative-keyframing",
       "tech_name": "Generative Keyframing",
       "timestamp": "2026-11-14T00:31:53.821845"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-neurosymbolic-rl",
+      "tech_name": "Neurosymbolic RL",
+      "timestamp": "2026-11-14T08:13:38.745236"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-negative-only-policy-optimizat",
+      "tech_name": "Negative-Only Policy Optimization",
+      "timestamp": "2026-11-14T08:13:38.745261"
     }
   ]
 }

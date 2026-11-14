@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-14T00:31:56.769530",
+  "timestamp": "2026-11-14T08:13:41.470343",
   "connections": [
     {
       "seed_a": "Mamba (SSM)",
@@ -19,7 +19,7 @@
         "state"
       ],
       "strength": 13,
-      "discovered_at": "2026-11-14T00:31:56.769393"
+      "discovered_at": "2026-11-14T08:13:41.470189"
     },
     {
       "seed_a": "HTM",
@@ -36,7 +36,7 @@
         "neural"
       ],
       "strength": 11,
-      "discovered_at": "2026-11-14T00:31:56.769463"
+      "discovered_at": "2026-11-14T08:13:41.470275"
     },
     {
       "seed_a": "Non-Transformer Arch",
@@ -53,7 +53,7 @@
         "prediction"
       ],
       "strength": 11,
-      "discovered_at": "2026-11-14T00:31:56.769498"
+      "discovered_at": "2026-11-14T08:13:41.470310"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -69,7 +69,7 @@
         "temporal"
       ],
       "strength": 7,
-      "discovered_at": "2026-11-14T00:31:56.769411"
+      "discovered_at": "2026-11-14T08:13:41.470208"
     },
     {
       "seed_a": "HTM",
@@ -85,7 +85,7 @@
         "with"
       ],
       "strength": 7,
-      "discovered_at": "2026-11-14T00:31:56.769447"
+      "discovered_at": "2026-11-14T08:13:41.470259"
     },
     {
       "seed_a": "Liquid Networks",
@@ -100,7 +100,7 @@
         "temporal"
       ],
       "strength": 6,
-      "discovered_at": "2026-11-14T00:31:56.769416"
+      "discovered_at": "2026-11-14T08:13:41.470213"
     },
     {
       "seed_a": "Liquid Networks",
@@ -115,7 +115,7 @@
         "temporal"
       ],
       "strength": 6,
-      "discovered_at": "2026-11-14T00:31:56.769438"
+      "discovered_at": "2026-11-14T08:13:41.470235"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -129,7 +129,7 @@
         "parallel"
       ],
       "strength": 5,
-      "discovered_at": "2026-11-14T00:31:56.769404"
+      "discovered_at": "2026-11-14T08:13:41.470201"
     },
     {
       "seed_a": "Non-Transformer Arch",
@@ -143,7 +143,7 @@
         "linear"
       ],
       "strength": 5,
-      "discovered_at": "2026-11-14T00:31:56.769486"
+      "discovered_at": "2026-11-14T08:13:41.470299"
     },
     {
       "seed_a": "Continual Learning",
@@ -157,7 +157,7 @@
         "networks"
       ],
       "strength": 5,
-      "discovered_at": "2026-11-14T00:31:56.769514"
+      "discovered_at": "2026-11-14T08:13:41.470325"
     }
   ],
   "total_seeds": 10

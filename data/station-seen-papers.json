@@ -76900,7 +76900,236 @@
         "svd"
       ],
       "first_seen_round": 526
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.17134v1",
+      "title": "Support-Constrained Offline Policy Improvement for Pediatric ECMO from Limited Clinical Data",
+      "arxiv_id": "2611.17134",
+      "tokens": [
+        "clinical",
+        "constrained",
+        "ecmo",
+        "improvement",
+        "limited",
+        "offline",
+        "pediatric",
+        "policy",
+        "support"
+      ],
+      "first_seen_round": 527
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.16913v1",
+      "title": "CADET: Construction of PCB Routing Instances with Executable Demonstrations",
+      "arxiv_id": "2611.16913",
+      "tokens": [
+        "cadet",
+        "construction",
+        "demonstrations",
+        "executable",
+        "instances",
+        "pcb",
+        "routing"
+      ],
+      "first_seen_round": 527
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.16678v1",
+      "title": "Edge-Gradient Augmentation under Reinforcement Learning for Temporal Graph",
+      "arxiv_id": "2611.16678",
+      "tokens": [
+        "augmentation",
+        "edge",
+        "gradient",
+        "graph",
+        "reinforcement",
+        "temporal"
+      ],
+      "first_seen_round": 527
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.16574v1",
+      "title": "HALight: Heterogeneous Multi-Agent Reinforcement Learning for Traffic Signal Control under Lane-Level Missing Observations",
+      "arxiv_id": "2611.16574",
+      "tokens": [
+        "agent",
+        "control",
+        "halight",
+        "heterogeneous",
+        "lane",
+        "level",
+        "missing",
+        "multi",
+        "observations",
+        "reinforcement",
+        "signal",
+        "traffic"
+      ],
+      "first_seen_round": 527
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.16929v1",
+      "title": "SPADE: Soft Prompts for Ai-text DEtection",
+      "arxiv_id": "2611.16929",
+      "tokens": [
+        "detection",
+        "prompts",
+        "soft",
+        "spade",
+        "text"
+      ],
+      "first_seen_round": 527
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.16895v1",
+      "title": "Human or Synthetic? What a Fixed Budget Buys for Post-Training",
+      "arxiv_id": "2611.16895",
+      "tokens": [
+        "budget",
+        "buys",
+        "fixed",
+        "human",
+        "post",
+        "synthetic",
+        "training"
+      ],
+      "first_seen_round": 527
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.16843v1",
+      "title": "Shortcuts or Memorisation? Revisiting Data Corruption in Natural Language Understanding with Large Language Models",
+      "arxiv_id": "2611.16843",
+      "tokens": [
+        "corruption",
+        "language",
+        "language",
+        "memorisation",
+        "natural",
+        "revisiting",
+        "shortcuts",
+        "understanding"
+      ],
+      "first_seen_round": 527
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.16714v1",
+      "title": "Towards Green Text Generation: Memory-Based Speculative Decoding",
+      "arxiv_id": "2611.16714",
+      "tokens": [
+        "decoding",
+        "generation",
+        "green",
+        "memory",
+        "speculative",
+        "text"
+      ],
+      "first_seen_round": 527
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.16704v1",
+      "title": "Forecasting Sales Delay through Time-aware Analysis of Sales Events in Textual Reports",
+      "arxiv_id": "2611.16704",
+      "tokens": [
+        "aware",
+        "delay",
+        "events",
+        "forecasting",
+        "reports",
+        "sales",
+        "sales",
+        "textual",
+        "time"
+      ],
+      "first_seen_round": 527
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.16662v1",
+      "title": "MuSeToM: Multi-Sensory Evaluation of Belief Revision with Textual Cues Across Six Senses",
+      "arxiv_id": "2611.16662",
+      "tokens": [
+        "belief",
+        "cues",
+        "evaluation",
+        "multi",
+        "musetom",
+        "revision",
+        "senses",
+        "sensory",
+        "six",
+        "textual"
+      ],
+      "first_seen_round": 527
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.17194v1",
+      "title": "eDMD: Endpoint Distribution Matching for Few-Step Diffusion Distillation",
+      "arxiv_id": "2611.17194",
+      "tokens": [
+        "diffusion",
+        "distillation",
+        "distribution",
+        "edmd",
+        "endpoint",
+        "matching",
+        "step"
+      ],
+      "first_seen_round": 527
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.16224v1",
+      "title": "Disentangled Embedding Optimization for Diffusion-Based Dataset Distillation",
+      "arxiv_id": "2611.16224",
+      "tokens": [
+        "dataset",
+        "diffusion",
+        "disentangled",
+        "distillation",
+        "embedding",
+        "optimization"
+      ],
+      "first_seen_round": 527
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.15760v1",
+      "title": "Image Deblending with Diffusion Models",
+      "arxiv_id": "2611.15760",
+      "tokens": [
+        "deblending",
+        "diffusion",
+        "image"
+      ],
+      "first_seen_round": 527
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.15420v1",
+      "title": "Learning Motion-Appearance Coupling Priors for Solving Video Inverse Problems",
+      "arxiv_id": "2611.15420",
+      "tokens": [
+        "appearance",
+        "coupling",
+        "inverse",
+        "motion",
+        "priors",
+        "problems",
+        "solving",
+        "video"
+      ],
+      "first_seen_round": 527
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.15287v1",
+      "title": "Track4D: Representing Dense 3D Tracking for Video Diffusion Models",
+      "arxiv_id": "2611.15287",
+      "tokens": [
+        "dense",
+        "diffusion",
+        "representing",
+        "track4d",
+        "tracking",
+        "video"
+      ],
+      "first_seen_round": 527
     }
   ],
-  "total_unique": 4828
+  "total_unique": 4843
 }
