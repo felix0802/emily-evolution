@@ -1,53 +1,6 @@
 {
   "sessions": [
     {
-      "timestamp": "2026-10-21T08:56:41.026337",
-      "arxiv_papers_count": 18,
-      "arxiv_top_keywords": [
-        "learning",
-        "retrieval",
-        "single",
-        "armed",
-        "recommendation",
-        "clinical",
-        "adaptive",
-        "attention",
-        "product",
-        "kronecker"
-      ],
-      "arxiv_strategies": [
-        "搜索: multi-query attention",
-        "搜索: geometric deep learning",
-        "搜索: knowledge distillation"
-      ],
-      "huggingface_models": 10,
-      "huggingface_tasks": [
-        "sentence-similarity",
-        "unknown",
-        "text-generation",
-        "text-ranking",
-        "feature-extraction"
-      ],
-      "ml_datasets": [
-        "Iris",
-        "Wine",
-        "Breast Cancer",
-        "Diabetes"
-      ],
-      "ml_total_tests": 22,
-      "github_trending_repos": 8,
-      "paperswithcode_papers": 8,
-      "evolution": {
-        "discovered": 23,
-        "adopted": 0,
-        "decisions": 0
-      },
-      "seed_watering": {
-        "seed_name": "Continual Learning",
-        "papers_found": 7
-      }
-    },
-    {
       "timestamp": "2026-10-21T14:44:18.478314",
       "arxiv_papers_count": 21,
       "arxiv_top_keywords": [
@@ -4699,12 +4652,59 @@
         "seed_name": "Few-Shot Learning",
         "papers_found": 3
       }
+    },
+    {
+      "timestamp": "2026-11-14T16:12:09.306391",
+      "arxiv_papers_count": 18,
+      "arxiv_top_keywords": [
+        "agent",
+        "learning",
+        "neural",
+        "search",
+        "cross",
+        "supervised",
+        "representation",
+        "human",
+        "agents",
+        "multi"
+      ],
+      "arxiv_strategies": [
+        "搜索: neural architecture",
+        "搜索: self-supervised learning",
+        "搜索: multi-agent system"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "automatic-speech-recognition",
+        "text-generation",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 17,
+        "adopted": 3,
+        "decisions": 3
+      },
+      "seed_watering": {
+        "seed_name": "Continual Learning",
+        "papers_found": 10
+      }
     }
   ],
   "total_sessions": 101,
-  "last_updated": "2026-11-14T08:13:41.452977",
+  "last_updated": "2026-11-14T16:12:09.306408",
   "evolution_summary": {
-    "total_adopted": 392,
+    "total_adopted": 395,
     "adopted_list": [
       "Knowledge Distillation",
       "World Models / Model-Based RL",
@@ -5097,7 +5097,10 @@
       "Prototypical Visual Imagination",
       "Generative Keyframing",
       "Neurosymbolic RL",
-      "Negative-Only Policy Optimization"
+      "Negative-Only Policy Optimization",
+      "Geometric feature-based facial expression recognition",
+      "Anchor-based comparative benchmarking",
+      "Geometric"
     ],
     "seeds": {
       "mamba": {
@@ -5132,8 +5135,8 @@
       },
       "continual-learning": {
         "name": "Continual Learning",
-        "watering": 90,
-        "papers": 159
+        "watering": 91,
+        "papers": 163
       },
       "moe": {
         "name": "Mixture of Experts",
@@ -5240,17 +5243,17 @@
       },
       "continual-learning": {
         "name": "Continual Learning",
-        "new_papers": 154,
+        "new_papers": 158,
         "keywords_matched": [
-          "lifelong",
-          "ewc",
-          "continual learning",
           "elastic weight",
-          "catastrophic forgetting"
+          "ewc",
+          "catastrophic forgetting",
+          "lifelong",
+          "continual learning"
         ],
-        "high_relevance_total": 43,
-        "avg_relevance_latest": 1.0,
-        "best_papers_count": 5
+        "high_relevance_total": 44,
+        "avg_relevance_latest": 1.5,
+        "best_papers_count": 6
       },
       "gnn": {
         "name": "Graph Neural Networks",
@@ -5297,6 +5300,6 @@
         "best_papers_count": 1
       }
     },
-    "last_evolution": "2026-11-14T08:13:41.456737"
+    "last_evolution": "2026-11-14T16:12:09.310676"
   }
 }

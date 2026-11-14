@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-14T08:13:41.470343",
+  "timestamp": "2026-11-14T16:12:09.323914",
   "connections": [
     {
       "seed_a": "Mamba (SSM)",
@@ -19,7 +19,7 @@
         "state"
       ],
       "strength": 13,
-      "discovered_at": "2026-11-14T08:13:41.470189"
+      "discovered_at": "2026-11-14T16:12:09.323767"
     },
     {
       "seed_a": "HTM",
@@ -36,7 +36,7 @@
         "neural"
       ],
       "strength": 11,
-      "discovered_at": "2026-11-14T08:13:41.470275"
+      "discovered_at": "2026-11-14T16:12:09.323835"
     },
     {
       "seed_a": "Non-Transformer Arch",
@@ -53,7 +53,7 @@
         "prediction"
       ],
       "strength": 11,
-      "discovered_at": "2026-11-14T08:13:41.470310"
+      "discovered_at": "2026-11-14T16:12:09.323880"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -69,7 +69,7 @@
         "temporal"
       ],
       "strength": 7,
-      "discovered_at": "2026-11-14T08:13:41.470208"
+      "discovered_at": "2026-11-14T16:12:09.323784"
     },
     {
       "seed_a": "HTM",
@@ -85,7 +85,7 @@
         "with"
       ],
       "strength": 7,
-      "discovered_at": "2026-11-14T08:13:41.470259"
+      "discovered_at": "2026-11-14T16:12:09.323819"
     },
     {
       "seed_a": "Liquid Networks",
@@ -100,7 +100,7 @@
         "temporal"
       ],
       "strength": 6,
-      "discovered_at": "2026-11-14T08:13:41.470213"
+      "discovered_at": "2026-11-14T16:12:09.323789"
     },
     {
       "seed_a": "Liquid Networks",
@@ -115,7 +115,7 @@
         "temporal"
       ],
       "strength": 6,
-      "discovered_at": "2026-11-14T08:13:41.470235"
+      "discovered_at": "2026-11-14T16:12:09.323811"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -129,35 +129,34 @@
         "parallel"
       ],
       "strength": 5,
-      "discovered_at": "2026-11-14T08:13:41.470201"
+      "discovered_at": "2026-11-14T16:12:09.323777"
     },
     {
-      "seed_a": "Non-Transformer Arch",
-      "seed_b": "Continual Learning",
-      "shared_keywords": [],
-      "shared_paper_concepts": [
-        "adaptive",
-        "beyond",
-        "bias",
-        "diagonal",
-        "linear"
-      ],
-      "strength": 5,
-      "discovered_at": "2026-11-14T08:13:41.470299"
-    },
-    {
-      "seed_a": "Continual Learning",
+      "seed_a": "Mixture of Experts",
       "seed_b": "Graph Neural Networks",
       "shared_keywords": [],
       "shared_paper_concepts": [
-        "classification",
-        "free",
-        "learning",
-        "linear",
-        "networks"
+        "aware",
+        "interpretable",
+        "models",
+        "multimodal",
+        "sparse"
       ],
       "strength": 5,
-      "discovered_at": "2026-11-14T08:13:41.470325"
+      "discovered_at": "2026-11-14T16:12:09.323905"
+    },
+    {
+      "seed_a": "Liquid Networks",
+      "seed_b": "Continual Learning",
+      "shared_keywords": [],
+      "shared_paper_concepts": [
+        "based",
+        "feature",
+        "learning",
+        "optimization"
+      ],
+      "strength": 4,
+      "discovered_at": "2026-11-14T16:12:09.323803"
     }
   ],
   "total_seeds": 10

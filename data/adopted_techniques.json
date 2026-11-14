@@ -5888,6 +5888,51 @@
         ],
         "decided_at": "2026-11-14T08:13:38.742254"
       }
+    },
+    {
+      "id": "llm-geometric-feature-based-facial",
+      "name": "Geometric feature-based facial expression recognition",
+      "adopted_at": "2026-11-14T16:12:06.485721",
+      "decision": {
+        "tech_id": "llm-geometric-feature-based-facial",
+        "tech_name": "Geometric feature-based facial expression recognition",
+        "action": "adopt",
+        "confidence": 0.85,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-11-14T16:12:06.482483"
+      }
+    },
+    {
+      "id": "llm-anchor-based-comparative-bench",
+      "name": "Anchor-based comparative benchmarking",
+      "adopted_at": "2026-11-14T16:12:06.485756",
+      "decision": {
+        "tech_id": "llm-anchor-based-comparative-bench",
+        "tech_name": "Anchor-based comparative benchmarking",
+        "action": "adopt",
+        "confidence": 0.8,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-11-14T16:12:06.482696"
+      }
+    },
+    {
+      "id": "auto-geometric",
+      "name": "Geometric",
+      "adopted_at": "2026-11-14T16:12:06.485778",
+      "decision": {
+        "tech_id": "auto-geometric",
+        "tech_name": "Geometric",
+        "action": "adopt",
+        "confidence": 0.35,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-11-14T16:12:06.482918"
+      }
     }
   ],
   "history": [
@@ -8242,6 +8287,24 @@
       "tech_id": "llm-negative-only-policy-optimizat",
       "tech_name": "Negative-Only Policy Optimization",
       "timestamp": "2026-11-14T08:13:38.745261"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-geometric-feature-based-facial",
+      "tech_name": "Geometric feature-based facial expression recognition",
+      "timestamp": "2026-11-14T16:12:06.485729"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-anchor-based-comparative-bench",
+      "tech_name": "Anchor-based comparative benchmarking",
+      "timestamp": "2026-11-14T16:12:06.485757"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "auto-geometric",
+      "tech_name": "Geometric",
+      "timestamp": "2026-11-14T16:12:06.485780"
     }
   ]
 }

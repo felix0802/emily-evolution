@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 896,
+  "_rotation_idx": 897,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 109,
@@ -5122,26 +5122,9 @@
   },
   "continual-learning": {
     "name": "Continual Learning",
-    "total_papers_found": 159,
-    "watering_count": 90,
+    "total_papers_found": 163,
+    "watering_count": 91,
     "history": [
-      {
-        "timestamp": "2026-08-17T12:17:41.672396",
-        "papers_found": 1,
-        "duplicates": 6,
-        "irrelevant_filtered": 3,
-        "avg_relevance": 1.0,
-        "high_relevance": 0,
-        "papers": [
-          {
-            "title": "Evaluating Agentic Learning Harness Capabilities Without Labels via the Scaling Hypothesis",
-            "summary": "Agentic \"Continual Learning Harnesses\", systems that pair an LLM with retrieval or memory to improve from feedback without retraining, have shown growing value in cybersecurity. But their value is conventionally measured by gains against labeled benchmarks, an approach that often fails in operationa",
-            "published": "2026-08-11",
-            "url": "http://arxiv.org/abs/2608.13608v1",
-            "seed_match_score": 1
-          }
-        ]
-      },
       {
         "timestamp": "2026-08-18T08:21:10.809965",
         "papers_found": 4,
@@ -6085,6 +6068,37 @@
             "seed_match_score": 1
           }
         ]
+      },
+      {
+        "timestamp": "2026-11-14T16:12:01.293257",
+        "papers_found": 4,
+        "duplicates": 6,
+        "irrelevant_filtered": 0,
+        "avg_relevance": 1.5,
+        "high_relevance": 1,
+        "papers": [
+          {
+            "title": "Maximizing Capacity Utilization of LoRA Adapters for Mitigating the Learning-Forgetting Trade-off",
+            "summary": "Low-Rank Adaptation (LoRA) often underperforms full fine-tuning, especially in heterogeneous and continual-learning settings in which substantial forgetting occurs. In general, it suffers from an undesirable learning-forgetting trade-off across diverse fine-tuning settings. We identify a potential c",
+            "published": "2026-11-12",
+            "url": "http://arxiv.org/abs/2611.17191v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Improved Elastic Weight Consolidation as an Optimization Constraint for Continual Learning",
+            "summary": "Elastic Weight Consolidation (EWC) is a widely used regularization-based technique for continual learning, protecting performance on old tasks with a quadratic penalty whose empirical Fisher is usually justified through probabilistic curvature. We instead introduce Continual Learning as an Optimizat",
+            "published": "2026-11-11",
+            "url": "http://arxiv.org/abs/2611.16039v1",
+            "seed_match_score": 3
+          },
+          {
+            "title": "Federated Class Incremental Learning: A Pseudo Feature Based Approach Without Exemplars",
+            "summary": "Federated learning often assumes that data is fixed in advance, which is unrealistic in many real-world scenarios where new data continuously arrives, causing catastrophic forgetting. To address this challenge, we propose FCLPF (Federated Class Incremental Learning with Pseudo Features), a method th",
+            "published": "2026-11-11",
+            "url": "http://arxiv.org/abs/2611.15025v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -6094,7 +6108,7 @@
       "ewc",
       "elastic weight"
     ],
-    "last_watered": "2026-11-11T17:31:24.429723"
+    "last_watered": "2026-11-14T16:12:01.293250"
   },
   "moe": {
     "name": "Mixture of Experts",
