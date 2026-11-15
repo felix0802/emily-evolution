@@ -6008,6 +6008,36 @@
         ],
         "decided_at": "2026-11-15T16:40:51.763423"
       }
+    },
+    {
+      "id": "llm-半监督/自监督学习与-mle-智能体结合",
+      "name": "半监督/自监督学习与 MLE 智能体结合",
+      "adopted_at": "2026-11-15T22:11:26.036947",
+      "decision": {
+        "tech_id": "llm-半监督/自监督学习与-mle-智能体结合",
+        "tech_name": "半监督/自监督学习与 MLE 智能体结合",
+        "action": "adopt",
+        "confidence": 0.85,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-11-15T22:11:26.033496"
+      }
+    },
+    {
+      "id": "llm-前瞻性内存估值（prospective-valuation）",
+      "name": "前瞻性内存估值（Prospective Valuation）",
+      "adopted_at": "2026-11-15T22:11:26.036980",
+      "decision": {
+        "tech_id": "llm-前瞻性内存估值（prospective-valuation）",
+        "tech_name": "前瞻性内存估值（Prospective Valuation）",
+        "action": "adopt",
+        "confidence": 0.8,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-11-15T22:11:26.033720"
+      }
     }
   ],
   "history": [
@@ -8410,6 +8440,18 @@
       "tech_id": "llm-重排序与后期交互（re-ranking-&-late-int",
       "tech_name": "重排序与后期交互（Re-ranking & Late Interaction）",
       "timestamp": "2026-11-15T16:40:51.766684"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-半监督/自监督学习与-mle-智能体结合",
+      "tech_name": "半监督/自监督学习与 MLE 智能体结合",
+      "timestamp": "2026-11-15T22:11:26.036952"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-前瞻性内存估值（prospective-valuation）",
+      "tech_name": "前瞻性内存估值（Prospective Valuation）",
+      "timestamp": "2026-11-15T22:11:26.036981"
     }
   ]
 }
