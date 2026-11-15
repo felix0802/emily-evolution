@@ -1,53 +1,6 @@
 {
   "sessions": [
     {
-      "timestamp": "2026-10-21T22:51:34.907133",
-      "arxiv_papers_count": 18,
-      "arxiv_top_keywords": [
-        "diffusion",
-        "learning",
-        "action",
-        "multi",
-        "reasoning",
-        "dexterous",
-        "human",
-        "skills",
-        "finger",
-        "policy"
-      ],
-      "arxiv_strategies": [
-        "搜索: reinforcement learning",
-        "搜索: large language model",
-        "搜索: diffusion model"
-      ],
-      "huggingface_models": 10,
-      "huggingface_tasks": [
-        "sentence-similarity",
-        "unknown",
-        "text-generation",
-        "text-ranking",
-        "feature-extraction"
-      ],
-      "ml_datasets": [
-        "Iris",
-        "Wine",
-        "Breast Cancer",
-        "Diabetes"
-      ],
-      "ml_total_tests": 22,
-      "github_trending_repos": 8,
-      "paperswithcode_papers": 8,
-      "evolution": {
-        "discovered": 12,
-        "adopted": 2,
-        "decisions": 2
-      },
-      "seed_watering": {
-        "seed_name": "Graph Neural Networks",
-        "papers_found": 3
-      }
-    },
-    {
       "timestamp": "2026-10-22T02:09:36.037693",
       "arxiv_papers_count": 18,
       "arxiv_top_keywords": [
@@ -4699,12 +4652,59 @@
         "seed_name": "KV Cache Optimization",
         "papers_found": 5
       }
+    },
+    {
+      "timestamp": "2026-11-15T08:32:50.721738",
+      "arxiv_papers_count": 17,
+      "arxiv_top_keywords": [
+        "speculative",
+        "decoding",
+        "attention",
+        "llm",
+        "cache",
+        "real",
+        "graph",
+        "gnns",
+        "tokens",
+        "text"
+      ],
+      "arxiv_strategies": [
+        "搜索: kv cache LLM",
+        "搜索: graph neural network recent",
+        "搜索: speculative decoding"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "text-generation",
+        "automatic-speech-recognition",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 19,
+        "adopted": 2,
+        "decisions": 2
+      },
+      "seed_watering": {
+        "seed_name": "Graph Neural Networks",
+        "papers_found": 7
+      }
     }
   ],
   "total_sessions": 101,
-  "last_updated": "2026-11-15T01:24:23.877289",
+  "last_updated": "2026-11-15T08:32:50.721752",
   "evolution_summary": {
-    "total_adopted": 397,
+    "total_adopted": 399,
     "adopted_list": [
       "Knowledge Distillation",
       "World Models / Model-Based RL",
@@ -5102,7 +5102,9 @@
       "Anchor-based comparative benchmarking",
       "Geometric",
       "动态传感器关系图",
-      "线性递归（Linear Recurrences）"
+      "线性递归（Linear Recurrences）",
+      "推测解码（Speculative Decoding）",
+      "KV缓存翻译"
     ],
     "seeds": {
       "mamba": {
@@ -5152,8 +5154,8 @@
       },
       "gnn": {
         "name": "Graph Neural Networks",
-        "watering": 88,
-        "papers": 171
+        "watering": 89,
+        "papers": 173
       }
     },
     "seed_metrics": {
@@ -5259,18 +5261,18 @@
       },
       "gnn": {
         "name": "Graph Neural Networks",
-        "new_papers": 171,
+        "new_papers": 173,
         "keywords_matched": [
-          "message passing",
           "graph neural",
+          "graph attention",
+          "gnn",
+          "message passing",
           "geometric",
           "graph transformer",
-          "gnn",
-          "graph attention",
           "node embedding"
         ],
         "high_relevance_total": 81,
-        "avg_relevance_latest": 1.33,
+        "avg_relevance_latest": 1.0,
         "best_papers_count": 10
       },
       "moe": {
@@ -5302,6 +5304,6 @@
         "best_papers_count": 1
       }
     },
-    "last_evolution": "2026-11-15T01:24:23.880392"
+    "last_evolution": "2026-11-15T08:32:50.723859"
   }
 }

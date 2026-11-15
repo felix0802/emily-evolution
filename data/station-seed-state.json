@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 899,
+  "_rotation_idx": 900,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 109,
@@ -8069,40 +8069,9 @@
   },
   "gnn": {
     "name": "Graph Neural Networks",
-    "total_papers_found": 171,
-    "watering_count": 88,
+    "total_papers_found": 173,
+    "watering_count": 89,
     "history": [
-      {
-        "timestamp": "2026-08-17T18:19:48.034179",
-        "papers_found": 3,
-        "duplicates": 3,
-        "irrelevant_filtered": 4,
-        "avg_relevance": 2.0,
-        "high_relevance": 2,
-        "papers": [
-          {
-            "title": "Structure-Guided Spatiotemporal Attention Graph Neural Network for Traffic Flow Prediction",
-            "summary": "Deep spatiotemporal models integrating graph convolutions and attention mechanisms have demonstrated excellent performance in network-level traffic flow prediction, owing to their exceptional ability to capture complex spatiotemporal dependencies. Despite their predictive success, deployment of such",
-            "published": "2026-08-14",
-            "url": "http://arxiv.org/abs/2608.14177v1",
-            "seed_match_score": 1
-          },
-          {
-            "title": "Overcoming Shortcut Learning in Graph Neural Networks through Active Explanation Guidance",
-            "summary": "Graph Neural Networks (GNNs) can solve prediction tasks by unintentionally exploiting shortcuts---that is, edges, nodes, and features that correlate with but are not causal for the prediction---which compromise their reliability in out-of-distribution tasks. We introduce XIGL, an architecture-agnost",
-            "published": "2026-08-14",
-            "url": "http://arxiv.org/abs/2608.14121v1",
-            "seed_match_score": 2
-          },
-          {
-            "title": "HI-MeshGraphNets: Efficient and Accurate Mesh-based Physics Learning with Hierarchical Multi-scale Graph Neural Networks",
-            "summary": "Machine-learned physical surrogate models have become promising alternatives to mesh-based numerical solvers. Among them, graph neural networks (GNNs) are well suited for representing simulation meshes and learning nodal state evolution through message passing. However, conventional flat message pas",
-            "published": "2026-08-13",
-            "url": "http://arxiv.org/abs/2608.13827v1",
-            "seed_match_score": 3
-          }
-        ]
-      },
       {
         "timestamp": "2026-08-18T14:20:17.941308",
         "papers_found": 7,
@@ -8980,6 +8949,30 @@
             "seed_match_score": 1
           }
         ]
+      },
+      {
+        "timestamp": "2026-11-15T08:32:42.903898",
+        "papers_found": 2,
+        "duplicates": 5,
+        "irrelevant_filtered": 3,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "MALNISI-Infused Graph Construction and Weighted Contrastive Loss based GAT for Unsupervised Representation Learning in HSI",
+            "summary": "Hyperspectral images (HSI) possess discriminating spectral characteristics with respect to land utilization due to high-dimensional information. Recently, unsupervised representation learning using graph neural networks has unveiled these utilization-specific complex spectral relations. This article",
+            "published": "2026-11-12",
+            "url": "http://arxiv.org/abs/2611.17199v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Imputing Missing Near-Surface Air Temperature using Graph Attention Networks with Distance-Aware Edge Features",
+            "summary": "We introduce a graph attention network for reconstructing near-surface air temperature fields from incomplete observations. The model represents each grid cell as a node connected to its $k$ nearest neighbors, with attention weights that depend on node features, distance, and land-ocean transitions.",
+            "published": "2026-11-11",
+            "url": "http://arxiv.org/abs/2611.15598v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -8991,6 +8984,6 @@
       "node embedding",
       "graph transformer"
     ],
-    "last_watered": "2026-11-12T14:06:32.160439"
+    "last_watered": "2026-11-15T08:32:42.903894"
   }
 }

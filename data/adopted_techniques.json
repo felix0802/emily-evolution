@@ -5963,6 +5963,36 @@
         ],
         "decided_at": "2026-11-15T01:24:23.865042"
       }
+    },
+    {
+      "id": "llm-推测解码（speculative-decoding）",
+      "name": "推测解码（Speculative Decoding）",
+      "adopted_at": "2026-11-15T08:32:47.979187",
+      "decision": {
+        "tech_id": "llm-推测解码（speculative-decoding）",
+        "tech_name": "推测解码（Speculative Decoding）",
+        "action": "adopt",
+        "confidence": 0.9,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-11-15T08:32:47.976630"
+      }
+    },
+    {
+      "id": "llm-kv缓存翻译",
+      "name": "KV缓存翻译",
+      "adopted_at": "2026-11-15T08:32:47.979209",
+      "decision": {
+        "tech_id": "llm-kv缓存翻译",
+        "tech_name": "KV缓存翻译",
+        "action": "adopt",
+        "confidence": 0.85,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-11-15T08:32:47.976872"
+      }
     }
   ],
   "history": [
@@ -8347,6 +8377,18 @@
       "tech_id": "llm-线性递归（linear-recurrences）",
       "tech_name": "线性递归（Linear Recurrences）",
       "timestamp": "2026-11-15T01:24:23.867587"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-推测解码（speculative-decoding）",
+      "tech_name": "推测解码（Speculative Decoding）",
+      "timestamp": "2026-11-15T08:32:47.979191"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-kv缓存翻译",
+      "tech_name": "KV缓存翻译",
+      "timestamp": "2026-11-15T08:32:47.979210"
     }
   ]
 }
