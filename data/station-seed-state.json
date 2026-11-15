@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 898,
+  "_rotation_idx": 899,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 109,
@@ -7098,26 +7098,9 @@
   },
   "kv-cache": {
     "name": "KV Cache Optimization",
-    "total_papers_found": 139,
-    "watering_count": 87,
+    "total_papers_found": 141,
+    "watering_count": 88,
     "history": [
-      {
-        "timestamp": "2026-08-17T16:12:38.624193",
-        "papers_found": 1,
-        "duplicates": 3,
-        "irrelevant_filtered": 6,
-        "avg_relevance": 1.0,
-        "high_relevance": 0,
-        "papers": [
-          {
-            "title": "KV Cache Compression Through the Lens of Transform Coding",
-            "summary": "The key-value (KV) cache stores information from past tokens and is a major memory bottleneck in long-context inference. Existing quantization methods address this bottleneck by representing the KV cache uniformly with lower-precision data types and designing quantization schemes to minimize reconst",
-            "published": "2026-08-14",
-            "url": "http://arxiv.org/abs/2608.14191v1",
-            "seed_match_score": 1
-          }
-        ]
-      },
       {
         "timestamp": "2026-08-18T12:19:28.080451",
         "papers_found": 6,
@@ -8047,6 +8030,30 @@
             "seed_match_score": 1
           }
         ]
+      },
+      {
+        "timestamp": "2026-11-15T01:24:18.722768",
+        "papers_found": 2,
+        "duplicates": 3,
+        "irrelevant_filtered": 5,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "TraceKV: Policy-Preserving Low-Rank KV Cache Compression for Reasoning Vision-Language Models",
+            "summary": "Reasoning vision-language models (VLMs) impose substantial KV cache demands from both large multimodal contexts and growing reasoning traces. Low-rank KV compression has emerged as a promising paradigm that stores low-dimensional latents of KV states and can be combined with quantization. However, e",
+            "published": "2026-11-11",
+            "url": "http://arxiv.org/abs/2611.15569v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "AutoAssumption: Searching over Assumptions Discovers ML-Systems Algorithms",
+            "summary": "Many advances in ML systems came from breaking an assumption that earlier methods took for granted: speculative decoding dropped the assumption that a model needs one forward pass per token. Yet algorithms rarely state their assumptions, so experts and discovery harnesses search over programs, where",
+            "published": "2026-11-10",
+            "url": "http://arxiv.org/abs/2611.14844v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -8058,7 +8065,7 @@
       "flash attention",
       "speculative decoding"
     ],
-    "last_watered": "2026-11-12T04:37:19.394328"
+    "last_watered": "2026-11-15T01:24:18.722764"
   },
   "gnn": {
     "name": "Graph Neural Networks",

@@ -77611,7 +77611,100 @@
         "training"
       ],
       "first_seen_round": 529
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.16514v1",
+      "title": "Learning Temporal Dynamics with Derivative Representations for Time Series Forecasting",
+      "arxiv_id": "2611.16514",
+      "tokens": [
+        "derivative",
+        "dynamics",
+        "forecasting",
+        "representations",
+        "series",
+        "temporal",
+        "time"
+      ],
+      "first_seen_round": 530
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.16172v1",
+      "title": "Self-Supervised Attention-Based Virtual Metrology for CMP MRR Prediction",
+      "arxiv_id": "2611.16172",
+      "tokens": [
+        "attention",
+        "cmp",
+        "metrology",
+        "mrr",
+        "prediction",
+        "self",
+        "supervised",
+        "virtual"
+      ],
+      "first_seen_round": 530
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.15073v1",
+      "title": "When Does Causality Help in Multivariate Time-Series Anomaly Detection?",
+      "arxiv_id": "2611.15073",
+      "tokens": [
+        "anomaly",
+        "causality",
+        "detection",
+        "help",
+        "multivariate",
+        "series",
+        "time"
+      ],
+      "first_seen_round": 530
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.14776v1",
+      "title": "SlipStream: Enabling HBF for GPU Systems by Mitigating the Latency and SRAM Overheads",
+      "arxiv_id": "2611.14776",
+      "tokens": [
+        "enabling",
+        "gpu",
+        "hbf",
+        "latency",
+        "mitigating",
+        "overheads",
+        "slipstream",
+        "sram"
+      ],
+      "first_seen_round": 530
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.15569v1",
+      "title": "TraceKV: Policy-Preserving Low-Rank KV Cache Compression for Reasoning Vision-Language Models",
+      "arxiv_id": "2611.15569",
+      "tokens": [
+        "cache",
+        "compression",
+        "language",
+        "low",
+        "policy",
+        "preserving",
+        "rank",
+        "reasoning",
+        "tracekv",
+        "vision"
+      ],
+      "first_seen_round": 530
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.14844v1",
+      "title": "AutoAssumption: Searching over Assumptions Discovers ML-Systems Algorithms",
+      "arxiv_id": "2611.14844",
+      "tokens": [
+        "algorithms",
+        "assumptions",
+        "autoassumption",
+        "discovers",
+        "searching"
+      ],
+      "first_seen_round": 530
     }
   ],
-  "total_unique": 4873
+  "total_unique": 4879
 }
