@@ -5993,6 +5993,21 @@
         ],
         "decided_at": "2026-11-15T08:32:47.976872"
       }
+    },
+    {
+      "id": "llm-重排序与后期交互（re-ranking-&-late-int",
+      "name": "重排序与后期交互（Re-ranking & Late Interaction）",
+      "adopted_at": "2026-11-15T16:40:51.766679",
+      "decision": {
+        "tech_id": "llm-重排序与后期交互（re-ranking-&-late-int",
+        "tech_name": "重排序与后期交互（Re-ranking & Late Interaction）",
+        "action": "adopt",
+        "confidence": 0.8,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-11-15T16:40:51.763423"
+      }
     }
   ],
   "history": [
@@ -8389,6 +8404,12 @@
       "tech_id": "llm-kv缓存翻译",
       "tech_name": "KV缓存翻译",
       "timestamp": "2026-11-15T08:32:47.979210"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-重排序与后期交互（re-ranking-&-late-int",
+      "tech_name": "重排序与后期交互（Re-ranking & Late Interaction）",
+      "timestamp": "2026-11-15T16:40:51.766684"
     }
   ]
 }
