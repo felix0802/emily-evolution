@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-16T03:28:30.965482",
+  "timestamp": "2026-11-16T12:09:53.320625",
   "connections": [
     {
       "seed_a": "Non-Transformer Arch",
@@ -16,7 +16,7 @@
         "prediction"
       ],
       "strength": 13,
-      "discovered_at": "2026-11-16T03:28:30.965438"
+      "discovered_at": "2026-11-16T12:09:53.320586"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -35,7 +35,7 @@
         "state"
       ],
       "strength": 11,
-      "discovered_at": "2026-11-16T03:28:30.965335"
+      "discovered_at": "2026-11-16T12:09:53.320485"
     },
     {
       "seed_a": "HTM",
@@ -51,7 +51,7 @@
         "temporal"
       ],
       "strength": 7,
-      "discovered_at": "2026-11-16T03:28:30.965402"
+      "discovered_at": "2026-11-16T12:09:53.320552"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -65,7 +65,7 @@
         "recurrent"
       ],
       "strength": 5,
-      "discovered_at": "2026-11-16T03:28:30.965348"
+      "discovered_at": "2026-11-16T12:09:53.320498"
     },
     {
       "seed_a": "Liquid Networks",
@@ -79,7 +79,7 @@
         "temporal"
       ],
       "strength": 5,
-      "discovered_at": "2026-11-16T03:28:30.965378"
+      "discovered_at": "2026-11-16T12:09:53.320528"
     },
     {
       "seed_a": "Mixture of Experts",
@@ -93,7 +93,7 @@
         "without"
       ],
       "strength": 5,
-      "discovered_at": "2026-11-16T03:28:30.965462"
+      "discovered_at": "2026-11-16T12:09:53.320610"
     },
     {
       "seed_a": "Spiking Neural Networks",
@@ -106,7 +106,7 @@
         "network"
       ],
       "strength": 4,
-      "discovered_at": "2026-11-16T03:28:30.965406"
+      "discovered_at": "2026-11-16T12:09:53.320556"
     },
     {
       "seed_a": "Spiking Neural Networks",
@@ -119,7 +119,7 @@
         "neural"
       ],
       "strength": 4,
-      "discovered_at": "2026-11-16T03:28:30.965420"
+      "discovered_at": "2026-11-16T12:09:53.320569"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -131,7 +131,7 @@
         "parallel"
       ],
       "strength": 3,
-      "discovered_at": "2026-11-16T03:28:30.965344"
+      "discovered_at": "2026-11-16T12:09:53.320494"
     },
     {
       "seed_a": "Liquid Networks",
@@ -143,7 +143,7 @@
         "temporal"
       ],
       "strength": 3,
-      "discovered_at": "2026-11-16T03:28:30.965356"
+      "discovered_at": "2026-11-16T12:09:53.320505"
     }
   ],
   "total_seeds": 10

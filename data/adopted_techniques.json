@@ -6068,6 +6068,21 @@
         ],
         "decided_at": "2026-11-16T03:28:26.910801"
       }
+    },
+    {
+      "id": "llm-数值稳定的散度计算（numerically-stable-d",
+      "name": "数值稳定的散度计算（Numerically Stable Divergence）",
+      "adopted_at": "2026-11-16T12:09:53.289447",
+      "decision": {
+        "tech_id": "llm-数值稳定的散度计算（numerically-stable-d",
+        "tech_name": "数值稳定的散度计算（Numerically Stable Divergence）",
+        "action": "adopt",
+        "confidence": 0.8,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-11-16T12:09:53.285726"
+      }
     }
   ],
   "history": [
@@ -8494,6 +8509,12 @@
       "tech_id": "llm-ambiguity-aware-vqa",
       "tech_name": "Ambiguity-aware VQA",
       "timestamp": "2026-11-16T03:28:26.913884"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-数值稳定的散度计算（numerically-stable-d",
+      "tech_name": "数值稳定的散度计算（Numerically Stable Divergence）",
+      "timestamp": "2026-11-16T12:09:53.289457"
     }
   ]
 }

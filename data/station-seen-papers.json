@@ -78317,7 +78317,245 @@
         "online"
       ],
       "first_seen_round": 534
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.18562v1",
+      "title": "Training Reasoning Models in Simulation to Natively Use Real Robots",
+      "arxiv_id": "2611.18562",
+      "tokens": [
+        "natively",
+        "real",
+        "reasoning",
+        "robots",
+        "simulation",
+        "training",
+        "use"
+      ],
+      "first_seen_round": 535
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.18533v1",
+      "title": "ModHarness-RL: Recasting Harnesses as Learnable and Evolving Programs for Agentic RL",
+      "arxiv_id": "2611.18533",
+      "tokens": [
+        "agentic",
+        "evolving",
+        "harnesses",
+        "learnable",
+        "modharness",
+        "programs",
+        "recasting"
+      ],
+      "first_seen_round": 535
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.18511v1",
+      "title": "On numerical issues of divergences between nearly equal distributions",
+      "arxiv_id": "2611.18511",
+      "tokens": [
+        "distributions",
+        "divergences",
+        "equal",
+        "issues",
+        "nearly",
+        "numerical"
+      ],
+      "first_seen_round": 535
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.18043v1",
+      "title": "Enrichment-Oriented Virtual Screening of Perovskite Solar Cells through Reinforcement Learning",
+      "arxiv_id": "2611.18043",
+      "tokens": [
+        "cells",
+        "enrichment",
+        "oriented",
+        "perovskite",
+        "reinforcement",
+        "screening",
+        "solar",
+        "virtual"
+      ],
+      "first_seen_round": 535
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.18035v1",
+      "title": "RL$^{\\mathrm{RT}}$: On-Device Reinforcement Learning Runtime",
+      "arxiv_id": "2611.18035",
+      "tokens": [
+        "device",
+        "mathrm",
+        "reinforcement",
+        "runtime"
+      ],
+      "first_seen_round": 535
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.17924v1",
+      "title": "TIDE: Reclaiming Lost Performance In On-Policy Reinforcement Learning",
+      "arxiv_id": "2611.17924",
+      "tokens": [
+        "lost",
+        "performance",
+        "policy",
+        "reclaiming",
+        "reinforcement",
+        "tide"
+      ],
+      "first_seen_round": 535
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.18514v1",
+      "title": "Can Mechanistic Interpretability Help Explain LLM Agent Failures? A Case Study on Web Element Hallucination",
+      "arxiv_id": "2611.18514",
+      "tokens": [
+        "agent",
+        "case",
+        "element",
+        "explain",
+        "failures",
+        "hallucination",
+        "help",
+        "interpretability",
+        "llm",
+        "mechanistic",
+        "web"
+      ],
+      "first_seen_round": 535
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.18513v1",
+      "title": "MeReader: An Offline, Privacy-Preserving, Progress-Aware AI Assistant for Narrative eBook Reading",
+      "arxiv_id": "2611.18513",
+      "tokens": [
+        "assistant",
+        "aware",
+        "ebook",
+        "mereader",
+        "narrative",
+        "offline",
+        "preserving",
+        "privacy",
+        "progress",
+        "reading"
+      ],
+      "first_seen_round": 535
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.18506v1",
+      "title": "Agentic induction of common data elements and information extraction from sarcoma case report abstracts",
+      "arxiv_id": "2611.18506",
+      "tokens": [
+        "abstracts",
+        "agentic",
+        "case",
+        "common",
+        "elements",
+        "extraction",
+        "induction",
+        "information",
+        "report",
+        "sarcoma"
+      ],
+      "first_seen_round": 535
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.18157v1",
+      "title": "A Multi-Layered AI Pipeline for BPMN Generation from Natural Language",
+      "arxiv_id": "2611.18157",
+      "tokens": [
+        "bpmn",
+        "generation",
+        "language",
+        "layered",
+        "multi",
+        "natural",
+        "pipeline"
+      ],
+      "first_seen_round": 535
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.18550v1",
+      "title": "Restoring Diversity in Distilled Image and Video Generators by Probing Activations",
+      "arxiv_id": "2611.18550",
+      "tokens": [
+        "activations",
+        "distilled",
+        "diversity",
+        "generators",
+        "image",
+        "probing",
+        "restoring",
+        "video"
+      ],
+      "first_seen_round": 535
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.18549v1",
+      "title": "JVT: Just Video Transformer makes pixel-space video diffusion simple",
+      "arxiv_id": "2611.18549",
+      "tokens": [
+        "diffusion",
+        "jvt",
+        "makes",
+        "pixel",
+        "simple",
+        "space",
+        "transformer",
+        "video",
+        "video"
+      ],
+      "first_seen_round": 535
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.18078v1",
+      "title": "TelePhysica: Agentic Reconstruction of Physically Interactive Scenes",
+      "arxiv_id": "2611.18078",
+      "tokens": [
+        "agentic",
+        "interactive",
+        "physically",
+        "reconstruction",
+        "scenes",
+        "telephysica"
+      ],
+      "first_seen_round": 535
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.18053v1",
+      "title": "InfiHall-Bench: A Benchmark for Hallucination Evaluation in Autoregressive Text-to-Image Generation",
+      "arxiv_id": "2611.18053",
+      "tokens": [
+        "autoregressive",
+        "bench",
+        "benchmark",
+        "evaluation",
+        "generation",
+        "hallucination",
+        "image",
+        "infihall",
+        "text"
+      ],
+      "first_seen_round": 535
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.18024v1",
+      "title": "JaRS: Contrast-Free Localization of Memorized Regions in Diffusion Models via Jacobian Row Sums",
+      "arxiv_id": "2611.18024",
+      "tokens": [
+        "contrast",
+        "diffusion",
+        "free",
+        "jacobian",
+        "jars",
+        "localization",
+        "memorized",
+        "regions",
+        "row",
+        "sums"
+      ],
+      "first_seen_round": 535
     }
   ],
-  "total_unique": 4915
+  "total_unique": 4930
 }
