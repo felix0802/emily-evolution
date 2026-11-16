@@ -6038,6 +6038,36 @@
         ],
         "decided_at": "2026-11-15T22:11:26.033720"
       }
+    },
+    {
+      "id": "llm-jepa-(joint-embedding-predicti",
+      "name": "JEPA (Joint Embedding Predictive Architecture)",
+      "adopted_at": "2026-11-16T03:28:26.913849",
+      "decision": {
+        "tech_id": "llm-jepa-(joint-embedding-predicti",
+        "tech_name": "JEPA (Joint Embedding Predictive Architecture)",
+        "action": "adopt",
+        "confidence": 0.9,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-11-16T03:28:26.910584"
+      }
+    },
+    {
+      "id": "llm-ambiguity-aware-vqa",
+      "name": "Ambiguity-aware VQA",
+      "adopted_at": "2026-11-16T03:28:26.913883",
+      "decision": {
+        "tech_id": "llm-ambiguity-aware-vqa",
+        "tech_name": "Ambiguity-aware VQA",
+        "action": "adopt",
+        "confidence": 0.85,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-11-16T03:28:26.910801"
+      }
     }
   ],
   "history": [
@@ -8452,6 +8482,18 @@
       "tech_id": "llm-前瞻性内存估值（prospective-valuation）",
       "tech_name": "前瞻性内存估值（Prospective Valuation）",
       "timestamp": "2026-11-15T22:11:26.036981"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-jepa-(joint-embedding-predicti",
+      "tech_name": "JEPA (Joint Embedding Predictive Architecture)",
+      "timestamp": "2026-11-16T03:28:26.913857"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-ambiguity-aware-vqa",
+      "tech_name": "Ambiguity-aware VQA",
+      "timestamp": "2026-11-16T03:28:26.913884"
     }
   ]
 }
