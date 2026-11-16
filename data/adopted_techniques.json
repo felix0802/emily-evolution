@@ -6083,6 +6083,21 @@
         ],
         "decided_at": "2026-11-16T12:09:53.285726"
       }
+    },
+    {
+      "id": "llm-几何特征面部表情识别",
+      "name": "几何特征面部表情识别",
+      "adopted_at": "2026-11-16T23:05:26.196313",
+      "decision": {
+        "tech_id": "llm-几何特征面部表情识别",
+        "tech_name": "几何特征面部表情识别",
+        "action": "adopt",
+        "confidence": 0.85,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-11-16T23:05:26.193123"
+      }
     }
   ],
   "history": [
@@ -8515,6 +8530,12 @@
       "tech_id": "llm-数值稳定的散度计算（numerically-stable-d",
       "tech_name": "数值稳定的散度计算（Numerically Stable Divergence）",
       "timestamp": "2026-11-16T12:09:53.289457"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-几何特征面部表情识别",
+      "tech_name": "几何特征面部表情识别",
+      "timestamp": "2026-11-16T23:05:26.196321"
     }
   ]
 }
