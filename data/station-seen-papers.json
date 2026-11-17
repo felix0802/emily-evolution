@@ -78894,7 +78894,306 @@
         "pinet"
       ],
       "first_seen_round": 537
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.21562v1",
+      "title": "Severe but Harmless: Stress-Testing Shift Severity for Frozen Time-Series Forecasters",
+      "arxiv_id": "2611.21562",
+      "tokens": [
+        "forecasters",
+        "frozen",
+        "harmless",
+        "series",
+        "severe",
+        "severity",
+        "shift",
+        "stress",
+        "testing",
+        "time"
+      ],
+      "first_seen_round": 538
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.21552v1",
+      "title": "Benchmarking memory and nonlinear processing capacity of quantum recurrent neural networks for time series prediction",
+      "arxiv_id": "2611.21552",
+      "tokens": [
+        "benchmarking",
+        "capacity",
+        "memory",
+        "neural",
+        "nonlinear",
+        "prediction",
+        "processing",
+        "quantum",
+        "recurrent",
+        "series",
+        "time"
+      ],
+      "first_seen_round": 538
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.21319v1",
+      "title": "Wavelet-Energy-Driven Dynamic Patching for Time Series Forecasting",
+      "arxiv_id": "2611.21319",
+      "tokens": [
+        "driven",
+        "dynamic",
+        "energy",
+        "forecasting",
+        "patching",
+        "series",
+        "time",
+        "wavelet"
+      ],
+      "first_seen_round": 538
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.21267v1",
+      "title": "Conformal Expert Pools: Training-Free Probabilistic Time-Series Forecasting Beyond Seasonality",
+      "arxiv_id": "2611.21267",
+      "tokens": [
+        "conformal",
+        "expert",
+        "forecasting",
+        "free",
+        "pools",
+        "probabilistic",
+        "seasonality",
+        "series",
+        "time",
+        "training"
+      ],
+      "first_seen_round": 538
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.21178v1",
+      "title": "TRACK: Tool-Augmented Reasoning over Time Series for Fault Diagnosis in Power Management System",
+      "arxiv_id": "2611.21178",
+      "tokens": [
+        "augmented",
+        "diagnosis",
+        "fault",
+        "management",
+        "power",
+        "reasoning",
+        "series",
+        "time",
+        "tool",
+        "track"
+      ],
+      "first_seen_round": 538
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.20991v1",
+      "title": "FH-Sampling: Frequency-aware Hypergraph-driven Oversampling for Imbalanced Time-Series Classification",
+      "arxiv_id": "2611.20991",
+      "tokens": [
+        "aware",
+        "classification",
+        "driven",
+        "frequency",
+        "hypergraph",
+        "imbalanced",
+        "oversampling",
+        "sampling",
+        "series",
+        "time"
+      ],
+      "first_seen_round": 538
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.20334v1",
+      "title": "Residual-Tail-Informed Flow Matching for Time Series Anomaly Detection",
+      "arxiv_id": "2611.20334",
+      "tokens": [
+        "anomaly",
+        "detection",
+        "flow",
+        "informed",
+        "matching",
+        "residual",
+        "series",
+        "tail",
+        "time"
+      ],
+      "first_seen_round": 538
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.19109v1",
+      "title": "ST-GAT: A Leakage-Free Spatio-Temporal Graph Attention Framework for Robust Network Intrusion Detection",
+      "arxiv_id": "2611.19109",
+      "tokens": [
+        "attention",
+        "detection",
+        "free",
+        "gat",
+        "graph",
+        "intrusion",
+        "leakage",
+        "robust",
+        "spatio",
+        "temporal"
+      ],
+      "first_seen_round": 538
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.20767v1",
+      "title": "UNITE: Consolidating Embodied VLM Specialists via Shared-Anchor One-Bit Factorization",
+      "arxiv_id": "2611.20767",
+      "tokens": [
+        "anchor",
+        "bit",
+        "consolidating",
+        "embodied",
+        "factorization",
+        "shared",
+        "specialists",
+        "unite",
+        "vlm"
+      ],
+      "first_seen_round": 538
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.20663v1",
+      "title": "ParGLU: Partial Gating Improves Language Modeling in MoE Transformers",
+      "arxiv_id": "2611.20663",
+      "tokens": [
+        "gating",
+        "improves",
+        "language",
+        "modeling",
+        "moe",
+        "parglu",
+        "partial",
+        "transformers"
+      ],
+      "first_seen_round": 538
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.20419v1",
+      "title": "Reasoning Again with a Quarter of the Experts: Retry First, Then Train",
+      "arxiv_id": "2611.20419",
+      "tokens": [
+        "again",
+        "experts",
+        "quarter",
+        "reasoning",
+        "retry",
+        "train"
+      ],
+      "first_seen_round": 538
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.20119v1",
+      "title": "CECAR: Cache & Expert Co-Aware Routing Accelerates On-Device Inference of MoE LLMs",
+      "arxiv_id": "2611.20119",
+      "tokens": [
+        "accelerates",
+        "aware",
+        "cache",
+        "cecar",
+        "device",
+        "expert",
+        "inference",
+        "llms",
+        "moe",
+        "routing"
+      ],
+      "first_seen_round": 538
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.19800v1",
+      "title": "Multi-Branch Transformer",
+      "arxiv_id": "2611.19800",
+      "tokens": [
+        "branch",
+        "multi",
+        "transformer"
+      ],
+      "first_seen_round": 538
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.19413v1",
+      "title": "PMR: MoE Routing with Shared Prototypes and Congestion Pricing",
+      "arxiv_id": "2611.19413",
+      "tokens": [
+        "congestion",
+        "moe",
+        "pmr",
+        "pricing",
+        "prototypes",
+        "routing",
+        "shared"
+      ],
+      "first_seen_round": 538
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.21598v1",
+      "title": "Mitigating Catastrophic Forgetting with Physics-Indexed Specialist Memory: the Evolutionary Neuroplastic Agent",
+      "arxiv_id": "2611.21598",
+      "tokens": [
+        "agent",
+        "catastrophic",
+        "evolutionary",
+        "forgetting",
+        "indexed",
+        "memory",
+        "mitigating",
+        "neuroplastic",
+        "physics",
+        "specialist"
+      ],
+      "first_seen_round": 538
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.20258v1",
+      "title": "Microfitting: Continual Learning via Cached Test-Time Training",
+      "arxiv_id": "2611.20258",
+      "tokens": [
+        "cached",
+        "continual",
+        "microfitting",
+        "test",
+        "time",
+        "training"
+      ],
+      "first_seen_round": 538
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.20087v1",
+      "title": "Does Learning Order Explain Forgetting? The Lie Bracket as an Early-Warning Signal for Catastrophic Forgetting Without Old Data",
+      "arxiv_id": "2611.20087",
+      "tokens": [
+        "bracket",
+        "catastrophic",
+        "early",
+        "explain",
+        "forgetting",
+        "forgetting",
+        "lie",
+        "old",
+        "order",
+        "signal",
+        "warning"
+      ],
+      "first_seen_round": 538
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.17547v1",
+      "title": "Uncertainty-Aware Continual Learning for 2D XRD Interpretation Using Simulated and Experimental Data",
+      "arxiv_id": "2611.17547",
+      "tokens": [
+        "aware",
+        "continual",
+        "experimental",
+        "interpretation",
+        "simulated",
+        "uncertainty",
+        "xrd"
+      ],
+      "first_seen_round": 538
     }
   ],
-  "total_unique": 4951
+  "total_unique": 4969
 }

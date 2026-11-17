@@ -1,53 +1,6 @@
 {
   "sessions": [
     {
-      "timestamp": "2026-10-23T08:54:16.183302",
-      "arxiv_papers_count": 19,
-      "arxiv_top_keywords": [
-        "memory",
-        "generation",
-        "image",
-        "representations",
-        "video",
-        "sharing",
-        "quality",
-        "part",
-        "unified",
-        "framework"
-      ],
-      "arxiv_strategies": [
-        "cs.CV 最新",
-        "cs.AI+cs.LG 混合",
-        "cs.CL+cs.CV 混合"
-      ],
-      "huggingface_models": 10,
-      "huggingface_tasks": [
-        "sentence-similarity",
-        "unknown",
-        "text-generation",
-        "text-ranking",
-        "feature-extraction"
-      ],
-      "ml_datasets": [
-        "Iris",
-        "Wine",
-        "Breast Cancer",
-        "Diabetes"
-      ],
-      "ml_total_tests": 22,
-      "github_trending_repos": 8,
-      "paperswithcode_papers": 8,
-      "evolution": {
-        "discovered": 13,
-        "adopted": 0,
-        "decisions": 0
-      },
-      "seed_watering": {
-        "seed_name": "Continual Learning",
-        "papers_found": 7
-      }
-    },
-    {
       "timestamp": "2026-10-23T14:30:37.013664",
       "arxiv_papers_count": 18,
       "arxiv_top_keywords": [
@@ -4699,10 +4652,57 @@
         "seed_name": "Few-Shot Learning",
         "papers_found": 4
       }
+    },
+    {
+      "timestamp": "2026-11-17T15:00:50.627159",
+      "arxiv_papers_count": 17,
+      "arxiv_top_keywords": [
+        "series",
+        "time",
+        "detection",
+        "reasoning",
+        "data",
+        "their",
+        "matching",
+        "anomaly",
+        "experts",
+        "expert"
+      ],
+      "arxiv_strategies": [
+        "搜索: time series forecasting",
+        "搜索: anomaly detection",
+        "搜索: mixture of experts"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "text-generation",
+        "automatic-speech-recognition",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 14,
+        "adopted": 0,
+        "decisions": 0
+      },
+      "seed_watering": {
+        "seed_name": "Continual Learning",
+        "papers_found": 6
+      }
     }
   ],
   "total_sessions": 101,
-  "last_updated": "2026-11-17T05:28:04.891334",
+  "last_updated": "2026-11-17T15:00:50.627178",
   "evolution_summary": {
     "total_adopted": 408,
     "adopted_list": [
@@ -5148,8 +5148,8 @@
       },
       "continual-learning": {
         "name": "Continual Learning",
-        "watering": 91,
-        "papers": 163
+        "watering": 92,
+        "papers": 167
       },
       "moe": {
         "name": "Mixture of Experts",
@@ -5256,16 +5256,16 @@
       },
       "continual-learning": {
         "name": "Continual Learning",
-        "new_papers": 158,
+        "new_papers": 162,
         "keywords_matched": [
-          "elastic weight",
-          "ewc",
-          "catastrophic forgetting",
+          "continual learning",
           "lifelong",
-          "continual learning"
+          "ewc",
+          "elastic weight",
+          "catastrophic forgetting"
         ],
-        "high_relevance_total": 44,
-        "avg_relevance_latest": 1.5,
+        "high_relevance_total": 45,
+        "avg_relevance_latest": 1.25,
         "best_papers_count": 6
       },
       "gnn": {
@@ -5313,6 +5313,6 @@
         "best_papers_count": 1
       }
     },
-    "last_evolution": "2026-11-17T05:28:04.894478"
+    "last_evolution": "2026-11-17T15:00:50.630927"
   }
 }
