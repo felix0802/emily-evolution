@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 907,
+  "_rotation_idx": 908,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 109,
@@ -6127,40 +6127,9 @@
   },
   "moe": {
     "name": "Mixture of Experts",
-    "total_papers_found": 145,
-    "watering_count": 87,
+    "total_papers_found": 148,
+    "watering_count": 88,
     "history": [
-      {
-        "timestamp": "2026-08-18T10:15:40.783663",
-        "papers_found": 6,
-        "duplicates": 2,
-        "irrelevant_filtered": 2,
-        "avg_relevance": 2.17,
-        "high_relevance": 5,
-        "papers": [
-          {
-            "title": "Palmyra x6 Technical Report: An Agentic, Tool-Use Model Post-Trained via Anchored Supervised Fine-Tuning",
-            "summary": "Palmyra x6 is a large language model optimized for use with enterprise-oriented agentic tasks. The model was built by post-training a Mixture-of-Experts base model with Anchored Supervised Fine-Tuning on a compact corpus of verified, synthetic tool-use trajectories, optimized with a Muon + Adam hybr",
-            "published": "2026-08-17",
-            "url": "http://arxiv.org/abs/2608.16620v1",
-            "seed_match_score": 1
-          },
-          {
-            "title": "Routing Divergence Is Not Evidence of Behavioral Influence in Same-Weight MoE Self-Distillation",
-            "summary": "Two Mixture-of-Experts (MoE) forward passes can share every weight yet route the same token through different experts. This creates a possible blind spot in same-weight self-distillation, where a demonstration-conditioned teacher supervises a query-only student. We study this mismatch in its single-",
-            "published": "2026-08-16",
-            "url": "http://arxiv.org/abs/2608.15787v1",
-            "seed_match_score": 2
-          },
-          {
-            "title": "Every Expert Counts: ExactMoE for Memory-Efficient W4A16 Inference",
-            "summary": "Sparse mixture-of-experts (MoE) language models reduce arithmetic by activating only a small subset of experts per token, yet deployment still requires storing and moving the full expert bank. We present ExactMoE, an inference design that applies symmetric group-128 four-bit weight quantization only",
-            "published": "2026-08-15",
-            "url": "http://arxiv.org/abs/2608.15383v1",
-            "seed_match_score": 2
-          }
-        ]
-      },
       {
         "timestamp": "2026-08-19T06:21:48.801108",
         "papers_found": 2,
@@ -7098,6 +7067,37 @@
             "seed_match_score": 3
           }
         ]
+      },
+      {
+        "timestamp": "2026-11-17T23:13:11.161786",
+        "papers_found": 3,
+        "duplicates": 5,
+        "irrelevant_filtered": 2,
+        "avg_relevance": 1.67,
+        "high_relevance": 2,
+        "papers": [
+          {
+            "title": "From Facts to Personas: Interpretable Role Unlearning in LLMs via Mixture-of-Experts",
+            "summary": "LLMs are widely adopted in multi-role dialogue and persona simulation. However, their strong ability to imitate role-specific linguistic and behavioral patterns can introduce privacy risks, reinforce social biases, and lead to unsafe or uncontrollable outputs. To address these issues, we introduce t",
+            "published": "2026-11-14",
+            "url": "http://arxiv.org/abs/2611.19393v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Supercharging Olmo-core for Efficient and Scalable MoE Training",
+            "summary": "Mixture-of-Experts (MoE) models add parameters without proportionally increasing per-token compute. However, training cost also depends on bytes moved, memory held, and kernels launched, and many of those costs follow total parameter size rather than active compute. On infrastructure built for dense",
+            "published": "2026-11-13",
+            "url": "http://arxiv.org/abs/2611.18956v1",
+            "seed_match_score": 2
+          },
+          {
+            "title": "From Local Prediction Error to Final Outputs: A Theory of Expert Sharing in Multi-Step Reasoning",
+            "summary": "Mixture-of-experts (MoE) models can share experts across layers or computational steps, pooling training information from different contexts. This can reduce local prediction error, but multi-step systems are ultimately evaluated by their final outputs. We study when these local gains survive compos",
+            "published": "2026-11-13",
+            "url": "http://arxiv.org/abs/2611.17879v1",
+            "seed_match_score": 2
+          }
+        ]
       }
     ],
     "keywords": [
@@ -7109,7 +7109,7 @@
       "switch transformer",
       "deepseek"
     ],
-    "last_watered": "2026-11-14T21:45:11.143962"
+    "last_watered": "2026-11-17T23:13:11.161782"
   },
   "kv-cache": {
     "name": "KV Cache Optimization",

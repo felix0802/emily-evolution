@@ -6128,6 +6128,21 @@
         ],
         "decided_at": "2026-11-17T05:28:01.597165"
       }
+    },
+    {
+      "id": "llm-pond-(prefill-only,-no-decode)",
+      "name": "POND (Prefill-Only, No-Decode)",
+      "adopted_at": "2026-11-17T23:13:15.324012",
+      "decision": {
+        "tech_id": "llm-pond-(prefill-only,-no-decode)",
+        "tech_name": "POND (Prefill-Only, No-Decode)",
+        "action": "adopt",
+        "confidence": 0.8,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-11-17T23:13:15.321596"
+      }
     }
   ],
   "history": [
@@ -8578,6 +8593,12 @@
       "tech_id": "llm-机器学习原子间势（mlip）",
       "tech_name": "机器学习原子间势（MLIP）",
       "timestamp": "2026-11-17T05:28:01.599538"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-pond-(prefill-only,-no-decode)",
+      "tech_name": "POND (Prefill-Only, No-Decode)",
+      "timestamp": "2026-11-17T23:13:15.324019"
     }
   ]
 }

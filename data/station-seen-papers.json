@@ -79193,7 +79193,157 @@
         "xrd"
       ],
       "first_seen_round": 538
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.21608v1",
+      "title": "Latent Lattice Language Models",
+      "arxiv_id": "2611.21608",
+      "tokens": [
+        "language",
+        "latent",
+        "lattice"
+      ],
+      "first_seen_round": 539
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.21301v1",
+      "title": "Latent Bridge: Asking for Help Without Words",
+      "arxiv_id": "2611.21301",
+      "tokens": [
+        "asking",
+        "bridge",
+        "help",
+        "latent",
+        "words"
+      ],
+      "first_seen_round": 539
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.20524v1",
+      "title": "GaugeRoPE: RoPE-Compatible Executable Latent Attention",
+      "arxiv_id": "2611.20524",
+      "tokens": [
+        "attention",
+        "compatible",
+        "executable",
+        "gaugerope",
+        "latent",
+        "rope"
+      ],
+      "first_seen_round": 539
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.19823v1",
+      "title": "EfficientSkill: Learning Skills for Token-Efficient Multi-Turn Agents",
+      "arxiv_id": "2611.19823",
+      "tokens": [
+        "agents",
+        "efficientskill",
+        "multi",
+        "skills",
+        "token",
+        "turn"
+      ],
+      "first_seen_round": 539
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.19455v1",
+      "title": "Text Speeding Itself Up: Recency and Restraint in Session-Local Drafting",
+      "arxiv_id": "2611.19455",
+      "tokens": [
+        "drafting",
+        "itself",
+        "local",
+        "recency",
+        "restraint",
+        "session",
+        "speeding",
+        "text"
+      ],
+      "first_seen_round": 539
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.20771v1",
+      "title": "Nemotron 3.5 Bolt E4B 4GB: An Open and Efficient Small Language Model for Fast Conversational Agents",
+      "arxiv_id": "2611.20771",
+      "tokens": [
+        "4gb",
+        "agents",
+        "bolt",
+        "conversational",
+        "e4b",
+        "fast",
+        "language",
+        "nemotron",
+        "open"
+      ],
+      "first_seen_round": 539
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.19896v1",
+      "title": "LoopSkim: Lossless Multi-Depth Speculative Decoding for Looped Language Models",
+      "arxiv_id": "2611.19896",
+      "tokens": [
+        "decoding",
+        "depth",
+        "language",
+        "looped",
+        "loopskim",
+        "lossless",
+        "multi",
+        "speculative"
+      ],
+      "first_seen_round": 539
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.19393v1",
+      "title": "From Facts to Personas: Interpretable Role Unlearning in LLMs via Mixture-of-Experts",
+      "arxiv_id": "2611.19393",
+      "tokens": [
+        "experts",
+        "facts",
+        "interpretable",
+        "llms",
+        "mixture",
+        "personas",
+        "role",
+        "unlearning"
+      ],
+      "first_seen_round": 539
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.18956v1",
+      "title": "Supercharging Olmo-core for Efficient and Scalable MoE Training",
+      "arxiv_id": "2611.18956",
+      "tokens": [
+        "core",
+        "moe",
+        "olmo",
+        "scalable",
+        "supercharging",
+        "training"
+      ],
+      "first_seen_round": 539
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.17879v1",
+      "title": "From Local Prediction Error to Final Outputs: A Theory of Expert Sharing in Multi-Step Reasoning",
+      "arxiv_id": "2611.17879",
+      "tokens": [
+        "error",
+        "expert",
+        "final",
+        "local",
+        "multi",
+        "outputs",
+        "prediction",
+        "reasoning",
+        "sharing",
+        "step",
+        "theory"
+      ],
+      "first_seen_round": 539
     }
   ],
-  "total_unique": 4969
+  "total_unique": 4979
 }

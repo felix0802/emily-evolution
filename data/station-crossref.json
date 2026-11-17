@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-17T15:00:50.644540",
+  "timestamp": "2026-11-17T23:13:15.346044",
   "connections": [
     {
       "seed_a": "Non-Transformer Arch",
@@ -16,7 +16,7 @@
         "temperature"
       ],
       "strength": 11,
-      "discovered_at": "2026-11-17T15:00:50.644498"
+      "discovered_at": "2026-11-17T23:13:15.346012"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -34,7 +34,24 @@
         "state"
       ],
       "strength": 10,
-      "discovered_at": "2026-11-17T15:00:50.644394"
+      "discovered_at": "2026-11-17T23:13:15.345934"
+    },
+    {
+      "seed_a": "Mixture of Experts",
+      "seed_b": "Graph Neural Networks",
+      "shared_keywords": [],
+      "shared_paper_concepts": [
+        "from",
+        "interpretable",
+        "learning",
+        "models",
+        "multi",
+        "prediction",
+        "training",
+        "with"
+      ],
+      "strength": 8,
+      "discovered_at": "2026-11-17T23:13:15.346035"
     },
     {
       "seed_a": "HTM",
@@ -50,7 +67,38 @@
         "temporal"
       ],
       "strength": 7,
-      "discovered_at": "2026-11-17T15:00:50.644463"
+      "discovered_at": "2026-11-17T23:13:15.345985"
+    },
+    {
+      "seed_a": "Non-Transformer Arch",
+      "seed_b": "Mixture of Experts",
+      "shared_keywords": [],
+      "shared_paper_concepts": [
+        "efficient",
+        "from",
+        "models",
+        "prediction",
+        "theory",
+        "training",
+        "with"
+      ],
+      "strength": 7,
+      "discovered_at": "2026-11-17T23:13:15.346005"
+    },
+    {
+      "seed_a": "Mixture of Experts",
+      "seed_b": "KV Cache Optimization",
+      "shared_keywords": [],
+      "shared_paper_concepts": [
+        "language",
+        "models",
+        "over",
+        "parallel",
+        "reasoning",
+        "without"
+      ],
+      "strength": 6,
+      "discovered_at": "2026-11-17T23:13:15.346031"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -64,7 +112,7 @@
         "recurrent"
       ],
       "strength": 5,
-      "discovered_at": "2026-11-17T15:00:50.644409"
+      "discovered_at": "2026-11-17T23:13:15.345945"
     },
     {
       "seed_a": "Liquid Networks",
@@ -78,7 +126,7 @@
         "temporal"
       ],
       "strength": 5,
-      "discovered_at": "2026-11-17T15:00:50.644439"
+      "discovered_at": "2026-11-17T23:13:15.345967"
     },
     {
       "seed_a": "Continual Learning",
@@ -92,60 +140,20 @@
         "with"
       ],
       "strength": 5,
-      "discovered_at": "2026-11-17T15:00:50.644520"
+      "discovered_at": "2026-11-17T23:13:15.346028"
     },
     {
-      "seed_a": "Mixture of Experts",
-      "seed_b": "KV Cache Optimization",
+      "seed_a": "Mamba (SSM)",
+      "seed_b": "Mixture of Experts",
       "shared_keywords": [],
       "shared_paper_concepts": [
         "language",
         "models",
-        "over",
         "parallel",
-        "without"
-      ],
-      "strength": 5,
-      "discovered_at": "2026-11-17T15:00:50.644524"
-    },
-    {
-      "seed_a": "Liquid Networks",
-      "seed_b": "Continual Learning",
-      "shared_keywords": [],
-      "shared_paper_concepts": [
-        "based",
-        "feature",
-        "learning",
-        "time"
+        "reasoning"
       ],
       "strength": 4,
-      "discovered_at": "2026-11-17T15:00:50.644429"
-    },
-    {
-      "seed_a": "HTM",
-      "seed_b": "Continual Learning",
-      "shared_keywords": [],
-      "shared_paper_concepts": [
-        "data",
-        "federated",
-        "learning",
-        "signal"
-      ],
-      "strength": 4,
-      "discovered_at": "2026-11-17T15:00:50.644453"
-    },
-    {
-      "seed_a": "Spiking Neural Networks",
-      "seed_b": "Graph Neural Networks",
-      "shared_keywords": [],
-      "shared_paper_concepts": [
-        "based",
-        "network",
-        "networks",
-        "neural"
-      ],
-      "strength": 4,
-      "discovered_at": "2026-11-17T15:00:50.644480"
+      "discovered_at": "2026-11-17T23:13:15.345942"
     }
   ],
   "total_seeds": 10
