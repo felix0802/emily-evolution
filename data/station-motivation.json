@@ -1,28 +1,6 @@
 {
   "rounds": [
     {
-      "round": 487,
-      "timestamp": "2026-11-03T01:54:21.610621",
-      "prediction_error": 0.7,
-      "seeds_active": 10,
-      "seeds_dormant": 0,
-      "new_seeds_added": 0,
-      "top_motivated": [
-        [
-          "mamba",
-          0.91
-        ],
-        [
-          "liquid-networks",
-          0.91
-        ],
-        [
-          "htm",
-          0.91
-        ]
-      ]
-    },
-    {
       "round": 488,
       "timestamp": "2026-11-03T08:44:09.844061",
       "prediction_error": 0.7,
@@ -1099,6 +1077,28 @@
           0.91
         ]
       ]
+    },
+    {
+      "round": 537,
+      "timestamp": "2026-11-17T05:27:56.810812",
+      "prediction_error": 0.7,
+      "seeds_active": 10,
+      "seeds_dormant": 0,
+      "new_seeds_added": 0,
+      "top_motivated": [
+        [
+          "mamba",
+          0.91
+        ],
+        [
+          "liquid-networks",
+          0.91
+        ],
+        [
+          "htm",
+          0.91
+        ]
+      ]
     }
   ],
   "seed_scores": {
@@ -1249,11 +1249,10 @@
     },
     "few-shot": {
       "name": "Few-Shot Learning",
-      "info_gain": 0.667,
+      "info_gain": 1.0,
       "novelty": 1.0,
-      "motivation_score": 0.777,
+      "motivation_score": 0.91,
       "info_gain_history": [
-        0.333,
         0.667,
         0.667,
         0.667,
@@ -1273,7 +1272,8 @@
         0.667,
         0.667,
         0.667,
-        0.667
+        0.667,
+        1.0
       ]
     },
     "continual-learning": {
@@ -1373,7 +1373,6 @@
         0.635,
         0.635,
         0.635,
-        0.635,
         0.953,
         0.953,
         0.953,
@@ -1384,6 +1383,7 @@
         0.953,
         0.953,
         0.953,
+        1.0,
         1.0,
         1.0,
         1.0,
@@ -1406,6 +1406,6 @@
     "spiking-nn",
     "non-transformer"
   ],
-  "total_motivation_evaluations": 380,
+  "total_motivation_evaluations": 381,
   "current_prediction_error": 0.7
 }

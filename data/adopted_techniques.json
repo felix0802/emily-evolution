@@ -6098,6 +6098,36 @@
         ],
         "decided_at": "2026-11-16T23:05:26.193123"
       }
+    },
+    {
+      "id": "llm-等变消息传递神经网络",
+      "name": "等变消息传递神经网络",
+      "adopted_at": "2026-11-17T05:28:01.599511",
+      "decision": {
+        "tech_id": "llm-等变消息传递神经网络",
+        "tech_name": "等变消息传递神经网络",
+        "action": "adopt",
+        "confidence": 0.85,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-11-17T05:28:01.597072"
+      }
+    },
+    {
+      "id": "llm-机器学习原子间势（mlip）",
+      "name": "机器学习原子间势（MLIP）",
+      "adopted_at": "2026-11-17T05:28:01.599536",
+      "decision": {
+        "tech_id": "llm-机器学习原子间势（mlip）",
+        "tech_name": "机器学习原子间势（MLIP）",
+        "action": "adopt",
+        "confidence": 0.8,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-11-17T05:28:01.597165"
+      }
     }
   ],
   "history": [
@@ -8536,6 +8566,18 @@
       "tech_id": "llm-几何特征面部表情识别",
       "tech_name": "几何特征面部表情识别",
       "timestamp": "2026-11-16T23:05:26.196321"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-等变消息传递神经网络",
+      "tech_name": "等变消息传递神经网络",
+      "timestamp": "2026-11-17T05:28:01.599516"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-机器学习原子间势（mlip）",
+      "tech_name": "机器学习原子间势（MLIP）",
+      "timestamp": "2026-11-17T05:28:01.599538"
     }
   ]
 }

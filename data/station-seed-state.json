@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 905,
+  "_rotation_idx": 906,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 109,
@@ -4474,18 +4474,9 @@
   },
   "few-shot": {
     "name": "Few-Shot Learning",
-    "total_papers_found": 54,
-    "watering_count": 92,
+    "total_papers_found": 55,
+    "watering_count": 93,
     "history": [
-      {
-        "timestamp": "2026-08-18T06:20:58.060863",
-        "papers_found": 0,
-        "duplicates": 6,
-        "irrelevant_filtered": 4,
-        "avg_relevance": 0.0,
-        "high_relevance": 0,
-        "papers": []
-      },
       {
         "timestamp": "2026-08-19T02:47:57.432221",
         "papers_found": 0,
@@ -5116,6 +5107,23 @@
         "avg_relevance": 0.0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-11-17T05:27:56.797484",
+        "papers_found": 1,
+        "duplicates": 3,
+        "irrelevant_filtered": 6,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "Newton-PINet: A fast physics-informed neural network with Newton linearization for meta-learning nonlinear PDEs",
+            "summary": "Scientific machine learning has opened new avenues for solving parameterized partial differential equations (PDEs), enabling models to learn a family of PDEs and generalize to unseen instances. In this context, data-driven operator learning methods typically require large training datasets, while ph",
+            "published": "2026-11-16",
+            "url": "http://arxiv.org/abs/2611.20609v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -5125,7 +5133,7 @@
       "prototypical",
       "in-context"
     ],
-    "last_watered": "2026-11-14T08:13:33.222492"
+    "last_watered": "2026-11-17T05:27:56.797479"
   },
   "continual-learning": {
     "name": "Continual Learning",
