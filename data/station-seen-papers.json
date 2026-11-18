@@ -79343,7 +79343,162 @@
         "theory"
       ],
       "first_seen_round": 539
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.18974v1",
+      "title": "Bilateral Log-Linear Attention",
+      "arxiv_id": "2611.18974",
+      "tokens": [
+        "attention",
+        "bilateral",
+        "linear",
+        "log"
+      ],
+      "first_seen_round": 540
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.20150v1",
+      "title": "Symmetry Fingerprinting with Geometric Learnable Invariants Transformers",
+      "arxiv_id": "2611.20150",
+      "tokens": [
+        "fingerprinting",
+        "geometric",
+        "invariants",
+        "learnable",
+        "symmetry",
+        "transformers"
+      ],
+      "first_seen_round": 540
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.23229v1",
+      "title": "Ambient LLMs: Data-Efficient Supervised Fine-tuning via Temperature Matching",
+      "arxiv_id": "2611.23229",
+      "tokens": [
+        "ambient",
+        "fine",
+        "llms",
+        "matching",
+        "supervised",
+        "temperature",
+        "tuning"
+      ],
+      "first_seen_round": 540
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.22842v1",
+      "title": "SilverSpoon-KD: A General-Purpose Toolkit for Knowledge Distillation",
+      "arxiv_id": "2611.22842",
+      "tokens": [
+        "distillation",
+        "general",
+        "knowledge",
+        "purpose",
+        "silverspoon",
+        "toolkit"
+      ],
+      "first_seen_round": 540
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.18239v2",
+      "title": "Neural Classifiers as Error-Correcting Codes",
+      "arxiv_id": "2611.18239",
+      "tokens": [
+        "classifiers",
+        "codes",
+        "correcting",
+        "error",
+        "neural"
+      ],
+      "first_seen_round": 540
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.17772v1",
+      "title": "Antidistillation is Cheap: Lightweight Distillation-Resistance via Stylistic Corruption",
+      "arxiv_id": "2611.17772",
+      "tokens": [
+        "antidistillation",
+        "cheap",
+        "corruption",
+        "distillation",
+        "lightweight",
+        "resistance",
+        "stylistic"
+      ],
+      "first_seen_round": 540
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.23035v1",
+      "title": "Storing the Gemma 4 K=V Cache Once: Exact Global-KV Memory Savings in a Paged Serving Engine with Unchanged Attention Kernels",
+      "arxiv_id": "2611.23035",
+      "tokens": [
+        "attention",
+        "cache",
+        "engine",
+        "exact",
+        "gemma",
+        "global",
+        "kernels",
+        "memory",
+        "once",
+        "paged",
+        "savings",
+        "serving",
+        "storing",
+        "unchanged"
+      ],
+      "first_seen_round": 540
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.22280v1",
+      "title": "XM-Sparse: High-Throughput Sparse-Attention LLM Serving over Scale-up Memory Pools",
+      "arxiv_id": "2611.22280",
+      "tokens": [
+        "attention",
+        "high",
+        "llm",
+        "memory",
+        "pools",
+        "scale",
+        "serving",
+        "sparse",
+        "sparse",
+        "throughput"
+      ],
+      "first_seen_round": 540
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.21839v1",
+      "title": "VisHead-Spec: Head-Routed Visual Attention for Multimodal Speculative Decoding",
+      "arxiv_id": "2611.21839",
+      "tokens": [
+        "attention",
+        "decoding",
+        "head",
+        "multimodal",
+        "routed",
+        "spec",
+        "speculative",
+        "vishead",
+        "visual"
+      ],
+      "first_seen_round": 540
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.21216v1",
+      "title": "MiSTiQ: MicroScaling Trellis Quantization for Extreme KV Cache Compression",
+      "arxiv_id": "2611.21216",
+      "tokens": [
+        "cache",
+        "compression",
+        "extreme",
+        "microscaling",
+        "mistiq",
+        "quantization",
+        "trellis"
+      ],
+      "first_seen_round": 540
     }
   ],
-  "total_unique": 4979
+  "total_unique": 4989
 }

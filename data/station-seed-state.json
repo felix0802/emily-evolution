@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 908,
+  "_rotation_idx": 909,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 109,
@@ -7113,40 +7113,9 @@
   },
   "kv-cache": {
     "name": "KV Cache Optimization",
-    "total_papers_found": 141,
-    "watering_count": 88,
+    "total_papers_found": 145,
+    "watering_count": 89,
     "history": [
-      {
-        "timestamp": "2026-08-18T12:19:28.080451",
-        "papers_found": 6,
-        "duplicates": 3,
-        "irrelevant_filtered": 1,
-        "avg_relevance": 1.0,
-        "high_relevance": 0,
-        "papers": [
-          {
-            "title": "Pallas: A Proactive KV Cache Migration Framework for LLM Inference in AI-RAN",
-            "summary": "AI-RAN brings large language model (LLM) serving close to mobile users, but cellular handover can separate an active request from its inference state: the user attaches to a target base station (gNB) while the large and growing key-value (KV) cache remains at the source. Retaining inference at the s",
-            "published": "2026-08-17",
-            "url": "http://arxiv.org/abs/2608.16477v1",
-            "seed_match_score": 1
-          },
-          {
-            "title": "Aborted but Not Forgotten: KV-Cache Retention Breaks Rollback Consistency in Language Agents",
-            "summary": "Stateful language agents assume a rejected branch can be taken back by clearing it from the application transcript. We show this breaks when the serving session retains key/value (KV) state across the logical abort: the model can continue attending to content the application believes it discarded. W",
-            "published": "2026-08-16",
-            "url": "http://arxiv.org/abs/2608.15939v1",
-            "seed_match_score": 1
-          },
-          {
-            "title": "KV-Rescue: Recovering Reasoning Language Model KV Eviction Loss via Stepwise Interleaving",
-            "summary": "KV-cache eviction caps the memory cost of long reasoning traces but is inherently lossy because the model decodes from a partial view of its history. Under aggressive budgets, this not only lowers accuracy but can also cause runaway degeneration, where the model produces incoherent or repetitive tok",
-            "published": "2026-08-16",
-            "url": "http://arxiv.org/abs/2608.15797v1",
-            "seed_match_score": 1
-          }
-        ]
-      },
       {
         "timestamp": "2026-08-19T08:21:06.893425",
         "papers_found": 0,
@@ -8069,6 +8038,37 @@
             "seed_match_score": 1
           }
         ]
+      },
+      {
+        "timestamp": "2026-11-18T04:54:10.640444",
+        "papers_found": 4,
+        "duplicates": 0,
+        "irrelevant_filtered": 6,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "Storing the Gemma 4 K=V Cache Once: Exact Global-KV Memory Savings in a Paged Serving Engine with Unchanged Attention Kernels",
+            "summary": "In the global attention layers of Gemma 4 31B, the value is the normalized key projection, and the key is the value scaled by a fixed weight, with rotary position encoding on one quarter of its dimensions. The Gemma 4 report states that this design reduces the global KV cache by up to 37.5%, but the",
+            "published": "2026-11-17",
+            "url": "http://arxiv.org/abs/2611.23035v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "XM-Sparse: High-Throughput Sparse-Attention LLM Serving over Scale-up Memory Pools",
+            "summary": "Sparse attention has been increasingly adopted by production LLMs for long-context inference, yet serving systems must still retain the full KV history, making GPU HBM capacity a key limit on serving concurrency. Existing systems offload the KV cache to host memory, but suffer from the limited bandw",
+            "published": "2026-11-17",
+            "url": "http://arxiv.org/abs/2611.22280v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "VisHead-Spec: Head-Routed Visual Attention for Multimodal Speculative Decoding",
+            "summary": "Speculative decoding accelerates vision-language models(VLMs) while preserving the target model's outputs, but its speedup diminishes under high concurrency serving as the system becomes more compute bounded as the batch size increases. This problem is pronounced for multimodal speculative decoding ",
+            "published": "2026-11-16",
+            "url": "http://arxiv.org/abs/2611.21839v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -8080,7 +8080,7 @@
       "flash attention",
       "speculative decoding"
     ],
-    "last_watered": "2026-11-15T01:24:18.722764"
+    "last_watered": "2026-11-18T04:54:10.640438"
   },
   "gnn": {
     "name": "Graph Neural Networks",
