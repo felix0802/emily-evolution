@@ -6143,6 +6143,36 @@
         ],
         "decided_at": "2026-11-17T23:13:15.321596"
       }
+    },
+    {
+      "id": "llm-温度匹配",
+      "name": "温度匹配",
+      "adopted_at": "2026-11-18T14:41:57.407009",
+      "decision": {
+        "tech_id": "llm-温度匹配",
+        "tech_name": "温度匹配",
+        "action": "adopt",
+        "confidence": 0.9,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-11-18T14:41:57.402873"
+      }
+    },
+    {
+      "id": "llm-场景状态安全漏洞分析",
+      "name": "场景状态安全漏洞分析",
+      "adopted_at": "2026-11-18T14:41:57.407044",
+      "decision": {
+        "tech_id": "llm-场景状态安全漏洞分析",
+        "tech_name": "场景状态安全漏洞分析",
+        "action": "adopt",
+        "confidence": 0.85,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-11-18T14:41:57.403189"
+      }
     }
   ],
   "history": [
@@ -8599,6 +8629,18 @@
       "tech_id": "llm-pond-(prefill-only,-no-decode)",
       "tech_name": "POND (Prefill-Only, No-Decode)",
       "timestamp": "2026-11-17T23:13:15.324019"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-温度匹配",
+      "tech_name": "温度匹配",
+      "timestamp": "2026-11-18T14:41:57.407015"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-场景状态安全漏洞分析",
+      "tech_name": "场景状态安全漏洞分析",
+      "timestamp": "2026-11-18T14:41:57.407046"
     }
   ]
 }

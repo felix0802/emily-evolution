@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 909,
+  "_rotation_idx": 910,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 109,
@@ -8084,40 +8084,9 @@
   },
   "gnn": {
     "name": "Graph Neural Networks",
-    "total_papers_found": 173,
-    "watering_count": 89,
+    "total_papers_found": 177,
+    "watering_count": 90,
     "history": [
-      {
-        "timestamp": "2026-08-18T14:20:17.941308",
-        "papers_found": 7,
-        "duplicates": 0,
-        "irrelevant_filtered": 3,
-        "avg_relevance": 1.14,
-        "high_relevance": 1,
-        "papers": [
-          {
-            "title": "POI Recommendation with LLM-Augmented Multi-Graph Learning and Contrastive Alignment",
-            "summary": "Point-of-interest (POI) recommendation models based on graph neural networks achieve strong performance by propagating collaborative signals over user-item interactions, yet they struggle with the cold-start problem, where items with few or no interactions are not represented. In this paper, we prop",
-            "published": "2026-08-17",
-            "url": "http://arxiv.org/abs/2608.16407v1",
-            "seed_match_score": 1
-          },
-          {
-            "title": "Graph Neural Assisted Actor-Critic for Latency-Efficient Edge Vision System",
-            "summary": "UAV on-board vision systems are widely used for different activities, including monitoring in no-fly zones. In this case, the vision-equipped UAV streams a video to a ground server where an operator assists its activities. The latency of video transmission has a profound impact on the effectiveness ",
-            "published": "2026-08-17",
-            "url": "http://arxiv.org/abs/2608.16142v1",
-            "seed_match_score": 1
-          },
-          {
-            "title": "Unifying Graph Neural Networks Through a Common Layer Equation",
-            "summary": "Graph neural networks are commonly described through family-specific equations whose notation obscures shared computations and structural differences. We introduce a common layer equation that represents covered architectures through seven components: an update domain, channel set, propagation bank,",
-            "published": "2026-08-17",
-            "url": "http://arxiv.org/abs/2608.16097v1",
-            "seed_match_score": 1
-          }
-        ]
-      },
       {
         "timestamp": "2026-08-19T10:19:11.704993",
         "papers_found": 0,
@@ -8988,6 +8957,37 @@
             "seed_match_score": 1
           }
         ]
+      },
+      {
+        "timestamp": "2026-11-18T14:41:52.635287",
+        "papers_found": 4,
+        "duplicates": 1,
+        "irrelevant_filtered": 5,
+        "avg_relevance": 1.25,
+        "high_relevance": 1,
+        "papers": [
+          {
+            "title": "DLS: Dual-Logic Graph Neural Networks with Chaos-Fuzzy Residuals for Robust Link Prediction",
+            "summary": "Link prediction is a fundamental task in graph mining, critical for applications ranging from biological interaction discovery to recommender systems. While Message Passing Neural Networks (MPNNs) have achieved state-of-the-art results, they are fundamentally limited by the inadvertent suppression o",
+            "published": "2026-11-17",
+            "url": "http://arxiv.org/abs/2611.22607v1",
+            "seed_match_score": 2
+          },
+          {
+            "title": "Synthetic Crystal Data Generation for Diffusion Pretraining in Material Property Prediction",
+            "summary": "Diffusion-based pretraining has emerged as a powerful strategy for learning transferable representations in graph neural networks for materials property prediction without requiring quantum-mechanical labels such as energies, forces, and stresses for every pretraining structure. However, the method ",
+            "published": "2026-11-17",
+            "url": "http://arxiv.org/abs/2611.22140v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "When Does Discrete Ricci Curvature Help? An Edge-Level Analysis of Curvature-Enhanced GCNs for PPI Prediction",
+            "summary": "Curvature-enhanced graph convolutional networks (CGCN) incorporate Ollivier-Ricci curvature (ORC), grounded in optimal transport theory, into message passing, motivated by the claim that curvature-weighted edges alleviate \"over-squashing\" at structural bottlenecks. But does CGCN's improvement actual",
+            "published": "2026-11-16",
+            "url": "http://arxiv.org/abs/2611.21849v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -8999,6 +8999,6 @@
       "node embedding",
       "graph transformer"
     ],
-    "last_watered": "2026-11-15T08:32:42.903894"
+    "last_watered": "2026-11-18T14:41:52.635281"
   }
 }
