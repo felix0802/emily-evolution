@@ -1,34 +1,10 @@
 {
-  "_rotation_idx": 910,
+  "_rotation_idx": 911,
   "mamba": {
     "name": "Mamba (SSM)",
-    "total_papers_found": 109,
-    "watering_count": 94,
+    "total_papers_found": 114,
+    "watering_count": 95,
     "history": [
-      {
-        "timestamp": "2026-08-18T16:16:49.734738",
-        "papers_found": 2,
-        "duplicates": 4,
-        "irrelevant_filtered": 4,
-        "avg_relevance": 1.5,
-        "high_relevance": 1,
-        "papers": [
-          {
-            "title": "SIGMA-Lane: Scale-pyramId Gated MAmba for Temporally Consistent Video Lane Detection",
-            "summary": "Video lane detection requires predictions that remain stable across frames, yet severe vehicle occlusions can break temporal cues. In streaming recurrent models, corrupted observations may enter the hidden state and produce errors that persist into later frames. Existing occlusion-aware refinements ",
-            "published": "2026-08-17",
-            "url": "http://arxiv.org/abs/2608.16338v1",
-            "seed_match_score": 1
-          },
-          {
-            "title": "CardiacMamba: Fair and Robust RGB-RF Fusion for Remote Heart Rate Estimation via State Space Modeling",
-            "summary": "Remote photoplethysmography (rPPG) enables non-contact heart rate (HR) monitoring from facial videos, but RGB-only methods are vulnerable to illumination changes, motion artifacts, and skin-tone-dependent optical reflectance. We propose CardiacMamba, a fair and robust RGB-RF fusion framework that in",
-            "published": "2026-08-16",
-            "url": "http://arxiv.org/abs/2608.15831v1",
-            "seed_match_score": 2
-          }
-        ]
-      },
       {
         "timestamp": "2026-08-19T12:20:59.660359",
         "papers_found": 0,
@@ -849,6 +825,37 @@
         "avg_relevance": 0.0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-11-18T22:44:36.394906",
+        "papers_found": 5,
+        "duplicates": 1,
+        "irrelevant_filtered": 4,
+        "avg_relevance": 2.2,
+        "high_relevance": 5,
+        "papers": [
+          {
+            "title": "FM-Mamba: An Efficient Native 2D Selective State Space Model with Stability-Aware Discretization",
+            "summary": "When applied to two-dimensional features such as images, Mamba-based methods either flatten the feature map into 1D sequences and fuse multiple scans, which breaks spatial adjacency and multiplies computation, or recurse directly on the 2D grid but rescale the recurrence with a fixed input-independe",
+            "published": "2026-11-17",
+            "url": "http://arxiv.org/abs/2611.22061v1",
+            "seed_match_score": 2
+          },
+          {
+            "title": "A Log-Timescale Perturbation Bound for Selective State Space Models at Every Sequence Length",
+            "summary": "Mamba models deployed on streaming data, such as limit order book updates, run far past the sequence lengths they were trained on. A guarantee on how much a small change of input can move the hidden state therefore has to hold at every length. The closest existing bound we know of measures the chang",
+            "published": "2026-11-16",
+            "url": "http://arxiv.org/abs/2611.21952v1",
+            "seed_match_score": 2
+          },
+          {
+            "title": "Certified, Not Explained: Exact Token Erasure in Gated Vision State Space Models",
+            "summary": "Vision models built on Mamba are often explained through their selective step size Delta, on the assumption that a token the scan does not admit cannot influence the prediction. We test that in a concept bottleneck model for lung-nodule malignancy built on a single gated, bidirectional selective sta",
+            "published": "2026-11-16",
+            "url": "http://arxiv.org/abs/2611.20897v1",
+            "seed_match_score": 2
+          }
+        ]
       }
     ],
     "keywords": [
@@ -857,7 +864,7 @@
       "ssm",
       "selective scan"
     ],
-    "last_watered": "2026-11-15T16:40:46.841651"
+    "last_watered": "2026-11-18T22:44:36.394901"
   },
   "liquid-networks": {
     "name": "Liquid Networks",

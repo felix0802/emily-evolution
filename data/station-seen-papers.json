@@ -79844,7 +79844,159 @@
         "water"
       ],
       "first_seen_round": 541
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.23226v1",
+      "title": "FastFrames: Video Generation at Interactive Latency",
+      "arxiv_id": "2611.23226",
+      "tokens": [
+        "fastframes",
+        "generation",
+        "interactive",
+        "latency",
+        "video"
+      ],
+      "first_seen_round": 542
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.23212v1",
+      "title": "EviSlide-MIL: Multi-Query Pooling and Shared Prediction for Class-Incremental Whole-Slide Image Classification",
+      "arxiv_id": "2611.23212",
+      "tokens": [
+        "class",
+        "classification",
+        "evislide",
+        "image",
+        "incremental",
+        "mil",
+        "multi",
+        "pooling",
+        "prediction",
+        "query",
+        "shared",
+        "slide",
+        "whole"
+      ],
+      "first_seen_round": 542
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.23209v1",
+      "title": "Learning Grounded Reasoning from Human Gaze",
+      "arxiv_id": "2611.23209",
+      "tokens": [
+        "gaze",
+        "grounded",
+        "human",
+        "reasoning"
+      ],
+      "first_seen_round": 542
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.23189v1",
+      "title": "Retrieval-Augmented Correction for Generalist Medical Image Segmentation",
+      "arxiv_id": "2611.23189",
+      "tokens": [
+        "augmented",
+        "correction",
+        "generalist",
+        "image",
+        "medical",
+        "retrieval",
+        "segmentation"
+      ],
+      "first_seen_round": 542
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.23187v1",
+      "title": "Any2Building: Unifying Point Clouds and Images for Building Reconstruction via Shared Spatial Queries",
+      "arxiv_id": "2611.23187",
+      "tokens": [
+        "any2building",
+        "building",
+        "clouds",
+        "images",
+        "point",
+        "queries",
+        "reconstruction",
+        "shared",
+        "spatial",
+        "unifying"
+      ],
+      "first_seen_round": 542
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.22061v1",
+      "title": "FM-Mamba: An Efficient Native 2D Selective State Space Model with Stability-Aware Discretization",
+      "arxiv_id": "2611.22061",
+      "tokens": [
+        "aware",
+        "discretization",
+        "mamba",
+        "native",
+        "selective",
+        "space",
+        "stability",
+        "state"
+      ],
+      "first_seen_round": 542
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.21952v1",
+      "title": "A Log-Timescale Perturbation Bound for Selective State Space Models at Every Sequence Length",
+      "arxiv_id": "2611.21952",
+      "tokens": [
+        "bound",
+        "length",
+        "log",
+        "perturbation",
+        "selective",
+        "sequence",
+        "space",
+        "state",
+        "timescale"
+      ],
+      "first_seen_round": 542
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.20897v1",
+      "title": "Certified, Not Explained: Exact Token Erasure in Gated Vision State Space Models",
+      "arxiv_id": "2611.20897",
+      "tokens": [
+        "certified",
+        "erasure",
+        "exact",
+        "explained",
+        "gated",
+        "space",
+        "state",
+        "token",
+        "vision"
+      ],
+      "first_seen_round": 542
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.20409v1",
+      "title": "Integrated GPU Core for Mamba-3",
+      "arxiv_id": "2611.20409",
+      "tokens": [
+        "core",
+        "gpu",
+        "integrated",
+        "mamba"
+      ],
+      "first_seen_round": 542
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.20377v1",
+      "title": "Halting in Recurrent Sequence Models",
+      "arxiv_id": "2611.20377",
+      "tokens": [
+        "halting",
+        "recurrent",
+        "sequence"
+      ],
+      "first_seen_round": 542
     }
   ],
-  "total_unique": 5010
+  "total_unique": 5020
 }
