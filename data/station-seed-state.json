@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 911,
+  "_rotation_idx": 912,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 114,
@@ -868,18 +868,9 @@
   },
   "liquid-networks": {
     "name": "Liquid Networks",
-    "total_papers_found": 135,
-    "watering_count": 94,
+    "total_papers_found": 138,
+    "watering_count": 95,
     "history": [
-      {
-        "timestamp": "2026-08-18T18:18:49.161547",
-        "papers_found": 0,
-        "duplicates": 8,
-        "irrelevant_filtered": 2,
-        "avg_relevance": 0.0,
-        "high_relevance": 0,
-        "papers": []
-      },
       {
         "timestamp": "2026-08-19T14:21:20.253928",
         "papers_found": 1,
@@ -1755,6 +1746,37 @@
         "avg_relevance": 0.0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-11-19T04:46:10.976584",
+        "papers_found": 3,
+        "duplicates": 2,
+        "irrelevant_filtered": 5,
+        "avg_relevance": 1.33,
+        "high_relevance": 1,
+        "papers": [
+          {
+            "title": "DyNA-Mixer: Decoupling Time and Topology for Scalable Dynamic Node Affinity Prediction",
+            "summary": "Continuous-time dynamic graphs preserve the ordering, timing, and evolving strength of interactions that static snapshots discard, making dynamic graph mining essential for evolving systems such as recommender systems, trade networks, and transaction platforms. Research in this area has centered on ",
+            "published": "2026-11-18",
+            "url": "http://arxiv.org/abs/2611.24426v1",
+            "seed_match_score": 2
+          },
+          {
+            "title": "Markov-Equivalent Conditional Independence Graphs on Path Spaces",
+            "summary": "Causal discovery for continuous-time stochastic processes with latent confounding typically faces a trade-off between (i) approaches that are highly informative about the causal structure but are difficult to test statistically, and (ii) approaches that admit practical tests from data but yield more",
+            "published": "2026-11-16",
+            "url": "http://arxiv.org/abs/2611.20877v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "On the Convergence of Continuous-Time AdamW",
+            "summary": "Continuous-time AdamW provides a framework for understanding whether an optimizer widely used to train large-scale neural networks settles to an equilibrium or sustains persistent motion. We study this long-time behavior while retaining bias correction and fixed positive weight decay. Under suitable",
+            "published": "2026-11-16",
+            "url": "http://arxiv.org/abs/2611.20437v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -1764,7 +1786,7 @@
       "ode",
       "continuous-time"
     ],
-    "last_watered": "2026-11-15T22:11:20.284328"
+    "last_watered": "2026-11-19T04:46:10.976578"
   },
   "htm": {
     "name": "HTM",

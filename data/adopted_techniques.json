@@ -6173,6 +6173,36 @@
         ],
         "decided_at": "2026-11-18T14:41:57.403189"
       }
+    },
+    {
+      "id": "llm-闭式最小二乘元学习",
+      "name": "闭式最小二乘元学习",
+      "adopted_at": "2026-11-19T04:46:17.984180",
+      "decision": {
+        "tech_id": "llm-闭式最小二乘元学习",
+        "tech_name": "闭式最小二乘元学习",
+        "action": "adopt",
+        "confidence": 0.9,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-11-19T04:46:17.981941"
+      }
+    },
+    {
+      "id": "llm-形式验证安全rl",
+      "name": "形式验证安全RL",
+      "adopted_at": "2026-11-19T04:46:17.984199",
+      "decision": {
+        "tech_id": "llm-形式验证安全rl",
+        "tech_name": "形式验证安全RL",
+        "action": "adopt",
+        "confidence": 0.85,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-11-19T04:46:17.982171"
+      }
     }
   ],
   "history": [
@@ -8641,6 +8671,18 @@
       "tech_id": "llm-场景状态安全漏洞分析",
       "tech_name": "场景状态安全漏洞分析",
       "timestamp": "2026-11-18T14:41:57.407046"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-闭式最小二乘元学习",
+      "tech_name": "闭式最小二乘元学习",
+      "timestamp": "2026-11-19T04:46:17.984183"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-形式验证安全rl",
+      "tech_name": "形式验证安全RL",
+      "timestamp": "2026-11-19T04:46:17.984200"
     }
   ]
 }
