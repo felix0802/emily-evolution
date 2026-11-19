@@ -6203,6 +6203,36 @@
         ],
         "decided_at": "2026-11-19T04:46:17.982171"
       }
+    },
+    {
+      "id": "llm-混合图神经网络代理模型",
+      "name": "混合图神经网络代理模型",
+      "adopted_at": "2026-11-19T22:48:17.939116",
+      "decision": {
+        "tech_id": "llm-混合图神经网络代理模型",
+        "tech_name": "混合图神经网络代理模型",
+        "action": "adopt",
+        "confidence": 0.9,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-11-19T22:48:17.935746"
+      }
+    },
+    {
+      "id": "llm-分布外泛化",
+      "name": "分布外泛化",
+      "adopted_at": "2026-11-19T22:48:17.939151",
+      "decision": {
+        "tech_id": "llm-分布外泛化",
+        "tech_name": "分布外泛化",
+        "action": "adopt",
+        "confidence": 0.85,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-11-19T22:48:17.935958"
+      }
     }
   ],
   "history": [
@@ -8683,6 +8713,18 @@
       "tech_id": "llm-形式验证安全rl",
       "tech_name": "形式验证安全RL",
       "timestamp": "2026-11-19T04:46:17.984200"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-混合图神经网络代理模型",
+      "tech_name": "混合图神经网络代理模型",
+      "timestamp": "2026-11-19T22:48:17.939124"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-分布外泛化",
+      "tech_name": "分布外泛化",
+      "timestamp": "2026-11-19T22:48:17.939153"
     }
   ]
 }

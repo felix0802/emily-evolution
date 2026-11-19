@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 913,
+  "_rotation_idx": 914,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 114,
@@ -2822,18 +2822,9 @@
   },
   "spiking-nn": {
     "name": "Spiking Neural Networks",
-    "total_papers_found": 73,
-    "watering_count": 93,
+    "total_papers_found": 76,
+    "watering_count": 94,
     "history": [
-      {
-        "timestamp": "2026-08-18T22:09:52.509412",
-        "papers_found": 0,
-        "duplicates": 10,
-        "irrelevant_filtered": 0,
-        "avg_relevance": 0.0,
-        "high_relevance": 0,
-        "papers": []
-      },
       {
         "timestamp": "2026-08-19T18:15:29.765169",
         "papers_found": 0,
@@ -3600,6 +3591,37 @@
         "avg_relevance": 0.0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-11-19T22:48:13.402143",
+        "papers_found": 3,
+        "duplicates": 7,
+        "irrelevant_filtered": 0,
+        "avg_relevance": 2.0,
+        "high_relevance": 2,
+        "papers": [
+          {
+            "title": "AdaS-ViT: Test-Time Adaptive Routing for Spiking Vision Transformers with Ultra-High Energy Efficiency",
+            "summary": "Spiking Neural Networks (SNNs) promise event-driven and energy-efficient vision, yet existing spiking vision transformers (S-ViTs) largely confine spiking tokens to fixed and uniform firing schemes along the temporal, spatial and channel dimensions, whereas suppressing the computational redundancy t",
+            "published": "2026-11-18",
+            "url": "http://arxiv.org/abs/2611.23728v1",
+            "seed_match_score": 2
+          },
+          {
+            "title": "Fully Spiking Neural Implementation of Lambda-Calculus Beta-Reduction via Biologically Documented Mechanisms",
+            "summary": "We present the first complete implementation of $β$-reduction in the untyped $λ$-calculus using exclusively spiking neural dynamics. Every step of the reduction---redex detection, subterm segmentation, variable-binding detection, De~Bruijn index arithmetic, token copying, and inter-step role mainten",
+            "published": "2026-11-17",
+            "url": "http://arxiv.org/abs/2611.23182v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "EM-SDTrack: Efficient Multi-Scale Spike-driven Tracking for Event Cameras",
+            "summary": "Event-driven spiking neural networks (SNNs) match the sparse spatiotemporal output of event cameras, making spike-driven trackers highly attractive for neuromorphic edge deployment. However, events reveal a target only through their spatial distribution, whose extent varies more than tenfold within ",
+            "published": "2026-11-17",
+            "url": "http://arxiv.org/abs/2611.22700v1",
+            "seed_match_score": 3
+          }
+        ]
       }
     ],
     "keywords": [
@@ -3608,7 +3630,7 @@
       "neuromorphic",
       "spike-timing"
     ],
-    "last_watered": "2026-11-16T12:09:48.123217"
+    "last_watered": "2026-11-19T22:48:13.402137"
   },
   "non-transformer": {
     "name": "Non-Transformer Arch",

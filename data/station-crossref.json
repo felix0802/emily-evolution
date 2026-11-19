@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-19T14:48:27.740894",
+  "timestamp": "2026-11-19T22:48:21.008387",
   "connections": [
     {
       "seed_a": "Mamba (SSM)",
@@ -19,7 +19,7 @@
         "state"
       ],
       "strength": 13,
-      "discovered_at": "2026-11-19T14:48:27.740765"
+      "discovered_at": "2026-11-19T22:48:21.008221"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -36,7 +36,7 @@
         "with"
       ],
       "strength": 8,
-      "discovered_at": "2026-11-19T14:48:27.740778"
+      "discovered_at": "2026-11-19T22:48:21.008238"
     },
     {
       "seed_a": "Non-Transformer Arch",
@@ -53,7 +53,7 @@
         "with"
       ],
       "strength": 8,
-      "discovered_at": "2026-11-19T14:48:27.740856"
+      "discovered_at": "2026-11-19T22:48:21.008339"
     },
     {
       "seed_a": "HTM",
@@ -69,7 +69,7 @@
         "time"
       ],
       "strength": 7,
-      "discovered_at": "2026-11-19T14:48:27.740817"
+      "discovered_at": "2026-11-19T22:48:21.008285"
     },
     {
       "seed_a": "Non-Transformer Arch",
@@ -85,7 +85,7 @@
         "with"
       ],
       "strength": 7,
-      "discovered_at": "2026-11-19T14:48:27.740850"
+      "discovered_at": "2026-11-19T22:48:21.008330"
     },
     {
       "seed_a": "Mixture of Experts",
@@ -101,7 +101,7 @@
         "without"
       ],
       "strength": 7,
-      "discovered_at": "2026-11-19T14:48:27.740880"
+      "discovered_at": "2026-11-19T22:48:21.008368"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -116,7 +116,7 @@
         "with"
       ],
       "strength": 6,
-      "discovered_at": "2026-11-19T14:48:27.740775"
+      "discovered_at": "2026-11-19T22:48:21.008234"
     },
     {
       "seed_a": "Continual Learning",
@@ -131,7 +131,7 @@
         "with"
       ],
       "strength": 6,
-      "discovered_at": "2026-11-19T14:48:27.740876"
+      "discovered_at": "2026-11-19T22:48:21.008363"
     },
     {
       "seed_a": "HTM",
@@ -145,21 +145,21 @@
         "when"
       ],
       "strength": 5,
-      "discovered_at": "2026-11-19T14:48:27.740827"
+      "discovered_at": "2026-11-19T22:48:21.008297"
     },
     {
-      "seed_a": "Mixture of Experts",
-      "seed_b": "Graph Neural Networks",
+      "seed_a": "Spiking Neural Networks",
+      "seed_b": "Non-Transformer Arch",
       "shared_keywords": [],
       "shared_paper_concepts": [
-        "from",
-        "learning",
-        "level",
-        "prediction",
+        "adaptive",
+        "detection",
+        "efficient",
+        "time",
         "with"
       ],
       "strength": 5,
-      "discovered_at": "2026-11-19T14:48:27.740883"
+      "discovered_at": "2026-11-19T22:48:21.008301"
     }
   ],
   "total_seeds": 10
