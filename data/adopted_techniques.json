@@ -6278,6 +6278,21 @@
         ],
         "decided_at": "2026-11-20T14:29:39.383814"
       }
+    },
+    {
+      "id": "llm-低秩键与摊销值（low-ram）",
+      "name": "低秩键与摊销值（Low-RAM）",
+      "adopted_at": "2026-11-20T22:25:06.688877",
+      "decision": {
+        "tech_id": "llm-低秩键与摊销值（low-ram）",
+        "tech_name": "低秩键与摊销值（Low-RAM）",
+        "action": "adopt",
+        "confidence": 0.85,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-11-20T22:25:06.685650"
+      }
     }
   ],
   "history": [
@@ -8788,6 +8803,12 @@
       "tech_id": "llm-exact-global-kv-memory-savings",
       "tech_name": "Exact Global-KV Memory Savings via Architectural Reuse",
       "timestamp": "2026-11-20T14:29:39.385711"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-低秩键与摊销值（low-ram）",
+      "tech_name": "低秩键与摊销值（Low-RAM）",
+      "timestamp": "2026-11-20T22:25:06.688886"
     }
   ]
 }

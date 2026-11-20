@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 916,
+  "_rotation_idx": 917,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 114,
@@ -5218,26 +5218,9 @@
   },
   "continual-learning": {
     "name": "Continual Learning",
-    "total_papers_found": 167,
-    "watering_count": 92,
+    "total_papers_found": 174,
+    "watering_count": 93,
     "history": [
-      {
-        "timestamp": "2026-08-19T04:24:45.965632",
-        "papers_found": 1,
-        "duplicates": 4,
-        "irrelevant_filtered": 5,
-        "avg_relevance": 1.0,
-        "high_relevance": 0,
-        "papers": [
-          {
-            "title": "Agents unlock new capabilities through Switching LoRA Adapters as a Tool (SLAaaT)",
-            "summary": "Post-training can unlock new capabilities and improve performance on specialized tasks, but sometimes at the cost of catastrophic forgetting in other domains. This poses a problem in long agent trajectories that compose different capabilities. We reject this tradeoff by giving an agent a tool to swi",
-            "published": "2026-08-17",
-            "url": "http://arxiv.org/abs/2608.17034v1",
-            "seed_match_score": 1
-          }
-        ]
-      },
       {
         "timestamp": "2026-08-20T00:30:47.699157",
         "papers_found": 0,
@@ -6195,6 +6178,37 @@
             "seed_match_score": 1
           }
         ]
+      },
+      {
+        "timestamp": "2026-11-20T22:25:01.188395",
+        "papers_found": 7,
+        "duplicates": 1,
+        "irrelevant_filtered": 2,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "Policy Improvement-Guided Replay for Continual Reinforcement Learning",
+            "summary": "Continual reinforcement learning (CRL) requires models to acquire new capabilities while retaining performance on previous tasks. A stability-oriented perspective common in conventional continual learning emphasizes knowledge preservation and interference mitigation. Complementing this perspective, ",
+            "published": "2026-11-19",
+            "url": "http://arxiv.org/abs/2611.25989v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Some Memories Must Fade: Persistence and Decay of User Memories in Model Parameters",
+            "summary": "Parametric memory allows Large Language Models to internalize knowledge directly into their weights, offering a potentially powerful alternative to retrieval-based memory (RAG). However, existing approaches to parametric memory are difficult to deploy as they largely mirror the Continual Learning (C",
+            "published": "2026-11-18",
+            "url": "http://arxiv.org/abs/2611.25235v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Learning with Unlearning: Synaptic Role Partitioning for Simultaneous Continual Learning and Machine Unlearning",
+            "summary": "Continual Learning (CL) asks a model to acquire new knowledge without forgetting what it already knows. Machine Unlearning (MU) asks it to destroy specific knowledge without damaging the rest. The challenge is integrating them in the same system; the two objectives pull on the same weights, and an e",
+            "published": "2026-11-18",
+            "url": "http://arxiv.org/abs/2611.24205v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -6204,7 +6218,7 @@
       "ewc",
       "elastic weight"
     ],
-    "last_watered": "2026-11-17T15:00:44.702909"
+    "last_watered": "2026-11-20T22:25:01.188389"
   },
   "moe": {
     "name": "Mixture of Experts",

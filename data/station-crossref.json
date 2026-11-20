@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-20T14:29:39.489886",
+  "timestamp": "2026-11-20T22:25:06.719510",
   "connections": [
     {
       "seed_a": "Mamba (SSM)",
@@ -19,7 +19,7 @@
         "state"
       ],
       "strength": 13,
-      "discovered_at": "2026-11-20T14:29:39.489774"
+      "discovered_at": "2026-11-20T22:25:06.719332"
     },
     {
       "seed_a": "Few-Shot Learning",
@@ -36,7 +36,7 @@
         "neural"
       ],
       "strength": 11,
-      "discovered_at": "2026-11-20T14:29:39.489862"
+      "discovered_at": "2026-11-20T22:25:06.719462"
     },
     {
       "seed_a": "Non-Transformer Arch",
@@ -53,7 +53,7 @@
         "when"
       ],
       "strength": 9,
-      "discovered_at": "2026-11-20T14:29:39.489851"
+      "discovered_at": "2026-11-20T22:25:06.719447"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -70,7 +70,7 @@
         "with"
       ],
       "strength": 8,
-      "discovered_at": "2026-11-20T14:29:39.489785"
+      "discovered_at": "2026-11-20T22:25:06.719349"
     },
     {
       "seed_a": "HTM",
@@ -86,7 +86,23 @@
         "time"
       ],
       "strength": 7,
-      "discovered_at": "2026-11-20T14:29:39.489816"
+      "discovered_at": "2026-11-20T22:25:06.719395"
+    },
+    {
+      "seed_a": "Continual Learning",
+      "seed_b": "Mixture of Experts",
+      "shared_keywords": [],
+      "shared_paper_concepts": [
+        "learning",
+        "reinforcement",
+        "role",
+        "training",
+        "unlearning",
+        "with",
+        "without"
+      ],
+      "strength": 7,
+      "discovered_at": "2026-11-20T22:25:06.719466"
     },
     {
       "seed_a": "Mixture of Experts",
@@ -102,7 +118,7 @@
         "without"
       ],
       "strength": 7,
-      "discovered_at": "2026-11-20T14:29:39.489874"
+      "discovered_at": "2026-11-20T22:25:06.719479"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -117,7 +133,7 @@
         "with"
       ],
       "strength": 6,
-      "discovered_at": "2026-11-20T14:29:39.489782"
+      "discovered_at": "2026-11-20T22:25:06.719344"
     },
     {
       "seed_a": "HTM",
@@ -132,7 +148,7 @@
         "when"
       ],
       "strength": 6,
-      "discovered_at": "2026-11-20T14:29:39.489811"
+      "discovered_at": "2026-11-20T22:25:06.719388"
     },
     {
       "seed_a": "Non-Transformer Arch",
@@ -147,22 +163,7 @@
         "with"
       ],
       "strength": 6,
-      "discovered_at": "2026-11-20T14:29:39.489845"
-    },
-    {
-      "seed_a": "Non-Transformer Arch",
-      "seed_b": "KV Cache Optimization",
-      "shared_keywords": [],
-      "shared_paper_concepts": [
-        "attention",
-        "memory",
-        "models",
-        "policy",
-        "recurrent",
-        "with"
-      ],
-      "strength": 6,
-      "discovered_at": "2026-11-20T14:29:39.489848"
+      "discovered_at": "2026-11-20T22:25:06.719439"
     }
   ],
   "total_seeds": 10
