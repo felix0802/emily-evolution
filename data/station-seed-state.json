@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 914,
+  "_rotation_idx": 915,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 114,
@@ -3634,18 +3634,9 @@
   },
   "non-transformer": {
     "name": "Non-Transformer Arch",
-    "total_papers_found": 86,
-    "watering_count": 94,
+    "total_papers_found": 90,
+    "watering_count": 95,
     "history": [
-      {
-        "timestamp": "2026-08-19T00:30:38.732386",
-        "papers_found": 0,
-        "duplicates": 7,
-        "irrelevant_filtered": 3,
-        "avg_relevance": 0.0,
-        "high_relevance": 0,
-        "papers": []
-      },
       {
         "timestamp": "2026-08-19T20:12:32.309754",
         "papers_found": 0,
@@ -4502,6 +4493,37 @@
         "avg_relevance": 0.0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-11-20T04:37:29.825355",
+        "papers_found": 4,
+        "duplicates": 5,
+        "irrelevant_filtered": 1,
+        "avg_relevance": 1.25,
+        "high_relevance": 1,
+        "papers": [
+          {
+            "title": "Mamba Flow Matching Neural Processes: Linear-Time Inference for Irregularly Observed Spatial Fields",
+            "summary": "Interpolating a spatial field, such as daily maximum temperature, from sparse, irregularly located observations recurs across the environmental and health sciences. Standard Gaussian-process kriging refits hyperparameters and solves an $O(N^3)$ system for every new field. When many related fields ar",
+            "published": "2026-11-19",
+            "url": "http://arxiv.org/abs/2611.26355v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "DS3M: Deep structured state space models for nonlinear system identification on modern hardware",
+            "summary": "Neural state-space identification learns dynamical models from measured inputs and outputs. SUBNET combines this task with an encoder that estimates initial states from short measurement histories. Its continuous-time version requires many successive neural-network evaluations during numerical integ",
+            "published": "2026-11-18",
+            "url": "http://arxiv.org/abs/2611.25274v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "On-Policy Morphing into Hybrid Attention Models",
+            "summary": "Hybrid attention models combine full and linear attention to achieve a better quality--efficiency trade-off. Converting pretrained Transformers into such models requires identifying which layers should retain full attention under a prescribed budget. We identify two off-policy mismatches in FlashMor",
+            "published": "2026-11-18",
+            "url": "http://arxiv.org/abs/2611.24809v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -4514,7 +4536,7 @@
       "sub-quadratic",
       "mamba"
     ],
-    "last_watered": "2026-11-16T23:05:20.871759"
+    "last_watered": "2026-11-20T04:37:29.825350"
   },
   "few-shot": {
     "name": "Few-Shot Learning",

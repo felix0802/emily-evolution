@@ -80818,7 +80818,283 @@
         "tracking"
       ],
       "first_seen_round": 545
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.26351v1",
+      "title": "TRCF: Temporal-Reference Complementary Forecasting for Irregular Multivariate Time Series",
+      "arxiv_id": "2611.26351",
+      "tokens": [
+        "complementary",
+        "forecasting",
+        "irregular",
+        "multivariate",
+        "reference",
+        "series",
+        "temporal",
+        "time",
+        "trcf"
+      ],
+      "first_seen_round": 546
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.26232v1",
+      "title": "Time Series Structure Learning with Local Causal Parent Discovery",
+      "arxiv_id": "2611.26232",
+      "tokens": [
+        "causal",
+        "discovery",
+        "local",
+        "parent",
+        "series",
+        "structure",
+        "time"
+      ],
+      "first_seen_round": 546
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.24257v1",
+      "title": "TRESS: A Fixed-Size History Representation for Irregular Time Series Forecasting",
+      "arxiv_id": "2611.24257",
+      "tokens": [
+        "fixed",
+        "forecasting",
+        "history",
+        "irregular",
+        "representation",
+        "series",
+        "size",
+        "time",
+        "tress"
+      ],
+      "first_seen_round": 546
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.24075v1",
+      "title": "Recurrent Domain Incremental Adaptation of Time-Series Foundation Models",
+      "arxiv_id": "2611.24075",
+      "tokens": [
+        "adaptation",
+        "domain",
+        "foundation",
+        "incremental",
+        "recurrent",
+        "series",
+        "time"
+      ],
+      "first_seen_round": 546
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.23518v1",
+      "title": "From Arraignment to Resolution: Transformer Models of Court Cases",
+      "arxiv_id": "2611.23518",
+      "tokens": [
+        "arraignment",
+        "cases",
+        "court",
+        "resolution",
+        "transformer"
+      ],
+      "first_seen_round": 546
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.25194v1",
+      "title": "MADJEPA: Enhanced Multi-Stage Joint-Embedding Predictive Architecture for Medical Anomaly Detection",
+      "arxiv_id": "2611.25194",
+      "tokens": [
+        "anomaly",
+        "architecture",
+        "detection",
+        "embedding",
+        "enhanced",
+        "joint",
+        "madjepa",
+        "medical",
+        "multi",
+        "predictive",
+        "stage"
+      ],
+      "first_seen_round": 546
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.21674v1",
+      "title": "Improving Early Detection of Scientifically Interesting Radio Sources Using Enhanced Isolation Forest",
+      "arxiv_id": "2611.21674",
+      "tokens": [
+        "detection",
+        "early",
+        "enhanced",
+        "forest",
+        "improving",
+        "interesting",
+        "isolation",
+        "radio",
+        "scientifically",
+        "sources"
+      ],
+      "first_seen_round": 546
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.26075v1",
+      "title": "Understanding MoE Decisions Beyond Gradients",
+      "arxiv_id": "2611.26075",
+      "tokens": [
+        "decisions",
+        "gradients",
+        "moe",
+        "understanding"
+      ],
+      "first_seen_round": 546
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.25780v1",
+      "title": "RouteVerify: Routing Interventions for Step-Level Verification in Mixture-of-Experts Models",
+      "arxiv_id": "2611.25780",
+      "tokens": [
+        "experts",
+        "interventions",
+        "level",
+        "mixture",
+        "routeverify",
+        "routing",
+        "step",
+        "verification"
+      ],
+      "first_seen_round": 546
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.25730v1",
+      "title": "CGM: Chaos-Guided Graph Attention and Expert Routing for Autism Stereotypy Detection",
+      "arxiv_id": "2611.25730",
+      "tokens": [
+        "attention",
+        "autism",
+        "cgm",
+        "chaos",
+        "detection",
+        "expert",
+        "graph",
+        "guided",
+        "routing",
+        "stereotypy"
+      ],
+      "first_seen_round": 546
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.24636v1",
+      "title": "Clover-35B-A3B-Preview Technical Report",
+      "arxiv_id": "2611.24636",
+      "tokens": [
+        "35b",
+        "a3b",
+        "clover",
+        "preview",
+        "report",
+        "technical"
+      ],
+      "first_seen_round": 546
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.23848v1",
+      "title": "A Fast, Programmable GPU-to-CPU Invocation Layer for GPU-Initiated Communication",
+      "arxiv_id": "2611.23848",
+      "tokens": [
+        "communication",
+        "cpu",
+        "fast",
+        "gpu",
+        "gpu",
+        "initiated",
+        "invocation",
+        "layer",
+        "programmable"
+      ],
+      "first_seen_round": 546
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.23695v1",
+      "title": "MoMoVL: Modality-Aware Adaptive Compression for On-Device Sparsely-Activated Vision-Language Models",
+      "arxiv_id": "2611.23695",
+      "tokens": [
+        "activated",
+        "adaptive",
+        "aware",
+        "compression",
+        "device",
+        "language",
+        "modality",
+        "momovl",
+        "sparsely",
+        "vision"
+      ],
+      "first_seen_round": 546
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.26355v1",
+      "title": "Mamba Flow Matching Neural Processes: Linear-Time Inference for Irregularly Observed Spatial Fields",
+      "arxiv_id": "2611.26355",
+      "tokens": [
+        "fields",
+        "flow",
+        "inference",
+        "irregularly",
+        "linear",
+        "mamba",
+        "matching",
+        "neural",
+        "observed",
+        "processes",
+        "spatial",
+        "time"
+      ],
+      "first_seen_round": 546
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.25274v1",
+      "title": "DS3M: Deep structured state space models for nonlinear system identification on modern hardware",
+      "arxiv_id": "2611.25274",
+      "tokens": [
+        "ds3m",
+        "hardware",
+        "identification",
+        "modern",
+        "nonlinear",
+        "space",
+        "state",
+        "structured"
+      ],
+      "first_seen_round": 546
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.24809v1",
+      "title": "On-Policy Morphing into Hybrid Attention Models",
+      "arxiv_id": "2611.24809",
+      "tokens": [
+        "attention",
+        "hybrid",
+        "morphing",
+        "policy"
+      ],
+      "first_seen_round": 546
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.23345v1",
+      "title": "BiMa-ECGSR: reconstructing the 12-lead ECG from reduced lead sets with bidirectional state-space models",
+      "arxiv_id": "2611.23345",
+      "tokens": [
+        "bidirectional",
+        "bima",
+        "ecg",
+        "ecgsr",
+        "lead",
+        "lead",
+        "reconstructing",
+        "reduced",
+        "sets",
+        "space",
+        "state"
+      ],
+      "first_seen_round": 546
     }
   ],
-  "total_unique": 5073
+  "total_unique": 5090
 }

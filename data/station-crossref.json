@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-19T22:48:21.008387",
+  "timestamp": "2026-11-20T04:37:42.548758",
   "connections": [
     {
       "seed_a": "Mamba (SSM)",
@@ -10,16 +10,33 @@
       ],
       "shared_paper_concepts": [
         "efficient",
+        "hybrid",
         "mamba",
-        "model",
         "models",
+        "nonlinear",
         "recurrent",
-        "selective",
         "space",
         "state"
       ],
       "strength": 13,
-      "discovered_at": "2026-11-19T22:48:21.008221"
+      "discovered_at": "2026-11-20T04:37:42.548625"
+    },
+    {
+      "seed_a": "Non-Transformer Arch",
+      "seed_b": "Graph Neural Networks",
+      "shared_keywords": [],
+      "shared_paper_concepts": [
+        "attention",
+        "linear",
+        "network",
+        "neural",
+        "prediction",
+        "representation",
+        "temperature",
+        "when"
+      ],
+      "strength": 9,
+      "discovered_at": "2026-11-20T04:37:42.548720"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -36,24 +53,7 @@
         "with"
       ],
       "strength": 8,
-      "discovered_at": "2026-11-19T22:48:21.008238"
-    },
-    {
-      "seed_a": "Non-Transformer Arch",
-      "seed_b": "Graph Neural Networks",
-      "shared_keywords": [],
-      "shared_paper_concepts": [
-        "from",
-        "linear",
-        "network",
-        "prediction",
-        "representation",
-        "temperature",
-        "when",
-        "with"
-      ],
-      "strength": 8,
-      "discovered_at": "2026-11-19T22:48:21.008339"
+      "discovered_at": "2026-11-20T04:37:42.548638"
     },
     {
       "seed_a": "HTM",
@@ -69,23 +69,7 @@
         "time"
       ],
       "strength": 7,
-      "discovered_at": "2026-11-19T22:48:21.008285"
-    },
-    {
-      "seed_a": "Non-Transformer Arch",
-      "seed_b": "Mixture of Experts",
-      "shared_keywords": [],
-      "shared_paper_concepts": [
-        "efficient",
-        "from",
-        "models",
-        "prediction",
-        "theory",
-        "training",
-        "with"
-      ],
-      "strength": 7,
-      "discovered_at": "2026-11-19T22:48:21.008330"
+      "discovered_at": "2026-11-20T04:37:42.548674"
     },
     {
       "seed_a": "Mixture of Experts",
@@ -101,7 +85,7 @@
         "without"
       ],
       "strength": 7,
-      "discovered_at": "2026-11-19T22:48:21.008368"
+      "discovered_at": "2026-11-20T04:37:42.548744"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -116,7 +100,52 @@
         "with"
       ],
       "strength": 6,
-      "discovered_at": "2026-11-19T22:48:21.008234"
+      "discovered_at": "2026-11-20T04:37:42.548635"
+    },
+    {
+      "seed_a": "HTM",
+      "seed_b": "Non-Transformer Arch",
+      "shared_keywords": [],
+      "shared_paper_concepts": [
+        "flow",
+        "matching",
+        "processes",
+        "series",
+        "time",
+        "when"
+      ],
+      "strength": 6,
+      "discovered_at": "2026-11-20T04:37:42.548668"
+    },
+    {
+      "seed_a": "Non-Transformer Arch",
+      "seed_b": "Mixture of Experts",
+      "shared_keywords": [],
+      "shared_paper_concepts": [
+        "efficient",
+        "inference",
+        "models",
+        "prediction",
+        "theory",
+        "with"
+      ],
+      "strength": 6,
+      "discovered_at": "2026-11-20T04:37:42.548713"
+    },
+    {
+      "seed_a": "Non-Transformer Arch",
+      "seed_b": "KV Cache Optimization",
+      "shared_keywords": [],
+      "shared_paper_concepts": [
+        "attention",
+        "memory",
+        "models",
+        "policy",
+        "recurrent",
+        "with"
+      ],
+      "strength": 6,
+      "discovered_at": "2026-11-20T04:37:42.548717"
     },
     {
       "seed_a": "Continual Learning",
@@ -131,35 +160,7 @@
         "with"
       ],
       "strength": 6,
-      "discovered_at": "2026-11-19T22:48:21.008363"
-    },
-    {
-      "seed_a": "HTM",
-      "seed_b": "Graph Neural Networks",
-      "shared_keywords": [],
-      "shared_paper_concepts": [
-        "based",
-        "data",
-        "learning",
-        "mapping",
-        "when"
-      ],
-      "strength": 5,
-      "discovered_at": "2026-11-19T22:48:21.008297"
-    },
-    {
-      "seed_a": "Spiking Neural Networks",
-      "seed_b": "Non-Transformer Arch",
-      "shared_keywords": [],
-      "shared_paper_concepts": [
-        "adaptive",
-        "detection",
-        "efficient",
-        "time",
-        "with"
-      ],
-      "strength": 5,
-      "discovered_at": "2026-11-19T22:48:21.008301"
+      "discovered_at": "2026-11-20T04:37:42.548740"
     }
   ],
   "total_seeds": 10
