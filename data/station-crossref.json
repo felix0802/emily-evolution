@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-20T04:37:42.548758",
+  "timestamp": "2026-11-20T14:29:39.489886",
   "connections": [
     {
       "seed_a": "Mamba (SSM)",
@@ -19,7 +19,24 @@
         "state"
       ],
       "strength": 13,
-      "discovered_at": "2026-11-20T04:37:42.548625"
+      "discovered_at": "2026-11-20T14:29:39.489774"
+    },
+    {
+      "seed_a": "Few-Shot Learning",
+      "seed_b": "Graph Neural Networks",
+      "shared_keywords": [],
+      "shared_paper_concepts": [
+        "cross",
+        "data",
+        "diffusion",
+        "from",
+        "generation",
+        "learning",
+        "network",
+        "neural"
+      ],
+      "strength": 11,
+      "discovered_at": "2026-11-20T14:29:39.489862"
     },
     {
       "seed_a": "Non-Transformer Arch",
@@ -36,7 +53,7 @@
         "when"
       ],
       "strength": 9,
-      "discovered_at": "2026-11-20T04:37:42.548720"
+      "discovered_at": "2026-11-20T14:29:39.489851"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -53,7 +70,7 @@
         "with"
       ],
       "strength": 8,
-      "discovered_at": "2026-11-20T04:37:42.548638"
+      "discovered_at": "2026-11-20T14:29:39.489785"
     },
     {
       "seed_a": "HTM",
@@ -69,7 +86,7 @@
         "time"
       ],
       "strength": 7,
-      "discovered_at": "2026-11-20T04:37:42.548674"
+      "discovered_at": "2026-11-20T14:29:39.489816"
     },
     {
       "seed_a": "Mixture of Experts",
@@ -85,7 +102,7 @@
         "without"
       ],
       "strength": 7,
-      "discovered_at": "2026-11-20T04:37:42.548744"
+      "discovered_at": "2026-11-20T14:29:39.489874"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -100,7 +117,7 @@
         "with"
       ],
       "strength": 6,
-      "discovered_at": "2026-11-20T04:37:42.548635"
+      "discovered_at": "2026-11-20T14:29:39.489782"
     },
     {
       "seed_a": "HTM",
@@ -115,7 +132,7 @@
         "when"
       ],
       "strength": 6,
-      "discovered_at": "2026-11-20T04:37:42.548668"
+      "discovered_at": "2026-11-20T14:29:39.489811"
     },
     {
       "seed_a": "Non-Transformer Arch",
@@ -130,7 +147,7 @@
         "with"
       ],
       "strength": 6,
-      "discovered_at": "2026-11-20T04:37:42.548713"
+      "discovered_at": "2026-11-20T14:29:39.489845"
     },
     {
       "seed_a": "Non-Transformer Arch",
@@ -145,22 +162,7 @@
         "with"
       ],
       "strength": 6,
-      "discovered_at": "2026-11-20T04:37:42.548717"
-    },
-    {
-      "seed_a": "Continual Learning",
-      "seed_b": "Graph Neural Networks",
-      "shared_keywords": [],
-      "shared_paper_concepts": [
-        "based",
-        "data",
-        "does",
-        "learning",
-        "networks",
-        "with"
-      ],
-      "strength": 6,
-      "discovered_at": "2026-11-20T04:37:42.548740"
+      "discovered_at": "2026-11-20T14:29:39.489848"
     }
   ],
   "total_seeds": 10

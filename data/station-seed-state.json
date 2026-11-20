@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 915,
+  "_rotation_idx": 916,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 114,
@@ -4540,18 +4540,9 @@
   },
   "few-shot": {
     "name": "Few-Shot Learning",
-    "total_papers_found": 55,
-    "watering_count": 93,
+    "total_papers_found": 57,
+    "watering_count": 94,
     "history": [
-      {
-        "timestamp": "2026-08-19T02:47:57.432221",
-        "papers_found": 0,
-        "duplicates": 5,
-        "irrelevant_filtered": 5,
-        "avg_relevance": 0.0,
-        "high_relevance": 0,
-        "papers": []
-      },
       {
         "timestamp": "2026-08-19T22:12:21.456219",
         "papers_found": 0,
@@ -5190,6 +5181,30 @@
             "seed_match_score": 1
           }
         ]
+      },
+      {
+        "timestamp": "2026-11-20T14:29:34.166510",
+        "papers_found": 2,
+        "duplicates": 4,
+        "irrelevant_filtered": 4,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "From Data Alignment to Parameter Generation: Few-Shot Cross-City Traffic Prediction with Conditional Diffusion",
+            "summary": "Accurate mobile traffic forecasting is crucial for network service management, supporting proactive capacity provisioning, congestion mitigation, and energy-efficient operation. However, many cities and regions are data-scarce (e.g., newly deployed or poorly instrumented areas), thus making traffic ",
+            "published": "2026-11-19",
+            "url": "http://arxiv.org/abs/2611.25592v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Passable for Whom? Few-Shot Learning for Personal Calibration of Sidewalk Accessibility Perception for Human-Centered Autonomous Driving",
+            "summary": "Whether a sidewalk is passable depends on who is trying to pass: people who use the same mobility aid disagree about the same image, so one label per scene, or per aid, is wrong for many of them. We introduce few-shot personal accessibility perception: from K answers of a person never seen before, p",
+            "published": "2026-11-15",
+            "url": "http://arxiv.org/abs/2611.19839v2",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -5199,7 +5214,7 @@
       "prototypical",
       "in-context"
     ],
-    "last_watered": "2026-11-17T05:27:56.797479"
+    "last_watered": "2026-11-20T14:29:34.166506"
   },
   "continual-learning": {
     "name": "Continual Learning",

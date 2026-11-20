@@ -81094,7 +81094,255 @@
         "state"
       ],
       "first_seen_round": 546
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.25813v1",
+      "title": "Efficient and Robust Drafting with Multi-Token Prediction",
+      "arxiv_id": "2611.25813",
+      "tokens": [
+        "drafting",
+        "multi",
+        "prediction",
+        "robust",
+        "token"
+      ],
+      "first_seen_round": 547
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.25433v1",
+      "title": "RoCoKV: Accelerating LLM Inference Serving through Uncertainty and Redundancy Aware KV Cache Compression",
+      "arxiv_id": "2611.25433",
+      "tokens": [
+        "accelerating",
+        "aware",
+        "cache",
+        "compression",
+        "inference",
+        "llm",
+        "redundancy",
+        "rocokv",
+        "serving",
+        "uncertainty"
+      ],
+      "first_seen_round": 547
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.24301v1",
+      "title": "LoopCache: Accelerating Long-Context Self-Speculative Decoding for Looped Transformers",
+      "arxiv_id": "2611.24301",
+      "tokens": [
+        "accelerating",
+        "context",
+        "decoding",
+        "long",
+        "loopcache",
+        "looped",
+        "self",
+        "speculative",
+        "transformers"
+      ],
+      "first_seen_round": 547
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.23570v1",
+      "title": "Safe to Omit, Worth Omitting? Keeping the Answer and Cutting Latency When an LLM Agent Skips Another's Message",
+      "arxiv_id": "2611.23570",
+      "tokens": [
+        "agent",
+        "another",
+        "answer",
+        "cutting",
+        "keeping",
+        "latency",
+        "llm",
+        "message",
+        "omit",
+        "omitting",
+        "safe",
+        "skips",
+        "worth"
+      ],
+      "first_seen_round": 547
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.22191v1",
+      "title": "RISA: Recoverable Sparse Attention for Block-Diffusion Language Models",
+      "arxiv_id": "2611.22191",
+      "tokens": [
+        "attention",
+        "block",
+        "diffusion",
+        "language",
+        "recoverable",
+        "risa",
+        "sparse"
+      ],
+      "first_seen_round": 547
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.26349v1",
+      "title": "Perfumer: A Large Language Model-based Agentic Framework Accelerating Structural Relaxation and Electronic Band Prediction for First-Principle Calculation",
+      "arxiv_id": "2611.26349",
+      "tokens": [
+        "accelerating",
+        "agentic",
+        "band",
+        "calculation",
+        "electronic",
+        "language",
+        "perfumer",
+        "prediction",
+        "principle",
+        "relaxation",
+        "structural"
+      ],
+      "first_seen_round": 547
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.26094v1",
+      "title": "Phantom of the Masquerade: Graph Neural Network-Based Detection of Masquerade Attacks in Controller Area Networks",
+      "arxiv_id": "2611.26094",
+      "tokens": [
+        "area",
+        "attacks",
+        "controller",
+        "detection",
+        "graph",
+        "masquerade",
+        "masquerade",
+        "neural",
+        "phantom"
+      ],
+      "first_seen_round": 547
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.25646v1",
+      "title": "AdsNet: A Graph Neural Network for Direct Adsorption Energy Prediction",
+      "arxiv_id": "2611.25646",
+      "tokens": [
+        "adsnet",
+        "adsorption",
+        "direct",
+        "energy",
+        "graph",
+        "neural",
+        "prediction"
+      ],
+      "first_seen_round": 547
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.25603v1",
+      "title": "On the Informativeness of Structural Stability Bounds for GNNs: GINs versus GATs",
+      "arxiv_id": "2611.25603",
+      "tokens": [
+        "bounds",
+        "gats",
+        "gins",
+        "gnns",
+        "informativeness",
+        "stability",
+        "structural",
+        "versus"
+      ],
+      "first_seen_round": 547
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.25273v1",
+      "title": "Scone: Symmetry-aware Neural Combinatorial Optimization for Graph Coloring",
+      "arxiv_id": "2611.25273",
+      "tokens": [
+        "aware",
+        "coloring",
+        "combinatorial",
+        "graph",
+        "neural",
+        "optimization",
+        "scone",
+        "symmetry"
+      ],
+      "first_seen_round": 547
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.26358v1",
+      "title": "Beam Model Technical Report",
+      "arxiv_id": "2611.26358",
+      "tokens": [
+        "beam",
+        "report",
+        "technical"
+      ],
+      "first_seen_round": 547
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.23835v1",
+      "title": "NarrowSpec: Draft Hidden Width Need Not Match the Target in Speculative Decoding",
+      "arxiv_id": "2611.23835",
+      "tokens": [
+        "decoding",
+        "draft",
+        "hidden",
+        "match",
+        "narrowspec",
+        "need",
+        "speculative",
+        "target",
+        "width"
+      ],
+      "first_seen_round": 547
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.23807v1",
+      "title": "Sightline: Long-Window Speculative Decoding for Fast SVG Generation",
+      "arxiv_id": "2611.23807",
+      "tokens": [
+        "decoding",
+        "fast",
+        "generation",
+        "long",
+        "sightline",
+        "speculative",
+        "svg",
+        "window"
+      ],
+      "first_seen_round": 547
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.25592v1",
+      "title": "From Data Alignment to Parameter Generation: Few-Shot Cross-City Traffic Prediction with Conditional Diffusion",
+      "arxiv_id": "2611.25592",
+      "tokens": [
+        "alignment",
+        "city",
+        "conditional",
+        "cross",
+        "diffusion",
+        "generation",
+        "parameter",
+        "prediction",
+        "shot",
+        "traffic"
+      ],
+      "first_seen_round": 547
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.19839v2",
+      "title": "Passable for Whom? Few-Shot Learning for Personal Calibration of Sidewalk Accessibility Perception for Human-Centered Autonomous Driving",
+      "arxiv_id": "2611.19839",
+      "tokens": [
+        "accessibility",
+        "autonomous",
+        "calibration",
+        "centered",
+        "driving",
+        "human",
+        "passable",
+        "perception",
+        "personal",
+        "shot",
+        "sidewalk"
+      ],
+      "first_seen_round": 547
     }
   ],
-  "total_unique": 5090
+  "total_unique": 5105
 }

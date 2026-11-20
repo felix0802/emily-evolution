@@ -6263,6 +6263,21 @@
         ],
         "decided_at": "2026-11-20T04:37:38.487365"
       }
+    },
+    {
+      "id": "llm-exact-global-kv-memory-savings",
+      "name": "Exact Global-KV Memory Savings via Architectural Reuse",
+      "adopted_at": "2026-11-20T14:29:39.385708",
+      "decision": {
+        "tech_id": "llm-exact-global-kv-memory-savings",
+        "tech_name": "Exact Global-KV Memory Savings via Architectural Reuse",
+        "action": "adopt",
+        "confidence": 0.7,
+        "reason": [
+          "预置技术(0.7)"
+        ],
+        "decided_at": "2026-11-20T14:29:39.383814"
+      }
     }
   ],
   "history": [
@@ -8767,6 +8782,12 @@
       "tech_id": "llm-固定大小历史表示（timestamped-recent-ev",
       "tech_name": "固定大小历史表示（Timestamped Recent Events + Statistical Summaries）",
       "timestamp": "2026-11-20T04:37:38.489924"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-exact-global-kv-memory-savings",
+      "tech_name": "Exact Global-KV Memory Savings via Architectural Reuse",
+      "timestamp": "2026-11-20T14:29:39.385711"
     }
   ]
 }
