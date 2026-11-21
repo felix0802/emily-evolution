@@ -81854,7 +81854,86 @@
         "parallelism"
       ],
       "first_seen_round": 549
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.26629v1",
+      "title": "Posterior Matching Distillation",
+      "arxiv_id": "2611.26629",
+      "tokens": [
+        "distillation",
+        "matching",
+        "posterior"
+      ],
+      "first_seen_round": 550
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.26615v1",
+      "title": "ScaleWorld: High-Resolution World Generation through Shared Prediction and Refinement",
+      "arxiv_id": "2611.26615",
+      "tokens": [
+        "generation",
+        "high",
+        "prediction",
+        "refinement",
+        "resolution",
+        "scaleworld",
+        "shared",
+        "world"
+      ],
+      "first_seen_round": 550
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.26595v1",
+      "title": "Coda-DaVinci: Reimagining Video Generation with Code2Video",
+      "arxiv_id": "2611.26595",
+      "tokens": [
+        "coda",
+        "code2video",
+        "davinci",
+        "generation",
+        "reimagining",
+        "video"
+      ],
+      "first_seen_round": 550
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.26569v1",
+      "title": "Text-Aware, Vision-Blind: How Multimodal Image Editing Systems Handle Unsafe Inputs",
+      "arxiv_id": "2611.26569",
+      "tokens": [
+        "aware",
+        "blind",
+        "editing",
+        "handle",
+        "image",
+        "inputs",
+        "multimodal",
+        "text",
+        "unsafe",
+        "vision"
+      ],
+      "first_seen_round": 550
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.26562v1",
+      "title": "Multi-institutional grading of Barrett's esophagus dysplasia without stain normalization using a pathology foundation model and multiple instance learning",
+      "arxiv_id": "2611.26562",
+      "tokens": [
+        "barrett",
+        "dysplasia",
+        "esophagus",
+        "foundation",
+        "grading",
+        "instance",
+        "institutional",
+        "multi",
+        "multiple",
+        "normalization",
+        "pathology",
+        "stain"
+      ],
+      "first_seen_round": 550
     }
   ],
-  "total_unique": 5137
+  "total_unique": 5142
 }

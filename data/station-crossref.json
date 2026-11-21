@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-21T04:31:28.473675",
+  "timestamp": "2026-11-21T13:48:22.225084",
   "connections": [
     {
       "seed_a": "Mamba (SSM)",
@@ -19,7 +19,7 @@
         "state"
       ],
       "strength": 13,
-      "discovered_at": "2026-11-21T04:31:28.473550"
+      "discovered_at": "2026-11-21T13:48:22.224981"
     },
     {
       "seed_a": "Few-Shot Learning",
@@ -36,7 +36,7 @@
         "neural"
       ],
       "strength": 11,
-      "discovered_at": "2026-11-21T04:31:28.473648"
+      "discovered_at": "2026-11-21T13:48:22.225062"
     },
     {
       "seed_a": "Non-Transformer Arch",
@@ -53,7 +53,7 @@
         "when"
       ],
       "strength": 9,
-      "discovered_at": "2026-11-21T04:31:28.473637"
+      "discovered_at": "2026-11-21T13:48:22.225053"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -70,24 +70,7 @@
         "with"
       ],
       "strength": 8,
-      "discovered_at": "2026-11-21T04:31:28.473559"
-    },
-    {
-      "seed_a": "Mamba (SSM)",
-      "seed_b": "KV Cache Optimization",
-      "shared_keywords": [],
-      "shared_paper_concepts": [
-        "exact",
-        "length",
-        "models",
-        "parallel",
-        "reasoning",
-        "recurrent",
-        "vision",
-        "with"
-      ],
-      "strength": 8,
-      "discovered_at": "2026-11-21T04:31:28.473562"
+      "discovered_at": "2026-11-21T13:48:22.224989"
     },
     {
       "seed_a": "Continual Learning",
@@ -104,7 +87,7 @@
         "without"
       ],
       "strength": 8,
-      "discovered_at": "2026-11-21T04:31:28.473652"
+      "discovered_at": "2026-11-21T13:48:22.225065"
     },
     {
       "seed_a": "HTM",
@@ -120,23 +103,7 @@
         "time"
       ],
       "strength": 7,
-      "discovered_at": "2026-11-21T04:31:28.473597"
-    },
-    {
-      "seed_a": "Mixture of Experts",
-      "seed_b": "KV Cache Optimization",
-      "shared_keywords": [],
-      "shared_paper_concepts": [
-        "compression",
-        "language",
-        "models",
-        "parallel",
-        "reasoning",
-        "with",
-        "without"
-      ],
-      "strength": 7,
-      "discovered_at": "2026-11-21T04:31:28.473661"
+      "discovered_at": "2026-11-21T13:48:22.225020"
     },
     {
       "seed_a": "HTM",
@@ -151,22 +118,50 @@
         "when"
       ],
       "strength": 6,
-      "discovered_at": "2026-11-21T04:31:28.473591"
+      "discovered_at": "2026-11-21T13:48:22.225015"
     },
     {
-      "seed_a": "Non-Transformer Arch",
-      "seed_b": "KV Cache Optimization",
+      "seed_a": "Mixture of Experts",
+      "seed_b": "Graph Neural Networks",
       "shared_keywords": [],
       "shared_paper_concepts": [
-        "attention",
-        "memory",
-        "models",
-        "policy",
-        "recurrent",
+        "from",
+        "learning",
+        "level",
+        "prediction",
+        "synthetic",
         "with"
       ],
       "strength": 6,
-      "discovered_at": "2026-11-21T04:31:28.473633"
+      "discovered_at": "2026-11-21T13:48:22.225076"
+    },
+    {
+      "seed_a": "Mamba (SSM)",
+      "seed_b": "KV Cache Optimization",
+      "shared_keywords": [],
+      "shared_paper_concepts": [
+        "exact",
+        "models",
+        "reasoning",
+        "vision",
+        "with"
+      ],
+      "strength": 5,
+      "discovered_at": "2026-11-21T13:48:22.224991"
+    },
+    {
+      "seed_a": "HTM",
+      "seed_b": "Graph Neural Networks",
+      "shared_keywords": [],
+      "shared_paper_concepts": [
+        "based",
+        "data",
+        "learning",
+        "mapping",
+        "when"
+      ],
+      "strength": 5,
+      "discovered_at": "2026-11-21T13:48:22.225028"
     }
   ],
   "total_seeds": 10
