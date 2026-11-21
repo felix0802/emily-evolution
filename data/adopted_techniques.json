@@ -6293,6 +6293,36 @@
         ],
         "decided_at": "2026-11-20T22:25:06.685650"
       }
+    },
+    {
+      "id": "llm-激活引导（activation-steering）",
+      "name": "激活引导（Activation Steering）",
+      "adopted_at": "2026-11-21T20:17:06.772836",
+      "decision": {
+        "tech_id": "llm-激活引导（activation-steering）",
+        "tech_name": "激活引导（Activation Steering）",
+        "action": "adopt",
+        "confidence": 0.9,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-11-21T20:17:06.767455"
+      }
+    },
+    {
+      "id": "llm-谱后继特征（spectral-successor-featu",
+      "name": "谱后继特征（Spectral Successor Features）",
+      "adopted_at": "2026-11-21T20:17:06.772877",
+      "decision": {
+        "tech_id": "llm-谱后继特征（spectral-successor-featu",
+        "tech_name": "谱后继特征（Spectral Successor Features）",
+        "action": "adopt",
+        "confidence": 0.85,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-11-21T20:17:06.767682"
+      }
     }
   ],
   "history": [
@@ -8809,6 +8839,18 @@
       "tech_id": "llm-低秩键与摊销值（low-ram）",
       "tech_name": "低秩键与摊销值（Low-RAM）",
       "timestamp": "2026-11-20T22:25:06.688886"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-激活引导（activation-steering）",
+      "tech_name": "激活引导（Activation Steering）",
+      "timestamp": "2026-11-21T20:17:06.772844"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-谱后继特征（spectral-successor-featu",
+      "tech_name": "谱后继特征（Spectral Successor Features）",
+      "timestamp": "2026-11-21T20:17:06.772879"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 919,
+  "_rotation_idx": 920,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 114,
@@ -8186,18 +8186,9 @@
   },
   "gnn": {
     "name": "Graph Neural Networks",
-    "total_papers_found": 177,
-    "watering_count": 90,
+    "total_papers_found": 179,
+    "watering_count": 91,
     "history": [
-      {
-        "timestamp": "2026-08-19T10:19:11.704993",
-        "papers_found": 0,
-        "duplicates": 0,
-        "irrelevant_filtered": 0,
-        "avg_relevance": 0,
-        "high_relevance": 0,
-        "papers": []
-      },
       {
         "timestamp": "2026-08-20T06:22:55.014168",
         "papers_found": 5,
@@ -9090,6 +9081,30 @@
             "seed_match_score": 1
           }
         ]
+      },
+      {
+        "timestamp": "2026-11-21T20:17:03.075760",
+        "papers_found": 2,
+        "duplicates": 5,
+        "irrelevant_filtered": 3,
+        "avg_relevance": 1.5,
+        "high_relevance": 1,
+        "papers": [
+          {
+            "title": "A Complete Geometric Message-Passing Architecture for Point Clouds",
+            "summary": "Three-dimensional point clouds are a fundamental data modality, and a large family of machine learning architectures has been developed to respect their natural symmetries to rigid motions and permutations. A principled way to compare these architectures, which vary widely in complexity and cost, is",
+            "published": "2026-11-19",
+            "url": "http://arxiv.org/abs/2611.26384v1",
+            "seed_match_score": 2
+          },
+          {
+            "title": "Predicting Surface Displacement Fields of Laser Powder Bed Fusion Parts Using STL-Derived Graphs and Part-Level Descriptors",
+            "summary": "Predicting part distortion before fabrication remains challenging in laser powder bed fusion (LPBF), while thermomechanical simulation is computationally expensive for repeated design evaluations. This study presents a two-branch graph attention network (GAT) to predict three-dimensional surface dis",
+            "published": "2026-11-19",
+            "url": "http://arxiv.org/abs/2611.26323v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -9101,6 +9116,6 @@
       "node embedding",
       "graph transformer"
     ],
-    "last_watered": "2026-11-18T14:41:52.635281"
+    "last_watered": "2026-11-21T20:17:03.075752"
   }
 }
