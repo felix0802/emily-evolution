@@ -6323,6 +6323,21 @@
         ],
         "decided_at": "2026-11-21T20:17:06.767682"
       }
+    },
+    {
+      "id": "llm-大语言模型智能体框架",
+      "name": "大语言模型智能体框架",
+      "adopted_at": "2026-11-22T08:57:32.013551",
+      "decision": {
+        "tech_id": "llm-大语言模型智能体框架",
+        "tech_name": "大语言模型智能体框架",
+        "action": "adopt",
+        "confidence": 0.9,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-11-22T08:57:32.010432"
+      }
     }
   ],
   "history": [
@@ -8851,6 +8866,12 @@
       "tech_id": "llm-谱后继特征（spectral-successor-featu",
       "tech_name": "谱后继特征（Spectral Successor Features）",
       "timestamp": "2026-11-21T20:17:06.772879"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-大语言模型智能体框架",
+      "tech_name": "大语言模型智能体框架",
+      "timestamp": "2026-11-22T08:57:32.013556"
     }
   ]
 }
