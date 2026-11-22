@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 922,
+  "_rotation_idx": 923,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 115,
@@ -1790,33 +1790,9 @@
   },
   "htm": {
     "name": "HTM",
-    "total_papers_found": 172,
-    "watering_count": 95,
+    "total_papers_found": 175,
+    "watering_count": 96,
     "history": [
-      {
-        "timestamp": "2026-08-19T16:17:00.017512",
-        "papers_found": 2,
-        "duplicates": 2,
-        "irrelevant_filtered": 6,
-        "avg_relevance": 1.0,
-        "high_relevance": 0,
-        "papers": [
-          {
-            "title": "Too Sure to Be Safe: Model Calibration for Reliable Log Anomaly Detection",
-            "summary": "Online log anomaly detection is critical for maintaining the reliability of large-scale computing systems. Although recent language model-based log anomaly detectors achieve strong detection performance, their confidence estimates remain poorly calibrated. We show that these detectors frequently ass",
-            "published": "2026-08-18",
-            "url": "http://arxiv.org/abs/2608.17965v1",
-            "seed_match_score": 1
-          },
-          {
-            "title": "Training-Free Human-in-the-Loop Anomaly Detection via Memory Bank Correction",
-            "summary": "Anomaly detectors are hardest to deploy exactly where training data is scarcest: a newly commissioned production line has a handful of verified \"golden\" samples and no machine-learning engineer on the factory floor. We present a training-free human-in-the-loop framework in which a domain expert corr",
-            "published": "2026-08-18",
-            "url": "http://arxiv.org/abs/2608.17775v1",
-            "seed_match_score": 1
-          }
-        ]
-      },
       {
         "timestamp": "2026-08-20T12:20:46.717598",
         "papers_found": 1,
@@ -2804,6 +2780,37 @@
             "seed_match_score": 1
           }
         ]
+      },
+      {
+        "timestamp": "2026-11-22T17:28:03.756419",
+        "papers_found": 3,
+        "duplicates": 1,
+        "irrelevant_filtered": 6,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "A Control-Theoretic Approximation to Predictive Coding Dynamics",
+            "summary": "Backpropagation remains the dominant method for training deep neural networks, but its reliance on non-local computations has motivated the search for biologically plausible alternatives. Two prominent frameworks, predictive coding (PC) and deep feedback control (DFC), offer distinct approaches to l",
+            "published": "2026-11-19",
+            "url": "http://arxiv.org/abs/2611.26319v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Approximate Adjoint Models for Memory and Compute-Efficient Online Learning of Hybrid Models",
+            "summary": "Differentiable programming enables online calibration of numerical models by minimizing errors accumulated along simulated trajectories. This includes estimating physical parameters and training neural sub-models in hybrid configurations. Gradients are typically computed using adjoint methods, or ba",
+            "published": "2026-11-19",
+            "url": "http://arxiv.org/abs/2611.26095v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Sequential Probability Assignment against Smoothed Adversaries with Unknown Base Measure",
+            "summary": "Smoothed online learning has recently been studied as a way to bypass hardness results for the fully adversarial setting, which can be overly pessimistic. In this framework, the adversary is constrained to generate contexts from distributions having a bounded density with respect to some fixed base ",
+            "published": "2026-11-19",
+            "url": "http://arxiv.org/abs/2611.25514v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -2818,7 +2825,7 @@
       "anomaly detection",
       "continuous learning"
     ],
-    "last_watered": "2026-11-19T14:48:22.467242"
+    "last_watered": "2026-11-22T17:28:03.756415"
   },
   "spiking-nn": {
     "name": "Spiking Neural Networks",
