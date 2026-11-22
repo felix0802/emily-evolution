@@ -1,19 +1,10 @@
 {
-  "_rotation_idx": 920,
+  "_rotation_idx": 921,
   "mamba": {
     "name": "Mamba (SSM)",
-    "total_papers_found": 114,
-    "watering_count": 95,
+    "total_papers_found": 115,
+    "watering_count": 96,
     "history": [
-      {
-        "timestamp": "2026-08-19T12:20:59.660359",
-        "papers_found": 0,
-        "duplicates": 6,
-        "irrelevant_filtered": 4,
-        "avg_relevance": 0.0,
-        "high_relevance": 0,
-        "papers": []
-      },
       {
         "timestamp": "2026-08-20T08:22:24.158082",
         "papers_found": 1,
@@ -856,6 +847,23 @@
             "seed_match_score": 2
           }
         ]
+      },
+      {
+        "timestamp": "2026-11-22T01:43:27.935120",
+        "papers_found": 1,
+        "duplicates": 7,
+        "irrelevant_filtered": 2,
+        "avg_relevance": 2.0,
+        "high_relevance": 1,
+        "papers": [
+          {
+            "title": "MambaLIFT: Reference-Based Mechanism-Aware Attribution for VMamba",
+            "summary": "Attributing predictions of visual state-space models remains challenging because input-dependent selective dynamics couple feature selection, recurrent state propagation, and shared computational pathways. We introduce MambaLIFT, a reference-based, multiplier-first attribution framework for VMamba t",
+            "published": "2026-11-19",
+            "url": "http://arxiv.org/abs/2611.25644v1",
+            "seed_match_score": 2
+          }
+        ]
       }
     ],
     "keywords": [
@@ -864,7 +872,7 @@
       "ssm",
       "selective scan"
     ],
-    "last_watered": "2026-11-18T22:44:36.394901"
+    "last_watered": "2026-11-22T01:43:27.935115"
   },
   "liquid-networks": {
     "name": "Liquid Networks",
