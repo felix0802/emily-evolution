@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 923,
+  "_rotation_idx": 924,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 115,
@@ -2830,17 +2830,8 @@
   "spiking-nn": {
     "name": "Spiking Neural Networks",
     "total_papers_found": 76,
-    "watering_count": 94,
+    "watering_count": 95,
     "history": [
-      {
-        "timestamp": "2026-08-19T18:15:29.765169",
-        "papers_found": 0,
-        "duplicates": 10,
-        "irrelevant_filtered": 0,
-        "avg_relevance": 0.0,
-        "high_relevance": 0,
-        "papers": []
-      },
       {
         "timestamp": "2026-08-20T14:23:27.094181",
         "papers_found": 0,
@@ -3629,6 +3620,15 @@
             "seed_match_score": 3
           }
         ]
+      },
+      {
+        "timestamp": "2026-11-22T22:54:08.760737",
+        "papers_found": 0,
+        "duplicates": 10,
+        "irrelevant_filtered": 0,
+        "avg_relevance": 0.0,
+        "high_relevance": 0,
+        "papers": []
       }
     ],
     "keywords": [
@@ -3637,7 +3637,7 @@
       "neuromorphic",
       "spike-timing"
     ],
-    "last_watered": "2026-11-19T22:48:13.402137"
+    "last_watered": "2026-11-22T22:54:08.760731"
   },
   "non-transformer": {
     "name": "Non-Transformer Arch",
