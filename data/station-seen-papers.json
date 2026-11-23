@@ -82409,7 +82409,54 @@
         "unknown"
       ],
       "first_seen_round": 554
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.27131v1",
+      "title": "Distillation with Errors: Sparse Unbiased Backpropagation for Knowledge Distillation",
+      "arxiv_id": "2611.27131",
+      "tokens": [
+        "backpropagation",
+        "distillation",
+        "distillation",
+        "errors",
+        "knowledge",
+        "sparse",
+        "unbiased"
+      ],
+      "first_seen_round": 556
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.27109v1",
+      "title": "Recurrent Amplification and Exact Nonexpansiveness Criteria for Query-Driven Erasure",
+      "arxiv_id": "2611.27109",
+      "tokens": [
+        "amplification",
+        "criteria",
+        "driven",
+        "erasure",
+        "exact",
+        "nonexpansiveness",
+        "query",
+        "recurrent"
+      ],
+      "first_seen_round": 556
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.26856v1",
+      "title": "Self-Supervised Learning with Recursive Quadrature Filters for Neural Time Series",
+      "arxiv_id": "2611.26856",
+      "tokens": [
+        "filters",
+        "neural",
+        "quadrature",
+        "recursive",
+        "self",
+        "series",
+        "supervised",
+        "time"
+      ],
+      "first_seen_round": 556
     }
   ],
-  "total_unique": 5173
+  "total_unique": 5176
 }

@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-22T22:54:16.398949",
+  "timestamp": "2026-11-23T04:22:14.315626",
   "connections": [
     {
       "seed_a": "Mamba (SSM)",
@@ -9,32 +9,16 @@
         "state space"
       ],
       "shared_paper_concepts": [
-        "efficient",
+        "erasure",
+        "exact",
         "mamba",
         "models",
         "space",
         "state",
         "with"
       ],
-      "strength": 10,
-      "discovered_at": "2026-11-22T22:54:16.398798"
-    },
-    {
-      "seed_a": "HTM",
-      "seed_b": "Non-Transformer Arch",
-      "shared_keywords": [],
-      "shared_paper_concepts": [
-        "efficient",
-        "hybrid",
-        "memory",
-        "models",
-        "series",
-        "time",
-        "when",
-        "with"
-      ],
-      "strength": 8,
-      "discovered_at": "2026-11-22T22:54:16.398845"
+      "strength": 11,
+      "discovered_at": "2026-11-23T04:22:14.315463"
     },
     {
       "seed_a": "HTM",
@@ -51,24 +35,7 @@
         "with"
       ],
       "strength": 8,
-      "discovered_at": "2026-11-22T22:54:16.398853"
-    },
-    {
-      "seed_a": "Non-Transformer Arch",
-      "seed_b": "Graph Neural Networks",
-      "shared_keywords": [],
-      "shared_paper_concepts": [
-        "attention",
-        "fields",
-        "neural",
-        "prediction",
-        "representation",
-        "temperature",
-        "when",
-        "with"
-      ],
-      "strength": 8,
-      "discovered_at": "2026-11-22T22:54:16.398903"
+      "discovered_at": "2026-11-23T04:22:14.315525"
     },
     {
       "seed_a": "Continual Learning",
@@ -85,7 +52,7 @@
         "without"
       ],
       "strength": 8,
-      "discovered_at": "2026-11-22T22:54:16.398921"
+      "discovered_at": "2026-11-23T04:22:14.315596"
     },
     {
       "seed_a": "Few-Shot Learning",
@@ -101,7 +68,22 @@
         "with"
       ],
       "strength": 7,
-      "discovered_at": "2026-11-22T22:54:16.398917"
+      "discovered_at": "2026-11-23T04:22:14.315592"
+    },
+    {
+      "seed_a": "HTM",
+      "seed_b": "Non-Transformer Arch",
+      "shared_keywords": [],
+      "shared_paper_concepts": [
+        "hybrid",
+        "learning",
+        "models",
+        "series",
+        "time",
+        "with"
+      ],
+      "strength": 6,
+      "discovered_at": "2026-11-23T04:22:14.315516"
     },
     {
       "seed_a": "HTM",
@@ -116,7 +98,7 @@
         "with"
       ],
       "strength": 6,
-      "discovered_at": "2026-11-22T22:54:16.398858"
+      "discovered_at": "2026-11-23T04:22:14.315529"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -130,7 +112,7 @@
         "with"
       ],
       "strength": 5,
-      "discovered_at": "2026-11-22T22:54:16.398809"
+      "discovered_at": "2026-11-23T04:22:14.315475"
     },
     {
       "seed_a": "HTM",
@@ -144,21 +126,35 @@
         "with"
       ],
       "strength": 5,
-      "discovered_at": "2026-11-22T22:54:16.398841"
+      "discovered_at": "2026-11-23T04:22:14.315511"
     },
     {
-      "seed_a": "Spiking Neural Networks",
-      "seed_b": "Non-Transformer Arch",
+      "seed_a": "Non-Transformer Arch",
+      "seed_b": "KV Cache Optimization",
       "shared_keywords": [],
       "shared_paper_concepts": [
-        "adaptive",
-        "efficient",
-        "neural",
-        "time",
+        "attention",
+        "exact",
+        "models",
+        "policy",
         "with"
       ],
       "strength": 5,
-      "discovered_at": "2026-11-22T22:54:16.398869"
+      "discovered_at": "2026-11-23T04:22:14.315573"
+    },
+    {
+      "seed_a": "Non-Transformer Arch",
+      "seed_b": "Graph Neural Networks",
+      "shared_keywords": [],
+      "shared_paper_concepts": [
+        "attention",
+        "fields",
+        "learning",
+        "neural",
+        "with"
+      ],
+      "strength": 5,
+      "discovered_at": "2026-11-23T04:22:14.315577"
     }
   ],
   "total_seeds": 10

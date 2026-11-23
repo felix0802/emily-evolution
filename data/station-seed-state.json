@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 924,
+  "_rotation_idx": 925,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 115,
@@ -3641,18 +3641,9 @@
   },
   "non-transformer": {
     "name": "Non-Transformer Arch",
-    "total_papers_found": 90,
-    "watering_count": 95,
+    "total_papers_found": 92,
+    "watering_count": 96,
     "history": [
-      {
-        "timestamp": "2026-08-19T20:12:32.309754",
-        "papers_found": 0,
-        "duplicates": 7,
-        "irrelevant_filtered": 3,
-        "avg_relevance": 0.0,
-        "high_relevance": 0,
-        "papers": []
-      },
       {
         "timestamp": "2026-08-20T16:19:27.682915",
         "papers_found": 0,
@@ -4531,6 +4522,30 @@
             "seed_match_score": 1
           }
         ]
+      },
+      {
+        "timestamp": "2026-11-23T04:22:08.895737",
+        "papers_found": 2,
+        "duplicates": 4,
+        "irrelevant_filtered": 4,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "Recurrent Amplification and Exact Nonexpansiveness Criteria for Query-Driven Erasure",
+            "summary": "The Query-derived Erase Direction (QED) augments a rank-one linear attention update with a key-orthogonal query component. Under scalar decay, this correction leaves the eigenvalues of each homogeneous state transition unchanged, while the propagation of an initial perturbation depends on the ordere",
+            "published": "2026-11-20",
+            "url": "http://arxiv.org/abs/2611.27109v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Self-Supervised Learning with Recursive Quadrature Filters for Neural Time Series",
+            "summary": "We develop self-supervised methods for training Recursive Quadrature Filter (RQF) encoders on unlabeled time series. RQFs are biologically motivated, complex-valued temporal filters that form a special class of diagonal state-space models (SSMs). Each RQF acts as a band-pass filter whose selectivity",
+            "published": "2026-11-19",
+            "url": "http://arxiv.org/abs/2611.26856v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -4543,7 +4558,7 @@
       "sub-quadratic",
       "mamba"
     ],
-    "last_watered": "2026-11-20T04:37:29.825350"
+    "last_watered": "2026-11-23T04:22:08.895730"
   },
   "few-shot": {
     "name": "Few-Shot Learning",

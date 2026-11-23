@@ -279,19 +279,18 @@
   },
   "non-transformer": {
     "name": "Non-Transformer Arch",
-    "total_new_papers": 90,
-    "total_watering": 83,
+    "total_new_papers": 92,
+    "total_watering": 84,
     "all_keywords_matched": [
-      "linear recurrent",
       "state space",
-      "efficient transformer",
-      "rwkv",
-      "linear attention",
       "mamba",
-      "gated linear"
+      "gated linear",
+      "rwkv",
+      "linear recurrent",
+      "efficient transformer",
+      "linear attention"
     ],
     "avg_relevance_trend": [
-      1.2,
       1.0,
       1.0,
       1.0,
@@ -310,11 +309,12 @@
       1.33,
       1.25,
       0.0,
-      1.25
+      1.25,
+      1.0
     ],
     "high_relevance_total": 13,
     "best_papers": [],
-    "last_updated": "2026-11-20T04:37:29.824810"
+    "last_updated": "2026-11-23T04:22:08.895050"
   },
   "continual-learning": {
     "name": "Continual Learning",
