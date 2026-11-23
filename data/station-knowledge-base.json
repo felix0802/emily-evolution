@@ -1,53 +1,6 @@
 {
   "sessions": [
     {
-      "timestamp": "2026-10-26T21:59:43.276022",
-      "arxiv_papers_count": 18,
-      "arxiv_top_keywords": [
-        "world",
-        "learning",
-        "time",
-        "temporal",
-        "cross",
-        "series",
-        "framework",
-        "transfer",
-        "indoor",
-        "localization"
-      ],
-      "arxiv_strategies": [
-        "搜索: graph neural network",
-        "搜索: transfer learning",
-        "搜索: world model"
-      ],
-      "huggingface_models": 10,
-      "huggingface_tasks": [
-        "sentence-similarity",
-        "unknown",
-        "text-generation",
-        "text-ranking",
-        "feature-extraction"
-      ],
-      "ml_datasets": [
-        "Iris",
-        "Wine",
-        "Breast Cancer",
-        "Diabetes"
-      ],
-      "ml_total_tests": 22,
-      "github_trending_repos": 8,
-      "paperswithcode_papers": 8,
-      "evolution": {
-        "discovered": 18,
-        "adopted": 0,
-        "decisions": 0
-      },
-      "seed_watering": {
-        "seed_name": "Few-Shot Learning",
-        "papers_found": 7
-      }
-    },
-    {
       "timestamp": "2026-10-27T01:09:06.662838",
       "arxiv_papers_count": 17,
       "arxiv_top_keywords": [
@@ -4699,12 +4652,59 @@
         "seed_name": "Non-Transformer Arch",
         "papers_found": 6
       }
+    },
+    {
+      "timestamp": "2026-11-23T16:40:42.633465",
+      "arxiv_papers_count": 21,
+      "arxiv_top_keywords": [
+        "language",
+        "regression",
+        "linear",
+        "topology",
+        "vlms",
+        "attention",
+        "bench",
+        "moment",
+        "finite",
+        "variance"
+      ],
+      "arxiv_strategies": [
+        "cs.AI 最新",
+        "cs.LG 最新",
+        "cs.CL 最新"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "automatic-speech-recognition",
+        "text-ranking",
+        "time-series-forecasting",
+        "feature-extraction"
+      ],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 23,
+        "adopted": 2,
+        "decisions": 2
+      },
+      "seed_watering": {
+        "seed_name": "Few-Shot Learning",
+        "papers_found": 6
+      }
     }
   ],
   "total_sessions": 101,
-  "last_updated": "2026-11-23T04:22:14.293412",
+  "last_updated": "2026-11-23T16:40:42.633483",
   "evolution_summary": {
-    "total_adopted": 423,
+    "total_adopted": 425,
     "adopted_list": [
       "Knowledge Distillation",
       "World Models / Model-Based RL",
@@ -5128,7 +5128,9 @@
       "激活引导（Activation Steering）",
       "谱后继特征（Spectral Successor Features）",
       "大语言模型智能体框架",
-      "Channel-independent 与 channel-dependent 互补建模"
+      "Channel-independent 与 channel-dependent 互补建模",
+      "黑盒归约 (Black-box reduction)",
+      "NoPeBench 基准"
     ],
     "seeds": {
       "mamba": {
@@ -5158,7 +5160,7 @@
       },
       "few-shot": {
         "name": "Few-Shot Learning",
-        "watering": 94,
+        "watering": 95,
         "papers": 57
       },
       "continual-learning": {
@@ -5207,7 +5209,7 @@
           "prototypical"
         ],
         "high_relevance_total": 9,
-        "avg_relevance_latest": 1.0,
+        "avg_relevance_latest": 0.0,
         "best_papers_count": 0
       },
       "mamba": {
@@ -5328,6 +5330,6 @@
         "best_papers_count": 1
       }
     },
-    "last_evolution": "2026-11-23T04:22:14.298345"
+    "last_evolution": "2026-11-23T16:40:42.637682"
   }
 }

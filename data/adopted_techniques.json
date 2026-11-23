@@ -6353,6 +6353,36 @@
         ],
         "decided_at": "2026-11-22T17:28:08.364132"
       }
+    },
+    {
+      "id": "llm-黑盒归约-(black-box-reduction)",
+      "name": "黑盒归约 (Black-box reduction)",
+      "adopted_at": "2026-11-23T16:40:39.079557",
+      "decision": {
+        "tech_id": "llm-黑盒归约-(black-box-reduction)",
+        "tech_name": "黑盒归约 (Black-box reduction)",
+        "action": "adopt",
+        "confidence": 0.9,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-11-23T16:40:39.076332"
+      }
+    },
+    {
+      "id": "llm-nopebench-基准",
+      "name": "NoPeBench 基准",
+      "adopted_at": "2026-11-23T16:40:39.079588",
+      "decision": {
+        "tech_id": "llm-nopebench-基准",
+        "tech_name": "NoPeBench 基准",
+        "action": "adopt",
+        "confidence": 0.85,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-11-23T16:40:39.076560"
+      }
     }
   ],
   "history": [
@@ -8893,6 +8923,18 @@
       "tech_id": "llm-channel-independent-与-channel-",
       "tech_name": "Channel-independent 与 channel-dependent 互补建模",
       "timestamp": "2026-11-22T17:28:08.366662"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-黑盒归约-(black-box-reduction)",
+      "tech_name": "黑盒归约 (Black-box reduction)",
+      "timestamp": "2026-11-23T16:40:39.079564"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-nopebench-基准",
+      "tech_name": "NoPeBench 基准",
+      "timestamp": "2026-11-23T16:40:39.079590"
     }
   ]
 }
