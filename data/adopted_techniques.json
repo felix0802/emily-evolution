@@ -6383,6 +6383,21 @@
         ],
         "decided_at": "2026-11-23T16:40:39.076560"
       }
+    },
+    {
+      "id": "llm-gaussian-splatting",
+      "name": "Gaussian Splatting",
+      "adopted_at": "2026-11-24T03:32:16.579730",
+      "decision": {
+        "tech_id": "llm-gaussian-splatting",
+        "tech_name": "Gaussian Splatting",
+        "action": "adopt",
+        "confidence": 0.9,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-11-24T03:32:16.576334"
+      }
     }
   ],
   "history": [
@@ -8935,6 +8950,12 @@
       "tech_id": "llm-nopebench-基准",
       "tech_name": "NoPeBench 基准",
       "timestamp": "2026-11-23T16:40:39.079590"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-gaussian-splatting",
+      "tech_name": "Gaussian Splatting",
+      "timestamp": "2026-11-24T03:32:16.579737"
     }
   ]
 }
