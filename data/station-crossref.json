@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-24T03:32:16.611017",
+  "timestamp": "2026-11-24T14:25:32.380304",
   "connections": [
     {
       "seed_a": "Mamba (SSM)",
@@ -18,24 +18,7 @@
         "with"
       ],
       "strength": 11,
-      "discovered_at": "2026-11-24T03:32:16.610864"
-    },
-    {
-      "seed_a": "Continual Learning",
-      "seed_b": "Mixture of Experts",
-      "shared_keywords": [],
-      "shared_paper_concepts": [
-        "learning",
-        "model",
-        "reinforcement",
-        "role",
-        "training",
-        "unlearning",
-        "with",
-        "without"
-      ],
-      "strength": 8,
-      "discovered_at": "2026-11-24T03:32:16.610989"
+      "discovered_at": "2026-11-24T14:25:32.380156"
     },
     {
       "seed_a": "Few-Shot Learning",
@@ -51,7 +34,7 @@
         "with"
       ],
       "strength": 7,
-      "discovered_at": "2026-11-24T03:32:16.610984"
+      "discovered_at": "2026-11-24T14:25:32.380274"
     },
     {
       "seed_a": "HTM",
@@ -66,7 +49,7 @@
         "with"
       ],
       "strength": 6,
-      "discovered_at": "2026-11-24T03:32:16.610911"
+      "discovered_at": "2026-11-24T14:25:32.380204"
     },
     {
       "seed_a": "HTM",
@@ -81,36 +64,7 @@
         "with"
       ],
       "strength": 6,
-      "discovered_at": "2026-11-24T03:32:16.610919"
-    },
-    {
-      "seed_a": "HTM",
-      "seed_b": "Mixture of Experts",
-      "shared_keywords": [],
-      "shared_paper_concepts": [
-        "against",
-        "efficient",
-        "learning",
-        "models",
-        "multi",
-        "with"
-      ],
-      "strength": 6,
-      "discovered_at": "2026-11-24T03:32:16.610923"
-    },
-    {
-      "seed_a": "Mamba (SSM)",
-      "seed_b": "Mixture of Experts",
-      "shared_keywords": [],
-      "shared_paper_concepts": [
-        "efficient",
-        "model",
-        "models",
-        "token",
-        "with"
-      ],
-      "strength": 5,
-      "discovered_at": "2026-11-24T03:32:16.610875"
+      "discovered_at": "2026-11-24T14:25:32.380211"
     },
     {
       "seed_a": "HTM",
@@ -124,7 +78,7 @@
         "with"
       ],
       "strength": 5,
-      "discovered_at": "2026-11-24T03:32:16.610907"
+      "discovered_at": "2026-11-24T14:25:32.380199"
     },
     {
       "seed_a": "Non-Transformer Arch",
@@ -138,7 +92,7 @@
         "with"
       ],
       "strength": 5,
-      "discovered_at": "2026-11-24T03:32:16.610965"
+      "discovered_at": "2026-11-24T14:25:32.380256"
     },
     {
       "seed_a": "Non-Transformer Arch",
@@ -152,7 +106,46 @@
         "with"
       ],
       "strength": 5,
-      "discovered_at": "2026-11-24T03:32:16.610969"
+      "discovered_at": "2026-11-24T14:25:32.380260"
+    },
+    {
+      "seed_a": "Mamba (SSM)",
+      "seed_b": "HTM",
+      "shared_keywords": [],
+      "shared_paper_concepts": [
+        "based",
+        "efficient",
+        "models",
+        "with"
+      ],
+      "strength": 4,
+      "discovered_at": "2026-11-24T14:25:32.380143"
+    },
+    {
+      "seed_a": "Mamba (SSM)",
+      "seed_b": "KV Cache Optimization",
+      "shared_keywords": [],
+      "shared_paper_concepts": [
+        "exact",
+        "models",
+        "vision",
+        "with"
+      ],
+      "strength": 4,
+      "discovered_at": "2026-11-24T14:25:32.380170"
+    },
+    {
+      "seed_a": "HTM",
+      "seed_b": "Mixture of Experts",
+      "shared_keywords": [],
+      "shared_paper_concepts": [
+        "against",
+        "efficient",
+        "models",
+        "multi"
+      ],
+      "strength": 4,
+      "discovered_at": "2026-11-24T14:25:32.380215"
     }
   ],
   "total_seeds": 10

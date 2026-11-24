@@ -1,53 +1,6 @@
 {
   "sessions": [
     {
-      "timestamp": "2026-10-27T06:56:24.375477",
-      "arxiv_papers_count": 17,
-      "arxiv_top_keywords": [
-        "draft",
-        "cache",
-        "graph",
-        "target",
-        "decoding",
-        "context",
-        "speculative",
-        "long",
-        "session",
-        "degradation"
-      ],
-      "arxiv_strategies": [
-        "搜索: kv cache LLM",
-        "搜索: graph neural network recent",
-        "搜索: speculative decoding"
-      ],
-      "huggingface_models": 10,
-      "huggingface_tasks": [
-        "sentence-similarity",
-        "unknown",
-        "text-generation",
-        "text-ranking",
-        "feature-extraction"
-      ],
-      "ml_datasets": [
-        "Iris",
-        "Wine",
-        "Breast Cancer",
-        "Diabetes"
-      ],
-      "ml_total_tests": 22,
-      "github_trending_repos": 8,
-      "paperswithcode_papers": 8,
-      "evolution": {
-        "discovered": 20,
-        "adopted": 0,
-        "decisions": 0
-      },
-      "seed_watering": {
-        "seed_name": "Mixture of Experts",
-        "papers_found": 5
-      }
-    },
-    {
       "timestamp": "2026-10-27T13:41:52.473499",
       "arxiv_papers_count": 18,
       "arxiv_top_keywords": [
@@ -4699,12 +4652,59 @@
         "seed_name": "Continual Learning",
         "papers_found": 8
       }
+    },
+    {
+      "timestamp": "2026-11-24T14:25:32.359341",
+      "arxiv_papers_count": 5,
+      "arxiv_top_keywords": [
+        "error",
+        "language",
+        "steer",
+        "uncertainty",
+        "situ",
+        "findings",
+        "ctlink",
+        "scans",
+        "text",
+        "report"
+      ],
+      "arxiv_strategies": [
+        "cs.AI (fallback)",
+        "cs.AI (fallback)",
+        "cs.AI (fallback)"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "automatic-speech-recognition",
+        "text-ranking",
+        "time-series-forecasting",
+        "feature-extraction"
+      ],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 16,
+        "adopted": 2,
+        "decisions": 2
+      },
+      "seed_watering": {
+        "seed_name": "Mixture of Experts",
+        "papers_found": 4
+      }
     }
   ],
   "total_sessions": 101,
-  "last_updated": "2026-11-24T03:32:16.592351",
+  "last_updated": "2026-11-24T14:25:32.359356",
   "evolution_summary": {
-    "total_adopted": 426,
+    "total_adopted": 428,
     "adopted_list": [
       "Knowledge Distillation",
       "World Models / Model-Based RL",
@@ -5131,7 +5131,9 @@
       "Channel-independent 与 channel-dependent 互补建模",
       "黑盒归约 (Black-box reduction)",
       "NoPeBench 基准",
-      "Gaussian Splatting"
+      "Gaussian Splatting",
+      "不确定性 token 注入",
+      "文本提示 3D 分割"
     ],
     "seeds": {
       "mamba": {
@@ -5171,8 +5173,8 @@
       },
       "moe": {
         "name": "Mixture of Experts",
-        "watering": 89,
-        "papers": 151
+        "watering": 90,
+        "papers": 155
       },
       "kv-cache": {
         "name": "KV Cache Optimization",
@@ -5304,16 +5306,16 @@
       },
       "moe": {
         "name": "Mixture of Experts",
-        "new_papers": 151,
+        "new_papers": 155,
         "keywords_matched": [
-          "router",
           "expert routing",
+          "deepseek",
           "moe",
-          "mixture of experts",
-          "deepseek"
+          "router",
+          "mixture of experts"
         ],
-        "high_relevance_total": 107,
-        "avg_relevance_latest": 1.33,
+        "high_relevance_total": 110,
+        "avg_relevance_latest": 1.75,
         "best_papers_count": 10
       },
       "kv-cache": {
@@ -5331,6 +5333,6 @@
         "best_papers_count": 1
       }
     },
-    "last_evolution": "2026-11-24T03:32:16.596923"
+    "last_evolution": "2026-11-24T14:25:32.363593"
   }
 }

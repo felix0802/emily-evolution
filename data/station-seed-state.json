@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 927,
+  "_rotation_idx": 928,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 115,
@@ -6244,26 +6244,9 @@
   },
   "moe": {
     "name": "Mixture of Experts",
-    "total_papers_found": 151,
-    "watering_count": 89,
+    "total_papers_found": 155,
+    "watering_count": 90,
     "history": [
-      {
-        "timestamp": "2026-08-20T02:46:57.614959",
-        "papers_found": 1,
-        "duplicates": 6,
-        "irrelevant_filtered": 3,
-        "avg_relevance": 3.0,
-        "high_relevance": 1,
-        "papers": [
-          {
-            "title": "Cacheable by Design? Training Mixture-of-Experts Routers for Locality Against the Edge Memory-Bandwidth Wall: A Pre-Registered Negative Result with a Systems Measurement Study",
-            "summary": "Serving a 235B-parameter Mixture-of-Experts (MoE) model on a single 8 GB GPU is bottlenecked not by compute but by memory bandwidth: decode must stream each token's active experts from whichever tier holds them, and on consumer hardware most experts sit on an SSD far slower than RAM. We quantify thi",
-            "published": "2026-08-18",
-            "url": "http://arxiv.org/abs/2608.18261v1",
-            "seed_match_score": 3
-          }
-        ]
-      },
       {
         "timestamp": "2026-08-20T22:14:04.057904",
         "papers_found": 0,
@@ -7222,6 +7205,37 @@
             "seed_match_score": 2
           }
         ]
+      },
+      {
+        "timestamp": "2026-11-24T14:25:23.755131",
+        "papers_found": 4,
+        "duplicates": 0,
+        "irrelevant_filtered": 1,
+        "avg_relevance": 1.75,
+        "high_relevance": 3,
+        "papers": [
+          {
+            "title": "DyLoMo-DiT: Dynamic Looped Mixture-of-Experts Diffusion Transformers",
+            "summary": "Diffusion Transformers (DiTs) scale model capacity by increasing both parameter count and computation. Mixture-of-Experts (MoE) variants expand parameter capacity while keeping per-token computation roughly fixed, but still require substantial parameter storage. In this paper, we propose Dynamic Loo",
+            "published": "2026-11-23",
+            "url": "http://arxiv.org/abs/2611.30844v1",
+            "seed_match_score": 2
+          },
+          {
+            "title": "GC-MoE K3: A Green-Context Role Graph for Latent Mixture-of-Experts Decode",
+            "summary": "Kimi K3 combines a latent routed mixture of experts with full-width shared experts. A complete feed-forward evaluation must score and select experts, project tokens into the latent space, exchange tokens across expert-parallel ranks, compute the routed and shared branches, and normalize and project ",
+            "published": "2026-11-23",
+            "url": "http://arxiv.org/abs/2611.30542v1",
+            "seed_match_score": 2
+          },
+          {
+            "title": "HME-PFD: Heterogeneous Mixture-of-Experts Privileged Feature Distillation",
+            "summary": "Knowledge distillation (KD) is widely used to transfer knowledge from large teacher models to smaller student models, facilitating efficient serving of machine learning systems. In the context of ads recommendation, privileged features distillation (PFD) extends KD by allowing the teacher model to l",
+            "published": "2026-11-21",
+            "url": "http://arxiv.org/abs/2611.29094v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -7233,7 +7247,7 @@
       "switch transformer",
       "deepseek"
     ],
-    "last_watered": "2026-11-21T04:31:23.382903"
+    "last_watered": "2026-11-24T14:25:23.755124"
   },
   "kv-cache": {
     "name": "KV Cache Optimization",

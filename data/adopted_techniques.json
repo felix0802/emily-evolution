@@ -6398,6 +6398,36 @@
         ],
         "decided_at": "2026-11-24T03:32:16.576334"
       }
+    },
+    {
+      "id": "llm-不确定性-token-注入",
+      "name": "不确定性 token 注入",
+      "adopted_at": "2026-11-24T14:25:28.614293",
+      "decision": {
+        "tech_id": "llm-不确定性-token-注入",
+        "tech_name": "不确定性 token 注入",
+        "action": "adopt",
+        "confidence": 0.9,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-11-24T14:25:28.610708"
+      }
+    },
+    {
+      "id": "llm-文本提示-3d-分割",
+      "name": "文本提示 3D 分割",
+      "adopted_at": "2026-11-24T14:25:28.614326",
+      "decision": {
+        "tech_id": "llm-文本提示-3d-分割",
+        "tech_name": "文本提示 3D 分割",
+        "action": "adopt",
+        "confidence": 0.85,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-11-24T14:25:28.611002"
+      }
     }
   ],
   "history": [
@@ -8956,6 +8986,18 @@
       "tech_id": "llm-gaussian-splatting",
       "tech_name": "Gaussian Splatting",
       "timestamp": "2026-11-24T03:32:16.579737"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-不确定性-token-注入",
+      "tech_name": "不确定性 token 注入",
+      "timestamp": "2026-11-24T14:25:28.614298"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-文本提示-3d-分割",
+      "tech_name": "文本提示 3D 分割",
+      "timestamp": "2026-11-24T14:25:28.614328"
     }
   ]
 }

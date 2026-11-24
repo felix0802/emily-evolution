@@ -83196,7 +83196,158 @@
         "policy"
       ],
       "first_seen_round": 558
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.31228v1",
+      "title": "Language Models Steer on Injected Uncertainty Tokens, but Fail to Self-Monitor In Situ",
+      "arxiv_id": "2611.31228",
+      "tokens": [
+        "fail",
+        "injected",
+        "language",
+        "monitor",
+        "self",
+        "situ",
+        "steer",
+        "tokens",
+        "uncertainty"
+      ],
+      "first_seen_round": 559
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.31222v1",
+      "title": "CTLink: A Text-Prompted Segmentation Model for Linking Radiology Report Findings to 3D Chest CT Scans",
+      "arxiv_id": "2611.31222",
+      "tokens": [
+        "chest",
+        "ctlink",
+        "findings",
+        "linking",
+        "prompted",
+        "radiology",
+        "report",
+        "scans",
+        "segmentation",
+        "text"
+      ],
+      "first_seen_round": 559
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.31215v1",
+      "title": "Seeking in Space: Benchmarking Purposeful Active Exploration of Vision-Language Models for Spatial Reasoning",
+      "arxiv_id": "2611.31215",
+      "tokens": [
+        "active",
+        "benchmarking",
+        "exploration",
+        "language",
+        "purposeful",
+        "reasoning",
+        "seeking",
+        "space",
+        "spatial",
+        "vision"
+      ],
+      "first_seen_round": 559
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.31198v1",
+      "title": "ToolSmith: An Automatic Tool-Generation Framework for Multimodal Search Agents",
+      "arxiv_id": "2611.31198",
+      "tokens": [
+        "agents",
+        "automatic",
+        "generation",
+        "multimodal",
+        "search",
+        "tool",
+        "toolsmith"
+      ],
+      "first_seen_round": 559
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.31194v1",
+      "title": "Learning Neurovascular Codes for EEG-to-fMRI Synthesis",
+      "arxiv_id": "2611.31194",
+      "tokens": [
+        "codes",
+        "eeg",
+        "fmri",
+        "neurovascular",
+        "synthesis"
+      ],
+      "first_seen_round": 559
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.30844v1",
+      "title": "DyLoMo-DiT: Dynamic Looped Mixture-of-Experts Diffusion Transformers",
+      "arxiv_id": "2611.30844",
+      "tokens": [
+        "diffusion",
+        "dit",
+        "dylomo",
+        "dynamic",
+        "experts",
+        "looped",
+        "mixture",
+        "transformers"
+      ],
+      "first_seen_round": 559
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.30542v1",
+      "title": "GC-MoE K3: A Green-Context Role Graph for Latent Mixture-of-Experts Decode",
+      "arxiv_id": "2611.30542",
+      "tokens": [
+        "context",
+        "decode",
+        "experts",
+        "graph",
+        "green",
+        "latent",
+        "mixture",
+        "moe",
+        "role"
+      ],
+      "first_seen_round": 559
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.29094v1",
+      "title": "HME-PFD: Heterogeneous Mixture-of-Experts Privileged Feature Distillation",
+      "arxiv_id": "2611.29094",
+      "tokens": [
+        "distillation",
+        "experts",
+        "feature",
+        "heterogeneous",
+        "hme",
+        "mixture",
+        "pfd",
+        "privileged"
+      ],
+      "first_seen_round": 559
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.28725v1",
+      "title": "Routing Collapse in Multimodal Mixture-of-Experts: Cross-Modal Conditioning Restores Expert Diversity Without Improving Accuracy",
+      "arxiv_id": "2611.28725",
+      "tokens": [
+        "accuracy",
+        "collapse",
+        "conditioning",
+        "cross",
+        "diversity",
+        "expert",
+        "experts",
+        "improving",
+        "mixture",
+        "modal",
+        "multimodal",
+        "restores",
+        "routing"
+      ],
+      "first_seen_round": 559
     }
   ],
-  "total_unique": 5222
+  "total_unique": 5231
 }
