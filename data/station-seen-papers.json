@@ -83347,7 +83347,300 @@
         "routing"
       ],
       "first_seen_round": 559
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.28964v1",
+      "title": "PruneNAS: Constraint Aware Neural Architecture Search based Pruning",
+      "arxiv_id": "2611.28964",
+      "tokens": [
+        "architecture",
+        "aware",
+        "constraint",
+        "neural",
+        "prunenas",
+        "pruning",
+        "search"
+      ],
+      "first_seen_round": 560
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.26835v2",
+      "title": "Non-Expanding Gated Continued Fraction Architecture for Feedforward Layers in Language Models",
+      "arxiv_id": "2611.26835",
+      "tokens": [
+        "architecture",
+        "continued",
+        "expanding",
+        "feedforward",
+        "fraction",
+        "gated",
+        "language",
+        "layers",
+        "non"
+      ],
+      "first_seen_round": 560
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.31225v1",
+      "title": "Self-Supervised Dataset Distillation via Mutual Information Maximization",
+      "arxiv_id": "2611.31225",
+      "tokens": [
+        "dataset",
+        "distillation",
+        "information",
+        "maximization",
+        "mutual",
+        "self",
+        "supervised"
+      ],
+      "first_seen_round": 560
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.31026v1",
+      "title": "Self-Supervised Learning for Soft-Constrained AC-OPF in Multiphase Distribution Systems",
+      "arxiv_id": "2611.31026",
+      "tokens": [
+        "constrained",
+        "distribution",
+        "multiphase",
+        "opf",
+        "self",
+        "soft",
+        "supervised"
+      ],
+      "first_seen_round": 560
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.31011v1",
+      "title": "Lorentz symmetry in self-supervised representation learning",
+      "arxiv_id": "2611.31011",
+      "tokens": [
+        "lorentz",
+        "representation",
+        "self",
+        "supervised",
+        "symmetry"
+      ],
+      "first_seen_round": 560
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.29865v1",
+      "title": "Characterizing Frozen SSL Encoders and Backends for Cross-Domain Speech Deepfake Detection",
+      "arxiv_id": "2611.29865",
+      "tokens": [
+        "backends",
+        "characterizing",
+        "cross",
+        "deepfake",
+        "detection",
+        "domain",
+        "encoders",
+        "frozen",
+        "speech",
+        "ssl"
+      ],
+      "first_seen_round": 560
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.29040v1",
+      "title": "Speech Emotion Recognition Across Languages: Prosodic Patterns and Self-Supervised Learning",
+      "arxiv_id": "2611.29040",
+      "tokens": [
+        "emotion",
+        "languages",
+        "patterns",
+        "prosodic",
+        "recognition",
+        "self",
+        "speech",
+        "supervised"
+      ],
+      "first_seen_round": 560
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.28712v1",
+      "title": "Domain-Specific Self-Supervised Learning for Cuneiform Sign Representation",
+      "arxiv_id": "2611.28712",
+      "tokens": [
+        "cuneiform",
+        "domain",
+        "representation",
+        "self",
+        "sign",
+        "specific",
+        "supervised"
+      ],
+      "first_seen_round": 560
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.31063v1",
+      "title": "From Local Errors to System Failures: Modeling and Benchmarking Error Propagation in Multi-Agent LLM Systems",
+      "arxiv_id": "2611.31063",
+      "tokens": [
+        "agent",
+        "benchmarking",
+        "error",
+        "errors",
+        "failures",
+        "llm",
+        "local",
+        "modeling",
+        "multi",
+        "propagation"
+      ],
+      "first_seen_round": 560
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.29107v1",
+      "title": "Beyond Evidence Coverage: Encoding-Time Access in Multi-Agent Systems",
+      "arxiv_id": "2611.29107",
+      "tokens": [
+        "access",
+        "agent",
+        "coverage",
+        "encoding",
+        "evidence",
+        "multi",
+        "time"
+      ],
+      "first_seen_round": 560
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.28787v1",
+      "title": "DiscernBench: Evaluating Cooperative Discernment of LLM Agents in Institutional Settings",
+      "arxiv_id": "2611.28787",
+      "tokens": [
+        "agents",
+        "cooperative",
+        "discernbench",
+        "discernment",
+        "evaluating",
+        "institutional",
+        "llm",
+        "settings"
+      ],
+      "first_seen_round": 560
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.28517v1",
+      "title": "Digital Twins for Multi-Agent Systems: When to Trust, What to Change",
+      "arxiv_id": "2611.28517",
+      "tokens": [
+        "agent",
+        "change",
+        "digital",
+        "multi",
+        "trust",
+        "twins"
+      ],
+      "first_seen_round": 560
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.31112v1",
+      "title": "Look Back, Draft Ahead: Corrective Prefix Attention for Parallel Speculative Decoding",
+      "arxiv_id": "2611.31112",
+      "tokens": [
+        "ahead",
+        "attention",
+        "back",
+        "corrective",
+        "decoding",
+        "draft",
+        "look",
+        "parallel",
+        "prefix",
+        "speculative"
+      ],
+      "first_seen_round": 560
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.30205v1",
+      "title": "PackLoop: Row-Packed Self-Speculative Decoding for Looped Language Models under Concurrency",
+      "arxiv_id": "2611.30205",
+      "tokens": [
+        "concurrency",
+        "decoding",
+        "language",
+        "looped",
+        "packed",
+        "packloop",
+        "row",
+        "self",
+        "speculative"
+      ],
+      "first_seen_round": 560
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.30027v1",
+      "title": "Fast 4-bit KV-Cache Decoding on Hopper GPUs: Why Existing Kernels Are Slow and How to Fix Them",
+      "arxiv_id": "2611.30027",
+      "tokens": [
+        "bit",
+        "cache",
+        "decoding",
+        "existing",
+        "fast",
+        "fix",
+        "gpus",
+        "hopper",
+        "kernels",
+        "slow",
+        "why"
+      ],
+      "first_seen_round": 560
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.29663v1",
+      "title": "Exact on Paper: Which LLM Serving Shortcuts Flip Graded Answers, Measured Against the Noise of Reordering the Same Requests",
+      "arxiv_id": "2611.29663",
+      "tokens": [
+        "against",
+        "answers",
+        "exact",
+        "flip",
+        "graded",
+        "llm",
+        "measured",
+        "noise",
+        "paper",
+        "reordering",
+        "requests",
+        "serving",
+        "shortcuts"
+      ],
+      "first_seen_round": 560
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.29066v1",
+      "title": "RES: Accelerating Diffusion Language Models with Rolling Entropy Sampling",
+      "arxiv_id": "2611.29066",
+      "tokens": [
+        "accelerating",
+        "diffusion",
+        "entropy",
+        "language",
+        "res",
+        "rolling",
+        "sampling"
+      ],
+      "first_seen_round": 560
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.29006v1",
+      "title": "NoHairCache: Calibrate-Once KV Cache Eviction with One Power-Law Exponent",
+      "arxiv_id": "2611.29006",
+      "tokens": [
+        "cache",
+        "calibrate",
+        "eviction",
+        "exponent",
+        "law",
+        "nohaircache",
+        "once",
+        "power"
+      ],
+      "first_seen_round": 560
     }
   ],
-  "total_unique": 5231
+  "total_unique": 5249
 }

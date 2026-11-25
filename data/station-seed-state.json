@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 928,
+  "_rotation_idx": 929,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 115,
@@ -7251,18 +7251,9 @@
   },
   "kv-cache": {
     "name": "KV Cache Optimization",
-    "total_papers_found": 145,
-    "watering_count": 90,
+    "total_papers_found": 151,
+    "watering_count": 91,
     "history": [
-      {
-        "timestamp": "2026-08-20T04:24:39.308719",
-        "papers_found": 0,
-        "duplicates": 8,
-        "irrelevant_filtered": 2,
-        "avg_relevance": 0.0,
-        "high_relevance": 0,
-        "papers": []
-      },
       {
         "timestamp": "2026-08-21T00:33:35.589413",
         "papers_found": 0,
@@ -8207,6 +8198,37 @@
         "avg_relevance": 0.0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-11-25T00:12:43.382244",
+        "papers_found": 6,
+        "duplicates": 0,
+        "irrelevant_filtered": 4,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "Look Back, Draft Ahead: Corrective Prefix Attention for Parallel Speculative Decoding",
+            "summary": "Parallel speculative decoders propose an entire token block at once, yet one early inconsistency can cause the target to reject its remaining suffix. We introduce Corrective Prefix Attention (CPA), which combines prefix-aware selection with autoregressive supervision to improve these parallel drafts",
+            "published": "2026-11-23",
+            "url": "http://arxiv.org/abs/2611.31112v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "PackLoop: Row-Packed Self-Speculative Decoding for Looped Language Models under Concurrency",
+            "summary": "Looped language models reuse one block of weights T times per token, trading parameters for test-time depth, but autoregressive decoding then pays T sequential passes per token. Self-speculative decoders recover 2-10x for a single request, yet their gains fade as requests share a GPU, and current pr",
+            "published": "2026-11-23",
+            "url": "http://arxiv.org/abs/2611.30205v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Fast 4-bit KV-Cache Decoding on Hopper GPUs: Why Existing Kernels Are Slow and How to Fix Them",
+            "summary": "A 4-bit KV cache reads about half the bytes of FP8, but Hopper GPUs have no FP4 hardware and little instruction-issue capacity per byte of memory bandwidth, so 4-bit values must be decoded in software. On H200, vLLM's NVFP4 KV path (FlashInfer's decode) reaches 10-20% of memory bandwidth and is up t",
+            "published": "2026-11-23",
+            "url": "http://arxiv.org/abs/2611.30027v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -8218,7 +8240,7 @@
       "flash attention",
       "speculative decoding"
     ],
-    "last_watered": "2026-11-21T13:48:17.004276"
+    "last_watered": "2026-11-25T00:12:43.382238"
   },
   "gnn": {
     "name": "Graph Neural Networks",

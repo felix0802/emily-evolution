@@ -6428,6 +6428,21 @@
         ],
         "decided_at": "2026-11-24T14:25:28.611002"
       }
+    },
+    {
+      "id": "llm-结构化剪枝与nas结合",
+      "name": "结构化剪枝与NAS结合",
+      "adopted_at": "2026-11-25T00:12:48.157614",
+      "decision": {
+        "tech_id": "llm-结构化剪枝与nas结合",
+        "tech_name": "结构化剪枝与NAS结合",
+        "action": "adopt",
+        "confidence": 0.9,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-11-25T00:12:48.154182"
+      }
     }
   ],
   "history": [
@@ -8998,6 +9013,12 @@
       "tech_id": "llm-文本提示-3d-分割",
       "tech_name": "文本提示 3D 分割",
       "timestamp": "2026-11-24T14:25:28.614328"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-结构化剪枝与nas结合",
+      "tech_name": "结构化剪枝与NAS结合",
+      "timestamp": "2026-11-25T00:12:48.157620"
     }
   ]
 }

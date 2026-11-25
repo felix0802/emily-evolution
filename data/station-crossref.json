@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-24T14:25:32.380304",
+  "timestamp": "2026-11-25T00:12:48.188654",
   "connections": [
     {
       "seed_a": "Mamba (SSM)",
@@ -18,7 +18,7 @@
         "with"
       ],
       "strength": 11,
-      "discovered_at": "2026-11-24T14:25:32.380156"
+      "discovered_at": "2026-11-25T00:12:48.188505"
     },
     {
       "seed_a": "Few-Shot Learning",
@@ -34,7 +34,7 @@
         "with"
       ],
       "strength": 7,
-      "discovered_at": "2026-11-24T14:25:32.380274"
+      "discovered_at": "2026-11-25T00:12:48.188622"
     },
     {
       "seed_a": "HTM",
@@ -49,7 +49,7 @@
         "with"
       ],
       "strength": 6,
-      "discovered_at": "2026-11-24T14:25:32.380204"
+      "discovered_at": "2026-11-25T00:12:48.188552"
     },
     {
       "seed_a": "HTM",
@@ -64,7 +64,7 @@
         "with"
       ],
       "strength": 6,
-      "discovered_at": "2026-11-24T14:25:32.380211"
+      "discovered_at": "2026-11-25T00:12:48.188559"
     },
     {
       "seed_a": "HTM",
@@ -78,7 +78,7 @@
         "with"
       ],
       "strength": 5,
-      "discovered_at": "2026-11-24T14:25:32.380199"
+      "discovered_at": "2026-11-25T00:12:48.188548"
     },
     {
       "seed_a": "Non-Transformer Arch",
@@ -88,11 +88,11 @@
         "attention",
         "exact",
         "models",
-        "policy",
+        "self",
         "with"
       ],
       "strength": 5,
-      "discovered_at": "2026-11-24T14:25:32.380256"
+      "discovered_at": "2026-11-25T00:12:48.188604"
     },
     {
       "seed_a": "Non-Transformer Arch",
@@ -106,7 +106,7 @@
         "with"
       ],
       "strength": 5,
-      "discovered_at": "2026-11-24T14:25:32.380260"
+      "discovered_at": "2026-11-25T00:12:48.188608"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -119,20 +119,7 @@
         "with"
       ],
       "strength": 4,
-      "discovered_at": "2026-11-24T14:25:32.380143"
-    },
-    {
-      "seed_a": "Mamba (SSM)",
-      "seed_b": "KV Cache Optimization",
-      "shared_keywords": [],
-      "shared_paper_concepts": [
-        "exact",
-        "models",
-        "vision",
-        "with"
-      ],
-      "strength": 4,
-      "discovered_at": "2026-11-24T14:25:32.380170"
+      "discovered_at": "2026-11-25T00:12:48.188491"
     },
     {
       "seed_a": "HTM",
@@ -145,7 +132,20 @@
         "multi"
       ],
       "strength": 4,
-      "discovered_at": "2026-11-24T14:25:32.380215"
+      "discovered_at": "2026-11-25T00:12:48.188563"
+    },
+    {
+      "seed_a": "HTM",
+      "seed_b": "Graph Neural Networks",
+      "shared_keywords": [],
+      "shared_paper_concepts": [
+        "based",
+        "learning",
+        "when",
+        "with"
+      ],
+      "strength": 4,
+      "discovered_at": "2026-11-25T00:12:48.188571"
     }
   ],
   "total_seeds": 10
