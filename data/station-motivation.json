@@ -1,28 +1,6 @@
 {
   "rounds": [
     {
-      "round": 511,
-      "timestamp": "2026-11-09T08:47:07.541970",
-      "prediction_error": 0.7,
-      "seeds_active": 10,
-      "seeds_dormant": 0,
-      "new_seeds_added": 0,
-      "top_motivated": [
-        [
-          "mamba",
-          0.91
-        ],
-        [
-          "liquid-networks",
-          0.91
-        ],
-        [
-          "htm",
-          0.91
-        ]
-      ]
-    },
-    {
       "round": 512,
       "timestamp": "2026-11-09T20:14:24.915749",
       "prediction_error": 0.7,
@@ -1099,6 +1077,28 @@
           0.91
         ]
       ]
+    },
+    {
+      "round": 561,
+      "timestamp": "2026-11-25T10:37:21.911488",
+      "prediction_error": 0.7,
+      "seeds_active": 10,
+      "seeds_dormant": 0,
+      "new_seeds_added": 0,
+      "top_motivated": [
+        [
+          "mamba",
+          0.91
+        ],
+        [
+          "htm",
+          0.91
+        ],
+        [
+          "spiking-nn",
+          0.91
+        ]
+      ]
     }
   ],
   "seed_scores": {
@@ -1149,7 +1149,7 @@
         1.0,
         1.0,
         1.0,
-        1.0,
+        0.667,
         0.667,
         0.667,
         0.667,
@@ -1406,6 +1406,6 @@
     "spiking-nn",
     "non-transformer"
   ],
-  "total_motivation_evaluations": 404,
+  "total_motivation_evaluations": 405,
   "current_prediction_error": 0.7
 }

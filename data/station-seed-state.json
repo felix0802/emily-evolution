@@ -1,27 +1,10 @@
 {
-  "_rotation_idx": 929,
+  "_rotation_idx": 930,
   "mamba": {
     "name": "Mamba (SSM)",
-    "total_papers_found": 115,
-    "watering_count": 96,
+    "total_papers_found": 119,
+    "watering_count": 97,
     "history": [
-      {
-        "timestamp": "2026-08-20T08:22:24.158082",
-        "papers_found": 1,
-        "duplicates": 6,
-        "irrelevant_filtered": 3,
-        "avg_relevance": 1.0,
-        "high_relevance": 0,
-        "papers": [
-          {
-            "title": "Infrared Universality of Collective Dynamics across Transformer and State-Space Architectures",
-            "summary": "Whether distinct neural architectures develop common collective dynamics remains an open question. Recent analysis of Transformer language models revealed a nearly flat, weakly infrared-enhanced time-scale density of states (TDOS) associated with near-marginal long-memory dynamics. Here we test whet",
-            "published": "2026-08-19",
-            "url": "http://arxiv.org/abs/2608.18592v1",
-            "seed_match_score": 1
-          }
-        ]
-      },
       {
         "timestamp": "2026-08-21T04:26:17.746967",
         "papers_found": 1,
@@ -864,6 +847,37 @@
             "seed_match_score": 2
           }
         ]
+      },
+      {
+        "timestamp": "2026-11-25T10:37:21.894831",
+        "papers_found": 4,
+        "duplicates": 1,
+        "irrelevant_filtered": 5,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "Train What You Run: Probabilistic Convolutions for Learning Token Compaction in State Space Models",
+            "summary": "Visual token compaction reduces inference cost by passing only selected image patches or video tokens to later layers. In sequence models with local convolutions, each removal changes which tokens are neighbors. Learning which tokens to keep therefore requires a training signal that accounts for the",
+            "published": "2026-11-24",
+            "url": "http://arxiv.org/abs/2611.33009v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Yggdrasil: Tree-Routed Recurrent Experts for State Tracking and Fast CPU Inference",
+            "summary": "Parallel-trainable recurrences such as Mamba, linear attention, and DeltaNet offer constant-cost streaming inference, but they suffer from two limitations: 1) they struggle to track discrete state, and 2) they read every parameter at every step, tying model capacity directly to CPU latency. We intro",
+            "published": "2026-11-23",
+            "url": "http://arxiv.org/abs/2611.29954v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "A Cascaded Framework with a Cross-Attention-Guided Mamba-CNN Model for Pre- and Post-Treatment Glioma Segmentation",
+            "summary": "Accurate glioma segmentation is vital for diagnosis and follow-up, but manual segmentation is time-consuming, subjective, and variable across interpreters. Gliomas are heterogeneous in size, shape, and location. Deep learning has therefore emerged as a potential solution. CNNs excel at local feature",
+            "published": "2026-11-22",
+            "url": "http://arxiv.org/abs/2611.29792v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -872,7 +886,7 @@
       "ssm",
       "selective scan"
     ],
-    "last_watered": "2026-11-22T01:43:27.935115"
+    "last_watered": "2026-11-25T10:37:21.894823"
   },
   "liquid-networks": {
     "name": "Liquid Networks",
