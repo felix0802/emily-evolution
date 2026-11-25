@@ -1,28 +1,6 @@
 {
   "rounds": [
     {
-      "round": 512,
-      "timestamp": "2026-11-09T20:14:24.915749",
-      "prediction_error": 0.7,
-      "seeds_active": 10,
-      "seeds_dormant": 0,
-      "new_seeds_added": 0,
-      "top_motivated": [
-        [
-          "mamba",
-          0.91
-        ],
-        [
-          "liquid-networks",
-          0.91
-        ],
-        [
-          "htm",
-          0.91
-        ]
-      ]
-    },
-    {
       "round": 513,
       "timestamp": "2026-11-10T03:52:25.319193",
       "prediction_error": 0.7,
@@ -1099,6 +1077,28 @@
           0.91
         ]
       ]
+    },
+    {
+      "round": 562,
+      "timestamp": "2026-11-25T20:46:00.683524",
+      "prediction_error": 0.7,
+      "seeds_active": 10,
+      "seeds_dormant": 0,
+      "new_seeds_added": 0,
+      "top_motivated": [
+        [
+          "mamba",
+          0.91
+        ],
+        [
+          "liquid-networks",
+          0.91
+        ],
+        [
+          "htm",
+          0.91
+        ]
+      ]
     }
   ],
   "seed_scores": {
@@ -1133,9 +1133,9 @@
     },
     "liquid-networks": {
       "name": "Liquid Networks",
-      "info_gain": 0.667,
+      "info_gain": 1.0,
       "novelty": 1.0,
-      "motivation_score": 0.777,
+      "motivation_score": 0.91,
       "info_gain_history": [
         1.0,
         1.0,
@@ -1148,7 +1148,6 @@
         1.0,
         1.0,
         1.0,
-        1.0,
         0.667,
         0.667,
         0.667,
@@ -1157,7 +1156,8 @@
         0.667,
         0.667,
         0.667,
-        0.667
+        0.667,
+        1.0
       ]
     },
     "htm": {
@@ -1406,6 +1406,6 @@
     "spiking-nn",
     "non-transformer"
   ],
-  "total_motivation_evaluations": 405,
+  "total_motivation_evaluations": 406,
   "current_prediction_error": 0.7
 }

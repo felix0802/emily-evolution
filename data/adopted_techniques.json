@@ -6443,6 +6443,21 @@
         ],
         "decided_at": "2026-11-25T00:12:48.154182"
       }
+    },
+    {
+      "id": "llm-潜在类别混合模型-vae",
+      "name": "潜在类别混合模型 VAE",
+      "adopted_at": "2026-11-25T20:46:05.445233",
+      "decision": {
+        "tech_id": "llm-潜在类别混合模型-vae",
+        "tech_name": "潜在类别混合模型 VAE",
+        "action": "adopt",
+        "confidence": 0.85,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-11-25T20:46:05.441835"
+      }
     }
   ],
   "history": [
@@ -9019,6 +9034,12 @@
       "tech_id": "llm-结构化剪枝与nas结合",
       "tech_name": "结构化剪枝与NAS结合",
       "timestamp": "2026-11-25T00:12:48.157620"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-潜在类别混合模型-vae",
+      "tech_name": "潜在类别混合模型 VAE",
+      "timestamp": "2026-11-25T20:46:05.445239"
     }
   ]
 }

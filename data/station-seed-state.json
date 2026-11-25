@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 930,
+  "_rotation_idx": 931,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 119,
@@ -890,26 +890,9 @@
   },
   "liquid-networks": {
     "name": "Liquid Networks",
-    "total_papers_found": 138,
-    "watering_count": 96,
+    "total_papers_found": 144,
+    "watering_count": 97,
     "history": [
-      {
-        "timestamp": "2026-08-20T10:17:32.628595",
-        "papers_found": 1,
-        "duplicates": 8,
-        "irrelevant_filtered": 1,
-        "avg_relevance": 1.0,
-        "high_relevance": 0,
-        "papers": [
-          {
-            "title": "Discretizing Continuous Time Series for Imputation with Masked Diffusion Training",
-            "summary": "Time series imputation is a crucial area for reliable time series analysis, yet it remains challenging due to the complex temporal dynamics and noise of real-world data. Existing approaches, however, exhibit two limitations: missing and observed values are embedded within the same representation spa",
-            "published": "2026-08-19",
-            "url": "http://arxiv.org/abs/2608.19119v1",
-            "seed_match_score": 1
-          }
-        ]
-      },
       {
         "timestamp": "2026-08-21T06:22:50.637839",
         "papers_found": 1,
@@ -1791,6 +1774,37 @@
         "avg_relevance": 0.0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-11-25T20:46:00.666252",
+        "papers_found": 6,
+        "duplicates": 2,
+        "irrelevant_filtered": 2,
+        "avg_relevance": 1.33,
+        "high_relevance": 2,
+        "papers": [
+          {
+            "title": "The Activity Geometry of Discrete Generative Sampling",
+            "summary": "Iterative refinement is a key capability of diffusion-based generation and has motivated growing efforts to bring similar behavior to discrete diffusion and flow models. A growing line of work enables such refinement by allowing previously generated tokens to be revised during sampling, thereby shap",
+            "published": "2026-11-24",
+            "url": "http://arxiv.org/abs/2611.32380v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Damped Atomic Wave Integration Neurons (DAWIN): A Universal Primitive for Continuous-Time Spatiotemporal Learning",
+            "summary": "Conventional artificial neurons separate spatial feature aggregation from continuous physical time, limiting their ability to model irregular observations. We introduce the Damped Atomic Wave Integration Neuron (DAWIN), a continuous-time primitive for replacing standard neural layers in MLPs, Transf",
+            "published": "2026-11-23",
+            "url": "http://arxiv.org/abs/2611.30025v1",
+            "seed_match_score": 2
+          },
+          {
+            "title": "Continuous-Time LQR from a Single Discrete-Time Off-Policy Batch",
+            "summary": "We study discounted continuous-time linear--quadratic regulation (LQR) with unknown drift parameters and additive noise, using a single batch of discrete-time off-policy transitions. Discrete-time methods target a policy tied to the training interval, while shortening this interval can make learning",
+            "published": "2026-11-22",
+            "url": "http://arxiv.org/abs/2611.29725v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -1800,7 +1814,7 @@
       "ode",
       "continuous-time"
     ],
-    "last_watered": "2026-11-22T08:57:24.690799"
+    "last_watered": "2026-11-25T20:46:00.666246"
   },
   "htm": {
     "name": "HTM",
