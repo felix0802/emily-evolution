@@ -84386,7 +84386,146 @@
         "proactive"
       ],
       "first_seen_round": 563
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.32782v1",
+      "title": "Measuring Layer-wise Intrinsic Dimensionality of FFNs in LLMs via PCA",
+      "arxiv_id": "2611.32782",
+      "tokens": [
+        "dimensionality",
+        "ffns",
+        "intrinsic",
+        "layer",
+        "llms",
+        "measuring",
+        "pca",
+        "wise"
+      ],
+      "first_seen_round": 564
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.29418v1",
+      "title": "HKD-ACPA: Heterogeneous Knowledge Distillation Adversarial Cyber-Physical Attacks in Power Grids",
+      "arxiv_id": "2611.29418",
+      "tokens": [
+        "acpa",
+        "adversarial",
+        "attacks",
+        "cyber",
+        "distillation",
+        "grids",
+        "heterogeneous",
+        "hkd",
+        "knowledge",
+        "physical",
+        "power"
+      ],
+      "first_seen_round": 564
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.28603v1",
+      "title": "Bridging Teacher-Student Capability Gaps with Recurrent Computation",
+      "arxiv_id": "2611.28603",
+      "tokens": [
+        "bridging",
+        "capability",
+        "computation",
+        "gaps",
+        "recurrent",
+        "student",
+        "teacher"
+      ],
+      "first_seen_round": 564
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.28502v1",
+      "title": "Shoonya: Zero-Socket In-Process Small Language Models for Graph Databases with Schema-Epoch KV Caching, Live Catalog Logit Masking, and Verifier-Advantage Distillation",
+      "arxiv_id": "2611.28502",
+      "tokens": [
+        "advantage",
+        "caching",
+        "catalog",
+        "databases",
+        "distillation",
+        "epoch",
+        "graph",
+        "language",
+        "live",
+        "logit",
+        "masking",
+        "process",
+        "schema",
+        "shoonya",
+        "socket",
+        "verifier",
+        "zero"
+      ],
+      "first_seen_round": 564
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.34381v1",
+      "title": "Decoupling the clocks of learning and computing in spiking neural networks",
+      "arxiv_id": "2611.34381",
+      "tokens": [
+        "clocks",
+        "computing",
+        "decoupling",
+        "neural",
+        "spiking"
+      ],
+      "first_seen_round": 564
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.32758v1",
+      "title": "Low-Power Spiking Neural Network Acceleration with Differential Time Representation: A Modular Hardware Framework",
+      "arxiv_id": "2611.32758",
+      "tokens": [
+        "acceleration",
+        "differential",
+        "hardware",
+        "low",
+        "modular",
+        "neural",
+        "power",
+        "representation",
+        "spiking",
+        "time"
+      ],
+      "first_seen_round": 564
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.32288v2",
+      "title": "Trading BRAM for LUTs: Hybrid Bit-Level Weight Storage for FPGA-Based Spiking Neural Networks",
+      "arxiv_id": "2611.32288",
+      "tokens": [
+        "bit",
+        "bram",
+        "fpga",
+        "hybrid",
+        "level",
+        "luts",
+        "neural",
+        "spiking",
+        "storage",
+        "trading",
+        "weight"
+      ],
+      "first_seen_round": 564
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.27322v1",
+      "title": "Spiking Neural Networks Incrementally Track Firing-Rate Networks",
+      "arxiv_id": "2611.27322",
+      "tokens": [
+        "firing",
+        "incrementally",
+        "neural",
+        "rate",
+        "spiking",
+        "track"
+      ],
+      "first_seen_round": 564
     }
   ],
-  "total_unique": 5296
+  "total_unique": 5304
 }

@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 932,
+  "_rotation_idx": 933,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 119,
@@ -2864,18 +2864,9 @@
   },
   "spiking-nn": {
     "name": "Spiking Neural Networks",
-    "total_papers_found": 76,
-    "watering_count": 95,
+    "total_papers_found": 80,
+    "watering_count": 96,
     "history": [
-      {
-        "timestamp": "2026-08-20T14:23:27.094181",
-        "papers_found": 0,
-        "duplicates": 10,
-        "irrelevant_filtered": 0,
-        "avg_relevance": 0.0,
-        "high_relevance": 0,
-        "papers": []
-      },
       {
         "timestamp": "2026-08-21T10:17:40.370037",
         "papers_found": 1,
@@ -3664,6 +3655,37 @@
         "avg_relevance": 0.0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-11-26T13:18:04.897071",
+        "papers_found": 4,
+        "duplicates": 6,
+        "irrelevant_filtered": 0,
+        "avg_relevance": 1.75,
+        "high_relevance": 3,
+        "papers": [
+          {
+            "title": "Decoupling the clocks of learning and computing in spiking neural networks",
+            "summary": "Biological intelligence thrives on minimal power despite its noisy, imperfect components, with neurons that communicate through voltage spikes. Brain-inspired computing seeks to bring such efficiency to real devices, which requires training methods tailored to them. The standard way to train spiking",
+            "published": "2026-11-25",
+            "url": "http://arxiv.org/abs/2611.34381v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Low-Power Spiking Neural Network Acceleration with Differential Time Representation: A Modular Hardware Framework",
+            "summary": "Spiking Neural Networks (SNNs) offer promising energy efficiency, making them well suited for energy-constrained applications. Much of their energy savings stems from the sparse encoding of spike trains. We show that spike trains can be represented more efficiently using Differential Time Representa",
+            "published": "2026-11-24",
+            "url": "http://arxiv.org/abs/2611.32758v1",
+            "seed_match_score": 2
+          },
+          {
+            "title": "Trading BRAM for LUTs: Hybrid Bit-Level Weight Storage for FPGA-Based Spiking Neural Networks",
+            "summary": "Spiking Neural Networks (SNNs) offer an attractive paradigm for energy-efficient AI inference, while their deployment on reconfigurable hardware enables application-specific acceleration without sacrificing model reprogrammability. However, realizing this potential on FPGAs is often severely constra",
+            "published": "2026-11-24",
+            "url": "http://arxiv.org/abs/2611.32288v2",
+            "seed_match_score": 2
+          }
+        ]
       }
     ],
     "keywords": [
@@ -3672,7 +3694,7 @@
       "neuromorphic",
       "spike-timing"
     ],
-    "last_watered": "2026-11-22T22:54:08.760731"
+    "last_watered": "2026-11-26T13:18:04.897065"
   },
   "non-transformer": {
     "name": "Non-Transformer Arch",

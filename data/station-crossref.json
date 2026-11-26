@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-26T03:49:29.303817",
+  "timestamp": "2026-11-26T13:18:09.869079",
   "connections": [
     {
       "seed_a": "Mamba (SSM)",
@@ -19,7 +19,40 @@
         "recurrent"
       ],
       "strength": 15,
-      "discovered_at": "2026-11-26T03:49:29.303694"
+      "discovered_at": "2026-11-26T13:18:09.868920"
+    },
+    {
+      "seed_a": "HTM",
+      "seed_b": "Spiking Neural Networks",
+      "shared_keywords": [],
+      "shared_paper_concepts": [
+        "based",
+        "efficient",
+        "hybrid",
+        "learning",
+        "multi",
+        "test",
+        "time",
+        "with"
+      ],
+      "strength": 8,
+      "discovered_at": "2026-11-26T13:18:09.868971"
+    },
+    {
+      "seed_a": "Mamba (SSM)",
+      "seed_b": "Spiking Neural Networks",
+      "shared_keywords": [],
+      "shared_paper_concepts": [
+        "based",
+        "efficient",
+        "framework",
+        "learning",
+        "tracking",
+        "vision",
+        "with"
+      ],
+      "strength": 7,
+      "discovered_at": "2026-11-26T13:18:09.868915"
     },
     {
       "seed_a": "HTM",
@@ -35,7 +68,39 @@
         "with"
       ],
       "strength": 7,
-      "discovered_at": "2026-11-26T03:49:29.303746"
+      "discovered_at": "2026-11-26T13:18:09.868975"
+    },
+    {
+      "seed_a": "Spiking Neural Networks",
+      "seed_b": "Non-Transformer Arch",
+      "shared_keywords": [],
+      "shared_paper_concepts": [
+        "driven",
+        "hardware",
+        "hybrid",
+        "learning",
+        "neural",
+        "time",
+        "with"
+      ],
+      "strength": 7,
+      "discovered_at": "2026-11-26T13:18:09.868998"
+    },
+    {
+      "seed_a": "Spiking Neural Networks",
+      "seed_b": "Graph Neural Networks",
+      "shared_keywords": [],
+      "shared_paper_concepts": [
+        "based",
+        "learning",
+        "level",
+        "networks",
+        "neural",
+        "representation",
+        "with"
+      ],
+      "strength": 7,
+      "discovered_at": "2026-11-26T13:18:09.869016"
     },
     {
       "seed_a": "Few-Shot Learning",
@@ -51,7 +116,7 @@
         "with"
       ],
       "strength": 7,
-      "discovered_at": "2026-11-26T03:49:29.303796"
+      "discovered_at": "2026-11-26T13:18:09.869049"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -66,7 +131,7 @@
         "with"
       ],
       "strength": 6,
-      "discovered_at": "2026-11-26T03:49:29.303686"
+      "discovered_at": "2026-11-26T13:18:09.868909"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -81,7 +146,7 @@
         "with"
       ],
       "strength": 6,
-      "discovered_at": "2026-11-26T03:49:29.303709"
+      "discovered_at": "2026-11-26T13:18:09.868936"
     },
     {
       "seed_a": "HTM",
@@ -96,64 +161,7 @@
         "with"
       ],
       "strength": 6,
-      "discovered_at": "2026-11-26T03:49:29.303752"
-    },
-    {
-      "seed_a": "HTM",
-      "seed_b": "Graph Neural Networks",
-      "shared_keywords": [],
-      "shared_paper_concepts": [
-        "aware",
-        "based",
-        "learning",
-        "prediction",
-        "when",
-        "with"
-      ],
-      "strength": 6,
-      "discovered_at": "2026-11-26T03:49:29.303761"
-    },
-    {
-      "seed_a": "Mamba (SSM)",
-      "seed_b": "Graph Neural Networks",
-      "shared_keywords": [],
-      "shared_paper_concepts": [
-        "attention",
-        "aware",
-        "based",
-        "learning",
-        "with"
-      ],
-      "strength": 5,
-      "discovered_at": "2026-11-26T03:49:29.303713"
-    },
-    {
-      "seed_a": "HTM",
-      "seed_b": "Spiking Neural Networks",
-      "shared_keywords": [],
-      "shared_paper_concepts": [
-        "efficient",
-        "multi",
-        "test",
-        "time",
-        "with"
-      ],
-      "strength": 5,
-      "discovered_at": "2026-11-26T03:49:29.303742"
-    },
-    {
-      "seed_a": "HTM",
-      "seed_b": "Mixture of Experts",
-      "shared_keywords": [],
-      "shared_paper_concepts": [
-        "against",
-        "efficient",
-        "models",
-        "multi",
-        "prediction"
-      ],
-      "strength": 5,
-      "discovered_at": "2026-11-26T03:49:29.303756"
+      "discovered_at": "2026-11-26T13:18:09.868982"
     }
   ],
   "total_seeds": 10
