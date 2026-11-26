@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-25T20:46:05.477390",
+  "timestamp": "2026-11-26T03:49:29.303817",
   "connections": [
     {
       "seed_a": "Mamba (SSM)",
@@ -19,7 +19,23 @@
         "recurrent"
       ],
       "strength": 15,
-      "discovered_at": "2026-11-25T20:46:05.477228"
+      "discovered_at": "2026-11-26T03:49:29.303694"
+    },
+    {
+      "seed_a": "HTM",
+      "seed_b": "Non-Transformer Arch",
+      "shared_keywords": [],
+      "shared_paper_concepts": [
+        "hybrid",
+        "learning",
+        "models",
+        "series",
+        "system",
+        "time",
+        "with"
+      ],
+      "strength": 7,
+      "discovered_at": "2026-11-26T03:49:29.303746"
     },
     {
       "seed_a": "Few-Shot Learning",
@@ -35,7 +51,22 @@
         "with"
       ],
       "strength": 7,
-      "discovered_at": "2026-11-25T20:46:05.477357"
+      "discovered_at": "2026-11-26T03:49:29.303796"
+    },
+    {
+      "seed_a": "Mamba (SSM)",
+      "seed_b": "HTM",
+      "shared_keywords": [],
+      "shared_paper_concepts": [
+        "aware",
+        "based",
+        "efficient",
+        "learning",
+        "models",
+        "with"
+      ],
+      "strength": 6,
+      "discovered_at": "2026-11-26T03:49:29.303686"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -50,22 +81,7 @@
         "with"
       ],
       "strength": 6,
-      "discovered_at": "2026-11-25T20:46:05.477245"
-    },
-    {
-      "seed_a": "HTM",
-      "seed_b": "Non-Transformer Arch",
-      "shared_keywords": [],
-      "shared_paper_concepts": [
-        "hybrid",
-        "learning",
-        "models",
-        "series",
-        "time",
-        "with"
-      ],
-      "strength": 6,
-      "discovered_at": "2026-11-25T20:46:05.477286"
+      "discovered_at": "2026-11-26T03:49:29.303709"
     },
     {
       "seed_a": "HTM",
@@ -80,21 +96,22 @@
         "with"
       ],
       "strength": 6,
-      "discovered_at": "2026-11-25T20:46:05.477293"
+      "discovered_at": "2026-11-26T03:49:29.303752"
     },
     {
-      "seed_a": "Mamba (SSM)",
-      "seed_b": "HTM",
+      "seed_a": "HTM",
+      "seed_b": "Graph Neural Networks",
       "shared_keywords": [],
       "shared_paper_concepts": [
+        "aware",
         "based",
-        "efficient",
         "learning",
-        "models",
+        "prediction",
+        "when",
         "with"
       ],
-      "strength": 5,
-      "discovered_at": "2026-11-25T20:46:05.477218"
+      "strength": 6,
+      "discovered_at": "2026-11-26T03:49:29.303761"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -108,7 +125,7 @@
         "with"
       ],
       "strength": 5,
-      "discovered_at": "2026-11-25T20:46:05.477250"
+      "discovered_at": "2026-11-26T03:49:29.303713"
     },
     {
       "seed_a": "HTM",
@@ -122,35 +139,21 @@
         "with"
       ],
       "strength": 5,
-      "discovered_at": "2026-11-25T20:46:05.477281"
+      "discovered_at": "2026-11-26T03:49:29.303742"
     },
     {
-      "seed_a": "Non-Transformer Arch",
-      "seed_b": "KV Cache Optimization",
+      "seed_a": "HTM",
+      "seed_b": "Mixture of Experts",
       "shared_keywords": [],
       "shared_paper_concepts": [
-        "attention",
-        "exact",
+        "against",
+        "efficient",
         "models",
-        "self",
-        "with"
+        "multi",
+        "prediction"
       ],
       "strength": 5,
-      "discovered_at": "2026-11-25T20:46:05.477339"
-    },
-    {
-      "seed_a": "Non-Transformer Arch",
-      "seed_b": "Graph Neural Networks",
-      "shared_keywords": [],
-      "shared_paper_concepts": [
-        "attention",
-        "fields",
-        "learning",
-        "neural",
-        "with"
-      ],
-      "strength": 5,
-      "discovered_at": "2026-11-25T20:46:05.477343"
+      "discovered_at": "2026-11-26T03:49:29.303756"
     }
   ],
   "total_seeds": 10

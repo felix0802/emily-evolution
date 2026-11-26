@@ -84248,7 +84248,145 @@
         "verifying"
       ],
       "first_seen_round": 562
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.33625v1",
+      "title": "State Space Attention: Learning Context-Dependent Memory Retention",
+      "arxiv_id": "2611.33625",
+      "tokens": [
+        "attention",
+        "context",
+        "dependent",
+        "memory",
+        "retention",
+        "space",
+        "state"
+      ],
+      "first_seen_round": 563
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.32423v1",
+      "title": "Factorized Context Attention: From Emulated to Native Grid Probing",
+      "arxiv_id": "2611.32423",
+      "tokens": [
+        "attention",
+        "context",
+        "emulated",
+        "factorized",
+        "grid",
+        "native",
+        "probing"
+      ],
+      "first_seen_round": 563
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.28522v1",
+      "title": "DisSparse: Pipelined Top-$p$ Sparse Attention for Long-Context LLM Serving",
+      "arxiv_id": "2611.28522",
+      "tokens": [
+        "attention",
+        "context",
+        "dissparse",
+        "llm",
+        "long",
+        "pipelined",
+        "serving",
+        "sparse",
+        "top"
+      ],
+      "first_seen_round": 563
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.34092v1",
+      "title": "Improving Tail-Augmented Speculative Drafting with Hidden State Mixing and Gradient Detach",
+      "arxiv_id": "2611.34092",
+      "tokens": [
+        "augmented",
+        "detach",
+        "drafting",
+        "gradient",
+        "hidden",
+        "improving",
+        "mixing",
+        "speculative",
+        "state",
+        "tail"
+      ],
+      "first_seen_round": 563
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.33896v1",
+      "title": "Looped Models are Fast Multi-Token Predictors",
+      "arxiv_id": "2611.33896",
+      "tokens": [
+        "fast",
+        "looped",
+        "multi",
+        "predictors",
+        "token"
+      ],
+      "first_seen_round": 563
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.28349v2",
+      "title": "Grammar-as-a-Drafter: More Tokens per Speculative Decoding Step on Grammar-Constrained Structured Outputs",
+      "arxiv_id": "2611.28349",
+      "tokens": [
+        "constrained",
+        "decoding",
+        "drafter",
+        "grammar",
+        "grammar",
+        "outputs",
+        "per",
+        "speculative",
+        "step",
+        "structured",
+        "tokens"
+      ],
+      "first_seen_round": 563
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.27217v1",
+      "title": "CoPyro: Feeding Copy Proposals to Parallel Drafters",
+      "arxiv_id": "2611.27217",
+      "tokens": [
+        "copy",
+        "copyro",
+        "drafters",
+        "feeding",
+        "parallel",
+        "proposals"
+      ],
+      "first_seen_round": 563
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.34211v1",
+      "title": "Compute-Aware Submodular Online Learning in Open Multi-Agent Systems",
+      "arxiv_id": "2611.34211",
+      "tokens": [
+        "agent",
+        "aware",
+        "compute",
+        "multi",
+        "online",
+        "open",
+        "submodular"
+      ],
+      "first_seen_round": 563
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.33332v1",
+      "title": "Online Prediction System for Proactive Autoscaling",
+      "arxiv_id": "2611.33332",
+      "tokens": [
+        "autoscaling",
+        "online",
+        "prediction",
+        "proactive"
+      ],
+      "first_seen_round": 563
     }
   ],
-  "total_unique": 5287
+  "total_unique": 5296
 }
