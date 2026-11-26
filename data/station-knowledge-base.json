@@ -1,53 +1,6 @@
 {
   "sessions": [
     {
-      "timestamp": "2026-10-28T17:30:50.998000",
-      "arxiv_papers_count": 18,
-      "arxiv_top_keywords": [
-        "learning",
-        "graph",
-        "world",
-        "environment",
-        "machine",
-        "spectral",
-        "eigenvalues",
-        "networks",
-        "braids",
-        "attention"
-      ],
-      "arxiv_strategies": [
-        "搜索: graph neural network",
-        "搜索: transfer learning",
-        "搜索: world model"
-      ],
-      "huggingface_models": 10,
-      "huggingface_tasks": [
-        "sentence-similarity",
-        "unknown",
-        "text-generation",
-        "text-ranking",
-        "feature-extraction"
-      ],
-      "ml_datasets": [
-        "Iris",
-        "Wine",
-        "Breast Cancer",
-        "Diabetes"
-      ],
-      "ml_total_tests": 22,
-      "github_trending_repos": 8,
-      "paperswithcode_papers": 8,
-      "evolution": {
-        "discovered": 17,
-        "adopted": 2,
-        "decisions": 2
-      },
-      "seed_watering": {
-        "seed_name": "Spiking Neural Networks",
-        "papers_found": 10
-      }
-    },
-    {
       "timestamp": "2026-10-28T21:57:56.617780",
       "arxiv_papers_count": 15,
       "arxiv_top_keywords": [
@@ -4699,12 +4652,59 @@
         "seed_name": "Spiking Neural Networks",
         "papers_found": 10
       }
+    },
+    {
+      "timestamp": "2026-11-26T22:40:05.660748",
+      "arxiv_papers_count": 16,
+      "arxiv_top_keywords": [
+        "language",
+        "end",
+        "channel",
+        "native",
+        "autoencoder",
+        "communications",
+        "attack",
+        "monitor",
+        "dangerous",
+        "behaviour"
+      ],
+      "arxiv_strategies": [
+        "cs.AI 最新",
+        "cs.LG 最新",
+        "cs.CL 最新"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "automatic-speech-recognition",
+        "time-series-forecasting",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 18,
+        "adopted": 1,
+        "decisions": 1
+      },
+      "seed_watering": {
+        "seed_name": "Non-Transformer Arch",
+        "papers_found": 6
+      }
     }
   ],
   "total_sessions": 101,
-  "last_updated": "2026-11-26T13:18:09.850213",
+  "last_updated": "2026-11-26T22:40:05.660764",
   "evolution_summary": {
-    "total_adopted": 430,
+    "total_adopted": 431,
     "adopted_list": [
       "Knowledge Distillation",
       "World Models / Model-Based RL",
@@ -5135,7 +5135,8 @@
       "不确定性 token 注入",
       "文本提示 3D 分割",
       "结构化剪枝与NAS结合",
-      "潜在类别混合模型 VAE"
+      "潜在类别混合模型 VAE",
+      "地理空间基础模型潜在空间表示（TerraMind）"
     ],
     "seeds": {
       "mamba": {
@@ -5160,8 +5161,8 @@
       },
       "non-transformer": {
         "name": "Non-Transformer Arch",
-        "watering": 96,
-        "papers": 92
+        "watering": 97,
+        "papers": 97
       },
       "few-shot": {
         "name": "Few-Shot Learning",
@@ -5262,15 +5263,16 @@
       },
       "non-transformer": {
         "name": "Non-Transformer Arch",
-        "new_papers": 92,
+        "new_papers": 97,
         "keywords_matched": [
-          "state space",
+          "linear attention",
+          "sub-quadratic",
           "mamba",
-          "gated linear",
           "rwkv",
-          "linear recurrent",
+          "state space",
+          "gated linear",
           "efficient transformer",
-          "linear attention"
+          "linear recurrent"
         ],
         "high_relevance_total": 13,
         "avg_relevance_latest": 1.0,
@@ -5335,6 +5337,6 @@
         "best_papers_count": 1
       }
     },
-    "last_evolution": "2026-11-26T13:18:09.854495"
+    "last_evolution": "2026-11-26T22:40:05.665217"
   }
 }

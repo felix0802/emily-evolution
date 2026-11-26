@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-26T13:18:09.869079",
+  "timestamp": "2026-11-26T22:40:05.679061",
   "connections": [
     {
       "seed_a": "Mamba (SSM)",
@@ -12,14 +12,14 @@
         "attention",
         "erasure",
         "exact",
+        "gated",
         "inference",
         "learning",
         "mamba",
-        "models",
-        "recurrent"
+        "models"
       ],
-      "strength": 15,
-      "discovered_at": "2026-11-26T13:18:09.868920"
+      "strength": 17,
+      "discovered_at": "2026-11-26T22:40:05.678878"
     },
     {
       "seed_a": "HTM",
@@ -36,7 +36,24 @@
         "with"
       ],
       "strength": 8,
-      "discovered_at": "2026-11-26T13:18:09.868971"
+      "discovered_at": "2026-11-26T22:40:05.678930"
+    },
+    {
+      "seed_a": "Spiking Neural Networks",
+      "seed_b": "Non-Transformer Arch",
+      "shared_keywords": [],
+      "shared_paper_concepts": [
+        "driven",
+        "hardware",
+        "hybrid",
+        "learning",
+        "networks",
+        "neural",
+        "time",
+        "with"
+      ],
+      "strength": 8,
+      "discovered_at": "2026-11-26T22:40:05.678976"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -52,7 +69,7 @@
         "with"
       ],
       "strength": 7,
-      "discovered_at": "2026-11-26T13:18:09.868915"
+      "discovered_at": "2026-11-26T22:40:05.678873"
     },
     {
       "seed_a": "HTM",
@@ -68,23 +85,7 @@
         "with"
       ],
       "strength": 7,
-      "discovered_at": "2026-11-26T13:18:09.868975"
-    },
-    {
-      "seed_a": "Spiking Neural Networks",
-      "seed_b": "Non-Transformer Arch",
-      "shared_keywords": [],
-      "shared_paper_concepts": [
-        "driven",
-        "hardware",
-        "hybrid",
-        "learning",
-        "neural",
-        "time",
-        "with"
-      ],
-      "strength": 7,
-      "discovered_at": "2026-11-26T13:18:09.868998"
+      "discovered_at": "2026-11-26T22:40:05.678934"
     },
     {
       "seed_a": "Spiking Neural Networks",
@@ -100,7 +101,7 @@
         "with"
       ],
       "strength": 7,
-      "discovered_at": "2026-11-26T13:18:09.869016"
+      "discovered_at": "2026-11-26T22:40:05.678995"
     },
     {
       "seed_a": "Few-Shot Learning",
@@ -116,7 +117,7 @@
         "with"
       ],
       "strength": 7,
-      "discovered_at": "2026-11-26T13:18:09.869049"
+      "discovered_at": "2026-11-26T22:40:05.679029"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -131,7 +132,7 @@
         "with"
       ],
       "strength": 6,
-      "discovered_at": "2026-11-26T13:18:09.868909"
+      "discovered_at": "2026-11-26T22:40:05.678867"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -146,7 +147,7 @@
         "with"
       ],
       "strength": 6,
-      "discovered_at": "2026-11-26T13:18:09.868936"
+      "discovered_at": "2026-11-26T22:40:05.678895"
     },
     {
       "seed_a": "HTM",
@@ -161,7 +162,7 @@
         "with"
       ],
       "strength": 6,
-      "discovered_at": "2026-11-26T13:18:09.868982"
+      "discovered_at": "2026-11-26T22:40:05.678958"
     }
   ],
   "total_seeds": 10

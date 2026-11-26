@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 933,
+  "_rotation_idx": 934,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 119,
@@ -3698,18 +3698,9 @@
   },
   "non-transformer": {
     "name": "Non-Transformer Arch",
-    "total_papers_found": 92,
-    "watering_count": 96,
+    "total_papers_found": 97,
+    "watering_count": 97,
     "history": [
-      {
-        "timestamp": "2026-08-20T16:19:27.682915",
-        "papers_found": 0,
-        "duplicates": 7,
-        "irrelevant_filtered": 3,
-        "avg_relevance": 0.0,
-        "high_relevance": 0,
-        "papers": []
-      },
       {
         "timestamp": "2026-08-21T12:20:35.165344",
         "papers_found": 0,
@@ -4603,6 +4594,37 @@
             "seed_match_score": 1
           }
         ]
+      },
+      {
+        "timestamp": "2026-11-26T22:40:00.237346",
+        "papers_found": 5,
+        "duplicates": 1,
+        "irrelevant_filtered": 4,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "Stable Gated DeltaNet-2: Understanding and Mitigating Recurrent State Instability",
+            "summary": "Linear attention offers an efficient solution for long-sequence modeling via linear complexity and fixed-size recurrent states. Gated DeltaNet-2 (GDN-2) introduces independent channel-wise control over erasure and writing, enhancing state-update expressiveness and in-context retrieval, yet it suffer",
+            "published": "2026-11-25",
+            "url": "http://arxiv.org/abs/2611.34051v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "One Token, Many Lessons: Sliding-Window Attention within Gated Delta Networks",
+            "summary": "Linear attention compresses historical context into a fixed-size recurrent state, reducing the computational and memory costs of long-sequence modeling. From the perspective of test-time regression (TTR), the state matrix can be viewed as an online-learned regression model, where keys and values ser",
+            "published": "2026-11-24",
+            "url": "http://arxiv.org/abs/2611.33257v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Eliciting the Recall Capacity of Linear Attention",
+            "summary": "Linear attention models exhibit a disproportionate deficit relative to softmax attention in associative recall (AR) in language modeling. We investigate this gap through natural language evaluations, synthetic recall tasks, and targeted training interventions. Using a synthetic setting, we quantify ",
+            "published": "2026-11-24",
+            "url": "http://arxiv.org/abs/2611.32969v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -4615,7 +4637,7 @@
       "sub-quadratic",
       "mamba"
     ],
-    "last_watered": "2026-11-23T04:22:08.895730"
+    "last_watered": "2026-11-26T22:40:00.237339"
   },
   "few-shot": {
     "name": "Few-Shot Learning",

@@ -6458,6 +6458,21 @@
         ],
         "decided_at": "2026-11-25T20:46:05.441835"
       }
+    },
+    {
+      "id": "llm-地理空间基础模型潜在空间表示（terramind）",
+      "name": "地理空间基础模型潜在空间表示（TerraMind）",
+      "adopted_at": "2026-11-26T22:40:05.648410",
+      "decision": {
+        "tech_id": "llm-地理空间基础模型潜在空间表示（terramind）",
+        "tech_name": "地理空间基础模型潜在空间表示（TerraMind）",
+        "action": "adopt",
+        "confidence": 0.7,
+        "reason": [
+          "预置技术(0.7)"
+        ],
+        "decided_at": "2026-11-26T22:40:05.644713"
+      }
     }
   ],
   "history": [
@@ -9040,6 +9055,12 @@
       "tech_id": "llm-潜在类别混合模型-vae",
       "tech_name": "潜在类别混合模型 VAE",
       "timestamp": "2026-11-25T20:46:05.445239"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-地理空间基础模型潜在空间表示（terramind）",
+      "tech_name": "地理空间基础模型潜在空间表示（TerraMind）",
+      "timestamp": "2026-11-26T22:40:05.648417"
     }
   ]
 }
