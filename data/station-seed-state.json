@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 934,
+  "_rotation_idx": 935,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 119,
@@ -4641,18 +4641,9 @@
   },
   "few-shot": {
     "name": "Few-Shot Learning",
-    "total_papers_found": 57,
-    "watering_count": 95,
+    "total_papers_found": 60,
+    "watering_count": 96,
     "history": [
-      {
-        "timestamp": "2026-08-20T18:20:16.162157",
-        "papers_found": 0,
-        "duplicates": 5,
-        "irrelevant_filtered": 5,
-        "avg_relevance": 0.0,
-        "high_relevance": 0,
-        "papers": []
-      },
       {
         "timestamp": "2026-08-21T14:22:13.978819",
         "papers_found": 0,
@@ -5306,6 +5297,37 @@
         "avg_relevance": 0.0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-11-27T05:36:38.429247",
+        "papers_found": 3,
+        "duplicates": 5,
+        "irrelevant_filtered": 2,
+        "avg_relevance": 1.33,
+        "high_relevance": 1,
+        "papers": [
+          {
+            "title": "MetaDecomp: Adaptive Task Decomposition via Meta-Learned Procedural Memory",
+            "summary": "Reusing past experience in long-horizon tasks requires more than storing successful procedures: Language agents must distinguish which procedures apply and what work remains as execution progresses. We introduce MetaDecomp, an in-context meta-learning framework for adaptive task decomposition that j",
+            "published": "2026-11-25",
+            "url": "http://arxiv.org/abs/2611.33822v1",
+            "seed_match_score": 2
+          },
+          {
+            "title": "GREMLIN: Generating Random Environments for Meta-Learning with Interacting Networks",
+            "summary": "Can randomly parameterized neural environments supply useful experience for learning a reinforcement learning algorithm? We investigate this question using DiscoRL's rule-discovery framework, replacing human-designed training games with sixteen selected neural environments. Each game combines bounde",
+            "published": "2026-11-24",
+            "url": "http://arxiv.org/abs/2611.33101v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Intervene or Trust CLIP? Competence-Gated Adaptation for Source-Free Cross-Domain Few-Shot Learning",
+            "summary": "Source-free cross-domain few-shot learning (SF-CDFSL) adapts a pre-trained vision-language model such as CLIP to a distant target domain from a handful of labeled images, without access to source data. Recent methods improve the fine-tuning of CLIP with token-level interventions and apply them in th",
+            "published": "2026-11-17",
+            "url": "http://arxiv.org/abs/2611.28104v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -5315,7 +5337,7 @@
       "prototypical",
       "in-context"
     ],
-    "last_watered": "2026-11-23T16:40:33.879542"
+    "last_watered": "2026-11-27T05:36:38.429242"
   },
   "continual-learning": {
     "name": "Continual Learning",

@@ -6473,6 +6473,21 @@
         ],
         "decided_at": "2026-11-26T22:40:05.644713"
       }
+    },
+    {
+      "id": "llm-相机参数无关的视频生成",
+      "name": "相机参数无关的视频生成",
+      "adopted_at": "2026-11-27T05:36:45.139079",
+      "decision": {
+        "tech_id": "llm-相机参数无关的视频生成",
+        "tech_name": "相机参数无关的视频生成",
+        "action": "adopt",
+        "confidence": 0.9,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-11-27T05:36:45.136223"
+      }
     }
   ],
   "history": [
@@ -9061,6 +9076,12 @@
       "tech_id": "llm-地理空间基础模型潜在空间表示（terramind）",
       "tech_name": "地理空间基础模型潜在空间表示（TerraMind）",
       "timestamp": "2026-11-26T22:40:05.648417"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-相机参数无关的视频生成",
+      "tech_name": "相机参数无关的视频生成",
+      "timestamp": "2026-11-27T05:36:45.139084"
     }
   ]
 }
