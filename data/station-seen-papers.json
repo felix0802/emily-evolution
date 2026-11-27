@@ -85303,7 +85303,289 @@
         "time"
       ],
       "first_seen_round": 567
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.34112v1",
+      "title": "Not Every Input Needs Everything: Unifying Expert Gating, Model Cascades, and Agent Orchestration",
+      "arxiv_id": "2611.34112",
+      "tokens": [
+        "agent",
+        "cascades",
+        "everything",
+        "expert",
+        "gating",
+        "input",
+        "needs",
+        "orchestration",
+        "unifying"
+      ],
+      "first_seen_round": 568
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.33875v1",
+      "title": "Random Voronoi Networks",
+      "arxiv_id": "2611.33875",
+      "tokens": [
+        "random",
+        "voronoi"
+      ],
+      "first_seen_round": 568
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.32384v1",
+      "title": "Can AI Design a Better nnU-Net? A Hypothesis-Driven Architecture Discovery Loop from Failures to Design Rules",
+      "arxiv_id": "2611.32384",
+      "tokens": [
+        "architecture",
+        "better",
+        "design",
+        "design",
+        "discovery",
+        "driven",
+        "failures",
+        "hypothesis",
+        "loop",
+        "net",
+        "nnu",
+        "rules"
+      ],
+      "first_seen_round": 568
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.34581v1",
+      "title": "ChemoMAE: Self-Supervised Spectral Representation Learning Reveals Chemical Heterogeneity in Historical Wood",
+      "arxiv_id": "2611.34581",
+      "tokens": [
+        "chemical",
+        "chemomae",
+        "heterogeneity",
+        "historical",
+        "representation",
+        "reveals",
+        "self",
+        "spectral",
+        "supervised",
+        "wood"
+      ],
+      "first_seen_round": 568
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.34426v1",
+      "title": "A Head-Level Investigative Study of Self-Supervised Backbones for Synthetic Speech Detection",
+      "arxiv_id": "2611.34426",
+      "tokens": [
+        "backbones",
+        "detection",
+        "head",
+        "investigative",
+        "level",
+        "self",
+        "speech",
+        "supervised",
+        "synthetic"
+      ],
+      "first_seen_round": 568
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.34218v1",
+      "title": "GeoCAM: Self-Supervised Sonar-Optical Representation Learning via Geographic Overlap Supervision",
+      "arxiv_id": "2611.34218",
+      "tokens": [
+        "geocam",
+        "geographic",
+        "optical",
+        "overlap",
+        "representation",
+        "self",
+        "sonar",
+        "supervised",
+        "supervision"
+      ],
+      "first_seen_round": 568
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.33615v1",
+      "title": "Learning from Natural Images Untangles Number Sense",
+      "arxiv_id": "2611.33615",
+      "tokens": [
+        "images",
+        "natural",
+        "number",
+        "sense",
+        "untangles"
+      ],
+      "first_seen_round": 568
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.32550v1",
+      "title": "Self-supervised quality evaluation of grid maps without ground truth",
+      "arxiv_id": "2611.32550",
+      "tokens": [
+        "evaluation",
+        "grid",
+        "ground",
+        "maps",
+        "quality",
+        "self",
+        "supervised",
+        "truth"
+      ],
+      "first_seen_round": 568
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.34327v1",
+      "title": "MeterRouter: Budget-Aware Dynamic Routing for Multi-Agent Systems",
+      "arxiv_id": "2611.34327",
+      "tokens": [
+        "agent",
+        "aware",
+        "budget",
+        "dynamic",
+        "meterrouter",
+        "multi",
+        "routing"
+      ],
+      "first_seen_round": 568
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.34278v1",
+      "title": "Latent-in-the-Middle: On the Security of Cross-Model Latent Communication in Multi-Agent Systems",
+      "arxiv_id": "2611.34278",
+      "tokens": [
+        "agent",
+        "communication",
+        "cross",
+        "latent",
+        "latent",
+        "middle",
+        "multi",
+        "security"
+      ],
+      "first_seen_round": 568
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.33242v1",
+      "title": "CypherMAS: Benchmarking Routing Reliability in LLM-Based Multi-Agent Systems",
+      "arxiv_id": "2611.33242",
+      "tokens": [
+        "agent",
+        "benchmarking",
+        "cyphermas",
+        "llm",
+        "multi",
+        "reliability",
+        "routing"
+      ],
+      "first_seen_round": 568
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.31611v1",
+      "title": "Multi-agent System for Automatic Discovery of Pareto-optimal Meta-solvers for PDEs",
+      "arxiv_id": "2611.31611",
+      "tokens": [
+        "agent",
+        "automatic",
+        "discovery",
+        "meta",
+        "multi",
+        "optimal",
+        "pareto",
+        "pdes",
+        "solvers"
+      ],
+      "first_seen_round": 568
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.31582v1",
+      "title": "LatentLens: Rethinking Latent Interface in Multi-Agent Systems",
+      "arxiv_id": "2611.31582",
+      "tokens": [
+        "agent",
+        "interface",
+        "latent",
+        "latentlens",
+        "multi",
+        "rethinking"
+      ],
+      "first_seen_round": 568
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.34821v1",
+      "title": "LoopTitan: What Does Parameter Revisit Buy a Mixture-of-Experts?",
+      "arxiv_id": "2611.34821",
+      "tokens": [
+        "buy",
+        "experts",
+        "looptitan",
+        "mixture",
+        "parameter",
+        "revisit"
+      ],
+      "first_seen_round": 568
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.34529v1",
+      "title": "AliceAI-Foundation-80B-A3B-Base",
+      "arxiv_id": "2611.34529",
+      "tokens": [
+        "80b",
+        "a3b",
+        "aliceai",
+        "base",
+        "foundation"
+      ],
+      "first_seen_round": 568
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.34276v1",
+      "title": "Scaling Looped MoE Language Models under Matched Budgets: Information Flow and Parameter Allocation",
+      "arxiv_id": "2611.34276",
+      "tokens": [
+        "allocation",
+        "budgets",
+        "flow",
+        "information",
+        "language",
+        "looped",
+        "matched",
+        "moe",
+        "parameter",
+        "scaling"
+      ],
+      "first_seen_round": 568
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.33952v1",
+      "title": "DuoMI: Dual Mutual Information Regularization for Expert Reuse in Looped Transformers",
+      "arxiv_id": "2611.33952",
+      "tokens": [
+        "dual",
+        "duomi",
+        "expert",
+        "information",
+        "looped",
+        "mutual",
+        "regularization",
+        "reuse",
+        "transformers"
+      ],
+      "first_seen_round": 568
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.33542v1",
+      "title": "RankCast: Phase-Aware Rank Balancing in MoE Serving",
+      "arxiv_id": "2611.33542",
+      "tokens": [
+        "aware",
+        "balancing",
+        "moe",
+        "phase",
+        "rank",
+        "rankcast",
+        "serving"
+      ],
+      "first_seen_round": 568
     }
   ],
-  "total_unique": 5355
+  "total_unique": 5373
 }

@@ -6518,6 +6518,36 @@
         ],
         "decided_at": "2026-11-27T15:43:19.732736"
       }
+    },
+    {
+      "id": "llm-条件计算/动态路由",
+      "name": "条件计算/动态路由",
+      "adopted_at": "2026-11-27T23:47:51.584264",
+      "decision": {
+        "tech_id": "llm-条件计算/动态路由",
+        "tech_name": "条件计算/动态路由",
+        "action": "adopt",
+        "confidence": 0.9,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-11-27T23:47:51.580847"
+      }
+    },
+    {
+      "id": "llm-假设驱动架构发现",
+      "name": "假设驱动架构发现",
+      "adopted_at": "2026-11-27T23:47:51.584297",
+      "decision": {
+        "tech_id": "llm-假设驱动架构发现",
+        "tech_name": "假设驱动架构发现",
+        "action": "adopt",
+        "confidence": 0.85,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-11-27T23:47:51.581065"
+      }
     }
   ],
   "history": [
@@ -9124,6 +9154,18 @@
       "tech_id": "llm-梯度-td(λ)",
       "tech_name": "梯度 TD(λ)",
       "timestamp": "2026-11-27T15:43:19.736035"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-条件计算/动态路由",
+      "tech_name": "条件计算/动态路由",
+      "timestamp": "2026-11-27T23:47:51.584271"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-假设驱动架构发现",
+      "tech_name": "假设驱动架构发现",
+      "timestamp": "2026-11-27T23:47:51.584299"
     }
   ]
 }

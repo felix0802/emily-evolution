@@ -477,17 +477,16 @@
   },
   "moe": {
     "name": "Mixture of Experts",
-    "total_new_papers": 155,
-    "total_watering": 79,
+    "total_new_papers": 160,
+    "total_watering": 80,
     "all_keywords_matched": [
       "expert routing",
-      "deepseek",
-      "moe",
       "router",
-      "mixture of experts"
+      "moe",
+      "mixture of experts",
+      "deepseek"
     ],
     "avg_relevance_trend": [
-      2.17,
       2.0,
       1.6,
       2.2,
@@ -506,10 +505,16 @@
       1.75,
       1.67,
       1.33,
-      1.75
+      1.75,
+      2.0
     ],
-    "high_relevance_total": 110,
+    "high_relevance_total": 113,
     "best_papers": [
+      {
+        "title": "DuoMI: Dual Mutual Information Regularization for Expert Reuse in Looped Transformers",
+        "score": 4,
+        "published": "2026-11-25"
+      },
       {
         "title": "Multi-level context Modeling for consistent expert selection in Mixture-of-Experts",
         "score": 3,
@@ -554,14 +559,9 @@
         "title": "A Declarative-Procedural Perspective on Expert Routing in Bilingual Mixture-of-Experts Language Mode",
         "score": 3,
         "published": "2026-08-15"
-      },
-      {
-        "title": "A Unified Mamba--MoE Surrogate for Closed-Loop Simulation and Measurement-Window Forecasting of Inve",
-        "score": 3,
-        "published": "2026-08-15"
       }
     ],
-    "last_updated": "2026-11-24T14:25:23.754355"
+    "last_updated": "2026-11-27T23:47:46.690639"
   },
   "kv-cache": {
     "name": "KV Cache Optimization",

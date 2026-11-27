@@ -1,53 +1,6 @@
 {
   "sessions": [
     {
-      "timestamp": "2026-10-29T07:44:08.910202",
-      "arxiv_papers_count": 18,
-      "arxiv_top_keywords": [
-        "retrieval",
-        "recommendation",
-        "compression",
-        "learning",
-        "distillation",
-        "knowledge",
-        "target",
-        "armed",
-        "clinical",
-        "adaptive"
-      ],
-      "arxiv_strategies": [
-        "搜索: multi-query attention",
-        "搜索: geometric deep learning",
-        "搜索: knowledge distillation"
-      ],
-      "huggingface_models": 10,
-      "huggingface_tasks": [
-        "sentence-similarity",
-        "unknown",
-        "text-generation",
-        "text-ranking",
-        "feature-extraction"
-      ],
-      "ml_datasets": [
-        "Iris",
-        "Wine",
-        "Breast Cancer",
-        "Diabetes"
-      ],
-      "ml_total_tests": 22,
-      "github_trending_repos": 8,
-      "paperswithcode_papers": 8,
-      "evolution": {
-        "discovered": 24,
-        "adopted": 0,
-        "decisions": 0
-      },
-      "seed_watering": {
-        "seed_name": "Continual Learning",
-        "papers_found": 7
-      }
-    },
-    {
       "timestamp": "2026-10-29T14:43:05.817589",
       "arxiv_papers_count": 17,
       "arxiv_top_keywords": [
@@ -4699,12 +4652,59 @@
         "seed_name": "Continual Learning",
         "papers_found": 7
       }
+    },
+    {
+      "timestamp": "2026-11-27T23:47:57.073514",
+      "arxiv_papers_count": 18,
+      "arxiv_top_keywords": [
+        "agent",
+        "multi",
+        "self",
+        "supervised",
+        "level",
+        "architecture",
+        "latent",
+        "communication",
+        "input",
+        "gating"
+      ],
+      "arxiv_strategies": [
+        "搜索: neural architecture",
+        "搜索: self-supervised learning",
+        "搜索: multi-agent system"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "automatic-speech-recognition",
+        "time-series-forecasting",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 20,
+        "adopted": 2,
+        "decisions": 2
+      },
+      "seed_watering": {
+        "seed_name": "Mixture of Experts",
+        "papers_found": 8
+      }
     }
   ],
   "total_sessions": 101,
-  "last_updated": "2026-11-27T15:43:23.191993",
+  "last_updated": "2026-11-27T23:47:57.073539",
   "evolution_summary": {
-    "total_adopted": 434,
+    "total_adopted": 436,
     "adopted_list": [
       "Knowledge Distillation",
       "World Models / Model-Based RL",
@@ -5139,7 +5139,9 @@
       "地理空间基础模型潜在空间表示（TerraMind）",
       "相机参数无关的视频生成",
       "递归熵风险测度",
-      "梯度 TD(λ)"
+      "梯度 TD(λ)",
+      "条件计算/动态路由",
+      "假设驱动架构发现"
     ],
     "seeds": {
       "mamba": {
@@ -5179,8 +5181,8 @@
       },
       "moe": {
         "name": "Mixture of Experts",
-        "watering": 90,
-        "papers": 155
+        "watering": 91,
+        "papers": 160
       },
       "kv-cache": {
         "name": "KV Cache Optimization",
@@ -5313,16 +5315,16 @@
       },
       "moe": {
         "name": "Mixture of Experts",
-        "new_papers": 155,
+        "new_papers": 160,
         "keywords_matched": [
           "expert routing",
-          "deepseek",
-          "moe",
           "router",
-          "mixture of experts"
+          "moe",
+          "mixture of experts",
+          "deepseek"
         ],
-        "high_relevance_total": 110,
-        "avg_relevance_latest": 1.75,
+        "high_relevance_total": 113,
+        "avg_relevance_latest": 2.0,
         "best_papers_count": 10
       },
       "kv-cache": {
@@ -5340,6 +5342,6 @@
         "best_papers_count": 1
       }
     },
-    "last_evolution": "2026-11-27T15:43:23.196288"
+    "last_evolution": "2026-11-27T23:47:57.078062"
   }
 }

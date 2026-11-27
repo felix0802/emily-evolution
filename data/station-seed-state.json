@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 936,
+  "_rotation_idx": 937,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 119,
@@ -6345,18 +6345,9 @@
   },
   "moe": {
     "name": "Mixture of Experts",
-    "total_papers_found": 155,
-    "watering_count": 90,
+    "total_papers_found": 160,
+    "watering_count": 91,
     "history": [
-      {
-        "timestamp": "2026-08-20T22:14:04.057904",
-        "papers_found": 0,
-        "duplicates": 7,
-        "irrelevant_filtered": 3,
-        "avg_relevance": 0.0,
-        "high_relevance": 0,
-        "papers": []
-      },
       {
         "timestamp": "2026-08-21T18:19:00.637402",
         "papers_found": 1,
@@ -7337,6 +7328,37 @@
             "seed_match_score": 1
           }
         ]
+      },
+      {
+        "timestamp": "2026-11-27T23:47:46.691887",
+        "papers_found": 5,
+        "duplicates": 3,
+        "irrelevant_filtered": 2,
+        "avg_relevance": 2.0,
+        "high_relevance": 3,
+        "papers": [
+          {
+            "title": "LoopTitan: What Does Parameter Revisit Buy a Mixture-of-Experts?",
+            "summary": "Looped Mixture-of-Experts (MoE) architectures revisit layer parameters across depths. This design increases effective depth without adding parameters. Recent looped MoE studies report substantial gains over the standard MoE at matched budgets (parameters, FLOPs and KV cache). However, the reported g",
+            "published": "2026-11-25",
+            "url": "http://arxiv.org/abs/2611.34821v1",
+            "seed_match_score": 2
+          },
+          {
+            "title": "AliceAI-Foundation-80B-A3B-Base",
+            "summary": "We present AliceAI-Foundation-80B-A3B-Base, a mixture-of-experts language model with 80 billion total parameters and approximately 3 billion active parameters per token, trained from scratch at Yandex and released under the Apache 2.0 license. The model combines Kimi Delta Attention with full attent",
+            "published": "2026-11-25",
+            "url": "http://arxiv.org/abs/2611.34529v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Scaling Looped MoE Language Models under Matched Budgets: Information Flow and Parameter Allocation",
+            "summary": "Looped Transformers decouple computational depth from parameter count, and prior studies have demonstrated promising performance gains with increased computation. However, systematic design principles for configuring these models under strict iso-parameter and iso-FLOP constraints remain scarce. We ",
+            "published": "2026-11-25",
+            "url": "http://arxiv.org/abs/2611.34276v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -7348,7 +7370,7 @@
       "switch transformer",
       "deepseek"
     ],
-    "last_watered": "2026-11-24T14:25:23.755124"
+    "last_watered": "2026-11-27T23:47:46.691880"
   },
   "kv-cache": {
     "name": "KV Cache Optimization",
