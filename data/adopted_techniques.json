@@ -6488,6 +6488,36 @@
         ],
         "decided_at": "2026-11-27T05:36:45.136223"
       }
+    },
+    {
+      "id": "llm-递归熵风险测度",
+      "name": "递归熵风险测度",
+      "adopted_at": "2026-11-27T15:43:19.736000",
+      "decision": {
+        "tech_id": "llm-递归熵风险测度",
+        "tech_name": "递归熵风险测度",
+        "action": "adopt",
+        "confidence": 0.9,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-11-27T15:43:19.732490"
+      }
+    },
+    {
+      "id": "llm-梯度-td(λ)",
+      "name": "梯度 TD(λ)",
+      "adopted_at": "2026-11-27T15:43:19.736033",
+      "decision": {
+        "tech_id": "llm-梯度-td(λ)",
+        "tech_name": "梯度 TD(λ)",
+        "action": "adopt",
+        "confidence": 0.85,
+        "reason": [
+          "LLM建议采用"
+        ],
+        "decided_at": "2026-11-27T15:43:19.732736"
+      }
     }
   ],
   "history": [
@@ -9082,6 +9112,18 @@
       "tech_id": "llm-相机参数无关的视频生成",
       "tech_name": "相机参数无关的视频生成",
       "timestamp": "2026-11-27T05:36:45.139084"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-递归熵风险测度",
+      "tech_name": "递归熵风险测度",
+      "timestamp": "2026-11-27T15:43:19.736005"
+    },
+    {
+      "event": "adopted",
+      "tech_id": "llm-梯度-td(λ)",
+      "tech_name": "梯度 TD(λ)",
+      "timestamp": "2026-11-27T15:43:19.736035"
     }
   ]
 }

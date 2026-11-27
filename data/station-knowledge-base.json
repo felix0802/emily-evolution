@@ -1,53 +1,6 @@
 {
   "sessions": [
     {
-      "timestamp": "2026-10-29T01:29:13.116215",
-      "arxiv_papers_count": 17,
-      "arxiv_top_keywords": [
-        "draft",
-        "cache",
-        "graph",
-        "target",
-        "decoding",
-        "attention",
-        "speculative",
-        "head",
-        "keys",
-        "caches"
-      ],
-      "arxiv_strategies": [
-        "搜索: kv cache LLM",
-        "搜索: graph neural network recent",
-        "搜索: speculative decoding"
-      ],
-      "huggingface_models": 10,
-      "huggingface_tasks": [
-        "sentence-similarity",
-        "unknown",
-        "text-generation",
-        "text-ranking",
-        "feature-extraction"
-      ],
-      "ml_datasets": [
-        "Iris",
-        "Wine",
-        "Breast Cancer",
-        "Diabetes"
-      ],
-      "ml_total_tests": 22,
-      "github_trending_repos": 8,
-      "paperswithcode_papers": 8,
-      "evolution": {
-        "discovered": 19,
-        "adopted": 1,
-        "decisions": 1
-      },
-      "seed_watering": {
-        "seed_name": "Few-Shot Learning",
-        "papers_found": 7
-      }
-    },
-    {
       "timestamp": "2026-10-29T07:44:08.910202",
       "arxiv_papers_count": 18,
       "arxiv_top_keywords": [
@@ -4699,12 +4652,59 @@
         "seed_name": "Few-Shot Learning",
         "papers_found": 8
       }
+    },
+    {
+      "timestamp": "2026-11-27T15:43:23.191977",
+      "arxiv_papers_count": 18,
+      "arxiv_top_keywords": [
+        "reinforcement",
+        "policies",
+        "data",
+        "learning",
+        "language",
+        "real",
+        "video",
+        "generation",
+        "diffusion",
+        "attack"
+      ],
+      "arxiv_strategies": [
+        "搜索: reinforcement learning",
+        "搜索: large language model",
+        "搜索: diffusion model"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "automatic-speech-recognition",
+        "time-series-forecasting",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 13,
+        "adopted": 2,
+        "decisions": 2
+      },
+      "seed_watering": {
+        "seed_name": "Continual Learning",
+        "papers_found": 7
+      }
     }
   ],
   "total_sessions": 101,
-  "last_updated": "2026-11-27T05:36:45.149986",
+  "last_updated": "2026-11-27T15:43:23.191993",
   "evolution_summary": {
-    "total_adopted": 432,
+    "total_adopted": 434,
     "adopted_list": [
       "Knowledge Distillation",
       "World Models / Model-Based RL",
@@ -5137,7 +5137,9 @@
       "结构化剪枝与NAS结合",
       "潜在类别混合模型 VAE",
       "地理空间基础模型潜在空间表示（TerraMind）",
-      "相机参数无关的视频生成"
+      "相机参数无关的视频生成",
+      "递归熵风险测度",
+      "梯度 TD(λ)"
     ],
     "seeds": {
       "mamba": {
@@ -5172,8 +5174,8 @@
       },
       "continual-learning": {
         "name": "Continual Learning",
-        "watering": 94,
-        "papers": 174
+        "watering": 95,
+        "papers": 181
       },
       "moe": {
         "name": "Mixture of Experts",
@@ -5281,16 +5283,16 @@
       },
       "continual-learning": {
         "name": "Continual Learning",
-        "new_papers": 169,
+        "new_papers": 176,
         "keywords_matched": [
           "continual learning",
-          "lifelong",
           "elastic weight",
           "catastrophic forgetting",
-          "ewc"
+          "ewc",
+          "lifelong"
         ],
-        "high_relevance_total": 45,
-        "avg_relevance_latest": 0.0,
+        "high_relevance_total": 46,
+        "avg_relevance_latest": 1.14,
         "best_papers_count": 6
       },
       "gnn": {
@@ -5338,6 +5340,6 @@
         "best_papers_count": 1
       }
     },
-    "last_evolution": "2026-11-27T05:36:45.153390"
+    "last_evolution": "2026-11-27T15:43:23.196288"
   }
 }

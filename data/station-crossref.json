@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-27T05:36:45.165109",
+  "timestamp": "2026-11-27T15:43:23.214971",
   "connections": [
     {
       "seed_a": "Mamba (SSM)",
@@ -19,7 +19,7 @@
         "models"
       ],
       "strength": 17,
-      "discovered_at": "2026-11-27T05:36:45.164976"
+      "discovered_at": "2026-11-27T15:43:23.214784"
     },
     {
       "seed_a": "HTM",
@@ -36,7 +36,7 @@
         "with"
       ],
       "strength": 8,
-      "discovered_at": "2026-11-27T05:36:45.165017"
+      "discovered_at": "2026-11-27T15:43:23.214860"
     },
     {
       "seed_a": "Spiking Neural Networks",
@@ -53,7 +53,7 @@
         "with"
       ],
       "strength": 8,
-      "discovered_at": "2026-11-27T05:36:45.165041"
+      "discovered_at": "2026-11-27T15:43:23.214889"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -69,7 +69,7 @@
         "with"
       ],
       "strength": 7,
-      "discovered_at": "2026-11-27T05:36:45.164971"
+      "discovered_at": "2026-11-27T15:43:23.214778"
     },
     {
       "seed_a": "HTM",
@@ -85,7 +85,7 @@
         "with"
       ],
       "strength": 7,
-      "discovered_at": "2026-11-27T05:36:45.165021"
+      "discovered_at": "2026-11-27T15:43:23.214865"
     },
     {
       "seed_a": "Spiking Neural Networks",
@@ -101,7 +101,7 @@
         "with"
       ],
       "strength": 7,
-      "discovered_at": "2026-11-27T05:36:45.165056"
+      "discovered_at": "2026-11-27T15:43:23.214908"
     },
     {
       "seed_a": "Few-Shot Learning",
@@ -117,7 +117,7 @@
         "with"
       ],
       "strength": 7,
-      "discovered_at": "2026-11-27T05:36:45.165084"
+      "discovered_at": "2026-11-27T15:43:23.214941"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -132,7 +132,7 @@
         "with"
       ],
       "strength": 6,
-      "discovered_at": "2026-11-27T05:36:45.164966"
+      "discovered_at": "2026-11-27T15:43:23.214772"
     },
     {
       "seed_a": "Mamba (SSM)",
@@ -147,22 +147,22 @@
         "with"
       ],
       "strength": 6,
-      "discovered_at": "2026-11-27T05:36:45.164989"
+      "discovered_at": "2026-11-27T15:43:23.214801"
     },
     {
       "seed_a": "HTM",
-      "seed_b": "Continual Learning",
+      "seed_b": "Graph Neural Networks",
       "shared_keywords": [],
       "shared_paper_concepts": [
-        "agent",
+        "aware",
+        "based",
         "learning",
-        "memory",
-        "test",
-        "time",
+        "prediction",
+        "when",
         "with"
       ],
       "strength": 6,
-      "discovered_at": "2026-11-27T05:36:45.165027"
+      "discovered_at": "2026-11-27T15:43:23.214885"
     }
   ],
   "total_seeds": 10

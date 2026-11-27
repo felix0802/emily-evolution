@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 935,
+  "_rotation_idx": 936,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 119,
@@ -5341,40 +5341,9 @@
   },
   "continual-learning": {
     "name": "Continual Learning",
-    "total_papers_found": 174,
-    "watering_count": 94,
+    "total_papers_found": 181,
+    "watering_count": 95,
     "history": [
-      {
-        "timestamp": "2026-08-20T20:15:05.545448",
-        "papers_found": 3,
-        "duplicates": 4,
-        "irrelevant_filtered": 3,
-        "avg_relevance": 1.33,
-        "high_relevance": 1,
-        "papers": [
-          {
-            "title": "Harness Continual Learning: Continual Adaptation Beyond Model Parameters",
-            "summary": "Continual learning has largely been model-centric, treating model parameters as the state that changes with sequential experience. Modern agents can also adapt through a harness of prompts, memories, tools, skills, and routing rules. Because these contents jointly shape later execution, a harness up",
-            "published": "2026-08-19",
-            "url": "http://arxiv.org/abs/2608.19013v1",
-            "seed_match_score": 1
-          },
-          {
-            "title": "Forgetting, plasticity, and co-observation: a third facet of continual learning",
-            "summary": "Efficient continual learning remains a fundamental challenge for deep neural networks. While catastrophic forgetting and loss of plasticity are widely considered the primary obstacles to overcome, we show that these two issues cannot fully explain the performance gap between naive sequential trainin",
-            "published": "2026-08-19",
-            "url": "http://arxiv.org/abs/2608.18803v1",
-            "seed_match_score": 2
-          },
-          {
-            "title": "Towards Reversible Forgetting: Managing Obsolete Knowledge in Continual Enterprise AI Agents",
-            "summary": "Continual learning has traditionally treated forgetting as a failure, emphasizing preservation of previously acquired knowledge as environments evolve. We argue that this objective is incomplete for enterprise AI agents operating in non-stationary environments, where customers, policies, tools, work",
-            "published": "2026-08-18",
-            "url": "http://arxiv.org/abs/2608.18177v1",
-            "seed_match_score": 1
-          }
-        ]
-      },
       {
         "timestamp": "2026-08-21T16:17:38.967649",
         "papers_found": 2,
@@ -6332,6 +6301,37 @@
         "avg_relevance": 0.0,
         "high_relevance": 0,
         "papers": []
+      },
+      {
+        "timestamp": "2026-11-27T15:43:15.321084",
+        "papers_found": 7,
+        "duplicates": 0,
+        "irrelevant_filtered": 3,
+        "avg_relevance": 1.14,
+        "high_relevance": 1,
+        "papers": [
+          {
+            "title": "Tune for Retention, Not Just Gain: SFT Forgets Far Less than You Think",
+            "summary": "Catastrophic forgetting, the drastic loss of previously acquired capabilities when learning new ones, is a central challenge in language model fine-tuning. Supervised fine-tuning (SFT) is widely believed to be prone to such forgetting. Recent works have attributed this to the off-policy nature of SF",
+            "published": "2026-11-25",
+            "url": "http://arxiv.org/abs/2611.34579v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Sequentially Acquiring Concept Knowledge to Guide Continual Learning",
+            "summary": "The goal of continual learning (CL) is to adapt to new data (plasticity) while retaining the knowledge acquired from old data (stability). Existing methods are explicitly designed to focus on balancing stability and plasticity to mitigate the challenge of catastrophic forgetting while promoting lear",
+            "published": "2026-11-24",
+            "url": "http://arxiv.org/abs/2611.33399v1",
+            "seed_match_score": 2
+          },
+          {
+            "title": "Load Balancing Neurons: Firing-Rate Control Sustains Plasticity in Continual Learning",
+            "summary": "Neural networks in continual learning often lose plasticity: some neurons become inactive, while others fire almost constantly. This limits adaptation to shifting data and wastes capacity. Prior work mitigates this by periodically reinitializing low-utility units, but such resets can destroy previou",
+            "published": "2026-11-24",
+            "url": "http://arxiv.org/abs/2611.32691v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -6341,7 +6341,7 @@
       "ewc",
       "elastic weight"
     ],
-    "last_watered": "2026-11-24T03:32:10.535131"
+    "last_watered": "2026-11-27T15:43:15.321077"
   },
   "moe": {
     "name": "Mixture of Experts",
