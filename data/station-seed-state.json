@@ -1,5 +1,5 @@
 {
-  "_rotation_idx": 937,
+  "_rotation_idx": 938,
   "mamba": {
     "name": "Mamba (SSM)",
     "total_papers_found": 119,
@@ -7374,18 +7374,9 @@
   },
   "kv-cache": {
     "name": "KV Cache Optimization",
-    "total_papers_found": 151,
-    "watering_count": 91,
+    "total_papers_found": 154,
+    "watering_count": 92,
     "history": [
-      {
-        "timestamp": "2026-08-21T00:33:35.589413",
-        "papers_found": 0,
-        "duplicates": 8,
-        "irrelevant_filtered": 2,
-        "avg_relevance": 0.0,
-        "high_relevance": 0,
-        "papers": []
-      },
       {
         "timestamp": "2026-08-21T20:11:33.928311",
         "papers_found": 3,
@@ -8352,6 +8343,37 @@
             "seed_match_score": 1
           }
         ]
+      },
+      {
+        "timestamp": "2026-11-28T05:13:32.545528",
+        "papers_found": 3,
+        "duplicates": 4,
+        "irrelevant_filtered": 3,
+        "avg_relevance": 1.0,
+        "high_relevance": 0,
+        "papers": [
+          {
+            "title": "DFly2: Turbocharging Long-Context Speculative Decoding by Sharing the Target's Sparsity",
+            "summary": "To avoid the quadratic cost of dense attention over long contexts, models such as DeepSeek-V4 and Hy4 have turned natively sparse, and speculative decoding, which matters most where decoding is slowest, increasingly runs on them. Their drafters, however, still keep a context cache of their own, over",
+            "published": "2026-11-25",
+            "url": "http://arxiv.org/abs/2611.34776v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "MolGPAO: Molecular Generative Pre-trained Autoregressive Octree with Speculative Decoding and Sub-Millisecond Seam Healing for 3D Molecules",
+            "summary": "Autoregressive generation over adaptive 3D octrees (Uni-3DAR) offers an intrinsic $O(N \\log N)$ sparsity advantage over dense $O(N^2)$ equivariant diffusion and flow models on large drug-like molecules, yet lags in geometric equilibrium, closed-shell valence stability, and property fidelity due to M",
+            "published": "2026-11-25",
+            "url": "http://arxiv.org/abs/2611.33985v1",
+            "seed_match_score": 1
+          },
+          {
+            "title": "Draft Calibration for Speculative Decoding: Accelerating LLM Serving by Matching Draft and Target Distributions",
+            "summary": "Speculative decoding accelerates large language model (LLM) inference by employing a lightweight draft model to propose draft tokens and allowing the target model to verify the new tokens in parallel to improve inference-time compute utilization. The speedup relies on the acceptance probability of d",
+            "published": "2026-11-24",
+            "url": "http://arxiv.org/abs/2611.33111v1",
+            "seed_match_score": 1
+          }
+        ]
       }
     ],
     "keywords": [
@@ -8363,7 +8385,7 @@
       "flash attention",
       "speculative decoding"
     ],
-    "last_watered": "2026-11-25T00:12:43.382238"
+    "last_watered": "2026-11-28T05:13:32.545523"
   },
   "gnn": {
     "name": "Graph Neural Networks",

@@ -1,53 +1,6 @@
 {
   "sessions": [
     {
-      "timestamp": "2026-10-29T14:43:05.817589",
-      "arxiv_papers_count": 17,
-      "arxiv_top_keywords": [
-        "learning",
-        "efficient",
-        "time",
-        "attention",
-        "hexagonal",
-        "their",
-        "primitives",
-        "scene",
-        "action",
-        "thinkworld"
-      ],
-      "arxiv_strategies": [
-        "cs.AI 最新",
-        "cs.LG 最新",
-        "cs.CL 最新"
-      ],
-      "huggingface_models": 10,
-      "huggingface_tasks": [
-        "sentence-similarity",
-        "unknown",
-        "text-generation",
-        "text-ranking",
-        "feature-extraction"
-      ],
-      "ml_datasets": [
-        "Iris",
-        "Wine",
-        "Breast Cancer",
-        "Diabetes"
-      ],
-      "ml_total_tests": 22,
-      "github_trending_repos": 8,
-      "paperswithcode_papers": 8,
-      "evolution": {
-        "discovered": 16,
-        "adopted": 1,
-        "decisions": 1
-      },
-      "seed_watering": {
-        "seed_name": "Mixture of Experts",
-        "papers_found": 7
-      }
-    },
-    {
       "timestamp": "2026-10-29T20:43:12.411089",
       "arxiv_papers_count": 21,
       "arxiv_top_keywords": [
@@ -4699,10 +4652,57 @@
         "seed_name": "Mixture of Experts",
         "papers_found": 8
       }
+    },
+    {
+      "timestamp": "2026-11-28T05:13:37.574601",
+      "arxiv_papers_count": 18,
+      "arxiv_top_keywords": [
+        "world",
+        "graph",
+        "learning",
+        "latent",
+        "neural",
+        "transfer",
+        "fine",
+        "networks",
+        "cosmic",
+        "web"
+      ],
+      "arxiv_strategies": [
+        "搜索: graph neural network",
+        "搜索: transfer learning",
+        "搜索: world model"
+      ],
+      "huggingface_models": 10,
+      "huggingface_tasks": [
+        "sentence-similarity",
+        "automatic-speech-recognition",
+        "time-series-forecasting",
+        "text-ranking",
+        "feature-extraction"
+      ],
+      "ml_datasets": [
+        "Iris",
+        "Wine",
+        "Breast Cancer",
+        "Diabetes"
+      ],
+      "ml_total_tests": 22,
+      "github_trending_repos": 8,
+      "paperswithcode_papers": 8,
+      "evolution": {
+        "discovered": 22,
+        "adopted": 0,
+        "decisions": 0
+      },
+      "seed_watering": {
+        "seed_name": "KV Cache Optimization",
+        "papers_found": 7
+      }
     }
   ],
   "total_sessions": 101,
-  "last_updated": "2026-11-27T23:47:57.073539",
+  "last_updated": "2026-11-28T05:13:37.574615",
   "evolution_summary": {
     "total_adopted": 436,
     "adopted_list": [
@@ -5186,8 +5186,8 @@
       },
       "kv-cache": {
         "name": "KV Cache Optimization",
-        "watering": 91,
-        "papers": 151
+        "watering": 92,
+        "papers": 154
       },
       "gnn": {
         "name": "Graph Neural Networks",
@@ -5329,12 +5329,12 @@
       },
       "kv-cache": {
         "name": "KV Cache Optimization",
-        "new_papers": 151,
+        "new_papers": 154,
         "keywords_matched": [
-          "speculative decoding",
           "kv cache",
-          "key-value cache",
+          "speculative decoding",
           "gqa",
+          "key-value cache",
           "flash attention"
         ],
         "high_relevance_total": 5,
@@ -5342,6 +5342,6 @@
         "best_papers_count": 1
       }
     },
-    "last_evolution": "2026-11-27T23:47:57.078062"
+    "last_evolution": "2026-11-28T05:13:37.578163"
   }
 }

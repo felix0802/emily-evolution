@@ -85585,7 +85585,225 @@
         "serving"
       ],
       "first_seen_round": 568
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.34332v1",
+      "title": "Scaling and Cross-Simulation Generalization of Graph Neural Networks for Cosmic-Web Classification in CAMELS",
+      "arxiv_id": "2611.34332",
+      "tokens": [
+        "camels",
+        "classification",
+        "cosmic",
+        "cross",
+        "generalization",
+        "graph",
+        "neural",
+        "scaling",
+        "simulation",
+        "web"
+      ],
+      "first_seen_round": 569
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.34816v1",
+      "title": "Transferring Architecture as an Optimization Prior",
+      "arxiv_id": "2611.34816",
+      "tokens": [
+        "architecture",
+        "optimization",
+        "prior",
+        "transferring"
+      ],
+      "first_seen_round": 569
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.34634v1",
+      "title": "LatentRL-QAS: Transfer via Latent Reinforcement Learning for Quantum Architecture Search",
+      "arxiv_id": "2611.34634",
+      "tokens": [
+        "architecture",
+        "latent",
+        "latentrl",
+        "qas",
+        "quantum",
+        "reinforcement",
+        "search",
+        "transfer"
+      ],
+      "first_seen_round": 569
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.33713v1",
+      "title": "Nepali Currency Denomination Classification Using Convolutional Neural Networks (CNNs) and MobileNetV2: An Experimental Comparison",
+      "arxiv_id": "2611.33713",
+      "tokens": [
+        "classification",
+        "cnns",
+        "comparison",
+        "convolutional",
+        "currency",
+        "denomination",
+        "experimental",
+        "mobilenetv2",
+        "nepali",
+        "neural"
+      ],
+      "first_seen_round": 569
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.34830v1",
+      "title": "Not all world models can doubt: how training objective and architecture shape epistemic uncertainty in JEPA and RSSM world models",
+      "arxiv_id": "2611.34830",
+      "tokens": [
+        "architecture",
+        "doubt",
+        "epistemic",
+        "jepa",
+        "objective",
+        "rssm",
+        "shape",
+        "training",
+        "uncertainty",
+        "world",
+        "world"
+      ],
+      "first_seen_round": 569
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.34656v1",
+      "title": "Do We Still Need Reinforcement Learning When We Can Read the World Model?",
+      "arxiv_id": "2611.34656",
+      "tokens": [
+        "need",
+        "read",
+        "reinforcement",
+        "still",
+        "world"
+      ],
+      "first_seen_round": 569
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.34644v1",
+      "title": "Motion Beyond Pixels: Learning Future Visual Representations for Object-Centric Dynamics",
+      "arxiv_id": "2611.34644",
+      "tokens": [
+        "centric",
+        "dynamics",
+        "future",
+        "motion",
+        "object",
+        "pixels",
+        "representations",
+        "visual"
+      ],
+      "first_seen_round": 569
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.34509v1",
+      "title": "Long-Horizon Planning with Latent World Models via Graph Anchors",
+      "arxiv_id": "2611.34509",
+      "tokens": [
+        "anchors",
+        "graph",
+        "horizon",
+        "latent",
+        "long",
+        "planning",
+        "world"
+      ],
+      "first_seen_round": 569
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.34435v1",
+      "title": "Most of the Way There: Turning a Strong Video Prior into an Action-Conditioned World Model",
+      "arxiv_id": "2611.34435",
+      "tokens": [
+        "action",
+        "conditioned",
+        "prior",
+        "strong",
+        "there",
+        "turning",
+        "video",
+        "way",
+        "world"
+      ],
+      "first_seen_round": 569
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.34130v1",
+      "title": "WorldPhy: Benchmarking Fine-Grained Physical Plausibility of World Models in Robotics",
+      "arxiv_id": "2611.34130",
+      "tokens": [
+        "benchmarking",
+        "fine",
+        "grained",
+        "physical",
+        "plausibility",
+        "robotics",
+        "world",
+        "worldphy"
+      ],
+      "first_seen_round": 569
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.34776v1",
+      "title": "DFly2: Turbocharging Long-Context Speculative Decoding by Sharing the Target's Sparsity",
+      "arxiv_id": "2611.34776",
+      "tokens": [
+        "context",
+        "decoding",
+        "dfly2",
+        "long",
+        "sharing",
+        "sparsity",
+        "speculative",
+        "target",
+        "turbocharging"
+      ],
+      "first_seen_round": 569
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.33985v1",
+      "title": "MolGPAO: Molecular Generative Pre-trained Autoregressive Octree with Speculative Decoding and Sub-Millisecond Seam Healing for 3D Molecules",
+      "arxiv_id": "2611.33985",
+      "tokens": [
+        "autoregressive",
+        "decoding",
+        "generative",
+        "healing",
+        "millisecond",
+        "molecular",
+        "molecules",
+        "molgpao",
+        "octree",
+        "pre",
+        "seam",
+        "speculative",
+        "sub",
+        "trained"
+      ],
+      "first_seen_round": 569
+    },
+    {
+      "url": "http://arxiv.org/abs/2611.33111v1",
+      "title": "Draft Calibration for Speculative Decoding: Accelerating LLM Serving by Matching Draft and Target Distributions",
+      "arxiv_id": "2611.33111",
+      "tokens": [
+        "accelerating",
+        "calibration",
+        "decoding",
+        "distributions",
+        "draft",
+        "draft",
+        "llm",
+        "matching",
+        "serving",
+        "speculative",
+        "target"
+      ],
+      "first_seen_round": 569
     }
   ],
-  "total_unique": 5373
+  "total_unique": 5386
 }
